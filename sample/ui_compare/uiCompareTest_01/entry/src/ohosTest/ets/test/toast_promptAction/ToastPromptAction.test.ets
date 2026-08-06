@@ -43,6 +43,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0040
      * @tc.name   : Multiple Toast components with Default/Top_Most/SYSTEM_Top_Most showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -94,6 +95,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0020
      * @tc.name   : Single Toast component with TOP_MOST showMode, continuous open/close
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -151,6 +153,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0010
      * @tc.name   : Multiple Toast components with Default showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -182,6 +185,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0090
      * @tc.name   : Multiple Toast components with Default/Top_Most/SYSTEM_Top_Most showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -213,6 +217,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0070
      * @tc.name   : Single Toast component with TOP_MOST showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -238,6 +243,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0080
      * @tc.name   : Single Toast component with TOP_MOST showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -263,6 +269,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0060
      * @tc.name   : Single Toast component with Default showMode, continuous open/close
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -305,6 +312,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0100
      * @tc.name   : Single Toast component with SYSTEM_TOP_MOST showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -347,6 +355,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0050
      * @tc.name   : Multiple Toast components with Default/Top_Most/SYSTEM_Top_Most showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -394,6 +403,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0030
      * @tc.name   : Single Toast component with DEFAULT showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -426,6 +436,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0120
      * @tc.name   : Multiple Toast components with Top_Most showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -469,6 +480,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0110
      * @tc.name   : Multiple Toast components with Default showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -512,6 +524,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0160
      * @tc.name   : Single Toast component with SYSTEM_TOP_MOST showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -537,6 +550,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0140
      * @tc.name   : Single Toast component with Default showMode, continuous open/close
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -594,6 +608,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0150
      * @tc.name   : Multiple Toast components with Top_Most showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -625,6 +640,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0130
      * @tc.name   : Single Toast component with TOP_MOST showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -657,6 +673,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0170
      * @tc.name   : Single Toast component with SYSTEM_TOP_MOST showMode, continuous open/close
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -714,6 +731,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0180
      * @tc.name   : Multiple Toast components with SYSTEM_Top_Most showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -745,6 +763,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0200
      * @tc.name   : Multiple Toast components with SYSTEM_Top_Most showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -776,6 +795,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0190
      * @tc.name   : Multiple Toast components with Default showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -819,6 +839,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0210
      * @tc.name   : Multiple Toast components with Default showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -850,6 +871,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0250
      * @tc.name   : Single Toast component with Default showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -875,6 +897,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0240
      * @tc.name   : Multiple Toast components with Default/Top_Most/SYSTEM_Top_Most showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -906,6 +929,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0230
      * @tc.name   : Single Toast component with DEFAULT showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -938,6 +962,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0270
      * @tc.name   : Multiple Toast components with Top_Most showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -969,6 +994,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0300
      * @tc.name   : Single Toast component with TOP_MOST showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1001,6 +1027,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0310
      * @tc.name   : Single Toast component with Default showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1026,6 +1053,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0220
      * @tc.name   : Single Toast component with SYSTEM_TOP_MOST showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1051,6 +1079,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0260
      * @tc.name   : Single Toast component with SYSTEM_TOP_MOST showMode, continuous open/close
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1108,6 +1137,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0290
      * @tc.name   : Multiple Toast components with SYSTEM_Top_Most showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1151,6 +1181,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0320
      * @tc.name   : Multiple Toast components with Top_Most showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1194,6 +1225,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0280
      * @tc.name   : Multiple Toast components with SYSTEM_Top_Most showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1225,6 +1257,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0330
      * @tc.name   : Single Toast component with TOP_MOST showMode, continuous open/close
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1282,6 +1315,7 @@ export default function ToastPromptActionTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0340
      * @tc.name   : Single Toast component with SYSTEM_TOP_MOST showMode
+     * @tc.desc   : Verify popupbox prompt promptaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -55,13 +55,13 @@ export default function UiComponentCanvasOffScreenCanvas() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0060
-       * @tc.name    The OffScreenCavans component sets the height of the imageBitmap object to -10
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0060
+     * @tc.name   : The OffScreenCavans component sets the height of the imageBitmap object to -10
+     * @tc.desc   : Verify canvas offscreencanvas interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas01")
@@ -74,13 +74,13 @@ export default function UiComponentCanvasOffScreenCanvas() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0050
-       * @tc.name    The OffScreenCavans component sets the height of the imageBitmap object to 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0050
+     * @tc.name   : The OffScreenCavans component sets the height of the imageBitmap object to 0
+     * @tc.desc   : Verify canvas offscreencanvas interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas02")
@@ -93,13 +93,13 @@ export default function UiComponentCanvasOffScreenCanvas() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0040
-       * @tc.name    The OffScreenCavans component sets the height of the imageBitmap object to 10
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0040
+     * @tc.name   : The OffScreenCavans component sets the height of the imageBitmap object to 10
+     * @tc.desc   : Verify canvas offscreencanvas interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas03")
@@ -112,13 +112,13 @@ export default function UiComponentCanvasOffScreenCanvas() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0020
-       * @tc.name    The OffScreenCavans component sets the width of the imageBitmap object to 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0020
+     * @tc.name   : The OffScreenCavans component sets the width of the imageBitmap object to 0
+     * @tc.desc   : Verify canvas offscreencanvas interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas04")
@@ -131,13 +131,13 @@ export default function UiComponentCanvasOffScreenCanvas() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0030
-       * @tc.name    The OffScreenCavans component sets the width of the imageBitmap object to -10
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0030
+     * @tc.name   : The OffScreenCavans component sets the width of the imageBitmap object to -10
+     * @tc.desc   : Verify canvas offscreencanvas interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas05")
@@ -150,13 +150,13 @@ export default function UiComponentCanvasOffScreenCanvas() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0010
-       * @tc.name    The OffScreenCavans component sets the width of the imageBitmap object to 10
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0010
+     * @tc.name   : The OffScreenCavans component sets the width of the imageBitmap object to 10
+     * @tc.desc   : Verify canvas offscreencanvas interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas06")

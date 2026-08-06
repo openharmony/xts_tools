@@ -43,7 +43,8 @@ export default function FocusDynamicEffect() {
 
     /*
      * @tc.number : SUB_ACE_FOCUS_DYNAMIC_EFFECT_023
-     * @tc.name   : SUB_ACE_FOCUS_DYNAMIC_EFFECT_023
+     * @tc.name   : Focus dynamic effect
+     * @tc.desc   : Verify focus dynamic effect interface behavior and expected UI result for this case.
      * @tc.type   : Does not affect the default dynamic focus style in light or dark mode on mobile devices
      * @tc.size   : MediumTest
      * @tc.level  : 1

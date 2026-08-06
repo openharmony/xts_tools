@@ -43,8 +43,8 @@ export default function ActionsheetInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_INTERFACE_0010
      * @tc.name   : For the list selection dialog ActionSheet, the title parameter is not configured.
-     * @tc.type   : function
-     * @tc.desc   : 列表选择弹窗ActionSheet，title参数未配置
+     * @tc.desc   : Verify popupbox actionsheet interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

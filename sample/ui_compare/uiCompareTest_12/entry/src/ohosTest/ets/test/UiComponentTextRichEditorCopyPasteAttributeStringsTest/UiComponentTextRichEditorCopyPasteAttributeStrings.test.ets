@@ -39,11 +39,12 @@ export default function UiComponentTextRichEditorCopyPasteAttributeStrings() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0001
-        * @tc.name   : Drag attribute strings from attribute string component to non-attribute string component
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0001
+     * @tc.name   : Drag attribute strings from attribute string component to non-attribute string component
+     * @tc.desc   : Verify text richeditor copy paste attribute strings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0001", Level.LEVEL3,
       async (done: Function) => {
@@ -79,11 +80,12 @@ export default function UiComponentTextRichEditorCopyPasteAttributeStrings() {
       })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0003
-        * @tc.name   : Drag attribute strings within a single attribute string component
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0003
+     * @tc.name   : Drag attribute strings within a single attribute string component
+     * @tc.desc   : Verify text richeditor copy paste attribute strings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0003", Level.LEVEL3,
       async (done: Function) => {
@@ -118,11 +120,12 @@ export default function UiComponentTextRichEditorCopyPasteAttributeStrings() {
       })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0005
-        * @tc.name   : Drag attribute strings between two attribute string components
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0005
+     * @tc.name   : Drag attribute strings between two attribute string components
+     * @tc.desc   : Verify text richeditor copy paste attribute strings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0005", Level.LEVEL3,
       async (done: Function) => {
@@ -158,11 +161,12 @@ export default function UiComponentTextRichEditorCopyPasteAttributeStrings() {
       })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0007
-        * @tc.name   : Drag content within a single non-attribute string component
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0007
+     * @tc.name   : Drag content within a single non-attribute string component
+     * @tc.desc   : Verify text richeditor copy paste attribute strings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0007", Level.LEVEL3,
       async (done: Function) => {
@@ -199,11 +203,12 @@ export default function UiComponentTextRichEditorCopyPasteAttributeStrings() {
       })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0009
-        * @tc.name   : Drag attribute strings between two non-attribute string components
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0009
+     * @tc.name   : Drag attribute strings between two non-attribute string components
+     * @tc.desc   : Verify text richeditor copy paste attribute strings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0009", Level.LEVEL3,
       async (done: Function) => {
@@ -258,11 +263,12 @@ export default function UiComponentTextRichEditorCopyPasteAttributeStrings() {
       })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0011
-        * @tc.name   : Drag/paste attribute strings with ParagraphStyle set
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0011
+     * @tc.name   : Drag/paste attribute strings with ParagraphStyle set
+     * @tc.desc   : Verify text richeditor copy paste attribute strings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0011", Level.LEVEL3,
       async (done: Function) => {
@@ -298,11 +304,12 @@ export default function UiComponentTextRichEditorCopyPasteAttributeStrings() {
       })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0012
-        * @tc.name   : Drag/paste attribute strings with TextStyle set
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0012
+     * @tc.name   : Drag/paste attribute strings with TextStyle set
+     * @tc.desc   : Verify text richeditor copy paste attribute strings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0012", Level.LEVEL3,
       async (done: Function) => {
@@ -338,11 +345,12 @@ export default function UiComponentTextRichEditorCopyPasteAttributeStrings() {
       })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0018
-        * @tc.name   : Drag/paste attribute strings with IMAGE set
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0018
+     * @tc.name   : Drag/paste attribute strings with IMAGE set
+     * @tc.desc   : Verify text richeditor copy paste attribute strings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0018", Level.LEVEL3,
       async (done: Function) => {
@@ -378,11 +386,12 @@ export default function UiComponentTextRichEditorCopyPasteAttributeStrings() {
       })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0019
-        * @tc.name   : Drag/paste attribute strings with CUSTOM_SPAN set
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0019
+     * @tc.name   : Drag/paste attribute strings with CUSTOM_SPAN set
+     * @tc.desc   : Verify text richeditor copy paste attribute strings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0019", Level.LEVEL3,
       async (done: Function) => {
@@ -419,11 +428,12 @@ export default function UiComponentTextRichEditorCopyPasteAttributeStrings() {
       })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0020
-        * @tc.name   : Drag/paste rich text symbol from old framework to attribute string rich text
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0020
+     * @tc.name   : Drag/paste rich text symbol from old framework to attribute string rich text
+     * @tc.desc   : Verify text richeditor copy paste attribute strings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0020", Level.LEVEL3,
       async (done: Function) => {
@@ -463,11 +473,12 @@ export default function UiComponentTextRichEditorCopyPasteAttributeStrings() {
       })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0021
-        * @tc.name   : Drag/paste attribute string text-image mix together
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0021
+     * @tc.name   : Drag/paste attribute string text-image mix together
+     * @tc.desc   : Verify text richeditor copy paste attribute strings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0021", Level.LEVEL3,
       async (done: Function) => {
@@ -505,11 +516,12 @@ export default function UiComponentTextRichEditorCopyPasteAttributeStrings() {
       })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0023
-        * @tc.name   : Drag/paste attribute strings containing paragraph marks
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0023
+     * @tc.name   : Drag/paste attribute strings containing paragraph marks
+     * @tc.desc   : Verify text richeditor copy paste attribute strings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0023", Level.LEVEL3,
       async (done: Function) => {
@@ -545,11 +557,12 @@ export default function UiComponentTextRichEditorCopyPasteAttributeStrings() {
       })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0025
-        * @tc.name   : Drag attribute strings and paste at cursor position
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0025
+     * @tc.name   : Drag attribute strings and paste at cursor position
+     * @tc.desc   : Verify text richeditor copy paste attribute strings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0025", Level.LEVEL3,
       async (done: Function) => {

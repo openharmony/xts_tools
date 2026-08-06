@@ -45,6 +45,7 @@ export default function MouseTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_0020
      * @tc.name   : 鼠标按键点击onMouse事件
+     * @tc.desc   : Verify action event commonevent mouse interface behavior and expected UI result for this case.
      * @tc.type   : 创建ets页面添加Button绑定onMouse，进入页面连接鼠标点击Button，触发onMouse事件打印相关信息
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -66,6 +67,7 @@ export default function MouseTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_0030
      * @tc.name   : API12 hover事件不兼容变更，按下鼠标按键移动时不再上报onHover和onMouse
+     * @tc.desc   : Verify action event commonevent mouse interface behavior and expected UI result for this case.
      * @tc.type   : 在no hover按钮上按下任意键不松手拖动经过onMouse按钮，中途不触发hover/鼠标事件
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,6 +91,7 @@ export default function MouseTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_0060
      * @tc.name   : API12鼠标事件的onMouse回调规格确认
+     * @tc.desc   : Verify action event commonevent mouse interface behavior and expected UI result for this case.
      * @tc.type   : 不按下按键移动鼠标仅在绑定onMouse的button热区内生效；按下按键移动在任意位置都会触发回调
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -43,6 +43,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0010
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0012
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +81,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0013
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -97,6 +100,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0014
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -117,6 +121,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0015
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -142,6 +147,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0016
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -162,6 +168,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0017
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -182,6 +189,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0018
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -202,6 +210,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0019
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -222,6 +231,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0020
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -247,6 +257,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0021
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -272,6 +283,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0022
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -292,6 +304,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0023
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -317,6 +330,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0024
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -340,6 +354,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0025
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -368,6 +383,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0026
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -388,6 +404,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0027
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -411,6 +428,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0028
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -431,6 +449,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0029
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -454,6 +473,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0030
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -477,6 +497,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0031
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -500,6 +521,7 @@ export default function ImageResetTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0032
      * @tc.name   : Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -41,8 +41,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0190
      * @tc.name   : Verify that the shadow is displayed normally when bindMenu sets showInSubWindow to true in light mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0190", Level.LEVEL3, async (done: Function) => {
@@ -66,8 +67,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0200
      * @tc.name   : Verify that the shadow of the select dropdown menu is displayed normally in light mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0200", Level.LEVEL3, async (done: Function) => {
@@ -91,8 +93,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0210
      * @tc.name   : Verify that the shadow of the menu without arrows is displayed normally in light mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0210", Level.LEVEL3, async (done: Function) => {
@@ -116,8 +119,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220
      * @tc.name   : Verify that the shadow of the menu with arrows is displayed normally in light mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220", Level.LEVEL3, async (done: Function) => {
@@ -141,8 +145,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230
      * @tc.name   : Verify that the shadow of the menu with preview image is displayed normally in light mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230", Level.LEVEL3, async (done: Function) => {
@@ -166,8 +171,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0240
      * @tc.name   : Verify that the shadow of the menu with subMenuExpandingMode set to embedded_expand is displayed normally in light mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0240", Level.LEVEL3, async (done: Function) => {
@@ -195,8 +201,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0250
      * @tc.name   : Verify that the shadow of the menu with subMenuExpandingMode set to side_expand is displayed normally in light mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0250", Level.LEVEL3, async (done: Function) => {
@@ -224,8 +231,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260
      * @tc.name   : Verify that the shadow of the menu with subMenuExpandingMode set to stack_expand is displayed normally in light mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260", Level.LEVEL3, async (done: Function) => {
@@ -253,8 +261,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0270
      * @tc.name   : Verify that the shadow of the web menu opened by right-clicking the mouse is displayed normally in light mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0270", Level.LEVEL3, async (done: Function) => {
@@ -278,8 +287,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280
      * @tc.name   : Verify that the shadow is displayed normally when bindMenu sets showInSubWindow to true in dark mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280", Level.LEVEL3, async (done: Function) => {
@@ -308,8 +318,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290
      * @tc.name   : Verify that the shadow of the select dropdown menu is displayed normally in dark mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290", Level.LEVEL3, async (done: Function) => {
@@ -338,8 +349,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0300
      * @tc.name   : Verify that the shadow of the menu without arrows is displayed normally in dark mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0300", Level.LEVEL3, async (done: Function) => {
@@ -368,8 +380,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310
      * @tc.name   : Verify that the shadow of the menu with arrows is displayed normally in dark mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310", Level.LEVEL3, async (done: Function) => {
@@ -398,8 +411,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0320
      * @tc.name   : Verify that the shadow of the menu with preview image is displayed normally in dark mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0320", Level.LEVEL3, async (done: Function) => {
@@ -428,8 +442,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0330
      * @tc.name   : Verify that the shadow of the menu with subMenuExpandingMode set to embedded_expand is displayed normally in dark mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0330", Level.LEVEL3, async (done: Function) => {
@@ -462,8 +477,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340
      * @tc.name   : Verify that the shadow of the menu with subMenuExpandingMode set to side_expand is displayed normally in dark mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340", Level.LEVEL3, async (done: Function) => {
@@ -496,8 +512,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0350
      * @tc.name   : Verify that the shadow of the menu with subMenuExpandingMode set to stack_expand is displayed normally in dark mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0350", Level.LEVEL3, async (done: Function) => {
@@ -530,8 +547,9 @@ export default function ArkuiComponentfunctionCommomattributesMenuShadowset() {
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0360
      * @tc.name   : Verify that the shadow of the web menu opened by right-clicking the mouse is displayed normally in dark mode on a straight-bar device
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0360", Level.LEVEL3, async (done: Function) => {

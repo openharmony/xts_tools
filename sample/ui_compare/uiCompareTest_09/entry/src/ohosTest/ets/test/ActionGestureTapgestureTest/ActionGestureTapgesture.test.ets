@@ -27,10 +27,13 @@ export default function ActionGestureTapgesture() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_GESTURE_TAPGESTURE_0780
-     * @tc.name  左手滑动scroll且不离开屏幕，右手点击scroll的子组件
-     * @tc.desc  测试scroll滑动时点击子组件，验证点击事件不触发
+    /*
+     * @tc.number : SUB_ACE_ACTION_GESTURE_TAPGESTURE_0780
+     * @tc.name   : 左手滑动scroll且不离开屏幕，右手点击scroll的子组件
+     * @tc.desc   : Verify action gesture tapgesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_GESTURE_TAPGESTURE_0780', 0, async () => {
       Logger.info('SUB_ACE_ACTION_GESTURE_TAPGESTURE_0780 begin');

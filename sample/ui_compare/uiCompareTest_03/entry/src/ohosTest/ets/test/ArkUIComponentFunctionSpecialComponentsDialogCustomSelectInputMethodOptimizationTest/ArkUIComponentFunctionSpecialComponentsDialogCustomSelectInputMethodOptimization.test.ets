@@ -83,10 +83,12 @@ export default function ArkUIComponentFunctionSpecialComponentsDialogCustomSelec
     })
 
     /*
-     * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0070
-     * @tc.name    ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0070
-     * @tc.desc    Test CustomDialog's keyboard avoidance with alignment Bottom showInSubWindow False height 300 and keyboardAvoidMode DEFAULT
-     * @tc.level   3
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0070
+     * @tc.name   : Component function special components dialog custom selectinputmethodoptimization
+     * @tc.desc   : Verify component function special components dialog custom selectinputmethodoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0070';
@@ -155,10 +157,12 @@ export default function ArkUIComponentFunctionSpecialComponentsDialogCustomSelec
     })
 
     /*
-     * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0210
-     * @tc.name    ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0210
-     * @tc.desc    Test promptAction.openCustomDialog's keyboard avoidance with alignment Bottom showInSubWindow False height 300 and keyboardAvoidMode DEFAULT
-     * @tc.level   3
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0210
+     * @tc.name   : Component function special components dialog custom selectinputmethodoptimization
+     * @tc.desc   : Verify component function special components dialog custom selectinputmethodoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0210';

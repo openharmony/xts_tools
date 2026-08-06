@@ -55,13 +55,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0190
-       * @tc.name    ComponentCotent's dispose method test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0190
+     * @tc.name   : ComponentCotent's dispose method test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging01")
@@ -100,13 +100,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0300
-       * @tc.name    Tab SegmentButton maxFontScale 1.3 test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0300
+     * @tc.name   : Tab SegmentButton maxFontScale 1.3 test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0300', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0300 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging02")
@@ -145,13 +145,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0330
-       * @tc.name    Tab SegmentButton maxFontScale 1.15 test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0330
+     * @tc.name   : Tab SegmentButton maxFontScale 1.15 test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0330', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0330 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging03")
@@ -190,13 +190,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0250
-       * @tc.name    Tab SegmentButton maxFontScale -1 test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0250
+     * @tc.name   : Tab SegmentButton maxFontScale -1 test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0250', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0250 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging04")
@@ -235,13 +235,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0070
-       * @tc.name    Tab SegmentButton maxFontScale 2 test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0070
+     * @tc.name   : Tab SegmentButton maxFontScale 2 test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging05")
@@ -280,13 +280,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0040
-       * @tc.name    Tab SegmentButton maxFontScale 9999 test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0040
+     * @tc.name   : Tab SegmentButton maxFontScale 9999 test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging06")
@@ -325,13 +325,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0180
-       * @tc.name    Tab SegmentButton maxFontScale undefined test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0180
+     * @tc.name   : Tab SegmentButton maxFontScale undefined test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging07")
@@ -370,13 +370,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0230
-       * @tc.name    Capsule single SegmentButton maxFontScale 2.5 test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0230
+     * @tc.name   : Capsule single SegmentButton maxFontScale 2.5 test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0230', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0230 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging08")
@@ -415,13 +415,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0260
-       * @tc.name    Capsule single SegmentButton maxFontScale 1.15 test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0260
+     * @tc.name   : Capsule single SegmentButton maxFontScale 1.15 test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0260', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0260 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging09")
@@ -460,13 +460,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0310
-       * @tc.name    Capsule single SegmentButton maxFontScale 0.5 test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0310
+     * @tc.name   : Capsule single SegmentButton maxFontScale 0.5 test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0310 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging10")
@@ -505,13 +505,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0160
-       * @tc.name    Capsule single SegmentButton maxFontScale 1 test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0160
+     * @tc.name   : Capsule single SegmentButton maxFontScale 1 test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0160', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging11")
@@ -550,13 +550,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0080
-       * @tc.name    Capsule single SegmentButton maxFontScale 1.45 test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0080
+     * @tc.name   : Capsule single SegmentButton maxFontScale 1.45 test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging12")
@@ -595,13 +595,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0110
-       * @tc.name    Capsule single SegmentButton maxFontScale undefined test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0110
+     * @tc.name   : Capsule single SegmentButton maxFontScale undefined test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging13")
@@ -640,13 +640,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0060
-       * @tc.name    Capsule multiply SegmentButton maxFontScale 2.5 test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0060
+     * @tc.name   : Capsule multiply SegmentButton maxFontScale 2.5 test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging14")
@@ -685,13 +685,13 @@ export default function UiComponentButtonSegmentButtonAging() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0320
-       * @tc.name    Capsule multiply SegmentButton maxFontScale -1 test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0320
+     * @tc.name   : Capsule multiply SegmentButton maxFontScale -1 test
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0320', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0320 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging15")

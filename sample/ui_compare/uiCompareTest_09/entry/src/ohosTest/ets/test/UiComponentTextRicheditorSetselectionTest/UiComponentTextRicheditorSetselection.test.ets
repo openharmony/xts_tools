@@ -37,6 +37,14 @@ export default function UiComponentTextRicheditorSetselectionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0001
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0001', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0001 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorSetselection/UiComponentTextRicheditorSetselection0001');
@@ -58,6 +66,14 @@ export default function UiComponentTextRicheditorSetselectionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0002
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0002', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0002 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorSetselection/UiComponentTextRicheditorSetselection0002');
@@ -79,6 +95,14 @@ export default function UiComponentTextRicheditorSetselectionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0003
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0003', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0003 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorSetselection/UiComponentTextRicheditorSetselection0003');
@@ -100,6 +124,14 @@ export default function UiComponentTextRicheditorSetselectionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0004
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0004', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0004 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorSetselection/UiComponentTextRicheditorSetselection0004');
@@ -121,6 +153,14 @@ export default function UiComponentTextRicheditorSetselectionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0005
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0005', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0005 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorSetselection/UiComponentTextRicheditorSetselection0005');
@@ -142,6 +182,14 @@ export default function UiComponentTextRicheditorSetselectionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0006
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0006', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0006 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorSetselection/UiComponentTextRicheditorSetselection0006');
@@ -163,6 +211,14 @@ export default function UiComponentTextRicheditorSetselectionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0007
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0007', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0007 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorSetselection/UiComponentTextRicheditorSetselection0007');
@@ -184,6 +240,14 @@ export default function UiComponentTextRicheditorSetselectionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0008
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0008', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0008 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorSetselection/UiComponentTextRicheditorSetselection0008');
@@ -205,6 +269,14 @@ export default function UiComponentTextRicheditorSetselectionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0009
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0009', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0009 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorSetselection/UiComponentTextRicheditorSetselection0009');
@@ -226,6 +298,14 @@ export default function UiComponentTextRicheditorSetselectionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0010
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0010', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0010 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorSetselection/UiComponentTextRicheditorSetselection0010');
@@ -247,6 +327,14 @@ export default function UiComponentTextRicheditorSetselectionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0011
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0011', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0011 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorSetselection/UiComponentTextRicheditorSetselection0011');
@@ -268,6 +356,14 @@ export default function UiComponentTextRicheditorSetselectionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0012
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0012', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0012 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorSetselection/UiComponentTextRicheditorSetselection0012');
@@ -289,6 +385,14 @@ export default function UiComponentTextRicheditorSetselectionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0013
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0013', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0013 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorSetselection/UiComponentTextRicheditorSetselection0013');

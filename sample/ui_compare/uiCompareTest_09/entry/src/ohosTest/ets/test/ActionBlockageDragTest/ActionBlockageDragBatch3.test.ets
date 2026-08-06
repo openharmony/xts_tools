@@ -28,11 +28,13 @@ export default function ActionBlockageDragBatch3() {
       }
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0350
-     * 用例描述: Grid组件多选_单指_按压时状态为WAITING
-     * 自动化程度: 60%
-     * 说明: 自动化基础操作，精确时间控制需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0350
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0350', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0350 begin');
@@ -52,11 +54,13 @@ export default function ActionBlockageDragBatch3() {
       Logger.info('Manual: Select item, press <2S, drag, verify WAITING status');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0360
-     * 用例描述: Grid组件多选_单指_按压时状态为READY
-     * 自动化程度: 60%
-     * 说明: 需手动按压>2S后拖拽
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0360
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0360', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0360 begin');
@@ -76,11 +80,13 @@ export default function ActionBlockageDragBatch3() {
       Logger.info('Manual: Select item, press >2S, drag, verify READY status');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0370
-     * 用例描述: Grid组件多选_单指_手指移动拖拽中，未超过5S，则状态为WAITING
-     * 自动化程度: 60%
-     * 说明: 5S超时场景需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0370
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0370', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0370 begin');
@@ -100,11 +106,13 @@ export default function ActionBlockageDragBatch3() {
       Logger.info('Manual: Select item, press 2S, drag within 5S, verify WAITING');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0380
-     * 用例描述: Grid组件多选_单指_手指移动拖拽中，未超过5S，则状态为READY
-     * 自动化程度: 60%
-     * 说明: 5S超时场景需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0380
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0380', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0380 begin');
@@ -124,11 +132,13 @@ export default function ActionBlockageDragBatch3() {
       Logger.info('Manual: Select item, press <2S, drag within 5S, verify READY');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0390
-     * 用例描述: Grid组件多选_单指_手指移动拖拽中，超过5S了
-     * 自动化程度: 55%
-     * 说明: 需手动拖拽超过5S
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0390
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0390', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0390 begin');

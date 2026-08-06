@@ -43,6 +43,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0190
      * @tc.name   : Set barMode to BarMode.Fixed
+     * @tc.desc   : Verify nav tabs interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -66,6 +67,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0550
      * @tc.name   : Set the distance between Tabs divider and bottom of sidebar to string "10"
+     * @tc.desc   : Verify nav modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -84,6 +86,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0520
      * @tc.name   : Set the distance between Tabs divider and top of sidebar to 10
+     * @tc.desc   : Verify nav modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -102,6 +105,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0890
      * @tc.name   : Set divider width using Resource type
+     * @tc.desc   : Verify nav tabs interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -120,6 +124,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0800
      * @tc.name   : Set distance between divider and bottom of sidebar (number type)
+     * @tc.desc   : Verify nav tabs interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -138,6 +143,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0490
      * @tc.name   : Set Tabs divider color using Resource
+     * @tc.desc   : Verify nav modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -156,6 +162,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0880
      * @tc.name   : Set divider width
+     * @tc.desc   : Verify nav tabs interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -174,6 +181,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0860
      * @tc.name   : Set distance between divider and top of sidebar (string type)
+     * @tc.desc   : Verify nav tabs interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -192,6 +200,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0590
      * @tc.name   : Set distance between Tabs divider and bottom of sidebar using Resource
+     * @tc.desc   : Verify nav modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -210,6 +219,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0670
      * @tc.name   : Set Tabs barOverlap to true
+     * @tc.desc   : Verify nav modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -228,6 +238,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0680
      * @tc.name   : Set Tabs barOverlap to false
+     * @tc.desc   : Verify nav modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -246,6 +257,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0690
      * @tc.name   : When Tabs vertical property is set to false
+     * @tc.desc   : Verify nav modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -264,6 +276,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0700
      * @tc.name   : When Tabs vertical property is set to true
+     * @tc.desc   : Verify nav modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -282,6 +295,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_1150
      * @tc.name   : Set fadingEdge property to true
+     * @tc.desc   : Verify nav tabs interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -300,6 +314,7 @@ export default function NavTabsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_TABS_INTERFACE_0980
      * @tc.name   : Set initial tab to 0
+     * @tc.desc   : Verify nav tabs interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

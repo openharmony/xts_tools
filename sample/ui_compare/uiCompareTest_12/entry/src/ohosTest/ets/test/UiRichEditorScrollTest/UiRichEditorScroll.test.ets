@@ -40,11 +40,12 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0100
-        * @tc.name   : RichEditor, mixed text and images exceed the display area
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0100
+     * @tc.name   : RichEditor, mixed text and images exceed the display area
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0100", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0100")
@@ -64,12 +65,13 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-        @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0070
-        @tc.name : RichEditor, add a single character, font size exceeds the display area
-        @tc.type : Function
-        @tc.size : UiTest
-        @tc.level : 3
-    */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0070
+     * @tc.name   : RichEditor, add a single character, font size exceeds the display area
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0070", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0070")
       await Utils.sleep(1000)
@@ -92,12 +94,13 @@ export default function UiRichEditorScroll() {
 
 
     /*
-        @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0190
-        @tc.name : RichEditor, multi-line text, scrollbar behavior
-        @tc.type : Function
-        @tc.size : UiTest
-        @tc.level : 3
-   */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0190
+     * @tc.name   : RichEditor, multi-line text, scrollbar behavior
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0190", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0190")
       await Utils.sleep(1000)
@@ -130,11 +133,12 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0200
-        * @tc.name   : RichEditor, continuously input multi-line text, scroll avoidance
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0200
+     * @tc.name   : RichEditor, continuously input multi-line text, scroll avoidance
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0200", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0200")
@@ -169,11 +173,12 @@ export default function UiRichEditorScroll() {
 
 
     /*
-        * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0170
-        * @tc.name   : RichEditor, multi-line text, keyboard arrow keys move the cursor up and down
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0170
+     * @tc.name   : RichEditor, multi-line text, keyboard arrow keys move the cursor up and down
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0170", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0170")
@@ -207,12 +212,13 @@ export default function UiRichEditorScroll() {
 
 
     /*
-        @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0260
-        @tc.name : RichEditor, multi-line text, mouse drag scrollbar to scroll text
-        @tc.type : Function
-        @tc.size : UiTest
-        @tc.level : 3
-   */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0260
+     * @tc.name   : RichEditor, multi-line text, mouse drag scrollbar to scroll text
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0260", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0260")
       await Utils.sleep(1000)
@@ -239,12 +245,13 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-            @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0080
-            @tc.name : RichEditor, add imageSpan, image information exceeds the display area
-            @tc.type : Function
-            @tc.size : UiTest
-            @tc.level : 3
-       */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0080
+     * @tc.name   : RichEditor, add imageSpan, image information exceeds the display area
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0080", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0080")
       await Utils.sleep(1000)
@@ -267,12 +274,13 @@ export default function UiRichEditorScroll() {
 
 
     /*
-            @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0090
-            @tc.name : RichEditor, add a single image, image size exceeds the display area
-            @tc.type : Function
-            @tc.size : UiTest
-            @tc.level : 3
-       */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0090
+     * @tc.name   : RichEditor, add a single image, image size exceeds the display area
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0090", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0090")
       await Utils.sleep(1000)
@@ -294,12 +302,13 @@ export default function UiRichEditorScroll() {
 
 
     /*
-        @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0060
-        @tc.name : RichEditor, add span, text content exceeds the display area
-        @tc.type : Function
-        @tc.size : UiTest
-        @tc.level : 3
-   */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0060
+     * @tc.name   : RichEditor, add span, text content exceeds the display area
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0060", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0060")
       await Utils.sleep(1000)
@@ -326,12 +335,13 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-        @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0160
-        @tc.name : RichEditor, continuous keyboard input and delete, auto-scroll with cursor
-        @tc.type : Function
-        @tc.size : UiTest
-        @tc.level : 3
-   */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0160
+     * @tc.name   : RichEditor, continuous keyboard input and delete, auto-scroll with cursor
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it("SUB_ACE_UI_RICHEDITOR_SCROLL_0160", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll0160")
       await Utils.sleep(1000)

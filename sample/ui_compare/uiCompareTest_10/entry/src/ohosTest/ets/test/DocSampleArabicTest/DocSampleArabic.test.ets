@@ -41,13 +41,12 @@ export default function DocSampleArabic() {
 
     /*
      * @tc.number : SUB_ACE_DOC_SAMPLE_ARABIC_0020
-     * @tc.name   : SUB_ACE_DOC_SAMPLE_ARABIC_0020
-     * @tc.desc   : Verify that after switching to Arabic, the text (in Arabic) is displayed from right to left.
-     * @tc.size   : MediumTest
+     * @tc.name   : Doc sample arabic
+     * @tc.desc   : Verify doc sample arabic interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_DOC_SAMPLE_ARABIC_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_SAMPLE_ARABIC_0020 start.`);
       Settings.createWindow("testability/pages/DocumentSampleArabic/DocumentSampleArabic0020")
@@ -76,13 +75,12 @@ export default function DocSampleArabic() {
 
     /*
      * @tc.number : SUB_ACE_DOC_SAMPLE_ARABIC_0030
-     * @tc.name   : SUB_ACE_DOC_SAMPLE_ARABIC_0030
-     * @tc.desc   : Verify that after switching to Arabic, the text (number) is displayed from right to left.
-     * @tc.size   : MediumTest
+     * @tc.name   : Doc sample arabic
+     * @tc.desc   : Verify doc sample arabic interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_DOC_SAMPLE_ARABIC_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_SAMPLE_ARABIC_0030 start.`);
       Settings.createWindow("testability/pages/DocumentSampleArabic/DocumentSampleArabic0030")
@@ -111,13 +109,12 @@ export default function DocSampleArabic() {
 
     /*
      * @tc.number : SUB_ACE_DOC_SAMPLE_ARABIC_0040
-     * @tc.name   : SUB_ACE_DOC_SAMPLE_ARABIC_0040
-     * @tc.desc   : Verify that after switching to Arabic, the text (English) is displayed from left to right.
-     * @tc.size   : MediumTest
+     * @tc.name   : Doc sample arabic
+     * @tc.desc   : Verify doc sample arabic interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_DOC_SAMPLE_ARABIC_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_SAMPLE_ARABIC_0040 start.`);
       Settings.createWindow("testability/pages/DocumentSampleArabic/DocumentSampleArabic0040")
@@ -146,13 +143,12 @@ export default function DocSampleArabic() {
 
     /*
      * @tc.number : SUB_ACE_DOC_SAMPLE_ARABIC_0050
-     * @tc.name   : SUB_ACE_DOC_SAMPLE_ARABIC_0050
-     * @tc.desc   : Verify that after switching to Arabic, the text (Chinese) is displayed from left to right.
-     * @tc.size   : MediumTest
+     * @tc.name   : Doc sample arabic
+     * @tc.desc   : Verify doc sample arabic interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_DOC_SAMPLE_ARABIC_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_SAMPLE_ARABIC_0050 start.`);
       Settings.createWindow("testability/pages/DocumentSampleArabic/DocumentSampleArabic0050")
@@ -181,13 +177,12 @@ export default function DocSampleArabic() {
 
     /*
      * @tc.number : SUB_ACE_DOC_SAMPLE_ARABIC_0060
-     * @tc.name   : SUB_ACE_DOC_SAMPLE_ARABIC_0060
-     * @tc.desc   : Verify that after switching to Arabic and then to Uyghur, the page layout is correct and the text display direction is correct.
-     * @tc.size   : MediumTest
+     * @tc.name   : Doc sample arabic
+     * @tc.desc   : Verify doc sample arabic interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_DOC_SAMPLE_ARABIC_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_SAMPLE_ARABIC_0060 start.`);
       Settings.createWindow("testability/pages/DocumentSampleArabic/DocumentSampleArabic0060")
@@ -216,13 +211,12 @@ export default function DocSampleArabic() {
 
     /*
      * @tc.number : SUB_ACE_DOC_SAMPLE_ARABIC_0070
-     * @tc.name   : SUB_ACE_DOC_SAMPLE_ARABIC_0070
-     * @tc.desc   : Verify that repeatedly switching between Arabic and Chinese, the page layout is correct and the text display direction is correct.
-     * @tc.size   : MediumTest
+     * @tc.name   : Doc sample arabic
+     * @tc.desc   : Verify doc sample arabic interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_DOC_SAMPLE_ARABIC_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_SAMPLE_ARABIC_0070 start.`);
       Settings.createWindow("testability/pages/DocumentSampleArabic/DocumentSampleArabic0070")

@@ -41,6 +41,7 @@ export default function ListScrollToItemInGroupTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0020
      * @tc.name   : List#scroll#scroll_9
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -65,6 +66,7 @@ export default function ListScrollToItemInGroupTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0110
      * @tc.name   : 单列List纵向排列，设置ScrollAlign.AUTO，跳转到指定索引测试
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,6 +91,7 @@ export default function ListScrollToItemInGroupTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0120
      * @tc.name   : List#scroll#scroll_7
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -113,6 +116,7 @@ export default function ListScrollToItemInGroupTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0130
      * @tc.name   : List#scroll#scroll_6
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -137,6 +141,7 @@ export default function ListScrollToItemInGroupTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0170
      * @tc.name   : 单列List纵向排列，List内布局ListItem和ListItemGroup，跳转到指定索引测试
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

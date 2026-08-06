@@ -39,11 +39,13 @@ export default function UIComponentScrollScrollbarScrolledge() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0150
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0150
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0150
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0150
+     * @tc.name   : Scroll scrollbar scrolledge
+     * @tc.desc   : Verify scroll scrollbar scrolledge interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0150', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0150 start.`);
@@ -60,11 +62,13 @@ export default function UIComponentScrollScrollbarScrolledge() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0380
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0380
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0380
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0380
+     * @tc.name   : Scroll scrollbar scrolledge
+     * @tc.desc   : Verify scroll scrollbar scrolledge interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0380', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0380 start.`);
@@ -81,11 +85,13 @@ export default function UIComponentScrollScrollbarScrolledge() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0030
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0030
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0030
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0030
+     * @tc.name   : Scroll scrollbar scrolledge
+     * @tc.desc   : Verify scroll scrollbar scrolledge interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0030', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0030 start.`);

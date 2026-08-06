@@ -55,12 +55,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0010
-     * @tc.name    Set fontFeature to the ss04 attribute
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0010
+     * @tc.name   : Set fontFeature to the ss04 attribute
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0010 start.`);
@@ -74,12 +74,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0011
-     * @tc.name    Set fontFeature to the ss03 attribute
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0011
+     * @tc.name   : Set fontFeature to the ss03 attribute
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0011', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0011 start.`);
@@ -93,12 +93,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0012
-     * @tc.name    Set fontFeature to the case
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0012
+     * @tc.name   : Set fontFeature to the case
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0012', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0012 start.`);
@@ -112,12 +112,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0013
-     * @tc.name    Set fontFeature to the ordn property
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0013
+     * @tc.name   : Set fontFeature to the ordn property
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0013', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0013 start.`);
@@ -131,12 +131,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0015
-     * @tc.name    Set fontFeature to the sups property
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0015
+     * @tc.name   : Set fontFeature to the sups property
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0015', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0015 start.`);
@@ -150,12 +150,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0016
-     * @tc.name    Set fontFeature to the tnum property
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0016
+     * @tc.name   : Set fontFeature to the tnum property
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0016', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0016 start.`);
@@ -169,12 +169,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0014
-     * @tc.name    Set fontFeature to the locl property
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0014
+     * @tc.name   : Set fontFeature to the locl property
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0014', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0014 start.`);
@@ -188,12 +188,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0017
-     * @tc.name    Set fontFeature to the fwid property
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0017
+     * @tc.name   : Set fontFeature to the fwid property
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0017', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0017 start.`);
@@ -207,12 +207,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0018
-     * @tc.name    Set fontFeature to the ss05 property
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0018
+     * @tc.name   : Set fontFeature to the ss05 property
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0018', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0018 start.`);
@@ -226,12 +226,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0021
-     * @tc.name    Set fontFeature to the numr property
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0021
+     * @tc.name   : Set fontFeature to the numr property
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0021', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0021 start.`);
@@ -245,12 +245,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0022
-     * @tc.name    Set fontFeature to the pnum property
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0022
+     * @tc.name   : Set fontFeature to the pnum property
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0022', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0022 start.`);
@@ -264,12 +264,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0024
-     * @tc.name    Set fontFeature to the sinf property
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0024
+     * @tc.name   : Set fontFeature to the sinf property
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0024', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0024 start.`);
@@ -283,12 +283,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0027
-     * @tc.name    Set fontFeature to the sups property
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0027
+     * @tc.name   : Set fontFeature to the sups property
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0027', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0027 start.`);
@@ -302,12 +302,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0031
-     * @tc.name    Set fontFeature to the ss06 property
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0031
+     * @tc.name   : Set fontFeature to the ss06 property
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0031', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0031 start.`);
@@ -321,12 +321,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0032
-     * @tc.name    Set fontFeature to a different property value sups|subs
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0032
+     * @tc.name   : Set fontFeature to a different property value sups|subs
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0032', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0032 start.`);
@@ -340,12 +340,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0042
-     * @tc.name    Set fontFeature to liga
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0042
+     * @tc.name   : Set fontFeature to liga
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0042', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0042 start.`);
@@ -359,12 +359,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0039
-     * @tc.name    Set fontFeature to null/undefined
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0039
+     * @tc.name   : Set fontFeature to null/undefined
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0039', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0039 start.`);
@@ -378,12 +378,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0038
-     * @tc.name    Set fontFeature to frac
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0038
+     * @tc.name   : Set fontFeature to frac
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0038', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0038 start.`);
@@ -397,12 +397,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0046
-     * @tc.name    The span of a subcomponent of the text component supports setting the fontFeature property
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0046
+     * @tc.name   : The span of a subcomponent of the text component supports setting the fontFeature property
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0046', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0046 start.`);
@@ -416,12 +416,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0029
-     * @tc.name    Set fontFeature to ss02
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0029
+     * @tc.name   : Set fontFeature to ss02
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0029', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0029 start.`);
@@ -435,12 +435,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0036
-     * @tc.name    Set fontFeature to ss01
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0036
+     * @tc.name   : Set fontFeature to ss01
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0036', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0036 start.`);
@@ -454,12 +454,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0045
-     * @tc.name    Set multiple different types of property values
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0045
+     * @tc.name   : Set multiple different types of property values
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0045', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0045 start.`);
@@ -473,12 +473,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0025
-     * @tc.name    Set fontFeature to ss08
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0025
+     * @tc.name   : Set fontFeature to ss08
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0025', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0025 start.`);
@@ -492,12 +492,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0028
-     * @tc.name    Set fontFeature to ss09
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0028
+     * @tc.name   : Set fontFeature to ss09
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0028', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0028 start.`);
@@ -511,12 +511,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0020
-     * @tc.name    Set superscript/subscript properties at the same time
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0020
+     * @tc.name   : Set superscript/subscript properties at the same time
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0020 start.`);
@@ -530,12 +530,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0030
-     * @tc.name    Set the property value to normal
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0030
+     * @tc.name   : Set the property value to normal
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0030 start.`);
@@ -549,12 +549,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035
-     * @tc.name    Attribute value setting outlier "1" | 0”
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035
+     * @tc.name   : Attribute value setting outlier "1" | 0”
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035 start.`);
@@ -568,12 +568,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034
-     * @tc.name    The attribute value is set to an illegal value
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034
+     * @tc.name   : The attribute value is set to an illegal value
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034 start.`);
@@ -587,12 +587,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040
-     * @tc.name    The attribute value is set to an exception string value
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040
+     * @tc.name   : The attribute value is set to an exception string value
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040 start.`);
@@ -606,12 +606,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033
-     * @tc.name    The attribute value is set to the normal value on | off
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033
+     * @tc.name   : The attribute value is set to the normal value on | off
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033 start.`);
@@ -625,12 +625,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043
-     * @tc.name    The attribute value is set to a normal value of 1 | 0
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043
+     * @tc.name   : The attribute value is set to a normal value of 1 | 0
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043 start.`);
@@ -644,12 +644,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044
-     * @tc.name    Set the fontFeature multiple times
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044
+     * @tc.name   : Set the fontFeature multiple times
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044 start.`);
@@ -663,12 +663,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048
-     * @tc.name    Set fontFeature to the hwid property
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048
+     * @tc.name   : Set fontFeature to the hwid property
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048 start.`);
@@ -682,12 +682,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019
-     * @tc.name    The value of the on|off attribute is not set
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019
+     * @tc.name   : The value of the on|off attribute is not set
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019 start.`);
@@ -701,12 +701,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041
-     * @tc.name    In inline mode (TextArea/TextInput), set the fontFeature text style
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041
+     * @tc.name   : In inline mode (TextArea/TextInput), set the fontFeature text style
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041 start.`);
@@ -720,12 +720,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037
-     * @tc.name    Dynamically switch the style mode of the component to view the display of text styles
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037
+     * @tc.name   : Dynamically switch the style mode of the component to view the display of text styles
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037 start.`);
@@ -740,12 +740,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0023
-     * @tc.name    Dynamically switch the style mode of the component to view the display of text styles
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0023
+     * @tc.name   : Dynamically switch the style mode of the component to view the display of text styles
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0023', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0023 start.`);
@@ -767,12 +767,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080
-     * @tc.name    The start position is less than 0 and the end position is equal to 0
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080
+     * @tc.name   : The start position is less than 0 and the end position is equal to 0
+     * @tc.desc   : Verify text textarea selection interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080 start.`);
@@ -789,12 +789,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047
-     * @tc.name    Set fontFeature to vert
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047
+     * @tc.name   : Set fontFeature to vert
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047 start.`);
@@ -808,12 +808,12 @@ export default function UiTestCase() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026
-     * @tc.name    Set fontFeature to ss07
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026
+     * @tc.name   : Set fontFeature to ss07
+     * @tc.desc   : Verify text common fontfeature interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026 start.`);

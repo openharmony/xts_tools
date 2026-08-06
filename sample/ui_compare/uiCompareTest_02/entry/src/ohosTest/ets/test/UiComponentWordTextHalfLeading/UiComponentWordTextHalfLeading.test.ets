@@ -55,13 +55,13 @@ export default function UiComponentWordTextHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0010
-       * @tc.name    text component, set halfLeading to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0010
+     * @tc.name   : text component, set halfLeading to true
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentWordTextHalfLeading/UiComponentWordTextHalfLeading01")
@@ -74,13 +74,13 @@ export default function UiComponentWordTextHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0020
-       * @tc.name    text component, set halfLeading to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0020
+     * @tc.name   : text component, set halfLeading to false
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentWordTextHalfLeading/UiComponentWordTextHalfLeading02")

@@ -39,11 +39,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0010
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0010
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0010
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0010
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0010', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0010'
@@ -60,11 +62,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0020
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0020
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0020
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0020
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0020', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0020'
@@ -81,11 +85,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0030
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0030
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0030
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0030
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0030', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0030'
@@ -102,11 +108,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0040
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0040
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0040
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0040
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0040', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0040'
@@ -123,11 +131,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0050
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0050
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0050
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0050
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0050', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0050'
@@ -144,11 +154,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0060
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0060
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0060
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0060
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0060', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0060'
@@ -165,11 +177,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0070
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0070
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0070
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0070
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0070', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0070'
@@ -186,11 +200,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0080
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0080
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0080
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0080
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0080', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0080'
@@ -207,11 +223,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0090
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0090
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0090
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0090
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0090', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0090'
@@ -228,11 +246,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0100
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0100
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0100
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0100
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0100', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0100'
@@ -249,11 +269,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0110
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0110
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0110
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0110
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0110', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0110'
@@ -270,11 +292,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0120
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0120
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0120
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0120
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0120', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0120'
@@ -291,11 +315,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0130
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0130
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0130
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0130
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0130', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0130'
@@ -312,11 +338,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0140
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0140
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0140
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0140
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0140', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0140'
@@ -333,11 +361,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0150
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0150
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0150
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0150
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0150', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0150'
@@ -354,11 +384,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0160
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0160
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0160
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0160
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0160', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0160'
@@ -375,11 +407,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0170
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0170
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0170
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0170
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0170', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0170'
@@ -396,11 +430,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0180
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0180
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0180
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0180
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0180', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0180'
@@ -417,11 +453,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0190
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0190
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0190
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0190
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0190', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0190'
@@ -454,11 +492,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
     // ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0310
     // ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0320
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0200
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0200
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0200
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0200
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0200', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0200'
@@ -475,11 +515,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0210
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0210
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0210
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0210
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0210', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0210'
@@ -496,11 +538,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0220
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0220
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0220
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0220
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0220', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0220'
@@ -517,11 +561,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0230
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0230
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0230
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0230
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0230', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0230'
@@ -538,11 +584,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0240
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0240
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0240
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0240
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0240', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0240'
@@ -559,11 +607,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0250
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0250
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0250
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0250
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0250', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0250'
@@ -580,11 +630,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0260
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0260
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0260
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0260
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0260', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0260'
@@ -601,11 +653,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0270
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0270
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0270
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0270
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0270', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0270'
@@ -622,11 +676,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0280
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0280
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0280
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0280
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0280', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0280'
@@ -643,11 +699,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0290
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0290
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0290
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0290
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0290', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0290'
@@ -664,11 +722,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0300
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0300
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0300
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0300
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0300', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0300'
@@ -685,11 +745,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0310
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0310
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0310
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0310
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0310', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0310'
@@ -706,11 +768,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0320
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0320
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0320
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0320
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0320', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0320'
@@ -727,11 +791,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0330
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0330
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0330
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0330
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0330', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0330'
@@ -748,11 +814,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0340
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0340
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0340
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0340
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0340', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0340'
@@ -769,11 +837,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0350
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0350
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0350
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0350
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0350', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0350'
@@ -790,11 +860,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0360
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0360
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0360
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0360
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0360', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0360'
@@ -811,11 +883,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0370
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0370
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0370
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0370
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0370', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0370'
@@ -832,11 +906,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0380
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0380
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0380
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0380
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0380', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0380'
@@ -853,11 +929,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0390
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0390
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0390
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0390
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0390', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0390'
@@ -874,11 +952,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0400
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0400
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0400
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0400
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0400', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0400'
@@ -895,11 +975,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0410
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0410
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0410
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0410
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0410', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0410'
@@ -916,11 +998,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0420
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0420
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0420
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0420
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0420', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0420'
@@ -937,11 +1021,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0430
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0430
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0430
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0430
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0430', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0430'
@@ -958,11 +1044,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0440
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0440
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0440
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0440
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0440', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0440'
@@ -979,11 +1067,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0450
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0450
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0450
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0450
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0450', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0450'
@@ -1000,11 +1090,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0460
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0460
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0460
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0460
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0460', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0460'
@@ -1021,11 +1113,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0470
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0470
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0470
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0470
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0470', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0470'
@@ -1042,11 +1136,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0480
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0480
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0480
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0480
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0480', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0480'
@@ -1063,11 +1159,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0490
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0490
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0490
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0490
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0490', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0490'
@@ -1084,11 +1182,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0500
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0500
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0500
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0500
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0500', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0500'
@@ -1105,11 +1205,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0510
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0510
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0510
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0510
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0510', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0510'
@@ -1126,11 +1228,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0520
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0520
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0520
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0520
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0520', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0520'
@@ -1147,11 +1251,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0530
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0530
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0530
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0530
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0530', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0530'
@@ -1168,11 +1274,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0540
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0540
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0540
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0540
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0540', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0540'
@@ -1189,11 +1297,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0550
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0550
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0550
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0550
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0550', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0550'
@@ -1210,11 +1320,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0560
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0560
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0560
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0560
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0560', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0560'
@@ -1231,11 +1343,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0570
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0570
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0570
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0570
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0570', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0570'
@@ -1252,11 +1366,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0580
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0580
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0580
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0580
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0580', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0580'
@@ -1273,11 +1389,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0590
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0590
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0590
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0590
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0590', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0590'
@@ -1294,11 +1412,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0600
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0600
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0600
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0600
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0600', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0600'
@@ -1315,11 +1435,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0610
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0610
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0610
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0610
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0610', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0610'
@@ -1336,11 +1458,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0620
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0620
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0620
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0620
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0620', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0620'
@@ -1357,11 +1481,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0630
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0630
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0630
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0630
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0630', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0630'
@@ -1378,11 +1504,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0640
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0640
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0640
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0640
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0640', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0640'
@@ -1399,11 +1527,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0650
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0650
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0650
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0650
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0650', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0650'
@@ -1420,11 +1550,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0660
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0660
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0660
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0660
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0660', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0660'
@@ -1441,11 +1573,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0670
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0670
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0670
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0670
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0670', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0670'
@@ -1462,11 +1596,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0680
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0680
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0680
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0680
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0680', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0680'
@@ -1483,11 +1619,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0690
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0690
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0690
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0690
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0690', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0690'
@@ -1504,11 +1642,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0700
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0700
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0700
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0700
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0700', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0700'
@@ -1525,11 +1665,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0710
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0710
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0710
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0710
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0710', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0710'
@@ -1546,11 +1688,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0720
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0720
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0720
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0720
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0720', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0720'
@@ -1567,11 +1711,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0730
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0730
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0730
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0730
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0730', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0730'
@@ -1588,11 +1734,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0740
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0740
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0740
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0740
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0740', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0740'
@@ -1609,11 +1757,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0750
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0750
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0750
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0750
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0750', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0750'
@@ -1630,11 +1780,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0760
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0760
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0760
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0760
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0760', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0760'
@@ -1651,11 +1803,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0770
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0770
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0770
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0770
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0770', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0770'
@@ -1672,11 +1826,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0780
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0780
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0780
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0780
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0780', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0780'
@@ -1693,11 +1849,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0790
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0790
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0790
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0790
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0790', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0790'
@@ -1714,11 +1872,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0800
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0800
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0800
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0800
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0800', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0800'
@@ -1735,11 +1895,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0810
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0810
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0810
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0810
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0810', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0810'
@@ -1756,11 +1918,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0820
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0820
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0820
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0820
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0820', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0820'
@@ -1778,11 +1942,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0830
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0830
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0830
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0830
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0830', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0830'
@@ -1800,11 +1966,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0840
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0840
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0840
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0840
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0840', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0840'
@@ -1822,11 +1990,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0850
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0850
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0850
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0850
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0850', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0850'
@@ -1844,11 +2014,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0860
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0860
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0860
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0860
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0860', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0860'
@@ -1866,11 +2038,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0870
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0870
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0870
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0870
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0870', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0870'
@@ -1888,11 +2062,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0880
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0880
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0880
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0880
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0880', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0880'
@@ -1910,11 +2086,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0890
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0890
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0890
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0890
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0890', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0890'
@@ -1932,11 +2110,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0900
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0900
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0900
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0900
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0900', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0900'
@@ -1954,11 +2134,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0910
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0910
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0910
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0910
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0910', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0910'
@@ -1976,11 +2158,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0920
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0920
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0920
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0920
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0920', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0920'
@@ -1998,11 +2182,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0930
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0930
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0930
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0930
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0930', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0930'
@@ -2020,11 +2206,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0940
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0940
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0940
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0940
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0940', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0940'
@@ -2042,11 +2230,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0950
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0950
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0950
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0950
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0950', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0950'
@@ -2064,11 +2254,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0960
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0960
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0960
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0960
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0960', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0960'
@@ -2086,11 +2278,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0970
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0970
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0970
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0970
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0970', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0970'
@@ -2108,11 +2302,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0980
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0980
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0980
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0980
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0980', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0980'
@@ -2130,11 +2326,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0990
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0990
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0990
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0990
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0990', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_0990'
@@ -2152,11 +2350,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1000
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1000
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1000
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1000
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1000', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1000'
@@ -2174,11 +2374,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1010
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1010
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1010
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1010
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1010', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1010'
@@ -2196,11 +2398,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1020
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1020
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1020
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1020
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1020', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1020'
@@ -2218,11 +2422,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1030
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1030
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1030
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1030
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1030', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1030'
@@ -2240,11 +2446,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1040
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1040
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1040
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1040
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1040', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1040'
@@ -2262,11 +2470,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1050
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1050
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1050
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1050
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1050', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1050'
@@ -2284,11 +2494,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1060
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1060
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1060
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1060
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1060', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1060'
@@ -2306,11 +2518,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1070
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1070
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1070
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1070
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1070', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1070'
@@ -2328,11 +2542,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1080
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1080
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1080
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1080
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1080', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1080'
@@ -2350,11 +2566,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1090
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1090
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1090
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1090
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1090', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1090'
@@ -2372,11 +2590,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1100
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1100
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1100
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1100
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1100', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1100'
@@ -2394,11 +2614,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1110
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1110
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1110
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1110
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1110', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1110'
@@ -2416,11 +2638,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1120
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1120
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1120
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1120
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1120', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1120'
@@ -2438,11 +2662,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1130
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1130
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1130
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1130
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1130', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1130'
@@ -2460,11 +2686,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1140
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1140
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1140
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1140
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1140', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1140'
@@ -2482,11 +2710,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1150
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1150
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1150
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1150
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1150', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1150'
@@ -2504,11 +2734,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1160
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1160
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1160
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1160
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1160', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1160'
@@ -2526,11 +2758,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1170
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1170
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1170
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1170
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1170', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1170'
@@ -2548,11 +2782,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1180
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1180
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1180
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1180
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1180', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1180'
@@ -2570,11 +2806,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1190
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1190
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1190
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1190
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1190', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1190'
@@ -2592,11 +2830,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1200
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1200
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1200
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1200
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1200', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1200'
@@ -2614,11 +2854,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1210
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1210
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1210
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1210
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1210', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1210'
@@ -2636,11 +2878,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1220
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1220
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1220
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1220
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1220', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1220'
@@ -2658,11 +2902,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1230
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1230
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1230
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1230
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1230', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1230'
@@ -2680,11 +2926,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1240
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1240
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1240
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1240
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1240', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1240'
@@ -2702,11 +2950,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1260
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1260
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1260
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1260
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1260', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1260'
@@ -2723,11 +2973,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1270
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1270
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1270
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1270
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1270', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1270'
@@ -2744,11 +2996,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1280
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1280
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1280
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1280
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1280', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1280'
@@ -2766,11 +3020,13 @@ export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBl
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1290
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1290
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1290
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1290
+     * @tc.name   : Component function commomattributes menu custombackgroundblur
+     * @tc.desc   : Verify component function commomattributes menu custombackgroundblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1290', 0, async (done: Function) => {
       let caseName = 'ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_CUSTOMBACKGROUNDBLUR_1290'

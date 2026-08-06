@@ -42,9 +42,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0330
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : For the Search component, set the placeholder value in the interface to update it in real time.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -90,9 +90,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0050
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, do not set the size of the placeholderFont.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -110,9 +110,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0110
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, do not set the weight of the textFont.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -130,9 +130,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1000
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1000
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : JSON file for the Search component, setting the size of the textFont to type float.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -150,9 +150,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0720
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, set the weight of the placeholderFont to -100.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -170,9 +170,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0680
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Set the size of placeholderFont in the Search component to a JSON file of type string.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -190,9 +190,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0140
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, do not set the style of the left search icon.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -210,9 +210,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1130
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : earch component, set the weight of the placeholderFont to -100.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -230,9 +230,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0970
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0970
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : JSON file for the Search component, setting the size of the textFont to a type other than string or float.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -250,9 +250,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1320
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, set the color of the left search icon to $rawfile(color.json).
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -270,9 +270,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0740
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0740
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, set the weight of the placeholderFont to 400.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -290,9 +290,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0130
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, do not set the style of the right clear button.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -310,9 +310,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0660
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0660
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : JSON file for the Search component, setting the size of the placeholderFont to a type other than string or float.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -330,9 +330,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1290
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, set the icon size to be larger than the component size.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -350,9 +350,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0670
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : JSON file for the Search component, setting the size of the placeholderFont to type float.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -370,9 +370,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1240
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : JSON file for the Search component, set the size field of the IconOptions in the right clear button style cancelButton1 to "$rawfile()".
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -390,9 +390,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0100
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, do not set the textFont style.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -410,9 +410,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0700
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, set the style of the placeholderFont to FontStyle.Normal.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -430,9 +430,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0650
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, set the size of the placeholderFont to 10.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -450,9 +450,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0710
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, set the weight of the placeholderFont to 900.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -470,9 +470,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1020
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, set the style of the textFont to FontStyle.Normal.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -490,9 +490,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0060
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, do not set the Color of the placeholder.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -510,9 +510,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1190
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, set the color of the IconOptions in the right clear-button style cancelButton1 to $rawfile(color.json).
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -530,9 +530,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0120
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, do not set the weight.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -550,9 +550,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1370
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, set the size of the left search icon searchIcon to $rawfile().
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -570,9 +570,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1440
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, set the left search icon source as an image.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -590,9 +590,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0170
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, do not set the font color of the input text.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -610,9 +610,9 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1510
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Search component, set the font color of the input text to $rawfile(color.json).
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

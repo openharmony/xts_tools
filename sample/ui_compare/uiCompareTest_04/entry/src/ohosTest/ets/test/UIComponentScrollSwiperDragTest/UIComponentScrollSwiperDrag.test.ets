@@ -38,10 +38,12 @@ export default function UIComponentScrollSwiperDragTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0560
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0560
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0560
+     * @tc.name   : Scroll swiper drag
+     * @tc.desc   : Verify scroll swiper drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0560 start.`);
@@ -55,10 +57,12 @@ export default function UIComponentScrollSwiperDragTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0550
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0550
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0550
+     * @tc.name   : Scroll swiper drag
+     * @tc.desc   : Verify scroll swiper drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0550 start.`);
@@ -72,10 +76,12 @@ export default function UIComponentScrollSwiperDragTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0730
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0730
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0730
+     * @tc.name   : Scroll swiper drag
+     * @tc.desc   : Verify scroll swiper drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0730 start.`);
@@ -91,10 +97,12 @@ export default function UIComponentScrollSwiperDragTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0670
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0670
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0670
+     * @tc.name   : Scroll swiper drag
+     * @tc.desc   : Verify scroll swiper drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0670', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0670';

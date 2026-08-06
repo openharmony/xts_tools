@@ -33,9 +33,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0010
-     * @tc.name: testDialogOrderShowDialogNeg5
-     * @tc.desc: 验证层级-5时showDialog的弹窗和回调正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0010
+     * @tc.name   : testDialogOrderShowDialogNeg5
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0010', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0010 start');
@@ -71,9 +74,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0020
-     * @tc.name: testDialogOrderCustomController100001
-     * @tc.desc: 验证层级100001时CustomDialogController的弹窗正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0020
+     * @tc.name   : testDialogOrderCustomController100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0020', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0020 start');
@@ -101,9 +107,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0040
-     * @tc.name: testDialogOrderAlertDialogUndefined
-     * @tc.desc: 验证层级undefined时showAlertDialog的弹窗正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0040
+     * @tc.name   : testDialogOrderAlertDialogUndefined
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0040', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0040 start');
@@ -130,9 +139,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0050
-     * @tc.name: testDialogOrderOpenCustomDialog0p1111
-     * @tc.desc: 验证层级0.1111时openCustomDialog的弹窗正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0050
+     * @tc.name   : testDialogOrderOpenCustomDialog0p1111
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0050', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0050 start');
@@ -159,9 +171,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0060
-     * @tc.name: testDialogOrderActionSheetNeg100001
-     * @tc.desc: 验证层级-100001时showActionSheet的弹窗正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0060
+     * @tc.name   : testDialogOrderActionSheetNeg100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0060', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0060 start');
@@ -189,9 +204,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0090
-     * @tc.name: testDialogOrderShowDialogNeg100001
-     * @tc.desc: 验证层级-100001时showDialog的弹窗正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0090
+     * @tc.name   : testDialogOrderShowDialogNeg100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0090', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0090 start');
@@ -218,9 +236,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0120
-     * @tc.name: testDialogOrderPresentCustomDialogNeg5
-     * @tc.desc: 验证层级-5时presentCustomDialog的弹窗正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0120
+     * @tc.name   : testDialogOrderPresentCustomDialogNeg5
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0120', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0120 start');
@@ -247,9 +268,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0210
-     * @tc.name: testDialogOrderAlertDialog100001
-     * @tc.desc: 验证层级100001时showAlertDialog的弹窗正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0210
+     * @tc.name   : testDialogOrderAlertDialog100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0210', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0210 start');
@@ -276,9 +300,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0280
-     * @tc.name: testDialogOrderShowDialog0p1111
-     * @tc.desc: 验证层级0.1111时showDialog的弹窗正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0280
+     * @tc.name   : testDialogOrderShowDialog0p1111
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0280', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0280 start');
@@ -305,9 +332,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0350
-     * @tc.name: testDialogOrderAlertDialogNeg100001
-     * @tc.desc: 验证层级-100001时showAlertDialog的弹窗正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0350
+     * @tc.name   : testDialogOrderAlertDialogNeg100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0350', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0350 start');
@@ -334,9 +364,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0030
-     * @tc.name: testDialogOrderOpenWithController100001
-     * @tc.desc: 验证层级100001时openCustomDialogWithController正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0030
+     * @tc.name   : testDialogOrderOpenWithController100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0030', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0030');
@@ -354,9 +387,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0070
-     * @tc.name: testDialogOrderOpenCustomDialogNeg5
-     * @tc.desc: 验证层级-5时openCustomDialog正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0070
+     * @tc.name   : testDialogOrderOpenCustomDialogNeg5
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0070', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0070');
@@ -374,9 +410,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0080
-     * @tc.name: testDialogOrderCustomControllerNeg5
-     * @tc.desc: 验证层级-5时CustomDialogController正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0080
+     * @tc.name   : testDialogOrderCustomControllerNeg5
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0080', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0080');
@@ -394,9 +433,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0100
-     * @tc.name: testDialogOrderAlertDialog0p1111
-     * @tc.desc: 验证层级0.1111时showAlertDialog正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0100
+     * @tc.name   : testDialogOrderAlertDialog0p1111
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0100', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0100');
@@ -414,9 +456,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0110
-     * @tc.name: testDialogOrderOpenWithControllerUndefined
-     * @tc.desc: 验证层级undefined时openCustomDialogWithController正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0110
+     * @tc.name   : testDialogOrderOpenWithControllerUndefined
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0110', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0110');
@@ -434,9 +479,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0130
-     * @tc.name: testDialogOrderPresentCustomDialog100001
-     * @tc.desc: 验证层级100001时presentCustomDialog正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0130
+     * @tc.name   : testDialogOrderPresentCustomDialog100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0130', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0130');
@@ -454,9 +502,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0140
-     * @tc.name: testDialogOrderCustomController0p1111
-     * @tc.desc: 验证层级0.1111时CustomDialogController正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0140
+     * @tc.name   : testDialogOrderCustomController0p1111
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0140', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0140');
@@ -474,9 +525,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0150
-     * @tc.name: testDialogOrderOpenWithControllerNeg100001
-     * @tc.desc: 验证层级-100001时openCustomDialogWithController正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0150
+     * @tc.name   : testDialogOrderOpenWithControllerNeg100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0150', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0150');
@@ -494,9 +548,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0160
-     * @tc.name: testDialogOrderPresentCustomDialogNeg100001
-     * @tc.desc: 验证层级-100001时presentCustomDialog正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0160
+     * @tc.name   : testDialogOrderPresentCustomDialogNeg100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0160', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0160');
@@ -514,9 +571,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0170
-     * @tc.name: testDialogOrderOpenCustomDialogNeg100001
-     * @tc.desc: 验证层级-100001时openCustomDialog正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0170
+     * @tc.name   : testDialogOrderOpenCustomDialogNeg100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0170', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0170');
@@ -534,9 +594,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0180
-     * @tc.name: testDialogOrderCustomControllerUndefined
-     * @tc.desc: 验证层级undefined时CustomDialogController正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0180
+     * @tc.name   : testDialogOrderCustomControllerUndefined
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0180', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0180');
@@ -554,9 +617,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0190
-     * @tc.name: testDialogOrderActionSheetUndefined
-     * @tc.desc: 验证层级undefined时showActionSheet正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0190
+     * @tc.name   : testDialogOrderActionSheetUndefined
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0190', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0190');
@@ -574,9 +640,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0200
-     * @tc.name: testDialogOrderOpenCustomDialogUndefined
-     * @tc.desc: 验证层级undefined时openCustomDialog正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0200
+     * @tc.name   : testDialogOrderOpenCustomDialogUndefined
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0200', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0200');
@@ -594,9 +663,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0220
-     * @tc.name: testDialogOrderShowDialogUndefined
-     * @tc.desc: 验证层级undefined时showDialog正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0220
+     * @tc.name   : testDialogOrderShowDialogUndefined
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0220', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0220');
@@ -614,9 +686,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0230
-     * @tc.name: testDialogOrderShowDialog100001
-     * @tc.desc: 验证层级100001时showDialog正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0230
+     * @tc.name   : testDialogOrderShowDialog100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0230', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0230');
@@ -634,9 +709,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0240
-     * @tc.name: testDialogOrderOpenWithControllerNeg5
-     * @tc.desc: 验证层级-5时openCustomDialogWithController正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0240
+     * @tc.name   : testDialogOrderOpenWithControllerNeg5
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0240', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0240');
@@ -654,9 +732,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0250
-     * @tc.name: testDialogOrderPresentCustomDialogUndefined
-     * @tc.desc: 验证层级undefined时presentCustomDialog正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0250
+     * @tc.name   : testDialogOrderPresentCustomDialogUndefined
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0250', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0250');
@@ -674,9 +755,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0260
-     * @tc.name: testDialogOrderPresentCustomDialog0p1111
-     * @tc.desc: 验证层级0.1111时presentCustomDialog正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0260
+     * @tc.name   : testDialogOrderPresentCustomDialog0p1111
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0260', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0260');
@@ -694,9 +778,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0270
-     * @tc.name: testDialogOrderActionSheet0p1111
-     * @tc.desc: 验证层级0.1111时showActionSheet正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0270
+     * @tc.name   : testDialogOrderActionSheet0p1111
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0270', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0270');
@@ -714,9 +801,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0290
-     * @tc.name: testDialogOrderAlertDialogNeg5
-     * @tc.desc: 验证层级-5时showAlertDialog正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0290
+     * @tc.name   : testDialogOrderAlertDialogNeg5
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0290', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0290');
@@ -734,9 +824,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0300
-     * @tc.name: testDialogOrderOpenWithController0p1111
-     * @tc.desc: 验证层级0.1111时openCustomDialogWithController正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0300
+     * @tc.name   : testDialogOrderOpenWithController0p1111
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0300', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0300');
@@ -754,9 +847,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0310
-     * @tc.name: testDialogOrderOpenCustomDialog100001
-     * @tc.desc: 验证层级100001时openCustomDialog正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0310
+     * @tc.name   : testDialogOrderOpenCustomDialog100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0310', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0310');
@@ -774,9 +870,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0320
-     * @tc.name: testDialogOrderCustomControllerNeg100001
-     * @tc.desc: 验证层级-100001时CustomDialogController正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0320
+     * @tc.name   : testDialogOrderCustomControllerNeg100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0320', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0320');
@@ -794,9 +893,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0330
-     * @tc.name: testDialogOrderActionSheet100001
-     * @tc.desc: 验证层级100001时showActionSheet正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0330
+     * @tc.name   : testDialogOrderActionSheet100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0330', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0330');
@@ -814,9 +916,12 @@ export default function UiComponentDialogOrderTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0340
-     * @tc.name: testDialogOrderActionSheetNeg5
-     * @tc.desc: 验证层级-5时showActionSheet正常显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0340
+     * @tc.name   : testDialogOrderActionSheetNeg5
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0340', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentDialogOrder/DialogOrder0340');

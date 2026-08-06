@@ -43,10 +43,12 @@ export default function UiComponentMediaVideoOptimizeTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0070
-     * @tc.name: VideoOptimize0070
-     * @tc.desc: Video组件在屏幕内调用setCurrentTime接口跳转到第10s
-     * @tc.level: Level 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0070
+     * @tc.name   : VideoOptimize0070
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0070', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0070 START')
@@ -68,10 +70,12 @@ export default function UiComponentMediaVideoOptimizeTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0370
-     * @tc.name: VideoOptimize0370
-     * @tc.desc: 10个video组件滑动，页面不卡顿不崩溃
-     * @tc.level: Level 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0370
+     * @tc.name   : VideoOptimize0370
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0370', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0370 START')
@@ -88,10 +92,12 @@ export default function UiComponentMediaVideoOptimizeTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0380
-     * @tc.name: VideoOptimize0380
-     * @tc.desc: 20个video组件滑动，页面不卡顿不崩溃
-     * @tc.level: Level 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0380
+     * @tc.name   : VideoOptimize0380
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0380', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0380 START')
@@ -108,10 +114,12 @@ export default function UiComponentMediaVideoOptimizeTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0390
-     * @tc.name: VideoOptimize0390
-     * @tc.desc: 30个video组件滑动，页面不卡顿不崩溃
-     * @tc.level: Level 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0390
+     * @tc.name   : VideoOptimize0390
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0390', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0390 START')
@@ -128,10 +136,12 @@ export default function UiComponentMediaVideoOptimizeTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0400
-     * @tc.name: VideoOptimize0400
-     * @tc.desc: 50个video组件滑动，页面不卡顿不崩溃
-     * @tc.level: Level 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0400
+     * @tc.name   : VideoOptimize0400
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0400', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0400 START')
@@ -148,10 +158,12 @@ export default function UiComponentMediaVideoOptimizeTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0410
-     * @tc.name: VideoOptimize0410
-     * @tc.desc: 10个video组件播放并滑动，播放正常不卡顿不崩溃
-     * @tc.level: Level 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0410
+     * @tc.name   : VideoOptimize0410
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0410', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0410 START')
@@ -173,10 +185,12 @@ export default function UiComponentMediaVideoOptimizeTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0420
-     * @tc.name: VideoOptimize0420
-     * @tc.desc: 20个video组件播放并滑动，播放正常不卡顿不崩溃
-     * @tc.level: Level 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0420
+     * @tc.name   : VideoOptimize0420
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0420', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0420 START')
@@ -198,10 +212,12 @@ export default function UiComponentMediaVideoOptimizeTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0430
-     * @tc.name: VideoOptimize0430
-     * @tc.desc: 30个video组件播放并滑动，播放正常不卡顿不崩溃
-     * @tc.level: Level 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0430
+     * @tc.name   : VideoOptimize0430
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0430', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0430 START')
@@ -223,10 +239,12 @@ export default function UiComponentMediaVideoOptimizeTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0440
-     * @tc.name: VideoOptimize0440
-     * @tc.desc: 50个video组件播放并滑动，播放正常不卡顿不崩溃
-     * @tc.level: Level 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0440
+     * @tc.name   : VideoOptimize0440
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0440', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0440 START')

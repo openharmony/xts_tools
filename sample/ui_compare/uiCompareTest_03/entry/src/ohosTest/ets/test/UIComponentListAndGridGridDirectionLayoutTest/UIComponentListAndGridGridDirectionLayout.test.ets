@@ -59,10 +59,12 @@ export default function UIComponentListAndGridGridDirectionLayout() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0040_392
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0040_392
-     * @tc.desc    Set rowStart greater than rowEnd in Grid with both columnTemplate and rowTemplate configured
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0040_392
+     * @tc.name   : Listandgrid grid directionlayout
+     * @tc.desc   : Verify listandgrid grid directionlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0040_392', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0040_392';
@@ -79,10 +81,12 @@ export default function UIComponentListAndGridGridDirectionLayout() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0050_392
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0050_392
-     * @tc.desc    Set rowStart greater than or equal to total rows in Grid with columnTemplate and rowTemplate
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0050_392
+     * @tc.name   : Listandgrid grid directionlayout
+     * @tc.desc   : Verify listandgrid grid directionlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0050_392', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0050_392';
@@ -99,10 +103,12 @@ export default function UIComponentListAndGridGridDirectionLayout() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0060_279
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0060_279
-     * @tc.desc    Set columnStart or columnEnd to -2 in Grid with both columnTemplate and rowTemplate configured
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0060_279
+     * @tc.name   : Listandgrid grid directionlayout
+     * @tc.desc   : Verify listandgrid grid directionlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0060_279', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0060_279';
@@ -122,10 +128,12 @@ export default function UIComponentListAndGridGridDirectionLayout() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0080_804
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0080_804
-     * @tc.desc    Set columnStart greater than columnEnd in Grid with both columnTemplate and rowTemplate configured
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0080_804
+     * @tc.name   : Listandgrid grid directionlayout
+     * @tc.desc   : Verify listandgrid grid directionlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0080_804', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0080_804';
@@ -142,10 +150,12 @@ export default function UIComponentListAndGridGridDirectionLayout() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0090_199
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0090_199
-     * @tc.desc    Set columnStart or columnEnd greater than or equal to total columns in Grid with columnTemplate and rowTemplate configured
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0090_199
+     * @tc.name   : Listandgrid grid directionlayout
+     * @tc.desc   : Verify listandgrid grid directionlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0090_199', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0090_199';

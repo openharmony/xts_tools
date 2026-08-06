@@ -27,11 +27,13 @@ export default function ActionEventClickTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_CLICK_0090
-     * @tc.name 两根手指分别按在不同组件内
-     * @tc.desc 验证多点触摸时finger状态变化
-     * @tc.automation 30% - 页面加载自动化；多点触摸需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_CLICK_0090
+     * @tc.name   : 两根手指分别按在不同组件内
+     * @tc.desc   : Verify action event commonevent click interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_CLICK_0090', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_CLICK_0090';
@@ -61,11 +63,13 @@ export default function ActionEventClickTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_CLICK_0160
-     * @tc.name 4x4月视图卡片鼠标点击前后切换月份
-     * @tc.desc 验证快速点击切换月份时显示正常
-     * @tc.automation 70% - 页面加载、按钮点击自动化
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_CLICK_0160
+     * @tc.name   : 4x4月视图卡片鼠标点击前后切换月份
+     * @tc.desc   : Verify action event commonevent click interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_CLICK_0160', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_CLICK_0160';

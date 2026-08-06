@@ -41,8 +41,9 @@ export default function UiComponentFramenodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0050
      * @tc.name   : Marquee component, set marquee strategy to DEFAULT
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0050", Level.LEVEL3, async (done: Function) => {
@@ -84,8 +85,9 @@ export default function UiComponentFramenodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0080
      * @tc.name   : TextArea component, set placeholder text style
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0080", Level.LEVEL3, async (done: Function) => {
@@ -121,8 +123,9 @@ export default function UiComponentFramenodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0130
      * @tc.name   : TextArea component, set text maximum length
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0130", Level.LEVEL3, async (done: Function) => {

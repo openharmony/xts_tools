@@ -1,0 +1,581 @@
+/**
+ * Copyright (c) 2026 Shenzhen Kaihong Digital Industry Development Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+{
+  "description": "Config for XtsTestCase devicetest test cases",
+  "environment": [
+    {
+      "type": "device"
+    }
+  ],
+  "driver": {
+    "type": "DeviceTest",
+    "bundle-name": "com.example.uicompare_13",
+    "py_file": "ace/testcases/UI_Compare_Tools_Common.py"
+  },
+  "kits": [
+    {
+      "test-file-name": [
+        "ace/resource/common/hap/uiCompareTest_13.hap"
+      ],
+      "type": "AppInstallKit",
+      "cleanup-apps": true
+    },
+    {
+      "type": "ShellKit",
+      "run-command": [
+        "power-shell wakeup",
+        "power-shell setmode 602",
+        "power-shell display -s 0"
+      ]
+    }
+  ],
+  "extra": {
+    "SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0120": [
+      [
+        "SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0120_01.webp",
+        "SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0120_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0130": [
+      [
+        "SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0130_01.webp",
+        "SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0130_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0160": [
+      [
+        "SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0160_01.webp",
+        "SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0160_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0190": [
+      [
+        "SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0190_01.webp",
+        "SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0190_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0010": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0010_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0010_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0011": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0011_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0011_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0040": [
+      [
+        "SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0040_01.webp",
+        "SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0040_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0060": [
+      [
+        "SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0060_01.webp",
+        "SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0060_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_loadingProgress_0010": [
+      [
+        "SUB_ACE_UI_loadingProgress_0010_01.webp",
+        "SUB_ACE_UI_loadingProgress_0010_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0022": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0022_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0022_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0026": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0026_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0026_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PARALLELIZATION_0080": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PARALLELIZATION_0080_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PARALLELIZATION_0080_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0059": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0059_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0059_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_EVENT_0027": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_EVENT_0027_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_EVENT_0027_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_PICKER_CONTAINER_0091": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_PICKER_CONTAINER_0091_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_PICKER_CONTAINER_0091_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_CUSTOMANIMATION_0070": [
+      [
+        "SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_CUSTOMANIMATION_0070_01.webp",
+        "SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_CUSTOMANIMATION_0070_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_CUSTOMANIMATION_0120": [
+      [
+        "SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_CUSTOMANIMATION_0120_01.webp",
+        "SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_CUSTOMANIMATION_0120_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_DC_0032": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_DC_0032_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_DC_0032_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0001": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0001_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0001_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0002": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0002_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0002_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0004": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0004_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0004_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0005": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0005_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0005_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0006": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0006_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0006_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0007": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0007_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0007_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0008": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0008_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_API20_0008_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATETO_0023": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATETO_0023_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATETO_0023_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_CAlENDARPICKER_DISABLEDDATE_0020": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_CAlENDARPICKER_DISABLEDDATE_0020_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_CAlENDARPICKER_DISABLEDDATE_0020_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_TRANSFER_0018": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_TRANSFER_0018_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_TRANSFER_0018_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_DC_0030_677": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_DC_0030_677_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_DC_0030_677_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_DC_0033": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_DC_0033_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_DC_0033_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_DC_0035": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_DC_0035_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_DC_0035_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_PICKER_TVLAYER_0016": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_PICKER_TVLAYER_0016_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_PICKER_TVLAYER_0016_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_PICKER_TVLAYER_0017": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_PICKER_TVLAYER_0017_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_PICKER_TVLAYER_0017_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_PICKER_TVLAYER_0018": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_PICKER_TVLAYER_0018_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_PICKER_TVLAYER_0018_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_FORMAT_MODIFIER_0015": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_FORMAT_MODIFIER_0015_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_FORMAT_MODIFIER_0015_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_QRCODEVALUE_0013": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_QRCODEVALUE_0013_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_QRCODEVALUE_0013_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0001": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0001_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0001_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0015": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0015_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0015_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0017": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0017_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0017_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0018": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0018_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0018_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0019": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0019_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0019_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0020": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0020_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0020_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_SRC_1120_761": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_SRC_1120_761_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_SRC_1120_761_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_DRAWABLEDESCRIPTOR_0033": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_DRAWABLEDESCRIPTOR_0033_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_DRAWABLEDESCRIPTOR_0033_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_DRAWABLEDESCRIPTOR_0034": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_DRAWABLEDESCRIPTOR_0034_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_DRAWABLEDESCRIPTOR_0034_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_GIF_0011": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_GIF_0011_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_GIF_0011_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_QUALITYS_0120": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_QUALITYS_0120_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_QUALITYS_0120_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0076": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0076_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0076_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0077": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0077_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0077_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0078": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0078_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0078_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0080": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0080_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0080_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0085": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0085_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0085_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_IMAGE_SUMMARY_0001": [
+      [
+        "SUB_ACE_UI_COMPONENT_IMAGE_SUMMARY_0001_01.webp",
+        "SUB_ACE_UI_COMPONENT_IMAGE_SUMMARY_0001_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_IMAGE_SUMMARY_0005": [
+      [
+        "SUB_ACE_UI_COMPONENT_IMAGE_SUMMARY_0005_01.webp",
+        "SUB_ACE_UI_COMPONENT_IMAGE_SUMMARY_0005_01.webp"
+      ]
+    ],
+    "SUB_TV_UX_ImageAnimator_003": [
+      [
+        "SUB_TV_UX_ImageAnimator_003_01.webp",
+        "SUB_TV_UX_ImageAnimator_003_01.webp"
+      ]
+    ],
+    "SUB_TV_UX_ImageAnimator_009": [
+      [
+        "SUB_TV_UX_ImageAnimator_009_01.webp",
+        "SUB_TV_UX_ImageAnimator_009_01.webp"
+      ]
+    ],
+    "SUB_TV_UX_TextPicker_001": [
+      [
+        "SUB_TV_UX_TextPicker_001_01.webp",
+        "SUB_TV_UX_TextPicker_001_01.webp"
+      ]
+    ],
+    "SUB_TV_TextPicker_FadingEdge_15": [
+      [
+        "SUB_TV_TextPicker_FadingEdge_15_01.webp",
+        "SUB_TV_TextPicker_FadingEdge_15_01.webp"
+      ]
+    ],
+    "SUB_TV_DatePicker_UI_030": [
+      [
+        "SUB_TV_DatePicker_UI_030_01.webp",
+        "SUB_TV_DatePicker_UI_030_01.webp"
+      ]
+    ],
+    "SUB_TV_UX_TextPicker_037": [
+      [
+        "SUB_TV_UX_TextPicker_037_01.webp",
+        "SUB_TV_UX_TextPicker_037_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0005": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0005_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0005_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0013": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0013_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0013_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0022": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0022_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0022_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PARSETAGS_0010": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PARSETAGS_0010_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PARSETAGS_0010_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_AI_0130": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_AI_0130_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_AI_0130_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0079": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0079_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0079_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0081": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0081_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0081_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0082": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0082_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0082_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0083": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0083_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0083_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0084": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0084_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0084_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0086": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0086_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0086_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0088": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0088_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0088_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_CONCURRENCY_EVENT_0036": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_CONCURRENCY_EVENT_0036_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_CONCURRENCY_EVENT_0036_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0010": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0010_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0010_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0060": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0060_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0060_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0020": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0020_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0020_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0087": [
+      [
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0087_01.webp",
+        "SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0087_01.webp"
+      ]
+    ],
+    "TestCase_5f255cbe232a4f89bcc64eb7b9bfd7ae": [
+      [
+        "TestCase_5f255cbe232a4f89bcc64eb7b9bfd7ae_01.webp",
+        "TestCase_5f255cbe232a4f89bcc64eb7b9bfd7ae_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTICOL_0100": [
+      [
+        "SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTICOL_0100_01.webp",
+        "SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTICOL_0100_01.webp"
+      ]
+    ],
+    "TestCase_07f07b14baf24fafa7a4743b3b6d6c3b": [
+      [
+        "TestCase_07f07b14baf24fafa7a4743b3b6d6c3b_01.webp",
+        "TestCase_07f07b14baf24fafa7a4743b3b6d6c3b_01.webp"
+      ]
+    ],
+    "TestCase_17c8e9a5845645029f5c7b91379c3fa9": [
+      [
+        "TestCase_17c8e9a5845645029f5c7b91379c3fa9_01.webp",
+        "TestCase_17c8e9a5845645029f5c7b91379c3fa9_01.webp"
+      ]
+    ],
+    "TestCase_d0cf236fa8224bb4b73ffea51564af48": [
+      [
+        "TestCase_d0cf236fa8224bb4b73ffea51564af48_01.webp",
+        "TestCase_d0cf236fa8224bb4b73ffea51564af48_01.webp"
+      ]
+    ],
+    "TestCase_47f5cf97c3834fda9cfc71b13bce5b35": [
+      [
+        "TestCase_47f5cf97c3834fda9cfc71b13bce5b35_01.webp",
+        "TestCase_47f5cf97c3834fda9cfc71b13bce5b35_01.webp"
+      ]
+    ],
+    "TestCase_22fa9676bd734062a2f6ee37f58849ea": [
+      [
+        "TestCase_22fa9676bd734062a2f6ee37f58849ea_01.webp",
+        "TestCase_22fa9676bd734062a2f6ee37f58849ea_01.webp"
+      ]
+    ],
+    "TestCase_4b69a29e043d49f2826d78cdfa38c301": [
+      [
+        "TestCase_4b69a29e043d49f2826d78cdfa38c301_01.webp",
+        "TestCase_4b69a29e043d49f2826d78cdfa38c301_01.webp"
+      ]
+    ],
+    "TestCase_3432d74b60784c37a3bbd9e7827161e7": [
+      [
+        "TestCase_3432d74b60784c37a3bbd9e7827161e7_01.webp",
+        "TestCase_3432d74b60784c37a3bbd9e7827161e7_01.webp"
+      ]
+    ],
+    "TestCase_6798a737e3c44b3ca369132b6d5539a9": [
+      [
+        "TestCase_6798a737e3c44b3ca369132b6d5539a9_01.webp",
+        "TestCase_6798a737e3c44b3ca369132b6d5539a9_01.webp"
+      ]
+    ],
+    "TestCase_1ea6aaaa59164ca09f779055a5f552bf": [
+      [
+        "TestCase_1ea6aaaa59164ca09f779055a5f552bf_01.webp",
+        "TestCase_1ea6aaaa59164ca09f779055a5f552bf_01.webp"
+      ]
+    ],
+    "SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTIUP_0100": [
+      [
+        "SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTIUP_0100_01.webp",
+        "SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTIUP_0100_01.webp"
+      ]
+    ]
+  }
+}

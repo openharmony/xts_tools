@@ -43,8 +43,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0010
      * @tc.name   : Button component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : button组件，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -86,8 +86,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0020
      * @tc.name   : Button component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : button组件，不调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -121,8 +121,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0030
      * @tc.name   : Column component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : Column组件，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -164,8 +164,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0050
      * @tc.name   : Image component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : Image组件，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -207,8 +207,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0060
      * @tc.name   : Image component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : Image组件，不调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -242,8 +242,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0070
      * @tc.name   : List component single selection calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : List组件-单选，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -285,8 +285,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0080
      * @tc.name   : List component single selection does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : List组件-单选，不调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -320,8 +320,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0100
      * @tc.name   : List component multi-selection drag, button1 and button2 both call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : List组件，多选同时拖拽，组件button1调用、组件button2调用
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -369,8 +369,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0110
      * @tc.name   : Grid component single selection calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : Grid组件-单选，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -412,8 +412,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0120
      * @tc.name   : Grid component single selection does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : Grid组件-单选，不调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -447,8 +447,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0130
      * @tc.name   : Grid component multi-selection calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : Grid组件-多选，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -498,8 +498,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0140
      * @tc.name   : Grid component multi-selection does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : Grid组件-多选，不调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -541,8 +541,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0150
      * @tc.name   : Video component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : video组件，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -584,8 +584,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0160
      * @tc.name   : Video component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : video组件，不调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -619,8 +619,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0170
      * @tc.name   : Link component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : Link组件，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -662,8 +662,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0180
      * @tc.name   : Link component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : Link组件，不调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -697,8 +697,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0190
      * @tc.name   : Text component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : text组件，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -740,8 +740,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0200
      * @tc.name   : Text component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : text组件，不调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -783,8 +783,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0210
      * @tc.name   : TextArea component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : textArea组件，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -826,8 +826,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0220
      * @tc.name   : TextArea component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : textArea组件，不调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -869,8 +869,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0230
      * @tc.name   : TextInput component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : textInput组件，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -912,8 +912,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0240
      * @tc.name   : TextInput component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : textInput组件，不调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -955,8 +955,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0250
      * @tc.name   : RichEditor component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : richeditor组件，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -998,8 +998,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0260
      * @tc.name   : RichEditor component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : richeditor组件，不调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1041,8 +1041,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0270
      * @tc.name   : Parent and child components are non-text components, parent does not call, child calls.
-     * @tc.type   : function
-     * @tc.desc   : 父子组件均为非文本组件，父组件不调用，子组件调用
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1083,8 +1083,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0280
      * @tc.name   : Parent and child components are non-text components, parent calls, child does not call.
-     * @tc.type   : function
-     * @tc.desc   : 父子组件均为非文本组件，父组件调用，子组件不调用
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1125,8 +1125,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0290
      * @tc.name   : Parent and child components are non-text components, both call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : 父子组件均为非文本组件，父、子组件均调用
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1167,8 +1167,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0300
      * @tc.name   : Parent and child components are non-text components, both do not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : 父子组件均为非文本组件，父、子组件均不调用
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1209,8 +1209,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0310
      * @tc.name   : Parent and child components are non-text, child A calls, child B does not call.
-     * @tc.type   : function
-     * @tc.desc   : 父子组件均为非文本,子组件A调用，子组件B不调用
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1259,8 +1259,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0320
      * @tc.name   : Parent and child components are non-text, child A opacity 0.4, child B no opacity.
-     * @tc.type   : function
-     * @tc.desc   : 父子组件均为非文本,子组件A透明度为0.4，子组件B无透明度
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1309,8 +1309,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0330
      * @tc.name   : Component self opacity 0.4, calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : 组件自身设置透明度0.4，调用
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1351,8 +1351,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0340
      * @tc.name   : Component self opacity 0.4, calls ENABLE_DEFAULT_GRAYED, release to droppable area.
-     * @tc.type   : function
-     * @tc.desc   : 组件自身设置透明度0.4，调用，释放至可释放区域
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1393,8 +1393,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0350
      * @tc.name   : Component self opacity 0.4, does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : 组件自身设置透明度0.4，不调用
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1435,8 +1435,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0360
      * @tc.name   : Parent opacity 0.2, child A opacity 0.9, child B opacity 0.4, parent calls - drag child.
-     * @tc.type   : function
-     * @tc.desc   : 父组件透明度0.2，子组件A透明度0.9，子组件B透明度为0.4，父组件调用-拖拽子组件
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1493,8 +1493,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0370
      * @tc.name   : Parent opacity 0.2, child A opacity 0.9, child B opacity 0.4, parent calls - drag parent.
-     * @tc.type   : function
-     * @tc.desc   : 父组件透明度0.2，子组件A透明度0.9，子组件B透明度为0.4，父组件调用-拖拽父组件
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1541,8 +1541,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0380
      * @tc.name   : Child component opacity 3, parent calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : 子组件设置透明度3，父组件调用
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1583,8 +1583,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0400
      * @tc.name   : Continuously drag component 15 times with fast, slow, and normal speed.
-     * @tc.type   : function
-     * @tc.desc   : 连续多次拖拽组件15次，快速、慢速、正常速度
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1617,8 +1617,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0410
      * @tc.name   : DragController single object, calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : dragController单对象，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1651,8 +1651,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0420
      * @tc.name   : DragController multiple objects, calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : dragController多对象，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1691,8 +1691,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0430
      * @tc.name   : ItemDrag drag, calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
-     * @tc.desc   : ItemDrag拖拽，调用ENABLE_DEFAULT_GRAYED
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

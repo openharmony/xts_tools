@@ -43,6 +43,7 @@ export default function waterflowMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0270_321
      * @tc.name   : Testing cachedCount when using rowsTemplate: 1fr 1fr 1fr layout with mirroring effect
+     * @tc.desc   : Verify waterflow mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -63,7 +64,7 @@ export default function waterflowMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0110_259
      * @tc.name   : Testing keyboard tab focus navigation when using columnsTemplate: 1fr 1fr 1fr layout with mirroring
-     * effect (with button placement)
+     * @tc.desc   : Verify waterflow mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -88,7 +89,7 @@ export default function waterflowMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0260_569
      * @tc.name   : Testing keyboard tab focus navigation when using rowsTemplate: 1fr 1fr 1fr layout with mirroring
-     * effect (with button placement)
+     * @tc.desc   : Verify waterflow mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -113,6 +114,7 @@ export default function waterflowMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0380_779
      * @tc.name   : Testing keyboard focus navigation when using LayoutDirection layout with mirroring effect
+     * @tc.desc   : Verify waterflow mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

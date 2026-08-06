@@ -62,10 +62,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0010
-     * @tc.desc    Set chip's enabled property to true
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0010
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0010';
@@ -83,10 +85,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0020
-     * @tc.desc    Set chip's enabled property to false
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0020
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0020';
@@ -104,10 +108,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0030
-     * @tc.desc    Set chip's allowClose to true when suffixIcon has no parameters
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0030
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0030';
@@ -124,10 +130,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0040
-     * @tc.desc    Set chip's allowClose to false when suffixIcon has no parameters
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0040
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0040';
@@ -144,10 +152,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0050
-     * @tc.desc    Set chip's allowClose to true when suffixIcon has parameters
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0050
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0050', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0050';
@@ -164,10 +174,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0060
-     * @tc.desc    Set chip's allowClose to false when suffixIcon has parameters
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0060
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0060', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0060';
@@ -184,10 +196,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0070
-     * @tc.desc    Set chip's ChipSize to ChipSize.Normal
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0070
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0070', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0070';
@@ -204,10 +218,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0080
-     * @tc.desc    Set chip's ChipSize to ChipSize.Small
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0080
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0080', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0080';
@@ -226,10 +242,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0090
-     * @tc.desc    Set chip's SizeOptions width to 10px
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0090
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0090', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0090';
@@ -246,10 +264,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0100
-     * @tc.desc    Set chip's SizeOptions width to 50%
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0100
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0100';
@@ -266,10 +286,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0110
-     * @tc.desc    Set chip's SizeOptions width to 10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0110
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0110', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0110';
@@ -286,10 +308,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0120
-     * @tc.desc    Set chip's SizeOptions width to 10fp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0120
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0120', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0120';
@@ -306,10 +330,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0130
-     * @tc.desc    Set chip's SizeOptions width to 10lpx
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0130
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0130', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0130';
@@ -326,10 +352,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0140
-     * @tc.desc    Set chip's SizeOptions width to 0
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0140
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0140', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0140';
@@ -346,10 +374,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0150
-     * @tc.desc    Set chip's SizeOptions width to -10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0150
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0150', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0150';
@@ -366,10 +396,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0160
-     * @tc.desc    Set chip's SizeOptions width to $r('app.integer.name')
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0160
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0160', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0160';
@@ -386,10 +418,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0170
-     * @tc.desc    Set chip's SizeOptions width to aaa
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0170
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0170', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0170';
@@ -406,10 +440,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0180
-     * @tc.desc    Set chip's SizeOptions height to 10px
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0180
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0180', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0180';
@@ -426,10 +462,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0190
-     * @tc.desc    Set chip's SizeOptions height to 50%
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0190
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0190', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0190';
@@ -446,10 +484,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0200
-     * @tc.desc    Set chip's SizeOptions height to 10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0200
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0200', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0200';
@@ -466,10 +506,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0210
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0210
-     * @tc.desc    Set chip's SizeOptions height to 10fp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0210
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0210', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0210';
@@ -486,10 +528,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0220
-     * @tc.desc    Set chip's SizeOptions height to 10lpx
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0220
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0220', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0220';
@@ -506,10 +550,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0230
-     * @tc.desc    Set chip's SizeOptions height to 0
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0230
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0230', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0230';
@@ -526,10 +572,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0240
-     * @tc.desc    Set chip's SizeOptions height to -10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0240
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0240', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0240';
@@ -546,10 +594,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0250
-     * @tc.desc    Set chip's SizeOptions height to $r('app.integer.name')
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0250
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0250', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0250';
@@ -566,10 +616,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0260
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0260
-     * @tc.desc    Set chip's SizeOptions height to aaa
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0260
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0260', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0260';
@@ -586,10 +638,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0270
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0270
-     * @tc.desc    Set chip's SizeOptions height and width to 100px
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0270
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0270', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0270';
@@ -606,10 +660,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0280
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0280
-     * @tc.desc    Leave chip's prefixIcon property unset
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0280
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0280', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0280';
@@ -626,10 +682,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0290
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0290
-     * @tc.desc    Set chip's prefixIcon src to a JPG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0290
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0290', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0290';
@@ -646,10 +704,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0300
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0300
-     * @tc.desc    Set chip's prefixIcon src to a PNG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0300
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0300', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0300';
@@ -666,10 +726,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0310
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0310
-     * @tc.desc    Set chip's prefixIcon src to a BMP image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0310
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0310', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0310';
@@ -686,10 +748,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0320
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0320
-     * @tc.desc    Set chip's prefixIcon src to a SVG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0320
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0320', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0320';
@@ -706,10 +770,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0330
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0330
-     * @tc.desc    Set chip's prefixIcon src to a gif image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0330
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0330', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0330';
@@ -726,10 +792,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0340
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0340
-     * @tc.desc    Set chip's prefixIcon src to $r image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0340
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0340', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0340';
@@ -746,10 +814,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0350
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0350
-     * @tc.desc    Set chip's prefixIcon size width to 10px
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0350
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0350', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0350';
@@ -766,10 +836,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0360
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0360
-     * @tc.desc    Set chip's prefixIcon size width to '50%'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0360
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0360', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0360';
@@ -786,10 +858,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0370
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0370
-     * @tc.desc    Set chip's prefixIcon size width to 10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0370
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0370', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0370';
@@ -806,10 +880,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0380
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0380
-     * @tc.desc    Set chip's prefixIcon size width to 10fp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0380
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0380', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0380';
@@ -826,10 +902,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0390
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0390
-     * @tc.desc    Set chip's prefixIcon size width to 10lpx
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0390
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0390', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0390';
@@ -846,10 +924,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0400
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0400
-     * @tc.desc    Set chip's prefixIcon size width to 0
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0400
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0400', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0400';
@@ -866,10 +946,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0410
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0410
-     * @tc.desc    Set chip's prefixIcon size width to -10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0410
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0410', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0410';
@@ -886,10 +968,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0420
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0420
-     * @tc.desc    Set chip's prefixIcon size width to $r('app.integer.name')
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0420
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0420', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0420';
@@ -906,10 +990,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0430
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0430
-     * @tc.desc    Set chip's prefixIcon size width to aaa
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0430
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0430', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0430';
@@ -926,10 +1012,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0440
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0440
-     * @tc.desc    Not set chip's prefixIcon size width
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0440
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0440', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0440';
@@ -946,10 +1034,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0450
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0450
-     * @tc.desc    Set chip's prefixIcon size height to 20px
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0450
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0450', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0450';
@@ -966,10 +1056,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0460
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0460
-     * @tc.desc    Set chip's prefixIcon size height to '50%'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0460
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0460', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0460';
@@ -986,10 +1078,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0470
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0470
-     * @tc.desc    Set chip's prefixIcon size height to 10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0470
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0470', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0470';
@@ -1006,10 +1100,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0480
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0480
-     * @tc.desc    Set chip's prefixIcon size height to 10fp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0480
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0480', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0480';
@@ -1026,10 +1122,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0490
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0490
-     * @tc.desc    Set chip's prefixIcon size height to 10lpx
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0490
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0490', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0490';
@@ -1046,10 +1144,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0500
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0500
-     * @tc.desc    Set chip's prefixIcon size height to 0
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0500
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0500', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0500';
@@ -1066,10 +1166,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0510
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0510
-     * @tc.desc    Set chip's prefixIcon size height to -10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0510
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0510', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0510';
@@ -1086,10 +1188,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0520
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0520
-     * @tc.desc    Set chip's prefixIcon size height to $r('app.integer.name')
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0520
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0520', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0520';
@@ -1106,10 +1210,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0530
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0530
-     * @tc.desc    Set chip's prefixIcon size height to aaa
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0530
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0530', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0530';
@@ -1126,10 +1232,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0540
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0540
-     * @tc.desc    Not set chip's prefixIcon size height
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0540
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0540', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0540';
@@ -1146,10 +1254,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0550
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0550
-     * @tc.desc    Set chip's prefixIcon size width to 10lpx and height to 10lpx
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0550
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0550', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0550';
@@ -1166,10 +1276,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0560
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0560
-     * @tc.desc    Set chip's prefixIcon fillColor to Color Red for SVG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0560
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0560', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0560';
@@ -1186,10 +1298,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0570
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0570
-     * @tc.desc    Set chip's prefixIcon fillColor to 0xff0000 for SVG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0570
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0570', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0570';
@@ -1206,10 +1320,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0580
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0580
-     * @tc.desc    Set chip's prefixIcon fillColor to '#ff000000 for SVG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0580
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0580', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0580';
@@ -1226,10 +1342,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0590
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0590
-     * @tc.desc    Set chip's prefixIcon fillColor to $r(app.color.yellow) for SVG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0590
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0590', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0590';
@@ -1246,10 +1364,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0600
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0600
-     * @tc.desc    Leave chip's prefixIcon fillColor unset for SVG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0600
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0600', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0600';
@@ -1266,10 +1386,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0610
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0610
-     * @tc.desc    Leave chip's suffixIcon property unset
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0610
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0610', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0610';
@@ -1286,10 +1408,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0620
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0620
-     * @tc.desc    Set chip's suffixIcon src to a JPG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0620
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0620', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0620';
@@ -1306,10 +1430,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0630
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0630
-     * @tc.desc    Set chip's suffixIcon src to a PNG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0630
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0630', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0630';
@@ -1326,10 +1452,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0640
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0640
-     * @tc.desc    Set chip's suffixIcon src to a BMP image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0640
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0640', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0640';
@@ -1346,10 +1474,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0650
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0650
-     * @tc.desc    Set chip's suffixIcon src to a SVG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0650
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0650', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0650';
@@ -1366,10 +1496,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0660
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0660
-     * @tc.desc    Set chip's suffixIcon src to a gif image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0660
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0660', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0660';
@@ -1386,10 +1518,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0670
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0670
-     * @tc.desc    Set chip's suffixIcon src to $r image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0670
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0670', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0670';
@@ -1406,10 +1540,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0680
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0680
-     * @tc.desc    Set chip's suffixIcon size width to 10px
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0680
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0680', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0680';
@@ -1426,10 +1562,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0690
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0690
-     * @tc.desc    Set chip's suffixIcon size width to '50%'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0690
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0690', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0690';
@@ -1446,10 +1584,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0700
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0700
-     * @tc.desc    Set chip's suffixIcon size width to 10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0700
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0700', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0700';
@@ -1466,10 +1606,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0710
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0710
-     * @tc.desc    Set chip's suffixIcon size width to 10fp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0710
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0710', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0710';
@@ -1486,10 +1628,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0720
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0720
-     * @tc.desc    Set chip's suffixIcon size width to 10lpx
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0720
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0720', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0720';
@@ -1506,10 +1650,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0730
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0730
-     * @tc.desc    Set chip's suffixIcon size width to 0
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0730
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0730', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0730';
@@ -1526,10 +1672,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0740
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0740
-     * @tc.desc    Set chip's suffixIcon size width to -10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0740
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0740', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0740';
@@ -1546,10 +1694,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0750
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0750
-     * @tc.desc    Set chip's suffixIcon size width to $r('app.integer.name')
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0750
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0750', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0750';
@@ -1566,10 +1716,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0760
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0760
-     * @tc.desc    Set chip's suffixIcon size width to aaa
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0760
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0760', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0760';
@@ -1586,10 +1738,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0770
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0770
-     * @tc.desc    Not set chip's suffixIcon size width
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0770
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0770', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0770';
@@ -1606,10 +1760,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0780
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0780
-     * @tc.desc    Set chip's suffixIcon size height to 20px
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0780
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0780', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0780';
@@ -1626,10 +1782,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0790
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0790
-     * @tc.desc    Set chip's suffixIcon size height to '50%'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0790
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0790', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0790';
@@ -1646,10 +1804,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0800
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0800
-     * @tc.desc    Set chip's suffixIcon size height to 10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0800
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0800', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0800';
@@ -1666,10 +1826,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0810
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0810
-     * @tc.desc    Set chip's suffixIcon size height to 10fp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0810
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0810', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0810';
@@ -1686,10 +1848,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0820
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0820
-     * @tc.desc    Set chip's suffixIcon size height to 10lpx
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0820
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0820', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0820';
@@ -1706,10 +1870,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0830
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0830
-     * @tc.desc    Set chip's suffixIcon size height to 0
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0830
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0830', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0830';
@@ -1726,10 +1892,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0840
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0840
-     * @tc.desc    Set chip's suffixIcon size height to -10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0840
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0840', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0840';
@@ -1746,10 +1914,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0850
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0850
-     * @tc.desc    Set chip's suffixIcon size height to $r('app.integer.name')
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0850
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0850', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0850';
@@ -1766,10 +1936,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0860
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0860
-     * @tc.desc    Set chip's suffixIcon size height to aaa
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0860
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0860', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0860';
@@ -1786,10 +1958,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0870
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0870
-     * @tc.desc    Not set chip's suffixIcon size height
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0870
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0870', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0870';
@@ -1806,10 +1980,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0880
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0880
-     * @tc.desc    Set chip's suffixIcon size width to 10fp and height to 10fp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0880
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0880', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0880';
@@ -1826,10 +2002,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0890
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0890
-     * @tc.desc    Set chip suffixIcon fillColor to Color Red for SVG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0890
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0890', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0890';
@@ -1846,10 +2024,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0900
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0900
-     * @tc.desc    Set chip suffixIcon fillColor to 0xff0000 for SVG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0900
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0900', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0900';
@@ -1866,10 +2046,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0910
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0910
-     * @tc.desc    Set chip suffixIcon fillColor to #ff000000 for SVG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0910
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0910', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0910';
@@ -1886,10 +2068,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0920
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0920
-     * @tc.desc    Set chip suffixIcon fillColor to $r('app.color.yellow') for SVG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0920
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0920', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0920';
@@ -1906,10 +2090,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0930
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0930
-     * @tc.desc    Not set chip suffixIcon fillColor for SVG image
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0930
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0930', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0930';
@@ -1926,10 +2112,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0950
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0950
-     * @tc.desc    Set chip label text to "操作块"
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0950
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0950', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0950';
@@ -1946,10 +2134,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0960
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0960
-     * @tc.desc    Dynamically increase text length in chip label
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0960
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0960', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0960';
@@ -1969,10 +2159,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0970
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0970
-     * @tc.desc    Set chip label fontSize to 20px
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0970
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0970', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0970';
@@ -1989,10 +2181,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0980
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0980
-     * @tc.desc    Set chip label fontSize to '50%'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0980
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0980', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0980';
@@ -2009,10 +2203,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0990
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0990
-     * @tc.desc    Set chip label fontSize to 10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0990
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0990', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0990';
@@ -2029,10 +2225,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1000
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1000
-     * @tc.desc    Set chip label fontSize to 10fp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1000
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1000', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1000';
@@ -2049,10 +2247,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1010
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1010
-     * @tc.desc    Set chip label fontSize to 10lpx
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1010
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1010';
@@ -2069,10 +2269,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1020
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1020
-     * @tc.desc    Set chip label fontSize to 0
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1020
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1020';
@@ -2089,10 +2291,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1030
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1030
-     * @tc.desc    Set chip label fontSize to -10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1030
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1030';
@@ -2109,10 +2313,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1040
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1040
-     * @tc.desc    Set chip label fontSize to $r('app.integer.name')
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1040
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1040';
@@ -2129,10 +2335,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1060
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1060
-     * @tc.desc    Not set chip label fontSize
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1060
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1060', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1060';
@@ -2149,10 +2357,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1070
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1070
-     * @tc.desc    Set 20px spacing between text and left icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1070
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1070', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1070';
@@ -2169,10 +2379,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1080
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1080
-     * @tc.desc    Set 50% spacing between text and left icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1080
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1080', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1080';
@@ -2189,10 +2401,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1090
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1090
-     * @tc.desc    Set 10vp spacing between text and left icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1090
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1090', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1090';
@@ -2209,10 +2423,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1100
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1100
-     * @tc.desc    Set 10fp spacing between text and left icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1100
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1100';
@@ -2229,10 +2445,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1110
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1110
-     * @tc.desc    Set 10lpx spacing between text and left icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1110
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1110', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1110';
@@ -2249,10 +2467,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1120
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1120
-     * @tc.desc    Set 0 spacing between text and left icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1120
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1120', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1120';
@@ -2269,10 +2489,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1130
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1130
-     * @tc.desc    Set -10vp spacing between text and left icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1130
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1130', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1130';
@@ -2289,10 +2511,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1140
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1140
-     * @tc.desc    Set $r('app.integer.name') spacing between text and left icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1140
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1140', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1140';
@@ -2309,10 +2533,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1160
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1160
-     * @tc.desc    Not set spacing between text and left icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1160
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1160', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1160';
@@ -2329,10 +2555,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1170
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1170
-     * @tc.desc    Set 20px spacing between text and right icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1170
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1170', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1170';
@@ -2349,10 +2577,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1180
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1180
-     * @tc.desc    Set 50% spacing between text and right icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1180
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1180', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1180';
@@ -2369,10 +2599,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1190
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1190
-     * @tc.desc    Set 10vp spacing between text and right icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1190
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1190', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1190';
@@ -2389,10 +2621,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1200
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1200
-     * @tc.desc    Set 10fp spacing between text and right icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1200
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1200', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1200';
@@ -2409,10 +2643,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1210
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1210
-     * @tc.desc    Set 10lpx spacing between text and right icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1210
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1210', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1210';
@@ -2429,10 +2665,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1220
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1220
-     * @tc.desc    Set 0 spacing between text and right icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1220
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1220', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1220';
@@ -2449,10 +2687,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1230
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1230
-     * @tc.desc    Set -10vp spacing between text and right icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1230
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1230', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1230';
@@ -2469,10 +2709,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1240
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1240
-     * @tc.desc    Set $r('app.integer.name') spacing between text and right icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1240
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1240', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1240';
@@ -2489,10 +2731,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1260
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1260
-     * @tc.desc    Not set 10lpx spacing between text and right icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1260
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1260', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1260';
@@ -2509,10 +2753,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1270
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1270
-     * @tc.desc    Set 10lpx spacing between text and right icon, 10lpx spacing between text and left icon
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1270
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1270', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1270';
@@ -2529,10 +2775,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1280
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1280
-     * @tc.desc    Set chip label fontColor to Color.Red
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1280
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1280', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1280';
@@ -2549,10 +2797,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1290
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1290
-     * @tc.desc    Set chip label fontColor to 0xffffff
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1290
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1290', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1290';
@@ -2569,10 +2819,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1300
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1300
-     * @tc.desc    Set chip label fontColor to '#ffffff'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1300
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1300', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1300';
@@ -2589,10 +2841,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1310
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1310
-     * @tc.desc    Set chip label fontColor to $r('app.color.yellow')
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1310
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1310', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1310';
@@ -2609,10 +2863,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1320
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1320
-     * @tc.desc    Not set chip label fontColor
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1320
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1320', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1320';
@@ -2629,10 +2885,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1330
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1330
-     * @tc.desc    Set chip label fontFamily to 'HarmonyOS Sans'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1330
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1330', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1330';
@@ -2649,10 +2907,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1340
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1340
-     * @tc.desc    Not set chip label fontFamily
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1340
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1340', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1340';
@@ -2669,10 +2929,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1350
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1350
-     * @tc.desc    Set chip label backgroundColor to Color.Red
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1350
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1350', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1350';
@@ -2689,10 +2951,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1360
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1360
-     * @tc.desc    Set chip label backgroundColor to 0xffffff
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1360
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1360', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1360';
@@ -2709,10 +2973,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1370
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1370
-     * @tc.desc    Set chip label backgroundColor to '#ffffff'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1370
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1370', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1370';
@@ -2729,10 +2995,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1380
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1380
-     * @tc.desc    Set chip label backgroundColor to $r('app.color.yellow')
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1380
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1380', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1380';
@@ -2749,10 +3017,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1390
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1390
-     * @tc.desc    Not set chip label backgroundColor
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1390
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1390', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1390';
@@ -2769,10 +3039,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1400
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1400
-     * @tc.desc    Set chip label borderRadius to 50px
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1400
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1400', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1400';
@@ -2789,10 +3061,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1410
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1410
-     * @tc.desc    Set chip label borderRadius to 50%
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1410
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1410', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1410';
@@ -2809,10 +3083,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1420
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1420
-     * @tc.desc    Set chip label borderRadius to 10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1420
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1420', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1420';
@@ -2829,10 +3105,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1430
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1430
-     * @tc.desc    Set chip label borderRadius to 10fp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1430
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1430', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1430';
@@ -2849,10 +3127,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1440
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1440
-     * @tc.desc    Set chip label borderRadius to 10lpx
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1440
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1440', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1440';
@@ -2869,10 +3149,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1450
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1450
-     * @tc.desc    Set chip label borderRadius to 0
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1450
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1450', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1450';
@@ -2889,10 +3171,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1460
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1460
-     * @tc.desc    Set chip label borderRadius to -10vp
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1460
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1460', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1460';
@@ -2909,10 +3193,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1470
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1470
-     * @tc.desc    Set chip label borderRadius to $r('app.integer.name')
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1470
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1470', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1470';
@@ -2929,10 +3215,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1490
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1490
-     * @tc.desc    Not set chip label borderRadius
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1490
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1490', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1490';
@@ -2949,10 +3237,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1500
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1500
-     * @tc.desc    Set operation block dimensions smaller than combined prefix icon text and suffix icon widths
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1500
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1500', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1500';
@@ -2969,10 +3259,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1510
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1510
-     * @tc.desc    Dynamically adjust operation block and three child component dimensions
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1510
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1510', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1510';
@@ -2995,10 +3287,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1520
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1520
-     * @tc.desc    Operation block contains three components with mismatched heights
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1520
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1520', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1520';
@@ -3015,10 +3309,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1530
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1530
-     * @tc.desc    Operation block holds three width-mismatched components exceeding chip dimensions
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1530
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1530', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1530';
@@ -3035,10 +3331,12 @@ export default function UIComponentTextChipInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1540
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1540
-     * @tc.desc    Operation block contains three width-mismatched components smaller than chip size
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1540
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1540', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1540';

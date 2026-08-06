@@ -55,13 +55,13 @@ export default function UiComponentArrowKey() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_ARROW_KEY_0030
-       * @tc.name    TextInput/TextArea/Search, enter a single line of text, and click the up arrow on the keyboard
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ARROW_KEY_0030
+     * @tc.name   : TextInput/TextArea/Search, enter a single line of text, and click the up arrow on the keyboard
+     * @tc.desc   : Verify arrow key interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ARROW_KEY_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentArrowKey/UiComponentArrowKey01")
@@ -86,13 +86,13 @@ export default function UiComponentArrowKey() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_ARROW_KEY_0040
-       * @tc.name    TextInput/TextArea/Search, enter a single line of text, and click the down arrow on the keyboard
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ARROW_KEY_0040
+     * @tc.name   : TextInput/TextArea/Search, enter a single line of text, and click the down arrow on the keyboard
+     * @tc.desc   : Verify arrow key interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ARROW_KEY_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentArrowKey/UiComponentArrowKey02")
@@ -117,13 +117,13 @@ export default function UiComponentArrowKey() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_ARROW_KEY_0010
-       * @tc.name    TextInput/TextArea/Search, enter a single line of text, and click the Home button on the keyboard
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ARROW_KEY_0010
+     * @tc.name   : TextInput/TextArea/Search, enter a single line of text, and click the Home button on the keyboard
+     * @tc.desc   : Verify arrow key interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ARROW_KEY_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentArrowKey/UiComponentArrowKey03")
@@ -148,13 +148,13 @@ export default function UiComponentArrowKey() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_ARROW_KEY_0020
-       * @tc.name    TextInput/TextArea/Search, enter a single line of text, and click the end button on the keyboard
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ARROW_KEY_0020
+     * @tc.name   : TextInput/TextArea/Search, enter a single line of text, and click the end button on the keyboard
+     * @tc.desc   : Verify arrow key interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ARROW_KEY_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentArrowKey/UiComponentArrowKey04")
@@ -179,13 +179,13 @@ export default function UiComponentArrowKey() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_ARROW_KEY_0050
-       * @tc.name    TextInput/TextArea/Search, enter a single line of text, and click the end button on the keyboard
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ARROW_KEY_0050
+     * @tc.name   : TextInput/TextArea/Search, enter a single line of text, and click the end button on the keyboard
+     * @tc.desc   : Verify arrow key interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ARROW_KEY_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentArrowKey/UiComponentArrowKey05")
@@ -211,13 +211,13 @@ export default function UiComponentArrowKey() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_ARROW_KEY_0110
-       * @tc.name    TextInput/TextArea/Search component set onTextSelectionChange
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ARROW_KEY_0110
+     * @tc.name   : TextInput/TextArea/Search component set onTextSelectionChange
+     * @tc.desc   : Verify arrow key interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ARROW_KEY_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentArrowKey/UiComponentArrowKey06")
@@ -251,13 +251,13 @@ export default function UiComponentArrowKey() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_ARROW_KEY_0080
-       * @tc.name    halfleading is true, switch the input box type.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ARROW_KEY_0080
+     * @tc.name   : halfleading is true, switch the input box type.
+     * @tc.desc   : Verify arrow key interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ARROW_KEY_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentArrowKey/UiComponentArrowKey07")

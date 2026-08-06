@@ -42,8 +42,8 @@ export default function UiArkuiTexttimer() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0020
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0020
-     * @tc.desc   : Set the isCountDown value to true and the count value to 10000 for the TextTimer
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -69,8 +69,8 @@ export default function UiArkuiTexttimer() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0030
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0030
-     * @tc.desc   : Set the isCountDown value to true and the count value to 0 for the TextTimer
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

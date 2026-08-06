@@ -38,10 +38,12 @@ export default function UIComponentListAndGridGridMirrorTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100
+     * @tc.name   : Listandgrid grid mirror layout
+     * @tc.desc   : Verify listandgrid grid mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100 start.`);
@@ -55,10 +57,12 @@ export default function UIComponentListAndGridGridMirrorTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0380
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0380
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0380
+     * @tc.name   : Listandgrid grid mirror layout
+     * @tc.desc   : Verify listandgrid grid mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100 start.`);
@@ -74,10 +78,12 @@ export default function UIComponentListAndGridGridMirrorTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0440
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0440
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0440
+     * @tc.name   : Listandgrid grid mirror layout
+     * @tc.desc   : Verify listandgrid grid mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0440', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0440 start.`);
@@ -91,10 +97,12 @@ export default function UIComponentListAndGridGridMirrorTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450
+     * @tc.name   : Listandgrid grid mirror layout
+     * @tc.desc   : Verify listandgrid grid mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450 start.`);
@@ -108,10 +116,12 @@ export default function UIComponentListAndGridGridMirrorTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430
+     * @tc.name   : Listandgrid grid mirror layout
+     * @tc.desc   : Verify listandgrid grid mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430 start.`);
@@ -125,10 +135,12 @@ export default function UIComponentListAndGridGridMirrorTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420
+     * @tc.name   : Listandgrid grid mirror layout
+     * @tc.desc   : Verify listandgrid grid mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420 start.`);

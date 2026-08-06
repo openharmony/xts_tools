@@ -59,10 +59,12 @@ export default function UIComponentListAndGridWaterFlowSpring() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0160_620
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0160_620
-     * @tc.desc    WaterFlow main axis is consistent with column direction, edge effect is set to Fade when child components exceed one screen, effective
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0160_620
+     * @tc.name   : Listandgrid waterflow spring
+     * @tc.desc   : Verify listandgrid waterflow spring interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0160_620', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0160_620';
@@ -86,10 +88,12 @@ export default function UIComponentListAndGridWaterFlowSpring() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0170_446
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0170_446
-     * @tc.desc    WaterFlow main axis is consistent with column direction, edge effect is set to None when child components exceed one screen, effective
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0170_446
+     * @tc.name   : Listandgrid waterflow spring
+     * @tc.desc   : Verify listandgrid waterflow spring interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0170_446', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0170_446';
@@ -113,10 +117,12 @@ export default function UIComponentListAndGridWaterFlowSpring() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0190_782
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0190_782
-     * @tc.desc    WaterFlow main axis is consistent with column direction, EdgeEffectOptions is set to false when child components are less than one screen, edge effect is Spring
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0190_782
+     * @tc.name   : Listandgrid waterflow spring
+     * @tc.desc   : Verify listandgrid waterflow spring interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0190_782', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0190_782';

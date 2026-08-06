@@ -63,10 +63,12 @@ export default function UIComponentMediaImageReset() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0034
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0034
-     * @tc.desc    Combine Image component with draggable
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0034
+     * @tc.name   : Media Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0034', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0034';
@@ -89,10 +91,12 @@ export default function UIComponentMediaImageReset() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0035
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0035
-     * @tc.desc    Combine Image component with draggable
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0035
+     * @tc.name   : Media Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0035', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0035';
@@ -112,10 +116,12 @@ export default function UIComponentMediaImageReset() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0039
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0039
-     * @tc.desc    Combine Image component with draggable
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0039
+     * @tc.name   : Media Image reset
+     * @tc.desc   : Verify media Image reset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0039', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0039';

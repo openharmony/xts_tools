@@ -27,11 +27,13 @@ export default function ActionBlockageDragBatch8Test() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0620
-     * @tc.name Image+Menu鼠标 - 移动中未超5S WAITING
-     * @tc.desc Image组件绑定菜单_鼠标_鼠标移动过程中（未超过5S），状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0620
+     * @tc.name   : Image+Menu鼠标 - 移动中未超5S WAITING
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0620', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0620';
@@ -57,11 +59,13 @@ export default function ActionBlockageDragBatch8Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0630
-     * @tc.name Image+Menu鼠标 - 移动中未超5S READY
-     * @tc.desc Image组件绑定菜单_鼠标_鼠标移动过程中（未超过5S），状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0630
+     * @tc.name   : Image+Menu鼠标 - 移动中未超5S READY
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0630', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0630';
@@ -87,11 +91,13 @@ export default function ActionBlockageDragBatch8Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0640
-     * @tc.name Image+Menu鼠标 - 移动中超过5S
-     * @tc.desc Image组件绑定菜单_鼠标_鼠标移动过程中（超过5S）
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0640
+     * @tc.name   : Image+Menu鼠标 - 移动中超过5S
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0640', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0640';

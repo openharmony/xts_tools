@@ -27,10 +27,13 @@ export default function UiComponentMenuMirrorImageTest() {
       }
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0010
-     * 用例描述: bindContextMenu首次渲染：简体中文+Auto
-     * 自动化程度: 70%（长按可自动化，右键和镜像效果需手动验证）
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0010
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0010', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0010 begin');
@@ -79,10 +82,13 @@ export default function UiComponentMenuMirrorImageTest() {
       Logger.info('MANUAL TEST REQUIRED: Right-click button, verify Ltr layout');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0020
-     * 用例描述: bindContextMenu首次渲染：简体中文+Ltr
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0020
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0020', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0020 begin');
@@ -129,10 +135,13 @@ export default function UiComponentMenuMirrorImageTest() {
       Logger.info('MANUAL TEST REQUIRED: Right-click button, verify Ltr layout');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0030
-     * 用例描述: bindContextMenu首次渲染：简体中文+Rtl
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0030
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0030', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0030 begin');
@@ -179,10 +188,13 @@ export default function UiComponentMenuMirrorImageTest() {
       Logger.info('MANUAL TEST REQUIRED: Right-click button, verify Rtl layout (mirrored)');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0040
-     * 用例描述: bindContextMenu首次渲染：简体中文+undefined
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0040
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0040', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0040 begin');
@@ -229,10 +241,13 @@ export default function UiComponentMenuMirrorImageTest() {
       Logger.info('MANUAL TEST REQUIRED: Right-click button, verify default Ltr layout');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0050
-     * 用例描述: bindContextMenu首次渲染：繁体中文+Auto
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0050
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0050', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0050 begin');
@@ -254,10 +269,13 @@ export default function UiComponentMenuMirrorImageTest() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0050 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0060
-     * 用例描述: bindContextMenu首次渲染：繁体中文+Ltr
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0060
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0060', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0060 begin');
@@ -279,10 +297,13 @@ export default function UiComponentMenuMirrorImageTest() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0060 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0080
-     * 用例描述: bindContextMenu首次渲染：繁体中文+undefined
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0080
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0080', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0080 begin');
@@ -304,10 +325,13 @@ export default function UiComponentMenuMirrorImageTest() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0080 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0090
-     * 用例描述: bindContextMenu首次渲染：英语+Auto
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0090
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0090', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0090 begin');
@@ -329,10 +353,13 @@ export default function UiComponentMenuMirrorImageTest() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0090 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0100
-     * 用例描述: bindContextMenu首次渲染：英语+Ltr
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0100
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0100', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0100 begin');
@@ -354,10 +381,13 @@ export default function UiComponentMenuMirrorImageTest() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0100 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0110
-     * 用例描述: bindContextMenu首次渲染：英语+Rtl
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0110
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0110', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0110 begin');
@@ -379,10 +409,13 @@ export default function UiComponentMenuMirrorImageTest() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0110 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0130
-     * 用例描述: bindContextMenu首次渲染：藏文+Auto
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0130
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0130', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0130 begin');
@@ -404,10 +437,13 @@ export default function UiComponentMenuMirrorImageTest() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0130 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0140
-     * 用例描述: bindContextMenu首次渲染：藏文+Ltr
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0140
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0140', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0140 begin');
@@ -429,10 +465,13 @@ export default function UiComponentMenuMirrorImageTest() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0140 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0150
-     * 用例描述: bindContextMenu首次渲染：藏文+Rtl
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0150
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0150', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0150 begin');
@@ -454,10 +493,13 @@ export default function UiComponentMenuMirrorImageTest() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0150 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0160
-     * 用例描述: bindContextMenu首次渲染：藏文+undefined
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0160
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0160', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0160 begin');

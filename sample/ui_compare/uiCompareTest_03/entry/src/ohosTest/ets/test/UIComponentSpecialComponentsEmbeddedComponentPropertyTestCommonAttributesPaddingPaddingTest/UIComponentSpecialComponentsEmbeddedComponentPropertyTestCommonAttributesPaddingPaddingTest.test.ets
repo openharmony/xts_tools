@@ -68,10 +68,12 @@ export default function UIComponentSpecialComponentsEmbeddedComponentPropertyTes
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_PROPERTYTEST_COMMONATTRIBUTES_PADDING_PADDING_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_PROPERTYTEST_COMMONATTRIBUTES_PADDING_PADDING_0010
-     * @tc.desc    Set padding for EmbeddedComponent using Margin
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_PROPERTYTEST_COMMONATTRIBUTES_PADDING_PADDING_0010
+     * @tc.name   : Special components embeddedcomponent propertytest commonattributes padding
+     * @tc.desc   : Verify special components embeddedcomponent propertytest commonattributes padding interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_PROPERTYTEST_COMMONATTRIBUTES_PADDING_PADDING_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_PROPERTYTEST_COMMONATTRIBUTES_PADDING_PADDING_0010';
@@ -97,10 +99,12 @@ export default function UIComponentSpecialComponentsEmbeddedComponentPropertyTes
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_PROPERTYTEST_COMMONATTRIBUTES_PADDING_PADDING_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_PROPERTYTEST_COMMONATTRIBUTES_PADDING_PADDING_0020
-     * @tc.desc    Set padding for EmbeddedComponent using Length
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_PROPERTYTEST_COMMONATTRIBUTES_PADDING_PADDING_0020
+     * @tc.name   : Special components embeddedcomponent propertytest commonattributes padding
+     * @tc.desc   : Verify special components embeddedcomponent propertytest commonattributes padding interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_PROPERTYTEST_COMMONATTRIBUTES_PADDING_PADDING_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_PROPERTYTEST_COMMONATTRIBUTES_PADDING_PADDING_0020';

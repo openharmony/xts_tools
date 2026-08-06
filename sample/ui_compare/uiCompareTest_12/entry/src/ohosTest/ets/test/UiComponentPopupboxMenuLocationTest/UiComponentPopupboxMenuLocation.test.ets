@@ -41,8 +41,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0010
      * @tc.name   : Alert dialog new interface showinsubwindow=true
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0010", Level.LEVEL3, async (done: Function) => {
@@ -66,8 +67,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0020
      * @tc.name   : Alert dialog new interface showinsubwindow=false
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0020", Level.LEVEL3, async (done: Function) => {
@@ -91,8 +93,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0030
      * @tc.name   : Alert dialog - offset-dx=500
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0030", Level.LEVEL3, async (done: Function) => {
@@ -116,8 +119,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0040
      * @tc.name   : Alert dialog - offset-dx=-500
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0040", Level.LEVEL3, async (done: Function) => {
@@ -141,8 +145,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0050
      * @tc.name   : Alert dialog - offset-dy=500
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0050", Level.LEVEL3, async (done: Function) => {
@@ -166,8 +171,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0060
      * @tc.name   : Alert dialog - offset-dy=-500
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0060", Level.LEVEL3, async (done: Function) => {
@@ -191,8 +197,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0070
      * @tc.name   : Alert dialog - alignment-TopStart at top-left corner of screen
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0070", Level.LEVEL3, async (done: Function) => {
@@ -216,8 +223,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0080
      * @tc.name   : Alert dialog - alignment-Top horizontally centered at top of screen
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0080", Level.LEVEL3, async (done: Function) => {
@@ -241,8 +249,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0090
      * @tc.name   : Alert dialog - alignment-TopEnd at top-right corner of screen
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0090", Level.LEVEL3, async (done: Function) => {
@@ -266,8 +275,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0100
      * @tc.name   : Alert dialog - alignment-Start vertically centered at left side of screen
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0100", Level.LEVEL3, async (done: Function) => {
@@ -291,8 +301,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0110
      * @tc.name   : Alert dialog - alignment-Center horizontally and vertically centered on screen
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0110", Level.LEVEL3, async (done: Function) => {
@@ -316,8 +327,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0120
      * @tc.name   : Alert dialog - alignment-End vertically centered at right side of screen
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0120", Level.LEVEL3, async (done: Function) => {
@@ -341,8 +353,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0130
      * @tc.name   : Alert dialog - alignment-BottomStart at bottom-left corner of screen
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0130", Level.LEVEL3, async (done: Function) => {
@@ -366,8 +379,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0140
      * @tc.name   : Alert dialog - alignment-Bottom horizontally centered at bottom of screen
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0140", Level.LEVEL3, async (done: Function) => {
@@ -391,8 +405,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0150
      * @tc.name   : Alert dialog - alignment-BottomEnd at bottom-right corner of screen
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0150", Level.LEVEL3, async (done: Function) => {
@@ -416,8 +431,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0170
      * @tc.name   : isModal=false - bind 1 popup
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0170", Level.LEVEL3, async (done: Function) => {
@@ -449,8 +465,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0180
      * @tc.name   : isModal=false - bind 2 popups
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0180", Level.LEVEL3, async (done: Function) => {
@@ -482,8 +499,9 @@ export default function UiComponentPopupboxMenuLocation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0200
      * @tc.name   : Continuous popup in mobile - background operation
+     * @tc.desc   : Verify popupbox menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0200", Level.LEVEL3, async (done: Function) => {

@@ -27,9 +27,13 @@ export default function UiComponentMenuExitBatch3Test() {
       }
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0100
-     * 用例描述: bindMenu不设置isShown，Array<MenuElement>，目标节点销毁
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0100
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0100', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0100 begin');
@@ -57,9 +61,13 @@ export default function UiComponentMenuExitBatch3Test() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0100 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0110
-     * 用例描述: bindMenu+isShown综合退出逻辑测试
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0110
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0110', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0110 begin');
@@ -107,9 +115,13 @@ export default function UiComponentMenuExitBatch3Test() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0110 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0120
-     * 用例描述: bindMenu+isShown目标节点销毁
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0120
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0120', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0120 begin');
@@ -136,9 +148,13 @@ export default function UiComponentMenuExitBatch3Test() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0120 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0130
-     * 用例描述: bindContextMenu应用侧主动关闭逻辑测试
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0130
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0130', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0130 begin');
@@ -170,9 +186,13 @@ export default function UiComponentMenuExitBatch3Test() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0130 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0140
-     * 用例描述: bindContextMenu TouchOutSide（状态栏、导航条）
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0140
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0140', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0140 begin');
@@ -195,9 +215,13 @@ export default function UiComponentMenuExitBatch3Test() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0140 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0150
-     * 用例描述: bindContextMenu综合退出逻辑测试
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0150
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0150', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0150 begin');
@@ -233,9 +257,13 @@ export default function UiComponentMenuExitBatch3Test() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0150 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0160
-     * 用例描述: bindContextMenu目标节点销毁
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0160
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0160', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0160 begin');

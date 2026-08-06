@@ -41,10 +41,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0040
-     * @tc.desc   : Active state text color setting, string type: #00ffff
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0040', Level.LEVEL3, async (done: Function) => {
@@ -67,10 +67,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0050
-     * @tc.desc   : Active state text color setting, string type: rgb(255, 100, 255)
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0050', Level.LEVEL3, async (done: Function) => {
@@ -93,10 +93,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0060
-     * @tc.desc   : Active state text color setting, number type: 0xffaaaa
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0060', Level.LEVEL3, async (done: Function) => {
@@ -119,10 +119,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0070
-     * @tc.desc   : Active state text color setting, resource type: $r(sys.color.ohos_id_color_palette10)
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0070', Level.LEVEL3, async (done: Function) => {
@@ -145,10 +145,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0080
-     * @tc.desc   : Confirm and set icon color, Color.Yellow
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0080', Level.LEVEL3, async (done: Function) => {
@@ -171,10 +171,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0090
-     * @tc.desc   : Active state icon fill color setting, string type: #00ffff
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0090', Level.LEVEL3, async (done: Function) => {
@@ -197,10 +197,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0100
-     * @tc.desc   : Active state icon fill color setting, string type: rgb(255, 100, 255)
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0100', Level.LEVEL3, async (done: Function) => {
@@ -223,10 +223,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0110
-     * @tc.desc   : Active state icon fill color setting, number type: 0xffaaaa
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0110', Level.LEVEL3, async (done: Function) => {
@@ -249,10 +249,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0120
-     * @tc.desc   : Active state icon fill color setting, resource type: $r(sys.color.ohos_id_color_palette10)
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0120', Level.LEVEL3, async (done: Function) => {
@@ -275,10 +275,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0130
-     * @tc.desc   : Confirm and set background color, Color.Yellow
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0130', Level.LEVEL3, async (done: Function) => {
@@ -301,10 +301,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0140
-     * @tc.desc   : Active state background color setting, string type: #00ffff
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0140', Level.LEVEL3, async (done: Function) => {
@@ -327,10 +327,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0150
-     * @tc.desc   : Active state background color setting, string type: rgb(255, 100, 255)
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0150', Level.LEVEL3, async (done: Function) => {
@@ -353,10 +353,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0160
-     * @tc.desc   : Active state background color setting, number type: 0xffaaaa
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0160', Level.LEVEL3, async (done: Function) => {
@@ -379,10 +379,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0170
-     * @tc.desc   : Active state background color setting, resource type: $r(sys.color.ohos_id_color_palette10)
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0170', Level.LEVEL3, async (done: Function) => {
@@ -405,10 +405,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0180
-     * @tc.desc   : Combined color settings for activated state background, icon, and text colors
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0180', Level.LEVEL3, async (done: Function) => {
@@ -447,10 +447,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0190
-     * @tc.desc   : Chip state when not activated
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0190', Level.LEVEL3, async (done: Function) => {
@@ -466,10 +466,10 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0220
-     * @tc.desc   : Confirm operation block non-activated state
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0220', Level.LEVEL3, async (done: Function) => {

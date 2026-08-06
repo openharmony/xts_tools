@@ -43,6 +43,7 @@ export default function SpecialComponentsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0290
      * @tc.name   : Close the menu by calling the close method of getContextMenuController.
+     * @tc.desc   : Verify special components uicontext addmenufocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -71,7 +72,7 @@ export default function SpecialComponentsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0250
      * @tc.name   : Click on the TextInput component, rotate the screen to landscape mode, the soft keyboard does not
-     * fully close, and the textInput remains focused.
+     * @tc.desc   : Verify special components uicontext addmenufocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

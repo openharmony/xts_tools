@@ -43,8 +43,8 @@ export default function TextSpanLayout() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_LAYOUT_0010
      * @tc.name   : Span component layout test, component size
-     * @tc.type   : function
-     * @tc.desc   : Span组件布局测试，组件大小
+     * @tc.desc   : Verify text span layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
      */

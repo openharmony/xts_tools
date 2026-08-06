@@ -55,13 +55,13 @@ export default function UiComponentTextInputSymbolGlyph() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0050
-       * @tc.name    TextInput component, set cancelButton{CancelButtonStyle.CONSTANT,SymbolGlyphModifier}, and dynamically switch fontsize
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0050
+     * @tc.name   : TextInput component, set cancelButton{CancelButtonStyle.CONSTANT,SymbolGlyphModifier}, and dynamically switch fontsize
+     * @tc.desc   : Verify textinput symbolglyph interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph01")
@@ -84,13 +84,13 @@ export default function UiComponentTextInputSymbolGlyph() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0040
-       * @tc.name    TextInput component, set cancelButton{CancelButtonStyle.CONSTANT,SymbolGlyphModifier}, and dynamically switch fontColor
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0040
+     * @tc.name   : TextInput component, set cancelButton{CancelButtonStyle.CONSTANT,SymbolGlyphModifier}, and dynamically switch fontColor
+     * @tc.desc   : Verify textinput symbolglyph interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph02")
@@ -113,13 +113,13 @@ export default function UiComponentTextInputSymbolGlyph() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0060
-       * @tc.name    TextInput component, set cancelButton{CancelButtonStyle.CONSTANT,SymbolGlyphModifier}, and dynamically switch fontweight
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0060
+     * @tc.name   : TextInput component, set cancelButton{CancelButtonStyle.CONSTANT,SymbolGlyphModifier}, and dynamically switch fontweight
+     * @tc.desc   : Verify textinput symbolglyph interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph03")
@@ -142,13 +142,13 @@ export default function UiComponentTextInputSymbolGlyph() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0150
-       * @tc.name    TextInput component, set cancelButton{CancelButtonStyle.CONSTANT,SymbolGlyphModifier}, and enter extra-long text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0150
+     * @tc.name   : TextInput component, set cancelButton{CancelButtonStyle.CONSTANT,SymbolGlyphModifier}, and enter extra-long text
+     * @tc.desc   : Verify textinput symbolglyph interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph04")
@@ -164,13 +164,13 @@ export default function UiComponentTextInputSymbolGlyph() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0110
-       * @tc.name    TextInput component, set the input box type to password/NEW_PASSWORD/NUMBER_PASSWORD, and change the system font size
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0110
+     * @tc.name   : TextInput component, set the input box type to password/NEW_PASSWORD/NUMBER_PASSWORD, and change the system font size
+     * @tc.desc   : Verify textinput symbolglyph interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph05")
@@ -188,13 +188,13 @@ export default function UiComponentTextInputSymbolGlyph() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0120
-       * @tc.name    TextInput component, set the input box type to password/NEW_PASSWORD/NUMBER_PASSWORD, and change the system font size to fp
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0120
+     * @tc.name   : TextInput component, set the input box type to password/NEW_PASSWORD/NUMBER_PASSWORD, and change the system font size to fp
+     * @tc.desc   : Verify textinput symbolglyph interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph06")
@@ -212,13 +212,13 @@ export default function UiComponentTextInputSymbolGlyph() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0220
-       * @tc.name    System dark and light color test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0220
+     * @tc.name   : System dark and light color test
+     * @tc.desc   : Verify textinput symbolglyph interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0220 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph07")

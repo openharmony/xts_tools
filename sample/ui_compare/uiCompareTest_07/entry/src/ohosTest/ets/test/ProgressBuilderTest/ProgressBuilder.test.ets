@@ -42,7 +42,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0110
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Dynamically toggle the values of color, backgroundColor, and style
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -70,7 +71,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0620
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Dynamically toggle the values of color, backgroundColor, and style
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -90,7 +92,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0370
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value parameter of the Progress component interface Progress(options: ProgressOptions<Type>) to an abnormal value { value: null }, and pass value: 30 to the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -110,7 +113,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0580
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set a developer-defined parameter {boolean} for the Progress component.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -135,7 +139,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0520
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the enable parameter of the Progress component to an exceptional value {null}.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -160,7 +165,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0060
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : The enable parameter of the Progress component is not set.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -185,7 +191,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0450
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the parameters of the Progress component interface Progress(options: ProgressOptions<Type>) to normal values {value: 80, total: 50.3}, and pass value: 30 and total: 80 through contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -205,7 +212,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0290
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value property of the Progress component to a normal value {value: 100}, and pass value: 30 and total: 80 through contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -225,7 +233,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0500
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value property of the Progress component to a normal value {value:10, total:0}, and pass value: 30 and total: 80 through contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -245,7 +254,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0240
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value property of the Progress component to a normal value {value:null}, and pass value: 30 and total: 80 through contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -265,7 +275,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0570
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the total parameter of the Progress component to a normal value {value: 80, total: 50}, pass value and total through the builder, and set the component's own specific properties (such as color, backgroundColor, and style) on the Progress component itself.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -285,7 +296,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0260
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value property of the Progress component to a normal value {value: -10}, and pass value: 30 and total: 80 through contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -305,7 +317,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0130
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Dynamically switch the value of total.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -330,7 +343,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0230
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value property of the Progress component to an exceptional value {value: 150}, and pass value: 30 and total: 80 through contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -350,7 +364,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0380
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : In the Progress component interface Progress(options: ProgressOptions<Type>), set the value parameter to an abnormal value {value: undefined}, and pass value: 30 to contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -370,7 +385,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0480
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value property of the Progress component to an exceptional value {value:80, total:50.3}, and pass value: 80 and total: 30 through contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -390,7 +406,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0070
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the width and height of the Progress component to be larger than the builder area.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -410,7 +427,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0190
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Support common events.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -432,7 +450,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0460
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the parameters of the Progress component interface Progress(options: ProgressOptions<Type>) to normal values {value: 80, total: 50.3}, and pass value: 30 and total: 80.5 through contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -451,12 +470,13 @@ export default function ProgressBuilder() {
 
 
     /*
-      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0080
-      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0080
-      * @tc.type   : Set the width and height of the Progress component to be smaller than the builder area.
-      * @tc.size   : MediumTest
-      * @tc.level  : 2
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0080
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
+     * @tc.type   : Set the width and height of the Progress component to be smaller than the builder area.
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0080 start.`);
       Settings.createWindow("testability/pages/ProgressBuilder/ProgressBuilder0080")
@@ -473,7 +493,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0040
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Place an empty builder inside contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -493,7 +514,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0310
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the type parameter of the Progress component interface Progress(options: ProgressOptions<Type>) to a normal value Capsule, and pass value: 30 and total: 80 through contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -513,7 +535,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0600
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set a developer-defined parameter {string} for the Progress component.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -538,7 +561,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0030
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set contentModifier to undefined/null/not set.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -558,7 +582,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0440
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : When setting the Progress component interface Progress(options: ProgressOptions<Type>), the parameters are set to normal values {value: 10, total: 150}, and the contentModifier is passed with value: 30 and total: 80.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -578,7 +603,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0250
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : When setting the Progress component interface Progress(options: ProgressOptions<Type>), the parameters are set to undefined, and the contentModifier is passed with value: 30 and total: 80.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -598,7 +624,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0530
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the enable parameter of the Progress component to an abnormal value {undefined}.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -623,7 +650,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0160
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Dynamically switch the value of value.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -648,7 +676,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0330
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the type parameter of the Progress component interface Progress(options: ProgressOptions<Type>) to the normal value Linear, and pass value: 30 and total: 80 to the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -668,7 +697,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0550
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the enable parameter of the Progress component to the normal value {true}.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -693,7 +723,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0020
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : The contentModifier dynamically switches between normal values and undefined or null.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -718,7 +749,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0410
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value parameter in the Progress component interface Progress(options: ProgressOptions<Type>) to the normal value {value: 1.5}, and pass value: 30 to the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -738,7 +770,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0590
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the developer-defined parameter {number()[]} for the Progress component.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -763,7 +796,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0150
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Dynamically switch the value property.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -788,7 +822,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0470
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the parameters in the Progress component interface Progress(options: ProgressOptions<Type>) to the normal values {value: 80, total: 50.3}, and pass value: 80 and total: -30 to the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -808,7 +843,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0090
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Combine with the Radio component.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -833,7 +869,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0350
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the type parameter in the Progress component interface Progress(options: ProgressOptions<Type>) to the normal value ScaleRing, and pass value: 30 and total: 80 to the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -853,7 +890,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0430
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value parameter in the Progress component interface Progress(options: ProgressOptions<Type>) to the normal value {value: 50}, and pass value: 30 to the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -873,7 +911,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0220
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Is animation supported?
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -893,7 +932,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0340
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the type parameter in the Progress component interface Progress(options: ProgressOptions<Type>) to the normal value Ring, and pass value: 30 and total: 80 to the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -913,7 +953,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0490
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the parameters in the Progress component interface Progress(options: ProgressOptions<Type>) to the normal values {value: 80, total: 50}, and pass value: 30 and total: 80 to the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -933,7 +974,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0510
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the parameters in the Progress component interface Progress(options: ProgressOptions<Type>) to the normal values {value: 80, total: -50}, and pass value: 30 and total: 80 to the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -953,7 +995,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0420
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value parameter in the Progress component interface Progress(options: ProgressOptions<Type>) to the normal value {value: 100}, and pass value: 30 to the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -973,7 +1016,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0610
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set multiple contentModifiers.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -993,7 +1037,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0360
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value parameter in the Progress component interface Progress(options: ProgressOptions<Type>) to the abnormal value {value: 150}, and pass value: 30 to the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1013,7 +1058,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0170
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Dynamically switch animations.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1038,7 +1084,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0540
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the enable parameter of the Progress component to the normal value {false}.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1063,7 +1110,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0120
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Dynamically switch the value of contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1088,7 +1136,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0270
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value property of the Progress component to the normal value {value: 0}, and pass value: 30 and total: 80 to the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1108,7 +1157,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0050
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : The effect order of setting both the parameter “value” and the attribute “value” for the “Progress” element is being tested.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1128,7 +1178,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0390
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value parameter in the Progress component interface Progress(options: ProgressOptions<Type>) to a normal value {value: -10}, and pass value: 30 to contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1148,7 +1199,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0320
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the type parameter in the Progress component interface Progress(options: ProgressOptions<Type>) to the normal value Eclipse, and pass value: 30 and total: 80 to contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1169,7 +1221,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0140
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Dynamically switch the type parameter.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1194,7 +1247,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0560
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the Progress component's total parameter to a normal value {value: 80, total: 50}, and pass color through builder without passing value or total.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1214,7 +1268,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0280
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value property of the Progress component to a normal value {value: 1.5}, and pass value: 30 and total: 80 through contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1234,7 +1289,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0400
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value parameter in the Progress component interface Progress(options: ProgressOptions<Type>) to a normal value {value: 0}, and pass value: 30 through contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1254,7 +1310,8 @@ export default function ProgressBuilder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0300
+     * @tc.name   : Information Progress contentModifier builder
+     * @tc.desc   : Verify information Progress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the value property of the Progress component to a normal value {value: 50}, and pass value: 30 and total: 80 through contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2

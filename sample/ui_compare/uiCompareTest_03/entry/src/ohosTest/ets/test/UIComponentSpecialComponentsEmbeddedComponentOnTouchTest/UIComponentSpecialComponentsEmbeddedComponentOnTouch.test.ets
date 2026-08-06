@@ -68,10 +68,12 @@ export default function UIComponentSpecialComponentsEmbeddedComponentOnTouch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0010
-     * @tc.desc    Finger touch
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0010
+     * @tc.name   : Special components embeddedcomponent ontouch
+     * @tc.desc   : Verify special components embeddedcomponent ontouch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0010';
@@ -110,10 +112,12 @@ export default function UIComponentSpecialComponentsEmbeddedComponentOnTouch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0020
-     * @tc.desc    Finger press
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0020
+     * @tc.name   : Special components embeddedcomponent ontouch
+     * @tc.desc   : Verify special components embeddedcomponent ontouch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0020';
@@ -143,10 +147,12 @@ export default function UIComponentSpecialComponentsEmbeddedComponentOnTouch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0030
-     * @tc.desc    Finger release
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0030
+     * @tc.name   : Special components embeddedcomponent ontouch
+     * @tc.desc   : Verify special components embeddedcomponent ontouch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONTOUCH_0030';

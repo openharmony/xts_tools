@@ -41,10 +41,12 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_004
-     * @tc.name    SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_004
-     * @tc.desc    Interactive Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_004
+     * @tc.name   : Optimization of drag and drop zoom rules for hand following images
+     * @tc.desc   : Verify optimization of drag and drop zoom rules for hand following images interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_004', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_004';
@@ -72,10 +74,12 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_002
-     * @tc.name    SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_002
-     * @tc.desc    Interactive Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_002
+     * @tc.name   : Optimization of drag and drop zoom rules for hand following images
+     * @tc.desc   : Verify optimization of drag and drop zoom rules for hand following images interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_002', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_002';
@@ -103,10 +107,12 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_003
-     * @tc.name    SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_003
-     * @tc.desc    Interactive Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_003
+     * @tc.name   : Optimization of drag and drop zoom rules for hand following images
+     * @tc.desc   : Verify optimization of drag and drop zoom rules for hand following images interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_003', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_003';
@@ -135,10 +141,12 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_016
-     * @tc.name    SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_016
-     * @tc.desc    Interactive Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_016
+     * @tc.name   : Optimization of drag and drop zoom rules for hand following images
+     * @tc.desc   : Verify optimization of drag and drop zoom rules for hand following images interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_016', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_016';
@@ -161,10 +169,12 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_014
-     * @tc.name    SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_014
-     * @tc.desc    Interactive Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_014
+     * @tc.name   : Optimization of drag and drop zoom rules for hand following images
+     * @tc.desc   : Verify optimization of drag and drop zoom rules for hand following images interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_014', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_014';
@@ -187,10 +197,12 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_015
-     * @tc.name    SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_015
-     * @tc.desc    Interactive Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_015
+     * @tc.name   : Optimization of drag and drop zoom rules for hand following images
+     * @tc.desc   : Verify optimization of drag and drop zoom rules for hand following images interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_015', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_015';

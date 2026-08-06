@@ -55,13 +55,13 @@ export default function UiComponentPopupBoxPicker() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0010
-       * @tc.name    Add a callback when textPickerDialog pops up
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0010
+     * @tc.name   : Add a callback when textPickerDialog pops up
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPicker/UiComponentPopupBoxPicker01")
@@ -79,13 +79,13 @@ export default function UiComponentPopupBoxPicker() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0020
-       * @tc.name    Add a callback when textPickerDialog exits
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0020
+     * @tc.name   : Add a callback when textPickerDialog exits
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPicker/UiComponentPopupBoxPicker02")
@@ -103,13 +103,13 @@ export default function UiComponentPopupBoxPicker() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0030
-       * @tc.name    Add a callback before textPickerDialog display animation
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0030
+     * @tc.name   : Add a callback before textPickerDialog display animation
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPicker/UiComponentPopupBoxPicker03")
@@ -127,13 +127,13 @@ export default function UiComponentPopupBoxPicker() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0040
-       * @tc.name    Add a callback before textPickerDialog exit animation
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0040
+     * @tc.name   : Add a callback before textPickerDialog exit animation
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPicker/UiComponentPopupBoxPicker04")
@@ -151,13 +151,13 @@ export default function UiComponentPopupBoxPicker() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0050
-       * @tc.name    Add a callback when datePickerDialog pops up
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0050
+     * @tc.name   : Add a callback when datePickerDialog pops up
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPicker/UiComponentPopupBoxPicker05")
@@ -175,13 +175,13 @@ export default function UiComponentPopupBoxPicker() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0060
-       * @tc.name    Add a callback when datePickerDialog exits
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0060
+     * @tc.name   : Add a callback when datePickerDialog exits
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPicker/UiComponentPopupBoxPicker06")
@@ -199,13 +199,13 @@ export default function UiComponentPopupBoxPicker() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0070
-       * @tc.name    Add a callback before datePickerDialog display animation
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0070
+     * @tc.name   : Add a callback before datePickerDialog display animation
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPicker/UiComponentPopupBoxPicker07")
@@ -223,13 +223,13 @@ export default function UiComponentPopupBoxPicker() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0080
-       * @tc.name    Add a callback before datePickerDialog exit animation
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0080
+     * @tc.name   : Add a callback before datePickerDialog exit animation
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPicker/UiComponentPopupBoxPicker08")
@@ -247,13 +247,13 @@ export default function UiComponentPopupBoxPicker() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0130
-       * @tc.name    Add a callback when calendarPickerDialog pops up
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0130
+     * @tc.name   : Add a callback when calendarPickerDialog pops up
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPicker/UiComponentPopupBoxPicker09")
@@ -271,13 +271,13 @@ export default function UiComponentPopupBoxPicker() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0140
-       * @tc.name    Add a callback when calendarPickerDialog exits
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0140
+     * @tc.name   : Add a callback when calendarPickerDialog exits
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPicker/UiComponentPopupBoxPicker10")
@@ -295,13 +295,13 @@ export default function UiComponentPopupBoxPicker() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0150
-       * @tc.name    Add a callback before calendarPickerDialog display animation
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0150
+     * @tc.name   : Add a callback before calendarPickerDialog display animation
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPicker/UiComponentPopupBoxPicker11")
@@ -319,13 +319,13 @@ export default function UiComponentPopupBoxPicker() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0160
-       * @tc.name    Add a callback before calendarPickerDialog exit animation
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0160
+     * @tc.name   : Add a callback before calendarPickerDialog exit animation
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPicker/UiComponentPopupBoxPicker12")

@@ -38,10 +38,12 @@ export default function UIComponentListScrollerScrollToTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLER_SCROLLTO_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLER_SCROLLTO_0230
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLER_SCROLLTO_0230
+     * @tc.name   : Listandgrid list scroller scrollto
+     * @tc.desc   : Verify listandgrid list scroller scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLER_SCROLLTO_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLER_SCROLLTO_0230 start.`);

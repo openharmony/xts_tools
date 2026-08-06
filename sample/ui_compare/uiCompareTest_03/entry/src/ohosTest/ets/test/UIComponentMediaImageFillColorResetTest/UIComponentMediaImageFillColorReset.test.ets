@@ -63,10 +63,12 @@ export default function UIComponentMediaImageFillColorReset() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FILLCOLORRESET_0011
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FILLCOLORRESET_0011
-     * @tc.desc    Image component loads SVG source, sets fillColor to supported value then ColorContent.ORIGIN
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FILLCOLORRESET_0011
+     * @tc.name   : Media Image fillcolorreset
+     * @tc.desc   : Verify media Image fillcolorreset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FILLCOLORRESET_0011', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FILLCOLORRESET_0011';

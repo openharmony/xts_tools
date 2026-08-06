@@ -39,10 +39,12 @@ export default function UIComponentAcrListScrollBarWidthTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARWIDTH_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARWIDTH_0010
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARWIDTH_0010
+     * @tc.name   : Arclist scrollbarwidth
+     * @tc.desc   : Verify arclist scrollbarwidth interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARWIDTH_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARWIDTH_0010 start.`);

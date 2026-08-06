@@ -60,10 +60,12 @@ export default function UIComponentPopupBoxModalTransitionHover() {
 
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0020
-     * @tc.desc    Check semi-modal center popup style consistency with non-hover state when enableHoverMode is unset
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0020
+     * @tc.name   : Popupbox modaltransition hover
+     * @tc.desc   : Verify popupbox modaltransition hover interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0020';
@@ -82,10 +84,12 @@ export default function UIComponentPopupBoxModalTransitionHover() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0030
-     * @tc.desc    Verify semi-modal center popup style matches non-hover state when enableHoverMode is false
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0030
+     * @tc.name   : Popupbox modaltransition hover
+     * @tc.desc   : Verify popupbox modaltransition hover interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0030';
@@ -104,10 +108,12 @@ export default function UIComponentPopupBoxModalTransitionHover() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0040
-     * @tc.desc    Verify semi-modal bottom popup style matches non-hover state when enableHoverMode is false
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0040
+     * @tc.name   : Popupbox modaltransition hover
+     * @tc.desc   : Verify popupbox modaltransition hover interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0040';
@@ -126,10 +132,12 @@ export default function UIComponentPopupBoxModalTransitionHover() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0050
-     * @tc.desc    Test semi-modal center popup style consistency with non-hover state when enableHoverMode false but hoverModeArea set to TOP_SCREEN
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0050
+     * @tc.name   : Popupbox modaltransition hover
+     * @tc.desc   : Verify popupbox modaltransition hover interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0050';
@@ -148,10 +156,12 @@ export default function UIComponentPopupBoxModalTransitionHover() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0060
-     * @tc.desc    Test semi-modal center popup style consistency with non-hover state when enableHoverMode false but hoverModeArea set to BOTTOM_SCREEN
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0060
+     * @tc.name   : Popupbox modaltransition hover
+     * @tc.desc   : Verify popupbox modaltransition hover interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0060';

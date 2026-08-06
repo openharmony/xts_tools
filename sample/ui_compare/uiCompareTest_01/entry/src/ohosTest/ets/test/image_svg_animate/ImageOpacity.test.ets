@@ -43,6 +43,7 @@ export default function ImageOpacityTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0016
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image opacity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -74,6 +75,7 @@ export default function ImageOpacityTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0019
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image opacity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -122,6 +124,7 @@ export default function ImageOpacityTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0020
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image opacity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -175,6 +178,7 @@ export default function ImageOpacityTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0021
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image opacity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,6 +227,7 @@ export default function ImageOpacityTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0023
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image opacity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -241,6 +246,7 @@ export default function ImageOpacityTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0024
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image opacity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

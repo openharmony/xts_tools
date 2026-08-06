@@ -43,11 +43,12 @@ export default function UiComponentMediaPcEventTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_PC_Event_0034
-     * @tc.name: PcEvent0034
-     * @tc.desc: TextTimer组件触控板操作事件，预期无响应效果
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PC_Event_0034
+     * @tc.name   : PcEvent0034
+     * @tc.desc   : Verify media pc event interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PC_Event_0034', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_PC_Event_0034 START')
@@ -76,11 +77,12 @@ export default function UiComponentMediaPcEventTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_PC_Event_0035
-     * @tc.name: PcEvent0035
-     * @tc.desc: TextTimer组件鼠标操作事件，预期无响应效果
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PC_Event_0035
+     * @tc.name   : PcEvent0035
+     * @tc.desc   : Verify media pc event interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PC_Event_0035', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_PC_Event_0035 START')

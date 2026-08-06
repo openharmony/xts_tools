@@ -55,13 +55,13 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0010
-       * @tc.name    Changing the component size in the rich editor does not affect the word wrap effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0010
+     * @tc.name   : Changing the component size in the rich editor does not affect the word wrap effect
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLineBreakStrategy/UiComponentTextRichEditorLineBreakStrategy01")
@@ -80,13 +80,13 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0011
-       * @tc.name    Changing the font size in the rich editor does not affect the word wrap effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0011
+     * @tc.name   : Changing the font size in the rich editor does not affect the word wrap effect
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0011', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0011 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLineBreakStrategy/UiComponentTextRichEditorLineBreakStrategy02")
@@ -105,13 +105,13 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0012
-       * @tc.name    Setting leadingMargin in the rich editor does not affect the word wrap effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0012
+     * @tc.name   : Setting leadingMargin in the rich editor does not affect the word wrap effect
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0012', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0012 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLineBreakStrategy/UiComponentTextRichEditorLineBreakStrategy03")
@@ -130,13 +130,13 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0013
-       * @tc.name    Setting textAlign in the rich editor does not affect the word wrap effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0013
+     * @tc.name   : Setting textAlign in the rich editor does not affect the word wrap effect
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0013', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0013 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLineBreakStrategy/UiComponentTextRichEditorLineBreakStrategy04")
@@ -155,13 +155,13 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0015
-       * @tc.name    Setting both lineBreakStrategy and wordBreak in the rich editor
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0015
+     * @tc.name   : Setting both lineBreakStrategy and wordBreak in the rich editor
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0015', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0015 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLineBreakStrategy/UiComponentTextRichEditorLineBreakStrategy05")
@@ -174,13 +174,13 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0014
-       * @tc.name    Input content follows paragraph line break in the rich editor
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0014
+     * @tc.name   : Input content follows paragraph line break in the rich editor
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0014', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0014 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLineBreakStrategy/UiComponentTextRichEditorLineBreakStrategy06")

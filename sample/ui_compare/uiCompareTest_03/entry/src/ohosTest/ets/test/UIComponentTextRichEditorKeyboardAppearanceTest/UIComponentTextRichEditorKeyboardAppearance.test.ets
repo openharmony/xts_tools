@@ -62,10 +62,12 @@ export default function UIComponentTextRichEditorKeyboardAppearance() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_KeyboardAppearance_001
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_KeyboardAppearance_001
-     * @tc.desc    Set KeyboardAppearance to dark immersive mode
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_KeyboardAppearance_001
+     * @tc.name   : Text richeditor keyboardappearance
+     * @tc.desc   : Verify text richeditor keyboardappearance interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_KeyboardAppearance_001', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_KeyboardAppearance_001';
@@ -83,10 +85,12 @@ export default function UIComponentTextRichEditorKeyboardAppearance() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_KeyboardAppearance_002
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_KeyboardAppearance_002
-     * @tc.desc    Set KeyboardAppearance to dark immersive mode
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_KeyboardAppearance_002
+     * @tc.name   : Text richeditor keyboardappearance
+     * @tc.desc   : Verify text richeditor keyboardappearance interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_KeyboardAppearance_002', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_KeyboardAppearance_002';

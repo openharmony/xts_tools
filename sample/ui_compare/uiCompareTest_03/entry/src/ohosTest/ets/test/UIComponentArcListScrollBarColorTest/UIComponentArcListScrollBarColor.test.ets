@@ -63,10 +63,12 @@ export default function UIComponentArcListScrollBarColor() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0010
-     * @tc.desc    Set ArcList_scrollBarColor with valid Color value
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0010
+     * @tc.name   : Arclist scrollbarcolor
+     * @tc.desc   : Verify arclist scrollbarcolor interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0010';
@@ -82,10 +84,12 @@ export default function UIComponentArcListScrollBarColor() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0020
-     * @tc.desc    Set ArcList_scrollBarColor with valid number value
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0020
+     * @tc.name   : Arclist scrollbarcolor
+     * @tc.desc   : Verify arclist scrollbarcolor interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0020';
@@ -101,10 +105,12 @@ export default function UIComponentArcListScrollBarColor() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0030
-     * @tc.desc    Set ArcList_scrollBarColor with valid string value
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0030
+     * @tc.name   : Arclist scrollbarcolor
+     * @tc.desc   : Verify arclist scrollbarcolor interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0030';
@@ -120,10 +126,12 @@ export default function UIComponentArcListScrollBarColor() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0040
-     * @tc.desc    Dynamically switch ArcList_scrollBarColor
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0040
+     * @tc.name   : Arclist scrollbarcolor
+     * @tc.desc   : Verify arclist scrollbarcolor interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0040';
@@ -162,10 +170,12 @@ export default function UIComponentArcListScrollBarColor() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0050
-     * @tc.desc    Set ArcList_scrollBarColor with invalid value
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0050
+     * @tc.name   : Arclist scrollbarcolor
+     * @tc.desc   : Verify arclist scrollbarcolor interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0050', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARCOLOR_0050';

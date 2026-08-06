@@ -42,6 +42,7 @@ export default function UiComponentInfomationProgressModifierColor() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0011
      * @tc.name   : Select partial content via gesture, then verify the position of the search button.
+     * @tc.desc   : Verify information Progress modifier color interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -66,6 +67,7 @@ export default function UiComponentInfomationProgressModifierColor() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0012
      * @tc.name   : Select partial content via gesture, then verify the position of the search button.
+     * @tc.desc   : Verify information Progress modifier color interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

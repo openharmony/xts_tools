@@ -27,11 +27,13 @@ export default function ActionBlockageDragBatch13Test() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_1070
-     * @tc.name 父子组件 - 父组件阻塞
-     * @tc.desc 父子组件，父组件阻塞
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；拖拽操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1070
+     * @tc.name   : 父子组件 - 父组件阻塞
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_1070', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_1070';
@@ -61,11 +63,13 @@ export default function ActionBlockageDragBatch13Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_1080
-     * @tc.name 父子组件 - 子组件阻塞
-     * @tc.desc 父子组件，子组件阻塞
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；拖拽操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1080
+     * @tc.name   : 父子组件 - 子组件阻塞
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_1080', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_1080';
@@ -95,11 +99,13 @@ export default function ActionBlockageDragBatch13Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_1090
-     * @tc.name 父子组件 - 父子都阻塞
-     * @tc.desc 父子组件，父子组件阻塞
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；拖拽操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1090
+     * @tc.name   : 父子组件 - 父子都阻塞
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_1090', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_1090';
@@ -129,11 +135,13 @@ export default function ActionBlockageDragBatch13Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_1100
-     * @tc.name 不调用阻塞接口 - 正常拖拽
-     * @tc.desc 不调用阻塞接口，拖拽功能正常
-     * @tc.automation 50% - 页面加载、组件定位、截图自动化；拖拽操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1100
+     * @tc.name   : 不调用阻塞接口 - 正常拖拽
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_1100', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_1100';

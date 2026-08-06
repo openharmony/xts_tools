@@ -38,10 +38,12 @@ export default function UIComponentListAndGridListClipContentTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0040
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0040
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0040 start.`);
@@ -55,10 +57,12 @@ export default function UIComponentListAndGridListClipContentTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0050
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0050
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0050 start.`);
@@ -72,10 +76,12 @@ export default function UIComponentListAndGridListClipContentTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070 start.`);
@@ -105,10 +111,12 @@ export default function UIComponentListAndGridListClipContentTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0020
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0020
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0020 start.`);
@@ -122,10 +130,12 @@ export default function UIComponentListAndGridListClipContentTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0060
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0060
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0060 start.`);
@@ -139,10 +149,12 @@ export default function UIComponentListAndGridListClipContentTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030 start.`);
@@ -172,10 +184,12 @@ export default function UIComponentListAndGridListClipContentTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0080
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0080
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0080 start.`);
@@ -189,10 +203,12 @@ export default function UIComponentListAndGridListClipContentTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090 start.`);

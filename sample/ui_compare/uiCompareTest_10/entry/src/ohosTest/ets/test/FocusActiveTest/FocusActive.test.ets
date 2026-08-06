@@ -41,13 +41,12 @@ export default function FocusActive() {
 
     /*
      * @tc.number : SUB_ACE_UI_FOCUS_ACTIVE_0160
-     * @tc.name   : SUB_ACE_UI_FOCUS_ACTIVE_0160
-     * @tc.desc   : Set the activate interface to true.
-     * @tc.size   : MediumTest
+     * @tc.name   : Focus active
+     * @tc.desc   : Verify focus active interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_FOCUS_ACTIVE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_FOCUS_ACTIVE_0160 start.`);
       
@@ -105,13 +104,12 @@ export default function FocusActive() {
 
     /*
      * @tc.number : SUB_ACE_UI_FOCUS_ACTIVE_0170
-     * @tc.name   : SUB_ACE_UI_FOCUS_ACTIVE_0170
-     * @tc.desc   : Set the activate interface to false.
-     * @tc.size   : MediumTest
+     * @tc.name   : Focus active
+     * @tc.desc   : Verify focus active interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_FOCUS_ACTIVE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_FOCUS_ACTIVE_0170 start.`);
       
@@ -169,13 +167,12 @@ export default function FocusActive() {
 
     /*
      * @tc.number : SUB_ACE_UI_FOCUS_ACTIVE_0180
-     * @tc.name   : SUB_ACE_UI_FOCUS_ACTIVE_0180
-     * @tc.desc   : Alternately set the activate interface to true and false 50 times and check the log printing.
-     * @tc.size   : MediumTest
+     * @tc.name   : Focus active
+     * @tc.desc   : Verify focus active interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_FOCUS_ACTIVE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_FOCUS_ACTIVE_0180 start.`);
       
@@ -220,13 +217,12 @@ export default function FocusActive() {
 
     /*
      * @tc.number : SUB_ACE_UI_FOCUS_ACTIVE_0190
-     * @tc.name   : SUB_ACE_UI_FOCUS_ACTIVE_0190
-     * @tc.desc   : Alternately set the activate interface to true and false 50 times, the function is normal.
-     * @tc.size   : MediumTest
+     * @tc.name   : Focus active
+     * @tc.desc   : Verify focus active interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
-
     it('SUB_ACE_UI_FOCUS_ACTIVE_0190', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_FOCUS_ACTIVE_0190 start.`);
       

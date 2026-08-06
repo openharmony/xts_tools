@@ -28,11 +28,13 @@ export default function ActionBlockageDragBatch2() {
       }
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0100
-     * 用例描述: image_单指_按压时状态为WAITING
-     * 自动化程度: 65%
-     * 说明: 自动化基础操作，精确时间控制需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0100
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0100', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0100 begin');
@@ -61,11 +63,13 @@ export default function ActionBlockageDragBatch2() {
       Logger.info('Manual: Verify WAITING status in page log');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0110
-     * 用例描述: image_单指_按压时状态为READY
-     * 自动化程度: 60%
-     * 说明: 需手动按压>2S后拖拽
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0110
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0110', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0110 begin');
@@ -85,11 +89,13 @@ export default function ActionBlockageDragBatch2() {
       Logger.info('Manual: Press >2S then drag, verify READY status');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0120
-     * 用例描述: image_单指_手指移动拖拽中，未超过5S，则状态为WAITING
-     * 自动化程度: 60%
-     * 说明: 5S超时场景需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0120
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0120', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0120 begin');
@@ -109,11 +115,13 @@ export default function ActionBlockageDragBatch2() {
       Logger.info('Manual: Press 2S, drag, release within 5S, verify WAITING');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0130
-     * 用例描述: image_单指_手指移动拖拽中，未超过5S，则状态为READY
-     * 自动化程度: 60%
-     * 说明: 5S超时场景需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0130
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0130', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0130 begin');
@@ -133,11 +141,13 @@ export default function ActionBlockageDragBatch2() {
       Logger.info('Manual: Press <2S, drag within 5S, verify READY');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0140
-     * 用例描述: image_单指_手指移动拖拽中，超过5S了
-     * 自动化程度: 55%
-     * 说明: 需手动拖拽超过5S
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0140
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0140', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0140 begin');
@@ -157,11 +167,13 @@ export default function ActionBlockageDragBatch2() {
       Logger.info('Manual: Press 2S, drag and hold >5S, verify timeout');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0150
-     * 用例描述: image绑定菜单的_单指_按压时状态为WAITING
-     * 自动化程度: 65%
-     * 说明: 带菜单的拖拽，需手动测试菜单不冲突
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0150
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0150', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0150 begin');
@@ -190,11 +202,13 @@ export default function ActionBlockageDragBatch2() {
       Logger.info('Manual: Verify menu does not interfere with drag, WAITING status');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0160
-     * 用例描述: image绑定菜单的_单指_按压时状态为READY
-     * 自动化程度: 60%
-     * 说明: 需手动按压>2S后拖拽，验证菜单不干扰
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0160
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0160', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0160 begin');
@@ -214,11 +228,13 @@ export default function ActionBlockageDragBatch2() {
       Logger.info('Manual: Press >2S, drag, verify READY status');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0170
-     * 用例描述: image绑定菜单的_单指_手指移动拖拽中，未超过5S，则状态为WAITING
-     * 自动化程度: 60%
-     * 说明: 带菜单的5S超时测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0170
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0170', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0170 begin');
@@ -238,11 +254,13 @@ export default function ActionBlockageDragBatch2() {
       Logger.info('Manual: Drag within 5S, verify WAITING status');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0180
-     * 用例描述: image绑定菜单的_单指_手指移动拖拽中，未超过5S，则状态为READY
-     * 自动化程度: 60%
-     * 说明: 带菜单的5S超时测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0180
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0180', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0180 begin');
@@ -262,11 +280,13 @@ export default function ActionBlockageDragBatch2() {
       Logger.info('Manual: Drag within 5S, verify READY status');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0190
-     * 用例描述: image绑定菜单的_单指_手指移动拖拽中，超过5S了
-     * 自动化程度: 55%
-     * 说明: 需手动拖拽超过5S，验证菜单不干扰
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0190
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0190', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0190 begin');

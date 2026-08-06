@@ -39,11 +39,12 @@ export default function UiComponentTextRichEditorFloatOff() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0006
-        * @tc.name   : When the background color is gray, long press, release to cancel, then long press again
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0006
+     * @tc.name   : When the background color is gray, long press, release to cancel, then long press again
+     * @tc.desc   : Verify text richeditor floatoff interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0006", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0006")
@@ -73,12 +74,13 @@ export default function UiComponentTextRichEditorFloatOff() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0010
-        * @tc.name   : The effect when the mouse is long pressed
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0010
+     * @tc.name   : The effect when the mouse is long pressed
+     * @tc.desc   : Verify text richeditor floatoff interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0010", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0010")
       await Utils.sleep(1000)
@@ -104,11 +106,12 @@ export default function UiComponentTextRichEditorFloatOff() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0011
-        * @tc.name   : Floating effect of selecting all ultra-long text
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0011
+     * @tc.name   : Floating effect of selecting all ultra-long text
+     * @tc.desc   : Verify text richeditor floatoff interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0011", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0011")
@@ -138,11 +141,12 @@ export default function UiComponentTextRichEditorFloatOff() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0001
-        * @tc.name   : Long press and drag plain text
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0001
+     * @tc.name   : Long press and drag plain text
+     * @tc.desc   : Verify text richeditor floatoff interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0001", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0001")
@@ -169,11 +173,12 @@ export default function UiComponentTextRichEditorFloatOff() {
 
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0008
-        * @tc.name   : Floating effect of long press when there are multiple lines of spaces
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0008
+     * @tc.name   : Floating effect of long press when there are multiple lines of spaces
+     * @tc.desc   : Verify text richeditor floatoff interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0008", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0008")
@@ -203,12 +208,13 @@ export default function UiComponentTextRichEditorFloatOff() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0002
-        * @tc.name   : Long press and drag the image
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0002
+     * @tc.name   : Long press and drag the image
+     * @tc.desc   : Verify text richeditor floatoff interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0002", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0002")
       await Utils.sleep(1000)
@@ -231,12 +237,13 @@ export default function UiComponentTextRichEditorFloatOff() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0007
-        * @tc.name   : Long press on text/image/mixed text and image content when dragging is disabled
-        * @type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0007
+     * @tc.name   : Long press on text/image/mixed text and image content when dragging is disabled
+     * @tc.desc   : Verify text richeditor floatoff interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0007", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorFloatOff/UiComponentTextRichEditorFloatOff0007")
       await Utils.sleep(1000)

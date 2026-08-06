@@ -41,8 +41,9 @@ export default function UiOhosAnimatorSimpleCreate() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0030
      * @tc.name   : ohos.animator simple construction method easing and another optional parameter missing test
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0030", Level.LEVEL3, async (done: Function) => {
@@ -70,8 +71,9 @@ export default function UiOhosAnimatorSimpleCreate() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0050
      * @tc.name   : ohos.animator simple construction method fill and another optional parameter missing test
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0050", Level.LEVEL3, async (done: Function) => {
@@ -99,8 +101,9 @@ export default function UiOhosAnimatorSimpleCreate() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0060
      * @tc.name   : ohos.animator simple construction method direction and iteration missing test
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0060", Level.LEVEL3, async (done: Function) => {
@@ -128,8 +131,9 @@ export default function UiOhosAnimatorSimpleCreate() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0080
      * @tc.name   : ohos.animator simple construction method easing and another two optional parameters missing test
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0080", Level.LEVEL3, async (done: Function) => {
@@ -157,8 +161,9 @@ export default function UiOhosAnimatorSimpleCreate() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0100
      * @tc.name   : ohos.animator simple construction method fill, direction, iteration missing test
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0100", Level.LEVEL3, async (done: Function) => {
@@ -186,8 +191,9 @@ export default function UiOhosAnimatorSimpleCreate() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0110
      * @tc.name   : ohos.animator simple construction method only set duration and another optional parameter test
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0110", Level.LEVEL3, async (done: Function) => {
@@ -215,8 +221,9 @@ export default function UiOhosAnimatorSimpleCreate() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0120
      * @tc.name   : ohos.animator simple construction method only set easing and another optional parameter test
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0120", Level.LEVEL3, async (done: Function) => {
@@ -244,8 +251,9 @@ export default function UiOhosAnimatorSimpleCreate() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0130
      * @tc.name   : ohos.animator simple construction method only set delay and another optional parameter test
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0130", Level.LEVEL3, async (done: Function) => {
@@ -273,8 +281,9 @@ export default function UiOhosAnimatorSimpleCreate() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0140
      * @tc.name   : ohos.animator simple construction method only set fill and another optional parameter test
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0140", Level.LEVEL3, async (done: Function) => {
@@ -302,8 +311,9 @@ export default function UiOhosAnimatorSimpleCreate() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0150
      * @tc.name   : ohos.animator simple construction method only set direction and iteration test
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0150", Level.LEVEL3, async (done: Function) => {

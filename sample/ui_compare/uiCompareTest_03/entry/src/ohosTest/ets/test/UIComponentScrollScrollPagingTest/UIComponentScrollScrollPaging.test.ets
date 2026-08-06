@@ -59,10 +59,12 @@ export default function UIComponentScrollScrollPaging() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0170
-     * @tc.desc    Set edge effect Spring test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0170
+     * @tc.name   : Scroll paging
+     * @tc.desc   : Verify scroll paging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0170';
@@ -85,10 +87,12 @@ export default function UIComponentScrollScrollPaging() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0180
-     * @tc.desc    Set edge effect Fade test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0180
+     * @tc.name   : Scroll paging
+     * @tc.desc   : Verify scroll paging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0180';

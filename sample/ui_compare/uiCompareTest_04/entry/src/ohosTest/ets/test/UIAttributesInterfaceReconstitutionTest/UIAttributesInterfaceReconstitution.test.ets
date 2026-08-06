@@ -38,9 +38,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0060
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0060
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0060
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0060', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0060';
@@ -59,9 +62,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0040
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0040
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0040
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0040', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0040';
@@ -80,9 +86,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0080
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0080
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0080
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0080', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0080';
@@ -101,9 +110,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0010
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0010
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0010
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0010', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0010';
@@ -122,9 +134,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0050
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0050
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0050
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0050', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0050';
@@ -143,9 +158,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0070
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0070
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0070
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0070', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0070';
@@ -164,9 +182,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0090
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0090
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0090
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0090', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0090';
@@ -189,9 +210,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0030
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0030
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0030
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0030', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0030';
@@ -210,9 +234,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0020
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0020
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0020
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0020', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0020';
@@ -231,9 +258,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0100
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0100
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0100
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0100', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0100';
@@ -252,9 +282,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0160
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0160
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0160
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0160', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0160';
@@ -273,9 +306,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0140
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0140
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0140
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0140', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0140';
@@ -294,9 +330,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0130
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0130
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0130
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0130', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0130';
@@ -319,9 +358,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0120
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0120
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0120
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0120', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0120';
@@ -340,9 +382,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0150
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0150
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0150
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0150', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0150';
@@ -361,9 +406,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0110
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0110
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0110
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0110', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0110';
@@ -382,9 +430,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0560
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0560
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0560
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0560', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0560';
@@ -403,9 +454,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0580
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0580
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0580
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0580', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0580';
@@ -424,9 +478,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0550
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0550
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0550
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0550', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0550';
@@ -445,9 +502,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0570
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0570
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0570
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0570', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0570';
@@ -466,9 +526,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0590
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0590
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0590
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0590', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0590';
@@ -487,9 +550,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0600
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0600
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0600
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0600', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0600';
@@ -508,9 +574,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0660
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0660
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0660
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0660', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0660';
@@ -529,9 +598,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0610
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0610
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0610
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0610', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0610';
@@ -550,9 +622,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0650
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0650
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0650
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0650', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0650';
@@ -571,9 +646,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0630
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0630
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0630
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0630', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0630';
@@ -592,9 +670,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0640
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0640
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0640
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0640', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0640';
@@ -613,9 +694,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0620
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0620
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0620
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0620', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0620';
@@ -634,9 +718,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0170
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0170
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0170
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0170', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0170';
@@ -655,9 +742,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0190
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0190
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0190
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0190', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0190';
@@ -676,9 +766,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0180
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0180
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0180
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0180', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0180';
@@ -697,9 +790,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0210
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0210
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0210
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0210', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0210';
@@ -718,9 +814,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0200
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0200
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0200
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0200', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0200';
@@ -739,9 +838,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0220
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0220
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0220
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0220', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0220';
@@ -760,9 +862,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0230
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0230
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0230
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0230', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0230';
@@ -785,9 +890,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0240
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0240
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0240
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0240', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0240';
@@ -810,9 +918,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0250
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0250
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0250
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0250', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0250';
@@ -835,9 +946,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0260
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0260
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0260
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0260', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0260';
@@ -860,9 +974,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0270
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0270
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0270
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0270', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0270';
@@ -885,9 +1002,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0280
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0280
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0280
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0280', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0280';
@@ -910,9 +1030,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0290
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0290
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0290
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0290', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0290';
@@ -935,9 +1058,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0300
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0300
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0300
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0300', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0300';
@@ -960,9 +1086,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0310
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0310
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0310
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0310', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0310';
@@ -985,9 +1114,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0320
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0320
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0320
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0320', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0320';
@@ -1010,9 +1142,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0330
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0330
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0330
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0330', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0330';
@@ -1035,9 +1170,12 @@ export default function UIAttributesInterfaceReconstitutionTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0340
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0340
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0340
+     * @tc.name   : Attributes interface reconstitution
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0340', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0340';

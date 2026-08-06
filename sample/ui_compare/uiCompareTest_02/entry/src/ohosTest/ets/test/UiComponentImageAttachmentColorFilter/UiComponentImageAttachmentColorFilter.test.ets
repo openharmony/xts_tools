@@ -55,13 +55,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080
-       * @tc.name    Set the ImageAttachment property string to add an image, and set colorFilter and objectFit at the same time
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080
+     * @tc.name   : Set the ImageAttachment property string to add an image, and set colorFilter and objectFit at the same time
+     * @tc.desc   : Verify import componentcontent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter01")
@@ -79,13 +79,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0090
-       * @tc.name    Set the ImageAttachment property string to add an image, and set colorFilter and layoutStyle at the same time
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0090
+     * @tc.name   : Set the ImageAttachment property string to add an image, and set colorFilter and layoutStyle at the same time
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter02")
@@ -103,13 +103,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0070
-       * @tc.name    Set the ImageAttachment property string to add an image, and set colorFilter and verticalAlign at the same time
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0070
+     * @tc.name   : Set the ImageAttachment property string to add an image, and set colorFilter and verticalAlign at the same time
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter03")
@@ -127,13 +127,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0060
-       * @tc.name    Set the ImageAttachment property string to add an image, and set colorFilter and size at the same time
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0060
+     * @tc.name   : Set the ImageAttachment property string to add an image, and set colorFilter and size at the same time
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter04")
@@ -151,13 +151,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0030
-       * @tc.name    Set the ImageAttachment property string to add an image, and set the colorFilter to 19 bits
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0030
+     * @tc.name   : Set the ImageAttachment property string to add an image, and set the colorFilter to 19 bits
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter05")
@@ -175,13 +175,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0020
-       * @tc.name    Set the ImageAttachment property string to add an image, and set the colorFilter to 20 bits
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0020
+     * @tc.name   : Set the ImageAttachment property string to add an image, and set the colorFilter to 20 bits
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter06")
@@ -199,13 +199,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0100
-       * @tc.name    Set the ImageAttachment property string to add an image, set a colorFilter, and use replaceString to replace the image with text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0100
+     * @tc.name   : Set the ImageAttachment property string to add an image, set a colorFilter, and use replaceString to replace the image with text
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0100 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter07")
@@ -226,13 +226,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0110
-       * @tc.name    Set the ImageAttachment property string to add an image, set the colorFilter, and use insertString to insert text before and after the image
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0110
+     * @tc.name   : Set the ImageAttachment property string to add an image, set the colorFilter, and use insertString to insert text before and after the image
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter08")
@@ -256,13 +256,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0200
-       * @tc.name    Set the ImageAttachment property string to add an image, set the colorFilter, and use appendStyledString to insert a new image
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0200
+     * @tc.name   : Set the ImageAttachment property string to add an image, set the colorFilter, and use appendStyledString to insert a new image
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0200 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter09")
@@ -283,13 +283,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0190
-       * @tc.name    Set the ImageAttachment property string to add an image, set the colorFilter, and use insertStyledString to insert a new image
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0190
+     * @tc.name   : Set the ImageAttachment property string to add an image, set the colorFilter, and use insertStyledString to insert a new image
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter10")
@@ -310,13 +310,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0180
-       * @tc.name    Set the ImageAttachment property string to add an image, set the colorFilter, and use replaceStyledString to insert a new image
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0180
+     * @tc.name   : Set the ImageAttachment property string to add an image, set the colorFilter, and use replaceStyledString to insert a new image
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter11")
@@ -338,12 +338,12 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0040
-     * @tc.name    Set ImageAttachment with colorFilter 21 bits
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0040
+     * @tc.name   : Set ImageAttachment with colorFilter 21 bits
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0040 start.`);
@@ -362,13 +362,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0050
-       * @tc.name    Set ImageAttachment with colorFilter null/undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0050
+     * @tc.name   : Set ImageAttachment with colorFilter null/undefined
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter13")
@@ -387,13 +387,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0120
-       * @tc.name    Set ImageAttachment with colorFilter and removeString
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0120
+     * @tc.name   : Set ImageAttachment with colorFilter and removeString
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter14")
@@ -417,13 +417,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0130
-       * @tc.name    Set ImageAttachment with colorFilter and replaceStyle
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0130
+     * @tc.name   : Set ImageAttachment with colorFilter and replaceStyle
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter15")
@@ -447,13 +447,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0140
-       * @tc.name    Set ImageAttachment with colorFilter and setStyle
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0140
+     * @tc.name   : Set ImageAttachment with colorFilter and setStyle
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter16")
@@ -477,13 +477,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0150
-       * @tc.name    Set ImageAttachment with colorFilter and clearStyles
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0150
+     * @tc.name   : Set ImageAttachment with colorFilter and clearStyles
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter17")
@@ -507,13 +507,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0160
-       * @tc.name    Set ImageAttachment with colorFilter and removeStyle
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0160
+     * @tc.name   : Set ImageAttachment with colorFilter and removeStyle
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter18")
@@ -537,13 +537,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0170
-       * @tc.name    Set ImageAttachment with colorFilter and removeStyles
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0170
+     * @tc.name   : Set ImageAttachment with colorFilter and removeStyles
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter19")
@@ -567,13 +567,13 @@ export default function UiComponentImageAttachmentColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0220
-       * @tc.name    Set ImageAttachment with colorFilter in RichEditor
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0220
+     * @tc.name   : Set ImageAttachment with colorFilter in RichEditor
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0220 start.`);
       Settings.createWindow("testability/pages/UiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter21")

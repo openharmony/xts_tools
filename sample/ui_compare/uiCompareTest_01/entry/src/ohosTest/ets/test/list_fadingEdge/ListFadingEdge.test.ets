@@ -43,6 +43,7 @@ export default function ListFadingEdgeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0040
      * @tc.name   : List component sets fadingEdgeLength parameter to 20vp
+     * @tc.desc   : Verify list tv fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -81,6 +82,7 @@ export default function ListFadingEdgeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0030
      * @tc.name   : List component sets fadingEdge parameter to undefined
+     * @tc.desc   : Verify list tv fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,6 +121,7 @@ export default function ListFadingEdgeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0100
      * @tc.name   : List component with ListItemGroup sets fadingEdge effect
+     * @tc.desc   : Verify list tv fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -157,6 +160,7 @@ export default function ListFadingEdgeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0050
      * @tc.name   : List component sets fadingEdgeLength parameter to greater than half of list height
+     * @tc.desc   : Verify list tv fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -195,6 +199,7 @@ export default function ListFadingEdgeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0070
      * @tc.name   : List component sets fadingEdgeLength parameter to undefined
+     * @tc.desc   : Verify list tv fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -233,6 +238,7 @@ export default function ListFadingEdgeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0060
      * @tc.name   : List component sets fadingEdgeLength parameter to negative value
+     * @tc.desc   : Verify list tv fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -271,6 +277,7 @@ export default function ListFadingEdgeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0090
      * @tc.name   : List component with ListItem sets fadingEdge effect
+     * @tc.desc   : Verify list tv fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -309,6 +316,7 @@ export default function ListFadingEdgeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0110
      * @tc.name   : List component with ListItemGroup and ListItem spacing layout sets fadingEdge effect
+     * @tc.desc   : Verify list tv fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -347,6 +355,7 @@ export default function ListFadingEdgeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0150
      * @tc.name   : List component with modifier sets fadingEdge effect
+     * @tc.desc   : Verify list tv fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -385,6 +394,7 @@ export default function ListFadingEdgeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0320
      * @tc.name   : List component sliding to bottom shows top edge fading and no bottom edge fading
+     * @tc.desc   : Verify list tv fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -416,6 +426,7 @@ export default function ListFadingEdgeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0330
      * @tc.name   : List component initial state and sliding to top shows different edge fading effects
+     * @tc.desc   : Verify list tv fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

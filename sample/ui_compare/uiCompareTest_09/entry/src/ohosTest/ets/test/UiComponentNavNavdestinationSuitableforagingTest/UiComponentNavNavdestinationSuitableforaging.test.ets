@@ -43,10 +43,12 @@ export default function UiComponentNavNavdestinationSuitableforagingTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0030
-     * @tc.name: NavdestinationSuitableforaging0030
-     * @tc.desc: NavDestination适老化适配超长文本场景
-     * @tc.level: Level 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0030
+     * @tc.name   : NavdestinationSuitableforaging0030
+     * @tc.desc   : Verify nav navdestination suitableforaging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0030', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0030 START')
@@ -68,10 +70,12 @@ export default function UiComponentNavNavdestinationSuitableforagingTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0060
-     * @tc.name: NavdestinationSuitableforaging0060
-     * @tc.desc: NavDestination适老化适配左右滑动场景
-     * @tc.level: Level 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0060
+     * @tc.name   : NavdestinationSuitableforaging0060
+     * @tc.desc   : Verify nav navdestination suitableforaging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0060', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0060 START')
@@ -91,10 +95,12 @@ export default function UiComponentNavNavdestinationSuitableforagingTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0090
-     * @tc.name: NavdestinationSuitableforaging0090
-     * @tc.desc: NavDestination适老化适配锁屏与热启动场景
-     * @tc.level: Level 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0090
+     * @tc.name   : NavdestinationSuitableforaging0090
+     * @tc.desc   : Verify nav navdestination suitableforaging interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0090', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0090 START')

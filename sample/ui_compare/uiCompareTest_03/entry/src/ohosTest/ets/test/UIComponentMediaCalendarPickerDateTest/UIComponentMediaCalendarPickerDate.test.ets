@@ -63,10 +63,12 @@ export default function UIComponentMediaCalendarPickerDate() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0010
-     * @tc.desc    Set valid max/min dates for CalendarPicker/CalendarPickerDialog
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0010
+     * @tc.name   : Media CalendarPicker date
+     * @tc.desc   : Verify media CalendarPicker date interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0010';

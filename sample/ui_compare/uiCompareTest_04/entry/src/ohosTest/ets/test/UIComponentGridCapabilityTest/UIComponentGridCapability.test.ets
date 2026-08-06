@@ -39,10 +39,12 @@ export default function UIComponentGridCapabilityTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0170_437
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0170_437
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0170_437
+     * @tc.name   : Listandgrid grid capability
+     * @tc.desc   : Verify listandgrid grid capability interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0170_437', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0170_437';
@@ -57,10 +59,12 @@ export default function UIComponentGridCapabilityTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0250_596
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0250_596
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0250_596
+     * @tc.name   : Listandgrid grid capability
+     * @tc.desc   : Verify listandgrid grid capability interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0250_596', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0250_596';
@@ -75,10 +79,12 @@ export default function UIComponentGridCapabilityTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0180_869
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0180_869
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0180_869
+     * @tc.name   : Listandgrid grid capability
+     * @tc.desc   : Verify listandgrid grid capability interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0180_869', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0180_869';
@@ -93,10 +99,12 @@ export default function UIComponentGridCapabilityTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0260_366
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0260_366
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0260_366
+     * @tc.name   : Listandgrid grid capability
+     * @tc.desc   : Verify listandgrid grid capability interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0260_366', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0260_366';
@@ -111,10 +119,12 @@ export default function UIComponentGridCapabilityTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0230_836
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0230_836
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0230_836
+     * @tc.name   : Listandgrid grid capability
+     * @tc.desc   : Verify listandgrid grid capability interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0230_836', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0230_836';

@@ -27,11 +27,13 @@ export default function ActionBlockageDragBatch7Test() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0550
-     * @tc.name Image鼠标 - 按压时WAITING
-     * @tc.desc Image组件鼠标_按压时状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0550
+     * @tc.name   : Image鼠标 - 按压时WAITING
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0550', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0550';
@@ -57,11 +59,13 @@ export default function ActionBlockageDragBatch7Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0560
-     * @tc.name Image鼠标 - 按压时READY
-     * @tc.desc Image组件鼠标_按压时状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0560
+     * @tc.name   : Image鼠标 - 按压时READY
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0560', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0560';
@@ -87,11 +91,13 @@ export default function ActionBlockageDragBatch7Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0570
-     * @tc.name Image鼠标 - 拖拽中未超5S WAITING
-     * @tc.desc Image组件鼠标_手指移动拖拽中，未超过5S，则状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0570
+     * @tc.name   : Image鼠标 - 拖拽中未超5S WAITING
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0570', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0570';
@@ -117,11 +123,13 @@ export default function ActionBlockageDragBatch7Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0580
-     * @tc.name Image鼠标 - 拖拽中未超5S READY
-     * @tc.desc Image组件鼠标_手指移动拖拽中，未超过5S，则状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0580
+     * @tc.name   : Image鼠标 - 拖拽中未超5S READY
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0580', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0580';
@@ -147,11 +155,13 @@ export default function ActionBlockageDragBatch7Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0590
-     * @tc.name Image鼠标 - 拖拽中超过5S
-     * @tc.desc Image组件鼠标_手指移动拖拽中，超过5S了
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0590
+     * @tc.name   : Image鼠标 - 拖拽中超过5S
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0590', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0590';
@@ -177,11 +187,13 @@ export default function ActionBlockageDragBatch7Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0600
-     * @tc.name Image+Menu鼠标 - 按压时WAITING
-     * @tc.desc Image组件绑定菜单_鼠标_按压时状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0600
+     * @tc.name   : Image+Menu鼠标 - 按压时WAITING
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0600', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0600';
@@ -207,11 +219,13 @@ export default function ActionBlockageDragBatch7Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0610
-     * @tc.name Image+Menu鼠标 - 按压时READY
-     * @tc.desc Image组件绑定菜单_鼠标_按压时状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0610
+     * @tc.name   : Image+Menu鼠标 - 按压时READY
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0610', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0610';

@@ -55,13 +55,13 @@ export default function UIOverlayTest() {
       done()
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_OVERLAY_0210
-     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_OVERLAY_0210
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_OVERLAY_0210
+     * @tc.name   : Commonattr overlay
+     * @tc.desc   : Verify commonattr overlay interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_OVERLAY_0210',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {

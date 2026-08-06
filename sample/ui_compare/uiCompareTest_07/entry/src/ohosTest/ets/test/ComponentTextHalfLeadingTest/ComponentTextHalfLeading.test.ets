@@ -43,6 +43,7 @@ export default function ComponentTextHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0030
      * @tc.name   : text组件设置halfLeading为undefined
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -62,6 +63,7 @@ export default function ComponentTextHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0040
      * @tc.name   : text组件设置halfLeading为null
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

@@ -39,8 +39,9 @@ export default function UiComponentTextImagespanColorfilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0010
      * @tc.name   : imagespan add different types of pictures and set colorFilter
+     * @tc.desc   : Verify text imagespan colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0010", Level.LEVEL3, async (done: Function) => {
@@ -63,8 +64,9 @@ export default function UiComponentTextImagespanColorfilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0020
      * @tc.name   : imagespan add different types of pictures and set DrawingColorFilter
+     * @tc.desc   : Verify text imagespan colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0020", Level.LEVEL3, async (done: Function) => {

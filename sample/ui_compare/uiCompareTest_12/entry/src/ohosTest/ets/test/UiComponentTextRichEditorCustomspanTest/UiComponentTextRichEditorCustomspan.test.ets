@@ -39,11 +39,12 @@ export default function UiComponentTextRichEditorCustomspan() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMSPAN_0005
-        * @tc.name   : Custom drawing pure text span
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMSPAN_0005
+     * @tc.name   : Custom drawing pure text span
+     * @tc.desc   : Verify text richeditor customspan interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMSPAN_0005", Level.LEVEL3, async (done: Function) => {
       // 步骤1、打开页面，等待页面加载完成

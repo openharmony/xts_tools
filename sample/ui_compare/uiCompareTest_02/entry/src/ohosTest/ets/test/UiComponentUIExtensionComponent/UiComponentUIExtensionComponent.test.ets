@@ -58,13 +58,13 @@ export default function UiComponentUIExtensionComponent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050
-       * @tc.name    The UIExtensionComponent component interface is provided,UIExtensionComponent component is set to size
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050
+     * @tc.name   : The UIExtensionComponent component interface is provided,UIExtensionComponent component is set to size
+     * @tc.desc   : Verify special components UIExtensionComponent interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050`);
       Settings.createWindow("testability/pages/UiComponentUIExtensionComponent/UiComponentUIExtensionComponent01")
@@ -77,13 +77,13 @@ export default function UiComponentUIExtensionComponent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130
-       * @tc.name    The UIExtensionComponent component interface is provided,UIExtensionComponent sets the onError event
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130
+     * @tc.name   : The UIExtensionComponent component interface is provided,UIExtensionComponent sets the onError event
+     * @tc.desc   : Verify special components UIExtensionComponent interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130`);
       Settings.createWindow("testability/pages/UiComponentUIExtensionComponent/UiComponentUIExtensionComponent02")

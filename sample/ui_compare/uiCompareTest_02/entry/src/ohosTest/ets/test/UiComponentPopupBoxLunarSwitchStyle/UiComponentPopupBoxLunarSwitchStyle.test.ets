@@ -58,13 +58,13 @@ export default function UiComponentPopupBoxLunarSwitchStyle() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0070
-       * @tc.name    Verify that the color of the candy bar is displayed correctly when the three parameters of LunarSwitchStyle are set in dark mode:selectedColor is set to #ff0303,unselectedColor is set to 0x0fff03,trokeColor is set to rgb (0,0,255)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0070
+     * @tc.name   : Verify that the color of the candy bar is displayed correctly when the three parameters of LunarSwitchStyle are set in dark mode:selectedColor is set to #ff0303,unselectedColor is set to 0x0fff03,trokeColor is set to rgb (0,0,255)
+     * @tc.desc   : Verify popupbox lunarswitchstyle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle01")
@@ -94,13 +94,13 @@ export default function UiComponentPopupBoxLunarSwitchStyle() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0020
-       * @tc.name    Verify that the color of the candy bar is displayed correctly without setting LunarSwitchStyle in light mode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0020
+     * @tc.name   : Verify that the color of the candy bar is displayed correctly without setting LunarSwitchStyle in light mode
+     * @tc.desc   : Verify popupbox lunarswitchstyle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle02")
@@ -119,13 +119,13 @@ export default function UiComponentPopupBoxLunarSwitchStyle() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0040
-       * @tc.name    Verify that the color of the candy bar is displayed correctly when the three parameters of LunarSwitchStyle are set in light mode:selectedColor is set to #ff0303,unselectedColor is set to 0x0fff03,trokeColor is set to rgb (0,0,255)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0040
+     * @tc.name   : Verify that the color of the candy bar is displayed correctly when the three parameters of LunarSwitchStyle are set in light mode:selectedColor is set to #ff0303,unselectedColor is set to 0x0fff03,trokeColor is set to rgb (0,0,255)
+     * @tc.desc   : Verify popupbox lunarswitchstyle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle03")
@@ -155,13 +155,13 @@ export default function UiComponentPopupBoxLunarSwitchStyle() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0050
-       * @tc.name    Verify that the color of the candy bar is displayed correctly when the three parameters of LunarSwitchStyle are set in dark mode:and not set LunarSwitchStyle
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0050
+     * @tc.name   : Verify that the color of the candy bar is displayed correctly when the three parameters of LunarSwitchStyle are set in dark mode:and not set LunarSwitchStyle
+     * @tc.desc   : Verify popupbox lunarswitchstyle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle04")
@@ -191,13 +191,13 @@ export default function UiComponentPopupBoxLunarSwitchStyle() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0060
-       * @tc.name    Verify that the color of the bind machine is displayed correctly when the three parameters of LunarSwitchStyle are set to outliers in dark mode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0060
+     * @tc.name   : Verify that the color of the bind machine is displayed correctly when the three parameters of LunarSwitchStyle are set to outliers in dark mode
+     * @tc.desc   : Verify popupbox lunarswitchstyle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle05")
@@ -227,13 +227,13 @@ export default function UiComponentPopupBoxLunarSwitchStyle() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0030
-       * @tc.name    Verify that the color of the bind machine is displayed correctly when the three parameters of LunarSwitchStyle are set to outliers in light mode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0030
+     * @tc.name   : Verify that the color of the bind machine is displayed correctly when the three parameters of LunarSwitchStyle are set to outliers in light mode
+     * @tc.desc   : Verify popupbox lunarswitchstyle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle06")
@@ -263,13 +263,13 @@ export default function UiComponentPopupBoxLunarSwitchStyle() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0120
-       * @tc.name    Verify that the color of the candy bar is displayed correctly when the resource reference type is set to LunarSwitchStyle as the default value in dark mode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0120
+     * @tc.name   : Verify that the color of the candy bar is displayed correctly when the resource reference type is set to LunarSwitchStyle as the default value in dark mode
+     * @tc.desc   : Verify popupbox lunarswitchstyle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle07")
@@ -299,13 +299,13 @@ export default function UiComponentPopupBoxLunarSwitchStyle() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0110
-       * @tc.name    Verify that the color of the candy bar is displayed correctly when the resource reference type is set to LunarSwitchStyle as the default value in light mode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0110
+     * @tc.name   : Verify that the color of the candy bar is displayed correctly when the resource reference type is set to LunarSwitchStyle as the default value in light mode
+     * @tc.desc   : Verify popupbox lunarswitchstyle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle08")

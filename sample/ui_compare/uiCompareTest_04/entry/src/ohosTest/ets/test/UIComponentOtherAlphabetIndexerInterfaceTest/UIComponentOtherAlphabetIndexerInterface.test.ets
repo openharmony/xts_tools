@@ -38,10 +38,12 @@ export default function UIComponentOtherAlphabetIndexerInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0080
-     * @tc.name    Event onPopupSelect (callback: (index: number)=>void)
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0080
+     * @tc.name   : Event onPopupSelect (callback: (index: number)=>void)
+     * @tc.desc   : Verify other alphabetindexer interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0080 start.`);
@@ -60,10 +62,12 @@ export default function UIComponentOtherAlphabetIndexerInterface() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0090
-     * @tc.name    Event onRequestPopupData (callback: (index: number)=>Array)
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0090
+     * @tc.name   : Event onRequestPopupData (callback: (index: number)=>Array)
+     * @tc.desc   : Verify other alphabetindexer interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0090 start.`);

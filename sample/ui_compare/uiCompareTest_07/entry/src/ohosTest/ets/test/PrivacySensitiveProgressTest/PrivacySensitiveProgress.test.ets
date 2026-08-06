@@ -42,9 +42,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0010
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0010
-     * @tc.type   : function
-     * @tc.desc   : Test the original type style
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -72,9 +72,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0020
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0020
-     * @tc.type   : function
-     * @tc.desc   : Test privacySensitive false with different types
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -102,9 +102,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0030
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0030
-     * @tc.type   : function
-     * @tc.desc   : Test privacy hidden effect
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -132,9 +132,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0040
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0040
-     * @tc.type   : function
-     * @tc.desc   : Test color enumeration
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -163,9 +163,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0050
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0050
-     * @tc.type   : function
-     * @tc.desc   : Test color number when privacySensitive is false
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -198,9 +198,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0060
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0060
-     * @tc.type   : function
-     * @tc.desc   : Test color number when privacySensitive is true
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -233,9 +233,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0070
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0070
-     * @tc.type   : function
-     * @tc.desc   : Test color string when privacySensitive is false
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -268,9 +268,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0080
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0080
-     * @tc.type   : function
-     * @tc.desc   : Test color string when privacySensitive is true
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -303,9 +303,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0090
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0090
-     * @tc.type   : function
-     * @tc.desc   : Test color resource reference when privacySensitive is false
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -338,9 +338,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0100
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0100
-     * @tc.type   : function
-     * @tc.desc   : Test color resource reference when privacySensitive is true
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -373,9 +373,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0110
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0110
-     * @tc.type   : function
-     * @tc.desc   : Test LinearGradient color when privacySensitive is false
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -408,9 +408,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0120
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0120
-     * @tc.type   : function
-     * @tc.desc   : Test LinearGradient color when privacySensitive is true
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -443,9 +443,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0130
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0130
-     * @tc.type   : function
-     * @tc.desc   : Test backgroundColor enumeration when privacySensitive is false
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -473,9 +473,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0140
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0140
-     * @tc.type   : function
-     * @tc.desc   : Test backgroundColor enumeration when privacySensitive is true
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -503,9 +503,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0150
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0150
-     * @tc.type   : function
-     * @tc.desc   : Test backgroundColor number when privacySensitive is false
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -538,9 +538,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0160
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0160
-     * @tc.type   : function
-     * @tc.desc   : Test backgroundColor string when privacySensitive is false
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -573,9 +573,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0170
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0170
-     * @tc.type   : function
-     * @tc.desc   : Test backgroundColor string when privacySensitive is true
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -608,9 +608,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0180
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0180
-     * @tc.type   : function
-     * @tc.desc   : Test backgroundColor resource reference when privacySensitive is false
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -643,9 +643,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0190
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0190
-     * @tc.type   : function
-     * @tc.desc   : Test backgroundColor resource reference when privacySensitive is true
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -678,9 +678,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0200
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0200
-     * @tc.type   : function
-     * @tc.desc   : Test value and total parameters
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -720,9 +720,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0210
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0210
-     * @tc.type   : function
-     * @tc.desc   : Test value and total parameters when privacySensitive is false
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -758,9 +758,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0220
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0220
-     * @tc.type   : function
-     * @tc.desc   : Test value and total parameters when privacySensitive is true
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -801,9 +801,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0230
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0230
-     * @tc.type   : function
-     * @tc.desc   : Test privacySensitive false in different scenes
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -849,9 +849,9 @@ export default function PrivacySensitiveProgress() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0240
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_PROGRESS_0240
-     * @tc.type   : function
-     * @tc.desc   : Test privacySensitive true in different scenes
+     * @tc.name   : ArkUI privacysensitive Progress
+     * @tc.desc   : Verify ArkUI privacysensitive Progress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

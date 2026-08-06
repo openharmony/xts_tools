@@ -40,13 +40,13 @@ export default function TextRicheditorSearch() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0001
-       * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0001
-       * @tc.desc    Gesture to select part of the content to verify the search button position
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0001
+     * @tc.name   : Text richeditor search
+     * @tc.desc   : Verify text richeditor search interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0001 start.`);
       Settings.createWindow("testability/pages/TextRicheditorSearch/TextRicheditorSearch01")

@@ -38,10 +38,12 @@ export default function UIComponentListAndGridListFocusTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0010
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0010
+     * @tc.name   : Listandgrid list focus
+     * @tc.desc   : Verify listandgrid list focus interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0010 start.`);
@@ -62,10 +64,12 @@ export default function UIComponentListAndGridListFocusTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0030
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0030
+     * @tc.name   : Listandgrid list focus
+     * @tc.desc   : Verify listandgrid list focus interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0030 start.`);
@@ -86,10 +90,12 @@ export default function UIComponentListAndGridListFocusTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0040
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0040
+     * @tc.name   : Listandgrid list focus
+     * @tc.desc   : Verify listandgrid list focus interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0040 start.`);
@@ -110,10 +116,12 @@ export default function UIComponentListAndGridListFocusTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0020
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0020
+     * @tc.name   : Listandgrid list focus
+     * @tc.desc   : Verify listandgrid list focus interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0020 start.`);

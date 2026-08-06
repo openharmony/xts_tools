@@ -55,13 +55,13 @@ export default function UiMotionAnimationPropertyAnimation() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_CURVE_010
-       * @tc.name    Outlier: In the property animation, the parameter delay is .animation({ curve: undefined })
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_CURVE_010
+     * @tc.name   : Outlier: In the property animation, the parameter delay is .animation({ curve: undefined })
+     * @tc.desc   : Verify motion animation propertyanmation curve interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_CURVE_010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_CURVE_010 start.`);
       Settings.createWindow("testability/pages/UiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation01")
@@ -77,13 +77,13 @@ export default function UiMotionAnimationPropertyAnimation() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_DELAY_010
-       * @tc.name    Outlier: In the property animation, the parameter delay is .animation({ delay: undefined })
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_DELAY_010
+     * @tc.name   : Outlier: In the property animation, the parameter delay is .animation({ delay: undefined })
+     * @tc.desc   : Verify motion animation propertyanmation delay interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_DELAY_010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_DELAY_010 start.`);
       Settings.createWindow("testability/pages/UiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation02")
@@ -99,13 +99,13 @@ export default function UiMotionAnimationPropertyAnimation() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_PLAYMODE_010
-       * @tc.name    Outlier: In the property animation, the parameter delay is .animation({ playmode: undefined })
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_PLAYMODE_010
+     * @tc.name   : Outlier: In the property animation, the parameter delay is .animation({ playmode: undefined })
+     * @tc.desc   : Verify motion animation propertyanmation playmode interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_PLAYMODE_010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_PLAYMODE_010 start.`);
       Settings.createWindow("testability/pages/UiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation03")
@@ -121,13 +121,13 @@ export default function UiMotionAnimationPropertyAnimation() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_DURATION_010
-       * @tc.name    Outlier: In the property animation, the parameter delay is .animation({ duration: undefined })
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_DURATION_010
+     * @tc.name   : Outlier: In the property animation, the parameter delay is .animation({ duration: undefined })
+     * @tc.desc   : Verify motion animation propertyanmation duration interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_DURATION_010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_DURATION_010 start.`);
       Settings.createWindow("testability/pages/UiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation04")
@@ -143,13 +143,13 @@ export default function UiMotionAnimationPropertyAnimation() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_ITERATIONS_010
-       * @tc.name    Outlier: In the property animation, the parameter delay is .animation({ iterations: undefined })
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_ITERATIONS_010
+     * @tc.name   : Outlier: In the property animation, the parameter delay is .animation({ iterations: undefined })
+     * @tc.desc   : Verify motion animation propertyanmation iterations interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_ITERATIONS_010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_ITERATIONS_010 start.`);
       Settings.createWindow("testability/pages/UiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation05")
@@ -165,13 +165,13 @@ export default function UiMotionAnimationPropertyAnimation() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_TEMPO_010
-       * @tc.name    Outlier: In the property animation, the parameter delay is .animation({ tempo: undefined })
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_TEMPO_010
+     * @tc.name   : Outlier: In the property animation, the parameter delay is .animation({ tempo: undefined })
+     * @tc.desc   : Verify motion animation propertyanmation tempo interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_TEMPO_010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_TEMPO_010 start.`);
       Settings.createWindow("testability/pages/UiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation06")

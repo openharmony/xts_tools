@@ -39,6 +39,14 @@ export default function FocusSegmentButtonV2TestPart3() {
       done()
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2540
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2540 start`);
 
@@ -69,13 +77,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2550
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2550
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemMinHeight with 40fp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2550
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2550 start`);
 
@@ -106,13 +114,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2560
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2560
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemMinHeight with 40lpx
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2560
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2560 start`);
 
@@ -143,13 +151,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2570
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2570
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemMinHeight with 40px
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2570
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2570 start`);
 
@@ -180,13 +188,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2580
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2580
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemMinHeight with 40vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2580
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2580 start`);
 
@@ -217,13 +225,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2590
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2590
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemMinHeight with undefined (default value)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2590
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2590 start`);
 
@@ -254,13 +262,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2600
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2600
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemPadding with mixed units (40px, 40fp, 40lpx, resource)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2600
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2600 start`);
 
@@ -291,13 +299,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2610
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2610
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemPadding with negative values (40, 40, -1, -1)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2610
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2610 start`);
 
@@ -328,13 +336,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2620
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2620
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemPadding with 1% for all sides
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2620
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2620 start`);
 
@@ -365,13 +373,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2630
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2630
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedBackgroundColor with rgba type (yellow)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2630
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2630 start`);
 
@@ -401,13 +409,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2640
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2640
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedBackgroundColor with custom colors
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2640
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2640 start`);
 
@@ -488,13 +496,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2650
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2650
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedBackgroundColor with preset colors
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2650
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2650 start`);
 
@@ -540,13 +548,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2660
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2660
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontColor with rgba type (yellow)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2660
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2660 start`);
 
@@ -576,13 +584,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2670
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2670
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontColor with custom colors
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2670
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2670 start`);
 
@@ -663,13 +671,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2680
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2680
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontColor with preset colors
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2680
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2680 start`);
 
@@ -715,13 +723,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2690
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2690
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontSize with -1 (abnormal value)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2690
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2690 start`);
 
@@ -751,13 +759,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2700
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2700
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontSize with 20vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2700
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2700 start`);
 
@@ -787,13 +795,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2710
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2710
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontSize with 40%
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2710
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2710 start`);
 
@@ -823,13 +831,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2720
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2720
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontSize with 40fp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2720
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2720 start`);
 
@@ -859,13 +867,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2730
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2730
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontSize with 40lpx
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2730
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2730 start`);
 
@@ -895,13 +903,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2740
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2740
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontSize with 40px
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2740
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2740 start`);
 
@@ -931,13 +939,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2750
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2750
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontSize with resource
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2750
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2750 start`);
 
@@ -967,13 +975,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2760
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2760
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontSize with undefined
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2760
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2760 start`);
 
@@ -1003,13 +1011,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2770
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2770
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontWeight with Bolder
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2770
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2770 start`);
 
@@ -1039,13 +1047,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2780
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2780
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontWeight with Bold
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2780
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2780 start`);
 
@@ -1075,13 +1083,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2790
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2790
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontWeight with Lighter
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2790
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2790', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2790 start`);
 
@@ -1111,13 +1119,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2800
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2800
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontWeight with Medium
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2800
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2800', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2800 start`);
 
@@ -1147,13 +1155,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2810
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2810
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontWeight with Normal
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2810
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2810 start`);
 
@@ -1183,13 +1191,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2820
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2820
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontWeight with Regular
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2820
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2820 start`);
 
@@ -1219,13 +1227,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2830
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2830
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedFontWeight with undefined
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2830
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2830 start`);
 
@@ -1255,13 +1263,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2840
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2840
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedIconFillColor with rgba color
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2840
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2840 start`);
 
@@ -1291,13 +1299,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2850
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2850
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedIconFillColor with custom colors
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2850
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2850', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2850 start`);
 
@@ -1378,13 +1386,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2860
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2860
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedIconFillColor with preset colors
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2860
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2860 start`);
 
@@ -1430,13 +1438,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2870
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2870
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedSymbolFontColor with rgba color
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2870
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2870 start`);
 
@@ -1466,13 +1474,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2880
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2880
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedSymbolFontColor with custom colors
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2880
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2880', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2880 start`);
 
@@ -1553,13 +1561,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2890
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2890
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSelectedSymbolFontColor with preset colors
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2890
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2890', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2890 start`);
 
@@ -1605,13 +1613,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2900
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2900
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSpace with -1 (abnormal value)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2900
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2900 start`);
 
@@ -1641,13 +1649,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2910
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2910
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSpace with 20vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2910
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2910', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2910 start`);
 
@@ -1677,13 +1685,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2920
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2920
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSpace with 40%
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2920
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2920', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2920 start`);
 
@@ -1713,13 +1721,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2930
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2930
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSpace with 40fp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2930
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2930', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2930 start`);
 
@@ -1749,13 +1757,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2940
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2940
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSpace with 40lpx
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2940
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2940', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2940 start`);
 
@@ -1785,13 +1793,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2950
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2950
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSpace with 40px
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2950
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2950', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2950 start`);
 
@@ -1821,13 +1829,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2960
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2960
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSpace with resource
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2960
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2960', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2960 start`);
 
@@ -1857,13 +1865,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2970
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2970
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSpace with undefined
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2970
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2970', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2970 start`);
 
@@ -1893,13 +1901,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2980
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2980
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSymbolFontColor with rgba color (yellow)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2980
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2980', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2980 start`);
 
@@ -1929,13 +1937,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2990
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2990
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSymbolFontColor with custom colors
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2990
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2990', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_2990 start`);
 
@@ -2008,13 +2016,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3000
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3000
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSymbolFontColor with preset colors
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3000
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3000', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3000 start`);
 
@@ -2057,13 +2065,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3010
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3010
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSymbolFontSize with -1 (default 20fp)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3010
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3010 start`);
 
@@ -2093,13 +2101,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3020
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3020
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSymbolFontSize with 20vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3020
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3020 start`);
 
@@ -2129,13 +2137,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3030
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3030
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSymbolFontSize with 40%
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3030
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3030 start`);
 
@@ -2165,13 +2173,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3040
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3040
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSymbolFontSize with 40fp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3040
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3040 start`);
 
@@ -2201,13 +2209,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3050
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3050
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSymbolFontSize with 40lpx
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3050
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3050 start`);
 
@@ -2237,13 +2245,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3060
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3060
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSymbolFontSize with 40px
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3060
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3060 start`);
 
@@ -2273,13 +2281,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3070
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3070
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSymbolFontSize with resource
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3070
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3070 start`);
 
@@ -2309,13 +2317,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3080
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3080
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 itemSymbolFontSize with undefined (default 20fp)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3080
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3080 start`);
 
@@ -2345,13 +2353,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3090
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3090
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 onItemClicked callback with toast
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3090
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3090 start`);
 
@@ -2390,13 +2398,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3100
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3100
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 OnSelectedIndexChange callback
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3100
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3100 start`);
 
@@ -2448,13 +2456,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3110
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3110
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 SelectedIndex with [-1, 1]
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3110
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3110 start`);
 
@@ -2476,13 +2484,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3120
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3120
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 SelectedIndex with [100, 999] (out of range)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3120
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3120 start`);
 
@@ -2504,13 +2512,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3130
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3130
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify MultiCapsuleSegmentButtonV2 SelectedIndex with [1, 2]
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3130
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3130 start`);
 
@@ -2532,13 +2540,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3140
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3140
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyleOptions with ColorMode DARK
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3140
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3140 start`);
 
@@ -2568,13 +2576,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3150
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3150
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyleOptions with ColorMode LIGHT
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3150
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3150 start`);
 
@@ -2604,13 +2612,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3160
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3160
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyleOptions with ColorMode SYSTEM
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3160
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3160 start`);
 
@@ -2640,13 +2648,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3170
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3170
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyle with COMPONENT_REGULAR
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3170
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3170 start`);
 
@@ -2676,13 +2684,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3180
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3180
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyle with COMPONENT_THICK
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3180
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3180 start`);
 
@@ -2712,13 +2720,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3190
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3190
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyle with COMPONENT_THIN
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3190
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3190 start`);
 
@@ -2748,13 +2756,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3200
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3200
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyle with COMPONENT_ULTRA_THICK
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3200
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3200 start`);
 
@@ -2784,13 +2792,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3210
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3210
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyle with BACKGROUND_REGULAR
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3210
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3210 start`);
 
@@ -2820,13 +2828,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3220
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3220
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyle with BACKGROUND_THICK
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3220
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3220 start`);
 
@@ -2856,13 +2864,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3230
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3230
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyle with BACKGROUND_THIN
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3230
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3230 start`);
 
@@ -2892,13 +2900,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3240
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3240
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyle with BACKGROUND_ULTRA_THICK
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3240
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3240 start`);
 
@@ -2928,13 +2936,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3250
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3250
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyle with COMPONENT_ULTRA_THIN
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3250
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3250 start`);
 
@@ -2964,13 +2972,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3260
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3260
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyle with NONE
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3260
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3260 start`);
 
@@ -3000,13 +3008,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3270
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3270
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyle with Regular
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3270
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3270 start`);
 
@@ -3036,13 +3044,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3280
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3280
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyle with Thick
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3280
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3280 start`);
 
@@ -3072,13 +3080,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3290
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3290
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 BackgroundBlurStyle with Thin
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3290
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3290 start`);
 
@@ -3108,13 +3116,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3300
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3300
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBackgroundColor with rgba color (yellow)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3300
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3300 start`);
 
@@ -3144,13 +3152,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3310
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3310
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBackgroundColor with custom colors
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3310
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3310 start`);
 
@@ -3231,13 +3239,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3320
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3320
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBackgroundColor with preset colors
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3320
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3320 start`);
 
@@ -3283,13 +3291,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3330
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3330
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBackgroundEffect with abnormal values
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3330
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3330 start`);
 
@@ -3319,13 +3327,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3340
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3340
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBackgroundEffect with normal values
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3340
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3340 start`);
 
@@ -3355,13 +3363,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3350
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3350
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBackgroundEffect with adaptiveColor and blurOptions
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3350
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3350 start`);
 
@@ -3391,13 +3399,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3360
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3360
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBackgroundEffect with DEFAULT adaptiveColor and grayscale[0,0]
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3360
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3360 start`);
 
@@ -3427,13 +3435,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3370
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3370
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBackgroundEffect with partial params (missing color)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3370
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3370 start`);
 
@@ -3463,13 +3471,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3380
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3380
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBackgroundEffect with partial abnormal values
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3380
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3380 start`);
 
@@ -3499,13 +3507,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3390
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3390
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBorderRadius with resource value
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3390
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3390 start`);
 
@@ -3535,13 +3543,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3400
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3400
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBorderRadius with 10%
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3400
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3400 start`);
 
@@ -3571,13 +3579,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3410
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3410
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBorderRadius with 10fp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3410
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3410 start`);
 
@@ -3607,13 +3615,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3420
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3420
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBorderRadius with 10lpx
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3420
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3420 start`);
 
@@ -3643,13 +3651,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3430
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3430
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBorderRadius with 10px
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3430
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3430 start`);
 
@@ -3679,13 +3687,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3440
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3440
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBorderRadius with 10vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3440
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3440 start`);
 
@@ -3715,13 +3723,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3450
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3450
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonBorderRadius with undefined
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3450
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3450 start`);
 
@@ -3751,13 +3759,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3460
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3460
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonMinHeight with resource value (50vp)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3460
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3460 start`);
 
@@ -3787,13 +3795,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3470
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3470
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonMinHeight with -1vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3470
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3470 start`);
 
@@ -3823,13 +3831,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3480
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3480
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonMinHeight with 10%
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3480
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3480 start`);
 
@@ -3859,13 +3867,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3490
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3490
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonMinHeight with 90fp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3490
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3490 start`);
 
@@ -3895,13 +3903,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3500
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3500
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonMinHeight with 90lpx
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3500
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3500 start`);
 
@@ -3931,13 +3939,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3510
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3510
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonMinHeight with 90px
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3510
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3510 start`);
 
@@ -3967,13 +3975,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3520
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3520
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonMinHeight with 90vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3520
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3520 start`);
 
@@ -4003,13 +4011,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3530
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3530
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonMinHeight with undefined
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3530
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3530 start`);
 
@@ -4039,13 +4047,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3540
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3540
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonPadding with resource value (100vp)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3540
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3540 start`);
 
@@ -4075,13 +4083,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3550
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3550
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonPadding with 10%
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3550
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3550 start`);
 
@@ -4111,13 +4119,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3560
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3560
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonPadding with 50fp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3560
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3560 start`);
 
@@ -4147,13 +4155,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3570
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3570
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonPadding with 50lpx
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3570
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3570 start`);
 
@@ -4183,13 +4191,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3580
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3580
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonPadding with 50px
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3580
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3580 start`);
 
@@ -4219,13 +4227,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3590
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3590
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonPadding with 50vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3590
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3590 start`);
 
@@ -4255,13 +4263,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3600
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3600
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 buttonPadding with undefined
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3600
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3600 start`);
 
@@ -4291,13 +4299,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3610
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3610
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemBorderRadius with resource value (100vp)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3610
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3610 start`);
 
@@ -4327,13 +4335,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3620
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3620
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemBorderRadius with 10%
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3620
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3620 start`);
 
@@ -4363,13 +4371,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3630
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3630
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemBorderRadius with 10fp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3630
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3630 start`);
 
@@ -4399,13 +4407,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3640
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3640
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemBorderRadius with 10lpx
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3640
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3640 start`);
 
@@ -4435,13 +4443,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3650
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3650
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemBorderRadius with 10px
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3650
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3650 start`);
 
@@ -4471,13 +4479,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3660
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3660
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemBorderRadius with 10vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3660
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3660 start`);
 
@@ -4507,13 +4515,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3670
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3670
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemBorderRadius with undefined
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3670
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3670 start`);
 
@@ -4543,13 +4551,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3680
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3680
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemFontColor with rgba color (yellow)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3680
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3680 start`);
 
@@ -4579,13 +4587,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3690
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3690
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemFontColor with custom colors
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3690
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3690 start`);
 
@@ -4666,13 +4674,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3700
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3700
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemFontColor with preset colors
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3700
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3700 start`);
 
@@ -4718,13 +4726,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3710
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3710
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with -1 (abnormal value)
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3710
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3710 start`);
 
@@ -4754,13 +4762,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3720
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3720
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with 20vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3720
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3720 start`);
 
@@ -4790,13 +4798,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3730
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3730
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with 40%
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3730
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3730 start`);
 
@@ -4826,13 +4834,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3740
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3740
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with 40fp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3740
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3740 start`);
 
@@ -4862,13 +4870,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3750
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3750
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with 40lpx
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3750
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3750 start`);
 
@@ -4898,13 +4906,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3760
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3760
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with 40px
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3760
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3760 start`);
 
@@ -4934,13 +4942,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3770
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3770
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with resource($r("app.string.string1"))
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3770
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3770 start`);
 
@@ -4970,13 +4978,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3780
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3780
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemFontSize with undefined
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3780
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3780 start`);
 
@@ -5006,13 +5014,13 @@ export default function FocusSegmentButtonV2TestPart3() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3790
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3790
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify TabSegmentButtonV2 itemFontWeight with Bolder
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3790
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3790', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3790 start`);
 

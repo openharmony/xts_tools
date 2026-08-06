@@ -37,6 +37,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0010
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0010', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0010 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0010');
@@ -50,6 +58,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0020
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0020', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0020 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0020');
@@ -63,6 +79,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0030
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0030', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0030 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0030');
@@ -76,6 +100,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0040
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0040', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0040 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0040');
@@ -89,6 +121,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0050
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0050', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0050 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0050');
@@ -102,6 +142,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0060
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0060', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0060 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0060');
@@ -115,6 +163,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0070
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0070', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0070 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0070');
@@ -128,6 +184,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0080
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0080', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0080 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0080');
@@ -141,6 +205,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0090
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0090', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0090 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0090');
@@ -154,6 +226,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0100
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0100', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0100 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0100');
@@ -167,6 +247,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0110
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0110', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0110 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0110');
@@ -180,6 +268,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0120
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0120', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0120 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0120');
@@ -193,6 +289,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0130
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0130', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0130 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0130');
@@ -206,6 +310,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0140
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0140', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0140 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0140');
@@ -219,6 +331,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0150
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0150', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0150 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0150');
@@ -232,6 +352,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0160
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0160', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0160 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0160');
@@ -245,6 +373,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0170
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0170', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0170 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0170');
@@ -258,6 +394,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0180
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0180', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0180 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0180');
@@ -271,6 +415,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0190
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0190', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0190 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0190');
@@ -284,6 +436,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0200
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0200', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0200 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0200');
@@ -297,6 +457,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0210
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0210', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0210 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0210');
@@ -310,6 +478,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0220
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0220', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0220 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0220');
@@ -323,6 +499,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0230
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0230', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0230 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0230');
@@ -336,6 +520,14 @@ export default function UiComponentDividerWiththemeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0240
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0240', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0240 start.`);
       Settings.createWindow('testability/pages/UiComponentDividerWiththeme/UiComponentDividerWiththeme0240');

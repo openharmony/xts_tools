@@ -27,10 +27,13 @@ export default function UiComponentFullscreenlaunch() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0004
-     * @tc.name FullscreenlaunchOnerror0004
-     * @tc.desc 嵌入式拉起元服务，生命周期超时，触发onError回调
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0004
+     * @tc.name   : FullscreenlaunchOnerror0004
+     * @tc.desc   : Verify special components fullscreenlaunchcomponent onerror onterminated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0004', 0, async () => {
       Logger.info('FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0004 begin');
@@ -51,10 +54,13 @@ export default function UiComponentFullscreenlaunch() {
       Logger.info('FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0004 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0005
-     * @tc.name FullscreenlaunchOnerror0005
-     * @tc.desc 嵌入式拉起元服务，拉起过程中切换到后台，触发onError回调
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0005
+     * @tc.name   : FullscreenlaunchOnerror0005
+     * @tc.desc   : Verify special components fullscreenlaunchcomponent onerror onterminated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0005', 0, async () => {
       Logger.info('FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0005 begin');
@@ -75,10 +81,13 @@ export default function UiComponentFullscreenlaunch() {
       Logger.info('FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0005 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0006
-     * @tc.name FullscreenlaunchOnerror0006
-     * @tc.desc 嵌入式拉起元服务，拉起过程中，在前台触发onError回调
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0006
+     * @tc.name   : FullscreenlaunchOnerror0006
+     * @tc.desc   : Verify special components fullscreenlaunchcomponent onerror onterminated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0006', 0, async () => {
       Logger.info('FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0006 begin');

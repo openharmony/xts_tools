@@ -41,13 +41,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0160
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0160
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the prefixIcon and suffixIcon parameters of the items parameter to the resource type (gif images from $rawfile).
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0160
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0160  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0160")
@@ -71,13 +71,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0170
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0170
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the prefixIcon and suffixIcon parameters of the items parameter to the resource type ($rawfile, not image type).
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0170
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0170  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0170")
@@ -102,13 +102,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0180
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0180
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the prefixIcon and suffixIcon parameters of the items parameter to the string type (PNG images).
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0180
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0180  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0180")
@@ -126,13 +126,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0190
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0190
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the prefixIcon and suffixIcon parameters of the items parameter to the string type (GIF images).
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0190
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0190  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0190")
@@ -149,13 +149,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0200
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0200
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the prefixIcon and suffixIcon parameters of the items parameter to the string type (abnormal value).
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0200
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0200  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0200")
@@ -178,13 +178,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0210
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0210
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the prefixIcon and suffixIcon parameters of the items parameter to the string type (image string).
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0210
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0210  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0210")
@@ -207,13 +207,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0220
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0220
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the prefixIcon and suffixIcon parameters of the items parameter to empty.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0220
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0220  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0220")
@@ -236,13 +236,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0260
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0260
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the width of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) less than 0.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0260
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0260  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0260")
@@ -265,13 +265,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0270
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0270
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the width of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to 0.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0270
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0270  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0270")
@@ -293,13 +293,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0280
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0280
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the width of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to 15.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0280
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0280  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0280")
@@ -322,13 +322,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0290
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0290
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the width of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to 20%.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0290
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0290  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0290")
@@ -351,13 +351,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0300
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0300
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the width of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to 10px.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0300
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0300  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0300")
@@ -380,13 +380,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0310
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0310
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the width of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to 5vp.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0310
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0310  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0310")
@@ -409,13 +409,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0320
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0320
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the width of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to 20fp.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0320
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0320  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0320")
@@ -438,13 +438,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0330
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0330
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the width of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to 10lpx.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0330
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0330  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0330")
@@ -467,13 +467,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0370
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0370
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the width of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to app res.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0370
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0370  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0370")
@@ -496,13 +496,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0410
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0410
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the width of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to undefined.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0410
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0410  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0410")
@@ -525,13 +525,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0430
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0430
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the width of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to undefined.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0430
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0430  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0430")
@@ -554,13 +554,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0440
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0440
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component,not set the width of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter).
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0440
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0440  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0440")
@@ -583,13 +583,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0450
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0450
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the height of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to -100.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0450
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0450  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0450")
@@ -612,13 +612,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0460
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0460
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the height of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to 0.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0460
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0460  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0460")
@@ -641,13 +641,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0470
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0470
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the height of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to 100.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0470
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0470  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0470")
@@ -670,13 +670,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0480
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0480
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the height of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to 30%.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0480
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0480  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0480")
@@ -699,13 +699,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0490
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0490
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the height of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to 100px.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0490
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0490  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0490")
@@ -728,13 +728,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0500
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0500
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the height of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to 100vp.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0500
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0500  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0500")
@@ -757,13 +757,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0510
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0510
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the height of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to 100vp.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0510
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0510  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0510")
@@ -786,13 +786,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0520
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0520
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the height of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to 100vp.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0520
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0520  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0520")
@@ -815,13 +815,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0560
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0560
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the height of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to app res.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0560
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0560  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0560")
@@ -844,13 +844,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0600
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0600
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the height of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to undefined.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0600
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0600  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0600")
@@ -873,13 +873,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0620
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0620
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the height of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter) to empty.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0620
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0620  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0620")
@@ -902,13 +902,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0630
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0630
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, not set the height of the SizeOptions for the prefixIcon and suffixIcon parameters (under the items parameter).
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0630
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0630  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0630")
@@ -931,13 +931,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0640
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0640
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0640
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0640  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0640")
@@ -956,13 +956,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0650
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0650
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0650
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0650  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0650")
@@ -981,13 +981,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0680
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0680
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0680
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0680  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0680")
@@ -1008,13 +1008,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0710
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0710
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0710
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0710  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0710")
@@ -1031,13 +1031,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0720
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0720
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0720
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0720  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0720")
@@ -1056,13 +1056,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0730
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0730
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0730
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0730  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0730")
@@ -1081,13 +1081,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0750
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0750
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0750
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0750  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0750")
@@ -1102,13 +1102,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0760
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0760
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0760
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0760  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0760")
@@ -1131,13 +1131,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0770
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0770
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0770
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0770  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0770")
@@ -1160,13 +1160,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0780
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0780
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0780
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0780  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0780")
@@ -1181,13 +1181,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0800
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0800
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0800
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0800', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0800  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0800")
@@ -1202,13 +1202,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0810
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0810
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0810
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0810  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0810")
@@ -1231,13 +1231,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0820
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0820
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0820
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0820  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0820")
@@ -1260,13 +1260,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0830
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0830
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0830
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0830  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0830")
@@ -1289,13 +1289,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0840
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0840
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0840
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0840  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0840")
@@ -1318,13 +1318,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0860
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0860
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0860
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0860  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0860")
@@ -1347,13 +1347,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0870
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0870
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0870
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0870  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0870")
@@ -1380,13 +1380,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0880
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0880
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0880
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0880', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0880  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0880")
@@ -1402,13 +1402,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0890
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0890
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set the label of the items parameter to a normal value.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0890
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0890', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0890  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0890")
@@ -1424,13 +1424,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1170
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1170
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set itemStyle parameters backgroundColor, selectedBackgroundColor, fontColor, selectedFontColor to undefined.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1170
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1170  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1170")
@@ -1450,13 +1450,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1070
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1070
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test itemStyle backgroundColor parameter with Color.Orange.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1070
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1070  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1070")
@@ -1485,13 +1485,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1080
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1080
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test itemStyle parameters with Color.Red.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1080
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1080  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1080")
@@ -1518,13 +1518,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1090
-        * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1090
-        * @tc.type   : Function
-        * @tc.size   : MediumTest
-        * @tc.level  : 3
-        * @tc.desc   : For the ChipGroup component, test itemStyle parameters.
-        */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1090
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1090  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1090")
@@ -1542,13 +1542,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1100
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1100
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test itemStyle parameters.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1100
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1100  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1100")
@@ -1566,13 +1566,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1110
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1110
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test itemStyle parameters.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1110
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1110  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1110")
@@ -1590,13 +1590,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1120
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1120
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test itemStyle parameters.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1120
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1120  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1120")
@@ -1614,13 +1614,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1130
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1130
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test itemStyle parameters.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1130
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1130  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1130")
@@ -1638,13 +1638,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1140
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1140
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test itemStyle parameters.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1140
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1140  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1140")
@@ -1662,13 +1662,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1150
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1150
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test itemStyle parameters.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1150
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1150  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1150")
@@ -1687,13 +1687,13 @@ export default function FocusChipGroupInterfaceTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1180
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1180
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test itemStyle parameters.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1180
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1180  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1180")
@@ -1713,13 +1713,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1190
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1190
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, set itemStyle parameters backgroundColor, selectedBackgroundColor, fontColor, selectedFontColor to invalid values.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1190
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1190  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1190")
@@ -1756,13 +1756,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1220
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1220
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test itemStyle parameters.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1220
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1220  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1220")
@@ -1780,13 +1780,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1240
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1240
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test itemStyle parameters.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1240
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1240  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1240")
@@ -1804,13 +1804,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1480
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1480
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test suffix parameter src with resource types (app resources png, svg, jpg, gif, bmp images, non-image types).
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1480
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1480  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1480")
@@ -1877,13 +1877,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1500
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1500
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test suffix parameters.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1500
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1500  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1500")
@@ -1922,13 +1922,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1510
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1510
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test suffix parameters.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1510
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1510  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1510")
@@ -1967,13 +1967,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1540
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1540
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test suffix size parameters.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1540
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1540  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1540")
@@ -2015,13 +2015,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1550
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1550
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test suffix size parameters.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1550
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1550  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1550")
@@ -2063,13 +2063,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1590
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1590
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test overflow and scrolling with many chips.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1590
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1590  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1590")
@@ -2101,13 +2101,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1600
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1600
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test items array with invalid entries.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1600
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1600  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1600")
@@ -2136,13 +2136,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1620
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1620
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test selectedIndexes with negative number.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1620
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1620  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1620")
@@ -2171,13 +2171,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1630
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1630
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test selectedIndexes with valid number.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1630
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1630  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1630")
@@ -2206,13 +2206,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1640
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1640
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test selectedIndexes with out-of-range number.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1640
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1640  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1640")
@@ -2241,13 +2241,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1650
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1650
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test selectedIndexes with multiple values.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1650
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1650  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1650")
@@ -2276,13 +2276,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1660
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1660
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test selectedIndexes with chip deletion.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1660
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1660  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1660")
@@ -2321,13 +2321,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1670
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1670
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test selectedIndexes with valid and out-of-range numbers.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1670
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1670  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1670")
@@ -2356,13 +2356,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1680
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1680
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test selectedIndexes with mixed numbers.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1680
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1680  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1680")
@@ -2391,13 +2391,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1690
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1690
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test selectedIndexes with multiple negative numbers.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1690
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1690  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1690")
@@ -2426,13 +2426,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1700
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1700
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test selectedIndexes with multiple out-of-range numbers.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1700
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1700  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1700")
@@ -2461,13 +2461,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1710
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1710
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test selectedIndexes with mixed negative and out-of-range numbers.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1710
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1710  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1710")
@@ -2496,13 +2496,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1720
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1720
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test selectedIndexes with duplicate valid numbers.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1720
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1720  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1720")
@@ -2531,13 +2531,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1730
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1730
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test not setting selectedIndexes.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1730
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1730  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1730")
@@ -2566,13 +2566,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1740
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1740
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test setting selectedIndexes to undefined.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1740
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1740  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1740")
@@ -2601,13 +2601,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1750
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1750
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test multiple parameter settings with true/false switching.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1750
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1750  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1750")
@@ -2652,13 +2652,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1760
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1760
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test multiple parameter settings.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1760
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1760  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1760")
@@ -2683,13 +2683,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1770
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1770
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test multiple parameter settings.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1770
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1770  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1770")
@@ -2714,13 +2714,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1780
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1780
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test not setting multiple parameter.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1780
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1780  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1780")
@@ -2749,13 +2749,13 @@ export default function FocusChipGroupInterfaceTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1870
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1870
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : For the ChipGroup component, test suffix with many chips.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1870
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1870  start.`);
       Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1870")

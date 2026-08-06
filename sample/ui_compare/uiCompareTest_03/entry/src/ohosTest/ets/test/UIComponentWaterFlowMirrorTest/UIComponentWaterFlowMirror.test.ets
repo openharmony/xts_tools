@@ -63,10 +63,12 @@ export default function UIComponentWaterFlowMirror() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0010_014
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0010_014
-     * @tc.desc    Test waterflow mirroring capability with columnsTemplate: 1fr 1fr 1fr layout
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0010_014
+     * @tc.name   : Waterflow mirror layout
+     * @tc.desc   : Verify waterflow mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0010_014', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0010_014';

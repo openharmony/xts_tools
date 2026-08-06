@@ -30,6 +30,14 @@ export default function UiComponentTextinputTv() {
       }
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0010
+     * @tc.name   : Textinput tv
+     * @tc.desc   : Verify textinput tv interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0010', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextinputTv/TextinputTv0010');
       await driver.delayMs(500);
@@ -42,6 +50,14 @@ export default function UiComponentTextinputTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0010');
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0030
+     * @tc.name   : Textinput tv
+     * @tc.desc   : Verify textinput tv interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0030', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextinputTv/TextinputTv0030');
       await driver.delayMs(500);
@@ -54,6 +70,14 @@ export default function UiComponentTextinputTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0030');
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0100
+     * @tc.name   : Textinput tv
+     * @tc.desc   : Verify textinput tv interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0100', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextinputTv/TextinputTv0100');
       await driver.delayMs(500);
@@ -66,6 +90,14 @@ export default function UiComponentTextinputTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0100');
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0130
+     * @tc.name   : Textinput tv
+     * @tc.desc   : Verify textinput tv interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0130', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextinputTv/TextinputTv0130');
       await driver.delayMs(500);
@@ -78,6 +110,14 @@ export default function UiComponentTextinputTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0130');
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0240
+     * @tc.name   : Textinput tv
+     * @tc.desc   : Verify textinput tv interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0240', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextinputTv/TextinputTv0240');
       await driver.delayMs(500);
@@ -90,6 +130,14 @@ export default function UiComponentTextinputTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0240');
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_SEARCH_TV_FOCUS_0310
+     * @tc.name   : Textinput search tv focus
+     * @tc.desc   : Verify textinput search tv focus interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SEARCH_TV_FOCUS_0310', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextinputTv/TextinputTv0310');
       await driver.delayMs(500);
@@ -104,6 +152,14 @@ export default function UiComponentTextinputTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTINPUT_SEARCH_TV_FOCUS_0310');
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_BASICCONTAINER_FORMSELECTION_TIMEPICKER_LANGUAGEORDER_0010
+     * @tc.name   : Component function basiccontainer formselection TimePicker languageorder
+     * @tc.desc   : Verify component function basiccontainer formselection TimePicker languageorder interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_BASICCONTAINER_FORMSELECTION_TIMEPICKER_LANGUAGEORDER_0010', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextinputTv/TextinputTvTimepicker');
       await driver.delayMs(500);
@@ -116,6 +172,14 @@ export default function UiComponentTextinputTv() {
       await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_BASICCONTAINER_FORMSELECTION_TIMEPICKER_LANGUAGEORDER_0010');
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_TV_0510
+     * @tc.name   : Search tv
+     * @tc.desc   : Verify search tv interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_TV_0510', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextinputTv/SearchTv0510');
       await driver.delayMs(500);
@@ -128,6 +192,14 @@ export default function UiComponentTextinputTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SEARCH_TV_0510');
     });
 
+    /*
+     * @tc.number : TextInput_Focus_Test
+     * @tc.name   : TextInput_Focus_Test
+     * @tc.desc   : Verify textinput focus test interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('TextInput_Focus_Test', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextinputTv/TextinputFocusTest');
       await driver.delayMs(500);

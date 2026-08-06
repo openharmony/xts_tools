@@ -44,8 +44,7 @@ export default function columnTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0040
      * @tc.name   : A column nests a column1 component. The column sets width 100 and height 200. The column1 first
-     * sets width 100 and height 200, then sets width to AdaptiveLayoutModePolicy.MATCH_PARENT and height to
-     * AdaptiveLayoutModePolicy.MATCH_PARENT.
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -64,8 +63,7 @@ export default function columnTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0080
      * @tc.name   : A column nests a column1 component. The column does not set width and height. The column1 first
-     * sets width 100 and height 200, then sets width to AdaptiveLayoutModePolicy.MATCH_PARENT and height to
-     * AdaptiveLayoutModePolicy.MATCH_PARENT.
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -84,7 +82,7 @@ export default function columnTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0150
      * @tc.name   : A row nests a row1 component. The row does not set width and height. The row1 sets width to
-     * AdaptiveLayoutModePolicy.MATCH_PARENT and height to AdaptiveLayoutModePolicy.MATCH_PARENT.
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,8 +101,7 @@ export default function columnTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0160
      * @tc.name   : A row nests a row1 component. The row does not set width and height. The row1 first sets width 100
-     * and height 200, then sets width to AdaptiveLayoutModePolicy.MATCH_PARENT and height to
-     * AdaptiveLayoutModePolicy.MATCH_PARENT.
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,8 +120,7 @@ export default function columnTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0120
      * @tc.name   : A row nests a row1 component. The row sets width 100 and height 200. The row1 first sets width 100
-     * and height 200, then sets width to AdaptiveLayoutModePolicy.MATCH_PARENT and height to
-     * AdaptiveLayoutModePolicy.MATCH_PARENT.
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -143,7 +139,7 @@ export default function columnTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0140
      * @tc.name   : A row nests a row1 component. The row does not set width and height. The row1 sets height to
-     * AdaptiveLayoutModePolicy.MATCH_PARENT.
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

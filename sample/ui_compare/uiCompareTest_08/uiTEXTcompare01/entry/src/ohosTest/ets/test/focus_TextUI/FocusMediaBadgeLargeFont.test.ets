@@ -41,13 +41,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0011
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0011
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0011
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0011', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0011  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0011")
@@ -73,13 +73,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0013
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0013
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0013
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0013', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0013  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0013")
@@ -102,13 +102,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0014
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0014
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0014
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0014', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0014  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0014")
@@ -134,13 +134,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0015
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0015
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0015
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0015  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0015")
@@ -157,13 +157,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0016
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0016
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0016
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0016  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0016")
@@ -185,13 +185,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0017
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0017
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0017
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0017', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0017  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0017")
@@ -217,13 +217,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0018
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0018
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0018
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0018', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0018  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0018")
@@ -239,13 +239,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0019
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0019
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0019
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0019  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0019")
@@ -268,13 +268,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0020
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0020
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0020
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0020  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0020")
@@ -300,13 +300,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0021
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0021
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0021
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0021', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0021  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0021")
@@ -324,13 +324,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0022
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0022
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0022
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0022', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0022  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0022")
@@ -353,13 +353,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0023
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0023
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0023
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0023', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0023  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0023")
@@ -385,13 +385,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0024
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0024
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0024
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0024', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0024  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0024")
@@ -408,13 +408,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0025
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0025
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0025
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0025', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0025  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0025")
@@ -437,13 +437,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0026
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0026
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0026
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0026', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0026  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0026")
@@ -468,13 +468,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0027
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0027
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0027
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0027', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0027  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0027")
@@ -490,13 +490,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0028
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0028
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0028
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0028', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0028  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0028")
@@ -518,13 +518,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0029
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0029
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0029
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0029', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0029  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0029")
@@ -550,13 +550,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0030
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0030
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0030
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0030  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0030")
@@ -574,13 +574,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0031
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0031
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0031
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0031', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0031  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0031")
@@ -603,13 +603,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0032
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0032
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0032
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0032', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0032  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0032")
@@ -635,13 +635,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0033
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0033
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0033
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0033', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0033  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0033")
@@ -658,13 +658,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0035
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0035
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0035
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0035', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0035  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0035")
@@ -690,13 +690,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0037
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0037
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0037
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0037', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0037  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0037")
@@ -718,13 +718,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0038
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0038
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0038
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0038', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0038  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0038")
@@ -750,13 +750,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0039
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0039
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0039
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0039', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0039  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0039")
@@ -773,13 +773,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0040
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0040
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0040
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0040  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0040")
@@ -802,13 +802,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0041
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0041
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0041
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0041', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0041  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0041")
@@ -835,13 +835,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0042
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0042
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0042
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0042', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0042  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0042")
@@ -858,13 +858,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0043
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0043
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0043
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0043', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0043  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0043")
@@ -887,13 +887,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0044
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0044
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0044
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0044', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0044  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0044")
@@ -919,13 +919,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0045
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0045
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0045
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0045', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0045  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0045")
@@ -942,13 +942,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0046
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0046
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0046
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0046', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0046  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0046")
@@ -970,13 +970,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0047
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0047
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0047
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0047', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0047  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0047")
@@ -1001,13 +1001,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0048
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0048
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0048
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0048', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0048  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0048")
@@ -1023,13 +1023,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0049
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0049
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0049
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0049', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0049  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0049")
@@ -1051,13 +1051,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0050
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0050
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0050
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0050  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0050")
@@ -1084,13 +1084,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0051
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0051
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0051
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0051', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0051  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0051")
@@ -1108,13 +1108,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0052
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0052
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0052
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0052', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0052  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0052")
@@ -1138,13 +1138,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0053
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0053
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0053
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0053', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0053  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0053")
@@ -1171,13 +1171,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0054
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0054
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0054
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0054', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0054  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0054")
@@ -1195,13 +1195,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0055
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0055
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0055
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0055', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0055  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0055")
@@ -1225,13 +1225,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0056
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0056
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0056
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0056', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0056  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0056")
@@ -1258,13 +1258,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0057
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0057
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0057
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0057', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0057  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0057")
@@ -1282,13 +1282,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0058
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0058
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0058
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0058', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0058  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0058")
@@ -1315,13 +1315,13 @@ export default function FocusMediaBadgeLargeFont() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0059
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0059
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0059
+     * @tc.name   : aging-friendly / large font-FrameNode
+     * @tc.desc   : Verify the interface under test: aging-friendly / large font-FrameNode.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0059', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0059  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeLargeFont/MbLargeFont0059")

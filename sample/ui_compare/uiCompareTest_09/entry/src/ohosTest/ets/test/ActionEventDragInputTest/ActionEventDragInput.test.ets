@@ -27,11 +27,13 @@ export default function ActionEventDragInputTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INPUT_0270
-     * @tc.name 输入组件拖拽跟手图显示
-     * @tc.desc 验证TextArea、TextInput、Search拖拽时跟手图正确显示
-     * @tc.automation 40% - 页面加载、组件定位自动化；跟手图效果需手动验证
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INPUT_0270
+     * @tc.name   : 输入组件拖拽跟手图显示
+     * @tc.desc   : Verify action event commonevent drag input interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INPUT_0270', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INPUT_0270';

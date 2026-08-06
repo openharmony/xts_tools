@@ -43,8 +43,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0010
      * @tc.name   : Verify that clicking the "pop" button on PageOne does not cause the TextInput on the Navigation page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击PageOne页面的"pop"按钮，Navigation页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -86,8 +86,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0020
      * @tc.name   : Verify that clicking the "clear" button on PageOne does not cause the TextInput on the Navigation page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击PageOne页面的"clear"按钮，Navigation页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -129,8 +129,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0030
      * @tc.name   : Verify that clicking the "pop" button on PageTwo does not cause the Button on the Navigation page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击PageTwo页面的"pop"按钮，Navigation页面Button未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -176,8 +176,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0040
      * @tc.name   : Verify that clicking the "clear" button on PageTwo does not cause the Button on the Navigation page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击PageTwo页面的"clear"按钮，Navigation页面Button未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -223,8 +223,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0050
      * @tc.name   : Verify that switching between PageOne and PageTwo and clicking the "pop" button does not cause the TextInput on the Navigation page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证切换PageOne和PageTwo页面，点击"pop"按钮，Navigation页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -274,8 +274,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0060
      * @tc.name   : Verify that switching between PageOne and PageTwo and clicking the "clear" button does not cause the TextInput on the Navigation page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证切换PageOne和PageTwo页面，点击"clear"按钮，Navigation页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -325,8 +325,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0070
      * @tc.name   : Verify that clicking the "pop" button on PageThree does not cause the TextInput on the Navigation page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击PageThree页面的"pop"按钮，Navigation页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -376,8 +376,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0080
      * @tc.name   : Verify that clicking the "clear" button on PageThree does not cause the TextInput on the Navigation page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击PageThree页面的"clear"按钮，Navigation页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -427,8 +427,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0090
      * @tc.name   : Verify that switching between PageOne and PageTwo and clicking the "pop" button does not cause the TextInput on PageOne to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证切换PageOne和PageTwo页面，点击"pop"按钮，PageOne页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -483,8 +483,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0100
      * @tc.name   : Verify that switching between PageOne and PageTwo and clicking the "clear" button does not cause the TextInput on PageOne to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证切换PageOne和PageTwo页面，点击"clear"按钮，PageOne页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -539,8 +539,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0110
      * @tc.name   : Verify that switching between PageOne and PageTwo and clicking the "pop" button causes the TextInput on PageOne to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证切换PageOne和PageTwo页面，点击"pop"按钮，PageOne页面TextInput失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -595,8 +595,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0120
      * @tc.name   : Verify that switching between PageOne and PageTwo and clicking the "clear" button causes the TextInput on PageOne to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证切换PageOne和PageTwo页面，点击"clear"按钮，PageOne页面TextInput失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -651,8 +651,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0130
      * @tc.name   : Verify that clicking the "replacePathPageThree" button on PageThree causes the TextInput on PageThree to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击PageThree页面的"replacepathpageThree"按钮，PageThree页面TextInput失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -694,8 +694,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0140
      * @tc.name   : Verify that clicking the "pop" button on PageThree causes the TextInput on PageThree to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击PageThree页面的"pop"按钮，PageThree页面TextInput失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -737,8 +737,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0150
      * @tc.name   : Verify that clicking the "clear" button on PageThree causes the TextInput on PageThree to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击PageThree页面的"clear"按钮，PageThree页面TextInput失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -780,8 +780,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0160
      * @tc.name   : Verify that clicking the menu option on the Navigation page does not cause the TextInput on the Navigation page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击Navigation页面的菜单选项，Navigation页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -827,8 +827,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0170
      * @tc.name   : Verify that clicking the "PageB" button on Navigation page does not cause the Button on the Navigation page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击Navigation页面的"PageB"按钮，Navigation页面Button未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -869,8 +869,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0180
      * @tc.name   : Verify that clicking the image component on pageTransition page does not cause the Button on pageTransition page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击pageTransition页面的图片组件，pageTransition页面Button未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -914,8 +914,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0190
      * @tc.name   : Verify that clicking the "showNext" button on swiper page causes the test button on swiper page to gain focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击swiper页面的"showNext"按钮，swiper页面test获取焦点
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -952,8 +952,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0200
      * @tc.name   : Verify that clicking the "showPrevious" button on swiper page causes the test button on swiper page to gain focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击swiper页面的"showPrevious"按钮，swiper页面test获取焦点
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -990,8 +990,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0220
      * @tc.name   : Verify that clicking the "show menu" button on Menu page does not cause the TextInput on Menu page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击Menu页面的"show menu"按钮，Menu页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1036,8 +1036,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0230
      * @tc.name   : Verify that clicking the "popup" button on Popup page does not cause the TextInput on Popup page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击Popup页面的"popup"按钮，Popup页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1076,8 +1076,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0240
      * @tc.name   : Verify that clicking the "PopupOptions" button on Popup page does not cause the TextInput on Popup page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击Popup页面的"PopupOptions"按钮，Popup页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1116,8 +1116,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0250
      * @tc.name   : Verify that clicking the "CustomPopupOptions" button on Popup page does not cause the TextInput on Popup page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击Popup页面的"CustomPopupOptions"按钮，Popup页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1156,8 +1156,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0260
      * @tc.name   : Verify that clicking the "confirm" button of PopupButtonOptions on Popup page does not cause the TextInput on Popup page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击Popup页面的PopupButtonOptions的"confirm"按钮，Popup页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1202,8 +1202,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0270
      * @tc.name   : Verify that clicking the "cancel" button of PopupButtonOptions on Popup page does not cause the TextInput on Popup page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击Popup页面的PopupButtonOptions的"cancel"按钮，Popup页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1248,8 +1248,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0280
      * @tc.name   : Verify that clicking the "transition modal1" button on ModalPage does not cause the TextInput on ModalPage to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击ModalPage页面的"transition modal1"按钮，ModalPage页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1288,8 +1288,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0290
      * @tc.name   : Verify that clicking the "close modal 1" button on ModalPage does not cause the TextInput on ModalPage to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击ModalPage页面的"close modal 1"按钮，ModalPage页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1333,8 +1333,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0300
      * @tc.name   : Verify that switching between transition modal 1 and transition modal 2 pages does not cause the TextInput on ModalPage to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证切换transition modal 1和transition modal 2页面，ModalPage页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1386,8 +1386,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0310
      * @tc.name   : Verify that clicking the "close modal 1" button on transition modal 1 page causes the TextInput on transition modal 1 page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击transition modal 1页面的"close modal 1"按钮，transition modal 1页面TextInput失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1429,8 +1429,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0320
      * @tc.name   : Verify that clicking the "close modal 2" button on transition modal 2 page does not cause the TextInput on transition modal 1 page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击transition modal 2页面的"close modal 2"按钮，transition modal 1页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1477,8 +1477,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0330
      * @tc.name   : Verify that clicking the "Confirm button" on ActionSheet does not cause the TextInput on sheetPage to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击sheetPage页面的Click to Show ActionSheet的"Confirm button"按钮，sheetPage页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1522,8 +1522,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0340
      * @tc.name   : Verify that opening and closing the second Dialog does not cause the TextInput on Dialog page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证开关Dialog页面的第二个弹窗，Dialog页面TextInput未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1576,8 +1576,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0350
      * @tc.name   : Verify that clicking the "pop" button on pushpageOne page does not cause the Navigation page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击pushpageOne页面的"pop"按钮，Navigation页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1614,8 +1614,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0360
      * @tc.name   : Verify that clicking the "clear" button on pushpageOne page does not cause the Navigation page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击pushpageOne页面的"clear"按钮，Navigation页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1652,8 +1652,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0370
      * @tc.name   : Verify that clicking the "pop" button on pageThree page does not cause the Navigation page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击pageThree页面的"pop"按钮，Navigation页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1690,8 +1690,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0380
      * @tc.name   : Verify that clicking the "clear" button on pageThree page does not cause the Navigation page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击pageThree页面的"clear"按钮，Navigation页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1728,8 +1728,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0390
      * @tc.name   : Verify that clicking the "click me" button on Dialog page does not cause the Dialog page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击Dialog页面的"click me"按钮，Dialog页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1765,8 +1765,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0400
      * @tc.name   : Verify that clicking the "跳转" button on defaultFocus page does not cause the defaultFocus page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击defaultFocus页面的"跳转"按钮，defaultFocus页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1803,8 +1803,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0410
      * @tc.name   : Verify that clicking the "Dialog" button on defaultFocus page does not cause the defaultFocus page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击defaultFocus页面的"Dialog"按钮，defaultFocus页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1840,8 +1840,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0420
      * @tc.name   : Verify that clicking the "Dialog2" button on defaultFocus page does not cause the defaultFocus page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击defaultFocus页面的"Dialog2"按钮，defaultFocus页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1878,8 +1878,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0430
      * @tc.name   : Verify that clicking the "文本+勾选弹出框" button on defaultFocus page does not cause the defaultFocus page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击defaultFocus页面的"文本+勾选弹出框"按钮，defaultFocus页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1916,8 +1916,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0440
      * @tc.name   : Verify that clicking the "跳转" and "dialog" button on defaultFocus page does not cause the defaultFocus page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击defaultFocus页面的"跳转"的"dialog"按钮，defaultFocus页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1958,8 +1958,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0450
      * @tc.name   : Verify that clicking the "dialog2" button on defaultFocus page does not cause the defaultFocus page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击defaultFocus页面的"跳转"的"dialog2"按钮，defaultFocus页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2001,8 +2001,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0460
      * @tc.name   : Verify that clicking the "文本+勾选弹出框" button on defaultFocus page does not cause the defaultFocus page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击defaultFocus页面的"跳转"的"文本+勾选弹出框"按钮，defaultFocus页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2044,8 +2044,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0470
      * @tc.name   : Verify that clicking the "show next" and "show previous" buttons on swiper page does not cause the swiper page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击swiper页面的"show next"和"show previous"按钮，swiper页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2082,8 +2082,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0490
      * @tc.name   : Verify that clicking the "show menu" button on Menu page does not cause the Menu page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击Menu页面的"show menu"按钮，Menu页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2120,8 +2120,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0500
      * @tc.name   : Verify that clicking the "Popup" button on Popup page does not cause the Popup page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击Popup页面的"Popup"按钮，Popup页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2157,8 +2157,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0510
      * @tc.name   : Verify that clicking the "PopupOptions" button on Popup page does not cause the Popup page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击Popup页面的"PopupOptions"按钮，Popup页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2194,8 +2194,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0520
      * @tc.name   : Verify that clicking the "CustomPopupOptions" button on Popup page does not cause the Popup page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击Popup页面的"CustomPopupOptions"按钮，Popup页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2231,8 +2231,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0530
      * @tc.name   : Verify that clicking the "transition modal 1" button on modal page does not cause the modal 1 page to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击modal页面的"transition modal 1"按钮，modal 1页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2264,8 +2264,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0550
      * @tc.name   : Verify that clicking the "Confirm button" on Sheetpage does not cause the Sheetpage to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击Sheetpage页面的"Confirm button"按钮，Sheetpage页面未失焦
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2302,8 +2302,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0560
      * @tc.name   : Verify that clicking the "Confirm button" on ModalPage with abnormal setAutoFocusTransfer value does not cause TextInput to lose focus.
-     * @tc.type   : function
-     * @tc.desc   : 验证点击ModalPage页面的transition modal1按钮，ModalPage页面TextInput未失焦（setAutoFocusTransfer设为异常值）
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2340,8 +2340,8 @@ export default function SetAutofocusTransferFocusview() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__COMMONATTR_SETAUTOFOCUSTRANSFER_FOCUSVIEW_0570
      * @tc.name   : Verify that setAutoFocusTransfer with abnormal value (null/undefined) behaves same as true.
-     * @tc.type   : function
-     * @tc.desc   : 验证setAutoFocusTransfer状态设为异常值null或undefined，焦点变化与setAutoFocusTransfer为true一致
+     * @tc.desc   : Verify commonattr setautofocustransfer focusview interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

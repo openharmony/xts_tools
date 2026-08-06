@@ -59,10 +59,12 @@ export default function UIComponentGridAnimation() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0040
-     * @tc.desc    Test dynamic changes to Grid component next parameter
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0040
+     * @tc.name   : Grid animation
+     * @tc.desc   : Verify grid animation interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0040';
@@ -87,10 +89,12 @@ export default function UIComponentGridAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0050
-     * @tc.desc    Test Grid animation page-turning event callbacks
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0050
+     * @tc.name   : Grid animation
+     * @tc.desc   : Verify grid animation interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0050';
@@ -109,10 +113,12 @@ export default function UIComponentGridAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0110
-     * @tc.desc    Test Grid page-turning animation with irregular layouts
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0110
+     * @tc.name   : Grid animation
+     * @tc.desc   : Verify grid animation interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0110';
@@ -131,10 +137,12 @@ export default function UIComponentGridAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0120
-     * @tc.desc    Test Grid page-turning animation using repeat mode
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0120
+     * @tc.name   : Grid animation
+     * @tc.desc   : Verify grid animation interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0120';
@@ -153,10 +161,12 @@ export default function UIComponentGridAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0130
-     * @tc.desc    Test page-turning via mouse click on scrollbar area
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0130
+     * @tc.name   : Grid animation
+     * @tc.desc   : Verify grid animation interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0130';
@@ -179,10 +189,12 @@ export default function UIComponentGridAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0140
-     * @tc.desc    Test page-turning via mouse long click on scrollbar area
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0140
+     * @tc.name   : Grid animation
+     * @tc.desc   : Verify grid animation interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0140';
@@ -205,10 +217,12 @@ export default function UIComponentGridAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0150
-     * @tc.desc    Test page-turning with double mouse clicks
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0150
+     * @tc.name   : Grid animation
+     * @tc.desc   : Verify grid animation interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0150';

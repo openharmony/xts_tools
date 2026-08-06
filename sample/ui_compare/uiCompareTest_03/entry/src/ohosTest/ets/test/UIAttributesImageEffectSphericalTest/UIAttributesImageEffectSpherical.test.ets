@@ -63,10 +63,12 @@ export default function UIAttributesImageEffectSpherical() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0010
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0010
-     * @tc.desc    Create TextInput component with sphericalEffect set to -1
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0010
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0010';
@@ -82,10 +84,12 @@ export default function UIAttributesImageEffectSpherical() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0020
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0020
-     * @tc.desc    Create TextInput component with sphericalEffect set to 0
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0020
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0020';
@@ -101,10 +105,12 @@ export default function UIAttributesImageEffectSpherical() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0030
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0030
-     * @tc.desc    Create TextInput component with sphericalEffect set to 0.2
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0030
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0030';
@@ -120,10 +126,12 @@ export default function UIAttributesImageEffectSpherical() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0040
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0040
-     * @tc.desc    Create TextInput component with sphericalEffect set to 0.5
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0040
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0040';
@@ -139,10 +147,12 @@ export default function UIAttributesImageEffectSpherical() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0050
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0050
-     * @tc.desc    Create TextInput component with sphericalEffect set to 1
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0050
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0050', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0050';
@@ -158,10 +168,12 @@ export default function UIAttributesImageEffectSpherical() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0060
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0060
-     * @tc.desc    Create TextInput component with sphericalEffect set to 2
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0060
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0060', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0060';
@@ -177,10 +189,12 @@ export default function UIAttributesImageEffectSpherical() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0070
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0070
-     * @tc.desc    Create TextInput component with sphericalEffect set to undefined
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0070
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0070', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0070';
@@ -196,10 +210,12 @@ export default function UIAttributesImageEffectSpherical() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0080
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0080
-     * @tc.desc    Create Image component with sphericalEffect set to 1
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0080
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0080', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0080';
@@ -220,10 +236,12 @@ export default function UIAttributesImageEffectSpherical() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0090
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0090
-     * @tc.desc    Create Image component with syncLoad true and sphericalEffect set to 1
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0090
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0090', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0090';
@@ -244,10 +262,12 @@ export default function UIAttributesImageEffectSpherical() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0100
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0100
-     * @tc.desc    Create Column component with backgroundImage and sphericalEffect set to 1
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0100
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0100';
@@ -268,10 +288,12 @@ export default function UIAttributesImageEffectSpherical() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0110
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0110
-     * @tc.desc    Create Column component with shadow and sphericalEffect set to 1
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0110
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0110', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0110';

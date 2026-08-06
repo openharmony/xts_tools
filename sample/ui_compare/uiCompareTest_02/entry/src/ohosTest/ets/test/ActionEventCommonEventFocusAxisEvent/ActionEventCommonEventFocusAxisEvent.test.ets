@@ -55,13 +55,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0140
-       * @tc.name    Use the gamepad to trigger KeyEvent-deviceId
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0140
+     * @tc.name   : Use the gamepad to trigger KeyEvent-deviceId
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0140 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent01")
@@ -77,13 +77,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0100
-       * @tc.name    Use the gamepad to trigger KeyEvent-type
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0100
+     * @tc.name   : Use the gamepad to trigger KeyEvent-type
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0100 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent02")
@@ -99,13 +99,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0110
-       * @tc.name    Use the gamepad to trigger KeyEvent-keyCode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0110
+     * @tc.name   : Use the gamepad to trigger KeyEvent-keyCode
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0110 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent03")
@@ -121,13 +121,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0130
-       * @tc.name    Use the gamepad to trigger KeyEvent-keySource
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0130
+     * @tc.name   : Use the gamepad to trigger KeyEvent-keySource
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0130 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent04")
@@ -143,13 +143,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0150
-       * @tc.name    Use the gamepad to trigger KeyEvent-metaKey
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0150
+     * @tc.name   : Use the gamepad to trigger KeyEvent-metaKey
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0150 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent05")
@@ -165,13 +165,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0160
-       * @tc.name    Use the gamepad to trigger KeyEvent-timestamp
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0160
+     * @tc.name   : Use the gamepad to trigger KeyEvent-timestamp
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0160 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent06")
@@ -187,13 +187,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0120
-       * @tc.name    Use the gamepad to trigger KeyEvent-keyText
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0120
+     * @tc.name   : Use the gamepad to trigger KeyEvent-keyText
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0120 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent07")
@@ -209,13 +209,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0320
-       * @tc.name    Use the gamepad to trigger KeyEvent-type(Modifier)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0320
+     * @tc.name   : Use the gamepad to trigger KeyEvent-type(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0320 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent08")
@@ -231,13 +231,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0330
-       * @tc.name    Use the gamepad to trigger KeyEvent-keyCode(Modifier)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0330
+     * @tc.name   : Use the gamepad to trigger KeyEvent-keyCode(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0330 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent09")
@@ -253,13 +253,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0340
-       * @tc.name    Use the gamepad to trigger KeyEvent-keyText(Modifier)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0340
+     * @tc.name   : Use the gamepad to trigger KeyEvent-keyText(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0340 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent10")
@@ -275,13 +275,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0350
-       * @tc.name    Use the gamepad to trigger KeyEvent-keySource(Modifier)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0350
+     * @tc.name   : Use the gamepad to trigger KeyEvent-keySource(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0350 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent11")
@@ -297,13 +297,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0360
-       * @tc.name    Use the gamepad to trigger KeyEvent-deviceId(Modifier)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0360
+     * @tc.name   : Use the gamepad to trigger KeyEvent-deviceId(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0360 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent13")
@@ -319,13 +319,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0370
-       * @tc.name    Use the gamepad to trigger KeyEvent-metaKey(Modifier)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0370
+     * @tc.name   : Use the gamepad to trigger KeyEvent-metaKey(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0370 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent12")
@@ -341,13 +341,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0380
-       * @tc.name    Use the gamepad to trigger KeyEvent-timestamp(Modifier)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0380
+     * @tc.name   : Use the gamepad to trigger KeyEvent-timestamp(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0380 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent14")
@@ -363,13 +363,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0170
-       * @tc.name    Use the controller to trigger KeyEvent - child component sets stopPropagation
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0170
+     * @tc.name   : Use the controller to trigger KeyEvent - child component sets stopPropagation
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0170 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent15")
@@ -385,13 +385,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0180
-       * @tc.name    Use the gamepad to trigger KeyEvent-child component not set stopPropagation
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0180
+     * @tc.name   : Use the gamepad to trigger KeyEvent-child component not set stopPropagation
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0180 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent16")
@@ -407,13 +407,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0390
-       * @tc.name    Use the gamepad to trigger KeyEvent-child component set stopPropagation(Modifier)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0390
+     * @tc.name   : Use the gamepad to trigger KeyEvent-child component set stopPropagation(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0390 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent17")
@@ -429,13 +429,13 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0400
-       * @tc.name    Use the gamepad to trigger KeyEvent-child component not set stopPropagation(Modifier)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0400
+     * @tc.name   : Use the gamepad to trigger KeyEvent-child component not set stopPropagation(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0400 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent18")

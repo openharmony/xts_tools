@@ -55,13 +55,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0090
-       * @tc.name    The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to '30fp'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0090
+     * @tc.name   : The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to '30fp'.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer01")
@@ -76,13 +76,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0080
-       * @tc.name    The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to '20vp'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0080
+     * @tc.name   : The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to '20vp'.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer02")
@@ -97,13 +97,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0130
-       * @tc.name    The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to '20lpx'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0130
+     * @tc.name   : The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to '20lpx'.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer03")
@@ -118,13 +118,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0150
-       * @tc.name    The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to '10%'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0150
+     * @tc.name   : The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to '10%'.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer04")
@@ -139,13 +139,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0220
-       * @tc.name    The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to '10px'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0220
+     * @tc.name   : The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to '10px'.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0220 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer05")
@@ -160,13 +160,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0290
-       * @tc.name    The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to undefined.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0290
+     * @tc.name   : The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to undefined.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0290 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer06")
@@ -181,13 +181,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0040
-       * @tc.name    The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to 999.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0040
+     * @tc.name   : The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to 999.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer07")
@@ -202,13 +202,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0360
-       * @tc.name    The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to -9.9.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0360
+     * @tc.name   : The popup adds a radius attribute, and the radius parameter of CustomPopupOptions is set to -9.9.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0360', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0360 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer08")
@@ -223,13 +223,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0170
-       * @tc.name    The popup adds a radius attribute, and not set radius
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0170
+     * @tc.name   : The popup adds a radius attribute, and not set radius
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer09")
@@ -244,13 +244,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0210
-       * @tc.name    The popup adds a radius attribute, and set radius to null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0210
+     * @tc.name   : The popup adds a radius attribute, and set radius to null
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0210 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer10")
@@ -265,13 +265,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0020
-       * @tc.name    Popup displays the effect of the background radius when set with a button bubble and radius (20vp)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0020
+     * @tc.name   : Popup displays the effect of the background radius when set with a button bubble and radius (20vp)
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer11")
@@ -286,13 +286,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0060
-       * @tc.name    Popup setting with button bubble, and the radius parameter is set to 999.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0060
+     * @tc.name   : Popup setting with button bubble, and the radius parameter is set to 999.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer12")
@@ -307,13 +307,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0160
-       * @tc.name    Popup setting with button bubble, and the radius parameter is set to -9.9.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0160
+     * @tc.name   : Popup setting with button bubble, and the radius parameter is set to -9.9.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer13")
@@ -328,13 +328,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0110
-       * @tc.name    Popup setting with button bubble, and the radius parameter is set to '10px'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0110
+     * @tc.name   : Popup setting with button bubble, and the radius parameter is set to '10px'.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer14")
@@ -349,13 +349,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0240
-       * @tc.name    Popup setting with button bubble, and the radius parameter is set to '20lpx'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0240
+     * @tc.name   : Popup setting with button bubble, and the radius parameter is set to '20lpx'.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0240 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer15")
@@ -370,13 +370,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0310
-       * @tc.name    Popup setting with button bubble, and the radius parameter is set to undefined.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0310
+     * @tc.name   : Popup setting with button bubble, and the radius parameter is set to undefined.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0310 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer16")
@@ -391,13 +391,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0330
-       * @tc.name    Popup setting with button bubble, and the radius parameter is set to '30fp'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0330
+     * @tc.name   : Popup setting with button bubble, and the radius parameter is set to '30fp'.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0330 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer17")
@@ -412,13 +412,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0350
-       * @tc.name    Popup setting with button bubble, and the radius parameter is set to '10%'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0350
+     * @tc.name   : Popup setting with button bubble, and the radius parameter is set to '10%'.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0350 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer18")
@@ -433,13 +433,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0280
-       * @tc.name    Popup setting with button bubble, and the radius parameter is set to null.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0280
+     * @tc.name   : Popup setting with button bubble, and the radius parameter is set to null.
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0280', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0280 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer19")
@@ -454,13 +454,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0010
-       * @tc.name    Popup setting with button bubble, display effect of background corners when radius is not set
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0010
+     * @tc.name   : Popup setting with button bubble, display effect of background corners when radius is not set
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer20")
@@ -475,13 +475,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0010
-       * @tc.name    Popup setting with button bubble, display effect of background corners when radius is not set
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0010
+     * @tc.name   : Popup setting with button bubble, display effect of background corners when radius is not set
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer20")
@@ -496,13 +496,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0070
-       * @tc.name    Popup displays pure text bubble; when radius is set to 30fp, the background corner effect is shown
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0070
+     * @tc.name   : Popup displays pure text bubble; when radius is set to 30fp, the background corner effect is shown
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer21")
@@ -517,13 +517,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0030
-       * @tc.name    Popup displays pure text bubble; when radius is set to null, the background corner effect is shown
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0030
+     * @tc.name   : Popup displays pure text bubble; when radius is set to null, the background corner effect is shown
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer22")
@@ -538,13 +538,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0050
-       * @tc.name    Popup displays pure text bubble; when radius is set to 999, the background corner effect is shown
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0050
+     * @tc.name   : Popup displays pure text bubble; when radius is set to 999, the background corner effect is shown
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer23")
@@ -559,13 +559,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0100
-       * @tc.name    Popup displays pure text bubble; when radius is set to 10%, the background corner effect is shown
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0100
+     * @tc.name   : Popup displays pure text bubble; when radius is set to 10%, the background corner effect is shown
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0100 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer24")
@@ -580,13 +580,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0190
-       * @tc.name    Popup displays pure text bubble; when radius is set to undefined, the background corner effect is shown
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0190
+     * @tc.name   : Popup displays pure text bubble; when radius is set to undefined, the background corner effect is shown
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer25")
@@ -601,13 +601,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0260
-       * @tc.name    Popup displays pure text bubble; when radius is set to 20vp, the background corner effect is shown
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0260
+     * @tc.name   : Popup displays pure text bubble; when radius is set to 20vp, the background corner effect is shown
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0260 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer26")
@@ -622,13 +622,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0320
-       * @tc.name    Popup displays pure text bubble; when radius is set to 10px, the background corner effect is shown
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0320
+     * @tc.name   : Popup displays pure text bubble; when radius is set to 10px, the background corner effect is shown
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0320 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer27")
@@ -643,13 +643,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0230
-       * @tc.name    Popup displays pure text bubble; when radius is set to 20lpx, the background corner effect is shown
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0230
+     * @tc.name   : Popup displays pure text bubble; when radius is set to 20lpx, the background corner effect is shown
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0230 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer28")
@@ -664,13 +664,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0340
-       * @tc.name    Popup displays pure text bubble; when radius is set to -9.9, the background corner effect is shown
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0340
+     * @tc.name   : Popup displays pure text bubble; when radius is set to -9.9, the background corner effect is shown
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0340', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0340 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer29")
@@ -685,13 +685,13 @@ export default function UiComponentPopupBoxPopupRadiusSeparatedLayer() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0200
-       * @tc.name    Popup displays pure text bubble; when radius is not set, the background corner effect is shown
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0200
+     * @tc.name   : Popup displays pure text bubble; when radius is not set, the background corner effect is shown
+     * @tc.desc   : Verify popupbox popup radiusseparatedlayer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_RADIUSSEPARATEDLAYER_0200 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupRadiusSeparatedLayer/UiComponentPopupBoxPopupRadiusSeparatedLayer30")

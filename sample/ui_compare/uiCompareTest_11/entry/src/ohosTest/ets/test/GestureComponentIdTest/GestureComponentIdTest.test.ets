@@ -54,6 +54,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0410
      * @tc.name   : 组件响应点击事件，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入ClickEvent页面，点击button、Menu、TextArea组件，响应点击事件，获取到的id为设置的id，area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -78,6 +79,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0420
      * @tc.name   : modifier-组件响应点击事件，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入ClickEvent页面，点击button_Modifier、Menu_Modifier、TextArea_Modifier组件，获取到的id为设置的id，area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -102,6 +104,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0430
      * @tc.name   : 组件响应悬浮事件，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入HoverEvent页面，触控板/鼠标/手写笔悬浮button、Menu、TextArea，响应悬浮事件，获取到的id为设置的id，area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -126,6 +129,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0440
      * @tc.name   : modifier-组件响应悬浮事件，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入HoverEvent_modifier页面，悬浮button、Menu、TextArea组件，获取到的id为设置的id，area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -150,6 +154,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0450
      * @tc.name   : 组件响应鼠标事件，鼠标悬浮组件，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入MouseEvent页面，鼠标悬浮button、Menu、TextArea组件，响应鼠标事件，获取到的id为设置的id，area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -174,6 +179,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0460
      * @tc.name   : 组件响应鼠标事件，鼠标点击组件，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入MouseEvent页面，鼠标点击button、Menu、TextArea组件，响应鼠标事件，获取到的id为设置的id，area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -198,6 +204,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0470
      * @tc.name   : modifier-组件响应鼠标事件，鼠标悬浮组件，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入MouseEvent_modifier页面，鼠标悬浮button_Modifier、Menu_Modifier、TextArea_Modifier，获取到的id为设置的id，area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -222,6 +229,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0480
      * @tc.name   : modifier-组件响应鼠标事件，鼠标点击组件，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入MouseEvent_modifier页面，鼠标点击button_Modifier、Menu_Modifier、TextArea_Modifier，获取到的id为设置的id，area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -246,6 +254,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0490
      * @tc.name   : 组件响应无障碍悬浮事件，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入AccessibilityHoverEvent页面，开启无障碍模式，手指触摸button、Menu组件，响应无障碍悬浮事件，获取到的id为设置的id，area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -267,6 +276,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0500
      * @tc.name   : 组件响应触摸事件，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入TouchEvent页面，手指/鼠标在button、Menu、TextArea组件上按下，响应触摸事件，获取到的id为设置的id，area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -291,6 +301,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0510
      * @tc.name   : modifier-组件响应触摸事件，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入TouchEvent页面，手指/鼠标在button_Modifier、Menu_Modifier、TextArea_Modifier上按下，获取到的id为设置的id，area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -315,6 +326,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0520
      * @tc.name   : 组件响应TapGesture手势，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入GestureEvent页面，手指/鼠标/触控板单击组件或获焦后按A键/Enter/空格键，均响应TapGesture，打印的id、area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -333,6 +345,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0540
      * @tc.name   : 组件响应PanGesture手势，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入GestureEvent页面，手指平移/鼠标滚轮/触控板双指/鼠标点按/触控板点按，均响应PanGesture，打印的id、area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -351,6 +364,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0550
      * @tc.name   : 组件响应PinchGesture手势，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入GestureEvent页面，手指捏合/组件获焦后Ctrl+鼠标滚动/触控板双指捏合，均响应PinchGesture，打印的id、area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -369,6 +383,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0570
      * @tc.name   : 组件响应SwipeGesture手势，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入GestureEvent页面，手指滑动/鼠标滚轮滑动/触控板双指滑动/鼠标点按滑动/触控板点按滑动，均响应SwipeGesture，打印的id、area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -387,6 +402,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0580
      * @tc.name   : modifier-组件响应TapGesture手势，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入GestureEvent_modifier页面，单击组件或获焦后按A键/Enter/空格键，均响应TapGesture，打印的id、area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -405,6 +421,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0600
      * @tc.name   : modifier-组件响应PanGesture手势，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入GestureEvent_modifier页面，手指平移/鼠标滚轮/触控板双指/鼠标点按/触控板点按，均响应PanGesture，打印的id、area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -423,6 +440,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0610
      * @tc.name   : modifier-组件响应PinchGesture手势，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入GestureEvent_modifier页面，手指捏合/获焦后Ctrl+鼠标滚动/触控板双指捏合，均响应PinchGesture，打印的id、area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -441,6 +459,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0630
      * @tc.name   : modifier-组件响应SwipeGesture手势，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入GestureEvent_modifier页面，手指滑动/鼠标滚轮/触控板双指滑动/鼠标点按滑动/触控板点按滑动，均响应SwipeGesture，打印的id、area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -459,6 +478,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0640
      * @tc.name   : 组件响应组合手势，组件信息获取正确
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入GestureEvent页面，一只手指长按另一只手指移动，所有手势都能识别，获取到的id为同一个id
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -477,6 +497,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0690
      * @tc.name   : 父、子组件同时触发，在父子组件重叠的区域操作
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 进入GestureEvent页面，点击父子重叠区域（子组件区域），父、子组件均响应TapGesture手势，获取的id、area信息均正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -495,6 +516,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0730
      * @tc.name   : 冒泡（鼠标事件）
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 父、子组件均绑定鼠标事件，使用鼠标操作子组件，子组件将事件传递给父组件，父、子均响应鼠标事件，获取到的id均正确，area信息正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -513,6 +535,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0740
      * @tc.name   : 动态切换同一个组件的id，id均为正常值，50次
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 点击按钮动态切换组件的id共50次，每次切换后获取到的组件id均为最新的，无错误
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -534,6 +557,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0750
      * @tc.name   : 动态切换同一个组件的id，id存在异常值，50次
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 点击按钮动态切换组件的id共50次，切换到异常值时获取到的组件id不变显示上次正常值，再次切换到正常值时组件id可正常获取
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -555,6 +579,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0760
      * @tc.name   : 动态切换同一个组件的key，key均为正常值，50次
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 点击按钮动态切换组件的key共50次，每次切换后获取到的组件id均为最新的，无错误
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -576,6 +601,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0770
      * @tc.name   : 动态切换同一个组件的key，key存在异常值，50次
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 点击按钮动态切换组件的key共50次，每次切换后获取到的组件id均为最新的，无错误
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -597,6 +623,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0780
      * @tc.name   : 连续在同一个组件上操作50次
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 在组件上连续点击50次，响应50次点击事件，每次获取到的组件id均正确
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -618,6 +645,7 @@ export default function GestureComponentIdTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0790
      * @tc.name   : 连续在不同的组件上操作50次
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : 在页面上各个组件（button、image、list、grid、column、video等）操作连续50次，事件/手势均响应正常，每次响应获取到的组件id均打印正常，video组件id为undefined
      * @tc.size   : MediumTest
      * @tc.level  : 3

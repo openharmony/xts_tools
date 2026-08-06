@@ -55,13 +55,13 @@ export default function UiComponentTextHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0180
-       * @tc.name    Add span, imagespan, and symbolspan to the text component to dynamically change halfLeading
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0180
+     * @tc.name   : Add span, imagespan, and symbolspan to the text component to dynamically change halfLeading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentTextHalfLeading/UiComponentTextHalfLeading01")
@@ -77,13 +77,13 @@ export default function UiComponentTextHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0210
-       * @tc.name    The text component sets clip to false to dynamically change halfLeading
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0210
+     * @tc.name   : The text component sets clip to false to dynamically change halfLeading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0210 start.`);
       Settings.createWindow("testability/pages/UiComponentTextHalfLeading/UiComponentTextHalfLeading02")
@@ -99,13 +99,13 @@ export default function UiComponentTextHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0190
-       * @tc.name    Add a ContainerSpan to the text component to dynamically change halfLeading
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0190
+     * @tc.name   : Add a ContainerSpan to the text component to dynamically change halfLeading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentTextHalfLeading/UiComponentTextHalfLeading03")
@@ -121,13 +121,13 @@ export default function UiComponentTextHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0070
-       * @tc.name    The text component settings dynamically change lineSpacing and halfleading
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0070
+     * @tc.name   : The text component settings dynamically change lineSpacing and halfleading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentTextHalfLeading/UiComponentTextHalfLeading04")
@@ -149,13 +149,13 @@ export default function UiComponentTextHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0050
-       * @tc.name    The text component settings dynamically change the baselineoffset and halfleading
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0050
+     * @tc.name   : The text component settings dynamically change the baselineoffset and halfleading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentTextHalfLeading/UiComponentTextHalfLeading05")
@@ -177,13 +177,13 @@ export default function UiComponentTextHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0130
-       * @tc.name    The text component settings dynamically change the baselineoffset and halfleading
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0130
+     * @tc.name   : The text component settings dynamically change the baselineoffset and halfleading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentTextHalfLeading/UiComponentTextHalfLeading06")
@@ -196,13 +196,13 @@ export default function UiComponentTextHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0170
-       * @tc.name    modifier test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0170
+     * @tc.name   : modifier test
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentTextHalfLeading/UiComponentTextHalfLeading07")
@@ -215,13 +215,13 @@ export default function UiComponentTextHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0080
-       * @tc.name    The text component settings dynamically change textAlign and halfleading
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0080
+     * @tc.name   : The text component settings dynamically change textAlign and halfleading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentTextHalfLeading/UiComponentTextHalfLeading08")
@@ -243,13 +243,13 @@ export default function UiComponentTextHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0110
-       * @tc.name    Halfleading is set to the text component, but halfleading is not set to package management
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0110
+     * @tc.name   : Halfleading is set to the text component, but halfleading is not set to package management
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentTextHalfLeading/UiComponentTextHalfLeading09")
@@ -262,13 +262,13 @@ export default function UiComponentTextHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0060
-       * @tc.name    The text component settings dynamically change textAlign and halfleading
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0060
+     * @tc.name   : The text component settings dynamically change textAlign and halfleading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentTextHalfLeading/UiComponentTextHalfLeading10")

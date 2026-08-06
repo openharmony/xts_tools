@@ -38,12 +38,13 @@ export default function MenuPlacementTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0720
-     * @tc.name Menu placement BottomRight with width 48vp
-     * @tc.desc Test menu placement BottomRight with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0720
+     * @tc.name   : Menu placement BottomRight with width 48vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0720', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -72,12 +73,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0500
-     * @tc.name Menu placement Right without width
-     * @tc.desc Test menu placement Right without specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0500
+     * @tc.name   : Menu placement Right without width
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0500', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -106,12 +108,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0750
-     * @tc.name Menu placement RightTop with width 100vp
-     * @tc.desc Test menu placement RightTop with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0750
+     * @tc.name   : Menu placement RightTop with width 100vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0750', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -140,12 +143,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0600
-     * @tc.name Menu placement TopLeft with width 48vp
-     * @tc.desc Test menu placement TopLeft with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0600
+     * @tc.name   : Menu placement TopLeft with width 48vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0600', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -174,12 +178,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0550
-     * @tc.name Menu placement Bottom with width 100vp
-     * @tc.desc Test menu placement Bottom with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0550
+     * @tc.name   : Menu placement Bottom with width 100vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0550', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -208,12 +213,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0480
-     * @tc.name Menu placement Right with width 48vp
-     * @tc.desc Test menu placement Right with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0480
+     * @tc.name   : Menu placement Right with width 48vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0480', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -242,12 +248,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0470
-     * @tc.name Menu placement Right with width 100vp
-     * @tc.desc Test menu placement Right with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0470
+     * @tc.name   : Menu placement Right with width 100vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0470', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -276,12 +283,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0760
-     * @tc.name Menu placement RightTop with width 48vp
-     * @tc.desc Test menu placement RightTop with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0760
+     * @tc.name   : Menu placement RightTop with width 48vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0760', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -305,12 +313,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1770
-     * @tc.name Menu with submenu placement BottomLeft
-     * @tc.desc Test menu with submenu placement BottomLeft
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1770
+     * @tc.name   : Menu with submenu placement BottomLeft
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1770', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -339,12 +348,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0610
-     * @tc.name Menu placement TopLeft with width 64vp
-     * @tc.desc Test menu placement TopLeft with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0610
+     * @tc.name   : Menu placement TopLeft with width 64vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0610', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -373,12 +383,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0810
-     * @tc.name Menu placement RightBottom with width 64vp
-     * @tc.desc Test menu placement RightBottom with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0810
+     * @tc.name   : Menu placement RightBottom with width 64vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0810', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -407,12 +418,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0670
-     * @tc.name Menu placement BottomLeft with width 100vp
-     * @tc.desc Test menu placement BottomLeft with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0670
+     * @tc.name   : Menu placement BottomLeft with width 100vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0670', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -441,12 +453,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0690
-     * @tc.name Menu placement BottomLeft with width 64vp
-     * @tc.desc Test menu placement BottomLeft with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0690
+     * @tc.name   : Menu placement BottomLeft with width 64vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0690', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -475,12 +488,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0580
-     * @tc.name Menu placement Bottom without width
-     * @tc.desc Test menu placement Bottom without specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0580
+     * @tc.name   : Menu placement Bottom without width
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0580', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -509,12 +523,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0780
-     * @tc.name Menu placement RightTop without width
-     * @tc.desc Test menu placement RightTop without specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0780
+     * @tc.name   : Menu placement RightTop without width
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0780', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -543,12 +558,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0850
-     * @tc.name Menu placement Bottom without placement setting
-     * @tc.desc Test menu placement Bottom without placement setting
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0850
+     * @tc.name   : Menu placement Bottom without placement setting
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0850', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -577,12 +593,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0820
-     * @tc.name Menu placement RightBottom without width
-     * @tc.desc Test menu placement RightBottom without specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0820
+     * @tc.name   : Menu placement RightBottom without width
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0820', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -611,12 +628,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1750
-     * @tc.name Menu with submenu placement BottomLeft (LongPress)
-     * @tc.desc Test menu with submenu placement BottomLeft using LongPress
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1750
+     * @tc.name   : Menu with submenu placement BottomLeft (LongPress)
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1750', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -645,12 +663,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1780
-     * @tc.name Menu with submenu placement BottomLeft (RightClick)
-     * @tc.desc Test menu with submenu placement BottomLeft using RightClick
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1780
+     * @tc.name   : Menu with submenu placement BottomLeft (RightClick)
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1780', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -679,12 +698,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0620
-     * @tc.name Menu placement TopLeft without width
-     * @tc.desc Test menu placement TopLeft without specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0620
+     * @tc.name   : Menu placement TopLeft without width
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0620', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -713,12 +733,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0660
-     * @tc.name Menu placement TopRight without width
-     * @tc.desc Test menu placement TopRight without specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0660
+     * @tc.name   : Menu placement TopRight without width
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0660', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -747,12 +768,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0520
-     * @tc.name Menu placement Top with width 48vp
-     * @tc.desc Test menu placement Top with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0520
+     * @tc.name   : Menu placement Top with width 48vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0520', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -781,12 +803,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0680
-     * @tc.name Menu placement BottomLeft with width 48vp
-     * @tc.desc Test menu placement BottomLeft with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0680
+     * @tc.name   : Menu placement BottomLeft with width 48vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0680', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -815,12 +838,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0640
-     * @tc.name Menu placement TopRight with width 100vp
-     * @tc.desc Test menu placement TopRight with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0640
+     * @tc.name   : Menu placement TopRight with width 100vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0640', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -849,12 +873,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0770
-     * @tc.name Menu placement RightTop with width 64vp
-     * @tc.desc Test menu placement RightTop with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0770
+     * @tc.name   : Menu placement RightTop with width 64vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0770', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -883,12 +908,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0650
-     * @tc.name Menu placement TopRight with width 64vp
-     * @tc.desc Test menu placement TopRight with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0650
+     * @tc.name   : Menu placement TopRight with width 64vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0650', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -917,12 +943,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0740
-     * @tc.name Menu placement BottomRight without width
-     * @tc.desc Test menu placement BottomRight without specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0740
+     * @tc.name   : Menu placement BottomRight without width
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0740', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -951,12 +978,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0710
-     * @tc.name Menu placement BottomRight with width 100vp
-     * @tc.desc Test menu placement BottomRight with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0710
+     * @tc.name   : Menu placement BottomRight with width 100vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0710', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -985,12 +1013,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1790
-     * @tc.name Menu with submenu placement BottomLeft (RightClick)
-     * @tc.desc Test menu with submenu placement BottomLeft using RightClick
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1790
+     * @tc.name   : Menu with submenu placement BottomLeft (RightClick)
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1790', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -1019,12 +1048,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1740
-     * @tc.name Menu with submenu placement BottomLeft (LongPress)
-     * @tc.desc Test menu with submenu placement BottomLeft using LongPress
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1740
+     * @tc.name   : Menu with submenu placement BottomLeft (LongPress)
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1740', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -1053,12 +1083,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0730
-     * @tc.name Menu placement BottomRight with width 64vp
-     * @tc.desc Test menu placement BottomRight with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0730
+     * @tc.name   : Menu placement BottomRight with width 64vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0730', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -1087,12 +1118,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0700
-     * @tc.name Menu placement BottomLeft without width
-     * @tc.desc Test menu placement BottomLeft without specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0700
+     * @tc.name   : Menu placement BottomLeft without width
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0700', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -1121,12 +1153,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0830
-     * @tc.name Menu placement RightBottom with width 100vp
-     * @tc.desc Test menu placement RightBottom with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0830
+     * @tc.name   : Menu placement RightBottom with width 100vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0830', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -1155,12 +1188,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0570
-     * @tc.name Menu placement Bottom with width 64vp
-     * @tc.desc Test menu placement Bottom with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0570
+     * @tc.name   : Menu placement Bottom with width 64vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0570', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -1189,12 +1223,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0590
-     * @tc.name Menu placement TopLeft with width 100vp
-     * @tc.desc Test menu placement TopLeft with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0590
+     * @tc.name   : Menu placement TopLeft with width 100vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0590', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -1223,12 +1258,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0530
-     * @tc.name Menu placement Top with width 64vp
-     * @tc.desc Test menu placement Top with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0530
+     * @tc.name   : Menu placement Top with width 64vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0530', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -1257,12 +1293,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0540
-     * @tc.name Menu placement Top without width
-     * @tc.desc Test menu placement Top without specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0540
+     * @tc.name   : Menu placement Top without width
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0540', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -1291,12 +1328,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0840
-     * @tc.name Menu placement RightBottom with width 48vp
-     * @tc.desc Test menu placement RightBottom with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0840
+     * @tc.name   : Menu placement RightBottom with width 48vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0840', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -1325,12 +1363,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0790
-     * @tc.name Menu placement RightBottom with width 100vp
-     * @tc.desc Test menu placement RightBottom with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0790
+     * @tc.name   : Menu placement RightBottom with width 100vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0790', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -1359,12 +1398,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1760
-     * @tc.name Menu with submenu placement BottomLeft (LongPress)
-     * @tc.desc Test menu with submenu placement BottomLeft using LongPress
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1760
+     * @tc.name   : Menu with submenu placement BottomLeft (LongPress)
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1760', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -1393,12 +1433,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0860
-     * @tc.name Menu placement BottomRight with width 100vp
-     * @tc.desc Test menu placement BottomRight with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0860
+     * @tc.name   : Menu placement BottomRight with width 100vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0860', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
@@ -1427,12 +1468,13 @@ export default function MenuPlacementTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0560
-     * @tc.name Menu placement Bottom with width 100vp
-     * @tc.desc Test menu placement Bottom with specific width
-     * @tc.type FUNC
-     * @tc.require I7QZ3Q
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0560
+     * @tc.name   : Menu placement Bottom with width 100vp
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0560', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();

@@ -41,11 +41,12 @@ export default function UiComponentTextRichEditorInterface() {
 
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0031
-        * @tc.name   : Using getSpans within the aboutToIMEInput callback can accurately obtain span information.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-      * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0031
+     * @tc.name   : Using getSpans within the aboutToIMEInput callback can accurately obtain span information.
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0031", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0031")
@@ -81,11 +82,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0032
-        * @tc.name   : Using getCaretOffset within the aboutToIMEInput callback can accurately obtain the cursor position before input.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-      * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0032
+     * @tc.name   : Using getCaretOffset within the aboutToIMEInput callback can accurately obtain the cursor position before input.
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0032", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0032")
@@ -121,11 +123,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0033
-        * @tc.name   : Using getParagraphs within the aboutToIMEInput callback can accurately obtain paragraph styles and range information before input.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-      * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0033
+     * @tc.name   : Using getParagraphs within the aboutToIMEInput callback can accurately obtain paragraph styles and range information before input.
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0033", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0033")
@@ -161,11 +164,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0037
-        * @tc.name   : Using getSpans within the aboutToDelete callback can accurately obtain span information before deletion.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-      * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0037
+     * @tc.name   : Using getSpans within the aboutToDelete callback can accurately obtain span information before deletion.
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0037", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0037")
@@ -208,151 +212,11 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0038
-        * @tc.name   : Using getCaretOffset within the aboutToDelete callback can accurately obtain the cursor position before deletion.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-      * @tc.level  : 3
-     */
-     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0038", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0038")
-      await Utils.sleep(1000)
-      let driver = await Driver.create()
-      
-      // 点击RichEditor获取焦点，准备删除操作
-      let richEditor0038 = await driver.waitForComponent(ON.id("richEditor0038"),500)
-      await richEditor0038.click()
-      await Utils.sleep(500)
-      
-      // 先输入一些内容，然后删除来触发aboutToDelete回调
-      console.log("使用triggerKey输入内容...")
-      
-      // 输入 T-E-S-T
-      await driver.triggerKey(KeyCode.KEYCODE_T)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_E) 
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_S)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_T)
-      await Utils.sleep(500)
-      
-      // 模拟删除操作（使用退格键）
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(1000)
-      
-      // 截图：删除后，查看aboutToDelete回调中getCaretOffset效果
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0038_01")
-      await Utils.sleep(1000)
-      
-      done();
-    })
-
-    /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0039
-        * @tc.name   : Using getParagraphs within the aboutToDelete callback can accurately obtain the paragraph styles and range information before deletion.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
-     */
-     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0039", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0039")
-      await Utils.sleep(1000)
-      let driver = await Driver.create()
-      
-      // 点击RichEditor获取焦点，准备删除操作
-      let richEditor0039 = await driver.waitForComponent(ON.id("richEditor0039"),500)
-      await richEditor0039.click()
-      await Utils.sleep(500)
-      
-      // 先输入一些内容，然后删除来触发aboutToDelete回调
-      console.log("使用triggerKey输入内容...")
-      
-      // 输入 T-E-S-T
-      await driver.triggerKey(KeyCode.KEYCODE_T)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_E) 
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_S)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_T)
-      await Utils.sleep(500)
-      
-      // 模拟删除操作（使用退格键）
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(1000)
-      
-      // 截图：删除后，查看aboutToDelete回调中getParagraphs效果
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0039_01")
-      await Utils.sleep(1000)
-      
-      done();
-    })
-
-    /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0042
-        * @tc.name   : Using getParagraphs within the onDeleteComplete callback can accurately obtain paragraph styles and range information.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-      * @tc.level  : 3
-     */
-     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0042", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0042")
-      await Utils.sleep(1000)
-      let driver = await Driver.create()
-      
-      // 点击RichEditor获取焦点，准备删除操作
-      let richEditor0042 = await driver.waitForComponent(ON.id("richEditor0042"),500)
-      await richEditor0042.click()
-      await Utils.sleep(500)
-      
-      // 先输入一些内容，然后删除来触发onDeleteComplete回调
-      console.log("使用triggerKey输入内容...")
-      
-      // 输入 T-E-S-T
-      await driver.triggerKey(KeyCode.KEYCODE_T)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_E) 
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_S)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_T)
-      await Utils.sleep(500)
-      
-      // 模拟删除操作（使用退格键）
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(1000)
-      
-      // 截图：删除完成后，查看onDeleteComplete回调中getParagraphs效果
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0042_01")
-      await Utils.sleep(1000)
-      
-      done();
-    })
-
-    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0043
      * @tc.name   : Using updateSpanStyle within the onIMEInputComplete callback to update text or SymbolSpan styles
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0043", Level.LEVEL2, async (done: Function) => {
@@ -393,132 +257,11 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0064
-        * @tc.name   : updateSpanStyle updates text, image or SymbolSpan styles with range boundaries falling in the middle of elements with length greater than 1.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-      * @tc.level  : 3
-     */
-     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0064", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0064")
-      await Utils.sleep(1000)
-      let driver = await Driver.create()
-      
-      // 点击RichEditor获取焦点，准备测试updateSpanStyle
-      let richEditor0064 = await driver.waitForComponent(ON.id("richEditor0064"),500)
-      await richEditor0064.click()
-      await Utils.sleep(500)
-      
-      // 使用triggerKey模拟键盘输入，测试updateSpanStyle功能
-      console.log("使用triggerKey输入内容...")
-      
-      let addContentBtn0064 = await driver.waitForComponent(ON.id("addContentBtn0064"),500)
-       await addContentBtn0064.click()
-       await Utils.sleep(1000)
-
-       let updateStyleEmojiBtn0064 = await driver.waitForComponent(ON.id("updateStyleEmojiBtn0064"),500)
-       await updateStyleEmojiBtn0064.click()
-       await Utils.sleep(1000)
-
-       let updateStyleSymbolBtn0064 = await driver.waitForComponent(ON.id("updateStyleSymbolBtn0064"),500)
-       await updateStyleSymbolBtn0064.click()
-       await Utils.sleep(1000)
-      // 截图：边界更新测试后
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0064_01")
-      await Utils.sleep(1000)
-      
-      done();
-    })
-
-    /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0077
-        * @tc.name   : Using updateSpanStyle within the aboutToIMEInput callback to update text, image or SymbolSpan styles.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-      * @tc.level  : 3
-     */
-     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0077", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0077")
-      await Utils.sleep(1000)
-      let driver = await Driver.create()
-      
-      // 点击RichEditor获取焦点，准备输入
-      let richEditor0077 = await driver.waitForComponent(ON.id("richEditor0077"),500)
-      await richEditor0077.click()
-      await Utils.sleep(500)
-      
-      // 使用triggerKey模拟键盘输入，尝试触发aboutToIMEInput回调
-      console.log("使用triggerKey输入内容...")
-      
-      // 输入 T-E-S-T
-      await driver.triggerKey(KeyCode.KEYCODE_T)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_E) 
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_S)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_T)
-      await Utils.sleep(1000)
-      
-      // 截图：输入后，查看aboutToIMEInput回调中updateSpanStyle效果
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0077_01")
-      await Utils.sleep(1000)
-      
-      done();
-    })
-
-    /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0078
-        * @tc.name   : Using updateSpanStyle within the aboutToDelete callback to update text, image or SymbolSpan styles.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-      * @tc.level  : 3
-     */
-     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0078", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface0078")
-      await Utils.sleep(1000)
-      let driver = await Driver.create()
-      
-      // 点击RichEditor获取焦点，准备删除操作
-      let richEditor0078 = await driver.waitForComponent(ON.id("richEditor0078"),500)
-      await richEditor0078.click()
-      await Utils.sleep(500)
-      
-      // 先输入一些内容，然后删除来触发aboutToDelete回调
-      console.log("使用triggerKey输入内容...")
-      
-      // 输入 T-E-S-T
-      await driver.triggerKey(KeyCode.KEYCODE_T)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_E) 
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_S)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_T)
-      await Utils.sleep(500)
-      
-      // 模拟删除操作（使用退格键）
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(200)
-      await driver.triggerKey(KeyCode.KEYCODE_DEL)
-      await Utils.sleep(1000)
-      
-      // 截图：删除后，查看aboutToDelete回调中updateSpanStyle效果
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0078_01")
-      await Utils.sleep(1000)
-      
-      done();
-    })
-
-    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0034
      * @tc.name   : Using getSpans within the onIMEInputComplete callback can accurately obtain span information after input completion
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0034", Level.LEVEL2, async (done: Function) => {
@@ -557,8 +300,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0035
      * @tc.name   : Using getCaretOffset within the onIMEInputComplete callback can accurately obtain cursor position
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0035", Level.LEVEL2, async (done: Function) => {
@@ -597,8 +341,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0036
      * @tc.name   : Using getParagraphs within the onIMEInputComplete callback can accurately obtain paragraph style and range information after input completion
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0036", Level.LEVEL2, async (done: Function) => {
@@ -637,8 +382,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0041
      * @tc.name   : Using getCaretOffset within the onDeleteComplete callback can accurately obtain cursor position
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0041", Level.LEVEL2, async (done: Function) => {
@@ -684,8 +430,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0068
      * @tc.name   : deleteSpans deletes content within specified range, with range boundaries falling in the middle of elements longer than 1
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0068", Level.LEVEL2, async (done: Function) => {
@@ -718,8 +465,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0076
      * @tc.name   : Using updateSpanStyle within the onSelect callback to update text, image or SymbolSpan styles
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0076", Level.LEVEL2, async (done: Function) => {
@@ -768,8 +516,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0079
      * @tc.name   : Using updateSpanStyle within the onDeleteComplete callback to update text, image or SymbolSpan styles
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0079", Level.LEVEL2, async (done: Function) => {
@@ -815,8 +564,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0082
      * @tc.name   : Using updateSpanStyle within the onEditingChange callback to update text, image or SymbolSpan styles
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0082", Level.LEVEL2, async (done: Function) => {
@@ -848,8 +598,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0084
      * @tc.name   : Using updateSpanStyle within the onWillChange callback to update text, image or SymbolSpan styles
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0084", Level.LEVEL2, async (done: Function) => {
@@ -885,8 +636,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0085
      * @tc.name   : Using updateSpanStyle within the aboutToDelete callback to update text, image or SymbolSpan styles
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0085", Level.LEVEL2, async (done: Function) => {
@@ -930,8 +682,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0081
      * @tc.name   : Using updateSpanStyle within the onSelectionChange callback to update text, image or SymbolSpan styles
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0081", Level.LEVEL2, async (done: Function) => {
@@ -964,8 +717,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0058
      * @tc.name   : Continuous calling of addTextSpan, updateSpanStyle and deleteSpans
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0058", Level.LEVEL2, async (done: Function) => {
@@ -1014,8 +768,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0069
      * @tc.name   : Set typingStyle, input emoji, aboutToIMEInput and onIMEInputComplete callback normally
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0069", Level.LEVEL2, async (done: Function) => {
@@ -1048,8 +803,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0073
      * @tc.name   : Change typingStyle and input text between original spans, aboutToIMEInput and onIMEInputComplete callback normally
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0073", Level.LEVEL2, async (done: Function) => {
@@ -1092,8 +848,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0072
      * @tc.name   : Line break between spans, aboutToIMEInput and onIMEInputComplete callback normally
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0072", Level.LEVEL2, async (done: Function) => {
@@ -1125,8 +882,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0071
      * @tc.name   : Select part of component content and input text, aboutToIMEInput and onIMEInputComplete callback normally
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0071", Level.LEVEL2, async (done: Function) => {
@@ -1167,8 +925,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0004
      * @tc.name   : Check the accuracy of aboutToDelete callback values
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0004", Level.LEVEL2, async (done: Function) => {
@@ -1204,8 +963,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9998
      * @tc.name   : Using getSpans within the onDeleteComplete callback can accurately obtain span information
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9998", Level.LEVEL2, async (done: Function) => {
@@ -1239,8 +999,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0075
      * @tc.name   : onWillChange returns false, input text does not trigger aboutToIMEInput and onIMEInputComplete callbacks
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0075", Level.LEVEL2, async (done: Function) => {
@@ -1278,8 +1039,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0018
      * @tc.name   : closeSelectionMenu can close custom selection menu or system default selection menu
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0018", Level.LEVEL2, async (done: Function) => {
@@ -1326,8 +1088,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0003
      * @tc.name   : aboutToIMEInput callback value accuracy check
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0003", Level.LEVEL2, async (done: Function) => {
@@ -1365,8 +1128,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0003_060
      * @tc.name   : Input text and use updateSpanStyle to update content style, then continue to input text
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0003_060", Level.LEVEL2, async (done: Function) => {
@@ -1397,8 +1161,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0029
      * @tc.name   : Using getCaretOffset within the onCut callback can accurately obtain cursor position before text cutting
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0029", Level.LEVEL2, async (done: Function) => {
@@ -1430,8 +1195,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0053
      * @tc.name   : Continuous calling of addImageSpan/addSymbolSpan and deleteSpans
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0053", Level.LEVEL2, async (done: Function) => {
@@ -1462,8 +1228,9 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0049
      * @tc.name   : Continuous calling of addTextSpan and deleteSpans
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0049", Level.LEVEL2, async (done: Function) => {

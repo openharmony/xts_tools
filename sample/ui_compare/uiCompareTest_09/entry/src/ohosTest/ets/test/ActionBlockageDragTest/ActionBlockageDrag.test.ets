@@ -28,11 +28,13 @@ export default function ActionBlockageDrag() {
       }
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0010
-     * 用例描述: onPreDrag中调用PREPARING_FOR_DRAG_DETECTION
-     * 自动化程度: 75%
-     * 说明: 自动化拖拽操作，状态验证需查看页面日志
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0010
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0010', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0010 begin');
@@ -61,11 +63,13 @@ export default function ActionBlockageDrag() {
       Logger.info('Verify: Check page log for PREPARING_FOR_DRAG_DETECTION status');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0020
-     * 用例描述: notifyDragStartRequest设置成功
-     * 自动化程度: 75%
-     * 说明: 自动化拖拽操作，状态验证需查看页面日志
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0020
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0020', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0020 begin');
@@ -94,11 +98,13 @@ export default function ActionBlockageDrag() {
       Logger.info('Verify: Check page log for notifyDragStartRequest success');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0030
-     * 用例描述: 拖拽50ms回调ACTION_DETECTING_STATUS
-     * 自动化程度: 70%
-     * 说明: 自动化拖拽，使用极快速度模拟50ms场景
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0030
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0030', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0030 begin');
@@ -127,11 +133,13 @@ export default function ActionBlockageDrag() {
       Logger.info('Verify: Check elapsed time in page log (~50ms for ACTION_DETECTING_STATUS)');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0040
-     * 用例描述: 拖拽350ms回调PREPARING_FOR_DRAG_DETECTION
-     * 自动化程度: 70%
-     * 说明: 自动化拖拽，使用中速模拟350ms场景
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0040
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0040', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0040 begin');
@@ -160,11 +168,13 @@ export default function ActionBlockageDrag() {
       Logger.info('Verify: Check elapsed time in page log (~350ms)');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0050
-     * 用例描述: 拖拽500ms回调READY_TO_TRIGGER_DRAG_ACTION
-     * 自动化程度: 75%
-     * 说明: 自动化拖拽，使用标准速度模拟500ms场景
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0050
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0050', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0050 begin');
@@ -193,11 +203,13 @@ export default function ActionBlockageDrag() {
       Logger.info('Verify: Check elapsed time in page log (~500ms for READY_TO_TRIGGER_DRAG_ACTION)');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0060
-     * 用例描述: 拖拽效果全部结束时回调PREVIEW_LIFT_FINISHED
-     * 自动化程度: 75%
-     * 说明: 自动化拖拽和释放，验证动效完成状态
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0060
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0060', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0060 begin');
@@ -226,11 +238,13 @@ export default function ActionBlockageDrag() {
       Logger.info('Verify: Check page log for PREVIEW_LIFT_FINISHED status');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0070
-     * 用例描述: 放置动效开始时回调PREVIEW_LANDING_STARTED
-     * 自动化程度: 75%
-     * 说明: 自动化拖拽后释放，验证放置动效开始
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0070
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0070', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0070 begin');
@@ -259,11 +273,13 @@ export default function ActionBlockageDrag() {
       Logger.info('Verify: Check page log for PREVIEW_LANDING_STARTED on release');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0080
-     * 用例描述: 放置动效结束时回调PREVIEW_LANDING_FINISHED
-     * 自动化程度: 75%
-     * 说明: 自动化拖拽后释放，等待动效完成
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0080
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0080', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0080 begin');
@@ -292,11 +308,13 @@ export default function ActionBlockageDrag() {
       Logger.info('Verify: Check page log for PREVIEW_LANDING_FINISHED after ~400ms');
     });
 
-    /**
-     * 用例ID: SUB_ACE_ACTION_BLOCKAGE_DRAG_0090
-     * 用例描述: 取消拖拽回调ACTION_CANCELED_BEFORE_DRAG
-     * 自动化程度: 65%
-     * 说明: 自动化长按但不拖拽，验证取消状态
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0090
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0090', 0, async () => {
       Logger.info('SUB_ACE_ACTION_BLOCKAGE_DRAG_0090 begin');

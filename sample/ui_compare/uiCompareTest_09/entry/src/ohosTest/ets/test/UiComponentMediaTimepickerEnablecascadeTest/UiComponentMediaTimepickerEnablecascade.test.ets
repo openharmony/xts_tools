@@ -42,6 +42,7 @@ export default function UiComponentMediaTimepickerEnablecascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0016
      * @tc.name   : enableCascade: true, TimePicker_ Initialize time scene, "Initialization Time" -17:00:00
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -68,6 +69,7 @@ export default function UiComponentMediaTimepickerEnablecascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0017
      * @tc.name   : enableCascade: true, TimePicker_ Initialize time scene, "Initialization Time" -12:00:00
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -94,6 +96,7 @@ export default function UiComponentMediaTimepickerEnablecascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0014
      * @tc.name   : enableCascade: true, TimePicker_ Initialize time scene, "Initialization Time" -00:00:00
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -120,6 +123,7 @@ export default function UiComponentMediaTimepickerEnablecascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0015
      * @tc.name   : enableCascade: true, TimePicker_ Initialize time scene, "Initialization Time" -07:00:00
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -146,6 +150,7 @@ export default function UiComponentMediaTimepickerEnablecascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0025
      * @tc.name   : enableCascade: false, TimePicker_ Initialize time scene, "Initialization Time" -00:00:00
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -172,6 +177,7 @@ export default function UiComponentMediaTimepickerEnablecascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0027
      * @tc.name   : enableCascade: false, TimePicker_ Initialization time scene, "Initialization time" -17:00:00
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -198,6 +204,7 @@ export default function UiComponentMediaTimepickerEnablecascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0026
      * @tc.name   : enableCascade: false, TimePicker_ Initialization time scene, "Initialization Time" -07:00:00
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -224,6 +231,7 @@ export default function UiComponentMediaTimepickerEnablecascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0028
      * @tc.name   : enableCascade: false, TimePicker_ Initialization time scene, "Initialization Time" -12:00:00
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -250,6 +258,7 @@ export default function UiComponentMediaTimepickerEnablecascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0038
      * @tc.name   : enableCascade: true, TimePickerDialog_ Initialize time scene, "Initialization Time" -00:00:00
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -270,6 +279,7 @@ export default function UiComponentMediaTimepickerEnablecascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0039
      * @tc.name   : enableCascade: true, TimePickerDialog_ Initialization time scene, "Initialization Time" -07:00:00
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -290,6 +300,7 @@ export default function UiComponentMediaTimepickerEnablecascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0041
      * @tc.name   : enableCascade: true, TimePickerDialog_ Initialization time scene, "Initialization Time" -07:00:00
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -310,6 +321,7 @@ export default function UiComponentMediaTimepickerEnablecascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0040
      * @tc.name   : enableCascade: true, TimePickerDialog_ Initialization time scenario, "Initialization Time" -17:00:00
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

@@ -41,13 +41,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0010
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0010
-     * @tc.desc   : Preview of the ColumnSplit component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0010 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0010")
@@ -61,13 +60,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0020
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0020
-     * @tc.desc   : Preview of the Column component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0020 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0020")
@@ -81,13 +79,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0030
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0030
-     * @tc.desc   : Preview of the Flex component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0030 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0030")
@@ -101,13 +98,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0040
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0040
-     * @tc.desc   : Preview of the FlowItem component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0040 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0040")
@@ -121,13 +117,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0050
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0050
-     * @tc.desc   : Preview of the GridItem component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0050 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0050")
@@ -141,13 +136,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0060
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0060
-     * @tc.desc   : Preview of the Grid component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0060 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0060")
@@ -161,13 +155,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0070
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0070
-     * @tc.desc   : Preview of the ListItemGroup component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0070 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0070")
@@ -181,13 +174,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0080
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0080
-     * @tc.desc   : Preview of the ListItem component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0080 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0080")
@@ -201,13 +193,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0090
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0090
-     * @tc.desc   : Preview of the List component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0090 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0090")
@@ -221,13 +212,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0100
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0100
-     * @tc.desc   : Preview of the RelativeContainer component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0100 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0100")
@@ -241,13 +231,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0110
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0110
-     * @tc.desc   : Preview of the RowSplit component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0110 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0110")
@@ -261,13 +250,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0120
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0120
-     * @tc.desc   : Preview of the Row component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0120 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0120")
@@ -281,13 +269,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0130
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0130
-     * @tc.desc   : Preview of the Scroll component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0130 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0130")
@@ -301,13 +288,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0140
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0140
-     * @tc.desc   : Preview of the SideBarContainer component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0140 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0140")
@@ -321,13 +307,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0150
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0150
-     * @tc.desc   : Preview of the Stack component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0150 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0150")
@@ -341,13 +326,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0160
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0160
-     * @tc.desc   : Preview of the Swiper component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0160 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0160")
@@ -361,13 +345,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0170
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0170
-     * @tc.desc   : Preview of the TabContent component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0170 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0170")
@@ -381,13 +364,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0180
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0180
-     * @tc.desc   : Preview of the Tabs component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0180 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0180")
@@ -401,13 +383,12 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0190
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0190
-     * @tc.desc   : Preview of the WaterFlow component
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_CONTINER_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_CONTINER_0190 start.`);
       Settings.createWindow("testability/pages/PreviewContainer/PreviewContainer0190")

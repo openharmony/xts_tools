@@ -55,13 +55,13 @@ export default function UiTextCrossDevice() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_TEXT_CROSSDEVICE_0010
-       * @tc.name    Search adds maxLength, set maxLength, enter text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0010
+     * @tc.name   : Search adds maxLength, set maxLength, enter text
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0010 start.`);
       Settings.createWindow("testability/pages/UiTextCrossDevice/UiTextCrossDevice01")
@@ -76,13 +76,13 @@ export default function UiTextCrossDevice() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_TEXT_CROSSDEVICE_0020
-       * @tc.name    Search adds maxLength, dynamically increase maxLength
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0020
+     * @tc.name   : Search adds maxLength, dynamically increase maxLength
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0020 start.`);
       Settings.createWindow("testability/pages/UiTextCrossDevice/UiTextCrossDevice02")
@@ -102,13 +102,13 @@ export default function UiTextCrossDevice() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_TEXT_CROSSDEVICE_0030
-       * @tc.name    Search adds maxLength, dynamically decrease maxLength with input text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0030
+     * @tc.name   : Search adds maxLength, dynamically decrease maxLength with input text
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0030 start.`);
       Settings.createWindow("testability/pages/UiTextCrossDevice/UiTextCrossDevice03")
@@ -123,13 +123,13 @@ export default function UiTextCrossDevice() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_TEXT_CROSSDEVICE_0040
-       * @tc.name    Search adds maxLength, decrease then increase maxLength with input text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0040
+     * @tc.name   : Search adds maxLength, decrease then increase maxLength with input text
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0040 start.`);
       Settings.createWindow("testability/pages/UiTextCrossDevice/UiTextCrossDevice04")
@@ -147,13 +147,13 @@ export default function UiTextCrossDevice() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_TEXT_CROSSDEVICE_0270
-       * @tc.name    Set caret position
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0270
+     * @tc.name   : Set caret position
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0270 start.`);
       Settings.createWindow("testability/pages/UiTextCrossDevice/UiTextCrossDevice05")
@@ -167,13 +167,13 @@ export default function UiTextCrossDevice() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_TEXT_CROSSDEVICE_0280
-       * @tc.name    Dynamically increase caret position, text length less than caret position
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0280
+     * @tc.name   : Dynamically increase caret position, text length less than caret position
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0280', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0280 start.`);
       Settings.createWindow("testability/pages/UiTextCrossDevice/UiTextCrossDevice06")
@@ -187,13 +187,13 @@ export default function UiTextCrossDevice() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_TEXT_CROSSDEVICE_0290
-       * @tc.name    Dynamically increase caret position, text length greater than caret position
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0290
+     * @tc.name   : Dynamically increase caret position, text length greater than caret position
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0290 start.`);
       Settings.createWindow("testability/pages/UiTextCrossDevice/UiTextCrossDevice07")
@@ -207,13 +207,13 @@ export default function UiTextCrossDevice() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_TEXT_CROSSDEVICE_0300
-       * @tc.name    Dynamically decrease caret position, decrease to less than 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0300
+     * @tc.name   : Dynamically decrease caret position, decrease to less than 0
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0300 start.`);
       Settings.createWindow("testability/pages/UiTextCrossDevice/UiTextCrossDevice08")
@@ -227,13 +227,13 @@ export default function UiTextCrossDevice() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_TEXT_CROSSDEVICE_0310
-       * @tc.name    Dynamically decrease caret position, decrease to greater than or equal to 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0310
+     * @tc.name   : Dynamically decrease caret position, decrease to greater than or equal to 0
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0310 start.`);
       Settings.createWindow("testability/pages/UiTextCrossDevice/UiTextCrossDevice09")
@@ -247,13 +247,13 @@ export default function UiTextCrossDevice() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_TEXT_CROSSDEVICE_0320
-       * @tc.name    Mouse click a position to place caret
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0320
+     * @tc.name   : Mouse click a position to place caret
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0320 start.`);
       Settings.createWindow("testability/pages/UiTextCrossDevice/UiTextCrossDevice10")

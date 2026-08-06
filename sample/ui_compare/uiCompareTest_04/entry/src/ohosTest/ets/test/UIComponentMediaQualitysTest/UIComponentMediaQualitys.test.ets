@@ -38,10 +38,12 @@ export default function UIComponentMediaQualitys() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_QUALITYS_0050
-     * @tc.name    Set privacy mask that does not affect the attribute function
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_QUALITYS_0050
+     * @tc.name   : Set privacy mask that does not affect the attribute function
+     * @tc.desc   : Verify media qualitys interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_QUALITYS_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_QUALITYS_0050 start.`);

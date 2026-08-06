@@ -44,6 +44,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_SHOWUNDERLINE_0010
      * @tc.name   : TextInput component: Set underline for input box, enable showError, and activate character counter
+     * @tc.desc   : Verify textinput showunderline interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -62,6 +63,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_KEYBOARDAVOIDMODE_0180
      * @tc.name   : Test input method avoidance combined with safe area
+     * @tc.desc   : Verify input keyboardavoidmode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -80,6 +82,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TYPE_URL_0010
      * @tc.name   : TextInput/TextArea/Search: Set URL type for input fields
+     * @tc.desc   : Verify type url interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -100,6 +103,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TYPE_URL_0130
      * @tc.name   : TextInput/TextArea/Search: Pop-up URL input method in windows
+     * @tc.desc   : Verify type url interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -120,6 +124,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0140
      * @tc.name   : Selection component: Small window display effect
+     * @tc.desc   : Verify selectionmenu pc interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -140,6 +145,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0120
      * @tc.name   : Selection component: Display effects under different languages
+     * @tc.desc   : Verify selectionmenu pc interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -166,6 +172,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0100
      * @tc.name   : Selection component: Adaptation for aging-friendly mode
+     * @tc.desc   : Verify selectionmenu pc interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -186,6 +193,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0100
      * @tc.name   : TextArea component: Modify line spacing of text
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -211,6 +219,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0060
      * @tc.name   : TextArea component: Set background color for selected text
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -236,6 +245,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0020
      * @tc.name   : TextArea/TextInput component: Inline mode input field, multi-line text and blank line selection
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -265,6 +275,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0040
      * @tc.name   : TextArea component: Set text alignment method
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -315,6 +326,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0030
      * @tc.name   : TextArea component: Set indentation for blank lines
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -348,6 +360,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0090
      * @tc.name   : TextArea component: Modify text line height
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -373,6 +386,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0080
      * @tc.name   : TextArea component: Change font size
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -398,6 +412,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0010
      * @tc.name   : TextArea component: Normal mode input field, multi-line text and blank line selection
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -426,6 +441,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0050
      * @tc.name   : TextArea component: Set URL type for input field
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -465,6 +481,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0070
      * @tc.name   : TextArea component: Use setTextSelection to select text
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -486,6 +503,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0110
      * @tc.name   : TextInput inline mode: Modify text line height
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -511,6 +529,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0120
      * @tc.name   : TextInput inline mode: Change font size
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -536,6 +555,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0140
      * @tc.name   : TextInput inline mode: Modify background color for selected text
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -561,6 +581,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0130
      * @tc.name   : TextInput inline mode: Change text alignment method
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -611,6 +632,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0150
      * @tc.name   : TextInput inline mode: Use setTextSelection to select blank lines
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -632,6 +654,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0190
      * @tc.name   : Text component: Set text and change alignment.
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -682,6 +705,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0230
      * @tc.name   : Text component: Set child components
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -703,6 +727,7 @@ export default function TextInputTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0170
      * @tc.name   : Text component: Set the leadingMargin attribute for text strings
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -41,13 +41,12 @@ export default function ToolchainComputeVerify() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0010
-     * @tc.name   : SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0010
-     * @tc.desc   : Use @Computed to decorate the getter method first, then decorate the setter method.
-     * @tc.size   : MediumTest
+     * @tc.name   : Toolchain compute verify
+     * @tc.desc   : Verify toolchain compute verify interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0010 start.`);
       
@@ -71,13 +70,12 @@ export default function ToolchainComputeVerify() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0020
-     * @tc.name   : SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0020
-     * @tc.desc   : Use @Computed together with two-way binding !!.
-     * @tc.size   : MediumTest
+     * @tc.name   : Toolchain compute verify
+     * @tc.desc   : Verify toolchain compute verify interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0020 start.`);
       
@@ -101,13 +99,12 @@ export default function ToolchainComputeVerify() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0030
-     * @tc.name   : SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0030
-     * @tc.desc   : Use @Computed to decorate the getter method first, then decorate the setter method, and use it together with two-way binding !!.
-     * @tc.size   : MediumTest
+     * @tc.name   : Toolchain compute verify
+     * @tc.desc   : Verify toolchain compute verify interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0030 start.`);
       

@@ -44,6 +44,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0070
      * @tc.name   : Text组件，decoration属性设置ResourceColor为#0000ff
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -64,6 +65,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0460
      * @tc.name   : text组件，单行文本align属性设置为Alignment.Start
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -83,6 +85,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0480
      * @tc.name   : text组件，单行文本align属性设置为Alignment.TopEnd
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -102,6 +105,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0630
      * @tc.name   : Text组件，设置heightAdaptivePolicy为MAX_LINES_FIRST
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -121,6 +125,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0750
      * @tc.name   : Text组件，设置maxFontSize($r("app.string.string_value_5"))
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -140,6 +145,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0920
      * @tc.name   : Text组件，设置minFontSize($r("app.float.float_value_10"))
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -159,6 +165,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1000
      * @tc.name   : Text组件，设置minFontSize($r("app.string.string_value_5"))
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -178,6 +185,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1030
      * @tc.name   : Text组件，设置minFontSize(-5)
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -197,6 +205,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1280
      * @tc.name   : Text组件，设置textIndent("40fp")
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -216,6 +225,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1310
      * @tc.name   : Text组件，设置textIndent(40)
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -235,6 +245,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1340
      * @tc.name   : Text组件，设置textOverflow为Clip，maxLines为0
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -254,6 +265,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1350
      * @tc.name   : Text组件，设置textOverflow为Clip，maxLines为1
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -273,6 +285,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1700
      * @tc.name   : 设置Text多行文本在水平方向的对齐方式为Start
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -292,6 +305,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1760
      * @tc.name   : 设置Text的参数：fontColor为0xff0000
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -311,6 +325,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1780
      * @tc.name   : 设置Text的参数：fontColor为rgb(0,0,255)
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -330,6 +345,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1910
      * @tc.name   : 设置Text的参数：fontStyle为Normal
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -349,6 +365,7 @@ export default function ComponentTextTextInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1990
      * @tc.name   : 设置Text的参数：fontWeight为FontWeight.Lighter
+     * @tc.desc   : Verify text interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

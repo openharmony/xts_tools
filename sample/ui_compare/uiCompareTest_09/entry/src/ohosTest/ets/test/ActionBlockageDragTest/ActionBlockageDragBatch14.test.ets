@@ -27,11 +27,13 @@ export default function ActionBlockageDragBatch14Test() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_1110
-     * @tc.name 手指长按拖拽*50次
-     * @tc.desc 手指长按拖拽*50次，验证功能正常
-     * @tc.automation 30% - 页面加载、组件定位、截图自动化；50次拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1110
+     * @tc.name   : 手指长按拖拽*50次
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_1110', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_1110';
@@ -57,11 +59,13 @@ export default function ActionBlockageDragBatch14Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_1120
-     * @tc.name 手指快速拖拽*50次
-     * @tc.desc 手指快速拖拽*50次，验证功能正常
-     * @tc.automation 30% - 页面加载、组件定位、截图自动化；50次拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1120
+     * @tc.name   : 手指快速拖拽*50次
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_1120', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_1120';
@@ -87,11 +91,13 @@ export default function ActionBlockageDragBatch14Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_1130
-     * @tc.name 鼠标拖拽*50次
-     * @tc.desc 鼠标拖拽*50次，验证功能正常
-     * @tc.automation 30% - 页面加载、组件定位、截图自动化；50次鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1130
+     * @tc.name   : 鼠标拖拽*50次
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_1130', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_1130';

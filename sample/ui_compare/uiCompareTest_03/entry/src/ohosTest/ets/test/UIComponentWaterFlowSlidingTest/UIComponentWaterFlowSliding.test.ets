@@ -59,10 +59,12 @@ export default function UIComponentWaterFlowSliding() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0310
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0310
-     * @tc.desc    Switch SLIDING_WINDOW during inertial scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0310
+     * @tc.name   : Waterflow sliding
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0310';
@@ -86,10 +88,12 @@ export default function UIComponentWaterFlowSliding() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0460
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0460
-     * @tc.desc    Movable window mode waterflow, dynamically change padding property test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0460
+     * @tc.name   : Waterflow sliding
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0460', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0460';

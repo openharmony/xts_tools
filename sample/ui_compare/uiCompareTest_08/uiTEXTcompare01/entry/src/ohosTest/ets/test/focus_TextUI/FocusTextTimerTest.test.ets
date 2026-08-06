@@ -41,13 +41,13 @@ export default function FocusTextTimerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0002
-    * @tc.name   : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0002
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : TextTimer text color 2.
-    */
+     * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0002
+     * @tc.name   : Text timer font color
+     * @tc.desc   : Verify text timer font color interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0002', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0002  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TtFontColor0002")
@@ -60,13 +60,13 @@ export default function FocusTextTimerTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0003
-    * @tc.name   : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0003
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : TextTimer text color 3.
-    */
+     * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0003
+     * @tc.name   : Text timer font color
+     * @tc.desc   : Verify text timer font color interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0003', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0003  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TtFontColor0003")
@@ -79,13 +79,13 @@ export default function FocusTextTimerTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0004
-    * @tc.name   : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0004
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : TextTimer text color 4.
-    */
+     * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0004
+     * @tc.name   : Text timer font color
+     * @tc.desc   : Verify text timer font color interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0004', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0004  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TtFontColor0004")
@@ -99,13 +99,13 @@ export default function FocusTextTimerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0002
-    * @tc.name   : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0002
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : TextTimer text size 2.
-    */
+     * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0002
+     * @tc.name   : Text timer font size
+     * @tc.desc   : Verify text timer font size interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0002', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0002  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TtFontSize0002")
@@ -118,13 +118,13 @@ export default function FocusTextTimerTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0003
-    * @tc.name   : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0003
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : TextTimer text size 3.
-    */
+     * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0003
+     * @tc.name   : Text timer font size
+     * @tc.desc   : Verify text timer font size interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0003', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0003  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TtFontSize0003")
@@ -138,13 +138,13 @@ export default function FocusTextTimerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0004
-    * @tc.name   : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0004
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : TextTimer text size 4.
-    */
+     * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0004
+     * @tc.name   : Text timer font size
+     * @tc.desc   : Verify text timer font size interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0004', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0004  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TtFontSize0004")
@@ -158,13 +158,13 @@ export default function FocusTextTimerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0010
-    * @tc.name   : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0010
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : No Set the fontWeight values for the TextTimer component.
-    */
+     * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0010
+     * @tc.name   : Texttimer common fontweight
+     * @tc.desc   : Verify texttimer common fontweight interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0010  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/CommonFontWeight0010")
@@ -178,13 +178,13 @@ export default function FocusTextTimerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0012
-    * @tc.name   : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0012
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : No Set the fontWeight values for the TextTimer component.
-    */
+     * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0012
+     * @tc.name   : Texttimer common fontweight
+     * @tc.desc   : Verify texttimer common fontweight interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0012', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0012  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/CommonFontWeight0012")
@@ -198,13 +198,13 @@ export default function FocusTextTimerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0014
-    * @tc.name   : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0014
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : No Set the fontWeight values for the TextTimer component.
-    */
+     * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0014
+     * @tc.name   : Texttimer common fontweight
+     * @tc.desc   : Verify texttimer common fontweight interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0014', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0014  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/CommonFontWeight0014")
@@ -218,13 +218,13 @@ export default function FocusTextTimerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0015
-    * @tc.name   : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0015
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : No Set the fontWeight values for the TextTimer component.
-    */
+     * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0015
+     * @tc.name   : Texttimer common fontweight
+     * @tc.desc   : Verify texttimer common fontweight interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0015', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0015  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/CommonFontWeight0015")
@@ -238,13 +238,13 @@ export default function FocusTextTimerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0016
-    * @tc.name   : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0016
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the fontWeight illegal values "-1", "0", "1", "450", "1000" for the TextTimer component.
-    */
+     * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0016
+     * @tc.name   : Texttimer common fontweight
+     * @tc.desc   : Verify texttimer common fontweight interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0016', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0016  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/CommonFontWeight0016")
@@ -257,13 +257,13 @@ export default function FocusTextTimerTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0023
-    * @tc.name   : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0023
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the textShadow for the TextTimer component and set the fontWeight to FontWeight.Bolder.
-    */
+     * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0023
+     * @tc.name   : Texttimer common fontweight
+     * @tc.desc   : Verify texttimer common fontweight interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0023', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0023  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/CommonFontWeight0023")
@@ -276,13 +276,13 @@ export default function FocusTextTimerTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0040
-    * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0040
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set isCountDown to false and count to 86400000 for TextTimer.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0040
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0040', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0040  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TextTimer0040")
@@ -304,13 +304,13 @@ export default function FocusTextTimerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0050
-    * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0050
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set isCountDown to false and count to 0 for TextTimer.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0050
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0050', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0050  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TextTimer0050")
@@ -331,13 +331,13 @@ export default function FocusTextTimerTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0060
-    * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0060
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set isCountDown to false and count to -10000 for TextTimer.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0060
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0060', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0060  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TextTimer0060")
@@ -360,13 +360,13 @@ export default function FocusTextTimerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0070
-    * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0070
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set isCountDown to undefined and count to 1 for TextTimer.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0070
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0070', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0070  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TextTimer0070")
@@ -388,13 +388,13 @@ export default function FocusTextTimerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0080
-    * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0080
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set isCountDown to null and count to -10000 for TextTimer.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0080
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0080', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0080  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TextTimer0080")
@@ -416,13 +416,13 @@ export default function FocusTextTimerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0090
-    * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0090
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Query the started state in the custom contentModifier.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0090
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0090', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0090  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TextTimer0090")
@@ -443,13 +443,13 @@ export default function FocusTextTimerTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0100
-    * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0100
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the textShadow for the TextTimer component and set the fontWeight to FontWeight.Bolder.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0100
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0100', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0100  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TextTimer0100")
@@ -463,13 +463,13 @@ export default function FocusTextTimerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0250
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0250
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : TextTimer interface: TextTimer(options?: { isCountDown?: boolean, count?: number, controller?: TextTimerController }). Test for required parameters, with only one parameter: controller.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0250
+     * @tc.name   : Information texttimer interface
+     * @tc.desc   : Verify information texttimer interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0250', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0250  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TtInterface0250")
@@ -482,13 +482,13 @@ export default function FocusTextTimerTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0280
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0280
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : TextTimer interface: TextTimer(options?: { isCountDown?: boolean, count?: number, controller?: TextTimerController }). Test for required parameters, with only one parameter: controller.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0280
+     * @tc.name   : Information texttimer interface
+     * @tc.desc   : Verify information texttimer interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0280', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0280  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TtInterface0280")
@@ -502,13 +502,13 @@ export default function FocusTextTimerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0290
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0290
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : TextTimer interface: TextTimer(options?: { isCountDown?: boolean, count?: number, controller?: TextTimerController }). Test for required parameters, with only one parameter: controller.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0290
+     * @tc.name   : Information texttimer interface
+     * @tc.desc   : Verify information texttimer interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0290', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0290  start.`);
       Settings.createWindow("testability/pages/focus_TextTimer/TtInterface0290")

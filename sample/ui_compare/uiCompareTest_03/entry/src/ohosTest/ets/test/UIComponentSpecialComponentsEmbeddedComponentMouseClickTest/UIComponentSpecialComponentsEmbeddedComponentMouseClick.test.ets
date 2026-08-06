@@ -68,10 +68,12 @@ export default function UIComponentSpecialComponentsEmbeddedComponentMouseClick(
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_MOUSE_CLICK_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_MOUSE_CLICK_0020
-     * @tc.desc    Right mouse button click
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_MOUSE_CLICK_0020
+     * @tc.name   : Special components embeddedcomponent mouse click
+     * @tc.desc   : Verify special components embeddedcomponent mouse click interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_MOUSE_CLICK_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_MOUSE_CLICK_0020';
@@ -101,10 +103,12 @@ export default function UIComponentSpecialComponentsEmbeddedComponentMouseClick(
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_MOUSE_CLICK_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_MOUSE_CLICK_0030
-     * @tc.desc    Left mouse button click
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_MOUSE_CLICK_0030
+     * @tc.name   : Special components embeddedcomponent mouse click
+     * @tc.desc   : Verify special components embeddedcomponent mouse click interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_MOUSE_CLICK_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_MOUSE_CLICK_0030';

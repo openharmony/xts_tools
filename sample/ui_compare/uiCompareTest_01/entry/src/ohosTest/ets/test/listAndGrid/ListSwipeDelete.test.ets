@@ -41,6 +41,7 @@ export default function ListSwipeDeleteTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0150
      * @tc.name   : list弹簧链式动效中chainAnimationOptions中设置edgeEffect为ChainEdgeEffect.DEFAULT
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -74,6 +75,7 @@ export default function ListSwipeDeleteTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0160
      * @tc.name   : list弹簧链式动效中chainAnimationOptions中设置edgeEffect为ChainEdgeEffect.STRETCH
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -107,6 +109,7 @@ export default function ListSwipeDeleteTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0350
      * @tc.name   : list弹簧链式动效中chainAnimation设置为false
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -135,6 +138,7 @@ export default function ListSwipeDeleteTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0110
      * @tc.name   : List_横滑删除_componentContent_edgeEffect
+     * @tc.desc   : Verify listandgrid list leftswipedelete buildercomponent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -170,6 +174,7 @@ export default function ListSwipeDeleteTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0120
      * @tc.name   : List_横滑删除_componentContent_动态改变actionAreaDistance
+     * @tc.desc   : Verify listandgrid list leftswipedelete buildercomponent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -205,6 +210,7 @@ export default function ListSwipeDeleteTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0130
      * @tc.name   : List_横滑删除_onOffsetChange
+     * @tc.desc   : Verify listandgrid list leftswipedelete buildercomponent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -235,6 +241,7 @@ export default function ListSwipeDeleteTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0140
      * @tc.name   : List_横滑删除_onStateChange
+     * @tc.desc   : Verify listandgrid list leftswipedelete buildercomponent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -265,6 +272,7 @@ export default function ListSwipeDeleteTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0150
      * @tc.name   : List_横滑删除_onExitActionArea&onEnterActionArea
+     * @tc.desc   : Verify listandgrid list leftswipedelete buildercomponent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -299,6 +307,7 @@ export default function ListSwipeDeleteTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0160
      * @tc.name   : List_横滑删除_list横向布局
+     * @tc.desc   : Verify listandgrid list leftswipedelete buildercomponent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -330,6 +339,7 @@ export default function ListSwipeDeleteTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0170
      * @tc.name   : List_横滑删除_连续横滑多个item
+     * @tc.desc   : Verify listandgrid list leftswipedelete buildercomponent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

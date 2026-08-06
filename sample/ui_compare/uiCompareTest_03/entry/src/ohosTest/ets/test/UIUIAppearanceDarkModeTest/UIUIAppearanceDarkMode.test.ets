@@ -59,10 +59,12 @@ export default function UIUIAppearanceDarkMode() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0020
-     * @tc.name    SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0020
-     * @tc.desc    Test settingData darkMode_mode toggles color scheme correctly with valid values 0 and 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0020
+     * @tc.name   : Uiappearance darkmode
+     * @tc.desc   : Verify uiappearance darkmode interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0020';
@@ -85,10 +87,12 @@ export default function UIUIAppearanceDarkMode() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0030
-     * @tc.name    SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0030
-     * @tc.desc    Verify settingData darkMode_mode values 0 and 1 prevent scheduled color toggling when starttime and endtime are set
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0030
+     * @tc.name   : Uiappearance darkmode
+     * @tc.desc   : Verify uiappearance darkmode interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0030';
@@ -111,10 +115,12 @@ export default function UIUIAppearanceDarkMode() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0040
-     * @tc.name    SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0040
-     * @tc.desc    Test settingData darkMode_mode correctly toggles color scheme with negative values
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0040
+     * @tc.name   : Uiappearance darkmode
+     * @tc.desc   : Verify uiappearance darkmode interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0040';
@@ -137,10 +143,12 @@ export default function UIUIAppearanceDarkMode() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0050
-     * @tc.name    SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0050
-     * @tc.desc    Test settingData darkMode_mode properly toggles color scheme with excessively large numbers
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0050
+     * @tc.name   : Uiappearance darkmode
+     * @tc.desc   : Verify uiappearance darkmode interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0050';
@@ -163,10 +171,12 @@ export default function UIUIAppearanceDarkMode() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0060
-     * @tc.name    SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0060
-     * @tc.desc    Test settingData darkMode_mode correctly toggles color scheme with non-numeric string values
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0060
+     * @tc.name   : Uiappearance darkmode
+     * @tc.desc   : Verify uiappearance darkmode interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0060';

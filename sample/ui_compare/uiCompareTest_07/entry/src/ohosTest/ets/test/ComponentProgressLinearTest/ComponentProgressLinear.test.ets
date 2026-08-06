@@ -42,9 +42,9 @@ export default function ComponentProgressLinear() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0015
-     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0015
+     * @tc.name   : Progress linear
+     * @tc.desc   : Verify Progress linear interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Set the properties of ProgressLinear such as strokeWidth, strokeRadius, enableSmoothEffect, and enableScanEffect, and dynamically modify the values of these properties.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -87,9 +87,9 @@ export default function ComponentProgressLinear() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0016
+     * @tc.name   : Progress linear
+     * @tc.desc   : Verify Progress linear interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : When switching to other styles (Ring, Eclipse, ScaleRing, Capsule), the properties do not take effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -188,9 +188,9 @@ export default function ComponentProgressLinear() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0017
-     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0017
+     * @tc.name   : Progress linear
+     * @tc.desc   : Verify Progress linear interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Set get for ProgressLinear.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -246,9 +246,9 @@ export default function ComponentProgressLinear() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0018
-     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0018
+     * @tc.name   : Progress linear
+     * @tc.desc   : Verify Progress linear interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Set reset for ProgressLinear.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

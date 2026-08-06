@@ -43,6 +43,7 @@ export default function ImageLatticeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0016
      * @tc.name   : Image with Lattice
+     * @tc.desc   : Verify media Image lattice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ImageLatticeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0010
      * @tc.name   : Image with Lattice
+     * @tc.desc   : Verify media Image lattice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +81,7 @@ export default function ImageLatticeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0011
      * @tc.name   : Image with Lattice
+     * @tc.desc   : Verify media Image lattice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -97,6 +100,7 @@ export default function ImageLatticeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0015
      * @tc.name   : Image with Lattice
+     * @tc.desc   : Verify media Image lattice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,6 +119,7 @@ export default function ImageLatticeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0020
      * @tc.name   : Image with Lattice
+     * @tc.desc   : Verify media Image lattice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -133,6 +138,7 @@ export default function ImageLatticeTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0012
      * @tc.name   : Image with Lattice
+     * @tc.desc   : Verify media Image lattice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

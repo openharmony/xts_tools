@@ -41,8 +41,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0030
-     * @tc.desc   : text组件添加span/属性字符串，使用selection接口设置start/end在表情中间，复制文本
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -74,8 +74,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0040
-     * @tc.desc   : text组件添加span/属性字符串，使用selection接口设置start/end在表情中间，拖拽文本至输入框
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -111,8 +111,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0050
-     * @tc.desc   : text组件添加span/属性字符串，拖拽手柄
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -143,8 +143,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0060
-     * @tc.desc   : text组件添加属性字符串，设置StyledStringKey.FONT包含部分表情
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,8 +165,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0070
-     * @tc.desc   : text组件添加属性字符串，设置StyledStringKey.DECORATION包含部分表情
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -187,8 +187,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0080
-     * @tc.desc   : text组件添加属性字符串，设置StyledStringKey.BASELINE_OFFSET包含部分表情
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -209,8 +209,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0090
-     * @tc.desc   : text组件添加属性字符串，设置StyledStringKey.LETTER_SPACING包含部分表情
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -231,8 +231,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0100
-     * @tc.desc   : text组件添加属性字符串，设置StyledStringKey.LINE_HEIGHT包含部分表情
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -253,8 +253,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0110
-     * @tc.desc   : text组件添加属性字符串，设置StyledStringKey.TEXT_SHADOW包含部分表情
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -275,8 +275,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0120
-     * @tc.desc   : text组件添加属性字符串，设置StyledStringKey.BACKGROUND_COLOR包含部分表情
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -297,8 +297,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0130
-     * @tc.desc   : text组件添加属性字符串，设置StyledStringKey.URL包含部分表情
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -319,8 +319,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0140
-     * @tc.desc   : text组件添加属性字符串，设置StyledStringKey.GESTURE包含部分表情
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -341,8 +341,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0150
-     * @tc.desc   : text组件添加属性字符串，设置StyledStringKey.PARAGRAPH_STYLE包含部分表情
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -363,8 +363,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0160
-     * @tc.desc   : text组件添加属性字符串，replaceString替换部分表情
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -388,8 +388,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0170
-     * @tc.desc   : text组件添加属性字符串，insertString在表情中间插入
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -413,8 +413,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0180
-     * @tc.desc   : text组件添加属性字符串，removeString在移除部分表情
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -438,8 +438,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0190
-     * @tc.desc   : text组件添加属性字符串，replaceStyle替换部分表情样式
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -463,8 +463,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0200
-     * @tc.desc   : text组件添加属性字符串，setStyle设置部分表情样式
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -488,8 +488,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0210
-     * @tc.desc   : text组件添加属性字符串，removeStyle清除部分表情的属性样式
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -513,8 +513,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0220
-     * @tc.desc   : text组件添加属性字符串，removeStyles清除部分表情的所有样式
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -538,8 +538,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0230
-     * @tc.desc   : text组件添加属性字符串，clearStyles清除所有样式
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -563,8 +563,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0240
-     * @tc.desc   : text组件添加属性字符串，replaceStyledString替换部分表情为新的属性字符串
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -588,8 +588,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0250
-     * @tc.desc   : text组件添加属性字符串，insertStyledString在表情中间插入新的属性字符串
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -613,8 +613,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0260
-     * @tc.desc   : text组件添加属性字符串，appendStyledString追加新的属性字符串
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

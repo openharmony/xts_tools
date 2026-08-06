@@ -59,10 +59,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0010
-     * @tc.desc    Index bar has 30 index items
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0010
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0010';
@@ -91,10 +93,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0020
-     * @tc.desc    Index bar has 40 index items
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0020
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0020';
@@ -123,10 +127,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0030
-     * @tc.desc    Index bar has 50 index items
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0030
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0030';
@@ -155,10 +161,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0040
-     * @tc.desc    List content for index item is empty, click this index item
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0040
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0040';
@@ -189,10 +197,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0050
-     * @tc.desc    List content for index item is empty, click the next index item
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0050
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0050';
@@ -223,10 +233,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0060
-     * @tc.desc    Click different index items
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0060
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0060';
@@ -277,10 +289,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0070
-     * @tc.desc    Popup content for index item has 5 characters
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0070
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0070';
@@ -311,10 +325,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0080
-     * @tc.desc    Popup content for index item has 10 characters
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0080
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0080';
@@ -345,10 +361,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0090
-     * @tc.desc    Popup content for index item has 15 characters
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0090
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0090';
@@ -379,10 +397,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0160
-     * @tc.desc    Index bar initially has no data, load data source after delay
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0160
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0160';
@@ -409,10 +429,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0170
-     * @tc.desc    Index bar initially has data, add data after delay
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0170
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0170';
@@ -441,10 +463,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0180
-     * @tc.desc    Index bar initially has data, delete data after delay
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0180
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0180';
@@ -473,10 +497,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0190
-     * @tc.desc    Slide index bar while collapsed
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0190
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0190';
@@ -505,10 +531,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0200
-     * @tc.desc    Slide index bar while expanded
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0200
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0200';
@@ -537,10 +565,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0210
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0210
-     * @tc.desc    Index bar initially has data, add data
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0210
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0210';
@@ -569,10 +599,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0220
-     * @tc.desc    Focus frame when collapsing index items beyond index 4
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0220
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0220';
@@ -605,10 +637,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0230
-     * @tc.desc    Focus frame when expanding index items beyond index 4
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0230
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0230';
@@ -643,10 +677,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0240
-     * @tc.desc    Change index bar data source during or after collapse
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0240
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0240';
@@ -678,10 +714,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0250
-     * @tc.desc    Change index bar data source during or after expansion
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0250
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0250';
@@ -713,10 +751,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0260
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0260
-     * @tc.desc    Change index bar data source during or after sliding
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0260
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0260';
@@ -747,10 +787,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0270
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0270
-     * @tc.desc    Slide index bar with two fingers
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0270
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0270';
@@ -783,10 +825,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0280
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0280
-     * @tc.desc    Slide index bar with more than two fingers
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0280
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0280';
@@ -821,10 +865,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0290
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0290
-     * @tc.desc    System setting switched to large font
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0290
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0290', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0290';
@@ -853,10 +899,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0300
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0300
-     * @tc.desc    Switch index items, list content shows animation
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0300
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0300';
@@ -891,10 +939,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0310
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0310
-     * @tc.desc    Index item count not greater than 9, set adaptive collapse mode
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0310
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0310';
@@ -921,10 +971,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0320
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0320
-     * @tc.desc    Index item count greater than 9 and not greater than 13, set adaptive collapse mode
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0320
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0320';
@@ -951,10 +1003,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0330
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0330
-     * @tc.desc    Index item count greater than 13, set adaptive collapse mode
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0330
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0330', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0330';
@@ -981,10 +1035,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0340
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0340
-     * @tc.desc    Do not set AlphabetIndexer popupBackgroundBlurStyle
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0340
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0340', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0340';
@@ -1015,10 +1071,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0350
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0350
-     * @tc.desc    Dynamically set AlphabetIndexer popupBackgroundBlurStyle
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0350
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0350', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0350';
@@ -1051,10 +1109,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0360
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0360
-     * @tc.desc    Index bar has 0 index items
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0360
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0360', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0360';
@@ -1081,10 +1141,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0370
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0370
-     * @tc.desc    Index bar has 1 index item
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0370
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0370', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0370';
@@ -1111,10 +1173,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0380
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0380
-     * @tc.desc    Click index item "*"
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0380
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0380', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0380';
@@ -1145,10 +1209,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0390
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0390
-     * @tc.desc    Slide (or click) index bar and crown simultaneously
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0390
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0390', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0390';
@@ -1177,10 +1243,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0400
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0400
-     * @tc.desc    Slide or click list content and crown simultaneously
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0400
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0400', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0400';
@@ -1209,10 +1277,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0410
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0410
-     * @tc.desc    Slide (click) index bar and slide (click) list content
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0410
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0410', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0410';
@@ -1243,10 +1313,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0420
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0420
-     * @tc.desc    Property color not set
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0420
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0420', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0420';
@@ -1273,10 +1345,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0430
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0430
-     * @tc.desc    Property color uses number value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0430
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0430', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0430';
@@ -1303,10 +1377,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0440
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0440
-     * @tc.desc    Property color uses string value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0440
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0440', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0440';
@@ -1333,10 +1409,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0450
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0450
-     * @tc.desc    Property color uses enum value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0450
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0450', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0450';
@@ -1363,10 +1441,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0460
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0460
-     * @tc.desc    Property color set to rgb value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0460
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0460', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0460';
@@ -1393,10 +1473,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0470
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0470
-     * @tc.desc    Property selectedColor not set
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0470
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0470', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0470';
@@ -1423,10 +1505,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0480
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0480
-     * @tc.desc    Property selectedColor uses number value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0480
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0480', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0480';
@@ -1453,10 +1537,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0490
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0490
-     * @tc.desc    Property selectedColor uses string value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0490
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0490', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0490';
@@ -1483,10 +1569,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0500
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0500
-     * @tc.desc    Property selectedColor uses enum value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0500
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0500', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0500';
@@ -1513,10 +1601,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0510
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0510
-     * @tc.desc    Property selectedColor set to rgb value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0510
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0510', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0510';
@@ -1543,10 +1633,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0570
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0570
-     * @tc.desc    Property selectedBackgroundColor not set
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0570
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0570', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0570';
@@ -1573,10 +1665,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0580
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0580
-     * @tc.desc    Property selectedBackgroundColor uses number value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0580
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0580', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0580';
@@ -1603,10 +1697,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0590
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0590
-     * @tc.desc    Property selectedBackgroundColor uses string value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0590
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0590', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0590';
@@ -1633,10 +1729,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0600
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0600
-     * @tc.desc    Property selectedBackgroundColor uses enum value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0600
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0600', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0600';
@@ -1663,10 +1761,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0610
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0610
-     * @tc.desc    Property selectedBackgroundColor set to rgb value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0610
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0610', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0610';
@@ -1693,10 +1793,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0620
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0620
-     * @tc.desc    Property popupBackground not set
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0620
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0620', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0620';
@@ -1723,10 +1825,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0630
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0630
-     * @tc.desc    Property popupBackground uses number value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0630
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0630', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0630';
@@ -1753,10 +1857,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0640
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0640
-     * @tc.desc    Property popupBackground uses string value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0640
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0640', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0640';
@@ -1783,10 +1889,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0650
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0650
-     * @tc.desc    Property popupBackground uses enum value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0650
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0650', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0650';
@@ -1813,10 +1921,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0660
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0660
-     * @tc.desc    Property popupBackground set to rgb value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0660
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0660', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0660';
@@ -1843,10 +1953,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0670
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0670
-     * @tc.desc    Property usePopup set to false
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0670
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0670', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0670';
@@ -1877,10 +1989,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0680
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0680
-     * @tc.desc    Property usePopup set to true
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0680
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0680', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0680';
@@ -1911,10 +2025,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0690
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0690
-     * @tc.desc    Property usePopup not configured
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0690
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0690', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0690';
@@ -1945,10 +2061,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0700
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0700
-     * @tc.desc    Property usePopup configured with non-boolean
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0700
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0700', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0700';
@@ -1979,10 +2097,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0710
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0710
-     * @tc.desc    Verify effect when usePopup is false
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0710
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0710', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0710';
@@ -2013,10 +2133,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0720
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0720
-     * @tc.desc    Verify effect when usePopup is true
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0720
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0720', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0720';
@@ -2047,10 +2169,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0730
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0730
-     * @tc.desc    Property selectedFont uses invalid value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0730
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0730', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0730';
@@ -2077,10 +2201,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0740
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0740
-     * @tc.desc    Property selectedFont uses default config
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0740
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0740', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0740';
@@ -2107,10 +2233,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0750
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0750
-     * @tc.desc    Property popupFont uses invalid value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0750
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0750', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0750';
@@ -2137,10 +2265,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0760
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0760
-     * @tc.desc    Property popupFont uses default config
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0760
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0760', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0760';
@@ -2167,10 +2297,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0770
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0770
-     * @tc.desc    Property font uses invalid value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0770
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0770', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0770';
@@ -2197,10 +2329,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0780
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0780
-     * @tc.desc    Property font uses default config
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0780
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0780', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0780';
@@ -2227,10 +2361,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0790
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0790
-     * @tc.desc    Verify font property effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0790
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0790', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0790';
@@ -2257,10 +2393,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0800
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0800
-     * @tc.desc    Property selected set to 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0800
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0800', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0800';
@@ -2287,10 +2425,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0810
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0810
-     * @tc.desc    Property selected set to other invalid values
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0810
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0810', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0810';
@@ -2317,10 +2457,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0820
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0820
-     * @tc.desc    Property selected uses default value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0820
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0820', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0820';
@@ -2347,10 +2489,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0830
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0830
-     * @tc.desc    Property autoCollapse: character count greater than 13 shows all
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0830
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0830', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0830';
@@ -2377,10 +2521,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0840
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0840
-     * @tc.desc    Property autoCollapse: character count greater than 9 and not greater than 13 adapts
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0840
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0840', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0840';
@@ -2407,10 +2553,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0850
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0850
-     * @tc.desc    Property autoCollapse: character count not greater than 9 shows all
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0850
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0850', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0850';
@@ -2437,10 +2585,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0860
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0860
-     * @tc.desc    Property autoCollapse set to False
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0860
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0860', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0860';
@@ -2467,10 +2617,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0870
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0870
-     * @tc.desc    Property autoCollapse uses default value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0870
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0870', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0870';
@@ -2497,10 +2649,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0880
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0880
-     * @tc.desc    Set popupBackgroundBlurStyle to BACKGROUND_REGULAR
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0880
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0880', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0880';
@@ -2531,10 +2685,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0890
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0890
-     * @tc.desc    Set popupBackgroundBlurStyle to BACKGROUND_THICK
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0890
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0890', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0890';
@@ -2565,10 +2721,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0900
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0900
-     * @tc.desc    Set popupBackgroundBlurStyle to BACKGROUND_THIN
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0900
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0900', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0900';
@@ -2599,10 +2757,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0910
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0910
-     * @tc.desc    Set popupBackgroundBlurStyle to BACKGROUND_ULTRA_THICK
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0910
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0910', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0910';
@@ -2633,10 +2793,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0920
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0920
-     * @tc.desc    Set popupBackgroundBlurStyle to COMPONENT_REGULAR
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0920
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0920', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0920';
@@ -2667,10 +2829,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0930
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0930
-     * @tc.desc    Set popupBackgroundBlurStyle to COMPONENT_THICK
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0930
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0930', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0930';
@@ -2701,10 +2865,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0940
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0940
-     * @tc.desc    Set popupBackgroundBlurStyle to COMPONENT_THIN
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0940
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0940', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0940';
@@ -2735,10 +2901,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0950
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0950
-     * @tc.desc    Set popupBackgroundBlurStyle to COMPONENT_ULTRA_THICK
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0950
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0950', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0950';
@@ -2769,10 +2937,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0960
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0960
-     * @tc.desc    Set popupBackgroundBlurStyle to COMPONENT_ULTRA_THIN
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0960
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0960', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0960';
@@ -2803,10 +2973,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0970
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0970
-     * @tc.desc    Set popupBackgroundBlurStyle to NONE
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0970
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0970', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0970';
@@ -2837,10 +3009,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0980
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0980
-     * @tc.desc    Set popupBackgroundBlurStyle to null
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0980
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0980', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0980';
@@ -2871,10 +3045,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0990
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0990
-     * @tc.desc    Set popupBackgroundBlurStyle to Regular
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0990
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0990', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0990';
@@ -2905,10 +3081,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1000
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1000
-     * @tc.desc    Set popupBackgroundBlurStyle to Thick
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1000
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1000', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1000';
@@ -2939,10 +3117,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1010
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1010
-     * @tc.desc    Set popupBackgroundBlurStyle to Thin
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1010
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1010';
@@ -2973,10 +3153,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1020
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1020
-     * @tc.desc    Set popupBackgroundBlurStyle to undefined
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1020
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1020';
@@ -3003,10 +3185,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1030
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1030
-     * @tc.desc    AlphabetIndexer width is string
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1030
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1030';
@@ -3033,10 +3217,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1040
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1040
-     * @tc.desc    AlphabetIndexer width is string with long text
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1040
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1040';
@@ -3063,10 +3249,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1050
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1050
-     * @tc.desc    AlphabetIndexer width is undefined
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1050
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1050';
@@ -3093,10 +3281,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1060
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1060
-     * @tc.desc    AlphabetIndexer width is undefined with long text
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1060
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1060';
@@ -3123,10 +3313,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1070
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1070
-     * @tc.desc    AlphabetIndexer width is 'auto auto'
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1070
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1070';
@@ -3153,10 +3345,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1080
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1080
-     * @tc.desc    AlphabetIndexer width is 'auto auto' with long text
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1080
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1080';
@@ -3183,10 +3377,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1090
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1090
-     * @tc.desc    AlphabetIndexer width is empty string
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1090
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1090';
@@ -3213,10 +3409,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1100
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1100
-     * @tc.desc    AlphabetIndexer width is empty string with long text
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1100
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1100';
@@ -3243,10 +3441,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1110
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1110
-     * @tc.desc    AlphabetIndexer width is not set
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1110
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1110';
@@ -3273,10 +3473,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1120
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1120
-     * @tc.desc    AlphabetIndexer width is not set with long text
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1120
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1120';
@@ -3303,10 +3505,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1130
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1130
-     * @tc.desc    AlphabetIndexer width is extremely large value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1130
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1130';
@@ -3333,10 +3537,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1140
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1140
-     * @tc.desc    AlphabetIndexer width is negative value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1140
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1140';
@@ -3363,10 +3569,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1150
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1150
-     * @tc.desc    AlphabetIndexer width is negative value with long text
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1150
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1150';
@@ -3393,10 +3601,12 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1160
-     * @tc.name    SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1160
-     * @tc.desc    Event onSelect callback test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1160
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1160';

@@ -42,6 +42,7 @@ export default function ListMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0030
      * @tc.name   : List横向布局镜像测试，ListItemGroup和ListItem混合
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -70,6 +71,7 @@ export default function ListMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0060
      * @tc.name   : 横向布局镜像下scrollTo接口正常
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,6 +105,7 @@ export default function ListMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0230
      * @tc.name   : 纵向布局镜像下scrollToIndex接口正常
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -136,6 +139,7 @@ export default function ListMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0240
      * @tc.name   : 纵向布局镜像下scrollBy接口正常
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -169,6 +173,7 @@ export default function ListMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0280
      * @tc.name   : List竖向布局镜像测试，lanes为3
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -202,6 +207,7 @@ export default function ListMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0300
      * @tc.name   : List竖向布局镜像测试，alignListItem为Center
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -235,6 +241,7 @@ export default function ListMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0420
      * @tc.name   : List镜像测试，分割线颜色为黄色
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -263,6 +270,7 @@ export default function ListMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0430
      * @tc.name   : List镜像测试，scrollBar配置
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -291,6 +299,7 @@ export default function ListMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0480
      * @tc.name   : 验证List组件子组件为ListItemGroup的childrenMainSize属性的update接口正常
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -324,6 +333,7 @@ export default function ListMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0490
      * @tc.name   : 验证List组件子组件为ListItemGroup的childrenMainSize属性的splice接口正常
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -357,6 +367,7 @@ export default function ListMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0710
      * @tc.name   : list组件镜像时切换横竖屏
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -42,7 +42,7 @@ export default function GridMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0520
      * @tc.name   : 切换direction的时候，观察onDidScroll是否有偏移量上报
-     * @tc.desc   : 切换direction的时候，观察onDidScroll是否有偏移量上报
+     * @tc.desc   : Verify listandgrid grid mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

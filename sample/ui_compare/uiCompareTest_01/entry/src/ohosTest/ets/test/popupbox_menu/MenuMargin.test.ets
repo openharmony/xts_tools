@@ -41,8 +41,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0010
-     * @tc.desc   : bindContextMenu支持自定义margin，3个菜单项，IMAGE预览，layoutRegionMargin: { top: 10, bottom: 10, left: 10, right: 20 }
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -67,8 +67,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0020
-     * @tc.desc   : bindContextMenu支持自定义margin，20个菜单项，IMAGE预览，layoutRegionMargin: { top: 10, bottom: 10, left: 10, right: 20 }
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,8 +93,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0030
-     * @tc.desc   : bindContextMenu支持自定义margin，3个菜单项，CustomBuilder预览，layoutRegionMargin: { top: 10, bottom: 10, left: 10, right: 20 }
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,8 +119,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0040
-     * @tc.desc   : bindContextMenu支持自定义margin，20个菜单项，CustomBuilder预览，layoutRegionMargin: { top: 10, bottom: 10, left: 10, right: 20 }
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -145,8 +145,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0050
-     * @tc.desc   : bindContextMenu支持自定义margin，3个菜单项，IMAGE预览，layoutRegionMargin: { top: 10, bottom: 10, left: 200, right: 20 }
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -171,8 +171,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0060
-     * @tc.desc   : bindContextMenu支持自定义margin，20个菜单项，IMAGE预览，layoutRegionMargin: { top: 10, bottom: 10, left: 200, right: 20 }
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -197,8 +197,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0070
-     * @tc.desc   : bindContextMenu支持自定义margin，3个菜单项，CustomBuilder预览，layoutRegionMargin: { top: 10, bottom: 10, left: 200, right: 20 }
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,8 +223,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0080
-     * @tc.desc   : bindContextMenu支持自定义margin，20个菜单项，CustomBuilder预览，layoutRegionMargin: { top: 10, bottom: 10, left: 200, right: 20 }
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -249,8 +249,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0090
-     * @tc.desc   : bindContextMenu支持自定义margin，20个菜单项，CustomBuilder预览，异常margin值测试，横竖屏切换
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -280,8 +280,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0100
-     * @tc.desc   : bindContextMenu支持自定义margin，3个菜单项，CustomBuilder预览，margin过大值测试，横竖屏切换
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -311,8 +311,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0110
-     * @tc.desc   : bindContextMenu支持自定义margin，3个菜单项，CustomBuilder预览，margin过大值测试，横竖屏切换
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

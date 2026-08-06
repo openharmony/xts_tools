@@ -37,6 +37,14 @@ export default function UiComponentTextRicheditorTextbackgroundstyleTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_006
+     * @tc.name   : Text richeditor textbackgroundstyle
+     * @tc.desc   : Verify text richeditor textbackgroundstyle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_006', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_006 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorTextbackgroundstyle/UiComponentTextRicheditorTextbackgroundstyle006');
@@ -50,6 +58,14 @@ export default function UiComponentTextRicheditorTextbackgroundstyleTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_010
+     * @tc.name   : Text richeditor textbackgroundstyle
+     * @tc.desc   : Verify text richeditor textbackgroundstyle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_010', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_010 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorTextbackgroundstyle/UiComponentTextRicheditorTextbackgroundstyle010');
@@ -63,6 +79,14 @@ export default function UiComponentTextRicheditorTextbackgroundstyleTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_011
+     * @tc.name   : Text richeditor textbackgroundstyle
+     * @tc.desc   : Verify text richeditor textbackgroundstyle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_011', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_011 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorTextbackgroundstyle/UiComponentTextRicheditorTextbackgroundstyle011');
@@ -76,6 +100,14 @@ export default function UiComponentTextRicheditorTextbackgroundstyleTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_012
+     * @tc.name   : Text richeditor textbackgroundstyle
+     * @tc.desc   : Verify text richeditor textbackgroundstyle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_012', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_012 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorTextbackgroundstyle/UiComponentTextRicheditorTextbackgroundstyle012');

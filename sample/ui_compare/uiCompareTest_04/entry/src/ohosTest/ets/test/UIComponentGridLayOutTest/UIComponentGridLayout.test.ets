@@ -38,10 +38,12 @@ export default function UIComponentGridLayoutTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0530_799
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0530_799
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0530_799
+     * @tc.name   : Listandgrid grid layout
+     * @tc.desc   : Verify listandgrid grid layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0530_799', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0530_799 start.`);
@@ -55,10 +57,12 @@ export default function UIComponentGridLayoutTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0520_674
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0520_674
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0520_674
+     * @tc.name   : Listandgrid grid layout
+     * @tc.desc   : Verify listandgrid grid layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0520_674', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0520_674 start.`);

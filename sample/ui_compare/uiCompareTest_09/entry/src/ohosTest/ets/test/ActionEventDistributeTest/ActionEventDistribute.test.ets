@@ -27,11 +27,13 @@ export default function ActionEventDistributeTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_DISTRIBUTE_0010
-     * @tc.name 分屏条正常滑动后窗口显示正常
-     * @tc.desc 验证分屏模式下页面可正常滑动
-     * @tc.automation 40% - 页面加载、滑动自动化；分屏模式需手动设置
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DISTRIBUTE_0010
+     * @tc.name   : 分屏条正常滑动后窗口显示正常
+     * @tc.desc   : Verify action event commonevent distribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DISTRIBUTE_0010', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_DISTRIBUTE_0010';

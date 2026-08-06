@@ -41,8 +41,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0060
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0060
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -62,13 +62,13 @@ export default function Statusmanagerv2Freezing() {
     })
 
     /*
-      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0090
-      * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0090
-      * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-      * @tc.type   : Function
-      * @tc.size   : MediumTest
-      * @tc.level  : 3
-      */
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0090
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0090 start.`);
       Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing90")
@@ -87,13 +87,13 @@ export default function Statusmanagerv2Freezing() {
     })
 
     /*
-      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0070
-      * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0070
-      * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-      * @tc.type   : Function
-      * @tc.size   : MediumTest
-      * @tc.level  : 3
-      */
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0070
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0070 start.`);
       Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing70")
@@ -112,13 +112,13 @@ export default function Statusmanagerv2Freezing() {
     })
 
       /*
-    * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0110
-    * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0110
-    * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    */
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0110
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0110 start.`);
       Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing110")
@@ -137,13 +137,13 @@ export default function Statusmanagerv2Freezing() {
     })
 
     /*
-      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0020
-      * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0020
-      * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-      * @tc.type   : Function
-      * @tc.size   : MediumTest
-      * @tc.level  : 3
-      */
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0020
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0020 start.`);
       Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing20")
@@ -162,13 +162,13 @@ export default function Statusmanagerv2Freezing() {
     })
 
     /*
-    * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0080
-    * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0080
-    * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    */
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0080
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0080 start.`);
       Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing80")
@@ -187,13 +187,13 @@ export default function Statusmanagerv2Freezing() {
     })
 
     /*
-      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0030
-      * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0030
-      * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-      * @tc.type   : Function
-      * @tc.size   : MediumTest
-      * @tc.level  : 3
-      */
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0030
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0030 start.`);
       Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing30")
@@ -213,8 +213,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0160
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0160
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -230,8 +230,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0050
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0050
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -247,8 +247,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0100
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0100
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -271,13 +271,13 @@ export default function Statusmanagerv2Freezing() {
     })
 
     /*
-    * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0150
-    * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0150
-    * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    */
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0150
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0150 start.`);
       Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing150")
@@ -296,13 +296,13 @@ export default function Statusmanagerv2Freezing() {
     })
 
     /*
-      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0140
-      * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0140
-      * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-      * @tc.type   : Function
-      * @tc.size   : MediumTest
-      * @tc.level  : 3
-      */
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0140
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0140 start.`);
       Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing140")
@@ -321,13 +321,13 @@ export default function Statusmanagerv2Freezing() {
     })
 
     /*
-      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0130
-      * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0130
-      * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-      * @tc.type   : Function
-      * @tc.size   : MediumTest
-      * @tc.level  : 3
-      */
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0130
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0030 start.`);
       Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing130")
@@ -346,13 +346,13 @@ export default function Statusmanagerv2Freezing() {
     })
 
     /*
-      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0010
-      * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0010
-      * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
-      * @tc.type   : Function
-      * @tc.size   : MediumTest
-      * @tc.level  : 3
-      */
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0010
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0010 start.`);
       Settings.createWindow("testability/pages/Statusmanagerv2Freezing/Statusmanagerv2Freezing10")
@@ -372,8 +372,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0170
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0170
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -397,8 +397,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0210
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0210
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -422,8 +422,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0200
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0200
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -447,8 +447,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0190
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0190
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -472,8 +472,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0180
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0180
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -497,8 +497,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0230
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0230
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -531,8 +531,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0220
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0220
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -548,8 +548,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0240
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0240
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -663,8 +663,8 @@ export default function Statusmanagerv2Freezing() {
     //
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0040
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0040
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -679,8 +679,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0320
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0320
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -695,8 +695,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0330
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0330
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -711,8 +711,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020
-     * @tc.name   : SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager appstoragev2 persistancev2more
+     * @tc.desc   : Verify statusmanager appstoragev2 persistancev2more interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -726,8 +726,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0090
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0090
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -741,8 +741,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0050
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0050
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -757,8 +757,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0010
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0010
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -772,8 +772,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0060
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0060
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -787,8 +787,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0100
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0100
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -802,8 +802,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0110
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0110
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -817,8 +817,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0150
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0150
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -833,8 +833,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0120
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0120
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -848,8 +848,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0200
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0200
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -863,8 +863,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0210
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0210
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -878,8 +878,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0220
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0220
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -893,8 +893,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0230
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0230
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -908,8 +908,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0240
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0240
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -923,8 +923,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0250
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0250
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -938,8 +938,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0260
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0260
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -953,8 +953,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0270
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0270
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -968,8 +968,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0280
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0280
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -983,8 +983,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0310
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0310
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -998,8 +998,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0300
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0300
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1013,8 +1013,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0320
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0320
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1028,8 +1028,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0330
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0330
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1043,8 +1043,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0340
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0340
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1058,8 +1058,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0350
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0350
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1073,8 +1073,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0360
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0360
-     * @tc.desc   : The nested and mixed tabcontent and lazyForEach components in the V1 decorator do not set the component freeze, and the lazyForEach sets the component freeze
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

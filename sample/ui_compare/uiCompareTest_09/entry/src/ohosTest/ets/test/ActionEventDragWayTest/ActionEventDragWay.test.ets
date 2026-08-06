@@ -27,11 +27,13 @@ export default function ActionEventDragWayTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_WAY-0050
-     * @tc.name 拖拽启动-长按+拖出窗口
-     * @tc.desc 验证长按超过500ms拖出窗口时销毁浮起控件并显示拖拽窗口
-     * @tc.automation 40% - 页面加载自动化；拖出窗口效果需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_WAY-0050
+     * @tc.name   : 拖拽启动-长按+拖出窗口
+     * @tc.desc   : Verify action event commonevent drag way-0050 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_WAY-0050', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_WAY-0050';

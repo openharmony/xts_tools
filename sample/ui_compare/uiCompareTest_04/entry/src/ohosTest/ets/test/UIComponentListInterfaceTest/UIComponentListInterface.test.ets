@@ -39,10 +39,12 @@ export default function UIComponentListInterfaceTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250
+     * @tc.name   : Listandgrid list interface
+     * @tc.desc   : Verify listandgrid list interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250';
@@ -57,10 +59,12 @@ export default function UIComponentListInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060
+     * @tc.name   : Listandgrid list interface
+     * @tc.desc   : Verify listandgrid list interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060';

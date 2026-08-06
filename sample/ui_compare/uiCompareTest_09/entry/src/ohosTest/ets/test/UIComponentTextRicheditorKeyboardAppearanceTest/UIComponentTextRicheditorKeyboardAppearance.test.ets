@@ -42,6 +42,7 @@ export default function UIComponentTextRicheditorKeyboardAppearance() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_KeyboardAppearance_003
      * @tc.name   : Set KeyboardAppearance to the default appearance mode.
+     * @tc.desc   : Verify text richeditor keyboardappearance interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

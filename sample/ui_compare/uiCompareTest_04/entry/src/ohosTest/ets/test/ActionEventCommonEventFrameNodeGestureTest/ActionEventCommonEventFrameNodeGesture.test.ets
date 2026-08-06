@@ -39,9 +39,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_002
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_002
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_002
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_002', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_002 start.`);
@@ -57,9 +60,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_001
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_001
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_001
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_001', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_001 start.`);
@@ -75,9 +81,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_004
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_004
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_004
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_004', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_004 start.`);
@@ -93,9 +102,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_016
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_016
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_016
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_016', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_016 start.`);
@@ -112,9 +124,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_012
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_012
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_012
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_012', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_012 start.`);
@@ -130,9 +145,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_014
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_014
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_014
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_014', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_014 start.`);
@@ -148,9 +166,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_011
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_011
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_011
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_011', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_011 start.`);
@@ -166,9 +187,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_013
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_013
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_013
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_013', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_013 start.`);
@@ -184,9 +208,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_015
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_015
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_015
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_015', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_015 start.`);
@@ -203,9 +230,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_022
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_022
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_022
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_022', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_022 start.`);
@@ -222,9 +252,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_023
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_023
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_023
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_023', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_023 start.`);
@@ -241,9 +274,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_024
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_024
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_024
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_024', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_024 start.`);
@@ -261,9 +297,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_025
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_025
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_025
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_025', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_025 start.`);
@@ -280,9 +319,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_031
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_031
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_031
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_031', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_031 start.`);
@@ -299,9 +341,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_033
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_033
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_033
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_033', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_033 start.`);
@@ -318,9 +363,12 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_032
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_032
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_032
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_032', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_032 start.`);

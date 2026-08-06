@@ -55,13 +55,13 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_RICHEDITOR_SCROLL_0120
-       * @tc.name    RichEditor, multi-line text is displayed in the content area, and the height is dynamically changed
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0120
+     * @tc.name   : RichEditor, multi-line text is displayed in the content area, and the height is dynamically changed
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0120 start.`);
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll01")
@@ -78,13 +78,13 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_RICHEDITOR_SCROLL_0150
-       * @tc.name    RichEditor, multi-line text, delete content
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0150
+     * @tc.name   : RichEditor, multi-line text, delete content
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0150 start.`);
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll02")
@@ -101,13 +101,13 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_RICHEDITOR_SCROLL_0110
-       * @tc.name    RichEditor, multi-line text is displayed in the content area, and the width is dynamically changed
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0110
+     * @tc.name   : RichEditor, multi-line text is displayed in the content area, and the width is dynamically changed
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0110 start.`);
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll03")
@@ -124,13 +124,13 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_RICHEDITOR_SCROLL_0210
-       * @tc.name    RichEditor, multi-line text, padding settings
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0210
+     * @tc.name   : RichEditor, multi-line text, padding settings
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0210 start.`);
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll04")
@@ -147,13 +147,13 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_RICHEDITOR_SCROLL_0230
-       * @tc.name    RichEditor, multi-line text, set clip
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0230
+     * @tc.name   : RichEditor, multi-line text, set clip
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0230 start.`);
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll05")
@@ -171,13 +171,13 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_RICHEDITOR_SCROLL_0130
-       * @tc.name    RichEditor, multi-line text, select all text Scroll up and down to select all without disappearing
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0130
+     * @tc.name   : RichEditor, multi-line text, select all text Scroll up and down to select all without disappearing
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0130 start.`);
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll06")
@@ -199,13 +199,13 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_RICHEDITOR_SCROLL_0250
-       * @tc.name    RichEditor, multi-line text, select all text Scroll up and down to select all without disappearing
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0250
+     * @tc.name   : RichEditor, multi-line text, select all text Scroll up and down to select all without disappearing
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0250 start.`);
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll07")
@@ -227,13 +227,13 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_RICHEDITOR_SCROLL_0270
-       * @tc.name    RichEditor, multi-line text, click to truncate text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0270
+     * @tc.name   : RichEditor, multi-line text, click to truncate text
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0270 start.`);
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll08")
@@ -253,13 +253,13 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_RICHEDITOR_SCROLL_0220
-       * @tc.name    RichEditor, multi-line text, set text indentation
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0220
+     * @tc.name   : RichEditor, multi-line text, set text indentation
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0220 start.`);
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll09")
@@ -272,13 +272,13 @@ export default function UiRichEditorScroll() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_RICHEDITOR_SCROLL_0140
-       * @tc.name    RichEditor, multi-line text, select part of the text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0140
+     * @tc.name   : RichEditor, multi-line text, select part of the text
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0140 start.`);
       Settings.createWindow("testability/pages/UiRichEditorScroll/UiRichEditorScroll10")

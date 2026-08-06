@@ -43,11 +43,12 @@ export default function UiComponentMediaTimepickerVoiceTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0014
-     * @tc.name: TimepickerVoice0014
-     * @tc.desc: TimePickerDialog设置enableHapticFeedback属性为string时编译报错
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0014
+     * @tc.name   : TimepickerVoice0014
+     * @tc.desc   : Verify media TimePicker voice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0014', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0014 START')
@@ -72,11 +73,12 @@ export default function UiComponentMediaTimepickerVoiceTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0019
-     * @tc.name: TimepickerVoice0019
-     * @tc.desc: 手指快速抛划场景TimePickerDialog设置enableHapticFeedback属性为true
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0019
+     * @tc.name   : TimepickerVoice0019
+     * @tc.desc   : Verify media TimePicker voice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0019', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0019 START')
@@ -101,11 +103,12 @@ export default function UiComponentMediaTimepickerVoiceTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0021
-     * @tc.name: TimepickerVoice0021
-     * @tc.desc: 播放音乐场景TimePickerDialog设置enableHapticFeedback属性为true
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0021
+     * @tc.name   : TimepickerVoice0021
+     * @tc.desc   : Verify media TimePicker voice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0021', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0021 START')
@@ -135,11 +138,12 @@ export default function UiComponentMediaTimepickerVoiceTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0022
-     * @tc.name: TimepickerVoice0022
-     * @tc.desc: 多指滑动场景TimePickerDialog设置enableHapticFeedback属性为true
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0022
+     * @tc.name   : TimepickerVoice0022
+     * @tc.desc   : Verify media TimePicker voice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0022', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0022 START')
@@ -164,11 +168,12 @@ export default function UiComponentMediaTimepickerVoiceTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0023
-     * @tc.name: TimepickerVoice0023
-     * @tc.desc: 手机静音场景TimePickerDialog设置enableHapticFeedback属性为true
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0023
+     * @tc.name   : TimepickerVoice0023
+     * @tc.desc   : Verify media TimePicker voice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0023', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0023 START')

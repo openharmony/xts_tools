@@ -33,9 +33,13 @@ export default function UiComponentButtonRatingTest() {
       await driver.delayMs(500);
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0100
-     * @tc.name 自定义buildRating，手势点击进行评分
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0100
+     * @tc.name   : 自定义buildRating，手势点击进行评分
+     * @tc.desc   : Verify button rating customizings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0100', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0100 start');
@@ -51,9 +55,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0120
-     * @tc.name 设置contentModifier参数为"Hi", 99
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0120
+     * @tc.name   : 设置contentModifier参数为"Hi", 99
+     * @tc.desc   : Verify button rating customizings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0120', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0120 start');
@@ -69,9 +77,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0140
-     * @tc.name 验证退出后再启动程序
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0140
+     * @tc.name   : 验证退出后再启动程序
+     * @tc.desc   : Verify button rating customizings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0140', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0140 start');
@@ -87,9 +99,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0150
-     * @tc.name 验证切换到其他应用再切回
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0150
+     * @tc.name   : 验证切换到其他应用再切回
+     * @tc.desc   : Verify button rating customizings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0150', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0150 start');
@@ -105,9 +121,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0160
-     * @tc.name 验证切换到桌面再切回
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0160
+     * @tc.name   : 验证切换到桌面再切回
+     * @tc.desc   : Verify button rating customizings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0160', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0160 start');
@@ -123,9 +143,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0170
-     * @tc.name contentModifier设置为undefined
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0170
+     * @tc.name   : contentModifier设置为undefined
+     * @tc.desc   : Verify button rating customizings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0170', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0170 start');
@@ -141,9 +165,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0180
-     * @tc.name contentModifier设置为null
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0180
+     * @tc.name   : contentModifier设置为null
+     * @tc.desc   : Verify button rating customizings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0180', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0180 start');
@@ -159,9 +187,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0190
-     * @tc.name 不设置contentModifier
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0190
+     * @tc.name   : 不设置contentModifier
+     * @tc.desc   : Verify button rating customizings interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0190', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_CUSTOMIZINGS_0190 start');
@@ -177,9 +209,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0010
-     * @tc.name Rating作为指示器，indicator=true，hover
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0010
+     * @tc.name   : Rating作为指示器，indicator=true，hover
+     * @tc.desc   : Verify button rating hoverkeyboard interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0010', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0010 start');
@@ -195,9 +231,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0020
-     * @tc.name Rating作为评分器，hover预览后移开恢复
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0020
+     * @tc.name   : Rating作为评分器，hover预览后移开恢复
+     * @tc.desc   : Verify button rating hoverkeyboard interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0020', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0020 start');
@@ -213,9 +253,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0030
-     * @tc.name Rating作为评分器，点击后刷新打分
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0030
+     * @tc.name   : Rating作为评分器，点击后刷新打分
+     * @tc.desc   : Verify button rating hoverkeyboard interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0030', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0030 start');
@@ -236,9 +280,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0100
-     * @tc.name Rating作为评分器，Tab进入焦点模式
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0100
+     * @tc.name   : Rating作为评分器，Tab进入焦点模式
+     * @tc.desc   : Verify button rating hoverkeyboard interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0100', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0100 start');
@@ -254,9 +302,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0120
-     * @tc.name 竖屏切横屏时，键盘走焦效果正常
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0120
+     * @tc.name   : 竖屏切横屏时，键盘走焦效果正常
+     * @tc.desc   : Verify button rating hoverkeyboard interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0120', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0120 start');
@@ -272,9 +324,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0130
-     * @tc.name 横屏模式下鼠标预览和点击效果正常
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0130
+     * @tc.name   : 横屏模式下鼠标预览和点击效果正常
+     * @tc.desc   : Verify button rating hoverkeyboard interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0130', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0130 start');
@@ -290,9 +346,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0140
-     * @tc.name 键盘左右切换时，焦点转移规格一致
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0140
+     * @tc.name   : 键盘左右切换时，焦点转移规格一致
+     * @tc.desc   : Verify button rating hoverkeyboard interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0140', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_HOVERKEYBOARD_0140 start');
@@ -308,9 +368,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_INTERFACE_0210
-     * @tc.name starStyle三个参数均正常设置
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_INTERFACE_0210
+     * @tc.name   : starStyle三个参数均正常设置
+     * @tc.desc   : Verify button rating interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_INTERFACE_0210', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_INTERFACE_0210 start');
@@ -326,9 +390,13 @@ export default function UiComponentButtonRatingTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RATING_MIRROR_0160
-     * @tc.name rating组件镜像（键盘走焦场景）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RATING_MIRROR_0160
+     * @tc.name   : rating组件镜像（键盘走焦场景）
+     * @tc.desc   : Verify button rating mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RATING_MIRROR_0160', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RATING_MIRROR_0160 start');

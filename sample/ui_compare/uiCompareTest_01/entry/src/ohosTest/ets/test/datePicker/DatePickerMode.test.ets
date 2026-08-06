@@ -42,7 +42,8 @@ export default function DatePickerModeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0011
+     * @tc.name   : Media DatePicker mode
+     * @tc.desc   : Verify media DatePicker mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -64,7 +65,8 @@ export default function DatePickerModeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0012
+     * @tc.name   : Media DatePicker mode
+     * @tc.desc   : Verify media DatePicker mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,7 +88,8 @@ export default function DatePickerModeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0013
+     * @tc.name   : Media DatePicker mode
+     * @tc.desc   : Verify media DatePicker mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -104,7 +107,8 @@ export default function DatePickerModeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0016
+     * @tc.name   : Media DatePicker mode
+     * @tc.desc   : Verify media DatePicker mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -137,7 +141,8 @@ export default function DatePickerModeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0017
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0017
+     * @tc.name   : Media DatePicker mode
+     * @tc.desc   : Verify media DatePicker mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -170,7 +175,8 @@ export default function DatePickerModeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0018
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0018
+     * @tc.name   : Media DatePicker mode
+     * @tc.desc   : Verify media DatePicker mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

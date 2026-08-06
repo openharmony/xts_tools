@@ -60,10 +60,12 @@ export default function UIComponentListAndGridListMirror() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0020
-     * @tc.desc    List#lang#lang1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0020
+     * @tc.name   : Listandgrid list mirror layout
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0020';
@@ -93,10 +95,12 @@ export default function UIComponentListAndGridListMirror() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0040
-     * @tc.desc    List#lang#lang5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0040
+     * @tc.name   : Listandgrid list mirror layout
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0040';
@@ -126,10 +130,12 @@ export default function UIComponentListAndGridListMirror() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0050
-     * @tc.desc    List#lang#lang2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0050
+     * @tc.name   : Listandgrid list mirror layout
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0050';
@@ -159,10 +165,12 @@ export default function UIComponentListAndGridListMirror() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0650
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0650
-     * @tc.desc    List#lang#lang7
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0650
+     * @tc.name   : Listandgrid list mirror layout
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0650', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0650';

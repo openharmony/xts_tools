@@ -41,6 +41,7 @@ export default function ListScrollSnapAlignTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0630
      * @tc.name   : List组件ScrollSnapAlign.END测试
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,6 +88,7 @@ export default function ListScrollSnapAlignTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0330
      * @tc.name   : List组件ScrollSnapAlign.NONE测试
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -133,6 +135,7 @@ export default function ListScrollSnapAlignTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0310
      * @tc.name   : List组件ScrollSnapAlign.CENTER测试
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,6 +182,7 @@ export default function ListScrollSnapAlignTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0620
      * @tc.name   : List组件ScrollSnapAlign.CENTER测试
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -225,6 +229,7 @@ export default function ListScrollSnapAlignTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0640
      * @tc.name   : List组件ScrollSnapAlign.NONE测试
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -271,6 +276,7 @@ export default function ListScrollSnapAlignTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0650
      * @tc.name   : List组件ScrollSnapAlign.START测试
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -45,8 +45,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0290_177
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0290_177
-     * @tc.desc   : When mode is not set in Navigation, it defaults to NavigationMode.Auto
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -64,8 +64,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0170_861
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0170_861
-     * @tc.desc   : When hideToolBar is not set in Navigation, it defaults to false (toolbar is visible)
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -83,9 +83,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0400_045
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0400_045
-     * @tc.desc   : Navigation component supports HM Symbol: Pass symbol for title bar/toolbar/back button, with
-     * fontSize set to $r(app.integer.integer_30)
+     * @tc.name   : Nav navigation symbol
+     * @tc.desc   : Verify nav navigation symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,8 +102,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0370
-     * @tc.desc   : Set minContentWidth for Navigation
+     * @tc.name   : Nav navigation baseproperty
+     * @tc.desc   : Verify nav navigation baseproperty interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -124,8 +123,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496
-     * @tc.desc   : Enable auto-switch between single/dual-pane modes in Navigation, set backButtonIcon with String type
+     * @tc.name   : Nav navigation back
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -218,9 +217,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024
-     * @tc.desc   : Verify status bar color switching when navigating between two full-screen NavDestinations with
-     * systemBarStyle set
+     * @tc.name   : Nav navigation systembarstyle
+     * @tc.desc   : Verify nav navigation systembarstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -248,8 +246,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405
-     * @tc.desc   : When hideTitleBar is false in NavDestination, the title bar is visible
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -267,8 +265,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0200_811
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0200_811
-     * @tc.desc   : When hideBackButton is false in Navigation, the back button is visible
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -286,8 +284,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030_227
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030_227
-     * @tc.desc   : In Stack mode, hide both toolbar and title bar → content area extends to status bar and AI Bar
+     * @tc.name   : Nav navigation contentexpansion
+     * @tc.desc   : Verify nav navigation contentexpansion interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -305,8 +303,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354
-     * @tc.desc   : When hideNavBar is false in Navigation, the navigation bar is visible
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -324,8 +322,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0730_530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0730_530
-     * @tc.desc   : Set page title with Resource type → successfully configured
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -343,9 +341,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0050_299
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0050_299
-     * @tc.desc   : Set title as customBuilder type in NavDestination with font size 30 (without explicit width/height)
-     * → successfully configured
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -363,9 +360,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0140_226
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0140_226
-     * @tc.desc   : Navigation supports HM Symbol: Simultaneously set icon/symbolIcon for title bar, and
-     * icon/symbolIcon/activeIcon/activeSymbolIcon for toolbar
+     * @tc.name   : Nav navigation symbol
+     * @tc.desc   : Verify nav navigation symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -383,8 +379,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0310_250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0310_250
-     * @tc.desc   : Set navBarPosition to NavBarPosition.Start in Navigation → successfully configured
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -402,8 +398,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0240_508
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0240_508
-     * @tc.desc   : When hideNavBar is true in Navigation, the navigation bar is hidden
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -421,9 +417,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0090_618
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0090_618
-     * @tc.desc   : Set title as NavigationCustomTitle type with height: MainOnly in NavDestination → successfully
-     * configured
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -441,8 +436,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0070_571
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0070_571
-     * @tc.desc   : Set title as NavigationCommonTitle type in NavDestination → successfully configured
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -460,9 +455,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771
-     * @tc.desc   : Set title as NavigationCustomTitle type with height: MainWithSub in NavDestination → successfully
-     * configured
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -480,9 +474,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0510_988
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0510_988
-     * @tc.desc   : Set the title of NavDestination to NavigationCustomTitle type with height configured as
-     * MainWithSub → successfully configured
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -500,8 +493,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0340_021
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0340_021
-     * @tc.desc   : The navigation's navBarWidth was successfully set to string type.
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -519,8 +512,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0740_522
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0740_522
-     * @tc.desc   : The title page title parameter of type string was successfully set to an overly long string.
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -538,8 +531,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_216
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_216
-     * @tc.desc   : The NavigationMode.Split was successfully set for navigation.
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -557,8 +550,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0590_474
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0590_474
-     * @tc.desc   : Set NavigationMode.Stack for navigation, switch to stack mode
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -578,8 +571,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0360
-     * @tc.desc   : Set navBarPosition of navigation to NavBarPosition.End, set successfully
+     * @tc.name   : Nav navigation baseproperty
+     * @tc.desc   : Verify nav navigation baseproperty interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -599,8 +592,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0260
-     * @tc.desc   : Set hideToolBar for navigation to true, hiding toolbar
+     * @tc.name   : Nav navigation baseproperty
+     * @tc.desc   : Verify nav navigation baseproperty interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -621,8 +614,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0720_462
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0720_462
-     * @tc.desc   : Set the parameter type of page title to NavigationCustomTitle, set successfully
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -643,8 +636,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0380_470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0380_470
-     * @tc.desc   : Set menus for navigation to type Array<NavigationMenuItem>, set successfully
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -662,8 +655,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0030_369
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0030_369
-     * @tc.desc   : Set hideTitleBar of NavDestination to true, hiding title bar
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -681,8 +674,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0040_448
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0040_448
-     * @tc.desc   : Set title of NavDestination to customBuilder type, without setting width and height, set successfully
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -700,8 +693,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_053
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_053
-     * @tc.desc   : Set NavigationMode.Stack for navigation, set successfully
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -719,8 +712,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0140_557
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0140_557
-     * @tc.desc   : Set title of NavDestination to string type, set successfully
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -738,8 +731,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0570_324
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0570_324
-     * @tc.desc   : Set NavigationMode for navigation to Auto, switch to Auto mode
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -759,8 +752,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0330_250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0330_250
-     * @tc.desc   : Set navBarWidth of navigation to Resource type, set successfully
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -779,9 +772,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249
-     * @tc.desc   : Set Navigation to automatically switch between single and double column modes, set backButtonIcon
-     * property, pass Resource type
+     * @tc.name   : Nav navigation back
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -874,9 +866,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0080_285
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0080_285
-     * @tc.desc   : Set title of NavDestination to NavigationCustomTitle type, set height to Length type, set
-     * successfully
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -894,8 +885,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0490_747
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0490_747
-     * @tc.desc   : Set toolBar for navigation to CustomBuilder type, in single column mode, set successfully
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -913,8 +904,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0220_957
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0220_957
-     * @tc.desc   : Do not set hideNavBar for navigation, navigation bar displayed by default
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -932,8 +923,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_072
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_072
-     * @tc.desc   : Set NavigationTitleMode.Free for navigation, the title bar zooms in and out with vertical scrolling
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -957,8 +948,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0210_165
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0210_165
-     * @tc.desc   : Set hideBackButton of navigation to true, hiding the back button
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -976,9 +967,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916
-     * @tc.desc   : Set Navigation to automatically switch between single/double column modes, set backButtonIcon
-     * property with PixelMap type
+     * @tc.name   : Nav navigation back
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1071,8 +1061,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0010_249
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0010_249
-     * @tc.desc   : Do not set hideTitleBar for NavDestination, default is false (title bar visible)
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1090,8 +1080,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_448
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_448
-     * @tc.desc   : Set NavigationTitleMode.Full for navigation, title bar becomes large title
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1109,8 +1099,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781
-     * @tc.desc   : Set NavigationMode.Split for navigation, switch to split mode
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

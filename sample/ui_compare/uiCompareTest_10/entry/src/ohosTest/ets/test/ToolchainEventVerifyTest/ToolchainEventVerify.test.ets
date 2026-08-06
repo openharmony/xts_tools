@@ -41,13 +41,12 @@ export default function ToolchainEventVerify() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0010
-     * @tc.name   : SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0010
-     * @tc.desc   : Compilation error when two-way binding and @Event assignment have the same name.
-     * @tc.size   : MediumTest
+     * @tc.name   : Toolchain event verify
+     * @tc.desc   : Verify toolchain event verify interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0010 start.`);
       
@@ -84,13 +83,12 @@ export default function ToolchainEventVerify() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0020
-     * @tc.name   : SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0020
-     * @tc.desc   : @Event is used alone and compiles normally.
-     * @tc.size   : MediumTest
+     * @tc.name   : Toolchain event verify
+     * @tc.desc   : Verify toolchain event verify interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0020 start.`);
       
@@ -145,13 +143,12 @@ export default function ToolchainEventVerify() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0030
-     * @tc.name   : SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0030
-     * @tc.desc   : Two-way binding is used alone and compiles normally.
-     * @tc.size   : MediumTest
+     * @tc.name   : Toolchain event verify
+     * @tc.desc   : Verify toolchain event verify interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0030 start.`);
       
@@ -204,13 +201,12 @@ export default function ToolchainEventVerify() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0040
-     * @tc.name   : SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0040
-     * @tc.desc   : Use @Event and two-way binding together when naming does not affect each other.
-     * @tc.size   : MediumTest
+     * @tc.name   : Toolchain event verify
+     * @tc.desc   : Verify toolchain event verify interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0040 start.`);
       

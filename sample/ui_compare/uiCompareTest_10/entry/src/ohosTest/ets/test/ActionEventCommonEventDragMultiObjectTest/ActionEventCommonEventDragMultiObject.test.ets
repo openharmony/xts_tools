@@ -42,10 +42,10 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0140
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0140
-     * @tc.desc   : dragInfo does not set touchPoint
-     * @tc.size   : MediumTest
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0140', Level.LEVEL3, async (done: Function) => {
@@ -61,10 +61,10 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0090
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0090
-     * @tc.desc   : Set the touchPoint in dragInfo to (10, 10).
-     * @tc.size   : MediumTest
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0090', Level.LEVEL3, async (done: Function) => {
@@ -80,10 +80,10 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0100
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0100
-     * @tc.desc   : Set the touchPoint in dragInfo to (1000, 1000).
-     * @tc.size   : MediumTest
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0100', Level.LEVEL3, async (done: Function) => {
@@ -99,10 +99,10 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0130
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0130
-     * @tc.desc   : Set the touchPoint in dragInfo to (-1, -1).
-     * @tc.size   : MediumTest
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0130', Level.LEVEL3, async (done: Function) => {
@@ -118,10 +118,10 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0080
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0080
-     * @tc.desc   : Set the touchPoint in dragInfo to (0, 0).
-     * @tc.size   : MediumTest
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0080', Level.LEVEL3, async (done: Function) => {
@@ -137,10 +137,10 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0110
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0110
-     * @tc.desc   : Set the touchPoint in dragInfo to (-1, 10).
-     * @tc.size   : MediumTest
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0110', Level.LEVEL3, async (done: Function) => {
@@ -156,10 +156,10 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0120
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0120
-     * @tc.desc   : Set the touchPoint in dragInfo to (10，-1).
-     * @tc.size   : MediumTest
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0120', Level.LEVEL3, async (done: Function) => {
@@ -175,13 +175,12 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0150
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0150
-     * @tc.desc   : Dynamically switch the touchPoint in dragInfo.
-     * @tc.size   : MediumTest
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0150 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0150")

@@ -43,6 +43,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0011
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0012
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +81,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0013
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -97,6 +100,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0014
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,6 +119,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0015
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -133,6 +138,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0016
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -151,6 +157,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0017
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -169,6 +176,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0018
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -187,6 +195,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0019
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -205,6 +214,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0020
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,6 +233,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0021
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -241,6 +252,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0022
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -259,6 +271,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0023
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -277,6 +290,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0024
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -295,6 +309,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0025
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -313,6 +328,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0026
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -331,6 +347,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0027
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -349,6 +366,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0028
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -367,6 +385,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0029
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -385,6 +404,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0030
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -403,6 +423,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0031
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -421,7 +442,8 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0032
      * @tc.name   : Image with svg
-     * @极光tc.type   : Function
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -439,6 +461,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0033
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -457,6 +480,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0034
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -475,6 +499,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0035
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -493,6 +518,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0036
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -511,6 +537,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0037
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -529,6 +556,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0038
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -547,6 +575,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0039
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -565,6 +594,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0040
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -583,6 +613,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0041
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -601,6 +632,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0042
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -619,6 +651,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0043
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -637,6 +670,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0044
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -655,6 +689,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0045
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -672,6 +707,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0046
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -690,6 +726,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0047
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -708,6 +745,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0048
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -726,6 +764,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0049
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -744,6 +783,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0050
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -762,6 +802,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0051
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svglabel interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

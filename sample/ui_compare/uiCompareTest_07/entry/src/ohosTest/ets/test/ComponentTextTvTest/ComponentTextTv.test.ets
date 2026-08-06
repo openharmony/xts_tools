@@ -42,7 +42,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0070
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Set the delay of 008.marqueeOptions to a negative number
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -61,7 +62,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0040
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Set the delay of 004.marqueeOptions to 0.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -80,7 +82,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0130
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Set the fromStart of 014.marqueeOptions to true.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -99,7 +102,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0150
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Set the loop of 016.marqueeOptions to -1.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -118,7 +122,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0220
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Do not set the step of 025.marqueeOptions.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -137,7 +142,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0280
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : When a single marquee ends, the onMarqueeStateChange callback is triggered.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -156,7 +162,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0270
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Set the step of 031.marqueeOptions to a very large positive number.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -175,7 +182,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0290
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : When all marquees end, the onMarqueeStateChange callback is triggered.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -194,7 +202,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0360
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Set the marqueePolicy of 040.marqueeOptions to 0.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -213,7 +222,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0370
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Set the marqueePolicy of 041.marqueeOptions to 1.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -232,7 +242,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0590
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : The setting of containerSpan in the 021.text component, which includes span and imagespan, has an impact on the fade effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -251,7 +262,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0600
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Setting the imagespan subcomponent in the 022.text component affects the fade effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -270,7 +282,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0580
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Change the width of the 020.text component and observe the fade effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -289,7 +302,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0640
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Add decoration lines to the text and observe the fade effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -308,7 +322,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0610
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Set span, imagespan, and symbolspan in the 023.text component and observe the fade effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -327,7 +342,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0670
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : The effect of the fade effect previewer.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -346,7 +362,8 @@ export default function ComponentTextTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TV_0460
+     * @tc.name   : Text tv
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : The fadeout setting is not effective when 008.textoverflow is not set to Marquee.
      * @tc.size   : MediumTest
      * @tc.level  : 2

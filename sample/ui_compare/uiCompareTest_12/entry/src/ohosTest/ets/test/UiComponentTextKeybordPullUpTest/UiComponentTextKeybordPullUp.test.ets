@@ -30,11 +30,12 @@ export default function UiComponentTextKeybordPullUp() {
       done()
     })
 
-    /**
+    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_KEYBORD_Pull_UP_0020
      * @tc.name   : Pull up the input method in the popup control
+     * @tc.desc   : Verify text keybord pull up interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_KEYBORD_Pull_UP_0020', 0, async (done: Function) => {
@@ -69,11 +70,12 @@ export default function UiComponentTextKeybordPullUp() {
     })
 
 
-    /**
+    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_KEYBORD_Pull_UP_0010
      * @tc.name   : Focus switch to pull up the input box
+     * @tc.desc   : Verify text keybord pull up interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_KEYBORD_Pull_UP_0010', 0, async (done: Function) => {

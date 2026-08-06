@@ -43,6 +43,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0010
      * @tc.name   : Image with attrs - Case 01
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0011
      * @tc.name   : Image with attrs - Case 02
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +81,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0012
      * @tc.name   : Image with attrs - Case 03
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -97,6 +100,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0013
      * @tc.name   : Image with attrs - Case 04
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,6 +119,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0014
      * @tc.name   : Image with attrs - Case 05
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -133,6 +138,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0015
      * @tc.name   : Image with attrs - Case 06
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -151,6 +157,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0016
      * @tc.name   : Image with attrs - Case 07
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -169,6 +176,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0017
      * @tc.name   : Image with attrs - Case 08
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -187,6 +195,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0018
      * @tc.name   : Image with attrs - Case 09
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -205,6 +214,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0019
      * @tc.name   : Image with attrs - Case 10
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,6 +233,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0020
      * @tc.name   : Image with attrs - Case 11
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -241,6 +252,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0021
      * @tc.name   : Image with attrs - Case 12
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -259,6 +271,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0022
      * @tc.name   : Image with attrs - Case 13
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -277,6 +290,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0023
      * @tc.name   : Image with attrs - Case 14
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -295,6 +309,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0024
      * @tc.name   : Image with attrs - Case 15
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -313,6 +328,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0025
      * @tc.name   : Image with attrs - Case 16
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -331,6 +347,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0026
      * @tc.name   : Image with attrs - Case 17
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -349,6 +366,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0027
      * @tc.name   : Image with attrs - Case 18
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -367,6 +385,7 @@ export default function ImageOutliersTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0028
      * @tc.name   : Image with attrs - Case 19
+     * @tc.desc   : Verify media Image outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

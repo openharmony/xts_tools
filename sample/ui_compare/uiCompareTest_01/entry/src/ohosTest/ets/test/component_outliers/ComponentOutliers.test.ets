@@ -43,8 +43,7 @@ export default function componentOutliersTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTIMER_OUTLIERS_0056
      * @tc.name   : A column nests a column1 component. The column sets width 100 and height 200. The column1 first
-     * sets width 100 and height 200, then sets width to AdaptiveLayoutModePolicy.MATCH_PARENT and height to
-     * AdaptiveLayoutModePolicy.MATCH_PARENT.
+     * @tc.desc   : Verify media textimer outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,8 +85,7 @@ export default function componentOutliersTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0074
      * @tc.name   : A column nests a column1 component. The column sets width 100 and height 200. The column1 first
-     * sets width 100 and height 200, then sets width to AdaptiveLayoutModePolicy.MATCH_PARENT and height to
-     * AdaptiveLayoutModePolicy.MATCH_PARENT.
+     * @tc.desc   : Verify media TextClock outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -129,8 +127,7 @@ export default function componentOutliersTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0040
      * @tc.name   : A column nests a column1 component. The column sets width 100 and height 200. The column1 first
-     * sets width 100 and height 200, then sets width to AdaptiveLayoutModePolicy.MATCH_PARENT and height to
-     * AdaptiveLayoutModePolicy.MATCH_PARENT.
+     * @tc.desc   : Verify media PatternLock outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -182,7 +179,8 @@ export default function componentOutliersTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_OUTLIERS_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_OUTLIERS_0010
+     * @tc.name   : Media gauge outlier parameters
+     * @tc.desc   : Verify media gauge outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

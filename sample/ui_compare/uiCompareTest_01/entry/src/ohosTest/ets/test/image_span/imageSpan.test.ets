@@ -42,6 +42,7 @@ export default function ImageSpanTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGESPAN_ERROR_0060
      * @tc.name   : Correctly loading network images
+     * @tc.desc   : Verify media imagespan error interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

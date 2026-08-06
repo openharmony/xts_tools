@@ -43,8 +43,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_001
      * @tc.name   : disableDataPrefetch State False Trigger Test
-     * @tc.type   : function
-     * @tc.desc   : disableDataPrefetch状态false触发测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -80,8 +80,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_002
      * @tc.name   : disableDataPrefetch State True Trigger Test
-     * @tc.type   : function
-     * @tc.desc   : disableDataPrefetch状态true触发测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -120,8 +120,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_003
      * @tc.name   : Local Scenario DestUri Actual Value Test
-     * @tc.type   : function
-     * @tc.desc   : 本端场景destUri实际值测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -160,8 +160,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_004
      * @tc.name   : Cross Device Scenario DestUri Actual Value Test
-     * @tc.type   : function
-     * @tc.desc   : 跨端场景destUri实际值测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -200,8 +200,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_005
      * @tc.name   : Local Scenario DestUri Invalid Value Test
-     * @tc.type   : function
-     * @tc.desc   : 本端场景destUri非实际值测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -240,8 +240,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_006
      * @tc.name   : Cross Device Scenario DestUri Invalid Value Test
-     * @tc.type   : function
-     * @tc.desc   : 跨端场景destUri非实际值测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -280,8 +280,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_007
      * @tc.name   : Local Scenario FileConflictOptions OVERWRITE Test
-     * @tc.type   : function
-     * @tc.desc   : 本端场景fileConflictOptions状态OVERWRITE测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -320,8 +320,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_008
      * @tc.name   : Cross Device Scenario FileConflictOptions OVERWRITE Test
-     * @tc.type   : function
-     * @tc.desc   : 跨端场景fileConflictOptions状态OVERWRITE测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -360,8 +360,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_009
      * @tc.name   : Local Scenario FileConflictOptions SKIP Test
-     * @tc.type   : function
-     * @tc.desc   : 本端场景fileConflictOptions状态SKIP测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -400,8 +400,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_010
      * @tc.name   : Cross Device Scenario FileConflictOptions SKIP Test
-     * @tc.type   : function
-     * @tc.desc   : 跨端场景fileConflictOptions状态SKIP测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -440,8 +440,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_011
      * @tc.name   : Local Scenario ProgressIndicator DEFAULT Test
-     * @tc.type   : function
-     * @tc.desc   : 本端场景progressIndicator状态DEFAULT测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -483,8 +483,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_012
      * @tc.name   : Cross Device Scenario ProgressIndicator DEFAULT Test
-     * @tc.type   : function
-     * @tc.desc   : 跨端场景progressIndicator状态DEFAULT测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -526,8 +526,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_013
      * @tc.name   : Local Scenario ProgressIndicator NONE Test
-     * @tc.type   : function
-     * @tc.desc   : 本端场景progressIndicator状态NONE测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -566,8 +566,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_014
      * @tc.name   : Cross Device Scenario ProgressIndicator NONE Test
-     * @tc.type   : function
-     * @tc.desc   : 跨端场景progressIndicator状态NONE测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -606,8 +606,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_015
      * @tc.name   : Local Scenario Set DataProgressListener Test
-     * @tc.type   : function
-     * @tc.desc   : 本端场景正常设置DataProgressListener测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -649,8 +649,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_016
      * @tc.name   : Cross Device Scenario Set DataProgressListener Test
-     * @tc.type   : function
-     * @tc.desc   : 跨端场景正常设置DataProgressListener测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -692,8 +692,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_017
      * @tc.name   : Local Scenario Not Set DataProgressListener Test
-     * @tc.type   : function
-     * @tc.desc   : 本端场景不设置DataProgressListener测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -732,8 +732,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_018
      * @tc.name   : Cross Device Scenario Not Set DataProgressListener Test
-     * @tc.type   : function
-     * @tc.desc   : 跨端场景不设置DataProgressListener测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -772,8 +772,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_019
      * @tc.name   : Local Scenario Cancel Data Loading During Transfer Test
-     * @tc.type   : function
-     * @tc.desc   : 本端场景数据传输过程中触发cancelDataLoading接口测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -815,8 +815,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_020
      * @tc.name   : Cross Device Scenario Cancel Data Loading During Transfer Test
-     * @tc.type   : function
-     * @tc.desc   : 跨端场景数据传输过程中触发cancelDataLoading接口测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -858,8 +858,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_021
      * @tc.name   : Local Scenario Cancel Data Loading Without Transfer Test
-     * @tc.type   : function
-     * @tc.desc   : 本端场景非数据传输过程中触发cancelDataLoading接口测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -895,8 +895,8 @@ export default function DataProgressInterface() {
     /*
      * @tc.number : SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_022
      * @tc.name   : Cross Device Scenario Cancel Data Loading Without Transfer Test
-     * @tc.type   : function
-     * @tc.desc   : 跨端场景非数据传输过程中触发cancelDataLoading接口测试
+     * @tc.desc   : Verify drag drop event support obtain data Progress interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

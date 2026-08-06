@@ -42,7 +42,7 @@ export default function GridSettingLayoutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0050
      * @tc.name   : Grid设置自定义布局信息，组件选中态样式测试
-     * @tc.desc   : Grid设置自定义布局信息，组件选中态样式测试
+     * @tc.desc   : Verify listandgrid grid settinglayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -71,7 +71,7 @@ export default function GridSettingLayoutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0060
      * @tc.name   : Grid设置自定义布局信息，组件按压态样式测试
-     * @tc.desc   : Grid设置自定义布局信息，组件按压态样式测试
+     * @tc.desc   : Verify listandgrid grid settinglayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -100,7 +100,7 @@ export default function GridSettingLayoutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0070
      * @tc.name   : Grid设置自定义布局信息，组件走焦态样式测试
-     * @tc.desc   : Grid设置自定义布局信息，组件走焦态样式测试
+     * @tc.desc   : Verify listandgrid grid settinglayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -129,7 +129,7 @@ export default function GridSettingLayoutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0080
      * @tc.name   : Grid设置自定义布局信息，组件点击态样式测试
-     * @tc.desc   : Grid设置自定义布局信息，组件点击态样式测试
+     * @tc.desc   : Verify listandgrid grid settinglayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

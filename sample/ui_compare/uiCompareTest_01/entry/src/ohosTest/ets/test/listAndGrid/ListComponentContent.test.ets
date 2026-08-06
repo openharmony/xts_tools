@@ -41,6 +41,7 @@ export default function ListComponentContentTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0010
      * @tc.name   : ComponentContent类型的header、footer深浅色切换
+     * @tc.desc   : Verify listandgrid list component interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -65,6 +66,7 @@ export default function ListComponentContentTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0030
      * @tc.name   : footerComponent或者headerComponent_创建和删除
+     * @tc.desc   : Verify listandgrid list component interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,6 +91,7 @@ export default function ListComponentContentTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0040
      * @tc.name   : footerComponent或者headerComponent_sticky属性遍枚举值
+     * @tc.desc   : Verify listandgrid list component interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -124,6 +127,7 @@ export default function ListComponentContentTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0060
      * @tc.name   : footerComponent或者headerComponent_结合ListItemGroupStyle
+     * @tc.desc   : Verify listandgrid list component interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -145,6 +149,7 @@ export default function ListComponentContentTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0090
      * @tc.name   : footerComponent或者headerComponent_事件回调
+     * @tc.desc   : Verify listandgrid list component interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,6 +188,7 @@ export default function ListComponentContentTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0100
      * @tc.name   : 新增或者删除footerComponent或者headerComponent,所有scroller跳转正常
+     * @tc.desc   : Verify listandgrid list component interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -216,6 +222,7 @@ export default function ListComponentContentTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0110
      * @tc.name   : footerComponent或者headerComponent_基于lazyforeach或者repeat滑动测试
+     * @tc.desc   : Verify listandgrid list component interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -247,6 +254,7 @@ export default function ListComponentContentTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0120
      * @tc.name   : footerComponent或者headerComponent_结合chidrenmainsize属性
+     * @tc.desc   : Verify listandgrid list component interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -279,6 +287,7 @@ export default function ListComponentContentTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0070
      * @tc.name   : ListItemGroup中设置Footer吸底
+     * @tc.desc   : Verify listandgrid list interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -303,6 +312,7 @@ export default function ListComponentContentTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0090
      * @tc.name   : ListItemGroup中设置Header吸顶
+     * @tc.desc   : Verify listandgrid list interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -327,6 +337,7 @@ export default function ListComponentContentTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0230
      * @tc.name   : List的space参数设置为10lpx
+     * @tc.desc   : Verify listandgrid list interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -349,6 +360,7 @@ export default function ListComponentContentTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1230
      * @tc.name   : 滚动条状态设置为Auto
+     * @tc.desc   : Verify listandgrid list interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -377,6 +389,7 @@ export default function ListComponentContentTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1460
      * @tc.name   : 设置组件滑动效果为阴影效果
+     * @tc.desc   : Verify listandgrid list interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -409,6 +422,7 @@ export default function ListComponentContentTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1510
      * @tc.name   : List组件friction属性测试
+     * @tc.desc   : Verify listandgrid list interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

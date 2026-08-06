@@ -29,6 +29,14 @@ export default function UiComponentTextRicheditorAiColor() {
       }
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AI_COLOR_0004
+     * @tc.name   : Text richeditor ai color
+     * @tc.desc   : Verify text richeditor ai color interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AI_COLOR_0004', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorAiColor/RicheditorAiColor0004');
       await driver.delayMs(1000);
@@ -57,6 +65,14 @@ export default function UiComponentTextRicheditorAiColor() {
       await driver.delayMs(500);
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AI_COLOR_0007
+     * @tc.name   : Text richeditor ai color
+     * @tc.desc   : Verify text richeditor ai color interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AI_COLOR_0007', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorAiColor/RicheditorAiColor0007');
       await driver.delayMs(1000);
@@ -85,6 +101,14 @@ export default function UiComponentTextRicheditorAiColor() {
       await driver.delayMs(500);
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AI_COLOR_0015
+     * @tc.name   : Text richeditor ai color
+     * @tc.desc   : Verify text richeditor ai color interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AI_COLOR_0015', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorAiColor/RicheditorAiColor0015');
       await driver.delayMs(1000);

@@ -38,10 +38,12 @@ export default function UIArkUIGridCachedCountTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0010
-     * @tc.name    SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0010
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0010
+     * @tc.name   : ArkUI grid cachedcount
+     * @tc.desc   : Verify ArkUI grid cachedcount interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0010 start.`);
@@ -57,10 +59,12 @@ export default function UIArkUIGridCachedCountTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0020
-     * @tc.name    SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0020
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0020
+     * @tc.name   : ArkUI grid cachedcount
+     * @tc.desc   : Verify ArkUI grid cachedcount interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0020 start.`);
@@ -76,10 +80,12 @@ export default function UIArkUIGridCachedCountTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0090
-     * @tc.name    SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0090
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0090
+     * @tc.name   : ArkUI grid cachedcount
+     * @tc.desc   : Verify ArkUI grid cachedcount interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0090 start.`);

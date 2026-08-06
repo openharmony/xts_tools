@@ -39,10 +39,12 @@ export default function UIComponentListScrollBarColorTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0010
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0010
+     * @tc.name   : Listandgrid list scrollbarcolor
+     * @tc.desc   : Verify listandgrid list scrollbarcolor interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0010', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0010';
@@ -57,10 +59,12 @@ export default function UIComponentListScrollBarColorTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0020
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0020
+     * @tc.name   : Listandgrid list scrollbarcolor
+     * @tc.desc   : Verify listandgrid list scrollbarcolor interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0020', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0020';
@@ -75,10 +79,12 @@ export default function UIComponentListScrollBarColorTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0030
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0030
+     * @tc.name   : Listandgrid list scrollbarcolor
+     * @tc.desc   : Verify listandgrid list scrollbarcolor interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0030', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0030';
@@ -93,10 +99,12 @@ export default function UIComponentListScrollBarColorTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0040
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0040
+     * @tc.name   : Listandgrid list scrollbarcolor
+     * @tc.desc   : Verify listandgrid list scrollbarcolor interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0040', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0040';
@@ -111,10 +119,12 @@ export default function UIComponentListScrollBarColorTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050
+     * @tc.name   : Listandgrid list scrollbarcolor
+     * @tc.desc   : Verify listandgrid list scrollbarcolor interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050';

@@ -27,10 +27,13 @@ export default function UiComponentMediaTimepicker() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0032
-     * @tc.name TimepickerStartendtime0032
-     * @tc.desc TimePicker/TimePickerDialog 兼容性测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0032
+     * @tc.name   : TimepickerStartendtime0032
+     * @tc.desc   : Verify media TimePicker startendtime interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0032', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0032 begin');
@@ -53,10 +56,13 @@ export default function UiComponentMediaTimepicker() {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0032 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0020
-     * @tc.name TimepickerVoice0020
-     * @tc.desc 外接鼠标滑动场景TimePickerDialog设置enableHapticFeedback属性为true
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0020
+     * @tc.name   : TimepickerVoice0020
+     * @tc.desc   : Verify media TimePicker voice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0020', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0020 begin');

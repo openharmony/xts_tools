@@ -27,10 +27,13 @@ export default function UiComponentRicheditorNotes() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_NOTES_0007_772_579
-     * @tc.name 备忘录url链接复制粘贴
-     * @tc.desc 新建备忘录，验证url链接可以正常复制粘贴
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_NOTES_0007_772_579
+     * @tc.name   : 备忘录url链接复制粘贴
+     * @tc.desc   : Verify text richeditor notes interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_NOTES_0007_772_579', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_NOTES_0007_772_579 begin');
@@ -52,10 +55,13 @@ export default function UiComponentRicheditorNotes() {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_NOTES_0007_772_579 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_NOTES_0007_772_581
-     * @tc.name 备忘录小窗模式清单/列表圆圈
-     * @tc.desc 新建备忘录，验证小窗模式下清单圆圈以及列表圆圈正常
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_NOTES_0007_772_581
+     * @tc.name   : 备忘录小窗模式清单/列表圆圈
+     * @tc.desc   : Verify text richeditor notes interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_NOTES_0007_772_581', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_NOTES_0007_772_581 begin');

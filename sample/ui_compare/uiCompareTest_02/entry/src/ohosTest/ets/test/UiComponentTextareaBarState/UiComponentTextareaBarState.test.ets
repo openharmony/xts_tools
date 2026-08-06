@@ -55,13 +55,13 @@ export default function UiComponentTextareaBarState() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0020
-       * @tc.name    TextArea component, multiple lines of text, long mouse press on the blank space of the scrollbar
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0020
+     * @tc.name   : TextArea component, multiple lines of text, long mouse press on the blank space of the scrollbar
+     * @tc.desc   : Verify textarea barstate interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentTextareaBarState/UiComponentTextareaBarState01")
@@ -83,13 +83,13 @@ export default function UiComponentTextareaBarState() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0030
-       * @tc.name    TextArea component, multi-line text, set not to display scrollbar, mouse click scrollbar area
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0030
+     * @tc.name   : TextArea component, multi-line text, set not to display scrollbar, mouse click scrollbar area
+     * @tc.desc   : Verify textarea barstate interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentTextareaBarState/UiComponentTextareaBarState02")
@@ -111,13 +111,13 @@ export default function UiComponentTextareaBarState() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0010
-       * @tc.name    TextArea component, multiple lines of text, mouse click scrollbar blank space
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0010
+     * @tc.name   : TextArea component, multiple lines of text, mouse click scrollbar blank space
+     * @tc.desc   : Verify textarea barstate interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentTextareaBarState/UiComponentTextareaBarState03")
@@ -144,13 +144,13 @@ export default function UiComponentTextareaBarState() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0040
-       * @tc.name    TextArea component, multi-line text, the input box position is lower, which can trigger input method avoidance
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0040
+     * @tc.name   : TextArea component, multi-line text, the input box position is lower, which can trigger input method avoidance
+     * @tc.desc   : Verify textarea barstate interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentTextareaBarState/UiComponentTextareaBarState04")

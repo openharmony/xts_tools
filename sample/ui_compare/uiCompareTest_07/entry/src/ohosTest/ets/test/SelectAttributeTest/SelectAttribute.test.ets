@@ -43,8 +43,8 @@ export default function SelectAttribute() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_ATTRIBUTE_0600
      * @tc.name   : 深色模式下，select视觉显示符合UX规范
-     * @tc.type   : function
-     * @tc.desc   : In dark mode, the visual display of the select component complies with the UX specification.
+     * @tc.desc   : Verify button select attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -75,8 +75,8 @@ export default function SelectAttribute() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_ATTRIBUTE_0700
      * @tc.name   : 浅色模式下，select视觉显示符合UX规范
-     * @tc.type   : function
-     * @tc.desc   : In light mode, the visual display of the select component complies with the UX specification.
+     * @tc.desc   : Verify button select attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

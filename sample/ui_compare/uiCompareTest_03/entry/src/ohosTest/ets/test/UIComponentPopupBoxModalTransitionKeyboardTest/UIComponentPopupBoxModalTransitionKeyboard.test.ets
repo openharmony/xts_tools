@@ -79,10 +79,12 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0010
-     * @tc.desc    Configure mobile semi-modal with keyboardAvoidMode TRANSLATE_AND_RESIZE preferType SheetType Bottom detents SheetSize MEDIUM LARGE 200 and showClose true
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0010
+     * @tc.name   : Popupbox modaltransition keyboard
+     * @tc.desc   : Verify popupbox modaltransition keyboard interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0010';
@@ -283,10 +285,12 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0040
-     * @tc.desc    Set mobile semi-modal with keyboardAvoidMode TRANSLATE_AND_SCROLL preferType SheetType CENTER detents SheetSize MEDIUM LARGE 200 and showClose true
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0040
+     * @tc.name   : Popupbox modaltransition keyboard
+     * @tc.desc   : Verify popupbox modaltransition keyboard interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0040';

@@ -41,13 +41,12 @@ export default function SpecialComponentsEmbeddedComponentWidthAndHeight() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0020
-     * @tc.desc   : Update the width for the EmbeddedComponent component.
-     * @tc.size   : MediumTest
+     * @tc.name   : Special components embeddedcomponent widthandheight
+     * @tc.desc   : Verify special components embeddedcomponent widthandheight interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 1
      */
-
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0020', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0020 start.`);
       Settings.createWindow("testability/pages/SpecialComponentsEmbeddedComponentWidthAndHeight/SpecialComponentsEmbeddedComponentWidthAndHeight0020")
@@ -77,13 +76,12 @@ export default function SpecialComponentsEmbeddedComponentWidthAndHeight() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0030
-     * @tc.desc   : Update the height for the EmbeddedComponent component.
-     * @tc.size   : MediumTest
+     * @tc.name   : Special components embeddedcomponent widthandheight
+     * @tc.desc   : Verify special components embeddedcomponent widthandheight interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 1
      */
-
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0030 start.`);
       Settings.createWindow("testability/pages/SpecialComponentsEmbeddedComponentWidthAndHeight/SpecialComponentsEmbeddedComponentWidthAndHeight0030")

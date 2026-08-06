@@ -43,8 +43,8 @@ export default function LoadingprogressAnimation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADINGPROGRESS_ANIMATION_0050
      * @tc.name   : Set the enableLoading attribute of LoadingProgress to false.
-     * @tc.type   : function
-     * @tc.desc   : LoadingProgress设置enableLoading属性为false
+     * @tc.desc   : Verify information LoadingProgress animation interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

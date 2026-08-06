@@ -55,13 +55,13 @@ export default function UTransformationTest() {
       done()
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0280
-     * @tc.name: SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0280
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0280
+     * @tc.name   : Attributes graphictransformation interface
+     * @tc.desc   : Verify attributes graphictransformation interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0280',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -74,13 +74,13 @@ export default function UTransformationTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0330
-     * @tc.name: SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0330
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0330
+     * @tc.name   : Attributes graphictransformation interface
+     * @tc.desc   : Verify attributes graphictransformation interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0330',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -93,13 +93,13 @@ export default function UTransformationTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0110
-     * @tc.name: SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0110
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0110
+     * @tc.name   : Attributes graphictransformation interface
+     * @tc.desc   : Verify attributes graphictransformation interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0110',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -112,13 +112,13 @@ export default function UTransformationTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0170
-     * @tc.name: SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0170
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0170
+     * @tc.name   : Attributes graphictransformation interface
+     * @tc.desc   : Verify attributes graphictransformation interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0170',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {

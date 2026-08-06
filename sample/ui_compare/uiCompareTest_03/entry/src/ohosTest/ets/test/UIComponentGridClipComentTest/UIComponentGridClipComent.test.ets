@@ -59,10 +59,12 @@ export default function UIComponentGridClipComent() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0010
-     * @tc.desc    Set vertical Grid layout to CONTENT_ONLY mode
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0010
+     * @tc.name   : Grid clipcoment
+     * @tc.desc   : Verify grid clipcoment interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0010';
@@ -79,10 +81,12 @@ export default function UIComponentGridClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0240
-     * @tc.desc    Test Grid clipping area with event callbacks
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0240
+     * @tc.name   : Grid clipcoment
+     * @tc.desc   : Verify grid clipcoment interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0240';

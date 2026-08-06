@@ -42,6 +42,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0140
      * @tc.name   : Text#TextTest#TextTest_141
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -60,7 +61,8 @@ export default function FocusTextUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0400
+     * @tc.name   : Text ui
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -80,12 +82,13 @@ export default function FocusTextUITest() {
     })
 
     /*
-      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1220
-      * @tc.name   : Text#TextTest#TextTest_122
-      * @tc.type   : Function
-      * @tc.size   : MediumTest
-      * @tc.level  : 1
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1220
+     * @tc.name   : Text#TextTest#TextTest_122
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1220', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1220  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI1220")
@@ -103,6 +106,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1310
      * @tc.name   : Text#TextTest#TextTest_131
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -128,6 +132,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1440
      * @tc.name   : Text#TextTest#TextTest_144
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -152,12 +157,13 @@ export default function FocusTextUITest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0160
-    * @tc.name   : Text#TextTest#TextTest_016
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0160
+     * @tc.name   : Text#TextTest#TextTest_016
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0160', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0160  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0160")
@@ -172,6 +178,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0260
      * @tc.name   : Text#TextTest#TextTest_026
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -193,6 +200,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0310
      * @tc.name   : Text#TextTest#TextTest_031
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -214,6 +222,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0330
      * @tc.name   : Text#TextTest#TextTest_033
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -233,12 +242,13 @@ export default function FocusTextUITest() {
     })
 
     /*
-         * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0340
-         * @tc.name   : Text#TextTest#TextTest_034
-         * @tc.type   : Function
-         * @tc.size   : MediumTest
-         * @tc.level  : 1
-         */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0340
+     * @tc.name   : Text#TextTest#TextTest_034
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0340', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0340  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0340")
@@ -257,6 +267,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0410
      * @tc.name   : Text#TextTest#TextTest_041
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -282,6 +293,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0460
      * @tc.name   : Text#TextTest#TextTest_046
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -303,6 +315,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0540
      * @tc.name   : Text#TextTest#TextTest_054
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -324,6 +337,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0550
      * @tc.name   : Text#TextTest#TextTest_055
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -345,6 +359,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0770
      * @tc.name   : Text#TextTest#TextTest_077
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -364,12 +379,13 @@ export default function FocusTextUITest() {
     })
 
     /*
-         * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0780
-         * @tc.name   : Text#TextTest#TextTest_078
-         * @tc.type   : Function
-         * @tc.size   : MediumTest
-         * @tc.level  : 1
-         */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0780
+     * @tc.name   : Text#TextTest#TextTest_078
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0780', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0780  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0780")
@@ -385,12 +401,13 @@ export default function FocusTextUITest() {
     })
 
     /*
-         * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0860
-         * @tc.name   : Text#TextTest#TextTest_086
-         * @tc.type   : Function
-         * @tc.size   : MediumTest
-         * @tc.level  : 1
-         */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0860
+     * @tc.name   : Text#TextTest#TextTest_086
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0860', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0860  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0860")
@@ -406,12 +423,13 @@ export default function FocusTextUITest() {
     })
 
     /*
-         * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0950
-         * @tc.name   : Text#TextTest#TextTest_095
-         * @tc.type   : Function
-         * @tc.size   : MediumTest
-         * @tc.level  : 1
-         */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0950
+     * @tc.name   : Text#TextTest#TextTest_095
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0950', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0950  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0950")
@@ -427,12 +445,13 @@ export default function FocusTextUITest() {
     })
 
     /*
-         * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0980
-         * @tc.name   : Text#TextTest#TextTest_098
-         * @tc.type   : Function
-         * @tc.size   : MediumTest
-         * @tc.level  : 1
-         */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0980
+     * @tc.name   : Text#TextTest#TextTest_098
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0980', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0980  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0980")
@@ -450,6 +469,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1110
      * @tc.name   : Text#TextTest#TextTest_111
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -471,6 +491,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1120
      * @tc.name   : Text#TextTest#TextTest_112
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -492,6 +513,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1210
      * @tc.name   : Text#TextTest#TextTest_121
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -512,13 +534,13 @@ export default function FocusTextUITest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0190
-    * @tc.name   : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0190
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : Both the Text component and its child component Span have not set any attributes.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0190
+     * @tc.name   : Framenode text
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0190', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0190  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/TextFrameNode0190")
@@ -532,13 +554,13 @@ export default function FocusTextUITest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0010
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0010
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : Both the Text component and its child component Span have not set any attributes.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0010
+     * @tc.name   : Text inherit
+     * @tc.desc   : Verify text inherit interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0010  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextInherit0010")
@@ -551,13 +573,13 @@ export default function FocusTextUITest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0150
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0150
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : Text#TextTest#TextTest_015.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0150
+     * @tc.name   : Text ui
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0150', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0150  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0150")
@@ -570,6 +592,14 @@ export default function FocusTextUITest() {
     })
 
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1230
+     * @tc.name   : Text ui
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1230', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1230  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI1230")
@@ -587,12 +617,13 @@ export default function FocusTextUITest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1380
-    * @tc.name   : Text#TextTest#TextTest_138
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1380
+     * @tc.name   : Text#TextTest#TextTest_138
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1380', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1380  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI1380")
@@ -606,6 +637,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1410
      * @tc.name   : Text#TextTest#TextTest_141
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -630,6 +662,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1430
      * @tc.name   : Text#TextTest#TextTest_143
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -653,6 +686,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1460
      * @tc.name   : Text#TextTest#TextTest_146
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -674,6 +708,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1640
      * @tc.name   : Text#TextTest#TextTest_164
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -695,6 +730,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1660
      * @tc.name   : Text#TextTest#TextTest_166
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -716,6 +752,7 @@ export default function FocusTextUITest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1750
      * @tc.name   : Text#TextTest#TextTest_175
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -735,12 +772,13 @@ export default function FocusTextUITest() {
     })
 
     /*
-         * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1780
-         * @tc.name   : Text#TextTest#TextTest_178
-         * @tc.type   : Function
-         * @tc.size   : MediumTest
-         * @tc.level  : 1
-         */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1780
+     * @tc.name   : Text#TextTest#TextTest_178
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1780', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1780  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI1780")
@@ -756,12 +794,13 @@ export default function FocusTextUITest() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1940
-        * @tc.name   : Text#TextTest#TextTest_194
-        * @tc.type   : Function
-        * @tc.size   : MediumTest
-        * @tc.level  : 1
-        */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1940
+     * @tc.name   : Text#TextTest#TextTest_194
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1940', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1940  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI1940")
@@ -779,12 +818,13 @@ export default function FocusTextUITest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_2020
-    * @tc.name   : Text#TextTest#TextTest_202
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_2020
+     * @tc.name   : Text#TextTest#TextTest_202
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_2020', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_2020  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI2020")

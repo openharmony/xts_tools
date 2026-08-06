@@ -55,13 +55,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0750
-       * @tc.name    Function Test: Obtaining without setting the Swiper component's swipe switching function
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0750
+     * @tc.name   : Function Test: Obtaining without setting the Swiper component's swipe switching function
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0750', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0750 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet01")
@@ -79,13 +79,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0440
-       * @tc.name    Function Test: Setting Swiper curve FastOutSlowIn
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0440
+     * @tc.name   : Function Test: Setting Swiper curve FastOutSlowIn
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0440 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet02")
@@ -100,13 +100,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0370
-       * @tc.name    Function Test: Setting Swiper duration 400.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0370
+     * @tc.name   : Function Test: Setting Swiper duration 400.5
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0370 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet03")
@@ -121,13 +121,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0510
-       * @tc.name    Function Test: Setting Swiper curve Friction
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0510
+     * @tc.name   : Function Test: Setting Swiper curve Friction
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0510 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet04")
@@ -142,13 +142,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0320
-       * @tc.name    Function Test: Setting Swiper vertical false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0320
+     * @tc.name   : Function Test: Setting Swiper vertical false
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0320 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet05")
@@ -166,13 +166,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0050
-       * @tc.name    Function Test: Setting Swiper loop true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0050
+     * @tc.name   : Function Test: Setting Swiper loop true
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0050 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet06")
@@ -187,13 +187,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0520
-       * @tc.name    Function Test: Not setting Swiper curve
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0520
+     * @tc.name   : Function Test: Not setting Swiper curve
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0520 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet07")
@@ -208,13 +208,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0190
-       * @tc.name    Function Test: Setting Swiper indicator true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0190
+     * @tc.name   : Function Test: Setting Swiper indicator true
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0190 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet08")
@@ -227,13 +227,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0240
-       * @tc.name    Function Test: Setting Swiper interval -4000
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0240
+     * @tc.name   : Function Test: Setting Swiper interval -4000
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0240 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet09")
@@ -248,13 +248,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0820
-       * @tc.name    Function Test: Setting Swiper displayArrow true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0820
+     * @tc.name   : Function Test: Setting Swiper displayArrow true
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0820 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet10")
@@ -267,13 +267,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0470
-       * @tc.name    Function Test: Setting Swiper curve ExtremeDeceleration
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0470
+     * @tc.name   : Function Test: Setting Swiper curve ExtremeDeceleration
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0470 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet11")
@@ -288,13 +288,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0500
-       * @tc.name    Function Test: Setting Swiper curve Smooth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0500
+     * @tc.name   : Function Test: Setting Swiper curve Smooth
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0500 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet12")
@@ -309,13 +309,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0490
-       * @tc.name    Function Test: Setting Swiper curve Rhythm
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0490
+     * @tc.name   : Function Test: Setting Swiper curve Rhythm
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0490 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet14")
@@ -330,13 +330,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0260
-       * @tc.name    Function Test: Not setting Swiper interval
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0260
+     * @tc.name   : Function Test: Not setting Swiper interval
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0260 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet15")
@@ -351,13 +351,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0060
-       * @tc.name    Function Test: Setting Swiper loop false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0060
+     * @tc.name   : Function Test: Setting Swiper loop false
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0060 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet16")
@@ -372,13 +372,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0120
-       * @tc.name    Function Test: Setting Swiper autoPlay true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0120
+     * @tc.name   : Function Test: Setting Swiper autoPlay true
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0120 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet18")
@@ -393,13 +393,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0530
-       * @tc.name    Function Test: Setting Swiper itemSpace 50
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0530
+     * @tc.name   : Function Test: Setting Swiper itemSpace 50
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0530 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet19")
@@ -412,13 +412,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0780
-       * @tc.name    Function Test: Setting Swiper displayArrow hover
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0780
+     * @tc.name   : Function Test: Setting Swiper displayArrow hover
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0780 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet20")
@@ -436,13 +436,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0250
-       * @tc.name    Function Test: Setting Swiper interval 3000.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0250
+     * @tc.name   : Function Test: Setting Swiper interval 3000.5
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0250 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet21")
@@ -457,13 +457,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0140
-       * @tc.name    Function Test: Not setting Swiper autoPlay
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0140
+     * @tc.name   : Function Test: Not setting Swiper autoPlay
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0140 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet22")
@@ -478,13 +478,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0540
-       * @tc.name    Function Test: Setting Swiper itemSpace -50
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0540
+     * @tc.name   : Function Test: Setting Swiper itemSpace -50
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0540 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet23")
@@ -497,13 +497,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0550
-       * @tc.name    Function Test: Setting Swiper itemSpace 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0550
+     * @tc.name   : Function Test: Setting Swiper itemSpace 0
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0550 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet24")
@@ -516,13 +516,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0580
-       * @tc.name    Function Test: Setting Swiper index 2
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0580
+     * @tc.name   : Function Test: Setting Swiper index 2
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0580 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet25")
@@ -535,13 +535,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0570
-       * @tc.name    Function Test: Not setting Swiper itemSpace
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0570
+     * @tc.name   : Function Test: Not setting Swiper itemSpace
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0570 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet26")
@@ -554,13 +554,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0600
-       * @tc.name    Function Test: Setting Swiper index -2
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0600
+     * @tc.name   : Function Test: Setting Swiper index -2
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0600 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet27")
@@ -573,13 +573,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0560
-       * @tc.name    Function Test: Setting Swiper itemSpace 0.1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0560
+     * @tc.name   : Function Test: Setting Swiper itemSpace 0.1
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0560 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet28")
@@ -592,13 +592,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0610
-       * @tc.name    Function Test: Setting Swiper index 100
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0610
+     * @tc.name   : Function Test: Setting Swiper index 100
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0610 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet29")
@@ -611,13 +611,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0070
-       * @tc.name    Function Test: Not setting Swiper loop
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0070
+     * @tc.name   : Function Test: Not setting Swiper loop
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0070 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet30")
@@ -632,13 +632,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0620
-       * @tc.name    Function Test: Not setting Swiper index
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0620
+     * @tc.name   : Function Test: Not setting Swiper index
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0620 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet31")
@@ -651,13 +651,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0640
-       * @tc.name    Function Test: Setting Swiper displayCount 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0640
+     * @tc.name   : Function Test: Setting Swiper displayCount 1
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0640 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet32")
@@ -670,13 +670,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0410
-       * @tc.name    Function Test: Setting Swiper curve EaseIn
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0410
+     * @tc.name   : Function Test: Setting Swiper curve EaseIn
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0410 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet33")
@@ -691,13 +691,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0630
-       * @tc.name    Function Test: Setting Swiper displayCount 2
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0630
+     * @tc.name   : Function Test: Setting Swiper displayCount 2
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0630 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet34")
@@ -710,13 +710,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0400
-       * @tc.name    Function Test: Setting Swiper curve Ease
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0400
+     * @tc.name   : Function Test: Setting Swiper curve Ease
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0400 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet35")
@@ -731,13 +731,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0200
-       * @tc.name    Function Test: Setting Swiper showIndicator false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0200
+     * @tc.name   : Function Test: Setting Swiper showIndicator false
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0200 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet36")
@@ -750,13 +750,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0310
-       * @tc.name    Function Test: Setting Swiper vertical true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0310
+     * @tc.name   : Function Test: Setting Swiper vertical true
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0310 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet37")
@@ -774,13 +774,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0650
-       * @tc.name    Function Test: Setting Swiper displayCount 2.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0650
+     * @tc.name   : Function Test: Setting Swiper displayCount 2.5
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0650 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet38")
@@ -793,13 +793,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0450
-       * @tc.name    Function Test: Setting Swiper curve LinearOutSlowIn
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0450
+     * @tc.name   : Function Test: Setting Swiper curve LinearOutSlowIn
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0450 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet39")
@@ -814,13 +814,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0460
-       * @tc.name    Function Test: Setting Swiper curve FastOutLinearIn
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0460
+     * @tc.name   : Function Test: Setting Swiper curve FastOutLinearIn
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0460 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet40")
@@ -835,13 +835,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0660
-       * @tc.name    Function Test: Setting Swiper displayCount -2
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0660
+     * @tc.name   : Function Test: Setting Swiper displayCount -2
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0660 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet41")
@@ -854,13 +854,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0420
-       * @tc.name    Function Test: Setting Swiper curve EaseOut
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0420
+     * @tc.name   : Function Test: Setting Swiper curve EaseOut
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0420 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet42")
@@ -875,13 +875,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0480
-       * @tc.name    Function Test: Setting Swiper curve Sharp
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0480
+     * @tc.name   : Function Test: Setting Swiper curve Sharp
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0480 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet43")
@@ -896,13 +896,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0680
-       * @tc.name    Function Test: Not setting Swiper displayCount
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0680
+     * @tc.name   : Function Test: Not setting Swiper displayCount
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0680 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet44")
@@ -915,13 +915,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0390
-       * @tc.name    Function Test: Setting Swiper curve Linear
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0390
+     * @tc.name   : Function Test: Setting Swiper curve Linear
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0390 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet45")
@@ -936,13 +936,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0430
-       * @tc.name    Function Test: Setting Swiper curve EaseInOut
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0430
+     * @tc.name   : Function Test: Setting Swiper curve EaseInOut
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0430 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet46")
@@ -957,13 +957,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0340
-       * @tc.name    Function Test: Setting Swiper duration 1000
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0340
+     * @tc.name   : Function Test: Setting Swiper duration 1000
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0340 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet47")
@@ -978,13 +978,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0730
-       * @tc.name    Function Test: Setting Swiper disableSwipe true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0730
+     * @tc.name   : Function Test: Setting Swiper disableSwipe true
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0730 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet48")
@@ -1002,13 +1002,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0130
-       * @tc.name    Function Test: Setting Swiper autoPlay false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0130
+     * @tc.name   : Function Test: Setting Swiper autoPlay false
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0130 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet49")
@@ -1023,13 +1023,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0330
-       * @tc.name    Function Test: Not setting Swiper vertical
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0330
+     * @tc.name   : Function Test: Not setting Swiper vertical
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0330 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet50")
@@ -1047,13 +1047,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0210
-       * @tc.name    Function Test: Not setting Swiper showIndicator
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0210
+     * @tc.name   : Function Test: Not setting Swiper showIndicator
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0210 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet51")
@@ -1066,13 +1066,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0380
-       * @tc.name    Function Test: Not setting Swiper duration
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0380
+     * @tc.name   : Function Test: Not setting Swiper duration
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0380 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet52")
@@ -1087,13 +1087,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0740
-       * @tc.name    Function Test: Setting Swiper disableSwipe false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0740
+     * @tc.name   : Function Test: Setting Swiper disableSwipe false
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0740 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet53")
@@ -1111,13 +1111,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0350
-       * @tc.name    Function Test: Setting Swiper duration -1000
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0350
+     * @tc.name   : Function Test: Setting Swiper duration -1000
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0350 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet54")
@@ -1132,13 +1132,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0670
-       * @tc.name    Function Test: Setting Swiper displayCount 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0670
+     * @tc.name   : Function Test: Setting Swiper displayCount 0
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0670 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet55")
@@ -1153,13 +1153,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0360
-       * @tc.name    Function Test: Setting Swiper duration 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0360
+     * @tc.name   : Function Test: Setting Swiper duration 0
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0360 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet56")
@@ -1174,13 +1174,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0220
-       * @tc.name    Function Test: Setting Swiper interval 4000
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0220
+     * @tc.name   : Function Test: Setting Swiper interval 4000
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0220 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet57")
@@ -1195,13 +1195,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0840
-       * @tc.name    Function Test: Not setting Swiper showDisplayArrow
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0840
+     * @tc.name   : Function Test: Not setting Swiper showDisplayArrow
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0840 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet58")
@@ -1214,13 +1214,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0230
-       * @tc.name    Function Test: Setting Swiper interval 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0230
+     * @tc.name   : Function Test: Setting Swiper interval 0
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0230 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet59")
@@ -1235,13 +1235,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0830
-       * @tc.name    Function Test: Setting Swiper showDisplayArrow false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0830
+     * @tc.name   : Function Test: Setting Swiper showDisplayArrow false
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0830 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet60")
@@ -1254,13 +1254,13 @@ export default function UIComponentScrollSwiperGet() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0590
-       * @tc.name    Function Test: Setting Swiper index 2.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0590
+     * @tc.name   : Function Test: Setting Swiper index 2.5
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0590 start.`);
       Settings.createWindow("testability/pages/UIComponentScrollSwiperGet/UIComponentScrollSwiperGet61")

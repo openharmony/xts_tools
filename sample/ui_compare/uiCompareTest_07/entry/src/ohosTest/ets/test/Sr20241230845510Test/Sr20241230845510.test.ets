@@ -45,8 +45,8 @@ export default function Sr20241230845510() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241230845510_001
      * @tc.name   : Test symbol page switching and symbol icon loop animation start/stop
-     * @tc.type   : function
-     * @tc.desc   : 测试symbol页面切屏时，symobl图标循环动效是否启停
+     * @tc.desc   : Verify componentperformance sr20241230845510 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -109,8 +109,8 @@ export default function Sr20241230845510() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241230845510_002
      * @tc.name   : Test scroll page to make symbol icon visible/invisible and observe animation start/stop
-     * @tc.type   : function
-     * @tc.desc   : 测试上下滑动页面，使得symbol图标可见/不可见，观察动效是否启停
+     * @tc.desc   : Verify componentperformance sr20241230845510 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

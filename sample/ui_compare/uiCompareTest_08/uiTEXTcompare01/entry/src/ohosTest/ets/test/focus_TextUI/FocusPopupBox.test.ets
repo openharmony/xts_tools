@@ -40,13 +40,13 @@ export default function FocusPopupBoxTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0330
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0330
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0330
+     * @tc.name   : Popupbox enter
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0330', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0330  start.`);
       try {
@@ -101,13 +101,13 @@ export default function FocusPopupBoxTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0490
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0490
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0490
+     * @tc.name   : Popupbox enter
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0490', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0490  start.`);
       try {
@@ -162,13 +162,13 @@ export default function FocusPopupBoxTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0530
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0530
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0530
+     * @tc.name   : Popupbox avoid safezone
+     * @tc.desc   : Verify popupbox avoid safezone interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0530', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0530  start.`);
       try {
@@ -191,13 +191,13 @@ export default function FocusPopupBoxTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0670
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0670
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0670
+     * @tc.name   : Popupbox avoid safezone
+     * @tc.desc   : Verify popupbox avoid safezone interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0670', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0670  start.`);
       try {
@@ -221,13 +221,13 @@ export default function FocusPopupBoxTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0010
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0010
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0010
+     * @tc.name   : Popupbox lunarswitchstyle
+     * @tc.desc   : Verify popupbox lunarswitchstyle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0010  start.`);
       try {
@@ -251,13 +251,13 @@ export default function FocusPopupBoxTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0100
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0100
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0100
+     * @tc.name   : Popupbox lunarswitchstyle
+     * @tc.desc   : Verify popupbox lunarswitchstyle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0100', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0100  start.`);
       try {

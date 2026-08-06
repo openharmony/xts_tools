@@ -43,10 +43,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       console.info('UiComponentNavNavigationDialoganimatedTest afterAll')
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0260
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（同时push多个dialog页面场景）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0260
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0260', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0260')
@@ -69,10 +72,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0270
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（同时pop多个dialog页面场景）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0270
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0270', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0270')
@@ -105,10 +111,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0280
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（同时push多个dialog和STANDARD页面场景）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0280
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0280', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0280')
@@ -131,10 +140,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0290
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（同时pop多个dialog和STANDARD页面场景）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0290
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0290', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0290')
@@ -163,10 +175,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0300
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（栈内全部为dialog页面，clear清空页面栈场景）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0300
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0300', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0300')
@@ -206,10 +221,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0310
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（栈内有dialog和standard页面，clear清空页面栈场景）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0310
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0310', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0310')
@@ -244,10 +262,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0320
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（栈内全部为dialog页面，pop页面栈场景）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0320
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0320', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0320')
@@ -284,10 +305,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0330
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（栈内有dialog和standard页面，pop页面栈场景）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0330
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0330', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0330')
@@ -324,10 +348,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0340
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（同时pop Standard + Dialogs页面到NavBar）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0340
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0340', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0340')
@@ -356,10 +383,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0350
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（同时pop Standard + Dialogs页面到NavBar + Dialogs）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0350
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0350', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0350')
@@ -394,10 +424,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0360
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（同时pop Standard + Dialogs页面到Standard）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0360
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0360', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0360')
@@ -426,10 +459,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0370
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（同时pop Standard + Dialogs页面到Standard + Dialogs）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0370
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0370', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0370')
@@ -464,10 +500,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0380
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（S1+D moveToTop场景）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0380
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0380', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0380')
@@ -502,10 +541,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0390
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（D+S1 moveIndexToTop场景）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0390
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0390', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0390')
@@ -540,10 +582,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0400
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（popToName场景）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0400
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0400', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0400')
@@ -578,10 +623,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0410
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（popToName场景2）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0410
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0410', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0410')
@@ -621,10 +669,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0420
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（popToIndex场景）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0420
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0420', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0420')
@@ -659,10 +710,13 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0430
-     * @tc.desc: Navigation支持Dialog类型页面转场动画（popToIndex场景2）
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0430
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0430', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavigationDialoganimated/NavigationDialoganimated0430')

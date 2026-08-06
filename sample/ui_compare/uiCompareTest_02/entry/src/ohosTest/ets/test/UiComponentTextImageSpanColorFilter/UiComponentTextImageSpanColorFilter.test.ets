@@ -55,13 +55,13 @@ export default function UiComponentTextImageSpanColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0030
-       * @tc.name    imagespan to colorFilter
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0030
+     * @tc.name   : imagespan to colorFilter
+     * @tc.desc   : Verify text imagespan colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentTextImageSpanColorFilter/UiComponentTextImageSpanColorFilter01")
@@ -74,13 +74,13 @@ export default function UiComponentTextImageSpanColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0080
-       * @tc.name    After the imagespan is set to a privacy mask, call ColorFilter
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0080
+     * @tc.name   : After the imagespan is set to a privacy mask, call ColorFilter
+     * @tc.desc   : Verify text imagespan colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentTextImageSpanColorFilter/UiComponentTextImageSpanColorFilter02")
@@ -93,13 +93,13 @@ export default function UiComponentTextImageSpanColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0040
-       * @tc.name    imagespan to colorFilter, which contains a negative number
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0040
+     * @tc.name   : imagespan to colorFilter, which contains a negative number
+     * @tc.desc   : Verify text imagespan colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentTextImageSpanColorFilter/UiComponentTextImageSpanColorFilter03")
@@ -112,13 +112,13 @@ export default function UiComponentTextImageSpanColorFilter() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0050
-       * @tc.name    imagespan to set the colorFilter to contain a large number
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0050
+     * @tc.name   : imagespan to set the colorFilter to contain a large number
+     * @tc.desc   : Verify text imagespan colorfilter interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentTextImageSpanColorFilter/UiComponentTextImageSpanColorFilter04")

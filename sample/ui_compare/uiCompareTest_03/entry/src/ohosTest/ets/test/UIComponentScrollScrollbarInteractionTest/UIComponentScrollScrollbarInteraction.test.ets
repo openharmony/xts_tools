@@ -59,10 +59,12 @@ export default function UIComponentScrollScrollbarInteraction() {
 
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0410
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0410
-     * @tc.desc    Bind the scroller controller to control component scrolling, observe scrollbar changes
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0410
+     * @tc.name   : Scroll scrollbar interaction
+     * @tc.desc   : Verify scroll scrollbar interaction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0410', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0410';
@@ -85,10 +87,12 @@ export default function UIComponentScrollScrollbarInteraction() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0420
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0420
-     * @tc.desc    Portrait layout component cannot scroll, switch to landscape to be scrollable, observe scrollbar changes
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0420
+     * @tc.name   : Scroll scrollbar interaction
+     * @tc.desc   : Verify scroll scrollbar interaction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0420', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0420';
@@ -115,10 +119,12 @@ export default function UIComponentScrollScrollbarInteraction() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0440
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0440
-     * @tc.desc    Scrollable component List binds external scrollbar, slide the component to observe scrollbar changes
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0440
+     * @tc.name   : Scroll scrollbar interaction
+     * @tc.desc   : Verify scroll scrollbar interaction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0440', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0440';
@@ -141,10 +147,12 @@ export default function UIComponentScrollScrollbarInteraction() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0450
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0450
-     * @tc.desc    Scrollable component Grid binds external scrollbar, slide the component to observe scrollbar changes
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0450
+     * @tc.name   : Scroll scrollbar interaction
+     * @tc.desc   : Verify scroll scrollbar interaction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0450', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0450';
@@ -167,10 +175,12 @@ export default function UIComponentScrollScrollbarInteraction() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0460
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0460
-     * @tc.desc    Scrollable component waterflow binds external scrollbar, slide the component to observe scrollbar changes
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0460
+     * @tc.name   : Scroll scrollbar interaction
+     * @tc.desc   : Verify scroll scrollbar interaction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0460', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0460';

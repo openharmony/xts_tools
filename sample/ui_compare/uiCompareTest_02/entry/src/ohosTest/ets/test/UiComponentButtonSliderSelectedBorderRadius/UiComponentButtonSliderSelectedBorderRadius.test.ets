@@ -55,13 +55,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0110
-       * @tc.name    Set the Style property to NONE, and set the showSteps property to the default value, and the property takes effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0110
+     * @tc.name   : Set the Style property to NONE, and set the showSteps property to the default value, and the property takes effect
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius01")
@@ -74,13 +74,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0080
-       * @tc.name    The Style attribute is set to NONE, but the blockColor attribute does not take effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0080
+     * @tc.name   : The Style attribute is set to NONE, but the blockColor attribute does not take effect
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius02")
@@ -93,13 +93,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0100
-       * @tc.name    Set the Style property to NONE and set selectedColor to the default value, and the property takes effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0100
+     * @tc.name   : Set the Style property to NONE and set selectedColor to the default value, and the property takes effect
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0100 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius03")
@@ -112,13 +112,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0060
-       * @tc.name    If the Style property is set to NONE, the blockBorderColor property does not take effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0060
+     * @tc.name   : If the Style property is set to NONE, the blockBorderColor property does not take effect
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius04")
@@ -131,13 +131,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0180
-       * @tc.name    Set the Style attribute to: NONE, and set the selected part of the slide fillet attribute value: 50%
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0180
+     * @tc.name   : Set the Style attribute to: NONE, and set the selected part of the slide fillet attribute value: 50%
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius05")
@@ -150,13 +150,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0070
-       * @tc.name    If the Style property is set to NONE, the blockBorderWidth property does not take effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0070
+     * @tc.name   : If the Style property is set to NONE, the blockBorderWidth property does not take effect
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius06")
@@ -169,13 +169,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0090
-       * @tc.name    If the Style attribute is set to NONE, the blockStyle attribute does not take effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0090
+     * @tc.name   : If the Style attribute is set to NONE, the blockStyle attribute does not take effect
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius07")
@@ -188,13 +188,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0160
-       * @tc.name    If the Style attribute is set to NONE, the selectedBorderRadius attribute does not take effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0160
+     * @tc.name   : If the Style attribute is set to NONE, the selectedBorderRadius attribute does not take effect
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius08")
@@ -207,13 +207,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0140
-       * @tc.name    Set the Style attribute to NONE, and set trackColor to the default value, and the attribute takes effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0140
+     * @tc.name   : Set the Style attribute to NONE, and set trackColor to the default value, and the attribute takes effect
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius09")
@@ -226,13 +226,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0150
-       * @tc.name    Set the Style property to NONE, and set the selected partial rail fillet to the default value
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0150
+     * @tc.name   : Set the Style property to NONE, and set the selected partial rail fillet to the default value
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius10")
@@ -245,13 +245,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0250
-       * @tc.name    Set the Style property to undefined and the slider is on the slider
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0250
+     * @tc.name   : Set the Style property to undefined and the slider is on the slider
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0250 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius11")
@@ -264,13 +264,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0270
-       * @tc.name    The Style property is not set, and the slider is on the slide
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0270
+     * @tc.name   : The Style property is not set, and the slider is on the slide
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0270 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius12")
@@ -283,13 +283,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0230
-       * @tc.name    Set the Style property to OutSet, and the slider is on the slider
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0230
+     * @tc.name   : Set the Style property to OutSet, and the slider is on the slider
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0230 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius13")
@@ -302,13 +302,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0040
-       * @tc.name    Set the Style property to inset, and the slider is on the slider
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0040
+     * @tc.name   : Set the Style property to inset, and the slider is on the slider
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius14")
@@ -321,13 +321,13 @@ export default function UiComponentButtonSliderSelectedBorderRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0120
-       * @tc.name    Set the Style attribute to NONE, set the showTips attribute to true, and set the content to take effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0120
+     * @tc.name   : Set the Style attribute to NONE, set the showTips attribute to true, and set the content to take effect
+     * @tc.desc   : Verify button slider selectedborderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius15")

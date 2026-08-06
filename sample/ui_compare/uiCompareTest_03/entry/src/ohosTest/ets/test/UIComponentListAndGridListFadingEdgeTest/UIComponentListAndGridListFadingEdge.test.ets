@@ -59,10 +59,12 @@ export default function UIComponentListAndGridListFadingEdge() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0130
-     * @tc.desc    Observe edge bounce animation in List fadingEdge
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0130
+     * @tc.name   : Listandgrid list fadingedge
+     * @tc.desc   : Verify listandgrid list fadingedge interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0130';
@@ -82,10 +84,12 @@ export default function UIComponentListAndGridListFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0180
-     * @tc.desc    Combine List fadingEdge with chain animation effects
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0180
+     * @tc.name   : Listandgrid list fadingedge
+     * @tc.desc   : Verify listandgrid list fadingedge interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0180';

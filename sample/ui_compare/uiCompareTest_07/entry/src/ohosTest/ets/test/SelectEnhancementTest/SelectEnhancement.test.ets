@@ -43,8 +43,8 @@ export default function SelectEnhancement() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_ENHANCEMENT_0200
      * @tc.name   : value属性设置为超长字符时受到限制
-     * @tc.type   : function
-     * @tc.desc   : When the value attribute is set to an excessively long character string, it is restricted.
+     * @tc.desc   : Verify button select enhancement interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -66,8 +66,8 @@ export default function SelectEnhancement() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_ENHANCEMENT_0210
      * @tc.name   : 下拉按钮本身字体设置为300
-     * @tc.type   : function
-     * @tc.desc   : Set the font weight of the dropdown button itself to 300.
+     * @tc.desc   : Verify button select enhancement interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

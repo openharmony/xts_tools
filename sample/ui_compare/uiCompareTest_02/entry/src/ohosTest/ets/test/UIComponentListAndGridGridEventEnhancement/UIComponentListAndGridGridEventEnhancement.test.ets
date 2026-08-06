@@ -55,13 +55,13 @@ export default function UIComponentListAndGridGridEventEnhancement() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0070_700
-       * @tc.name    Verify that Grid gesture scroll to bottom triggers onReachEnd event
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level 1
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0070_700
+     * @tc.name   : Verify that Grid gesture scroll to bottom triggers onReachEnd event
+     * @tc.desc   : Verify listandgrid grid eventenhancement interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0070_700', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0070_700 start.`);
       Settings.createWindow("testability/pages/UIComponentListAndGridGridEventEnhancement/UIComponentListAndGridGridEventEnhancement01")
@@ -75,13 +75,13 @@ export default function UIComponentListAndGridGridEventEnhancement() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0130_363
-       * @tc.name    Verify that Grid gesture sliding triggers onScrollStart event
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level 1
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0130_363
+     * @tc.name   : Verify that Grid gesture sliding triggers onScrollStart event
+     * @tc.desc   : Verify listandgrid grid eventenhancement interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0130_363', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0130_363 start.`);
       Settings.createWindow("testability/pages/UIComponentListAndGridGridEventEnhancement/UIComponentListAndGridGridEventEnhancement02")
@@ -95,13 +95,13 @@ export default function UIComponentListAndGridGridEventEnhancement() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0180_821
-       * @tc.name    Verify that Grid gesture sliding stop triggers onScrollStop event
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level 1
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0180_821
+     * @tc.name   : Verify that Grid gesture sliding stop triggers onScrollStop event
+     * @tc.desc   : Verify listandgrid grid eventenhancement interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0180_821', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0180_821 start.`);
       Settings.createWindow("testability/pages/UIComponentListAndGridGridEventEnhancement/UIComponentListAndGridGridEventEnhancement03")
@@ -115,13 +115,13 @@ export default function UIComponentListAndGridGridEventEnhancement() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0260_461
-       * @tc.name    Verify that finger sliding Grid triggers onScrollFrameBegin event
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level 1
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0260_461
+     * @tc.name   : Verify that finger sliding Grid triggers onScrollFrameBegin event
+     * @tc.desc   : Verify listandgrid grid eventenhancement interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0260_461', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0260_461 start.`);
       Settings.createWindow("testability/pages/UIComponentListAndGridGridEventEnhancement/UIComponentListAndGridGridEventEnhancement04")
@@ -135,13 +135,13 @@ export default function UIComponentListAndGridGridEventEnhancement() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0300_438
-       * @tc.name    Verify that gesture sliding component triggers onScrollIndex event
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level 1
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0300_438
+     * @tc.name   : Verify that gesture sliding component triggers onScrollIndex event
+     * @tc.desc   : Verify listandgrid grid eventenhancement interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0300_438', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0300_438 start.`);
       Settings.createWindow("testability/pages/UIComponentListAndGridGridEventEnhancement/UIComponentListAndGridGridEventEnhancement05")

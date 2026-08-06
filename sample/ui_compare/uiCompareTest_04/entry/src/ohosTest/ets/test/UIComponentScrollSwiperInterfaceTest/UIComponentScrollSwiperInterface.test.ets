@@ -39,10 +39,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1460
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1460
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1460
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1460 start.`);
@@ -56,10 +58,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2170
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2170
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2170
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2170 start.`);
@@ -73,10 +77,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2800
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2800
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2800
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2800', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2800';
@@ -91,10 +97,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1560
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1560
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1560
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1560 start.`);
@@ -108,10 +116,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2810
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2810
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2810
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2810 start.`);
@@ -125,10 +135,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1650
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1650
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1650
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1650 start.`);
@@ -142,10 +154,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1640
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1640
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1640
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1640 start.`);
@@ -159,10 +173,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2850
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2850
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2850
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2850', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2850 start.`);
@@ -176,10 +192,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2890
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2890
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2890
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2890', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2890 start.`);
@@ -193,10 +211,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2900
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2900
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2900
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2900 start.`);
@@ -210,10 +230,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2830
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2830
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2830
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2830 start.`);
@@ -227,10 +249,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2870
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2870
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2870
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2870 start.`);
@@ -244,10 +268,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2880
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2880
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2880
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2880', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2880 start.`);
@@ -261,10 +287,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2820
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2820
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2820
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2820 start.`);
@@ -278,10 +306,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2860
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2860
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2860
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2860 start.`);
@@ -295,10 +325,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2840
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2840
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2840
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2840 start.`);
@@ -312,10 +344,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_3620
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_3620
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_3620
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_3620', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_3620';
@@ -336,10 +370,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1140
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1140
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1140
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1140', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1140';
@@ -354,10 +390,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0720
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0720
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0720
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0720', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0720';
@@ -372,10 +410,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0730
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0730
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0730
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0730', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0730';
@@ -390,10 +430,12 @@ export default function UIComponentScrollSwiperInterfaceTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1590
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1590
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1590
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1590', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1590';

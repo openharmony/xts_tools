@@ -55,13 +55,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0410
-       * @tc.name    Verify that the general attribute Type is set to default,controlSize is set to normal,and the borderRadius is manually set to 30px
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0410
+     * @tc.name   : Verify that the general attribute Type is set to default,controlSize is set to normal,and the borderRadius is manually set to 30px
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0410 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius01")
@@ -79,13 +79,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0400
-       * @tc.name    Verify that the general attribute Type is set to default,controlSize is set to normal,and the borderRadius is manually set to 30%
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0400
+     * @tc.name   : Verify that the general attribute Type is set to default,controlSize is set to normal,and the borderRadius is manually set to 30%
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0400 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius02")
@@ -103,13 +103,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0360
-       * @tc.name    Verify that the general attribute Type is set to default,controlSize is set to normal,and the borderRadius is manually set to 10vp
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0360
+     * @tc.name   : Verify that the general attribute Type is set to default,controlSize is set to normal,and the borderRadius is manually set to 10vp
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0360', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0360 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius03")
@@ -127,13 +127,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0010
-       * @tc.name    Verify that buttonStyle is set to a different value and it works properly
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0010
+     * @tc.name   : Verify that buttonStyle is set to a different value and it works properly
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius04")
@@ -151,13 +151,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0240
-       * @tc.name    Verify that the default style of the calendarPickerDialog button is capsule and displayed correctly in api18
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0240
+     * @tc.name   : Verify that the default style of the calendarPickerDialog button is capsule and displayed correctly in api18
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0240 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius05")
@@ -173,13 +173,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0270
-       * @tc.name    Verify that in the api18 environment, the default style of the buttons of timePickerDialog is ROUNDED_RECTANGLE and displayed normally
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0270
+     * @tc.name   : Verify that in the api18 environment, the default style of the buttons of timePickerDialog is ROUNDED_RECTANGLE and displayed normally
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0270 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius06")
@@ -200,13 +200,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0260
-       * @tc.name    Verify that in the api18 environment, the default style of the buttons of TextPickerDialog is ROUNDED_RECTANGLE and displayed normally
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0260
+     * @tc.name   : Verify that in the api18 environment, the default style of the buttons of TextPickerDialog is ROUNDED_RECTANGLE and displayed normally
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0260 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius08")
@@ -222,13 +222,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0220
-       * @tc.name    Verify that in the API 18 environment, the default style of the button of bindpopup is ROUNDED_RECTANGLE and displayed normally
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0220
+     * @tc.name   : Verify that in the API 18 environment, the default style of the button of bindpopup is ROUNDED_RECTANGLE and displayed normally
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0220 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius09")
@@ -244,13 +244,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0230
-       * @tc.name    Verify that in the API 18 environment, the default style of the button is ROUNDED_RECTANGLE and displayed normally
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0230
+     * @tc.name   : Verify that in the API 18 environment, the default style of the button is ROUNDED_RECTANGLE and displayed normally
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0230 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius10")
@@ -263,13 +263,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0380
-       * @tc.name    Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and it displays correctly when accessibility mode is enabled.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0380
+     * @tc.name   : Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and it displays correctly when a11y mode is enabled.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0380 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius11")
@@ -306,13 +306,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0430
-       * @tc.name    Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and font style is manually set.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0430
+     * @tc.name   : Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and font style is manually set.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0430 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius12")
@@ -328,13 +328,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0370
-       * @tc.name    Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and borderRadius is manually set in Chinese environment.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0370
+     * @tc.name   : Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and borderRadius is manually set in Chinese environment.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0370 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius13")
@@ -350,13 +350,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0420
-       * @tc.name    Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and borderRadius is set to reference type.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0420
+     * @tc.name   : Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and borderRadius is set to reference type.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0420 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius14")
@@ -372,13 +372,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0480
-       * @tc.name    Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to small, and button height is manually set.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0480
+     * @tc.name   : Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to small, and button height is manually set.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0480 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius15")
@@ -394,13 +394,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0500
-       * @tc.name    Verify that Type is manually set to ROUNDED_RECTANGLE.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0500
+     * @tc.name   : Verify that Type is manually set to ROUNDED_RECTANGLE.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0500 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius17")
@@ -420,13 +420,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0280
-       * @tc.name    Verify that Type is set to Capsule without borderRadius.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0280
+     * @tc.name   : Verify that Type is set to Capsule without borderRadius.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0280 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius16")
@@ -442,13 +442,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0460
-       * @tc.name    Verify that button displays correctly with extra long text.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0460
+     * @tc.name   : Verify that button displays correctly with extra long text.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0460 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius18")
@@ -464,13 +464,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0290
-       * @tc.name    Verify that Type is set to Capsule with borderRadius.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0290
+     * @tc.name   : Verify that Type is set to Capsule with borderRadius.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0290 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius19")
@@ -486,13 +486,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0510
-       * @tc.name    Verify that all properties are set to default values.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0510
+     * @tc.name   : Verify that all properties are set to default values.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0510 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius20")
@@ -508,13 +508,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0300
-       * @tc.name    Verify that Type is set to Capsule with font style.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0300
+     * @tc.name   : Verify that Type is set to Capsule with font style.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0300 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius21")
@@ -530,13 +530,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0310
-       * @tc.name    Verify that Type is set to Capsule with extra long text.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0310
+     * @tc.name   : Verify that Type is set to Capsule with extra long text.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0310 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius22")
@@ -552,13 +552,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0320
-       * @tc.name    Verify that Type is set to Circle without width/height and abnormal borderRadius.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0320
+     * @tc.name   : Verify that Type is set to Circle without width/height and abnormal borderRadius.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0320 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius23")
@@ -571,13 +571,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0340
-       * @tc.name    Verify that Type is set to Circle with width/height and borderRadius.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0340
+     * @tc.name   : Verify that Type is set to Circle with width/height and borderRadius.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0340 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius24")
@@ -593,13 +593,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0330
-       * @tc.name    Verify that Type is set to Circle without width/height and with borderRadius.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0330
+     * @tc.name   : Verify that Type is set to Circle without width/height and with borderRadius.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0330 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius25")
@@ -615,13 +615,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0350
-       * @tc.name    Verify that Type is set to Normal without borderRadius.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0350
+     * @tc.name   : Verify that Type is set to Normal without borderRadius.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0350 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius26")
@@ -637,13 +637,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0450
-       * @tc.name    Verify that button displays correctly with height 50vp.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0450
+     * @tc.name   : Verify that button displays correctly with height 50vp.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0450 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius27")
@@ -662,13 +662,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0440
-       * @tc.name    Verify that button displays correctly with height 30vp.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0440
+     * @tc.name   : Verify that button displays correctly with height 30vp.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0440 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius28")
@@ -687,13 +687,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0030
-       * @tc.name    Verify that stateEffect set to false displays correctly.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0030
+     * @tc.name   : Verify that stateEffect set to false displays correctly.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius29")
@@ -709,13 +709,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0490
-       * @tc.name    Verify that SMALL controlSize with height 30vp displays correctly.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0490
+     * @tc.name   : Verify that SMALL controlSize with height 30vp displays correctly.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0490 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius30")
@@ -734,13 +734,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0470
-       * @tc.name    Verify that button displays correctly in Uyghur environment with custom borderRadius.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0470
+     * @tc.name   : Verify that button displays correctly in Uyghur environment with custom borderRadius.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0470 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius31")
@@ -761,13 +761,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0390
-       * @tc.name    Verify that button displays correctly with manual borderRadius 20vp.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0390
+     * @tc.name   : Verify that button displays correctly with manual borderRadius 20vp.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0390 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius32")
@@ -786,13 +786,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0020
-       * @tc.name    Verify that role set to ERROR displays correctly.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0020
+     * @tc.name   : Verify that role set to ERROR displays correctly.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius33")
@@ -808,13 +808,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0520
-       * @tc.name    Verify that button created with modifier displays correctly.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0520
+     * @tc.name   : Verify that button created with modifier displays correctly.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0520 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius34")
@@ -830,13 +830,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0530
-       * @tc.name    Verify Toggle button displays correctly with accessibility.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0530
+     * @tc.name   : Verify Toggle button displays correctly with a11y mode.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0530 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius35")
@@ -863,13 +863,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0160
-       * @tc.name    Verify BindPopup buttons display correctly with accessibility.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0160
+     * @tc.name   : Verify BindPopup buttons display correctly with a11y mode.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius36")
@@ -904,13 +904,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0170
-       * @tc.name    Verify Button displays correctly with accessibility.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0170
+     * @tc.name   : Verify Button displays correctly with a11y mode.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius37")
@@ -937,13 +937,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0180
-       * @tc.name    Verify CalendarPickerDialog buttons display correctly with accessibility.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0180
+     * @tc.name   : Verify CalendarPickerDialog buttons display correctly with a11y mode.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius38")
@@ -987,13 +987,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0210
-       * @tc.name    Verify TimePickerDialog buttons display correctly with accessibility.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0210
+     * @tc.name   : Verify TimePickerDialog buttons display correctly with a11y mode.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0210 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius39")
@@ -1037,13 +1037,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0190
-       * @tc.name    Verify DatePickerDialog buttons display correctly with accessibility.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0190
+     * @tc.name   : Verify DatePickerDialog buttons display correctly with a11y mode.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius40")
@@ -1087,13 +1087,13 @@ export default function UiComponentButtonButtonRadius() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0200
-       * @tc.name    Verify TextPickerDialog buttons display correctly with accessibility.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0200
+     * @tc.name   : Verify TextPickerDialog buttons display correctly with a11y mode.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0200 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonRadius/UiComponentButtonButtonRadius41")

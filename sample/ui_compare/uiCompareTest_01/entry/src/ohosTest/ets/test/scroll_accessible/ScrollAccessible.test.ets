@@ -43,6 +43,7 @@ export default function scrollAccessibleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350_597
      * @tc.name   : Testing cachedCount when using rowsTemplate: 1fr 1fr 1fr layout with mirroring effect
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -63,6 +64,7 @@ export default function scrollAccessibleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340_280
      * @tc.name   : Testing cachedCount when using rowsTemplate: 1fr 1fr 1fr layout with mirroring effect
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -88,6 +90,7 @@ export default function scrollAccessibleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0360_034
      * @tc.name   : Waterflow gets scroll offset using keyboard navigation
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -112,6 +115,7 @@ export default function scrollAccessibleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0370_698
      * @tc.name   : Waterflow gets scroll offset using keyboard navigation
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

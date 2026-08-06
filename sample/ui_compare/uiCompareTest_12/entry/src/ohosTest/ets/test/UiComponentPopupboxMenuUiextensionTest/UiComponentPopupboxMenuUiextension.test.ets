@@ -41,8 +41,9 @@ export default function UiComponentPopupboxMenuUiextension() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0020
      * @tc.name   : Verify that when preview is not set or MenuPreviewMode is set to NULL, subMenuExpandingMode is set to side_expand, the primary and secondary menus of bindContextMenu can be displayed normally in UIExtension
+     * @tc.desc   : Verify popupbox menu uiextension interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0020", Level.LEVEL3, async (done: Function) => {
@@ -76,8 +77,9 @@ export default function UiComponentPopupboxMenuUiextension() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0030
      * @tc.name   : Verify that when preview is not set or MenuPreviewMode is set to NULL, subMenuExpandingMode is set to side_expand, bindContextMenu display is controlled by isShow, the primary and secondary menus of bindContextMenu can be displayed normally in UIExtension
+     * @tc.desc   : Verify popupbox menu uiextension interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0030", Level.LEVEL3, async (done: Function) => {
@@ -111,8 +113,9 @@ export default function UiComponentPopupboxMenuUiextension() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0040
      * @tc.name   : Verify that when preview is not set or MenuPreviewMode is set to NULL, subMenuExpandingMode is set to stack_expand, the primary and secondary menus of bindContextMenu can be displayed normally in UIExtension
+     * @tc.desc   : Verify popupbox menu uiextension interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0040", Level.LEVEL3, async (done: Function) => {

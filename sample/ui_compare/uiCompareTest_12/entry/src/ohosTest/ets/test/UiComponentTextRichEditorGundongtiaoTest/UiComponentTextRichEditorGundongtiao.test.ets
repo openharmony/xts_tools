@@ -41,11 +41,12 @@ export default function UiComponentTextRichEditorGundongtiao() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0001
-        * @tc.name   : BarState.Auto模式滚动条测试
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0001
+     * @tc.name   : BarState.Auto模式滚动条测试
+     * @tc.desc   : Verify text richeditor gundongtiao interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0001", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0001")
@@ -80,11 +81,12 @@ export default function UiComponentTextRichEditorGundongtiao() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0010
-        * @tc.name   : 动态切换BarState模式测试
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0010
+     * @tc.name   : 动态切换BarState模式测试
+     * @tc.desc   : Verify text richeditor gundongtiao interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0010", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0010")
@@ -132,11 +134,12 @@ export default function UiComponentTextRichEditorGundongtiao() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0002
-        * @tc.name   : BarState.On模式滚动条测试
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0002
+     * @tc.name   : BarState.On模式滚动条测试
+     * @tc.desc   : Verify text richeditor gundongtiao interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0002", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0002")
@@ -171,11 +174,12 @@ export default function UiComponentTextRichEditorGundongtiao() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0003
-        * @tc.name   : BarState.Off模式滚动条测试
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0003
+     * @tc.name   : BarState.Off模式滚动条测试
+     * @tc.desc   : Verify text richeditor gundongtiao interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0003", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0003")

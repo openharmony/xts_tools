@@ -41,13 +41,12 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0020
-     * @tc.desc   : On ALN: alertDialog – without setting stroke properties (stroke width, stroke color, stroke material), observe whether the double-stroke and corner radius comply with the UX design.
-     * @tc.size   : MediumTest
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0020 start.`);
       Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0020")
@@ -61,13 +60,12 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0050
-     * @tc.desc   : On ALN: customDialog – without setting stroke properties (stroke width, stroke color, stroke material), observe whether the double-stroke and corner radius comply with the UX design.
-     * @tc.size   : MediumTest
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0050 start.`);
       Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0050")
@@ -81,13 +79,12 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0080
-     * @tc.desc   : On ALN: openCustomDialog – without setting stroke properties (stroke width, stroke color, stroke material), observe whether the double-stroke and corner radius comply with the UX design.
-     * @tc.size   : MediumTest
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0080 start.`);
       Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0080")
@@ -101,13 +98,12 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0090
-     * @tc.desc   : On ALN: showActionMenu – observe whether the double-stroke and corner radius comply with the UX design.
-     * @tc.size   : MediumTest
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0090 start.`);
       Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0090")
@@ -121,13 +117,12 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0110
-     * @tc.desc   : On ALN: showToast – observe whether the double-stroke and corner radius comply with the UX design.
-     * @tc.size   : MediumTest
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0110 start.`);
       Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0110")
@@ -141,13 +136,12 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0160
-     * @tc.desc   : On ALN: UIContext.showAlertDialog – without setting stroke properties (stroke width, stroke color, stroke material), observe whether the double-stroke and corner radius comply with the UX design.
-     * @tc.size   : MediumTest
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0160 start.`);
       Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0160")
@@ -161,13 +155,12 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0180
-     * @tc.desc   : On ALN: UIContext.showDialog – observe whether the double-stroke and corner radius comply with the UX design.
-     * @tc.size   : MediumTest
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0180', Level.LEVEL3, async (done: Function) => {
       try {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0180 start.`);
@@ -186,13 +179,12 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0210
-     * @tc.desc   : On ALN: UIContext.showToast – observe whether the double-stroke and corner radius comply with the UX design.
-     * @tc.size   : MediumTest
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0210 start.`);
       Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke0210")
@@ -206,13 +198,12 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_1030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_1030
-     * @tc.desc   : On XYAO device: view Dialog double-stroke and corner radius display, observe whether it complies with the UX design.
-     * @tc.size   : MediumTest
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_1030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_1030 start.`);
       Settings.createWindow("testability/pages/PopupboxDoubleStroke/PopupboxDoubleStroke1030")

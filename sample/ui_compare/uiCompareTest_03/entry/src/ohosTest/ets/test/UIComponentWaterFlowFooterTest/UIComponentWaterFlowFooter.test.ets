@@ -59,10 +59,12 @@ export default function UIComponentWaterFlowFooter() {
 
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0140
-     * @tc.desc    footerContent set to empty
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0140
+     * @tc.name   : Waterflow footer
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0140';
@@ -85,10 +87,12 @@ export default function UIComponentWaterFlowFooter() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0150
-     * @tc.desc    footerContent set to undefined
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0150
+     * @tc.name   : Waterflow footer
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0150';
@@ -111,10 +115,12 @@ export default function UIComponentWaterFlowFooter() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0170
-     * @tc.desc    After setting footerContent, property test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0170
+     * @tc.name   : Waterflow footer
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0170';
@@ -137,10 +143,12 @@ export default function UIComponentWaterFlowFooter() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0180
-     * @tc.desc    Set CustomBuilder and footerContent simultaneously
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0180
+     * @tc.name   : Waterflow footer
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0180';
@@ -163,10 +171,12 @@ export default function UIComponentWaterFlowFooter() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0190
-     * @tc.desc    CustomBuilder empty, footerContent empty
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0190
+     * @tc.name   : Waterflow footer
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0190';
@@ -189,10 +199,12 @@ export default function UIComponentWaterFlowFooter() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0200
-     * @tc.desc    CustomBuilder empty, footerContent normal content
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0200
+     * @tc.name   : Waterflow footer
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0200';
@@ -215,10 +227,12 @@ export default function UIComponentWaterFlowFooter() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0210
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0210
-     * @tc.desc    CustomBuilder normal content, footerContent undefined
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0210
+     * @tc.name   : Waterflow footer
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0210';

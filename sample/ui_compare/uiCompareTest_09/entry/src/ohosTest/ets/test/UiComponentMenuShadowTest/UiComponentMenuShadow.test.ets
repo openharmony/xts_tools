@@ -28,11 +28,13 @@ export default function UiComponentMenuShadow() {
       }
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0200
-     * 用例描述: Select下拉菜单阴影（浅色模式）
-     * 自动化程度: 75%
-     * 说明: Select点击自动化，需手动验证阴影效果
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0200
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0200', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0200 begin');
@@ -55,10 +57,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('Manual verification: Check select menu shadow in light mode');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0210
-     * 用例描述: bindMenu不带箭头阴影（浅色模式）
-     * 自动化程度: 75%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0210
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0210', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0210 begin');
@@ -80,10 +85,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0210 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220
-     * 用例描述: bindMenu带箭头阴影（浅色模式）
-     * 自动化程度: 75%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220 begin');
@@ -105,10 +113,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230
-     * 用例描述: 带预览图菜单阴影（浅色模式）
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230 begin');
@@ -130,10 +141,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0240
-     * 用例描述: 子菜单embeded_expand阴影（浅色模式）
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0240
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0240', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0240 begin');
@@ -156,10 +170,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('Manual: Click second to last menu item to expand submenu');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0250
-     * 用例描述: 子菜单side_expand阴影（浅色模式）
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0250
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0250', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0250 begin');
@@ -181,10 +198,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0250 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260
-     * 用例描述: 子菜单stack_expand阴影（浅色模式）
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260 begin');
@@ -206,11 +226,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0270
-     * 用例描述: Web菜单右键阴影（浅色模式）
-     * 自动化程度: 50%
-     * 说明: 右键操作需手动测试
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0270
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0270', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0270 begin');
@@ -224,10 +246,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('Manual test required: Right-click on button to show web menu');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280
-     * 用例描述: bindMenu showInSubWindow阴影（深色模式）
-     * 自动化程度: 75%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280 begin');
@@ -249,10 +274,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290
-     * 用例描述: Select下拉菜单阴影（深色模式）
-     * 自动化程度: 75%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290 begin');
@@ -274,10 +302,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0300
-     * 用例描述: bindMenu不带箭头阴影（深色模式）
-     * 自动化程度: 75%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0300
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0300', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0300 begin');
@@ -299,10 +330,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0300 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310
-     * 用例描述: bindMenu带箭头阴影（深色模式）
-     * 自动化程度: 75%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310 begin');
@@ -324,10 +358,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0320
-     * 用例描述: 带预览图菜单阴影（深色模式）
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0320
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0320', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0320 begin');
@@ -349,10 +386,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0320 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0330
-     * 用例描述: 子菜单embeded_expand阴影（深色模式）
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0330
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0330', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0330 begin');
@@ -374,10 +414,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0330 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340
-     * 用例描述: 子菜单side_expand阴影（深色模式）
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340 begin');
@@ -399,10 +442,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0350
-     * 用例描述: 子菜单stack_expand阴影（深色模式）
-     * 自动化程度: 70%
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0350
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0350', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0350 begin');
@@ -424,11 +470,13 @@ export default function UiComponentMenuShadow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0350 end');
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0360
-     * 用例描述: Web菜单右键阴影（深色模式）
-     * 自动化程度: 50%
-     * 说明: 右键操作需手动测试
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0360
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0360', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0360 begin');

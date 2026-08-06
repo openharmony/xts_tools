@@ -27,10 +27,13 @@ export default function ActionGestureSwipegesture() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_GESTURE_SWIPEGESTURE_INTERFACE_0410
-     * @tc.name  验证滑动空白区域list响应滑动，滑动红色区域list不滚动
-     * @tc.desc  测试不同区域的滑动响应
+    /*
+     * @tc.number : SUB_ACE_ACTION_GESTURE_SWIPEGESTURE_INTERFACE_0410
+     * @tc.name   : 验证滑动空白区域list响应滑动，滑动红色区域list不滚动
+     * @tc.desc   : Verify action gesture swipegesture interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_GESTURE_SWIPEGESTURE_INTERFACE_0410', 0, async () => {
       Logger.info('SUB_ACE_ACTION_GESTURE_SWIPEGESTURE_INTERFACE_0410 begin');
@@ -61,10 +64,13 @@ export default function ActionGestureSwipegesture() {
       Logger.info('SUB_ACE_ACTION_GESTURE_SWIPEGESTURE_INTERFACE_0410 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_GESTURE_SWIPEGESTURE_INTERFACE_0430
-     * @tc.name  历史点坐标验证
-     * @tc.desc  测试滑动手势的历史点坐标记录
+    /*
+     * @tc.number : SUB_ACE_ACTION_GESTURE_SWIPEGESTURE_INTERFACE_0430
+     * @tc.name   : 历史点坐标验证
+     * @tc.desc   : Verify action gesture swipegesture interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_GESTURE_SWIPEGESTURE_INTERFACE_0430', 0, async () => {
       Logger.info('SUB_ACE_ACTION_GESTURE_SWIPEGESTURE_INTERFACE_0430 begin');

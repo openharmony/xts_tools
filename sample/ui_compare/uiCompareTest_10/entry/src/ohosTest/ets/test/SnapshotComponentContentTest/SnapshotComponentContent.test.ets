@@ -41,10 +41,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0020
-     * @tc.desc   : Screenshot of the image component that fetches network images
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0020', Level.LEVEL3, async (done: Function) => {
@@ -63,10 +63,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0090
-     * @tc.desc   : Get a screenshot of the image component in WebP format
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0090', Level.LEVEL3, async (done: Function) => {
@@ -85,10 +85,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0100
-     * @tc.desc   : Get a screenshot of the image component in HEIF format
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0100', Level.LEVEL3, async (done: Function) => {
@@ -107,10 +107,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0070
-     * @tc.desc   : Get a screenshot of the image component in BMP format
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0070', Level.LEVEL3, async (done: Function) => {
@@ -129,10 +129,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0080
-     * @tc.desc   : Get a screenshot of the image component in SVG format
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0080', Level.LEVEL3, async (done: Function) => {
@@ -151,10 +151,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0030
-     * @tc.desc   : Get a screenshot of the image component in GIF format
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0030', Level.LEVEL3, async (done: Function) => {
@@ -173,10 +173,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0160
-     * @tc.desc   : Get a screenshot when the builder is empty
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0160', Level.LEVEL3, async (done: Function) => {
@@ -195,10 +195,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0520
-     * @tc.desc   : Set the scale parameter of the createFromComponent interface to -1
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0520', Level.LEVEL3, async (done: Function) => {
@@ -217,10 +217,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0590
-     * @tc.desc   : Set the scale parameter of the createFromComponent interface to undefined
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0590', Level.LEVEL3, async (done: Function) => {
@@ -239,10 +239,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0570
-     * @tc.desc   : Set the scale parameter of the createFromComponent interface to 4
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0570', Level.LEVEL3, async (done: Function) => {
@@ -261,10 +261,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0560
-     * @tc.desc   : Set the scale parameter of the createFromComponent interface to 14
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0560', Level.LEVEL3, async (done: Function) => {
@@ -283,10 +283,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0580
-     * @tc.desc   : Set the scale parameter of the createFromComponent interface to 13
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0580', Level.LEVEL3, async (done: Function) => {
@@ -305,10 +305,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0530
-     * @tc.desc   : Set the scale parameter of the createFromComponent interface to 0
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0530', Level.LEVEL3, async (done: Function) => {
@@ -327,10 +327,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0630
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0630
-     * @tc.desc   : Set the waitUntilRenderFinished parameter of the createFromComponent interface to true
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0630', Level.LEVEL3, async (done: Function) => {
@@ -349,10 +349,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0510
-     * @tc.desc   : Set the checkImageStatus parameter of the createFromComponent interface to undefined
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0510', Level.LEVEL3, async (done: Function) => {
@@ -371,10 +371,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0660
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0660
-     * @tc.desc   : Set both the scale and waitUntilRenderFinished parameters of the createFromComponent interface to invalid values.
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0660', Level.LEVEL3, async (done: Function) => {
@@ -393,10 +393,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0670
-     * @tc.desc   : Set one valid and one invalid value for the scale and waitUntilRenderFinished parameters of the createFromComponent interface
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0670', Level.LEVEL3, async (done: Function) => {
@@ -415,10 +415,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0680
-     * @tc.desc   : Set one invalid value and one valid value for the scale and waitUntilRenderFinished parameters of the createFromComponent interface
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0680', Level.LEVEL3, async (done: Function) => {
@@ -437,10 +437,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0690
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0690
-     * @tc.desc   : Set both the delay and checkImageStatus parameters of the createFromComponent interface to valid values
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0690', Level.LEVEL3, async (done: Function) => {
@@ -459,10 +459,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0710
-     * @tc.desc   : Set one valid value and one invalid value for the delay and checkImageStatus parameters of the createFromComponent interface
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0710', Level.LEVEL3, async (done: Function) => {
@@ -481,10 +481,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0720
-     * @tc.desc   : Set one invalid value and one valid value for the delay and checkImageStatus parameters of the createFromComponent interface
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0720', Level.LEVEL3, async (done: Function) => {
@@ -503,10 +503,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0700
-     * @tc.desc   : Set both the delay and checkImageStatus parameters of the createFromComponent interface to invalid values
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0700', Level.LEVEL3, async (done: Function) => {
@@ -525,10 +525,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0400
-     * @tc.desc   : Set the delay parameter of the createFromComponent interface to -1
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0400', Level.LEVEL3, async (done: Function) => {
@@ -547,10 +547,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0410
-     * @tc.desc   : Set the delay parameter of the createFromComponent interface to 0
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0410', Level.LEVEL3, async (done: Function) => {
@@ -569,10 +569,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0420
-     * @tc.desc   : Set the delay parameter of the createFromComponent interface to 1
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0420', Level.LEVEL3, async (done: Function) => {
@@ -591,10 +591,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0440
-     * @tc.desc   : Set the delay parameter of the createFromComponent interface to 211.11
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0440', Level.LEVEL3, async (done: Function) => {
@@ -613,10 +613,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0460
-     * @tc.desc   : Set the delay parameter of the createFromComponent interface to undefined
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0460', Level.LEVEL3, async (done: Function) => {
@@ -635,10 +635,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0470
-     * @tc.desc   : Set the delay parameter of the createFromComponent interface to null
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0470', Level.LEVEL3, async (done: Function) => {
@@ -657,10 +657,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0500
-     * @tc.desc   : Set the delay parameter of the createFromComponent interface to null
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0500', Level.LEVEL3, async (done: Function) => {
@@ -679,10 +679,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0170
-     * @tc.desc   : Screenshot of the image component with the common property visibility set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0170', Level.LEVEL3, async (done: Function) => {
@@ -701,10 +701,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0180
-     * @tc.desc   : Screenshot of the image component with the common property blur set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0180', Level.LEVEL3, async (done: Function) => {
@@ -723,10 +723,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0190
-     * @tc.desc   : Screenshot of the image component with the common property shadow set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0190', Level.LEVEL3, async (done: Function) => {
@@ -745,10 +745,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0210
-     * @tc.desc   : Screenshot of the image component with the common property BackgroundBrightness set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0210', Level.LEVEL3, async (done: Function) => {
@@ -767,10 +767,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0220
-     * @tc.desc   : Screenshot of the image component with the common property border set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0220', Level.LEVEL3, async (done: Function) => {
@@ -789,10 +789,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0200
-     * @tc.desc   : Screenshot of the image component with the common property rotate set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0200', Level.LEVEL3, async (done: Function) => {
@@ -811,10 +811,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0230
-     * @tc.desc   : Screenshot of the image component with the common property borderImage set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0230', Level.LEVEL3, async (done: Function) => {
@@ -833,10 +833,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0240
-     * @tc.desc   : Screenshot of the image component with the common property opacity set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0240', Level.LEVEL3, async (done: Function) => {
@@ -855,10 +855,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0250
-     * @tc.desc   : Screenshot of the image component with the common property overlay set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0250', Level.LEVEL3, async (done: Function) => {
@@ -877,10 +877,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0260
-     * @tc.desc   : Screenshot of the image component with the common property grayscale set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0260', Level.LEVEL3, async (done: Function) => {
@@ -899,10 +899,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0270
-     * @tc.desc   : Screenshot of the image component with the common property clipShape set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0270', Level.LEVEL3, async (done: Function) => {
@@ -921,10 +921,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0280
-     * @tc.desc   : Screenshot of the image component with the common property foregroundBlurStyle set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0280', Level.LEVEL3, async (done: Function) => {
@@ -942,52 +942,11 @@ export default function SnapshotComponentContent() {
     })
 
     /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0320
-     * @tc.desc   : Screenshot of the image component with the common property invert set
-     * @tc.size   : MediumTest
-     * @tc.type   : Function
-     * @tc.level  : 3
-     */
-    // it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0320', Level.LEVEL3, async (done: Function) => {
-    //   Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0320 start.`);
-    //   Settings.createWindow("testability/pages/SnapshotComponentContent/SnapshotComponentContent0320")
-    //   let driver:Driver = Driver.create();
-    //   await driver.waitForIdle(500,2000)
-    //   let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
-    //   await Button1.click();
-    //   await driver.waitForIdle(500,2000)
-    //   windowSnap.snapShot()
-    //   await Utils.sleep(1000)
-    //   Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0320 finish.`);
-    //   done()
-    // })
-
-    it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0320', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0320 start.`);
-      Settings.createWindow("testability/pages/SnapshotComponentContent/SnapshotComponentContent0320");
-      let driver: Driver = Driver.create();
-      await driver.waitForIdle(1000, 5000); // 增加最大等待时间到 5 秒
-      let Button1: Component = await driver.waitForComponent(ON.id('btn'), 3000); // 最长等3秒
-      if (!Button1) {
-        Logger.error('TEST', 'Button with id "btn" not found!');
-        done(); // 结束测试，避免后续报错
-        return;
-      }
-      await Button1.click(); // 确保 Button1 不是 null 再点击
-      await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot();
-      await Utils.sleep(1000);
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0320 finish.`);
-      done();
-    });
-
-    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0110
-     * @tc.desc   : Get a screenshot of the list component that exceeds the parent component's range
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0110', Level.LEVEL3, async (done: Function) => {
@@ -1006,10 +965,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0130
-     * @tc.desc   : Get a screenshot of the button component
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0130', Level.LEVEL3, async (done: Function) => {
@@ -1028,10 +987,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0140
-     * @tc.desc   : Get a screenshot of the textinput component
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0140', Level.LEVEL3, async (done: Function) => {
@@ -1050,10 +1009,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0150
-     * @tc.desc   : Get a screenshot of the custom component
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0150', Level.LEVEL3, async (done: Function) => {
@@ -1077,10 +1036,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0120
-     * @tc.desc   : Get a screenshot of the video component
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0120', Level.LEVEL3, async (done: Function) => {
@@ -1099,10 +1058,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0300
-     * @tc.desc   : Screenshot of the text component with the common property foregroundColor set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0300', Level.LEVEL3, async (done: Function) => {
@@ -1121,10 +1080,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0290
-     * @tc.desc   : Screenshot of the image component with the common property colorBlend set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0290', Level.LEVEL3, async (done: Function) => {
@@ -1143,10 +1102,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0310
-     * @tc.desc   : Screenshot of the image component with the common property hueRotate set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0310', Level.LEVEL3, async (done: Function) => {
@@ -1165,10 +1124,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0330
-     * @tc.desc   : Screenshot of the button component with the common property enable set
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0330', Level.LEVEL3, async (done: Function) => {
@@ -1187,10 +1146,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0340
-     * @tc.desc   : ComponentContent uses the constructor constructor(uiContext: UIContext, builder: WrappedBuilder<[]>) for screenshotting
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0340', Level.LEVEL3, async (done: Function) => {
@@ -1209,10 +1168,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0350
-     * @tc.desc   : ComponentContent uses the constructor constructor(uiContext: UIContext, builder: WrappedBuilder<[T]>, args: T) for screenshotting
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0350', Level.LEVEL3, async (done: Function) => {
@@ -1236,10 +1195,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0360
-     * @tc.desc   : ComponentContent uses the constructor constructor(uiContext: UIContext, builder: WrappedBuilder<[T]>, args: T, options: BuildOptions) for screenshotting
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0360', Level.LEVEL3, async (done: Function) => {
@@ -1263,10 +1222,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0370
-     * @tc.desc   : Take a screenshot of ComponentContent after calling update.
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0370', Level.LEVEL3, async (done: Function) => {
@@ -1285,10 +1244,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0380
-     * @tc.desc   : Take a screenshot of ComponentContent after calling reuse and recycle.
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0380', Level.LEVEL3, async (done: Function) => {
@@ -1307,10 +1266,10 @@ export default function SnapshotComponentContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0390
-     * @tc.desc   : Take a screenshot of ComponentContent after calling dispose.
-     * @tc.size   : MediumTest
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0390', Level.LEVEL3, async (done: Function) => {

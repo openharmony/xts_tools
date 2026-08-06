@@ -43,6 +43,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0014
      * @tc.name   : QRCode组件键盘Tab和上下键测试
+     * @tc.desc   : Verify media keyboard event interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -73,6 +74,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0015
      * @tc.name   : PatternLock组件键盘Tab和方向键测试
+     * @tc.desc   : Verify media keyboard event interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -109,6 +111,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0010
      * @tc.name   : Badge组件包含TextInput焦点测试-点击方式
+     * @tc.desc   : Verify media node message interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -138,6 +141,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0011
      * @tc.name   : Badge组件包含TextInput焦点测试-Tab键方式
+     * @tc.desc   : Verify media node message interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,6 +169,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0012
      * @tc.name   : Badge组件包含Image焦点测试-点击方式
+     * @tc.desc   : Verify media node message interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -194,6 +199,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0013
      * @tc.name   : Badge组件包含Image焦点测试-Tab键方式
+     * @tc.desc   : Verify media node message interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -221,6 +227,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0014
      * @tc.name   : Counter组件包含TextInput焦点测试-点击方式
+     * @tc.desc   : Verify media node message interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -250,6 +257,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0015
      * @tc.name   : Counter组件包含TextInput焦点测试-Tab键方式
+     * @tc.desc   : Verify media node message interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -277,6 +285,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0016
      * @tc.name   : Counter组件包含Image焦点测试-点击方式
+     * @tc.desc   : Verify media node message interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -306,6 +315,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0017
      * @tc.name   : Counter组件包含Image焦点测试-Tab键方式
+     * @tc.desc   : Verify media node message interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -333,6 +343,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0018
      * @tc.name   : Counter组件包含多个子组件焦点测试
+     * @tc.desc   : Verify media node message interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -372,6 +383,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0019
      * @tc.name   : Gauge组件包含TextInput焦点测试-点击方式
+     * @tc.desc   : Verify media node message interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -401,6 +413,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0020
      * @tc.name   : Gauge组件包含TextInput焦点测试-Tab键方式
+     * @tc.desc   : Verify media node message interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -428,6 +441,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0021
      * @tc.name   : Gauge组件包含Image焦点测试-点击方式
+     * @tc.desc   : Verify media node message interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -457,6 +471,7 @@ export default function KeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0022
      * @tc.name   : Gauge组件包含Image焦点测试-Tab键方式
+     * @tc.desc   : Verify media node message interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

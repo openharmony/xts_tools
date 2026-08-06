@@ -37,6 +37,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0530
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0530', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0530 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0530');
@@ -50,6 +58,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0540
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0540', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0540 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0540');
@@ -63,6 +79,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0550
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0550', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0550 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0550');
@@ -76,6 +100,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0560
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0560', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0560 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0560');
@@ -89,6 +121,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0570
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0570', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0570 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0570');
@@ -102,6 +142,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0580
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0580', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0580 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0580');
@@ -115,6 +163,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0590
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0590', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0590 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0590');
@@ -128,6 +184,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0600
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0600', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0600 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0600');
@@ -141,6 +205,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0610
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0610', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0610 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0610');
@@ -154,6 +226,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0620
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0620', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0620 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0620');
@@ -167,6 +247,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0630
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0630', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0630 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0630');
@@ -180,6 +268,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0640
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0640', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0640 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0640');
@@ -193,6 +289,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0650
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0650', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0650 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0650');
@@ -206,6 +310,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0660
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0660', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0660 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0660');
@@ -219,6 +331,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0670
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0670', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0670 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0670');
@@ -232,6 +352,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0680
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0680', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0680 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0680');
@@ -245,6 +373,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0690
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0690', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0690 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0690');
@@ -258,6 +394,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0700
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0700', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0700 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0700');
@@ -271,6 +415,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0710
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0710', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0710 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0710');
@@ -284,6 +436,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0720
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0720', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0720 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0720');
@@ -297,6 +457,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0730
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0730', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0730 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0730');
@@ -310,6 +478,14 @@ export default function UiCustomDrawingGraphicdrawTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0740
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0740', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0740 start.`);
       Settings.createWindow('testability/pages/UiCustomDrawingGraphicdraw/UiCustomDrawingGraphicdraw0740');

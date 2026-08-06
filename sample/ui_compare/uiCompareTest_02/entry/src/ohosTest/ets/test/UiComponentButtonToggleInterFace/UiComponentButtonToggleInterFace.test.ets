@@ -55,13 +55,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0120
-       * @tc.name    Toggle sets both selectedColor and backgroundColor
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0120
+     * @tc.name   : Toggle sets both selectedColor and backgroundColor
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace01")
@@ -81,13 +81,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0150
-       * @tc.name    The Toggle property selectedColor is RGB color
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0150
+     * @tc.name   : The Toggle property selectedColor is RGB color
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace02")
@@ -100,13 +100,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0160
-       * @tc.name    The Toggle property selectedColor is string type
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0160
+     * @tc.name   : The Toggle property selectedColor is string type
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace03")
@@ -119,13 +119,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0140
-       * @tc.name    The Toggle property selectedColor is rgba
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0140
+     * @tc.name   : The Toggle property selectedColor is rgba
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace04")
@@ -138,13 +138,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0190
-       * @tc.name    The Toggle property selectedColor to  0xff0000
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0190
+     * @tc.name   : The Toggle property selectedColor to  0xff0000
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace05")
@@ -157,13 +157,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0180
-       * @tc.name    The Toggle property selectedColor to  Color.Red
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0180
+     * @tc.name   : The Toggle property selectedColor to  Color.Red
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace06")
@@ -176,13 +176,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0130
-       * @tc.name    The Toggle property selectedColor to  Resource
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0130
+     * @tc.name   : The Toggle property selectedColor to  Resource
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace07")
@@ -195,13 +195,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0290
-       * @tc.name    The Toggle property switchPointColor to  Color.White
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0290
+     * @tc.name   : The Toggle property switchPointColor to  Color.White
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0290 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace08")
@@ -214,13 +214,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0270
-       * @tc.name    The Toggle property switchPointColor to  rgb(255, 255, 255)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0270
+     * @tc.name   : The Toggle property switchPointColor to  rgb(255, 255, 255)
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0270 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace09")
@@ -233,13 +233,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0260
-       * @tc.name    The Toggle property switchPointColor to  rgba(255, 255, 255,1)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0260
+     * @tc.name   : The Toggle property switchPointColor to  rgba(255, 255, 255,1)
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0260 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace10")
@@ -252,13 +252,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0280
-       * @tc.name    The Toggle property switchPointColor to #ffffff
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0280
+     * @tc.name   : The Toggle property switchPointColor to #ffffff
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0280', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0280 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace11")
@@ -271,13 +271,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0310
-       * @tc.name    The Toggle property switchPointColor to illegal string
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0310
+     * @tc.name   : The Toggle property switchPointColor to illegal string
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0310 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace12")
@@ -290,13 +290,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0300
-       * @tc.name    The Toggle property switchPointColor to resource
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0300
+     * @tc.name   : The Toggle property switchPointColor to resource
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0300 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace13")
@@ -309,13 +309,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0320
-       * @tc.name    The Toggle property switchPointColor to 0xffffff
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0320
+     * @tc.name   : The Toggle property switchPointColor to 0xffffff
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0320 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace14")
@@ -328,13 +328,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0080
-       * @tc.name    ToggleType.Switch type check
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0080
+     * @tc.name   : ToggleType.Switch type check
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace15")
@@ -347,13 +347,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0110
-       * @tc.name    Toggle parameter default validation
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0110
+     * @tc.name   : Toggle parameter default validation
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace16")
@@ -366,13 +366,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0020
-       * @tc.name    Toggle.Button does not have built-in Text text validation
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0020
+     * @tc.name   : Toggle.Button does not have built-in Text text validation
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace17")
@@ -385,13 +385,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0030
-       * @tc.name    ToggleType.Buttontype check
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0030
+     * @tc.name   : ToggleType.Buttontype check
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace18")
@@ -404,13 +404,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0050
-       * @tc.name    ToggleType.Checkbox check
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0050
+     * @tc.name   : ToggleType.Checkbox check
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace19")
@@ -423,13 +423,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0210
-       * @tc.name    Toggle component isOn state verification
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0210
+     * @tc.name   : Toggle component isOn state verification
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0210 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace20")
@@ -445,13 +445,13 @@ export default function UiComponentButtonToggleInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0350
-       * @tc.name    Toggle component set type to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0350
+     * @tc.name   : Toggle component set type to undefined
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0350 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace21")

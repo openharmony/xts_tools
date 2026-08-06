@@ -43,11 +43,12 @@ export default function UiComponentMediaVideoHspTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0010
-     * @tc.name: VideoHsp0010
-     * @tc.desc: hap引用自身hap视频资源进行视频播放
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0010
+     * @tc.name   : VideoHsp0010
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0010', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0010 START')
@@ -76,11 +77,12 @@ export default function UiComponentMediaVideoHspTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0040
-     * @tc.name: VideoHsp0040
-     * @tc.desc: hap引用hsp视频页面进行视频播放，替换hsp包后正常播放
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0040
+     * @tc.name   : VideoHsp0040
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0040', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0040 START')
@@ -105,11 +107,12 @@ export default function UiComponentMediaVideoHspTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0050
-     * @tc.name: VideoHsp0050
-     * @tc.desc: hap引用hsp视频页面，替换异常hsp包后视频无法播放
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0050
+     * @tc.name   : VideoHsp0050
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0050', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0050 START')
@@ -129,11 +132,12 @@ export default function UiComponentMediaVideoHspTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0060
-     * @tc.name: VideoHsp0060
-     * @tc.desc: 同名视频资源同时存在于hap和hsp时，使用hap自身资源
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0060
+     * @tc.name   : VideoHsp0060
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0060', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0060 START')
@@ -158,11 +162,12 @@ export default function UiComponentMediaVideoHspTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0070
-     * @tc.name: VideoHsp0070
-     * @tc.desc: 使用$r方式引用hsp视频资源时，资源获取不到
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0070
+     * @tc.name   : VideoHsp0070
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0070', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0070 START')
@@ -182,11 +187,12 @@ export default function UiComponentMediaVideoHspTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0080
-     * @tc.name: VideoHsp0080
-     * @tc.desc: hsp多层嵌套引用视频页面，视频正常播放
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0080
+     * @tc.name   : VideoHsp0080
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0080', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0080 START')
@@ -211,11 +217,12 @@ export default function UiComponentMediaVideoHspTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0090
-     * @tc.name: VideoHsp0090
-     * @tc.desc: 一个hap页面引用20个hsp视频资源
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0090
+     * @tc.name   : VideoHsp0090
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0090', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0090 START')
@@ -235,11 +242,12 @@ export default function UiComponentMediaVideoHspTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0100
-     * @tc.name: VideoHsp0100
-     * @tc.desc: hap引用hsp页面，hsp页面中有20个视频资源
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0100
+     * @tc.name   : VideoHsp0100
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0100', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0100 START')
@@ -259,11 +267,12 @@ export default function UiComponentMediaVideoHspTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0110
-     * @tc.name: VideoHsp0110
-     * @tc.desc: hap引用20个hsp页面，每个hsp包含单个视频
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0110
+     * @tc.name   : VideoHsp0110
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0110', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0110 START')

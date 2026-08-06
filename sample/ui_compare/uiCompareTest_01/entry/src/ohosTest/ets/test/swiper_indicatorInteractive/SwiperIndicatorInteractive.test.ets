@@ -46,6 +46,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ARROWHEAD_0100
      * @tc.name   : Set the arrowColor property of displayArrow() to rgb(2, 184, 17), verify that the arrow color is green.
+     * @tc.desc   : Verify scroll swiper arrowhead interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -76,6 +77,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ARROWHEAD_0970
      * @tc.name   : Set the first parameter of displayArrow() to true, verify that the arrows are enabled.
+     * @tc.desc   : Verify scroll swiper arrowhead interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -106,6 +108,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACEMIX_0030
      * @tc.name   : Delete the fifth page, verify that the current display page is the first page (index 0).
+     * @tc.desc   : Verify scroll swiper interfacemix interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -136,6 +139,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACEMIX_0040
      * @tc.name   : Add a page at index 0, verify that the current display page is the newly added page.
+     * @tc.desc   : Verify scroll swiper interfacemix interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -166,6 +170,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_SWIPER_INDICATORINTERACTIVE_0050
      * @tc.name   : Set indicatorInteractive to true and disableSwipe to true, verify that both swiper and navigation points are not interactive.
+     * @tc.desc   : Verify ArkUI swiper indicatorinteractive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -200,6 +205,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ UX_0030
      * @tc.name   : Set displayCount to (3, false), verify that navigation points move one by one.
+     * @tc.desc   : Verify scroll swiper  ux interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -230,6 +236,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ UX_0090
      * @tc.name   : Set duration to 2000ms, verify that navigation points move with 2000ms duration.
+     * @tc.desc   : Verify scroll swiper  ux interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -260,6 +267,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ADD_0500
      * @tc.name   : Do not set autoPlay, verify that child components do not auto-play.
+     * @tc.desc   : Verify scroll swiper add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -290,6 +298,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_MARGIN_0010
      * @tc.name   : Set index to 0, verify the margin layout and circular swiping.
+     * @tc.desc   : Verify scroll swiper margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -324,6 +333,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_SWIPER_INDICATORINTERACTIVE_0070
      * @tc.name   : Set indicatorInteractive to true and vertical to true, verify that the swiper is vertical and navigation points are interactive.
+     * @tc.desc   : Verify ArkUI swiper indicatorinteractive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -354,6 +364,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ UX_0480
      * @tc.name   : Set loop to false and autoPlay to true, verify that playback stops when reaching edge pages.
+     * @tc.desc   : Verify scroll swiper  ux interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -384,6 +395,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ADD_0520
      * @tc.name   : Set autoPlay to false, verify that child components do not auto-play.
+     * @tc.desc   : Verify scroll swiper add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -414,6 +426,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_MARGIN_0020
      * @tc.name   : Set index to 0, verify the margin layout with 1,2,3 sequence and 4 at the end.
+     * @tc.desc   : Verify scroll swiper margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -448,6 +461,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_MARGIN_0110
      * @tc.name   : Set index to 3, verify the margin layout with 4,1,2 sequence and 3 at start and end.
+     * @tc.desc   : Verify scroll swiper margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -482,6 +496,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_MARGIN_0080
      * @tc.name   : Set index to 1, verify the margin layout with 2,3,4 sequence and 1 at start and end.
+     * @tc.desc   : Verify scroll swiper margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -516,6 +531,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ACROSS_0180
      * @tc.name   : Test displayCount(2, false), loop(false), changeIndex(7, false) - jump to page 8, showing 7th and 8th sub-components, no animation.
+     * @tc.desc   : Verify scroll swiper across interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -546,6 +562,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ACROSS_0140
      * @tc.name   : Test displayCount(1, false), loop(false), changeIndex(7, false) - jump to page 8, no animation.
+     * @tc.desc   : Verify scroll swiper across interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -576,6 +593,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ACROSS_0150
      * @tc.name   : Test displayCount(1, false), loop(false), changeIndex(7, true) - jump to page 8, with animation.
+     * @tc.desc   : Verify scroll swiper across interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -606,6 +624,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ACROSS_0190
      * @tc.name   : Test displayCount(2, false), loop(false), changeIndex(7, true) - jump to page 8, showing 7th and 8th sub-components, with animation.
+     * @tc.desc   : Verify scroll swiper across interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -636,6 +655,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ACROSS_0160
      * @tc.name   : Test displayCount(1, false), loop(true), changeIndex(4, false) - jump to page 5, no animation.
+     * @tc.desc   : Verify scroll swiper across interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -666,6 +686,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ACROSS_0200
      * @tc.name   : Test displayCount(2, false), loop(true), changeIndex(4, false) - jump to page 5, showing 5th and 6th sub-components, no animation.
+     * @tc.desc   : Verify scroll swiper across interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -696,6 +717,7 @@ export default function swiperIndicatorInteractiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ACROSS_0170
      * @tc.name   : Test displayCount(1, false), loop(true), changeIndex(4, true) - jump to page 5, with animation.
+     * @tc.desc   : Verify scroll swiper across interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -39,6 +39,14 @@ export default function ToolchainDirecthsp() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0010
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_DIRECTHSP_0010', 0, async (done: Function) => {
       Logger.info(TAG, 'SUB_ACE_TOOLCHAIN_DIRECTHSP_0010 start.');
       Settings.createWindow('testability/pages/ToolchainDirecthsp/Directhsp0010');
@@ -55,6 +63,14 @@ export default function ToolchainDirecthsp() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0020
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_DIRECTHSP_0020', 0, async (done: Function) => {
       Logger.info(TAG, 'SUB_ACE_TOOLCHAIN_DIRECTHSP_0020 start.');
       Settings.createWindow('testability/pages/ToolchainDirecthsp/Directhsp0020');
@@ -71,6 +87,14 @@ export default function ToolchainDirecthsp() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0030
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_DIRECTHSP_0030', 0, async (done: Function) => {
       Logger.info(TAG, 'SUB_ACE_TOOLCHAIN_DIRECTHSP_0030 start.');
       Settings.createWindow('testability/pages/ToolchainDirecthsp/Directhsp0030');
@@ -87,6 +111,14 @@ export default function ToolchainDirecthsp() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0040
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_DIRECTHSP_0040', 0, async (done: Function) => {
       Logger.info(TAG, 'SUB_ACE_TOOLCHAIN_DIRECTHSP_0040 start.');
       Settings.createWindow('testability/pages/ToolchainDirecthsp/Directhsp0040');
@@ -103,6 +135,14 @@ export default function ToolchainDirecthsp() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0050
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_DIRECTHSP_0050', 0, async (done: Function) => {
       Logger.info(TAG, 'SUB_ACE_TOOLCHAIN_DIRECTHSP_0050 start.');
       Settings.createWindow('testability/pages/ToolchainDirecthsp/Directhsp0050');
@@ -119,6 +159,14 @@ export default function ToolchainDirecthsp() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0060
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_DIRECTHSP_0060', 0, async (done: Function) => {
       Logger.info(TAG, 'SUB_ACE_TOOLCHAIN_DIRECTHSP_0060 start.');
       Settings.createWindow('testability/pages/ToolchainDirecthsp/Directhsp0060');
@@ -135,6 +183,14 @@ export default function ToolchainDirecthsp() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0070
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_DIRECTHSP_0070', 0, async (done: Function) => {
       Logger.info(TAG, 'SUB_ACE_TOOLCHAIN_DIRECTHSP_0070 start.');
       Settings.createWindow('testability/pages/ToolchainDirecthsp/Directhsp0070');
@@ -151,6 +207,14 @@ export default function ToolchainDirecthsp() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0080
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_DIRECTHSP_0080', 0, async (done: Function) => {
       Logger.info(TAG, 'SUB_ACE_TOOLCHAIN_DIRECTHSP_0080 start.');
       Settings.createWindow('testability/pages/ToolchainDirecthsp/Directhsp0080');
@@ -167,6 +231,14 @@ export default function ToolchainDirecthsp() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0090
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_DIRECTHSP_0090', 0, async (done: Function) => {
       Logger.info(TAG, 'SUB_ACE_TOOLCHAIN_DIRECTHSP_0090 start.');
       Settings.createWindow('testability/pages/ToolchainDirecthsp/Directhsp0090');
@@ -183,6 +255,14 @@ export default function ToolchainDirecthsp() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0100
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_DIRECTHSP_0100', 0, async (done: Function) => {
       Logger.info(TAG, 'SUB_ACE_TOOLCHAIN_DIRECTHSP_0100 start.');
       Settings.createWindow('testability/pages/ToolchainDirecthsp/Directhsp0100');

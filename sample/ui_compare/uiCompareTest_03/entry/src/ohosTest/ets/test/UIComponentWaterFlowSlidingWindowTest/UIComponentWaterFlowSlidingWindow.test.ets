@@ -59,10 +59,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0010
-     * @tc.desc    Movable window layout sets scrollbar status to ON
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0010
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0010';
@@ -83,10 +85,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0020
-     * @tc.desc    Movable window layout sets scrollbar status to Off
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0020
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0020';
@@ -107,10 +111,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0030
-     * @tc.desc    Movable window layout sets scrollbar status to Auto
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0030
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0030';
@@ -131,10 +137,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0040
-     * @tc.desc    Movable window layout dynamically changes scrollbar status
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0040
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0040';
@@ -157,10 +165,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0050
-     * @tc.desc    Movable window layout, switch portrait/landscape, finger swipe/mouse click scrollbar
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0050
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0050';
@@ -217,10 +227,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0060
-     * @tc.desc    Movable window layout dynamically changes scrollbar width
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0060
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0060';
@@ -249,10 +261,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0070
-     * @tc.desc    Movable window layout dynamically changes scrollbar color
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0070
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0070';
@@ -275,10 +289,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0080
-     * @tc.desc    Movable window layout add/delete child nodes to observe scrollbar adaptation
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0080
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0080';
@@ -302,10 +318,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0090
-     * @tc.desc    Movable window layout sets grouping and sets scrollbar
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0090
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0090';
@@ -326,10 +344,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0100
-     * @tc.desc    Movable window layout adds scrollbar state via modifier
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0100
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0100';
@@ -350,10 +370,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0110
-     * @tc.desc    Movable window layout scrollTo parameter test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0110
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0110';
@@ -380,10 +402,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0120
-     * @tc.desc    Movable window layout repeatedly calls different jump distances
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0120
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0120';
@@ -410,10 +434,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0130
-     * @tc.desc    Movable window layout scrollTo out-of-bounds rebound
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0130
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0130';
@@ -436,10 +462,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0140
-     * @tc.desc    Movable window layout controller jump then check currentOffset
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0140
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0140';
@@ -465,10 +493,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0170
-     * @tc.desc    Movable window layout sets scrollbar status to null
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0170
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0170';
@@ -489,10 +519,12 @@ export default function UIComponentWaterFlowSlidingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0180
-     * @tc.desc    Movable window layout sets scrollbar status to undefined
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0180
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0180';

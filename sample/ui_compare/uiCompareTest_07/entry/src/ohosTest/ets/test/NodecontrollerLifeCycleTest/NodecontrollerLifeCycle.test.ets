@@ -42,9 +42,9 @@ export default function NodecontrollerLifeCycle() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0010
-     * @tc.name   : SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0010
-     * @tc.type   : function
-     * @tc.desc   : When NodeContainer is attached to the tree, the NodeController's onAttach is triggered first (with nodeController already bound).
+     * @tc.name   : Action nodecontroller life cycle
+     * @tc.desc   : Verify action nodecontroller life cycle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -72,9 +72,9 @@ export default function NodecontrollerLifeCycle() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0020
-     * @tc.name   : SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0020
-     * @tc.type   : function
-     * @tc.desc   : NodeContainer上树时按顺序触发绑定的NodeController的onWillBind、onBind、makeNode（已绑定nodeController）
+     * @tc.name   : Action nodecontroller life cycle
+     * @tc.desc   : Verify action nodecontroller life cycle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -102,9 +102,9 @@ export default function NodecontrollerLifeCycle() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0040
-     * @tc.name   : SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0040
-     * @tc.type   : function
-     * @tc.desc   : NodeContainer下树时按顺序触发绑定的NodeController的aboutToDisappear、onWillUnbind、onUnbind（已绑定nodeController）
+     * @tc.name   : Action nodecontroller life cycle
+     * @tc.desc   : Verify action nodecontroller life cycle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -134,9 +134,9 @@ export default function NodecontrollerLifeCycle() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0050
-     * @tc.name   : SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0050
-     * @tc.type   : function
-     * @tc.desc   : nodeController跟nodeContainer解绑时按顺序触发onWillUnbind、onUnbind
+     * @tc.name   : Action nodecontroller life cycle
+     * @tc.desc   : Verify action nodecontroller life cycle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -166,9 +166,9 @@ export default function NodecontrollerLifeCycle() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0140
-     * @tc.name   : SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0140
-     * @tc.type   : function
-     * @tc.desc   : 应用关闭时，处于树上的nodeController的会触发下树和解绑回调
+     * @tc.name   : Action nodecontroller life cycle
+     * @tc.desc   : Verify action nodecontroller life cycle interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

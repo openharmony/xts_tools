@@ -57,13 +57,13 @@ export default function UiArkuiProgressMirror() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0030
-       * @tc.name    Ring-type Progress component LOADING state
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0030
+     * @tc.name   : Ring-type Progress component LOADING state
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0030 start.`);
       Settings.createWindow("testability/pages/UiArkuiProgressMirror/UiArkuiProgressMirror01")
@@ -82,13 +82,13 @@ export default function UiArkuiProgressMirror() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0020
-       * @tc.name    Progress component foreground color set gradient
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0020
+     * @tc.name   : Progress component foreground color set gradient
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0020 start.`);
       Settings.createWindow("testability/pages/UiArkuiProgressMirror/UiArkuiProgressMirror02")
@@ -107,13 +107,13 @@ export default function UiArkuiProgressMirror() {
     })  
 
     /*
-       * @tc.number  SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0060
-       * @tc.name    Progress component text display effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0060
+     * @tc.name   : Progress component text display effect
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0060 start.`);
       Settings.createWindow("testability/pages/UiArkuiProgressMirror/UiArkuiProgressMirror03")
@@ -132,13 +132,13 @@ export default function UiArkuiProgressMirror() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0010
-       * @tc.name    Progress component Value change
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0010
+     * @tc.name   : Progress component Value change
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0010 start.`);
       Settings.createWindow("testability/pages/UiArkuiProgressMirror/UiArkuiProgressMirror04")
@@ -171,13 +171,13 @@ export default function UiArkuiProgressMirror() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0070
-       * @tc.name    Progress component custom form mirroring capability
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0070
+     * @tc.name   : Progress component custom form mirroring capability
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0070 start.`);
       Settings.createWindow("testability/pages/UiArkuiProgressMirror/UiArkuiProgressMirror05")
@@ -210,13 +210,13 @@ export default function UiArkuiProgressMirror() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0050
-       * @tc.name    Progress component scan effect mirroring capability
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0050
+     * @tc.name   : Progress component scan effect mirroring capability
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0050 start.`);
       Settings.createWindow("testability/pages/UiArkuiProgressMirror/UiArkuiProgressMirror06")
@@ -235,13 +235,13 @@ export default function UiArkuiProgressMirror() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0040
-       * @tc.name    Progress component smooth effect mirroring capability
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0040
+     * @tc.name   : Progress component smooth effect mirroring capability
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0040 start.`);
       Settings.createWindow("testability/pages/UiArkuiProgressMirror/UiArkuiProgressMirror07")
@@ -274,13 +274,13 @@ export default function UiArkuiProgressMirror() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0090
-       * @tc.name    Progress component shadow effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0090
+     * @tc.name   : Progress component shadow effect
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0090 start.`);
       Settings.createWindow("testability/pages/UiArkuiProgressMirror/UiArkuiProgressMirror08")

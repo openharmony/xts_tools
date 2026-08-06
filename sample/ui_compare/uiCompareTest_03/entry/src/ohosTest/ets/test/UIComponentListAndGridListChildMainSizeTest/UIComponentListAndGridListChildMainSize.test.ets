@@ -59,10 +59,12 @@ export default function UIComponentListAndGridListChildMainSize() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0100
-     * @tc.desc    Set scrollToIndex smooth parameter to true
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0100
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0100';
@@ -81,10 +83,12 @@ export default function UIComponentListAndGridListChildMainSize() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0130
-     * @tc.desc    ScrollTo animates to specified position
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0130
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0130';
@@ -103,10 +107,12 @@ export default function UIComponentListAndGridListChildMainSize() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0170
-     * @tc.desc    Combine start number with optional childrenSize Array<number>
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0170
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0170';
@@ -123,10 +129,12 @@ export default function UIComponentListAndGridListChildMainSize() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0180
-     * @tc.desc    Configure start number deleteCount and optional childrenSize Array<number> together
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0180
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0180';
@@ -143,10 +151,12 @@ export default function UIComponentListAndGridListChildMainSize() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0200
-     * @tc.desc    Combine update and splice to modify items
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0200
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0200';
@@ -165,10 +175,12 @@ export default function UIComponentListAndGridListChildMainSize() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0220
-     * @tc.desc    Batch update item heights intermittently using splice
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0220
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0220';
@@ -189,10 +201,12 @@ export default function UIComponentListAndGridListChildMainSize() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0470
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0470
-     * @tc.desc    Set scrollToItemInGroup smooth parameter to true
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0470
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0470', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0470';

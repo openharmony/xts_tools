@@ -43,6 +43,7 @@ export default function ImageModifierTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0020
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify the interface under test: Modifier ，Image component.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ImageModifierTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0023
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +81,7 @@ export default function ImageModifierTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0032
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -107,6 +110,7 @@ export default function ImageModifierTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0033
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -135,6 +139,7 @@ export default function ImageModifierTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0034
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -154,6 +159,7 @@ export default function ImageModifierTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0035
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -173,6 +179,7 @@ export default function ImageModifierTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0036
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -191,6 +198,7 @@ export default function ImageModifierTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0037
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -209,6 +217,7 @@ export default function ImageModifierTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0051
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -237,6 +246,7 @@ export default function ImageModifierTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0054
      * @tc.name   : Image with modifier
+     * @tc.desc   : Verify media Image modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

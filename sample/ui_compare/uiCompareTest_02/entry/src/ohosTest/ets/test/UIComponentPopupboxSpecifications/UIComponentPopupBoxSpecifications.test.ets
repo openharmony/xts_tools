@@ -55,13 +55,13 @@ export default function UIComponentPopupBoxSpecifications() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0490
-       * @tc.name    Popup Appearing Simultaneously with Other Pop-ups - Custom Popup
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0490
+     * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - Custom Popup
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0490', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0490 start.`);
       Settings.createWindow("testability/pages/UIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications01")
@@ -83,13 +83,13 @@ export default function UIComponentPopupBoxSpecifications() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0500
-       * @tc.name    Popup Appearing Simultaneously with Other Pop-ups - Alert Dialog
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0500
+     * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - Alert Dialog
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0500', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0500 start.`);
       Settings.createWindow("testability/pages/UIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications02")
@@ -110,13 +110,13 @@ export default function UIComponentPopupBoxSpecifications() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0510
-       * @tc.name    Popup Appearing Simultaneously with Other Pop-ups - Action Menu
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0510
+     * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - Action Menu
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0510', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0510 start.`);
       Settings.createWindow("testability/pages/UIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications03")
@@ -138,13 +138,13 @@ export default function UIComponentPopupBoxSpecifications() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0520
-       * @tc.name    Popup Appearing Simultaneously with Other Pop-ups - Date Picker
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0520
+     * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - Date Picker
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0520', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0520 start.`);
       Settings.createWindow("testability/pages/UIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications04")
@@ -166,13 +166,13 @@ export default function UIComponentPopupBoxSpecifications() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0530
-       * @tc.name    Popup Appearing Simultaneously with Other Pop-ups - Time Picker
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0530
+     * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - Time Picker
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0530', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0530 start.`);
       Settings.createWindow("testability/pages/UIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications05")
@@ -194,13 +194,13 @@ export default function UIComponentPopupBoxSpecifications() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0540
-       * @tc.name    Popup Appearing Simultaneously with Other Pop-ups - Text Picker
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0540
+     * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - Text Picker
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0540', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0540 start.`);
       Settings.createWindow("testability/pages/UIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications06")
@@ -222,13 +222,13 @@ export default function UIComponentPopupBoxSpecifications() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0550
-       * @tc.name    Popup Appearing Simultaneously with Other Pop-ups - Prompt
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0550
+     * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - Prompt
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0550', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0550 start.`);
       Settings.createWindow("testability/pages/UIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications07")
@@ -250,13 +250,13 @@ export default function UIComponentPopupBoxSpecifications() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0560
-       * @tc.name    Popup Appearing Simultaneously with Other Pop-ups - PromptAction
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0560
+     * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - PromptAction
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0560', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0560 start.`);
       Settings.createWindow("testability/pages/UIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications08")

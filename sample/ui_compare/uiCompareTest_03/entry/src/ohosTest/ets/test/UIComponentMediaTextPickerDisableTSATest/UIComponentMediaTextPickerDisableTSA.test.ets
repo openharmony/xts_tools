@@ -63,10 +63,12 @@ export default function UIComponentMediaTextPickerDisableTSA() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0014
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0014
-     * @tc.desc    TextPicker disables animation, enforces defaultTextStyle (font-size ignored if min<max), limits to 1 line with MIN_FONT_SIZE_FIRST scaling while keeping other font properties effective
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0014
+     * @tc.name   : Media TextPicker disabletsa
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0014', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0014';
@@ -82,10 +84,12 @@ export default function UIComponentMediaTextPickerDisableTSA() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0027
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0027
-     * @tc.desc    TextPicker configures multi-column with disableTextStyleAnimation=true and .defaultTextStyle({ minFontSize:18, maxFontSize:28, overflow:TextOverflow.Ellipsis }) for display verification
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0027
+     * @tc.name   : Media TextPicker disabletsa
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0027', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0027';

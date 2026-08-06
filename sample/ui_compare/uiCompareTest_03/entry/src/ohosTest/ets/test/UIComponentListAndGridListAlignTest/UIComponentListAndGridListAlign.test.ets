@@ -58,10 +58,12 @@ export default function UIComponentListAndGridListAlign() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0180
-     * @tc.desc    Test rapid horizontal scrolling in List with end alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0180
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0180';
@@ -83,10 +85,12 @@ export default function UIComponentListAndGridListAlign() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0190
-     * @tc.desc    Test slow horizontal scrolling in List with end alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0190
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0190';
@@ -108,10 +112,12 @@ export default function UIComponentListAndGridListAlign() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0220
-     * @tc.desc    Configure edge scroll effects in horizontal List with end alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0220
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0220';
@@ -135,10 +141,12 @@ export default function UIComponentListAndGridListAlign() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0260
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0260
-     * @tc.desc    Test rapid horizontal scrolling in List with start alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0260
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0260';
@@ -160,10 +168,12 @@ export default function UIComponentListAndGridListAlign() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0270
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0270
-     * @tc.desc    Test slow horizontal scrolling in List with start alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0270
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0270';
@@ -185,10 +195,12 @@ export default function UIComponentListAndGridListAlign() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0300
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0300
-     * @tc.desc    Configure edge scroll effects in horizontal List with start alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0300
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0300';
@@ -210,10 +222,12 @@ export default function UIComponentListAndGridListAlign() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0380
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0380
-     * @tc.desc    Test rapid vertical scrolling in List with center alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0380
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0380', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0380';
@@ -235,10 +249,12 @@ export default function UIComponentListAndGridListAlign() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0390
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0390
-     * @tc.desc    Test slow vertical scrolling in List with center alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0390
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0390', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0390';
@@ -260,10 +276,12 @@ export default function UIComponentListAndGridListAlign() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0430
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0430
-     * @tc.desc    Configure edge scroll effects in vertical List with center alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0430
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0430', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0430';
@@ -287,10 +305,12 @@ export default function UIComponentListAndGridListAlign() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0470
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0470
-     * @tc.desc    Test rapid vertical scrolling in List with end alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0470
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0470', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0470';
@@ -312,10 +332,12 @@ export default function UIComponentListAndGridListAlign() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0480
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0480
-     * @tc.desc    Test slow vertical scrolling in List with end alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0480
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0480', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0480';
@@ -337,10 +359,12 @@ export default function UIComponentListAndGridListAlign() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0520
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0520
-     * @tc.desc    Configure edge scroll effects in vertical List with end alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0520
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0520', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0520';
@@ -364,10 +388,12 @@ export default function UIComponentListAndGridListAlign() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0560
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0560
-     * @tc.desc    Test rapid vertical scrolling in List with start alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0560
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0560', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0560';
@@ -389,10 +415,12 @@ export default function UIComponentListAndGridListAlign() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0570
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0570
-     * @tc.desc    Test slow vertical scrolling in List with start alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0570
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0570', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0570';
@@ -414,10 +442,12 @@ export default function UIComponentListAndGridListAlign() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0610
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0610
-     * @tc.desc    Configure edge scroll effects in vertical List with start alignment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0610
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0610', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0610';

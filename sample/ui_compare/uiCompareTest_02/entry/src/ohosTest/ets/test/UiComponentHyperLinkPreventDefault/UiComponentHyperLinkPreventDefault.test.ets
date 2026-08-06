@@ -55,13 +55,13 @@ export default function UiComponentHyperLinkPreventDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0010
-       * @tc.name    The hyperlink component registers preventDefault, which blocks onclick and not touch
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0010
+     * @tc.name   : The hyperlink component registers preventDefault, which blocks onclick and not touch
+     * @tc.desc   : Verify hyperlink preventdefault interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault01")
@@ -77,13 +77,13 @@ export default function UiComponentHyperLinkPreventDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0030
-       * @tc.name    The hyperlink component registers preventDefault, which blocks onclick and touch
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0030
+     * @tc.name   : The hyperlink component registers preventDefault, which blocks onclick and touch
+     * @tc.desc   : Verify hyperlink preventdefault interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault02")
@@ -99,13 +99,13 @@ export default function UiComponentHyperLinkPreventDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0040
-       * @tc.name    The hyperlink component does not register preventDefault
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0040
+     * @tc.name   : The hyperlink component does not register preventDefault
+     * @tc.desc   : Verify hyperlink preventdefault interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault03")
@@ -122,13 +122,13 @@ export default function UiComponentHyperLinkPreventDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0060
-       * @tc.name    The image subcomponent added to the hyperlink component does not register preventDefault
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0060
+     * @tc.name   : The image subcomponent added to the hyperlink component does not register preventDefault
+     * @tc.desc   : Verify hyperlink preventdefault interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault04")
@@ -145,13 +145,13 @@ export default function UiComponentHyperLinkPreventDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0050
-       * @tc.name    Add the image subcomponent to the hyperlink component to register preventDefault, and block touch and onclick
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0050
+     * @tc.name   : Add the image subcomponent to the hyperlink component to register preventDefault, and block touch and onclick
+     * @tc.desc   : Verify hyperlink preventdefault interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault05")
@@ -168,13 +168,13 @@ export default function UiComponentHyperLinkPreventDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0020
-       * @tc.name    The hyperlink component registers preventDefault, which blocks touch and does not block onclick
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0020
+     * @tc.name   : The hyperlink component registers preventDefault, which blocks touch and does not block onclick
+     * @tc.desc   : Verify hyperlink preventdefault interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault06")
@@ -191,13 +191,13 @@ export default function UiComponentHyperLinkPreventDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0070
-       * @tc.name    The hyperlink component refers to the wrong URL registered preventDefault
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0070
+     * @tc.name   : The hyperlink component refers to the wrong URL registered preventDefault
+     * @tc.desc   : Verify hyperlink preventdefault interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault07")
@@ -214,13 +214,13 @@ export default function UiComponentHyperLinkPreventDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0080
-       * @tc.name    The hyperlink component does not register preventDefault for URLs that refer to the wrong URL
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0080
+     * @tc.name   : The hyperlink component does not register preventDefault for URLs that refer to the wrong URL
+     * @tc.desc   : Verify hyperlink preventdefault interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault08")

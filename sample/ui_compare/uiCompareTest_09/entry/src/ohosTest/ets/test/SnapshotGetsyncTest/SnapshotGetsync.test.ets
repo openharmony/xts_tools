@@ -41,8 +41,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0080
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0080
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -64,8 +64,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0210
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0210
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,8 +86,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0100
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0100
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -108,8 +108,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0110
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0110
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -130,8 +130,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0120
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0120
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -152,8 +152,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0190
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0190
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -174,8 +174,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0250
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0250
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -196,8 +196,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0180
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0180
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -218,8 +218,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0200
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0200
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -240,8 +240,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0170
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0170
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -262,8 +262,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0220
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0220
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -284,8 +284,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0260
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0260
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -306,8 +306,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0060
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0060
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -328,8 +328,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0270
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0270
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -350,8 +350,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0240
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0240
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -372,8 +372,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0280
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0280
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -394,8 +394,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0320
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0320
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -416,8 +416,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0300
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0300
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -438,8 +438,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0350
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0350
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -460,8 +460,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0290
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0290
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -482,8 +482,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0310
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0310
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -504,8 +504,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0340
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0340
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -526,8 +526,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0390
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0390
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -548,8 +548,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0360
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0360
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -570,8 +570,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0420
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0420
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -592,8 +592,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0370
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0370
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -614,8 +614,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0410
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0410
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -636,8 +636,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0380
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0380
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -658,8 +658,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0430
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0430
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -680,8 +680,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0440
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0440
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -702,8 +702,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0550
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0550
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -724,8 +724,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0450
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0450
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -741,8 +741,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0330
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0330
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -763,8 +763,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0560
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0560
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -785,8 +785,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0460
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0460
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -802,8 +802,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0090
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0090
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -819,8 +819,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0490
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0490
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -836,8 +836,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0050
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0050
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -853,8 +853,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0470
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0470
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -870,8 +870,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0010
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0010
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -887,8 +887,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0480
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0480
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -904,8 +904,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0160
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0160
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -921,8 +921,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0500
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0500
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -938,8 +938,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0070
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0070
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -955,8 +955,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0030
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0030
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -972,8 +972,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0140
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0140
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -989,8 +989,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0020
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0020
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1006,8 +1006,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0150
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0150
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1023,8 +1023,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0130
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0130
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1040,8 +1040,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0040
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0040
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

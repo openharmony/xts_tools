@@ -38,10 +38,12 @@ export default function UIComponentListOffSetTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050
+     * @tc.name   : Listandgrid list offset
+     * @tc.desc   : Verify listandgrid list offset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050 start.`);
@@ -55,10 +57,12 @@ export default function UIComponentListOffSetTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0220
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0220
+     * @tc.name   : Listandgrid list offset
+     * @tc.desc   : Verify listandgrid list offset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0220 start.`);
@@ -72,10 +76,12 @@ export default function UIComponentListOffSetTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0030
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0030
+     * @tc.name   : Listandgrid list offset
+     * @tc.desc   : Verify listandgrid list offset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0030 start.`);
@@ -89,10 +95,12 @@ export default function UIComponentListOffSetTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251
+     * @tc.name   : Listandgrid list offset
+     * @tc.desc   : Verify listandgrid list offset interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251';

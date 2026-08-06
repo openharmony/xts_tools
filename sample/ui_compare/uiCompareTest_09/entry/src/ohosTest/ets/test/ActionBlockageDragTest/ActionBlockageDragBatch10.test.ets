@@ -27,11 +27,13 @@ export default function ActionBlockageDragBatch10Test() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0850
-     * @tc.name Grid多选鼠标 - 起拖时WAITING
-     * @tc.desc Grid组件多选_鼠标_起拖时状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0850
+     * @tc.name   : Grid多选鼠标 - 起拖时WAITING
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0850', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0850';
@@ -57,11 +59,13 @@ export default function ActionBlockageDragBatch10Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0860
-     * @tc.name Grid多选鼠标 - 起拖时READY
-     * @tc.desc Grid组件多选_鼠标_起拖时状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0860
+     * @tc.name   : Grid多选鼠标 - 起拖时READY
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0860', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0860';
@@ -87,11 +91,13 @@ export default function ActionBlockageDragBatch10Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0870
-     * @tc.name Grid多选鼠标 - 移动中未超5S WAITING
-     * @tc.desc Grid组件多选_鼠标_鼠标移动过程中（未超过5S），状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0870
+     * @tc.name   : Grid多选鼠标 - 移动中未超5S WAITING
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0870', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0870';
@@ -117,11 +123,13 @@ export default function ActionBlockageDragBatch10Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0880
-     * @tc.name Grid多选鼠标 - 移动中未超5S READY
-     * @tc.desc Grid组件多选_鼠标_鼠标移动过程中（未超过5S），状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0880
+     * @tc.name   : Grid多选鼠标 - 移动中未超5S READY
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0880', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0880';
@@ -147,11 +155,13 @@ export default function ActionBlockageDragBatch10Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0890
-     * @tc.name Grid多选鼠标 - 移动中超过5S
-     * @tc.desc Grid组件多选_鼠标_鼠标移动过程中（超过5S）
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0890
+     * @tc.name   : Grid多选鼠标 - 移动中超过5S
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0890', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0890';

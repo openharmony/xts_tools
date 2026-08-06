@@ -59,10 +59,12 @@ export default function UIComponentGridEdgeEffect() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EDGEEFFECT_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EDGEEFFECT_0110
-     * @tc.desc    Test Grid with dynamically reduced sub-nodes below one screen plus orientation edge effects
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EDGEEFFECT_0110
+     * @tc.name   : Grid edgeeffect
+     * @tc.desc   : Verify grid edgeeffect interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EDGEEFFECT_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EDGEEFFECT_0110';

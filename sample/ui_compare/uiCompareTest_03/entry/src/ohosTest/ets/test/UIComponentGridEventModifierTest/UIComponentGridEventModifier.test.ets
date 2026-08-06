@@ -60,10 +60,12 @@ export default function UIComponentGridEventModifier() {
 
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0010
-     * @tc.desc    Test Grid onScrollFrameBegin event via modifier setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0010
+     * @tc.name   : Grid event modifier
+     * @tc.desc   : Verify grid event modifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0010';
@@ -89,10 +91,12 @@ export default function UIComponentGridEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0020
-     * @tc.desc    Test Grid onWillScroll event via modifier setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0020
+     * @tc.name   : Grid event modifier
+     * @tc.desc   : Verify grid event modifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0020';
@@ -118,10 +122,12 @@ export default function UIComponentGridEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0030
-     * @tc.desc    Test Grid onDidScroll event via modifier setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0030
+     * @tc.name   : Grid event modifier
+     * @tc.desc   : Verify grid event modifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0030';
@@ -147,10 +153,12 @@ export default function UIComponentGridEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0040
-     * @tc.desc    Test Grid onReachStart event via modifier setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0040
+     * @tc.name   : Grid event modifier
+     * @tc.desc   : Verify grid event modifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0040';
@@ -176,10 +184,12 @@ export default function UIComponentGridEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0050
-     * @tc.desc    Test Grid onReachEnd event via modifier setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0050
+     * @tc.name   : Grid event modifier
+     * @tc.desc   : Verify grid event modifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0050';
@@ -205,10 +215,12 @@ export default function UIComponentGridEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0060
-     * @tc.desc    Test Grid onScrollStart event via modifier setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0060
+     * @tc.name   : Grid event modifier
+     * @tc.desc   : Verify grid event modifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0060';
@@ -234,10 +246,12 @@ export default function UIComponentGridEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0070
-     * @tc.desc    Test Grid onScrollStop event via modifier setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0070
+     * @tc.name   : Grid event modifier
+     * @tc.desc   : Verify grid event modifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0070';
@@ -263,10 +277,12 @@ export default function UIComponentGridEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0080
-     * @tc.desc    Test Grid onScrollIndex event via modifier setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0080
+     * @tc.name   : Grid event modifier
+     * @tc.desc   : Verify grid event modifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0080';
@@ -292,10 +308,12 @@ export default function UIComponentGridEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0090
-     * @tc.desc    Test Grid onScrollBarUpdate event via modifier setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0090
+     * @tc.name   : Grid event modifier
+     * @tc.desc   : Verify grid event modifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0090';
@@ -321,10 +339,12 @@ export default function UIComponentGridEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0100
-     * @tc.desc    Test Grid onItemDragStart event via modifier setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0100
+     * @tc.name   : Grid event modifier
+     * @tc.desc   : Verify grid event modifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0100';
@@ -350,10 +370,12 @@ export default function UIComponentGridEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0110
-     * @tc.desc    Test Grid onItemDragEnter event via modifier setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0110
+     * @tc.name   : Grid event modifier
+     * @tc.desc   : Verify grid event modifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0110';
@@ -379,10 +401,12 @@ export default function UIComponentGridEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0120
-     * @tc.desc    Test Grid onItemDragMove event via modifier setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0120
+     * @tc.name   : Grid event modifier
+     * @tc.desc   : Verify grid event modifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0120';
@@ -408,10 +432,12 @@ export default function UIComponentGridEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0130
-     * @tc.desc    Test Grid onItemDragLeave event via modifier setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0130
+     * @tc.name   : Grid event modifier
+     * @tc.desc   : Verify grid event modifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0130';
@@ -437,10 +463,12 @@ export default function UIComponentGridEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0140
-     * @tc.desc    Test Grid onItemDrop event via modifier setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0140
+     * @tc.name   : Grid event modifier
+     * @tc.desc   : Verify grid event modifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_MODIFIER_0140';

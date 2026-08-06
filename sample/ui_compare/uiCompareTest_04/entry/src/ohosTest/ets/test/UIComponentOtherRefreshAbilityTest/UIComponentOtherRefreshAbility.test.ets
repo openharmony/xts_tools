@@ -38,10 +38,12 @@ export default function UIComponentOtherRefreshAbility() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190
-     * @tc.name    OnStateChange event callback test
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190
+     * @tc.name   : OnStateChange event callback test
+     * @tc.desc   : Verify other refresh ability interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190 start.`);
@@ -57,10 +59,12 @@ export default function UIComponentOtherRefreshAbility() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020
-     * @tc.name    Settings allow for dropdown refresh
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020
+     * @tc.name   : Settings allow for dropdown refresh
+     * @tc.desc   : Verify other refresh ability interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020 start.`);
@@ -76,10 +80,12 @@ export default function UIComponentOtherRefreshAbility() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030
-     * @tc.name    Do not set pullToRefresh, default value for testing
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030
+     * @tc.name   : Do not set pullToRefresh, default value for testing
+     * @tc.desc   : Verify other refresh ability interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030 start.`);
@@ -95,10 +101,12 @@ export default function UIComponentOtherRefreshAbility() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060
-     * @tc.name    Set the dropdown refresh distance to 20
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060
+     * @tc.name   : Set the dropdown refresh distance to 20
+     * @tc.desc   : Verify other refresh ability interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060 start.`);

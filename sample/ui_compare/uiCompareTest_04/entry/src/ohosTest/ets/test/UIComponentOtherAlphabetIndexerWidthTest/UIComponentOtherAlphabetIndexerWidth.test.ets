@@ -38,10 +38,12 @@ export default function UIComponentOtherAlphabetIndexerWidth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0070
-     * @tc.name    The width of AlphabetIndexer is of the number type
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0070
+     * @tc.name   : The width of AlphabetIndexer is of the number type
+     * @tc.desc   : Verify other alphabetindexer width interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0070 start.`);
@@ -55,10 +57,12 @@ export default function UIComponentOtherAlphabetIndexerWidth() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0080
-     * @tc.name    The width of AlphabetIndexer is of the number type - long text
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0080
+     * @tc.name   : The width of AlphabetIndexer is of the number type - long text
+     * @tc.desc   : Verify other alphabetindexer width interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0080 start.`);

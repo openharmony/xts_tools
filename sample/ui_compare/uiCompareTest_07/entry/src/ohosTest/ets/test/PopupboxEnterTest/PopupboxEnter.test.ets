@@ -43,7 +43,7 @@ export default function PopupboxEnter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0100
      * @tc.name   : AlertDialog event interaction normalization
-     * @tc.desc   : AlertDialog事件交互归一
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -73,7 +73,7 @@ export default function PopupboxEnter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0380
      * @tc.name   : promptAction.showDialog event interaction normalization
-     * @tc.desc   : promptAction.showDialog事件交互归一
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,7 +103,7 @@ export default function PopupboxEnter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0390
      * @tc.name   : promptAction.showDialog keyboard direction key input, focus up
-     * @tc.desc   : promptAction.showDialog键盘方向键输入，向上对焦
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -132,7 +132,7 @@ export default function PopupboxEnter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0400
      * @tc.name   : promptAction.showDialog keyboard direction key input, focus down
-     * @tc.desc   : promptAction.showDialog键盘方向键输入，向下对焦
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -161,7 +161,7 @@ export default function PopupboxEnter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0420
      * @tc.name   : promptAction.showDialog keyboard direction key input, offset 30px
-     * @tc.desc   : promptAction.showDialog键盘方向键输入，偏移30px
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -190,7 +190,7 @@ export default function PopupboxEnter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0430
      * @tc.name   : promptAction.showDialog masked popup
-     * @tc.desc   : promptAction.showDialog遮蔽弹窗
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -229,7 +229,7 @@ export default function PopupboxEnter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0440
      * @tc.name   : promptAction.showDialog with showInSubWindow set to true
-     * @tc.desc   : promptAction.showDialog弹窗showInSubWindow设置为true
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -257,7 +257,7 @@ export default function PopupboxEnter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0450
      * @tc.name   : promptAction.showDialog layer overlay popup
-     * @tc.desc   : promptAction.showDialog可层覆盖弹窗
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -286,7 +286,7 @@ export default function PopupboxEnter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0460
      * @tc.name   : promptAction.showDialog default response to ENTER key
-     * @tc.desc   : promptAction.showDialog默认响应ENTER键
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

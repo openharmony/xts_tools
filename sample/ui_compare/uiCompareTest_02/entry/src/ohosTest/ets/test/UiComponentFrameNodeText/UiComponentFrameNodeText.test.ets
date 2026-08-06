@@ -55,13 +55,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0230
-       * @tc.name    ComponentCotent's dispose method test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0230
+     * @tc.name   : ComponentCotent's dispose method test
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0230 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText01")
@@ -77,13 +77,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0540
-       * @tc.name    TextArea component, using the onDidInsert method
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0540
+     * @tc.name   : TextArea component, using the onDidInsert method
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0540', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0540 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText02")
@@ -99,13 +99,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0450
-       * @tc.name    TextArea component, using the onchange method
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0450
+     * @tc.name   : TextArea component, using the onchange method
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0450', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0450 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText03")
@@ -121,13 +121,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0460
-       * @tc.name    TextArea component, using the onEditChange method
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0460
+     * @tc.name   : TextArea component, using the onEditChange method
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0460', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0460 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText04")
@@ -143,13 +143,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0530
-       * @tc.name    TextArea component, using the onWillInsert method
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0530
+     * @tc.name   : TextArea component, using the onWillInsert method
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0530', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0530 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText05")
@@ -165,13 +165,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0510
-       * @tc.name    TextArea component, using the onContentScroll method
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0510
+     * @tc.name   : TextArea component, using the onContentScroll method
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0510', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0510 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText06")
@@ -188,13 +188,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0070
-       * @tc.name    TextArea component to set the prompt text color
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0070
+     * @tc.name   : TextArea component to set the prompt text color
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText07")
@@ -213,13 +213,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0400
-       * @tc.name    TextArea component to set the line splitting rules
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0400
+     * @tc.name   : TextArea component to set the line splitting rules
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0400 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText08")
@@ -238,13 +238,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0380
-       * @tc.name    TextArea component to set how text is displayed when it is very long
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0380
+     * @tc.name   : TextArea component to set how text is displayed when it is very long
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0380 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText09")
@@ -263,13 +263,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0150
-       * @tc.name    TextArea component to set the polymorphic style of the text box
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0150
+     * @tc.name   : TextArea component to set the polymorphic style of the text box
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText10")
@@ -291,13 +291,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0090
-       * @tc.name    TextArea component to set the horizontal alignment of the text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0090
+     * @tc.name   : TextArea component to set the horizontal alignment of the text
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText11")
@@ -316,13 +316,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0340
-       * @tc.name    TextArea component to set the text breakage rule
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0340
+     * @tc.name   : TextArea component to set the text breakage rule
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0340', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0340 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText12")
@@ -341,13 +341,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0350
-       * @tc.name    TextArea component to set the text breakage rule
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0350
+     * @tc.name   : TextArea component to set the text breakage rule
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0350 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText13")
@@ -372,13 +372,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0310
-       * @tc.name    TextArea component, which sets the text decoration
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0310
+     * @tc.name   : TextArea component, which sets the text decoration
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0310 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText14")
@@ -397,13 +397,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0320
-       * @tc.name    TextArea component to set text character spacing
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0320
+     * @tc.name   : TextArea component to set text character spacing
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0320 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText15")
@@ -422,13 +422,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0290
-       * @tc.name    TextArea component, which sets the input method enter key type
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0290
+     * @tc.name   : TextArea component, which sets the input method enter key type
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0290 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText16")
@@ -451,13 +451,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0370
-       * @tc.name    Turk Componin, Whitsett Furstreen Ben Texter Indent Tashen
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0370
+     * @tc.name   : Turk Componin, Whitsett Furstreen Ben Texter Indent Tashen
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0370 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText17")
@@ -476,13 +476,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0300
-       * @tc.name    TextArea component to set the line height
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0300
+     * @tc.name   : TextArea component to set the line height
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0300 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText18")
@@ -501,13 +501,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0220
-       * @tc.name    TextArea component, which sets the display mode of the scroll bar when the input box is edited
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0220
+     * @tc.name   : TextArea component, which sets the display mode of the scroll bar when the input box is edited
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0220 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText19")
@@ -530,13 +530,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0240
-       * @tc.name    TextArea component, which sets the input box type
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0240
+     * @tc.name   : TextArea component, which sets the input box type
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0240 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText20")
@@ -555,13 +555,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0390
-       * @tc.name    TextArea component to set the minimum display size, maximum display size, and text adaptive height
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0390
+     * @tc.name   : TextArea component to set the minimum display size, maximum display size, and text adaptive height
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0390 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText21")
@@ -580,13 +580,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0140
-       * @tc.name    TextArea component, which sets the counter to be displayed when the number of characters entered via InputCounterOptions exceeds the threshold
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0140
+     * @tc.name   : TextArea component, which sets the counter to be displayed when the number of characters entered via InputCounterOptions exceeds the threshold
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText22")
@@ -605,13 +605,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0110
-       * @tc.name    TextArea component to set the minimum display size, maximum display size, and text adaptive height
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0110
+     * @tc.name   : TextArea component to set the minimum display size, maximum display size, and text adaptive height
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText23")
@@ -632,13 +632,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0200
-       * @tc.name    TextArea component, which is set to pop up the system text selection menu
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0200
+     * @tc.name   : TextArea component, which is set to pop up the system text selection menu
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0200 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText24")
@@ -653,13 +653,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0410
-       * @tc.name    TextArea component, which sets the custom menu extension
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0410
+     * @tc.name   : TextArea component, which sets the custom menu extension
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0410 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText25")
@@ -674,13 +674,13 @@ export default function UiComponentFrameNodeText() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0330
-       * @tc.name    TextArea component to set the effect of text characteristics
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0330
+     * @tc.name   : TextArea component to set the effect of text characteristics
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0330 start.`);
       Settings.createWindow("testability/pages/UiComponentFrameNodeText/UiComponentFrameNodeText26")

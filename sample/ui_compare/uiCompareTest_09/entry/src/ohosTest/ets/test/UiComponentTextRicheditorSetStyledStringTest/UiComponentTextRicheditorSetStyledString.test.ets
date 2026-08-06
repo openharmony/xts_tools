@@ -29,6 +29,14 @@ export default function UiComponentTextRicheditorSetStyledString() {
       }
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0058_478_600
+     * @tc.name   : Text richeditor setstyledstring
+     * @tc.desc   : Verify text richeditor setstyledstring interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0058_478_600', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorSetStyledString/RicheditorSetStyledString0058');
       await driver.delayMs(1000);

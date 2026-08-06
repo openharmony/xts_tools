@@ -39,10 +39,12 @@ export default function UIComponentArcListFlingSpeedLimitTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ARCLIST_FLINGSPEEDLIMIT_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_ARCLIST_FLINGSPEEDLIMIT_0010
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_FLINGSPEEDLIMIT_0010
+     * @tc.name   : Arclist flingspeedlimit
+     * @tc.desc   : Verify arclist flingspeedlimit interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_FLINGSPEEDLIMIT_0010', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_ARCLIST_FLINGSPEEDLIMIT_0010';

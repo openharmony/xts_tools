@@ -43,6 +43,7 @@ export default function ImageSvgParseTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0030
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svgparse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -68,6 +69,7 @@ export default function ImageSvgParseTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0040
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svgparse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,6 +88,7 @@ export default function ImageSvgParseTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0050
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svgparse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -104,6 +107,7 @@ export default function ImageSvgParseTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0060
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svgparse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -122,6 +126,7 @@ export default function ImageSvgParseTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0070
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svgparse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -140,6 +145,7 @@ export default function ImageSvgParseTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0080
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svgparse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -158,6 +164,7 @@ export default function ImageSvgParseTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0090
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svgparse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -176,6 +183,7 @@ export default function ImageSvgParseTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0110
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image svgparse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

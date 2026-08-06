@@ -27,10 +27,13 @@ export default function UiComponentTextRicheditorVirtualCursor() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_VIRTUAL_CURSOR_0001
-     * @tc.name RicheditorVirtualCursor0001
-     * @tc.desc 拖拽光标达到内容区左右边缘
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_VIRTUAL_CURSOR_0001
+     * @tc.name   : RicheditorVirtualCursor0001
+     * @tc.desc   : Verify text richeditor virtual cursor interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_VIRTUAL_CURSOR_0001', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_VIRTUAL_CURSOR_0001 begin');
@@ -43,10 +46,13 @@ export default function UiComponentTextRicheditorVirtualCursor() {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_VIRTUAL_CURSOR_0001 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_VIRTUAL_CURSOR_0002
-     * @tc.name RicheditorVirtualCursor0002
-     * @tc.desc 行首行尾光标拖拽10vp测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_VIRTUAL_CURSOR_0002
+     * @tc.name   : RicheditorVirtualCursor0002
+     * @tc.desc   : Verify text richeditor virtual cursor interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_VIRTUAL_CURSOR_0002', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_VIRTUAL_CURSOR_0002 begin');

@@ -38,10 +38,12 @@ export default function UIComponentListAndGridListScrollPageTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140
+     * @tc.name   : Listandgrid list scrollpage
+     * @tc.desc   : Verify listandgrid list scrollpage interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140';

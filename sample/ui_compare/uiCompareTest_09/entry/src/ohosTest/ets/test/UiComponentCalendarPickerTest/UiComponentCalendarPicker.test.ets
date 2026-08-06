@@ -30,6 +30,14 @@ export default function UiComponentCalendarPicker() {
       }
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BARRIERFREE_0010
+     * @tc.name   : Popupbox menu barrierfree
+     * @tc.desc   : Verify popupbox menu barrierfree interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BARRIERFREE_0010', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentCalendarPicker/CalendarBarrierfree0010');
       await driver.delayMs(500);
@@ -42,6 +50,14 @@ export default function UiComponentCalendarPicker() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BARRIERFREE_0010');
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0020
+     * @tc.name   : Popupbox menu habit
+     * @tc.desc   : Verify popupbox menu habit interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0020', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentCalendarPicker/CalendarHabit0020');
       await driver.delayMs(500);
@@ -54,6 +70,14 @@ export default function UiComponentCalendarPicker() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0020');
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0160
+     * @tc.name   : Popupbox menu habit
+     * @tc.desc   : Verify popupbox menu habit interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0160', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentCalendarPicker/CalendarHabit0160');
       await driver.delayMs(500);
@@ -66,6 +90,14 @@ export default function UiComponentCalendarPicker() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0160');
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0300
+     * @tc.name   : Popupbox menu habit
+     * @tc.desc   : Verify popupbox menu habit interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0300', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentCalendarPicker/CalendarHabit0300');
       await driver.delayMs(500);
@@ -78,6 +110,14 @@ export default function UiComponentCalendarPicker() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0300');
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_BASICCONTAINER_FORMSELECTION_TIMEPICKER_LANGUAGEORDER_0010_DUPLICATE
+     * @tc.name   : Component function basiccontainer formselection TimePicker languageorder duplicate
+     * @tc.desc   : Verify component function basiccontainer formselection TimePicker languageorder duplicate interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_BASICCONTAINER_FORMSELECTION_TIMEPICKER_LANGUAGEORDER_0010_DUPLICATE', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentCalendarPicker/TimePicker0010');
       await driver.delayMs(500);

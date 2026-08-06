@@ -27,11 +27,13 @@ export default function ActionBlockageDragBatch5Test() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0450
-     * @tc.name Text容器单指 - 按压时WAITING (模拟TextArea场景)
-     * @tc.desc Text组件单指_按压时状态为WAITING (模拟TextArea拖拽场景)
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；Text组件拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0450
+     * @tc.name   : Text容器单指 - 按压时WAITING (模拟TextArea场景)
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0450', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0450';
@@ -58,11 +60,13 @@ export default function ActionBlockageDragBatch5Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0460
-     * @tc.name Text容器单指 - 按压时READY (模拟TextArea场景)
-     * @tc.desc Text组件单指_按压时状态为READY (模拟TextArea拖拽场景)
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；Text组件拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0460
+     * @tc.name   : Text容器单指 - 按压时READY (模拟TextArea场景)
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0460', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0460';
@@ -89,11 +93,13 @@ export default function ActionBlockageDragBatch5Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0470
-     * @tc.name Text容器单指 - 拖拽中未超5S WAITING (模拟TextArea场景)
-     * @tc.desc Text组件单指_手指移动拖拽中，未超过5S，则状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；Text组件拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0470
+     * @tc.name   : Text容器单指 - 拖拽中未超5S WAITING (模拟TextArea场景)
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0470', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0470';
@@ -120,11 +126,13 @@ export default function ActionBlockageDragBatch5Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0480
-     * @tc.name Text容器单指 - 拖拽中未超5S READY (模拟TextArea场景)
-     * @tc.desc Text组件单指_手指移动拖拽中，未超过5S，则状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；Text组件拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0480
+     * @tc.name   : Text容器单指 - 拖拽中未超5S READY (模拟TextArea场景)
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0480', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0480';
@@ -151,11 +159,13 @@ export default function ActionBlockageDragBatch5Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0490
-     * @tc.name Text容器单指 - 拖拽中超过5S (模拟TextArea场景)
-     * @tc.desc Text组件单指_手指移动拖拽中，超过5S了
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；Text组件拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0490
+     * @tc.name   : Text容器单指 - 拖拽中超过5S (模拟TextArea场景)
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0490', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0490';

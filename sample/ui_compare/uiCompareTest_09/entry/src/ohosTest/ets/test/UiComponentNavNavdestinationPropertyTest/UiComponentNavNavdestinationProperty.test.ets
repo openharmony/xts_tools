@@ -43,10 +43,13 @@ export default function UiComponentNavNavdestinationPropertyTest() {
       console.info('UiComponentNavNavdestinationPropertyTest afterAll')
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_PROPERTY_0110
-     * @tc.desc: NavDestination的添加menus，竖屏三个图标，横屏5个图标
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_PROPERTY_0110
+     * @tc.name   : Nav navdestination property
+     * @tc.desc   : Verify nav navdestination property interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_PROPERTY_0110', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavdestinationProperty/NavdestinationProperty0110')
@@ -72,10 +75,13 @@ export default function UiComponentNavNavdestinationPropertyTest() {
       done()
     })
 
-    /**
-     * @tc.name: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_PROPERTY_0120
-     * @tc.desc: NavDestination设置ignoreLayoutSafeArea，内容区扩展至状态栏和Aibar
-     * @tc.level: Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_PROPERTY_0120
+     * @tc.name   : Nav navdestination property
+     * @tc.desc   : Verify nav navdestination property interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_PROPERTY_0120', 0, async (done: Function) => {
       Settings.createWindow('testability/pages/UiComponentNavNavdestinationProperty/NavdestinationProperty0120')

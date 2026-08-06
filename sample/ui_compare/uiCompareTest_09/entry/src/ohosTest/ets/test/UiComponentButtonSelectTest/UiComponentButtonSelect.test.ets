@@ -33,9 +33,13 @@ export default function UiComponentButtonSelectTest() {
       await driver.delayMs(500);
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0440
-     * @tc.name controlSize设为NORMAL时，hover
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0440
+     * @tc.name   : controlSize设为NORMAL时，hover
+     * @tc.desc   : Verify button select controlsize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0440', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0440 start');
@@ -58,9 +62,13 @@ export default function UiComponentButtonSelectTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0460
-     * @tc.name controlSize设为NORMAL时，focus
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0460
+     * @tc.name   : controlSize设为NORMAL时，focus
+     * @tc.desc   : Verify button select controlsize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0460', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0460 start');
@@ -76,9 +84,13 @@ export default function UiComponentButtonSelectTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0850
-     * @tc.name controlSize设为small时，hover
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0850
+     * @tc.name   : controlSize设为small时，hover
+     * @tc.desc   : Verify button select controlsize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0850', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0850 start');
@@ -101,9 +113,13 @@ export default function UiComponentButtonSelectTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0870
-     * @tc.name controlSize设为small时，focus
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0870
+     * @tc.name   : controlSize设为small时，focus
+     * @tc.desc   : Verify button select controlsize interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0870', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SELECT_CONTROLSIZE_0870 start');
@@ -126,9 +142,13 @@ export default function UiComponentButtonSelectTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0210
-     * @tc.name menuBackgroundBlurStyle设置为Resource类型
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0210
+     * @tc.name   : menuBackgroundBlurStyle设置为Resource类型
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0210', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0210 start');
@@ -151,9 +171,13 @@ export default function UiComponentButtonSelectTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0220
-     * @tc.name 对比手机和PC效果
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0220
+     * @tc.name   : 对比手机和PC效果
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0220', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0220 start');
@@ -176,9 +200,13 @@ export default function UiComponentButtonSelectTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SELECT_UPDOWN_0010
-     * @tc.name select组件使用上下方向键走焦
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_UPDOWN_0010
+     * @tc.name   : select组件使用上下方向键走焦
+     * @tc.desc   : Verify button select updown interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_UPDOWN_0010', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SELECT_UPDOWN_0010 start');
@@ -202,9 +230,13 @@ export default function UiComponentButtonSelectTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SELECT_UPDOWN_0020
-     * @tc.name 系统预置应用使用上下方向键走焦
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_UPDOWN_0020
+     * @tc.name   : 系统预置应用使用上下方向键走焦
+     * @tc.desc   : Verify button select updown interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_UPDOWN_0020', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SELECT_UPDOWN_0020 start');

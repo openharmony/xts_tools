@@ -38,10 +38,12 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0180
-     * @tc.name    Enable HapticFeedback to true, set the height of item to 10, click on the index bar letter
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0180
+     * @tc.name   : Enable HapticFeedback to true, set the height of item to 10, click on the index bar letter
+     * @tc.desc   : Verify other alphabetindexer vibration interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0180 start.`);
@@ -58,10 +60,12 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0010
-     * @tc.name    EnableHapticFeedback is not set, default value is true, click on the index bar letter
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0010
+     * @tc.name   : EnableHapticFeedback is not set, default value is true, click on the index bar letter
+     * @tc.desc   : Verify other alphabetindexer vibration interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0010 start.`);
@@ -78,10 +82,12 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100
-     * @tc.name    EnableHapticFeedback set to true, long press the index bar letter
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100
+     * @tc.name   : EnableHapticFeedback set to true, long press the index bar letter
+     * @tc.desc   : Verify other alphabetindexer vibration interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100 start.`);
@@ -98,10 +104,12 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110
-     * @tc.name    EnableHapticFeedback set to true, release and switch index bar letters
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110
+     * @tc.name   : EnableHapticFeedback set to true, release and switch index bar letters
+     * @tc.desc   : Verify other alphabetindexer vibration interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110 start.`);
@@ -118,10 +126,12 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0030
-     * @tc.name    EnableHapticFeedback set to true, release and switch index bar letters
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0030
+     * @tc.name   : EnableHapticFeedback set to true, release and switch index bar letters
+     * @tc.desc   : Verify other alphabetindexer vibration interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0030 start.`);

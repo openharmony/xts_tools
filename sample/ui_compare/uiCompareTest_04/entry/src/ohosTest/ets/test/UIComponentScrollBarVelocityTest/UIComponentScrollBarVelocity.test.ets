@@ -38,10 +38,12 @@ export default function UIComponentScrollBarVelocityTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190';
@@ -65,10 +67,12 @@ export default function UIComponentScrollBarVelocityTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290';

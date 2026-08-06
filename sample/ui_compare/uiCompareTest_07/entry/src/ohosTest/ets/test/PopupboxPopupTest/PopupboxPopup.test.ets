@@ -43,8 +43,8 @@ export default function PopupboxPopup() {
     /*
      * @tc.number : SUB_ACE_ANALYSE_UI_COMPONENT_POPUPBOX_POPUP_0010
      * @tc.name   : popup——深浅色切换
-     * @tc.type   : function
-     * @tc.desc   : Popup – light/dark mode toggle
+     * @tc.desc   : Verify analyse ui component popupbox popup interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

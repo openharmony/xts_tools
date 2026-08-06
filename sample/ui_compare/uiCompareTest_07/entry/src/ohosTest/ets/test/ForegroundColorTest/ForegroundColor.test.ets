@@ -43,9 +43,9 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0018
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0018
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : The capsule style sets the content, fontColor, and foregroundColor to different colors. The foregroundColor is in HEX format, and the text foreground color takes effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -64,9 +64,9 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0022
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0022
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : The capsule style sets different colors for content, fontColor, and foregroundColor (using ColoringStrategy.AVERAGE), and the text foreground color takes effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -85,9 +85,9 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0012
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0012
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : The capsule style does not set the content, and showDefaultPercentage is set to true. The fontColor and foregroundColor are the same color, and the color of the percentage takes effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -106,9 +106,9 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0010
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0010
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : For the styles of Linear, Ring, Eclipse, and ScaleRing, text cannot be entered in the style value, and setting the foreground color will not take effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -127,9 +127,9 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0011
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0011
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : For the Capsule style, if content is not set and showDefaultPercentage is set to true, only setting the foregroundColor will make the foreground color of the displayed percentage take effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -148,9 +148,9 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0015
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0015
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : For the Capsule style, when content is set and fontColor is the same as foregroundColor, the foreground color set for the text takes effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -169,9 +169,9 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0014
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0014
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : For the Capsule style, when content is set and only foregroundColor is specified, the foreground color set for the text takes effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -190,9 +190,9 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0016
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0016
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : For the Capsule style, when content is set and fontColor is different from foregroundColor, the foreground color set for the text takes effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -211,9 +211,9 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0019
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0019
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : For the Capsule style, when content is set and fontColor is different from foregroundColor, with foregroundColor specified in RGB format, the foreground color set for the text takes effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -232,9 +232,9 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0020
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0020
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : For the Capsule style, when content is set and fontColor is different from foregroundColor, with foregroundColor specified in RGBA format, the foreground color set for the text takes effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -253,9 +253,9 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0023
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0023
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : For the Capsule style, when content is set and fontColor is different from foregroundColor, with foregroundColor specified as ColoringStrategy.PRIMARY, the foreground color set for the text takes effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

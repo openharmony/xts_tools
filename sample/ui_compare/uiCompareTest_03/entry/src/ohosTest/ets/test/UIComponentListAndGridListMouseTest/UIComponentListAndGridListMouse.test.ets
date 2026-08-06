@@ -58,10 +58,12 @@ export default function UIComponentListAndGridListMouse() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0010
-     * @tc.desc    Observe box selection in ListItem under ListItemGroup
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0010
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0010';
@@ -83,10 +85,12 @@ export default function UIComponentListAndGridListMouse() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0020
-     * @tc.desc    Monitor mouse box selection for ListItemGroup header and footer
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0020
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0020';
@@ -108,10 +112,12 @@ export default function UIComponentListAndGridListMouse() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0040
-     * @tc.desc    Observe ListItem selected state polymorphic styles
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0040
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0040';
@@ -135,10 +141,12 @@ export default function UIComponentListAndGridListMouse() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0050
-     * @tc.desc    Enable mouse drag selection after clicking ListItem in List
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0050
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0050';
@@ -160,10 +168,12 @@ export default function UIComponentListAndGridListMouse() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0070
-     * @tc.desc    Observe mouse box selection during dynamic List column changes
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0070
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0070';
@@ -187,10 +197,12 @@ export default function UIComponentListAndGridListMouse() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0080
-     * @tc.desc    Observe List box selection rendering effects
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0080
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0080';
@@ -212,10 +224,12 @@ export default function UIComponentListAndGridListMouse() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0090
-     * @tc.desc    Configure List for lazy loading with mouse drag selection
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0090
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0090';
@@ -237,10 +251,12 @@ export default function UIComponentListAndGridListMouse() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0110
-     * @tc.desc    Continue scrolling when mouse drag selection reaches boundaries after adding ListItemGroup
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0110
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0110';
@@ -262,10 +278,12 @@ export default function UIComponentListAndGridListMouse() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0120
-     * @tc.desc    Observe effects when disabling box selection in parent List component
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0120
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0120';
@@ -287,10 +305,12 @@ export default function UIComponentListAndGridListMouse() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0130
-     * @tc.desc    Test mouse box selection on disabled components
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0130
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0130';
@@ -312,10 +332,12 @@ export default function UIComponentListAndGridListMouse() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0150
-     * @tc.desc    Observe box selection when components at mouse press position are non-draggable
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0150
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0150';
@@ -339,10 +361,12 @@ export default function UIComponentListAndGridListMouse() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGR0ID_LIST_MOUSE_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0160
-     * @tc.desc    Monitor initial box selection position during arbitrary mouse movement after press
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGR0ID_LIST_MOUSE_0160
+     * @tc.name   : Listandgr0id list mouse
+     * @tc.desc   : Verify listandgr0id list mouse interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0160';

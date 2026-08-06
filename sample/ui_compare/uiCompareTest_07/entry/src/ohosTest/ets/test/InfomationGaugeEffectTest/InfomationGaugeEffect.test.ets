@@ -43,8 +43,8 @@ export default function InfomationGaugeEffect() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_EFFECT_0090
      * @tc.name   : Set the ring progress bar's color and add a sweep light animation. Use ProgressType.Ring and set the color to $r(app.color.Pink).
-     * @tc.type   : function
-     * @tc.desc   : 环形进度条设置颜色与添加扫光动效，设置ProgressType.Ring,color设置$r(app.color.Pink)
+     * @tc.desc   : Verify information gauge effect interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

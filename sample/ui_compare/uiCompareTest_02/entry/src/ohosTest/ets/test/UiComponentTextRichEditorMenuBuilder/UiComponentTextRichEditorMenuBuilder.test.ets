@@ -55,13 +55,13 @@ export default function UiComponentTextRichEditorMenuBuilder() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0007
-       * @tc.name    Long press/right-click/select builderSpan and other content, bind custom menu type as TEXT
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0007
+     * @tc.name   : Long press/right-click/select builderSpan and other content, bind custom menu type as TEXT
+     * @tc.desc   : Verify text richeditor menu contentModifier builder interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0007', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0007 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder01")
@@ -85,13 +85,13 @@ export default function UiComponentTextRichEditorMenuBuilder() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0009
-       * @tc.name    Long press/right-click/select builderSpan and other content, bind custom menu type as BUILDER
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0009
+     * @tc.name   : Long press/right-click/select builderSpan and other content, bind custom menu type as BUILDER
+     * @tc.desc   : Verify text richeditor menu contentModifier builder interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0009', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0009 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder02")
@@ -117,13 +117,13 @@ export default function UiComponentTextRichEditorMenuBuilder() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0004
-       * @tc.name    Long press/right-click/select builderSpan with the mouse, bind the custom menu type as Mixed
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0004
+     * @tc.name   : Long press/right-click/select builderSpan with the mouse, bind the custom menu type as Mixed
+     * @tc.desc   : Verify text richeditor menu contentModifier builder interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0004', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0004 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder03")
@@ -149,13 +149,13 @@ export default function UiComponentTextRichEditorMenuBuilder() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0001
-       * @tc.name    Long press/right-click/select builderSpan with the mouse, bind custom menu type as TEXT
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0001
+     * @tc.name   : Long press/right-click/select builderSpan with the mouse, bind custom menu type as TEXT
+     * @tc.desc   : Verify text richeditor menu contentModifier builder interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0001', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0001 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder04")
@@ -181,13 +181,13 @@ export default function UiComponentTextRichEditorMenuBuilder() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0002
-       * @tc.name    Long press/right-click/select builderSpan with the mouse, bind custom menu type as IMAGE
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0002
+     * @tc.name   : Long press/right-click/select builderSpan with the mouse, bind custom menu type as IMAGE
+     * @tc.desc   : Verify text richeditor menu contentModifier builder interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0002', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0002 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder05")
@@ -213,13 +213,13 @@ export default function UiComponentTextRichEditorMenuBuilder() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0006
-       * @tc.name    Long press/right-click/select builderSpan with the mouse, bind custom menu type as IMAGE
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0006
+     * @tc.name   : Long press/right-click/select builderSpan with the mouse, bind custom menu type as IMAGE
+     * @tc.desc   : Verify text richeditor menu contentModifier builder interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0006', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0006 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder06")
@@ -245,13 +245,13 @@ export default function UiComponentTextRichEditorMenuBuilder() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0005
-       * @tc.name    Long press/right-click/select builderSpan with the mouse to bind multiple custom menus, including BUILDER
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0005
+     * @tc.name   : Long press/right-click/select builderSpan with the mouse to bind multiple custom menus, including BUILDER
+     * @tc.desc   : Verify text richeditor menu contentModifier builder interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0005', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0005 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder07")
@@ -277,13 +277,13 @@ export default function UiComponentTextRichEditorMenuBuilder() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0008
-       * @tc.name    Long press/right-click/select builderSpan and other content, bind custom menu type as IMAGE
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0008
+     * @tc.name   : Long press/right-click/select builderSpan and other content, bind custom menu type as IMAGE
+     * @tc.desc   : Verify text richeditor menu contentModifier builder interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0008', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0008 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder08")
@@ -309,13 +309,13 @@ export default function UiComponentTextRichEditorMenuBuilder() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0010
-       * @tc.name    Long press/right-click/select builderSpan and other content with the mouse, bind custom menu type as Mixed
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0010
+     * @tc.name   : Long press/right-click/select builderSpan and other content with the mouse, bind custom menu type as Mixed
+     * @tc.desc   : Verify text richeditor menu contentModifier builder interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder09")
@@ -341,13 +341,13 @@ export default function UiComponentTextRichEditorMenuBuilder() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0012
-       * @tc.name    Long press/right-click/select builderSpan and other content, bind multiple custom menus, types do not include Mixed
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0012
+     * @tc.name   : Long press/right-click/select builderSpan and other content, bind multiple custom menus, types do not include Mixed
+     * @tc.desc   : Verify text richeditor menu contentModifier builder interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0012', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0012 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder10")
@@ -373,13 +373,13 @@ export default function UiComponentTextRichEditorMenuBuilder() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0011
-       * @tc.name    Long press/right-click/select builderSpan and other content, bind multiple custom menus, types include Mixed
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0011
+     * @tc.name   : Long press/right-click/select builderSpan and other content, bind multiple custom menus, types include Mixed
+     * @tc.desc   : Verify text richeditor menu contentModifier builder interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0011', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0011 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder11")

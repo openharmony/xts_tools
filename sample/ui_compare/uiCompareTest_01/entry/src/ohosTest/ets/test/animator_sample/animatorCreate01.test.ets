@@ -43,6 +43,7 @@ export default function animatorCreate01Test() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0040
      * @tc.name   : Test the missing optional parameters for the 'delay' method in the ohos.animator simple constructor.
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -69,6 +70,7 @@ export default function animatorCreate01Test() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0020
      * @tc.name   : Test the missing optional parameters for the 'duration' method in the ohos.animator simple constructor.
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,6 +97,7 @@ export default function animatorCreate01Test() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0090
      * @tc.name   : Test the missing optional parameters for the 'delay' method when two optional parameters are missing in the ohos.animator simple constructor.
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -121,6 +124,7 @@ export default function animatorCreate01Test() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0070
      * @tc.name   : Test the missing optional parameters for the 'duration' method when two optional parameters are missing in the ohos.animator simple constructor.
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,6 +151,7 @@ export default function animatorCreate01Test() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0010
      * @tc.name   : Test the missing optional parameter alone in the ohos.animator simple constructor.
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -173,6 +178,7 @@ export default function animatorCreate01Test() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0160
      * @tc.name   : Test the ohos.animator simple constructor with all optional parameters missing.
+     * @tc.desc   : Verify ohos animator simple create interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

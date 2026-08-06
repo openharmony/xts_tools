@@ -59,10 +59,12 @@ export default function UIComponentDrawingSafeAreaE() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0010
-     * @tc.desc    Add component set SafeAreaPadding property and dynamically modify upward parameters
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0010
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0010';
@@ -81,10 +83,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0020
-     * @tc.desc    Add component set SafeAreaPadding property and dynamically modify downward parameters
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0020
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0020';
@@ -103,10 +107,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0030
-     * @tc.desc    Add component set SafeAreaPadding property and dynamically modify left parameters
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0030
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0030';
@@ -125,10 +131,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0040
-     * @tc.desc    Add component set SafeAreaPadding property and dynamically modify right parameters
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0040
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0040';
@@ -147,10 +155,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0050
-     * @tc.desc    Add component configure SafeAreaPadding and dynamically modify all four directional parameters
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0050
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0050', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0050';
@@ -169,10 +179,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0060
-     * @tc.desc    Add Image component set SafeAreaPadding Margin Padding properties and dynamically change SafeAreaPadding
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0060
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0060', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0060';
@@ -191,10 +203,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0070
-     * @tc.desc    Add Image component set SafeAreaPadding Margin properties and dynamically change SafeAreaPadding
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0070
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0070', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0070';
@@ -213,10 +227,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0080
-     * @tc.desc    Add Image component set SafeAreaPadding Padding properties and dynamically change SafeAreaPadding
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0080
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0080', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0080';
@@ -235,10 +251,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0090
-     * @tc.desc    Support SafeAreaPadding in landscape-portrait switching
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0090
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0090', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0090';
@@ -287,10 +305,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0130
-     * @tc.desc    Add Column component nested with Image set SafeAreaPadding Padding Margin properties and dynamically toggle child SafeAreaPadding
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0130
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0130';
@@ -309,10 +329,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0140
-     * @tc.desc    Add Column component nested with Image set SafeAreaPadding Padding Margin properties and dynamically toggle father SafeAreaPadding
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0140
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0140';
@@ -331,10 +353,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0150
-     * @tc.desc    Add Column with nested Image set SafeAreaPadding and Padding then dynamically switch child SafeAreaPadding
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0150
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0150';
@@ -353,10 +377,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0160
-     * @tc.desc    Add Column with nested Image set SafeAreaPadding and Padding then dynamically switch father SafeAreaPadding
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0160
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0160';
@@ -375,10 +401,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0170
-     * @tc.desc    Add Column with nested Image set SafeAreaPadding and Margin then dynamically switch child SafeAreaPadding
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0170
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0170';
@@ -397,10 +425,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0180
-     * @tc.desc    Add Column with nested Image set SafeAreaPadding and Margin then dynamically switch father SafeAreaPadding
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0180
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0180';
@@ -419,10 +449,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0190
-     * @tc.desc    Create Column nested with Row containing TextInput set SafeAreaPadding Padding Margin and dynamically toggle child SafeAreaPadding
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0190
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0190';
@@ -468,10 +500,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0200
-     * @tc.desc    Create Column nested with Row containing TextInput set SafeAreaPadding Padding Margin and dynamically toggle father SafeAreaPadding
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0200
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0200';
@@ -517,10 +551,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0220
-     * @tc.desc    Column nests Row with distinct backgrounds while dynamically toggling Row's SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0220
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0220';
@@ -539,10 +575,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0230
-     * @tc.desc    Column nests Row with varied backgrounds sets padding and dynamically toggles SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0230
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0230';
@@ -561,10 +599,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0240
-     * @tc.desc    Column with nested Row and distinct backgrounds sets margin then dynamically switches SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0240
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0240';
@@ -583,10 +623,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0250
-     * @tc.desc    Column nests Row with distinct backgrounds while dynamically toggling SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0250
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0250';
@@ -605,10 +647,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0260
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0260
-     * @tc.desc    Column nests Row with distinct backgrounds sets padding and dynamically toggles SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0260
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0260';
@@ -627,10 +671,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0270
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0270
-     * @tc.desc    Column nested with Row both set padding and distinct backgrounds while dynamically switching SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0270
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0270';
@@ -649,10 +695,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0280
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0280
-     * @tc.desc    Three-layer nesting: Column-Row-Image with distinct backgrounds while Row dynamically toggles SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0280
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0280';
@@ -671,10 +719,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0290
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0290
-     * @tc.desc    Three-layer nested Column-Row-Image with distinct backgrounds sets Row padding and dynamically toggles SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0290
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0290', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0290';
@@ -693,10 +743,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0300
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0300
-     * @tc.desc    Three-layer nested Column-Row-Image with distinct backgrounds while Column dynamically switches SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0300
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0300';
@@ -715,10 +767,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0310
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0310
-     * @tc.desc    Three-layer nested Column-Row-Image with distinct backgrounds sets Column padding and dynamically toggles SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0310
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0310';
@@ -737,10 +791,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0320
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0320
-     * @tc.desc    Three-layer nested Column-Row-Image with distinct backgrounds sets both Row and Column padding while dynamically switching SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0320
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0320';
@@ -759,10 +815,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0330
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0330
-     * @tc.desc    Test SafeAreaPadding property priority for top and left edges
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0330
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0330', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0330';
@@ -781,10 +839,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0340
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0340
-     * @tc.desc    Nested Stack-Row components with TextInputs test focus acquisition during dynamic Stack SafeAreaPadding toggling without padding
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0340
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0340', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0340';
@@ -816,10 +876,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0350
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0350
-     * @tc.desc    Nested Stack-Row components with TextInputs test focus acquisition during dynamic Row SafeAreaPadding toggling without padding
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0350
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0350', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0350';
@@ -851,10 +913,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0360
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0360
-     * @tc.desc    Navigation nested with Column components featuring distinct backgrounds dynamically toggles SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0360
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0360', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0360';
@@ -873,10 +937,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0370
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0370
-     * @tc.desc    Navigation nested with Column components having distinct backgrounds sets padding and dynamically switches SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0370
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0370', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0370';
@@ -895,10 +961,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0380
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0380
-     * @tc.desc    Scroll nested with Column components displaying distinct backgrounds dynamically toggles SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0380
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0380', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0380';
@@ -917,10 +985,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0390
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0390
-     * @tc.desc    Scroll nested with Column components featuring distinct backgrounds sets padding and dynamically switches SafeAreaPadding property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0390
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0390', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0390';
@@ -939,10 +1009,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0400
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0400
-     * @tc.desc    Column nests Row with distinct backgrounds dynamically toggles SafeAreaPadding while testing padding parameter
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0400
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0400', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0400';
@@ -961,10 +1033,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0410
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0410
-     * @tc.desc    Column nests Row with distinct backgrounds dynamically toggles SafeAreaPadding while testing LengthMetrics parameter
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0410
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0410', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0410';
@@ -983,10 +1057,12 @@ export default function UIComponentDrawingSafeAreaE() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0420
-     * @tc.name    SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0420
-     * @tc.desc    Column nests Row with distinct backgrounds dynamically toggles SafeAreaPadding while testing LocalizedPadding parameter
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0420
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0420', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0420';

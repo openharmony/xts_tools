@@ -33,9 +33,12 @@ export default function UiComponentButtonInterfaceTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0080
-     * @tc.name: testButtonLabelForm
-     * @tc.desc: Button组件的label形式验证
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0080
+     * @tc.name   : testButtonLabelForm
+     * @tc.desc   : Verify button interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0080', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0080 start');
@@ -67,9 +70,12 @@ export default function UiComponentButtonInterfaceTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0260
-     * @tc.name: testButtonHeightAdaptivePolicy
-     * @tc.desc: label的heightAdaptivePolicy属性设置为MIN_FONT_SIZE_FIRST
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0260
+     * @tc.name   : testButtonHeightAdaptivePolicy
+     * @tc.desc   : Verify button interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0260', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0260 start');
@@ -89,9 +95,12 @@ export default function UiComponentButtonInterfaceTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0340
-     * @tc.name: testButtonMinFontSize
-     * @tc.desc: label的minFontSize属性设置大于0
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0340
+     * @tc.name   : testButtonMinFontSize
+     * @tc.desc   : Verify button interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0340', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0340 start');
@@ -108,9 +117,12 @@ export default function UiComponentButtonInterfaceTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0430
-     * @tc.name: testButtonWeight
-     * @tc.desc: label的weight属性设置
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0430
+     * @tc.name   : testButtonWeight
+     * @tc.desc   : Verify button interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0430', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0430 start');
@@ -137,9 +149,12 @@ export default function UiComponentButtonInterfaceTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0620
-     * @tc.name: testButtonUndoRedo
-     * @tc.desc: 笔记APP输入文本内容，点击撤销按钮直至无内容可撤销
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0620
+     * @tc.name   : testButtonUndoRedo
+     * @tc.desc   : Verify button interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0620', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0620 start');
@@ -177,9 +192,12 @@ export default function UiComponentButtonInterfaceTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOX_DFX_0010
-     * @tc.name: testCheckboxOnChange
-     * @tc.desc: 事件-onChange(callback: (value: boolean) => void)
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOX_DFX_0010
+     * @tc.name   : testCheckboxOnChange
+     * @tc.desc   : Verify button checkbox DFX interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOX_DFX_0010', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOX_DFX_0010 start');
@@ -208,9 +226,12 @@ export default function UiComponentButtonInterfaceTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_Rtl_0010
-     * @tc.name: testCheckboxGroupRtl
-     * @tc.desc: 简体中文时，设置direction为Rtl，查看checkBox显示样式
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_Rtl_0010
+     * @tc.name   : testCheckboxGroupRtl
+     * @tc.desc   : Verify button checkboxgroup rtl interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_Rtl_0010', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_Rtl_0010 start');
@@ -234,9 +255,12 @@ export default function UiComponentButtonInterfaceTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_ADD_0010
-     * @tc.name: testDatePickerMultiColumn
-     * @tc.desc: DatePicker多列同时滑动，观察DatePicker是否表现异常
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_ADD_0010
+     * @tc.name   : testDatePickerMultiColumn
+     * @tc.desc   : Verify button DatePicker add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_ADD_0010', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_ADD_0010 start');
@@ -254,9 +278,12 @@ export default function UiComponentButtonInterfaceTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_EVENT_0010
-     * @tc.name: testDatePickerOnChange
-     * @tc.desc: 在DatePicker组件中，onChange事件：滑动选择器，当前选择项改变时触发
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_EVENT_0010
+     * @tc.name   : testDatePickerOnChange
+     * @tc.desc   : Verify button DatePicker event interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_EVENT_0010', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_EVENT_0010 start');
@@ -274,9 +301,12 @@ export default function UiComponentButtonInterfaceTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_UX_005
-     * @tc.name: testButtonStylePolymorphic
-     * @tc.desc: 鼠标测试buttonStyle与多态样式结合
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_UX_005
+     * @tc.name   : testButtonStylePolymorphic
+     * @tc.desc   : Verify button ux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_UX_005', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_UX_005 start');
@@ -306,9 +336,12 @@ export default function UiComponentButtonInterfaceTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_SCENARIOS_0060
-     * @tc.name: testCheckboxGroupLongName
-     * @tc.desc: 场景分析用例-群组名长度超过设备界面显示
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_SCENARIOS_0060
+     * @tc.name   : testCheckboxGroupLongName
+     * @tc.desc   : Verify button checkboxgroup scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_SCENARIOS_0060', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_SCENARIOS_0060 start');
@@ -328,9 +361,12 @@ export default function UiComponentButtonInterfaceTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_SCENARIOS_0060_558
-     * @tc.name: testCheckboxGroupRemoveItem
-     * @tc.desc: CheckboxGroup列表移除一项之后，观察全选按钮状态
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_SCENARIOS_0060_558
+     * @tc.name   : testCheckboxGroupRemoveItem
+     * @tc.desc   : Verify button checkboxgroup scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_SCENARIOS_0060_558', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_SCENARIOS_0060_558 start');
@@ -357,9 +393,12 @@ export default function UiComponentButtonInterfaceTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_INTERFACE_0190
-     * @tc.name: testDatePickerHeightOverflow
-     * @tc.desc: 在Datepicker组件中，验证通用属性height子父组件设置异常
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_INTERFACE_0190
+     * @tc.name   : testDatePickerHeightOverflow
+     * @tc.desc   : Verify button DatePicker interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_INTERFACE_0190', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_INTERFACE_0190 start');

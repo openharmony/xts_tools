@@ -41,8 +41,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0010
-     * @tc.desc   : 创建一个开启的switch，单击switch，播报开启开关，单指双击即可关闭
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -66,8 +66,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0020
-     * @tc.desc   : 创建一个开启的switch，双击switch，播报关闭
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,8 +93,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0030
-     * @tc.desc   : 创建一个关闭switch，单击switch，播报关闭开关，单指双击即可开启
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -118,8 +118,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0040
-     * @tc.desc   : 创建一个关闭switch，双击switch，播报开启
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -145,8 +145,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0050
-     * @tc.desc   : 创建一个选中的checkbox，单击checkbox，播报已选中 复选框，单指双击即可取消选中
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -170,8 +170,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0060
-     * @tc.desc   : 创建一个选中的checkbox，单击勾选的checkbox，双击勾选的checkbox，播报 未选中
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -201,8 +201,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0070
-     * @tc.desc   : 创建一个未选中的checkbox，单击checkbox，播报未选中 复选框，单指双击即可选中
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -226,8 +226,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0080
-     * @tc.desc   : 创建一个未选中的checkbox，点击未勾选的checkbox，播报 未选中 复选框
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -251,8 +251,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0090
-     * @tc.desc   : 创建一个已选中的button，单击button，播报已选中 xx按钮，单指双击即可取消选中
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -276,8 +276,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0100
-     * @tc.desc   : 创建一个已选中的button，单击已选中的"status button"，双击"status button"，播报：未选中
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -307,8 +307,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0110
-     * @tc.desc   : 创建一个未选中的button，单击button，播报 xx按钮，单指双击即可选中
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -332,8 +332,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0130
-     * @tc.desc   : 创建一个开启的switch，点击changeEnable按钮，单击开启的switch，播报：开启 开关，不可用
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -362,8 +362,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0140
-     * @tc.desc   : 创建一个关闭的switch，点击changeEnable按钮，单击关闭的switch，播报：关闭 开关，不可用
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -392,8 +392,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0150
-     * @tc.desc   : 创建一个选中的checkbox，点击changeEnable按钮，单击选中的checkbox，播报：已选中 复选框，不可用
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -422,8 +422,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0160
-     * @tc.desc   : 创建一个未选中的checkbox，点击changeEnable按钮，单击未勾选的checkbox，播报：未选中 复选框，不可用
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -452,8 +452,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0170
-     * @tc.desc   : 创建一个已选中的button，点击changeEnable按钮，单击已选中的"status button"，播报：已选中 status button 按钮，不可用
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -482,8 +482,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0180
-     * @tc.desc   : 创建一个未选中的button，点击changeEnable按钮，单击未选中的"status button"，播报：status button 按钮，不可用
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -512,8 +512,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0190
-     * @tc.desc   : 安装测试程序，单击switch使获焦，切换横屏，焦点不变
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -543,8 +543,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0200
-     * @tc.desc   : 安装测试程序，单击switch使获焦，切换到其他页面再切换回测试页面，焦点不变
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -568,8 +568,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0220
-     * @tc.desc   : 安装测试程序，单击switch，点击changeType按钮切换为checkbox并点击，继续点击changeType按钮切换为button并点击
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

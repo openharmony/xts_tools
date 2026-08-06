@@ -59,10 +59,12 @@ export default function UIComponentListAndGridXommonOnDidScroll() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0010
-     * @tc.desc    Scroll_onDidScroll_normal scroll page turning
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0010
+     * @tc.name   : Listandgrid xommon ondidscroll
+     * @tc.desc   : Verify listandgrid xommon ondidscroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0010';
@@ -87,10 +89,12 @@ export default function UIComponentListAndGridXommonOnDidScroll() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0020
-     * @tc.desc    Scroll_onDidScroll_interrupt scroll page turning
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0020
+     * @tc.name   : Listandgrid xommon ondidscroll
+     * @tc.desc   : Verify listandgrid xommon ondidscroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0020';
@@ -120,10 +124,12 @@ export default function UIComponentListAndGridXommonOnDidScroll() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0030
-     * @tc.desc    Scroll_onDidScroll_fling scroll
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0030
+     * @tc.name   : Listandgrid xommon ondidscroll
+     * @tc.desc   : Verify listandgrid xommon ondidscroll interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0030';

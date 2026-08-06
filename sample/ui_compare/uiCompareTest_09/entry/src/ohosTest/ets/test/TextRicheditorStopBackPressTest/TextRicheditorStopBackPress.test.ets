@@ -40,13 +40,13 @@ export default function TextRicheditorStopBackPress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00003
-       * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00003
-       * @tc.desc    The RichEditor control supports developers to configure not to intercept onBackPressed edited text selection tests
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00003
+     * @tc.name   : Text richeditor stopbackpress
+     * @tc.desc   : Verify text richeditor stopbackpress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00003', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00003 start.`);
       Settings.createWindow("testability/pages/TextRicheditorStopBackPress/TextRicheditorStopBackPress03")
@@ -67,13 +67,13 @@ export default function TextRicheditorStopBackPress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00001
-       * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00001
-       * @tc.desc    The RichEditor control allows developers to configure not to intercept onBackPressed text input tests
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00001
+     * @tc.name   : Text richeditor stopbackpress
+     * @tc.desc   : Verify text richeditor stopbackpress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00001 start.`);
       Settings.createWindow("testability/pages/TextRicheditorStopBackPress/TextRicheditorStopBackPress03")
@@ -93,12 +93,12 @@ export default function TextRicheditorStopBackPress() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00002
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00002
-     * @tc.desc    The RichEditor control allows developers to configure not to intercept onBackPressed text input tests
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00002
+     * @tc.name   : Text richeditor stopbackpress
+     * @tc.desc   : Verify text richeditor stopbackpress interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00002', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00002 start.`);

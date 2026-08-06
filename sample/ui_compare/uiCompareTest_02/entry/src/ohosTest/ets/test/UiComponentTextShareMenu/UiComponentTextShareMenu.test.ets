@@ -55,13 +55,13 @@ export default function UiComponentTextShareMenu() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0110
-       * @tc.name    The TextInput/TextArea/Search component sets selectionMenuHidden to true,and the Chinese version is selected
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0110
+     * @tc.name   : The TextInput/TextArea/Search component sets selectionMenuHidden to true,and the Chinese version is selected
+     * @tc.desc   : Verify text share menu interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentTextShareMenu/UiComponentTextShareMenu01")
@@ -87,13 +87,13 @@ export default function UiComponentTextShareMenu() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0060
-       * @tc.name    TextInput component, password mode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0060
+     * @tc.name   : TextInput component, password mode
+     * @tc.desc   : Verify text share menu interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SHARE_MENU_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentTextShareMenu/UiComponentTextShareMenu02")

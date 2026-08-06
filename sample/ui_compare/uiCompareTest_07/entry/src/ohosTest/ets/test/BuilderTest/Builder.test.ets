@@ -42,7 +42,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0040
+     * @tc.name   : LoadingProgress component set enableLoading to false、 contentModifier set enableLoading to
+     * @tc.desc   : Verify the interface under test: LoadingProgress component set enableLoading to false、 contentModifier set enableLoading to true.
      * @tc.type   : Set enableLoading to false directly on the LoadingProgress component itself, and set enableLoading to true within the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -61,7 +62,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0160
+     * @tc.name   : Information LoadingProgress contentModifier builder
+     * @tc.desc   : Verify information LoadingProgress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the padding to 20 within the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -80,7 +82,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0100
+     * @tc.name   : Information LoadingProgress contentModifier builder
+     * @tc.desc   : Verify information LoadingProgress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Add a Radio component inside the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -99,7 +102,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0030
+     * @tc.name   : Information LoadingProgress contentModifier builder
+     * @tc.desc   : Verify information LoadingProgress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the color property to red directly on the LoadingProgress component itself, and set color to green within the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -118,7 +122,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0130
+     * @tc.name   : Information LoadingProgress contentModifier builder
+     * @tc.desc   : Verify information LoadingProgress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the color property to red directly on the LoadingProgress component itself, and set color to green within the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -137,7 +142,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0060
+     * @tc.name   : LoadingProgress component set enableLoading set 、 contentModifier set enableLoading to tru
+     * @tc.desc   : Verify the interface under test: LoadingProgress component set enableLoading set 、 contentModifier set enableLoading to true.
      * @tc.type   : Do not set enableLoading on the LoadingProgress component itself; instead, set enableLoading to true within the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -156,7 +162,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0140
+     * @tc.name   : Information LoadingProgress contentModifier builder
+     * @tc.desc   : Verify information LoadingProgress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set the height to 200 and the width to 100 within the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -175,7 +182,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0050
+     * @tc.name   : Information LoadingProgress contentModifier builder
+     * @tc.desc   : Verify information LoadingProgress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set enableLoading to true directly on the LoadingProgress component, and set enableLoading to false within the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -194,7 +202,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0110
+     * @tc.name   : Information LoadingProgress contentModifier builder
+     * @tc.desc   : Verify information LoadingProgress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Add a Text component inside the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -213,7 +222,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0150
+     * @tc.name   : Information LoadingProgress contentModifier builder
+     * @tc.desc   : Verify information LoadingProgress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set margin to 20 within the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -232,7 +242,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0090
+     * @tc.name   : Information LoadingProgress contentModifier builder
+     * @tc.desc   : Verify information LoadingProgress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Add a Button component inside the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -251,7 +262,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0180
+     * @tc.name   : Information LoadingProgress contentModifier builder
+     * @tc.desc   : Verify information LoadingProgress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set Visibility to Hidden, border to 20, and padding to 10 within the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -270,7 +282,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0010
+     * @tc.name   : Information LoadingProgress contentModifier builder
+     * @tc.desc   : Verify information LoadingProgress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Do not set the color property on the LoadingProgress component itself; instead, set the color within the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -289,7 +302,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0120
+     * @tc.name   : Information LoadingProgress contentModifier builder
+     * @tc.desc   : Verify information LoadingProgress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Set border to 50 within the contentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -308,7 +322,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0230
+     * @tc.name   : Information LoadingProgress contentModifier builder
+     * @tc.desc   : Verify information LoadingProgress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Verify that focus can be triggered normally.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -327,7 +342,8 @@ export default function Builder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0240
+     * @tc.name   : Information LoadingProgress contentModifier builder
+     * @tc.desc   : Verify information LoadingProgress contentModifier builder interface behavior and expected UI result for this case.
      * @tc.type   : Verify that touch can be triggered normally.
      * @tc.size   : MediumTest
      * @tc.level  : 2

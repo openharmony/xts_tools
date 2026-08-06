@@ -29,6 +29,14 @@ export default function UiComponentTextRicheditorHandleAnimation() {
       }
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle_animation_0005
+     * @tc.name   : Text richeditor handle animation
+     * @tc.desc   : Verify text richeditor handle animation interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle_animation_0005', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorHandleAnimation/RicheditorHandleAnimation0005');
       await driver.delayMs(1000);
@@ -51,6 +59,14 @@ export default function UiComponentTextRicheditorHandleAnimation() {
       await driver.delayMs(500);
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle_animation_0009
+     * @tc.name   : Text richeditor handle animation
+     * @tc.desc   : Verify text richeditor handle animation interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle_animation_0009', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorHandleAnimation/RicheditorHandleAnimation0009');
       await driver.delayMs(1000);
@@ -79,6 +95,14 @@ export default function UiComponentTextRicheditorHandleAnimation() {
       await driver.delayMs(500);
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle_animation_0010
+     * @tc.name   : Text richeditor handle animation
+     * @tc.desc   : Verify text richeditor handle animation interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle_animation_0010', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorHandleAnimation/RicheditorHandleAnimation0010');
       await driver.delayMs(1000);

@@ -30,10 +30,13 @@ export default function UiComponentNavNavigationServiceQuit() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0020
-     * @tc.name 元服务单Page无Navigation场景 + OnBackpress return false
-     * @tc.desc 验证无Navigation时，onBackPress返回false允许退出
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0020
+     * @tc.name   : 元服务单Page无Navigation场景 + OnBackpress return false
+     * @tc.desc   : Verify nav navigation featuretest service quit interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0020', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentNavNavigationServiceQuit/ServiceQuit0020');
@@ -53,10 +56,13 @@ export default function UiComponentNavNavigationServiceQuit() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0020');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0070
-     * @tc.name 元服务单Page，Stack模式Navigation栈数>1
-     * @tc.desc 验证Stack模式下Navigation栈操作和onBackPress拦截
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0070
+     * @tc.name   : 元服务单Page，Stack模式Navigation栈数>1
+     * @tc.desc   : Verify nav navigation featuretest service quit interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0070', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentNavNavigationServiceQuit/ServiceQuit0070');
@@ -96,10 +102,13 @@ export default function UiComponentNavNavigationServiceQuit() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0070');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0080
-     * @tc.name 元服务单Page，Split模式Navigation栈数>1
-     * @tc.desc 验证Split模式下Navigation栈操作和onBackPress拦截
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0080
+     * @tc.name   : 元服务单Page，Split模式Navigation栈数>1
+     * @tc.desc   : Verify nav navigation featuretest service quit interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0080', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentNavNavigationServiceQuit/ServiceQuit0080');
@@ -139,10 +148,13 @@ export default function UiComponentNavNavigationServiceQuit() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0080');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0090
-     * @tc.name 元服务单Page,Stack模式Navigation + OnBackpress return true
-     * @tc.desc 验证Stack模式下onBackPress返回true允许退出
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0090
+     * @tc.name   : 元服务单Page,Stack模式Navigation + OnBackpress return true
+     * @tc.desc   : Verify nav navigation featuretest service quit interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0090', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentNavNavigationServiceQuit/ServiceQuit0090');
@@ -167,10 +179,13 @@ export default function UiComponentNavNavigationServiceQuit() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0090');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0100
-     * @tc.name 元服务单Page,Split模式Navigation + OnBackpress return true
-     * @tc.desc 验证Split模式下onBackPress返回true允许退出
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0100
+     * @tc.name   : 元服务单Page,Split模式Navigation + OnBackpress return true
+     * @tc.desc   : Verify nav navigation featuretest service quit interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0100', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentNavNavigationServiceQuit/ServiceQuit0100');

@@ -41,11 +41,12 @@ export default function UiComponentTextRichEditorThreeStrikes() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_THREESTRIKES_0003
-        * @tc.name   : Triple click on empty text
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_THREESTRIKES_0003
+     * @tc.name   : Triple click on empty text
+     * @tc.desc   : Verify text richeditor threestrikes interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_THREESTRIKES_0003", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorThreeStrikes/UiComponentTextRichEditorThreeStrikes0003")

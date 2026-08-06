@@ -57,13 +57,13 @@ export default function UiAttributesUseEffectEffectType() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0010
-       * @tc.name    useEffect is false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0010
+     * @tc.name   : useEffect is false
+     * @tc.desc   : Verify attributes useeffect effecttype interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0010 start.`);
       Settings.createWindow("testability/pages/UiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType01")
@@ -79,13 +79,13 @@ export default function UiAttributesUseEffectEffectType() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050
-       * @tc.name    useEffect is true and EffectType is DEFAULT
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050
+     * @tc.name   : useEffect is true and EffectType is DEFAULT
+     * @tc.desc   : Verify attributes useeffect effecttype interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050 start.`);
       Settings.createWindow("testability/pages/UiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType02")
@@ -101,13 +101,13 @@ export default function UiAttributesUseEffectEffectType() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020
-       * @tc.name    useEffect is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020
+     * @tc.name   : useEffect is true
+     * @tc.desc   : Verify attributes useeffect effecttype interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020 start.`);
       Settings.createWindow("testability/pages/UiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType03")
@@ -123,13 +123,13 @@ export default function UiAttributesUseEffectEffectType() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060
-       * @tc.name    useEffect is true and EffectType is WINDOW_EFFECT
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060
+     * @tc.name   : useEffect is true and EffectType is WINDOW_EFFECT
+     * @tc.desc   : Verify attributes useeffect effecttype interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060 start.`);
       Settings.createWindow("testability/pages/UiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType04")

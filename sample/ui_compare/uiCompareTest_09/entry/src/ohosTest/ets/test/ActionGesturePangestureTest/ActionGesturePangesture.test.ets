@@ -27,10 +27,13 @@ export default function ActionGesturePangesture() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_GESTURE_PANGESTURE_BACKWARDANALYSIS_0040
-     * @tc.name  PanGesture复杂场景
-     * @tc.desc  测试父子组件并行PanGesture，多手指交互，验证回弹功能
+    /*
+     * @tc.number : SUB_ACE_ACTION_GESTURE_PANGESTURE_BACKWARDANALYSIS_0040
+     * @tc.name   : PanGesture复杂场景
+     * @tc.desc   : Verify action gesture pangesture backwardanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_GESTURE_PANGESTURE_BACKWARDANALYSIS_0040', 0, async () => {
       Logger.info('SUB_ACE_ACTION_GESTURE_PANGESTURE_BACKWARDANALYSIS_0040 begin');
@@ -44,10 +47,13 @@ export default function ActionGesturePangesture() {
       Logger.info('SUB_ACE_ACTION_GESTURE_PANGESTURE_BACKWARDANALYSIS_0040 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_GESTURE_PANGESTURE_INTUREFACE_0850
-     * @tc.name  PanGesture参数校验
-     * @tc.desc  测试direction参数配置，验证左右滑动触发，上下滑动不触发
+    /*
+     * @tc.number : SUB_ACE_ACTION_GESTURE_PANGESTURE_INTUREFACE_0850
+     * @tc.name   : PanGesture参数校验
+     * @tc.desc   : Verify action gesture pangesture intureface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_GESTURE_PANGESTURE_INTUREFACE_0850', 0, async () => {
       Logger.info('SUB_ACE_ACTION_GESTURE_PANGESTURE_INTUREFACE_0850 begin');
@@ -75,10 +81,13 @@ export default function ActionGesturePangesture() {
       Logger.info('SUB_ACE_ACTION_GESTURE_PANGESTURE_INTUREFACE_0850 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_GESTURE_PANGESTURE_INTUREFACE_0870
-     * @tc.name  PanGesture组件下树
-     * @tc.desc  测试手势过程中组件下树，验证回调是否继续触发
+    /*
+     * @tc.number : SUB_ACE_ACTION_GESTURE_PANGESTURE_INTUREFACE_0870
+     * @tc.name   : PanGesture组件下树
+     * @tc.desc   : Verify action gesture pangesture intureface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_GESTURE_PANGESTURE_INTUREFACE_0870', 0, async () => {
       Logger.info('SUB_ACE_ACTION_GESTURE_PANGESTURE_INTUREFACE_0870 begin');

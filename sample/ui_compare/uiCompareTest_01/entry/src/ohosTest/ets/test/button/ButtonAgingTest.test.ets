@@ -42,8 +42,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0420
-     * @tc.desc   : Button适老化测试 - controlSize为SMALL，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -71,8 +71,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1060
-     * @tc.desc   : Button适老化测试 - fontSize为30，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -100,8 +100,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0400
-     * @tc.desc   : Button适老化测试 - controlSize为NORMAL，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -129,8 +129,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1100
-     * @tc.desc   : Button适老化测试 - fontSize为30fp，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -158,8 +158,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0370
-     * @tc.desc   : Button适老化测试 - type为Normal，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -187,8 +187,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1090
-     * @tc.desc   : Button适老化测试 - fontSize为100，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -216,8 +216,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0430
-     * @tc.desc   : Button适老化测试 - controlSize为SMALL，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -245,8 +245,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1070
-     * @tc.desc   : Button适老化测试 - fontSize为100，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -274,8 +274,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0390
-     * @tc.desc   : Button适老化测试 - type为Normal，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -303,8 +303,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1040
-     * @tc.desc   : Button适老化测试 - fontSize为30，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -332,8 +332,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0410
-     * @tc.desc   : Button适老化测试 - controlSize为NORMAL，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -361,8 +361,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1080
-     * @tc.desc   : Button适老化测试 - fontSize为100，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -390,8 +390,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0440
-     * @tc.desc   : Button适老化测试 - controlSize为SMALL，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -419,8 +419,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1050
-     * @tc.desc   : Button适老化测试 - fontSize为30，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -448,8 +448,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0840
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0840
-     * @tc.desc   : Button适老化测试 - 内部包含其他组件（超大字体），字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -472,8 +472,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0660
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0660
-     * @tc.desc   : Button适老化测试 - overflow为Ellipsis，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -501,8 +501,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0830
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0830
-     * @tc.desc   : Button适老化测试 - 设置type属性，内部不包含其他组件，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -525,8 +525,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0680
-     * @tc.desc   : Button适老化测试 - overflow为None，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -549,8 +549,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0810
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0810
-     * @tc.desc   : Button适老化测试 - 设置type属性，内部包含其他组件，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -573,8 +573,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0640
-     * @tc.desc   : Button适老化测试 - type设置ButtonType.Normal，字体1倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -602,8 +602,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0450
-     * @tc.desc   : Button适老化测试 - buttonStyle为EMPHASIZED，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -631,8 +631,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0620
-     * @tc.desc   : Button适老化测试 - type设置ButtonType.Capsule，字体1倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -660,8 +660,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0380
-     * @tc.desc   : Button适老化测试 - type为ButtonType.Normal，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -689,8 +689,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0630
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0630
-     * @tc.desc   : Button适老化测试 - type设置ButtonType.Circle，字体1倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -718,8 +718,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0850
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0850
-     * @tc.desc   : Button适老化测试 - 内部包含其他组件（超大字体），字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -742,8 +742,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0800
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0800
-     * @tc.desc   : Button适老化测试 - 设置type属性，内部包含其他组件，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -766,8 +766,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0650
-     * @tc.desc   : Button适老化测试 - overflow为Ellipsis，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -795,8 +795,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0670
-     * @tc.desc   : Button适老化测试 - overflow为None，字体1倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -820,8 +820,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0920
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0920
-     * @tc.desc   : Button适老化测试 - 设置maxLines为2，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -849,8 +849,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0700
-     * @tc.desc   : Button适老化测试 - 设置overflow为Clip，字体1倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -878,8 +878,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0320
-     * @tc.desc   : Button适老化测试 - 设置type为Capsule，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -903,8 +903,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1110
-     * @tc.desc   : Button适老化测试 - 设置fontSize为30fp，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -928,8 +928,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0860
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0860
-     * @tc.desc   : Button适老化测试 - 自定义宽高场景，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -952,8 +952,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0690
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0690
-     * @tc.desc   : Button适老化测试 - 设置overflow为None，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -977,8 +977,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0950
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0950
-     * @tc.desc   : Button适老化测试 - 设置maxLines为3，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1006,8 +1006,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0720
-     * @tc.desc   : Button适老化测试 - 设置overflow为Clip，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1031,8 +1031,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0080
-     * @tc.desc   : Button适老化测试 - 基础属性测试，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1055,8 +1055,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0890
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0890
-     * @tc.desc   : Button适老化测试 - 设置maxLines为1，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1084,8 +1084,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0710
-     * @tc.desc   : Button适老化测试 - 设置overflow为Clip，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1113,8 +1113,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0020
-     * @tc.desc   : Button适老化测试 - 系统切换为特大一档、特大二挡、特大三挡
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1149,8 +1149,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0880
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0880
-     * @tc.desc   : Button适老化测试 - 设置转折符号，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1178,8 +1178,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0740
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0740
-     * @tc.desc   : Button适老化测试 - 设置overflow为MARQUEE，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1202,8 +1202,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0090
-     * @tc.desc   : Button适老化测试 - 设置type为Capsule，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1231,8 +1231,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0870
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0870
-     * @tc.desc   : Button适老化测试 - 自定义宽高场景，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1255,8 +1255,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0730
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0730
-     * @tc.desc   : Button适老化测试 - 设置overflow为MARQUEE，字体1倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1279,8 +1279,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0040
-     * @tc.desc   : Button适老化测试 - 设置type为Capsule，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1303,8 +1303,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0930
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0930
-     * @tc.desc   : Button适老化测试 - 设置maxLines为2，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1332,8 +1332,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0770
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0770
-     * @tc.desc   : Button适老化测试 - 内部不包含其他组件,超长字符串,不设置maxLines，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1357,8 +1357,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0050
-     * @tc.desc   : Button适老化测试 - 设置controlSize为NORMAL，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1386,8 +1386,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0910
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0910
-     * @tc.desc   : Button适老化测试 - 设置maxLines为2，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1415,8 +1415,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0760
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0760
-     * @tc.desc   : Button适老化测试 - 内部不包含其他组件,超长字符串,不设置maxLines，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1440,8 +1440,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0070
-     * @tc.desc   : Button适老化测试 - 设置role为NORMAL，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1469,8 +1469,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0900
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0900
-     * @tc.desc   : Button适老化测试 - 设置maxLines为1，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1498,8 +1498,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0750
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0750
-     * @tc.desc   : Button适老化测试 - 设置overflow为MARQUEE，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1522,8 +1522,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0010
-     * @tc.desc   : Button适老化测试 - 系统切换为特大一档、特大二挡、特大三挡
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1558,8 +1558,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0940
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0940
-     * @tc.desc   : Button适老化测试 - 设置maxLines为3，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1587,8 +1587,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1130
-     * @tc.desc   : Button适老化测试 - 设置fontWeight为Normal，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1616,8 +1616,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0100
-     * @tc.desc   : Button适老化测试 - 设置overflow为Ellipsis，字体1倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1645,8 +1645,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0820
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0820
-     * @tc.desc   : Button适老化测试 - 设置type属性，改变按钮样式,内部不包含其他组件，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1674,8 +1674,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1120
-     * @tc.desc   : Button适老化测试 - 设置fontSize为30fp，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1703,8 +1703,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0160
-     * @tc.desc   : Button适老化测试 - 设置type属性，改变按钮样式,内部包含其他组件，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1732,8 +1732,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0460
-     * @tc.desc   : Button适老化测试 - 设置buttonStyle为EMPHASIZED，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1761,8 +1761,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1160
-     * @tc.desc   : Button适老化测试 - 设置fontWeight为Lighter，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1790,8 +1790,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0120
-     * @tc.desc   : Button适老化测试 - 设置横屏，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1818,8 +1818,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0470
-     * @tc.desc   : Button适老化测试 - 设置buttonStyle为NORMAL，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1847,8 +1847,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1200
-     * @tc.desc   : Button适老化测试 - 设置fontWeight为Bolder，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1876,8 +1876,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0110
-     * @tc.desc   : Button适老化测试 - 内部不包含其他组件,超长字符串,不设置maxLines，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1901,8 +1901,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0480
-     * @tc.desc   : Button适老化测试 - 设置buttonStyle为NORMAL，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1930,8 +1930,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1150
-     * @tc.desc   : Button适老化测试 - 设置fontWeight为Lighter，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1959,8 +1959,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0030
-     * @tc.desc   : Button适老化测试 - 基础属性测试，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1983,8 +1983,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0510
-     * @tc.desc   : Button适老化测试 - 设置buttonStyle为TEXTUAL，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2012,8 +2012,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1140
-     * @tc.desc   : Button适老化测试 - 设置fontWeight为Normal，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2041,8 +2041,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0060
-     * @tc.desc   : Button适老化测试 - 设置buttonStyle为EMPHASIZED，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2070,8 +2070,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0490
-     * @tc.desc   : Button适老化测试 - 设置buttonStyle为NORMAL，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2099,8 +2099,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1180
-     * @tc.desc   : Button适老化测试 - 设置fontWeight为Bolder，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2128,8 +2128,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0140
-     * @tc.desc   : Button适老化测试 - 预览器测试
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2166,8 +2166,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0500
-     * @tc.desc   : Button适老化测试 - 设置buttonStyle为TEXTUAL，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2195,8 +2195,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1240
-     * @tc.desc   : Button适老化测试 - 设置fontStyle为Italic，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2224,8 +2224,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0150
-     * @tc.desc   : Button适老化测试 - 默认按钮，不设置任何属性
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2248,8 +2248,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0520
-     * @tc.desc   : Button适老化测试 - 设置buttonStyle为TEXTUAL，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2277,8 +2277,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1220
-     * @tc.desc   : Button适老化测试 - 设置fontStyle为Normal，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2306,8 +2306,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0130
-     * @tc.desc   : Button适老化测试 - 系统切换为特大一档、特大二挡、特大三挡，锁屏后启动
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2343,8 +2343,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0540
-     * @tc.desc   : Button适老化测试 - 设置role为Normal，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2372,8 +2372,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1210
-     * @tc.desc   : Button适老化测试 - 设置fontStyle为Normal，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2401,8 +2401,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0190
-     * @tc.desc   : Button适老化测试 - 自定义宽高场景
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2425,8 +2425,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0560
-     * @tc.desc   : Button适老化测试 - 设置role为Error，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2454,8 +2454,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1250
-     * @tc.desc   : Button适老化测试 - 设置fontStyle为Italic，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2483,8 +2483,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0180
-     * @tc.desc   : Button适老化测试 - 内部包含其他组件（超大字体）
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2507,8 +2507,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0600
-     * @tc.desc   : Button适老化测试 - 设置type为Capsule，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2531,8 +2531,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1170
-     * @tc.desc   : Button适老化测试 - 设置fontWeight为Lighter，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2560,8 +2560,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0200
-     * @tc.desc   : Button适老化测试 - 设置labelStyle({maxLines: undefined, })和不设置labelStyle属性
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2580,8 +2580,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0230
-     * @tc.desc   : Button适老化测试 - 超长文本，不设置labelStyle
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2604,8 +2604,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0530
-     * @tc.desc   : Button适老化测试 - 设置role为Normal，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2633,8 +2633,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0570
-     * @tc.desc   : Button适老化测试 - 设置role为Error，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2662,8 +2662,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1230
-     * @tc.desc   : Button适老化测试 - 设置fontStyle为Italic，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2691,8 +2691,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0780
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0780
-     * @tc.desc   : Button适老化测试 - 默认按钮，不设置任何属性
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2715,8 +2715,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0240
-     * @tc.desc   : Button适老化测试 - 设置fontSize为16，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2744,8 +2744,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0580
-     * @tc.desc   : Button适老化测试 - 内部包含其他组件，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2768,8 +2768,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1260
-     * @tc.desc   : Button适老化测试 - 设置横屏，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2796,8 +2796,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0220
-     * @tc.desc   : Button适老化测试 - 设置maxLines为1，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2825,8 +2825,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0550
-     * @tc.desc   : Button适老化测试 - 设置role为Error，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2854,8 +2854,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1270
-     * @tc.desc   : Button适老化测试 - 设置横屏，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2882,8 +2882,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0170
-     * @tc.desc   : Button适老化测试 - 设置type属性，内部不包含其他组件
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2906,8 +2906,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0590
-     * @tc.desc   : Button适老化测试 - 内部包含其他组件，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2930,8 +2930,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0790
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0790
-     * @tc.desc   : Button适老化测试 - 默认按钮，不设置任何属性
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2954,8 +2954,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0260
-     * @tc.desc   : Button适老化测试 - 设置fontStyle为Normal，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2983,8 +2983,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0610
-     * @tc.desc   : Button适老化测试 - 设置type为Capsule，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3007,8 +3007,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1190
-     * @tc.desc   : Button适老化测试 - 设置fontWeight为Bolder，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3036,8 +3036,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0250
-     * @tc.desc   : Button适老化测试 - 设置fontWeight为Normal，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3065,8 +3065,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0960
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0960
-     * @tc.desc   : Button适老化测试 - 设置maxLines为3，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3094,8 +3094,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0210
-     * @tc.desc   : Button适老化测试 - 设置转折符号
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3114,8 +3114,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0970
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0970
-     * @tc.desc   : Button适老化测试 - 设置maxLines为4，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3143,8 +3143,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0340
-     * @tc.desc   : Button适老化测试 - 设置type为Circle，字体1.75倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3172,8 +3172,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0980
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0980
-     * @tc.desc   : Button适老化测试 - 设置maxLines为4，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3201,8 +3201,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0360
-     * @tc.desc   : Button适老化测试 - 设置type为Circle，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3225,8 +3225,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1010
-     * @tc.desc   : Button适老化测试 - 超长文本，不设置labelStyle，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3249,8 +3249,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0310
-     * @tc.desc   : Button适老化测试 - 基础按钮，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3273,8 +3273,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1000
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1000
-     * @tc.desc   : Button适老化测试 - 超长文本，不设置labelStyle，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3297,8 +3297,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0350
-     * @tc.desc   : Button适老化测试 - 设置type为Circle，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3321,8 +3321,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1030
-     * @tc.desc   : Button适老化测试 - 设置fontSize为16，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3350,8 +3350,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0300
-     * @tc.desc   : Button适老化测试 - 基础按钮，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3374,8 +3374,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1020
-     * @tc.desc   : Button适老化测试 - 设置fontSize为16，字体2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3403,8 +3403,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0330
-     * @tc.desc   : Button适老化测试 - 设置type为Capsule，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3427,8 +3427,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0990
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0990
-     * @tc.desc   : Button适老化测试 - 设置maxLines为4，字体3.2倍
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

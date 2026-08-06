@@ -43,6 +43,7 @@ export default function ComponentNavNavigationBack() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0281
      * @tc.name   : Navigation设置为自动切换单双栏模式，设置backButtonIcon属性，传入PixelMap类型，动态切换为PixelMap-jpg
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -72,6 +73,7 @@ export default function ComponentNavNavigationBack() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0282
      * @tc.name   : Navigation设置为自动切换单双栏模式，设置backButtonIcon属性，传入PixelMap类型，动态切换为PixelMap-gif
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -100,6 +102,7 @@ export default function ComponentNavNavigationBack() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0283
      * @tc.name   : Navigation设置为自动切换单双栏模式，设置backButtonIcon属性，传入PixelMap类型，动态切换为PixelMap-svg
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -128,6 +131,7 @@ export default function ComponentNavNavigationBack() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0284
      * @tc.name   : Navigation设置为自动切换单双栏模式，设置backButtonIcon属性，传入PixelMap类型，动态切换为PixelMap-bmp
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -156,6 +160,7 @@ export default function ComponentNavNavigationBack() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0291
      * @tc.name   : Navigation设置为自动切换单双栏模式，设置backButtonIcon属性，传入Resource类型，动态切换为Resource-jpg
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -184,6 +189,7 @@ export default function ComponentNavNavigationBack() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0292
      * @tc.name   : Navigation设置为自动切换单双栏模式，设置backButtonIcon属性，传入Resource类型，动态切换为Resource-gif
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -212,6 +218,7 @@ export default function ComponentNavNavigationBack() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0293
      * @tc.name   : Navigation设置为自动切换单双栏模式，设置backButtonIcon属性，传入Resource类型，动态切换为Resource-svg
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -240,6 +247,7 @@ export default function ComponentNavNavigationBack() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0294
      * @tc.name   : Navigation设置为自动切换单双栏模式，设置backButtonIcon属性，传入Resource类型，动态切换为Resource-bmp
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -268,6 +276,7 @@ export default function ComponentNavNavigationBack() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0301
      * @tc.name   : Navigation设置为自动切换单双栏模式，设置backButtonIcon属性，传入String类型，动态切换属性为String-jpg
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -296,6 +305,7 @@ export default function ComponentNavNavigationBack() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0302
      * @tc.name   : Navigation设置为自动切换单双栏模式，设置backButtonIcon属性，传入String类型，动态切换属性为String-gif
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -324,6 +334,7 @@ export default function ComponentNavNavigationBack() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0303
      * @tc.name   : Navigation设置为自动切换单双栏模式，设置backButtonIcon属性，传入String类型，动态切换属性为String-svg
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -352,6 +363,7 @@ export default function ComponentNavNavigationBack() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0304
      * @tc.name   : Navigation设置为自动切换单双栏模式，设置backButtonIcon属性，传入String类型，动态切换属性为String-bmp
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -381,6 +393,7 @@ export default function ComponentNavNavigationBack() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0305
      * @tc.name   : Navigation设置为自动切换单双栏模式，设置backButtonIcon属性，传入String类型，动态切换属性为String-png，横屏场景
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

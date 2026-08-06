@@ -58,13 +58,13 @@ export default function UiComponentTextRicheditor() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0070
-       * @tc.name    Click the search button to make the selected text out of focus
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0070
+     * @tc.name   : Click the search button to make the selected text out of focus
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor02")
@@ -82,13 +82,13 @@ export default function UiComponentTextRicheditor() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0020
-       * @tc.name    The Search component gestures and clicks the cursor to pop up a single handle and menu
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0020
+     * @tc.name   : The Search component gestures and clicks the cursor to pop up a single handle and menu
+     * @tc.desc   : Verify text search interaction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor03")
@@ -105,13 +105,13 @@ export default function UiComponentTextRicheditor() {
     })
 
     /*
-    * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0080
-    * @tc.name    Click the component input box several times and the cursor appears
-    * @tc.desc    Function test
-    * @tc.size    MediumTest
-    * @tc.type    Function
-    * @tc.level   0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0080
+     * @tc.name   : Click the component input box several times and the cursor appears
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor03")
@@ -133,13 +133,13 @@ export default function UiComponentTextRicheditor() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE-GAUGE_0010
-       * @tc.name    In the Gauge container, set privacySensitive to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE-GAUGE_0010
+     * @tc.name   : In the Gauge container, set privacySensitive to false
+     * @tc.desc   : Verify ArkUI privacysensitive-gauge interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0010`);
       Settings.createWindow("testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor05")
@@ -152,13 +152,13 @@ export default function UiComponentTextRicheditor() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RICHEDITOR_SYMBOL_ SHUFFLEEDITING_0370-GAUGE_0010
-       * @tc.name    In the Gauge container, set privacySensitive to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RICHEDITOR_SYMBOL_ SHUFFLEEDITING_0370-GAUGE_0010
+     * @tc.name   : In the Gauge container, set privacySensitive to false
+     * @tc.desc   : Verify richeditor symbol  shuffleediting 0370-gauge interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RICHEDITOR_SYMBOL_SHUFFLEEDITING_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RICHEDITOR_SYMBOL_SHUFFLEEDITING_0370`);
       Settings.createWindow("testability/pages/UiComponentTextRicheditor/UiComponentTextRicheditor06")

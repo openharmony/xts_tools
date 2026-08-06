@@ -41,13 +41,12 @@ export default function SpecialComponentsFullscreenLaunchComponentOptions() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_OPTIONS_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_OPTIONS_0100
-     * @tc.desc   : Test parameter passing for FullScreenLaunchComponent options.
-     * @tc.size   : MediumTest
+     * @tc.name   : Special components fullscreenlaunchcomponent options
+     * @tc.desc   : Verify special components fullscreenlaunchcomponent options interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 1
      */
-
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_OPTIONS_0100', Level.LEVEL1, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_OPTIONS_0100 start.`);
         Settings.createWindow("testability/pages/SpecialComponentsFullscreenLaunchComponentOptions/SpecialComponentsFullscreenLaunchComponentOptions0010")

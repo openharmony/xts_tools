@@ -63,10 +63,12 @@ export default function UIComponentPopUpBoxFollowDialog() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0010
-     * @tc.desc    Ensure Builder component exceeds bubble size in popover
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0010
+     * @tc.name   : Popupbox followdialog
+     * @tc.desc   : Verify popupbox followdialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0010';

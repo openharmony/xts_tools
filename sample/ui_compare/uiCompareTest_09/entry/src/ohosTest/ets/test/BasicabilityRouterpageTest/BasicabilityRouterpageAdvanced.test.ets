@@ -27,10 +27,13 @@ export default function BasicabilityRouterpageAdvanced() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTERPAGE_029
-     * @tc.name  页面间传参更新及获取参数
-     * @tc.desc  测试页面间参数传递和更新
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTERPAGE_029
+     * @tc.name   : 页面间传参更新及获取参数
+     * @tc.desc   : Verify basicability routerpage interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTERPAGE_029', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTERPAGE_029 begin');
@@ -70,10 +73,13 @@ export default function BasicabilityRouterpageAdvanced() {
       Logger.info('SUB_ACE_BASICABILITY_ROUTERPAGE_029 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTERPAGE_031
-     * @tc.name  应用启动首页，url路径输入有误
-     * @tc.desc  测试错误url路径的错误处理
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTERPAGE_031
+     * @tc.name   : 应用启动首页，url路径输入有误
+     * @tc.desc   : Verify basicability routerpage interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTERPAGE_031', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTERPAGE_031 begin');

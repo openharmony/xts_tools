@@ -27,10 +27,13 @@ export default function UiComponentSpecialcomponentsUiextensioncomponent() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_AREACHANGEPLACEHOLDER_0070
-     * @tc.name AreachangePlaceholder0070
-     * @tc.desc areaChangePlaceholder占位符UNDEFINED和FOLD_TO_EXPAND测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_AREACHANGEPLACEHOLDER_0070
+     * @tc.name   : AreachangePlaceholder0070
+     * @tc.desc   : Verify special components UIExtensionComponent areachangeplaceholder interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_AREACHANGEPLACEHOLDER_0070', 0, async () => {
       Logger.info('AREACHANGEPLACEHOLDER_0070 begin');
@@ -57,10 +60,13 @@ export default function UiComponentSpecialcomponentsUiextensioncomponent() {
       Logger.info('AREACHANGEPLACEHOLDER_0070 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_DPI_0010
-     * @tc.name Dpi0010
-     * @tc.desc DPI跟随宿主端测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_DPI_0010
+     * @tc.name   : Dpi0010
+     * @tc.desc   : Verify special components UIExtensionComponent dpi interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_DPI_0010', 0, async () => {
       Logger.info('DPI_0010 begin');
@@ -73,10 +79,13 @@ export default function UiComponentSpecialcomponentsUiextensioncomponent() {
       Logger.info('DPI_0010 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_DPI_0020
-     * @tc.name Dpi0020
-     * @tc.desc DPI跟随Ability侧测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_DPI_0020
+     * @tc.name   : Dpi0020
+     * @tc.desc   : Verify special components UIExtensionComponent dpi interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_DPI_0020', 0, async () => {
       Logger.info('DPI_0020 begin');
@@ -89,10 +98,13 @@ export default function UiComponentSpecialcomponentsUiextensioncomponent() {
       Logger.info('DPI_0020 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_DPI_0040
-     * @tc.name Dpi0040
-     * @tc.desc 不设置DPI跟随策略测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_DPI_0040
+     * @tc.name   : Dpi0040
+     * @tc.desc   : Verify special components UIExtensionComponent dpi interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_DPI_0040', 0, async () => {
       Logger.info('DPI_0040 begin');
@@ -105,10 +117,13 @@ export default function UiComponentSpecialcomponentsUiextensioncomponent() {
       Logger.info('DPI_0040 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_PLACEHOLDER_0010
-     * @tc.name Placeholder0010
-     * @tc.desc placeholder占位符测试（不安装提供方hap）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_PLACEHOLDER_0010
+     * @tc.name   : Placeholder0010
+     * @tc.desc   : Verify special components UIExtensionComponent placeholder interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_PLACEHOLDER_0010', 0, async () => {
       Logger.info('PLACEHOLDER_0010 begin');
@@ -121,10 +136,13 @@ export default function UiComponentSpecialcomponentsUiextensioncomponent() {
       Logger.info('PLACEHOLDER_0010 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_WINDOW_MODE_0006
-     * @tc.name WindowMode0006
-     * @tc.desc 嵌套UEC窗口Mode追随宿主+不追随宿主测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_WINDOW_MODE_0006
+     * @tc.name   : WindowMode0006
+     * @tc.desc   : Verify special components UIExtensionComponent window mode interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_WINDOW_MODE_0006', 0, async () => {
       Logger.info('WINDOW_MODE_0006 begin');

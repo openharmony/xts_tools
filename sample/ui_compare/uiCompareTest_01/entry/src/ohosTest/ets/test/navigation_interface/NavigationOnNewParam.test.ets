@@ -45,7 +45,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0010
      * @tc.name   : Router单例跳转支持参数刷新回调OnNewParam(pushUrl接口测试)
-     * @tc.desc   : Router单例跳转支持参数刷新回调OnNewParam(pushUrl接口测试)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -125,7 +125,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0030
      * @tc.name   : Router单例跳转支持参数刷新回调OnNewParam(replaceUrl接口测试)
-     * @tc.desc   : Router单例跳转支持参数刷新回调OnNewParam(replaceUrl接口测试)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -250,7 +250,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0040
      * @tc.name   : Router单例跳转支持参数刷新回调OnNewParam(replaceNamedRoute接口测试)
-     * @tc.desc   : Router单例跳转支持参数刷新回调OnNewParam(replaceNamedRoute接口测试)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -375,7 +375,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0050
      * @tc.name   : Router单例跳转支持参数刷新回调OnNewParam(pushUrl callback接口测试)
-     * @tc.desc   : Router单例跳转支持参数刷新回调OnNewParam(pushUrl callback接口测试)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -443,7 +443,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0060
      * @tc.name   : Router单例跳转支持参数刷新回调OnNewParam(replaceNamedRoute callback接口测试)
-     * @tc.desc   : Router单例跳转支持参数刷新回调OnNewParam(replaceNamedRoute callback接口测试)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -511,7 +511,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0070
      * @tc.name   : Router单例跳转支持参数刷新回调OnNewParam(首次调用push single)
-     * @tc.desc   : Router单例跳转支持参数刷新回调OnNewParam(首次调用push single)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -565,7 +565,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0080
      * @tc.name   : Navigation单例跳转支持参数刷新回调OnNewParam(pushPath接口测试，触发场景)
-     * @tc.desc   : Navigation单例跳转支持参数刷新回调OnNewParam(pushPath接口测试，触发场景)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -690,7 +690,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0090
      * @tc.name   : Navigation单例跳转支持参数刷新回调OnNewParam(pushPath接口测试，不触发场景)
-     * @tc.desc   : Navigation单例跳转支持参数刷新回调OnNewParam(pushPath接口测试，不触发场景)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -800,7 +800,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0100
      * @tc.name   : Navigation单例跳转支持参数刷新回调OnNewParam(pushDestination接口测试)
-     * @tc.desc   : Navigation单例跳转支持参数刷新回调OnNewParam(pushDestination接口测试)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -882,7 +882,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0110
      * @tc.name   : Navigation单例跳转支持参数刷新回调OnNewParam(replacePath接口测试，触发场景)
-     * @tc.desc   : Navigation单例跳转支持参数刷新回调OnNewParam(replacePath接口测试，触发场景)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -950,7 +950,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0120
      * @tc.name   : Navigation单例跳转支持参数刷新回调OnNewParam(replaceDestination接口测试)
-     * @tc.desc   : Navigation单例跳转支持参数刷新回调OnNewParam(replaceDestination接口测试)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1060,7 +1060,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0130
      * @tc.name   : Navigation单例跳转支持参数刷新回调OnNewParam(replacePath接口测试，不触发场景)
-     * @tc.desc   : Navigation单例跳转支持参数刷新回调OnNewParam(replacePath接口测试，不触发场景)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1170,7 +1170,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0140
      * @tc.name   : Navigation单例跳转支持参数刷新回调OnNewParam(moveIndexToTop接口测试)
-     * @tc.desc   : Navigation单例跳转支持参数刷新回调OnNewParam(moveIndexToTop接口测试)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1238,7 +1238,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0150
      * @tc.name   : Navigation单例跳转支持参数刷新回调OnNewParam(pushPath接口测试，生命周期场景测试)
-     * @tc.desc   : Navigation单例跳转支持参数刷新回调OnNewParam(pushPath接口测试，生命周期场景测试)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1306,7 +1306,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0160
      * @tc.name   : Navigation单例跳转支持参数刷新回调OnNewParam(replacePath接口测试，生命周期场景测试)
-     * @tc.desc   : Navigation单例跳转支持参数刷新回调OnNewParam(replacePath接口测试，生命周期场景测试)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1374,7 +1374,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0170
      * @tc.name   : Navigation单例跳转支持参数刷新回调OnNewParam(定义路由派生类场景)
-     * @tc.desc   : Navigation单例跳转支持参数刷新回调OnNewParam(定义路由派生类场景)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1456,7 +1456,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0180
      * @tc.name   : Navigation单例跳转支持参数刷新回调OnNewParam(OnReady场景)
-     * @tc.desc   : Navigation单例跳转支持参数刷新回调OnNewParam(OnReady场景)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1538,7 +1538,7 @@ export default function NavigationOnNewParamTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONNEWPARAM_0190
      * @tc.name   : Navigation单例跳转支持参数刷新回调OnNewParam(aboutToAppear场景)
-     * @tc.desc   : Navigation单例跳转支持参数刷新回调OnNewParam(aboutToAppear场景)
+     * @tc.desc   : Verify nav navigation onnewparam interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -55,13 +55,13 @@ export default function UIStateStylesTest() {
       done()
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_ATTRIBUTES_STATESTYLES_NORMAL_0020
-     * @tc.name: SUB_ACE_UI_ATTRIBUTES_STATESTYLES_NORMAL_0020
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_NORMAL_0020
+     * @tc.name   : Attributes statestyles normal
+     * @tc.desc   : Verify attributes statestyles normal interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_STATESTYLES_NORMAL_0020',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {

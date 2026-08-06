@@ -44,7 +44,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0010
      * @tc.name   : 标题避让sidebar（标题是resource类型）
-     * @tc.desc   : 标题避让sidebar（标题是resource类型）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -90,7 +90,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0020
      * @tc.name   : 标题避让sidebar（标题是string类型）
-     * @tc.desc   : 标题避让sidebar（标题是string类型）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -138,7 +138,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0030
      * @tc.name   : 标题避让sidebar（标题是NavigationCommonTitle类型，自定义菜单）
-     * @tc.desc   : 标题避让sidebar（标题是NavigationCommonTitle类型，自定义菜单）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -186,7 +186,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0040
      * @tc.name   : 标题避让sidebar（标题是CustomBuilder类型，非自定义菜单）
-     * @tc.desc   : 标题避让sidebar（标题是CustomBuilder类型，非自定义菜单）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -226,7 +226,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0050
      * @tc.name   : 标题避让sidebar（标题是NavigationCustomTitle类型，自定义菜单）
-     * @tc.desc   : 标题避让sidebar（标题是NavigationCustomTitle类型，自定义菜单）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -266,7 +266,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0060
      * @tc.name   : 标题避让sidebar（标题是resource类型，非自定义菜单）
-     * @tc.desc   : 标题避让sidebar（标题是resource类型，非自定义菜单）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -333,7 +333,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0070
      * @tc.name   : 标题避让sidebar（标题是string类型，非自定义菜单）
-     * @tc.desc   : 标题避让sidebar（标题是string类型，非自定义菜单）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -402,7 +402,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0080
      * @tc.name   : 标题避让sidebar（标题是NavigationCommonTitle类型，非自定义菜单）
-     * @tc.desc   : 标题避让sidebar（标题是NavigationCommonTitle类型，非自定义菜单）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -470,7 +470,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0090
      * @tc.name   : 标题避让sidebar（标题是CustomBuilder类型，自定义菜单）
-     * @tc.desc   : 标题避让sidebar（标题是CustomBuilder类型，自定义菜单）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -510,7 +510,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0100
      * @tc.name   : 标题避让sidebar（标题是NavigationCustomTitle类型，非自定义菜单）
-     * @tc.desc   : 标题避让sidebar（标题是NavigationCustomTitle类型，非自定义菜单）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -550,7 +550,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0110
      * @tc.name   : 标题避让sidebar（titleMode属性测试）
-     * @tc.desc   : 标题避让sidebar（titleMode属性测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -632,7 +632,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0120
      * @tc.name   : 标题避让sidebar（hideTitleBar属性测试）
-     * @tc.desc   : 标题避让sidebar（hideTitleBar属性测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -701,7 +701,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0130
      * @tc.name   : 标题避让sidebar（mode属性测试）
-     * @tc.desc   : 标题避让sidebar（mode属性测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -770,7 +770,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0140
      * @tc.name   : 标题避让sidebar（BarStyle属性测试）
-     * @tc.desc   : 标题避让sidebar（BarStyle属性测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -816,7 +816,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0150
      * @tc.name   : 标题避让sidebar（Navigation不满一屏测试）
-     * @tc.desc   : 标题避让sidebar（Navigation不满一屏测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -858,7 +858,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0160
      * @tc.name   : 标题避让sidebar（navBarPosition属性测试）
-     * @tc.desc   : 标题避让sidebar（navBarPosition属性测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -940,7 +940,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0170
      * @tc.name   : 标题避让sidebar（热启动+锁屏场景测试）
-     * @tc.desc   : 标题避让sidebar（热启动+锁屏场景测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -987,7 +987,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0180
      * @tc.name   : 标题避让sidebar（横竖屏切换场景测试）
-     * @tc.desc   : 标题避让sidebar（横竖屏切换场景测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1046,7 +1046,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0190
      * @tc.name   : 标题避让sidebar（showControlButton属性测试）
-     * @tc.desc   : 标题避让sidebar（showControlButton属性测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1115,7 +1115,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0200
      * @tc.name   : 标题避让sidebar（自定义controlButton测试）
-     * @tc.desc   : 标题避让sidebar（自定义controlButton测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1157,7 +1157,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0210
      * @tc.name   : 标题避让sidebar（主/副标题属性修改器测试）
-     * @tc.desc   : 标题避让sidebar（主/副标题属性修改器测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1187,7 +1187,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0220
      * @tc.name   : 标题避让sidebar（sideBarPosition属性测试）
-     * @tc.desc   : 标题避让sidebar（sideBarPosition属性测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1256,7 +1256,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0230
      * @tc.name   : 标题避让sidebar（标题是NavigationCommonTitle类型）
-     * @tc.desc   : 标题避让sidebar（标题是NavigationCommonTitle类型）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1324,7 +1324,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0240
      * @tc.name   : 标题避让sidebar（镜像测试）
-     * @tc.desc   : 标题避让sidebar（镜像测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1370,7 +1370,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0250
      * @tc.name   : 标题避让sidebar（子窗口测试）
-     * @tc.desc   : 标题避让sidebar（子窗口测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1409,7 +1409,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0260
      * @tc.name   : 标题避让sidebar（SideBarContainerType属性测试）
-     * @tc.desc   : 标题避让sidebar（SideBarContainerType属性测试）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1490,7 +1490,7 @@ export default function NavigationControlButtonTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTROLBUTTON_0270
      * @tc.name   : 标题避让sidebar（只存在主标题场景）
-     * @tc.desc   : 标题避让sidebar（只存在主标题场景）
+     * @tc.desc   : Verify nav navigation controlbutton interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

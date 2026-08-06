@@ -29,10 +29,13 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
       }
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0010
-     * @tc.name: ImageAnimateDisplay0010
-     * @tc.desc: 静图加动图显示测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0010
+     * @tc.name   : ImageAnimateDisplay0010
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0010', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0010 start');
@@ -54,10 +57,13 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0011
-     * @tc.name: ImageAnimateDisplay0011
-     * @tc.desc: 静图+动图适配横竖屏显示测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0011
+     * @tc.name   : ImageAnimateDisplay0011
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0011', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0011 start');
@@ -79,10 +85,13 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0012
-     * @tc.name: ImageAnimateDisplay0012
-     * @tc.desc: 单静图显示测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0012
+     * @tc.name   : ImageAnimateDisplay0012
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0012', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0012 start');
@@ -104,10 +113,13 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0013
-     * @tc.name: ImageAnimateDisplay0013
-     * @tc.desc: 单静图适配横竖屏显示测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0013
+     * @tc.name   : ImageAnimateDisplay0013
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0013', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0013 start');
@@ -129,10 +141,13 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0014
-     * @tc.name: ImageAnimateDisplay0014
-     * @tc.desc: 单动图显示测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0014
+     * @tc.name   : ImageAnimateDisplay0014
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0014', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0014 start');
@@ -154,10 +169,13 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0015
-     * @tc.name: ImageAnimateDisplay0015
-     * @tc.desc: 单动图适配横竖屏显示测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0015
+     * @tc.name   : ImageAnimateDisplay0015
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0015', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0015 start');
@@ -179,10 +197,13 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0016
-     * @tc.name: ImageAnimateDisplay0016
-     * @tc.desc: 多任务缓存测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0016
+     * @tc.name   : ImageAnimateDisplay0016
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0016', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0016 start');
@@ -207,10 +228,13 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0017
-     * @tc.name: ImageAnimateDisplay0017
-     * @tc.desc: 多任务缓存适配横竖屏测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0017
+     * @tc.name   : ImageAnimateDisplay0017
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0017', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0017 start');

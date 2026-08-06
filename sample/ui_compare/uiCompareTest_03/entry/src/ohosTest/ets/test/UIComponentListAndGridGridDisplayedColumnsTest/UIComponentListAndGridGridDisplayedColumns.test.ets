@@ -59,10 +59,12 @@ export default function UIComponentListAndGridGridDisplayedColumns() {
 
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0150_347
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0150_347
-     * @tc.desc    Test Grid scrolling with columnsTemplate set to repeat auto-fit 90px layout
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0150_347
+     * @tc.name   : Listandgrid grid displayedcolumns
+     * @tc.desc   : Verify listandgrid grid displayedcolumns interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0150_347', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0150_347';
@@ -80,10 +82,12 @@ export default function UIComponentListAndGridGridDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0290_526
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0290_526
-     * @tc.desc    Test Grid layout with both columnsTemplate and rowsTemplate set
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0290_526
+     * @tc.name   : Listandgrid grid displayedcolumns
+     * @tc.desc   : Verify listandgrid grid displayedcolumns interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0290_526', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0290_526';

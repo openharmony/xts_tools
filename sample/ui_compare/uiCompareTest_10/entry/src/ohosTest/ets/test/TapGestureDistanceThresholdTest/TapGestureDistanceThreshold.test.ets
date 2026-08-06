@@ -41,13 +41,12 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0220
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0220
-     * @tc.desc   : ETS – distanceThreshold is greater than the component area, move n within the component area
-     * @tc.size   : MediumTest
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0220 start.`);
       Settings.createWindow("testability/pages/TapGestureDistanceThreshold/TapGestureDistanceThreshold0220")
@@ -61,13 +60,12 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0230
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0230
-     * @tc.desc   : ETS - distanceThreshold is greater than the component area, move within the component area, repeat 10 times
-     * @tc.size   : MediumTest
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0230 start.`);
       Settings.createWindow("testability/pages/TapGestureDistanceThreshold/TapGestureDistanceThreshold0230")
@@ -81,13 +79,12 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0240
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0240
-     * @tc.desc   : ETS - distanceThreshold is greater than the component area, move back and forth within the component area
-     * @tc.size   : MediumTest
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0240 start.`);
       Settings.createWindow("testability/pages/TapGestureDistanceThreshold/TapGestureDistanceThreshold0240")
@@ -101,13 +98,12 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0250
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0250
-     * @tc.desc   : ETS - distanceThreshold is greater than the component area, slide from inside to outside and back inside to lift
-     * @tc.size   : MediumTest
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0250 start.`);
       Settings.createWindow("testability/pages/TapGestureDistanceThreshold/TapGestureDistanceThreshold0250")
@@ -121,13 +117,12 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0260
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0260
-     * @tc.desc   : ETS - distanceThreshold is greater than the component area, slide from outside to inside
-     * @tc.size   : MediumTest
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0260 start.`);
       Settings.createWindow("testability/pages/TapGestureDistanceThreshold/TapGestureDistanceThreshold0260")
@@ -141,13 +136,12 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0270
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0270
-     * @tc.desc   : ETS - distanceThreshold is greater than the component area, slide from outside to inside and back outside
-     * @tc.size   : MediumTest
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0270 start.`);
       Settings.createWindow("testability/pages/TapGestureDistanceThreshold/TapGestureDistanceThreshold0270")
@@ -161,13 +155,12 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0280
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0280
-     * @tc.desc   : ETS - distanceThreshold is greater than the component area, move within the component area with distance outside threshold
-     * @tc.size   : MediumTest
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0280 start.`);
       Settings.createWindow("testability/pages/TapGestureDistanceThreshold/TapGestureDistanceThreshold0280")
@@ -181,13 +174,12 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0290
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0290
-     * @tc.desc   : ETS - distanceThreshold is greater than the component area, slide from inside to outside and back inside with distance outside threshold
-     * @tc.size   : MediumTest
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0290 start.`);
       Settings.createWindow("testability/pages/TapGestureDistanceThreshold/TapGestureDistanceThreshold0290")
@@ -201,13 +193,12 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0300
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0300
-     * @tc.desc   : ETS - distanceThreshold is greater than the component area, slide from outside to inside with distance outside threshold
-     * @tc.size   : MediumTest
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0300 start.`);
       Settings.createWindow("testability/pages/TapGestureDistanceThreshold/TapGestureDistanceThreshold0300")
@@ -221,13 +212,12 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0310
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0310
-     * @tc.desc   : ETS - distanceThreshold is greater than the component area, slide from outside to inside then back outside with distance outside threshold
-     * @tc.size   : MediumTest
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0310 start.`);
       Settings.createWindow("testability/pages/TapGestureDistanceThreshold/TapGestureDistanceThreshold0310")
@@ -241,13 +231,12 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0320
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0320
-     * @tc.desc   : ETS - distanceThreshold with landscape and portrait rotation, move within component with distance less than threshold
-     * @tc.size   : MediumTest
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0320 start.`);
       Settings.createWindow("testability/pages/TapGestureDistanceThreshold/TapGestureDistanceThreshold0320")
@@ -261,13 +250,12 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0340
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0340
-     * @tc.desc   : ETS - tap and pan gestures are mutually exclusive, slide from component a to component b
-     * @tc.size   : MediumTest
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0340 start.`);
       Settings.createWindow("testability/pages/TapGestureDistanceThreshold/TapGestureDistanceThreshold0340")
@@ -281,13 +269,12 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0350
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0350
-     * @tc.desc   : ETS - tap and pan gestures are parallel, slide from component a to component b
-     * @tc.size   : MediumTest
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0350 start.`);
       Settings.createWindow("testability/pages/TapGestureDistanceThreshold/TapGestureDistanceThreshold0350")

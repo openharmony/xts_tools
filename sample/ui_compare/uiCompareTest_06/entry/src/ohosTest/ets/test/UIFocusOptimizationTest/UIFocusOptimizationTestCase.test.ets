@@ -55,13 +55,13 @@ export default function UIFocusOptimizationTest() {
       done()
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_156
-     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_156
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_156
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_156',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -75,13 +75,13 @@ export default function UIFocusOptimizationTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_169
-     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_169
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_169
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_169',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -95,13 +95,13 @@ export default function UIFocusOptimizationTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_147
-     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_147
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_147
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_147',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -115,13 +115,13 @@ export default function UIFocusOptimizationTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_145
-     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_145
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_145
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_145',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -135,13 +135,13 @@ export default function UIFocusOptimizationTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_176
-     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_176
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_176
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_176',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -155,13 +155,13 @@ export default function UIFocusOptimizationTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_148
-     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_148
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_148
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_148',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -175,13 +175,13 @@ export default function UIFocusOptimizationTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_163
-     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_163
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_163
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_163',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -195,13 +195,13 @@ export default function UIFocusOptimizationTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_131
-     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_131
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_131
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_131',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -215,13 +215,13 @@ export default function UIFocusOptimizationTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_144
-     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_144
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_144
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_144',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -235,13 +235,13 @@ export default function UIFocusOptimizationTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_129
-     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_129
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_129
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_129',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -255,13 +255,13 @@ export default function UIFocusOptimizationTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_171
-     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_171
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_171
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_171',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -275,13 +275,13 @@ export default function UIFocusOptimizationTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_177
-     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_177
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_177
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_177',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -295,13 +295,13 @@ export default function UIFocusOptimizationTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_172
-     * @tc.name: SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_172
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_172
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_172',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {

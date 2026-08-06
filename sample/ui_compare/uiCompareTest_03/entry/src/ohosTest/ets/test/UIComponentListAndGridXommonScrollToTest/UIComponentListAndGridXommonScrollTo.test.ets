@@ -59,10 +59,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0010
-     * @tc.desc    Vertical List component with edge effect spring, enable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0010
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0010';
@@ -84,10 +86,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0020
-     * @tc.desc    Vertical List component with edge effect spring, disable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0020
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0020';
@@ -109,10 +113,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0030
-     * @tc.desc    Vertical List component with edge effect Fade, enable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0030
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0030';
@@ -134,10 +140,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0040
-     * @tc.desc    Vertical List component with edge effect Fade, disable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0040
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0040';
@@ -159,10 +167,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0050
-     * @tc.desc    Vertical List component with edge effect None, enable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0050
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0050';
@@ -184,10 +194,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0060
-     * @tc.desc    Vertical List component with edge effect None, disable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0060
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0060';
@@ -209,10 +221,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0070
-     * @tc.desc    Vertical List component dynamic edge effect switch, overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0070
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0070';
@@ -237,10 +251,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0080
-     * @tc.desc    Vertical List component dynamic switch canOverScroll parameter test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0080
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0080';
@@ -265,10 +281,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0100
-     * @tc.desc    Vertical List component at boundary, invoke overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0100
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0100';
@@ -292,10 +310,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0110
-     * @tc.desc    Vertical List component dynamic switch to horizontal layout, overscroll rebound test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0110
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0110';
@@ -348,10 +368,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0120
-     * @tc.desc    Vertical List component invoke different scrollTo distance test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0120
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0120';
@@ -379,10 +401,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0130
-     * @tc.desc    Vertical List component set different custom curves, overscroll rebound test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0130
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0130';
@@ -410,10 +434,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0140
-     * @tc.desc    Vertical List component without canOverScroll parameter, overscroll rebound test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0140
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0140';
@@ -435,10 +461,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0150
-     * @tc.desc    Vertical Grid component with edge effect spring, enable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0150
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0150';
@@ -460,10 +488,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0160
-     * @tc.desc    Vertical Grid component with edge effect spring, disable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0160
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0160';
@@ -485,10 +515,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0170
-     * @tc.desc    Vertical Grid component with edge effect Fade, enable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0170
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0170';
@@ -510,10 +542,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0180
-     * @tc.desc    Vertical Grid component with edge effect Fade, disable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0180
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0180';
@@ -535,10 +569,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0190
-     * @tc.desc    Vertical Grid component with edge effect None, enable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0190
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0190';
@@ -560,10 +596,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0200
-     * @tc.desc    Vertical Grid component with edge effect None, disable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0200
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0200';
@@ -585,10 +623,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0210
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0210
-     * @tc.desc    Vertical Grid component dynamic edge effect switch, overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0210
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0210';
@@ -613,10 +653,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0220
-     * @tc.desc    Vertical Grid component dynamic switch canOverScroll parameter test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0220
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0220';
@@ -641,10 +683,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0240
-     * @tc.desc    Vertical Grid component at boundary, invoke overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0240
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0240';
@@ -668,10 +712,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0250
-     * @tc.desc    Vertical Grid component dynamic switch to horizontal layout, overscroll rebound test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0250
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0250';
@@ -724,10 +770,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0260
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0260
-     * @tc.desc    Vertical Grid component invoke different scrollTo distance test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0260
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0260';
@@ -755,10 +803,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0270
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0270
-     * @tc.desc    Vertical Grid component set different custom curves, overscroll rebound test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0270
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0270';
@@ -786,10 +836,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0280
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0280
-     * @tc.desc    Vertical Grid component without canOverScroll parameter, overscroll rebound test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0280
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0280';
@@ -811,10 +863,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0290
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0290
-     * @tc.desc    Vertical WaterFlow component with edge effect spring, enable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0290
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0290', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0290';
@@ -836,10 +890,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0300
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0300
-     * @tc.desc    Vertical WaterFlow component with edge effect spring, disable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0300
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0300';
@@ -861,10 +917,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0310
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0310
-     * @tc.desc    Vertical WaterFlow component with edge effect Fade, enable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0310
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0310';
@@ -886,10 +944,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0320
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0320
-     * @tc.desc    Vertical WaterFlow component with edge effect Fade, disable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0320
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0320';
@@ -911,10 +971,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0330
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0330
-     * @tc.desc    Vertical WaterFlow component with edge effect None, enable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0330
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0330', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0330';
@@ -936,10 +998,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0340
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0340
-     * @tc.desc    Vertical WaterFlow component with edge effect None, disable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0340
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0340', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0340';
@@ -961,10 +1025,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0350
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0350
-     * @tc.desc    Vertical WaterFlow component dynamic edge effect switch, overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0350
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0350', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0350';
@@ -989,10 +1055,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0350_454
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0350_454
-     * @tc.desc    Vertical WaterFlow component dynamic edge effect switch, overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0350_454
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0350_454', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0350_454';
@@ -1017,10 +1085,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0360
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0360
-     * @tc.desc    Vertical WaterFlow component dynamic switch canOverScroll parameter test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0360
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0360', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0360';
@@ -1045,10 +1115,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0360_525
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0360_525
-     * @tc.desc    Vertical WaterFlow component dynamic switch canOverScroll parameter test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0360_525
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0360_525', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0360_525';
@@ -1073,10 +1145,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0380
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0380
-     * @tc.desc    Vertical WaterFlow component at boundary, invoke overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0380
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0380', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0380';
@@ -1100,10 +1174,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0380_392
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0380_392
-     * @tc.desc    Vertical WaterFlow component at boundary, invoke overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0380_392
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0380_392', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0380_392';
@@ -1127,10 +1203,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0390
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0390
-     * @tc.desc    Vertical WaterFlow component dynamic switch to horizontal layout, overscroll rebound test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0390
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0390', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0390';
@@ -1183,10 +1261,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0400
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0400
-     * @tc.desc    Vertical WaterFlow component invoke different scrollTo distance test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0400
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0400', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0400';
@@ -1214,10 +1294,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0410
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0410
-     * @tc.desc    Vertical WaterFlow component set different custom curves, overscroll rebound test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0410
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0410', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0410';
@@ -1245,10 +1327,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0410_746
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0410_746
-     * @tc.desc    Vertical WaterFlow component set different custom curves, overscroll rebound test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0410_746
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0410_746', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0410_746';
@@ -1276,10 +1360,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0420
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0420
-     * @tc.desc    Vertical WaterFlow component without canOverScroll parameter, overscroll rebound test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0420
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0420', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0420';
@@ -1301,10 +1387,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0420_283
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0420_283
-     * @tc.desc    Vertical WaterFlow component without canOverScroll parameter, overscroll rebound test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0420_283
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0420_283', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0420_283';
@@ -1326,10 +1414,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0430
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0430
-     * @tc.desc    Vertical Scroll component with edge effect spring, enable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0430
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0430', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0430';
@@ -1351,10 +1441,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0440
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0440
-     * @tc.desc    Vertical Scroll component with edge effect spring, disable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0440
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0440', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0440';
@@ -1376,10 +1468,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0450
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0450
-     * @tc.desc    Vertical Scroll component with edge effect Fade, enable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0450
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0450', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0450';
@@ -1401,10 +1495,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0460
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0460
-     * @tc.desc    Vertical Scroll component with edge effect Fade, disable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0460
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0460', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0460';
@@ -1426,10 +1522,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0470
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0470
-     * @tc.desc    Vertical Scroll component with edge effect None, enable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0470
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0470', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0470';
@@ -1451,10 +1549,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0480
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0480
-     * @tc.desc    Vertical Scroll component with edge effect None, disable overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0480
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0480', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0480';
@@ -1476,10 +1576,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0490
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0490
-     * @tc.desc    Vertical Scroll component dynamic edge effect switch, overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0490
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0490', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0490';
@@ -1504,10 +1606,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0500
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0500
-     * @tc.desc    Vertical Scroll component dynamic switch canOverScroll parameter test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0500
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0500', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0500';
@@ -1532,10 +1636,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0520
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0520
-     * @tc.desc    Vertical Scroll component at boundary, invoke overscroll rebound capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0520
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0520', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0520';
@@ -1559,10 +1665,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0530
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0530
-     * @tc.desc    Vertical Scroll component dynamic switch to horizontal layout, overscroll rebound test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0530
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0530', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0530';
@@ -1615,10 +1723,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0540
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0540
-     * @tc.desc    Vertical Scroll component invoke different scrollTo distance test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0540
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0540', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0540';
@@ -1646,10 +1756,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0550
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0550
-     * @tc.desc    Vertical Scroll component set different custom curves, overscroll rebound test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0550
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0550', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0550';
@@ -1677,10 +1789,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0560
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0560
-     * @tc.desc    Vertical Scroll component without canOverScroll parameter, overscroll rebound test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0560
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0560', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0560';
@@ -1702,10 +1816,12 @@ export default function UIComponentListAndGridXommonScrollTo() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0680_459
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0680_459
-     * @tc.desc    Vertical WaterFlow component overscroll rebound onScrollFrameBegin event test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0680_459
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0680_459', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0680_459';

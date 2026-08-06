@@ -27,10 +27,13 @@ export default function UiComponentSearchTv() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_SEARCH_TV_0400
-     * @tc.name SearchTv0400
-     * @tc.desc 【Search】深色模式下手机样式检查
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_TV_0400
+     * @tc.name   : SearchTv0400
+     * @tc.desc   : Verify search tv interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_TV_0400', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_SEARCH_TV_0400 begin');
@@ -49,10 +52,13 @@ export default function UiComponentSearchTv() {
       Logger.info('SUB_ACE_UI_COMPONENT_SEARCH_TV_0400 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_SEARCH_TV_0410
-     * @tc.name SearchTv0410
-     * @tc.desc 【Search】标准模式下手机样式检查
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_TV_0410
+     * @tc.name   : SearchTv0410
+     * @tc.desc   : Verify search tv interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_TV_0410', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_SEARCH_TV_0410 begin');
@@ -71,10 +77,13 @@ export default function UiComponentSearchTv() {
       Logger.info('SUB_ACE_UI_COMPONENT_SEARCH_TV_0410 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_SEARCH_TV_0470
-     * @tc.name SearchTv0470
-     * @tc.desc 【Search】超长占位符样式检查
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_TV_0470
+     * @tc.name   : SearchTv0470
+     * @tc.desc   : Verify search tv interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_TV_0470', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_SEARCH_TV_0470 begin');
@@ -87,10 +96,13 @@ export default function UiComponentSearchTv() {
       Logger.info('SUB_ACE_UI_COMPONENT_SEARCH_TV_0470 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_SEARCH_TV_0510
-     * @tc.name SearchTv0510
-     * @tc.desc 【search】搜索框输入法避让测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_TV_0510
+     * @tc.name   : SearchTv0510
+     * @tc.desc   : Verify search tv interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_TV_0510', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_SEARCH_TV_0510 begin');

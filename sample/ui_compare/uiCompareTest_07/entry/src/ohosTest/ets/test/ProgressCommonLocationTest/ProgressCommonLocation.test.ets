@@ -42,9 +42,9 @@ export default function ProgressCommonLocation() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0003
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0003
+     * @tc.name   : Progress common location
+     * @tc.desc   : Verify Progress common location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : For the Eclipse-type Progress, set the direction to Direction.Ltr.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -63,9 +63,9 @@ export default function ProgressCommonLocation() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0002
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0002
+     * @tc.name   : Progress common location
+     * @tc.desc   : Verify Progress common location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : For the Linear-type Progress, set the direction to Direction.Rtl.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -84,9 +84,9 @@ export default function ProgressCommonLocation() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0006
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0006
+     * @tc.name   : Progress common location
+     * @tc.desc   : Verify Progress common location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : For the ScaleRing-type Progress, set the direction to Direction.Rtl.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -105,9 +105,9 @@ export default function ProgressCommonLocation() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0007
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0007
+     * @tc.name   : Progress common location
+     * @tc.desc   : Verify Progress common location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : For the Capsule-type Progress, set the direction to Direction.Ltr.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -126,9 +126,9 @@ export default function ProgressCommonLocation() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0010
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0010
+     * @tc.name   : Progress common location
+     * @tc.desc   : Verify Progress common location interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : For the Ring-type Progress, set the direction to Direction.Rtl.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

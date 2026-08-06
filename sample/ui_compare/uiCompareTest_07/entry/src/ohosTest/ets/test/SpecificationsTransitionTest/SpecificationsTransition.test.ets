@@ -41,9 +41,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0010
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to Asymmetric, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -83,9 +83,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0020
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to Combine, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -125,9 +125,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0030
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to Move, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -170,9 +170,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0050
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that the show and exit animation effects are normal when the AlertDialog animation is set to Rotate.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -215,9 +215,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0060
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that the show and exit animation effects are normal when the AlertDialog animation is set to Scale.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -260,9 +260,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0080
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that the show and exit animation effects are normal when the AlertDialog animation is set to pat_IDENTITY.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -305,9 +305,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0090
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that the show and exit animation effects are normal when the AlertDialog animation is set to pat_OPACITY.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -350,9 +350,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0100
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that the show and exit animation effects are normal when the AlertDialog animation is set to pat_OPACITY.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -395,9 +395,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0110
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that the show and exit animation effects are normal when the AlertDialog animation is set to pat_SLIDE_SWITCH.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -440,9 +440,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0120
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to Asymmetric, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -502,9 +502,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0130
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to Combine, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -564,9 +564,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0140
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to Move, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -626,9 +626,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0150
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to Opacity, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -688,9 +688,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0160
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to Rotate, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -751,9 +751,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0170
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to Scale, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -813,9 +813,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0180
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to Translate, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -875,9 +875,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0190
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to pat_IDENTITY, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -937,9 +937,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0200
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to pat_OPACITY, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -999,9 +999,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0210
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to pat_SLIDE, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1061,9 +1061,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0220
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to pat_SLIDE_SWITCH, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1123,9 +1123,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0240
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when pressing the home key during the AlertDialog animation process and returning to the app, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1185,9 +1185,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0250
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when pressing the back key multiple times during the AlertDialog animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1239,9 +1239,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0270
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation iterations is set to -1, the show/exit animation effects play infinitely.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1283,9 +1283,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0300
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that the show and exit animation effects are normal when the ActionSheet animation is set to Combine.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1328,9 +1328,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0340
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that the show and exit animation effects are normal when the ActionSheet animation is set to Scale.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1373,9 +1373,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0370
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that the show and exit animation effects are normal when the ActionSheet animation is set to pat_OPACITY.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1418,9 +1418,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0480
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to pat_OPACITY, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1480,9 +1480,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0500
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to pat_SLIDE_SWITCH, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1542,9 +1542,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0230
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when locking and unlocking the screen during the AlertDialog animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1604,9 +1604,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0280
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation PlayMode is set to Reverse, the animation effect plays in reverse.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1642,9 +1642,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0260
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog does not set transition, it uses the default show/exit animation effects.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1679,9 +1679,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0410
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to Combine, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1741,9 +1741,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0390
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to pat_SLIDE_SWITCH, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1783,9 +1783,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0450
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to Scale, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1845,9 +1845,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0350
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to Translate, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1887,9 +1887,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0470
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to pat_IDENTITY, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1949,9 +1949,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0430
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to Opacity, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2011,9 +2011,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0330
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to Rotate, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2053,9 +2053,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0320
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to Opacity, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2095,9 +2095,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0520
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when pressing the home key during the ActionSheet animation process and returning to the app, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2153,9 +2153,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0310
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to Move, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2196,9 +2196,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0550
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation iterations is set to -1, the show/exit animation effects play infinitely.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2240,9 +2240,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0460
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to Translate, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2301,9 +2301,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0510
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that after locking and unlocking the screen during the ActionSheet animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2363,9 +2363,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0400
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to Asymmetric, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2426,9 +2426,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0490
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to pat_SLIDE, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2488,9 +2488,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0380
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to pat_SLIDE, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2530,9 +2530,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0420
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to Move, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2592,9 +2592,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0290
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to Asymmetric, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2634,9 +2634,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0530
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when pressing the back key multiple times during the ActionSheet animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2686,9 +2686,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0560
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation PlayMode is set to Reverse, the animation effect plays in reverse.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2724,9 +2724,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0360
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to pat_IDENTITY, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2766,9 +2766,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0440
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet animation is set to Rotate, clicking other buttons during the animation process, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2828,9 +2828,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0540
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the ActionSheet does not set transition, it uses the default show/exit animation effects.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2869,9 +2869,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0040
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to Opacity, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2912,9 +2912,9 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0070
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Validate that when the AlertDialog animation is set to Translate, the show/exit animation effects are normal.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

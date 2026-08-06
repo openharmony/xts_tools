@@ -42,9 +42,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0080
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, with subMenuExpandingMode set to side_expand. Clicking menu items should properly exit the secondary menu, and the visibility of both the first- and second-level menus in bindContextMenu should correspond to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -93,9 +93,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0090
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, with subMenuExpandingMode set to stack_expand. Clicking menu items should properly exit the secondary menu, and the visibility of both the first- and second-level menus in bindContextMenu should correspond to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -142,9 +142,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0100
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and when switching to background, the visibility of bindContextMenu corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -178,9 +178,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0110
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and when switching to background, the visibility of bindMenu corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -222,9 +222,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0120
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and when switching to background, the visibility of bindPopup corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -266,9 +266,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0130
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and left swipe can properly close the menu, the visibility of bindMenu corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -311,9 +311,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0140
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and when screen turns off after opening popup, the visibility of bindPopup corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -355,9 +355,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0150
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and when screen turns off after opening menu, the visibility of bindContextMenu corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -391,9 +391,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0160
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and when screen turns off after opening menu, the visibility of bindMenu corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -435,9 +435,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0170
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and when popup animation is interrupted by user action, the visibility of bindContextMenu corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -471,9 +471,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0180
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and when popup animation is interrupted by user action, the visibility of bindMenu corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -515,9 +515,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0190
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and when popup animation is interrupted by user action, the visibility of bindPopup corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -559,9 +559,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0200
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and when screen orientation changes, the visibility of bindContextMenu corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -595,9 +595,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0210
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and when screen orientation changes, the visibility of bindMenu corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -639,9 +639,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0220
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and when screen orientation changes, the visibility of bindPopup corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -683,9 +683,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0230
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and clicking close button inside popup can properly exit, the visibility of bindPopup corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -727,9 +727,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0240
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and clicking button inside popup can properly exit, the visibility of bindPopup corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -771,9 +771,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0250
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and clicking blank area can properly exit, the visibility of bindContextMenu corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -808,9 +808,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0260
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and clicking blank area can properly exit, the visibility of bindMenu corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -853,9 +853,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0270
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and clicking blank area can properly exit, the visibility of bindPopup corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -898,9 +898,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0280
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and clicking menu item can properly exit, the visibility of bindMenu corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -942,9 +942,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0290
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, set previewMode to image, long press preview image to open menu then drag preview image, the visibility of bindContextMenu corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -978,9 +978,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0300
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code uses the latest two-way binding syntax isShow!!, and pressing ESC key can properly exit, the visibility of bindMenu corresponds to the value of isShow.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1022,9 +1022,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0310
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code still uses the non-two-way binding approach and can properly control the visibility of bindContextMenu through state variables.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1072,9 +1072,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0320
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code still uses the non-two-way binding approach and can properly control the visibility of bindMenu through state variables.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1122,9 +1122,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0330
-     * @tc.type   : function
-     * @tc.desc   : Verify that the code still uses the non-two-way binding approach and can properly control the visibility of bindPopup through state variables.
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

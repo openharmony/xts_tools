@@ -43,6 +43,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1010
      * @tc.name   : Toast alignment Top with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,6 +87,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1050
      * @tc.name   : Toast alignment BottomEnd with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -129,6 +131,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1020
      * @tc.name   : Toast bottom value adjustment, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -172,6 +175,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1070
      * @tc.name   : Toast alignment Bottom with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -215,6 +219,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1120
      * @tc.name   : Toast alignment TopStart with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -258,6 +263,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1100
      * @tc.name   : Toast alignment Center with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -301,6 +307,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1040
      * @tc.name   : Toast default mode light/dark theme test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -335,6 +342,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1130
      * @tc.name   : Toast alignment Top with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -378,6 +386,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1030
      * @tc.name   : Toast bottom value adjustment, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -421,6 +430,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1060
      * @tc.name   : Toast alignment BottomStart with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -464,6 +474,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1110
      * @tc.name   : Toast alignment TopEnd with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -507,6 +518,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1160
      * @tc.name   : Toast alignment BottomEnd with bottom 80, screen rotation test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -550,6 +562,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1090
      * @tc.name   : Toast alignment CenterStart with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -593,6 +606,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1080
      * @tc.name   : Toast alignment CenterEnd with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -636,6 +650,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1150
      * @tc.name   : Toast systemTopMost mode light/dark theme test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -670,6 +685,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1140
      * @tc.name   : Toast alignment Bottom with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -713,6 +729,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1170
      * @tc.name   : Toast alignment BottomEnd with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -756,6 +773,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1180
      * @tc.name   : Toast alignment BottomStart with bottom 80, delayed popup test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -799,6 +817,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1190
      * @tc.name   : Toast alignment BottomStart with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -842,6 +861,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1200
      * @tc.name   : Toast alignment Bottom with bottom 80, keyboard first then toast test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -885,6 +905,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1210
      * @tc.name   : Toast alignment Bottom with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -928,6 +949,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1220
      * @tc.name   : Toast alignment End with bottom 80, position unchanged test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -971,6 +993,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1230
      * @tc.name   : Toast alignment Start with bottom 80, position unchanged test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1014,6 +1037,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1240
      * @tc.name   : Toast alignment Center with bottom 80, position unchanged test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1057,6 +1081,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1250
      * @tc.name   : Toast alignment TopEnd with bottom 80, position unchanged test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1100,6 +1125,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1260
      * @tc.name   : Toast alignment TopStart with bottom 80, position unchanged test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1143,6 +1169,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1270
      * @tc.name   : Toast alignment Top with bottom 80, position unchanged test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1186,6 +1213,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1280
      * @tc.name   : Toast bottom value adjustment, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1229,6 +1257,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1290
      * @tc.name   : Toast bottom value adjustment, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1272,6 +1301,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1300
      * @tc.name   : Toast topMost mode light/dark theme test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1306,6 +1336,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1310
      * @tc.name   : Toast alignment BottomEnd with bottom 80, screen rotation test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1349,6 +1380,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1320
      * @tc.name   : Toast default mode background/foreground switching test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1392,6 +1424,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1330
      * @tc.name   : Toast default mode screen on/off test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1435,6 +1468,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1340
      * @tc.name   : Toast topMost mode background/foreground switching test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1478,6 +1512,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1350
      * @tc.name   : Toast topMost mode screen on/off test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1521,6 +1556,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1360
      * @tc.name   : Toast frequent popup test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1555,6 +1591,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1370
      * @tc.name   : Toast default mode keyboard first then toast test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1598,6 +1635,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1380
      * @tc.name   : Toast default mode keyboard first then toast test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1641,6 +1679,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1390
      * @tc.name   : Toast default mode delayed popup test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1684,6 +1723,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1400
      * @tc.name   : Toast topMost mode keyboard first then toast test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1727,6 +1767,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1410
      * @tc.name   : Toast topMost mode keyboard first then toast test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1770,6 +1811,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1420
      * @tc.name   : Toast topMost mode delayed popup test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1813,6 +1855,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1430
      * @tc.name   : Toast privacy mode test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1856,6 +1899,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1440
      * @tc.name   : Toast topMost privacy mode test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1899,6 +1943,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0900
      * @tc.name   : Toast alignment BottomEnd with bottom 80, screen rotation test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1942,6 +1987,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0910
      * @tc.name   : Toast alignment BottomEnd with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1985,6 +2031,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0920
      * @tc.name   : Toast alignment BottomStart with bottom 80, delayed popup test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2028,6 +2075,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0930
      * @tc.name   : Toast alignment BottomStart with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2071,6 +2119,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0940
      * @tc.name   : Toast alignment Bottom with bottom 80, keyboard first then toast test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2114,6 +2163,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0950
      * @tc.name   : Toast alignment Bottom with bottom 80, keyboard avoidance test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2157,6 +2207,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0960
      * @tc.name   : Toast alignment End with bottom 80, position unchanged test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2200,6 +2251,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0970
      * @tc.name   : Toast alignment Start with bottom 80, position unchanged test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2243,6 +2295,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0980
      * @tc.name   : Toast alignment Center with bottom 80, position unchanged test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2286,6 +2339,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0990
      * @tc.name   : Toast alignment TopEnd with bottom 80, position unchanged test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2329,6 +2383,7 @@ export default function ToastAvoidTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1000
      * @tc.name   : Toast alignment TopStart with bottom 80, position unchanged test
+     * @tc.desc   : Verify popupbox prompt toastavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

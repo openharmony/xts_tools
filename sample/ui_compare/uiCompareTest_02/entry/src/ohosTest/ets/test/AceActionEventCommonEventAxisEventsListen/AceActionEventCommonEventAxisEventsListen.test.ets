@@ -57,13 +57,13 @@ export default function AceActionEventCommonEventAxisEventsListen() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_001
-       * @tc.name    Verify that BEGIN is triggered when the mouse starts scrolling
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_001
+     * @tc.name   : Verify that BEGIN is triggered when the mouse starts scrolling
+     * @tc.desc   : Verify action event commonevent axis events listen interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_001', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_001 start.`);
       Settings.createWindow("testability/pages/AceActionEventCommonEventAxisEventsListen/AceActionEventCommonEventAxisEventsListen01")
@@ -80,13 +80,13 @@ export default function AceActionEventCommonEventAxisEventsListen() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_002
-       * @tc.name    Verify that END is triggered when the mouse stops scrolling
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_002
+     * @tc.name   : Verify that END is triggered when the mouse stops scrolling
+     * @tc.desc   : Verify action event commonevent axis events listen interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_002', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_002 start.`);
       Settings.createWindow("testability/pages/AceActionEventCommonEventAxisEventsListen/AceActionEventCommonEventAxisEventsListen02")
@@ -103,13 +103,13 @@ export default function AceActionEventCommonEventAxisEventsListen() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_003
-       * @tc.name    Verify that UPDATE is triggered during mouse scrolling
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_003
+     * @tc.name   : Verify that UPDATE is triggered during mouse scrolling
+     * @tc.desc   : Verify action event commonevent axis events listen interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_003', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_003 start.`);
       Settings.createWindow("testability/pages/AceActionEventCommonEventAxisEventsListen/AceActionEventCommonEventAxisEventsListen03")

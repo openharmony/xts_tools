@@ -42,9 +42,9 @@ export default function SearchInteraction() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0090
+     * @tc.name   : Text search interaction
+     * @tc.desc   : Verify text search interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
-     * @tc.desc   : Keyboard interaction for the Search component: pressing Enter.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

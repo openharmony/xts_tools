@@ -43,6 +43,7 @@ export default function ComponentTextSpanInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0010
      * @tc.name   : Span组件布局测试，组件大小
+     * @tc.desc   : Verify text span interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -62,6 +63,7 @@ export default function ComponentTextSpanInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0016
      * @tc.name   : 设置Span的属性，设置textFont的weight为FontWeight.Regular
+     * @tc.desc   : Verify text span interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -81,6 +83,7 @@ export default function ComponentTextSpanInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0017
      * @tc.name   : 设置Span的属性：fontColor为#ff0000
+     * @tc.desc   : Verify text span interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -100,6 +103,7 @@ export default function ComponentTextSpanInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0028
      * @tc.name   : 设置Span的属性：fontSize(9)
+     * @tc.desc   : Verify text span interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -119,6 +123,7 @@ export default function ComponentTextSpanInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0039
      * @tc.name   : 设置Span的属性：fontWeight为450
+     * @tc.desc   : Verify text span interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -138,6 +143,7 @@ export default function ComponentTextSpanInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0042
      * @tc.name   : 设置Span的属性：fontWeight为FontWeight.Lighter
+     * @tc.desc   : Verify text span interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -157,6 +163,7 @@ export default function ComponentTextSpanInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0050
      * @tc.name   : 设置Span的属性：textCase(TextCase.UpperCase)，文本内容全大写
+     * @tc.desc   : Verify text span interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -176,6 +183,7 @@ export default function ComponentTextSpanInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0052
      * @tc.name   : 设置Span组件：decoration属性不设置ResourceColor
+     * @tc.desc   : Verify text span interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -195,6 +203,7 @@ export default function ComponentTextSpanInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0066
      * @tc.name   : 设置Span组件：letterSpacing("10fp")
+     * @tc.desc   : Verify text span interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -214,6 +223,7 @@ export default function ComponentTextSpanInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0075
      * @tc.name   : 设置Span组件：lineHeight属性为0
+     * @tc.desc   : Verify text span interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

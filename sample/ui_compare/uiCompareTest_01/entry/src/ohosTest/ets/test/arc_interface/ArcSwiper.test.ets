@@ -42,7 +42,8 @@ export default function ArcSwiperTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0090
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify scroll arc swiper arcdotindicator interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,7 +61,8 @@ export default function ArcSwiperTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0170
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify scroll arc swiper arcdotindicator interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -80,7 +82,8 @@ export default function ArcSwiperTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0190
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify scroll arc swiper arcdotindicator interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -98,7 +101,8 @@ export default function ArcSwiperTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0200
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify scroll arc swiper arcdotindicator interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -116,7 +120,8 @@ export default function ArcSwiperTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0220
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify scroll arc swiper arcdotindicator interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -136,7 +141,8 @@ export default function ArcSwiperTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0210
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify scroll arc swiper arcdotindicator interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -156,7 +162,8 @@ export default function ArcSwiperTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0230
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify scroll arc swiper arcdotindicator interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -176,7 +183,8 @@ export default function ArcSwiperTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0240
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify scroll arc swiper arcdotindicator interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -196,7 +204,8 @@ export default function ArcSwiperTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0250
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify scroll arc swiper arcdotindicator interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -216,7 +225,8 @@ export default function ArcSwiperTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0260
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify scroll arc swiper arcdotindicator interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -236,7 +246,8 @@ export default function ArcSwiperTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0080
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify scroll arc swiper arcdotindicator interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -254,7 +265,8 @@ export default function ArcSwiperTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ARC_SWIPER_ARCDOTINDICATOR_0150
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify scroll arc swiper arcdotindicator interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

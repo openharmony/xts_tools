@@ -59,10 +59,12 @@ export default function UIComponentGridForEach() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_FOREACH_0010_679
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_FOREACH_0010_679
-     * @tc.desc    Test Grid with zero-height top GridItem during data source changes
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_FOREACH_0010_679
+     * @tc.name   : Grid foreach
+     * @tc.desc   : Verify grid foreach interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_FOREACH_0010_679', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_FOREACH_0010_679';
@@ -86,10 +88,12 @@ export default function UIComponentGridForEach() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_FOREACH_0020_681
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_FOREACH_0020_681
-     * @tc.desc    Test Grid with negative-height top GridItem during data source changes
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_FOREACH_0020_681
+     * @tc.name   : Grid foreach
+     * @tc.desc   : Verify grid foreach interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_FOREACH_0020_681', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_FOREACH_0020_681';
@@ -113,10 +117,12 @@ export default function UIComponentGridForEach() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_FOREACH_0030_403
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_FOREACH_0030_403
-     * @tc.desc    Test Grid with zero-height bottom GridItem during data source changes
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_FOREACH_0030_403
+     * @tc.name   : Grid foreach
+     * @tc.desc   : Verify grid foreach interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_FOREACH_0030_403', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_FOREACH_0030_403';
@@ -140,10 +146,12 @@ export default function UIComponentGridForEach() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_FOREACH_0040_091
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_FOREACH_0040_091
-     * @tc.desc    Test Grid with negative-height bottom GridItem during data source changes
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_FOREACH_0040_091
+     * @tc.name   : Grid foreach
+     * @tc.desc   : Verify grid foreach interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_FOREACH_0040_091', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_FOREACH_0040_091';

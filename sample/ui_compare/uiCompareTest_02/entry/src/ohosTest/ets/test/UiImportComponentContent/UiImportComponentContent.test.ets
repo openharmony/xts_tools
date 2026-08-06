@@ -55,13 +55,13 @@ export default function UiImportComponentContent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080
-       * @tc.name    ComponentCotent's dispose method test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080
+     * @tc.name   : ComponentCotent's dispose method test
+     * @tc.desc   : Verify import componentcontent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080 start.`);
       Settings.createWindow("testability/pages/UiImportComponentContent/UiImportComponentContent01")
@@ -76,13 +76,13 @@ export default function UiImportComponentContent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0090
-       * @tc.name    ComponentCotent's updateConfiguration method test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0090
+     * @tc.name   : ComponentCotent's updateConfiguration method test
+     * @tc.desc   : Verify import componentcontent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0090 start.`);
       Settings.createWindow("testability/pages/UiImportComponentContent/UiImportComponentContent02")
@@ -101,13 +101,13 @@ export default function UiImportComponentContent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0050
-       * @tc.name    ComponentCotent's update method test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0050
+     * @tc.name   : ComponentCotent's update method test
+     * @tc.desc   : Verify import componentcontent interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0050 start.`);
       Settings.createWindow("testability/pages/UiImportComponentContent/UiImportComponentContent03")

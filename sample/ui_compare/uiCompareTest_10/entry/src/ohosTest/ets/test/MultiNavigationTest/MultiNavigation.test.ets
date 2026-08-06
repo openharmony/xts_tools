@@ -41,13 +41,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0260
-     * @tc.desc   : Verify page stack size display and callback behavior when multi-level column advanced component pushes multiple pages.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0260 start.`);
       try {
@@ -128,13 +127,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0270
-     * @tc.desc   : Test multi-level column advanced component dynamically sets switchFullScreen to view full screen and column display.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0270 start.`);
       try {
@@ -183,13 +181,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0280
-     * @tc.desc   : Test MultiNavigation component setKeepBottomPage combined with clear.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0280 start.`);
       try {
@@ -234,13 +231,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0290
-     * @tc.desc   : Test MultiNavigation component rapid push Home page.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0290 start.`);
       try {
@@ -280,13 +276,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0310
-     * @tc.desc   : Test MultiNavigation component close transition animation and jump to home page.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0310 start.`);
       try {
@@ -326,13 +321,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0330
-     * @tc.desc   : Test multi-level column advanced component, set setKeepBottomPage to true, after clearing the page stack, the bottom page can be retained.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0330 start.`);
       try {
@@ -403,13 +397,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0340
-     * @tc.desc   : Test multi-level column advanced component, set setKeepBottomPage to true, pop page cannot be deleted, remove bottom page can be deleted.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0340 start.`);
       try {
@@ -461,13 +454,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0360
-     * @tc.desc   : Test MultiNavigation component Home page lifecycle.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0360 start.`);
       try {
@@ -500,13 +492,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0410
-     * @tc.desc   : Test push multiple pages from the right, then push home page from the left, enter 1000000000000, and perform moveIndexToTop.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0410 start.`);
       try {
@@ -577,13 +568,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0500
-     * @tc.desc   : Test home page pushPath to home page.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0500 start.`);
       try {
@@ -628,13 +618,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0510
-     * @tc.desc   : Test home page pushPath to detail page, then push detail page from left column.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0510 start.`);
       try {
@@ -691,13 +680,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0520
-     * @tc.desc   : Test home page pushPath to detail page, then push detail page from right column.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0520 start.`);
       try {
@@ -754,13 +742,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0530
-     * @tc.desc   : Test home page pushPath to full screen page, then to detail page.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0530 start.`);
       try {
@@ -817,13 +804,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0540
-     * @tc.desc   : Test home page pushPath detail page, then replace home page from left column.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0540 start.`);
       try {
@@ -880,13 +866,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0550
-     * @tc.desc   : Test home page pushPath detail page, then replace home page from right column.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0550 start.`);
       try {
@@ -943,13 +928,12 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0560
-     * @tc.desc   : Test full screen page replace detail page, then replace home page.
-     * @tc.size   : MediumTest
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0560 start.`);
       try {

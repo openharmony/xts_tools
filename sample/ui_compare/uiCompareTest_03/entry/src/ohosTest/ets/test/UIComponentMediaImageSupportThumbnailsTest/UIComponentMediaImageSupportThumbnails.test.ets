@@ -63,10 +63,12 @@ export default function UIComponentMediaImageSupportThumbnails() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0013
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0013
-     * @tc.desc    Image component loads image, applying ImageMatrix's translate via native and modifier calls
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0013
+     * @tc.name   : Media Image support thumbnails
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0013', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0013';
@@ -87,10 +89,12 @@ export default function UIComponentMediaImageSupportThumbnails() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0014
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0014
-     * @tc.desc    Image component loads image, applying ImageMatrix's scale via native and modifier calls
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0014
+     * @tc.name   : Media Image support thumbnails
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0014', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0014';
@@ -117,10 +121,12 @@ export default function UIComponentMediaImageSupportThumbnails() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0016
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0016
-     * @tc.desc    Image component loads image, applying ImageMatrix's rotate function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0016
+     * @tc.name   : Media Image support thumbnails
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0016', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0016';

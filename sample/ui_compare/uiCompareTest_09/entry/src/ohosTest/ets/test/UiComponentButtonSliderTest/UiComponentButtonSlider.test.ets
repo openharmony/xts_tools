@@ -33,9 +33,13 @@ export default function UiComponentButtonSliderTest() {
       await driver.delayMs(500);
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0040
-     * @tc.name Slider组件预览器Inspector测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0040
+     * @tc.name   : Slider组件预览器Inspector测试
+     * @tc.desc   : Verify button slider action interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0040', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0040 start');
@@ -51,9 +55,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0050
-     * @tc.name Slider组件预览器基础预览测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0050
+     * @tc.name   : Slider组件预览器基础预览测试
+     * @tc.desc   : Verify button slider action interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0050', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0050 start');
@@ -69,9 +77,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0080
-     * @tc.name 自定义slider triggerChange测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0080
+     * @tc.name   : 自定义slider triggerChange测试
+     * @tc.desc   : Verify button slider customizing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0080', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0080 start');
@@ -97,9 +109,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0110
-     * @tc.name contentModifier设置为undefined
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0110
+     * @tc.name   : contentModifier设置为undefined
+     * @tc.desc   : Verify button slider customizing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0110', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0110 start');
@@ -115,9 +131,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0120
-     * @tc.name contentModifier设置为null
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0120
+     * @tc.name   : contentModifier设置为null
+     * @tc.desc   : Verify button slider customizing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0120', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0120 start');
@@ -133,9 +153,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0130
-     * @tc.name 不设置contentModifier
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0130
+     * @tc.name   : 不设置contentModifier
+     * @tc.desc   : Verify button slider customizing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0130', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0130 start');
@@ -151,9 +175,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0140
-     * @tc.name contentModifier传参类型为number: 123465
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0140
+     * @tc.name   : contentModifier传参类型为number: 123465
+     * @tc.desc   : Verify button slider customizing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0140', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0140 start');
@@ -169,9 +197,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0150
-     * @tc.name contentModifier传参类型为number: -10.55555
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0150
+     * @tc.name   : contentModifier传参类型为number: -10.55555
+     * @tc.desc   : Verify button slider customizing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0150', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0150 start');
@@ -187,9 +219,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0160
-     * @tc.name contentModifier传参类型为string
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0160
+     * @tc.name   : contentModifier传参类型为string
+     * @tc.desc   : Verify button slider customizing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0160', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0160 start');
@@ -205,9 +241,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0170
-     * @tc.name contentModifier传参类型为boolean: true
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0170
+     * @tc.name   : contentModifier传参类型为boolean: true
+     * @tc.desc   : Verify button slider customizing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0170', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0170 start');
@@ -223,9 +263,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0180
-     * @tc.name 调用2个contentModifier
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0180
+     * @tc.name   : 调用2个contentModifier
+     * @tc.desc   : Verify button slider customizing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0180', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0180 start');
@@ -241,9 +285,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0190
-     * @tc.name contentModifier动态切换
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0190
+     * @tc.name   : contentModifier动态切换
+     * @tc.desc   : Verify button slider customizing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0190', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0190 start');
@@ -268,9 +316,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0210
-     * @tc.name 在预览器上查看Silder自定义样式
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0210
+     * @tc.name   : 在预览器上查看Silder自定义样式
+     * @tc.desc   : Verify button slider customizing interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0210', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_CUSTOMIZING_0210 start');
@@ -283,9 +335,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0010
-     * @tc.name Slider组件镜像（系统切换语言）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0010
+     * @tc.name   : Slider组件镜像（系统切换语言）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0010', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0010 start');
@@ -298,9 +354,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0030
-     * @tc.name Slider组件镜像（切换应用语言）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0030
+     * @tc.name   : Slider组件镜像（切换应用语言）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0030', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderMirror0030');
@@ -310,9 +370,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0040
-     * @tc.name Slider组件镜像（热启动场景）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0040
+     * @tc.name   : Slider组件镜像（热启动场景）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0040', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderMirror0040');
@@ -322,9 +386,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0050
-     * @tc.name Slider组件镜像（杀死应用再启动）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0050
+     * @tc.name   : Slider组件镜像（杀死应用再启动）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0050', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderMirror0050');
@@ -334,9 +402,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0060
-     * @tc.name Slider组件镜像（子窗口场景）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0060
+     * @tc.name   : Slider组件镜像（子窗口场景）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0060', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderMirror0060');
@@ -346,9 +418,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0070
-     * @tc.name Slider组件镜像（锁屏再开启）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0070
+     * @tc.name   : Slider组件镜像（锁屏再开启）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0070', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderMirror0070');
@@ -358,9 +434,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0080
-     * @tc.name Slider组件镜像（横竖屏切换）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0080
+     * @tc.name   : Slider组件镜像（横竖屏切换）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0080', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderMirror0080');
@@ -370,9 +450,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0090
-     * @tc.name Slider组件镜像（modifier场景）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0090
+     * @tc.name   : Slider组件镜像（modifier场景）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0090', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderMirror0090');
@@ -382,9 +466,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0100
-     * @tc.name Slider组件镜像（direction场景）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0100
+     * @tc.name   : Slider组件镜像（direction场景）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0100', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderMirror0100');
@@ -399,9 +487,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0110
-     * @tc.name Slider组件镜像（不同语言场景）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0110
+     * @tc.name   : Slider组件镜像（不同语言场景）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0110', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderMirror0110');
@@ -411,9 +503,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0120
-     * @tc.name Slider组件镜像（滑块滑轨样式）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0120
+     * @tc.name   : Slider组件镜像（滑块滑轨样式）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0120', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderMirror0120');
@@ -428,9 +524,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0130
-     * @tc.name Slider组件镜像（滑动方向）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0130
+     * @tc.name   : Slider组件镜像（滑动方向）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0130', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderMirror0130');
@@ -440,9 +540,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0140
-     * @tc.name Slider组件镜像（reverse设置）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0140
+     * @tc.name   : Slider组件镜像（reverse设置）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0140', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderMirror0140');
@@ -457,9 +561,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0150
-     * @tc.name Slider组件镜像（SliderBlockStyle）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0150
+     * @tc.name   : Slider组件镜像（SliderBlockStyle）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0150', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderMirror0150');
@@ -469,9 +577,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0160
-     * @tc.name Slider组件镜像（避让场景）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0160
+     * @tc.name   : Slider组件镜像（避让场景）
+     * @tc.desc   : Verify button slider mirror layout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_MIRROR_0160', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderMirror0160');
@@ -481,9 +593,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_RANGE_0270
-     * @tc.name slider滑动范围onChange回调
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_RANGE_0270
+     * @tc.name   : slider滑动范围onChange回调
+     * @tc.desc   : Verify button slider range interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_RANGE_0270', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderRange0270');
@@ -495,9 +611,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0100
-     * @tc.name 气泡避让-showTips动态切换
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0100
+     * @tc.name   : 气泡避让-showTips动态切换
+     * @tc.desc   : Verify button slider shun interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0100', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderShun0100');
@@ -512,9 +632,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0140
-     * @tc.name 气泡避让-padding动态改变
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0140
+     * @tc.name   : 气泡避让-padding动态改变
+     * @tc.desc   : Verify button slider shun interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0140', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderShun0140');
@@ -524,9 +648,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0150
-     * @tc.name 气泡避让-blockSize很大
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0150
+     * @tc.name   : 气泡避让-blockSize很大
+     * @tc.desc   : Verify button slider shun interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0150', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderShun0150');
@@ -541,9 +669,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0160
-     * @tc.name 气泡避让-trackThickness很粗
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0160
+     * @tc.name   : 气泡避让-trackThickness很粗
+     * @tc.desc   : Verify button slider shun interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0160', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderShun0160');
@@ -558,9 +690,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0170
-     * @tc.name 两个Slider气泡避让
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0170
+     * @tc.name   : 两个Slider气泡避让
+     * @tc.desc   : Verify button slider shun interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0170', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderShun0170');
@@ -575,9 +711,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0180
-     * @tc.name 气泡避让-不同滚动条样式
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0180
+     * @tc.name   : 气泡避让-不同滚动条样式
+     * @tc.desc   : Verify button slider shun interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0180', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderShun0180');
@@ -592,9 +732,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0210
-     * @tc.name Panel结合Slider气泡避让
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0210
+     * @tc.name   : Panel结合Slider气泡避让
+     * @tc.desc   : Verify button slider shun interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0210', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderShun0210');
@@ -609,9 +753,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0220
-     * @tc.name 气泡避让-横竖屏切换
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0220
+     * @tc.name   : 气泡避让-横竖屏切换
+     * @tc.desc   : Verify button slider shun interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0220', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderShun0220');
@@ -621,9 +769,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0230
-     * @tc.name 气泡避让-position动态改变
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0230
+     * @tc.name   : 气泡避让-position动态改变
+     * @tc.desc   : Verify button slider shun interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SHUN_0230', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderShun0230');
@@ -638,9 +790,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0010
-     * @tc.name Slider横向显示-上下滑动不触发onChange
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0010
+     * @tc.name   : Slider横向显示-上下滑动不触发onChange
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0010', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0010');
@@ -652,9 +808,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0020
-     * @tc.name Slider纵向显示-上下滑动不触发onChange
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0020
+     * @tc.name   : Slider纵向显示-上下滑动不触发onChange
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0020', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0020');
@@ -666,9 +826,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0030
-     * @tc.name Slider倾斜45°-按压不动不触发onChange
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0030
+     * @tc.name   : Slider倾斜45°-按压不动不触发onChange
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0030', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0030');
@@ -680,9 +844,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0040
-     * @tc.name Slider倾斜45°-垂直滑动不触发onChange
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0040
+     * @tc.name   : Slider倾斜45°-垂直滑动不触发onChange
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0040', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0040');
@@ -694,9 +862,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0050
-     * @tc.name Slider倾斜45°-水平滑动不触发onChange
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0050
+     * @tc.name   : Slider倾斜45°-水平滑动不触发onChange
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0050', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0050');
@@ -708,9 +880,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0060
-     * @tc.name blockSize过大-上下滑动不触发
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0060
+     * @tc.name   : blockSize过大-上下滑动不触发
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0060', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0060');
@@ -722,9 +898,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0070
-     * @tc.name trackThickness较粗-上下滑动不触发
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0070
+     * @tc.name   : trackThickness较粗-上下滑动不触发
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0070', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0070');
@@ -736,9 +916,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0080
-     * @tc.name 设置显示气泡-按压不动不触发气泡
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0080
+     * @tc.name   : 设置显示气泡-按压不动不触发气泡
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0080', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0080');
@@ -750,9 +934,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0090
-     * @tc.name 上下滑动-不触发滑动和气泡
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0090
+     * @tc.name   : 上下滑动-不触发滑动和气泡
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0090', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0090');
@@ -764,9 +952,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0100
-     * @tc.name Style为OutSet-上下滑动不触发
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0100
+     * @tc.name   : Style为OutSet-上下滑动不触发
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0100', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0100');
@@ -778,9 +970,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0110
-     * @tc.name Style为InSet-上下滑动不触发
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0110
+     * @tc.name   : Style为InSet-上下滑动不触发
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0110', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0110');
@@ -792,9 +988,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0120
-     * @tc.name Style为NONE-上下滑动不触发
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0120
+     * @tc.name   : Style为NONE-上下滑动不触发
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0120', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0120');
@@ -806,9 +1006,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0130
-     * @tc.name 范围[20,80]-上下滑动不触发误触
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0130
+     * @tc.name   : 范围[20,80]-上下滑动不触发误触
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0130', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0130');
@@ -820,9 +1024,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0140
-     * @tc.name 横向Slider-按压抬手触发click和end
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0140
+     * @tc.name   : 横向Slider-按压抬手触发click和end
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0140', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0140');
@@ -838,9 +1046,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0150
-     * @tc.name 纵向Slider-按压抬手触发click和end
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0150
+     * @tc.name   : 纵向Slider-按压抬手触发click和end
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0150', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0150');
@@ -856,9 +1068,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0160
-     * @tc.name 倾斜45°Slider-按压抬手触发click和end
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0160
+     * @tc.name   : 倾斜45°Slider-按压抬手触发click和end
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0160', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0160');
@@ -870,9 +1086,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0170
-     * @tc.name 中途滑动-抬手不触发click
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0170
+     * @tc.name   : 中途滑动-抬手不触发click
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0170', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0170');
@@ -884,9 +1104,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0180
-     * @tc.name 鼠标操作-上下滑动不触发onChange
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0180
+     * @tc.name   : 鼠标操作-上下滑动不触发onChange
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0180', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0180');
@@ -898,9 +1122,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0190
-     * @tc.name 横竖屏切换-上下滑动不触发onChange
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0190
+     * @tc.name   : 横竖屏切换-上下滑动不触发onChange
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0190', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0190');
@@ -912,9 +1140,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0200
-     * @tc.name 多slider密集排列-上下滑动不触发
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0200
+     * @tc.name   : 多slider密集排列-上下滑动不触发
+     * @tc.desc   : Verify button slider sliderinteraction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTION_0200', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteraction0200');
@@ -930,9 +1162,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTIONMODE_0070
-     * @tc.name 键盘操作至value为100的位置
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTIONMODE_0070
+     * @tc.name   : 键盘操作至value为100的位置
+     * @tc.desc   : Verify button slider sliderinteractionmode interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SLIDERINTERACTIONMODE_0070', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderInteractionMode0070');
@@ -944,9 +1180,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_UX_0090
-     * @tc.name 键盘鼠标交互间续滑块
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_UX_0090
+     * @tc.name   : 键盘鼠标交互间续滑块
+     * @tc.desc   : Verify button slider ux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_UX_0090', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderUx0090');
@@ -958,9 +1198,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_UX_0100
-     * @tc.name 鼠标滚轮滚动气泡滑块
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_UX_0100
+     * @tc.name   : 鼠标滚轮滚动气泡滑块
+     * @tc.desc   : Verify button slider ux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_UX_0100', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderUx0100');
@@ -972,9 +1216,13 @@ export default function UiComponentButtonSliderTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_UX_0110
-     * @tc.name 鼠标滚轮滚动间续滑块
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_UX_0110
+     * @tc.name   : 鼠标滚轮滚动间续滑块
+     * @tc.desc   : Verify button slider ux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_UX_0110', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentButtonSlider/SliderUx0110');

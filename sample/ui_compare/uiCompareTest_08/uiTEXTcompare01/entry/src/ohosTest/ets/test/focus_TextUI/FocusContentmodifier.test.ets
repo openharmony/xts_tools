@@ -42,13 +42,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0010
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0010
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : DataPanel sets the column component in the custom builder.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0010
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0010  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0010")
@@ -62,13 +62,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0020
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0020
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : DataPanel sets the Row component in the custom builder.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0020
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0020', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0020  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0020")
@@ -82,13 +82,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0030
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0030
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : DataPanel sets the stack component in the custom builder.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0030
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0030  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0030")
@@ -102,13 +102,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0050
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0050
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : DataPanel does not set content in the custom builder.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0050
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0050', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0050  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0050")
@@ -121,13 +121,13 @@ export default function FocusContentModifierTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0060
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0060
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Dynamically switch the content styles in the custom builder.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0060
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0060', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0060  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0060")
@@ -143,13 +143,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0070
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0070
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set multiple custom builders in DataPanel.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0070
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0070', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0070  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0070")
@@ -163,13 +163,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0080
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0080
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : A custom builder is set for two DataPanels.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0080
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0080', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0080  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0080")
@@ -182,13 +182,13 @@ export default function FocusContentModifierTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0090
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0090
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the configuration of the Button component in the custom builder with an onclick event to operate the config.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0090
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0090', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0090  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0090")
@@ -204,13 +204,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0100
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0100
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the universal attribute height for DataPanel and observe the display effect of the internally customized builder.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0100
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0100', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0100  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0100")
@@ -223,13 +223,13 @@ export default function FocusContentModifierTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0110
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0110
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the universal attribute padding for DataPanel and observe the display effect of the internally customized builder.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0110
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0110', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0110  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0110")
@@ -243,13 +243,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0120
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0120
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the universal attribute padding for DataPanel and observe the display effect of the internally customized builder.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0120
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0120', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0120  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0120")
@@ -263,13 +263,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0130
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0130
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the universal attribute size for DataPanel and observe the display effect of the internally customized builder.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0130
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0130', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0130  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0130")
@@ -283,13 +283,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0140
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0140
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the universal attribute height in the internally customized builder and observe the display effect.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0140
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0140', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0140  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0140")
@@ -303,13 +303,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0150
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0150
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the universal attribute width in the internally customized builder and observe the display effect.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0150
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0150', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0150  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0150")
@@ -323,13 +323,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0160
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0160
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the universal attribute padding in the internally customized builder and observe the display effect.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0160
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0160', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0160  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0160")
@@ -346,13 +346,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0170
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0170
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the universal attribute margin in the internally customized builder and observe the display effect.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0170
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0170', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0170  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0170")
@@ -368,13 +368,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0180
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0180
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the size of the custom builder to be larger than that of the parent component DataPanel.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0180
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0180', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0180  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0180")
@@ -388,13 +388,13 @@ export default function FocusContentModifierTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0190
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0190
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the closeEffect attribute for DataPanel and observe the compatibility effect of its internally customized builder.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0190
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0190', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0190  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0190")
@@ -407,13 +407,13 @@ export default function FocusContentModifierTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0200
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0200
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the valueColors attribute for DataPanel and observe the compatibility effect of its internally customized builder.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0200
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0200', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0200  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0200")
@@ -426,13 +426,13 @@ export default function FocusContentModifierTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0210
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0210
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the trackBackgroundColor attribute for DataPanel and observe the compatibility effect of its internally customized builder.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0210
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0210', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0210  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0210")
@@ -445,13 +445,13 @@ export default function FocusContentModifierTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0250
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0250
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the ColorStop attribute for DataPanel and observe the compatibility effect of its internally customized builder.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0250
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0250', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0250  start.`);
       Settings.createWindow("testability/pages/focus_Contentmodifier/ImDpContentmodifier0250")

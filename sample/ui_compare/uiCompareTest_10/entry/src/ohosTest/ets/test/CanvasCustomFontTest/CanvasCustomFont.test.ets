@@ -42,13 +42,12 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0010
-     * @tc.desc   : Register font using a valid font file path.
-     * @tc.size   : MediumTest
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
-
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0010', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0010 start.`);
       Settings.createWindow("testability/pages/CanvasCustomFont/CanvasCustomFont0010")
@@ -62,10 +61,10 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0020
-     * @tc.desc   : Register font using an invalid font file path.
-     * @tc.size   : MediumTest
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0020', Level.LEVEL4, async (done: Function) => {
@@ -81,10 +80,10 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0030
-     * @tc.desc   : Unregistered font, specify font name (invalid value).
-     * @tc.size   : MediumTest
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0030', Level.LEVEL4, async (done: Function) => {
@@ -100,10 +99,10 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0040
-     * @tc.desc   : Register multiple fonts with invalid values, specify font, valid value before invalid value.
-     * @tc.size   : MediumTest
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0040', Level.LEVEL4, async (done: Function) => {
@@ -119,10 +118,10 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0050
-     * @tc.desc   : Register multiple fonts with invalid values, specify font, valid value after invalid value.
-     * @tc.size   : MediumTest
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0050', Level.LEVEL4, async (done: Function) => {
@@ -138,10 +137,10 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0060
-     * @tc.desc   : Register multiple fonts with duplicate names.
-     * @tc.size   : MediumTest
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0060', Level.LEVEL4, async (done: Function) => {
@@ -157,10 +156,10 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0070
-     * @tc.desc   : Register multiple fonts, multiple canvases specify different fonts separately.
-     * @tc.size   : MediumTest
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0070', Level.LEVEL4, async (done: Function) => {
@@ -176,10 +175,10 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0080
-     * @tc.desc   : Register multiple fonts, single canvas specifies font after filling text, switch specified font and draw again.
-     * @tc.size   : MediumTest
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0080', Level.LEVEL4, async (done: Function) => {
@@ -195,10 +194,10 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0090
-     * @tc.desc   : Theme modifies system font, use registered font.
-     * @tc.size   : MediumTest
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0090', Level.LEVEL4, async (done: Function) => {

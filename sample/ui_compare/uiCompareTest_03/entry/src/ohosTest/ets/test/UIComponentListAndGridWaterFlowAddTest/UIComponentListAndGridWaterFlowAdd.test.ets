@@ -59,10 +59,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0020_925
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0020_925
-     * @tc.desc    Do not set the Waterflow columnsTemplate property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0020_925
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0020_925', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0020_925';
@@ -84,10 +86,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0030_720
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0030_720
-     * @tc.desc    Do not set the Waterflow rowsTemplate property
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0030_720
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0030_720', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0030_720';
@@ -109,10 +113,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0050_323
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0050_323
-     * @tc.desc    Set the Waterflow parameter: scroller.scrollToIndex
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0050_323
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0050_323', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0050_323';
@@ -138,10 +144,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0060_356
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0060_356
-     * @tc.desc    Set the Waterflow event: onReachEnd(event: () => void)
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0060_356
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0060_356', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0060_356';
@@ -166,10 +174,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0070_772
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0070_772
-     * @tc.desc    Set the Waterflow event: onReachStart(event: () => void)
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0070_772
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0070_772', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0070_772';
@@ -194,10 +204,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0180_810
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0180_810
-     * @tc.desc    Set the Waterflow property: columnsTemplate as repeat(auto-fill,100)
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0180_810
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0180_810', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0180_810';
@@ -219,10 +231,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0190_003
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0190_003
-     * @tc.desc    Set the Waterflow property: columnsTemplate as 0.5fr, an abnormal value; default is one column
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0190_003
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0190_003', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0190_003';
@@ -244,10 +258,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0200_983
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0200_983
-     * @tc.desc    Set the Waterflow property: columnsTemplate as 1fr 1fr 0fr
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0200_983
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0200_983', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0200_983';
@@ -269,10 +285,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0210_008
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0210_008
-     * @tc.desc    Set the Waterflow property: columnsTemplate as 1fr 1fr 2fr
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0210_008
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0210_008', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0210_008';
@@ -294,10 +312,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0220_706
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0220_706
-     * @tc.desc    Set the Waterflow property: columnsTemplate as abc, an abnormal value; default is one column
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0220_706
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0220_706', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0220_706';
@@ -319,10 +339,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0230_749
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0230_749
-     * @tc.desc    Set the Waterflow property: itemConstraintSize; set the FlowItem constraintSize property; the maxWidth of itemConstraintSize is greater than the maxWidth of constraintSize
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0230_749
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0230_749', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0230_749';
@@ -344,10 +366,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0240_208
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0240_208
-     * @tc.desc    Set the Waterflow property: itemConstraintSize; set the FlowItem constraintSize property; the maxWidth of itemConstraintSize is less than the maxWidth of constraintSize
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0240_208
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0240_208', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0240_208';
@@ -369,10 +393,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0250_204
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0250_204
-     * @tc.desc    Set the Waterflow property: itemConstraintSize; set the FlowItem constraintSize property; the minWidth of itemConstraintSize is greater than the minWidth of constraintSize
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0250_204
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0250_204', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0250_204';
@@ -394,10 +420,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0260_699
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0260_699
-     * @tc.desc    Set the Waterflow property: itemConstraintSize, maxWidth < minWidth < column width
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0260_699
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0260_699', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0260_699';
@@ -419,10 +447,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0330_371
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0330_371
-     * @tc.desc    Set the Waterflow property: rowsTemplate as 0.5fr, an abnormal value; default is one row
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0330_371
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0330_371', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0330_371';
@@ -444,10 +474,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0340_608
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0340_608
-     * @tc.desc    Set the Waterflow property: rowsTemplate as 1fr 1fr 0fr
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0340_608
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0340_608', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0340_608';
@@ -469,10 +501,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0350_527
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0350_527
-     * @tc.desc    Set the Waterflow property: rowsTemplate as 1fr 1fr 2fr
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0350_527
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0350_527', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0350_527';
@@ -494,10 +528,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0360_760
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0360_760
-     * @tc.desc    Set the Waterflow property: rowsTemplate as abc, an abnormal value; default is one row
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0360_760
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0360_760', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0360_760';
@@ -519,10 +555,12 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0370_350
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0370_350
-     * @tc.desc    Set the Waterflow property: rowsTemplate as repeat(auto-fill,100)
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0370_350
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0370_350', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0370_350';

@@ -83,6 +83,14 @@ export default function demoTest() {
       done()
     })
 
+    /*
+     * @tc.number : demoTest_001
+     * @tc.name   : demoTest_001
+     * @tc.desc   : Verify demotest interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('demoTest_001', 0, async (done: Function) => {
       //更改page路由
       Settings.createWindow("testability/pages/demo")

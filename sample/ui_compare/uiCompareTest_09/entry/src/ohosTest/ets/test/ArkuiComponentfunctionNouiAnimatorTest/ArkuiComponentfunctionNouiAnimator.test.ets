@@ -37,6 +37,14 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_BEGIN_010
+     * @tc.name   : Component function noui animator begin
+     * @tc.desc   : Verify component function noui animator begin interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_BEGIN_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_BEGIN_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorBegin/ArkuiComponentfunctionNouiAnimatorBegin010');
@@ -50,6 +58,14 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DELAY_010
+     * @tc.name   : Component function noui animator delay
+     * @tc.desc   : Verify component function noui animator delay interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DELAY_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DELAY_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorDelay/ArkuiComponentfunctionNouiAnimatorDelay010');
@@ -63,6 +79,14 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DIRECTION_010
+     * @tc.name   : Component function noui animator direction
+     * @tc.desc   : Verify component function noui animator direction interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DIRECTION_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DIRECTION_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorDirection/ArkuiComponentfunctionNouiAnimatorDirection010');
@@ -76,6 +100,14 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DURATION_010
+     * @tc.name   : Component function noui animator duration
+     * @tc.desc   : Verify component function noui animator duration interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DURATION_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DURATION_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorDuration/ArkuiComponentfunctionNouiAnimatorDuration010');
@@ -89,6 +121,14 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_EASE_010
+     * @tc.name   : Component function noui animator ease
+     * @tc.desc   : Verify component function noui animator ease interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_EASE_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_EASE_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorEase/ArkuiComponentfunctionNouiAnimatorEase010');
@@ -102,6 +142,14 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_EASE_020
+     * @tc.name   : Component function noui animator ease
+     * @tc.desc   : Verify component function noui animator ease interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_EASE_020', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_EASE_020 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorEase/ArkuiComponentfunctionNouiAnimatorEase020');
@@ -115,6 +163,14 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_END_010
+     * @tc.name   : Component function noui animator end
+     * @tc.desc   : Verify component function noui animator end interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_END_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_END_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorEnd/ArkuiComponentfunctionNouiAnimatorEnd010');
@@ -128,6 +184,14 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_FILL_010
+     * @tc.name   : Component function noui animator fill
+     * @tc.desc   : Verify component function noui animator fill interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_FILL_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_FILL_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorFill/ArkuiComponentfunctionNouiAnimatorFill010');
@@ -141,6 +205,14 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_ITERATIONS_010
+     * @tc.name   : Component function noui animator iterations
+     * @tc.desc   : Verify component function noui animator iterations interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_ITERATIONS_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_ITERATIONS_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorIterations/ArkuiComponentfunctionNouiAnimatorIterations010');

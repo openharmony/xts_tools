@@ -59,10 +59,12 @@ export default function UIComponentWaterFlowSldingWindow() {
 
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0010
-     * @tc.desc    Normal waterflow adds child nodes outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0010
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0010';
@@ -85,10 +87,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0020
-     * @tc.desc    Normal waterflow deletes child nodes outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0020
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0020';
@@ -111,10 +115,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0030
-     * @tc.desc    Normal waterflow changes child nodes outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0030
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0030';
@@ -137,10 +143,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0040
-     * @tc.desc    Normal waterflow moves child nodes outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0040
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0040';
@@ -163,10 +171,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0050
-     * @tc.desc    After normal waterflow addItem, jump to added child node test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0050
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0050';
@@ -192,10 +202,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0060
-     * @tc.desc    Normal waterflow places single flowitem at top, delete child nodes in lazyforeach test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0060
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0060';
@@ -218,10 +230,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0070
-     * @tc.desc    Normal waterflow mirror mode deletes child nodes outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0070
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0070';
@@ -244,10 +258,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0080
-     * @tc.desc    Normal waterflow mirror mode adds child nodes outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0080
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0080';
@@ -270,10 +286,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0090
-     * @tc.desc    Normal waterflow mirror mode moves child nodes outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0090
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0090';
@@ -296,10 +314,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0100
-     * @tc.desc    Normal waterflow mirror mode changes child nodes outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0100
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0100';
@@ -322,10 +342,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0110
-     * @tc.desc    Normal waterflow changes layout direction with display range unchanged test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0110
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0110';
@@ -348,10 +370,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0120
-     * @tc.desc    Normal waterflow moves nodes from outside display area into display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0120
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0120';
@@ -374,10 +398,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0130
-     * @tc.desc    After changing nodes outside display area in normal waterflow, scrollPage test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0130
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0130';
@@ -403,10 +429,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0140
-     * @tc.desc    After changing nodes outside display area in normal waterflow, scrollEdge test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0140
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0140';
@@ -432,10 +460,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0160
-     * @tc.desc    Grouped waterflow changes itemcount of group outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0160
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0160';
@@ -458,10 +488,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0170
-     * @tc.desc    Grouped waterflow changes crosscount of group outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0170
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0170';
@@ -484,10 +516,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0180
-     * @tc.desc    Grouped waterflow changes columnsGap of group outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0180
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0180';
@@ -510,10 +544,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0190
-     * @tc.desc    Grouped waterflow changes rowsGap of group outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0190
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0190';
@@ -536,10 +572,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0200
-     * @tc.desc    Grouped waterflow changes margin of group outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0200
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0200';
@@ -562,10 +600,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0210
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0210
-     * @tc.desc    Grouped waterflow replaces group outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0210
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0210';
@@ -588,10 +628,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0220
-     * @tc.desc    Grouped waterflow adds group outside display area test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0220
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0220';
@@ -614,10 +656,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0230
-     * @tc.desc    After changing group outside display area in grouped waterflow, scroll test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0230
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0230';
@@ -642,10 +686,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0240
-     * @tc.desc    After changing group outside display area in grouped waterflow, scrollToIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0240
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0240';
@@ -671,10 +717,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0250
-     * @tc.desc    After changing group outside display area in grouped waterflow, scrollEdge test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0250
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0250';
@@ -700,10 +748,12 @@ export default function UIComponentWaterFlowSldingWindow() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0260
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0260
-     * @tc.desc    After changing group outside display area in grouped waterflow, mirror capability test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0260
+     * @tc.name   : Waterflow slding window
+     * @tc.desc   : Verify waterflow slding window interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLDING_WINDOW_0260';

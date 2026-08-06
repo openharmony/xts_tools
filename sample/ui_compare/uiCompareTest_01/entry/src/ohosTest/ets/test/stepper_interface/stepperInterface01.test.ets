@@ -43,6 +43,7 @@ export default function stepperInterface01Test() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0160
      * @tc.name   : Set the display of the 'nextLabel' property in the step navigator to unavailable status.
+     * @tc.desc   : Verify nav stepper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function stepperInterface01Test() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0100
      * @tc.name   : Set the 'precLabel' property in the single page.
+     * @tc.desc   : Verify nav stepper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +81,7 @@ export default function stepperInterface01Test() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0190
      * @tc.name   : Set the display of the 'nextLabel' property in the step navigator to skipped status.
+     * @tc.desc   : Verify nav stepper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

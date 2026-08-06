@@ -41,13 +41,12 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0010
-     * @tc.desc   : Verify Chip component adaptation for HM Symbol: test passing symbol to prefixSymbol/suffixSymbol and fontSize property.
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0010 start.`);
       try {
@@ -78,13 +77,12 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0020
-     * @tc.desc   : Verify Chip component adaptation for HM Symbol: test passing symbol to prefixSymbol/suffixSymbol and fontColor property.
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0020 start.`);
       try {
@@ -115,13 +113,12 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0040
-     * @tc.desc   : Verify Chip component adaptation for HM Symbol: test passing symbol to prefixSymbol/suffixSymbol with renderingStrategy set to SINGLE.
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0040 start.`);
       try {
@@ -160,13 +157,12 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0050
-     * @tc.desc   : Verify Chip component adaptation for HM Symbol: test switching symbol icons for prefixSymbol/suffixSymbol.
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0050 start.`);
       try {
@@ -203,13 +199,12 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0210
-     * @tc.desc   : Verify Chip component adaptation for HM Symbol: test previewer scenario.
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0210 start.`);
       try {
@@ -235,13 +230,12 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0220
-     * @tc.desc   : Verify Chip component adaptation for HM Symbol: test custom animation effect scenario.
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0220 start.`);
       try {
@@ -277,13 +271,12 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0230
-     * @tc.desc   : Verify Chip component adaptation for HM Symbol: test passing symbol to prefixSymbol/suffixSymbol with renderingStrategy set to MULTIPLE_COLOR.
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0230 start.`);
       try {
@@ -324,13 +317,12 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0240
-     * @tc.desc   : Verify Chip component adaptation for HM Symbol: test passing symbol to prefixSymbol/suffixSymbol with renderingStrategy set to MULTIPLE_OPACITY.
-     * @tc.size   : MediumTest
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0240 start.`);
       try {

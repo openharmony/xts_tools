@@ -42,7 +42,8 @@ export default function UiReverseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0010
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify column row reverse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -77,7 +78,8 @@ export default function UiReverseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0020
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify column row reverse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,7 +97,8 @@ export default function UiReverseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0030
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify column row reverse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -130,7 +133,8 @@ export default function UiReverseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0040
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify column row reverse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -148,7 +152,8 @@ export default function UiReverseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0060
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify column row reverse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -166,7 +171,8 @@ export default function UiReverseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0070
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify column row reverse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -184,7 +190,8 @@ export default function UiReverseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0080
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify column row reverse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -207,7 +214,8 @@ export default function UiReverseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0090
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify column row reverse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -230,7 +238,8 @@ export default function UiReverseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0120
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify column row reverse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -253,7 +262,8 @@ export default function UiReverseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0130
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify column row reverse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -276,7 +286,8 @@ export default function UiReverseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0140
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify column row reverse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -310,7 +321,8 @@ export default function UiReverseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0150
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify column row reverse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

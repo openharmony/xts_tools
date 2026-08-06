@@ -34,9 +34,12 @@ export default function UiComponentAbilityformCutTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0030
-     * @tc.name: testSegmentButtonMaxFontScale1
-     * @tc.desc: SegmentButton组件maxFontScale参数设置为1，适老化测试
+     * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0030
+     * @tc.name   : testSegmentButtonMaxFontScale1
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0030', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0030 start');
@@ -75,9 +78,12 @@ export default function UiComponentAbilityformCutTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0040
-     * @tc.name: testSegmentButtonMaxFontScale2
-     * @tc.desc: SegmentButton组件maxFontScale参数设置为2，适老化测试
+     * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0040
+     * @tc.name   : testSegmentButtonMaxFontScale2
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0040', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0040 start');
@@ -110,9 +116,12 @@ export default function UiComponentAbilityformCutTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0080
-     * @tc.name: testActionSheetBasic
-     * @tc.desc: 验证ActionSheet基本功能正常
+     * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0080
+     * @tc.name   : testActionSheetBasic
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0080', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0080 start');
@@ -150,9 +159,12 @@ export default function UiComponentAbilityformCutTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0090
-     * @tc.name: testChipGroupBasic
-     * @tc.desc: 验证ChipGroup基本功能正常
+     * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0090
+     * @tc.name   : testChipGroupBasic
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0090', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0090 start');
@@ -191,9 +203,12 @@ export default function UiComponentAbilityformCutTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0100
-     * @tc.name: testChipGroupAging
-     * @tc.desc: 验证ChipGroup适老化正常
+     * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0100
+     * @tc.name   : testChipGroupAging
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0100', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0100 start');
@@ -220,9 +235,12 @@ export default function UiComponentAbilityformCutTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0110
-     * @tc.name: testChipBasic
-     * @tc.desc: 验证Chip基本功能正常
+     * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0110
+     * @tc.name   : testChipBasic
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0110', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0110 start');
@@ -250,9 +268,12 @@ export default function UiComponentAbilityformCutTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0190
-     * @tc.name: testChipAging
-     * @tc.desc: 验证Chip适老化正常
+     * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0190
+     * @tc.name   : testChipAging
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0190', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0190 start');
@@ -272,9 +293,12 @@ export default function UiComponentAbilityformCutTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0200
-     * @tc.name: testSelectFont
-     * @tc.desc: 验证Select组件的下拉按钮功能正常
+     * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0200
+     * @tc.name   : testSelectFont
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0200', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0200 start');
@@ -311,9 +335,12 @@ export default function UiComponentAbilityformCutTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0210
-     * @tc.name: testSelectDivider
-     * @tc.desc: 验证Select组件的分割线功能正常
+     * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0210
+     * @tc.name   : testSelectDivider
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0210', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0210 start');
@@ -350,9 +377,12 @@ export default function UiComponentAbilityformCutTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0240
-     * @tc.name: testSelectOptionFont
-     * @tc.desc: 验证Select组件的自定义菜单选项功能正常
+     * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0240
+     * @tc.name   : testSelectOptionFont
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0240', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0240 start');
@@ -389,9 +419,12 @@ export default function UiComponentAbilityformCutTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0260
-     * @tc.name: testSelectRTL
-     * @tc.desc: 验证在维语环境下，Select组件正常布局
+     * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0260
+     * @tc.name   : testSelectRTL
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0260', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0260 start');
@@ -421,9 +454,12 @@ export default function UiComponentAbilityformCutTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0330
-     * @tc.name: testPopupBasic
-     * @tc.desc: 验证高级组件Popup的基本功能正常
+     * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0330
+     * @tc.name   : testPopupBasic
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0330', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0330 start');
@@ -457,9 +493,12 @@ export default function UiComponentAbilityformCutTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0340
-     * @tc.name: testPopupDirection
-     * @tc.desc: 验证高级组件Popup的镜像功能正常
+     * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0340
+     * @tc.name   : testPopupDirection
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0340', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0340 start');

@@ -43,6 +43,7 @@ export default function ImageFocusTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0010
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderradius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -70,6 +71,7 @@ export default function ImageFocusTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0015
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image focusable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -106,6 +108,7 @@ export default function ImageFocusTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0018
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image focusable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -133,6 +136,7 @@ export default function ImageFocusTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0021
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image focusable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

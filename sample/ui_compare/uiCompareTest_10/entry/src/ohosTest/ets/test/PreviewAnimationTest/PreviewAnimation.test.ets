@@ -41,13 +41,12 @@ export default function PreviewAnimation() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_ANIMATION_0020
-     * @tc.name   : SUB_ACE_PREVIEW_ANIMATION_0020
-     * @tc.desc   : Previewer supports property animation display; set parameters with .animation({ curve: "ease-out" }).
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview animation
+     * @tc.desc   : Verify preview animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_ANIMATION_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_ANIMATION_0020 start.`);
       Settings.createWindow("testability/pages/PreviewAnimation/PreviewAnimation0020")
@@ -158,13 +157,12 @@ export default function PreviewAnimation() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_ANIMATION_0030
-     * @tc.name   : SUB_ACE_PREVIEW_ANIMATION_0030
-     * @tc.desc   : Previewer supports property animation display; set parameters with .animation({ delay: -1 }).
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview animation
+     * @tc.desc   : Verify preview animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_ANIMATION_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_ANIMATION_0030 start.`);
       Settings.createWindow("testability/pages/PreviewAnimation/PreviewAnimation0030")
@@ -275,13 +273,12 @@ export default function PreviewAnimation() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_ANIMATION_0040
-     * @tc.name   : SUB_ACE_PREVIEW_ANIMATION_0040
-     * @tc.desc   : Previewer supports component transition; set rotate to .rotate({x: -10, y: 20, z: 30, centerX: "50%", angle: -100}).
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview animation
+     * @tc.desc   : Verify preview animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_ANIMATION_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_ANIMATION_0040 start.`);
       Settings.createWindow("testability/pages/PreviewAnimation/PreviewAnimation0040")
@@ -412,13 +409,12 @@ export default function PreviewAnimation() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_ANIMATION_0050
-     * @tc.name   : SUB_ACE_PREVIEW_ANIMATION_0050
-     * @tc.desc   : Previewer supports page transition; PageTransitionEnter sets RouteType to Push.
-     * @tc.size   : MediumTest
+     * @tc.name   : Preview animation
+     * @tc.desc   : Verify preview animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_PREVIEW_ANIMATION_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_ANIMATION_0050 start.`);
       Settings.createWindow("testability/pages/PreviewAnimation/PreviewAnimation0050")

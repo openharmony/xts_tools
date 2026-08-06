@@ -55,13 +55,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0050
-       * @tc.name    When the attribute string contains two or more placeholder characters, replace the string within the specified range and retrieve the string.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0050
+     * @tc.name   : When the attribute string contains two or more placeholder characters, replace the string within the specified range and retrieve the string.
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis01")
@@ -80,13 +80,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0060
-       * @tc.name    When the attribute string contains two or more placeholder characters, remove the string within the specified range
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0060
+     * @tc.name   : When the attribute string contains two or more placeholder characters, remove the string within the specified range
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis02")
@@ -105,13 +105,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0070
-       * @tc.name    When the attribute string contains two or more placeholder characters, insert string at specified index position
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0070
+     * @tc.name   : When the attribute string contains two or more placeholder characters, insert string at specified index position
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis03")
@@ -130,13 +130,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0080
-       * @tc.name    Insert strings with different styles
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0080
+     * @tc.name   : Insert strings with different styles
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis04")
@@ -155,13 +155,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0150
-       * @tc.name    When placeholder characters are at the front of text, replace the string within the specified range
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0150
+     * @tc.name   : When placeholder characters are at the front of text, replace the string within the specified range
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis05")
@@ -180,13 +180,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0160
-       * @tc.name    When placeholder characters are at the front of text, remove the string within the specified range
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0160
+     * @tc.name   : When placeholder characters are at the front of text, remove the string within the specified range
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis06")
@@ -205,13 +205,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0170
-       * @tc.name    When placeholder characters are at the front of text, insert string at specified index position
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0170
+     * @tc.name   : When placeholder characters are at the front of text, insert string at specified index position
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis07")
@@ -230,13 +230,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0180
-       * @tc.name    When placeholder characters are in the middle of text, replace the string within the specified range
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0180
+     * @tc.name   : When placeholder characters are in the middle of text, replace the string within the specified range
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis08")
@@ -255,13 +255,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0190
-       * @tc.name    When placeholder characters are in the middle of text, remove the string within the specified range
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0190
+     * @tc.name   : When placeholder characters are in the middle of text, remove the string within the specified range
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis09")
@@ -280,13 +280,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0210
-       * @tc.name    When placeholder characters are at the end of text, replace the string within the specified range
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0210
+     * @tc.name   : When placeholder characters are at the end of text, replace the string within the specified range
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0210 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis10")
@@ -305,13 +305,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0220
-       * @tc.name    When placeholder characters are at the end of text, remove the string within the specified range
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0220
+     * @tc.name   : When placeholder characters are at the end of text, remove the string within the specified range
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0220 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis11")
@@ -330,13 +330,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0230
-       * @tc.name    When placeholder characters are at the end of text, insert string at specified index position
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0230
+     * @tc.name   : When placeholder characters are at the end of text, insert string at specified index position
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0230 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis12")
@@ -355,13 +355,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0280
-       * @tc.name    Text component modifier method calls clip property
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0280
+     * @tc.name   : Text component modifier method calls clip property
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0280 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis13")
@@ -377,13 +377,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0290
-       * @tc.name    TextInput/TextArea component modifier method calls backgroundColor
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0290
+     * @tc.name   : TextInput/TextArea component modifier method calls backgroundColor
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0290 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis14")
@@ -397,13 +397,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0310
-       * @tc.name    TextInput/TextArea component modifier method calls width
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0310
+     * @tc.name   : TextInput/TextArea component modifier method calls width
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0310 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis15")
@@ -416,13 +416,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0320
-       * @tc.name    TextInput/TextArea component modifier method calls padding
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0320
+     * @tc.name   : TextInput/TextArea component modifier method calls padding
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0320 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis16")
@@ -436,13 +436,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0330
-       * @tc.name    TextInput/TextArea component modifier method calls margin
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0330
+     * @tc.name   : TextInput/TextArea component modifier method calls margin
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0330 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis17")
@@ -456,13 +456,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0340
-       * @tc.name    TextInput/TextArea component modifier method calls border
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0340
+     * @tc.name   : TextInput/TextArea component modifier method calls border
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0340 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis18")
@@ -476,13 +476,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0360
-       * @tc.name    TextInput/TextArea component modifier method calls foregroundColor
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0360
+     * @tc.name   : TextInput/TextArea component modifier method calls foregroundColor
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0360 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis19")
@@ -496,13 +496,13 @@ export default function UiComponentTextReverseAnalysis() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0370
-       * @tc.name    TextInput/TextArea component modifier method calls onClick
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0370
+     * @tc.name   : TextInput/TextArea component modifier method calls onClick
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0370 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis20")
@@ -520,14 +520,14 @@ export default function UiComponentTextReverseAnalysis() {
       done()
     })
 
-    /**
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0570
-       * @tc.name    TextInput component sets 120,000 characters text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0570
+     * @tc.name   : TextInput component sets 120,000 characters text
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0570 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis21")
@@ -544,14 +544,14 @@ export default function UiComponentTextReverseAnalysis() {
       done()
     })
 
-    /**
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0580
-       * @tc.name    TextArea component sets 120,000 characters text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0580
+     * @tc.name   : TextArea component sets 120,000 characters text
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0580 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis22")
@@ -568,14 +568,14 @@ export default function UiComponentTextReverseAnalysis() {
       done()
     })
 
-    /**
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0590
-       * @tc.name    Search component sets 120,000 characters text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0590
+     * @tc.name   : Search component sets 120,000 characters text
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0590 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis23")
@@ -592,14 +592,14 @@ export default function UiComponentTextReverseAnalysis() {
       done()
     })
 
-    /**
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0600
-       * @tc.name    Text component sets 120,000 characters text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0600
+     * @tc.name   : Text component sets 120,000 characters text
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0600 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis24")
@@ -616,14 +616,14 @@ export default function UiComponentTextReverseAnalysis() {
       done()
     })
 
-    /**
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0610
-       * @tc.name    Toast displays 15,000 characters text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0610
+     * @tc.name   : Toast displays 15,000 characters text
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0610 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis25")
@@ -639,14 +639,14 @@ export default function UiComponentTextReverseAnalysis() {
       done()
     })
 
-    /**
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0640
-       * @tc.name    StyledString with different styledKey modifier verification
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0640
+     * @tc.name   : StyledString with different styledKey modifier verification
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0640 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis26")
@@ -660,14 +660,14 @@ export default function UiComponentTextReverseAnalysis() {
       done()
     })
 
-    /**
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0650
-       * @tc.name    StyledString with same content different styledKey modifier verification
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0650
+     * @tc.name   : StyledString with same content different styledKey modifier verification
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0650 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis27")
@@ -681,14 +681,14 @@ export default function UiComponentTextReverseAnalysis() {
       done()
     })
 
-    /**
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0660
-       * @tc.name    StyledString with applyNormalAttribute and applyPressedAttribute
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0660
+     * @tc.name   : StyledString with applyNormalAttribute and applyPressedAttribute
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0660 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis28")
@@ -704,14 +704,14 @@ export default function UiComponentTextReverseAnalysis() {
       done()
     })
 
-    /**
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0040
-       * @tc.name    TextInput/Search/TextArea component size animation
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0040
+     * @tc.name   : TextInput/Search/TextArea component size animation
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis29")
@@ -735,14 +735,14 @@ export default function UiComponentTextReverseAnalysis() {
       done()
     })
 
-    /**
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0090
-       * @tc.name    Text component with garbled text format
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0090
+     * @tc.name   : Text component with garbled text format
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis30")
@@ -756,14 +756,14 @@ export default function UiComponentTextReverseAnalysis() {
       done()
     })
 
-    /**
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0130
-       * @tc.name    TextInput component changes cancelButton type on focus
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0130
+     * @tc.name   : TextInput component changes cancelButton type on focus
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis31")
@@ -779,14 +779,14 @@ export default function UiComponentTextReverseAnalysis() {
       done()
     })
 
-    /**
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0140
-       * @tc.name    Search component changes cancelButton type on focus
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0140
+     * @tc.name   : Search component changes cancelButton type on focus
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentTextReverseAnalysis/UiComponentTextReverseAnalysis32")

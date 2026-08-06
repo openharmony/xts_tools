@@ -42,9 +42,9 @@ export default function PopupBoxBack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0010
-     * @tc.type   : function
-     * @tc.desc   : Configure ActionSheet with onWillDismiss and a confirm button, then verify that tapping a list item in the list-selection popup does not trigger the dismissDialog.dismiss() callback, yet the popup can still exit normally.
+     * @tc.name   : Popupbox back
+     * @tc.desc   : Verify popupbox back interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -82,9 +82,9 @@ export default function PopupBoxBack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0020
-     * @tc.type   : function
-     * @tc.desc   : Configure ActionSheet with onWillDismiss, allow clicking mask layer, three-key back, left/right swipe, keyboard ESC, list selection popup does not exit
+     * @tc.name   : Popupbox back
+     * @tc.desc   : Verify popupbox back interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -117,9 +117,9 @@ export default function PopupBoxBack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0030
-     * @tc.type   : function
-     * @tc.desc   : Configure ActionSheet with onWillDismiss, allow three-key back, left/right swipe, keyboard ESC, list selection popup exits, trigger dismissDialog.dismiss() callback, autoCancel set to false will not trigger dismissDialog.dismiss() callback, list selection popup does not close
+     * @tc.name   : Popupbox back
+     * @tc.desc   : Verify popupbox back interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -156,9 +156,9 @@ export default function PopupBoxBack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0040
-     * @tc.type   : function
-     * @tc.desc   : Configure AlertDialog with onWillDismiss and confirm button, verify that clicking confirm button does not trigger dismissDialog.dismiss() callback, can exit normally
+     * @tc.name   : Popupbox back
+     * @tc.desc   : Verify popupbox back interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -187,9 +187,9 @@ export default function PopupBoxBack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0050
-     * @tc.type   : function
-     * @tc.desc   : Configure AlertDialog with onWillDismiss, allow clicking mask layer, three-key back, left/right swipe, keyboard ESC, warning popup does not exit
+     * @tc.name   : Popupbox back
+     * @tc.desc   : Verify popupbox back interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -222,9 +222,9 @@ export default function PopupBoxBack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0060
-     * @tc.type   : function
-     * @tc.desc   : Configure AlertDialog with onWillDismiss, allow three-key back, left/right swipe, keyboard ESC, warning popup exits, trigger dismissDialog.dismiss() callback, autoCancel set to false will not trigger dismissDialog.dismiss() callback, warning popup does not close
+     * @tc.name   : Popupbox back
+     * @tc.desc   : Verify popupbox back interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -265,9 +265,9 @@ export default function PopupBoxBack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0070
-     * @tc.type   : function
-     * @tc.desc   : Configure CustomDialog with onWillDismiss, allow clicking mask layer, three-key back, left/right swipe, keyboard ESC, custom popup does not exit
+     * @tc.name   : Popupbox back
+     * @tc.desc   : Verify popupbox back interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -300,9 +300,9 @@ export default function PopupBoxBack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0080
-     * @tc.type   : function
-     * @tc.desc   : Configure CustomDialog with onWillDismiss, allow three-key back, left/right swipe, keyboard ESC, custom popup exits, trigger dismissDialog.dismiss() callback, autoCancel set to false will not trigger dismissDialog.dismiss() callback, custom popup does not close
+     * @tc.name   : Popupbox back
+     * @tc.desc   : Verify popupbox back interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -339,9 +339,9 @@ export default function PopupBoxBack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0090
-     * @tc.type   : function
-     * @tc.desc   : Configure CustomDialog with onWillDismiss, click 'close' button (click to call close(): void), custom popup does not trigger dismissDialog.dismiss() callback, can exit normally
+     * @tc.name   : Popupbox back
+     * @tc.desc   : Verify popupbox back interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -375,9 +375,9 @@ export default function PopupBoxBack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0100
-     * @tc.type   : function
-     * @tc.desc   : Configure promptAction.openCustomDialog with onWillDismiss, allow clicking mask layer, three-key back, left/right swipe, keyboard ESC, custom popup does not exit
+     * @tc.name   : Popupbox back
+     * @tc.desc   : Verify popupbox back interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -410,9 +410,9 @@ export default function PopupBoxBack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0110
-     * @tc.type   : function
-     * @tc.desc   : Configure promptAction.openCustomDialog with onWillDismiss, allow three-key back, left/right swipe, keyboard ESC, custom popup exits, trigger dismissDialog.dismiss() callback, isModal set to false will not trigger dismissDialog.dismiss() callback, popup does not close
+     * @tc.name   : Popupbox back
+     * @tc.desc   : Verify popupbox back interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -453,9 +453,9 @@ export default function PopupBoxBack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACK_0120
-     * @tc.type   : function
-     * @tc.desc   : Configure promptAction.openCustomDialog with onWillDismiss, click 'cancel' button (promptAction.closeCustomDialog(customDialogId)), custom popup does not trigger dismissDialog.dismiss() callback, can exit normally
+     * @tc.name   : Popupbox back
+     * @tc.desc   : Verify popupbox back interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

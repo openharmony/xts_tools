@@ -41,13 +41,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0010
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0010
-       * @tc.desc    getParams接口和pushNamedRoute接口组合测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0010
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0010 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface10")
@@ -62,13 +62,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0020
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0020
-       * @tc.desc    har包/hsp包/普通包相互之间路由跳转正常
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0020
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0020 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface20")
@@ -83,13 +83,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0030
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0030
-       * @tc.desc    replaceNameRoute接口和getParams接口组合测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0030
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0030 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface30")
@@ -104,13 +104,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0040
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0040
-       * @tc.desc    router.pushNamedRoute同步接口功能测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0040
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0040 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface40")
@@ -125,13 +125,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0050
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0050
-       * @tc.desc    router.pushNamedRoute同步接口错误码测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0050
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0050 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface50")
@@ -146,13 +146,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0060
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0060
-       * @tc.desc    router.pushNamedRoute含mode同步接口功能测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0060
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0060 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface60")
@@ -167,13 +167,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0070
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0070
-       * @tc.desc    router.pushNamedRoute含mode同步接口错误码测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0070
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0070 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface70")
@@ -188,13 +188,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0080
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0080
-       * @tc.desc    router.pushNamedRoute含mode异步接口功能测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0080
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0080 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface80")
@@ -209,13 +209,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0090
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0090
-       * @tc.desc    router.pushNamedRoute含mode异步接口错误码测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0090
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0090 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface90")
@@ -230,13 +230,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0100
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0100
-       * @tc.desc    router.pushNamedRoute异步接口功能测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0100
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0100 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface100")
@@ -251,13 +251,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0110
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0110
-       * @tc.desc    router.pushNamedRoute异步接口错误码测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0110
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0110 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface110")
@@ -272,13 +272,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0120
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0120
-       * @tc.desc    router.replaceNamedRoute同步接口功能测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0120
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0120 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface120")
@@ -293,13 +293,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0130
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0130
-       * @tc.desc    router.replaceNamedRoute同步接口错误码测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0130
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0130 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface130")
@@ -314,13 +314,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0140
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0140
-       * @tc.desc    router.replaceNamedRoute含mode同步接口功能测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0140
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0140 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface140")
@@ -335,13 +335,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0150
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0150
-       * @tc.desc    router.replaceNamedRoute含mode同步接口错误码测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0150
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0150 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface150")
@@ -356,13 +356,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0160
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0160
-       * @tc.desc    router.replaceNamedRoute含mode异步接口功能测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0160
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0160 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface160")
@@ -377,13 +377,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0170
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0170
-       * @tc.desc    router.replaceNamedRoute含mode异步接口错误码测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0170
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0170 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface170")
@@ -398,13 +398,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0180
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0180
-       * @tc.desc    router.replaceNamedRoute异步接口功能测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0180
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0180 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface180")
@@ -419,13 +419,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0190
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0190
-       * @tc.desc    router.replaceNamedRoute异步接口错误码测试
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0190
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0190 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface190")
@@ -440,13 +440,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0200
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0200
-       * @tc.desc    含命名路由的页面编译后能按照预定义的规则生成代码
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0200
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0200 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface200")
@@ -461,13 +461,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0210
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0210
-       * @tc.desc    命名路由不为null时，且页面配置在mainPage.json中时，使用pushNamedRoute接口能够成功跳转对应页面
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0210
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0210 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface210")
@@ -482,13 +482,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0220
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0220
-       * @tc.desc    命名路由的编译器、编译、预览功能正常
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0220
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0220 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface220")
@@ -503,13 +503,13 @@ export default function RoutingNamedRoutesInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0230
-       * @tc.name    SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0230
-       * @tc.desc    当命名路由不唯一时，使用pushNamedRoute接口能够成功跳转最后加载的页面
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0230
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0230 start.`);
       Settings.createWindow("testability/pages/RoutingNamedRoutesInterface/RoutingNamedRoutesInterface230")

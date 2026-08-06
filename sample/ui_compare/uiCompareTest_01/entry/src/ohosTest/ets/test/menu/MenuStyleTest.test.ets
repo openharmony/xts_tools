@@ -42,6 +42,7 @@ export default function MenuStyleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0760
      * @tc.name   : menu padding对divider margin的影响测试
+     * @tc.desc   : Verify popupbox menu style enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -71,6 +72,7 @@ export default function MenuStyleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_1050
      * @tc.name   : 二级菜单按压态交互测试
+     * @tc.desc   : Verify popupbox menu style enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,6 +101,7 @@ export default function MenuStyleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_1010
      * @tc.name   : 二级菜单键盘走焦测试
+     * @tc.desc   : Verify popupbox menu style enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -127,6 +130,7 @@ export default function MenuStyleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_1040
      * @tc.name   : 二级菜单手势交互测试
+     * @tc.desc   : Verify popupbox menu style enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -155,6 +159,7 @@ export default function MenuStyleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_1020
      * @tc.name   : 二级菜单三种展开模式样式测试
+     * @tc.desc   : Verify popupbox menu style enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

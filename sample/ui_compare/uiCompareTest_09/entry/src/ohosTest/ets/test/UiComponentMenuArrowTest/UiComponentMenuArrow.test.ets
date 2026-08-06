@@ -27,10 +27,13 @@ export default function UiComponentMenuArrow() {
       }
     });
 
-    /**
-     * @tc.number ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWBLUR_0090
-     * @tc.name bindMenu箭头模糊背景效果
-     * @tc.desc 验证菜单箭头、模糊效果和背景色
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWBLUR_0090
+     * @tc.name   : bindMenu箭头模糊背景效果
+     * @tc.desc   : Verify component function commomattributes menu arrowblur interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWBLUR_0090', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWBLUR_0090 begin');
@@ -48,10 +51,13 @@ export default function UiComponentMenuArrow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWBLUR_0090 end');
     });
 
-    /**
-     * @tc.number ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWKEYSOYTOFFOCUS_0090
-     * @tc.name bindContextMenu二级菜单STACK_EXPAND
-     * @tc.desc 验证二级菜单堆叠展开方式
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWKEYSOYTOFFOCUS_0090
+     * @tc.name   : bindContextMenu二级菜单STACK_EXPAND
+     * @tc.desc   : Verify component function commomattributes menu arrowkeysoytoffocus interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWKEYSOYTOFFOCUS_0090', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWKEYSOYTOFFOCUS_0090 begin');
@@ -64,10 +70,13 @@ export default function UiComponentMenuArrow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWKEYSOYTOFFOCUS_0090 end');
     });
 
-    /**
-     * @tc.number ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWKEYSOYTOFFOCUS_0160
-     * @tc.name bindMenu二级菜单SIDE_EXPAND
-     * @tc.desc 验证二级菜单侧边展开方式
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWKEYSOYTOFFOCUS_0160
+     * @tc.name   : bindMenu二级菜单SIDE_EXPAND
+     * @tc.desc   : Verify component function commomattributes menu arrowkeysoytoffocus interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWKEYSOYTOFFOCUS_0160', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWKEYSOYTOFFOCUS_0160 begin');
@@ -85,10 +94,13 @@ export default function UiComponentMenuArrow() {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_ARROWKEYSOYTOFFOCUS_0160 end');
     });
 
-    /**
-     * @tc.number ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_DOUBLESTROKE_0060
-     * @tc.name bindContextMenu双描边效果
-     * @tc.desc 验证菜单双描边显示
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_DOUBLESTROKE_0060
+     * @tc.name   : bindContextMenu双描边效果
+     * @tc.desc   : Verify component function commomattributes menu doublestroke interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_DOUBLESTROKE_0060', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_DOUBLESTROKE_0060 begin');

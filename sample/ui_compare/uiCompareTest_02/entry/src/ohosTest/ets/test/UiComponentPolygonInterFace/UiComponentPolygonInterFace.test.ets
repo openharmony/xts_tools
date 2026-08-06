@@ -55,13 +55,13 @@ export default function UiComponentPolygonInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POLYGON_INTERFACE_0790
-       * @tc.name    attribute-antiAlias(boolean)-false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POLYGON_INTERFACE_0790
+     * @tc.name   : attribute-antiAlias(boolean)-false
+     * @tc.desc   : Verify polygon interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POLYGON_INTERFACE_0790', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POLYGON_INTERFACE_0790 start.`);
       Settings.createWindow("testability/pages/UiComponentPolygonInterFace/UiComponentPolygonInterFace01")
@@ -74,13 +74,13 @@ export default function UiComponentPolygonInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POLYGON_INTERFACE_0800
-       * @tc.name    attribute - antiAlias (boolean) - is not set
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POLYGON_INTERFACE_0800
+     * @tc.name   : attribute - antiAlias (boolean) - is not set
+     * @tc.desc   : Verify polygon interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POLYGON_INTERFACE_0800', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POLYGON_INTERFACE_0800 start.`);
       Settings.createWindow("testability/pages/UiComponentPolygonInterFace/UiComponentPolygonInterFace02")

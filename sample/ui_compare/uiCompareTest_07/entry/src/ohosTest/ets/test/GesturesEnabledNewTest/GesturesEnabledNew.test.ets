@@ -43,8 +43,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0010
      * @tc.name   : Verify that the window interface parameter is correctly passed as false.
-     * @tc.type   : function
-     * @tc.desc   : 验证窗口接口传参正确-false
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -72,8 +72,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0020
      * @tc.name   : Verify that the window interface parameter is correctly passed as true.
-     * @tc.type   : function
-     * @tc.desc   : 验证窗口接口传参正确-true
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -101,8 +101,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0030
      * @tc.name   : Verify that the window interface parameter is correctly passed as undefined.
-     * @tc.type   : function
-     * @tc.desc   : 验证窗口接口传参正确-undefined
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -130,8 +130,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0060
      * @tc.name   : Gesture disabled - fixed title bar - mouse - drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-固定标题栏-鼠标-拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -160,8 +160,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0070
      * @tc.name   : Gesture disabled - fixed title bar - mouse - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-固定标题栏-鼠标-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -192,8 +192,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0080
      * @tc.name   : Gesture disabled - fixed title bar - touchpad - double tap and hold.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-固定标题栏-触控板-触控板点击两次，不松手
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -222,8 +222,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0090
      * @tc.name   : Gesture disabled - fixed title bar - touchpad - one hand hold, one hand drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-固定标题栏-触控板-一只手按住，一只手拖拽
+     * @tc.desc   : Verify the interface under test for scenario described by case 'SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0090'.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -252,8 +252,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0100
      * @tc.name   : Gesture disabled - fixed title bar - touchpad - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-固定标题栏-触控板-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -284,8 +284,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0110
      * @tc.name   : Gesture disabled - fixed title bar - finger input (touch screen) - drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-固定标题栏-手指输入（触屏）-拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -314,8 +314,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0120
      * @tc.name   : Gesture disabled - fixed title bar - finger input (touch screen) - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-固定标题栏-手指输入（触屏）-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -346,8 +346,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0130
      * @tc.name   : Gesture disabled - hidden title bar - mouse - drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-隐藏标题栏-鼠标-拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -376,8 +376,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0140
      * @tc.name   : Gesture disabled - hidden title bar - mouse - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-隐藏标题栏-鼠标-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -408,8 +408,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0150
      * @tc.name   : Gesture disabled - hidden title bar - touchpad - double tap and hold.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-隐藏标题栏-触控板-触控板点击两次，不松手
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -438,8 +438,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0160
      * @tc.name   : Gesture disabled - hidden title bar - touchpad - one hand hold, one hand drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-隐藏标题栏-触控板-一只手按住，一只手拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -468,8 +468,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0170
      * @tc.name   : Gesture disabled - hidden title bar - touchpad - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-隐藏标题栏-触控板-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -500,8 +500,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0180
      * @tc.name   : Gesture disabled - hidden title bar - finger input (touch screen) - drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-隐藏标题栏-手指输入（触屏）-拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -530,8 +530,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0190
      * @tc.name   : Gesture disabled - hidden title bar - finger input (touch screen) - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-隐藏标题栏-手指输入（触屏）-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -562,8 +562,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0200
      * @tc.name   : Gesture disabled - floating title bar - mouse - drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-悬浮标题栏-鼠标-拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -592,8 +592,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0210
      * @tc.name   : Gesture disabled - floating title bar - mouse - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-悬浮标题栏-鼠标-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -624,8 +624,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0220
      * @tc.name   : Gesture disabled - floating title bar - touchpad - double tap and hold.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-悬浮标题栏-触控板-触控板点击两次，不松手
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -654,8 +654,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0230
      * @tc.name   : Gesture disabled - floating title bar - touchpad - one hand hold, one hand drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-悬浮标题栏-触控板-一只手按住，一只手拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -684,8 +684,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0240
      * @tc.name   : Gesture disabled - floating title bar - touchpad - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-悬浮标题栏-触控板-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -716,8 +716,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0250
      * @tc.name   : Gesture disabled - floating title bar - finger input (touch screen) - drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-悬浮标题栏-手指输入（触屏）-拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -746,8 +746,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0260
      * @tc.name   : Gesture disabled - floating title bar - finger input (touch screen) - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势禁用-悬浮标题栏-手指输入（触屏）-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -778,8 +778,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0270
      * @tc.name   : Gesture enabled - fixed title bar - mouse - drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-固定标题栏-鼠标-拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -808,8 +808,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0280
      * @tc.name   : Gesture enabled - fixed title bar - mouse - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-固定标题栏-鼠标-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -840,8 +840,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0290
      * @tc.name   : Gesture enabled - fixed title bar - touchpad - double tap and hold.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-固定标题栏-触控板-触控板点击两次，不松手
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -870,8 +870,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0300
      * @tc.name   : Gesture enabled - fixed title bar - touchpad - one hand hold, one hand drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-固定标题栏-触控板-一只手按住，一只手拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -900,8 +900,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0310
      * @tc.name   : Gesture enabled - fixed title bar - touchpad - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-固定标题栏-触控板-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -932,8 +932,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0320
      * @tc.name   : Gesture enabled - fixed title bar - finger input (touch screen) - drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-固定标题栏-手指输入（触屏）-拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -962,8 +962,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0330
      * @tc.name   : Gesture enabled - fixed title bar - finger input (touch screen) - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-固定标题栏-手指输入（触屏）-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -994,8 +994,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0340
      * @tc.name   : Gesture enabled - hidden title bar - mouse - drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-隐藏标题栏-鼠标-拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1024,8 +1024,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0350
      * @tc.name   : Gesture enabled - hidden title bar - mouse - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-隐藏标题栏-鼠标-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1056,8 +1056,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0360
      * @tc.name   : Gesture enabled - hidden title bar - touchpad - double tap and hold.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-隐藏标题栏-触控板-触控板点击两次，不松手
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1086,8 +1086,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0370
      * @tc.name   : Gesture enabled - hidden title bar - touchpad - one hand hold, one hand drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-隐藏标题栏-触控板-一只手按住，一只手拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1116,8 +1116,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0380
      * @tc.name   : Gesture enabled - hidden title bar - touchpad - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-隐藏标题栏-触控板-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1148,8 +1148,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0390
      * @tc.name   : Gesture enabled - hidden title bar - finger input (touch screen) - drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-隐藏标题栏-手指输入（触屏）-拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1178,8 +1178,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0400
      * @tc.name   : Gesture enabled - hidden title bar - finger input (touch screen) - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-隐藏标题栏-手指输入（触屏）-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1210,8 +1210,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0410
      * @tc.name   : Gesture enabled - floating title bar - mouse - drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-悬浮标题栏-鼠标-拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1240,8 +1240,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0420
      * @tc.name   : Gesture enabled - floating title bar - mouse - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-悬浮标题栏-鼠标-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1272,8 +1272,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0430
      * @tc.name   : Gesture enabled - floating title bar - touchpad - double tap and hold.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-悬浮标题栏-触控板-触控板点击两次，不松手
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1302,8 +1302,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0440
      * @tc.name   : Gesture enabled - floating title bar - touchpad - one hand hold, one hand drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-悬浮标题栏-触控板-一只手按住，一只手拖拽
+     * @tc.desc   : Verify the interface under test for scenario described by case 'SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0440'.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1332,8 +1332,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0450
      * @tc.name   : Gesture enabled - floating title bar - touchpad - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-悬浮标题栏-触控板-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1364,8 +1364,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0460
      * @tc.name   : Gesture enabled - floating title bar - finger input (touch screen) - drag.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-悬浮标题栏-手指输入（触屏）-拖拽
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1394,8 +1394,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0470
      * @tc.name   : Gesture enabled - floating title bar - finger input (touch screen) - double click.
-     * @tc.type   : function
-     * @tc.desc   : 手势启用-悬浮标题栏-手指输入（触屏）-双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1426,8 +1426,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0480
      * @tc.name   : Gesture disabled - switch different title bar states.
-     * @tc.type   : function
-     * @tc.desc   : 设置禁用后，切换不同状态的标题栏
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1460,8 +1460,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0490
      * @tc.name   : Gesture disabled - lock screen and unlock, then drag and double click.
-     * @tc.type   : function
-     * @tc.desc   : 设置禁用后锁屏，再开机进行拖拽、双击
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1492,8 +1492,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0500
      * @tc.name   : Gesture disabled - drag 100 times, double click 100 times.
-     * @tc.type   : function
-     * @tc.desc   : 设置禁用后，拖拽100次、双击100次
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1522,8 +1522,8 @@ export default function GesturesEnabledNew() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0510
      * @tc.name   : Enable-disable, repeat 100 times.
-     * @tc.type   : function
-     * @tc.desc   : 启用-禁用，连续重复操作100次
+     * @tc.desc   : Verify window gestures enabled new interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

@@ -40,10 +40,12 @@ export default function UIComponentOtherAlphabetIndexerIndexerAlign() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0090
-     * @tc.name    In Chinese mode, in the AlphabetIndexer container, set offset to 5 and do not set popupPosition
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0090
+     * @tc.name   : In Chinese mode, in the AlphabetIndexer container, set offset to 5 and do not set popupPosition
+     * @tc.desc   : Verify other alphabetindexer indexeralign interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0090 start.`);
@@ -68,10 +70,12 @@ export default function UIComponentOtherAlphabetIndexerIndexerAlign() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0320
-     * @tc.name    Tibetan mode, in the AlphabetIndexer container, set offset to 5 and popupPosition
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0320
+     * @tc.name   : Tibetan mode, in the AlphabetIndexer container, set offset to 5 and popupPosition
+     * @tc.desc   : Verify other alphabetindexer indexeralign interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0320 start.`);

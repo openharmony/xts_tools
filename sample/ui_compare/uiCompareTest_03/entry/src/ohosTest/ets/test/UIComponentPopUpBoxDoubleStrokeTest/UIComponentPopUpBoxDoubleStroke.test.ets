@@ -63,10 +63,12 @@ export default function UIComponentPopUpBoxDoubleStroke() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0010
-     * @tc.desc    Check ALN actionSheet double border and corner compliance with UX design when border properties are unset
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0010
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0010';
@@ -85,10 +87,12 @@ export default function UIComponentPopUpBoxDoubleStroke() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0150
-     * @tc.desc    Verify UIContext showActionSheet double border and corner compliance with UX design when border properties are unset
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0150
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0150', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0150';

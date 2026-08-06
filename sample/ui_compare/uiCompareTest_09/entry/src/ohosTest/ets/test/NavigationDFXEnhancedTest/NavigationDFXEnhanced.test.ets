@@ -28,11 +28,13 @@ export default function NavigationDFXEnhanced() {
       }
     });
 
-    /**
-     * 用例ID: NavigationRouterTestLevel3_SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DUMPDFX_0510
-     * 用例描述: Navigation DFX能力增强测试（move接口）
-     * 自动化程度: 75%
-     * 说明: 自动执行操作，需手动查看hilog验证DFX日志
+    /*
+     * @tc.number : NavigationRouterTestLevel3_SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DUMPDFX_0510
+     * @tc.name   : NavigationRouterTestLevel3_SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DUMPDFX_0510
+     * @tc.desc   : Verify navigationroutertestlevel3 sub ace ui component nav navigation dumpdfx interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('NavigationRouterTestLevel3_SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DUMPDFX_0510', 0, async () => {
       Logger.info('NavigationRouterTestLevel3_SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DUMPDFX_0510 begin');

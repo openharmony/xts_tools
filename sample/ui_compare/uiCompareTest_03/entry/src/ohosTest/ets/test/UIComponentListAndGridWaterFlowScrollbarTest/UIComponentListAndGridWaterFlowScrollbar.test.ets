@@ -59,10 +59,12 @@ export default function UIComponentListAndGridWaterFlowScrollbar() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0010
-     * @tc.desc    Waterflow built-in scrollbar hover display test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0010
+     * @tc.name   : Listandgrid waterflow scrollbar
+     * @tc.desc   : Verify listandgrid waterflow scrollbar interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0010';
@@ -84,10 +86,12 @@ export default function UIComponentListAndGridWaterFlowScrollbar() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0020
-     * @tc.desc    Waterflow scrollbar state switch hover display test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0020
+     * @tc.name   : Listandgrid waterflow scrollbar
+     * @tc.desc   : Verify listandgrid waterflow scrollbar interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0020';
@@ -111,10 +115,12 @@ export default function UIComponentListAndGridWaterFlowScrollbar() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0030
-     * @tc.desc    Waterflow changes mirror effect, scrollbar hover display
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0030
+     * @tc.name   : Listandgrid waterflow scrollbar
+     * @tc.desc   : Verify listandgrid waterflow scrollbar interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0030';
@@ -136,10 +142,12 @@ export default function UIComponentListAndGridWaterFlowScrollbar() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0040
-     * @tc.desc    Waterflow binds external scrollbar, mouse hover display
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0040
+     * @tc.name   : Listandgrid waterflow scrollbar
+     * @tc.desc   : Verify listandgrid waterflow scrollbar interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0040';
@@ -163,10 +171,12 @@ export default function UIComponentListAndGridWaterFlowScrollbar() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0050
-     * @tc.desc    Grouped waterflow binds external scrollbar test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0050
+     * @tc.name   : Listandgrid waterflow scrollbar
+     * @tc.desc   : Verify listandgrid waterflow scrollbar interface behavior and expected UI result for this case.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0050';

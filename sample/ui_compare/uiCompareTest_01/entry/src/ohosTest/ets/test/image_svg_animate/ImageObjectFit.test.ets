@@ -43,6 +43,7 @@ export default function ImageObjectFitTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0017
      * @tc.name   : image test objectFit in PixelMap
+     * @tc.desc   : Verify media Image objectfit align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,6 +87,7 @@ export default function ImageObjectFitTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0020
      * @tc.name   : image test ImageFit.TOP_START
+     * @tc.desc   : Verify media Image objectfit align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -104,6 +106,7 @@ export default function ImageObjectFitTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0015
      * @tc.name   : image test default ImageFit
+     * @tc.desc   : Verify media Image objectfit align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -122,6 +125,7 @@ export default function ImageObjectFitTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0016
      * @tc.name   : image test objectFit in PixelMap
+     * @tc.desc   : Verify media Image objectfit align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -175,6 +179,7 @@ export default function ImageObjectFitTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0018
      * @tc.name   : image test objectFit with undefined and null
+     * @tc.desc   : Verify media Image objectfit align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
