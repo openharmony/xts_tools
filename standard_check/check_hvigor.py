@@ -24,9 +24,8 @@ import json5
 class HvigorChecker:
 
     HVIGOR_BASE_VERSION = [
-        '4.0.5',
-        '4.0.9',
         '6.0.0',
+        '26.0.0',
     ]
 
     def __init__(self, suite_name):
