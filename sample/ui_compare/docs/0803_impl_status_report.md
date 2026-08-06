@@ -11,18 +11,20 @@
 | **能写就真写** | `UIExtensionComponent` / `XComponent` / `PluginComponent` 用真组件 + 可观测回调（无效 Want/source → `onError`；SURFACE → `onLoad`） |
 | **弱增强可接受** | 批量 Shape/布局深度/Split/本地 Video 等，不强行伪装成原需求全链路 |
 
-当前工程规模：Snap **~77** Suite；Assert **~111** Suite（删除约 **93** 条假/不可写后）。Assert 内 **0** 处 `assert_ready_pending` / `manual_case_pending`。
+当前工程规模：Snap **~89** Suite（含 12 条 TextPicker 手势 uuid 用例）；Assert **~111** Suite（删除约 **93** 条假/不可写后）。Assert 内 **0** 处 `assert_ready_pending` / `manual_case_pending`。
+
+xlsx G/H 列已全量标注（2026-08-06）：**已实现 ~197** + **无法实现 108** = **305**。  
+「非 SUB_*」**不再**作为不实现理由；Picker 手势 uuid 已进 `uiCompareTest_13`。
 
 ## 2. 总数口径
 
 | 口径 | 数量 | 说明 |
 |------|------|------|
 | xlsx 数据行 | **305** | Sheet1 除表头 |
-| 标准 `SUB_*` | **280** | 可进分流表 |
-| 非 `SUB_*` | **25** | uuid / A11y / UIExtension Level 旧号 → **本仓仍不落盘** |
-| 分流表曾登记 | **280** | 去假后部分 ID 从工程与分流表标注为「已删除/不实现」 |
+| 已实现（xlsx） | **~197** | Snap `_13` + Assert `_01`（含双轨 1） |
+| 无法实现（xlsx） | **108** | 删除 93 + 手表/表冠 11 + hidumper/多UEA/NDK 提供方 4 |
 | Assert 现网 Suite | **~111** | 真组件或弱增强 |
-| Snap 现网 Suite | **~77** | 组件视觉截图 |
+| Snap 现网 Suite | **~89** | 组件视觉截图 + TextPicker 手势 |
 
 ## 3. 删除类（明确写不了）
 
@@ -47,17 +49,24 @@
 
 设备抽样（去假后，`192.168.12.136:8710`）：UEC / Plugin / XComponent / TextClock / Shape 等 **5/5 Pass**；Assert 全量 List 未宣称全绿。
 
-## 5. 仍未落盘的 25 条（xlsx 非 `SUB_*`）
+## 5. 仍无法实现（xlsx 已写清原因，禁止用「非 SUB」搪塞）
 
-手表表冠 `TestCase_<uuid>`、`A11yTestLevel023`、`UIExtensionTestLevel09` 等：编号非 `SUB_*`，且强依赖手表/表冠/多指，**设计上不进本样本仓**。
+| 类 | 条数 | 真实原因 |
+|----|------|----------|
+| 手表/表冠 | 11 | 无手表形态与 digitalCrown |
+| hidumper A11y dump | 1 | `AccessibilityTestLevel023` 依赖 WMS `-element -c` 沙箱 dump |
+| 多 UEA 提供方 | 1 | `UIExtensionTestLevel09` 需 provider3/4/5 套件 |
+| Embedded NDK | 2 | 需 `EmbeddedComponentNDK-*.hap` 真提供方；Assert 里旧假 pending **不算覆盖** |
+
+Picker 手势 `TestCase_<uuid>`（12）已补入 `uiCompareTest_13`。
 
 ## 6. 文档与脚本
 
 - 进度：`docs/0803_impl_progress.md`
-- 分流表：`docs/0803_{snap,assert,manual}_cases.md`（删除项已标注）
+- 分流表：`docs/0803_{snap,assert,manual}_cases.md`
 - 工具：`tools/purge_fake_markers_and_realize.py`
 
 ## 7. 与「305 全覆盖」的关系
 
 本仓目标是 **可维护、可编签、可设备验证的真实用例**，不是用假 expect 把 305 行全部刷绿。  
-写不了的已删除；能弱增强的已增强；真组件路径优先。剩余缺口以 xlsx 未编号行 + 已删除清单为准，不在 Assert 里留占位假用例。
+xlsx **G/H 必须可视**：已实现写工程；其余写**环境/依赖**原因。

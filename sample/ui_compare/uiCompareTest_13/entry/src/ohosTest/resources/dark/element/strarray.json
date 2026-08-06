@@ -1,0 +1,27 @@
+{
+  "strarray": [
+    {
+      "name": "text_picker_gesture_range",
+      "value": [
+        {
+          "value": "选项1"
+        },
+        {
+          "value": "选项2"
+        },
+        {
+          "value": "选项3"
+        },
+        {
+          "value": "选项4"
+        },
+        {
+          "value": "选项5"
+        },
+        {
+          "value": "选项6"
+        }
+      ]
+    }
+  ]
+}

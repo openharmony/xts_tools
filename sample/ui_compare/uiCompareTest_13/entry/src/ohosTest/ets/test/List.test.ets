@@ -141,6 +141,18 @@ import UiComponentMediaImageInteraction0060 from './UiComponentMediaImageInterac
 import UiComponentMediaImageInteraction0020 from './UiComponentMediaImageInteractionTest/UiComponentMediaImageInteraction0020.test'
 
 import UiComponent0803Remaining0087 from './UiComponent0803RemainingTest/UiComponent0803Remaining0087.test'
+import UiComponentTextPickerGesture5f25 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture5f25.test'
+import UiComponentTextPickerGesturebac8 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesturebac8.test'
+import UiComponentTextPickerGesture07f0 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture07f0.test'
+import UiComponentTextPickerGesture17c8 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture17c8.test'
+import UiComponentTextPickerGestured0cf from './UiComponentTextPickerGestureTest/UiComponentTextPickerGestured0cf.test'
+import UiComponentTextPickerGesture47f5 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture47f5.test'
+import UiComponentTextPickerGesture22fa from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture22fa.test'
+import UiComponentTextPickerGesture4b69 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture4b69.test'
+import UiComponentTextPickerGesture3432 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture3432.test'
+import UiComponentTextPickerGesture6798 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture6798.test'
+import UiComponentTextPickerGesture1ea6 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture1ea6.test'
+import UiComponentTextPickerGesture45a8 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture45a8.test'
 
 export default function testsuite() {
   UiComponent0803Remaining0087()
@@ -220,4 +232,17 @@ export default function testsuite() {
   UiComponentMediaProgressAnimateto0010()
   UiComponentMediaProgressAnimateto0011()
   UiComponentMediaProgressEvent0027()
+  UiComponentTextPickerGesture5f25()
+  UiComponentTextPickerGesturebac8()
+  UiComponentTextPickerGesture07f0()
+  UiComponentTextPickerGesture17c8()
+  UiComponentTextPickerGestured0cf()
+  UiComponentTextPickerGesture47f5()
+  UiComponentTextPickerGesture22fa()
+  UiComponentTextPickerGesture4b69()
+  UiComponentTextPickerGesture3432()
+  UiComponentTextPickerGesture6798()
+  UiComponentTextPickerGesture1ea6()
+  UiComponentTextPickerGesture45a8()
+
 }
