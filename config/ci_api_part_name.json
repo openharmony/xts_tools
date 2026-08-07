@@ -3280,7 +3280,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.web.WebNativeMessagingExtensionAbility.d.ts",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.web.WebNativeMessagingExtensionAbility.static.d.ets",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.web.WebNativeMessagingExtensionAbility.static.d.ets",
             "bundle_name": [
                 "webview"
             ],
@@ -3294,7 +3308,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.web.WebNativeMessagingExtensionContext.d.ts",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.web.WebNativeMessagingExtensionContext.static.d.ets",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.web.WebNativeMessagingExtensionContext.static.d.ets",
             "bundle_name": [
                 "webview"
             ],
@@ -3308,7 +3336,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.web.webNativeMessagingExtensionManager.d.ts",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.web.webNativeMessagingExtensionManager.static.d.ets",
+            "bundle_name": [
+                "webview"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.web.webNativeMessagingExtensionManager.static.d.ets",
             "bundle_name": [
                 "webview"
             ],
@@ -11526,6 +11568,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/rich_text.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/text_timer.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -18142,6 +18191,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/richText.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/richText.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
