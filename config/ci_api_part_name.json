@@ -20694,6 +20694,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/hiviewdfx/hilog",
+            "bundle_name": [
+                "hilog"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/hiviewdfx/hitrace",
             "bundle_name": [
                 "hitrace"
