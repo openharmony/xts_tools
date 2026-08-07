@@ -20673,6 +20673,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/hiviewdfx/hicollie",
+            "bundle_name": [
+                "hicollie"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/hiviewdfx/hidebug",
             "bundle_name": [
                 "hiprofiler"
