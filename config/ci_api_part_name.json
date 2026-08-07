@@ -5478,7 +5478,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.PrintExtensionAbility.d.ts",
+            "bundle_name": [
+                "print_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/application/PrintExtensionContext.d.ts",
+            "bundle_name": [
+                "print_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/PrintExtensionContext.d.ts",
             "bundle_name": [
                 "print_fwk"
             ],
