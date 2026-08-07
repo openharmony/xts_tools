@@ -13,6 +13,7 @@
                 "sdk"
             ],
             "build_targets": {}
+            
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.components.ContainerReader.d.ts",
