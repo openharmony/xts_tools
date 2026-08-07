@@ -13,7 +13,6 @@
                 "sdk"
             ],
             "build_targets": {}
-            
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.components.ContainerReader.d.ts",
@@ -1700,6 +1699,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.telephony.sms.d.ts",
+            "bundle_name": [
+                "sms_mms"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.telephony.sms.d.ts",
             "bundle_name": [
                 "sms_mms"
             ],
@@ -4443,6 +4449,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.telephony.observer.d.ts",
+            "bundle_name": [
+                "state_registry"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.MediaControlExtensionAbility.d.ts",
             "bundle_name": [
                 "av_session"
@@ -5998,6 +6011,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.telephony.call.d.ts",
+            "bundle_name": [
+                "call_manager"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.telephony.call.d.ts",
             "bundle_name": [
                 "call_manager"
             ],
