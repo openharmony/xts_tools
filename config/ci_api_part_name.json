@@ -2433,6 +2433,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.telephony.data.d.ts",
+            "bundle_name": [
+                "cellular_data"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.enterprise.usbManager.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
@@ -21045,6 +21052,13 @@
         },
         {
             "path": "interface/sdk_c/telephony/cellular_data",
+            "bundle_name": [
+                "cellular_data"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/telephony/cellular_data",
             "bundle_name": [
                 "cellular_data"
             ],
