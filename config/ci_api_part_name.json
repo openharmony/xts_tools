@@ -7529,6 +7529,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.geoLocationManager.d.ts",
+            "bundle_name": [
+                "location"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.keyCode.d.ts",
             "bundle_name": [
                 "input"
