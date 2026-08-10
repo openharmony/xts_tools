@@ -19537,6 +19537,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/filemanagement/archive",
+            "bundle_name": [
+                "file_api"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/filemanagement/swapfs",
             "bundle_name": [
                 "file_api"
