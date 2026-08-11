@@ -8474,7 +8474,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.stationary.d.ts",
+            "bundle_name": [
+                "device_status"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalAwareness.motion.d.ts",
+            "bundle_name": [
+                "device_status"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalAwareness.motion.d.ts",
             "bundle_name": [
                 "device_status"
             ],
@@ -8488,7 +8502,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalAwareness.deviceStatus.d.ts",
+            "bundle_name": [
+                "device_status"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalAwareness.metadataBinding.d.ts",
+            "bundle_name": [
+                "device_status"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalAwareness.metadataBinding.d.ts",
             "bundle_name": [
                 "device_status"
             ],
@@ -8502,6 +8530,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalAwareness.userStatus.d.ts",
+            "bundle_name": [
+                "device_status"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalAwareness.onScreen.d.ts",
             "bundle_name": [
                 "device_status"
@@ -8509,7 +8544,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalAwareness.onScreen.d.ts",
+            "bundle_name": [
+                "device_status"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalAwareness.spatialAwareness.d.ts",
+            "bundle_name": [
+                "device_status"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimodalAwareness.spatialAwareness.d.ts",
             "bundle_name": [
                 "device_status"
             ],
