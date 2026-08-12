@@ -19,6 +19,8 @@ import os
 import sys
 import hashlib
 import json5
+from pathlib import Path
+from bump_compile_sdk_version import get_sdk_api_full_version
 
 
 class HvigorChecker:
@@ -57,16 +59,6 @@ class HvigorChecker:
             except Exception:
                 print(f'Error processing config file: {json_file}')
                 raise
-
-    def get_api_full_version(self):
-        root_dir = os.path.realpath(os.path.join(self._xts_root_dir, "../../.."))
-        api_full_version = ''
-        with open(os.path.join(root_dir, "build/version.gni"), "r") as f:
-            for line in f:
-                if 'api_full_version' in line:
-                    api_full_version = line.split('=')[1].strip().replace('"', '')
-                    break
-        return api_full_version
 
     def output_unmatched_project(self, prject_list, filename):
         print("")
@@ -107,7 +99,7 @@ class HvigorChecker:
         return True
 
     def check_compileSdkVersion(self, hvigor_prj_list):
-        api_full_version = self.get_api_full_version()
+        api_full_version = get_sdk_api_full_version()
         unmatch_prj_list = []
         for dir in hvigor_prj_list:
             filename = os.path.join(dir, 'build-profile.json5')
@@ -164,13 +156,15 @@ class HvigorChecker:
 
 
 def main():
-    suite_name = ""
-    if 'XTS_SUITENAME' in os.environ:
-        suite_name = os.environ.get('XTS_SUITENAME')
-    elif 'xts_suitename' in os.environ:
-        suite_name = os.environ.get('xts_suitename')
-    else:
-        suite_name = sys.argv[1]
+    if len(sys.argv) < 2:
+        print("Usage: check_hvigor.py <xts_suite_dir>")
+        return 1
+
+    suite_name = (
+        os.environ.get('XTS_SUITENAME') or
+        os.environ.get('xts_suitename') or
+        Path(sys.argv[1]).name
+    )
 
     obj = HvigorChecker(suite_name)
 

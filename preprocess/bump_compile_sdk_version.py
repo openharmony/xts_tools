@@ -27,27 +27,27 @@ from concurrent.futures import ProcessPoolExecutor
 PATTERN = re.compile(r'(([\'"])compileSdkVersion\2)\s*:[^,]*(.*)$', re.MULTILINE)
 CODE_ROOT = Path(__file__).resolve().parents[4]
 CHANGE_INFO_FILE = CODE_ROOT / "change_info.json"
-NON_TC_REPOS = {'tools', 'device_attest', 'device_attest_lite'}
+TC_REPOS = {'acts', 'dcts', 'hits', 'acts_devices'}
 
 
-def get_local_api_version() -> str | None:
+def get_local_api_full_version() -> str:
     """Reads api_full_version from test/xts/tools/config/config.json."""
     config_file = CODE_ROOT / "test/xts/tools/config/config.json"
     if not config_file.exists():
-        return None
+        return ''
     try:
         data = json.loads(config_file.read_text(encoding='utf-8'))
-        return data.get("api_full_version")
+        return data.get("api_full_version") or ''
     except Exception as e:
         print(f"warning: Failed to read config.json: {e}")
-        return None
+        return ''
 
 
-def get_sdk_api_version() -> str | None:
+def get_sdk_api_full_version() -> str:
     """Reads api_full_version from build/version.gni."""
     version_gni = CODE_ROOT / "build/version.gni"
     if not version_gni.exists():
-        return None
+        return ''
     try:
         content = version_gni.read_text(encoding='utf-8')
         match = re.search(r'api_full_version\s*=\s*"([^"]+)"', content)
@@ -55,13 +55,12 @@ def get_sdk_api_version() -> str | None:
             return match.group(1)
     except Exception as e:
         print(f"warning: Failed to read version.gni: {e}")
-    return None
+    return ''
 
 
 def is_tc_only_commit(change_info_file: str | Path = CHANGE_INFO_FILE) -> bool:
     """
-    Checks if the commit contains changes restricted strictly to test-case repos under test/xts/
-    (excluding non-testcase repos: tools, device_attest, device_attest_lite).
+    Checks if the commit contains changes restricted strictly to test-case repos under test/xts/.
     """
     change_path = Path(change_info_file)
     if not change_path.exists():
@@ -75,7 +74,7 @@ def is_tc_only_commit(change_info_file: str | Path = CHANGE_INFO_FILE) -> bool:
             is_tc_repo = (
                 p.parts[:2] == ('test', 'xts') and
                 len(p.parts) >= 3 and
-                p.parts[2] not in NON_TC_REPOS
+                p.parts[2] in TC_REPOS
             )
             if not is_tc_repo:
                 return False
@@ -85,19 +84,19 @@ def is_tc_only_commit(change_info_file: str | Path = CHANGE_INFO_FILE) -> bool:
         return False
 
 
-def should_bump_compile_sdk_version(change_info_file: str | Path = CHANGE_INFO_FILE) -> tuple[bool, str | None, str | None]:
+def should_bump_compile_sdk_version(change_info_file: str | Path = CHANGE_INFO_FILE) -> tuple[bool, str, str]:
     """
-    Checks if compileSdkVersion should be bumped and static version checks skipped (NTCOC / Full Build during API update).
+    Checks if compileSdkVersion should be bumped.
 
     Returns:
-        tuple[bool, str | None, str | None]: (should_bump, local_ver, sdk_ver)
+        tuple[bool, str, str]: (should_bump, local_ver, sdk_ver)
             should_bump: True if local_ver != sdk_ver AND commit is NOT a TCOC.
                          False if local_ver == sdk_ver OR commit is a TCOC.
             local_ver: local config api_full_version from config.json
             sdk_ver: build/version.gni api_full_version
     """
-    local_ver = get_local_api_version()
-    sdk_ver = get_sdk_api_version()
+    local_ver = get_local_api_full_version()
+    sdk_ver = get_sdk_api_full_version()
     if not local_ver or not sdk_ver or local_ver == sdk_ver:
         return False, local_ver, sdk_ver
     should_bump = not is_tc_only_commit(change_info_file)
@@ -126,7 +125,7 @@ def process_file(config_file_path: str, target_version: str) -> tuple[int, bool]
         return 1, False     # Error, unmodified
 
 
-def bump_compile_sdk_version(xts_suite_dir: str | Path, target_version: str) -> int:
+def bump_compile_sdk_version(xts_suite_dir: str | Path) -> int:
     """
     Batch updates compileSdkVersion in all build-profile.json5 files under xts_suite_dir.
 
@@ -135,6 +134,15 @@ def bump_compile_sdk_version(xts_suite_dir: str | Path, target_version: str) -> 
     """
     suite_path = Path(xts_suite_dir)
     if not suite_path.exists():
+        print(f"[XTS PREPROCESS] No such xts suite: {suite_path}")
+        return 0
+
+    should_bump, local_ver, sdk_ver = should_bump_compile_sdk_version()
+    if not should_bump:
+        if local_ver and sdk_ver and local_ver != sdk_ver:
+            print(f"[XTS PREPROCESS] API update wip ('{local_ver}' -> '{sdk_ver}'). Commit is TCOC. Skipping preprocess.")
+        else:
+            print(f"[XTS PREPROCESS] API update completed ('{local_ver}' -> '{sdk_ver}'). Skipping preprocess.")
         return 0
 
     json5_files = list(set(str(p.resolve()) for p in suite_path.rglob("build-profile.json5")))
@@ -143,26 +151,37 @@ def bump_compile_sdk_version(xts_suite_dir: str | Path, target_version: str) -> 
     if total_files == 0:
         return 0
 
+    print(f"[XTS PREPROCESS] API update wip ('{local_ver}' -> '{sdk_ver}'). Commit is NTCOC/Full Build. Running preprocess on {suite_path}...")
+
     workers = min(os.cpu_count() or 4, total_files)
     chunksize = max(1, total_files // (workers * 4))
+    worker_fn = partial(process_file, target_version=sdk_ver)
 
-    worker_fn = partial(process_file, target_version=target_version)
-
+    updated_count, error_count = 0, 0
     with ProcessPoolExecutor(max_workers=workers) as executor:
         results = list(executor.map(worker_fn, json5_files, chunksize=chunksize))
-        updated_count = sum(1 for rc, was_modified in results if rc == 0 and was_modified)
-        error_count = sum(1 for rc, _ in results if rc != 0)
+        for rc, modified in results:
+            if rc == 0:
+                if modified:
+                    updated_count += 1
+            else:
+                error_count += 1
 
     if error_count > 0:
-        print(f"[XTS PREPROCESS] Preprocessed {updated_count}/{total_files} build-profile.json5 files under '{suite_path}' -> compileSdkVersion: {target_version} ({error_count} errors)")
+        print(f"[XTS PREPROCESS] Preprocessed {updated_count}/{total_files} build-profile.json5 files under {suite_path} -> compileSdkVersion: '{sdk_ver}' ({error_count} errors)")
     else:
-        print(f"[XTS PREPROCESS] Preprocessed {updated_count}/{total_files} build-profile.json5 files under '{suite_path}' -> compileSdkVersion: {target_version}")
+        print(f"[XTS PREPROCESS] Preprocessed {updated_count}/{total_files} build-profile.json5 files under {suite_path} -> compileSdkVersion: '{sdk_ver}'")
 
     return updated_count
 
 
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python3 bump_compile_sdk_version.py <xts_suite_dir>")
+        return 1
+    bump_compile_sdk_version(sys.argv[1])
+    return 0
+
+
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Usage: python3 bump_compile_sdk_version.py <xts_suite_dir> <target_version>")
-        sys.exit(1)
-    bump_compile_sdk_version(sys.argv[1], sys.argv[2])
+    sys.exit(main())
