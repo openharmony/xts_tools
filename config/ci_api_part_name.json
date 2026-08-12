@@ -19257,6 +19257,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/ark_runtime/jsvm",
+            "bundle_name": [
+                "napi"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/arkui/ace_engine/native",
             "bundle_name": [
                 "ace_engine"
