@@ -15,29 +15,11 @@
 # limitations under the License.
 #
 
-from __future__ import annotations
 import os
 import sys
 import json
 from utils import ChangeFileEntity, XTSTargetUtils, PathUtils, CODEBASE
 from ci_manager import ComponentManager, XTSManager, WhitelistManager, GetInterfaceData
-from bump_compile_sdk_version import (
-    bump_compile_sdk_version,
-    should_bump_compile_sdk_version
-)
-
-
-def check_and_preprocess_api_version(xts_root_dir, change_info_file):
-    should_bump, local_ver, sdk_ver = should_bump_compile_sdk_version(change_info_file)
-    if not should_bump:
-        if local_ver and sdk_ver and local_ver != sdk_ver:
-            print(f"[XTS PREPROCESS] API update wip ({local_ver} -> {sdk_ver}). Commit is TCOC. Skipping preprocess.")
-        elif sdk_ver:
-            print(f"[XTS PREPROCESS] API update completed ({sdk_ver}). Skipping preprocess.")
-        return
-
-    print(f"[XTS PREPROCESS] API update wip ({local_ver} -> {sdk_ver}). Commit is NTCOC/Full Build. Running preprocess on {xts_root_dir}...")
-    bump_compile_sdk_version(xts_root_dir, sdk_ver)
 
 
 class AccurateTarget:
@@ -132,8 +114,6 @@ class AccurateTarget:
 
 def generate(xts_root_dir, change_info_file, build_target, suite_type, device_type = "phone"):
     print("{}:{}: build_target={}".format(__file__, sys._getframe().f_lineno, build_target))
-    check_and_preprocess_api_version(xts_root_dir, change_info_file)
-
     if not os.path.exists(change_info_file):
         print("warning: {} not exist".format(change_info_file))
         return 0, build_target

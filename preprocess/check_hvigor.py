@@ -19,12 +19,6 @@ import os
 import sys
 import hashlib
 import json5
-from pathlib import Path
-
-ci_tools_dir = str((Path(__file__).resolve().parent.parent / "ci").resolve())
-if ci_tools_dir not in sys.path:
-    sys.path.append(ci_tools_dir)
-from bump_compile_sdk_version import should_bump_compile_sdk_version
 
 
 class HvigorChecker:
@@ -113,10 +107,6 @@ class HvigorChecker:
         return True
 
     def check_compileSdkVersion(self, hvigor_prj_list):
-        should_bump, _, _ = should_bump_compile_sdk_version()
-        if should_bump:
-            print("[XTS PRECOMPILE] API update in progress. Skipping checking compileSdkVersion.")
-            return True
         api_full_version = self.get_api_full_version()
         unmatch_prj_list = []
         for dir in hvigor_prj_list:
