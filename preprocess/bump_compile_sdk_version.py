@@ -72,8 +72,8 @@ def is_tc_only_commit(change_info_file: str | Path = CHANGE_INFO_FILE) -> bool:
         for repo_path in data:
             p = PurePath(repo_path)
             is_tc_repo = (
-                p.parts[:2] == ('test', 'xts') and
                 len(p.parts) >= 3 and
+                p.parts[:2] == ('test', 'xts') and
                 p.parts[2] in TC_REPOS
             )
             if not is_tc_repo:
