@@ -21,56 +21,23 @@ import sys
 import json
 from utils import ChangeFileEntity, XTSTargetUtils, PathUtils, CODEBASE
 from ci_manager import ComponentManager, XTSManager, WhitelistManager, GetInterfaceData
-from pathlib import Path, PurePath
-from update_compile_sdk_version import (
-    update_compile_sdk_version,
-    get_local_api_version,
-    get_sdk_api_version
+from bump_compile_sdk_version import (
+    bump_compile_sdk_version,
+    should_bump_compile_sdk_version
 )
 
 
-def is_tc_only_commit(change_info_file: str | Path) -> bool:
-    change_path = Path(change_info_file)
-    if not change_path.exists():
-        return False
-    try:
-        data = json.loads(change_path.read_text(encoding='utf-8'))
-        if not data:
-            return False
-        for repo_path in data:
-            p = PurePath(repo_path)
-            is_tc_repo = (
-                p.parts[:2] == ('test', 'xts') and (len(p.parts) == 3 and p.parts[2] != 'tools')
-            )
-            if not is_tc_repo:
-                return False
-        return True
-    except Exception as e:
-        print(f"warning: Failed to parse change_info_file for commit type: {e}")
-        return False
-
-
-def check_and_preprocess_api_version(code_root_dir, xts_root_dir, change_info_file):
-    local_version = get_local_api_version(code_root_dir)
-    sdk_version = get_sdk_api_version(code_root_dir)
-
-    if not local_version or not sdk_version:
+def check_and_preprocess_api_version(xts_root_dir, change_info_file):
+    should_bump, local_ver, sdk_ver = should_bump_compile_sdk_version(change_info_file)
+    if not should_bump:
+        if local_ver and sdk_ver and local_ver != sdk_ver:
+            print(f"[XTS PREPROCESS] API update wip ({local_ver} -> {sdk_ver}). Commit is TCOC. Skipping preprocess.")
+        elif sdk_ver:
+            print(f"[XTS PREPROCESS] API update completed ({sdk_ver}). Skipping preprocess.")
         return
 
-    if local_version != sdk_version:
-        if not Path(change_info_file).exists():
-            print(f"[XTS PREPROCESS] API update wip ({local_version} -> {sdk_version}). {change_info_file} does not exist (Full Build). Running preprocess on {xts_root_dir}...")
-            update_compile_sdk_version(xts_root_dir, sdk_version)
-            return
-
-        tcoc = is_tc_only_commit(change_info_file)
-        if not tcoc:
-            print(f"[XTS PREPROCESS] API update wip ({local_version} -> {sdk_version}). Commit is NTCOC. Running preprocess on {xts_root_dir}...")
-            update_compile_sdk_version(xts_root_dir, sdk_version)
-        else:
-            print(f"[XTS PREPROCESS] API update wip ({local_version} -> {sdk_version}). Commit is TCOC. Skipping preprocess.")
-    else:
-        print(f"[XTS PREPROCESS] API update completed ({sdk_version}). Skipping preprocess.")
+    print(f"[XTS PREPROCESS] API update wip ({local_ver} -> {sdk_ver}). Commit is NTCOC/Full Build. Running preprocess on {xts_root_dir}...")
+    bump_compile_sdk_version(xts_root_dir, sdk_ver)
 
 
 class AccurateTarget:
@@ -165,6 +132,8 @@ class AccurateTarget:
 
 def generate(xts_root_dir, change_info_file, build_target, suite_type, device_type = "phone"):
     print("{}:{}: build_target={}".format(__file__, sys._getframe().f_lineno, build_target))
+    check_and_preprocess_api_version(xts_root_dir, change_info_file)
+
     if not os.path.exists(change_info_file):
         print("warning: {} not exist".format(change_info_file))
         return 0, build_target
