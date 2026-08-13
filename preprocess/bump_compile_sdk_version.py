@@ -27,7 +27,7 @@ from concurrent.futures import ProcessPoolExecutor
 PATTERN = re.compile(r'(([\'"])compileSdkVersion\2)\s*:[^,]*(.*)$', re.MULTILINE)
 CODE_ROOT = Path(__file__).resolve().parents[4]
 CHANGE_INFO_FILE = CODE_ROOT / "change_info.json"
-TC_REPOS = {'acts', 'dcts', 'hits', 'acts_devices'}
+TC_REPOS = {'acts', 'dcts', 'hats', 'hits', 'acts_devices'}
 
 
 def get_local_api_full_version() -> str:
