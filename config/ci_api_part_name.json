@@ -1376,6 +1376,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.photoAccessHelper.d.ts",
+            "bundle_name": [
+                "media_library"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.MovingPhotoView.static.d.ets",
             "bundle_name": [
                 "media_library"
@@ -7047,6 +7054,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.file.sendablePhotoAccessHelper.d.ets",
+            "bundle_name": [
+                "media_library"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.file.sendablePhotoAccessHelper.d.ets",
             "bundle_name": [
                 "media_library"
             ],
@@ -19890,6 +19904,13 @@
         },
         {
             "path": "interface/sdk_c/multimedia/media_library",
+            "bundle_name": [
+                "media_library"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/media_library",
             "bundle_name": [
                 "media_library"
             ],
