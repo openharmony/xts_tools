@@ -2202,6 +2202,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.rpc.d.ts",
+            "bundle_name": [
+                "ipc"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.shortKey.d.ts",
             "bundle_name": [
                 "input"
@@ -6571,6 +6578,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.pasteboard.d.ts",
+            "bundle_name": [
+                "pasteboard"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.pasteboard.d.ts",
             "bundle_name": [
                 "pasteboard"
             ],
@@ -15720,6 +15734,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/kits/@kit.IPCKit.d.ts",
+            "bundle_name": [
+                "ipc"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/kits/@kit.AbilityKit.d.ts",
             "bundle_name": [
                 "ability_runtime",
@@ -19226,7 +19247,8 @@
                 "common_event_service",
                 "time_service",
                 "print_fwk",
-                "battery_manager"
+                "battery_manager",
+                "pasteboard"
             ],
             "build_targets": {}
         },
@@ -19237,7 +19259,8 @@
                 "common_event_service",
                 "time_service",
                 "print_fwk",
-                "battery_manager"
+                "battery_manager",
+                "pasteboard"
             ],
             "build_targets": {}
         },
@@ -19293,6 +19316,13 @@
         },
         {
             "path": "interface/sdk_c/IPCKit",
+            "bundle_name": [
+                "ipc"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/IPCKit",
             "bundle_name": [
                 "ipc"
             ],
@@ -19440,6 +19470,13 @@
         },
         {
             "path": "interface/sdk_c/distributeddatamgr/pasteboard",
+            "bundle_name": [
+                "pasteboard"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/distributeddatamgr/pasteboard",
             "bundle_name": [
                 "pasteboard"
             ],
