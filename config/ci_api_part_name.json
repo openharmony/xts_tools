@@ -4582,6 +4582,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.drm.d.ts",
+            "bundle_name": [
+                "drm_framework"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.PhotoEditorExtensionAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -20877,6 +20884,13 @@
         },
         {
             "path": "interface/sdk_c/multimedia/drm_framework",
+            "bundle_name": [
+                "drm_framework"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/multimedia/drm_framework",
             "bundle_name": [
                 "drm_framework"
             ],
