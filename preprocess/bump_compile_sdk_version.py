@@ -24,7 +24,7 @@ from pathlib import Path, PurePath
 from functools import partial
 from concurrent.futures import ProcessPoolExecutor
 
-PATTERN = re.compile(r'(([\'"])compileSdkVersion\2)\s*:[^,]*(.*)$', re.MULTILINE)
+PATTERN = re.compile(r'(^\s*([\'"]?)compileSdkVersion\2\s*:\s*([\'"])).*?\3', re.MULTILINE)
 CODE_ROOT = Path(__file__).resolve().parents[4]
 CHANGE_INFO_FILE = CODE_ROOT / "change_info.json"
 TC_REPOS = {'acts', 'dcts', 'hats', 'hits', 'acts_devices'}
@@ -58,52 +58,66 @@ def get_sdk_api_full_version() -> str:
     return ''
 
 
-def is_tc_only_commit(change_info_file: str | Path = CHANGE_INFO_FILE) -> bool:
+def _check_tc_build_profile_changed(tc_repo_data: dict):
     """
-    Checks if the commit contains changes restricted strictly to test-case repos under test/xts/.
+    Checks if build-profile.json5 changed in hvigor test-case project.
+    """
+    change_types = dict(tc_repo_data.get('changed_file_list', {}))
+    changes = list(change_types.get('modified', [])) + list(change_types.get('added', []))
+    for chg in changes:
+        fpath = Path(chg)
+        if fpath.is_file() and \
+            fpath.name == 'build-profile.json5' and \
+            'entry' not in fpath.parts and \
+            PATTERN.search(fpath.read_text()):
+            return True
+    return False
+
+
+def _tc_build_profile_changed(suite_path: Path, change_info_file: str | Path = CHANGE_INFO_FILE) -> bool:
+    """
+    Checks if the commit contains a/m changes to build-profile.json5 under suite_path.
     """
     change_path = Path(change_info_file)
     if not change_path.exists():
         return False
     try:
-        data = json.loads(change_path.read_text(encoding='utf-8'))
+        data = dict(json.loads(change_path.read_text(encoding='utf-8')))
         if not data:
             return False
+        suite_parts = suite_path.parts
         for repo_path in data:
-            p = PurePath(repo_path)
-            is_tc_repo = (
-                len(p.parts) >= 3 and
-                p.parts[:2] == ('test', 'xts') and
-                p.parts[2] in TC_REPOS
-            )
-            if not is_tc_repo:
-                return False
-        return True
+            repo_parts = PurePath(repo_path).parts
+            suite_match = len(suite_parts) >= len(repo_parts) and suite_parts[-len(repo_parts):] == repo_parts
+            if suite_match and _check_tc_build_profile_changed(data.get('repo_path', {})):
+                return True
+        return False
     except Exception as e:
         print(f"warning: Failed to parse change_info_file for commit type: {e}")
         return False
 
 
-def should_bump_compile_sdk_version(change_info_file: str | Path = CHANGE_INFO_FILE) -> tuple[bool, str, str]:
+def should_bump_compile_sdk_version(suite_path: Path, change_info_file: str | Path = CHANGE_INFO_FILE) -> tuple[bool, str, str]:
     """
-    Checks if compileSdkVersion should be bumped.
+    Checks if compileSdkVersion should be bumped for current suite_path.
 
     Returns:
         tuple[bool, str, str]: (should_bump, local_ver, sdk_ver)
-            should_bump: True if local_ver != sdk_ver AND commit is NOT a TCOC.
-                         False if local_ver == sdk_ver OR commit is a TCOC.
-            local_ver: local config api_full_version from config.json
-            sdk_ver: build/version.gni api_full_version
+        should_bump:
+            - True if local_ver != sdk_ver AND commit contains tc project level build-profile.json5.
+            - False if local_ver == sdk_ver OR commit doesn't contain tc project level build-profile.json5.
+        local_ver: local config api_full_version from config.json
+        sdk_ver: build/version.gni api_full_version
     """
     local_ver = get_local_api_full_version()
     sdk_ver = get_sdk_api_full_version()
     if not local_ver or not sdk_ver or local_ver == sdk_ver:
         return False, local_ver, sdk_ver
-    should_bump = not is_tc_only_commit(change_info_file)
+    should_bump = not _tc_build_profile_changed(suite_path, change_info_file)
     return should_bump, local_ver, sdk_ver
 
 
-def process_file(config_file_path: str, target_version: str) -> tuple[int, bool]:
+def _process_file(config_file_path: str, target_version: str) -> tuple[int, bool]:
     """
     Process a single build-profile.json5 file.
 
@@ -115,7 +129,7 @@ def process_file(config_file_path: str, target_version: str) -> tuple[int, bool]
     try:
         file_path = Path(config_file_path)
         content = file_path.read_text(encoding='utf-8')
-        new_content, count = PATTERN.subn(r'\1: "' + target_version + r'"\3', content)
+        new_content, count = PATTERN.subn(rf'\g<1>{target_version}\g<3>', content)
         if count > 0 and new_content != content:
             file_path.write_text(new_content, encoding='utf-8')
             return 0, True  # Success, modified
@@ -137,7 +151,7 @@ def bump_compile_sdk_version(xts_suite_dir: str | Path) -> int:
         print(f"[XTS PREPROCESS] No such xts suite: {suite_path}")
         return 0
 
-    should_bump, local_ver, sdk_ver = should_bump_compile_sdk_version()
+    should_bump, local_ver, sdk_ver = should_bump_compile_sdk_version(suite_path)
     if not should_bump:
         if local_ver and sdk_ver and local_ver != sdk_ver:
             print(f"[XTS PREPROCESS] API update wip ('{local_ver}' -> '{sdk_ver}'). Commit is TCOC. Skipping preprocess.")
@@ -155,7 +169,7 @@ def bump_compile_sdk_version(xts_suite_dir: str | Path) -> int:
 
     workers = min(os.cpu_count() or 4, total_files)
     chunksize = max(1, total_files // (workers * 4))
-    worker_fn = partial(process_file, target_version=sdk_ver)
+    worker_fn = partial(_process_file, target_version=sdk_ver)
 
     updated_count, error_count = 0, 0
     with ProcessPoolExecutor(max_workers=workers) as executor:

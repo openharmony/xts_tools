@@ -32,6 +32,10 @@ def main():
         print("Usage: main.py <xts_suite_dir>")
         return 1
 
+    if os.environ.get('xts_skip_preprocess', False):
+        print("[XTS PREPROCESS] No need to preprocess.")
+        return 0
+
     suite_name = (
         os.environ.get('XTS_SUITENAME') or
         os.environ.get('xts_suitename') or
@@ -40,9 +44,11 @@ def main():
     cwd = Path(__file__).resolve().parent
     xts_suite_dir = cwd / '../..' / suite_name
 
+    print("[XTS PREPROCESS] Bumping compileSdkVersion start.")
     # 1. Bump compileSdkVersion if necessary
     bump_compile_sdk_version(xts_suite_dir)
 
+    print("[XTS PREPROCESS] Hvigor check start.")
     # 2. Run Hvigor checks
     if not run_hvigor_checks(suite_name):
         return 1

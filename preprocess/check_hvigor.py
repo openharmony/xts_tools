@@ -66,24 +66,6 @@ class HvigorChecker:
         for prj in prject_list:
             print(prj[0], prj[1])
 
-    def check_hvigor_wrapper_js(self, hvigor_prj_list):
-        unmatch_info = []
-        baseline_file = os.path.join(self._current_dir, 'hvigor-wrapper.js')
-        baseline_md5 = self.get_file_md5(os.path.join(baseline_file))
-        for dir in hvigor_prj_list:
-            filename = os.path.join(dir, 'hvigor', 'hvigor-wrapper.js')
-            if not os.path.exists(filename):
-                return True
-            md5 = self.get_file_md5(filename)
-            if md5 != baseline_md5:
-                unmatch_info.append((md5, filename))
-
-        if len(unmatch_info):
-            self.output_unmatched_project(unmatch_info, 'hvigor-wrapper.js')
-            print('Please copy from {}'.format(baseline_file))
-            return False
-        return True
-
     def check_hvigor_version(self, hvigor_prj_list):
         unmatch_prj_list = []
         for dir in hvigor_prj_list:
@@ -113,24 +95,6 @@ class HvigorChecker:
             return False
         return True
 
-    def check_hvigorw_bat(self, hvigor_prj_list):
-        unmatch_info = []
-        baseline_file = os.path.join(self._current_dir, 'hvigorw.bat')
-        baseline_md5 = self.get_file_md5(os.path.join(baseline_file))
-        for dir in hvigor_prj_list:
-            filename = os.path.join(dir, 'hvigorw.bat')
-            if not os.path.exists(filename):
-                return True
-            md5 = self.get_file_md5(filename)
-            if md5 != baseline_md5:
-                unmatch_info.append((md5, filename))
-
-        if len(unmatch_info):
-            self.output_unmatched_project(unmatch_info, 'hvigorw.bat')
-            print('Please copy from {}'.format(baseline_file))
-            return False
-        return True
-
     def get_hvigor_prject_list(self):
         hvigor_prj_list = []
         for root, dirs, files in os.walk(self._xts_root_dir):
@@ -144,10 +108,8 @@ class HvigorChecker:
     def check_hvigor(self):
         hvigor_prj_list = self.get_hvigor_prject_list()
         check_func_list = [
-            self.check_hvigor_wrapper_js,
             self.check_hvigor_version,
-            self.check_hvigorw_bat,
-            self.check_compileSdkVersion
+            self.check_compileSdkVersion,
         ]
         isValid = True
         for check_func in check_func_list:
