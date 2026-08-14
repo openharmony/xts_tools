@@ -119,7 +119,7 @@ class HvigorChecker:
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: check_hvigor.py <xts_suite_dir>")
+        print("Usage: python3 check_hvigor.py <xts_suite_dir>")
         return 1
 
     suite_name = (

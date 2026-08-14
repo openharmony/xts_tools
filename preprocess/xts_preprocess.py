@@ -29,7 +29,7 @@ def run_hvigor_checks(suite_name: str):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: main.py <xts_suite_dir>")
+        print("Usage: python3 xts_preprocess.py <xts_suite_dir>")
         return 1
 
     if os.environ.get('xts_skip_preprocess', False):

@@ -28,7 +28,7 @@ PATTERN = re.compile(r'(^\s*([\'"]?)compileSdkVersion\2\s*:\s*([\'"])).*?\3', re
 CODE_ROOT = Path(__file__).resolve().parents[4]
 CHANGE_INFO_FILE = CODE_ROOT / "change_info.json"
 TC_REPOS = {'acts', 'dcts', 'hats', 'hits', 'acts_devices'}
-
+print = partial(print, flush=True)
 
 def get_local_api_full_version() -> str:
     """Reads api_full_version from test/xts/tools/config/config.json."""
@@ -39,7 +39,7 @@ def get_local_api_full_version() -> str:
         data = json.loads(config_file.read_text(encoding='utf-8'))
         return data.get("api_full_version") or ''
     except Exception as e:
-        print(f"warning: Failed to read config.json: {e}")
+        print(f"[XTS PREPROCESS] [WARN] Failed to read config.json: {e}")
         return ''
 
 
@@ -54,7 +54,7 @@ def get_sdk_api_full_version() -> str:
         if match:
             return match.group(1)
     except Exception as e:
-        print(f"warning: Failed to read version.gni: {e}")
+        print(f"[XTS PREPROCESS] [WARN] Failed to read version.gni: {e}")
     return ''
 
 
@@ -93,7 +93,7 @@ def _tc_build_profile_changed(suite_path: Path, change_info_file: str | Path = C
                 return True
         return False
     except Exception as e:
-        print(f"warning: Failed to parse change_info_file for commit type: {e}")
+        print(f"[XTS PREPROCESS] [WARN] Failed to parse change_info_file for commit type: {e}")
         return False
 
 
@@ -135,7 +135,7 @@ def _process_file(config_file_path: str, target_version: str) -> tuple[int, bool
             return 0, True  # Success, modified
         return 0, False     # Success, unmodified
     except Exception as e:
-        print(f"[WARN] Failed to process {config_file_path}: {e}")
+        print(f"[XTS PREPROCESS] [WARN] Failed to process {config_file_path}: {e}")
         return 1, False     # Error, unmodified
 
 
@@ -148,13 +148,14 @@ def bump_compile_sdk_version(xts_suite_dir: str | Path) -> int:
     """
     suite_path = Path(xts_suite_dir)
     if not suite_path.exists():
-        print(f"[XTS PREPROCESS] No such xts suite: {suite_path}")
+        print(f"[XTS PREPROCESS] [WARN] No such xts suite: {suite_path}")
         return 0
 
     should_bump, local_ver, sdk_ver = should_bump_compile_sdk_version(suite_path)
     if not should_bump:
         if local_ver and sdk_ver and local_ver != sdk_ver:
-            print(f"[XTS PREPROCESS] API update wip ('{local_ver}' -> '{sdk_ver}'). Commit is TCOC. Skipping preprocess.")
+            print(f"[XTS PREPROCESS] API update wip ('{local_ver}' -> '{sdk_ver}'). "
+                  f"Commit contains hvigor project build-profile.json5. Skipping preprocess.")
         else:
             print(f"[XTS PREPROCESS] API update completed ('{local_ver}' -> '{sdk_ver}'). Skipping preprocess.")
         return 0
@@ -165,7 +166,7 @@ def bump_compile_sdk_version(xts_suite_dir: str | Path) -> int:
     if total_files == 0:
         return 0
 
-    print(f"[XTS PREPROCESS] API update wip ('{local_ver}' -> '{sdk_ver}'). Commit is NTCOC/Full Build. Running preprocess on {suite_path}...")
+    print(f"[XTS PREPROCESS] API update wip ('{local_ver}' -> '{sdk_ver}'). Running preprocess on {suite_path}...")
 
     workers = min(os.cpu_count() or 4, total_files)
     chunksize = max(1, total_files // (workers * 4))
