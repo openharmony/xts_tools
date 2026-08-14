@@ -19464,6 +19464,48 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Array.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/ArrayBuffer.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/ArrayLike.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Chrono.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Comparable.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Set.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/arkts/builtin/dynamic/lib.es5.d.ts",
             "bundle_name": [
                 "typescript"
