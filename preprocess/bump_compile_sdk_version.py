@@ -27,7 +27,6 @@ from concurrent.futures import ProcessPoolExecutor
 PATTERN = re.compile(r'(^\s*([\'"]?)compileSdkVersion\2\s*:\s*([\'"])).*?\3', re.MULTILINE)
 CODE_ROOT = Path(__file__).resolve().parents[4]
 CHANGE_INFO_FILE = CODE_ROOT / "change_info.json"
-TC_REPOS = {'acts', 'dcts', 'hats', 'hits', 'acts_devices'}
 print = partial(print, flush=True)
 
 def get_local_api_full_version() -> str:
@@ -36,8 +35,8 @@ def get_local_api_full_version() -> str:
     if not config_file.exists():
         return ''
     try:
-        data = json.loads(config_file.read_text(encoding='utf-8'))
-        return data.get("api_full_version") or ''
+        data = dict(json.loads(config_file.read_text(encoding='utf-8')))
+        return data.get("api_full_version", '')
     except Exception as e:
         print(f"[XTS PREPROCESS] [WARN] Failed to read config.json: {e}")
         return ''
@@ -58,14 +57,17 @@ def get_sdk_api_full_version() -> str:
     return ''
 
 
-def _check_tc_build_profile_changed(tc_repo_data: dict):
+def _check_tc_build_profile_changed(suite_path: Path, tc_repo_data: dict):
     """
     Checks if build-profile.json5 changed in hvigor test-case project.
     """
     change_types = dict(tc_repo_data.get('changed_file_list', {}))
-    changes = list(change_types.get('modified', [])) + list(change_types.get('added', []))
+    changes = list(change_types.get('added', [])) + \
+              list(change_types.get('rename', [])) + \
+              list(change_types.get('modified', []))
+
     for chg in changes:
-        fpath = Path(chg)
+        fpath = suite_path / str(chg)
         if fpath.is_file() and \
             fpath.name == 'build-profile.json5' and \
             'entry' not in fpath.parts and \
@@ -80,16 +82,19 @@ def _tc_build_profile_changed(suite_path: Path, change_info_file: str | Path = C
     """
     change_path = Path(change_info_file)
     if not change_path.exists():
+        print(f"[XTS PREPROCESS] No such config: change_info.json, consider full build.")
         return False
     try:
         data = dict(json.loads(change_path.read_text(encoding='utf-8')))
         if not data:
+            print(f"[XTS PREPROCESS] [WARN] Empty change_info.json")
             return False
+
         suite_parts = suite_path.parts
-        for repo_path in data:
-            repo_parts = PurePath(repo_path).parts
+        for repo in data:
+            repo_parts = PurePath(repo).parts
             suite_match = len(suite_parts) >= len(repo_parts) and suite_parts[-len(repo_parts):] == repo_parts
-            if suite_match and _check_tc_build_profile_changed(data.get('repo_path', {})):
+            if suite_match and _check_tc_build_profile_changed(suite_path, data.get(repo, {})):
                 return True
         return False
     except Exception as e:
@@ -146,7 +151,7 @@ def bump_compile_sdk_version(xts_suite_dir: str | Path) -> int:
     Returns:
         int: Number of files successfully updated.
     """
-    suite_path = Path(xts_suite_dir)
+    suite_path = Path(xts_suite_dir).resolve()
     if not suite_path.exists():
         print(f"[XTS PREPROCESS] [WARN] No such xts suite: {suite_path}")
         return 0

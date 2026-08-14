@@ -42,7 +42,7 @@ def main():
         Path(sys.argv[1]).name
     )
     cwd = Path(__file__).resolve().parent
-    xts_suite_dir = cwd / '../..' / suite_name
+    xts_suite_dir = (cwd / '../..' / suite_name).resolve()
 
     print("[XTS PREPROCESS] Bumping compileSdkVersion start.")
     # 1. Bump compileSdkVersion if necessary
