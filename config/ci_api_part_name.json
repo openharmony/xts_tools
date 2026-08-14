@@ -2013,6 +2013,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.hyperSnapManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.wantConstant.d.ts",
             "bundle_name": [
                 "ability_base"
@@ -20075,6 +20082,41 @@
         },
         {
             "path": "interface/sdk_c/zh-cn/ability/ability_runtime/child_process/native_child_process.h",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/AbilityKit/ability_runtime/modular_object_dispatcher.h",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/AbilityKit/ability_runtime/modular_object_extension_ability.h",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/AbilityKit/ability_runtime/modular_object_extension_context.h",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/AbilityKit/ability_runtime/modular_object_extension_manager.h",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/AbilityKit/ability_runtime/native_ability_wrapper.h",
             "bundle_name": [
                 "ability_runtime"
             ],
