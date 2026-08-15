@@ -36,6 +36,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.components.ContainerReader.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/LayoutAlgorithm.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -2987,6 +2994,13 @@
         },
         {
             "path": "interface/sdk-js/api/@system.mediaquery.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@system.mediaquery.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -13144,6 +13158,13 @@
         },
         {
             "path": "interface/sdk-js/api/@system.mediaquery.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@system.mediaquery.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
