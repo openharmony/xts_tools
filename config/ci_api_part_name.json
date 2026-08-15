@@ -6822,6 +6822,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.account.osAccount.authorization.d.ts",
+            "bundle_name": [
+                "os_account"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.account.osAccount.authorization.d.ts",
+            "bundle_name": [
+                "os_account"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.account.osAccount.d.ts",
             "bundle_name": [
                 "os_account"
