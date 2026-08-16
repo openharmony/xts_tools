@@ -32,7 +32,7 @@ def main():
         print("Usage: python3 xts_preprocess.py <xts_suite_dir>")
         return 1
 
-    if os.environ.get('xts_skip_preprocess', False):
+    if os.environ.get('xts_skip_preprocess') == 'true':
         print("[XTS PREPROCESS] No need to preprocess.")
         return 0
 
@@ -44,6 +44,7 @@ def main():
     cwd = Path(__file__).resolve().parent
     xts_suite_dir = (cwd / '../..' / suite_name).resolve()
 
+    print(f"[XTS PREPROCESS] suite_name: {suite_name}, xts_suite_dir: {xts_suite_dir}")
     print("[XTS PREPROCESS] Bumping compileSdkVersion start.")
     # 1. Bump compileSdkVersion if necessary
     bump_compile_sdk_version(xts_suite_dir)

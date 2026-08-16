@@ -463,6 +463,10 @@ template("ohos_js_app_suite") {
     forward_variables_from(invoker, "*")
     project_type = "testapp"
     suite_type = "hap_dynamic"
+    if (!defined(deps)) {
+      deps = []
+    }
+    deps += [ "//test/xts/tools/preprocess:xts_preprocess" ]
   }
 }
 
@@ -475,6 +479,10 @@ template("ohos_js_app_assist_static_suite") {
     hvigor_home = "//prebuilts/hvigor/7.26.0.static/hvigor"
     nodejs_path =
         "//prebuilts/build-tools/common/nodejs/node-v18.20.1-linux-x64/bin/node"
+    if (!defined(deps)) {
+      deps = []
+    }
+    deps += [ "//test/xts/tools/preprocess:xts_preprocess" ]
   }
 }
 
@@ -486,6 +494,10 @@ template("ohos_js_app_static_suite") {
     hvigor_home = "//prebuilts/hvigor/7.26.0.static/hvigor"
     nodejs_path =
         "//prebuilts/build-tools/common/nodejs/node-v18.20.1-linux-x64/bin/node"
+    if (!defined(deps)) {
+      deps = []
+    }
+    deps += [ "//test/xts/tools/preprocess:xts_preprocess" ]
   }
 }
 
@@ -669,6 +681,10 @@ template("ohos_app_assist_suite") {
     forward_variables_from(invoker, "*")
     project_type = "testappassist"
     suite_type = "hap_dynamic"
+    if (!defined(deps)) {
+      deps = []
+    }
+    deps += [ "//test/xts/tools/preprocess:xts_preprocess" ]
   }
 }
 

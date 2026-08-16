@@ -27,7 +27,7 @@ from concurrent.futures import ProcessPoolExecutor
 PATTERN = re.compile(r'(^\s*([\'"]?)compileSdkVersion\2\s*:\s*([\'"])).*?\3', re.MULTILINE)
 CODE_ROOT = Path(__file__).resolve().parents[4]
 CHANGE_INFO_FILE = CODE_ROOT / "change_info.json"
-print = partial(print, flush=True)
+
 
 def get_local_api_full_version() -> str:
     """Reads api_full_version from test/xts/tools/config/config.json."""
