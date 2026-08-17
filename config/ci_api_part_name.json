@@ -1096,6 +1096,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.agent.AgentUIExtensionAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.agent.agentConstant.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -4205,6 +4212,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.InsightIntentDecorator.static.d.ets",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.InsightIntentDecorator.static.d.ets",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -8069,6 +8083,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.scriptManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.scriptManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -18400,6 +18421,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.systemConfiguration.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/common/full/webgl.d.ts",
             "bundle_name": [
                 "graphic_2d"
@@ -19185,7 +19213,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/AbilityKit/ability_runtime",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/AbilityKit/ability_base",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/AbilityKit/ability_base",
             "bundle_name": [
                 "ability_runtime"
             ],
