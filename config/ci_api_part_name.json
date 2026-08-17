@@ -3315,6 +3315,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.form.FormExtensionAbility.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.form.FormEditExtensionAbility.d.ts",
             "bundle_name": [
                 "form_fwk"
@@ -3322,7 +3329,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.form.FormEditExtensionAbility.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.form.LiveFormExtensionAbility.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.form.LiveFormExtensionAbility.d.ts",
             "bundle_name": [
                 "form_fwk"
             ],
@@ -3812,6 +3833,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.form.formHost.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.accessibility.GesturePoint.d.ts",
             "bundle_name": [
                 "accessibility"
@@ -3897,6 +3925,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.application.formInfo.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.formInfo.d.ts",
             "bundle_name": [
                 "form_fwk"
             ],
@@ -4170,6 +4205,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.form.formProvider.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.form.formProvider.d.ts",
             "bundle_name": [
                 "form_fwk"
             ],
@@ -4498,6 +4540,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.formBindingData.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.common.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -4513,6 +4562,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.form.formInfo.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.form.formInfo.d.ts",
             "bundle_name": [
                 "form_fwk"
             ],
@@ -4603,6 +4659,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.form.formBindingData.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.request.cacheDownload.d.ts",
             "bundle_name": [
                 "request"
@@ -4687,7 +4750,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.advanced.FormMenu.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.form.formAgent.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.form.formAgent.d.ts",
             "bundle_name": [
                 "form_fwk"
             ],
@@ -6339,6 +6416,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.formProvider.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bundleState.d.ts",
             "bundle_name": [
                 "device_usage_statistics"
@@ -7592,6 +7676,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.form.formObserver.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.wifiManager.d.ts",
             "bundle_name": [
                 "wifi"
@@ -7887,6 +7978,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.application.formHost.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.formHost.d.ts",
             "bundle_name": [
                 "form_fwk"
             ],
@@ -8587,6 +8685,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.application.formError.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.formError.d.ts",
             "bundle_name": [
                 "form_fwk"
             ],
@@ -10308,6 +10413,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/form_component.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/grid.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -11933,6 +12045,13 @@
         },
         {
             "path": "interface/sdk-js/api/@internal/component/ets/form_link.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/form_link.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -16090,6 +16209,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/FormExtensionContext.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/application/FormEditExtensionContext.d.ts",
             "bundle_name": [
                 "form_fwk"
@@ -16097,7 +16223,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/FormEditExtensionContext.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/application/LiveFormExtensionContext.d.ts",
+            "bundle_name": [
+                "form_fwk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/LiveFormExtensionContext.d.ts",
             "bundle_name": [
                 "form_fwk"
             ],
