@@ -17,7 +17,6 @@ limitations under the License.
 
 import os
 import sys
-import hashlib
 import json5
 from pathlib import Path
 from bump_compile_sdk_version import get_sdk_api_full_version
@@ -31,33 +30,28 @@ class HvigorChecker:
     ]
 
     def __init__(self, suite_name):
-        self._current_dir = os.path.dirname(os.path.realpath(__file__))
+        self._current_dir = Path(__file__).resolve().parent
         self._suite_name = suite_name
-        self._xts_root_dir = os.path.realpath(os.path.join(self._current_dir, '../..', suite_name))
+        self._xts_root_dir = (self._current_dir / '../..' / suite_name).resolve()
 
-    def get_file_md5(self, file_path):
-        hash_md5 = hashlib.md5()
-        with open(file_path, "rb") as f:
-            for chunk in iter(lambda: f.read(4096), b""):
-                hash_md5.update(chunk)
-        return hash_md5.hexdigest()
-
-    def get_hvigor_version(self, json_file):
-        with open(json_file, 'r') as f:
-            data = json5.load(f)
-            version = data.get('hvigorVersion')
-            if version:
-                return version
-            return data.get('modelVersion')
-
-    def get_compileSdkVersion(self, json_file):
-        with open(json_file, 'r') as f:
+    def get_hvigor_version(self, conf_file: Path):
+        with conf_file.open('r', encoding='utf-8') as f:
             try:
                 data = json5.load(f)
-                apiversion = data.get('app').get('products')[0].get('compileSdkVersion')
-                return str(apiversion)
+                version = data.get('hvigorVersion')
+                return version if version else data.get('modelVersion')
             except Exception:
-                print(f'Error processing config file: {json_file}')
+                print(f'Error processing config file: {conf_file}')
+                raise
+
+    def get_compile_sdk_version(self, conf_file: Path):
+        with conf_file.open('r', encoding='utf-8') as f:
+            try:
+                data = json5.load(f)
+                version = data.get('app').get('products')[0].get('compileSdkVersion')
+                return str(version)
+            except Exception:
+                print(f'Error processing config file: {conf_file}')
                 raise
 
     def output_unmatched_project(self, prject_list, filename):
@@ -66,11 +60,11 @@ class HvigorChecker:
         for prj in prject_list:
             print(prj[0], prj[1])
 
-    def check_hvigor_version(self, hvigor_prj_list):
+    def check_hvigor_version(self, hvigor_prj_list: list[Path]):
         unmatch_prj_list = []
-        for dir in hvigor_prj_list:
-            filename = os.path.join(dir, 'hvigor', 'hvigor-config.json5')
-            if not os.path.isfile(filename):
+        for prj_dir in hvigor_prj_list:
+            filename = prj_dir / 'hvigor' / 'hvigor-config.json5'
+            if not filename.is_file():
                 continue
             version = self.get_hvigor_version(filename)
             if version not in self.HVIGOR_BASE_VERSION:
@@ -82,16 +76,16 @@ class HvigorChecker:
             return False
         return True
 
-    def check_compileSdkVersion(self, hvigor_prj_list):
+    def check_compile_sdk_version(self, hvigor_prj_list: list[Path]):
         api_full_version = get_sdk_api_full_version()
         unmatch_prj_list = []
-        for dir in hvigor_prj_list:
-            filename = os.path.join(dir, 'build-profile.json5')
-            if not os.path.isfile(filename):
+        for prj_dir in hvigor_prj_list:
+            filename = prj_dir / 'build-profile.json5'
+            if not filename.is_file():
                 continue
-            compileSdkVersion = self.get_compileSdkVersion(filename)
-            if compileSdkVersion != api_full_version:
-                unmatch_prj_list.append((compileSdkVersion, filename))
+            compile_sdk_version = self.get_compile_sdk_version(filename)
+            if compile_sdk_version != api_full_version:
+                unmatch_prj_list.append((compile_sdk_version, filename))
 
         if len(unmatch_prj_list):
             self.output_unmatched_project(unmatch_prj_list, 'build-profile.json5')
@@ -99,21 +93,32 @@ class HvigorChecker:
             return False
         return True
 
-    def get_hvigor_prject_list(self):
+    def get_hvigor_prject_list(self) -> list[Path]:
         hvigor_prj_list = []
-        for root, dirs, files in os.walk(self._xts_root_dir):
-            if '.cxx' in dirs:
-                dirs.remove('.cxx')
-            for dir in dirs:
-                if dir == 'hvigor':
-                    hvigor_prj_list.append(root)
+        target_files = {'build-profile.json5', 'BUILD.gn', 'Test.json'}
+        exclude_dirs = {'.cxx', '.git', 'node_modules', 'oh_modules', 'build', '.hvigor', '.idea', 'dist'}
+
+        root_path = Path(self._xts_root_dir)
+        if not root_path.exists():
+            return hvigor_prj_list
+
+        walker = root_path.walk() if hasattr(root_path, 'walk') else os.walk(root_path)
+
+        for root, dirs, files in walker:
+            current_path = Path(root)
+            if 'hvigor' in dirs and target_files.issubset(files):
+                hvigor_prj_list.append(current_path.resolve())
+                dirs.clear()
+            else:
+                dirs[:] = [d for d in dirs if d not in exclude_dirs]
+
         return hvigor_prj_list
 
     def check_hvigor(self):
         hvigor_prj_list = self.get_hvigor_prject_list()
         check_func_list = [
             self.check_hvigor_version,
-            self.check_compileSdkVersion,
+            self.check_compile_sdk_version,
         ]
         isValid = True
         for check_func in check_func_list:
