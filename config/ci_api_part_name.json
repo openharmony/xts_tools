@@ -1929,6 +1929,34 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.wifi.d.ts",
+            "bundle_name": [
+                "wifi"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.wifiext.d.ts",
+            "bundle_name": [
+                "wifi"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.wifiManager.d.ts",
+            "bundle_name": [
+                "wifi"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.wifiManagerExt.d.ts",
+            "bundle_name": [
+                "wifi"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.hichecker.d.ts",
             "bundle_name": [
                 "hichecker"
