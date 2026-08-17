@@ -70,6 +70,8 @@ class HvigorChecker:
         unmatch_prj_list = []
         for dir in hvigor_prj_list:
             filename = os.path.join(dir, 'hvigor', 'hvigor-config.json5')
+            if not os.path.isfile(filename):
+                continue
             version = self.get_hvigor_version(filename)
             if version not in self.HVIGOR_BASE_VERSION:
                 unmatch_prj_list.append((version, filename))
@@ -85,6 +87,8 @@ class HvigorChecker:
         unmatch_prj_list = []
         for dir in hvigor_prj_list:
             filename = os.path.join(dir, 'build-profile.json5')
+            if not os.path.isfile(filename):
+                continue
             compileSdkVersion = self.get_compileSdkVersion(filename)
             if compileSdkVersion != api_full_version:
                 unmatch_prj_list.append((compileSdkVersion, filename))
