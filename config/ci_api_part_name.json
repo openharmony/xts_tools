@@ -19562,13 +19562,6 @@
             "build_targets": {}
         },
         {
-            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Global.static.d.ets",
-            "bundle_name": [
-                "runtime_core"
-            ],
-            "build_targets": {}
-        },
-        {
             "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Array.static.d.ets",
             "bundle_name": [
                 "runtime_core"
@@ -19590,6 +19583,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Atomics.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Chrono.static.d.ets",
             "bundle_name": [
                 "runtime_core"
@@ -19604,7 +19604,63 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/EAWorker.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Global.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Job.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Message.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/MessageHandler.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Promise.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Set.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/SyncPrimitives.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/WorkerLocal.static.d.ets",
             "bundle_name": [
                 "runtime_core"
             ],
