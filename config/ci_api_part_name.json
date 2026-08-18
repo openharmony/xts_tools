@@ -1320,6 +1320,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.net.socket.d.ts",
+            "bundle_name": [
+                "netstack"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bundle.bundleMonitor.d.ts",
             "bundle_name": [
                 "bundle_framework"
@@ -1628,6 +1635,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.net.mdns.d.ts",
+            "bundle_name": [
+                "netmanager_ext"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.unifiedDataChannel.d.ts",
             "bundle_name": [
                 "udmf"
@@ -1887,6 +1901,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@system.network.d.ts",
+            "bundle_name": [
+                "netmanager_base"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.bundle.defaultAppManager.d.ts",
             "bundle_name": [
                 "bundle_framework"
@@ -2049,6 +2070,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.VpnExtensionAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.VpnExtensionAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -2252,6 +2280,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.net.policy.d.ts",
+            "bundle_name": [
+                "netmanager_base"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.net.policy.d.ts",
             "bundle_name": [
                 "netmanager_base"
             ],
@@ -4365,6 +4400,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.net.ethernet.d.ts",
+            "bundle_name": [
+                "netmanager_ext"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.systemTime.d.ts",
             "bundle_name": [
                 "time_service"
@@ -4688,6 +4730,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.net.vpn.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.net.vpn.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -5212,6 +5261,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.net.statistics.d.ts",
+            "bundle_name": [
+                "netmanager_base"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.power.d.ts",
             "bundle_name": [
                 "power_manager"
@@ -5591,6 +5647,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.net.sharing.d.ts",
+            "bundle_name": [
+                "netmanager_ext"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.net.sharing.d.ts",
             "bundle_name": [
                 "netmanager_ext"
             ],
@@ -6073,6 +6136,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.net.networkSecurity.d.ts",
+            "bundle_name": [
+                "netstack"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.application.BackupExtensionAbility.d.ts",
             "bundle_name": [
                 "app_file_service"
@@ -6277,6 +6347,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.net.connection.d.ts",
+            "bundle_name": [
+                "netstack"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.net.connection.d.ts",
             "bundle_name": [
                 "netstack"
             ],
@@ -6592,6 +6669,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.net.webSocket.d.ts",
+            "bundle_name": [
+                "netstack"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.net.webSocket.d.ts",
             "bundle_name": [
                 "netstack"
             ],
@@ -6963,6 +7047,13 @@
         },
         {
             "path": "interface/sdk-js/api/@system.fetch.d.ts",
+            "bundle_name": [
+                "netstack"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@system.fetch.d.ts",
             "bundle_name": [
                 "netstack"
             ],
@@ -7452,7 +7543,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.net.netFirewall.d.ts",
+            "bundle_name": [
+                "netmanager_ext"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.net.eap.d.ts",
+            "bundle_name": [
+                "netmanager_ext"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.net.eap.d.ts",
             "bundle_name": [
                 "netmanager_ext"
             ],
@@ -7810,6 +7915,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.net.vpnExtension.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.net.vpnExtension.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -8643,6 +8755,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.net.http.d.ts",
+            "bundle_name": [
+                "netstack"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.net.http.d.ts",
             "bundle_name": [
                 "netstack"
             ],
