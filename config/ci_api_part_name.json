@@ -21514,6 +21514,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/multimedia/image_effect",
+            "bundle_name": [
+                "image_effect"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/multimedia/image_framework",
             "bundle_name": [
                 "image_framework"
