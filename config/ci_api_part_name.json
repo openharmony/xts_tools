@@ -1089,6 +1089,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.agent.AgentExtensionAbility.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.agent.AgentUIExtensionAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -1110,7 +1117,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.agent.agentConstant.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.agent.agentManager.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.agent.agentManager.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -1124,7 +1145,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/AgentCard.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/application/AgentExtensionConnectCallback.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AgentExtensionConnectCallback.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -1138,6 +1173,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/AgentExtensionContext.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/application/AgentHostProxy.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -1145,7 +1187,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/AgentHostProxy.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/application/AgentProxy.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/AgentProxy.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -3400,6 +3456,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.businessAbilityRouter.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.businessAbilityRouter.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -15453,6 +15516,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/BusinessAbilityInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/application/ErrorObserver.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -15510,6 +15580,13 @@
         },
         {
             "path": "interface/sdk-js/api/application/InteropAbilityMonitor.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/application/InteropAbilityMonitor.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -19417,6 +19494,27 @@
         },
         {
             "path": "interface/sdk_c/zh-cn/AbilityKit/ability_runtime",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },   
+        {
+            "path": "interface/sdk_c/zh-cn/AbilityKit/ability_runtime/ability_runtime_common.h",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/AbilityKit/ability_runtime/connect_options.h",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/AbilityKit/ability_runtime/start_options.h",
             "bundle_name": [
                 "ability_runtime"
             ],
