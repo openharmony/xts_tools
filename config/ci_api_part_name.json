@@ -19416,6 +19416,13 @@
             "build_targets": {}
         },
         {
+ 	        "path": "interface/sdk_c/zh-cn/ability/ability_runtime/child_process/native_child_process.h",
+ 	        "bundle_name": [
+ 	            "ability_runtime"
+ 	        ],
+ 	        "build_targets": {}
+ 	    },
+        {
             "path": "interface/sdk_c/zh-cn/AbilityKit/ability_runtime",
             "bundle_name": [
                 "ability_runtime"
