@@ -19906,7 +19906,63 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/BigInt.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Boolean.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/BuiltinArray.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/BuiltinArrayAlgorithms.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/BuiltinArraySort.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Byte.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Char.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Chrono.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Class.static.d.ets",
             "bundle_name": [
                 "runtime_core"
             ],
@@ -19920,7 +19976,84 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/ConcatArray.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Console.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/DataView.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Date.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Double.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/arkts/builtin/static/EAWorker.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Error.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Errors.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Exceptions.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Float.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Function.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Functions.static.d.ets",
             "bundle_name": [
                 "runtime_core"
             ],
@@ -19934,7 +20067,63 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Int.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Intl.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Iterator.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Job.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Json.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Jsonx.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Long.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Map.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Math.static.d.ets",
             "bundle_name": [
                 "runtime_core"
             ],
@@ -19955,7 +20144,84 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Numeric.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Object.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Promise.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/ReadonlyArray.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/ReflecStaticField.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Reflect.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/ReflectConstructor.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/ReflectInstanceField.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/ReflectInstanceMethod.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/ReflectProxy.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/ReflectStaticMethod.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/RegExp.static.d.ets",
             "bundle_name": [
                 "runtime_core"
             ],
@@ -19969,6 +20235,34 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Short.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/SparseArray.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/String.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/StringBuilder.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/arkts/builtin/static/SyncPrimitives.static.d.ets",
             "bundle_name": [
                 "runtime_core"
@@ -19976,7 +20270,35 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/Tuple.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/TypedArrays.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/TypedUArrays.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/arkts/builtin/static/WorkerLocal.static.d.ets",
+            "bundle_name": [
+                "runtime_core"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/arkts/builtin/static/retention.static.d.ets",
             "bundle_name": [
                 "runtime_core"
             ],
