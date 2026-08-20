@@ -1236,6 +1236,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/application/ChildProcessInformation.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.cameraPicker.d.ts",
             "bundle_name": [
                 "camera_framework"
