@@ -5562,6 +5562,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.security.securityGuard.d.ts",
+            "bundle_name": [
+                "security_guard"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@system.prompt.d.ts",
             "bundle_name": [
                 "ace_engine"
