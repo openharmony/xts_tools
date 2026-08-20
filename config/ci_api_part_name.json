@@ -2384,6 +2384,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.nfc.tag.d.ts",
+            "bundle_name": [
+                "nfc"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.enterprise.networkManager.d.ts",
             "bundle_name": [
                 "enterprise_device_management"
@@ -5373,6 +5380,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.nfc.cardEmulation.d.ts",
+            "bundle_name": [
+                "nfc"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.notification.d.ts",
             "bundle_name": [
                 "distributed_notification_service"
@@ -6276,6 +6290,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.nfc.controller.d.ts",
+            "bundle_name": [
+                "nfc"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.app.ability.AutoFillExtensionAbility.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -6928,6 +6949,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.secureElement.d.ts",
+            "bundle_name": [
+                "secure_element"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.secureElement.d.ts",
             "bundle_name": [
                 "secure_element"
             ],
@@ -9098,6 +9126,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.connectedTag.d.ts",
+            "bundle_name": [
+                "connected_nfc_tag"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.advertising.AdsServiceExtensionAbility.d.ts",
             "bundle_name": [
                 "advertising"
@@ -10015,7 +10050,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/tag/nfctech.d.ts",
+            "bundle_name": [
+                "nfc"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/tag/tagSession.d.ts",
+            "bundle_name": [
+                "nfc"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/tag/tagSession.d.ts",
             "bundle_name": [
                 "nfc"
             ],
