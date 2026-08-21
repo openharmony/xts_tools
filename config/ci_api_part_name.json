@@ -20253,6 +20253,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/LocationKit",
+            "bundle_name": [
+                "location"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/NotificationKit",
             "bundle_name": [
                 "distributed_notification_service"
