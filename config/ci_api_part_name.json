@@ -1698,6 +1698,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@system.geolocation.d.ts",
+            "bundle_name": [
+                "location"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.telephony.sms.d.ts",
             "bundle_name": [
                 "sms_mms"
@@ -6990,6 +6997,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.FenceExtensionContext.d.ts",
+            "bundle_name": [
+                "location"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.Counter.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -8425,6 +8439,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.FenceExtensionAbility.d.ts",
+            "bundle_name": [
+                "location"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.application.formError.d.ts",
             "bundle_name": [
                 "form_fwk"
@@ -9021,6 +9042,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.geolocation.d.ts",
+            "bundle_name": [
+                "location"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.geolocation.d.ts",
             "bundle_name": [
                 "location"
             ],
