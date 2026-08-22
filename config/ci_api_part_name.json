@@ -22214,6 +22214,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/telephony/core_service",
+            "bundle_name": [
+                "core_service"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/third_party/egl",
             "bundle_name": [
                 "egl"
