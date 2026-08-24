@@ -25,7 +25,6 @@ from bump_compile_sdk_version import get_sdk_api_full_version
 class HvigorChecker:
 
     HVIGOR_BASE_VERSION = [
-        '6.0.0',
         '26.0.0',
     ]
 
