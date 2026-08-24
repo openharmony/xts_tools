@@ -41,7 +41,7 @@ struct UiComponentTextRichEditorDarkAndBase0003 {
         }
       }
       .width('100%')
-      .height(400)
+      .height('100%')
     }
   }
 }

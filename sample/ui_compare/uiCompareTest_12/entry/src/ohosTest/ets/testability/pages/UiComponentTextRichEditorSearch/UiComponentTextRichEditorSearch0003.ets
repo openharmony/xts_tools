@@ -12,8 +12,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import text from '@ohos.graphics.text';
-import hilog from '@ohos.hilog';
+import { text } from '@kit.ArkGraphics2D';
+import { hilog } from '@kit.PerformanceAnalysisKit';
 
 @Entry
 @Component

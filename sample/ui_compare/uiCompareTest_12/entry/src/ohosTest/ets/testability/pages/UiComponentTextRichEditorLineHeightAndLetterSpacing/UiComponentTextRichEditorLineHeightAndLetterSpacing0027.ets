@@ -47,7 +47,7 @@ struct UiComponentTextRichEditorLineHeightAndLetterSpacing0027 {
         }
       }
       .width('100%')
-      .height(400)
+      .height('32.79%')
     }
   }
 

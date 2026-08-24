@@ -14,7 +14,7 @@
  */
 
 import { afterEach, describe, it } from '@ohos/hypium'
-import { Driver, ON } from '@ohos.UiTest'
+import { Driver, ON } from '@kit.TestKit'
 import Utils from '../model/Utils'
 import Settings from '../model/Settings'
 import windowSnap from '../model/snapShot'

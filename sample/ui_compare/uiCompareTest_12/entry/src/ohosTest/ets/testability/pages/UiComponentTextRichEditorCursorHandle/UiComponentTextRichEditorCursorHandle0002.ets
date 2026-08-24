@@ -53,7 +53,7 @@ struct UiComponentTextRichEditorCursorHandle0002 {
           })
       }
       .width('90%')
-      .height(300)
+      .height('24.59%')
       .scrollable(ScrollDirection.Vertical)
       .scrollBar(BarState.On)
       .scrollBarColor('#999999')

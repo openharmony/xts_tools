@@ -61,7 +61,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0022 {
       }.alignItems(HorizontalAlign.Start)
     }.backgroundColor('#f4f4f4')
     .borderRadius("20")
-    .width(220)
+    .width('100%')
   }
 
   build() {

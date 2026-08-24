@@ -19,7 +19,7 @@ import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { Driver, ON, Component, On, } from '@kit.TestKit'
 import { uiAppearance } from '@kit.ArkUI'
-import { BusinessError } from '@ohos.base';
+import { BusinessError } from '@kit.BasicServicesKit';
 import windowSnap from '../model/snapShot'
 
 export default function UiComponentTextRichEditorGundongtiao() {

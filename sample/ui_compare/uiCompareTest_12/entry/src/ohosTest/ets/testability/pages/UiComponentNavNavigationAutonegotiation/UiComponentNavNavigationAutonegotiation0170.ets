@@ -125,7 +125,7 @@ struct UiComponentNavNavigationAutonegotiation0170 {
       }
       .id('navigation_autonegotiation_0170')
       .mode(NavigationMode.Split)
-      .height(1000)
+      .height('81.97%')
       .navDestination(this.PageMap)
       .title('Split模式-Nav高度1000')
       .titleMode(NavigationTitleMode.Mini)
@@ -195,7 +195,7 @@ struct PageOne0170 {
       .padding(20)
       .backgroundColor('#FAFAFA')
     }
-    .height(500)
+    .height('40.98%')
     .title('NavDestination-高度500')
     .backgroundColor(Color.White)
   }

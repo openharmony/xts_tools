@@ -121,8 +121,8 @@ function PopupBuilder(params: Params) {
         params.promptActionClass.closePopup();
       })
   }
-  .width(250)
-  .height(250)
+  .width('100%')
+  .height('100%')
   .backgroundColor(Color.White)
   .borderRadius(12)
   .padding(20)
@@ -184,8 +184,8 @@ struct UiComponentPopupboxPopupGlobal0200 {
           .fontSize(18)
           .margin(10)
       }
-      .width(150)
-      .height(100)
+      .width('20.83%')
+      .height('8.2%')
       .backgroundColor('#FFFFE0E0')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
@@ -196,8 +196,8 @@ struct UiComponentPopupboxPopupGlobal0200 {
           .fontSize(18)
           .margin(10)
       }
-      .width(150)
-      .height(100)
+      .width('20.83%')
+      .height('8.2%')
       .backgroundColor('#FFE0FFE0')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)

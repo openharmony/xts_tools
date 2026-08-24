@@ -17,28 +17,21 @@ import { Driver, ON } from '@kit.TestKit';
 import Settings from '../model/Settings';
 import windowSnap from '../model/snapShot';
 import Utils from '../model/Utils';
-import hilog from '@ohos.hilog';
-import window from '@ohos.window';
+import { hilog } from '@kit.PerformanceAnalysisKit';
+import { window } from '@kit.ArkUI';
 import { BusinessError } from '@kit.BasicServicesKit';
 import Logger from '../model/Logger';
+import TestHelper from '../model/TestHelper'
 
 export default function UiComponentTextRichEditorCursorHandle() {
   describe('UiComponentTextRichEditorCursorHandle', () => {
 
     afterEach(async (done: Function) => {
-      if (Settings.windowClass == undefined) {
-        done()
-        return
-      }
-      Settings.windowClass.destroyWindow((err) => {
-        if (err.code) {
-          Logger.error('TEST', `Failed to destroy the window.Cause :${JSON.stringify(err)}`)
-          return;
-        }
-        Logger.info('TEST', `Succeeded in destroy the window`);
-      })
-      await Utils.sleep(500);
+
+      await TestHelper.destroyWindow()
+
       done()
+
     })
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0001

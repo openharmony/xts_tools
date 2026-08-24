@@ -14,12 +14,12 @@
  */
 
 import Logger from './Logger';
-import image from '@ohos.multimedia.image';
+import { image } from '@kit.ImageKit';
 import fs from '@ohos.file.fs';
-import common from '@ohos.app.ability.common'
+import { common } from '@kit.AbilityKit'
 import { GlobalThis } from './globalThis'
 import { screenshot } from '@kit.ArkUI';
-import { BusinessError } from '@ohos.base'
+import { BusinessError } from '@kit.BasicServicesKit'
 import Settings from './Settings';
 
 const TAG: string = '[TEST]';

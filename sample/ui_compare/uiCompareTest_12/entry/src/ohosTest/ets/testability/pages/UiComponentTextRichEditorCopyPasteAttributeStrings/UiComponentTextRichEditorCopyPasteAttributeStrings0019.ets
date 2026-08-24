@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import hilog from '@ohos.hilog';
+import { hilog } from '@kit.PerformanceAnalysisKit';
 import { LengthMetrics } from '@kit.ArkUI';
 import { drawing } from '@kit.ArkGraphics2D';
 

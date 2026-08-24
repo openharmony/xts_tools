@@ -130,7 +130,7 @@ struct UiComponentNavNavigationAutonegotiation0160 {
       }
       .id('navigation_autonegotiation_0160')
       .mode(NavigationMode.Split)
-      .height(1000)
+      .height('81.97%')
       .navDestination(this.PageMap)
       .title('Split模式-高度1000')
       .titleMode(NavigationTitleMode.Mini)

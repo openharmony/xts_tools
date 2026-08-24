@@ -12,8 +12,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import uniformTypeDescriptor from '@ohos.data.uniformTypeDescriptor';
-import unifiedDataChannel from '@ohos.data.unifiedDataChannel';
+import { uniformTypeDescriptor } from '@kit.ArkData';
+import { unifiedDataChannel } from '@kit.ArkData';
 import { uniformDataStruct } from '@kit.ArkData';
 
 // 导入RichEditor样式类型
@@ -44,7 +44,7 @@ struct UiComponentTextRichEditorOnDragStart005 {
       Image($r('sys.media.ohos_app_icon')).width(50).height(50).margin(16)
     }.backgroundColor('#f4f4f4')
     .borderRadius("20")
-    .width(220)
+    .width('100%')
   }
 
   build() {

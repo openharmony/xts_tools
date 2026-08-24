@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -12,8 +12,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import uniformTypeDescriptor from '@ohos.data.uniformTypeDescriptor';
-import unifiedDataChannel from '@ohos.data.unifiedDataChannel';
+import { uniformTypeDescriptor } from '@kit.ArkData';
+import { unifiedDataChannel } from '@kit.ArkData';
 import { uniformDataStruct } from '@kit.ArkData';
 
 // 导入RichEditor样式类型
@@ -83,7 +83,7 @@ struct UiComponentTextRichEditorInterface0039 {
           })
       }
       .width('100%')
-      .height(200)
+      .height('16.39%')
       .scrollable(ScrollDirection.Vertical)
       .scrollBar(BarState.On)
       .scrollBarColor('#999999')

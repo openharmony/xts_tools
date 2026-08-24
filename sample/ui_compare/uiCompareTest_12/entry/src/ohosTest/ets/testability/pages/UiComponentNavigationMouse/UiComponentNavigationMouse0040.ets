@@ -109,7 +109,7 @@ struct UiComponentNavigationMouse0040 {
       .navBarWidthRange([0, 1000])
       .minContentWidth(0)
       .width('100%')
-      .height(500)
+      .height('40.98%')
       .border({ width: 1, color: Color.Gray })
     }
     .width('100%')

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -160,7 +160,7 @@ struct UiComponentTextRichEditorInterface0068 {
           .placeholder('这里将显示包含emoji和symbol的图文混合内容')
       }
       .width('100%')
-      .height(200)
+      .height('16.39%')
       .scrollable(ScrollDirection.Vertical)
       .scrollBar(BarState.On)
       .scrollBarColor('#999999')

@@ -106,8 +106,8 @@ function PopupBuilderWithInput(params: Params) {
       .margin(10)
       .id("text_input_0400")
   }
-  .width(220)
-  .height(200)
+  .width('100%')
+  .height('100%')
   .backgroundColor(Color.White)
   .borderRadius(12)
   .padding(20)
@@ -184,8 +184,8 @@ struct UiComponentPopupboxPopupGlobal0400 {
           .fontSize(18)
           .margin(10)
       }
-      .width(150)
-      .height(100)
+      .width('20.83%')
+      .height('8.2%')
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)

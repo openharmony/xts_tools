@@ -74,7 +74,7 @@ struct UiOhosAnimatorSimpleCreate0100 {
 
         Column()
           .width(this.boxWidth)
-          .height(60)
+          .height('4.92%')
           .backgroundColor(Color.Red)
           .id('animator_box_0100')
 

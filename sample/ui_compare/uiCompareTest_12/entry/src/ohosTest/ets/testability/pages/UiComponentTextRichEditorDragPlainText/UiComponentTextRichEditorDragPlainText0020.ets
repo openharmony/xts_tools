@@ -12,10 +12,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import uniformTypeDescriptor from '@ohos.data.uniformTypeDescriptor';
-import unifiedDataChannel from '@ohos.data.unifiedDataChannel';
-import hilog from '@ohos.hilog';
-import dragController from '@ohos.arkui.dragController';
+import { uniformTypeDescriptor } from '@kit.ArkData';
+import { unifiedDataChannel } from '@kit.ArkData';
+import { hilog } from '@kit.PerformanceAnalysisKit';
+import { dragController } from '@kit.ArkUI';
 
 @Entry
 @Component

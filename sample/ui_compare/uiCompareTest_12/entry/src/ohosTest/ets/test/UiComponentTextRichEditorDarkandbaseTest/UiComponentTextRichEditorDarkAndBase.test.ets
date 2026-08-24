@@ -15,31 +15,23 @@
 
 import { afterEach, describe, it, Level } from '@ohos/hypium'
 import Settings from '../model/Settings'
-import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 import { uiAppearance } from '@kit.ArkUI'
-import { BusinessError } from '@ohos.base'
+import { BusinessError } from '@kit.BasicServicesKit'
 import windowSnap from '../model/snapShot'
+import TestHelper from '../model/TestHelper'
 
 
 export default function UiComponentTextRichEditorDarkAndBase() {
   describe('UiComponentTextRichEditorDarkAndBase', () => {
 
     afterEach(async (done: Function) => {
-      if (Settings.windowClass == undefined) {
-        done()
-        return
-      }
-      Settings.windowClass.destroyWindow((err) => {
-        if (err.code) {
-          Logger.error('TEST', `Failed to destroy the window.Cause :${JSON.stringify(err)}`)
-          return;
-        }
-        Logger.info('TEST', `Succeeded in destroy the window`);
-      })
-      await Utils.sleep(500);
+
+      await TestHelper.destroyWindow()
+
       done()
+
     })
 
     /*

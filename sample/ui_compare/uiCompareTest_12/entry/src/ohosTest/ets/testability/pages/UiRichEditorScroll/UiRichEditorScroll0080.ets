@@ -12,8 +12,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import uniformTypeDescriptor from '@ohos.data.uniformTypeDescriptor';
-import unifiedDataChannel from '@ohos.data.unifiedDataChannel';
+import { uniformTypeDescriptor } from '@kit.ArkData';
+import { unifiedDataChannel } from '@kit.ArkData';
 import { uniformDataStruct } from '@kit.ArkData';
 
 // 导入RichEditor样式类型
@@ -61,7 +61,7 @@ struct UiRichEditorScroll0080 {
           .padding(8)
       }
       .width('100%')
-      .height(200)
+      .height('16.39%')
       .scrollable(ScrollDirection.Vertical)
       .scrollBar(BarState.Auto)
       .scrollBarColor('#999999')

@@ -94,7 +94,7 @@ struct UiOhosAnimatorSimpleCreate0050 {
           .fontWeight(FontWeight.Bold)
         Column()
           .width(this.boxWidth1)
-          .height(60)
+          .height('4.92%')
           .backgroundColor(Color.Red)
           .id('animator_box_0050_1')
 
@@ -106,7 +106,7 @@ struct UiOhosAnimatorSimpleCreate0050 {
           .fontWeight(FontWeight.Bold)
         Column()
           .width(this.boxWidth2)
-          .height(60)
+          .height('4.92%')
           .backgroundColor(Color.Blue)
           .id('animator_box_0050_2')
 

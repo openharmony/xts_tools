@@ -19,7 +19,7 @@ import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 import windowSnap from '../model/snapShot'
-import image from '@ohos.multimedia.image'
+import { image } from '@kit.ImageKit'
 
 export default function UiComponentTextRichEditorOnDragStart() {
   describe('UiComponentTextRichEditorOnDragStart', () => {

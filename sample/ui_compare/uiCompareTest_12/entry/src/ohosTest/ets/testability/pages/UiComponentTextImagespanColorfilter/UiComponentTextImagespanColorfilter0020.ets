@@ -12,8 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-import drawing from '@ohos.graphics.drawing';
+import { drawing } from '@kit.ArkGraphics2D';
 
 @Entry
 @Component

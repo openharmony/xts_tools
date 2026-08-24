@@ -104,7 +104,7 @@ struct UiComponentNavigationMouse0090 {
         console.info('SideBar status changed: ' + value)
       })
       .width('100%')
-      .height(500)
+      .height('40.98%')
       .border({ width: 1, color: Color.Gray })
       .margin({ top: 10 })
     }

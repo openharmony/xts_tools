@@ -125,7 +125,7 @@ struct UiComponentNavNavigationAutonegotiation0060 {
       }
       .id('navigation_autonegotiation_0060')
       .mode(NavigationMode.Stack)
-      .height(1000)
+      .height('81.97%')
       .navDestination(this.PageMap)
       .title('Stack模式-Nav高度1000')
       .titleMode(NavigationTitleMode.Mini)

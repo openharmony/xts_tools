@@ -15,29 +15,21 @@
 
 import { afterEach, describe, it, Level } from '@ohos/hypium'
 import Settings from '../model/Settings'
-import Logger from '../model/Logger'
 import Utils from '../model/Utils'
 import { Driver, ON, MouseButton } from '@kit.TestKit'
 import windowSnap from '../model/snapShot'
-import hilog from '@ohos.hilog'
+import { hilog } from '@kit.PerformanceAnalysisKit'
+import TestHelper from '../model/TestHelper'
 
 export default function UiComponentTextRichEditorSearch() {
   describe('UiComponentTextRichEditorSearch', () => {
 
     afterEach(async (done: Function) => {
-      if (Settings.windowClass == undefined) {
-        done()
-        return
-      }
-      Settings.windowClass.destroyWindow((err) => {
-        if (err.code) {
-          Logger.error('TEST', `Failed to destroy the window.Cause :${JSON.stringify(err)}`)
-          return;
-        }
-        Logger.info('TEST', `Succeeded in destroy the window`);
-      })
-      await Utils.sleep(500);
+
+      await TestHelper.destroyWindow()
+
       done()
+
     })
 
     /*

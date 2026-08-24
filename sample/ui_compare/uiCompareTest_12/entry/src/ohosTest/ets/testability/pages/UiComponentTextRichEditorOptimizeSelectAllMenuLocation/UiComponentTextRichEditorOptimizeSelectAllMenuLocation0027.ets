@@ -16,7 +16,7 @@ import { ConfigurationConstant, } from '@kit.AbilityKit';
 import { BusinessError, settings } from '@kit.BasicServicesKit'
 import { common } from '@kit.AbilityKit'
 import Logger from '../../../test/model/Logger';
-import window from '@ohos.window';
+import { window } from '@kit.ArkUI';
 
 @Entry
 @Component

@@ -87,13 +87,13 @@ struct UiOhosAnimatorSimpleCreate0140 {
         Text('测试1: 仅设置 fill:both 与 direction:alternate（其他默认）')
           .fontSize(12)
           .fontWeight(FontWeight.Bold)
-        Column().width(this.boxWidth1).height(60).backgroundColor(Color.Red).id('animator_box_0140_1')
+        Column().width(this.boxWidth1).height('4.92%').backgroundColor(Color.Red).id('animator_box_0140_1')
         Divider().strokeWidth(1)
 
         Text('测试2: 仅设置 fill:both 与 iterations:2（其他默认）')
           .fontSize(12)
           .fontWeight(FontWeight.Bold)
-        Column().width(this.boxWidth2).height(60).backgroundColor(Color.Blue).id('animator_box_0140_2')
+        Column().width(this.boxWidth2).height('4.92%').backgroundColor(Color.Blue).id('animator_box_0140_2')
 
         Text(this.message)
           .id('result_text_0140')

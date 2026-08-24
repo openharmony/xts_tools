@@ -106,19 +106,19 @@ struct UiOhosAnimatorSimpleCreate0130 {
           Text('测试1: 仅设置 delay:500ms 与 fill:both（其他默认）')
             .fontSize(11)
             .fontWeight(FontWeight.Bold)
-          Column().width(this.boxWidth1).height(30).backgroundColor(Color.Red).id('animator_box_0130_1')
+          Column().width(this.boxWidth1).height('2.46%').backgroundColor(Color.Red).id('animator_box_0130_1')
           Divider().strokeWidth(0.5)
 
           Text('测试2: 仅设置 delay:500ms 与 direction:alternate（其他默认）')
             .fontSize(11)
             .fontWeight(FontWeight.Bold)
-          Column().width(this.boxWidth2).height(30).backgroundColor(Color.Blue).id('animator_box_0130_2')
+          Column().width(this.boxWidth2).height('2.46%').backgroundColor(Color.Blue).id('animator_box_0130_2')
           Divider().strokeWidth(0.5)
 
           Text('测试3: 仅设置 delay:500ms 与 iterations:2（其他默认）')
             .fontSize(11)
             .fontWeight(FontWeight.Bold)
-          Column().width(this.boxWidth3).height(30).backgroundColor(Color.Green).id('animator_box_0130_3')
+          Column().width(this.boxWidth3).height('2.46%').backgroundColor(Color.Green).id('animator_box_0130_3')
 
           Text(this.message)
             .id('result_text_0130')

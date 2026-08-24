@@ -99,8 +99,8 @@ function PopupBuilder(params: Params) {
       .fontSize(16)
       .margin(10)
   }
-  .width(45)
-  .height(120)
+  .width('100%')
+  .height('100%')
   .backgroundColor(Color.White)
   .borderRadius(12)
   .padding(5)
@@ -177,8 +177,8 @@ struct UiComponentPopupboxPopupGlobal1670 {
           .fontSize(18)
           .margin(10)
       }
-      .width(150)
-      .height(100)
+      .width('20.83%')
+      .height('8.2%')
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)

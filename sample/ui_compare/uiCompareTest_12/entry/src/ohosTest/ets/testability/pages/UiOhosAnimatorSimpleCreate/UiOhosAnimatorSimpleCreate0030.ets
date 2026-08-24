@@ -136,7 +136,7 @@ struct UiOhosAnimatorSimpleCreate0030 {
             .fontWeight(FontWeight.Bold)
           Column()
             .width(this.boxWidth1)
-            .height(50)
+            .height('4.1%')
             .backgroundColor(Color.Red)
             .id('animator_box_0030_1')
 
@@ -148,7 +148,7 @@ struct UiOhosAnimatorSimpleCreate0030 {
             .fontWeight(FontWeight.Bold)
           Column()
             .width(this.boxWidth2)
-            .height(50)
+            .height('4.1%')
             .backgroundColor(Color.Blue)
             .id('animator_box_0030_2')
 
@@ -160,7 +160,7 @@ struct UiOhosAnimatorSimpleCreate0030 {
             .fontWeight(FontWeight.Bold)
           Column()
             .width(this.boxWidth3)
-            .height(50)
+            .height('4.1%')
             .backgroundColor(Color.Green)
             .id('animator_box_0030_3')
 
@@ -172,7 +172,7 @@ struct UiOhosAnimatorSimpleCreate0030 {
             .fontWeight(FontWeight.Bold)
           Column()
             .width(this.boxWidth4)
-            .height(50)
+            .height('4.1%')
             .backgroundColor(Color.Orange)
             .id('animator_box_0030_4')
 

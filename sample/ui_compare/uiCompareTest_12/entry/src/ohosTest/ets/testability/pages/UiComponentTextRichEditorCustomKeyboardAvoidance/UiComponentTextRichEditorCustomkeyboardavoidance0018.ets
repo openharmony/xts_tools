@@ -72,7 +72,7 @@ struct UiComponentTextRichEditorCustomkeyboardavoidance0018 {
       .padding(5)
     }
     .backgroundColor(Color.Gray)
-    .height(300)
+    .height('100%')
   }
 
   build() {

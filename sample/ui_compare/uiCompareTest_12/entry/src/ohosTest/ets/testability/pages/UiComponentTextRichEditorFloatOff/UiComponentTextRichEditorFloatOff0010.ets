@@ -65,7 +65,7 @@ struct UiComponentTextRichEditorFloatOff0010 {
             .copyOptions(2)
         }
         .width('100%')
-        .height(200)
+        .height('16.39%')
         .scrollable(ScrollDirection.Vertical)
         .scrollBar(BarState.Auto)
         .scrollBarColor('#999999')

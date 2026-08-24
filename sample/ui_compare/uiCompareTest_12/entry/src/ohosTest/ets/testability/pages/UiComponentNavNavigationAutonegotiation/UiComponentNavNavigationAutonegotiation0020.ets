@@ -189,7 +189,7 @@ struct PageOne0020 {
       .padding(20)
       .backgroundColor('#FAFAFA')
     }
-    .height(500)
+    .height('40.98%')
     .title('NavDestination-高度500')
     .backgroundColor(Color.White)
   }

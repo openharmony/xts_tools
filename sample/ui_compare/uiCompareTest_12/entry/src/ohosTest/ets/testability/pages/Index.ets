@@ -12,8 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-import hilog from '@ohos.hilog';
+import { hilog } from '@kit.PerformanceAnalysisKit';
 
 @Entry
 @Component
@@ -41,7 +40,7 @@ struct Index {
 
            }
            .width('100%')
-           .height(400)
+           .height('32.79%')
 
            Column() {
              Text(this.message)

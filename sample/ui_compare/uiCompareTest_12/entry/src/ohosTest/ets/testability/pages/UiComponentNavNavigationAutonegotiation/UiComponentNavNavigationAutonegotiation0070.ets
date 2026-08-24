@@ -223,7 +223,7 @@ struct PageOne0070 {
       .padding(20)
       .backgroundColor('#FAFAFA')
     }
-    .height(500)
+    .height('40.98%')
     .title('页面1')
     .backgroundColor(Color.White)
   }

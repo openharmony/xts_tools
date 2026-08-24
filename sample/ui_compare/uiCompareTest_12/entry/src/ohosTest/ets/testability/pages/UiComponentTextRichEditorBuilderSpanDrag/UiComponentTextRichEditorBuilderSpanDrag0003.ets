@@ -63,8 +63,8 @@ struct UIComponentTextRichEditorBuilderSpanDrag0003 {
       Text('测试用Builder')
         .fontSize(10)
     }
-    .width(100)
-    .height(50)
+    .width('100%')
+    .height('100%')
     .padding(5)
     .draggable(true)
 

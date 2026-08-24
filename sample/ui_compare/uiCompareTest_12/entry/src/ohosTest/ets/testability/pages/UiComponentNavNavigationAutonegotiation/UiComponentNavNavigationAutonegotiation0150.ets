@@ -199,7 +199,7 @@ struct PageOne0150 {
       .height('100%')
       .backgroundColor('#F3E5F5')
     }
-    .height(100)
+    .height('8.2%')
     .title('页面1')
     .backgroundColor(Color.Gray)
   }
@@ -263,7 +263,7 @@ struct PageTwo0150 {
       .height('100%')
       .backgroundColor(Color.White)
     }
-    .height(500)
+    .height('40.98%')
     .title('页面2')
     .backgroundColor(Color.White)
   }

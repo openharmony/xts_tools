@@ -16,7 +16,7 @@
 import { ConfigurationConstant,common } from '@kit.AbilityKit';
 
 import { BusinessError } from '@kit.BasicServicesKit';
-import window from '@ohos.window';
+import { window } from '@kit.ArkUI';
 
 
 @Entry
