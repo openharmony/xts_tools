@@ -4743,7 +4743,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.videoProcessingEngine.d.ts",
+            "bundle_name": [
+                "media_foundation"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.videoProcessing.d.ts",
+            "bundle_name": [
+                "media_foundation"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.videoProcessing.d.ts",
             "bundle_name": [
                 "media_foundation"
             ],
