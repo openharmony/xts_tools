@@ -25,8 +25,8 @@ struct MouseBackwardanalysis {
       Text(this.posLog ? '检查结果(鼠标坐标): ' + this.posLog : '检查结果: (在A/B间移动后显示坐标)').fontSize(12).fontColor(Color.Red).margin(8)
       Row() {
         Column()
-          .width(120)
-          .height(80)
+          .width('16.67%')
+          .height('6.56%')
           .backgroundColor(Color.Blue)
           .onMouse((event?: MouseEvent) => {
             if (event) {
@@ -39,8 +39,8 @@ struct MouseBackwardanalysis {
           .id('MouseBackwardanalysis_A')
           .margin(8)
         Column()
-          .width(120)
-          .height(80)
+          .width('16.67%')
+          .height('6.56%')
           .backgroundColor(Color.Green)
           .onMouse((event?: MouseEvent) => {
             if (event) {

@@ -24,11 +24,11 @@ struct MouseRefeshByVsync {
       Row() {
         Text('第一栏').id('zone1').width(80).height(40).backgroundColor(Color.Gray).margin(4)
           .onClick(() => { this.tip = '输入: 点击【第一栏】\n检查结果: 当前区域-第一栏 预期:默认样式'; })
-        Column().id('sidebar1').width(4).height(40).backgroundColor(Color.Black).margin(4)
+        Column().id('sidebar1').width('0.56%').height('3.28%').backgroundColor(Color.Black).margin(4)
           .onClick(() => { this.tip = '输入: 点击【第一二栏间sideBar】\n检查结果: 当前区域-第一二栏间sideBar 预期:分栏样式'; })
         Text('第二栏').id('zone2').width(80).height(40).backgroundColor(Color.Gray).margin(4)
           .onClick(() => { this.tip = '输入: 点击【第二栏】\n检查结果: 当前区域-第二栏 预期:默认样式'; })
-        Column().id('sidebar2').width(4).height(40).backgroundColor(Color.Black).margin(4)
+        Column().id('sidebar2').width('0.56%').height('3.28%').backgroundColor(Color.Black).margin(4)
           .onClick(() => { this.tip = '输入: 点击【第二三栏间sideBar】\n检查结果: 当前区域-第二三栏间sideBar 预期:分栏样式'; })
         TextInput({ placeholder: '第三栏输入' }).id('input1').width(120).height(40).margin(4)
           .onClick(() => { this.tip = '输入: 点击【第三栏输入框】\n检查结果: 当前区域-第三栏输入框 预期:默认样式'; })
