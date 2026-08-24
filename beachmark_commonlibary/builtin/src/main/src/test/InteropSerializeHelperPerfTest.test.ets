@@ -103,7 +103,7 @@ export default function InteropSerializeHelperPerfTest(): void {
     })
 
     it('PerformanceTest_InteropSerializeHelper_Constructor_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let args: FixedArray<Any> = new FixedArray<Any>(3);
+      let args: FixedArray<Any> = new FixedArray<Any>(3, undefined);
       args[0] = 1;
       args[1] = "test";
       args[2] = true;
@@ -121,12 +121,12 @@ export default function InteropSerializeHelperPerfTest(): void {
     })
 
     it('PerformanceTest_InteropSerializeHelper_Deserialize_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let args: FixedArray<Any> = new FixedArray<Any>(3);
+      let args: FixedArray<Any> = new FixedArray<Any>(3, undefined);
       args[0] = 1;
       args[1] = "test";
       args[2] = true;
       let helper: InteropSerializeHelper = new InteropSerializeHelper(args);
-      let res: FixedArray<Any> = new FixedArray<Any>(0);
+      let res: FixedArray<Any> = new FixedArray<Any>(0, undefined);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = helper.deserialize();

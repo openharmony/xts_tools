@@ -93,7 +93,7 @@ export default function BuiltinArrayPerfTest02(): void {
 
     it('PerformanceTest_BuiltinArrayTest_11000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [10, 20, 30, 40, 50];
-      let result = new FixedArray<short>(2);
+      let result = new FixedArray<short>(2, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = toSpliced(fixArray, 3);
@@ -123,7 +123,7 @@ export default function BuiltinArrayPerfTest02(): void {
 
     it('PerformanceTest_BuiltinArrayTest_11200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [10, 20, 30, 40, 50];
-      let result = new FixedArray<short>(3);
+      let result = new FixedArray<short>(3, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = toSpliced(fixArray, 1, 2);
@@ -168,7 +168,7 @@ export default function BuiltinArrayPerfTest02(): void {
 
     it('PerformanceTest_BuiltinArrayTest_11500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [30, 10, 20];
-      let result = new FixedArray<short>(3);
+      let result = new FixedArray<short>(3, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = toSorted(fixArray);
@@ -183,7 +183,7 @@ export default function BuiltinArrayPerfTest02(): void {
 
     it('PerformanceTest_BuiltinArrayTest_11600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [30, 10, 20];
-      let result = new FixedArray<short>(1);
+      let result = new FixedArray<short>(1, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = toSorted(fixArray, (a: short, b: short): int => b - a);
@@ -198,7 +198,7 @@ export default function BuiltinArrayPerfTest02(): void {
 
     it('PerformanceTest_BuiltinArrayTest_11700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [10, 20, 30];
-      let result = new FixedArray<short>(1);
+      let result = new FixedArray<short>(1, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = reverse(fixArray);
@@ -213,7 +213,7 @@ export default function BuiltinArrayPerfTest02(): void {
 
     it('PerformanceTest_BuiltinArrayTest_11800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [10, 20, 30];
-      let result = new FixedArray<short>(3);
+      let result = new FixedArray<short>(3, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = toReversed(fixArray);
@@ -228,7 +228,7 @@ export default function BuiltinArrayPerfTest02(): void {
 
     it('PerformanceTest_BuiltinArrayTest_11900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [10, 20, 30];
-      let result = new FixedArray<short>(3);
+      let result = new FixedArray<short>(3, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = with(fixArray, 1, 90);
@@ -274,7 +274,7 @@ export default function BuiltinArrayPerfTest02(): void {
 
     it('PerformanceTest_BuiltinArrayTest_12200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [10, 20, 30];
-      let result = new FixedArray<short>(3);
+      let result = new FixedArray<short>(3, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = map(fixArray, (value: short) => Int.toShort(value * 2));
@@ -304,7 +304,7 @@ export default function BuiltinArrayPerfTest02(): void {
 
     it('PerformanceTest_BuiltinArrayTest_12400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [10, 20, 30, 40, 50];
-      let result = new FixedArray<short>(3);
+      let result = new FixedArray<short>(3, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = filter(fixArray, (v: short) => v > 20);
@@ -320,7 +320,7 @@ export default function BuiltinArrayPerfTest02(): void {
     it('PerformanceTest_BuiltinArrayTest_12500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [10, 20, 30];
       let fixArray2: FixedArray<short> = [40, 50, 60];
-      let result = new FixedArray<short>(6);
+      let result = new FixedArray<short>(6, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = concat(fixArray, fixArray2);
@@ -336,7 +336,7 @@ export default function BuiltinArrayPerfTest02(): void {
     it('PerformanceTest_BuiltinArrayTest_12600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [10, 20, 30];
       let fixArray2: FixedArray<short> = [40, 50] as FixedArray<short>;
-      let result = new FixedArray<short>(5);
+      let result = new FixedArray<short>(5, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = concat(fixArray, fixArray2);
@@ -351,7 +351,7 @@ export default function BuiltinArrayPerfTest02(): void {
 
     it('PerformanceTest_BuiltinArrayTest_12700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [30, 10, 20];
-      let result = new FixedArray<short>(3);
+      let result = new FixedArray<short>(3, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = sort(fixArray, (a: short, b: short): int => a - b);
@@ -366,7 +366,7 @@ export default function BuiltinArrayPerfTest02(): void {
 
     it('PerformanceTest_BuiltinArrayTest_12800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [30, 10, 20];
-      let result = new FixedArray<short>(3);
+      let result = new FixedArray<short>(3, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = sort(fixArray);
@@ -412,7 +412,7 @@ export default function BuiltinArrayPerfTest02(): void {
 
     it('PerformanceTest_BuiltinArrayTest_13100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<int> = [1, 2, 3, 4, 5];
-      let result = new FixedArray<int>(5);
+      let result = new FixedArray<int>(5, new Int());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = copyWithin(fixArray, 0);
@@ -457,7 +457,7 @@ export default function BuiltinArrayPerfTest02(): void {
 
     it('PerformanceTest_BuiltinArrayTest_13400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<int> = [1, 2, 3, 4, 5];
-      let result = new FixedArray<int>(5);
+      let result = new FixedArray<int>(5, new Int());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = fill(fixArray, 99);
@@ -622,7 +622,7 @@ export default function BuiltinArrayPerfTest02(): void {
 
     it('PerformanceTest_BuiltinArrayTest_14500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<int> = [100, 200, 300, 400, 500];
-      let result = new FixedArray<int>(3);
+      let result = new FixedArray<int>(3, new Int());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = slice(fixArray, 2);

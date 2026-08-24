@@ -48,7 +48,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
 
     // ValueArray<int> tests
     it('PerformanceTest_ValueArrayTest_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 4; valArray[4] = 5;
         let result: int = 0;
         let Stime = new Date().getTime();
@@ -64,9 +64,9 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 4; valArray[4] = 5;
-        let result: ValueArray<int> = new ValueArray<int>(5);
+        let result: ValueArray<int> = new ValueArray<int>(5, 0);
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = copyWithin(valArray, 0);
@@ -80,9 +80,9 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 4; valArray[4] = 5;
-        let result: ValueArray<int> = new ValueArray<int>(5);
+        let result: ValueArray<int> = new ValueArray<int>(5, 0);
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = copyWithin(valArray, 0, 3);
@@ -96,9 +96,9 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 4; valArray[4] = 5;
-        let result: ValueArray<int> = new ValueArray<int>(5);
+        let result: ValueArray<int> = new ValueArray<int>(5, 0);
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = fill(valArray, 9);
@@ -112,7 +112,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 4; valArray[4] = 5;
         let result: int | undefined = undefined;
         let Stime = new Date().getTime();
@@ -128,7 +128,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 4; valArray[4] = 5;
         let result: int = -1;
         let Stime = new Date().getTime();
@@ -144,7 +144,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 4; valArray[4] = 5;
         let result: int | undefined = undefined;
         let Stime = new Date().getTime();
@@ -160,7 +160,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 4; valArray[4] = 5;
         let result: boolean = false;
         let Stime = new Date().getTime();
@@ -176,7 +176,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 4; valArray[4] = 5;
         let result: boolean = false;
         let Stime = new Date().getTime();
@@ -192,7 +192,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 4; valArray[4] = 5;
         let result: int = -1;
         let Stime = new Date().getTime();
@@ -208,7 +208,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3;
         let result: int = 0;
         let Stime = new Date().getTime();
@@ -224,7 +224,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3;
         let result: int = 0;
         let Stime = new Date().getTime();
@@ -240,7 +240,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3;
         let result: int = 0;
         let Stime = new Date().getTime();
@@ -256,9 +256,9 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 4; valArray[4] = 5;
-        let result: ValueArray<int> = new ValueArray<int>(3);
+        let result: ValueArray<int> = new ValueArray<int>(3, 0);
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = slice(valArray, 2);
@@ -272,9 +272,9 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 4; valArray[4] = 5;
-        let result: ValueArray<int> = new ValueArray<int>(2);
+        let result: ValueArray<int> = new ValueArray<int>(2, 0);
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = slice(valArray, 1, 3);
@@ -288,7 +288,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 2; valArray[4] = 1;
         let result: int = -1;
         let Stime = new Date().getTime();
@@ -304,7 +304,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3;
         let result: string = "";
         let Stime = new Date().getTime();
@@ -320,7 +320,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3;
         let result: string = "";
         let Stime = new Date().getTime();
@@ -336,9 +336,9 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3;
-        let result: ValueArray<int> = new ValueArray<int>(2);
+        let result: ValueArray<int> = new ValueArray<int>(2, 0);
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = toSpliced(valArray, 3);
@@ -352,7 +352,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 4; valArray[4] = 5;
         let result: boolean = false;
         let Stime = new Date().getTime();
@@ -368,7 +368,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(5);
+        let valArray: ValueArray<int> = new ValueArray<int>(5, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3; valArray[3] = 4; valArray[4] = 5;
         let result: int = -1;
         let Stime = new Date().getTime();
@@ -384,9 +384,9 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 3; valArray[1] = 1; valArray[2] = 2;
-        let result: ValueArray<int> = new ValueArray<int>(3);
+        let result: ValueArray<int> = new ValueArray<int>(3, 0);
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = toSorted(valArray);
@@ -400,9 +400,9 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 3; valArray[1] = 1; valArray[2] = 2;
-        let result: ValueArray<int> = new ValueArray<int>(3);
+        let result: ValueArray<int> = new ValueArray<int>(3, 0);
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = reverse(valArray);
@@ -416,9 +416,9 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 3; valArray[1] = 1; valArray[2] = 2;
-        let result: ValueArray<int> = new ValueArray<int>(3);
+        let result: ValueArray<int> = new ValueArray<int>(3, 0);
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = toReversed(valArray);
@@ -432,9 +432,9 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3;
-        let result: ValueArray<int> = new ValueArray<int>(3);
+        let result: ValueArray<int> = new ValueArray<int>(3, 0);
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = with(valArray, 1, 9);
@@ -448,7 +448,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3;
         let result = values(valArray);
         let Stime = new Date().getTime();
@@ -464,7 +464,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3;
         let result = entries(valArray);
         let Stime = new Date().getTime();
@@ -480,9 +480,9 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3;
-        let result: ValueArray<int> = new ValueArray<int>(3);
+        let result: ValueArray<int> = new ValueArray<int>(3, 0);
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = map(valArray, (value: int) => value * 2);
@@ -496,9 +496,9 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3;
-        let result: ValueArray<int> = new ValueArray<int>(2);
+        let result: ValueArray<int> = new ValueArray<int>(2, 0);
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = filter(valArray, (v: int) => v > 1);
@@ -512,9 +512,9 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 3; valArray[1] = 1; valArray[2] = 2;
-        let result: ValueArray<int> = new ValueArray<int>(3);
+        let result: ValueArray<int> = new ValueArray<int>(3, 0);
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = sort(valArray);
@@ -528,7 +528,7 @@ export default function BuiltinArrayValueArrayPerfTest(): void {
     })
 
     it('PerformanceTest_ValueArrayTest_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let valArray: ValueArray<int> = new ValueArray<int>(3);
+        let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
         valArray[0] = 1; valArray[1] = 2; valArray[2] = 3;
         let result = keys(valArray);
         let Stime = new Date().getTime();

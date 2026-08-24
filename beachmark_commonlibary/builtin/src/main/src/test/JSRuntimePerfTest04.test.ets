@@ -69,7 +69,7 @@ export default function JSRuntimePerfTest04(): void {
 
     it('PerformanceTest_JSRuntime_invokeDynamicFunction_17500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let func = new DynamicFunction();
-      let args: FixedArray<Any> = new FixedArray<Any>(0);
+      let args: FixedArray<Any> = new FixedArray<Any>(0, undefined);
       let result: Any = JSRuntime.invokeDynamicFunction(func, args);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {

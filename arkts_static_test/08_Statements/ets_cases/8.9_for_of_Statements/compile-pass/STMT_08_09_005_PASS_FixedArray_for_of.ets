@@ -20,7 +20,7 @@
  * @note for-of可以遍历FixedArray<T>，元素类型推断为T，FixedArray属于可迭代数组类型
  */
 function testFixedArrayForOf(): void {
-    let fixedArr: FixedArray<int> = new FixedArray<int>(3);
+    let fixedArr: FixedArray<int> = new FixedArray<int>(3, new Int());
     fixedArr[0] = 10;
     fixedArr[1] = 20;
     fixedArr[2] = 30;

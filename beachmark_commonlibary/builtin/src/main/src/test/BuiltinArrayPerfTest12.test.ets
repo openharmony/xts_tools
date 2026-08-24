@@ -47,7 +47,7 @@ export default function BuiltinArrayPerfTest12(): void {
 
     it('PerformanceTest_BuiltinArrayTest_42500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<boolean> = [true, false, true, false, true];
-      let result = new FixedArray<boolean>(5);
+      let result = new FixedArray<boolean>(5, new Boolean());
       let filterCb = (v: boolean, k: int, arr: FixedArray<boolean>): boolean => {
         return v == true;
       };
@@ -65,7 +65,7 @@ export default function BuiltinArrayPerfTest12(): void {
 
     it('PerformanceTest_BuiltinArrayTest_42600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<byte> = [1, 2, 3, 4, 5];
-      let result = new FixedArray<byte>(5);
+      let result = new FixedArray<byte>(5, new Byte());
       let filterCb = (v: byte, k: int, arr: FixedArray<byte>): boolean => {
         return v > 2;
       };
@@ -83,7 +83,7 @@ export default function BuiltinArrayPerfTest12(): void {
 
     it('PerformanceTest_BuiltinArrayTest_42700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [10, 20, 30, 40, 50];
-      let result = new FixedArray<short>(5);
+      let result = new FixedArray<short>(5, new Short());
       let filterCb = (v: short, k: int, arr: FixedArray<short>): boolean => {
         return v > 20;
       };
@@ -101,7 +101,7 @@ export default function BuiltinArrayPerfTest12(): void {
 
     it('PerformanceTest_BuiltinArrayTest_42800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<int> = [100, 200, 300, 400, 500];
-      let result = new FixedArray<int>(5);
+      let result = new FixedArray<int>(5, new Int());
       let filterCb = (v: int, k: int, arr: FixedArray<int>): boolean => {
         return v > 200;
       };
@@ -119,7 +119,7 @@ export default function BuiltinArrayPerfTest12(): void {
 
     it('PerformanceTest_BuiltinArrayTest_42900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<long> = [1000, 2000, 3000, 4000, 5000];
-      let result = new FixedArray<long>(5);
+      let result = new FixedArray<long>(5, new Long());
       let filterCb = (v: long, k: int, arr: FixedArray<long>): boolean => {
         return v > 2000;
       };
@@ -137,7 +137,7 @@ export default function BuiltinArrayPerfTest12(): void {
 
     it('PerformanceTest_BuiltinArrayTest_43000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
-      let result = new FixedArray<float>(5);
+      let result = new FixedArray<float>(5, new Float());
       let filterCb = (v: float, k: int, arr: FixedArray<float>): boolean => {
         return v > 2.2f;
       };
@@ -155,7 +155,7 @@ export default function BuiltinArrayPerfTest12(): void {
 
     it('PerformanceTest_BuiltinArrayTest_43100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<double> = [1.11, 2.22, 3.33, 4.44, 5.55];
-      let result = new FixedArray<double>(5);
+      let result = new FixedArray<double>(5, new Double());
       let filterCb = (v: double, k: int, arr: FixedArray<double>): boolean => {
         return v > 2.22;
       };
@@ -304,7 +304,7 @@ export default function BuiltinArrayPerfTest12(): void {
 
     it('PerformanceTest_BuiltinArrayTest_43900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<boolean> = [true, false, true, false, true];
-      let result = new FixedArray<boolean>(5);
+      let result = new FixedArray<boolean>(5, new Boolean());
       let mapCb = (value: boolean): boolean => {
         return !value;
       };
@@ -322,7 +322,7 @@ export default function BuiltinArrayPerfTest12(): void {
 
     it('PerformanceTest_BuiltinArrayTest_44000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<byte> = [1, 2, 3, 4, 5];
-      let result = new FixedArray<byte>(5);
+      let result = new FixedArray<byte>(5, new Byte());
       let mapCb = (value: byte): byte => {
         return Int.toByte(value + 1);
       };
@@ -340,7 +340,7 @@ export default function BuiltinArrayPerfTest12(): void {
 
     it('PerformanceTest_BuiltinArrayTest_44100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [10, 20, 30, 40, 50];
-      let result = new FixedArray<short>(5);
+      let result = new FixedArray<short>(5, new Short());
       let mapCb = (value: short): short => {
         return Int.toShort(value + 10);
       };
@@ -358,7 +358,7 @@ export default function BuiltinArrayPerfTest12(): void {
 
     it('PerformanceTest_BuiltinArrayTest_44200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<int> = [100, 200, 300, 400, 500];
-      let result = new FixedArray<int>(5);
+      let result = new FixedArray<int>(5, new Int());
       let mapCb = (value: int): int => {
         return value + 100;
       };
@@ -376,7 +376,7 @@ export default function BuiltinArrayPerfTest12(): void {
 
     it('PerformanceTest_BuiltinArrayTest_44300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<long> = [1000, 2000, 3000, 4000, 5000];
-      let result = new FixedArray<long>(5);
+      let result = new FixedArray<long>(5, new Long());
       let mapCb = (value: long): long => {
         return value + 1000;
       };
@@ -394,7 +394,7 @@ export default function BuiltinArrayPerfTest12(): void {
 
     it('PerformanceTest_BuiltinArrayTest_44400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
-      let result = new FixedArray<float>(5);
+      let result = new FixedArray<float>(5, new Float());
       let mapCb = (value: float): float => {
         return value + 1.0f;
       };
@@ -412,7 +412,7 @@ export default function BuiltinArrayPerfTest12(): void {
 
     it('PerformanceTest_BuiltinArrayTest_44500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<double> = [1.11, 2.22, 3.33, 4.44, 5.55];
-      let result = new FixedArray<double>(5);
+      let result = new FixedArray<double>(5, new Double());
       let mapCb = (value: double): double => {
         return value + 1.0;
       };

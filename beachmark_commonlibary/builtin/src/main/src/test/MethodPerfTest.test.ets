@@ -354,7 +354,7 @@ export default function MethodPerfTest() : void{
     it('PerformanceTest_Method_invoke_instanceWithArgs_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let method = getMethodInstance();
       let recv = new SampleMethodClass();
-      let args = new FixedArray<Any>(0);
+      let args = new FixedArray<Any>(0, undefined);
       let result = method.invoke(recv, args);
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {

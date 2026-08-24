@@ -80,7 +80,7 @@ export default function ReflectInternalsPerfTest():void {
     });
 
     it('PerformanceTest_ReflectInternals_Types_asFixedArray_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let obj: object = new FixedArray<Object>(1);
+      let obj: object = new FixedArray<Object>(1, new Object());
       let result = reflect.internals.Types.asFixedArray<number>(obj);
       let Stime = new Date().getTime();
 
