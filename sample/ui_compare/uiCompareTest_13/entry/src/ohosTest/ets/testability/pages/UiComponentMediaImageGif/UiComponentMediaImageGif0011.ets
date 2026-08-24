@@ -31,7 +31,7 @@ struct UiComponentMediaImageGif0011 {
           Image($r('app.media.icon')).width(64).height(64).id('image_gif_0011_2')
         }
       }
-      .height(240)
+      .height('19.67%')
       .id('image_gif_list_0011')
     }
     .width('100%')

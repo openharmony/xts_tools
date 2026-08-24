@@ -17,7 +17,7 @@ import { screen } from '@kit.ArkUI';
 import { window } from '@kit.ArkUI';
 import Logger from './Logger';
 import { GlobalThis } from './globalThis'
-import { BusinessError } from '@ohos.base'
+import { BusinessError } from '@kit.BasicServicesKit'
 import { KeyboardAvoidMode } from '@kit.ArkUI'; // 新增导入
 
 const TAG: string = '[TEST]';
