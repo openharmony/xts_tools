@@ -20956,6 +20956,160 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.FusionConnectivity.PartnerAgentExtensionAbility.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.FusionConnectivity.PartnerAgentExtensionContext.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.FusionConnectivity.partnerAgent.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.FusionConnectivity.ranging.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.a2dp.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.access.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.bas.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.baseProfile.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.ble.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.common.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.connection.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.constant.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.hfp.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.hid.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.map.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.opp.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.pan.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.pbap.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.socket.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.wearDetection.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetoothManager.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/arkts/@arkts.collections.d.ets",
             "bundle_name": [],
             "build_targets": {
