@@ -21458,6 +21458,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/ai/neural_network_runtime",
+            "bundle_name": [
+                "neural_network_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/ai/neural_network_runtime",
             "bundle_name": [
                 "neural_network_runtime"
