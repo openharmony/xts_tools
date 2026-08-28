@@ -18,6 +18,7 @@
 import os
 import sys
 import json
+import subprocess
 from utils import ChangeFileEntity, XTSTargetUtils, PathUtils, CODEBASE
 from ci_manager import ComponentManager, XTSManager, WhitelistManager, GetInterfaceData
 
@@ -112,8 +113,43 @@ class AccurateTarget:
         return 0, ci_target
 
 
+def try_preprocess(xts_root_dir, change_info_file):
+    if not os.path.exists(change_info_file):
+        return True
+
+    go_preprocess = False
+    try:
+        with open(change_info_file, 'r') as file:
+            data = json.load(file)
+            tool_changes = data.get("test/xts/tools", {}).get("changed_file_list", {})
+            for chg_type in ["added", "modified", "rename", "deleted"]:
+                for fpath in tool_changes.get(chg_type, []):
+                    if fpath.startswith("preprocess/"):
+                        go_preprocess = True
+                        break
+                if go_preprocess:
+                    break
+    except Exception:
+        pass
+
+    if go_preprocess:
+        print(f"changes in test/xts/tools/preprocess/ detected, go preprocess unconditionally.")
+        preprocess_script = os.path.join(CODEBASE, "test/xts/tools/preprocess/xts_preprocess.sh")
+        log_path = os.path.join(os.path.dirname(preprocess_script), "preprocess.log")
+        try:
+            subprocess.run([preprocess_script, xts_root_dir, log_path], check=True)
+        except Exception as err:
+            print(f"[ERROR] Preprocess execution failed: {err}")
+            return False
+    return True
+
+
 def generate(xts_root_dir, change_info_file, build_target, suite_type, device_type = "phone"):
     print("{}:{}: build_target={}".format(__file__, sys._getframe().f_lineno, build_target))
+
+    if not try_preprocess(xts_root_dir, change_info_file):
+        return -1, []
+
     if not os.path.exists(change_info_file):
         print("warning: {} not exist".format(change_info_file))
         return 0, build_target
