@@ -32,6 +32,7 @@ class HvigorChecker:
         self._current_dir = Path(__file__).resolve().parent
         self._suite_name = suite_name
         self._xts_root_dir = (self._current_dir / '../..' / suite_name).resolve()
+        self._corrupted_files = set()
 
     def get_hvigor_version(self, conf_file: Path):
         with conf_file.open('r', encoding='utf-8') as f:
@@ -40,8 +41,8 @@ class HvigorChecker:
                 version = data.get('hvigorVersion')
                 return version if version else data.get('modelVersion')
             except Exception:
-                print(f'Error processing config file: {conf_file}')
-                raise
+                self._corrupted_files.add(str(conf_file))
+                return None
 
     def get_compile_sdk_version(self, conf_file: Path):
         with conf_file.open('r', encoding='utf-8') as f:
@@ -50,8 +51,8 @@ class HvigorChecker:
                 version = data.get('app').get('products')[0].get('compileSdkVersion')
                 return str(version)
             except Exception:
-                print(f'Error processing config file: {conf_file}')
-                raise
+                self._corrupted_files.add(str(conf_file))
+                return None
 
     def output_unmatched_project(self, prject_list, filename):
         print("")
@@ -69,6 +70,12 @@ class HvigorChecker:
             if version not in self.HVIGOR_BASE_VERSION:
                 unmatch_prj_list.append((version, filename))
 
+        if self._corrupted_files:
+            raise RuntimeError(
+                "These config files contain syntax errors or are structurally malformed, "
+                "please check and correct them:\n" + "\n".join(self._corrupted_files)
+            )
+
         if len(unmatch_prj_list):
             self.output_unmatched_project(unmatch_prj_list, 'hvigor-config.json5')
             print("Plesse use {}".format(self.HVIGOR_BASE_VERSION))
@@ -85,6 +92,12 @@ class HvigorChecker:
             compile_sdk_version = self.get_compile_sdk_version(filename)
             if compile_sdk_version != api_full_version:
                 unmatch_prj_list.append((compile_sdk_version, filename))
+
+        if self._corrupted_files:
+            raise RuntimeError(
+                "These config files contain syntax errors or are structurally malformed, "
+                "please check and correct them:\n" + "\n".join(self._corrupted_files)
+            )
 
         if len(unmatch_prj_list):
             self.output_unmatched_project(unmatch_prj_list, 'build-profile.json5')
