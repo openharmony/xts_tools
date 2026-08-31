@@ -269,7 +269,7 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<byte> = [3, 1, 2];
-      let result = new FixedArray<byte>(3);
+      let result = new FixedArray<byte>(3, new Byte());
       let cmp = (lhs: byte, rhs: byte): int => {
         return lhs - rhs;
       };
@@ -382,7 +382,7 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [30, 10, 20];
-      let result = new FixedArray<short>(3);
+      let result = new FixedArray<short>(3, new Short());
       let cmp = (lhs: short, rhs: short): int => {
         return lhs - rhs;
       };
@@ -496,7 +496,7 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<int> = [300, 100, 200];
-      let result = new FixedArray<int>(3);
+      let result = new FixedArray<int>(3, new Int());
       let cmp = (lhs: int, rhs: int): int => {
         return lhs - rhs;
       };
@@ -609,7 +609,7 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<long> = [3000, 1000, 2000];
-      let result = new FixedArray<long>(3);
+      let result = new FixedArray<long>(3, new Long());
       let cmp = (lhs: long, rhs: long): int => {
         return lhs > rhs ? 1 : -1;
       };
@@ -726,7 +726,7 @@ export default function BuiltinArraySortPerfTest(): void {
         Double.toFloat(1.1),
         Double.toFloat(2.2)
       ];
-      let result = new FixedArray<float>(3);
+      let result = new FixedArray<float>(3, new Float());
       let cmp = (lhs: float, rhs: float): int => {
         return lhs > rhs ? 1 : -1;
       };
@@ -842,7 +842,7 @@ export default function BuiltinArraySortPerfTest(): void {
 
     it('PerformanceTest_BuiltinArraySortPerfTest_4200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<double> = [3.33, 1.11, 2.22];
-      let result = new FixedArray<double>(3);
+      let result = new FixedArray<double>(3, new Double());
       let cmp = (lhs: double, rhs: double): int => {
         return lhs > rhs ? 1 : -1;
       };

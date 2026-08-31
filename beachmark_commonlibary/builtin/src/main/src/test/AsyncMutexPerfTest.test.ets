@@ -62,7 +62,7 @@ export default function AsyncMutexPerfTest() : void{
 
     //并发格式不规范
     it('PerformanceTest_AsyncMutex_Instance_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, async () => {
-      let mutexArray = new FixedArray<concurrency.stackless.AsyncMutex>(BASE_COUNT)
+      let mutexArray = new FixedArray<concurrency.stackless.AsyncMutex>(BASE_COUNT, new concurrency.stackless.AsyncMutex())
       for (let i = 0; i < BASE_COUNT; i++) {
           mutexArray[i]=new concurrency.stackless.AsyncMutex()
       }
@@ -80,7 +80,7 @@ export default function AsyncMutexPerfTest() : void{
 
     //并发格式不规范
     it('PerformanceTest_AsyncMutex_Instance_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, async () => {
-      let mutexArray = new FixedArray<concurrency.stackless.AsyncMutex>(BASE_COUNT)
+      let mutexArray = new FixedArray<concurrency.stackless.AsyncMutex>(BASE_COUNT, new concurrency.stackless.AsyncMutex())
       for (let i = 0; i < BASE_COUNT; i++) {
           mutexArray[i]= new concurrency.stackless.AsyncMutex()
       }

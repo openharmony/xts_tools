@@ -126,9 +126,9 @@ export default function RuntimePerfTest(): void {
 
     it('PerformanceTest_Runtime_addFrontElementsStub_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
 
-      let original: FixedArray<Object> = new FixedArray<Object>(2);
-      let front: FixedArray<Object> = new FixedArray<Object>(1);
-      let b: FixedArray<Any> = new FixedArray<Any>(0);
+      let original: FixedArray<Object> = new FixedArray<Object>(2, new Object());
+      let front: FixedArray<Object> = new FixedArray<Object>(1, new Object());
+      let b: FixedArray<Any> = new FixedArray<Any>(0, undefined);
 
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -146,9 +146,9 @@ export default function RuntimePerfTest(): void {
 
     it('PerformanceTest_Runtime_removeFrontElementsStub_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
 
-      let original: FixedArray<Object> = new FixedArray<Object>(3);
+      let original: FixedArray<Object> = new FixedArray<Object>(3, new Object());
       let count: int = 1;
-      let b: FixedArray<Any> = new FixedArray<Any>(0);
+      let b: FixedArray<Any> = new FixedArray<Any>(0, undefined);
 
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -166,9 +166,9 @@ export default function RuntimePerfTest(): void {
 
     it('PerformanceTest_Runtime_restArgumentsUnderapplicationStub_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
 
-      let rest: FixedArray<Object> = new FixedArray<Object>(2);
+      let rest: FixedArray<Object> = new FixedArray<Object>(2, new Object());
       let required: int = 3;
-      let b: FixedArray<Any> = new FixedArray<Any>(0);
+      let b: FixedArray<Any> = new FixedArray<Any>(0, undefined);
 
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -187,7 +187,7 @@ export default function RuntimePerfTest(): void {
     it('PerformanceTest_Runtime_lambdaUnsafeCallStub_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
 
       let fn: Function = () => {};
-      let r: FixedArray<Object> = new FixedArray<Object>(2);
+      let r: FixedArray<Object> = new FixedArray<Object>(2, new Object());
       let b: Any;
 
 
