@@ -1898,3 +1898,377 @@ testKeyedSetterCreatingOwnPropertiesNonConfigurable(42, 43, 44);
       arktest.assertEQ(27, this[x]);
     }
   };
+  new Derived().mSloppy();
+  new Derived().mStrict();
+}());
+
+
+(function TestSuperCall() {
+  'use strict';
+
+  let baseCalled = 0;
+  let derivedCalled = 0;
+  let derivedDerivedCalled = 0;
+
+  class Base {
+    constructor() {
+      baseCalled++;
+    }
+  }
+
+  class Derived extends Base {
+    constructor() {
+      let r = super();
+      arktest.assertEQ(this, r);
+      derivedCalled++;
+    }
+  }
+
+  arktest.assertEQ(Base, Base.prototype.constructor);
+  arktest.assertEQ(Base.prototype, Derived.prototype.__proto__);
+
+  baseCalled = 0;
+  derivedCalled = 0;
+  new Derived();
+  arktest.assertEQ(1, baseCalled);
+  arktest.assertEQ(1, derivedCalled);
+
+  class DerivedDerived extends Derived {
+    constructor() {
+      let r = super();
+      arktest.assertEQ(this, r);
+      derivedDerivedCalled++;
+    }
+  }
+
+  baseCalled = 0;
+  derivedCalled = 0;
+  derivedDerivedCalled = 0;
+  new DerivedDerived();
+  arktest.assertEQ(1, baseCalled);
+  arktest.assertEQ(1, derivedCalled);
+  arktest.assertEQ(1, derivedDerivedCalled);
+
+  class Base2 {
+    constructor(v) {
+      this.fromBase = v;
+    }
+  }
+  class Derived2 extends Base2 {
+    constructor(v1, v2) {
+      let r = super(v1);
+      arktest.assertEQ(this, r);
+      this.fromDerived = v2;
+    }
+  }
+
+  let d = new Derived2('base', 'derived');
+  arktest.assertEQ('base', d.fromBase);
+  arktest.assertEQ('derived', d.fromDerived);
+
+  let calls = 0;
+  class G {
+    constructor() {
+      calls++;
+    }
+  }
+
+  class F extends Object {
+    constructor() {
+      super();
+    }
+  }
+  F.__proto__ = G;
+  new F();
+  arktest.assertEQ(1, calls);
+  F.__proto__ = function() {};
+  new F();
+  arktest.assertEQ(1, calls);
+}());
+
+
+(function TestExtendsObject() {
+  'use strict';
+  class F extends Object { }
+  let f = new F(42);
+
+  arktest.assertTrue(f instanceof F);
+  arktest.assertTrue(f instanceof Object);
+}());
+
+
+(function TestSuperCallErrorCases() {
+  'use strict';
+  class T extends Object {
+    constructor() {
+      super();
+    }
+  }
+
+  T.__proto__ = null;
+  arktest.expectThrow(function() { new T(); }, ((e: Error): boolean => e instanceof TypeError));
+}());
+
+
+(function TestSuperPropertyInEval() {
+  'use strict';
+  let y = 3;
+  class Base {
+    m() { return 1; }
+    get x() { return 2; }
+  }
+  class Derived extends Base {
+    evalM() {
+      arktest.assertEQ(1, eval('super.m()'));
+    }
+    evalX() {
+      arktest.assertEQ(2, eval('super.x'));
+    }
+    globalEval1() {
+      arktest.expectThrow('super.x', ((e: Error): boolean => e instanceof SyntaxError));
+      arktest.expectThrow('super.m()', ((e: Error): boolean => e instanceof SyntaxError));
+    }
+    globalEval2() {
+      super.x;
+      arktest.expectThrow('super.x', ((e: Error): boolean => e instanceof SyntaxError));
+      arktest.expectThrow('super.m()', ((e: Error): boolean => e instanceof SyntaxError));
+    }
+  }
+  let d = new Derived();
+  d.globalEval1();
+  d.globalEval2();
+  d.evalM();
+  d.evalX();
+})();
+
+
+(function TestSuperPropertyInArrow() {
+  'use strict';
+  let y = 3;
+  class Base {
+    m() { return 1; }
+    get x() { return 2; }
+  }
+  class Derived extends Base {
+    arrow() {
+      arktest.assertEQ(super.x, (() => super.x)());
+      arktest.assertEQ(super.m(), (() => super.m())());
+      return (() => super.m())();
+    }
+  }
+  let d = new Derived();
+  arktest.assertEQ(1, d.arrow());
+})();
+
+
+(function TestSuperInOtherScopes() {
+  const p = {x: 99};
+  const o0 = {__proto__: p, f() { return eval('\'use strict\'; super.x') }};
+  arktest.assertEQ(p.x, o0.f());
+  const o1 = {__proto__: p, f() { with ({}) return super.x }};
+  arktest.assertEQ(p.x, o1.f());
+  const o2 = {__proto__: p, f({a}) { return super.x }};
+  arktest.assertEQ(p.x, o2.f({}));
+  const o3 = {__proto__: p, f(...a) { return super.x }};
+  arktest.assertEQ(p.x, o3.f());
+  const o4 = {__proto__: p, f() { 'use strict'; { let x; return super.x } }};
+  arktest.assertEQ(p.x, o4.f());
+})();
+
+
+(function TestSuperCallInOtherScopes() {
+  class C {constructor() { this.x = 99 }}
+  class D0 extends C {constructor() { eval('\'use strict\'; super()') }}
+  arktest.assertEQ(99, (new D0).x);
+  class D2 extends C {constructor({a}) { super() }}
+  arktest.assertEQ(99, (new D2({})).x);
+  class D3 extends C {constructor(...a) { super() }}
+  arktest.assertEQ(99, (new D3()).x);
+  class D4 extends C {constructor() { { let x; super() } }}
+  arktest.assertEQ(99, (new D4).x);
+})();
+
+
+(function TestSuperCallInEval() {
+  'use strict';
+  class Base {
+    constructor(x) {
+      this.x = x;
+    }
+  }
+  class Derived extends Base {
+    constructor(x) {
+      let r = eval('super(x)');
+      arktest.assertEQ(this, r);
+    }
+  }
+  let d = new Derived(42);
+  arktest.assertEQ(42, d.x);
+})();
+
+
+(function TestSuperCallInArrow() {
+  'use strict';
+  class Base {
+    constructor(x) {
+      this.x = x;
+    }
+  }
+  class Derived extends Base {
+    constructor(x) {
+      let r = (() => super(x))();
+      arktest.assertEQ(this, r);
+    }
+  }
+  let d = new Derived(42);
+  arktest.assertEQ(42, d.x);
+})();
+
+
+(function TestSuperCallEscapes() {
+  'use strict';
+  class Base {
+    constructor(x) {
+      this.x = x;
+    }
+  }
+
+  let f;
+  class Derived extends Base {
+    constructor() {
+      f = () => super(2);
+    }
+  }
+  arktest.expectThrow(function() {
+    new Derived();
+  }, ((e: Error): boolean => e instanceof ReferenceError));
+
+  let o = f();
+  arktest.assertEQ(2, o.x);
+  arktest.assertTrue(o instanceof Derived);
+
+  arktest.expectThrow(function() {
+    f();
+  }, ((e: Error): boolean => e instanceof ReferenceError));
+})();
+
+
+(function TestSuperCallInLoop() {
+  'use strict';
+  class Base {
+    constructor(x) {
+      this.x = x;
+    }
+  }
+  class Derived extends Base {
+    constructor(x, n) {
+      for (let i = 0; i < n; ++i) {
+        super(x);
+      }
+    }
+  }
+
+  let o = new Derived(23, 1);
+  arktest.assertEQ(23, o.x);
+  arktest.assertTrue(o instanceof Derived);
+
+  arktest.expectThrow('new Derived(42, 0)', ((e: Error): boolean => e instanceof ReferenceError));
+  arktest.expectThrow('new Derived(65, 2)', ((e: Error): boolean => e instanceof ReferenceError));
+})();
+
+
+(function TestSuperCallReentrant() {
+  'use strict';
+  class Base {
+    constructor(fun) {
+      this.x = fun();
+    }
+  }
+  class Derived extends Base {
+    constructor(x) {
+      let f = () => super(() => x)
+      super(f);
+    }
+  }
+  arktest.expectThrow('new Derived(23)', ((e: Error): boolean => e instanceof ReferenceError));
+})();
+
+
+(function TestSuperCallSpreadInEval() {
+  'use strict';
+  class Base {
+    constructor(x) {
+      this.x = x;
+    }
+  }
+  class Derived extends Base {
+    constructor(x) {
+      let r = eval('super(...[x])');
+      arktest.assertEQ(this, r);
+    }
+  }
+  let d = new Derived(42);
+  arktest.assertEQ(42, d.x);
+})();
+
+
+(function TestSuperCallSpreadInArrow() {
+  'use strict';
+  class Base {
+    constructor(x) {
+      this.x = x;
+    }
+  }
+  class Derived extends Base {
+    constructor(x) {
+      let r = (() => super(...[x]))();
+      arktest.assertEQ(this, r);
+    }
+  }
+  let d = new Derived(42);
+  arktest.assertEQ(42, d.x);
+})();
+
+(function TestNullSuperPropertyLoad() {
+  let obj = {
+    __proto__: null,
+    named() { return super.x },
+    keyed() { return super[5] }
+  };
+  arktest.expectThrow(obj.named, ((e: Error): boolean => e instanceof TypeError));
+  arktest.expectThrow(obj.keyed, ((e: Error): boolean => e instanceof TypeError));
+  class C extends null {
+    named() { return super.x }
+    keyed() { return super[5] }
+  }
+  arktest.expectThrow(C.prototype.named, ((e: Error): boolean => e instanceof TypeError));
+  arktest.expectThrow(C.prototype.keyed, ((e: Error): boolean => e instanceof TypeError));
+})();
+
+(function TestNullSuperPropertyStore() {
+  let obj = {
+    __proto__: null,
+    named() { super.x = 42 },
+    keyed() { super[5] = 42 }
+  };
+  arktest.expectThrow(obj.named, ((e: Error): boolean => e instanceof TypeError));
+  arktest.expectThrow(obj.keyed, ((e: Error): boolean => e instanceof TypeError));
+  class C extends null {
+    named() { super.x = 42 }
+    keyed() { super[5] = 42 }
+  }
+  arktest.expectThrow(C.prototype.named, ((e: Error): boolean => e instanceof TypeError));
+  arktest.expectThrow(C.prototype.keyed, ((e: Error): boolean => e instanceof TypeError));
+})();
+
+(function TestDeleteSuperPropertyEvaluationOrder() {
+  let i = 0;
+  class Base {}
+  class Derived extends Base {
+    test() {
+      delete super[i++];
+    }
+  }
+  arktest.expectThrow(Derived.prototype.test, ((e: Error): boolean => e instanceof ReferenceError));
+  arktest.assertEQ(1, i);
+})();
