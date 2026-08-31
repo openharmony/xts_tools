@@ -5324,6 +5324,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.telephony.vcard.d.ts",
+            "bundle_name": [
+                "core_service"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.net.sharing.d.ts",
             "bundle_name": [
                 "netmanager_ext"
@@ -5443,7 +5450,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.telephony.radio.d.ts",
+            "bundle_name": [
+                "core_service"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.telephony.esim.d.ts",
+            "bundle_name": [
+                "core_service"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.telephony.esim.d.ts",
             "bundle_name": [
                 "core_service"
             ],
