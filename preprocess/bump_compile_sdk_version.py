@@ -119,7 +119,7 @@ def should_bump_compile_sdk_version(suite_path: Path, change_info_file: str | Pa
     if not local_ver or not sdk_ver or local_ver == sdk_ver:
         return False, local_ver, sdk_ver
     should_bump = not _tc_build_profile_changed(suite_path, change_info_file)
-    return should_bump, local_ver, sdk_ver
+    return True, local_ver, sdk_ver
 
 
 def _process_file(config_file_path: str, target_version: str) -> tuple[int, bool]:
