@@ -57,48 +57,73 @@ def get_sdk_api_full_version() -> str:
     return ''
 
 
-def _check_tc_build_profile_changed(suite_path: Path, tc_repo_data: dict):
+def _check_tc_build_profile_changed(suite_path: Path, tc_repo_data: dict) -> list[Path]:
     """
     Checks if build-profile.json5 changed in hvigor test-case project.
+    Returns list of changed build-profile.json5 files.
     """
     change_types = dict(tc_repo_data.get('changed_file_list', {}))
     changes = list(change_types.get('added', [])) + \
               list(change_types.get('rename', [])) + \
               list(change_types.get('modified', []))
 
+    changed_files = []
     for chg in changes:
         fpath = suite_path / str(chg)
-        if fpath.is_file() and \
-            fpath.name == 'build-profile.json5' and \
-            'entry' not in fpath.parts and \
-            PATTERN.search(fpath.read_text()):
-            return True
-    return False
+        if fpath.name != 'build-profile.json5':
+            continue
+        if not fpath.is_file():
+            # If the build-profile.json5 is in the change_info.json yet cannot be found at disk, gracefully skip it.
+            continue
+        if 'entry' in fpath.parts:
+            continue
+        try:
+            if PATTERN.search(fpath.read_text(encoding='utf-8')):
+                changed_files.append(fpath)
+        except Exception as e:
+            print(f"[XTS PREPROCESS] [WARN] Failed to read {fpath}: {e}")
+            continue
+    return changed_files
 
 
-def _tc_build_profile_changed(suite_path: Path, change_info_file: str | Path = CHANGE_INFO_FILE) -> bool:
+def _tc_build_profile_changed(suite_path: Path, change_info_file: str | Path = CHANGE_INFO_FILE) -> list[Path]:
     """
     Checks if the commit contains a/m changes to build-profile.json5 under suite_path.
+    Returns list of changed build-profile.json5 files.
     """
     change_path = Path(change_info_file)
     if not change_path.exists():
         print(f"[XTS PREPROCESS] No such config: change_info.json, consider full build.")
-        return False
+        return []
     try:
         data = dict(json.loads(change_path.read_text(encoding='utf-8')))
         if not data:
             print(f"[XTS PREPROCESS] [WARN] Empty change_info.json")
-            return False
+            return []
 
+        tc_changed_files = []
         suite_parts = suite_path.parts
         for repo in data:
             repo_parts = PurePath(repo).parts
             suite_match = len(suite_parts) >= len(repo_parts) and suite_parts[-len(repo_parts):] == repo_parts
-            if suite_match and _check_tc_build_profile_changed(suite_path, data.get(repo, {})):
-                return True
-        return False
+            if suite_match:
+                tc_changed_files.extend(_check_tc_build_profile_changed(suite_path, data.get(repo, {})))
+        return list(dict.fromkeys(tc_changed_files))
     except Exception as e:
         print(f"[XTS PREPROCESS] [WARN] Failed to parse change_info_file for commit type: {e}")
+        return []
+
+
+def check_tc_build_profile_files(files: list[Path], target_version: str) -> bool:
+    """
+    Validates that modified build-profile.json5 files meet requirements.
+    """
+    from check_hvigor import HvigorChecker
+    checker = HvigorChecker('')
+    try:
+        return checker.check_compile_sdk_version(files, target_version)
+    except Exception as e:
+        print(f"[XTS PREPROCESS] [ERROR] {e}")
         return False
 
 
@@ -109,8 +134,8 @@ def should_bump_compile_sdk_version(suite_path: Path, change_info_file: str | Pa
     Returns:
         tuple[bool, str, str]: (should_bump, local_ver, sdk_ver)
         should_bump:
-            - True if local_ver != sdk_ver AND commit contains tc project level build-profile.json5.
-            - False if local_ver == sdk_ver OR commit doesn't contain tc project level build-profile.json5.
+            - True if local_ver != sdk_ver.
+            - False if local_ver == sdk_ver or versions not found.
         local_ver: local config api_full_version from config.json
         sdk_ver: build/version.gni api_full_version
     """
@@ -118,7 +143,6 @@ def should_bump_compile_sdk_version(suite_path: Path, change_info_file: str | Pa
     sdk_ver = get_sdk_api_full_version()
     if not local_ver or not sdk_ver or local_ver == sdk_ver:
         return False, local_ver, sdk_ver
-    should_bump = not _tc_build_profile_changed(suite_path, change_info_file)
     return True, local_ver, sdk_ver
 
 
@@ -149,7 +173,7 @@ def bump_compile_sdk_version(xts_suite_dir: str | Path) -> int:
     Batch updates compileSdkVersion in all build-profile.json5 files under xts_suite_dir.
 
     Returns:
-        int: Number of files successfully updated.
+        int: Number of files successfully updated, or -1 if check failed.
     """
     suite_path = Path(xts_suite_dir).resolve()
     if not suite_path.exists():
@@ -158,12 +182,15 @@ def bump_compile_sdk_version(xts_suite_dir: str | Path) -> int:
 
     should_bump, local_ver, sdk_ver = should_bump_compile_sdk_version(suite_path)
     if not should_bump:
-        if local_ver and sdk_ver and local_ver != sdk_ver:
-            print(f"[XTS PREPROCESS] API update wip ('{local_ver}' -> '{sdk_ver}'). "
-                  f"Commit contains hvigor project build-profile.json5. Skipping preprocess.")
-        else:
-            print(f"[XTS PREPROCESS] API update completed ('{local_ver}' -> '{sdk_ver}'). Skipping preprocess.")
+        print(f"[XTS PREPROCESS] API update completed ('{local_ver}' -> '{sdk_ver}'). Skipping preprocess.")
         return 0
+
+    tc_changed_files = _tc_build_profile_changed(suite_path)
+    if tc_changed_files:
+        print(f"[XTS PREPROCESS] API update wip ('{local_ver}' -> '{sdk_ver}'). "
+              f"Commit contains hvigor project build-profile.json5. Checking modified files...")
+        if not check_tc_build_profile_files(tc_changed_files, sdk_ver):
+            return -1
 
     json5_files = list(set(str(p.resolve()) for p in suite_path.rglob("build-profile.json5")))
 
@@ -199,7 +226,8 @@ def main():
     if len(sys.argv) < 2:
         print("Usage: python3 bump_compile_sdk_version.py <xts_suite_dir>")
         return 1
-    bump_compile_sdk_version(sys.argv[1])
+    if bump_compile_sdk_version(sys.argv[1]) < 0:
+        return 1
     return 0
 
 

@@ -35,24 +35,28 @@ class HvigorChecker:
         self._corrupted_files = set()
 
     def get_hvigor_version(self, conf_file: Path):
-        with conf_file.open('r', encoding='utf-8') as f:
-            try:
+        if not conf_file.is_file():
+            return None
+        try:
+            with conf_file.open('r', encoding='utf-8') as f:
                 data = json5.load(f)
                 version = data.get('hvigorVersion')
                 return version if version else data.get('modelVersion')
-            except Exception:
-                self._corrupted_files.add(str(conf_file))
-                return None
+        except Exception:
+            self._corrupted_files.add(str(conf_file))
+            return None
 
     def get_compile_sdk_version(self, conf_file: Path):
-        with conf_file.open('r', encoding='utf-8') as f:
-            try:
+        if not conf_file.is_file():
+            return None
+        try:
+            with conf_file.open('r', encoding='utf-8') as f:
                 data = json5.load(f)
                 version = data.get('app').get('products')[0].get('compileSdkVersion')
                 return str(version)
-            except Exception:
-                self._corrupted_files.add(str(conf_file))
-                return None
+        except Exception:
+            self._corrupted_files.add(str(conf_file))
+            return None
 
     def output_unmatched_project(self, prject_list, filename):
         print("")
@@ -82,11 +86,11 @@ class HvigorChecker:
             return False
         return True
 
-    def check_compile_sdk_version(self, hvigor_prj_list: list[Path]):
-        api_full_version = get_sdk_api_full_version()
+    def check_compile_sdk_version(self, hvigor_prj_list: list[Path], target_version: str | None = None):
+        api_full_version = target_version or get_sdk_api_full_version()
         unmatch_prj_list = []
-        for prj_dir in hvigor_prj_list:
-            filename = prj_dir / 'build-profile.json5'
+        for item in hvigor_prj_list:
+            filename = item if item.name == 'build-profile.json5' else item / 'build-profile.json5'
             if not filename.is_file():
                 continue
             compile_sdk_version = self.get_compile_sdk_version(filename)
