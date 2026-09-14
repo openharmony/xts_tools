@@ -19,7 +19,7 @@ import os
 import sys
 import json5
 from pathlib import Path
-from bump_compile_sdk_version import get_sdk_api_full_version
+from utils import get_sdk_api_full_version, is_hvigor_project
 
 
 class HvigorChecker:
@@ -35,8 +35,6 @@ class HvigorChecker:
         self._corrupted_files = set()
 
     def get_hvigor_version(self, conf_file: Path):
-        if not conf_file.is_file():
-            return None
         try:
             with conf_file.open('r', encoding='utf-8') as f:
                 data = json5.load(f)
@@ -45,15 +43,19 @@ class HvigorChecker:
         except Exception:
             self._corrupted_files.add(str(conf_file))
             return None
+        except Exception:
+            self._corrupted_files.add(str(conf_file))
+            return None
 
     def get_compile_sdk_version(self, conf_file: Path):
-        if not conf_file.is_file():
-            return None
         try:
             with conf_file.open('r', encoding='utf-8') as f:
                 data = json5.load(f)
                 version = data.get('app').get('products')[0].get('compileSdkVersion')
                 return str(version)
+        except Exception:
+            self._corrupted_files.add(str(conf_file))
+            return None
         except Exception:
             self._corrupted_files.add(str(conf_file))
             return None
@@ -111,7 +113,6 @@ class HvigorChecker:
 
     def get_hvigor_prject_list(self) -> list[Path]:
         hvigor_prj_list = []
-        target_files = {'build-profile.json5', 'BUILD.gn', 'Test.json'}
         exclude_dirs = {'.cxx', '.git', 'node_modules', 'oh_modules', 'build', '.hvigor', '.idea', 'dist'}
 
         root_path = Path(self._xts_root_dir)
@@ -120,9 +121,9 @@ class HvigorChecker:
 
         walker = root_path.walk() if hasattr(root_path, 'walk') else os.walk(root_path)
 
-        for root, dirs, files in walker:
+        for root, dirs, _ in walker:
             current_path = Path(root)
-            if 'hvigor' in dirs and target_files.issubset(files):
+            if is_hvigor_project(current_path):
                 hvigor_prj_list.append(current_path.resolve())
                 dirs.clear()
             else:
@@ -130,8 +131,8 @@ class HvigorChecker:
 
         return hvigor_prj_list
 
-    def check_hvigor(self):
-        hvigor_prj_list = self.get_hvigor_prject_list()
+    def check_hvigor(self, prj_list: list[Path] | None = None):
+        hvigor_prj_list = prj_list if prj_list is not None else self.get_hvigor_prject_list()
         check_func_list = [
             self.check_hvigor_version,
             self.check_compile_sdk_version,
