@@ -55,7 +55,6 @@ def _check_tc_build_profile_changed(suite_path: Path, tc_repo_data: dict) -> lis
 
 
 def _tc_build_profile_changed(suite_path: Path, change_info_file: str | Path = CHANGE_INFO_FILE) -> list[Path]:
-def _tc_build_profile_changed(suite_path: Path, change_info_file: str | Path = CHANGE_INFO_FILE) -> list[Path]:
     """
     Checks if the commit contains a/m changes to build-profile.json5 under suite_path.
     Returns a list of changed hvigor test-case project directories.
@@ -64,12 +63,11 @@ def _tc_build_profile_changed(suite_path: Path, change_info_file: str | Path = C
     if not change_path.exists():
         print(f"[XTS PREPROCESS] No such config: change_info.json, consider full build.")
         return []
-        return []
+
     try:
         data = dict(json.loads(change_path.read_text(encoding='utf-8')))
         if not data:
             print(f"[XTS PREPROCESS] [WARN] Empty change_info.json")
-            return []
             return []
 
         tc_changed_projects = []
@@ -126,7 +124,6 @@ def bump_compile_sdk_version(xts_suite_dir: str | Path) -> int:
 
     Returns:
         int: Number of files successfully updated, or -1 if check failed.
-        int: Number of files successfully updated, or -1 if check failed.
     """
     suite_path = Path(xts_suite_dir).resolve()
     if not suite_path.exists():
@@ -178,8 +175,6 @@ def bump_compile_sdk_version(xts_suite_dir: str | Path) -> int:
 def main():
     if len(sys.argv) < 2:
         print("Usage: python3 bump_compile_sdk_version.py <xts_suite_dir>")
-        return 1
-    if bump_compile_sdk_version(sys.argv[1]) < 0:
         return 1
     if bump_compile_sdk_version(sys.argv[1]) < 0:
         return 1
