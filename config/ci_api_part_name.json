@@ -21205,6 +21205,20 @@
             "path": "interface/sdk-js/zh-cn/arkts/@arkts.collections.static.d.ets",
             "bundle_name": [],
             "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.customization.assessment.d.ts",
+            "bundle_name": [
+                "assessment_configuration_service"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.AutomaticSceneConfigurationKit.d.ts",
+            "bundle_name": [
+                "assessment_configuration_service"
+            ],
+            "build_targets": {}
         }
     ],
     "sdk_c": [
