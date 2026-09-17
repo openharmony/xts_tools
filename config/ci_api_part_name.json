@@ -8754,6 +8754,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.security.privacyComputation.d.ts",
+            "bundle_name": [
+                "privacyComputation"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.security.privacyComputation.d.ts",
+            "bundle_name": [
+                "privacyComputation"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.abilityToolAccessCtrl.d.ts",
             "bundle_name": [
                 "secure_access_fence"
