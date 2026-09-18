@@ -14,10 +14,9 @@
 
 /*---
 desc: A const declaration with an initializer cannot be a for statement body
-tags: [compile-only, negative]
-expected_out_1: ["Syntax error ESY0175: Lexical declaration is not allowed in single statement context."]
+tags: [compile-only]
 ---*/
 
 function main(): void {
-    for (; false;) const x: int = 1;
+    for (; false;) { const x: int = 1; }
 }

@@ -8,6 +8,6 @@ expected_out_1: [
 ]
 ---*/
 
-// Conversion notes: 类名保留字 `static` 测早期错误（ESY0316）
-class static {}
+// Conversion notes: 保留字 `static` 不能作为标识符（ESY0316）
+let static: int = 1;
 

@@ -15,6 +15,6 @@ expected_out_1: ["Syntax error ESY0040: Illegal start of CLASS expression."]
 ---*/
 
 function main(): void {
-    for (; false;) class C {
-    }
+    for (; false;) { class C {
+    } }
 }

@@ -13,8 +13,9 @@ expected_out_1: |-
     Syntax error ESY0227: Unexpected token 'else'.
 ---*/
 
-if (true) async function f(): Promise<void> {
+if (true) { async function f(): Promise<void> {
 } else {
+}
 }
 
 function main(): void {

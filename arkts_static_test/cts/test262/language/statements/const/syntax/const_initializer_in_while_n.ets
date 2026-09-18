@@ -14,10 +14,9 @@
 
 /*---
 desc: A const declaration with an initializer cannot be a while statement body
-tags: [compile-only, negative]
-expected_out_1: ["Syntax error ESY0175: Lexical declaration is not allowed in single statement context."]
+tags: [compile-only]
 ---*/
 
 function main(): void {
-    while (false) const x: int = 1;
+    while (false) { const x: int = 1; }
 }

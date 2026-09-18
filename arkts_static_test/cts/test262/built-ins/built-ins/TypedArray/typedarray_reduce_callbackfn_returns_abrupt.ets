@@ -22,7 +22,8 @@ function main(): void {
     taI32[0] = 1; taI32[1] = 2; taI32[2] = 3;
     let threwI32: boolean = false;
     try {
-        taI32.reduce((acc: number, v: number): number => { throw new Error('boom'); }, 0);;
+        taI32.reduce((acc: number, v: number): number => { throw new Error('boom'); }, 0);
+    } catch (e) {
         threwI32 = true;
     }
 
@@ -31,7 +32,8 @@ function main(): void {
     taU8[0] = 1; taU8[1] = 2; taU8[2] = 3;
     let threwU8: boolean = false;
     try {
-        taU8.reduce((acc: number, v: number): number => { throw new Error('boom'); }, 0);;
+        taU8.reduce((acc: number, v: number): number => { throw new Error('boom'); }, 0);
+    } catch (e) {
         threwU8 = true;
     }
 
@@ -40,7 +42,8 @@ function main(): void {
     taF64[0] = 1; taF64[1] = 2; taF64[2] = 3;
     let threwF64: boolean = false;
     try {
-        taF64.reduce((acc: number, v: number): number => { throw new Error('boom'); }, 0);;
+        taF64.reduce((acc: number, v: number): number => { throw new Error('boom'); }, 0);
+    } catch (e) {
         threwF64 = true;
     }
 

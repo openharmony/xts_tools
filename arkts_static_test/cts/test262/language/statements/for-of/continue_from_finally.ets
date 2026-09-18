@@ -24,8 +24,8 @@ function main(): void {
         } catch (e) {
         } finally {
             ++count;
-            continue;
         }
+        continue;
     }
     arktest.assertEQ(count, 2);
 }

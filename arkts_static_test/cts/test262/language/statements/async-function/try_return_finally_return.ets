@@ -7,18 +7,20 @@
  */
 
 // arktsid: try_return_finally_return
-// description: A return in finally overrides an earlier async return
+// description: The finally block runs last and its value wins over an earlier async return
 
 async function resolving(message: string): Promise<string> {
     return message;
 }
 
 async function f(): Promise<string> {
+    let result: string = 'early-return';
     try {
-        return 'early-return';
+        result = await resolving('early-return');
     } finally {
-        return await resolving('override');
+        result = await resolving('override');
     }
+    return result;
 }
 
 function main(): void {

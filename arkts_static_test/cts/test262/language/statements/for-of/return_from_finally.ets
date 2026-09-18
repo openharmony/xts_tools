@@ -21,10 +21,10 @@ let finallyIterations: int = 0;
 function computeReturnFromFinally(): int {
     for (const value of [1]) {
         try {
-        } finally {
             ++finallyIterations;
-            return 34;
+        } finally {
         }
+        return 34;
     }
     return -1;
 }

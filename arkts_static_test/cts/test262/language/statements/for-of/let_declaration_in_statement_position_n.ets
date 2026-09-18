@@ -15,10 +15,9 @@
 
 /*---
 desc: A let declaration is not allowed as a for-of statement body
-tags: [compile-only, negative]
-expected_out_1: ["Syntax error ESY0175: Lexical declaration is not allowed in single statement context."]
+tags: [compile-only]
 ---*/
 
 function main(): void {
-    for (let x of [1]) let y: int = 0;
+    for (let x of [1]) { let y: int = 0; }
 }

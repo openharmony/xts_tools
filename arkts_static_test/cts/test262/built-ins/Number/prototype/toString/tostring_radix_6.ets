@@ -17,7 +17,6 @@
 // description: Number.prototype.toString(6) returns the base-6 string representation
 
 function main(): void {
-    // (new Number()).toString(6)
     arktest.assertEQ((0).toString(6), '0', 'new Number() in radix 6');
     // (new Number(0)).toString(6)
     arktest.assertEQ((0).toString(6), '0', 'new Number(0) in radix 6');

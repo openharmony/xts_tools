@@ -14,8 +14,8 @@ expected_out_1: |-
     Syntax error ESY0300: Missing body in do while statement
 ---*/
 
-do function f(): void {
-} while (false);
+do { function f(): void {
+} } while (false);
 
 function main(): void {
 }

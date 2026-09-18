@@ -13,8 +13,8 @@ expected_out_1: |-
     Syntax error ESY0300: Missing body in do while statement
 ---*/
 
-do class C {
-} while (false);
+do { class C {
+} } while (false);
 
 function main(): void {
 }

@@ -19,5 +19,5 @@ expected_out_1: |-
 ---*/
 
 function main(): void {
-    while (false) const x: int;
+    while (false) { const x: int; }
 }

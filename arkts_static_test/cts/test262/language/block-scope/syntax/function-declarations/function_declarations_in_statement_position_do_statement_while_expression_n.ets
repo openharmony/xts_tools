@@ -11,4 +11,4 @@ expected_out_1: |-
     Syntax error ESY0135: Nested functions are not allowed.
     Syntax error ESY0300: Missing body in do while statement
 ---*/
-do function g(): void {} while (false)
+do { function g(): void {} } while (false)

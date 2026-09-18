@@ -13,8 +13,8 @@ expected_out_1: |-
     Syntax error ESY0227: Unexpected token 'while'.
 ---*/
 
-do async function f(): Promise<void> {
-} while (false);
+do { async function f(): Promise<void> {
+} } while (false);
 
 function main(): void {
 }

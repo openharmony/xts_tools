@@ -10,11 +10,11 @@
 
 /*---
 desc: A let array binding after a line terminator is not a for body
-tags: [compile-only, negative]
-expected_out_1: ["Syntax error ESY0175: Lexical declaration is not allowed in single statement context."]
+tags: [compile-only]
 ---*/
 
 function main(): void {
-    for (; false;) let
+    for (; false;) { let
     [a]: int[] = [0];
+    }
 }

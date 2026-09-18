@@ -25,9 +25,8 @@ function main(): void {
         'Pattern character \'.\' still should match non-line terminators in modified group');
         arktest.assertTrue(re1.test('‧'),
         'Pattern character \'.\' still should match non-line terminators in modified group');
-        arktest.assertTrue(re1.test('\u0085' +
-        'Pattern character \'.\' still should match non-line terminators in mod' +
-        'ified group');
+    arktest.assertTrue(re1.test('\u0085'),
+        'Pattern character \'.\' still should match non-line terminators in modified group');
         arktest.assertTrue(re1.test('\v'),
         'Pattern character \'.\' still should match mon-line terminators in modified group');
         arktest.assertTrue(re1.test('\f'),
@@ -37,12 +36,10 @@ function main(): void {
     arktest.assertTrue(!re1.test('\u{10300}'), 'Supplementary plane still not matched by a single .');
     arktest.assertTrue(re1.test('\n'), 'Pattern character \'.\' still should match line terminators in modified group');
     arktest.assertTrue(re1.test('\r'), 'Pattern character \'.\' still should match line terminators in modified group');
-        arktest.assertTrue(re1.test('\u2028' +
-        'Pattern character \'.\' still should match line terminators in modifie' +
-        'd group');
-        arktest.assertTrue(re1.test('\u2029' +
-        'Pattern character \'.\' still should match line terminators in modifie' +
-        'd group');
+    arktest.assertTrue(re1.test('\u2028'),
+        'Pattern character \'.\' still should match line terminators in modified group');
+    arktest.assertTrue(re1.test('\u2029'),
+        'Pattern character \'.\' still should match line terminators in modified group');
         arktest.assertTrue(re1.test('\uD800'),
         'Pattern character \'.\' still should match non-line terminators in modified group');
         arktest.assertTrue(re1.test('\uDFFF'),
@@ -57,9 +54,8 @@ function main(): void {
         'Pattern character \'.\' still should match non-line terminators in modified group');
         arktest.assertTrue(re2.test('‧'),
         'Pattern character \'.\' still should match non-line terminators in modified group');
-        arktest.assertTrue(re2.test('\u0085' +
-        'Pattern character \'.\' still should match non-line terminators in mod' +
-        'ified group');
+    arktest.assertTrue(re2.test('\u0085'),
+        'Pattern character \'.\' still should match non-line terminators in modified group');
         arktest.assertTrue(re2.test('\v'),
         'Pattern character \'.\' still should match mon-line terminators in modified group');
         arktest.assertTrue(re2.test('\f'),
@@ -69,12 +65,10 @@ function main(): void {
     arktest.assertTrue(!re2.test('\u{10300}'), 'Supplementary plane still not matched by a single .');
     arktest.assertTrue(!re2.test('\n'), 'Pattern character \'.\' still should not match \'\\n\' in modified group');
     arktest.assertTrue(!re2.test('\r'), 'Pattern character \'.\' still should not match \'\\r\' in modified group');
-        arktest.assertTrue(!re2.test('\u2028' +
-        'Pattern character \'.\' still should not match \'\\u2028\' in modified' +
-        ' group');
-        arktest.assertTrue(!re2.test('\u2029' +
-        'Pattern character \'.\' still should not match \'\\u2029\' in modified' +
-        ' group');
+    arktest.assertTrue(!re2.test('\u2028'),
+        'Pattern character \'.\' still should not match \'\\u2028\' in modified group');
+    arktest.assertTrue(!re2.test('\u2029'),
+        'Pattern character \'.\' still should not match \'\\u2029\' in modified group');
         arktest.assertTrue(re2.test('\uD800'),
         'Pattern character \'.\' still should match non-line terminators in modified group');
         arktest.assertTrue(re2.test('\uDFFF'),

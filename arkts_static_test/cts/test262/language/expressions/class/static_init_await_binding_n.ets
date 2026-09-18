@@ -11,7 +11,7 @@ expected_out_1: |-
 // Conversion notes: static 块内 `class await` 绑定（await 硬关键字 ESY0316）
 class C {
     static {
-        class await {
+        class \u0061\u0077\u0061\u0069\u0074 {
         }
     }
 }

@@ -22,7 +22,8 @@ function main(): void {
     taBi64[0] = 1n; taBi64[1] = 2n; taBi64[2] = 3n;
     let threwBi64: boolean = false;
     try {
-        taBi64.reduce((acc: BigInt, v: BigInt): BigInt => { throw new Error('boom'); }, 0n);;
+        taBi64.reduce((acc: BigInt, v: BigInt): BigInt => { throw new Error('boom'); }, 0n);
+    } catch (e) {
         threwBi64 = true;
     }
 
@@ -31,7 +32,8 @@ function main(): void {
     taBu64[0] = 1n; taBu64[1] = 2n; taBu64[2] = 3n;
     let threwBu64: boolean = false;
     try {
-        taBu64.reduce((acc: BigInt, v: BigInt): BigInt => { throw new Error('boom'); }, 0n);;
+        taBu64.reduce((acc: BigInt, v: BigInt): BigInt => { throw new Error('boom'); }, 0n);
+    } catch (e) {
         threwBu64 = true;
     }
 

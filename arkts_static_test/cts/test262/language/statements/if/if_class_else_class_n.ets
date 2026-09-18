@@ -13,9 +13,9 @@ expected_out_1: |-
     Syntax error ESY0040: Illegal start of CLASS expression.
 ---*/
 
-if (true) class A {
-} else class B {
-}
+if (true) { class A {
+} } else { class B {
+} }
 
 function main(): void {
 }

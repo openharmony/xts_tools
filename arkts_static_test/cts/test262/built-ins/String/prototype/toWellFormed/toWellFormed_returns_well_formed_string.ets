@@ -24,26 +24,16 @@ function main(): void {
     let trailingPoo: string = '\uDCA9';
     let wholePoo: string = leadingPoo + trailingPoo;
 
-                arktest.assertEQ(('a' +
-            'c' +
-            'e' +
-            'a' +
-            'c' +
-            'e',
+        arktest.assertEQ(('a' + leadingPoo + 'c' + leadingPoo + 'e').toWellFormed(),
+            'a' + replacementChar + 'c' + replacementChar + 'e',
         
         'lone leading surrogates are replaced with the expected replacement character');
-                arktest.assertEQ(('a' +
-            'c' +
-            'e' +
-            'a' +
-            'c' +
-            'e',
+        arktest.assertEQ(('a' + trailingPoo + 'c' + trailingPoo + 'e').toWellFormed(),
+            'a' + replacementChar + 'c' + replacementChar + 'e',
         
         'lone trailing surrogates are replaced with the expected replacement character');
-                arktest.assertEQ(('a' +
-            'd' +
-            'a' +
-            'd',
+        arktest.assertEQ(('a' + trailingPoo + leadingPoo + 'd').toWellFormed(),
+            'a' + replacementChar + replacementChar + 'd',
         
         'a wrong-ordered surrogate pair is replaced with two replacement characters');
     arktest.assertEQ('a💩c'.toWellFormed(), 'a💩c',

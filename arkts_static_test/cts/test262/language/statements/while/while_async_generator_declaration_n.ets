@@ -19,6 +19,7 @@ expected_out_1: |-
 ---*/
 
 function main(): void {
-    while (false) async function* g(): void {
+    while (false) { async function* g(): void {
+    }
     }
 }

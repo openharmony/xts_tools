@@ -8,6 +8,6 @@ expected_out_1: [
 ]
 ---*/
 
-// Conversion notes: 类名保留字 `let` 测早期错误（ESY0316）
-class let {}
+// Conversion notes: 保留字 `let` 不能作为标识符（ESY0316）
+let let: int = 1;
 

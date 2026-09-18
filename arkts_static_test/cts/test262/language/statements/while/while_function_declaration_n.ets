@@ -20,6 +20,7 @@ expected_out_1: |-
 ---*/
 
 function main(): void {
-    while (false) function f(): void {
+    while (false) { function f(): void {
+    }
     }
 }

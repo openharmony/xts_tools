@@ -21,10 +21,10 @@ function main(): void {
     outer: while (true) {
         for (const value of [1]) {
             try {
-            } finally {
                 ++count;
-                break outer;
+            } finally {
             }
+            break outer;
         }
     }
     arktest.assertEQ(count, 1);

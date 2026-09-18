@@ -13,9 +13,9 @@ expected_out_1: |-
     Syntax error ESY0135: Nested functions are not allowed.
 ---*/
 
-if (true) function f(): void {
-} else function g(): void {
-}
+if (true) { function f(): void {
+} } else { function g(): void {
+} }
 
 function main(): void {
 }

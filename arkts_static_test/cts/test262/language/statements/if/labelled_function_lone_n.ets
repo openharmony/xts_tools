@@ -13,7 +13,8 @@ expected_out_1: |-
     Syntax error ESY0038: Label must be followed by a loop statement.
 ---*/
 
-if (false) label1: label2: function test262(): void {
+if (false) { label1: label2: function test262(): void {
+}
 }
 
 function main(): void {

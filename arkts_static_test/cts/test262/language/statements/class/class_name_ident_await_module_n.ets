@@ -7,6 +7,6 @@ expected_out_1: |-
     Syntax error ESY0224: Identifier expected, got 'await'.
 ---*/
 
-// Conversion notes: 类名保留字 `await` 测早期错误（ESY0316）；module 语义
-class await {}
+// Conversion notes: 保留字 `await` 不能作为标识符（ESY0316）；module 语义
+let await: int = 1;
 

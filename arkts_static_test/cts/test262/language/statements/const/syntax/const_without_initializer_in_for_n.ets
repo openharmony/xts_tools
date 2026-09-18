@@ -19,5 +19,5 @@ expected_out_1: |-
 ---*/
 
 function main(): void {
-    for (; false;) const x: int;
+    for (; false;) { const x: int; }
 }

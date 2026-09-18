@@ -13,4 +13,5 @@ expected_out_1: [
     "Syntax error ESY0164: for-in loop variable declaration may not have an initializer.",
 ]
 ---*/
-for (let x: int = 3, y: int in {}) { }
+for (let x: int = 3,
+    y: int in {}) { }

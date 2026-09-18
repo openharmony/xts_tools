@@ -21,9 +21,8 @@ function main(): void {
     arktest.assertTrue(re1.test('3'), 'Pattern character \'.\' should match non-line terminators in modified group');
     arktest.assertTrue(re1.test('π'), 'Pattern character \'.\' should match non-line terminators in modified group');
     arktest.assertTrue(re1.test('‧'), 'Pattern character \'.\' should match non-line terminators in modified group');
-        arktest.assertTrue(re1.test('\u0085' +
-        'Pattern character \'.\' should match non-line terminators in modified ' +
-        'group');
+    arktest.assertTrue(re1.test('\u0085'),
+        'Pattern character \'.\' should match non-line terminators in modified group');
     arktest.assertTrue(re1.test('\v'), 'Pattern character \'.\' should match mon-line terminators in modified group');
     arktest.assertTrue(re1.test('\f'), 'Pattern character \'.\' should match mon-line terminators in modified group');
     arktest.assertTrue(re1.test('᠎'), 'Pattern character \'.\' should match non-line terminators in modified group');
@@ -42,9 +41,8 @@ function main(): void {
     arktest.assertTrue(re2.test('3'), 'Pattern character \'.\' should match non-line terminators in modified group');
     arktest.assertTrue(re2.test('π'), 'Pattern character \'.\' should match non-line terminators in modified group');
     arktest.assertTrue(re2.test('‧'), 'Pattern character \'.\' should match non-line terminators in modified group');
-        arktest.assertTrue(re2.test('\u0085' +
-        'Pattern character \'.\' should match non-line terminators in modified ' +
-        'group');
+    arktest.assertTrue(re2.test('\u0085'),
+        'Pattern character \'.\' should match non-line terminators in modified group');
     arktest.assertTrue(re2.test('\v'), 'Pattern character \'.\' should match mon-line terminators in modified group');
     arktest.assertTrue(re2.test('\f'), 'Pattern character \'.\' should match mon-line terminators in modified group');
     arktest.assertTrue(re2.test('᠎'), 'Pattern character \'.\' should match non-line terminators in modified group');

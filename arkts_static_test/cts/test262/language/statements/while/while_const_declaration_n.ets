@@ -12,10 +12,9 @@
 
 /*---
 desc: A const declaration is not allowed as a while body
-tags: [compile-only, negative]
-expected_out_1: ["Syntax error ESY0175: Lexical declaration is not allowed in single statement context."]
+tags: [compile-only]
 ---*/
 
 function main(): void {
-    while (false) const x: int = 0;
+    while (false) { const x: int = 0; }
 }

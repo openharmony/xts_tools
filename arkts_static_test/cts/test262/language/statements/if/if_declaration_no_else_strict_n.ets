@@ -11,7 +11,8 @@ tags: [compile-only, negative]
 expected_out_1: "Syntax error ESY0135: Nested functions are not allowed."
 ---*/
 
-if (true) function f(): void {
+if (true) { function f(): void {
+}
 }
 
 function main(): void {

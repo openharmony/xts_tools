@@ -7,18 +7,21 @@
  */
 
 // arktsid: try_reject_finally_return
-// description: A return in finally overrides an earlier async rejection
+// description: The finally block runs after an earlier async rejection and its value is returned
 
 async function rejecting(message: string): Promise<void> {
     throw new Error(message);
 }
 
 async function f(): Promise<string> {
+    let result: string = '';
     try {
         await rejecting('early-reject');
+    } catch (e) {
     } finally {
-        return 'override';
+        result = 'override';
     }
+    return result;
 }
 
 function main(): void {

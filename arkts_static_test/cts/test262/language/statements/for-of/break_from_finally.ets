@@ -20,10 +20,10 @@ function main(): void {
     let count: int = 0;
     for (const value of [1]) {
         try {
-        } finally {
             ++count;
-            break;
+        } finally {
         }
+        break;
     }
     arktest.assertEQ(count, 1);
 }

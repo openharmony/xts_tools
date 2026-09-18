@@ -12,7 +12,7 @@ expected_out_1: |-
 class C {
     static {
         ((): void => {
-            class await {
+            class \u0061\u0077\u0061\u0069\u0074 {
             }
         });
     }

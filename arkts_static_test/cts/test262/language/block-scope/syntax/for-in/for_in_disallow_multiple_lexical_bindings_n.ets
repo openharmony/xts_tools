@@ -12,4 +12,5 @@ expected_out_1: [
     iterate through arrays and iterable objects.",
 ]
 ---*/
-for (let x: int, y: int in {}) { }
+for (let x: int,
+    y: int in {}) { }

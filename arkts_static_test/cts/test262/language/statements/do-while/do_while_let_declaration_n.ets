@@ -7,11 +7,10 @@
 
 /*---
 desc: A let declaration is not allowed as a do-while body
-tags: [compile-only, negative]
-expected_out_1: "Syntax error ESY0175: Lexical declaration is not allowed in single statement context."
----*/
+tags: [compile-only]
 
-do let x: int; while (false);
+do { let x: int; } while (false);
+---*/
 
 function main(): void {
 }

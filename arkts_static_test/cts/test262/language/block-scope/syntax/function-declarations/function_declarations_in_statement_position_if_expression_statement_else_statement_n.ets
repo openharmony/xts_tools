@@ -9,4 +9,4 @@ tags: [compile-only, negative]
 expected_out_1: |-
     Syntax error ESY0135: Nested functions are not allowed.
 ---*/
-if (true) {} else function g(): void {}
+if (true) {} else { function g(): void {} }

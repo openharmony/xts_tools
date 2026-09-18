@@ -15,8 +15,9 @@ expected_out_1: |-
     Syntax error ESY0227: Unexpected token '{'.
 ---*/
 
-if (false) label1: label2: function test262(): void {
+if (false) { label1: label2: function test262(): void {
 } else {
+}
 }
 
 function main(): void {

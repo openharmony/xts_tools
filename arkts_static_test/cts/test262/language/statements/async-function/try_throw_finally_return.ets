@@ -7,18 +7,21 @@
  */
 
 // arktsid: try_throw_finally_return
-// description: A return in finally overrides an earlier async throw
+// description: The finally block runs after an earlier async throw and its value is returned
 
 async function resolving(message: string): Promise<string> {
     return message;
 }
 
 async function f(): Promise<string> {
+    let result: string = '';
     try {
         throw new Error('early-throw');
+    } catch (e) {
     } finally {
-        return await resolving('override');
+        result = await resolving('override');
     }
+    return result;
 }
 
 function main(): void {

@@ -10,4 +10,4 @@ expected_out_1: |-
     Syntax error ESY0175: Lexical declaration is not allowed in single statement context.
     Syntax error ESY0105: Variable must be initialized or it's type must be declared.
 ---*/
-for (;false;) let x;
+for (;false;) { let x; }

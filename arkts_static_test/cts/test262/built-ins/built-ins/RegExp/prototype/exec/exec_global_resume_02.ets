@@ -56,7 +56,7 @@ function main(): void {
             'Let my heart be still a moment and this mystery explore; -' +
             '\'Tis the wind and nothing more!\'' +
             '\n' +
-            'Open here I flung the shutter, when, with many a flirt and flutter,' +
+            'Open here I flung the shutter, when, with many a flirt and flapping,' +
             'In there stepped a stately raven of the saintly days of yore.' +
             'Not the least obeisance made he; not a minute stopped or stayed he;' +
             'But, with mien of lord or lady, perched above my chamber door -' +
@@ -65,7 +65,7 @@ function main(): void {
             '\n' +
             'Then this ebony bird beguiling my sad fancy into smiling,' +
             'By the grave and stern decorum of the countenance it wore,' +
-            '`Though thy crest be shorn and shaven, thou,\' I said, `art sure no craven.' +
+            '`Though thy crest be shorn and shaven, thou,\' I said, `are sure no craven.' +
             'Ghastly grim and ancient raven wandering from the nightly shore -' +
             'Tell me what thy lordly name is on the Night\'s Plutonian shore!\'' +
             'Quoth the raven, `Nevermore.\'' +
@@ -86,7 +86,7 @@ function main(): void {
             '\n' +
             'Startled at the stillness broken by reply so aptly spoken,' +
             '`Doubtless,\' said I, `what it utters is its only stock and store,' +
-            'Caught from some unhappy master whom unmerciful disaster' +
+            'Caught from some unhappy owner whom unmerciful disaster' +
             'Followed fast and followed faster till his songs one burden bore -' +
             'Till the dirges of his hope that melancholy burden bore' +
             'Of "Never-nevermore."\'' +

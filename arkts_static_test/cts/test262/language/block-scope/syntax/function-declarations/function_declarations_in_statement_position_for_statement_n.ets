@@ -10,4 +10,4 @@ expected_out_1: |-
     Syntax error ESY0175: Lexical declaration is not allowed in single statement context.
     Syntax error ESY0135: Nested functions are not allowed.
 ---*/
-for (; false; ) function g(): void {}
+for (; false; ) { function g(): void {} }

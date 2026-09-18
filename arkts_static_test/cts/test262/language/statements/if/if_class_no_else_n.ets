@@ -11,7 +11,8 @@ tags: [compile-only, negative]
 expected_out_1: "Syntax error ESY0040: Illegal start of CLASS expression."
 ---*/
 
-if (true) class A {
+if (true) { class A {
+}
 }
 
 function main(): void {

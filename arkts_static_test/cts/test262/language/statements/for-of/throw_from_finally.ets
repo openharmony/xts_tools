@@ -16,6 +16,10 @@
 // arktsid: throw_from_finally
 // description: A throw in a for-of finally block exits the loop
 
+function throwFromFinally(): void {
+    throw new Error('finally');
+}
+
 function main(): void {
     let iterations: int = 0;
     arktest.expectThrow((): void => {
@@ -23,7 +27,7 @@ function main(): void {
             try {
             } finally {
                 ++iterations;
-                throw new Error('finally');
+                throwFromFinally();
             }
         }
     }, (e: Error) => e.name == 'Error');
