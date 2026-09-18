@@ -2195,6 +2195,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/application/CliHook.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/application/CliToolEvent.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -2259,6 +2266,13 @@
         },
         {
             "path": "interface/sdk-js/zh-cn/api/application/FunctionInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/application/FunctionHook.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
