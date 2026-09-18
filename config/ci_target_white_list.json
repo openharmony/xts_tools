@@ -373,6 +373,55 @@
                     }
                 }
             }
+        },
+        {
+            "path": "arkcompiler/taihe_ffi_gen",
+            "bundle_name": "taihe_ffi_gen",
+            "add_bundle": [],
+            "add_target": {
+                "acts": [
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_array_static:ActsTaiheArrayStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_async_basic_static:ActsTaiheAsyncBasicStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_async_types_static:ActsTaiheAsyncTypesStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_base_type_static:ActsTaiheBaseTypeStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_bigint_static:ActsTaiheBigintStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_bundle_manager_static:ActsTaiheBundleManagerStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_bundle_static:ActsTaiheBundleStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_callback_manager_static:ActsTaiheCallbackManagerStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_callback_static:ActsTaiheCallbackStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_class_extends_static:ActsTaiheClassExtendsStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_common_string_static:ActsTaiheCommonStringStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_consistency_static:ActsTaiheConsistencyStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_containers_static:ActsTaiheContainersStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_enum_static:ActsTaiheEnumStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_error_static:ActsTaiheErrorStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_function_static:ActsTaiheFunctionStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_graphics3d_static:ActsTaiheGraphics3dStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_iface_static:ActsTaiheIfaceStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_import_static:ActsTaiheImportStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_inject_static:ActsTaiheInjectStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_keep_name_static:ActsTaiheKeepNameStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_maythrow_static:ActsTaiheMayThrowStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_namespace_static:ActsTaiheNamespaceStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_new_async_static:ActsTaiheNewAsyncStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_on_off_static:ActsTaiheOnoffStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_opaque_static:ActsTaiheOpaqueStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_optional_static:ActsTaiheOptionalStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_overload_static:ActsTaiheOverloadStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_polymorphism_static:ActsTaihePolymorphismStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_primitive_static:ActsTaihePrimitiveStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_record_static:ActsTaiheRecordStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_rename_static:ActsTaiheRenameStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_session_static:ActsTaiheSessionStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_static_static:ActsTaiheStaticStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_string_static:ActsTaiheStringStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_struct_extend_static:ActsTaiheStructExtendStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_struct_static:ActsTaiheStructStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_test_static:ActsTaiheTestStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_tuple_static:ActsTaiheTupleStaticTest",
+                    "test/xts/acts/arkcompiler/taihe/taihe_test_union_static:ActsTaiheUnionStaticTest"
+                ]
+            }
         }
     ]
 }
