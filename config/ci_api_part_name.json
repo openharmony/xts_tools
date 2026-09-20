@@ -17449,6 +17449,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.distributed.softbusBase.d.ts",
+            "bundle_name": [
+                "softbusBase"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.distributed.softbusBase.d.ts",
+            "bundle_name": [
+                "softbusBase"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.distributedsched.proxyChannelManager.d.ts",
             "bundle_name": [
                 "proxyChannelManager"
