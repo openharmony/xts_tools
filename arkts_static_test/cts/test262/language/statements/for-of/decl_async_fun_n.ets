@@ -23,7 +23,8 @@ expected_out_1: |-
 ---*/
 
 function main(): void {
-    for (var x of [1]) { async function f() {
+    for (var x of [1]) {
+        async function f() {
     }
     }
 }

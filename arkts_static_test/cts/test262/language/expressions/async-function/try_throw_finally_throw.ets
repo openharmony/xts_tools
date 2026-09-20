@@ -12,11 +12,15 @@
 // arktsid: try_throw_finally_throw
 // description: An error thrown in finally overrides an earlier async throw (async function expression)
 
+function throwOverride(): void {
+    throw new Error('override');
+}
+
 async function f(): Promise<void> {
     try {
         throw new Error('early-throw');
     } finally {
-        throw new Error('override');
+        throwOverride();
     }
 }
 

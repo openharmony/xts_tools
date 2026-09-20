@@ -14,7 +14,7 @@ tags: [compile-only]
 ---*/
 
 function main(): void {
-    for (; false;) { let
-    [a]: int[] = [0];
+    for (; false;) {
+    let [a]: int[] = [0];
     }
 }

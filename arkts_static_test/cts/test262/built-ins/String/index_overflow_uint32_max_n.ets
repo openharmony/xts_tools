@@ -27,6 +27,6 @@ expected_out_1: [
 ---*/
 
 function main(): void {
-    let s: string = String("hello world");
+    let s: string = String('hello world');
     let x: string = s[Math.pow(2, 32) - 1];
 }

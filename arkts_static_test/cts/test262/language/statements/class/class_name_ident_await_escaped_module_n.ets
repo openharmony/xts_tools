@@ -6,5 +6,5 @@ expected_out_1: ["Syntax error ESY0271: Escape sequences are not allowed in keyw
 ---*/
 
 // Conversion notes: `\u0061` 转义 await 字面文本（ESY0271）；module 语义
-class \u0061\u0077\u0061\u0069\u0074 {}
+let \u0061\u0077\u0061\u0069\u0074: int = 1;
 

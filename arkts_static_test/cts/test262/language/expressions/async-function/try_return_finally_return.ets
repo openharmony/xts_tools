@@ -17,11 +17,13 @@ async function resolving(message: string): Promise<string> {
 }
 
 async function f(): Promise<string> {
+    let result: string = 'early-return';
     try {
-        return 'early-return';
+        result = await resolving('early-return');
     } finally {
-        return await resolving('override');
+        result = await resolving('override');
     }
+    return result;
 }
 
 function main(): void {

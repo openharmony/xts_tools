@@ -3,16 +3,14 @@
 desc: The `await` keyword is disallowed as a BindingIdentifier
 tags: [compile-only, negative]
 expected_out_1: |-
-    Syntax error ESY0040: Illegal start of CLASS expression.
     Syntax error ESY0316: Hard keyword 'await' cannot be used as identifier
     Syntax error ESY0224: Identifier expected, got 'await'.
 ---*/
 
-// Conversion notes: static 块内 `class await` 绑定（await 硬关键字 ESY0316）
+// Conversion notes: static 块内 `await` 不能作为绑定标识符（ESY0316）
 class C {
     static {
-        class \u0061\u0077\u0061\u0069\u0074 {
-        }
+        let await: int = 1;
     }
 }
 

@@ -6,12 +6,9 @@
 /*---
 desc: for-in declarations cannot mix uninitialized and initialized bindings
 tags: [compile-only, negative]
-expected_out_1: [
-    "Syntax error ESY105822: 'in' operator is not supported. Use 'instanceof' operator to check whether an object is
-    the instance of a class that contains the necessary class member.",
-    "Syntax error ESY0230: Expected ';', got ')'.",
-    "Syntax error ESY0167: Invalid left-hand side in 'For[In/Of]Statement'.",
-]
+expected_out_1: ["Syntax error ESY6987: 'for ... in' loop is not supported, please use regular 'for' or
+    'for ... of ...' loop to iterate through arrays and iterable objects."]
 ---*/
-for (let x: int,
-    y: int = 4 in {}) { }
+let x: int;
+let y: int = 4;
+for (x in {}) { }

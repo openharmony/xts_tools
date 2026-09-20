@@ -17,7 +17,8 @@ expected_out_1: |-
 ---*/
 
 function main(): void {
-    for (; false;) { function f(): void {
+    for (; false;) {
+        function f(): void {
     }
     }
 }

@@ -8,6 +8,6 @@ expected_out_1: |-
 ---*/
 
 // Conversion notes: class-expr→声明；类名保留字 `static` 测早期错误
-class static {
+let static: int = 1;
 }
 

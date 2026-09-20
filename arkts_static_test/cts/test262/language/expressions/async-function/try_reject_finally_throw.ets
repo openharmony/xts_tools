@@ -16,11 +16,15 @@ async function rejecting(message: string): Promise<void> {
     throw new Error(message);
 }
 
+function throwOverride(): void {
+    throw new Error('override');
+}
+
 async function f(): Promise<void> {
     try {
         await rejecting('early-reject');
     } finally {
-        throw new Error('override');
+        throwOverride();
     }
 }
 

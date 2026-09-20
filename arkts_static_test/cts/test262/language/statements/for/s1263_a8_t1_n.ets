@@ -31,7 +31,8 @@ expected_out_1: [
 
 function main(): void {
     let index: int = 0;
-    for (index = 0; index < 100; { index++; index * 2; }) {
+    for (index = 0; index < 100; {
+        index++; index * 2; }) {
         break;
     }
 }

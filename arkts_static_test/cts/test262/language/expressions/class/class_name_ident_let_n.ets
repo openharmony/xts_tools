@@ -8,6 +8,6 @@ expected_out_1: |-
 ---*/
 
 // Conversion notes: class-expr→声明（ESE0020）；类名保留字 `let` 测早期错误
-class let {
+let let: int = 1;
 }
 

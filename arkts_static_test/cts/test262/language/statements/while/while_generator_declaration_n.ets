@@ -21,7 +21,8 @@ expected_out_1: |-
 ---*/
 
 function main(): void {
-    while (false) { function* g(): void {
+    while (false) {
+        function* g(): void {
     }
     }
 }

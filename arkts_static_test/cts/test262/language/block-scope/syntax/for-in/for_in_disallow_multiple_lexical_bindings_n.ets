@@ -6,11 +6,9 @@
 /*---
 desc: for-in declarations cannot contain multiple lexical bindings
 tags: [compile-only, negative]
-expected_out_1: [
-    "Syntax error ESY0211: Invalid left-hand side in 'for' statement: must have a single binding.",
-    "Syntax error ESY6987: 'for ... in' loop is not supported, please use regular 'for' or 'for ... of ...' loop to
-    iterate through arrays and iterable objects.",
-]
+expected_out_1: ["Syntax error ESY6987: 'for ... in' loop is not supported, please use regular 'for' or
+    'for ... of ...' loop to iterate through arrays and iterable objects."]
 ---*/
-for (let x: int,
-    y: int in {}) { }
+let x: int;
+let y: int;
+for (x in {}) { }

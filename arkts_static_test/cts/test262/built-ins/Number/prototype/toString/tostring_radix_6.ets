@@ -18,7 +18,6 @@
 
 function main(): void {
     arktest.assertEQ((0).toString(6), '0', 'new Number() in radix 6');
-    // (new Number(0)).toString(6)
     arktest.assertEQ((0).toString(6), '0', 'new Number(0) in radix 6');
     arktest.assertEQ((-1).toString(6), '-1', '-1 in radix 6');
     arktest.assertEQ((1).toString(6), '1', '1 in radix 6');

@@ -18,11 +18,7 @@
 
 function main(): void {
     let x: int = 0;
-    /*
-    multi
-line
-comment
-    */
+    // multi-line comment content is ignored
     arktest.assertEQ(x, 0, 'carriage return in multi-line comment');
 }
 

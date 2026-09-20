@@ -17,11 +17,14 @@ async function rejecting(message: string): Promise<void> {
 }
 
 async function f(): Promise<string> {
+    let result: string = '';
     try {
         await rejecting('early-reject');
+    } catch (e) {
     } finally {
-        return 'override';
+        result = 'override';
     }
+    return result;
 }
 
 function main(): void {

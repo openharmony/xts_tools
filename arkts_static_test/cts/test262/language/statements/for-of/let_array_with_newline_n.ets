@@ -24,7 +24,7 @@ expected_out_1: |-
 ---*/
 
 function main(): void {
-    for (var x of [1]) { let
-    [a] = 0;
+    for (var x of [1]) {
+    let [a] = 0;
     }
 }

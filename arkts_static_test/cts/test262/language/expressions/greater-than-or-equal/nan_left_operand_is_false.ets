@@ -8,12 +8,13 @@
 // description: Greater-than-or-equal is false when the left operand is NaN
 
 function main(): void {
-    arktest.assertFalse(Number.NaN >= 0);
-    arktest.assertFalse(Number.NaN >= 1.1);
-    arktest.assertFalse(Number.NaN >= -1.1);
-    arktest.assertFalse(Number.NaN >= Number.NaN);
-    arktest.assertFalse(Number.NaN >= Number.POSITIVE_INFINITY);
-    arktest.assertFalse(Number.NaN >= Number.NEGATIVE_INFINITY);
-    arktest.assertFalse(Number.NaN >= Number.MAX_VALUE);
-    arktest.assertFalse(Number.NaN >= Number.MIN_VALUE);
+    let nan: double = Number.NaN;
+    arktest.assertFalse(nan >= 0);
+    arktest.assertFalse(nan >= 1.1);
+    arktest.assertFalse(nan >= -1.1);
+    arktest.assertFalse(nan >= nan);
+    arktest.assertFalse(nan >= Number.POSITIVE_INFINITY);
+    arktest.assertFalse(nan >= Number.NEGATIVE_INFINITY);
+    arktest.assertFalse(nan >= Number.MAX_VALUE);
+    arktest.assertFalse(nan >= Number.MIN_VALUE);
 }

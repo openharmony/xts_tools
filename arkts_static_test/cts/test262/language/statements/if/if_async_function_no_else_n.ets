@@ -11,7 +11,8 @@ tags: [compile-only, negative]
 expected_out_1: "Syntax error ESY0320: Function expressions are not supported, use arrow functions instead"
 ---*/
 
-if (true) { async function f(): Promise<void> {
+if (true) {
+    async function f(): Promise<void> {
 }
 }
 

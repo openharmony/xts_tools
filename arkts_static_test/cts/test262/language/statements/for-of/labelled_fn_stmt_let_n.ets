@@ -19,7 +19,8 @@ expected_out_1: |-
 ---*/
 
 function main(): void {
-    for (let x of [1]) { label1: label2: function f() {
+    for (let x of [1]) {
+        label1: label2: function f() {
     }
     }
 }

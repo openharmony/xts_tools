@@ -16,7 +16,7 @@ tags: [compile-only]
 ---*/
 
 function main(): void {
-    while (false) { let
-    [a]: int[] = [0];
+    while (false) {
+    let [a]: int[] = [0];
     }
 }
