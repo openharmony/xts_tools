@@ -2601,7 +2601,35 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.security.UkeyAuthExtensionAbility.d.ts",
+            "bundle_name": [
+                "certificate_manager"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.security.UkeyAuthExtensionContext.d.ts",
+            "bundle_name": [
+                "certificate_manager"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/api/@ohos.security.certManager.d.ts",
+            "bundle_name": [
+                "certificate_manager"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.security.UkeyAuthExtensionAbility.d.ts",
+            "bundle_name": [
+                "certificate_manager"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.security.UkeyAuthExtensionContext.d.ts",
             "bundle_name": [
                 "certificate_manager"
             ],
