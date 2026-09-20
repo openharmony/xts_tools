@@ -16,8 +16,7 @@ expected_out_1: |-
 if (true) {
     function f(): void {
 }
-}
-else {
+} else {
     function g(): void {
 }
 }

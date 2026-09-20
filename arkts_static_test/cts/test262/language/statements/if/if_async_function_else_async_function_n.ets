@@ -17,8 +17,7 @@ expected_out_1: |-
 if (true) {
     async function f(): Promise<void> {
 }
-}
-else {
+} else {
     async function g(): Promise<void> {
 }
 }

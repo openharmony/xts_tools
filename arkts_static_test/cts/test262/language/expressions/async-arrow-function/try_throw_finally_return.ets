@@ -17,11 +17,14 @@
 // as fulfilled.
 
 async function f(): Promise<string> {
+    let result: string = '';
     try {
         throw new Error('early-throw');
+    } catch (e) {
     } finally {
-        return await Promise.resolve('override');
+        result = await Promise.resolve('override');
     }
+    return result;
 }
 
 function main(): void {

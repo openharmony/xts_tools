@@ -8,7 +8,7 @@
 // description: operator uses GetValue for typed integer operands
 
 class ShiftOperandBox {
-    prop: int = 0;
+    public prop: int = 0;
 }
 
 function main(): void {

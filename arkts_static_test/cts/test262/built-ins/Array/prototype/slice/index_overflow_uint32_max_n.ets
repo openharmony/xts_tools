@@ -24,6 +24,6 @@ expected_out_1: [
 ---*/
 
 function main(): void {
-    let obj: string[] = ["x", "x"];
-    obj[4294967295] = "y";
+    let obj: string[] = ['x', 'x'];
+    obj[4294967295] = 'y';
 }

@@ -17,13 +17,16 @@
 // promise as fulfilled.
 
 async function f(): Promise<string> {
+    let result: string = '';
     try {
         await new Promise<string>((resolve, reject) => {
             reject(new Error('early-reject'));
         });
+    } catch (e) {
     } finally {
-        return 'override';
+        result = 'override';
     }
+    return result;
 }
 
 function main(): void {

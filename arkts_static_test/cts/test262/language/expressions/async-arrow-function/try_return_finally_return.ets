@@ -17,11 +17,13 @@
 // wins over a try-block return.
 
 async function f(): Promise<string> {
+    let result: string = 'early-return';
     try {
-        return 'early-return';
+        result = await Promise.resolve('early-return');
     } finally {
-        return await Promise.resolve('override');
+        result = await Promise.resolve('override');
     }
+    return result;
 }
 
 function main(): void {

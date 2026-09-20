@@ -6,6 +6,5 @@ expected_out_1: ["Syntax error ESY0271: Escape sequences are not allowed in keyw
 ---*/
 
 // Conversion notes: class-expr→声明；`\u` 转义标识符写字面文本（ESY0271）
-class st\u0061tic {
-}
+let st\u0061tic: int = 1;
 

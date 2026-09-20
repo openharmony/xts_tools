@@ -16,8 +16,7 @@ expected_out_1: |-
 if (true) {
     class A {
 }
-}
-else {
+} else {
     class B {
 }
 }

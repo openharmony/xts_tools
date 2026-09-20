@@ -16,14 +16,18 @@
 // Conversion notes: covers the rule that an exception thrown in finally overrides a pending try-block rejection,
 // settling the promise as rejected.
 
+function throwOverride(): void {
+    throw new Error('override');
+}
 async function f(): Promise<string> {
     try {
         await new Promise<string>((resolve, reject) => {
             reject(new Error('early-reject'));
         });
     } finally {
-        throw new Error('override');
+        throwOverride();
     }
+    return 'unreachable';
 }
 
 function main(): void {
