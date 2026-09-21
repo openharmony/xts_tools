@@ -1236,6 +1236,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/application/ChildProcessInformation.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/application/ChildProcessInformation.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.cameraPicker.d.ts",
             "bundle_name": [
                 "camera_framework"
@@ -1789,6 +1803,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@system.geolocation.d.ts",
+            "bundle_name": [
+                "location"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.telephony.sms.d.ts",
             "bundle_name": [
                 "sms_mms"
@@ -2174,6 +2195,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/application/CliHook.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/application/CliToolEvent.d.ts",
             "bundle_name": [
                 "ability_runtime"
@@ -2238,6 +2266,13 @@
         },
         {
             "path": "interface/sdk-js/zh-cn/api/application/FunctionInfo.d.ts",
+            "bundle_name": [
+                "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/application/FunctionHook.d.ts",
             "bundle_name": [
                 "ability_runtime"
             ],
@@ -2580,7 +2615,35 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.security.UkeyAuthExtensionAbility.d.ts",
+            "bundle_name": [
+                "certificate_manager"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.security.UkeyAuthExtensionContext.d.ts",
+            "bundle_name": [
+                "certificate_manager"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/api/@ohos.security.certManager.d.ts",
+            "bundle_name": [
+                "certificate_manager"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.security.UkeyAuthExtensionAbility.d.ts",
+            "bundle_name": [
+                "certificate_manager"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.security.UkeyAuthExtensionContext.d.ts",
             "bundle_name": [
                 "certificate_manager"
             ],
@@ -5072,7 +5135,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.videoProcessingEngine.d.ts",
+            "bundle_name": [
+                "media_foundation"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.videoProcessing.d.ts",
+            "bundle_name": [
+                "media_foundation"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.videoProcessing.d.ts",
             "bundle_name": [
                 "media_foundation"
             ],
@@ -5667,6 +5744,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.telephony.vcard.d.ts",
+            "bundle_name": [
+                "core_service"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.net.sharing.d.ts",
             "bundle_name": [
                 "netmanager_ext"
@@ -5786,7 +5870,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.telephony.radio.d.ts",
+            "bundle_name": [
+                "core_service"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.telephony.esim.d.ts",
+            "bundle_name": [
+                "core_service"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.telephony.esim.d.ts",
             "bundle_name": [
                 "core_service"
             ],
@@ -7368,6 +7466,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.FenceExtensionContext.d.ts",
+            "bundle_name": [
+                "location"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.Counter.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -7935,6 +8040,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.geoLocationManager.d.ts",
+            "bundle_name": [
+                "location"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimodalInput.keyCode.d.ts",
             "bundle_name": [
                 "input"
@@ -7994,6 +8106,20 @@
             "path": "interface/sdk-js/zh-cn/api/@ohos.file.recent.d.ts",
             "bundle_name": [
                 "user_file_service"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.account.osAccount.authorization.d.ts",
+            "bundle_name": [
+                "os_account"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.account.osAccount.authorization.d.ts",
+            "bundle_name": [
+                "os_account"
             ],
             "build_targets": {}
         },
@@ -8670,6 +8796,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.security.privacyComputation.d.ts",
+            "bundle_name": [
+                "privacyComputation"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.security.privacyComputation.d.ts",
+            "bundle_name": [
+                "privacyComputation"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.abilityToolAccessCtrl.d.ts",
             "bundle_name": [
                 "secure_access_fence"
@@ -8839,6 +8979,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.app.ability.FenceExtensionAbility.d.ts",
+            "bundle_name": [
+                "location"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.app.ability.FenceExtensionAbility.d.ts",
             "bundle_name": [
                 "location"
             ],
@@ -9526,6 +9673,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.geolocation.d.ts",
+            "bundle_name": [
+                "location"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.geolocation.d.ts",
             "bundle_name": [
                 "location"
             ],
@@ -17337,6 +17491,20 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/api/@ohos.distributed.softbusBase.d.ts",
+            "bundle_name": [
+                "softbusBase"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.distributed.softbusBase.d.ts",
+            "bundle_name": [
+                "softbusBase"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.distributedsched.proxyChannelManager.d.ts",
             "bundle_name": [
                 "proxyChannelManager"
@@ -20879,6 +21047,160 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.FusionConnectivity.PartnerAgentExtensionAbility.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.FusionConnectivity.PartnerAgentExtensionContext.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.FusionConnectivity.partnerAgent.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.FusionConnectivity.ranging.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.a2dp.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.access.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.bas.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.baseProfile.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.ble.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.common.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.connection.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.constant.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.hfp.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.hid.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.map.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.opp.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.pan.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.pbap.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.socket.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetooth.wearDetection.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.bluetoothManager.d.ts",
+            "bundle_name": [
+                "bluetooth"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/zh-cn/arkts/@arkts.collections.d.ets",
             "bundle_name": [],
             "build_targets": {
@@ -20952,6 +21274,20 @@
         {
             "path": "interface/sdk-js/zh-cn/arkts/@arkts.collections.static.d.ets",
             "bundle_name": [],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/api/@ohos.customization.assessment.d.ts",
+            "bundle_name": [
+                "assessment_configuration_service"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/kits/@kit.AutomaticSceneConfigurationKit.d.ts",
+            "bundle_name": [
+                "assessment_configuration_service"
+            ],
             "build_targets": {}
         }
     ],
@@ -21353,6 +21689,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/LocationKit",
+            "bundle_name": [
+                "location"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/NotificationKit",
             "bundle_name": [
                 "distributed_notification_service"
@@ -21370,6 +21713,13 @@
             "path": "interface/sdk_c/ability/ability_runtime/child_process",
             "bundle_name": [
                 "ability_runtime"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/ai/neural_network_runtime",
+            "bundle_name": [
+                "neural_network_runtime"
             ],
             "build_targets": {}
         },
@@ -22208,6 +22558,13 @@
         },
         {
             "path": "interface/sdk_c/telephony/core_service",
+            "bundle_name": [
+                "core_service"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/telephony/core_service",
             "bundle_name": [
                 "core_service"
             ],

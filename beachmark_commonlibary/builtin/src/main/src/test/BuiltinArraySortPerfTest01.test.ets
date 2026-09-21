@@ -52,7 +52,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<byte>[] = new Array<ValueArray<byte>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<byte>(3);
+        pools[j] = new ValueArray<byte>(3, 0);
         pools[j][0] = 3; pools[j][1] = 1; pools[j][2] = 2;
       }
       let cmp = (lhs: byte, rhs: byte): int => {
@@ -74,7 +74,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<short>[] = new Array<ValueArray<short>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<short>(3);
+        pools[j] = new ValueArray<short>(3, 0);
         pools[j][0] = 30; pools[j][1] = 10; pools[j][2] = 20;
       }
       let cmp = (lhs: short, rhs: short): int => {
@@ -96,7 +96,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<int>[] = new Array<ValueArray<int>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<int>(3);
+        pools[j] = new ValueArray<int>(3, 0);
         pools[j][0] = 300; pools[j][1] = 100; pools[j][2] = 200;
       }
       let cmp = (lhs: int, rhs: int): int => {
@@ -118,7 +118,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<long>[] = new Array<ValueArray<long>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<long>(3);
+        pools[j] = new ValueArray<long>(3, 0);
         pools[j][0] = 3000; pools[j][1] = 1000; pools[j][2] = 2000;
       }
       let cmp = (lhs: long, rhs: long): int => {
@@ -140,7 +140,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<float>[] = new Array<ValueArray<float>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<float>(3);
+        pools[j] = new ValueArray<float>(3, 0);
         pools[j][0] = 3.3 as float; pools[j][1] = 1.1 as float; pools[j][2] = 2.2 as float;
       }
       let cmp = (lhs: float, rhs: float): int => {
@@ -162,7 +162,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<double>[] = new Array<ValueArray<double>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<double>(3);
+        pools[j] = new ValueArray<double>(3, 0);
         pools[j][0] = 3.33; pools[j][1] = 1.11; pools[j][2] = 2.22;
       }
       let cmp = (lhs: double, rhs: double): int => {
@@ -183,9 +183,9 @@ export default function BuiltinArraySortPerfTest01(): void {
 
     // ==================== mergeSort ValueArray ====================
     it('PerformanceTest_BuiltinArraySortPerfTest01_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let valArray: ValueArray<byte> = new ValueArray<byte>(3);
+      let valArray: ValueArray<byte> = new ValueArray<byte>(3, 0);
       valArray[0] = 3; valArray[1] = 1; valArray[2] = 2;
-      let result: ValueArray<byte> = new ValueArray<byte>(3);
+      let result: ValueArray<byte> = new ValueArray<byte>(3, 0);
       let cmp = (lhs: byte, rhs: byte): int => {
         return lhs - rhs;
       };
@@ -203,9 +203,9 @@ export default function BuiltinArraySortPerfTest01(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest01_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let valArray: ValueArray<short> = new ValueArray<short>(3);
+      let valArray: ValueArray<short> = new ValueArray<short>(3, 0);
       valArray[0] = 30; valArray[1] = 10; valArray[2] = 20;
-      let result: ValueArray<short> = new ValueArray<short>(3);
+      let result: ValueArray<short> = new ValueArray<short>(3, 0);
       let cmp = (lhs: short, rhs: short): int => {
         return lhs - rhs;
       };
@@ -223,9 +223,9 @@ export default function BuiltinArraySortPerfTest01(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest01_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let valArray: ValueArray<int> = new ValueArray<int>(3);
+      let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
       valArray[0] = 300; valArray[1] = 100; valArray[2] = 200;
-      let result: ValueArray<int> = new ValueArray<int>(3);
+      let result: ValueArray<int> = new ValueArray<int>(3, 0);
       let cmp = (lhs: int, rhs: int): int => {
         return lhs - rhs;
       };
@@ -243,9 +243,9 @@ export default function BuiltinArraySortPerfTest01(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest01_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let valArray: ValueArray<long> = new ValueArray<long>(3);
+      let valArray: ValueArray<long> = new ValueArray<long>(3, 0);
       valArray[0] = 3000; valArray[1] = 1000; valArray[2] = 2000;
-      let result: ValueArray<long> = new ValueArray<long>(3);
+      let result: ValueArray<long> = new ValueArray<long>(3, 0);
       let cmp = (lhs: long, rhs: long): int => {
         return lhs > rhs ? 1 : -1;
       };
@@ -263,9 +263,9 @@ export default function BuiltinArraySortPerfTest01(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest01_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let valArray: ValueArray<float> = new ValueArray<float>(3);
+      let valArray: ValueArray<float> = new ValueArray<float>(3, 0);
       valArray[0] = 3.3 as float; valArray[1] = 1.1 as float; valArray[2] = 2.2 as float;
-      let result: ValueArray<float> = new ValueArray<float>(3);
+      let result: ValueArray<float> = new ValueArray<float>(3, 0);
       let cmp = (lhs: float, rhs: float): int => {
         return lhs > rhs ? 1 : -1;
       };
@@ -283,9 +283,9 @@ export default function BuiltinArraySortPerfTest01(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest01_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let valArray: ValueArray<double> = new ValueArray<double>(3);
+      let valArray: ValueArray<double> = new ValueArray<double>(3, 0);
       valArray[0] = 3.33; valArray[1] = 1.11; valArray[2] = 2.22;
-      let result: ValueArray<double> = new ValueArray<double>(3);
+      let result: ValueArray<double> = new ValueArray<double>(3, 0);
       let cmp = (lhs: double, rhs: double): int => {
         return lhs > rhs ? 1 : -1;
       };
@@ -306,7 +306,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<boolean>[] = new Array<ValueArray<boolean>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<boolean>(3);
+        pools[j] = new ValueArray<boolean>(3, false);
         pools[j][0] = true; pools[j][1] = false; pools[j][2] = true;
       }
       let Stime = new Date().getTime();
@@ -324,7 +324,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<byte>[] = new Array<ValueArray<byte>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<byte>(3);
+        pools[j] = new ValueArray<byte>(3, 0);
         pools[j][0] = 3; pools[j][1] = 1; pools[j][2] = 2;
       }
       let Stime = new Date().getTime();
@@ -342,7 +342,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<short>[] = new Array<ValueArray<short>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<short>(3);
+        pools[j] = new ValueArray<short>(3, 0);
         pools[j][0] = 30; pools[j][1] = 10; pools[j][2] = 20;
       }
       let Stime = new Date().getTime();
@@ -360,7 +360,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<int>[] = new Array<ValueArray<int>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<int>(3);
+        pools[j] = new ValueArray<int>(3, 0);
         pools[j][0] = 300; pools[j][1] = 100; pools[j][2] = 200;
       }
       let Stime = new Date().getTime();
@@ -378,7 +378,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<long>[] = new Array<ValueArray<long>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<long>(3);
+        pools[j] = new ValueArray<long>(3, 0);
         pools[j][0] = 3000; pools[j][1] = 1000; pools[j][2] = 2000;
       }
       let Stime = new Date().getTime();
@@ -396,7 +396,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<float>[] = new Array<ValueArray<float>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<float>(3);
+        pools[j] = new ValueArray<float>(3, 0);
         pools[j][0] = 3.3 as float; pools[j][1] = 1.1 as float; pools[j][2] = 2.2 as float;
       }
       let Stime = new Date().getTime();
@@ -414,7 +414,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<double>[] = new Array<ValueArray<double>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<double>(3);
+        pools[j] = new ValueArray<double>(3, 0);
         pools[j][0] = 3.33; pools[j][1] = 1.11; pools[j][2] = 2.22;
       }
       let Stime = new Date().getTime();
@@ -432,7 +432,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<char>[] = new Array<ValueArray<char>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<char>(3);
+        pools[j] = new ValueArray<char>(3, c'\u0000');
         pools[j][0] = c'c'; pools[j][1] = c'a'; pools[j][2] = c'b';
       }
       let Stime = new Date().getTime();
@@ -449,7 +449,7 @@ export default function BuiltinArraySortPerfTest01(): void {
 
     // ==================== swap ValueArray ====================
     it('PerformanceTest_BuiltinArraySortPerfTest01_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let valArray: ValueArray<boolean> = new ValueArray<boolean>(3);
+      let valArray: ValueArray<boolean> = new ValueArray<boolean>(3, false);
       valArray[0] = true; valArray[1] = false; valArray[2] = true;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -464,7 +464,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest01_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let valArray: ValueArray<byte> = new ValueArray<byte>(3);
+      let valArray: ValueArray<byte> = new ValueArray<byte>(3, 0);
       valArray[0] = 3; valArray[1] = 1; valArray[2] = 2;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -479,7 +479,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest01_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let valArray: ValueArray<short> = new ValueArray<short>(3);
+      let valArray: ValueArray<short> = new ValueArray<short>(3, 0);
       valArray[0] = 30; valArray[1] = 10; valArray[2] = 20;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -494,7 +494,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest01_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let valArray: ValueArray<int> = new ValueArray<int>(3);
+      let valArray: ValueArray<int> = new ValueArray<int>(3, 0);
       valArray[0] = 300; valArray[1] = 100; valArray[2] = 200;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -509,7 +509,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest01_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let valArray: ValueArray<long> = new ValueArray<long>(3);
+      let valArray: ValueArray<long> = new ValueArray<long>(3, 0);
       valArray[0] = 3000; valArray[1] = 1000; valArray[2] = 2000;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -524,7 +524,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest01_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let valArray: ValueArray<float> = new ValueArray<float>(3);
+      let valArray: ValueArray<float> = new ValueArray<float>(3, 0);
       valArray[0] = 3.3 as float; valArray[1] = 1.1 as float; valArray[2] = 2.2 as float;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -539,7 +539,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest01_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let valArray: ValueArray<double> = new ValueArray<double>(3);
+      let valArray: ValueArray<double> = new ValueArray<double>(3, 0);
       valArray[0] = 3.33; valArray[1] = 1.11; valArray[2] = 2.22;
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -554,7 +554,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     })
 
     it('PerformanceTest_BuiltinArraySortPerfTest01_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let valArray: ValueArray<char> = new ValueArray<char>(3);
+      let valArray: ValueArray<char> = new ValueArray<char>(3, c'\u0000');
       valArray[0] = c'c'; valArray[1] = c'a'; valArray[2] = c'b';
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
@@ -572,7 +572,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<boolean>[] = new Array<ValueArray<boolean>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<boolean>(3);
+        pools[j] = new ValueArray<boolean>(3, false);
         pools[j][0] = true; pools[j][1] = false; pools[j][2] = true;
       }
       let mustPrecede = (lhs: boolean, rhs: boolean) => {
@@ -594,7 +594,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<byte>[] = new Array<ValueArray<byte>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<byte>(3);
+        pools[j] = new ValueArray<byte>(3, 0);
         pools[j][0] = 3; pools[j][1] = 1; pools[j][2] = 2;
       }
       let mustPrecede = (lhs: byte, rhs: byte) => {
@@ -616,7 +616,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<short>[] = new Array<ValueArray<short>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<short>(3);
+        pools[j] = new ValueArray<short>(3, 0);
         pools[j][0] = 30; pools[j][1] = 10; pools[j][2] = 20;
       }
       let mustPrecede = (lhs: short, rhs: short) => {
@@ -638,7 +638,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_3200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<int>[] = new Array<ValueArray<int>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<int>(3);
+        pools[j] = new ValueArray<int>(3, 0);
         pools[j][0] = 300; pools[j][1] = 100; pools[j][2] = 200;
       }
       let mustPrecede = (lhs: int, rhs: int) => {
@@ -660,7 +660,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_3300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<long>[] = new Array<ValueArray<long>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<long>(3);
+        pools[j] = new ValueArray<long>(3, 0);
         pools[j][0] = 3000; pools[j][1] = 1000; pools[j][2] = 2000;
       }
       let mustPrecede = (lhs: long, rhs: long) => {
@@ -682,7 +682,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_3400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<float>[] = new Array<ValueArray<float>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<float>(3);
+        pools[j] = new ValueArray<float>(3, 0);
         pools[j][0] = 3.3 as float; pools[j][1] = 1.1 as float; pools[j][2] = 2.2 as float;
       }
       let mustPrecede = (lhs: float, rhs: float) => {
@@ -704,7 +704,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_3500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<double>[] = new Array<ValueArray<double>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<double>(3);
+        pools[j] = new ValueArray<double>(3, 0);
         pools[j][0] = 3.33; pools[j][1] = 1.11; pools[j][2] = 2.22;
       }
       let mustPrecede = (lhs: double, rhs: double) => {
@@ -726,7 +726,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_3600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<char>[] = new Array<ValueArray<char>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<char>(3);
+        pools[j] = new ValueArray<char>(3, c'\u0000');
         pools[j][0] = c'c'; pools[j][1] = c'a'; pools[j][2] = c'b';
       }
       let mustPrecede = (lhs: char, rhs: char) => {
@@ -749,7 +749,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_3700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<boolean>[] = new Array<ValueArray<boolean>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<boolean>(3);
+        pools[j] = new ValueArray<boolean>(3, false);
         pools[j][0] = true; pools[j][1] = false; pools[j][2] = true;
       }
       let mustPrecede = (lhs: boolean, rhs: boolean) => {
@@ -771,7 +771,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_3800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<byte>[] = new Array<ValueArray<byte>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<byte>(3);
+        pools[j] = new ValueArray<byte>(3, 0);
         pools[j][0] = 3; pools[j][1] = 1; pools[j][2] = 2;
       }
       let mustPrecede = (lhs: byte, rhs: byte) => {
@@ -793,7 +793,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_3900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<short>[] = new Array<ValueArray<short>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<short>(3);
+        pools[j] = new ValueArray<short>(3, 0);
         pools[j][0] = 30; pools[j][1] = 10; pools[j][2] = 20;
       }
       let mustPrecede = (lhs: short, rhs: short) => {
@@ -815,7 +815,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_4000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<int>[] = new Array<ValueArray<int>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<int>(3);
+        pools[j] = new ValueArray<int>(3, 0);
         pools[j][0] = 300; pools[j][1] = 100; pools[j][2] = 200;
       }
       let mustPrecede = (lhs: int, rhs: int) => {
@@ -837,7 +837,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_4100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<long>[] = new Array<ValueArray<long>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<long>(3);
+        pools[j] = new ValueArray<long>(3, 0);
         pools[j][0] = 3000; pools[j][1] = 1000; pools[j][2] = 2000;
       }
       let mustPrecede = (lhs: long, rhs: long) => {
@@ -859,7 +859,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_4200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<float>[] = new Array<ValueArray<float>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<float>(3);
+        pools[j] = new ValueArray<float>(3, 0);
         pools[j][0] = 3.3 as float; pools[j][1] = 1.1 as float; pools[j][2] = 2.2 as float;
       }
       let mustPrecede = (lhs: float, rhs: float) => {
@@ -881,7 +881,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_4300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<double>[] = new Array<ValueArray<double>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<double>(3);
+        pools[j] = new ValueArray<double>(3, 0);
         pools[j][0] = 3.33; pools[j][1] = 1.11; pools[j][2] = 2.22;
       }
       let mustPrecede = (lhs: double, rhs: double) => {
@@ -903,7 +903,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_4400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<char>[] = new Array<ValueArray<char>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<char>(3);
+        pools[j] = new ValueArray<char>(3, c'\u0000');
         pools[j][0] = c'c'; pools[j][1] = c'a'; pools[j][2] = c'b';
       }
       let mustPrecede = (lhs: char, rhs: char) => {
@@ -926,7 +926,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_4500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<boolean>[] = new Array<ValueArray<boolean>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<boolean>(3);
+        pools[j] = new ValueArray<boolean>(3, false);
         pools[j][0] = true; pools[j][1] = false; pools[j][2] = true;
       }
       let mustPrecede = (lhs: boolean, rhs: boolean) => {
@@ -948,7 +948,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_4600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<byte>[] = new Array<ValueArray<byte>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<byte>(3);
+        pools[j] = new ValueArray<byte>(3, 0);
         pools[j][0] = 3; pools[j][1] = 1; pools[j][2] = 2;
       }
       let mustPrecede = (lhs: byte, rhs: byte) => {
@@ -970,7 +970,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_4700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<short>[] = new Array<ValueArray<short>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<short>(3);
+        pools[j] = new ValueArray<short>(3, 0);
         pools[j][0] = 30; pools[j][1] = 10; pools[j][2] = 20;
       }
       let mustPrecede = (lhs: short, rhs: short) => {
@@ -992,7 +992,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_4800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<int>[] = new Array<ValueArray<int>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<int>(3);
+        pools[j] = new ValueArray<int>(3, 0);
         pools[j][0] = 300; pools[j][1] = 100; pools[j][2] = 200;
       }
       let mustPrecede = (lhs: int, rhs: int) => {
@@ -1014,7 +1014,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_4900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<long>[] = new Array<ValueArray<long>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<long>(3);
+        pools[j] = new ValueArray<long>(3, 0);
         pools[j][0] = 3000; pools[j][1] = 1000; pools[j][2] = 2000;
       }
       let mustPrecede = (lhs: long, rhs: long) => {
@@ -1036,7 +1036,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_5000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<float>[] = new Array<ValueArray<float>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<float>(3);
+        pools[j] = new ValueArray<float>(3, 0);
         pools[j][0] = 3.3 as float; pools[j][1] = 1.1 as float; pools[j][2] = 2.2 as float;
       }
       let mustPrecede = (lhs: float, rhs: float) => {
@@ -1058,7 +1058,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_5100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<double>[] = new Array<ValueArray<double>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<double>(3);
+        pools[j] = new ValueArray<double>(3, 0);
         pools[j][0] = 3.33; pools[j][1] = 1.11; pools[j][2] = 2.22;
       }
       let mustPrecede = (lhs: double, rhs: double) => {
@@ -1080,7 +1080,7 @@ export default function BuiltinArraySortPerfTest01(): void {
     it('PerformanceTest_BuiltinArraySortPerfTest01_5200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let pools: ValueArray<char>[] = new Array<ValueArray<char>>();
       for (let j = 0; j < BASE_COUNT; j++) {
-        pools[j] = new ValueArray<char>(3);
+        pools[j] = new ValueArray<char>(3, c'\u0000');
         pools[j][0] = c'c'; pools[j][1] = c'a'; pools[j][2] = c'b';
       }
       let mustPrecede = (lhs: char, rhs: char) => {

@@ -426,7 +426,7 @@ export default function PromisePerfTest(): void {
 
     it('PerformanceTest_Promise_All_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let promises: FixedArray<Promise<int> | undefined> = new FixedArray<Promise<int> | undefined>(2);
+        let promises: FixedArray<Promise<int> | undefined> = new FixedArray<Promise<int> | undefined>(2, undefined);
         promises[0] = Promise.resolve<int>(1);
         promises[1] = Promise.resolve<int>(2);
         let result: Promise<Array<int>> | undefined = undefined;
@@ -478,7 +478,7 @@ export default function PromisePerfTest(): void {
 
     it('PerformanceTest_Promise_AllSettled_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let promises: FixedArray<Promise<int> | undefined> = new FixedArray<Promise<int> | undefined>(2);
+        let promises: FixedArray<Promise<int> | undefined> = new FixedArray<Promise<int> | undefined>(2, undefined);
         promises[0] = Promise.resolve<int>(1);
         promises[1] = Promise.resolve<int>(2);
         let result: Promise<PromiseSettledResult<int>[]> | undefined = undefined;
@@ -530,7 +530,7 @@ export default function PromisePerfTest(): void {
 
     it('PerformanceTest_Promise_Any_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let promises: FixedArray<Promise<int> | undefined> = new FixedArray<Promise<int> | undefined>(2);
+        let promises: FixedArray<Promise<int> | undefined> = new FixedArray<Promise<int> | undefined>(2, undefined);
         promises[0] = Promise.resolve<int>(1);
         promises[1] = Promise.resolve<int>(2);
         let result: Promise<int> | undefined = undefined;
@@ -582,7 +582,7 @@ export default function PromisePerfTest(): void {
 
     it('PerformanceTest_Promise_Race_0100',
       TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-        let promises: FixedArray<Promise<int> | undefined> = new FixedArray<Promise<int> | undefined>(2);
+        let promises: FixedArray<Promise<int> | undefined> = new FixedArray<Promise<int> | undefined>(2, undefined);
         promises[0] = Promise.resolve<int>(1);
         promises[1] = Promise.resolve<int>(2);
         let result: Promise<int> | undefined = undefined;

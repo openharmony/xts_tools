@@ -49,7 +49,7 @@ export default function BuiltinArrayPerfTest17(): void {
 
     it('PerformanceTest_BuiltinArrayTest_58300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<boolean> = [true, false, true, false, true];
-      let result = new FixedArray<boolean>(5);
+      let result = new FixedArray<boolean>(5, new Boolean());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = filter(fixArray, (value: boolean): boolean => value > true);
@@ -65,7 +65,7 @@ export default function BuiltinArrayPerfTest17(): void {
 
     it('PerformanceTest_BuiltinArrayTest_58400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<byte> = [1, 2, 3, 4, 5];
-      let result = new FixedArray<byte>(5);
+      let result = new FixedArray<byte>(5, new Byte());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = filter(fixArray, (value: byte): boolean => value > 2);
@@ -81,7 +81,7 @@ export default function BuiltinArrayPerfTest17(): void {
 
     it('PerformanceTest_BuiltinArrayTest_58500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<float> = [1.1f, 2.2f, 3.3f, 4.4f, 5.5f];
-      let result = new FixedArray<float>(5);
+      let result = new FixedArray<float>(5, new Float());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = filter(fixArray, (value: float): boolean => value > 3.3f);
@@ -97,7 +97,7 @@ export default function BuiltinArrayPerfTest17(): void {
 
     it('PerformanceTest_BuiltinArrayTest_58600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<int> = [100, 200, 300, 400, 500];
-      let result = new FixedArray<int>(5);
+      let result = new FixedArray<int>(5, new Int());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = filter(fixArray, (value: int): boolean => value > 200);
@@ -113,7 +113,7 @@ export default function BuiltinArrayPerfTest17(): void {
 
     it('PerformanceTest_BuiltinArrayTest_58700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<long> = [1000, 2000, 3000, 4000, 5000];
-      let result = new FixedArray<long>(5);
+      let result = new FixedArray<long>(5, new Long());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = filter(fixArray, (value: long): boolean => value > 3000);
@@ -129,7 +129,7 @@ export default function BuiltinArrayPerfTest17(): void {
 
     it('PerformanceTest_BuiltinArrayTest_58800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [10, 20, 30, 40, 50];
-      let result = new FixedArray<short>(5);
+      let result = new FixedArray<short>(5, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = filter(fixArray, (value: short): boolean => value > 30);

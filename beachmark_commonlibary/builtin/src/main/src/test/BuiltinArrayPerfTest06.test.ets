@@ -64,7 +64,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
     it('PerformanceTest_BuiltinArrayTest03_4300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'a', c'b', c'c', c'd' , c'e'];
-        let result = new FixedArray<char>(5);
+        let result = new FixedArray<char>(5, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = copyWithin(fixArray, 0);
@@ -80,7 +80,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
     it('PerformanceTest_BuiltinArrayTest03_4400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'a', c'b', c'c', c'd' , c'e'];
-        let result = new FixedArray<char>(5);
+        let result = new FixedArray<char>(5, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = copyWithin(fixArray, 0, 3);
@@ -96,7 +96,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
     it('PerformanceTest_BuiltinArrayTest03_4500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'a', c'b', c'c', c'd' , c'e'];
-        let result = new FixedArray<char>(5);
+        let result = new FixedArray<char>(5, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = copyWithin(fixArray, 0, 3, 4);
@@ -112,7 +112,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
     it('PerformanceTest_BuiltinArrayTest03_4600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'a', c'b', c'c', c'd' , c'e'];
-        let result = new FixedArray<char>(5);
+        let result = new FixedArray<char>(5, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = fill(fixArray, c'z');
@@ -268,7 +268,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
     it('PerformanceTest_BuiltinArrayTest03_5700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'a', c'b', c'c', c'd' , c'e'];
-        let result = new FixedArray<char>(3);
+        let result = new FixedArray<char>(3, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = slice(fixArray, 2);
@@ -284,7 +284,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
     it('PerformanceTest_BuiltinArrayTest03_5800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'a', c'b', c'c', c'd' , c'e'];
-        let result = new FixedArray<char>(2);
+        let result = new FixedArray<char>(2, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = slice(fixArray, 1, 3);
@@ -396,7 +396,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
     it('PerformanceTest_BuiltinArrayTest03_6500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'a', c'b', c'c', c'd', c'e'];
-        let result = new FixedArray<char>(2);
+        let result = new FixedArray<char>(2, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = toSpliced(fixArray, 3);
@@ -412,7 +412,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
     it('PerformanceTest_BuiltinArrayTest03_6600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'a', c'b', c'c', c'd', c'e'];
-        let result = new FixedArray<char>(4);
+        let result = new FixedArray<char>(4, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = toSpliced(fixArray, 1, 2, c'x');
@@ -428,7 +428,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
     it('PerformanceTest_BuiltinArrayTest03_6700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'a', c'b', c'c', c'd', c'e'];
-        let result = new FixedArray<char>(3);
+        let result = new FixedArray<char>(3, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = toSpliced(fixArray, 1, 2);
@@ -473,7 +473,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
     it('PerformanceTest_BuiltinArrayTest03_7000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'c', c'a', c'b'];
-        let result = new FixedArray<char>(3);
+        let result = new FixedArray<char>(3, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = toSorted(fixArray);
@@ -488,7 +488,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
     it('PerformanceTest_BuiltinArrayTest03_7200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'a', c'b', c'c'];
-        let result = new FixedArray<char>(3);
+        let result = new FixedArray<char>(3, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = reverse(fixArray);
@@ -503,7 +503,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
     it('PerformanceTest_BuiltinArrayTest03_7300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'a', c'b', c'c'];
-        let result = new FixedArray<char>(3);
+        let result = new FixedArray<char>(3, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = toReversed(fixArray);
@@ -518,7 +518,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
     it('PerformanceTest_BuiltinArrayTest03_7400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'a', c'b', c'c'];
-        let result = new FixedArray<char>(3);
+        let result = new FixedArray<char>(3, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = with(fixArray, 1, c'z');
@@ -564,7 +564,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
     it('PerformanceTest_BuiltinArrayTest03_7900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'a', c'b', c'c', c'd', c'e'];
-        let result = new FixedArray<char>(3);
+        let result = new FixedArray<char>(3, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = filter(fixArray, (v: char) => v > c'b');
@@ -580,7 +580,7 @@ export default function BuiltinArrayPerfTest06(): void {
     it('PerformanceTest_BuiltinArrayTest03_8000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'a', c'b', c'c'];
         let fixArray2: FixedArray<char> = [c'd', c'e', c'f'];
-        let result = new FixedArray<char>(6);
+        let result = new FixedArray<char>(6, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = concat(fixArray, fixArray2);
@@ -595,7 +595,7 @@ export default function BuiltinArrayPerfTest06(): void {
 
      it('PerformanceTest_BuiltinArrayTest03_8300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
         let fixArray: FixedArray<char> = [c'c', c'a', c'b'];
-        let result = new FixedArray<char>(3);
+        let result = new FixedArray<char>(3, new Char());
         let Stime = new Date().getTime();
         for (let i = 0; i < BASE_COUNT; i++) {
             result = sort(fixArray);

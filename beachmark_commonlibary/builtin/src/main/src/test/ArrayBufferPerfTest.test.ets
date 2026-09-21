@@ -464,7 +464,7 @@ export default function ArrayBufferPerfTest(): void {
     })
 
     it('PerformanceTest_ArrayBuffer_from_ValueArray_3200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: ValueArray<byte> = new ValueArray<byte>(5);
+      let arr: ValueArray<byte> = new ValueArray<byte>(5, 0);
       arr[0] = 65;
       arr[1] = 66;
       arr[2] = 67;

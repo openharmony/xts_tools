@@ -47,7 +47,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
 
     // ========== lowerBoundSearch 测试 - int 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_LowerBoundSearch_Int_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: FixedArray<int> = new FixedArray<int>(7);
+      let arr: FixedArray<int> = new FixedArray<int>(7, new Int());
       arr[0] = 1; arr[1] = 1; arr[2] = 2; arr[3] = 2; arr[4] = 2; arr[5] = 3; arr[6] = 3;
       let res: int = 0;
       let Stime = new Date().getTime();
@@ -63,7 +63,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArrayAlgorithms_LowerBoundSearch_Int_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: FixedArray<int> = new FixedArray<int>(7);
+      let arr: FixedArray<int> = new FixedArray<int>(7, new Int());
       arr[0] = 1; arr[1] = 1; arr[2] = 2; arr[3] = 2; arr[4] = 2; arr[5] = 3; arr[6] = 3;
       let res: int = 0;
       let Stime = new Date().getTime();
@@ -80,7 +80,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
 
     // ========== upperBoundSearch 测试 - int 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_UpperBoundSearch_Int_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: FixedArray<int> = new FixedArray<int>(7);
+      let arr: FixedArray<int> = new FixedArray<int>(7, new Int());
       arr[0] = 1; arr[1] = 1; arr[2] = 2; arr[3] = 2; arr[4] = 2; arr[5] = 3; arr[6] = 3;
       let res: int = 0;
       let Stime = new Date().getTime();
@@ -96,7 +96,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArrayAlgorithms_UpperBoundSearch_Int_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: FixedArray<int> = new FixedArray<int>(7);
+      let arr: FixedArray<int> = new FixedArray<int>(7, new Int());
       arr[0] = 1; arr[1] = 1; arr[2] = 2; arr[3] = 2; arr[4] = 2; arr[5] = 3; arr[6] = 3;
       let res: int = 0;
       let Stime = new Date().getTime();
@@ -113,11 +113,11 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
 
     // ========== copyOf 测试 - int 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_CopyOf_Int_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let src: FixedArray<int> = new FixedArray<int>(10);
+      let src: FixedArray<int> = new FixedArray<int>(10, new Int());
       for (let i = 0; i < 10; i++) {
         src[i] = i;
       }
-      let res: FixedArray<int> = new FixedArray<int>(0);
+      let res: FixedArray<int> = new FixedArray<int>(0, new Int());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = copyOf(src);
@@ -132,11 +132,11 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
 
     // ========== copyTo 测试 - int 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_CopyTo_Int_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let src: FixedArray<int> = new FixedArray<int>(10);
+      let src: FixedArray<int> = new FixedArray<int>(10, new Int());
       for (let i = 0; i < 10; i++) {
         src[i] = i;
       }
-      let dst: FixedArray<int> = new FixedArray<int>(10);
+      let dst: FixedArray<int> = new FixedArray<int>(10, new Int());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         copyTo(src, dst, 0, 0, 10);
@@ -151,7 +151,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
 
     // ========== lowerBoundSearch 测试 - long 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_LowerBoundSearch_Long_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: FixedArray<long> = new FixedArray<long>(7);
+      let arr: FixedArray<long> = new FixedArray<long>(7, new Long());
       arr[0] = 1; arr[1] = 1; arr[2] = 2; arr[3] = 2; arr[4] = 2; arr[5] = 3; arr[6] = 3;
       let res: int = 0;
       let Stime = new Date().getTime();
@@ -167,7 +167,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArrayAlgorithms_LowerBoundSearch_Long_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: FixedArray<long> = new FixedArray<long>(7);
+      let arr: FixedArray<long> = new FixedArray<long>(7, new Long());
       arr[0] = 1; arr[1] = 1; arr[2] = 2; arr[3] = 2; arr[4] = 2; arr[5] = 3; arr[6] = 3;
       let res: int = 0;
       let Stime = new Date().getTime();
@@ -184,7 +184,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
 
     // ========== upperBoundSearch 测试 - long 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_UpperBoundSearch_Long_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: FixedArray<long> = new FixedArray<long>(7);
+      let arr: FixedArray<long> = new FixedArray<long>(7, new Long());
       arr[0] = 1; arr[1] = 1; arr[2] = 2; arr[3] = 2; arr[4] = 2; arr[5] = 3; arr[6] = 3;
       let res: int = 0;
       let Stime = new Date().getTime();
@@ -200,7 +200,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArrayAlgorithms_UpperBoundSearch_Long_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: FixedArray<long> = new FixedArray<long>(7);
+      let arr: FixedArray<long> = new FixedArray<long>(7, new Long());
       arr[0] = 1; arr[1] = 1; arr[2] = 2; arr[3] = 2; arr[4] = 2; arr[5] = 3; arr[6] = 3;
       let res: int = 0;
       let Stime = new Date().getTime();
@@ -218,11 +218,11 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
     //并发格式不规范
     // ========== copyOf 测试 - long 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_CopyOf_Long_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let src: FixedArray<long> = new FixedArray<long>(10);
+      let src: FixedArray<long> = new FixedArray<long>(10, new Long());
       for (let i = 0; i < 10; i++) {
         src[i] = i;
       }
-      let res: FixedArray<long> = new FixedArray<long>(0);
+      let res: FixedArray<long> = new FixedArray<long>(0, new Long());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = copyOf(src);
@@ -238,11 +238,11 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
     //并发格式不规范
     // ========== copyTo 测试 - long 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_CopyTo_Long_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let src: FixedArray<long> = new FixedArray<long>(10);
+      let src: FixedArray<long> = new FixedArray<long>(10, new Long());
       for (let i = 0; i < 10; i++) {
         src[i] = i;
       }
-      let res: FixedArray<long> = new FixedArray<long>(10);
+      let res: FixedArray<long> = new FixedArray<long>(10, new Long());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         copyTo(src, res, 0, 0, 10);
@@ -257,7 +257,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
 
     // ========== lowerBoundSearch 测试 - double 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_LowerBoundSearch_Double_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: FixedArray<double> = new FixedArray<double>(7);
+      let arr: FixedArray<double> = new FixedArray<double>(7, new Double());
       arr[0] = 1.0; arr[1] = 1.0; arr[2] = 2.0; arr[3] = 2.0; arr[4] = 2.0; arr[5] = 3.0; arr[6] = 3.0;
       let res: int = 0;
       let Stime = new Date().getTime();
@@ -273,7 +273,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArrayAlgorithms_LowerBoundSearch_Double_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: FixedArray<double> = new FixedArray<double>(7);
+      let arr: FixedArray<double> = new FixedArray<double>(7, new Double());
       arr[0] = 1.0; arr[1] = 1.0; arr[2] = 2.0; arr[3] = 2.0; arr[4] = 2.0; arr[5] = 3.0; arr[6] = 3.0;
       let res: int = 0;
       let Stime = new Date().getTime();
@@ -290,7 +290,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
 
     // ========== upperBoundSearch 测试 - double 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_UpperBoundSearch_Double_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: FixedArray<double> = new FixedArray<double>(7);
+      let arr: FixedArray<double> = new FixedArray<double>(7, new Double());
       arr[0] = 1.0; arr[1] = 1.0; arr[2] = 2.0; arr[3] = 2.0; arr[4] = 2.0; arr[5] = 3.0; arr[6] = 3.0;
       let res: int = 0;
       let Stime = new Date().getTime();
@@ -306,7 +306,7 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
     })
 
     it('PerformanceTest_BuiltinArrayAlgorithms_UpperBoundSearch_Double_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let arr: FixedArray<double> = new FixedArray<double>(7);
+      let arr: FixedArray<double> = new FixedArray<double>(7, new Double());
       arr[0] = 1.0; arr[1] = 1.0; arr[2] = 2.0; arr[3] = 2.0; arr[4] = 2.0; arr[5] = 3.0; arr[6] = 3.0;
       let res: int = 0;
       let Stime = new Date().getTime();
@@ -324,11 +324,11 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
     //并发格式不规范
     // ========== copyOf 测试 - double 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_CopyOf_Double_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let src: FixedArray<double> = new FixedArray<double>(10);
+      let src: FixedArray<double> = new FixedArray<double>(10, new Double());
       for (let i = 0; i < 10; i++) {
         src[i] = i * 1.0;
       }
-      let res: FixedArray<double> = new FixedArray<double>(0);
+      let res: FixedArray<double> = new FixedArray<double>(0, new Double());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = copyOf(src);
@@ -343,11 +343,11 @@ export default function BuiltinArrayAlgorithmsPerfTest(): void {
 
     // ========== copyTo 测试 - double 类型 ==========
     it('PerformanceTest_BuiltinArrayAlgorithms_CopyTo_Double_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
-      let src: FixedArray<double> = new FixedArray<double>(10);
+      let src: FixedArray<double> = new FixedArray<double>(10, new Double());
       for (let i = 0; i < 10; i++) {
         src[i] = i * 1.0;
       }
-      let dst: FixedArray<double> = new FixedArray<double>(10);
+      let dst: FixedArray<double> = new FixedArray<double>(10, new Double());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         copyTo(src, dst, 0, 0, 10);

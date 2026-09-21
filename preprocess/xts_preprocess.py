@@ -47,7 +47,8 @@ def main():
     print(f"[XTS PREPROCESS] suite_name: {suite_name}, xts_suite_dir: {xts_suite_dir}")
     print("[XTS PREPROCESS] Bumping compileSdkVersion start.")
     # 1. Bump compileSdkVersion if necessary
-    bump_compile_sdk_version(xts_suite_dir)
+    if bump_compile_sdk_version(xts_suite_dir) < 0:
+        return 1
 
     print("[XTS PREPROCESS] Hvigor check start.")
     # 2. Run Hvigor checks

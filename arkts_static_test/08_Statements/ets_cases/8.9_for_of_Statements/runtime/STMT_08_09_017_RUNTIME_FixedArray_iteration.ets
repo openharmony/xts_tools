@@ -20,7 +20,7 @@
  * @note FixedArray<int>元素求和与迭代次数验证，确保FixedArray可被for-of正确遍历
  */
 function main(): void {
-    let fixedArr: FixedArray<int> = new FixedArray<int>(3);
+    let fixedArr: FixedArray<int> = new FixedArray<int>(3, new Int());
     fixedArr[0] = 10;
     fixedArr[1] = 20;
     fixedArr[2] = 30;

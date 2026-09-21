@@ -21,7 +21,7 @@
  */
 function testFixedArrayPass(): void {
   let fa: FixedArray<int> = [1, 2, 3]
-  let fb: FixedArray<string> = new FixedArray<string>(3)
+  let fb: FixedArray<string> = new FixedArray<string>(3, '')
   let fc: FixedArray<boolean> = [true, false, true]
 
   let elem: int = fa[0]

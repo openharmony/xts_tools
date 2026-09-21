@@ -47,7 +47,7 @@ export default function BuiltinArrayPerfTest11(): void {
 
     it('PerformanceTest_BuiltinArrayTest_41000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<boolean> = [true, false, true, false, true];
-      let result = new FixedArray<boolean>(5);
+      let result = new FixedArray<boolean>(5, new Boolean());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = sort(fixArray);
@@ -62,7 +62,7 @@ export default function BuiltinArrayPerfTest11(): void {
 
     it('PerformanceTest_BuiltinArrayTest_41100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<byte> = [3, 1, 4, 2, 5];
-      let result = new FixedArray<byte>(5);
+      let result = new FixedArray<byte>(5, new Byte());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = sort(fixArray);
@@ -77,7 +77,7 @@ export default function BuiltinArrayPerfTest11(): void {
 
     it('PerformanceTest_BuiltinArrayTest_41200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<short> = [30, 10, 40, 20, 50];
-      let result = new FixedArray<short>(5);
+      let result = new FixedArray<short>(5, new Short());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = sort(fixArray);
@@ -92,7 +92,7 @@ export default function BuiltinArrayPerfTest11(): void {
 
     it('PerformanceTest_BuiltinArrayTest_41300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<int> = [300, 100, 400, 200, 500];
-      let result = new FixedArray<int>(5);
+      let result = new FixedArray<int>(5, new Int());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = sort(fixArray);
@@ -107,7 +107,7 @@ export default function BuiltinArrayPerfTest11(): void {
 
     it('PerformanceTest_BuiltinArrayTest_41400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<long> = [3000, 1000, 4000, 2000, 5000];
-      let result = new FixedArray<long>(5);
+      let result = new FixedArray<long>(5, new Long());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = sort(fixArray);
@@ -122,7 +122,7 @@ export default function BuiltinArrayPerfTest11(): void {
 
     it('PerformanceTest_BuiltinArrayTest_41500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<float> = [3.3f, 1.1f, 4.4f, 2.2f, 5.5f];
-      let result = new FixedArray<float>(5);
+      let result = new FixedArray<float>(5, new Float());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = sort(fixArray);
@@ -137,7 +137,7 @@ export default function BuiltinArrayPerfTest11(): void {
 
     it('PerformanceTest_BuiltinArrayTest_41600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<double> = [3.33, 1.11, 4.44, 2.22, 5.55];
-      let result = new FixedArray<double>(5);
+      let result = new FixedArray<double>(5, new Double());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = sort(fixArray);
@@ -152,7 +152,7 @@ export default function BuiltinArrayPerfTest11(): void {
 
     it('PerformanceTest_BuiltinArrayTest_41700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<char> = [c'c', c'a', c'd', c'b', c'e'];
-      let result = new FixedArray<char>(5);
+      let result = new FixedArray<char>(5, new Char());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = sort(fixArray);
@@ -171,7 +171,7 @@ export default function BuiltinArrayPerfTest11(): void {
        变为 'sort(self: FixedArray<boolean>): FixedArray<boolean>'，注释掉 */
     /* it('PerformanceTest_BuiltinArrayTest_41800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<boolean> = [true, false, true, false, true];
-      let result = new FixedArray<boolean>(5);
+      let result = new FixedArray<boolean>(5, new Boolean());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = sort(fixArray);
@@ -188,7 +188,7 @@ export default function BuiltinArrayPerfTest11(): void {
        变为 'sort(self: FixedArray<byte>): FixedArray<byte>'，注释掉 */
     /* it('PerformanceTest_BuiltinArrayTest_41900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let fixArray: FixedArray<byte> = [3, 1, 4, 2, 5];
-      let result = new FixedArray<byte>(5);
+      let result = new FixedArray<byte>(5, new Byte());
       let Stime = new Date().getTime();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = sort(fixArray);
