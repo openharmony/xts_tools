@@ -16,6 +16,7 @@ limitations under the License.
 """
 
 from __future__ import annotations
+import argparse
 import os
 import re
 import sys
@@ -29,7 +30,7 @@ from utils import (
     is_api_update_done,
 )
 
-PATTERN = re.compile(r'(^\s*([\'"]?)compileSdkVersion\2\s*:\s*([\'"])).*?\3', re.MULTILINE)
+PATTERN = re.compile(r'(^\s*([\'"]?)compileSdkVersion\2\s*:\s*)(?:([\'"]).*?\3|[0-9]+)', re.MULTILINE)
 CHANGE_INFO_FILE = CODE_ROOT / "change_info.json"
 
 
@@ -108,7 +109,7 @@ def _process_file(config_file_path: str, target_version: str) -> tuple[int, bool
     try:
         file_path = Path(config_file_path)
         content = file_path.read_text(encoding='utf-8')
-        new_content, count = PATTERN.subn(rf'\g<1>{target_version}\g<3>', content)
+        new_content, count = PATTERN.subn(rf'\g<1>"{target_version}"', content)
         if count > 0 and new_content != content:
             file_path.write_text(new_content, encoding='utf-8')
             return 0, True  # Success, modified
@@ -118,9 +119,15 @@ def _process_file(config_file_path: str, target_version: str) -> tuple[int, bool
         return 1, False     # Error, unmodified
 
 
-def bump_compile_sdk_version(xts_suite_dir: str | Path) -> int:
+def bump_compile_sdk_version(xts_suite_dir: str | Path, target_version: str | None = None) -> int:
     """
     Batch updates compileSdkVersion in all build-profile.json5 files under xts_suite_dir.
+
+    Args:
+        xts_suite_dir: suite directory to process.
+        target_version: None -> take version from build/version.gni,
+            gated by is_api_update_done() and change_info.json checks;
+            explicit value -> ad-hoc semantics: user intent, skip gates.
 
     Returns:
         int: Number of files successfully updated, or -1 if check failed.
@@ -130,25 +137,28 @@ def bump_compile_sdk_version(xts_suite_dir: str | Path) -> int:
         print(f"[XTS PREPROCESS] [WARN] No such xts suite: {suite_path}")
         return 0
 
-    update_done, local_ver, sdk_ver = is_api_update_done()
-    if update_done:
-        print(f"[XTS PREPROCESS] API update completed ('{local_ver}' -> '{sdk_ver}'). Skipping preprocess.")
-        return 0
+    if target_version is None:
+        update_done, local_ver, sdk_ver = is_api_update_done()
+        if update_done:
+            print(f"[XTS PREPROCESS] API update completed ('{local_ver}' -> '{sdk_ver}'). Skipping preprocess.")
+            return 0
 
-    tc_projects = _tc_build_profile_changed(suite_path)
-    if tc_projects:
-        print(f"[XTS PREPROCESS] API update wip ('{local_ver}' -> '{sdk_ver}'). "
-              f"Commit contains hvigor project build-profile.json5. Checking modified projects...")
-        if not _check_tc_build_profile_projects(tc_projects):
-            return -1
+        tc_projects = _tc_build_profile_changed(suite_path)
+        if tc_projects:
+            print(f"[XTS PREPROCESS] API update wip ('{local_ver}' -> '{sdk_ver}'). "
+                  f"Commit contains hvigor project build-profile.json5. Checking modified projects...")
+            if not _check_tc_build_profile_projects(tc_projects):
+                return -1
+        print(f"[XTS PREPROCESS] API update wip ('{local_ver}' -> '{sdk_ver}'). Running preprocess on {suite_path}...")
+    else:
+        sdk_ver = target_version
+        print(f"[XTS PREPROCESS] Ad-hoc bump on {suite_path} -> compileSdkVersion: '{sdk_ver}'...")
 
     json5_files = list(set(str(p.resolve()) for p in suite_path.rglob("build-profile.json5")))
 
     total_files = len(json5_files)
     if total_files == 0:
         return 0
-
-    print(f"[XTS PREPROCESS] API update wip ('{local_ver}' -> '{sdk_ver}'). Running preprocess on {suite_path}...")
 
     workers = min(os.cpu_count() or 4, total_files)
     chunksize = max(1, total_files // (workers * 4))
@@ -173,10 +183,14 @@ def bump_compile_sdk_version(xts_suite_dir: str | Path) -> int:
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python3 bump_compile_sdk_version.py <xts_suite_dir>")
-        return 1
-    if bump_compile_sdk_version(sys.argv[1]) < 0:
+    parser = argparse.ArgumentParser(
+        description="Batch update compileSdkVersion in build-profile.json5 files.")
+    parser.add_argument("xts_suite_dir", help="XTS suite directory to process")
+    parser.add_argument("-v", "--version", default=None,
+                        help="target compileSdkVersion, ad-hoc mode, "
+                             "default: read from build/version.gni")
+    args = parser.parse_args()
+    if bump_compile_sdk_version(args.xts_suite_dir, args.version) < 0:
         return 1
     return 0
 
