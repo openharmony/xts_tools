@@ -1,0 +1,163 @@
+# Copyright (c) 2026 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import("//build/lite/config/hap_pack.gni")
+import("//test/xts/tools/lite/build/common.gni")
+
+template("jsunit_lite_suite") {
+  _target_name = target_name
+  assert(defined(invoker.hap_name),
+         "hap_name is required in target ${_target_name}")
+  assert(defined(invoker.config_path),
+         "config_path is required in target ${_target_name}")
+  assert(defined(invoker.test_json_path),
+         "test_json_path is required in target ${_target_name}")
+
+  _hap_name = invoker.hap_name
+  _config_path = invoker.config_path
+  _test_json_path = invoker.test_json_path
+  _framework_dir = "//test/testfwk/arkxtest/jsunit_lite"
+  _suite_name = "acts"
+  if (defined(invoker.suite_name)) {
+    _suite_name = invoker.suite_name
+  }
+  _cert_profile = "cert/openharmony_sx.p7b"
+  if (defined(invoker.cert_profile)) {
+    _cert_profile = invoker.cert_profile
+  }
+  _resources_path = "entry/src/main/resources"
+  if (defined(invoker.resources_path)) {
+    _resources_path = invoker.resources_path
+  }
+  _js_source_dir = "entry/src/main/js/MainAbility"
+  if (defined(invoker.js_source_dir)) {
+    _js_source_dir = invoker.js_source_dir
+  }
+  _hap_dir = _hap_name
+  if (defined(invoker.hap_dir)) {
+    _hap_dir = invoker.hap_dir
+  }
+  _suite_dir = "$root_out_dir/suites/acts/testcases/${_hap_dir}"
+  _tools_dir = "$root_out_dir/suites/acts/testcases/tools"
+  _build_prefix = "$root_out_dir/${_hap_dir}"
+
+  action("${_target_name}_ace_loader_build") {
+    script = "//test/xts/tools/lite/build/pre_build_lite.py"
+    outputs = [ "$target_gen_dir/ace_loader_build.stamp" ]
+    args = [ rebase_path("$target_gen_dir/ace_loader_build.stamp") ]
+  }
+
+  action("${_target_name}_js_bundle") {
+    deps = [ ":${_target_name}_ace_loader_build" ]
+    script = "//test/xts/tools/lite/build/jsunit_lite_build_js.py"
+    sources = [
+      "${_js_source_dir}/app.js",
+      "${_js_source_dir}/manifest.json",
+    ]
+    if (defined(invoker.extra_sources)) {
+      sources += invoker.extra_sources
+    }
+    outputs = [
+      "$_build_prefix/assets/js/default/app.js",
+      "$_build_prefix/assets/js/default/manifest.json",
+    ]
+    args = [
+      rebase_path("."),
+      rebase_path(_framework_dir),
+      rebase_path("$_build_prefix/assets/js/default"),
+    ]
+  }
+
+  group("${_target_name}_js_assets") {
+    deps = [ ":${_target_name}_js_bundle" ]
+  }
+
+  hap_pack("${_target_name}_hap") {
+    deps = [ ":${_target_name}_js_assets" ]
+    mode = "hap"
+    json_path = _config_path
+    assets_path = "$_build_prefix/assets"
+    force = "true"
+    cert_profile = _cert_profile
+    resources_path = _resources_path
+    hap_name = _hap_name
+    privatekey = "HOS Application Provision Release"
+  }
+
+  action("${_target_name}_deploy") {
+    deps = [ ":${_target_name}_hap" ]
+    if (ohos_kernel_type == "liteos_a" || ohos_kernel_type == "linux") {
+      deps += [
+        "//foundation/ability/ability_lite/services/abilitymgr_lite/tools:aa",
+        "//foundation/bundlemanager/bundle_framework_lite/services/bundlemgr_lite/tools:bm",
+      ]
+    }
+    script = "//test/xts/tools/lite/build/deploy_lite.py"
+    sources = [ _test_json_path ]
+    outputs = [
+      "$_suite_dir/${_hap_name}.hap",
+      "$_suite_dir/${_hap_name}.json",
+      "$_tools_dir/aa",
+    ]
+    args = [
+      "--hap",
+      rebase_path("$root_out_dir/system/internal/${_hap_name}.hap"),
+      "--hap-out",
+      rebase_path(_suite_dir),
+      "--test-json",
+      rebase_path(_test_json_path),
+      "--test-json-out",
+      rebase_path("$_suite_dir/${_hap_name}.json"),
+      "--aa-src",
+      rebase_path("$root_out_dir/dev_tools/bin/aa"),
+      "--tools-out",
+      rebase_path(_tools_dir),
+    ]
+  }
+
+  action("${_target_name}_copy_bm") {
+    deps = [ "//foundation/bundlemanager/bundle_framework_lite/services/bundlemgr_lite/tools:bm" ]
+    script = "//test/xts/tools/lite/build/utils.py"
+    outputs = [ "$_tools_dir/bm" ]
+    args = [
+      "--method_name",
+      "copy_file",
+      "--arguments",
+      "output=" + rebase_path(_tools_dir) + "#sources=" +
+          rebase_path("$root_out_dir/dev_tools/bin/bm") + "#to_dir=True",
+    ]
+  }
+
+  action("${_target_name}_remove_from_rootfs") {
+    deps = [
+      ":${_target_name}_copy_bm",
+      ":${_target_name}_deploy",
+    ]
+    script = "//test/xts/tools/lite/build/rm_from_rootfs.py"
+    outputs = [ "$target_gen_dir/rm_${_target_name}.stamp" ]
+    args = [
+      "--remove",
+      rebase_path("$root_out_dir/system/internal/${_hap_name}.hap"),
+      "--stamp",
+      rebase_path("$target_gen_dir/rm_${_target_name}.stamp"),
+    ]
+  }
+
+  group(target_name) {
+    deps = [
+      ":${_target_name}_copy_bm",
+      ":${_target_name}_deploy",
+      ":${_target_name}_remove_from_rootfs",
+    ]
+  }
+}
