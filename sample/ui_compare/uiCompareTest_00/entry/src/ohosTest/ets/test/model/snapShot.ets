@@ -92,18 +92,27 @@ class windowSnap {
     Logger.info(TAG, 'find window success')
     Logger.info(TAG, 'find window success, snapShot pageName is: ',pageName)
     let filePath = this.filePath(pageName)
-    this.deleteFile(filePath);
+    await this.deleteFile(filePath);
 
-    //截屏
-    Settings.windowClass.snapshot((err, data: image.PixelMap) => {
-      if (err.code) {
-        Logger.info('failed to snap window .cause : ' + JSON.stringify(err))
-        return;
-      }
-      Logger.info(TAG, 'Succeed in saving screenshot. Pixel bytes number: ' + data.getPixelBytesNumber())
-      this.save(filePath, data)
-
-      data.release();
+    //截屏：整条「截屏 -> 编码 webp -> 落盘」链路 Promise 化，
+    //调用方直接 await 即可，无需再用固定 sleep 等待文件写盘（原用例尾部 sleep 正是在等这一步）。
+    await new Promise<void>((resolve: Function) => {
+      Settings.windowClass!.snapshot(async (err, data: image.PixelMap) => {
+        if (err.code) {
+          Logger.info('failed to snap window .cause : ' + JSON.stringify(err))
+          resolve()
+          return;
+        }
+        Logger.info(TAG, 'Succeed in saving screenshot. Pixel bytes number: ' + data.getPixelBytesNumber())
+        try {
+          await this.save(filePath, data)
+        } catch (exception) {
+          Logger.error(TAG, `save failed. Cause : ${JSON.stringify(exception)}`)
+        } finally {
+          data.release();
+          resolve()
+        }
+      });
     });
   }
 
@@ -123,7 +132,7 @@ class windowSnap {
     }
     Logger.info(TAG, 'find window success')
     let filePath = this.filePath(pageName)
-    this.deleteFile(filePath)
+    await this.deleteFile(filePath)
 
     // 获取窗口属性
     try {
@@ -139,14 +148,24 @@ class windowSnap {
       };
       Logger.info(TAG, 'screenshotOptions: ' + JSON.stringify(screenshotOptions));
       try {
-        screenshot.save(screenshotOptions, (err: BusinessError, pixelMap: image.PixelMap) => {
-          if (err) {
-            Logger.info('failed to save screenshot .Code : ' + JSON.stringify(err))
-            return;
-          }
-          Logger.info(TAG, 'Succeed in saving screenshot. Pixel bytes number: ' + pixelMap.getPixelBytesNumber())
-          this.save(filePath, pixelMap) //pixelMap 保存生成文件
-          pixelMap.release();
+        // 与 snapShot 一致：save 落盘完成后才 resolve，调用方可直接 await。
+        await new Promise<void>((resolve: Function) => {
+          screenshot.save(screenshotOptions, async (err: BusinessError, pixelMap: image.PixelMap) => {
+            if (err) {
+              Logger.info('failed to save screenshot .Code : ' + JSON.stringify(err))
+              resolve()
+              return;
+            }
+            Logger.info(TAG, 'Succeed in saving screenshot. Pixel bytes number: ' + pixelMap.getPixelBytesNumber())
+            try {
+              await this.save(filePath, pixelMap) //pixelMap 保存生成文件
+            } catch (exception) {
+              Logger.error(TAG, `save failed. Cause : ${JSON.stringify(exception)}`)
+            } finally {
+              pixelMap.release();
+              resolve()
+            }
+          });
         });
       } catch (exception) {
         Logger.error(TAG, 'failed to : save screenshot. code: ' + JSON.stringify(exception));

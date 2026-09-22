@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentImageSummary0001() {
-  describe('uiComponentImageSummary0001', () => {
+  describe('UiComponentImageSummary0001', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponentImageSummary0001() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_IMAGE_SUMMARY_0001', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/component/image/UiComponentImageSummary/uiComponentImageSummary0001')
+      Settings.createWindow('testability/pages/component/image/UiComponentImageSummary/UiComponentImageSummary0001')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('image_summary_0001'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_IMAGE_SUMMARY_0001_01')
-      await Utils.sleep(1000)
       done()
     })
   })

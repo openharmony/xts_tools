@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentMediaCalendarPickerDisabled0020() {
-  describe('uiComponentMediaCalendarPickerDisabled0020', () => {
+  describe('UiComponentMediaCalendarPickerDisabled0020', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -45,7 +45,6 @@ export default function uiComponentMediaCalendarPickerDisabled0020() {
       let target = await driver.waitForComponent(ON.id('calendarpicker_disabled_0020'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_CAlENDARPICKER_DISABLEDDATE_0020_01')
-      await Utils.sleep(1000)
       done()
     })
   })

@@ -22,7 +22,7 @@ import { uiAppearance } from '@kit.ArkUI'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentMediaDarkColorMode0026() {
-  describe('uiComponentMediaDarkColorMode0026', () => {
+  describe('UiComponentMediaDarkColorMode0026', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -37,7 +37,7 @@ export default function uiComponentMediaDarkColorMode0026() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0026', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/scenario/color_mode/UiComponentMediaDarkColorMode/uiComponentMediaDarkColorMode0026')
+      Settings.createWindow('testability/pages/scenario/color_mode/UiComponentMediaDarkColorMode/UiComponentMediaDarkColorMode0026')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
@@ -46,7 +46,7 @@ export default function uiComponentMediaDarkColorMode0026() {
       let target = await driver.waitForComponent(ON.id('dark_colormode_0026'), 500)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0026_01')
-      await Utils.sleep(1000)
+      await Utils.sleep(300)
 
       uiAppearance.setDarkMode(uiAppearance.DarkMode.ALWAYS_LIGHT)
       await Utils.sleep(300)

@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentMediaImageModifier0020() {
-  describe('uiComponentMediaImageModifier0020', () => {
+  describe('UiComponentMediaImageModifier0020', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponentMediaImageModifier0020() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0020', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/component/image/UiComponentMediaImageModifier/uiComponentMediaImageModifier0020')
+      Settings.createWindow('testability/pages/component/image/UiComponentMediaImageModifier/UiComponentMediaImageModifier0020')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('image_modifier_0020'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0020_01')
-      await Utils.sleep(1000)
       done()
     })
   })

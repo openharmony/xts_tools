@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentMediaPickerTvLayer0016() {
-  describe('uiComponentMediaPickerTvLayer0016', () => {
+  describe('UiComponentMediaPickerTvLayer0016', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponentMediaPickerTvLayer0016() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PICKER_TVLAYER_0016', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/scenario/tv/UiComponentMediaPickerTvLayer/uiComponentMediaPickerTvLayer0016')
+      Settings.createWindow('testability/pages/scenario/tv/UiComponentMediaPickerTvLayer/UiComponentMediaPickerTvLayer0016')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('datepicker_tv_0016'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PICKER_TVLAYER_0016_01')
-      await Utils.sleep(1000)
       done()
     })
   })

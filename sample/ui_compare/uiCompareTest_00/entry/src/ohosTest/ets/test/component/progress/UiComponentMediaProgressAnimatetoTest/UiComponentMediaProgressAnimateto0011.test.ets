@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentMediaProgressAnimateto0011() {
-  describe('uiComponentMediaProgressAnimateto0011', () => {
+  describe('UiComponentMediaProgressAnimateto0011', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -37,7 +37,7 @@ export default function uiComponentMediaProgressAnimateto0011() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0011', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/component/progress/UiComponentMediaProgressAnimateto/uiComponentMediaProgressAnimateto0011')
+      Settings.createWindow('testability/pages/component/progress/UiComponentMediaProgressAnimateto/UiComponentMediaProgressAnimateto0011')
       let driver = await Driver.create()
       await Utils.sleep(500)
       let target = await driver.waitForComponent(ON.id('progress_animateto_0011'), 2000)
@@ -50,7 +50,6 @@ export default function uiComponentMediaProgressAnimateto0011() {
         await Utils.sleep(800)
       }
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0011_01')
-      await Utils.sleep(1000)
       done()
     })
   })

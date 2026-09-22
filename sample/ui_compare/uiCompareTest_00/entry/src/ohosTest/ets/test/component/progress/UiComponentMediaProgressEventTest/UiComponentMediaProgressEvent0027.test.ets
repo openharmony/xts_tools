@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentMediaProgressEvent0027() {
-  describe('uiComponentMediaProgressEvent0027', () => {
+  describe('UiComponentMediaProgressEvent0027', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponentMediaProgressEvent0027() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_EVENT_0027', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/component/progress/UiComponentMediaProgressEvent/uiComponentMediaProgressEvent0027')
+      Settings.createWindow('testability/pages/component/progress/UiComponentMediaProgressEvent/UiComponentMediaProgressEvent0027')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('progress_event_0027'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_EVENT_0027_01')
-      await Utils.sleep(1000)
       done()
     })
   })

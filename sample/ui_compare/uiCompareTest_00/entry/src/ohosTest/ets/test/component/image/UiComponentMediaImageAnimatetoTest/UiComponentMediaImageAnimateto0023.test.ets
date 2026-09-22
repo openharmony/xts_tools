@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentMediaImageAnimateto0023() {
-  describe('uiComponentMediaImageAnimateto0023', () => {
+  describe('UiComponentMediaImageAnimateto0023', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,7 +36,7 @@ export default function uiComponentMediaImageAnimateto0023() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATETO_0023', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/component/image/UiComponentMediaImageAnimateto/uiComponentMediaImageAnimateto0023')
+      Settings.createWindow('testability/pages/component/image/UiComponentMediaImageAnimateto/UiComponentMediaImageAnimateto0023')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('image_animateto_0023'), 2000)
@@ -51,7 +51,6 @@ export default function uiComponentMediaImageAnimateto0023() {
         await Utils.sleep(1000)
       }
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATETO_0023_01')
-      await Utils.sleep(1000)
       done()
     })
   })

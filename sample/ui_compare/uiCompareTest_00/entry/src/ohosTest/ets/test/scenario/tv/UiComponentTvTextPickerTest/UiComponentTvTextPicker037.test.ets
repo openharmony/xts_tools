@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentTvTextPicker037() {
-  describe('uiComponentTvTextPicker037', () => {
+  describe('UiComponentTvTextPicker037', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponentTvTextPicker037() {
      * @tc.level  : 3
      */
     it('SUB_TV_UX_TextPicker_037', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/scenario/tv/UiComponentTvTextPicker/uiComponentTvTextPicker037')
+      Settings.createWindow('testability/pages/scenario/tv/UiComponentTvTextPicker/UiComponentTvTextPicker037')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('tv_textpicker_037'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_TV_UX_TextPicker_037_01')
-      await Utils.sleep(1000)
       done()
     })
   })

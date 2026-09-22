@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentInformationLoadProgress0010() {
-  describe('uiComponentInformationLoadProgress0010', () => {
+  describe('UiComponentInformationLoadProgress0010', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -45,7 +45,6 @@ export default function uiComponentInformationLoadProgress0010() {
       let target = await driver.waitForComponent(ON.id('loadingprogress_0010'), 500)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_loadingProgress_0010_01')
-      await Utils.sleep(1000)
       done()
     })
   })

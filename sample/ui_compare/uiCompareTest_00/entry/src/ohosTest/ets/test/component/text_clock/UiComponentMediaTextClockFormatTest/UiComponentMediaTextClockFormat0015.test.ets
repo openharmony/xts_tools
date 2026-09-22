@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentMediaTextClockFormat0015() {
-  describe('uiComponentMediaTextClockFormat0015', () => {
+  describe('UiComponentMediaTextClockFormat0015', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponentMediaTextClockFormat0015() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_FORMAT_MODIFIER_0015', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/component/text_clock/UiComponentMediaTextClockFormat/uiComponentMediaTextClockFormat0015')
+      Settings.createWindow('testability/pages/component/text_clock/UiComponentMediaTextClockFormat/UiComponentMediaTextClockFormat0015')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('textclock_format_0015'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_FORMAT_MODIFIER_0015_01')
-      await Utils.sleep(1000)
       done()
     })
   })

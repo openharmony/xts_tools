@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentMediaImageCrossplatform0083() {
-  describe('uiComponentMediaImageCrossplatform0083', () => {
+  describe('UiComponentMediaImageCrossplatform0083', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -45,7 +45,6 @@ export default function uiComponentMediaImageCrossplatform0083() {
       let target = await driver.waitForComponent(ON.id('image_cross_0083'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0083_01')
-      await Utils.sleep(1000)
       done()
     })
   })

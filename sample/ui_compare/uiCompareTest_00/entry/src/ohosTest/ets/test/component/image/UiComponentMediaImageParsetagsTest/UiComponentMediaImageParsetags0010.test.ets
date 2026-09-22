@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentMediaImageParsetags0010() {
-  describe('uiComponentMediaImageParsetags0010', () => {
+  describe('UiComponentMediaImageParsetags0010', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponentMediaImageParsetags0010() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PARSETAGS_0010', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/component/image/UiComponentMediaImageParsetags/uiComponentMediaImageParsetags0010')
+      Settings.createWindow('testability/pages/component/image/UiComponentMediaImageParsetags/UiComponentMediaImageParsetags0010')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('image_parsetags_0010'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PARSETAGS_0010_01')
-      await Utils.sleep(1000)
       done()
     })
   })

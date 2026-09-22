@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentTvTextPicker15() {
-  describe('uiComponentTvTextPicker15', () => {
+  describe('UiComponentTvTextPicker15', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponentTvTextPicker15() {
      * @tc.level  : 3
      */
     it('SUB_TV_TextPicker_FadingEdge_15', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/scenario/tv/UiComponentTvTextPicker/uiComponentTvTextPicker15')
+      Settings.createWindow('testability/pages/scenario/tv/UiComponentTvTextPicker/UiComponentTvTextPicker15')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('tv_textpicker_fade_15'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_TV_TextPicker_FadingEdge_15_01')
-      await Utils.sleep(1000)
       done()
     })
   })

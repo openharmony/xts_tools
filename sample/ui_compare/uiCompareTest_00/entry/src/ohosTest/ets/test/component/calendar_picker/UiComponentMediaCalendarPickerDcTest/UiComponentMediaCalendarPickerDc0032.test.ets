@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentMediaCalendarPickerDc0032() {
-  describe('uiComponentMediaCalendarPickerDc0032', () => {
+  describe('UiComponentMediaCalendarPickerDc0032', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponentMediaCalendarPickerDc0032() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DC_0032', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/component/calendar_picker/UiComponentMediaCalendarPickerDc/uiComponentMediaCalendarPickerDc0032')
+      Settings.createWindow('testability/pages/component/calendar_picker/UiComponentMediaCalendarPickerDc/UiComponentMediaCalendarPickerDc0032')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('calendarpicker_dc_0032'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_DC_0032_01')
-      await Utils.sleep(1000)
       done()
     })
   })

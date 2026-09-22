@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentTextPickerGesture4b69() {
-  describe('uiComponentTextPickerGesture4b69', () => {
+  describe('UiComponentTextPickerGesture4b69', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,7 +36,7 @@ export default function uiComponentTextPickerGesture4b69() {
      * @tc.level  : 3
      */
     it('TestCase_4b69a29e043d49f2826d78cdfa38c301', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/component/text_picker/UiComponentTextPickerGesture/uiComponentTextPickerGesture4b69')
+      Settings.createWindow('testability/pages/component/text_picker/UiComponentTextPickerGesture/UiComponentTextPickerGesture4b69')
       let driver = await Driver.create()
       await Utils.sleep(1000)
       let picker = await driver.waitForComponent(ON.id('textpicker_gesture_4b69'), 5000)
@@ -57,7 +57,6 @@ export default function uiComponentTextPickerGesture4b69() {
       await driver.swipe(centerX, endY, centerX, startY, 700)
       await Utils.sleep(600)
       await windowSnap.snapShot('TestCase_4b69a29e043d49f2826d78cdfa38c301_01')
-      await Utils.sleep(800)
       done()
     })
   })

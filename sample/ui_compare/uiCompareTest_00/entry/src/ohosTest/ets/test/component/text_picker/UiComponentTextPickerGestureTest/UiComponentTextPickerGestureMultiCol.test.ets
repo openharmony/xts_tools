@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentTextPickerGestureMultiCol() {
-  describe('uiComponentTextPickerGestureMultiCol', () => {
+  describe('UiComponentTextPickerGestureMultiCol', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,7 +36,7 @@ export default function uiComponentTextPickerGestureMultiCol() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTICOL_0100', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/component/text_picker/UiComponentTextPickerGesture/uiComponentTextPickerGestureMultiCol')
+      Settings.createWindow('testability/pages/component/text_picker/UiComponentTextPickerGesture/UiComponentTextPickerGestureMultiCol')
       let driver = await Driver.create()
       await Utils.sleep(1000)
       let picker = await driver.waitForComponent(ON.id('textpicker_gesture_MultiCol'), 5000)
@@ -57,7 +57,6 @@ export default function uiComponentTextPickerGestureMultiCol() {
       await driver.swipe(rightX, startY, rightX, endY, 500)
       await Utils.sleep(600)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTICOL_0100_01')
-      await Utils.sleep(800)
       done()
     })
   })

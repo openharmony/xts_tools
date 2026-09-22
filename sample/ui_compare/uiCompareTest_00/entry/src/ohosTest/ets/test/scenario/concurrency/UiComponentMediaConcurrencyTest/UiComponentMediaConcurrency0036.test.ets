@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentMediaConcurrency0036() {
-  describe('uiComponentMediaConcurrency0036', () => {
+  describe('UiComponentMediaConcurrency0036', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponentMediaConcurrency0036() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CONCURRENCY_EVENT_0036', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/scenario/concurrency/UiComponentMediaConcurrency/uiComponentMediaConcurrency0036')
+      Settings.createWindow('testability/pages/scenario/concurrency/UiComponentMediaConcurrency/UiComponentMediaConcurrency0036')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('conc_p_0036'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_CONCURRENCY_EVENT_0036_01')
-      await Utils.sleep(1000)
       done()
     })
   })

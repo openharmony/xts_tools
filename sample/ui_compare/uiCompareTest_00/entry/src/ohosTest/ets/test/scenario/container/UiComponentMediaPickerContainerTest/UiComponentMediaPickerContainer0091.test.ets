@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentMediaPickerContainer0091() {
-  describe('uiComponentMediaPickerContainer0091', () => {
+  describe('UiComponentMediaPickerContainer0091', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponentMediaPickerContainer0091() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PICKER_CONTAINER_0091', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/scenario/container/UiComponentMediaPickerContainer/uiComponentMediaPickerContainer0091')
+      Settings.createWindow('testability/pages/scenario/container/UiComponentMediaPickerContainer/UiComponentMediaPickerContainer0091')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('picker_container_0091'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PICKER_CONTAINER_0091_01')
-      await Utils.sleep(1000)
       done()
     })
   })

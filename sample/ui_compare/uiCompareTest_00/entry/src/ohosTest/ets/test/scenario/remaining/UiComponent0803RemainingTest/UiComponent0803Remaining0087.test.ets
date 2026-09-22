@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponent0803Remaining0087() {
-  describe('uiComponent0803Remaining0087', () => {
+  describe('UiComponent0803Remaining0087', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponent0803Remaining0087() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0087', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/scenario/remaining/UiComponent0803Remaining/uiComponent0803Remaining0087')
+      Settings.createWindow('testability/pages/scenario/remaining/UiComponent0803Remaining/UiComponent0803Remaining0087')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('image_cross_0087'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0087_01')
-      await Utils.sleep(1000)
       done()
     })
   })

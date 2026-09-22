@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentTvImageAnimator003() {
-  describe('uiComponentTvImageAnimator003', () => {
+  describe('UiComponentTvImageAnimator003', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponentTvImageAnimator003() {
      * @tc.level  : 3
      */
     it('SUB_TV_UX_ImageAnimator_003', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/scenario/tv/UiComponentTvImageAnimator/uiComponentTvImageAnimator003')
+      Settings.createWindow('testability/pages/scenario/tv/UiComponentTvImageAnimator/UiComponentTvImageAnimator003')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('tv_imageanimator_003'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_TV_UX_ImageAnimator_003_01')
-      await Utils.sleep(1000)
       done()
     })
   })

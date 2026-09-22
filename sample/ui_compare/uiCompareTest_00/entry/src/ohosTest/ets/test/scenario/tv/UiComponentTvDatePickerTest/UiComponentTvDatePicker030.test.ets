@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentTvDatePicker030() {
-  describe('uiComponentTvDatePicker030', () => {
+  describe('UiComponentTvDatePicker030', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponentTvDatePicker030() {
      * @tc.level  : 3
      */
     it('SUB_TV_DatePicker_UI_030', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/scenario/tv/UiComponentTvDatePicker/uiComponentTvDatePicker030')
+      Settings.createWindow('testability/pages/scenario/tv/UiComponentTvDatePicker/UiComponentTvDatePicker030')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('tv_datepicker_030'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_TV_DatePicker_UI_030_01')
-      await Utils.sleep(1000)
       done()
     })
   })

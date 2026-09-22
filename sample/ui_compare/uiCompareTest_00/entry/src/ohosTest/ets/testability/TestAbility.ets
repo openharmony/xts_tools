@@ -99,59 +99,22 @@ export default class TestAbility extends UIAbility {
       })
     })
 
-    // ======================================= 输入法光标二次避让 ======================================
+    // ============================== 主窗占位页 + 输入法光标避让 ==============================
     // Main window is created, set main page for this ability
     hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onWindowStageCreate');
-    windowStage.loadContent("testability/pages/RichEditor026_3957/RichEditor026_3957", (err, data) => {
-      let keyboardAvoidMode = windowStage.getMainWindowSync().getUIContext().getKeyboardAvoidMode();
-      windowStage.getMainWindowSync().getUIContext().setKeyboardAvoidMode(KeyboardAvoidMode.OFFSET_WITH_CARET);
+    // 用例截图全部走 Settings.createWindow() 建出的 TYPE_FLOAT 浮窗，主窗仅作占位。
+    // 原先此处串了 5 个 windowStage.loadContent，目标均为本工程不存在的 RichEditor* 模板页面，
+    // 互相覆盖且全部加载失败，属早期从 RichEditor 模板工程拷贝时留下的死路由；
+    // 现统一加载本模块 Index 页（已在 test_pages.json 注册），并保留最后一次生效的键盘避让模式。
+    windowStage.loadContent("testability/pages/Index", (err, data) => {
       if (err.code) {
         hilog.error(0x0000, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err) ?? '');
         return;
       }
       hilog.info(0x0000, 'testTag', 'Succeeded in loading the content. Data: %{public}s', JSON.stringify(data) ?? '');
-    });
-
-    windowStage.loadContent("testability/pages/RichEditor027_3961/RichEditor027_3961", (err, data) => {
-      let keyboardAvoidMode = windowStage.getMainWindowSync().getUIContext().getKeyboardAvoidMode();
-      windowStage.getMainWindowSync().getUIContext().setKeyboardAvoidMode(KeyboardAvoidMode.OFFSET_WITH_CARET);
-      if (err.code) {
-        hilog.error(0x0000, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err) ?? '');
-        return;
-      }
-      hilog.info(0x0000, 'testTag', 'Succeeded in loading the content. Data: %{public}s', JSON.stringify(data) ?? '');
-    });
-
-    windowStage.loadContent("testability/pages/RichEditor028_3965/RichEditor028_3965", (err, data) => {
-      let keyboardAvoidMode = windowStage.getMainWindowSync().getUIContext().getKeyboardAvoidMode();
       windowStage.getMainWindowSync().getUIContext().setKeyboardAvoidMode(KeyboardAvoidMode.RESIZE_WITH_CARET);
-      if (err.code) {
-        hilog.error(0x0000, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err) ?? '');
-        return;
-      }
-      hilog.info(0x0000, 'testTag', 'Succeeded in loading the content. Data: %{public}s', JSON.stringify(data) ?? '');
+      hilog.info(0x0000, 'testTag', '%{public}s', 'Succeeded in setting the keyboard avoid mode.');
     });
-
-    windowStage.loadContent("testability/pages/RichEditor029_3966/RichEditor029_3966", (err, data) => {
-      let keyboardAvoidMode = windowStage.getMainWindowSync().getUIContext().getKeyboardAvoidMode();
-      windowStage.getMainWindowSync().getUIContext().setKeyboardAvoidMode(KeyboardAvoidMode.RESIZE_WITH_CARET);
-      if (err.code) {
-        hilog.error(0x0000, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err) ?? '');
-        return;
-      }
-      hilog.info(0x0000, 'testTag', 'Succeeded in loading the content. Data: %{public}s', JSON.stringify(data) ?? '');
-    });
-
-    windowStage.loadContent("testability/pages/RichEditor030_3967/RichEditor027_3967", (err, data) => {
-      let keyboardAvoidMode = windowStage.getMainWindowSync().getUIContext().getKeyboardAvoidMode();
-      windowStage.getMainWindowSync().getUIContext().setKeyboardAvoidMode(KeyboardAvoidMode.RESIZE_WITH_CARET);
-      if (err.code) {
-        hilog.error(0x0000, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err) ?? '');
-        return;
-      }
-      hilog.info(0x0000, 'testTag', 'Succeeded in loading the content. Data: %{public}s', JSON.stringify(data) ?? '');
-    });
-
   }
 
 

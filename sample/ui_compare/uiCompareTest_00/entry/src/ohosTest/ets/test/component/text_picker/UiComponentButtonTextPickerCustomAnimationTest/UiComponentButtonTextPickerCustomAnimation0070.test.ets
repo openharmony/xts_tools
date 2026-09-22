@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentButtonTextPickerCustomAnimation0070() {
-  describe('uiComponentButtonTextPickerCustomAnimation0070', () => {
+  describe('UiComponentButtonTextPickerCustomAnimation0070', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -54,7 +54,6 @@ export default function uiComponentButtonTextPickerCustomAnimation0070() {
         await Utils.sleep(1000)
       }
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_CUSTOMANIMATION_0070_01')
-      await Utils.sleep(1000)
       done()
     })
   })

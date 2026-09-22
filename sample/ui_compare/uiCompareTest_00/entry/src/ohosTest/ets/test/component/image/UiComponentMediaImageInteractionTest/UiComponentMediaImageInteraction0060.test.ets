@@ -21,7 +21,7 @@ import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
 export default function uiComponentMediaImageInteraction0060() {
-  describe('uiComponentMediaImageInteraction0060', () => {
+  describe('UiComponentMediaImageInteraction0060', () => {
     afterEach(async (done: Function) => {
       await TestHelper.destroyWindow()
       done()
@@ -36,13 +36,12 @@ export default function uiComponentMediaImageInteraction0060() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0060', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/component/image/UiComponentMediaImageInteraction/uiComponentMediaImageInteraction0060')
+      Settings.createWindow('testability/pages/component/image/UiComponentMediaImageInteraction/UiComponentMediaImageInteraction0060')
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('image_interaction_0060'), 2000)
       await Utils.sleep(300)
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0060_01')
-      await Utils.sleep(1000)
       done()
     })
   })
