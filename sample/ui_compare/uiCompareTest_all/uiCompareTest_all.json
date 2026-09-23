@@ -22,13 +22,13 @@
   ],
   "driver": {
     "type": "DeviceTest",
-    "bundle-name": "com.example.uicompare_00",
+    "bundle-name": "com.example.uicompare_all",
     "py_file": "ace/testcases/UI_Compare_Tools_Common.py"
   },
   "kits": [
     {
       "test-file-name": [
-        "ace/resource/common/hap/uiCompareTest_00.hap"
+        "ace/resource/common/hap/uiCompareTest_all.hap"
       ],
       "type": "AppInstallKit",
       "cleanup-apps": true
