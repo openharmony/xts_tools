@@ -162,6 +162,8 @@ import BasicabilityRouterpage from './scenario/ability_router/BasicabilityRouter
 import BasicabilityRouterpageAdvanced from './scenario/ability_router/BasicabilityRouterpageTest/BasicabilityRouterpageAdvanced.test'
 import BlurMaterialSeparatedLayerTest from './component/popup/popupbox_blurMaterialSeparatedLayer/BlurMaterialSeparatedLayer.test'
 import Builder from './scenario/state/BuilderTest/Builder.test'
+import ArkUIComponentFunctionCommonMattributesCustomBackgroudBlurTest
+  from './component/common_attr/ArkUIComponentFunctionCommonMattributesCustomBackgroudBlurTest/ArkUIComponentFunctionCommonMattributesCustomBackgroudBlur.test'
 import ButtonAgingTest from './component/button/button/ButtonAgingTest.test'
 import ButtonMaxAndMinTest from './component/button/button/ButtonMaxAndMinTest.test'
 import CanvasCustomFont from './component/canvas_media/CanvasCustomFontTest/CanvasCustomFont.test'
@@ -1037,6 +1039,7 @@ export default function testsuite() {
   BasicabilityRouterpageAdvanced()
   BlurMaterialSeparatedLayerTest()
   Builder()
+  ArkUIComponentFunctionCommonMattributesCustomBackgroudBlurTest()
   ButtonAgingTest()
   ButtonMaxAndMinTest()
   CanvasCustomFont()
