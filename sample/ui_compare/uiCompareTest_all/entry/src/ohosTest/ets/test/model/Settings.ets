@@ -137,11 +137,18 @@ class Settings {
     })
   }
 
-  async changeWindowOrientation(end:string) {
+  async changeWindowOrientation(end?:string) {
     window.getLastWindow(GlobalThis.getInstance().getContext('context')).then((lastWindow:window.Window) => {
       let orientation:window.Orientation = this.windowClass!.getPreferredOrientation();
       Logger.info(`before set window orientation: ${orientation}}`)
-      if(end === 'end'){
+      // 未指定方向时在横竖屏之间切换（对齐 uiCompareTest_08 的语义）
+      if(end === undefined){
+        if(orientation == window.Orientation.UNSPECIFIED || orientation == window.Orientation.PORTRAIT) {
+          orientation = window.Orientation.LANDSCAPE
+        } else {
+          orientation = window.Orientation.PORTRAIT
+        }
+      } else if(end === 'end'){
         orientation = window.Orientation.PORTRAIT
       } else if (end === 'landScape') {
         orientation = window.Orientation.LANDSCAPE
@@ -261,6 +268,25 @@ class Settings {
       await sleep(200)
       this.setWindowSystemBarEnable(this.windowClass, []);
     });
+  }
+
+  async changeSize(width: number | undefined, height: number | undefined) {
+    if (width == undefined) {
+      width = Settings.DEFAULT_WIDTH;
+    }
+    if (height == undefined) {
+      height = Settings.DEFAULT_HEIGHT - Settings.DEFAULT_OFFSET_Y;
+    }
+    Logger.info(TAG, `,width=${width},height=${height}`)
+    this.changeWindowSize(this.windowClass!, width, height)
+    await sleep(200)
+  }
+
+  async destroyCurrentWindow(): Promise<void> {
+    if (this.windowClass) {
+      await this.destroyWindow(this.windowClass);
+      this.windowClass = undefined;
+    }
   }
 
 }
