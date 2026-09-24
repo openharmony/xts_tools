@@ -18,20 +18,7 @@ import Settings from './model/Settings'
 import windowSnap from './model/snapShot'
 import Logger from './model/Logger'
 import Utils from './model/Utils'
-import {
-  UiComponent,
-  UiDriver,
-  Component,
-  Driver,
-  UiWindow,
-  ON,
-  BY,
-  MatchPattern,
-  DisplayRotation,
-  ResizeDirection,
-  WindowMode,
-  PointerMatrix
-} from '@ohos.UiTest';
+import { UiComponent, UiDriver, Component, Driver, UiWindow, ON, BY, MatchPattern, DisplayRotation, ResizeDirection, WindowMode, PointerMatrix } from '@kit.TestKit';
 
 /*
  * demoTest_001:更改page路由
