@@ -130,6 +130,8 @@
         "description": "MyEmbeddedUIExtAbilitySecond",
         "type": "embeddedUI"
       }
-    ]
+    ],
+    // 自 uiCompareTest_01 并入：Navigation 命名路由表（router_map.json）
+    "routerMap": "$profile:router_map"
   }
 }

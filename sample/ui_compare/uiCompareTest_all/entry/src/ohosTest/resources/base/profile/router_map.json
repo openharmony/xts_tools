@@ -2,7 +2,7 @@
   "routerMap": [
     {
       "name": "pageOne",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation04.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation04.ets",
       "buildFunction": "PageOneBuilder",
       "data": {
         "description": "this is pageOne"
@@ -10,7 +10,7 @@
     },
     {
       "name": "pageTwo",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation04.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation04.ets",
       "buildFunction": "PageOneBuilder",
       "data": {
         "description": "this is pageTwo"
@@ -18,7 +18,7 @@
     },
     {
       "name": "pageThree",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation05.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation05.ets",
       "buildFunction": "PageThreeBuilder",
       "data": {
         "description": "this is PageThree"
@@ -26,7 +26,7 @@
     },
     {
       "name": "pageFour",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation06.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation06.ets",
       "buildFunction": "PageFourBuilder",
       "data": {
         "description": "this is PageFour"
@@ -34,7 +34,7 @@
     },
     {
       "name": "pageFive",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation11.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation11.ets",
       "buildFunction": "PageFiveBuilder",
       "data": {
         "description": "this is pageFive"
@@ -42,7 +42,7 @@
     },
     {
       "name": "pageSix",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation15.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation15.ets",
       "buildFunction": "PageSixBuilder",
       "data": {
         "description": "this is pageSix"
@@ -50,7 +50,7 @@
     },
     {
       "name": "pageSeven",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation16.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation16.ets",
       "buildFunction": "PageSevenBuilder",
       "data": {
         "description": "this is pageSeven"
@@ -58,7 +58,7 @@
     },
     {
       "name": "pageEight",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation17.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation17.ets",
       "buildFunction": "PageEightBuilder",
       "data": {
         "description": "this is pageEight"
@@ -66,7 +66,7 @@
     },
     {
       "name": "pageTen",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation28.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation28.ets",
       "buildFunction": "PageTenBuilder",
       "data": {
         "description": "this is pageTen"
@@ -74,7 +74,7 @@
     },
     {
       "name": "pageEleven",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation30.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation30.ets",
       "buildFunction": "PageElevenBuilder",
       "data": {
         "description": "this is pageEleven"
@@ -82,7 +82,7 @@
     },
     {
       "name": "page12",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation33.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation33.ets",
       "buildFunction": "Page12Builder",
       "data": {
         "description": "this is page12"
@@ -90,7 +90,7 @@
     },
     {
       "name": "page13",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation33.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation33.ets",
       "buildFunction": "Page13Builder",
       "data": {
         "description": "this is page13"
@@ -98,7 +98,7 @@
     },
     {
       "name": "page14",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation34.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation34.ets",
       "buildFunction": "Page14Builder",
       "data": {
         "description": "this is page14"
@@ -106,7 +106,7 @@
     },
     {
       "name": "page15",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation39.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation39.ets",
       "buildFunction": "Page15Builder",
       "data": {
         "description": "this is page15"
@@ -114,7 +114,7 @@
     },
     {
       "name": "page16",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navigation39.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navigation39.ets",
       "buildFunction": "Page16Builder",
       "data": {
         "description": "this is page16"
@@ -122,7 +122,7 @@
     },
     {
       "name": "PageNavA",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navDestination/pageA.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navDestination/pageA.ets",
       "buildFunction": "PageNavABuilder",
       "data": {
         "description": "this is pageOne"
@@ -130,17 +130,17 @@
     },
     {
       "name": "PageNavB",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navDestination/pageB.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navDestination/pageB.ets",
       "buildFunction": "PageNavBBuilder"
     },
     {
       "name": "PageNavC",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navDestination/pageC.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navDestination/pageC.ets",
       "buildFunction": "PageNavCBuilder"
     },
     {
       "name": "NavDestinationPage15",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/navFeature15.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/navFeature15.ets",
       "buildFunction": "NavDestinationPage15Builder",
       "data": {
         "description": "this is NavDestinationPage15"
@@ -148,7 +148,7 @@
     },
     {
       "name": "BasicStackOperation0010",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0010/basicStackOperation0010.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0010/basicStackOperation0010.ets",
       "buildFunction": "BasicStackOperation0010Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0010"
@@ -156,7 +156,7 @@
     },
     {
       "name": "PageOne0010",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0010/pageOne0010.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0010/pageOne0010.ets",
       "buildFunction": "PageOne0010Builder",
       "data": {
         "description": "this is pageOne for test case 0010"
@@ -164,7 +164,7 @@
     },
     {
       "name": "PageTwo0010",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0010/pageTwo0010.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0010/pageTwo0010.ets",
       "buildFunction": "PageTwo0010Builder",
       "data": {
         "description": "this is pageTwo for test case 0010"
@@ -172,7 +172,7 @@
     },
     {
       "name": "BasicStackOperation0020",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0020/basicStackOperation0020.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0020/basicStackOperation0020.ets",
       "buildFunction": "BasicStackOperation0020Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0020"
@@ -180,7 +180,7 @@
     },
     {
       "name": "PageThree0020",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0020/pageThree0020.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0020/pageThree0020.ets",
       "buildFunction": "PageThree0020Builder",
       "data": {
         "description": "this is pageThree for test case 0020"
@@ -188,7 +188,7 @@
     },
     {
       "name": "PageFour0020",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0020/pageFour0020.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0020/pageFour0020.ets",
       "buildFunction": "PageFour0020Builder",
       "data": {
         "description": "this is pageFour for test case 0020"
@@ -196,7 +196,7 @@
     },
     {
       "name": "BasicStackOperation0030",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0030/basicStackOperation0030.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0030/basicStackOperation0030.ets",
       "buildFunction": "BasicStackOperation0030Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0030"
@@ -204,7 +204,7 @@
     },
     {
       "name": "PageOne0030",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0030/pageOne0030.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0030/pageOne0030.ets",
       "buildFunction": "PageOne0030Builder",
       "data": {
         "description": "this is pageOne for test case 0030"
@@ -212,7 +212,7 @@
     },
     {
       "name": "PageTwo0030",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0030/pageTwo0030.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0030/pageTwo0030.ets",
       "buildFunction": "PageTwo0030Builder",
       "data": {
         "description": "this is pageTwo for test case 0030"
@@ -220,7 +220,7 @@
     },
     {
       "name": "PageThree0030",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0030/pageThree0030.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0030/pageThree0030.ets",
       "buildFunction": "PageThree0030Builder",
       "data": {
         "description": "this is pageThree for test case 0030"
@@ -228,7 +228,7 @@
     },
     {
       "name": "BasicStackOperation0040",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0040/basicStackOperation0040.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0040/basicStackOperation0040.ets",
       "buildFunction": "BasicStackOperation0040Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0040"
@@ -236,7 +236,7 @@
     },
     {
       "name": "PageOne0040",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0040/pageOne0040.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0040/pageOne0040.ets",
       "buildFunction": "PageOne0040Builder",
       "data": {
         "description": "this is pageOne for test case 0040"
@@ -244,7 +244,7 @@
     },
     {
       "name": "PageTwo0040",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0040/pageTwo0040.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0040/pageTwo0040.ets",
       "buildFunction": "PageTwo0040Builder",
       "data": {
         "description": "this is pageTwo for test case 0040"
@@ -252,7 +252,7 @@
     },
     {
       "name": "PageThree0040",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0040/pageThree0040.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0040/pageThree0040.ets",
       "buildFunction": "PageThree0040Builder",
       "data": {
         "description": "this is pageThree for test case 0040"
@@ -260,7 +260,7 @@
     },
     {
       "name": "BasicStackOperation0050",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0050/basicStackOperation0050.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0050/basicStackOperation0050.ets",
       "buildFunction": "BasicStackOperation0050Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0050"
@@ -268,7 +268,7 @@
     },
     {
       "name": "PageOne0050",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0050/pageOne0050.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0050/pageOne0050.ets",
       "buildFunction": "PageOne0050Builder",
       "data": {
         "description": "this is pageOne for test case 0050"
@@ -276,7 +276,7 @@
     },
     {
       "name": "PageTwo0050",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0050/pageTwo0050.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0050/pageTwo0050.ets",
       "buildFunction": "PageTwo0050Builder",
       "data": {
         "description": "this is pageTwo for test case 0050"
@@ -284,7 +284,7 @@
     },
     {
       "name": "PageThree0050",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0050/pageThree0050.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0050/pageThree0050.ets",
       "buildFunction": "PageThree0050Builder",
       "data": {
         "description": "this is pageThree for test case 0050"
@@ -292,7 +292,7 @@
     },
     {
       "name": "BasicStackOperation0060",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0060/basicStackOperation0060.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0060/basicStackOperation0060.ets",
       "buildFunction": "BasicStackOperation0060Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0060"
@@ -300,7 +300,7 @@
     },
     {
       "name": "PageOne0060",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0060/pageOne0060.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0060/pageOne0060.ets",
       "buildFunction": "PageOne0060Builder",
       "data": {
         "description": "this is pageOne for test case 0060"
@@ -308,7 +308,7 @@
     },
     {
       "name": "PageTwo0060",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0060/pageTwo0060.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0060/pageTwo0060.ets",
       "buildFunction": "PageTwo0060Builder",
       "data": {
         "description": "this is pageTwo for test case 0060"
@@ -316,7 +316,7 @@
     },
     {
       "name": "BasicStackOperation0070",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0070/basicStackOperation0070.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0070/basicStackOperation0070.ets",
       "buildFunction": "BasicStackOperation0070Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0070"
@@ -324,7 +324,7 @@
     },
     {
       "name": "PageTwo0070",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0070/pageTwo0070.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0070/pageTwo0070.ets",
       "buildFunction": "PageTwo0070Builder",
       "data": {
         "description": "this is pageTwo for test case 0070"
@@ -332,7 +332,7 @@
     },
     {
       "name": "PageThree0070",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0070/pageThree0070.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0070/pageThree0070.ets",
       "buildFunction": "PageThree0070Builder",
       "data": {
         "description": "this is pageThree for test case 0070"
@@ -340,7 +340,7 @@
     },
     {
       "name": "PageFour0070",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0070/pageFour0070.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0070/pageFour0070.ets",
       "buildFunction": "PageFour0070Builder",
       "data": {
         "description": "this is pageFour for test case 0070"
@@ -348,7 +348,7 @@
     },
     {
       "name": "BasicStackOperation0080",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0080/basicStackOperation0080.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0080/basicStackOperation0080.ets",
       "buildFunction": "BasicStackOperation0080Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0080"
@@ -356,7 +356,7 @@
     },
     {
       "name": "PageOne0080",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0080/pageOne0080.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0080/pageOne0080.ets",
       "buildFunction": "PageOne0080Builder",
       "data": {
         "description": "this is pageOne for test case 0080"
@@ -364,7 +364,7 @@
     },
     {
       "name": "PageTwo0080",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0080/pageTwo0080.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0080/pageTwo0080.ets",
       "buildFunction": "PageTwo0080Builder",
       "data": {
         "description": "this is pageTwo for test case 0080"
@@ -372,7 +372,7 @@
     },
     {
       "name": "BasicStackOperation0090",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0090/basicStackOperation0090.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0090/basicStackOperation0090.ets",
       "buildFunction": "BasicStackOperation0090Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0090"
@@ -380,7 +380,7 @@
     },
     {
       "name": "PageOne0090",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0090/pageOne0090.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/onNewParam/0090/pageOne0090.ets",
       "buildFunction": "PageOne0090Builder",
       "data": {
         "description": "this is pageOne for test case 0090"
@@ -388,7 +388,7 @@
     },
     {
       "name": "PageTwo0090",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0090/pageTwo0090.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0090/pageTwo0090.ets",
       "buildFunction": "PageTwo0090Builder",
       "data": {
         "description": "this is pageTwo for test case 0090"
@@ -396,7 +396,7 @@
     },
     {
       "name": "BasicStackOperation0100",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0100/basicStackOperation0100.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0100/basicStackOperation0100.ets",
       "buildFunction": "BasicStackOperation0100Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0100"
@@ -404,7 +404,7 @@
     },
     {
       "name": "PageOne0100",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0100/pageOne0100.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0100/pageOne0100.ets",
       "buildFunction": "PageOne0100Builder",
       "data": {
         "description": "this is pageOne for test case 0100"
@@ -412,7 +412,7 @@
     },
     {
       "name": "PageTwo0100",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0100/pageTwo0100.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0100/pageTwo0100.ets",
       "buildFunction": "PageTwo0100Builder",
       "data": {
         "description": "this is pageTwo for test case 0100"
@@ -420,7 +420,7 @@
     },
     {
       "name": "PageThree0100",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0100/pageThree0100.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0100/pageThree0100.ets",
       "buildFunction": "PageThree0100Builder",
       "data": {
         "description": "this is pageThree for test case 0100"
@@ -428,7 +428,7 @@
     },
     {
       "name": "BasicStackOperation0110",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0110/basicStackOperation0110.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0110/basicStackOperation0110.ets",
       "buildFunction": "BasicStackOperation0110Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0110"
@@ -436,7 +436,7 @@
     },
     {
       "name": "PageOne0110",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0110/pageOne0110.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0110/pageOne0110.ets",
       "buildFunction": "PageOne0110Builder",
       "data": {
         "description": "this is pageOne for test case 0110"
@@ -444,7 +444,7 @@
     },
     {
       "name": "PageTwo0110",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0110/pageTwo0110.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0110/pageTwo0110.ets",
       "buildFunction": "PageTwo0110Builder",
       "data": {
         "description": "this is pageTwo for test case 0110"
@@ -452,7 +452,7 @@
     },
     {
       "name": "PageThree0110",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0110/pageThree0110.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0110/pageThree0110.ets",
       "buildFunction": "PageThree0110Builder",
       "data": {
         "description": "this is pageThree for test case 0110"
@@ -460,7 +460,7 @@
     },
     {
       "name": "PageFour0110",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0110/pageFour0110.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0110/pageFour0110.ets",
       "buildFunction": "PageFour0110Builder",
       "data": {
         "description": "this is pageFour for test case 0110"
@@ -468,7 +468,7 @@
     },
     {
       "name": "BasicStackOperation0120",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0120/basicStackOperation0120.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0120/basicStackOperation0120.ets",
       "buildFunction": "BasicStackOperation0120Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0120"
@@ -476,7 +476,7 @@
     },
     {
       "name": "PageOne0120",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0120/pageOne0120.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0120/pageOne0120.ets",
       "buildFunction": "PageOne0120Builder",
       "data": {
         "description": "this is pageOne for test case 0120"
@@ -484,7 +484,7 @@
     },
     {
       "name": "PageThree0120",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0120/pageThree0120.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0120/pageThree0120.ets",
       "buildFunction": "PageThree0120Builder",
       "data": {
         "description": "this is pageThree for test case 0120"
@@ -492,7 +492,7 @@
     },
     {
       "name": "BasicStackOperation0130",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0130/basicStackOperation0130.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0130/basicStackOperation0130.ets",
       "buildFunction": "BasicStackOperation0130Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0130"
@@ -500,7 +500,7 @@
     },
     {
       "name": "PageOne0130",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0130/pageOne0130.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0130/pageOne0130.ets",
       "buildFunction": "PageOne0130Builder",
       "data": {
         "description": "this is pageOne for test case 0130"
@@ -508,7 +508,7 @@
     },
     {
       "name": "PageTwo0130",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0130/pageTwo0130.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0130/pageTwo0130.ets",
       "buildFunction": "PageTwo0130Builder",
       "data": {
         "description": "this is pageTwo for test case 0130"
@@ -516,7 +516,7 @@
     },
     {
       "name": "PageThree0130",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0130/pageThree0130.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0130/pageThree0130.ets",
       "buildFunction": "PageThree0130Builder",
       "data": {
         "description": "this is pageThree for test case 0130"
@@ -524,7 +524,7 @@
     },
     {
       "name": "BasicStackOperation0140",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0140/basicStackOperation0140.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0140/basicStackOperation0140.ets",
       "buildFunction": "BasicStackOperation0140Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0140"
@@ -532,7 +532,7 @@
     },
     {
       "name": "PageOne0140",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0140/pageOne0140.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0140/pageOne0140.ets",
       "buildFunction": "PageOne0140Builder",
       "data": {
         "description": "this is pageOne for test case 0140"
@@ -540,7 +540,7 @@
     },
     {
       "name": "PageTwo0140",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0140/pageTwo0140.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0140/pageTwo0140.ets",
       "buildFunction": "PageTwo0140Builder",
       "data": {
         "description": "this is pageTwo for test case 0140"
@@ -548,7 +548,7 @@
     },
     {
       "name": "BasicStackOperation0150",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0150/basicStackOperation0150.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0150/basicStackOperation0150.ets",
       "buildFunction": "BasicStackOperation0150Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0150"
@@ -556,7 +556,7 @@
     },
     {
       "name": "PageOne0150",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0150/pageOne0150.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0150/pageOne0150.ets",
       "buildFunction": "PageOne0150Builder",
       "data": {
         "description": "this is pageOne for test case 0150"
@@ -564,7 +564,7 @@
     },
     {
       "name": "PageTwo0150",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0150/pageTwo0150.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0150/pageTwo0150.ets",
       "buildFunction": "PageTwo0150Builder",
       "data": {
         "description": "this is pageTwo for test case 0150"
@@ -572,7 +572,7 @@
     },
     {
       "name": "PageThree0150",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0150/pageThree0150.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0150/pageThree0150.ets",
       "buildFunction": "PageThree0150Builder",
       "data": {
         "description": "this is pageThree for test case 0150"
@@ -580,7 +580,7 @@
     },
     {
       "name": "PageFour0150",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0150/pageFour0150.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0150/pageFour0150.ets",
       "buildFunction": "PageFour0150Builder",
       "data": {
         "description": "this is pageFour for test case 0150"
@@ -588,7 +588,7 @@
     },
     {
       "name": "BasicStackOperation0160",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0160/basicStackOperation0160.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0160/basicStackOperation0160.ets",
       "buildFunction": "BasicStackOperation0160Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0160"
@@ -596,7 +596,7 @@
     },
     {
       "name": "PageOne0160",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0160/pageOne0160.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0160/pageOne0160.ets",
       "buildFunction": "PageOne0160Builder",
       "data": {
         "description": "this is pageOne for test case 0160"
@@ -604,7 +604,7 @@
     },
     {
       "name": "PageTwo0160",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0160/pageTwo0160.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0160/pageTwo0160.ets",
       "buildFunction": "PageTwo0160Builder",
       "data": {
         "description": "this is pageTwo for test case 0160"
@@ -612,7 +612,7 @@
     },
     {
       "name": "PageThree0160",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0160/pageThree0160.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0160/pageThree0160.ets",
       "buildFunction": "PageThree0160Builder",
       "data": {
         "description": "this is pageThree for test case 0160"
@@ -620,7 +620,7 @@
     },
     {
       "name": "PageFour0160",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0160/pageFour0160.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0160/pageFour0160.ets",
       "buildFunction": "PageFour0160Builder",
       "data": {
         "description": "this is pageFour for test case 0160"
@@ -628,7 +628,7 @@
     },
     {
       "name": "BasicStackOperation0170",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0170/basicStackOperation0170.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0170/basicStackOperation0170.ets",
       "buildFunction": "BasicStackOperation0170Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0170"
@@ -636,7 +636,7 @@
     },
     {
       "name": "PageOne0170",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0170/pageOne0170.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0170/pageOne0170.ets",
       "buildFunction": "PageOne0170Builder",
       "data": {
         "description": "this is pageOne for test case 0170"
@@ -644,7 +644,7 @@
     },
     {
       "name": "PageThree0170",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0170/pageThree0170.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0170/pageThree0170.ets",
       "buildFunction": "PageThree0170Builder",
       "data": {
         "description": "this is pageThree for test case 0170"
@@ -652,7 +652,7 @@
     },
     {
       "name": "BasicStackOperation0230",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0230/basicStackOperation0230.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0230/basicStackOperation0230.ets",
       "buildFunction": "BasicStackOperation0230Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0230"
@@ -660,7 +660,7 @@
     },
     {
       "name": "PageOne0230",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0230/pageOne0230.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0230/pageOne0230.ets",
       "buildFunction": "PageOne0230Builder",
       "data": {
         "description": "this is pageOne for test case 0230"
@@ -668,7 +668,7 @@
     },
     {
       "name": "PageTwo0230",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0230/pageTwo0230.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0230/pageTwo0230.ets",
       "buildFunction": "PageTwo0230Builder",
       "data": {
         "description": "this is pageTwo for test case 0230"
@@ -676,7 +676,7 @@
     },
     {
       "name": "PageThree0230",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0230/pageThree0230.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0230/pageThree0230.ets",
       "buildFunction": "PageThree0230Builder",
       "data": {
         "description": "this is pageThree for test case 0230"
@@ -684,7 +684,7 @@
     },
     {
       "name": "PageFour0230",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0230/pageFour0230.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0230/pageFour0230.ets",
       "buildFunction": "PageFour0230Builder",
       "data": {
         "description": "this is pageFour for test case 0230"
@@ -692,7 +692,7 @@
     },
     {
       "name": "BasicStackOperation0240",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0240/basicStackOperation0240.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0240/basicStackOperation0240.ets",
       "buildFunction": "BasicStackOperation0240Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0240"
@@ -700,7 +700,7 @@
     },
     {
       "name": "PageOne0240",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0240/pageOne0240.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0240/pageOne0240.ets",
       "buildFunction": "PageOne0240Builder",
       "data": {
         "description": "this is pageOne for test case 0240"
@@ -708,7 +708,7 @@
     },
     {
       "name": "PageTwo0240",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0240/pageTwo0240.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0240/pageTwo0240.ets",
       "buildFunction": "PageTwo0240Builder",
       "data": {
         "description": "this is pageTwo for test case 0240"
@@ -716,7 +716,7 @@
     },
     {
       "name": "PageThree0240",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0240/pageThree0240.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0240/pageThree0240.ets",
       "buildFunction": "PageThree0240Builder",
       "data": {
         "description": "this is pageThree for test case 0240"
@@ -724,7 +724,7 @@
     },
     {
       "name": "PageFour0240",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0240/pageFour0240.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0240/pageFour0240.ets",
       "buildFunction": "PageFour0240Builder",
       "data": {
         "description": "this is pageFour for test case 0240"
@@ -732,7 +732,7 @@
     },
     {
       "name": "NavigationA0310",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0310/navigationA0310.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0310/navigationA0310.ets",
       "buildFunction": "NavigationA0310Builder",
       "data": {
         "description": "this is NavigationA for test case 0310"
@@ -740,7 +740,7 @@
     },
     {
       "name": "NavigationB0310",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0310/navigationB0310.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0310/navigationB0310.ets",
       "buildFunction": "NavigationB0310Builder",
       "data": {
         "description": "this is NavigationB for test case 0310"
@@ -748,7 +748,7 @@
     },
     {
       "name": "PageOne0310",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0310/pageOne0310.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0310/pageOne0310.ets",
       "buildFunction": "PageOne0310Builder",
       "data": {
         "description": "this is pageOne for test case 0310"
@@ -756,7 +756,7 @@
     },
     {
       "name": "PageTwo0310",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0310/pageTwo0310.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0310/pageTwo0310.ets",
       "buildFunction": "PageTwo0310Builder",
       "data": {
         "description": "this is pageTwo for test case 0310"
@@ -764,7 +764,7 @@
     },
     {
       "name": "PageThree0310",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0310/pageThree0310.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0310/pageThree0310.ets",
       "buildFunction": "PageThree0310Builder",
       "data": {
         "description": "this is pageThree for test case 0310"
@@ -772,7 +772,7 @@
     },
     {
       "name": "NavigationA0340",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0340/navigationA0340.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0340/navigationA0340.ets",
       "buildFunction": "NavigationA0340Builder",
       "data": {
         "description": "this is NavigationA for test case 0340"
@@ -780,7 +780,7 @@
     },
     {
       "name": "NavigationB0340",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0340/navigationB0340.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0340/navigationB0340.ets",
       "buildFunction": "NavigationB0340Builder",
       "data": {
         "description": "this is NavigationB for test case 0340"
@@ -788,7 +788,7 @@
     },
     {
       "name": "PageOne0340",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0340/pageOne0340.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0340/pageOne0340.ets",
       "buildFunction": "PageOne0340Builder",
       "data": {
         "description": "this is pageOne for test case 0340"
@@ -796,7 +796,7 @@
     },
     {
       "name": "PageTwo0340",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0340/pageTwo0340.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0340/pageTwo0340.ets",
       "buildFunction": "PageTwo0340Builder",
       "data": {
         "description": "this is pageTwo for test case 0340"
@@ -804,7 +804,7 @@
     },
     {
       "name": "PageThree0340",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0340/pageThree0340.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0340/pageThree0340.ets",
       "buildFunction": "PageThree0340Builder",
       "data": {
         "description": "this is pageThree for test case 0340"
@@ -812,7 +812,7 @@
     },
     {
       "name": "PageFour0340",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0340/pageFour0340.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0340/pageFour0340.ets",
       "buildFunction": "PageFour0340Builder",
       "data": {
         "description": "this is pageFour for test case 0340"
@@ -820,7 +820,7 @@
     },
     {
       "name": "NavigationRouterCombinedScene0440",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0440/navigationRouterCombinedScene0440.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0440/navigationRouterCombinedScene0440.ets",
       "buildFunction": "NavigationRouterCombinedScene0440Builder",
       "data": {
         "description": "this is NavigationRouterCombinedScene for test case 0440"
@@ -828,7 +828,7 @@
     },
     {
       "name": "PageOne0440",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0440/pageOne0440.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0440/pageOne0440.ets",
       "buildFunction": "PageOne0440Builder",
       "data": {
         "description": "this is pageOne for test case 0440"
@@ -836,7 +836,7 @@
     },
     {
       "name": "PageThree0440",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0440/pageThree0440.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0440/pageThree0440.ets",
       "buildFunction": "PageThree0440Builder",
       "data": {
         "description": "this is pageThree for test case 0440"
@@ -844,7 +844,7 @@
     },
     {
       "name": "NavigationRouterCombinedScene0450",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0450/navigationRouterCombinedScene0450.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0450/navigationRouterCombinedScene0450.ets",
       "buildFunction": "NavigationRouterCombinedScene0450Builder",
       "data": {
         "description": "this is NavigationRouterCombinedScene for test case 0450"
@@ -852,7 +852,7 @@
     },
     {
       "name": "PageOne0450",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0450/pageOne0450.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0450/pageOne0450.ets",
       "buildFunction": "PageOne0450Builder",
       "data": {
         "description": "this is pageOne for test case 0450"
@@ -860,7 +860,7 @@
     },
     {
       "name": "PageThree0450",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0450/pageThree0450.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0450/pageThree0450.ets",
       "buildFunction": "PageThree0450Builder",
       "data": {
         "description": "this is pageThree for test case 0450"
@@ -868,7 +868,7 @@
     },
     {
       "name": "NavigationRouterCombinedScene0460",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0460/navigationRouterCombinedScene0460.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0460/navigationRouterCombinedScene0460.ets",
       "buildFunction": "NavigationRouterCombinedScene0460Builder",
       "data": {
         "description": "this is NavigationRouterCombinedScene for test case 0460"
@@ -876,7 +876,7 @@
     },
     {
       "name": "PageOne0460",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0460/pageOne0460.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0460/pageOne0460.ets",
       "buildFunction": "PageOne0460Builder",
       "data": {
         "description": "this is pageOne for test case 0460"
@@ -884,7 +884,7 @@
     },
     {
       "name": "NavigationRouterCombinedScene0470",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0470/navigationRouterCombinedScene0470.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0470/navigationRouterCombinedScene0470.ets",
       "buildFunction": "NavigationRouterCombinedScene0470Builder",
       "data": {
         "description": "this is NavigationRouterCombinedScene for test case 0470"
@@ -892,7 +892,7 @@
     },
     {
       "name": "PageOne0470",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0470/pageOne0470.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0470/pageOne0470.ets",
       "buildFunction": "PageOne0470Builder",
       "data": {
         "description": "this is pageOne for test case 0470"
@@ -900,7 +900,7 @@
     },
     {
       "name": "NavigationRouterCombinedScene0480",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0480/navigationRouterCombinedScene0480.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0480/navigationRouterCombinedScene0480.ets",
       "buildFunction": "NavigationRouterCombinedScene0480Builder",
       "data": {
         "description": "this is NavigationRouterCombinedScene for test case 0480"
@@ -908,7 +908,7 @@
     },
     {
       "name": "PageOne0480",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0480/pageOne0480.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0480/pageOne0480.ets",
       "buildFunction": "PageOne0480Builder",
       "data": {
         "description": "this is pageOne for test case 0480"
@@ -916,7 +916,7 @@
     },
     {
       "name": "PageThree0480",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0480/pageThree0480.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0480/pageThree0480.ets",
       "buildFunction": "PageThree0480Builder",
       "data": {
         "description": "this is pageThree for test case 0480"
@@ -924,7 +924,7 @@
     },
     {
       "name": "NavigationRouterCombinedScene0490",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0490/navigationRouterCombinedScene0490.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0490/navigationRouterCombinedScene0490.ets",
       "buildFunction": "NavigationRouterCombinedScene0490Builder",
       "data": {
         "description": "this is NavigationRouterCombinedScene for test case 0490"
@@ -932,7 +932,7 @@
     },
     {
       "name": "PageOne0490",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0490/pageOne0490.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0490/pageOne0490.ets",
       "buildFunction": "PageOne0490Builder",
       "data": {
         "description": "this is pageOne for test case 0490"
@@ -940,7 +940,7 @@
     },
     {
       "name": "BasicStackOperation0180",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0180/basicStackOperation0180.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0180/basicStackOperation0180.ets",
       "buildFunction": "BasicStackOperation0180Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0180"
@@ -948,7 +948,7 @@
     },
     {
       "name": "PageOne0180",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0180/pageOne0180.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0180/pageOne0180.ets",
       "buildFunction": "PageOne0180Builder",
       "data": {
         "description": "this is pageOne for test case 0180"
@@ -956,7 +956,7 @@
     },
     {
       "name": "PageTwo0180",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0180/pageTwo0180.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0180/pageTwo0180.ets",
       "buildFunction": "PageTwo0180Builder",
       "data": {
         "description": "this is pageTwo for test case 0180"
@@ -964,7 +964,7 @@
     },
     {
       "name": "PageThree0180",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0180/pageThree0180.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0180/pageThree0180.ets",
       "buildFunction": "PageThree0180Builder",
       "data": {
         "description": "this is pageThree for test case 0180"
@@ -972,7 +972,7 @@
     },
     {
       "name": "PageFour0180",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0180/pageFour0180.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0180/pageFour0180.ets",
       "buildFunction": "PageFour0180Builder",
       "data": {
         "description": "this is pageFour for test case 0180"
@@ -980,7 +980,7 @@
     },
     {
       "name": "BasicStackOperation0190",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0190/basicStackOperation0190.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0190/basicStackOperation0190.ets",
       "buildFunction": "BasicStackOperation0190Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0190"
@@ -988,7 +988,7 @@
     },
     {
       "name": "PageOne0190",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0190/pageOne0190.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0190/pageOne0190.ets",
       "buildFunction": "PageOne0190Builder",
       "data": {
         "description": "this is pageOne for test case 0190"
@@ -996,7 +996,7 @@
     },
     {
       "name": "PageTwo0190",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0190/pageTwo0190.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0190/pageTwo0190.ets",
       "buildFunction": "PageTwo0190Builder",
       "data": {
         "description": "this is pageTwo for test case 0190"
@@ -1004,7 +1004,7 @@
     },
     {
       "name": "PageThree0190",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0190/pageThree0190.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0190/pageThree0190.ets",
       "buildFunction": "PageThree0190Builder",
       "data": {
         "description": "this is pageThree for test case 0190"
@@ -1012,7 +1012,7 @@
     },
     {
       "name": "BasicStackOperation0200",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0200/basicStackOperation0200.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0200/basicStackOperation0200.ets",
       "buildFunction": "BasicStackOperation0200Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0200"
@@ -1020,7 +1020,7 @@
     },
     {
       "name": "PageOne0200",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0200/pageOne0200.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0200/pageOne0200.ets",
       "buildFunction": "PageOne0200Builder",
       "data": {
         "description": "this is pageOne for test case 0200"
@@ -1028,7 +1028,7 @@
     },
     {
       "name": "PageTwo0200",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0200/pageTwo0200.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0200/pageTwo0200.ets",
       "buildFunction": "PageTwo0200Builder",
       "data": {
         "description": "this is pageTwo for test case 0200"
@@ -1036,7 +1036,7 @@
     },
     {
       "name": "PageThree0200",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0200/pageThree0200.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0200/pageThree0200.ets",
       "buildFunction": "PageThree0200Builder",
       "data": {
         "description": "this is pageThree for test case 0200"
@@ -1044,7 +1044,7 @@
     },
     {
       "name": "BasicStackOperation0210",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0210/basicStackOperation0210.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0210/basicStackOperation0210.ets",
       "buildFunction": "BasicStackOperation0210Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0210"
@@ -1052,7 +1052,7 @@
     },
     {
       "name": "PageFive0210",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0210/pageFive0210.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0210/pageFive0210.ets",
       "buildFunction": "PageFive0210Builder",
       "data": {
         "description": "this is pageFive for test case 0210"
@@ -1060,7 +1060,7 @@
     },
     {
       "name": "PageSix0210",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0210/pageSix0210.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0210/pageSix0210.ets",
       "buildFunction": "PageSix0210Builder",
       "data": {
         "description": "this is pageSix for test case 0210"
@@ -1068,7 +1068,7 @@
     },
     {
       "name": "BasicStackOperation0220",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0220/basicStackOperation0220.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0220/basicStackOperation0220.ets",
       "buildFunction": "BasicStackOperation0220Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0220"
@@ -1076,7 +1076,7 @@
     },
     {
       "name": "PageOne0220",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0220/pageOne0220.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0220/pageOne0220.ets",
       "buildFunction": "PageOne0220Builder",
       "data": {
         "description": "this is pageOne for test case 0220"
@@ -1084,7 +1084,7 @@
     },
     {
       "name": "PageTwo0220",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0220/pageTwo0220.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0220/pageTwo0220.ets",
       "buildFunction": "PageTwo0220Builder",
       "data": {
         "description": "this is pageTwo for test case 0220"
@@ -1092,7 +1092,7 @@
     },
     {
       "name": "PageThree0220",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0220/pageThree0220.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0220/pageThree0220.ets",
       "buildFunction": "PageThree0220Builder",
       "data": {
         "description": "this is pageThree for test case 0220"
@@ -1100,7 +1100,7 @@
     },
     {
       "name": "PageOne0260",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0260/pageOne0260.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0260/pageOne0260.ets",
       "buildFunction": "PageOne0260Builder",
       "data": {
         "description": "this is pageOne for test case 0260"
@@ -1108,7 +1108,7 @@
     },
     {
       "name": "PageTwo0260",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0260/pageTwo0260.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0260/pageTwo0260.ets",
       "buildFunction": "PageTwo0260Builder",
       "data": {
         "description": "this is pageTwo for test case 0260"
@@ -1116,7 +1116,7 @@
     },
     {
       "name": "PageOne0270",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0270/pageOne0270.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0270/pageOne0270.ets",
       "buildFunction": "PageOne0270Builder",
       "data": {
         "description": "this is pageOne for test case 0270"
@@ -1124,7 +1124,7 @@
     },
     {
       "name": "PageThree0270",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0270/pageThree0270.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0270/pageThree0270.ets",
       "buildFunction": "PageThree0270Builder",
       "data": {
         "description": "this is pageThree for test case 0270"
@@ -1132,7 +1132,7 @@
     },
     {
       "name": "PageSeven0280",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0280/pageSeven0280.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0280/pageSeven0280.ets",
       "buildFunction": "PageSeven0280Builder",
       "data": {
         "description": "this is pageSeven for test case 0280"
@@ -1140,7 +1140,7 @@
     },
     {
       "name": "TestDialog010280",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0280/testDialog010280.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0280/testDialog010280.ets",
       "buildFunction": "TestDialog010280Builder",
       "data": {
         "description": "this is TestDialog010 for test case 0280"
@@ -1148,7 +1148,7 @@
     },
     {
       "name": "PageEight0290",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0290/pageEight0290.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0290/pageEight0290.ets",
       "buildFunction": "PageEight0290Builder",
       "data": {
         "description": "this is pageEight for test case 0290"
@@ -1156,7 +1156,7 @@
     },
     {
       "name": "TestStandard010290",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0290/testStandard010290.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0290/testStandard010290.ets",
       "buildFunction": "TestStandard010290Builder",
       "data": {
         "description": "this is TestStandard010 for test case 0290"
@@ -1164,7 +1164,7 @@
     },
     {
       "name": "PageOne0300",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0300/pageOne0300.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0300/pageOne0300.ets",
       "buildFunction": "PageOne0300Builder",
       "data": {
         "description": "this is pageOne for test case 0300"
@@ -1172,7 +1172,7 @@
     },
     {
       "name": "TestDialog010300",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0300/testDialog010300.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0300/testDialog010300.ets",
       "buildFunction": "TestDialog010300Builder",
       "data": {
         "description": "this is TestDialog010 for test case 0300"
@@ -1180,7 +1180,7 @@
     },
     {
       "name": "TestStandard010320",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0320/testStandard010320.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0320/testStandard010320.ets",
       "buildFunction": "TestStandard010320Builder",
       "data": {
         "description": "this is TestStandard010 for test case 0320"
@@ -1188,7 +1188,7 @@
     },
     {
       "name": "TestStandard020320",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0320/testStandard020320.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0320/testStandard020320.ets",
       "buildFunction": "TestStandard020320Builder",
       "data": {
         "description": "this is TestStandard020 for test case 0320"
@@ -1196,7 +1196,7 @@
     },
     {
       "name": "TestStandard010330",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0330/testStandard010330.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0330/testStandard010330.ets",
       "buildFunction": "TestStandard010330Builder",
       "data": {
         "description": "this is TestStandard010 for test case 0330"
@@ -1204,7 +1204,7 @@
     },
     {
       "name": "TestStandard020330",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0330/testStandard020330.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0330/testStandard020330.ets",
       "buildFunction": "TestStandard020330Builder",
       "data": {
         "description": "this is TestStandard020 for test case 0330"
@@ -1212,7 +1212,7 @@
     },
     {
       "name": "HspPageOne0350",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0350/hspPageOne0350.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0350/hspPageOne0350.ets",
       "buildFunction": "HspPageOne0350Builder",
       "data": {
         "description": "this is HspPageOne for test case 0350"
@@ -1220,7 +1220,7 @@
     },
     {
       "name": "HspPageThree0350",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0350/hspPageThree0350.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0350/hspPageThree0350.ets",
       "buildFunction": "HspPageThree0350Builder",
       "data": {
         "description": "this is HspPageThree for test case 0350"
@@ -1228,7 +1228,7 @@
     },
     {
       "name": "PageOne0360",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0360/pageOne0360.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0360/pageOne0360.ets",
       "buildFunction": "PageOne0360Builder",
       "data": {
         "description": "this is pageOne for test case 0360"
@@ -1236,7 +1236,7 @@
     },
     {
       "name": "PageThree0360",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0360/pageThree0360.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0360/pageThree0360.ets",
       "buildFunction": "PageThree0360Builder",
       "data": {
         "description": "this is pageThree for test case 0360"
@@ -1244,7 +1244,7 @@
     },
     {
       "name": "PageOne0370",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0370/pageOne0370.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0370/pageOne0370.ets",
       "buildFunction": "PageOne0370Builder",
       "data": {
         "description": "this is pageOne for test case 0370"
@@ -1252,7 +1252,7 @@
     },
     {
       "name": "PageThree0370",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0370/pageThree0370.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0370/pageThree0370.ets",
       "buildFunction": "PageThree0370Builder",
       "data": {
         "description": "this is pageThree for test case 0370"
@@ -1260,7 +1260,7 @@
     },
     {
       "name": "BasicStackOperation0380",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0380/basicStackOperation0380.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0380/basicStackOperation0380.ets",
       "buildFunction": "BasicStackOperation0380Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0380"
@@ -1268,7 +1268,7 @@
     },
     {
       "name": "PageOne0380",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0380/pageOne0380.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0380/pageOne0380.ets",
       "buildFunction": "PageOne0380Builder",
       "data": {
         "description": "this is pageOne for test case 0380"
@@ -1276,7 +1276,7 @@
     },
     {
       "name": "PageTwo0380",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0380/pageTwo0380.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0380/pageTwo0380.ets",
       "buildFunction": "PageTwo0380Builder",
       "data": {
         "description": "this is pageTwo for test case 0380"
@@ -1284,7 +1284,7 @@
     },
     {
       "name": "PageThree0380",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0380/pageThree0380.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0380/pageThree0380.ets",
       "buildFunction": "PageThree0380Builder",
       "data": {
         "description": "this is pageThree for test case 0380"
@@ -1292,7 +1292,7 @@
     },
     {
       "name": "BasicStackOperation0390",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0390/basicStackOperation0390.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0390/basicStackOperation0390.ets",
       "buildFunction": "BasicStackOperation0390Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0390"
@@ -1300,7 +1300,7 @@
     },
     {
       "name": "PageOne0390",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0390/pageOne0390.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0390/pageOne0390.ets",
       "buildFunction": "PageOne0390Builder",
       "data": {
         "description": "this is pageOne for test case 0390"
@@ -1308,7 +1308,7 @@
     },
     {
       "name": "PageTwo0390",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0390/pageTwo0390.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0390/pageTwo0390.ets",
       "buildFunction": "PageTwo0390Builder",
       "data": {
         "description": "this is pageTwo for test case 0390"
@@ -1316,7 +1316,7 @@
     },
     {
       "name": "PageThree0390",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0390/pageThree0390.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0390/pageThree0390.ets",
       "buildFunction": "PageThree0390Builder",
       "data": {
         "description": "this is pageThree for test case 0390"
@@ -1324,7 +1324,7 @@
     },
     {
       "name": "BasicStackOperation0410",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0410/basicStackOperation0410.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0410/basicStackOperation0410.ets",
       "buildFunction": "BasicStackOperation0410Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0410"
@@ -1332,7 +1332,7 @@
     },
     {
       "name": "PageTwo0410",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0410/pageTwo0410.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0410/pageTwo0410.ets",
       "buildFunction": "PageTwo0410Builder",
       "data": {
         "description": "this is pageTwo for test case 0410"
@@ -1340,7 +1340,7 @@
     },
     {
       "name": "BasicStackOperation0420",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0420/basicStackOperation0420.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0420/basicStackOperation0420.ets",
       "buildFunction": "BasicStackOperation0420Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0420"
@@ -1348,7 +1348,7 @@
     },
     {
       "name": "PageOne0420",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0420/pageOne0420.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0420/pageOne0420.ets",
       "buildFunction": "PageOne0420Builder",
       "data": {
         "description": "this is pageOne for test case 0420"
@@ -1356,7 +1356,7 @@
     },
     {
       "name": "PageThree0420",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0420/pageThree0420.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0420/pageThree0420.ets",
       "buildFunction": "PageThree0420Builder",
       "data": {
         "description": "this is pageThree for test case 0420"
@@ -1364,7 +1364,7 @@
     },
     {
       "name": "BasicStackOperation0430",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0430/basicStackOperation0430.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0430/basicStackOperation0430.ets",
       "buildFunction": "BasicStackOperation0430Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0430"
@@ -1372,7 +1372,7 @@
     },
     {
       "name": "PageOne0430",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0430/pageOne0430.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0430/pageOne0430.ets",
       "buildFunction": "PageOne0430Builder",
       "data": {
         "description": "this is pageOne for test case 0430"
@@ -1380,7 +1380,7 @@
     },
     {
       "name": "PageThree0430",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0430/pageThree0430.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0430/pageThree0430.ets",
       "buildFunction": "PageThree0430Builder",
       "data": {
         "description": "this is pageThree for test case 0430"
@@ -1388,7 +1388,7 @@
     },
     {
       "name": "BasicStackOperation0500",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0500/basicStackOperation0500.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0500/basicStackOperation0500.ets",
       "buildFunction": "BasicStackOperation0500Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0500"
@@ -1396,7 +1396,7 @@
     },
     {
       "name": "HalfModal0500",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0500/halfModal0500.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0500/halfModal0500.ets",
       "buildFunction": "HalfModal0500Builder",
       "data": {
         "description": "this is HalfModal for test case 0500"
@@ -1404,7 +1404,7 @@
     },
     {
       "name": "BasicStackOperation0510",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0510/basicStackOperation0510.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0510/basicStackOperation0510.ets",
       "buildFunction": "BasicStackOperation0510Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0510"
@@ -1412,7 +1412,7 @@
     },
     {
       "name": "HalfModal0510",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0510/halfModal0510.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0510/halfModal0510.ets",
       "buildFunction": "HalfModal0510Builder",
       "data": {
         "description": "this is HalfModal for test case 0510"
@@ -1420,7 +1420,7 @@
     },
     {
       "name": "BasicStackOperation0520",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0520/basicStackOperation0520.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0520/basicStackOperation0520.ets",
       "buildFunction": "BasicStackOperation0520Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0520"
@@ -1428,7 +1428,7 @@
     },
     {
       "name": "HalfModal0520",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0520/halfModal0520.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0520/halfModal0520.ets",
       "buildFunction": "HalfModal0520Builder",
       "data": {
         "description": "this is HalfModal for test case 0520"
@@ -1436,7 +1436,7 @@
     },
     {
       "name": "BasicStackOperation0530",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0530/basicStackOperation0530.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0530/basicStackOperation0530.ets",
       "buildFunction": "BasicStackOperation0530Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0530"
@@ -1444,7 +1444,7 @@
     },
     {
       "name": "HalfModal0530",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0530/halfModal0530.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0530/halfModal0530.ets",
       "buildFunction": "HalfModal0530Builder",
       "data": {
         "description": "this is HalfModal for test case 0530"
@@ -1452,7 +1452,7 @@
     },
     {
       "name": "BasicStackOperation0540",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0540/basicStackOperation0540.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0540/basicStackOperation0540.ets",
       "buildFunction": "BasicStackOperation0540Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0540"
@@ -1460,7 +1460,7 @@
     },
     {
       "name": "FullModal0540",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0540/fullModal0540.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0540/fullModal0540.ets",
       "buildFunction": "FullModal0540Builder",
       "data": {
         "description": "this is FullModal for test case 0540"
@@ -1468,7 +1468,7 @@
     },
     {
       "name": "BasicStackOperation0550",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0550/basicStackOperation0550.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0550/basicStackOperation0550.ets",
       "buildFunction": "BasicStackOperation0550Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0550"
@@ -1476,7 +1476,7 @@
     },
     {
       "name": "FullModal0550",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0550/fullModal0550.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0550/fullModal0550.ets",
       "buildFunction": "FullModal0550Builder",
       "data": {
         "description": "this is FullModal for test case 0550"
@@ -1484,7 +1484,7 @@
     },
     {
       "name": "BasicStackOperation0560",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0560/basicStackOperation0560.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0560/basicStackOperation0560.ets",
       "buildFunction": "BasicStackOperation0560Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0560"
@@ -1492,7 +1492,7 @@
     },
     {
       "name": "FullModal0560",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0560/fullModal0560.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0560/fullModal0560.ets",
       "buildFunction": "FullModal0560Builder",
       "data": {
         "description": "this is FullModal for test case 0560"
@@ -1500,7 +1500,7 @@
     },
     {
       "name": "BasicStackOperation0570",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0570/basicStackOperation0570.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0570/basicStackOperation0570.ets",
       "buildFunction": "BasicStackOperation0570Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0570"
@@ -1508,7 +1508,7 @@
     },
     {
       "name": "PageOne0570",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0570/pageOne0570.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0570/pageOne0570.ets",
       "buildFunction": "PageOne0570Builder",
       "data": {
         "description": "this is pageOne for test case 0570"
@@ -1516,7 +1516,7 @@
     },
     {
       "name": "BasicStackOperation0580",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0580/basicStackOperation0580.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0580/basicStackOperation0580.ets",
       "buildFunction": "BasicStackOperation0580Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0580"
@@ -1524,7 +1524,7 @@
     },
     {
       "name": "PageOne0580",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0580/pageOne0580.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0580/pageOne0580.ets",
       "buildFunction": "PageOne0580Builder",
       "data": {
         "description": "this is pageOne for test case 0580"
@@ -1532,7 +1532,7 @@
     },
     {
       "name": "BasicStackOperation0590",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0590/basicStackOperation0590.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0590/basicStackOperation0590.ets",
       "buildFunction": "BasicStackOperation0590Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0590"
@@ -1540,7 +1540,7 @@
     },
     {
       "name": "PageOne0590",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0590/pageOne0590.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0590/pageOne0590.ets",
       "buildFunction": "PageOne0590Builder",
       "data": {
         "description": "this is pageOne for test case 0590"
@@ -1548,7 +1548,7 @@
     },
     {
       "name": "BasicStackOperation0620",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0620/basicStackOperation0620.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0620/basicStackOperation0620.ets",
       "buildFunction": "BasicStackOperation0620Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0620"
@@ -1556,7 +1556,7 @@
     },
     {
       "name": "PageOne0620",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0620/pageOne0620.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0620/pageOne0620.ets",
       "buildFunction": "PageOne0620Builder",
       "data": {
         "description": "this is pageOne for test case 0620"
@@ -1564,7 +1564,7 @@
     },
     {
       "name": "BasicStackOperation0630",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0630/basicStackOperation0630.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0630/basicStackOperation0630.ets",
       "buildFunction": "BasicStackOperation0630Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0630"
@@ -1572,7 +1572,7 @@
     },
     {
       "name": "PageOne0630",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0630/pageOne0630.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0630/pageOne0630.ets",
       "buildFunction": "PageOne0630Builder",
       "data": {
         "description": "this is pageOne for test case 0630"
@@ -1580,7 +1580,7 @@
     },
     {
       "name": "BasicStackOperation0640",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0640/basicStackOperation0640.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0640/basicStackOperation0640.ets",
       "buildFunction": "BasicStackOperation0640Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0640"
@@ -1588,7 +1588,7 @@
     },
     {
       "name": "PageOne0640",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0640/pageOne0640.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0640/pageOne0640.ets",
       "buildFunction": "PageOne0640Builder",
       "data": {
         "description": "this is pageOne for test case 0640"
@@ -1596,7 +1596,7 @@
     },
     {
       "name": "PageTwo0640",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0640/pageTwo0640.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0640/pageTwo0640.ets",
       "buildFunction": "PageTwo0640Builder",
       "data": {
         "description": "this is pageTwo for test case 0640"
@@ -1604,7 +1604,7 @@
     },
     {
       "name": "BasicStackOperation0650",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0650/basicStackOperation0650.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0650/basicStackOperation0650.ets",
       "buildFunction": "BasicStackOperation0650Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0650"
@@ -1612,7 +1612,7 @@
     },
     {
       "name": "PageOne0650",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0650/pageOne0650.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0650/pageOne0650.ets",
       "buildFunction": "PageOne0650Builder",
       "data": {
         "description": "this is pageOne for test case 0650"
@@ -1620,7 +1620,7 @@
     },
     {
       "name": "BasicStackOperation0680",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0680/basicStackOperation0680.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0680/basicStackOperation0680.ets",
       "buildFunction": "BasicStackOperation0680Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0680"
@@ -1628,7 +1628,7 @@
     },
     {
       "name": "PageOne0680",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0680/pageOne0680.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0680/pageOne0680.ets",
       "buildFunction": "PageOne0680Builder",
       "data": {
         "description": "this is pageOne for test case 0680"
@@ -1636,7 +1636,7 @@
     },
     {
       "name": "BasicStackOperation0690",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0690/basicStackOperation0690.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0690/basicStackOperation0690.ets",
       "buildFunction": "BasicStackOperation0690Builder",
       "data": {
         "description": "this is basicStackOperation for test case 0690"
@@ -1644,7 +1644,7 @@
     },
     {
       "name": "PageOne0690",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/activeOn/0690/pageOne0690.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/activeOn/0690/pageOne0690.ets",
       "buildFunction": "PageOne0690Builder",
       "data": {
         "description": "this is pageOne for test case 0690"
@@ -1652,7 +1652,7 @@
     },
     {
       "name": "RouterScene0010",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0010/routerScene0010.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/onNewParam/0010/routerScene0010.ets",
       "buildFunction": "RouterScene0010Builder",
       "data": {
         "description": "this is routerScene for test case 0010"
@@ -1660,7 +1660,7 @@
     },
     {
       "name": "RouterScene0020",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0020/routerScene0020.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/onNewParam/0020/routerScene0020.ets",
       "buildFunction": "RouterScene0020Builder",
       "data": {
         "description": "this is routerScene for test case 0020"
@@ -1668,7 +1668,7 @@
     },
     {
       "name": "RouterScene0030",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0030/routerScene0030.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/onNewParam/0030/routerScene0030.ets",
       "buildFunction": "RouterScene0030Builder",
       "data": {
         "description": "this is routerScene for test case 0030"
@@ -1676,7 +1676,7 @@
     },
     {
       "name": "RouterScene0040",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0040/routerScene0040.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/onNewParam/0040/routerScene0040.ets",
       "buildFunction": "RouterScene0040Builder",
       "data": {
         "description": "this is routerScene for test case 0040"
@@ -1684,7 +1684,7 @@
     },
     {
       "name": "RouterScene0050",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0050/routerScene0050.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/onNewParam/0050/routerScene0050.ets",
       "buildFunction": "RouterScene0050Builder",
       "data": {
         "description": "this is routerScene for test case 0050"
@@ -1692,7 +1692,7 @@
     },
     {
       "name": "RouterScene0060",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0060/routerScene0060.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/onNewParam/0060/routerScene0060.ets",
       "buildFunction": "RouterScene0060Builder",
       "data": {
         "description": "this is routerScene for test case 0060"
@@ -1700,7 +1700,7 @@
     },
     {
       "name": "RouterScene0070",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/onNewParam/0070/routerScene0070.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/onNewParam/0070/routerScene0070.ets",
       "buildFunction": "RouterScene0070Builder",
       "data": {
         "description": "this is routerScene for test case 0070"
@@ -1708,7 +1708,7 @@
     },
     {
       "name": "ResourceTitlePage0010",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0010/resourceTitlePage0010.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/controlButton/0010/resourceTitlePage0010.ets",
       "buildFunction": "ResourceTitlePage0010Builder",
       "data": {
         "description": "this is ResourceTitlePage for test case 0010"
@@ -1716,7 +1716,7 @@
     },
     {
       "name": "StringTitlePage0020",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0020/stringTitlePage0020.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/controlButton/0020/stringTitlePage0020.ets",
       "buildFunction": "StringTitlePage0020Builder",
       "data": {
         "description": "this is StringTitlePage for test case 0020"
@@ -1724,7 +1724,7 @@
     },
     {
       "name": "NavigationCommonTitlePage0030",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0030/navigationCommonTitlePage0030.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/controlButton/0030/navigationCommonTitlePage0030.ets",
       "buildFunction": "NavigationCommonTitlePage0030Builder",
       "data": {
         "description": "this is NavigationCommonTitlePage for test case 0030"
@@ -1732,7 +1732,7 @@
     },
     {
       "name": "CustomBuilderTitlePage0040",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0040/customBuilderTitlePage0040.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/controlButton/0040/customBuilderTitlePage0040.ets",
       "buildFunction": "CustomBuilderTitlePage0040Builder",
       "data": {
         "description": "this is CustomBuilderTitlePage for test case 0040"
@@ -1740,7 +1740,7 @@
     },
     {
       "name": "NavigationCustomTitlePage0050",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0050/navigationCustomTitlePage0050.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/controlButton/0050/navigationCustomTitlePage0050.ets",
       "buildFunction": "NavigationCustomTitlePage0050Builder",
       "data": {
         "description": "this is NavigationCustomTitlePage for test case 0050"
@@ -1748,7 +1748,7 @@
     },
     {
       "name": "ResourceTitleWithMenuPage0060",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0060/resourceTitleWithMenuPage0060.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/controlButton/0060/resourceTitleWithMenuPage0060.ets",
       "buildFunction": "ResourceTitleWithMenuPage0060Builder",
       "data": {
         "description": "this is ResourceTitleWithMenuPage for test case 0060"
@@ -1756,7 +1756,7 @@
     },
     {
       "name": "StringTitleWithMenuPage0070",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0070/stringTitleWithMenuPage0070.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/controlButton/0070/stringTitleWithMenuPage0070.ets",
       "buildFunction": "StringTitleWithMenuPage0070Builder",
       "data": {
         "description": "this is StringTitleWithMenuPage for test case 0070"
@@ -1764,7 +1764,7 @@
     },
     {
       "name": "NavigationCommonTitleNonCustomMenuPage0080",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0080/navigationCommonTitleNonCustomMenuPage0080.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/controlButton/0080/navigationCommonTitleNonCustomMenuPage0080.ets",
       "buildFunction": "NavigationCommonTitleNonCustomMenuPage0080Builder",
       "data": {
         "description": "this is NavigationCommonTitleNonCustomMenuPage for test case 0080"
@@ -1772,7 +1772,7 @@
     },
     {
       "name": "CustomBuilderTitleCustomMenuPage0090",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0090/customBuilderTitleCustomMenuPage0090.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/controlButton/0090/customBuilderTitleCustomMenuPage0090.ets",
       "buildFunction": "CustomBuilderTitleCustomMenuPage0090Builder",
       "data": {
         "description": "this is CustomBuilderTitleCustomMenuPage for test case 0090"
@@ -1780,7 +1780,7 @@
     },
     {
       "name": "NavigationCustomTitleNonCustomMenuPage0100",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0100/navigationCustomTitleNonCustomMenuPage0100.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/controlButton/0100/navigationCustomTitleNonCustomMenuPage0100.ets",
       "buildFunction": "NavigationCustomTitleNonCustomMenuPage0100Builder",
       "data": {
         "description": "this is NavigationCustomTitleNonCustomMenuPage for test case 0100"
@@ -1788,7 +1788,7 @@
     },
     {
       "name": "CustomControlButtonPage0200",
-      "pageSourceFile": "src/ohosTest/ets/testability/pages/navigation_interface/controlButton/0200/customControlButtonPage0200.ets",
+      "pageSourceFile": "src/ohosTest/ets/testability/pages/component/navigation/navigation_interface/controlButton/0200/customControlButtonPage0200.ets",
       "buildFunction": "CustomControlButtonPage0200Builder",
       "data": {
         "description": "this is CustomControlButtonPage for test case 0200"
