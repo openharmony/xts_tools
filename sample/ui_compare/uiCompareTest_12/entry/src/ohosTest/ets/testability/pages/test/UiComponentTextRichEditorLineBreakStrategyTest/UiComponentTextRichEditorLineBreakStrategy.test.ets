@@ -14,11 +14,11 @@
  */
 
 import { afterEach, describe, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
-import windowSnap from '../model/snapShot'
+import windowSnap from '../../../model/snapShot'
 
 export default function UiComponentTextRichEditorLineBreakStrategy() {
   describe('UiComponentTextRichEditorLineBreakStrategy', () => {
@@ -46,7 +46,7 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
       * @tc.level  : 3
       */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0007", Level.LEVEL3, async (done: Function) => {
-        Settings.createWindow("testability/pages/UiComponentTextRichEditorLineBreakStrategy/UiComponentTextRichEditorLineBreakStrategy0007")
+        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_12/UiComponentTextRichEditorLineBreakStrategy0007")
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
@@ -103,7 +103,7 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
       * @tc.level  : 3
       */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0008", Level.LEVEL3, async (done: Function) => {
-        Settings.createWindow("testability/pages/UiComponentTextRichEditorLineBreakStrategy/UiComponentTextRichEditorLineBreakStrategy0008")
+        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_12/UiComponentTextRichEditorLineBreakStrategy0008")
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
@@ -154,7 +154,7 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
       * @tc.level  : 3
       */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0009", Level.LEVEL3, async (done: Function) => {
-        Settings.createWindow("testability/pages/UiComponentTextRichEditorLineBreakStrategy/UiComponentTextRichEditorLineBreakStrategy0009")
+        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_12/UiComponentTextRichEditorLineBreakStrategy0009")
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 

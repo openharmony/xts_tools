@@ -14,11 +14,11 @@
  */
 
 import { afterEach, describe, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
-import windowSnap from '../model/snapShot'
+import windowSnap from '../../../model/snapShot'
 
 export default function UiComponentTextRichEditorBuilderSpanDrag() {
   describe('UiComponentTextRichEditorBuilderSpanDrag', () => {
@@ -46,7 +46,7 @@ export default function UiComponentTextRichEditorBuilderSpanDrag() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0005", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0005")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0005")
       let driver = await Driver.create()
 
       // 1、等待组件加载完成
@@ -79,7 +79,7 @@ export default function UiComponentTextRichEditorBuilderSpanDrag() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0001", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0001")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0001")
       let driver = await Driver.create()
 
       // 1、等待组件加载完成
@@ -112,7 +112,7 @@ export default function UiComponentTextRichEditorBuilderSpanDrag() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0006", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0006")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0006")
       let driver = await Driver.create()
 
       // 1、等待组件加载完成
@@ -145,7 +145,7 @@ export default function UiComponentTextRichEditorBuilderSpanDrag() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0003", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0003")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0003")
       let driver = await Driver.create()
 
       // 1、等待组件加载完成
@@ -178,7 +178,7 @@ export default function UiComponentTextRichEditorBuilderSpanDrag() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0004", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0004")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0004")
       let driver = await Driver.create()
 
       // 1、等待组件加载完成

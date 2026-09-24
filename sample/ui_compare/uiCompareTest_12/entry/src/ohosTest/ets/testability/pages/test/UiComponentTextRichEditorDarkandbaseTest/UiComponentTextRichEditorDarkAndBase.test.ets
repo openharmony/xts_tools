@@ -14,13 +14,13 @@
  */
 
 import { afterEach, describe, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 import { uiAppearance } from '@kit.ArkUI'
 import { BusinessError } from '@kit.BasicServicesKit'
-import windowSnap from '../model/snapShot'
+import windowSnap from '../../../model/snapShot'
 
 
 export default function UiComponentTextRichEditorDarkAndBase() {
@@ -51,7 +51,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
       */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00031", Level.LEVEL3, async (done: Function) => {
 
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0031")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0031")
       let driver = await Driver.create()
       await Utils.sleep(500)
 
@@ -112,7 +112,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
        * @tc.level  : 3
        */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00030", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0030")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0030")
       let driver = await Driver.create()
 
       // 1、查找richEditor、setTypingStyle组件
@@ -172,7 +172,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
        * @tc.level  : 3
        */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0005", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0005")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0005")
       let driver = await Driver.create()
 
       // 1、查找richEditor1组件
@@ -238,7 +238,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
         * @tc.level  : 3
     */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0014", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0014")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0014")
       let driver = await Driver.create()
       await Utils.sleep(1000);
 
@@ -299,7 +299,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
        * @tc.level  : 3
     */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0003", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0003")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0003")
       let driver = await Driver.create()
       await Utils.sleep(1000);
 
@@ -357,7 +357,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
        * @tc.level  : 3
        */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0012", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0012")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0012")
       let driver = await Driver.create()
       await Utils.sleep(1000);
 
@@ -419,7 +419,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
        * @tc.level  : 3
        */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0017", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0017")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0017")
       let driver = await Driver.create()
       await Utils.sleep(1000);
 
@@ -476,7 +476,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
        * @tc.level  : 3
        */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0006", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0006")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0006")
       let driver = await Driver.create()
       await Utils.sleep(1000);
 
@@ -535,7 +535,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
        * @tc.level  : 3
        */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0016", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0016")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0016")
       let driver = await Driver.create()
       await Utils.sleep(1000);
 

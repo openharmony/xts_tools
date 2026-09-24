@@ -14,11 +14,11 @@
  */
 
 import { afterEach, describe, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
-import windowSnap from '../model/snapShot'
+import windowSnap from '../../../model/snapShot'
 
 export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation() {
   describe('UiComponentTextRichEditorOptimizeSelectAllMenuLocation', () => {
@@ -47,7 +47,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0025", Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0025")
+        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0025")
         let driver = await Driver.create()
 
         // 1、查找组件
@@ -92,7 +92,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0035", Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0035")
+        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0035")
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
@@ -138,7 +138,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0032", Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0032")
+        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0032")
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
@@ -195,7 +195,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0030", Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0030")
+        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0030")
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
@@ -263,7 +263,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0017", Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0017")
+        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0017")
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
@@ -332,7 +332,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0022", Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0022")
+        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0022")
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
@@ -395,7 +395,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0020", Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0020")
+        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0020")
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
@@ -445,7 +445,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0021", Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0021")
+        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0021")
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
@@ -491,7 +491,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0026", Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0026")
+        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0026")
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
@@ -537,7 +537,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0027", Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0027")
+        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0027")
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 

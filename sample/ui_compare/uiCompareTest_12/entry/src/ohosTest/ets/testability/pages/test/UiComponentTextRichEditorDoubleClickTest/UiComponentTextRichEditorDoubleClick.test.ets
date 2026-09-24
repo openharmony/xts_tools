@@ -14,13 +14,13 @@
  */
 
 import { describe, it, afterEach, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON, MouseButton } from '@kit.TestKit'
 import { uiAppearance } from '@kit.ArkUI'
 import { BusinessError } from '@kit.BasicServicesKit';
-import windowSnap from '../model/snapShot'
+import windowSnap from '../../../model/snapShot'
 
 export default function UiComponentTextRichEditorDoubleClick() {
   describe('UiComponentTextRichEditorDoubleClick', () => {
@@ -48,7 +48,7 @@ export default function UiComponentTextRichEditorDoubleClick() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_003", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0003")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0003")
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 
@@ -84,7 +84,7 @@ export default function UiComponentTextRichEditorDoubleClick() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_010", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0010")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0010")
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 
@@ -120,7 +120,7 @@ export default function UiComponentTextRichEditorDoubleClick() {
         * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_001", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0001")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0001")
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 

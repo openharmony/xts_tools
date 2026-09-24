@@ -14,11 +14,11 @@
  */
 
 import { afterEach, describe, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
-import windowSnap from '../model/snapShot'
+import windowSnap from '../../../model/snapShot'
 
 export default function UiComponentTextRichEditorAdaptiveAging() {
   describe('UiComponentTextRichEditorAdaptiveAging', () => {
@@ -46,7 +46,7 @@ export default function UiComponentTextRichEditorAdaptiveAging() {
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ADAPTIVE_AGING_0013", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/UiComponentTextRichEditorAdaptiveAging/UiComponentTextRichEditorAdaptiveAging0013")
+      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorAdaptiveAging/UiComponentTextRichEditorAdaptiveAging0013")
       let driver = await Driver.create()
 
       // 1、查找richEditor、setTypingStyle组件
