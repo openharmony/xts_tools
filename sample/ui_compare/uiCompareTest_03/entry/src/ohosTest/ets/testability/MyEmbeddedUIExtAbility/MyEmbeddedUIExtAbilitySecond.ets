@@ -17,7 +17,7 @@ import { hilog } from '@kit.PerformanceAnalysisKit';
 import {
   AtomicServiceOptions,
   common, OpenLinkOptions, StartOptions, UIExtensionContentSession, UIExtensionAbility, Want } from '@kit.AbilityKit';
-import EmbeddedUIExtensionAbility from '@ohos.app.ability.EmbeddedUIExtensionAbility';
+import { EmbeddedUIExtensionAbility } from '@kit.AbilityKit';
 import { BusinessError, commonEventManager } from '@kit.BasicServicesKit';
 import { rpc } from '@kit.IPCKit';
 
