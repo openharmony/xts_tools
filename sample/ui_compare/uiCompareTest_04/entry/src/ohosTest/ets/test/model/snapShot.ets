@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,29 +14,27 @@
  */
 
 import Logger from './Logger';
-import image from '@ohos.multimedia.image';
+import { image } from '@kit.ImageKit';
 import fs from '@ohos.file.fs';
-import common from '@ohos.app.ability.common'
+import { common } from '@kit.AbilityKit'
 import { GlobalThis } from './globalThis'
-import screenshot from '@ohos.screenshot'
-import { BusinessError } from '@ohos.base'
+import { screenshot } from '@kit.ArkUI';
+import { BusinessError } from '@kit.BasicServicesKit'
 import Settings from './Settings';
 
 const TAG: string = '[TEST]';
-
 
 class windowSnap {
   filePath(pageName ?: string) {
     let context: common.UIAbilityContext | undefined = GlobalThis.getInstance().getContext('context')
     Logger.info(TAG, 'deleteFile start');
-    let pathDir = context ? context.filesDir : "/"
+    let pathDir:string = context ? context.filesDir : "/"
     Logger.info(TAG, `deleteFile pathDir = ${pathDir}`)
     let name = pageName ? pageName : "test"
     let displayName = `IMG_${name}.webp`
     let filePath: string = pathDir + "/" + displayName;
     Logger.info(TAG, 'createFile filePath = ${filePath}')
     return filePath;
-
   }
 
   async deleteFile(filePath: string) {
@@ -77,25 +75,26 @@ class windowSnap {
   }
 
   /*
-   * 鑾峰彇绐楀彛缁撳悎&鏂囦欢淇濆瓨
-   * 鍏ュ弬蹇呭～ ability鐨刢ontext
+   * 获取窗口结合&文件保存
+   * 入参必填 ability的context
 
    * snapShot
-   * save锛氳澶囩淇濆瓨璺緞锛?data/app/el2/100/base/{bundle_name}/haps/entry_test/files/IMG_test.webp
-   * 鏌ョ湅鍛戒护:hdc_st shell ,cd
+   * save：设备端保存路径：/data/app/el2/100/base/{bundle_name}/haps/entry_test/files/IMG_test.webp
+   * 查看命令:hdc_st shell ,cd
    **/
   async snapShot(pageName?: string) {
-    //鑾峰彇绐楀彛
+    //获取窗口
     Logger.info(TAG, 'start snapshot')
     if (Settings.windowClass == undefined) {
       Logger.info(TAG, 'getWindowClass error')
       return;
     }
     Logger.info(TAG, 'find window success')
+    Logger.info(TAG, 'find window success, snapShot pageName is: ',pageName)
     let filePath = this.filePath(pageName)
     this.deleteFile(filePath);
 
-    //鎴睆
+    //截屏
     Settings.windowClass.snapshot((err, data: image.PixelMap) => {
       if (err.code) {
         Logger.info('failed to snap window .cause : ' + JSON.stringify(err))
@@ -109,11 +108,11 @@ class windowSnap {
   }
 
   /*
-  * 鑾峰彇绐楀彛缁撳悎&鏂囦欢淇濆瓨
-  * 鍏ュ弬蹇呭～ ability鐨刢ontext
+  * 获取窗口结合&文件保存
+  * 入参必填 ability的context
   * screenShot
-  * save锛氳澶囩淇濆瓨璺緞锛?data/app/el2/100/base/{bundle_name}/haps/entry_test/files/IMG_test.webp
-  * 鏌ョ湅鍛戒护:hdc_st shell ,cd
+  * save：设备端保存路径：/data/app/el2/100/base/{bundle_name}/haps/entry_test/files/IMG_test.webp
+  * 查看命令:hdc_st shell ,cd
   **/
 
   async screenShot(pageName?: string) {
@@ -126,7 +125,8 @@ class windowSnap {
     let filePath = this.filePath(pageName)
     this.deleteFile(filePath)
 
-    // 鑾峰彇绐楀彛灞炴€?    try {
+    // 获取窗口属性
+    try {
       let properties = Settings.windowClass.getWindowProperties();
       Logger.info(TAG, 'properties.windowRect =  ' + JSON.stringify(properties))
 
@@ -145,7 +145,7 @@ class windowSnap {
             return;
           }
           Logger.info(TAG, 'Succeed in saving screenshot. Pixel bytes number: ' + pixelMap.getPixelBytesNumber())
-          this.save(filePath, pixelMap) //pixelMap 淇濆瓨鐢熸垚鏂囦欢
+          this.save(filePath, pixelMap) //pixelMap 保存生成文件
           pixelMap.release();
         });
       } catch (exception) {

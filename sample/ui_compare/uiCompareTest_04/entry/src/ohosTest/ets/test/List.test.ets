@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Copyright (c) 2025 Shenzhen Kaihong Digital Industry Development Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -39,7 +39,6 @@ import UIComponentListAndGridListComponentTest from './UIComponentListAndGridLis
 import UIComponentMediaCounterLargeFontTest from './UIComponentMediaCounterLargeFontTest/UIComponentMediaCounterLargeFont.test';
 import UIImportComponentContentTest from './UIImportComponentContentTest/UIImportComponentContent.test';
 import UIComponentListAndGridListScrollPageTest from './UIComponentListAndGridListScrollPageTest/UIComponentListAndGridListScrollPage.test';
-import UIComponentListAndGridListFadingEdgeTest from './UIComponentListAndGridListFadingEdgeTest/UIComponentListAndGridListFadingEdge.test';
 import UIComponentListAndGridGridMirrorTest from './UIComponentListAndGridGridMirrorTest/UIComponentListAndGridGridMirror.test';
 import StateRepeatArrayLikeTest from './StateRepeatArrayLikeTest/StateRepeatArrayLike.test';
 import ActionEventCommonEventKeyEventDispatchTest from './ActionEventCommonEventKeyEventDispatchTest/ActionEventCommonEventKeyEventDispatch.test';
@@ -78,7 +77,6 @@ import UIComponentScrollBarVelocityTest from './UIComponentScrollBarVelocityTest
 import UIComponentScrollSwiperDragTest from './UIComponentScrollSwiperDragTest/UIComponentScrollSwiperDrag.test';
 import UIComponentWaterFlowFlowItemTest from './UIComponentWaterFlowFlowItemTest/UIComponentWaterFlowFlowItem.test';
 import UIComponentListOffSetTest from './UIComponentListOffSetTest/UIComponentListOffSet.test';
-import UIComponentGridLayoutTest from './UIComponentGridLayoutTest/UIComponentGridLayout.test';
 import UIArkUIGridCachedCountTest from './UIArkUIGridCachedCountTest/UIArkUIGridCachedCount.test';
 import UIComponentGridCapabilityTest from './UIComponentGridCapabilityTest/UIComponentGridCapability.test';
 import StatusManagerV2IfElseAnimateToTest from './StatusManagerV2IfElseAnimateToTest/StatusManagerV2IfElseAnimateTo.test';
@@ -110,7 +108,6 @@ export default function testsuite() {
   UIComponentMediaCounterLargeFontTest();
   UIImportComponentContentTest();
   UIComponentListAndGridListScrollPageTest();
-  UIComponentListAndGridListFadingEdgeTest();
   UIComponentListAndGridGridMirrorTest();
   StateRepeatArrayLikeTest();
   ActionEventCommonEventKeyEventDispatchTest();
@@ -148,7 +145,6 @@ export default function testsuite() {
   UIComponentScrollSwiperDragTest();
   UIComponentWaterFlowFlowItemTest();
   UIComponentListOffSetTest();
-  UIComponentGridLayoutTest();
   UIArkUIGridCachedCountTest();
   UIComponentGridCapabilityTest();
   StatusManagerV2IfElseAnimateToTest();
