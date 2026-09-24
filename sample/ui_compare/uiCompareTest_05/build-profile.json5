@@ -16,26 +16,20 @@
 {
   "app": {
     "signingConfigs": [
-      {
-        "name": "default",
-        "material": {
-          "certpath": "C:/Users/kaihong/.ohos/config/openharmony/default_uiCompareTest_05_N86vAWlN2-wuQppkBdXdxluXX1zwUEKT0P4xeCN1VKQ=.cer",
-          "storePassword": "0000001BA73647EF87E7B6DC6B8843D5D65134B802E2F31DDA16EEC0B259A20B03E29BAF4982BC4E32CABC",
-          "keyAlias": "debugKey",
-          "keyPassword": "0000001B6F9751477E91E458EBB9907806E940F2D135E2985EEFB3A96AF6D46121B588BA8400A5EC9D1754",
-          "profile": "C:/Users/kaihong/.ohos/config/openharmony/default_uiCompareTest_05_N86vAWlN2-wuQppkBdXdxluXX1zwUEKT0P4xeCN1VKQ=.p7b",
-          "signAlg": "SHA256withECDSA",
-          "storeFile": "C:/Users/kaihong/.ohos/config/openharmony/default_uiCompareTest_05_N86vAWlN2-wuQppkBdXdxluXX1zwUEKT0P4xeCN1VKQ=.p12"
-        }
-      }
+
     ],
     "products": [
       {
         "name": "default",
-        "signingConfig": "default",
-        "compileSdkVersion": 18,
-        "compatibleSdkVersion": 18
-      }
+        "compileSdkVersion": "26.0.0",
+        "compatibleSdkVersion": "26.0.0",
+        "runtimeOS": "OpenHarmony",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        },}
     ]
   },
   "modules": [

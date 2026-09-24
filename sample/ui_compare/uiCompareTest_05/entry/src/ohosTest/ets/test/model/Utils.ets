@@ -12,8 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-import {Driver , ON} from '@ohos.UiTest'
+import { Driver, ON } from '@kit.TestKit'
 
 export default class Utils {
 
