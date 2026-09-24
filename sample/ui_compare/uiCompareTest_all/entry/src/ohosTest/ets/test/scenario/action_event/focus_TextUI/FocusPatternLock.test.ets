@@ -14,10 +14,10 @@
  */
 
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 export default function FocusPatternLockTest() {
@@ -52,7 +52,7 @@ export default function FocusPatternLockTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_WATCHES_0012', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_WATCHES_0012  start.`);
-      Settings.createWindow("testability/pages/focus_PatternLock/PatternLockWatches0012")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_PatternLock/PatternLockWatches0012")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -73,7 +73,7 @@ export default function FocusPatternLockTest() {
      */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0010  start.`);
-      Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0010")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_PatternLock/PLCircleColor0010")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('PLC0010'), 1000);
@@ -98,7 +98,7 @@ export default function FocusPatternLockTest() {
      */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0020  start.`);
-      Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0020")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_PatternLock/PLCircleColor0020")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('PLC0020'), 1000);
@@ -123,7 +123,7 @@ export default function FocusPatternLockTest() {
      */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0030  start.`);
-      Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0030")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_PatternLock/PLCircleColor0030")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('PLC0030'), 1000);
@@ -148,7 +148,7 @@ export default function FocusPatternLockTest() {
      */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0040  start.`);
-      Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0040")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_PatternLock/PLCircleColor0040")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('PLC0040'), 1000);
@@ -175,7 +175,7 @@ export default function FocusPatternLockTest() {
      */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0050  start.`);
-      Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0050")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_PatternLock/PLCircleColor0050")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('PLC0050'), 1000);
@@ -201,7 +201,7 @@ export default function FocusPatternLockTest() {
      */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0060  start.`);
-      Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0060")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_PatternLock/PLCircleColor0060")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('PLC0060'), 1000);
@@ -227,7 +227,7 @@ export default function FocusPatternLockTest() {
      */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0070  start.`);
-      Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0070")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_PatternLock/PLCircleColor0070")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('PLC0070'), 1000);
@@ -252,7 +252,7 @@ export default function FocusPatternLockTest() {
      */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0080  start.`);
-      Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0080")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_PatternLock/PLCircleColor0080")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('PLC0080'), 1000);
@@ -276,7 +276,7 @@ export default function FocusPatternLockTest() {
      */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0090  start.`);
-      Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0090")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_PatternLock/PLCircleColor0090")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('PLC0090'), 1000);
@@ -302,7 +302,7 @@ export default function FocusPatternLockTest() {
      */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0100', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0100  start.`);
-      Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0100")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_PatternLock/PLCircleColor0100")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('PLC0100'), 1000);
@@ -328,7 +328,7 @@ export default function FocusPatternLockTest() {
      */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0110  start.`);
-      Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0110")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_PatternLock/PLCircleColor0110")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       let button: Component = await driver.waitForComponent(ON.id('PLC0110'), 1000);

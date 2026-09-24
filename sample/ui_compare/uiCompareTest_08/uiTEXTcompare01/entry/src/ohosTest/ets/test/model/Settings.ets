@@ -14,10 +14,10 @@
  */
 
 import { display } from '@kit.ArkUI';
-import window from '@ohos.window';
+import { window } from '@kit.ArkUI';
 import Logger from './Logger';
 import { GlobalThis } from './globalThis'
-import { BusinessError } from '@ohos.base'
+import { BusinessError } from '@kit.BasicServicesKit'
 
 const TAG: string = '[TEST]';
 

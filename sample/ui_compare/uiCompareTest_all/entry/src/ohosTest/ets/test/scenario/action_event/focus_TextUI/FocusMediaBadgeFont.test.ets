@@ -14,10 +14,10 @@
  */
 
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 export default function FocusMediaBadgeFont() {
@@ -50,7 +50,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_WATCHES_0011', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_WATCHES_0011  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbWatches0011")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbWatches0011")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0011', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0011  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0011")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0011")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0012', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0012  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0012")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0012")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -108,7 +108,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0013', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0013  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0013")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0013")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -129,7 +129,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0015  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0015")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0015")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -149,7 +149,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0016  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0016")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0016")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -169,7 +169,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0017', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0017  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0017")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0017")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -189,7 +189,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0018', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0018  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0018")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0018")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -209,7 +209,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0019  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0019")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0019")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -229,7 +229,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0020  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0020")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0020")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -249,7 +249,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0021', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0021  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0021")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0021")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -270,7 +270,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0022', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0022  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0022")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0022")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -290,7 +290,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0023', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0023  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0023")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0023")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -312,7 +312,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0024', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0024  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0024")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0024")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -332,7 +332,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0025', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0025  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0025")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0025")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -353,7 +353,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0026', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0026  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0026")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0026")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -373,7 +373,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0027', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0027  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0027")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0027")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -395,7 +395,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0029', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0029  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0029")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0029")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -415,7 +415,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0030  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0030")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0030")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -435,7 +435,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0031', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0031  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0031")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0031")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -456,7 +456,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0033', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0033  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0033")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0033")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -478,7 +478,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0034', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0034  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0034")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0034")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -500,7 +500,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0035', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0035  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0035")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0035")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -521,7 +521,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0036', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0036  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0036")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0036")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -542,7 +542,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0037', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0037  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0037")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0037")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -564,7 +564,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0038', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0038  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0038")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0038")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -585,7 +585,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0039', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0039  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0039")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0039")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -606,7 +606,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0040  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0040")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0040")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -627,7 +627,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0041', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0041  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0041")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0041")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -649,7 +649,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0042', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0042  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0042")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0042")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -670,7 +670,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0043', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0043  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0043")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0043")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -691,7 +691,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0044', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0044  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0044")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0044")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -712,7 +712,7 @@ export default function FocusMediaBadgeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0045', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_FONT_0045  start.`);
-      Settings.createWindow("testability/pages/focus_Media_BadgeFont/MbFont0045")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeFont/MbFont0045")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()

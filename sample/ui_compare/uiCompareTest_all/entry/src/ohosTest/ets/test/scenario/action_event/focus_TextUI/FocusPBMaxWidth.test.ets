@@ -14,10 +14,10 @@
  */
 
 import { describe, afterEach, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 export default function FocusPBMaxWidthTest() {
@@ -50,7 +50,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0010 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0010");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0010");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         await windowSnap.snapShot();
@@ -73,7 +73,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0020 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0020");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0020");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         await windowSnap.snapShot();
@@ -96,7 +96,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0030 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0030");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0030");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
  
@@ -130,7 +130,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0040 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0040");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0040");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         
@@ -163,7 +163,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0050 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0050");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0050");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         
@@ -196,7 +196,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0060 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0060");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0060");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         
@@ -229,7 +229,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0070 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0070");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0070");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         await windowSnap.snapShot();
@@ -252,7 +252,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0080 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0080");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0080");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         await windowSnap.snapShot();
@@ -275,7 +275,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0090 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0090");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0090");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         await windowSnap.snapShot();
@@ -298,7 +298,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0100 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0100");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0100");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         await windowSnap.snapShot();
@@ -321,7 +321,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0110 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0110");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0110");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         await windowSnap.snapShot();
@@ -344,7 +344,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0120 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0120");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0120");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         await windowSnap.snapShot();
@@ -367,7 +367,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0130 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0130");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0130");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         await windowSnap.snapShot();
@@ -390,7 +390,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0140 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0140");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0140");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         await windowSnap.snapShot();
@@ -413,7 +413,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0150 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0150");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0150");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         await windowSnap.snapShot();
@@ -436,7 +436,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0160 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0160");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0160");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         await windowSnap.snapShot();
@@ -459,7 +459,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0170 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0170");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0170");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         await windowSnap.snapShot();
@@ -482,7 +482,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0180 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0180");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0180");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(500, 2000);
 
@@ -522,7 +522,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0190 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0190");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0190");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(500, 2000);
 
@@ -583,7 +583,7 @@ export default function FocusPBMaxWidthTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0210 start.`);
       try {
         // 步骤1: 打开入口页面
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0210_Entry");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0210_Entry");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         Logger.info('TEST', `Entry page loaded`);
@@ -634,7 +634,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0220 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0220");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0220");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -645,7 +645,7 @@ export default function FocusPBMaxWidthTest() {
 
         // 从后台恢复到前台
         Logger.info('TEST', `Bringing app back to foreground`);
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0220");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0220");
         await driver.waitForIdle(1000, 2000);
 
         // 截图
@@ -671,7 +671,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0240 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0240");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0240");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -682,7 +682,7 @@ export default function FocusPBMaxWidthTest() {
 
         // 返回应用
         Logger.info('TEST', `Returning to app from multitask mode`);
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0240");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0240");
         await driver.waitForIdle(1000, 2000);
 
         // 截图
@@ -708,7 +708,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0260 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0260");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0260");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -735,7 +735,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0270 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0270");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0270");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -767,7 +767,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0280 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0280");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0280");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -799,7 +799,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0290 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0290");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0290");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -827,7 +827,7 @@ export default function FocusPBMaxWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0310 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBMaxWidth/PopupMaxWidth0310");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBMaxWidth/PopupMaxWidth0310");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -849,4 +849,3 @@ export default function FocusPBMaxWidthTest() {
     });
   });
 }
-

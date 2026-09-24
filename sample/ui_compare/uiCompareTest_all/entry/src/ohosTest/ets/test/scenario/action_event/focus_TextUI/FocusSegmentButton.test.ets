@@ -14,10 +14,10 @@
  */
 
 import { describe, afterEach, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON, } from '@kit.TestKit';
 
 export default function FocusSegmentButtonTest() {
@@ -50,7 +50,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0010 start.`);
       try {
-        Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButton0010");
+        Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButton0010");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -98,7 +98,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0020 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButton0020");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButton0020");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -146,7 +146,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0030 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButton0030");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButton0030");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -180,7 +180,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0050 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButton0050");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButton0050");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -223,7 +223,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0100 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButton0100");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButton0100");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -266,7 +266,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0010 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAction0010");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAction0010");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -300,7 +300,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0020 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAction0020");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAction0020");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -334,7 +334,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0030 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAction0030");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAction0030");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -368,7 +368,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0040 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAction0040");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAction0040");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -402,7 +402,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0050 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAction0050");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAction0050");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -436,7 +436,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0060 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAction0060");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAction0060");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -470,7 +470,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0070 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAction0070");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAction0070");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -509,7 +509,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0010 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0010");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0010");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -584,7 +584,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0020 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0020");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0020");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -647,7 +647,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0030 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0030");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0030");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -710,7 +710,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0050 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0050");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0050");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -773,7 +773,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0100 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0100");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0100");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -836,7 +836,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0130 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0130");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0130");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -899,7 +899,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0140 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0140");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0140");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -962,7 +962,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0150 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0150");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0150");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1025,7 +1025,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0170 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0170");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0170");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1088,7 +1088,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0200 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0200");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0200");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1151,7 +1151,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0210 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0210");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0210");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1214,7 +1214,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0220 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0220");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0220");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1277,7 +1277,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0240 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0240");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0240");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1340,7 +1340,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0270 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0270");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0270");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1403,7 +1403,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0280 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0280");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0280");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1466,7 +1466,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0290 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonAging0290");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonAging0290");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1529,7 +1529,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_CLICK_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_CLICK_0010 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonClick0010");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonClick0010");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1596,7 +1596,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_CLICK_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_CLICK_0020 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonClick0020");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonClick0020");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1662,7 +1662,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_CLICK_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_CLICK_0030 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonClick0030");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonClick0030");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1728,7 +1728,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0010 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0010");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0010");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1784,7 +1784,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0020 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0020");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0020");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1841,7 +1841,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0030 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0030");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0030");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1899,7 +1899,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0040 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0040");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0040");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1935,7 +1935,7 @@ export default function FocusSegmentButtonTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0050 start.`);
-       Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0050");
+       Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0050");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -1962,7 +1962,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0060 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0060");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0060");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2019,7 +2019,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0070 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0070");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0070");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2074,7 +2074,7 @@ export default function FocusSegmentButtonTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0080 start.`);
-        Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0080");
+        Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0080");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2101,7 +2101,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0090 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0090");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0090");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2171,7 +2171,7 @@ export default function FocusSegmentButtonTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0100 start.`);
-      Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0100");
+      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0100");
       let driver: Driver = await Driver.create();
       await driver.waitForIdle(1000, 2000);
       Settings.changeWindowOrientation()
@@ -2196,7 +2196,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0110 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0110");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0110");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2272,7 +2272,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0120 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0120");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0120");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2342,7 +2342,7 @@ export default function FocusSegmentButtonTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0130 start.`);
-       Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0130");
+       Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0130");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
         // 点击按钮切换到横屏
@@ -2373,7 +2373,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0140 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0140");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0140");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2438,7 +2438,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0150 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0150");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0150");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2503,7 +2503,7 @@ export default function FocusSegmentButtonTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0160 start.`);
-      Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0160");
+      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0160");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2532,7 +2532,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0170 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInteraction0170");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInteraction0170");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2604,7 +2604,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2380 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInterface2380");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInterface2380");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2654,7 +2654,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2390 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInterface2390");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInterface2390");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2704,7 +2704,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2400 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInterface2400");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInterface2400");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2767,7 +2767,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2410 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInterface2410");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInterface2410");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2817,7 +2817,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2420 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInterface2420");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInterface2420");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2867,7 +2867,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2430 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInterface2430");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInterface2430");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2922,7 +2922,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2440 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInterface2440");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInterface2440");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -2984,7 +2984,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2450 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInterface2450");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInterface2450");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -3046,7 +3046,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2460 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInterface2460");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInterface2460");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -3096,7 +3096,7 @@ export default function FocusSegmentButtonTest() {
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2470 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButtonInterface2470");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButton/SegmentButtonInterface2470");
         let driver: Driver = await Driver.create();
         await driver.waitForIdle(1000, 2000);
 
@@ -3146,4 +3146,3 @@ export default function FocusSegmentButtonTest() {
     });
   });
 }
-

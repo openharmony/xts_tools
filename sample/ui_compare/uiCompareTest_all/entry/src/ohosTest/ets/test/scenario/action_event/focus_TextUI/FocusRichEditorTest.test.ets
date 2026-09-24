@@ -14,10 +14,10 @@
  */
 
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 
@@ -52,7 +52,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_001  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/REtextBackgroundStyle001")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/REtextBackgroundStyle001")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1500,2000);
       windowSnap.snapShot();
@@ -72,7 +72,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_004', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_004  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/REtextBackgroundStyle004")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/REtextBackgroundStyle004")
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('在此输入文本观察效果'), 1000);
       await button.inputText('随机输入一段文字');
@@ -95,7 +95,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_WordBreak_HYPHENATION_00001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_WordBreak_HYPHENATION_00001  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/REHyphenation00001")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/REHyphenation00001")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1500,2000);
       windowSnap.snapShot();
@@ -116,7 +116,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0001  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorEnableKeyboard0001")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorEnableKeyboard0001")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button: Component = await driver.waitForComponent(ON.id('ReKb0001'), 1000);
@@ -138,7 +138,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0005', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0005  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorEnableKeyboard0005")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorEnableKeyboard0005")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button: Component = await driver.waitForComponent(ON.id('ReKb0005'), 1000);
@@ -160,7 +160,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEMETRICS_0003', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEMETRICS_0003  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorLineMetrics0003")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorLineMetrics0003")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button: Component = await driver.waitForComponent(ON.id('RElineMetrics0003'), 1000);
@@ -182,7 +182,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PREVENTDEFAULT_0001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PREVENTDEFAULT_0001  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorPreventDefault0001")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorPreventDefault0001")
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('这是一段图文混合内容，后面是一张资源引用类型的图片输入。'),500);
       await button.click();
@@ -203,7 +203,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0005', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0005  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorFloatOff0005")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorFloatOff0005")
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('这是一段测试文本，长按后查看效果'),500);
       await button.longClick();
@@ -224,7 +224,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0059', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0059  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorInterFace0059")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorInterFace0059")
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('InterFace0059'), 1000);
       await button.click();
@@ -245,7 +245,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0019', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0019  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorInterFace0019")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorInterFace0019")
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('InterFace0019'), 1000);
       await button.click();
@@ -267,7 +267,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0014', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0014  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorInterFace0014")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorInterFace0014")
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('111'), 1000);
       await button1.click();
@@ -301,7 +301,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0015', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0015  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorInterFace0015")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorInterFace0015")
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('Paragraph111'), 1000);
       await button1.click();
@@ -329,7 +329,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorInterFace9999")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorInterFace9999")
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('InterFace9999'), 1000);
       await button.click();
@@ -350,7 +350,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0001  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorInterFace0001")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorInterFace0001")
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot();
@@ -371,7 +371,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0017', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0017  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorInterFace0017")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorInterFace0017")
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('001701'), 1000);
       await button1.click();
@@ -408,7 +408,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0001  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorStringSpan0001")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorStringSpan0001")
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ReSs0001'), 1000);
       await button.click();
@@ -430,7 +430,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0004', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0004  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorStringSpan0004")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorStringSpan0004")
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ReSets0004'), 1000);
       await button.click();
@@ -455,7 +455,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0016', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0016  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorStringSpan0016")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorStringSpan0016")
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ReSets0016'), 1000);
       await button.click();
@@ -481,7 +481,7 @@ export default function FocusRichEditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0017', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0017  start.`);
-      Settings.createWindow("testability/pages/focus_RichEditor/RichEditorStringSpan0017")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_RichEditor/RichEditorStringSpan0017")
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ReSets0017'), 1000);
       await button.click();

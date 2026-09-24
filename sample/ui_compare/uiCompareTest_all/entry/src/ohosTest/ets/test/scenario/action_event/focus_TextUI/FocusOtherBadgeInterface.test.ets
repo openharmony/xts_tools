@@ -14,10 +14,10 @@
  */
 
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 export default function FocusOtherBadgeInterface() {
@@ -50,7 +50,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0010  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0010")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0010")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -70,7 +70,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0020  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0020")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0020")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -90,7 +90,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0030  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0030")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0030")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -110,7 +110,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0040  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0040")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0040")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -130,7 +130,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0050  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0050")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0050")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -150,7 +150,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0060  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0060")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0060")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -170,7 +170,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0070  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0070")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0070")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -191,7 +191,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0080  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0080")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0080")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -211,7 +211,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0090  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0090")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0090")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -231,7 +231,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0100', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0100  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0100")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0100")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -251,7 +251,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0110  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0110")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0110")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -271,7 +271,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0120', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0120  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0120")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0120")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -291,7 +291,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0130  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0130")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0130")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -311,7 +311,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0140', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0140  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0140")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0140")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -331,7 +331,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0150', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0150  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0150")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0150")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -351,7 +351,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0160', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0160  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0160")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0160")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -371,7 +371,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0170', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0170  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0170")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0170")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -391,7 +391,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0180  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0180")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0180")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -411,7 +411,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0240', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0240  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0240")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0240")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -431,7 +431,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0250', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0250  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0250")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0250")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -451,7 +451,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0350', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0350  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0350")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0350")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -472,7 +472,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0370', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0370  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0370")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0370")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -492,7 +492,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0380', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0380  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0380")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0380")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -513,7 +513,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0390', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0390  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0390")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0390")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -533,7 +533,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0400', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0400  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0400")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0400")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -553,7 +553,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0410', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0410  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0410")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0410")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -573,7 +573,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0470', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0470  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0470")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0470")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -593,7 +593,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0700', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0700  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0700")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0700")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -613,7 +613,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0710', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0710  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0710")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0710")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -633,7 +633,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0780', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0780  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0780")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0780")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -653,7 +653,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0790', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0790  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0790")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0790")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -673,7 +673,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0800', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0800  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0800")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0800")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -693,7 +693,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0810', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0810  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0810")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0810")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -713,7 +713,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0820', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0820  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0820")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0820")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -733,7 +733,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0830', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0830  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0830")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0830")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -753,7 +753,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0840', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0840  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0840")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0840")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -773,7 +773,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0850', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0850  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0850")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0850")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -794,7 +794,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0860', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0860  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0860")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0860")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -814,7 +814,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0870', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0870  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0870")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0870")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -834,7 +834,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0880', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0880  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0880")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0880")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -855,7 +855,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0890', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0790  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0890")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0890")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -875,7 +875,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0900', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0900  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0900")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0900")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -895,7 +895,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0920', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0920  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0920")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0920")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -915,7 +915,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0930', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0930  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0930")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0930")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -935,7 +935,7 @@ export default function FocusOtherBadgeInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0940', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0940  start.`);
-      Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0940")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_Other_BadgeInterface/ObInterface0940")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()

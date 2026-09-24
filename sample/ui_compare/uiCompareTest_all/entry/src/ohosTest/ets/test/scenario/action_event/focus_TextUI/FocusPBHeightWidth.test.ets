@@ -14,10 +14,10 @@
  */
 
 import { describe, afterEach, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 export default function FocusPBHeightWidthTest() {
@@ -50,7 +50,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0380 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0380");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0380");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -79,7 +79,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0390 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0390");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0390");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -108,7 +108,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0400 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0400");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0400");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -137,7 +137,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0410 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0410");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0410");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -166,7 +166,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0420 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0420");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0420");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -195,7 +195,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0430 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0430");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0430");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -224,7 +224,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0440 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0440");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0440");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -253,7 +253,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0450 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0450");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0450");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -282,7 +282,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0460 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0460");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0460");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -311,7 +311,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0470 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0470");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0470");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -340,7 +340,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0480 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0480");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0480");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -369,7 +369,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0490 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0490");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0490");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -398,7 +398,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0500 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0500");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0500");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -427,7 +427,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0510 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0510");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0510");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -456,7 +456,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0520 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0520");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0520");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -485,7 +485,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0530 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0530");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0530");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -514,7 +514,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0540 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0540");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0540");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -543,7 +543,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0550 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0550");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0550");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -572,7 +572,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0560 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0560");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0560");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -601,7 +601,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0570 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0570");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0570");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -630,7 +630,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0580 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0580");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0580");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -659,7 +659,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0590 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0590");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0590");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -688,7 +688,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0600 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0600");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0600");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -717,7 +717,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0610 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0610");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0610");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -746,7 +746,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0620 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0620");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0620");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -775,7 +775,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0630 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0630");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0630");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -804,7 +804,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0640 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0640");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0640");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -833,7 +833,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0650 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0650");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0650");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -862,7 +862,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0660 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0660");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0660");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -891,7 +891,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0670 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0670");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0670");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -920,7 +920,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0680 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0680");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0680");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -949,7 +949,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0690 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0690");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0690");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -978,7 +978,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0700 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0700");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0700");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1007,7 +1007,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0710 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0710");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0710");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1036,7 +1036,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0720 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0720");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0720");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1065,7 +1065,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0730 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0730");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0730");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1094,7 +1094,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0740 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0740");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0740");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1123,7 +1123,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0750 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0750");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0750");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1152,7 +1152,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0760 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0760");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0760");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1181,7 +1181,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0770 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0770");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0770");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1210,7 +1210,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0780 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0780");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0780");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1239,7 +1239,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0790', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0790 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0790");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0790");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1268,7 +1268,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0800', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0800 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0800");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0800");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1297,7 +1297,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0810 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0810");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0810");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1325,7 +1325,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0820 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0820");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0820");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1353,7 +1353,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0830 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0830");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0830");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1381,7 +1381,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0840 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0840");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0840");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1409,7 +1409,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0850', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0850 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0850");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0850");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1437,7 +1437,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0860 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0860");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0860");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1465,7 +1465,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0870 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0870");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0870");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1493,7 +1493,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0880', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0880 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0880");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0880");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1521,7 +1521,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0890', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0890 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0890");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0890");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1549,7 +1549,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0900 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0900");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0900");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1577,7 +1577,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0910', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0910 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0910");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0910");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1605,7 +1605,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0920', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0920 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0920");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0920");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1633,7 +1633,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0930', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0930 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0930");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0930");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1661,7 +1661,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0940', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0940 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0940");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0940");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1689,7 +1689,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0950', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0950 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0950");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0950");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1717,7 +1717,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0960', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0960 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0960");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0960");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1745,7 +1745,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0970', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0970 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0970");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0970");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1773,7 +1773,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0980', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0980 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0980");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0980");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1801,7 +1801,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0990', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0990 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth0990");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth0990");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1829,7 +1829,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1000', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1000 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1000");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1000");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1857,7 +1857,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1010 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1010");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1010");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1885,7 +1885,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1020 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1020");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1020");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1913,7 +1913,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1030 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1030");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1030");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1941,7 +1941,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1040 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1040");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1040");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1969,7 +1969,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1050 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1050");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1050");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -1997,7 +1997,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1060 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1060");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1060");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2025,7 +2025,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1070 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1070");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1070");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2053,7 +2053,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1080 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1080");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1080");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2081,7 +2081,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1090 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1090");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1090");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2109,7 +2109,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1100 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1100");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1100");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2137,7 +2137,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1110 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1110");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1110");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2165,7 +2165,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1120 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1120");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1120");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2193,7 +2193,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1130 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1130");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1130");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2221,7 +2221,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1140 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1140");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1140");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2249,7 +2249,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1150 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1150");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1150");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2277,7 +2277,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1160 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1160");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1160");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2305,7 +2305,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1170 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1170");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1170");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2333,7 +2333,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1180 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1180");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1180");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2361,7 +2361,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1190 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1190");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1190");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2389,7 +2389,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1200 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1200");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1200");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2417,7 +2417,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1210 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1210");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1210");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2445,7 +2445,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1220 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1220");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1220");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2473,7 +2473,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1230 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1230");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1230");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2501,7 +2501,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1240 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1240");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1240");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2529,7 +2529,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1250 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1250");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1250");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2557,7 +2557,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1260 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1260");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1260");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2585,7 +2585,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1270 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1270");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1270");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2613,7 +2613,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1280 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1280");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1280");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2641,7 +2641,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1290 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1290");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1290");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2669,7 +2669,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1300 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1300");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1300");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2697,7 +2697,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1310 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1310");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1310");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2725,7 +2725,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1320 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1320");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1320");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2753,7 +2753,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1330 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1330");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1330");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2781,7 +2781,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1340 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1340");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1340");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2809,7 +2809,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1350 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1350");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1350");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2837,7 +2837,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1360 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1360");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1360");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2865,7 +2865,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1370 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1370");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1370");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2893,7 +2893,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1380 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1380");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1380");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2921,7 +2921,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1390 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1390");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1390");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2949,7 +2949,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1400 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1400");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1400");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -2977,7 +2977,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1410 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1410");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1410");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3005,7 +3005,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1420 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1420");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1420");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3033,7 +3033,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1430 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1430");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1430");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3061,7 +3061,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1440 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1440");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1440");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3089,7 +3089,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1450 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1450");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1450");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3117,7 +3117,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1460 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1460");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1460");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3145,7 +3145,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1470 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1470");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1470");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3173,7 +3173,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1480 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1480");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1480");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3201,7 +3201,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1490 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1490");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1490");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3229,7 +3229,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1500 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1500");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1500");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3257,7 +3257,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1510 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1510");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1510");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3285,7 +3285,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1520 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1520");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1520");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3313,7 +3313,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1530 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1530");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1530");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3341,7 +3341,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1540 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1540");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1540");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3369,7 +3369,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1550 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1550");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1550");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3397,7 +3397,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1560 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1560");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1560");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3425,7 +3425,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1570 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1570");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1570");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3453,7 +3453,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1580 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1580");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1580");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3481,7 +3481,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1590 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1590");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1590");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3509,7 +3509,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1600 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1600");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1600");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3537,7 +3537,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1610 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1610");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1610");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3565,7 +3565,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1620 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1620");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1620");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3593,7 +3593,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1630 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1630");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1630");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3621,7 +3621,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1640 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1640");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1640");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3649,7 +3649,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1650 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1650");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1650");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3677,7 +3677,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1660 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1660");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1660");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3705,7 +3705,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1670 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1670");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1670");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3733,7 +3733,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1680 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1680");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1680");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3761,7 +3761,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1690 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1690");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1690");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3789,7 +3789,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1700 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1700");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1700");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3817,7 +3817,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1710 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1710");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1710");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3845,7 +3845,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1720 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1720");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1720");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3873,7 +3873,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1730");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1730");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3901,7 +3901,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1740");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1740");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3929,7 +3929,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1750");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1750");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3957,7 +3957,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1760");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1760");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -3985,7 +3985,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1770");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1770");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4013,7 +4013,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1780");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1780");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4041,7 +4041,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1790");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1790");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4069,7 +4069,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1800");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1800");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4097,7 +4097,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1810");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1810");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4125,7 +4125,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1820");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1820");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4153,7 +4153,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1830");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1830");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4181,7 +4181,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1840");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1840");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4209,7 +4209,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1850");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1850");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4237,7 +4237,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1860");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1860");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4265,7 +4265,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1870");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1870");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4293,7 +4293,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1880");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1880");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4321,7 +4321,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1890");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1890");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4349,7 +4349,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1900");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1900");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4377,7 +4377,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1910");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1910");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4405,7 +4405,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1920");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1920");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4433,7 +4433,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1930");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1930");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4461,7 +4461,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1940");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1940");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4489,7 +4489,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1950");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1950");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4517,7 +4517,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1960");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1960");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4545,7 +4545,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1970");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1970");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4573,7 +4573,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1980");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1980");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4601,7 +4601,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth1990");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth1990");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4629,7 +4629,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2000");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2000");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4667,7 +4667,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2010");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2010");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4705,7 +4705,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2020");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2020");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4733,7 +4733,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2030");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2030");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4761,7 +4761,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2040");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2040");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4789,7 +4789,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2050");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2050");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4817,7 +4817,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2060");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2060");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4845,7 +4845,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2070");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2070");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4873,7 +4873,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2080");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2080");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4901,7 +4901,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2090");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2090");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4929,7 +4929,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2100");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2100");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4957,7 +4957,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2110");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2110");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -4985,7 +4985,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2120");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2120");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5013,7 +5013,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2130");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2130");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5041,7 +5041,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2140");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2140");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5069,7 +5069,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2150");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2150");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5097,7 +5097,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2160");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2160");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5125,7 +5125,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2170");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2170");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5153,7 +5153,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2180");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2180");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5181,7 +5181,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2190");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2190");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5209,7 +5209,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2200");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2200");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5237,7 +5237,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2210");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2210");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5265,7 +5265,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2220");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2220");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5293,7 +5293,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2230");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2230");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5321,7 +5321,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2240");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2240");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5349,7 +5349,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2250");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2250");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5377,7 +5377,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2260");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2260");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5405,7 +5405,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2500");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2500");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5442,7 +5442,7 @@ export default function FocusPBHeightWidthTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600 start.`);
       try {
-        await Settings.createWindow("testability/pages/focus_PBHeightWidth/PopupHeightWidth2600");
+        await Settings.createWindow("testability/pages/scenario/action_event/focus_PBHeightWidth/PopupHeightWidth2600");
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -5470,4 +5470,3 @@ export default function FocusPBHeightWidthTest() {
 
   })
 }
-

@@ -14,10 +14,10 @@
  */
 
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 export default function FocusFrameNodeTest() {
@@ -50,7 +50,7 @@ export default function FocusFrameNodeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0011', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0011  start.`);
-      Settings.createWindow("testability/pages/focus_FrameNode/MediaFrameNode0011")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_FrameNode/MediaFrameNode0011")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -70,7 +70,7 @@ export default function FocusFrameNodeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0012', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0012  start.`);
-      Settings.createWindow("testability/pages/focus_FrameNode/MediaFrameNode0012")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_FrameNode/MediaFrameNode0012")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -90,7 +90,7 @@ export default function FocusFrameNodeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0013', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0013  start.`);
-      Settings.createWindow("testability/pages/focus_FrameNode/MediaFrameNode0013")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_FrameNode/MediaFrameNode0013")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -110,7 +110,7 @@ export default function FocusFrameNodeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0014', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0014  start.`);
-      Settings.createWindow("testability/pages/focus_FrameNode/MediaFrameNode0014")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_FrameNode/MediaFrameNode0014")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -130,7 +130,7 @@ export default function FocusFrameNodeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0015  start.`);
-      Settings.createWindow("testability/pages/focus_FrameNode/MediaFrameNode0015")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_FrameNode/MediaFrameNode0015")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -150,7 +150,7 @@ export default function FocusFrameNodeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0016  start.`);
-      Settings.createWindow("testability/pages/focus_FrameNode/MediaFrameNode0016")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_FrameNode/MediaFrameNode0016")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -169,7 +169,7 @@ export default function FocusFrameNodeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0017', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0017  start.`);
-      Settings.createWindow("testability/pages/focus_FrameNode/MediaFrameNode0017")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_FrameNode/MediaFrameNode0017")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -189,7 +189,7 @@ export default function FocusFrameNodeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0019  start.`);
-      Settings.createWindow("testability/pages/focus_FrameNode/MediaFrameNode0019")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_FrameNode/MediaFrameNode0019")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -209,7 +209,7 @@ export default function FocusFrameNodeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0020  start.`);
-      Settings.createWindow("testability/pages/focus_FrameNode/MediaFrameNode0020")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_FrameNode/MediaFrameNode0020")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -229,7 +229,7 @@ export default function FocusFrameNodeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0022', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0022  start.`);
-      Settings.createWindow("testability/pages/focus_FrameNode/MediaFrameNode0022")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_FrameNode/MediaFrameNode0022")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -249,7 +249,7 @@ export default function FocusFrameNodeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0024', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0024  start.`);
-      Settings.createWindow("testability/pages/focus_FrameNode/MediaFrameNode0024")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_FrameNode/MediaFrameNode0024")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -270,7 +270,7 @@ export default function FocusFrameNodeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0028', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0028  start.`);
-      Settings.createWindow("testability/pages/focus_FrameNode/MediaFrameNode0028")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_FrameNode/MediaFrameNode0028")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()

@@ -14,10 +14,10 @@
  */
 
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON, Component, UiDirection } from '@kit.TestKit';
 
 export default function FocusChipGroupInterfaceTest() {
@@ -50,7 +50,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0160  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0160")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0160")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -80,7 +80,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0170  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0170")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0170")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.waitForIdle(1000,2000);
@@ -111,7 +111,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0180  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0180")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0180")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button3: Component = await driver.waitForComponent(ON.text('选项3'), 1000);
@@ -135,7 +135,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0190  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0190")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0190")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button2: Component = await driver.waitForComponent(ON.text('选项2'), 1000);
@@ -158,7 +158,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0200  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0200")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0200")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -187,7 +187,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0210  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0210")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0210")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -216,7 +216,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0220  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0220")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0220")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -245,7 +245,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0260  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0260")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0260")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -274,7 +274,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0270  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0270")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0270")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -302,7 +302,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0280  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0280")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0280")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -331,7 +331,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0290  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0290")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0290")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -360,7 +360,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0300  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0300")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0300")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -389,7 +389,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0310  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0310")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0310")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -418,7 +418,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0320  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0320")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0320")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -447,7 +447,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0330  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0330")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0330")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -476,7 +476,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0370  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0370")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0370")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -505,7 +505,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0410  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0410")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0410")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -534,7 +534,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0430  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0430")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0430")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -563,7 +563,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0440  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0440")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0440")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -592,7 +592,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0450  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0450")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0450")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -621,7 +621,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0460  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0460")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0460")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -650,7 +650,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0470  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0470")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0470")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -679,7 +679,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0480  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0480")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0480")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -708,7 +708,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0490  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0490")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0490")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -737,7 +737,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0500  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0500")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0500")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -766,7 +766,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0510  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0510")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0510")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -795,7 +795,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0520  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0520")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0520")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -824,7 +824,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0560  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0560")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0560")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -853,7 +853,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0600  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0600")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0600")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -882,7 +882,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0620  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0620")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0620")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -911,7 +911,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0630  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0630")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0630")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -940,7 +940,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0640  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0640")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0640")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -965,7 +965,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0650  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0650")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0650")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('chaochangzifuchuan1'), 1000);
@@ -990,7 +990,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0680  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0680")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0680")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button2: Component = await driver.waitForComponent(ON.text('选项2'), 1000);
@@ -1017,7 +1017,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0710  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0710")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0710")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button2: Component = await driver.waitForComponent(ON.text('选项2'), 1000);
@@ -1040,7 +1040,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0720  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0720")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0720")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button2: Component = await driver.waitForComponent(ON.text('选项2'), 1000);
@@ -1065,7 +1065,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0730  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0730")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0730")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button2: Component = await driver.waitForComponent(ON.text('选项2'), 1000);
@@ -1090,7 +1090,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0750  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0750")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0750")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.waitForIdle(1000,2000);
@@ -1111,7 +1111,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0760  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0760")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0760")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1140,7 +1140,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0770  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0770")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0770")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1169,7 +1169,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0780  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0780")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0780")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.waitForIdle(1000,2000);
@@ -1190,7 +1190,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0800', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0800  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0800")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0800")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.waitForIdle(1000,2000);
@@ -1211,7 +1211,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0810  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0810")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0810")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1240,7 +1240,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0820  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0820")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0820")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1269,7 +1269,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0830  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0830")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0830")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1298,7 +1298,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0840  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0840")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0840")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1327,7 +1327,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0860  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0860")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0860")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1356,7 +1356,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0870  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0870")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0870")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button3: Component = await driver.waitForComponent(ON.text('选项3'), 1000);
@@ -1389,7 +1389,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0880', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0880  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0880")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0880")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('点击'), 1000);
@@ -1411,7 +1411,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0890', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0890  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface0890")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface0890")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('点击'), 1000);
@@ -1433,7 +1433,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1170  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1170")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1170")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1459,7 +1459,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1070  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1070")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1070")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       // 点击color按钮切换颜色状态
@@ -1494,7 +1494,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1080  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1080")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1080")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       // 点击color1按钮切换颜色状态
@@ -1527,7 +1527,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1090  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1090")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1090")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1551,7 +1551,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1100  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1100")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1100")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1575,7 +1575,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1110  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1110")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1110")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1599,7 +1599,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1120  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1120")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1120")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1623,7 +1623,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1130  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1130")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1130")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1647,7 +1647,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1140  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1140")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1140")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1671,7 +1671,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1150  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1150")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1150")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1696,7 +1696,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1180  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1180")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1180")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.text('空'), 1000);
@@ -1722,7 +1722,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1190  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1190")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1190")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -1765,7 +1765,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1220  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1220")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1220")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1789,7 +1789,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1240  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1240")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1240")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button1: Component = await driver.waitForComponent(ON.text('选项1'), 1000);
@@ -1813,7 +1813,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1480  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1480")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1480")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -1886,7 +1886,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1500  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1500")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1500")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -1931,7 +1931,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1510  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1510")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1510")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -1976,7 +1976,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1540  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1540")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1540")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2024,7 +2024,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1550  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1550")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1550")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2072,7 +2072,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1590  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1590")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1590")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2110,7 +2110,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1600  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1600")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1600")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2145,7 +2145,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1620  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1620")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1620")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2180,7 +2180,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1630  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1630")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1630")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2215,7 +2215,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1640  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1640")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1640")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2250,7 +2250,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1650  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1650")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1650")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2285,7 +2285,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1660  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1660")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1660")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2330,7 +2330,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1670  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1670")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1670")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2365,7 +2365,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1680  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1680")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1680")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2400,7 +2400,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1690  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1690")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1690")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2435,7 +2435,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1700  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1700")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1700")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2470,7 +2470,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1710  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1710")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1710")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2505,7 +2505,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1720  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1720")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1720")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2540,7 +2540,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1730  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1730")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1730")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2575,7 +2575,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1740  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1740")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1740")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2610,7 +2610,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1750  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1750")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1750")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2661,7 +2661,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1760  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1760")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1760")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2692,7 +2692,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1770  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1770")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1770")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2723,7 +2723,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1780  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1780")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1780")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
@@ -2758,7 +2758,7 @@ export default function FocusChipGroupInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1870  start.`);
-      Settings.createWindow("testability/pages/focus_ChipGroupInterface/ChipGroupInterface1870")
+      Settings.createWindow("testability/pages/scenario/action_event/focus_ChipGroupInterface/ChipGroupInterface1870")
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
 
