@@ -256,4 +256,3 @@ struct UiComponentTextRichEditorOnHover00004 {
     .backgroundColor('#F0F2F5')
   }
 }
-

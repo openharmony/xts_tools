@@ -88,7 +88,7 @@ struct UiComponentTextRichEditorSetStyledString0058478201232533 {
         .borderRadius(8)
         .padding(10)
         .editMenuOptions({
-          onCreateMenu: (menuItems: Array<TextMenuItem>) => {
+          onCreateMenu: (menuItems: TextMenuItem[]) => {
             // 在系统菜单基础上添加多个自定义扩展项
             menuItems.push({
               content: '自定义菜单项1'

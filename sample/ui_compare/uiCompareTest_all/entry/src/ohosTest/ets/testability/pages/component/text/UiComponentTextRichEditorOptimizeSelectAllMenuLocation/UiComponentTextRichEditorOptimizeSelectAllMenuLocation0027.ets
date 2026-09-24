@@ -15,7 +15,7 @@
 import { ConfigurationConstant, } from '@kit.AbilityKit';
 import { BusinessError, settings } from '@kit.BasicServicesKit'
 import { common } from '@kit.AbilityKit'
-import Logger from '../../../test/model/Logger';
+import Logger from '../../../../../test/model/Logger.ts';
 import { window } from '@kit.ArkUI';
 
 @Entry

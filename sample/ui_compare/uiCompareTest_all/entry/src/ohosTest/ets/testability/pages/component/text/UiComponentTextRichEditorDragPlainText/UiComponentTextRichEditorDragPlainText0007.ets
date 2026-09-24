@@ -19,7 +19,7 @@ import { uniformTypeDescriptor } from '@kit.ArkData'
 
 @Entry
 @Component
-struct UiComponentTextRichEditorDragPlainText0009 {
+struct UiComponentTextRichEditorDragPlainText0007 {
   @State inputText: string = ''
   @State getSpansResult: string = ''
   private dragAction: dragController.DragAction | null = null
@@ -40,7 +40,7 @@ struct UiComponentTextRichEditorDragPlainText0009 {
 
       // 文本框：输入要拖拽的内容
       TextInput({ placeholder: '输入要拖拽到长文本首字符前的文本' })
-        .id("textInputDrag0009")
+        .id("textInputDrag0007")
         .width('100%')
         .height(80)
         .border({ width: 2, color: '#2B73FF', style: BorderStyle.Dashed })
@@ -87,7 +87,7 @@ struct UiComponentTextRichEditorDragPlainText0009 {
             }
           });
         })
-        .id("richEditorDrag0009")
+        .id("richEditorDrag0007")
         .width('100%')
         .height(200)
         .backgroundColor(Color.White)
@@ -99,7 +99,7 @@ struct UiComponentTextRichEditorDragPlainText0009 {
 
       // 添加长文本按钮
       Button('添加更多长文本')
-        .id("addLongTextBtn0009")
+        .id("addLongTextBtn0007")
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
@@ -121,7 +121,7 @@ struct UiComponentTextRichEditorDragPlainText0009 {
 
       // 验证按钮
       Button('验证拖拽')
-        .id("getSpansBtn0009")
+        .id("getSpansBtn0007")
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
@@ -141,7 +141,7 @@ struct UiComponentTextRichEditorDragPlainText0009 {
 
       // 验证结果显示
       Text(this.getSpansResult)
-        .id("getSpansResultText0009")
+        .id("getSpansResultText0007")
         .width('100%')
         .height(60)
         .backgroundColor('#F0F0F0')
@@ -185,7 +185,7 @@ struct UiComponentTextRichEditorDragPlainText0009 {
       const dragData: unifiedDataChannel.UnifiedData = event.getData() as unifiedDataChannel.UnifiedData
       if (!dragData) return
 
-      const records: Array<unifiedDataChannel.UnifiedRecord> = dragData.getRecords()
+      const records: unifiedDataChannel.UnifiedRecord[] = dragData.getRecords()
       for (let i = 0; i < records.length; i++) {
         const types = records[i].getTypes()
         if (types.includes(uniformTypeDescriptor.UniformDataType.PLAIN_TEXT)) {
@@ -194,7 +194,7 @@ struct UiComponentTextRichEditorDragPlainText0009 {
           if (txt) {
             // 在Span1中间位置插入文本，使用Span1的样式
             this.controller.addTextSpan(txt, {
-              offset: 10
+              offset: 0
             });
           }
         }

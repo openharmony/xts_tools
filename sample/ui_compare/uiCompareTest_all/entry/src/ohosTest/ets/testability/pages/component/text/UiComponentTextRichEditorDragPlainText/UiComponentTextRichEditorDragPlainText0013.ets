@@ -12,48 +12,56 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { uniformTypeDescriptor } from '@kit.ArkData';
-import { unifiedDataChannel } from '@kit.ArkData';
+import { uniformTypeDescriptor, unifiedDataChannel } from '@kit.ArkData';
+
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { dragController } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct UiComponentTextRichEditorDragPlainText0024 {
+struct UiComponentTextRichEditorDragPlainText0013 {
   @State inputText: string = '';
   @State getSpansResult: string = '';
   private dragAction: dragController.DragAction | null = null;
   controller: RichEditorController = new RichEditorController();
 
+
+  aboutToAppear() {
+    // 初始化RichEditor内容：包含文本和图片
+    this.controller.addTextSpan('欢迎使用RichEditor！')
+    this.controller.addImageSpan($r("sys.media.ohos_app_icon"))
+    this.controller.addTextSpan(' 这是一个测试图片。')
+  }
+
   build() {
     Column() {
       // 标题
-      Text('RichEditor拖拽验证测试')
+      Text('文本和图片同时拖拽测试')
         .fontSize(18)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 16 })
 
-      // 合并的输入框和拖拽源：输入文本后长按即可拖拽
-      TextInput({ placeholder: '输入文本后长按此处即可拖拽到下方编辑器' })
-        .id("textInputDrag0024")
-        .width('100%').height(64)
+      // 文本框：输入文本和图片
+      TextInput({ placeholder: '输入文本和图片内容' })
+        .id("textInputDrag0013")
+        .width('100%').height(120)
         .border({ width: 2, color: '#2B73FF', style: BorderStyle.Dashed })
         .borderRadius(8)
         .padding({ left: 12, right: 12 })
         .backgroundColor('#E7F2FF')
         .onChange((v: string) => this.inputText = v)
         .draggable(true)
-        .margin({ top:10,bottom:10 })
-        .onTouch((event?: TouchEvent) => {
-          if (!event || !this.inputText.trim()) return;
-          if (event.type === TouchType.Down && event.touches && event.touches.length > 0) {
-            this.startDrag(event.touches[0].id);
+        .onTouch((e?: TouchEvent) => {
+          if (!e || !this.inputText.trim()) return;
+          if (e.type === TouchType.Down && e.touches && e.touches.length > 0) {
+            this.startDrag(e.touches[0].id);
           }
         })
+        .margin({ bottom: 12 })
 
       // 目标：RichEditor 接收并插入
       RichEditor({ controller: this.controller })
-        .id("richEditorDrag0024")
+        .id("richEditorDrag0013")
         .width('100%').height(220)
         .backgroundColor(Color.White)
         .border({ width: 1, color: Color.Gray }).borderRadius(8)
@@ -61,12 +69,26 @@ struct UiComponentTextRichEditorDragPlainText0024 {
         .onDrop((event: DragEvent) => this.onDropIntoEditor(event))
         .margin({ bottom: 12 })
 
-      // getSpans验证按钮 - 直接在onClick中写逻辑
-      Button('验证拖拽')
-        .id("getSpansBtn0024")
+      // 添加图片
+      Button('添加图片')
+        .id('addImage0013')
         .width('100%')
         .height(40)
-        .backgroundColor('#ff5baf4c')
+        .backgroundColor('#4CAF50')
+        .onClick(()=>{
+          this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
+            imageStyle: {
+              size: ["30px", "30px"]
+            }
+          })
+
+        })
+      // getSpans验证按钮 - 直接在onClick中写逻辑
+      Button('验证拖拽')
+        .id("getSpansBtn0013")
+        .width('100%')
+        .height(40)
+        .backgroundColor('#4CAF50')
         .onClick(() => {
           try {
             const spans = this.controller.getSpans();
@@ -83,7 +105,7 @@ struct UiComponentTextRichEditorDragPlainText0024 {
 
       // 验证结果显示
       Text(this.getSpansResult)
-        .id("getSpansResultText0024")
+        .id("getSpansResultText0013")
         .width('100%')
         .height(60)
         .backgroundColor('#F0F0F0')
@@ -91,10 +113,6 @@ struct UiComponentTextRichEditorDragPlainText0024 {
         .borderRadius(4)
         .padding(8)
         .fontSize(14)
-      
-
-
-
     }
     .width('100%').height('100%').padding(16).backgroundColor('#F6F7F9')
   }
@@ -104,6 +122,7 @@ struct UiComponentTextRichEditorDragPlainText0024 {
       const txt = this.inputText.trim();
       if (!txt) return;
 
+      // 创建包含文本和图片的混合数据
       const plain = new unifiedDataChannel.PlainText();
       plain.textContent = txt;
       const data = new unifiedDataChannel.UnifiedData(plain);
@@ -128,24 +147,20 @@ struct UiComponentTextRichEditorDragPlainText0024 {
       const dragData: unifiedDataChannel.UnifiedData = event.getData() as unifiedDataChannel.UnifiedData;
       if (!dragData) return;
 
-      const records: Array<unifiedDataChannel.UnifiedRecord> = dragData.getRecords();
+      const records: unifiedDataChannel.UnifiedRecord[] = dragData.getRecords();
       for (let i = 0; i < records.length; i++) {
         const types = records[i].getTypes();
         if (types.includes(uniformTypeDescriptor.UniformDataType.PLAIN_TEXT)) {
           const entry = records[i].getEntry(uniformTypeDescriptor.UniformDataType.PLAIN_TEXT) as unifiedDataChannel.PlainText;
           const txt: string = entry?.textContent ?? '';
           if (txt) {
-            // 最简插入
             this.controller.addTextSpan(txt);
           }
         }
       }
-      // 可选：标记处理成功
-      hilog.info(0x0000, 'TEST', '拖拽文本成功插入到RichEditor');
+      hilog.info(0x0000, 'TEST', '拖拽文本和图片成功插入到RichEditor');
     } catch (err) {
       hilog.error(0x0000, 'TEST', '处理拖拽数据失败：' + (err as Error).message);
     }
   }
-
-
 }

@@ -12,38 +12,30 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { uniformTypeDescriptor } from '@kit.ArkData';
-import { unifiedDataChannel } from '@kit.ArkData';
-import { uniformDataStruct } from '@kit.ArkData';
-
-// 导入RichEditor样式类型
-
 
 @Entry
 @Component
-struct UiComponentTextRichEditorInterface0039 {
+struct UiComponentTextRichEditorInterface0077 {
   scroller: Scroller = new Scroller();
   controller: RichEditorController = new RichEditorController();
   options: RichEditorOptions = { controller: this.controller };
-  @State consoleOutput: string = "控制台输出将在这里显示...";
   
-  // 用于显示段落信息的RichEditor
+  // 用于显示样式信息的RichEditor
   displayController: RichEditorController = new RichEditorController();
   displayOptions: RichEditorOptions = { controller: this.displayController };
- 
- 
+
   build() {
     Column() {
       // 提示信息
-      Text('请在下面的RichEditor中输入文本后删除来触发aboutToDelete回调')
+      Text('请在下面的RichEditor中输入文本来触发updateSpanStyle功能')
         .width('100%')
         .fontSize(12)
         .fontColor(Color.Orange)
         .textAlign(TextAlign.Center)
         .margin(10)
 
-      // 显示段落信息的区域
-      Text('段落信息显示区域：')
+      // 显示样式信息的区域
+      Text('样式信息显示区域：')
         .width('100%')
         .fontSize(14)
         .fontColor(Color.Black)
@@ -51,7 +43,7 @@ struct UiComponentTextRichEditorInterface0039 {
         .margin({ top: 10, bottom: 5 })
 
       RichEditor(this.displayOptions)
-        .id('displayRichEditor0039')
+        .id('displayRichEditor0077')
         .width('100%')
         .height(100)
         .border({ width: 1, color: Color.Green })
@@ -60,20 +52,35 @@ struct UiComponentTextRichEditorInterface0039 {
         .backgroundColor('#F0F8FF')
         .margin(10)
 
+
+
+
+
       Scroll(this.scroller) {
         RichEditor(this.options)
-          .id('richEditor0039')
+          .id('richEditor0077')
           .width('100%')
           .height(100)
           .border({ width: 1, color: Color.Gray })
           .borderRadius(8)
           .padding(8)
-          .aboutToDelete((value: RichEditorDeleteValue) => {
-            // 在删除前获取段落信息并显示在上面的RichEditor中
-            const paragraphs = JSON.stringify(this.controller.getParagraphs({ start: -1, end: -1 }))
-            console.log(paragraphs)
+          .aboutToIMEInput((value: RichEditorInsertValue) => {
+            // 在输入前更新样式
+            const spans = JSON.stringify(this.controller.getSpans({ start: -1, end: -1 }))
+            console.log("输入前的spans信息:", spans)
+            
+            // 更新现有文本的样式
+            this.controller.updateSpanStyle({
+              start: 0,
+              end: -1,
+              textStyle: {
+                fontSize: 18,
+                fontColor: Color.Orange
+              }
+            })
+            
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan(paragraphs, {
+            this.displayController.addTextSpan("已更新样式，spans信息:\n" + spans, {
               style: {
                 fontSize: 12,
                 fontColor: Color.Red
@@ -95,5 +102,4 @@ struct UiComponentTextRichEditorInterface0039 {
     .padding(16)
     .backgroundColor('#F6F7F9')
   }
-
 }

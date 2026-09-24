@@ -12,50 +12,30 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { uniformTypeDescriptor } from '@kit.ArkData';
-import { unifiedDataChannel } from '@kit.ArkData';
+import { uniformTypeDescriptor, unifiedDataChannel } from '@kit.ArkData';
+
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { dragController } from '@kit.ArkUI';
 
-
 @Entry
 @Component
-struct UiComponentTextRichEditorDragPlainText0017 {
-  fontStyle: TextStyle = new TextStyle({
-    fontColor: Color.Pink
-  });
-  // 定义字体样式对象
-
-  mutableStyledString: MutableStyledString = new MutableStyledString("创建使用属性字符串构建的RichEditor组件。",
-    [{
-      start: 0,
-      length: 5,
-      styledKey: StyledStringKey.FONT,
-      styledValue: this.fontStyle
-    }]);
-  // 创建属性字符串
-
-  // RichEditorStyledStringController: RichEditorStyledStringController = new RichEditorStyledStringController();
-  // options: RichEditorStyledStringOptions = { RichEditorStyledStringController: this.RichEditorStyledStringController };
-  controller: RichEditorController = new RichEditorController();
-  RichEditoroptions : RichEditorOptions= {controller:this.controller};
+struct UiComponentTextRichEditorDragPlainText0005 {
   @State inputText: string = '';
   @State getSpansResult: string = '';
   private dragAction: dragController.DragAction | null = null;
-  // private RichEditorController: RichEditorController = new RichEditorController();
-  // private TextController: TextController = new TextController();
+  controller: RichEditorController = new RichEditorController();
 
   build() {
     Column() {
       // 标题
-      Text('0017设置文本框内部不同字体样式文本，将文本拖入')
+      Text('RichEditor拖入文本-执行拖拽操作')
         .fontSize(18)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 16 })
 
-      // 合并的输入框和拖拽源：输入文本后长按即可拖拽
+      // 文本输入框
       TextInput({ placeholder: '输入文本后长按此处即可拖拽到下方编辑器' })
-        .id("textInputDrag0017")
+        .id("textInputDrag0005")
         .width('100%')
         .height(64)
         .border({ width: 2, color: '#2B73FF', style: BorderStyle.Dashed })
@@ -65,9 +45,7 @@ struct UiComponentTextRichEditorDragPlainText0017 {
         .onChange((v: string) => this.inputText = v)
         .draggable(true)
         .onTouch((e?: TouchEvent) => {
-          if (!e || !this.inputText.trim()) {
-            return;
-          }
+          if (!e || !this.inputText.trim()) return;
           if (e.type === TouchType.Down && e.touches && e.touches.length > 0) {
             this.startDrag(e.touches[0].id);
           }
@@ -75,17 +53,10 @@ struct UiComponentTextRichEditorDragPlainText0017 {
         .margin({ bottom: 12 })
 
       // 目标：RichEditor 接收并插入
-      RichEditor(this.RichEditoroptions)
-        // .onReady(() => {
-        //   this.controller.addTextSpan('默认样式文本1',{
-        //     style:{
-        //       fontColor:'#FF00FF'
-        //     }
-        //   })
-        // })
-        .id("richEditorDrag0017")
+      RichEditor({ controller: this.controller })
+        .id("richEditorDrag0005")
         .width('100%')
-        .height(120)
+        .height(220)
         .backgroundColor(Color.White)
         .border({ width: 1, color: Color.Gray })
         .borderRadius(8)
@@ -93,52 +64,28 @@ struct UiComponentTextRichEditorDragPlainText0017 {
         .onDrop((event: DragEvent) => this.onDropIntoEditor(event))
         .margin({ bottom: 12 })
 
-      // RichEditor 多样式预设输入
-      Button('改变RichEditor为粉色')
-        .id("changeStylePinkBtn0017")
+      // 添加预设内容按钮
+      Button('添加预设内容')
+        .id("addContentBtn0005")
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
-        .margin({top:8,bottom:8})
         .onClick(() => {
-          this.controller.setTypingStyle({
-            fontWeight: 'medium',
-            fontColor: Color.Pink,
-            fontSize: 15,
-            fontStyle: FontStyle.Italic,
-            decoration: {
-              type: TextDecorationType.Underline,
-              color: Color.Gray
+          this.controller.addTextSpan('预设文本内容', {
+            style: {
+              fontColor: Color.Black,
+              fontSize: 16
             }
-          })
+          });
         })
+        .margin({ bottom: 8 })
 
-      Button('改变RichEditor为绿色')
-        .id("changeStyleRedBtn0017")
-        .width('100%')
-        .height(40)
-        .backgroundColor('#4CAF50')
-        .margin({top:8,bottom:8})
-        .onClick(() => {
-          this.controller.setTypingStyle({
-            fontWeight: 'medium',
-            fontColor: Color.Red,
-            fontSize: 15,
-            fontStyle: FontStyle.Italic,
-            decoration: {
-              type: TextDecorationType.Underline,
-              color: Color.Gray
-            }
-          })
-        })
-
-      // getSpans验证按钮 - 直接在onClick中写逻辑
+      // 验证拖拽按钮
       Button('验证拖拽')
-        .id("getSpansBtn0017")
+        .id("getSpansBtn0005")
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
-        .margin({top:8,bottom:8})
         .onClick(() => {
           try {
             const spans = this.controller.getSpans();
@@ -151,11 +98,11 @@ struct UiComponentTextRichEditorDragPlainText0017 {
             this.getSpansResult = `❌ 验证失败: ${(err as Error).message}`;
           }
         })
-
+        .margin({ bottom: 8 })
 
       // 验证结果显示
       Text(this.getSpansResult)
-        .id("getSpansResultText0017")
+        .id("getSpansResultText0005")
         .width('100%')
         .height(60)
         .backgroundColor('#F0F0F0')
@@ -163,8 +110,6 @@ struct UiComponentTextRichEditorDragPlainText0017 {
         .borderRadius(4)
         .padding(8)
         .fontSize(14)
-
-
     }
     .width('100%').height('100%').padding(16).backgroundColor('#F6F7F9')
   }
@@ -172,9 +117,7 @@ struct UiComponentTextRichEditorDragPlainText0017 {
   private startDrag(pointerId: number) {
     try {
       const txt = this.inputText.trim();
-      if (!txt) {
-        return;
-      }
+      if (!txt) return;
 
       const plain = new unifiedDataChannel.PlainText();
       plain.textContent = txt;
@@ -187,9 +130,7 @@ struct UiComponentTextRichEditorDragPlainText0017 {
       };
 
       this.dragAction = this.getUIContext().getDragController().createDragAction([], info);
-      if (!this.dragAction) {
-        return;
-      }
+      if (!this.dragAction) return;
 
       this.dragAction.startDrag().catch((err: Error) => console.info('startDrag 失败：' + err.message));
     } catch (err) {
@@ -200,25 +141,23 @@ struct UiComponentTextRichEditorDragPlainText0017 {
   private onDropIntoEditor(event: DragEvent) {
     try {
       const dragData: unifiedDataChannel.UnifiedData = event.getData() as unifiedDataChannel.UnifiedData;
-      if (!dragData) {
-        return;
-      }
+      if (!dragData) return;
 
-      const records: Array<unifiedDataChannel.UnifiedRecord> = dragData.getRecords();
+      const records: unifiedDataChannel.UnifiedRecord[] = dragData.getRecords();
       for (let i = 0; i < records.length; i++) {
         const types = records[i].getTypes();
         if (types.includes(uniformTypeDescriptor.UniformDataType.PLAIN_TEXT)) {
-          const entry =
-            records[i].getEntry(uniformTypeDescriptor.UniformDataType.PLAIN_TEXT) as unifiedDataChannel.PlainText;
+          const entry = records[i].getEntry(uniformTypeDescriptor.UniformDataType.PLAIN_TEXT) as unifiedDataChannel.PlainText;
           const txt: string = entry?.textContent ?? '';
           if (txt) {
-            // 最简插入
-            this.controller.addTextSpan(txt);
+            // 在预设内容后插入拖拽的文本
+            this.controller.addTextSpan(txt, {
+              offset: 6
+            });
           }
         }
       }
-      // 可选：标记处理成功
-      hilog.info(0x0000, 'TEST', '拖拽文本成功插入到RichEditor');
+      hilog.info(0x0000, 'TEST', '拖拽文本成功插入到RichEditor预设内容中');
     } catch (err) {
       hilog.error(0x0000, 'TEST', '处理拖拽数据失败：' + (err as Error).message);
     }

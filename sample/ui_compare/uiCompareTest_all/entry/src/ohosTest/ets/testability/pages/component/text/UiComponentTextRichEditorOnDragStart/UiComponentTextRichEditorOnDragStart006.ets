@@ -12,9 +12,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { uniformTypeDescriptor } from '@kit.ArkData';
-import { unifiedDataChannel } from '@kit.ArkData';
-import { uniformDataStruct } from '@kit.ArkData';
+import { uniformTypeDescriptor, unifiedDataChannel, uniformDataStruct } from '@kit.ArkData';
+
+
 
 // 导入RichEditor样式类型
 
@@ -131,7 +131,7 @@ struct UiComponentTextRichEditorOnDragStart006 {
   async receiveDragData(event: DragEvent) {
     let dragData: unifiedDataChannel.UnifiedData = event.getData() as unifiedDataChannel.UnifiedData;
     if (dragData !== undefined) {
-      let records: Array<unifiedDataChannel.UnifiedRecord> = dragData.getRecords();
+      let records: unifiedDataChannel.UnifiedRecord[] = dragData.getRecords();
       if (records.length > 0) {
         for (let i = 0; i < records.length; i++) {
           let types = records[i].getTypes();

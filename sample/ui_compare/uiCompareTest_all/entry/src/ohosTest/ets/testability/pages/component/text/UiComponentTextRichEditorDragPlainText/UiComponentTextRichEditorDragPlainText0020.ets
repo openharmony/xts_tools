@@ -12,8 +12,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { uniformTypeDescriptor } from '@kit.ArkData';
-import { unifiedDataChannel } from '@kit.ArkData';
+import { uniformTypeDescriptor, unifiedDataChannel } from '@kit.ArkData';
+
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { dragController } from '@kit.ArkUI';
 
@@ -154,7 +154,7 @@ struct UiComponentTextRichEditorDragPlainText0020 {
       const dragData: unifiedDataChannel.UnifiedData = event.getData() as unifiedDataChannel.UnifiedData;
       if (!dragData) return;
 
-      const records: Array<unifiedDataChannel.UnifiedRecord> = dragData.getRecords();
+      const records: unifiedDataChannel.UnifiedRecord[] = dragData.getRecords();
       for (let i = 0; i < records.length; i++) {
         const types = records[i].getTypes();
         if (types.includes(uniformTypeDescriptor.UniformDataType.PLAIN_TEXT)) {

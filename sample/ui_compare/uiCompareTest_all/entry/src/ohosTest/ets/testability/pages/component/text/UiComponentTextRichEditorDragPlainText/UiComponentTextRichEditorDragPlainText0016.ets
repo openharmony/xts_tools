@@ -19,34 +19,24 @@ import { uniformTypeDescriptor } from '@kit.ArkData'
 
 @Entry
 @Component
-struct UiComponentTextRichEditorDragPlainText0006 {
+struct UiComponentTextRichEditorDragPlainText0016 {
   @State inputText: string = ''
   @State getSpansResult: string = ''
   private dragAction: dragController.DragAction | null = null
   controller: RichEditorController = new RichEditorController()
 
-  aboutToAppear() {
-    // 初始化RichEditor内容：包含表情和Symbol
-    this.controller.addTextSpan('Hello ')
-    this.controller.addSymbolSpan($r('sys.media.ohos_app_icon')) // 表情符号
-    this.controller.addTextSpan(' World ')
-    this.controller.addSymbolSpan($r('sys.media.ohos_app_icon')) // Symbol符号
-    this.controller.addTextSpan(' Test')
-  }
-
   build() {
     Column() {
       // 标题
-      Text('RichEditor表情和Symbol拖拽测试')
+      Text('RichEditor和TextInput不同样式拖拽测试')
         .fontSize(18)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 16 })
 
-      // 文本框：输入表情和Symbol
-      TextInput({ placeholder: '输入表情😀😂和符号★☆♠' })
-        .id("textInputDrag0006")
-        .width('100%')
-        .height(80)
+      // 文本框：设置不同样式
+      TextInput({ placeholder: '输入文本后长按此处即可拖拽到下方编辑器' })
+        .id("textInputDrag0016")
+        .width('100%').height(64)
         .border({ width: 2, color: '#2B73FF', style: BorderStyle.Dashed })
         .borderRadius(8)
         .padding({ left: 12, right: 12 })
@@ -54,55 +44,51 @@ struct UiComponentTextRichEditorDragPlainText0006 {
         .onChange((v: string) => this.inputText = v)
         .draggable(true)
         .onTouch((e?: TouchEvent) => {
-          if (!e || !this.inputText.trim()) return
+          if (!e || !this.inputText.trim()) return;
           if (e.type === TouchType.Down && e.touches && e.touches.length > 0) {
-            this.startDrag(e.touches[0].id)
+            this.startDrag(e.touches[0].id);
           }
         })
         .margin({ bottom: 12 })
 
-      // RichEditor：包含表情和Symbol
+      // RichEditor：设置不同样式
       RichEditor({ controller: this.controller })
-        .id("richEditorDrag0006")
+        .id("richEditorDrag0016")
         .width('100%')
         .height(200)
-        .border({ width: 2, color: '#2B73FF', style: BorderStyle.Dashed })
-        .borderRadius(8)
-        .padding(12)
-        .backgroundColor('#F8F9FA')
+        .border({ width: 3, color: '#4CAF50', style: BorderStyle.Dashed })
+        .borderRadius(16)
+        .padding(16)
+        .backgroundColor('#E8F5E8')
         .onDrop((event: DragEvent) => {
           this.onDropIntoEditor(event)
         })
-        .margin({ bottom: 12 })
 
-      Button('添加各类Span')
-        .id('everySpanBtn0006')
+
+      Button('添加文本')
+        .id("addTextBtn0016")
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
         .onClick(() => {
-          this.controller.addImageSpan($r('sys.media.ohos_app_icon'),{
-            imageStyle:{
-              size :["70px", "70px"],
-            }
-          })
-          this.controller.addSymbolSpan($r("sys.symbol.basketball_fill"), {
+          this.controller.addTextSpan('输入的一段文本', {
             style: {
-              fontSize: 30
-            }
-          })
-          this.controller.addTextSpan('对照Span',{
-            style: {
-                fontColor: '#9C27B0',
-                fontSize: 13
+              fontSize: 30,
+              fontColor: '#FF00FF',
+              fontStyle:FontStyle.Italic,
+              decoration: {
+                type: TextDecorationType.Underline,
+                // 设置装饰线粗细比例为2
+                thicknessScale: 2
+              }
             }
           })
         })
-        .margin({ top: 10, bottom: 10})
+        .margin({ top:10,bottom: 10 })
 
       // 验证按钮
       Button('验证拖拽')
-        .id("getSpansBtn0006")
+        .id("getSpansBtn0016")
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
@@ -122,7 +108,7 @@ struct UiComponentTextRichEditorDragPlainText0006 {
 
       // 验证结果显示
       Text(this.getSpansResult)
-        .id("getSpansResultText0006")
+        .id("getSpansResultText0016")
         .width('100%')
         .height(60)
         .backgroundColor('#F0F0F0')
@@ -166,7 +152,7 @@ struct UiComponentTextRichEditorDragPlainText0006 {
       const dragData: unifiedDataChannel.UnifiedData = event.getData() as unifiedDataChannel.UnifiedData
       if (!dragData) return
 
-      const records: Array<unifiedDataChannel.UnifiedRecord> = dragData.getRecords()
+      const records: unifiedDataChannel.UnifiedRecord[] = dragData.getRecords()
       for (let i = 0; i < records.length; i++) {
         const types = records[i].getTypes()
         if (types.includes(uniformTypeDescriptor.UniformDataType.PLAIN_TEXT)) {

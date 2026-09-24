@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct UiComponentTextRichEditorInterface0077 {
+struct UiComponentTextRichEditorInterface0078 {
   scroller: Scroller = new Scroller();
   controller: RichEditorController = new RichEditorController();
   options: RichEditorOptions = { controller: this.controller };
@@ -27,7 +27,7 @@ struct UiComponentTextRichEditorInterface0077 {
   build() {
     Column() {
       // 提示信息
-      Text('请在下面的RichEditor中输入文本来触发updateSpanStyle功能')
+      Text('请在下面的RichEditor中输入文本后删除来触发updateSpanStyle功能')
         .width('100%')
         .fontSize(12)
         .fontColor(Color.Orange)
@@ -43,7 +43,7 @@ struct UiComponentTextRichEditorInterface0077 {
         .margin({ top: 10, bottom: 5 })
 
       RichEditor(this.displayOptions)
-        .id('displayRichEditor0077')
+        .id('displayRichEditor0078')
         .width('100%')
         .height(100)
         .border({ width: 1, color: Color.Green })
@@ -52,30 +52,26 @@ struct UiComponentTextRichEditorInterface0077 {
         .backgroundColor('#F0F8FF')
         .margin(10)
 
-
-
-
-
       Scroll(this.scroller) {
         RichEditor(this.options)
-          .id('richEditor0077')
+          .id('richEditor0078')
           .width('100%')
           .height(100)
           .border({ width: 1, color: Color.Gray })
           .borderRadius(8)
           .padding(8)
-          .aboutToIMEInput((value: RichEditorInsertValue) => {
-            // 在输入前更新样式
+          .aboutToDelete((value: RichEditorDeleteValue) => {
+            // 在删除前更新样式
             const spans = JSON.stringify(this.controller.getSpans({ start: -1, end: -1 }))
-            console.log("输入前的spans信息:", spans)
+            console.log("删除前的spans信息:", spans)
             
             // 更新现有文本的样式
             this.controller.updateSpanStyle({
               start: 0,
               end: -1,
               textStyle: {
-                fontSize: 18,
-                fontColor: Color.Orange
+                fontSize: 22,
+                fontColor: Color.Pink
               }
             })
             
