@@ -14,11 +14,11 @@
  */
 
 import { describe, afterEach, it, TestType, Size, Level } from '@ohos/hypium'
-import { Driver, ON, Component } from '@ohos.UiTest';
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import { Driver, ON, Component } from '@kit.TestKit';
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 
 /*
  * SUB_ACE_UI_ATTRIBUTES_FONT_INTERFACE_0010:设置文本颜色
@@ -66,7 +66,7 @@ export default function UIOverlayTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_OVERLAY_0210',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_OVERLAY_0210 start.`);
-        Settings.createWindow("testability/pages/UIOverlayTestCase/UIOverlayTestCase001",);
+        Settings.createWindow("testability/pages/component/popup/UIOverlayTestCase/UIOverlayTestCase001",);
         let driver: Driver = Driver.create();
         await driver.triggerKey(2049);
         await Utils.sleep(1000);

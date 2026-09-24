@@ -14,11 +14,11 @@
  */
 
 import { describe, afterEach, it, TestType, Size, Level } from '@ohos/hypium'
-import { Driver, ON, Component } from '@ohos.UiTest';
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import { Driver, ON, Component } from '@kit.TestKit';
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 
 /*
  * SUB_ACE_UI_ATTRIBUTES_FONT_INTERFACE_0010:设置文本颜色
@@ -66,7 +66,7 @@ export default function UTransformationTest() {
     it('SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0280',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0280 start.`);
-      Settings.createWindow("testability/pages/UITransformationTestCase/UITransformationTestCase001");
+      Settings.createWindow("testability/pages/scenario/misc/UITransformationTestCase/UITransformationTestCase001");
       await Utils.sleep(6000);
       windowSnap.snapShot('SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0280');
       await Utils.sleep(2000);
@@ -85,7 +85,7 @@ export default function UTransformationTest() {
     it('SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0330',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0330 start.`);
-        Settings.createWindow("testability/pages/UITransformationTestCase/UITransformationTestCase002");
+        Settings.createWindow("testability/pages/scenario/misc/UITransformationTestCase/UITransformationTestCase002");
         await Utils.sleep(6000);
         windowSnap.snapShot('SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0330');
         await Utils.sleep(2000);
@@ -104,7 +104,7 @@ export default function UTransformationTest() {
     it('SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0110',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0110 start.`);
-        Settings.createWindow("testability/pages/UITransformationTestCase/UITransformationTestCase003");
+        Settings.createWindow("testability/pages/scenario/misc/UITransformationTestCase/UITransformationTestCase003");
         await Utils.sleep(6000);
         windowSnap.snapShot('SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0110');
         await Utils.sleep(2000);
@@ -123,7 +123,7 @@ export default function UTransformationTest() {
     it('SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0170',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0170 start.`);
-        Settings.createWindow("testability/pages/UITransformationTestCase/UITransformationTestCase004");
+        Settings.createWindow("testability/pages/scenario/misc/UITransformationTestCase/UITransformationTestCase004");
         await Utils.sleep(6000);
         windowSnap.snapShot('SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0170');
         await Utils.sleep(2000);

@@ -14,11 +14,11 @@
  */
 
 import { describe, afterEach, it, TestType, Size, Level } from '@ohos/hypium'
-import { Driver, ON, Component } from '@ohos.UiTest';
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import { Driver, ON, Component } from '@kit.TestKit';
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 
 /*
  * SUB_ACE_UI_ATTRIBUTES_FONT_INTERFACE_0010:设置文本颜色
@@ -66,7 +66,7 @@ export default function UITestCaseTest() {
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase001");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase001");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('PointCount_0'));
@@ -89,7 +89,7 @@ export default function UITestCaseTest() {
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase002");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase002");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcLong'));
@@ -112,7 +112,7 @@ export default function UITestCaseTest() {
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase003");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase003");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcIndex_2'));
@@ -135,7 +135,7 @@ export default function UITestCaseTest() {
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase004");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase004");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcArray_005'));
@@ -158,7 +158,7 @@ export default function UITestCaseTest() {
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase005");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase005");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcIndex'));
@@ -181,7 +181,7 @@ export default function UITestCaseTest() {
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase006");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase006");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('DstArray_001'));
@@ -204,7 +204,7 @@ export default function UITestCaseTest() {
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase007");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase007");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('PointCount_Negative1'));
@@ -227,7 +227,7 @@ export default function UITestCaseTest() {
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase008");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase008");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcArray_006'));
@@ -249,7 +249,7 @@ export default function UITestCaseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase009");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase009");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('DstIndex'));
@@ -271,7 +271,7 @@ export default function UITestCaseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase010");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase010");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcArray_002'));
@@ -293,7 +293,7 @@ export default function UITestCaseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase011");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase011");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcArray_001'));
@@ -315,7 +315,7 @@ export default function UITestCaseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase012");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase012");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('DstIndex_2'));
@@ -337,7 +337,7 @@ export default function UITestCaseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase013");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase013");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('PointCount_none'));
@@ -359,7 +359,7 @@ export default function UITestCaseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase014");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase014");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('PointCount_1'));
@@ -381,7 +381,7 @@ export default function UITestCaseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase015");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase015");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('DstLong'));
@@ -403,7 +403,7 @@ export default function UITestCaseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase016");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase016");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcArray_004'));
@@ -425,7 +425,7 @@ export default function UITestCaseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700 start.`);
-      Settings.createWindow("testability/pages/UITestCase/UITestCase017");
+      Settings.createWindow("testability/pages/scenario/misc/UITestCase/UITestCase017");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('SrcArray_003'));

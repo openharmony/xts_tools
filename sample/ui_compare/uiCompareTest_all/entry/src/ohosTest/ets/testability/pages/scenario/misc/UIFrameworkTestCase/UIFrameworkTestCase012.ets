@@ -13,8 +13,8 @@
  * limitations under the License.
  */
 
-import window from '@ohos.window';
-import common from '@ohos.app.ability.common';
+import { window } from '@kit.ArkUI';
+import { common } from '@kit.AbilityKit';
 import { UIContext } from '@ohos.arkui.UIContext';
 import { NodeController, BuilderNode, FrameNode } from '@ohos.arkui.node';
 

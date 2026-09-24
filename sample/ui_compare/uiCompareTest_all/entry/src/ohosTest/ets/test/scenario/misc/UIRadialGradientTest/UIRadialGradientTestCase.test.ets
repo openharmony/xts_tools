@@ -14,11 +14,11 @@
  */
 
 import { describe, afterEach, it, TestType, Size, Level } from '@ohos/hypium'
-import { Driver, ON, Component } from '@ohos.UiTest';
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import { Driver, ON, Component } from '@kit.TestKit';
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 
 /*
  * SUB_ACE_UI_ATTRIBUTES_FONT_INTERFACE_0010:设置文本颜色
@@ -66,7 +66,7 @@ export default function UIRadialGradientTest() {
     it('SUB_ACE_UI_OHOS_RADIALGRADIENT_RESOURCE_0010',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_RADIALGRADIENT_RESOURCE_0010 start.`);
-      Settings.createWindow("testability/pages/UIRadialGradientTestCase/UIRadialGradientTestCase001");
+      Settings.createWindow("testability/pages/scenario/misc/UIRadialGradientTestCase/UIRadialGradientTestCase001");
       await Utils.sleep(500);
       windowSnap.snapShot(`SUB_ACE_UI_OHOS_RADIALGRADIENT_RESOURCE_0010`);
       await Utils.sleep(500);

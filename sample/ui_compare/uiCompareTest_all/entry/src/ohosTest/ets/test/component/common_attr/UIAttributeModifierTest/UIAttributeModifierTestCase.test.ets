@@ -14,11 +14,11 @@
  */
 
 import { describe, afterEach, it, TestType, Size, Level } from '@ohos/hypium'
-import { Driver, ON, Component } from '@ohos.UiTest';
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import { Driver, ON, Component } from '@kit.TestKit';
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 
 /*
  * SUB_ACE_UI_ATTRIBUTES_FONT_INTERFACE_0010:设置文本颜色
@@ -66,7 +66,7 @@ export default function UIAttributeModifierTest() {
     it('SUB_ACE_ACTION_GESTURE_ATTRIBUTEMODIFIER_0070',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_ATTRIBUTEMODIFIER_0070 start.`);
-      Settings.createWindow("testability/pages/UIAttributeModifierTestCase/UIAttributeModifierTestCase001");
+      Settings.createWindow("testability/pages/component/common_attr/UIAttributeModifierTestCase/UIAttributeModifierTestCase001");
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let video: Component = await driver.findComponent(ON.id('video'));
@@ -95,7 +95,7 @@ export default function UIAttributeModifierTest() {
     it('SUB_ACE_ACTION_GESTURE_ATTRIBUTEMODIFIER_0120',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_ATTRIBUTEMODIFIER_0120 start.`);
-        Settings.createWindow("testability/pages/UIAttributeModifierTestCase/UIAttributeModifierTestCase002");
+        Settings.createWindow("testability/pages/component/common_attr/UIAttributeModifierTestCase/UIAttributeModifierTestCase002");
         await Utils.sleep(1000);
         let driver:Driver = Driver.create();
         let list: Component = await driver.findComponent(ON.id('list'));
