@@ -2162,6 +2162,8 @@
     "testability/pages/component/image/mediaImage/mediaImage05",
     "testability/pages/component/image/mediaImage/mediaImage06",
     "testability/pages/component/image/on_error/UiComponentMediaImageOnError/UiComponentMediaImageOnError0001",
+    "testability/pages/component/image/on_error/UiComponentMediaImageOnError/UiComponentMediaImageOnError0005",
+    "testability/pages/component/image/on_error/UiComponentMediaImageOnError/UiComponentMediaImageOnError0013",
     "testability/pages/component/image/on_error/UiComponentMediaImageOnError/UiComponentMediaImageOnError0015",
     "testability/pages/component/image/on_error/UiComponentMediaImageOnError/UiComponentMediaImageOnError0017",
     "testability/pages/component/image/on_error/UiComponentMediaImageOnError/UiComponentMediaImageOnError0018",
