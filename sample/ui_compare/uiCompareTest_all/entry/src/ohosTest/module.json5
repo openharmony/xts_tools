@@ -25,6 +25,13 @@
     "deliveryWithInstall": true,
     "installationFree": false,
     "pages": "$profile:test_pages",
+    // 自 uiCompareTest_03 并入：避免挖孔屏遮挡
+    "metadata": [
+      {
+        "name": "avoid_cutout",
+        "value": "true"
+      }
+    ],
     "dependencies": [
       {
         "moduleName": "entry"
@@ -60,6 +67,21 @@
       },
       {
         "name": "ohos.permission.UPDATE_CONFIGURATION"
+      },
+      {
+        "name": "ohos.permission.MANAGE_WIFI_CONNECTION"
+      },
+      {
+        "name": "ohos.permission.SET_WIFI_INFO"
+      },
+      {
+        "name": "ohos.permission.READ_USER_STORAGE"
+      },
+      {
+        "name": "ohos.permission.WRITE_USER_STORAGE"
+      },
+      {
+        "name": "ohos.permission.SET_WALLPAPER"
       }
     ],
     "abilities": [
@@ -86,6 +108,27 @@
             ]
           }
         ]
+      }
+    ],
+    // 自 uiCompareTest_03 并入：EmbeddedComponent 用例依赖的 EmbeddedUIExtensionAbility
+    "extensionAbilities": [
+      {
+        "name": "MyEmbeddedUIExtAbility",
+        "srcEntry": "./ets/testability/MyEmbeddedUIExtAbility/MyEmbeddedUIExtAbility.ets",
+        "description": "MyEmbeddedUIExtAbility",
+        "type": "embeddedUI"
+      },
+      {
+        "name": "MyEmbeddedUIExtAbilityNested",
+        "srcEntry": "./ets/testability/MyEmbeddedUIExtAbility/MyEmbeddedUIExtAbilityNested.ets",
+        "description": "MyEmbeddedUIExtAbilityNested",
+        "type": "embeddedUI"
+      },
+      {
+        "name": "MyEmbeddedUIExtAbilitySecond",
+        "srcEntry": "./ets/testability/MyEmbeddedUIExtAbility/MyEmbeddedUIExtAbilitySecond.ets",
+        "description": "MyEmbeddedUIExtAbilitySecond",
+        "type": "embeddedUI"
       }
     ]
   }
