@@ -12,10 +12,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-import UIAbility from '@ohos.app.ability.UIAbility';
-import hilog from '@ohos.hilog';
-import window from '@ohos.window';
+import { UIAbility } from '@kit.AbilityKit';
+import { hilog } from '@kit.PerformanceAnalysisKit';
+import { window } from '@kit.ArkUI';
 
 export default class EntryAbility extends UIAbility {
   onCreate(want, launchParam) {

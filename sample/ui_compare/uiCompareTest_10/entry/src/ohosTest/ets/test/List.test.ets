@@ -22,7 +22,6 @@ import MediaTimepickerStartEndTime from './MediaTimepickerStartEndTimeTest/Media
 import ActionEventCommonEventDragMultiObject from './ActionEventCommonEventDragMultiObjectTest/ActionEventCommonEventDragMultiObject.test'
 import PreviewBasic from './PreviewBasicTest/PreviewBasic.test'
 import PreviewContainer from './PreviewContainerTest/PreviewContainer.test'
-import PopupBoxSpecificationsPageDisplay from './PopupBoxSpecificationsPageDisplayTest/PopupBoxSpecificationsPageDisplay.test'
 import PopupBoxSpecificationsPageDisplay01 from './PopupBoxSpecificationsPageDisplay01Test/PopupBoxSpecificationsPageDisplay01.test'
 import PopupBoxSpecificationsPageDisplay02 from './PopupBoxSpecificationsPageDisplay02Test/PopupBoxSpecificationsPageDisplay02.test'
 import PopupBoxSpecificationsPageDisplay03 from './PopupBoxSpecificationsPageDisplay03Test/PopupBoxSpecificationsPageDisplay03.test'
@@ -59,7 +58,6 @@ export default function testsuite() {
   ActionEventCommonEventDragMultiObject();
   PreviewBasic();
   PreviewContainer();
-  PopupBoxSpecificationsPageDisplay();
   PopupBoxSpecificationsPageDisplay01();
   PopupBoxSpecificationsPageDisplay02();
   PopupBoxSpecificationsPageDisplay03();
