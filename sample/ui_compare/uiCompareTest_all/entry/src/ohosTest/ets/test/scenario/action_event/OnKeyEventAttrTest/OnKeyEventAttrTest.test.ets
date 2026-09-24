@@ -18,13 +18,13 @@
  * DISPATCH 用例测试步骤：使按钮获焦 -> 输入按键 triggerKey(2025) -> 输入Tab键 triggerKey(2301) -> 截图查看页面返回值
  */
 import { describe, afterEach, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit';
 
-const PAGE_PREFIX = 'testability/pages/OnKeyEventAttrTest/OnKeyEventAttrTest';
+const PAGE_PREFIX = 'testability/pages/scenario/action_event/onKeyEventAttrTest/onKeyEventAttrTest';
 
 export default function OnKeyEventAttrTest() {
 

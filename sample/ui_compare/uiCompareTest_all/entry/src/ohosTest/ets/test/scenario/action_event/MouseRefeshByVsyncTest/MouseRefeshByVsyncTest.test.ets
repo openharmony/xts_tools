@@ -17,13 +17,13 @@
  * 交互框架测试用例_20241025 Sheet2 - 鼠标样式/备忘录栏位显示测试套（MOUSE_REFESHBYVSYNC_0010~0140）
  */
 import { describe, afterEach, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit';
 
-const PAGE_URI = 'testability/pages/MouseRefeshByVsync/MouseRefeshByVsync';
+const PAGE_URI = 'testability/pages/scenario/action_event/MouseRefeshByVsync/MouseRefeshByVsync';
 
 async function clickZone(driver: Driver, id: string): Promise<void> {
   let comp = await driver.waitForComponent(ON.id(id), 2000);

@@ -17,13 +17,13 @@
  * 交互框架测试用例_20241025 Sheet2 - 鼠标事件测试套（相同名称不同编号为一个测试套）
  */
 import { describe, afterEach, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit';
 
-const PAGE_URI = 'testability/pages/Mouse/Mouse';
+const PAGE_URI = 'testability/pages/scenario/action_event/Mouse/Mouse';
 
 export default function MouseTest() {
   describe('MouseTest', () => {

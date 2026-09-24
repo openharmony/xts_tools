@@ -17,22 +17,22 @@
  * 交互框架测试用例_20241025 Sheet3 - 组件响应点击/悬浮/鼠标/触摸/手势事件，组件信息获取正确（相同名称不同编号为一个测试套）
  */
 import { describe, afterEach, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit';
 
-const ClickEvent_URI = 'testability/pages/GestureComponentId/ClickEvent';
-const HoverEvent_URI = 'testability/pages/GestureComponentId/HoverEvent';
-const HoverEventModifier_URI = 'testability/pages/GestureComponentId/HoverEventModifier';
-const MouseEvent_URI = 'testability/pages/GestureComponentId/MouseEvent';
-const MouseEventModifier_URI = 'testability/pages/GestureComponentId/MouseEventModifier';
-const AccessibilityHoverEvent_URI = 'testability/pages/GestureComponentId/AccessibilityHoverEvent';
-const TouchEvent_URI = 'testability/pages/GestureComponentId/TouchEvent';
-const GestureEvent_URI = 'testability/pages/GestureComponentId/GestureEvent';
-const GestureEventModifier_URI = 'testability/pages/GestureComponentId/GestureEventModifier';
-const GestureDynamic_URI = 'testability/pages/GestureComponentId/GestureDynamic';
+const ClickEvent_URI = 'testability/pages/scenario/action_event/GestureComponentId/ClickEvent';
+const HoverEvent_URI = 'testability/pages/scenario/action_event/GestureComponentId/HoverEvent';
+const HoverEventModifier_URI = 'testability/pages/scenario/action_event/GestureComponentId/HoverEventModifier';
+const MouseEvent_URI = 'testability/pages/scenario/action_event/GestureComponentId/MouseEvent';
+const MouseEventModifier_URI = 'testability/pages/scenario/action_event/GestureComponentId/MouseEventModifier';
+const AccessibilityHoverEvent_URI = 'testability/pages/scenario/action_event/GestureComponentId/AccessibilityHoverEvent';
+const TouchEvent_URI = 'testability/pages/scenario/action_event/GestureComponentId/TouchEvent';
+const GestureEvent_URI = 'testability/pages/scenario/action_event/GestureComponentId/GestureEvent';
+const GestureEventModifier_URI = 'testability/pages/scenario/action_event/GestureComponentId/GestureEventModifier';
+const GestureDynamic_URI = 'testability/pages/scenario/action_event/GestureComponentId/GestureDynamic';
 
 export default function GestureComponentIdTest() {
   describe('GestureComponentIdTest', () => {

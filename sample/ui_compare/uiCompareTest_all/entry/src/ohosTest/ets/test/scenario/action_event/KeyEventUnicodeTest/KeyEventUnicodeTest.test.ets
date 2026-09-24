@@ -17,13 +17,13 @@
  * 交互框架测试用例_20241025 Sheet1 - 验证按键返回unicode值（相同名称不同编号为一个测试套，共74条）
  */
 import { describe, afterEach, it, Level } from '@ohos/hypium'
-import Settings from '../model/Settings'
-import windowSnap from '../model/snapShot'
-import Logger from '../model/Logger'
-import Utils from '../model/Utils'
+import Settings from '../../../model/Settings'
+import windowSnap from '../../../model/snapShot'
+import Logger from '../../../model/Logger'
+import Utils from '../../../model/Utils'
 import { Driver } from '@kit.TestKit';
 
-const PAGE_URI = 'testability/pages/KeyEventUnicode/KeyEventUnicode';
+const PAGE_URI = 'testability/pages/scenario/action_event/KeyEventUnicode/KeyEventUnicode';
 
 /**
  * 执行单条 UNICODE 用例：使按钮获焦后，根据测试步骤输入对应按键，页面展示 keyCode/keyText/unicode，截图校验。
