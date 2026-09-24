@@ -1,5 +1,6 @@
 {
   "src": [
+      "testability/pages/demo",
     "testability/pages/Index",
     "testability/pages/component/progress/UiComponentInformationProgressInterface/UiComponentInformationProgressInterface0120",
     "testability/pages/component/progress/UiComponentInformationProgressInterface/UiComponentInformationProgressInterface0130",
