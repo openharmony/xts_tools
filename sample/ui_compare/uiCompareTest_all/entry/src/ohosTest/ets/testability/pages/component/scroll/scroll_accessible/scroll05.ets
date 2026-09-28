@@ -65,7 +65,7 @@ struct Scroll05 {
         LazyForEach(this.dataSource, (item: number) => {
           FlowItem() {
             Column() {
-              Text("N" + item).fontSize(12).height('16')
+              Text('N' + item).fontSize(12).height('16')
               Image($r('app.media.icon'))
                 .objectFit(ImageFit.Fill)
                 .width('100%')

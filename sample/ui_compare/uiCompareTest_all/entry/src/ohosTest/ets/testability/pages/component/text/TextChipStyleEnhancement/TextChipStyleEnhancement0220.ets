@@ -83,7 +83,7 @@ struct TextChipStyleEnhancement0220 {
                   activatedFillColor: '#4CAF50'
                 },
                 label: {
-                  text: "Chip 1 (已激活)",
+                  text: 'Chip 1 (已激活)',
                   fontColor: Color.White,
                   activatedFontColor: Color.White
                 },
@@ -127,7 +127,7 @@ struct TextChipStyleEnhancement0220 {
                   activatedFillColor: '#4CAF50'
                 },
                 label: {
-                  text: "Chip 2 (未激活)",
+                  text: 'Chip 2 (未激活)',
                   fontColor: Color.Black,
                   activatedFontColor: Color.White
                 },
@@ -174,7 +174,7 @@ struct TextChipStyleEnhancement0220 {
                   fillColor: '#FF0000' // 红色
                 },
                 label: {
-                  text: "Chip 7 (非激活态)",
+                  text: 'Chip 7 (非激活态)',
                   fontColor: '#2196F3' // 蓝色
                 },
                 suffixIcon: {

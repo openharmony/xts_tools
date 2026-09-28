@@ -39,7 +39,7 @@ struct SelectionMenu01 {
   private editorMenuOptions: EditorMenuOptions[] =
     [
       {
-        icon: $r("sys.media.save_button_picture"),
+        icon: $r('sys.media.save_button_picture'),
         symbolStyle: new SymbolGlyphModifier($r('sys.symbol.camera')),
         action: () => {
           if (this.controller) {
@@ -68,19 +68,19 @@ struct SelectionMenu01 {
         }
       },
       {
-        icon: $r("app.media.icon"), action: () => {
+        icon: $r('app.media.icon'), action: () => {
           }, builder: (): void => this.sliderPanel()
       }
     ]
   private expandedMenuOptions: ExpandedMenuOptions[] =
     [{
-      startIcon: $r("app.media.icon"), content: '词典', action: () => {
+      startIcon: $r('app.media.icon'), content: '词典', action: () => {
       }
     }, {
-      startIcon: $r("app.media.icon"), content: '翻译', action: () => {
+      startIcon: $r('app.media.icon'), content: '翻译', action: () => {
       }
     }, {
-      startIcon: $r("app.media.icon"), content: '搜索', action: () => {
+      startIcon: $r('app.media.icon'), content: '搜索', action: () => {
       }
     }]
   private expandedMenuOptions1: ExpandedMenuOptions[] = []
@@ -215,7 +215,7 @@ struct SelectionMenu01 {
 
   build() {
     Column() {
-      Button("SetSelection")
+      Button('SetSelection')
         .onClick((event: ClickEvent) => {
           if (this.controller) {
             this.controller.setSelection(0, 2);

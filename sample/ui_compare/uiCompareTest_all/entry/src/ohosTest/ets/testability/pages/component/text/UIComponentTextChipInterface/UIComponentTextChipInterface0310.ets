@@ -35,7 +35,7 @@ struct UIComponentTextChipInterface0310 {
           },
         },
         label: {
-          text: "操作块",
+          text: '操作块',
           fontSize: 12,
           fontColor: Color.Blue,
           labelMargin: {
@@ -55,11 +55,11 @@ struct UIComponentTextChipInterface0310 {
         size: ChipSize.NORMAL,
         enabled: true,
         onClose: () => {
-          console.log("Chip onClose.");
+          console.log('Chip onClose.');
           this.message += '\nChip onClose.';
         },
         onClicked: () => {
-          console.log("Chip onClicked.");
+          console.log('Chip onClicked.');
           this.message += '\nChip onClicked.';
         }
       })

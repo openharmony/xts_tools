@@ -55,7 +55,7 @@ struct ListCardStyle0760 {
               ListItem({ style: ListItemStyle.CARD }) {
                 Text(testItem)
                   .fontSize(16)
-                  .width("100%")
+                  .width('100%')
                   .height(60)
                   .textAlign(TextAlign.Center)
                   .backgroundColor(0xFFFFFF)
@@ -74,7 +74,7 @@ struct ListCardStyle0760 {
         })
       }
       .id('list_0760')
-      .width("90%")
+      .width('90%')
       .height('32.79%')
       .padding(10)
 
@@ -96,8 +96,8 @@ struct ListCardStyle0760 {
       }
       .margin({ top: 20 })
     }
-    .width("100%")
-    .height("100%")
+    .width('100%')
+    .height('100%')
     .padding(20)
     .backgroundColor(0xF5F5F5)
   }
@@ -107,7 +107,7 @@ struct ListCardStyle0760 {
     Text(title)
       .fontSize(18)
       .fontWeight(FontWeight.Bold)
-      .width("100%")
+      .width('100%')
       .height(50)
       .textAlign(TextAlign.Center)
       .backgroundColor(0xE0E0E0)

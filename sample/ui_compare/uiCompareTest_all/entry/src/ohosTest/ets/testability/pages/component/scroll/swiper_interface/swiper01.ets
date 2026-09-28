@@ -89,19 +89,19 @@ struct Swiper01 {
         console.info(index.toString())
       })
       .onGestureSwipe((index: number, extraInfo: SwiperAnimationEvent) => {
-        console.info("index: " + index)
-        console.info("current offset: " + extraInfo.currentOffset)
+        console.info('index: ' + index)
+        console.info('current offset: ' + extraInfo.currentOffset)
       })
       .onAnimationStart((index: number, targetIndex: number, extraInfo: SwiperAnimationEvent) => {
-        console.info("index: " + index)
-        console.info("targetIndex: " + targetIndex)
-        console.info("current offset: " + extraInfo.currentOffset)
-        console.info("target offset: " + extraInfo.targetOffset)
-        console.info("velocity: " + extraInfo.velocity)
+        console.info('index: ' + index)
+        console.info('targetIndex: ' + targetIndex)
+        console.info('current offset: ' + extraInfo.currentOffset)
+        console.info('target offset: ' + extraInfo.targetOffset)
+        console.info('velocity: ' + extraInfo.velocity)
       })
       .onAnimationEnd((index: number, extraInfo: SwiperAnimationEvent) => {
-        console.info("index: " + index)
-        console.info("current offset: " + extraInfo.currentOffset)
+        console.info('index: ' + index)
+        console.info('current offset: ' + extraInfo.currentOffset)
       })
 
       Row({ space: 12 }) {

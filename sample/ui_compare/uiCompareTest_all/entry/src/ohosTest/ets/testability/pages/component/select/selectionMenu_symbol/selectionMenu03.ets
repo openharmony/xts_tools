@@ -41,7 +41,7 @@ struct SelectionMenu03 {
   private editorMenuOptions: EditorMenuOptions[] =
     [
       {
-        icon: $r("sys.symbol.wifi_router_fill"),
+        icon: $r('sys.symbol.wifi_router_fill'),
         symbolStyle: new SymbolGlyphModifier($r('sys.symbol.save')),
         action: () => {
           if (this.controller) {
@@ -70,7 +70,7 @@ struct SelectionMenu03 {
         }
       },
       {
-        icon: $r("sys.media.save_button_picture"),
+        icon: $r('sys.media.save_button_picture'),
         symbolStyle: new SymbolGlyphModifier($r('sys.symbol.camera')),
         action: () => {
           if (this.controller) {
@@ -99,7 +99,7 @@ struct SelectionMenu03 {
         }
       },
       {
-        icon: $r("sys.symbol.waveform_folder_fill"),
+        icon: $r('sys.symbol.waveform_folder_fill'),
         symbolStyle: new SymbolGlyphModifier($r('sys.symbol.car')),
         action: () => {
           if (this.controller) {
@@ -132,11 +132,11 @@ struct SelectionMenu03 {
         }
       },
       {
-        icon: $r("app.media.icon"), action: () => {
+        icon: $r('app.media.icon'), action: () => {
       }, builder: (): void => this.sliderPanel()
       },
       {
-        icon: $r("sys.symbol.thermometer_fill"), action: () => {
+        icon: $r('sys.symbol.thermometer_fill'), action: () => {
         if (this.controller) {
           let selection = this.controller.getSelection();
           let spans = selection.spans;
@@ -164,13 +164,13 @@ struct SelectionMenu03 {
       }]
   private expandedMenuOptions: ExpandedMenuOptions[] =
     [{
-      startIcon: $r("app.media.icon"), content: '词典', action: () => {
+      startIcon: $r('app.media.icon'), content: '词典', action: () => {
       }
     }, {
-      startIcon: $r("app.media.icon"), content: '翻译', action: () => {
+      startIcon: $r('app.media.icon'), content: '翻译', action: () => {
       }
     }, {
-      startIcon: $r("app.media.icon"), content: '搜索', action: () => {
+      startIcon: $r('app.media.icon'), content: '搜索', action: () => {
       }
     }]
   private expandedMenuOptions1: ExpandedMenuOptions[] = []
@@ -305,7 +305,7 @@ struct SelectionMenu03 {
 
   build() {
     Column() {
-      Button("SetSelection")
+      Button('SetSelection')
         .onClick((event: ClickEvent) => {
           if (this.controller) {
             this.controller.setSelection(0, 2);

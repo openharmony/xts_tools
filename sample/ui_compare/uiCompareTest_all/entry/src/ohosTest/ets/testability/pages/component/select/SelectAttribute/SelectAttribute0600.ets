@@ -18,17 +18,17 @@ import { ConfigurationConstant } from '@kit.AbilityKit';
 @Component
 struct SelectAttribute0600 {
 
-  @State text: string = "TTTTT";
+  @State text: string = 'TTTTT';
   @State index: number = 2;
   @State space: number = 8;
   @State arrowPosition: ArrowPosition = ArrowPosition.END;
 
   build() {
     Column() {
-      Select([{ value: 'aaa', icon: $r("app.media.icon") },
-        { value: 'bbb', icon: $r("app.media.icon") },
-        { value: 'ccc', icon: $r("app.media.icon") },
-        { value: 'ddd', icon: $r("app.media.icon") }])
+      Select([{ value: 'aaa', icon: $r('app.media.icon') },
+        { value: 'bbb', icon: $r('app.media.icon') },
+        { value: 'ccc', icon: $r('app.media.icon') },
+        { value: 'ddd', icon: $r('app.media.icon') }])
         .selected(this.index)
         .value(this.text)
         .font({ size: 16, weight: 500 })
@@ -40,7 +40,7 @@ struct SelectAttribute0600 {
         .menuAlign(MenuAlignType.START, { dx: 0, dy: 0 })
         .optionWidth(200)
         .optionHeight(300)
-        .id("SelectAttribute0600_002")
+        .id('SelectAttribute0600_002')
         .onSelect((index: number, text?: string | undefined) => {
           console.info('Select:' + index);
           this.index = index;
@@ -50,7 +50,7 @@ struct SelectAttribute0600 {
         })
         .avoidance(AvoidanceMode.COVER_TARGET);
       Button('theme', { type: ButtonType.Normal, stateEffect: true })
-        .id("SelectAttribute0600_001")
+        .id('SelectAttribute0600_001')
         .borderRadius(8)
         .backgroundColor(0x317aff)
         .width(90)

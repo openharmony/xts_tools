@@ -116,12 +116,12 @@ struct SwiperIndicatorInteractive10 {
       // 控制按钮区域
       Row({ space: 12 }) {
         Button('上一页')
-          .id("swiperIndicatorInteractive10_01")
+          .id('swiperIndicatorInteractive10_01')
           .onClick(() => {
             this.swiperController.showPrevious();
           })
         Button('下一页')
-          .id("swiperIndicatorInteractive10_02")
+          .id('swiperIndicatorInteractive10_02')
           .onClick(() => {
             this.swiperController.showNext();
           })
@@ -130,22 +130,22 @@ struct SwiperIndicatorInteractive10 {
 
       Row({ space: 12 }) {
         Button('跳转页面1')
-          .id("swiperIndicatorInteractive10_03")
+          .id('swiperIndicatorInteractive10_03')
           .onClick(() => {
             this.swiperController.changeIndex(0, SwiperAnimationMode.FAST_ANIMATION);
           })
         Button('跳转页面2')
-          .id("swiperIndicatorInteractive10_04")
+          .id('swiperIndicatorInteractive10_04')
           .onClick(() => {
             this.swiperController.changeIndex(1, SwiperAnimationMode.FAST_ANIMATION);
           })
         Button('跳转页面3')
-          .id("swiperIndicatorInteractive10_05")
+          .id('swiperIndicatorInteractive10_05')
           .onClick(() => {
             this.swiperController.changeIndex(2, SwiperAnimationMode.FAST_ANIMATION);
           })
         Button('跳转页面4')
-          .id("swiperIndicatorInteractive10_06")
+          .id('swiperIndicatorInteractive10_06')
           .onClick(() => {
             this.swiperController.changeIndex(3, SwiperAnimationMode.FAST_ANIMATION);
           })

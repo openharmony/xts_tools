@@ -18,7 +18,7 @@
 struct SelectFuzzy19 {
   @State blurStyle: BlurStyle | number = BlurStyle.COMPONENT_ULTRA_THICK;
   @State selectedIndex: number = 0;
-  @State selectValue: string = "请选择";
+  @State selectValue: string = '请选择';
 
   build() {
     Column() {
@@ -29,9 +29,9 @@ struct SelectFuzzy19 {
 
       // 主Select组件
       Select([
-        { value: '选项1', icon: $r("app.media.icon") },
-        { value: '选项2', icon: $r("app.media.icon") },
-        { value: '选项3', icon: $r("app.media.icon") }
+        { value: '选项1', icon: $r('app.media.icon') },
+        { value: '选项2', icon: $r('app.media.icon') },
+        { value: '选项3', icon: $r('app.media.icon') }
       ])
         .id('select_fuzzy_19')
         .selected(this.selectedIndex)

@@ -89,7 +89,7 @@ struct TextChipStyleEnhancement0190 {
                   activatedFillColor: Color.Yellow
                 },
                 label: {
-                  text: "Chip 1 (已激活)",
+                  text: 'Chip 1 (已激活)',
                   fontColor: Color.White,
                   activatedFontColor: Color.White
                 },
@@ -133,7 +133,7 @@ struct TextChipStyleEnhancement0190 {
                   activatedFillColor: Color.Yellow
                 },
                 label: {
-                  text: "Chip 2 (未激活)",
+                  text: 'Chip 2 (未激活)',
                   fontColor: Color.Black,
                   activatedFontColor: Color.White
                 },
@@ -176,7 +176,7 @@ struct TextChipStyleEnhancement0190 {
                   fillColor: Color.Red
                 },
                 label: {
-                  text: "Chip 3 (默认)"
+                  text: 'Chip 3 (默认)'
                 },
                 suffixIcon: {
                   src: $r('sys.media.ohos_ic_public_cancel'),
@@ -214,7 +214,7 @@ struct TextChipStyleEnhancement0190 {
                   fillColor: Color.Blue
                 },
                 label: {
-                  text: "Chip 4 (明确颜色)",
+                  text: 'Chip 4 (明确颜色)',
                   fontColor: Color.Red
                 },
                 suffixIcon: {
@@ -257,7 +257,7 @@ struct TextChipStyleEnhancement0190 {
                   fillColor: '#FFA500' // 橘色
                 },
                 label: {
-                  text: "Chip 5 (未设置activated)",
+                  text: 'Chip 5 (未设置activated)',
                   fontColor: '#4CAF50' // 绿色
                 },
                 suffixIcon: {

@@ -26,14 +26,14 @@ function customRefreshingContent(params: Params) {
   Stack() {
     Row() {
       LoadingProgress().height(32)
-      Text("refreshStatus: " + params.refreshStatus).fontSize(16).margin({ left: 20 })
+      Text('refreshStatus: ' + params.refreshStatus).fontSize(16).margin({ left: 20 })
     }
     .alignItems(VerticalAlign.Center)
   }
   .align(Alignment.Center)
   .clip(true)
   .constraintSize({ minHeight: 32 })
-  .width("100%")
+  .width('100%')
 }
 
 @Entry

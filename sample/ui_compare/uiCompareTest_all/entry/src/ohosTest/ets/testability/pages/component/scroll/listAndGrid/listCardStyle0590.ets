@@ -66,7 +66,7 @@ struct ListCardStyle0590 {
                   }
                   .alignItems(HorizontalAlign.Start)
                 }
-                .width("100%")
+                .width('100%')
                 .height('6.56%')
                 .padding(15)
               }
@@ -91,7 +91,7 @@ struct ListCardStyle0590 {
         })
       }
       .id('list_0590')
-      .width("90%")
+      .width('90%')
       .height('32.79%')
       .padding(10)
 
@@ -101,8 +101,8 @@ struct ListCardStyle0590 {
         })
         .margin({ top: 20 })
     }
-    .width("100%")
-    .height("100%")
+    .width('100%')
+    .height('100%')
     .padding(20)
     .backgroundColor(0xF5F5F5)
   }
@@ -112,7 +112,7 @@ struct ListCardStyle0590 {
     Text(title)
       .fontSize(18)
       .fontWeight(FontWeight.Bold)
-      .width("100%")
+      .width('100%')
       .height(50)
       .textAlign(TextAlign.Center)
       .backgroundColor(0xE0E0E0)

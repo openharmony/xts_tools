@@ -73,7 +73,7 @@ struct WaterFlow04 {
         LazyForEach(this.dataSource, (item: number) => {
           FlowItem() {
             Column() {
-              Text("N" + item).fontSize(12).height('16')
+              Text('N' + item).fontSize(12).height('16')
               // 存在对应的jpg文件才会显示图片
               Image($r('app.media.icon'))
                 .objectFit(ImageFit.Fill)

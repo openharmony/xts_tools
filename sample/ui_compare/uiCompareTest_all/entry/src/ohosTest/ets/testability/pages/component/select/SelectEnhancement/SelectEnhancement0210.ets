@@ -14,13 +14,13 @@
  */
 
 
-import { TextModifier, SymbolGlyphModifier } from "@kit.ArkUI";
+import { TextModifier, SymbolGlyphModifier } from '@kit.ArkUI';
 
 @Entry
 @Component
 struct SelectEnhancement0210 {
 
-  @State text: string = "TTTTTTTTTT".repeat(5);
+  @State text: string = 'TTTTTTTTTT'.repeat(5);
   @State index: number = 2;
   textModifier: TextModifier = new TextModifier();
   symbolGlyphModifier: SymbolGlyphModifier = new SymbolGlyphModifier();
@@ -43,16 +43,16 @@ struct SelectEnhancement0210 {
   build() {
     Column() {
       Select([
-        { value: 'A very long option text that should be truncated nicely'.repeat(5), icon: $r("app.media.icon") },
-        { value: 'Option B'.repeat(30), icon: $r("app.media.icon") },
-        { value: 'Option C'.repeat(30), icon: $r("app.media.icon") },
-        { value: 'Option D'.repeat(30), icon: $r("app.media.icon") }
+        { value: 'A very long option text that should be truncated nicely'.repeat(5), icon: $r('app.media.icon') },
+        { value: 'Option B'.repeat(30), icon: $r('app.media.icon') },
+        { value: 'Option C'.repeat(30), icon: $r('app.media.icon') },
+        { value: 'Option D'.repeat(30), icon: $r('app.media.icon') }
       ])
         .selected(this.index)
         .value(this.text)
         .textModifier(this.textModifier)
         .arrowModifier(this.symbolGlyphModifier)
-        .id("SelectEnhancement0210_001")
+        .id('SelectEnhancement0210_001')
         .onSelect((index: number, text?: string) => {
           console.info('Select:' + index);
           this.index = index;

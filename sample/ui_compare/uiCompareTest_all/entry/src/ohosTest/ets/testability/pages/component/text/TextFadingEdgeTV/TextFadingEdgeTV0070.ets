@@ -25,8 +25,8 @@ struct TextFadingEdgeTV0070 {
 
   build() {
     Column({ space: 3 }) {
-      Text("copy: " + this.copyValue)
-      Text("cut:" + this.cutValue)
+      Text('copy: ' + this.copyValue)
+      Text('cut:' + this.cutValue)
       Search({ value: 'Search textAlign sample1,Search textAlign sample1,Search textAlign sample1', controller: this.controller })
         .searchButton('SEARCH')
         .cancelButton({

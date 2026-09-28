@@ -28,12 +28,12 @@ struct TextRicheditorSearch01 {
       RichEditor(this.options)
         .onReady(() => {
           // 组件就绪后添加默认文本
-          this.controller.addTextSpan("初始文本", {
+          this.controller.addTextSpan('初始文本', {
             style: { fontColor: Color.Black, fontSize: 15 }
           });
           this.controller.addImageSpan($r('app.media.icon'), {
             imageStyle: {
-              size: ["80px", "80px"]
+              size: ['80px', '80px']
             }
           });
         })

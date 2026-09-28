@@ -13,11 +13,11 @@
  * limitations under the License.
  */
 
-import { ComponentContent, UIContext } from "@kit.ArkUI";
+import { ComponentContent, UIContext } from '@kit.ArkUI';
 import { WaterFlowDataSource } from './WaterFlowDataSource';
 
 class Params {
-  public text: string = "";
+  public text: string = '';
 
   constructor(text: string) {
     this.text = text;
@@ -40,8 +40,8 @@ function buildText(params: Params) {
 @Entry
 @Component
 struct WaterFlowFad18 {
-  @State message1: string = "已经到底了";
-  @State message2: string = "加载更多";
+  @State message1: string = '已经到底了';
+  @State message2: string = '加载更多';
   @State colors: number[] = [0xD5D5D5, 0x7F7F7F, 0xF7F7F7];
   @State minSize: number = 80;
   @State maxSize: number = 180;
@@ -73,7 +73,7 @@ struct WaterFlowFad18 {
   build() {
     Row() {
       Column() {
-        Button("更新footer").width('90%').margin(20)
+        Button('更新footer').width('90%').margin(20)
           .onClick((event?: ClickEvent) => {
             this.footerContent.update(new Params(this.message2));
           })
@@ -81,7 +81,7 @@ struct WaterFlowFad18 {
           LazyForEach(this.dataSource, (item: number) => {
             FlowItem() {
               Column() {
-                Text("N" + item).fontSize(12).height('16')
+                Text('N' + item).fontSize(12).height('16')
               }
               .width('100%')
               .height(this.itemHeightArray[item % 100])
@@ -92,7 +92,7 @@ struct WaterFlowFad18 {
           }, (item: string) => item)
         }
         .columnsTemplate('1fr')
-        .height("70%")
+        .height('70%')
 
         Button('scroll end')
           .id('waterFlowFad_18')

@@ -126,7 +126,7 @@ struct TextChipStyleEnhancement0130 {
                   fillColor: '#FF0000'
                 },
                 label: {
-                  text: "Chip 1"
+                  text: 'Chip 1'
                 },
                 suffixIcon: {
                   src: $r('sys.media.ohos_ic_public_cancel'),
@@ -157,7 +157,7 @@ struct TextChipStyleEnhancement0130 {
                   activatedFillColor: Color.Yellow // 黄色
                 },
                 label: {
-                  text: "Chip 2",
+                  text: 'Chip 2',
                   fontColor: Color.Yellow,
                   activatedFontColor: Color.Yellow // 激活时的黄色
                 },
@@ -201,7 +201,7 @@ struct TextChipStyleEnhancement0130 {
                   activatedFillColor: Color.White // 白色
                 },
                 label: {
-                  text: "Chip 3",
+                  text: 'Chip 3',
                   fontColor: Color.White,
                   activatedFontColor: Color.White // 激活时的白色
                 },
@@ -245,7 +245,7 @@ struct TextChipStyleEnhancement0130 {
                   activatedFillColor: Color.Yellow // 黄色
                 },
                 label: {
-                  text: "Chip 4",
+                  text: 'Chip 4',
                   fontColor: Color.Yellow,
                   activatedFontColor: Color.Yellow // 激活时的黄色
                 },

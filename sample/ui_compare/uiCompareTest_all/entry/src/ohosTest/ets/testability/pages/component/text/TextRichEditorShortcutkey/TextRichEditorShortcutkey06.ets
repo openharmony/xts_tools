@@ -28,7 +28,7 @@ struct TextRichEditorShortcutkey06 {
       RichEditor(this.options)
         .onReady(() => {
           // 组件就绪后添加默认文本
-          this.controller.addTextSpan("今天天气真好。The quick brown fox jumps over the lazy dog.こんにちは、元気ですか？안녕하세요! 오늘 날씨 ", {
+          this.controller.addTextSpan('今天天气真好。The quick brown fox jumps over the lazy dog.こんにちは、元気ですか？안녕하세요! 오늘 날씨 ', {
             style: { fontColor: Color.Black, fontSize: 15 }
           });
         })

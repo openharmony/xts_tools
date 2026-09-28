@@ -18,7 +18,7 @@
 struct SelectFuzzy16 {
   @State menuBackgroundColor: ResourceColor | undefined = Color.Transparent;
   @State selectedIndex: number = 0;
-  @State selectValue: string = "请选择";
+  @State selectValue: string = '请选择';
 
   build() {
     Column() {
@@ -29,9 +29,9 @@ struct SelectFuzzy16 {
 
       // 主Select组件
       Select([
-        { value: '选项1', icon: $r("app.media.icon") },
-        { value: '选项2', icon: $r("app.media.icon") },
-        { value: '选项3', icon: $r("app.media.icon") }
+        { value: '选项1', icon: $r('app.media.icon') },
+        { value: '选项2', icon: $r('app.media.icon') },
+        { value: '选项3', icon: $r('app.media.icon') }
       ])
         .id('select_fuzzy_16')
         .selected(this.selectedIndex)

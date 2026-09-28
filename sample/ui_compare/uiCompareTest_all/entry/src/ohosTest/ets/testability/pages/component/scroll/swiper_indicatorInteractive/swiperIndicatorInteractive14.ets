@@ -113,12 +113,12 @@ struct SwiperIndicatorInteractive14 {
       // 控制按钮区域
       Row({ space: 12 }) {
         Button('上一页')
-          .id("swiperIndicatorInteractive14_01")
+          .id('swiperIndicatorInteractive14_01')
           .onClick(() => {
             this.swiperController.showPrevious();
           })
         Button('下一页')
-          .id("swiperIndicatorInteractive14_02")
+          .id('swiperIndicatorInteractive14_02')
           .onClick(() => {
             this.swiperController.showNext();
           })
@@ -127,7 +127,7 @@ struct SwiperIndicatorInteractive14 {
 
       Row({ space: 12 }) {
         Button('在index=0添加页面')
-          .id("swiperIndicatorInteractive14_03")
+          .id('swiperIndicatorInteractive14_03')
           .onClick(() => {
             // 在index为0的位置添加新页面
             this.pageList.splice(0, 0, 99);
@@ -136,7 +136,7 @@ struct SwiperIndicatorInteractive14 {
             this.data = new SwiperIndicatorInteractiveDataSource14(this.pageList);
           })
         Button('跳转页面1')
-          .id("swiperIndicatorInteractive14_04")
+          .id('swiperIndicatorInteractive14_04')
           .onClick(() => {
             this.currentIndex = 0;
             this.swiperController.changeIndex(0, SwiperAnimationMode.FAST_ANIMATION);

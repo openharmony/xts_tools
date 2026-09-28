@@ -128,13 +128,13 @@ struct SelectionMenu02 {
   ]
   private expandedMenuOptions: ExpandedMenuOptions[] =
     [{
-      startIcon: $r("app.media.icon"), content: '词典', action: () => {
+      startIcon: $r('app.media.icon'), content: '词典', action: () => {
       }
     }, {
-      startIcon: $r("app.media.icon"), content: '翻译', action: () => {
+      startIcon: $r('app.media.icon'), content: '翻译', action: () => {
       }
     }, {
-      startIcon: $r("app.media.icon"), content: '搜索', action: () => {
+      startIcon: $r('app.media.icon'), content: '搜索', action: () => {
       }
     }]
   private expandedMenuOptions1: ExpandedMenuOptions[] = []
@@ -269,7 +269,7 @@ struct SelectionMenu02 {
 
   build() {
     Column() {
-      Button("SetSelection")
+      Button('SetSelection')
         .onClick((event: ClickEvent) => {
           if (this.controller) {
             this.controller.setSelection(0, 2);
