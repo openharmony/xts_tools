@@ -49,7 +49,7 @@ export default function tsTools() {
      */
     it('SUB_ACE_TS_TOOLS_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/tsTools/TsTools0010")
+      Settings.createWindow('testability/pages/scenario/misc/tsTools/TsTools0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -68,7 +68,7 @@ export default function tsTools() {
      */
     it('SUB_ACE_TS_TOOLS_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/tsTools/TsTools0020")
+      Settings.createWindow('testability/pages/scenario/misc/tsTools/TsTools0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -87,7 +87,7 @@ export default function tsTools() {
      */
     it('SUB_ACE_TS_TOOLS_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/tsTools/TsTools0040")
+      Settings.createWindow('testability/pages/scenario/misc/tsTools/TsTools0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -106,7 +106,7 @@ export default function tsTools() {
      */
     it('SUB_ACE_TS_TOOLS_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/tsTools/TsTools0050")
+      Settings.createWindow('testability/pages/scenario/misc/tsTools/TsTools0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -125,7 +125,7 @@ export default function tsTools() {
      */
     it('SUB_ACE_TS_TOOLS_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/tsTools/TsTools0060")
+      Settings.createWindow('testability/pages/scenario/misc/tsTools/TsTools0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -144,7 +144,7 @@ export default function tsTools() {
      */
     it('SUB_ACE_TS_TOOLS_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/tsTools/TsTools0080")
+      Settings.createWindow('testability/pages/scenario/misc/tsTools/TsTools0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -163,7 +163,7 @@ export default function tsTools() {
      */
     it('SUB_ACE_TS_TOOLS_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/tsTools/TsTools0090")
+      Settings.createWindow('testability/pages/scenario/misc/tsTools/TsTools0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -182,7 +182,7 @@ export default function tsTools() {
      */
     it('SUB_ACE_TS_TOOLS_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/tsTools/TsTools0100")
+      Settings.createWindow('testability/pages/scenario/misc/tsTools/TsTools0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -201,7 +201,7 @@ export default function tsTools() {
      */
     it('SUB_ACE_TS_TOOLS_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/tsTools/TsTools0120")
+      Settings.createWindow('testability/pages/scenario/misc/tsTools/TsTools0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()

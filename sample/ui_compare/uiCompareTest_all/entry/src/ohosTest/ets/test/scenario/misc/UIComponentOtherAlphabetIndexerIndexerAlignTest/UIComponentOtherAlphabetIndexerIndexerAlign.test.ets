@@ -50,12 +50,12 @@ export default function uIComponentOtherAlphabetIndexerIndexerAlign() {
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0090 start.`);
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
       } catch(error) {
         let err: BusinessError = error as BusinessError;
         console.error(`call System.setAppPreferredLanguage failed, error code: ${err.code}, message: ${err.message}.`);
       }
-      Settings.createWindow("testability/pages/scenario/misc/uIComponentOtherAlphabetIndexerIndexerAlign/UIComponentOtherAlphabetIndexerIndexerAlign001");
+      Settings.createWindow('testability/pages/scenario/misc/uIComponentOtherAlphabetIndexerIndexerAlign/UIComponentOtherAlphabetIndexerIndexerAlign001');
       let driver: Driver = Driver.create();
       let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
       let point = await alphabetIndexer.getBoundsCenter();
@@ -63,7 +63,7 @@ export default function uIComponentOtherAlphabetIndexerIndexerAlign() {
       await driver.waitForIdle(500, 1000);
       await driver.mouseLongClick({x:point.x - 70, y: point.y + 50}, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0090");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0090');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0090 finish.`);
       done();
@@ -80,12 +80,12 @@ export default function uIComponentOtherAlphabetIndexerIndexerAlign() {
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0320 start.`);
       try {
-        i18n.System.setAppPreferredLanguage("bo");
+        i18n.System.setAppPreferredLanguage('bo');
       } catch(error) {
         let err: BusinessError = error as BusinessError;
         console.error(`call System.setAppPreferredLanguage failed, error code: ${err.code}, message: ${err.message}.`);
       }
-      Settings.createWindow("testability/pages/scenario/misc/uIComponentOtherAlphabetIndexerIndexerAlign/UIComponentOtherAlphabetIndexerIndexerAlign002");
+      Settings.createWindow('testability/pages/scenario/misc/uIComponentOtherAlphabetIndexerIndexerAlign/UIComponentOtherAlphabetIndexerIndexerAlign002');
       let driver: Driver = Driver.create();
       let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
       let point = await alphabetIndexer.getBoundsCenter();
@@ -93,7 +93,7 @@ export default function uIComponentOtherAlphabetIndexerIndexerAlign() {
       await driver.waitForIdle(500, 1000);
       await driver.mouseLongClick({x:point.x - 70, y: point.y + 50}, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0320");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0320');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INDEXERALIGN_0320 finish.`);
       done();

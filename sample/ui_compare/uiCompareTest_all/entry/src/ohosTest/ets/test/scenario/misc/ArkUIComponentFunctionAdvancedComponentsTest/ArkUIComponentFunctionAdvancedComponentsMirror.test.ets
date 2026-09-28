@@ -53,7 +53,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0530 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0530'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -79,7 +79,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0220 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0220'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -105,7 +105,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0590 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0590'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -131,7 +131,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0560 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0560'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -184,7 +184,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0210 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0210'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -211,7 +211,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0270 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0270'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -237,7 +237,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0290 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0290'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -264,7 +264,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0240 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0240'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -290,7 +290,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0510 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0510'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -316,7 +316,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0230 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0230'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -343,7 +343,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0250 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0250'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -370,7 +370,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0260 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0260'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -397,7 +397,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0310 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0310'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -424,7 +424,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0520 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0520'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -450,7 +450,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0320 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0320'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -476,7 +476,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -502,7 +502,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -529,7 +529,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -555,7 +555,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -581,7 +581,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -632,7 +632,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -659,7 +659,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -686,7 +686,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -713,7 +713,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -740,7 +740,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -794,7 +794,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -819,7 +819,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -846,7 +846,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -871,7 +871,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -898,7 +898,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -925,7 +925,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -950,7 +950,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -977,7 +977,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -1002,7 +1002,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -1029,7 +1029,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -1081,7 +1081,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -1108,7 +1108,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -1135,7 +1135,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -1162,7 +1162,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -1189,7 +1189,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -1216,7 +1216,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -1241,7 +1241,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -1268,7 +1268,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -1293,7 +1293,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200'
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -1320,7 +1320,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
@@ -1347,7 +1347,7 @@ export default function arkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570 start.`);
       let caseName = 'ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570'
       try {
-        i18n.System.setAppPreferredLanguage("zh");
+        i18n.System.setAppPreferredLanguage('zh');
         Logger.info(`${caseName}: call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;

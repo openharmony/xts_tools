@@ -66,7 +66,7 @@ export default function uIBGSeriableTest() {
     it('SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/UIBGSeriableTestCase/UIBGSeriableTestCase001");
+      Settings.createWindow('testability/pages/scenario/misc/UIBGSeriableTestCase/UIBGSeriableTestCase001');
       let driver:Driver = Driver.create();
       let button1: Component = await driver.findComponent(ON.id('Group1'));
       await button1.click();
@@ -94,7 +94,7 @@ export default function uIBGSeriableTest() {
     it('SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/UIBGSeriableTestCase/UIBGSeriableTestCase002");
+      Settings.createWindow('testability/pages/scenario/misc/UIBGSeriableTestCase/UIBGSeriableTestCase002');
       await Utils.sleep(1000);
       windowSnap.snapShot(`SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050`);
       await Utils.sleep(1000);
@@ -113,7 +113,7 @@ export default function uIBGSeriableTest() {
     it('SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090 start.`);
-        Settings.createWindow("testability/pages/scenario/misc/UIBGSeriableTestCase/UIBGSeriableTestCase003");
+        Settings.createWindow('testability/pages/scenario/misc/UIBGSeriableTestCase/UIBGSeriableTestCase003');
         await Utils.sleep(1000);
         windowSnap.snapShot(`SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090`);
         await Utils.sleep(1000);
@@ -132,7 +132,7 @@ export default function uIBGSeriableTest() {
     it('SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080 start.`);
-        Settings.createWindow("testability/pages/scenario/misc/UIBGSeriableTestCase/UIBGSeriableTestCase004");
+        Settings.createWindow('testability/pages/scenario/misc/UIBGSeriableTestCase/UIBGSeriableTestCase004');
         await Utils.sleep(1000);
         windowSnap.snapShot(`SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080`);
         await Utils.sleep(1000);

@@ -52,12 +52,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_001 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot001")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot001')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件测试按钮
-      let test_button_001 = await driver.waitForComponent(ON.id("test_button_001"), 500)
+      let test_button_001 = await driver.waitForComponent(ON.id('test_button_001'), 500)
       await test_button_001.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件测试按钮')
@@ -70,8 +70,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已选中多个GridItem子组件')
       
       // 步骤5：通过手指进行拖拽（模拟触摸拖拽操作）
-      let grid_item_0_001 = await driver.waitForComponent(ON.id("grid_item_0_001"), 500)
-      let drop_zone_001 = await driver.waitForComponent(ON.id("drop_zone_001"), 500)
+      let grid_item_0_001 = await driver.waitForComponent(ON.id('grid_item_0_001'), 500)
+      let drop_zone_001 = await driver.waitForComponent(ON.id('drop_zone_001'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_0_001.getBoundsCenter()
@@ -104,12 +104,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_002 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot002")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot002')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件测试按钮
-      let test_button_002 = await driver.waitForComponent(ON.id("test_button_002"), 500)
+      let test_button_002 = await driver.waitForComponent(ON.id('test_button_002'), 500)
       await test_button_002.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件测试按钮')
@@ -122,8 +122,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已选中几个相邻的GridItem子组件')
       
       // 步骤5：通过鼠标进行拖拽（模拟鼠标拖拽操作）
-      let grid_item_4_002 = await driver.waitForComponent(ON.id("grid_item_4_002"), 500)
-      let drop_zone_002 = await driver.waitForComponent(ON.id("drop_zone_002"), 500)
+      let grid_item_4_002 = await driver.waitForComponent(ON.id('grid_item_4_002'), 500)
+      let drop_zone_002 = await driver.waitForComponent(ON.id('drop_zone_002'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_4_002.getBoundsCenter()
@@ -156,12 +156,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_003 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot003")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot003')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件测试按钮
-      let test_button_003 = await driver.waitForComponent(ON.id("test_button_003"), 500)
+      let test_button_003 = await driver.waitForComponent(ON.id('test_button_003'), 500)
       await test_button_003.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件测试按钮')
@@ -174,8 +174,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已选中几个不相邻的GridItem子组件')
       
       // 步骤5：通过鼠标进行拖拽（模拟鼠标拖拽操作）
-      let grid_item_0_003 = await driver.waitForComponent(ON.id("grid_item_0_003"), 500)
-      let drop_zone_003 = await driver.waitForComponent(ON.id("drop_zone_003"), 500)
+      let grid_item_0_003 = await driver.waitForComponent(ON.id('grid_item_0_003'), 500)
+      let drop_zone_003 = await driver.waitForComponent(ON.id('drop_zone_003'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_0_003.getBoundsCenter()
@@ -208,12 +208,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_004 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot004")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot004')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件测试按钮
-      let test_button_004 = await driver.waitForComponent(ON.id("test_button_004"), 500)
+      let test_button_004 = await driver.waitForComponent(ON.id('test_button_004'), 500)
       await test_button_004.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件测试按钮')
@@ -226,8 +226,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已选中几个相邻或不相邻的GridItem子组件')
       
       // 步骤5：通过鼠标进行连续多次拖拽（模拟鼠标连续拖拽操作）
-      let grid_item_1_004 = await driver.waitForComponent(ON.id("grid_item_1_004"), 500)
-      let drop_zone_004 = await driver.waitForComponent(ON.id("drop_zone_004"), 500)
+      let grid_item_1_004 = await driver.waitForComponent(ON.id('grid_item_1_004'), 500)
+      let drop_zone_004 = await driver.waitForComponent(ON.id('drop_zone_004'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_1_004.getBoundsCenter()
@@ -261,12 +261,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_005 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot005")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot005')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件测试按钮
-      let test_button_005 = await driver.waitForComponent(ON.id("test_button_005"), 500)
+      let test_button_005 = await driver.waitForComponent(ON.id('test_button_005'), 500)
       await test_button_005.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件测试按钮')
@@ -282,8 +282,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤5：已选中几个相邻或不相邻的GridItem子组件，组件的选中态改变正确')
       
       // 步骤6：通过鼠标进行连续多次拖拽（模拟鼠标连续拖拽操作）
-      let grid_item_0_005 = await driver.waitForComponent(ON.id("grid_item_0_005"), 500)
-      let drop_zone_005 = await driver.waitForComponent(ON.id("drop_zone_005"), 500)
+      let grid_item_0_005 = await driver.waitForComponent(ON.id('grid_item_0_005'), 500)
+      let drop_zone_005 = await driver.waitForComponent(ON.id('drop_zone_005'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_0_005.getBoundsCenter()
@@ -317,12 +317,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_006 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot006")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot006')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件测试按钮
-      let test_button_006 = await driver.waitForComponent(ON.id("test_button_006"), 500)
+      let test_button_006 = await driver.waitForComponent(ON.id('test_button_006'), 500)
       await test_button_006.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件测试按钮')
@@ -338,8 +338,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤5：已选中几个相邻或不相邻的GridItem子组件，非聚拢拖拽显示的优先级要大于拖拽预览显示')
       
       // 步骤6：通过鼠标进行连续多次拖拽（模拟鼠标连续拖拽操作）
-      let grid_item_1_006 = await driver.waitForComponent(ON.id("grid_item_1_006"), 500)
-      let drop_zone_006 = await driver.waitForComponent(ON.id("drop_zone_006"), 500)
+      let grid_item_1_006 = await driver.waitForComponent(ON.id('grid_item_1_006'), 500)
+      let drop_zone_006 = await driver.waitForComponent(ON.id('drop_zone_006'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_1_006.getBoundsCenter()
@@ -373,12 +373,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_007 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot007")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot007')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件测试按钮
-      let test_button_007 = await driver.waitForComponent(ON.id("test_button_007"), 500)
+      let test_button_007 = await driver.waitForComponent(ON.id('test_button_007'), 500)
       await test_button_007.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件测试按钮')
@@ -391,8 +391,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已选中几个相邻或不相邻的并且宽高并不相同的GridItem子组件')
       
       // 步骤5：通过鼠标进行连续多次拖拽（模拟鼠标连续拖拽操作）
-      let grid_item_0_007 = await driver.waitForComponent(ON.id("grid_item_0_007"), 500)
-      let drop_zone_007 = await driver.waitForComponent(ON.id("drop_zone_007"), 500)
+      let grid_item_0_007 = await driver.waitForComponent(ON.id('grid_item_0_007'), 500)
+      let drop_zone_007 = await driver.waitForComponent(ON.id('drop_zone_007'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_0_007.getBoundsCenter()
@@ -426,12 +426,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_008 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot008")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot008')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件测试按钮
-      let test_button_008 = await driver.waitForComponent(ON.id("test_button_008"), 500)
+      let test_button_008 = await driver.waitForComponent(ON.id('test_button_008'), 500)
       await test_button_008.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件测试按钮')
@@ -444,8 +444,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已选中几个相邻或不相邻的通过CustomBuilder创建的GridItem子组件')
       
       // 步骤5：通过鼠标进行连续多次拖拽（模拟鼠标连续拖拽操作）
-      let grid_item_1_008 = await driver.waitForComponent(ON.id("grid_item_1_008"), 500)
-      let drop_zone_008 = await driver.waitForComponent(ON.id("drop_zone_008"), 500)
+      let grid_item_1_008 = await driver.waitForComponent(ON.id('grid_item_1_008'), 500)
+      let drop_zone_008 = await driver.waitForComponent(ON.id('drop_zone_008'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_1_008.getBoundsCenter()
@@ -479,12 +479,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_009 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot009")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot009')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件测试按钮
-      let test_button_009 = await driver.waitForComponent(ON.id("test_button_009"), 500)
+      let test_button_009 = await driver.waitForComponent(ON.id('test_button_009'), 500)
       await test_button_009.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件测试按钮')
@@ -500,8 +500,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤5：已选中几个相邻或不相邻的GridItem子组件')
       
       // 步骤6：通过鼠标进行连续多次拖拽（模拟鼠标连续拖拽操作）
-      let grid_item_1_009 = await driver.waitForComponent(ON.id("grid_item_1_009"), 500)
-      let drop_zone_009 = await driver.waitForComponent(ON.id("drop_zone_009"), 500)
+      let grid_item_1_009 = await driver.waitForComponent(ON.id('grid_item_1_009'), 500)
+      let drop_zone_009 = await driver.waitForComponent(ON.id('drop_zone_009'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_1_009.getBoundsCenter()
@@ -535,12 +535,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_010 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot010")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot010')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件测试按钮
-      let test_button_010 = await driver.waitForComponent(ON.id("test_button_010"), 500)
+      let test_button_010 = await driver.waitForComponent(ON.id('test_button_010'), 500)
       await test_button_010.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件测试按钮')
@@ -556,8 +556,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤5：已选中几个相邻或不相邻的GridItem子组件')
       
       // 步骤6：通过手指进行连续多次拖拽（模拟触摸拖拽操作）
-      let grid_item_1_010 = await driver.waitForComponent(ON.id("grid_item_1_010"), 500)
-      let drop_zone_010 = await driver.waitForComponent(ON.id("drop_zone_010"), 500)
+      let grid_item_1_010 = await driver.waitForComponent(ON.id('grid_item_1_010'), 500)
+      let drop_zone_010 = await driver.waitForComponent(ON.id('drop_zone_010'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_1_010.getBoundsCenter()
@@ -591,12 +591,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_011 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot011")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot011')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件测试按钮
-      let test_button_011 = await driver.waitForComponent(ON.id("test_button_011"), 500)
+      let test_button_011 = await driver.waitForComponent(ON.id('test_button_011'), 500)
       await test_button_011.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件测试按钮')
@@ -606,8 +606,8 @@ export default function customizeGatherOrNot() {
       await Utils.sleep(300)
       
       // 获取GridItem和释放区域的位置
-      let grid_item_1_011 = await driver.waitForComponent(ON.id("grid_item_1_011"), 500)
-      let drop_zone_011 = await driver.waitForComponent(ON.id("drop_zone_011"), 500)
+      let grid_item_1_011 = await driver.waitForComponent(ON.id('grid_item_1_011'), 500)
+      let drop_zone_011 = await driver.waitForComponent(ON.id('drop_zone_011'), 500)
       let gridItemBounds = await grid_item_1_011.getBoundsCenter()
       let dropZoneBounds = await drop_zone_011.getBoundsCenter()
       
@@ -618,7 +618,7 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已完成第1次鼠标拖拽（mode=ENABLE_MULTI_TILE_EFFECT）')
       
       // 步骤5：设置dragPreviewOptions中的mode属性为AUTO
-      let toggle_mode_button_011 = await driver.waitForComponent(ON.id("toggle_mode_button_011"), 500)
+      let toggle_mode_button_011 = await driver.waitForComponent(ON.id('toggle_mode_button_011'), 500)
       await toggle_mode_button_011.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤5：已点击切换按钮，mode切换为AUTO（聚拢）')
@@ -655,12 +655,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_012 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot012")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot012')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件测试按钮
-      let test_button_012 = await driver.waitForComponent(ON.id("test_button_012"), 500)
+      let test_button_012 = await driver.waitForComponent(ON.id('test_button_012'), 500)
       await test_button_012.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件测试按钮')
@@ -676,8 +676,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤5：已选中几个相邻或不相邻的GridItem子组件（共5项）')
       
       // 步骤6：通过手指进行连续多次拖拽（模拟触摸拖拽操作）
-      let grid_item_1_012 = await driver.waitForComponent(ON.id("grid_item_1_012"), 500)
-      let drop_zone_012 = await driver.waitForComponent(ON.id("drop_zone_012"), 500)
+      let grid_item_1_012 = await driver.waitForComponent(ON.id('grid_item_1_012'), 500)
+      let drop_zone_012 = await driver.waitForComponent(ON.id('drop_zone_012'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_1_012.getBoundsCenter()
@@ -716,12 +716,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_013 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot013")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot013')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件测试按钮
-      let test_button_013 = await driver.waitForComponent(ON.id("test_button_013"), 500)
+      let test_button_013 = await driver.waitForComponent(ON.id('test_button_013'), 500)
       await test_button_013.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件测试按钮')
@@ -737,8 +737,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤5：已选中几个相邻或不相邻的GridItem子组件（共5项）')
       
       // 步骤6：通过手指进行连续多次拖拽（模拟触摸拖拽操作）
-      let grid_item_1_013 = await driver.waitForComponent(ON.id("grid_item_1_013"), 500)
-      let drop_zone_013 = await driver.waitForComponent(ON.id("drop_zone_013"), 500)
+      let grid_item_1_013 = await driver.waitForComponent(ON.id('grid_item_1_013'), 500)
+      let drop_zone_013 = await driver.waitForComponent(ON.id('drop_zone_013'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_1_013.getBoundsCenter()
@@ -777,12 +777,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_014 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot014")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot014')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件测试按钮
-      let test_button_014 = await driver.waitForComponent(ON.id("test_button_014"), 500)
+      let test_button_014 = await driver.waitForComponent(ON.id('test_button_014'), 500)
       await test_button_014.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件测试按钮')
@@ -791,7 +791,7 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤3：dragPreviewOptions的mode已设置为ENABLE_MULTI_TILE_EFFECT')
       
       // 步骤4：设备切换横屏（点击横屏标记按钮模拟）
-      let toggle_landscape_button_014 = await driver.waitForComponent(ON.id("toggle_landscape_button_014"), 500)
+      let toggle_landscape_button_014 = await driver.waitForComponent(ON.id('toggle_landscape_button_014'), 500)
       await toggle_landscape_button_014.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤4：设备已切换横屏模式（已标记为横屏）')
@@ -801,8 +801,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤5：已选中几个相邻或不相邻的GridItem子组件（共5项）')
       
       // 步骤6：通过手指进行连续多次拖拽（模拟触摸拖拽操作）
-      let grid_item_1_014 = await driver.waitForComponent(ON.id("grid_item_1_014"), 500)
-      let drop_zone_014 = await driver.waitForComponent(ON.id("drop_zone_014"), 500)
+      let grid_item_1_014 = await driver.waitForComponent(ON.id('grid_item_1_014'), 500)
+      let drop_zone_014 = await driver.waitForComponent(ON.id('drop_zone_014'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_1_014.getBoundsCenter()
@@ -840,12 +840,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_029 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot029")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot029')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件测试按钮
-      let test_button_029 = await driver.waitForComponent(ON.id("test_button_029"), 500)
+      let test_button_029 = await driver.waitForComponent(ON.id('test_button_029'), 500)
       await test_button_029.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件测试按钮')
@@ -858,8 +858,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已选中几个ListItem子组件（共3项）')
       
       // 步骤5：通过手指进行拖拽（模拟触摸拖拽操作）
-      let list_item_1_029 = await driver.waitForComponent(ON.id("list_item_1_029"), 500)
-      let drop_zone_029 = await driver.waitForComponent(ON.id("drop_zone_029"), 500)
+      let list_item_1_029 = await driver.waitForComponent(ON.id('list_item_1_029'), 500)
+      let drop_zone_029 = await driver.waitForComponent(ON.id('drop_zone_029'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_1_029.getBoundsCenter()
@@ -894,12 +894,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_030 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot030")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot030')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件测试按钮
-      let test_button_030 = await driver.waitForComponent(ON.id("test_button_030"), 500)
+      let test_button_030 = await driver.waitForComponent(ON.id('test_button_030'), 500)
       await test_button_030.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件测试按钮')
@@ -912,8 +912,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已选中几个相邻的ListItem子组件（项目2、3、4、5，共4项相邻）')
       
       // 步骤5：通过鼠标进行拖拽
-      let list_item_1_030 = await driver.waitForComponent(ON.id("list_item_1_030"), 500)
-      let drop_zone_030 = await driver.waitForComponent(ON.id("drop_zone_030"), 500)
+      let list_item_1_030 = await driver.waitForComponent(ON.id('list_item_1_030'), 500)
+      let drop_zone_030 = await driver.waitForComponent(ON.id('drop_zone_030'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_1_030.getBoundsCenter()
@@ -951,12 +951,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_031 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot031")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot031')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件测试按钮
-      let test_button_031 = await driver.waitForComponent(ON.id("test_button_031"), 500)
+      let test_button_031 = await driver.waitForComponent(ON.id('test_button_031'), 500)
       await test_button_031.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件测试按钮')
@@ -969,8 +969,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已选中几个不相邻的ListItem子组件（项目1、3、6、8，共4项不相邻）')
       
       // 步骤5：通过鼠标进行拖拽
-      let list_item_0_031 = await driver.waitForComponent(ON.id("list_item_0_031"), 500)
-      let drop_zone_031 = await driver.waitForComponent(ON.id("drop_zone_031"), 500)
+      let list_item_0_031 = await driver.waitForComponent(ON.id('list_item_0_031'), 500)
+      let drop_zone_031 = await driver.waitForComponent(ON.id('drop_zone_031'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_0_031.getBoundsCenter()
@@ -1008,12 +1008,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_032 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot032")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot032')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件测试按钮
-      let test_button_032 = await driver.waitForComponent(ON.id("test_button_032"), 500)
+      let test_button_032 = await driver.waitForComponent(ON.id('test_button_032'), 500)
       await test_button_032.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件测试按钮')
@@ -1026,8 +1026,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已选中几个相邻或不相邻的ListItem子组件（项目1、2相邻，项目5、8不相邻，共4项）')
       
       // 步骤5：通过鼠标进行连续多次拖拽
-      let list_item_0_032 = await driver.waitForComponent(ON.id("list_item_0_032"), 500)
-      let drop_zone_032 = await driver.waitForComponent(ON.id("drop_zone_032"), 500)
+      let list_item_0_032 = await driver.waitForComponent(ON.id('list_item_0_032'), 500)
+      let drop_zone_032 = await driver.waitForComponent(ON.id('drop_zone_032'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_0_032.getBoundsCenter()
@@ -1065,12 +1065,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_033 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot033")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot033')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件测试按钮
-      let test_button_033 = await driver.waitForComponent(ON.id("test_button_033"), 500)
+      let test_button_033 = await driver.waitForComponent(ON.id('test_button_033'), 500)
       await test_button_033.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件测试按钮')
@@ -1087,8 +1087,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '预期结果5：组件的选中态改变正确（深紫色背景+金色边框+选中态标识）')
       
       // 步骤6：通过鼠标进行连续多次拖拽
-      let list_item_0_033 = await driver.waitForComponent(ON.id("list_item_0_033"), 500)
-      let drop_zone_033 = await driver.waitForComponent(ON.id("drop_zone_033"), 500)
+      let list_item_0_033 = await driver.waitForComponent(ON.id('list_item_0_033'), 500)
+      let drop_zone_033 = await driver.waitForComponent(ON.id('drop_zone_033'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_0_033.getBoundsCenter()
@@ -1127,12 +1127,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_034 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot034")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot034')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件测试按钮
-      let test_button_034 = await driver.waitForComponent(ON.id("test_button_034"), 500)
+      let test_button_034 = await driver.waitForComponent(ON.id('test_button_034'), 500)
       await test_button_034.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件测试按钮')
@@ -1149,8 +1149,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '预期结果5：非聚拢拖拽显示的优先级要大于拖拽预览显示')
       
       // 步骤6：通过鼠标进行连续多次拖拽
-      let list_item_0_034 = await driver.waitForComponent(ON.id("list_item_0_034"), 500)
-      let drop_zone_034 = await driver.waitForComponent(ON.id("drop_zone_034"), 500)
+      let list_item_0_034 = await driver.waitForComponent(ON.id('list_item_0_034'), 500)
+      let drop_zone_034 = await driver.waitForComponent(ON.id('drop_zone_034'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_0_034.getBoundsCenter()
@@ -1189,12 +1189,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_035 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot035")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot035')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件测试按钮
-      let test_button_035 = await driver.waitForComponent(ON.id("test_button_035"), 500)
+      let test_button_035 = await driver.waitForComponent(ON.id('test_button_035'), 500)
       await test_button_035.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件测试按钮')
@@ -1208,8 +1208,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '选中的ListItem尺寸：项目2(高90,宽90%)、项目4(高110,宽95%)、项目6(高120,宽90%)、项目8(高100,宽92%)')
       
       // 步骤5：通过鼠标进行连续多次拖拽
-      let list_item_1_035 = await driver.waitForComponent(ON.id("list_item_1_035"), 500)
-      let drop_zone_035 = await driver.waitForComponent(ON.id("drop_zone_035"), 500)
+      let list_item_1_035 = await driver.waitForComponent(ON.id('list_item_1_035'), 500)
+      let drop_zone_035 = await driver.waitForComponent(ON.id('drop_zone_035'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_1_035.getBoundsCenter()
@@ -1248,12 +1248,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_036 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot036")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot036')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件测试按钮
-      let test_button_036 = await driver.waitForComponent(ON.id("test_button_036"), 500)
+      let test_button_036 = await driver.waitForComponent(ON.id('test_button_036'), 500)
       await test_button_036.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件测试按钮')
@@ -1267,8 +1267,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '选中的ListItem：项目1、2（相邻）、项目5、8（不相邻），均通过CustomBuilder创建复杂UI')
       
       // 步骤5：通过鼠标进行连续多次拖拽
-      let list_item_0_036 = await driver.waitForComponent(ON.id("list_item_0_036"), 500)
-      let drop_zone_036 = await driver.waitForComponent(ON.id("drop_zone_036"), 500)
+      let list_item_0_036 = await driver.waitForComponent(ON.id('list_item_0_036'), 500)
+      let drop_zone_036 = await driver.waitForComponent(ON.id('drop_zone_036'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_0_036.getBoundsCenter()
@@ -1306,12 +1306,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_037 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot037")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot037')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件测试按钮
-      let test_button_037 = await driver.waitForComponent(ON.id("test_button_037"), 500)
+      let test_button_037 = await driver.waitForComponent(ON.id('test_button_037'), 500)
       await test_button_037.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件测试按钮')
@@ -1327,8 +1327,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤5：已选中几个相邻或不相邻的ListItem子组件（项目1、2相邻，项目5、8不相邻，共4项）')
       
       // 步骤6：通过鼠标进行连续多次拖拽
-      let list_item_0_037 = await driver.waitForComponent(ON.id("list_item_0_037"), 500)
-      let drop_zone_037 = await driver.waitForComponent(ON.id("drop_zone_037"), 500)
+      let list_item_0_037 = await driver.waitForComponent(ON.id('list_item_0_037'), 500)
+      let drop_zone_037 = await driver.waitForComponent(ON.id('drop_zone_037'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_0_037.getBoundsCenter()
@@ -1367,12 +1367,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_038 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot038")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot038')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件测试按钮
-      let test_button_038 = await driver.waitForComponent(ON.id("test_button_038"), 500)
+      let test_button_038 = await driver.waitForComponent(ON.id('test_button_038'), 500)
       await test_button_038.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件测试按钮')
@@ -1388,8 +1388,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤5：已选中几个相邻或不相邻的ListItem子组件（项目1、2相邻，项目5、8不相邻，共4项）')
       
       // 步骤6：通过手指进行连续多次拖拽
-      let list_item_0_038 = await driver.waitForComponent(ON.id("list_item_0_038"), 500)
-      let drop_zone_038 = await driver.waitForComponent(ON.id("drop_zone_038"), 500)
+      let list_item_0_038 = await driver.waitForComponent(ON.id('list_item_0_038'), 500)
+      let drop_zone_038 = await driver.waitForComponent(ON.id('drop_zone_038'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_0_038.getBoundsCenter()
@@ -1424,12 +1424,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_039 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot039")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot039')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件测试按钮
-      let test_button_039 = await driver.waitForComponent(ON.id("test_button_039"), 500)
+      let test_button_039 = await driver.waitForComponent(ON.id('test_button_039'), 500)
       await test_button_039.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件测试按钮')
@@ -1439,8 +1439,8 @@ export default function customizeGatherOrNot() {
       await Utils.sleep(300)
       
       // 获取ListItem和释放区域的位置
-      let list_item_0_039 = await driver.waitForComponent(ON.id("list_item_0_039"), 500)
-      let drop_zone_039 = await driver.waitForComponent(ON.id("drop_zone_039"), 500)
+      let list_item_0_039 = await driver.waitForComponent(ON.id('list_item_0_039'), 500)
+      let drop_zone_039 = await driver.waitForComponent(ON.id('drop_zone_039'), 500)
       let listItemBounds = await list_item_0_039.getBoundsCenter()
       let dropZoneBounds = await drop_zone_039.getBoundsCenter()
       
@@ -1451,7 +1451,7 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已完成第1次鼠标拖拽（mode=ENABLE_MULTI_TILE_EFFECT）')
       
       // 步骤5：设置dragPreviewOptions中的mode属性为AUTO
-      let toggle_mode_button_039 = await driver.waitForComponent(ON.id("toggle_mode_button_039"), 500)
+      let toggle_mode_button_039 = await driver.waitForComponent(ON.id('toggle_mode_button_039'), 500)
       await toggle_mode_button_039.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤5：已点击切换按钮，mode切换为AUTO（聚拢）')
@@ -1488,12 +1488,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_040 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot040")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot040')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件测试按钮
-      let test_button_040 = await driver.waitForComponent(ON.id("test_button_040"), 500)
+      let test_button_040 = await driver.waitForComponent(ON.id('test_button_040'), 500)
       await test_button_040.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件测试按钮')
@@ -1509,8 +1509,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤5：已选中几个相邻或不相邻的ListItem子组件（项目1、2相邻，项目5、8、10不相邻，共5项）')
       
       // 步骤6：通过手指进行连续多次拖拽
-      let list_item_0_040 = await driver.waitForComponent(ON.id("list_item_0_040"), 500)
-      let drop_zone_040 = await driver.waitForComponent(ON.id("drop_zone_040"), 500)
+      let list_item_0_040 = await driver.waitForComponent(ON.id('list_item_0_040'), 500)
+      let drop_zone_040 = await driver.waitForComponent(ON.id('drop_zone_040'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_0_040.getBoundsCenter()
@@ -1549,12 +1549,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_041 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot041")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot041')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件测试按钮
-      let test_button_041 = await driver.waitForComponent(ON.id("test_button_041"), 500)
+      let test_button_041 = await driver.waitForComponent(ON.id('test_button_041'), 500)
       await test_button_041.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件测试按钮')
@@ -1570,8 +1570,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤5：已选中几个相邻或不相邻的ListItem子组件（项目1、2相邻，项目5、8、10不相邻，共5项）')
       
       // 步骤6：通过手指进行连续多次拖拽
-      let list_item_0_041 = await driver.waitForComponent(ON.id("list_item_0_041"), 500)
-      let drop_zone_041 = await driver.waitForComponent(ON.id("drop_zone_041"), 500)
+      let list_item_0_041 = await driver.waitForComponent(ON.id('list_item_0_041'), 500)
+      let drop_zone_041 = await driver.waitForComponent(ON.id('drop_zone_041'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_0_041.getBoundsCenter()
@@ -1610,12 +1610,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_042 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot042")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot042')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件测试按钮
-      let test_button_042 = await driver.waitForComponent(ON.id("test_button_042"), 500)
+      let test_button_042 = await driver.waitForComponent(ON.id('test_button_042'), 500)
       await test_button_042.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件测试按钮')
@@ -1625,7 +1625,7 @@ export default function customizeGatherOrNot() {
       await Utils.sleep(500)
       
       // 步骤4：设备切换横屏（点击横屏切换按钮）
-      let toggle_landscape_button_042 = await driver.waitForComponent(ON.id("toggle_landscape_button_042"), 500)
+      let toggle_landscape_button_042 = await driver.waitForComponent(ON.id('toggle_landscape_button_042'), 500)
       await toggle_landscape_button_042.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤4：设备已切换横屏模式')
@@ -1634,8 +1634,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤5：已选中几个相邻或不相邻的ListItem子组件（项目1、2相邻，项目5、8、10不相邻，共5项）')
       
       // 步骤6：通过手指进行连续多次拖拽
-      let list_item_0_042 = await driver.waitForComponent(ON.id("list_item_0_042"), 500)
-      let drop_zone_042 = await driver.waitForComponent(ON.id("drop_zone_042"), 500)
+      let list_item_0_042 = await driver.waitForComponent(ON.id('list_item_0_042'), 500)
+      let drop_zone_042 = await driver.waitForComponent(ON.id('drop_zone_042'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_0_042.getBoundsCenter()
@@ -1673,12 +1673,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_057 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot057")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot057')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件Modifier测试按钮
-      let test_button_057 = await driver.waitForComponent(ON.id("test_button_057"), 500)
+      let test_button_057 = await driver.waitForComponent(ON.id('test_button_057'), 500)
       await test_button_057.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件Modifier测试按钮')
@@ -1691,8 +1691,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已选中几个相邻的GridItem子组件（第5、6、9、10项，形成2x2相邻区域）')
       
       // 步骤5：通过鼠标进行拖拽
-      let grid_item_4_057 = await driver.waitForComponent(ON.id("grid_item_4_057"), 500)
-      let drop_zone_057 = await driver.waitForComponent(ON.id("drop_zone_057"), 500)
+      let grid_item_4_057 = await driver.waitForComponent(ON.id('grid_item_4_057'), 500)
+      let drop_zone_057 = await driver.waitForComponent(ON.id('drop_zone_057'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_4_057.getBoundsCenter()
@@ -1730,12 +1730,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_058 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot058")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot058')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击Grid组件Modifier测试按钮
-      let test_button_058 = await driver.waitForComponent(ON.id("test_button_058"), 500)
+      let test_button_058 = await driver.waitForComponent(ON.id('test_button_058'), 500)
       await test_button_058.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击Grid组件Modifier测试按钮')
@@ -1748,8 +1748,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已选中几个不相邻的GridItem子组件（第1、4、10、15项，分散在不同位置）')
       
       // 步骤5：通过鼠标进行拖拽
-      let grid_item_0_058 = await driver.waitForComponent(ON.id("grid_item_0_058"), 500)
-      let drop_zone_058 = await driver.waitForComponent(ON.id("drop_zone_058"), 500)
+      let grid_item_0_058 = await driver.waitForComponent(ON.id('grid_item_0_058'), 500)
+      let drop_zone_058 = await driver.waitForComponent(ON.id('drop_zone_058'), 500)
       
       // 获取GridItem和释放区域的位置
       let gridItemBounds = await grid_item_0_058.getBoundsCenter()
@@ -1787,12 +1787,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_061 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot061")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot061')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件Modifier测试按钮
-      let test_button_061 = await driver.waitForComponent(ON.id("test_button_061"), 500)
+      let test_button_061 = await driver.waitForComponent(ON.id('test_button_061'), 500)
       await test_button_061.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件Modifier测试按钮')
@@ -1805,8 +1805,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已选中几个相邻的ListItem子组件（第2、3、4、5项，连续相邻）')
       
       // 步骤5：通过鼠标进行拖拽
-      let list_item_1_061 = await driver.waitForComponent(ON.id("list_item_1_061"), 500)
-      let drop_zone_061 = await driver.waitForComponent(ON.id("drop_zone_061"), 500)
+      let list_item_1_061 = await driver.waitForComponent(ON.id('list_item_1_061'), 500)
+      let drop_zone_061 = await driver.waitForComponent(ON.id('drop_zone_061'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_1_061.getBoundsCenter()
@@ -1844,12 +1844,12 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', `SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_062 start.`);
       
       // 步骤1：打开hap
-      Settings.createWindow("testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot062")
+      Settings.createWindow('testability/pages/scenario/misc/customizeGatherOrNot/CustomizeGatherOrNot062')
       let driver: Driver = await Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击List组件Modifier测试按钮
-      let test_button_062 = await driver.waitForComponent(ON.id("test_button_062"), 500)
+      let test_button_062 = await driver.waitForComponent(ON.id('test_button_062'), 500)
       await test_button_062.click()
       await Utils.sleep(500)
       Logger.info('TEST', '步骤2：已点击List组件Modifier测试按钮')
@@ -1862,8 +1862,8 @@ export default function customizeGatherOrNot() {
       Logger.info('TEST', '步骤4：已选中几个不相邻的ListItem子组件（第1、3、6、8项，分散在不同位置）')
       
       // 步骤5：通过鼠标进行拖拽
-      let list_item_0_062 = await driver.waitForComponent(ON.id("list_item_0_062"), 500)
-      let drop_zone_062 = await driver.waitForComponent(ON.id("drop_zone_062"), 500)
+      let list_item_0_062 = await driver.waitForComponent(ON.id('list_item_0_062'), 500)
+      let drop_zone_062 = await driver.waitForComponent(ON.id('drop_zone_062'), 500)
       
       // 获取ListItem和释放区域的位置
       let listItemBounds = await list_item_0_062.getBoundsCenter()

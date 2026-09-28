@@ -66,7 +66,7 @@ export default function uIPositionOffsetTest() {
     it('SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0080',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0080 start.`);
-        Settings.createWindow("testability/pages/scenario/misc/UIPositionOffsetTestCase/UIPositionOffsetTestCase001");
+        Settings.createWindow('testability/pages/scenario/misc/UIPositionOffsetTestCase/UIPositionOffsetTestCase001');
         await Utils.sleep(1000);
         let driver1:Driver = Driver.create();
         let button1: Component = await driver1.findComponent(ON.id('Toggle Top'));
@@ -109,7 +109,7 @@ export default function uIPositionOffsetTest() {
     it('SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370 start.`);
-        Settings.createWindow("testability/pages/scenario/misc/UIPositionOffsetTestCase/UIPositionOffsetTestCase002");
+        Settings.createWindow('testability/pages/scenario/misc/UIPositionOffsetTestCase/UIPositionOffsetTestCase002');
         await Utils.sleep(1000);
         let driver1:Driver = Driver.create();
         let button1: Component = await driver1.findComponent(ON.id('Toggle Top'));

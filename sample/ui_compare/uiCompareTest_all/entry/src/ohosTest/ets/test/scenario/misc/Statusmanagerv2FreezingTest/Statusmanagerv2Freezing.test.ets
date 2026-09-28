@@ -49,7 +49,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing60")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing60')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -71,7 +71,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing90")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing90')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -96,7 +96,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing70")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing70')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -121,7 +121,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing110")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing110')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -146,7 +146,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing20")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing20')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -171,7 +171,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing80")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing80')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -196,7 +196,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing30")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing30')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -221,7 +221,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing160")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing160')
       await windowSnap.snapShot()
       await Utils.sleep(3000)
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0160 finish.`);
@@ -238,7 +238,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing50")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing50')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0160 finish.`);
@@ -255,7 +255,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing100")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing100')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -280,7 +280,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing150")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing150')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -305,7 +305,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0140 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing140")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing140')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -330,7 +330,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing130")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing130')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -355,7 +355,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing10")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing10')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -380,7 +380,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0170 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing170")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing170')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -405,7 +405,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0210 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing210")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing210')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -430,7 +430,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0200 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing200")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing200')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -455,7 +455,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0190 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing190")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing190')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -480,7 +480,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0180 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing180")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing180')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('test'), 1000);  // 显式等待组件出现[6](@ref)
@@ -505,7 +505,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0230 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing230")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing230')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0230 finish.`);
@@ -539,7 +539,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0220 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing220")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing220')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0220 finish.`);
@@ -556,7 +556,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing240")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing240')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0240 finish.`);
@@ -671,7 +671,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing40")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing40')
 
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0040 finish.`);
       done();
@@ -687,7 +687,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0320 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing320")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing320')
 
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0320 finish.`);
       done();
@@ -703,7 +703,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGERV2_FREEZING_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0330 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing330")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Statusmanagerv2Freezing330')
 
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_FREEZING_0330 finish.`);
       done();
@@ -719,7 +719,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/Appstoragev2Persistancev2more20")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/Appstoragev2Persistancev2more20')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020 finish.`);
       done();
     })
@@ -734,7 +734,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev290")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev290')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0090 finish.`);
       done();
     })
@@ -749,7 +749,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev250")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev250')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0050 finish.`);
       done();
     })
@@ -765,7 +765,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev250")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev250')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0010 finish.`);
       done();
     })
@@ -780,7 +780,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev250")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev250')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0060 finish.`);
       done();
     })
@@ -795,7 +795,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2100")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2100')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0100 finish.`);
       done();
     })
@@ -810,7 +810,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2110")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2110')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0110 finish.`);
       done();
     })
@@ -825,7 +825,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2150")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2150')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0150 finish.`);
       done();
     })
@@ -841,7 +841,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2120")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2120')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0120 finish.`);
       done();
     })
@@ -856,7 +856,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0200 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2200")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2200')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0200 finish.`);
       done();
     })
@@ -871,7 +871,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0210 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2210")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2210')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0210 finish.`);
       done();
     })
@@ -886,7 +886,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0220 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2220")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2220')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0220 finish.`);
       done();
     })
@@ -901,7 +901,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0230 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2230")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2230')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0230 finish.`);
       done();
     })
@@ -916,7 +916,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2240")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2240')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0240 finish.`);
       done();
     })
@@ -931,7 +931,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0250 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2250")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2250')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0250 finish.`);
       done();
     })
@@ -946,7 +946,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0260 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2260")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2260')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0260 finish.`);
       done();
     })
@@ -961,7 +961,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0270 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2270")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2270')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0270 finish.`);
       done();
     })
@@ -976,7 +976,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0280 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2280")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2280')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0280 finish.`);
       done();
     })
@@ -991,7 +991,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0310 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2310")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2310')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0310 finish.`);
       done();
     })
@@ -1006,7 +1006,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0300 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2300")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2300')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0300 finish.`);
       done();
     })
@@ -1021,7 +1021,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0320 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2320")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2320')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0320 finish.`);
       done();
     })
@@ -1036,7 +1036,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0330 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2330")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2330')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0330 finish.`);
       done();
     })
@@ -1051,7 +1051,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0340 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2340")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2340')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0340 finish.`);
       done();
     })
@@ -1066,7 +1066,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0350 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2350")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2350')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0350 finish.`);
       done();
     })
@@ -1081,7 +1081,7 @@ export default function statusmanagerv2Freezing() {
      */
     it('SUB_ACE_STATUSMANAGER_RUSABLEV2_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0360 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2360")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerv2Freezing/StatusmanagerRusablev2360')
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_RUSABLEV2_0360 finish.`);
       done();
     })

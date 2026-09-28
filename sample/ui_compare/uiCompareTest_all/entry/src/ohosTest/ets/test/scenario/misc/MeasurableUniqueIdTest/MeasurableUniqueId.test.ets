@@ -52,7 +52,7 @@ export default function measurableUniqueId() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0010 start.`);
       
       // 步骤1：进入测试正确修改FrameNode的通用属性页面
-      Settings.createWindow("testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0010")
+      Settings.createWindow('testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0010')
       let driver = await Driver.create();
       await Utils.sleep(500)
       
@@ -60,7 +60,7 @@ export default function measurableUniqueId() {
       await driver.waitForIdle(2000, 3000)
 
       // 点击按钮获取FrameNode的UniqueId
-      let getUniqueIdButton = await driver.waitForComponent(ON.id("get_uniqueid_button"), 500)
+      let getUniqueIdButton = await driver.waitForComponent(ON.id('get_uniqueid_button'), 500)
       await getUniqueIdButton.click()
       await Utils.sleep(1000)
 
@@ -84,7 +84,7 @@ export default function measurableUniqueId() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0020 start.`);
       
       // 步骤1：进入测试正确修改FrameNode的通用属性页面
-      Settings.createWindow("testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0020")
+      Settings.createWindow('testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0020')
       let driver = await Driver.create();
       await Utils.sleep(500)
       
@@ -92,7 +92,7 @@ export default function measurableUniqueId() {
       await driver.waitForIdle(2000, 3000)
       
       // 点击按钮修改FrameNode属性
-      let modifyButton = await driver.waitForComponent(ON.id("modify_framenode_button"), 500)
+      let modifyButton = await driver.waitForComponent(ON.id('modify_framenode_button'), 500)
       await modifyButton.click()
       await Utils.sleep(1000)
       
@@ -116,7 +116,7 @@ export default function measurableUniqueId() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0030 start.`);
       
       // 步骤1：进入测试正确调用FrameNode的Get系列API
-      Settings.createWindow("testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0030")
+      Settings.createWindow('testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0030')
       let driver = await Driver.create();
       await Utils.sleep(500)
       
@@ -124,17 +124,17 @@ export default function measurableUniqueId() {
       await driver.waitForIdle(2000, 3000)
       
       // 步骤2：点击一下获取子组件的MeasureId按钮
-      let getMeasureIdButton = await driver.waitForComponent(ON.id("get_measure_id_button"), 500)
+      let getMeasureIdButton = await driver.waitForComponent(ON.id('get_measure_id_button'), 500)
       await getMeasureIdButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击getChildNumber按钮
-      let getChildNumberButton = await driver.waitForComponent(ON.id("get_child_number_button"), 500)
+      let getChildNumberButton = await driver.waitForComponent(ON.id('get_child_number_button'), 500)
       await getChildNumberButton.click()
       await Utils.sleep(1000)
       
       // 点击获取其他Get系列API信息按钮
-      let getOtherInfoButton = await driver.waitForComponent(ON.id("get_other_info_button"), 500)
+      let getOtherInfoButton = await driver.waitForComponent(ON.id('get_other_info_button'), 500)
       await getOtherInfoButton.click()
       await Utils.sleep(1000)
 
@@ -158,7 +158,7 @@ export default function measurableUniqueId() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0040 start.`);
       
       // 步骤1：进入测试正确修改FrameNode的通用属性页面
-      Settings.createWindow("testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0040")
+      Settings.createWindow('testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0040')
       let driver = await Driver.create();
       await Utils.sleep(500)
       
@@ -166,14 +166,14 @@ export default function measurableUniqueId() {
       await driver.waitForIdle(2000, 3000)
       
       // 先点击按钮添加通用事件
-      let addEventsButton = await driver.waitForComponent(ON.id("add_events_button"), 500)
+      let addEventsButton = await driver.waitForComponent(ON.id('add_events_button'), 500)
       await addEventsButton.click()
       await Utils.sleep(1000)
       
       // 步骤2：点击三个粉色方块
-      let nodeContainer0 = await driver.waitForComponent(ON.id("node_container_0"), 500)
-      let nodeContainer1 = await driver.waitForComponent(ON.id("node_container_1"), 500)
-      let nodeContainer2 = await driver.waitForComponent(ON.id("node_container_2"), 500)
+      let nodeContainer0 = await driver.waitForComponent(ON.id('node_container_0'), 500)
+      let nodeContainer1 = await driver.waitForComponent(ON.id('node_container_1'), 500)
+      let nodeContainer2 = await driver.waitForComponent(ON.id('node_container_2'), 500)
       
       await nodeContainer0.click()
       await Utils.sleep(500)
@@ -201,7 +201,7 @@ export default function measurableUniqueId() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0050 start.`);
       
       // 步骤1：进入测试正确添加FrameNode的手势事件
-      Settings.createWindow("testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0050")
+      Settings.createWindow('testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0050')
       let driver = await Driver.create();
       await Utils.sleep(500)
       
@@ -209,14 +209,14 @@ export default function measurableUniqueId() {
       await driver.waitForIdle(2000, 3000)
       
       // 先点击按钮添加滑动手势事件
-      let addPanGestureButton = await driver.waitForComponent(ON.id("add_pan_gesture_button"), 500)
+      let addPanGestureButton = await driver.waitForComponent(ON.id('add_pan_gesture_button'), 500)
       await addPanGestureButton.click()
       await Utils.sleep(1000)
       
       // 步骤2：手指在三个粉色方块上滑动
-      let nodeContainer0 = await driver.waitForComponent(ON.id("node_container_0"), 500)
-      let nodeContainer1 = await driver.waitForComponent(ON.id("node_container_1"), 500)
-      let nodeContainer2 = await driver.waitForComponent(ON.id("node_container_2"), 500)
+      let nodeContainer0 = await driver.waitForComponent(ON.id('node_container_0'), 500)
+      let nodeContainer1 = await driver.waitForComponent(ON.id('node_container_1'), 500)
+      let nodeContainer2 = await driver.waitForComponent(ON.id('node_container_2'), 500)
       
       // 在第一个粉色方块上滑动
       await nodeContainer0.dragTo(nodeContainer0)
@@ -249,7 +249,7 @@ export default function measurableUniqueId() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0060 start.`);
       
       // 步骤1：进入测试正确添加FrameNode的手势事件
-      Settings.createWindow("testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0060")
+      Settings.createWindow('testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0060')
       let driver = await Driver.create();
       await Utils.sleep(500)
       
@@ -257,14 +257,14 @@ export default function measurableUniqueId() {
       await driver.waitForIdle(2000, 3000)
       
       // 先点击按钮添加长按手势事件
-      let addLongPressGestureButton = await driver.waitForComponent(ON.id("add_longpress_gesture_button"), 500)
+      let addLongPressGestureButton = await driver.waitForComponent(ON.id('add_longpress_gesture_button'), 500)
       await addLongPressGestureButton.click()
       await Utils.sleep(1000)
       
       // 步骤2：手指在三个粉色方块上长按
-      let nodeContainer0 = await driver.waitForComponent(ON.id("node_container_0"), 500)
-      let nodeContainer1 = await driver.waitForComponent(ON.id("node_container_1"), 500)
-      let nodeContainer2 = await driver.waitForComponent(ON.id("node_container_2"), 500)
+      let nodeContainer0 = await driver.waitForComponent(ON.id('node_container_0'), 500)
+      let nodeContainer1 = await driver.waitForComponent(ON.id('node_container_1'), 500)
+      let nodeContainer2 = await driver.waitForComponent(ON.id('node_container_2'), 500)
       
       // 在第一个粉色方块上长按
       await nodeContainer0.longClick()
@@ -297,7 +297,7 @@ export default function measurableUniqueId() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0070 start.`);
       
       // 步骤1：进入测试正确添加FrameNode的手势事件
-      Settings.createWindow("testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0070")
+      Settings.createWindow('testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0070')
       let driver = await Driver.create();
       await Utils.sleep(500)
       
@@ -305,14 +305,14 @@ export default function measurableUniqueId() {
       await driver.waitForIdle(2000, 3000)
       
       // 先点击按钮添加双击手势事件
-      let addDoubleTapGestureButton = await driver.waitForComponent(ON.id("add_doubletap_gesture_button"), 500)
+      let addDoubleTapGestureButton = await driver.waitForComponent(ON.id('add_doubletap_gesture_button'), 500)
       await addDoubleTapGestureButton.click()
       await Utils.sleep(1000)
       
       // 步骤2：手指在三个粉色方块上双击
-      let nodeContainer0 = await driver.waitForComponent(ON.id("node_container_0"), 500)
-      let nodeContainer1 = await driver.waitForComponent(ON.id("node_container_1"), 500)
-      let nodeContainer2 = await driver.waitForComponent(ON.id("node_container_2"), 500)
+      let nodeContainer0 = await driver.waitForComponent(ON.id('node_container_0'), 500)
+      let nodeContainer1 = await driver.waitForComponent(ON.id('node_container_1'), 500)
+      let nodeContainer2 = await driver.waitForComponent(ON.id('node_container_2'), 500)
       
       // 在第一个粉色方块上双击
       await nodeContainer0.doubleClick()
@@ -347,7 +347,7 @@ export default function measurableUniqueId() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0080 start.`);
       
       // 步骤1：进入测试正确调用FrameNode的子节点增删API
-      Settings.createWindow("testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0080")
+      Settings.createWindow('testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0080')
       let driver = await Driver.create();
       await Utils.sleep(500)
       
@@ -355,7 +355,7 @@ export default function measurableUniqueId() {
       await driver.waitForIdle(2000, 3000)
       
       // 步骤2：在末尾添加子节点
-      let addChildNodeButton = await driver.waitForComponent(ON.id("add_child_node_button"), 500)
+      let addChildNodeButton = await driver.waitForComponent(ON.id('add_child_node_button'), 500)
       await addChildNodeButton.click()
       await Utils.sleep(1000)
       
@@ -384,7 +384,7 @@ export default function measurableUniqueId() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0090 start.`);
       
       // 步骤1：进入测试正确调用FrameNode的子节点增删API
-      Settings.createWindow("testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0090")
+      Settings.createWindow('testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0090')
       let driver = await Driver.create();
       await Utils.sleep(500)
       
@@ -392,7 +392,7 @@ export default function measurableUniqueId() {
       await driver.waitForIdle(2000, 3000)
       
       // 步骤2：在第六个节点后添加子节点
-      let insertChildNodeButton = await driver.waitForComponent(ON.id("insert_child_node_button"), 500)
+      let insertChildNodeButton = await driver.waitForComponent(ON.id('insert_child_node_button'), 500)
       await insertChildNodeButton.click()
       await Utils.sleep(1000)
       
@@ -419,7 +419,7 @@ export default function measurableUniqueId() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0100 start.`);
       
       // 步骤1：进入测试正确调用FrameNode的子节点增删API
-      Settings.createWindow("testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0100")
+      Settings.createWindow('testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0100')
       let driver = await Driver.create();
       await Utils.sleep(500)
       
@@ -427,7 +427,7 @@ export default function measurableUniqueId() {
       await driver.waitForIdle(2000, 3000)
       
       // 步骤2：移除一个子节点
-      let removeChildNodeButton = await driver.waitForComponent(ON.id("remove_child_node_button"), 500)
+      let removeChildNodeButton = await driver.waitForComponent(ON.id('remove_child_node_button'), 500)
       await removeChildNodeButton.click()
       await Utils.sleep(1000)
 
@@ -450,7 +450,7 @@ export default function measurableUniqueId() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0110 start.`);
       
       // 步骤1：进入测试正确调用FrameNode的子节点增删API
-      Settings.createWindow("testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0110")
+      Settings.createWindow('testability/pages/scenario/misc/measurableUniqueId/MeasurableUniqueId0110')
       let driver = await Driver.create();
       await Utils.sleep(500)
       
@@ -458,7 +458,7 @@ export default function measurableUniqueId() {
       await driver.waitForIdle(2000, 3000)
       
       // 步骤2：清除所有子节点
-      let clearAllChildrenButton = await driver.waitForComponent(ON.id("clear_all_children_button"), 500)
+      let clearAllChildrenButton = await driver.waitForComponent(ON.id('clear_all_children_button'), 500)
       await clearAllChildrenButton.click()
       await Utils.sleep(1000)
 

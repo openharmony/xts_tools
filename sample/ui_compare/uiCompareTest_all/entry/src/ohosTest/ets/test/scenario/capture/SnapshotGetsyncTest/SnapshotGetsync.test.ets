@@ -49,7 +49,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync80")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync80')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -72,7 +72,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0210 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync210")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync210')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -94,7 +94,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync100")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync100')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -116,7 +116,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync110")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync110')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -138,7 +138,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync120")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync120')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -160,7 +160,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0190 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync190")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync190')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -182,7 +182,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0250 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync250")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync250')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -204,7 +204,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0180 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync180")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync180')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -226,7 +226,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0200 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync200")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync200')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -248,7 +248,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0170 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync170")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync170')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -270,7 +270,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0220 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync220")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync220')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -292,7 +292,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0260 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync260")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync260')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -314,7 +314,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync60")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync60')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -336,7 +336,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0270 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync270")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync270')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -358,7 +358,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync240")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync240')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -380,7 +380,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0280 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync280")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync280')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -402,7 +402,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0320 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync320")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync320')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -424,7 +424,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0300 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync300")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync300')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -446,7 +446,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0350 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync350")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync350')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -468,7 +468,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0290 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync290")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync290')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -490,7 +490,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0310 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync310")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync310')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -512,7 +512,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0340 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync340")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync340')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -534,7 +534,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0390 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync390")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync390')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -556,7 +556,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0360 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync360")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync360')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -578,7 +578,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0420 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync420")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync420')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -600,7 +600,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0370 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync370")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync370')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -622,7 +622,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0410 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync410")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync410')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -644,7 +644,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0380 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync380")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync380')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -666,7 +666,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0430 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync430")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync430')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -688,7 +688,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0440 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync440")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync440')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -710,7 +710,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0550 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync550")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync550')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -732,7 +732,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0450 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync450")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync450')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0450 finish.`);
@@ -749,7 +749,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0330 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync330")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync330')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -771,7 +771,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0560 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync560")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync560')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -793,7 +793,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0460 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync460")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync460')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0460 finish.`);
@@ -810,7 +810,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync90")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync90')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0090 finish.`);
@@ -827,7 +827,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0490 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync490")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync490')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0490 finish.`);
@@ -844,7 +844,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync50")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync50')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0050 finish.`);
@@ -861,7 +861,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0470 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync470")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync470')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0470 finish.`);
@@ -878,7 +878,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync10")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync10')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0010 finish.`);
@@ -895,7 +895,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0480 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync480")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync480')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0480 finish.`);
@@ -912,7 +912,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync160")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync160')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0160 finish.`);
@@ -929,7 +929,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0500 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync500")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync500')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0500 finish.`);
@@ -946,7 +946,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync70")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync70')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0070 finish.`);
@@ -963,7 +963,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync30")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync30')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0030 finish.`);
@@ -980,7 +980,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0140 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync140")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync140')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0140 finish.`);
@@ -997,7 +997,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync20")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync20')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0020 finish.`);
@@ -1014,7 +1014,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync150")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync150')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0150 finish.`);
@@ -1031,7 +1031,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0130 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync130")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync130')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0130 finish.`);
@@ -1048,7 +1048,7 @@ export default function snapshotGetsync() {
      */
     it('SUB_ACE_UI_SNAPSHOT_GETSYNC_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync40")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotGetsync/SnapshotGetsync40')
       windowSnap.snapShot();
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_GETSYNC_0040 finish.`);

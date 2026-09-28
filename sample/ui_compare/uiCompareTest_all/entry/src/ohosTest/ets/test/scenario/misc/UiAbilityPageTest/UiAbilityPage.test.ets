@@ -47,7 +47,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage10")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage10')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -68,7 +68,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage20")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage20')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -89,7 +89,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage30")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage30')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -110,7 +110,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage40")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage40')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -131,7 +131,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage50")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage50')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -152,7 +152,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage60")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage60')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -173,7 +173,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage70")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage70')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -194,7 +194,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage80")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage80')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -215,7 +215,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage90")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage90')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -236,7 +236,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage110")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage110')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -257,7 +257,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage120")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage120')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -278,7 +278,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0130 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage130")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage130')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -299,7 +299,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0140 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage140")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage140')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -318,7 +318,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage150")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage150')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -339,7 +339,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0170 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage170")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage170')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -360,7 +360,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0180 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage180")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage180')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -381,7 +381,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0190 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage190")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage190')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -402,7 +402,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0200 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage200")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage200')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -423,7 +423,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0210 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage210")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage210')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -444,7 +444,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0220 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage220")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage220')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -465,7 +465,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0230 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage230")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage230')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -486,7 +486,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage240")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage240')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -507,7 +507,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0260 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage260")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage260')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -528,7 +528,7 @@ export default function uiAbilityPage() {
      */
     it('SUB_ACE_UI_ABILITY_PAGE_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0270 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage270")
+      Settings.createWindow('testability/pages/scenario/misc/uiAbilityPage/UiAbilityPage270')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();

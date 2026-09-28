@@ -48,14 +48,14 @@ export default function statusManagerV2WithThemeTest() {
     it('SUB_ACE_STATUSMANAGERV2_WITHTHEME_0020', Level.LEVEL0, async (done: Function) => {
       const caseName: string ='SUB_ACE_STATUSMANAGERV2_WITHTHEME_0020';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/scenario/color_mode/StatusManagerV2WithTheme/StatusManagerV2WithTheme001");
+      Settings.createWindow('testability/pages/scenario/color_mode/StatusManagerV2WithTheme/StatusManagerV2WithTheme001');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('dark'), 1000);
       await button1.click();
       let button2: Component = await driver.waitForComponent(ON.id('TextPickerDialog'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_STATUSMANAGERV2_WITHTHEME_0020");
+      windowSnap.snapShot('SUB_ACE_STATUSMANAGERV2_WITHTHEME_0020');
       let list: Component = await driver.waitForComponent(ON.id('screen'), 1000);
       let rect = await list.getBounds();
       console.log(`${caseName} point of List is ${JSON.stringify(rect)}`);

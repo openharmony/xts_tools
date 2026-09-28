@@ -66,7 +66,7 @@ export default function uIFrameworkTest() {
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0240',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase001");
+      Settings.createWindow('testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase001');
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let NodeContainer: Component = await driver.findComponent(ON.id('NodeContainer'));
@@ -93,7 +93,7 @@ export default function uIFrameworkTest() {
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0150',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase002");
+      Settings.createWindow('testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase002');
       await Utils.sleep(500);
       windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0150_1`);
       await Utils.sleep(500);
@@ -121,7 +121,7 @@ export default function uIFrameworkTest() {
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase003");
+      Settings.createWindow('testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase003');
       await Utils.sleep(1000);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('setEnabled'));
@@ -151,7 +151,7 @@ export default function uIFrameworkTest() {
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_0240',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase004");
+      Settings.createWindow('testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase004');
       await Utils.sleep(500);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('setShadow'));
@@ -174,7 +174,7 @@ export default function uIFrameworkTest() {
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3180',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3180 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase005");
+      Settings.createWindow('testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase005');
       await Utils.sleep(500);
       let driver:Driver = Driver.create();
       let button: Component = await driver.findComponent(ON.id('setRotation'));
@@ -197,7 +197,7 @@ export default function uIFrameworkTest() {
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3210',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3210 start.`);
-        Settings.createWindow("testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase006");
+        Settings.createWindow('testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase006');
         await Utils.sleep(500);
         let driver:Driver = Driver.create();
         let button: Component = await driver.findComponent(ON.id('setRotation'));
@@ -220,7 +220,7 @@ export default function uIFrameworkTest() {
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3220',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3220 start.`);
-        Settings.createWindow("testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase007");
+        Settings.createWindow('testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase007');
         await Utils.sleep(500);
         let driver:Driver = Driver.create();
         let button: Component = await driver.findComponent(ON.id('setRotation'));
@@ -243,7 +243,7 @@ export default function uIFrameworkTest() {
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3250',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3250 start.`);
-        Settings.createWindow("testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase008");
+        Settings.createWindow('testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase008');
         await Utils.sleep(500);
         let driver:Driver = Driver.create();
         let button: Component = await driver.findComponent(ON.id('setRotation'));
@@ -266,7 +266,7 @@ export default function uIFrameworkTest() {
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3190',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3190 start.`);
-        Settings.createWindow("testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase009");
+        Settings.createWindow('testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase009');
         await Utils.sleep(500);
         let driver:Driver = Driver.create();
         let button: Component = await driver.findComponent(ON.id('setRotation'));
@@ -289,7 +289,7 @@ export default function uIFrameworkTest() {
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3200',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3200 start.`);
-        Settings.createWindow("testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase010");
+        Settings.createWindow('testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase010');
         await Utils.sleep(500);
         let driver:Driver = Driver.create();
         let button: Component = await driver.findComponent(ON.id('setRotation'));
@@ -312,7 +312,7 @@ export default function uIFrameworkTest() {
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3240',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3240 start.`);
-        Settings.createWindow("testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase011");
+        Settings.createWindow('testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase011');
         await Utils.sleep(500);
         let driver:Driver = Driver.create();
         let button: Component = await driver.findComponent(ON.id('setRotation'));
@@ -335,7 +335,7 @@ export default function uIFrameworkTest() {
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_ONTOUCH_0050',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_ONTOUCH_0050 start.`);
-        Settings.createWindow("testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase012");
+        Settings.createWindow('testability/pages/scenario/misc/UIFrameworkTestCase/UIFrameworkTestCase012');
         await Utils.sleep(500);
         let driver:Driver = Driver.create();
         let button: Component = await driver.findComponent(ON.id('NodeContainer'));

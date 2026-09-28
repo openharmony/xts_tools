@@ -50,7 +50,7 @@ export default function specialComponentsTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0290 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/special_components/menuController")
+      Settings.createWindow('testability/pages/scenario/misc/special_components/menuController')
       await Utils.sleep(1000)
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('getContextClick'), 1000);
@@ -79,7 +79,7 @@ export default function specialComponentsTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0250 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/special_components/textInput")
+      Settings.createWindow('testability/pages/scenario/misc/special_components/textInput')
       await Utils.sleep(1000)
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('textInput01'), 1000);

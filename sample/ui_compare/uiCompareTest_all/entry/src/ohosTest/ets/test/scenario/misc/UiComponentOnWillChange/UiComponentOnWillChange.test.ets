@@ -64,7 +64,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange01");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange01');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -86,7 +86,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange02");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange02');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -113,7 +113,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange03");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange03');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -135,7 +135,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange04");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange04');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -157,7 +157,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange05");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange05');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -184,7 +184,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0170 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange06");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange06');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -207,7 +207,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0180 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange07");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange07');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -230,7 +230,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0190 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange08");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange08');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -253,7 +253,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange09");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange09');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -275,7 +275,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange10");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange10');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -297,7 +297,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange11");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange11');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -319,7 +319,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange12");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange12');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -341,7 +341,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange13");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange13');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -364,7 +364,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0260 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange14");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange14');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -386,7 +386,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0140 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange15");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange15');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -411,7 +411,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange16");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange16');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -436,7 +436,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange17");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange17');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -461,7 +461,7 @@ export default function uiComponentOnWillChange() {
      */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange18");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentOnWillChange/UiComponentOnWillChange18');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();

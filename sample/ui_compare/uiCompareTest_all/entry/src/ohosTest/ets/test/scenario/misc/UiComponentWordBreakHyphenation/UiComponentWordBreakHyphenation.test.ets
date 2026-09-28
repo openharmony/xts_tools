@@ -64,7 +64,7 @@ export default function uiComponentWordBreakHyphenation() {
      */
     it('SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation01")
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -83,14 +83,14 @@ export default function uiComponentWordBreakHyphenation() {
      */
     it('SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0190 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation02");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation02');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0190_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0190_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentWordBreakHyphenation02'),1000);
       for(let i=0;i<4;++i) {
         await button01.click();
-        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0190_0"+i+2);
+        windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0190_0'+i+2);
         await driver.waitForIdle(500,2000);
       }
       await Utils.sleep(1000);
@@ -108,7 +108,7 @@ export default function uiComponentWordBreakHyphenation() {
      */
     it('SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation03")
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation03')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -127,7 +127,7 @@ export default function uiComponentWordBreakHyphenation() {
      */
     it('SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation04")
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation04')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

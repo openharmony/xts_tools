@@ -47,10 +47,10 @@ export default function uIComponentOtherAlphabetIndexerWidth() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uIComponentOtherAlphabetIndexerWidth/UIComponentOtherAlphabetIndexerWidth001");
+      Settings.createWindow('testability/pages/scenario/misc/uIComponentOtherAlphabetIndexerWidth/UIComponentOtherAlphabetIndexerWidth001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0070");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0070');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0070 finish.`);
       done();
@@ -66,10 +66,10 @@ export default function uIComponentOtherAlphabetIndexerWidth() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uIComponentOtherAlphabetIndexerWidth/UIComponentOtherAlphabetIndexerWidth002");
+      Settings.createWindow('testability/pages/scenario/misc/uIComponentOtherAlphabetIndexerWidth/UIComponentOtherAlphabetIndexerWidth002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0080");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0080');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0080 finish.`);
       done();

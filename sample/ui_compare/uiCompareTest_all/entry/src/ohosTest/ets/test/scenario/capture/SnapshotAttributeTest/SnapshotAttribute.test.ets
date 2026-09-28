@@ -52,7 +52,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0230 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel230")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel230')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -73,7 +73,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0690 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel690")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel690')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0690 finish.`);
@@ -90,7 +90,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0290 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel290")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel290')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0290 finish.`);
@@ -107,7 +107,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0790', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0790 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel790")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel790')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0790 finish.`);
@@ -124,7 +124,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0200 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel200")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel200')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0200 finish.`);
@@ -141,7 +141,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0720 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel720")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel720')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0720 finish.`);
@@ -158,7 +158,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0260 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel260")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel260')
       windowSnap.snapShot();
       await Utils.sleep(10000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0260 finish.`);
@@ -175,7 +175,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0740 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel740")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel740')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0740 finish.`);
@@ -193,7 +193,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0220 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel220")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel220')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -214,7 +214,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0770 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel770")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel770')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0770 finish.`);
@@ -231,7 +231,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0280 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel280")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel280')
       windowSnap.snapShot();
       await Utils.sleep(10000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0280 finish.`);
@@ -249,7 +249,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0270 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel270")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel270')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0270 finish.`);
@@ -267,7 +267,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0780 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel780")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel780')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0780 finish.`);
@@ -284,7 +284,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0760 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel760")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel760')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0760 finish.`);
@@ -302,7 +302,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0330 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel330")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel330')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0330 finish.`);
@@ -319,7 +319,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0830 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel830")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel830')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0830 finish.`);
@@ -336,7 +336,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0350 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel350")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel350')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0350 finish.`);
@@ -353,7 +353,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0840 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel840")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel840')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0840 finish.`);
@@ -371,7 +371,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0300 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel300")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel300')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0300 finish.`);
@@ -389,7 +389,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0250 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel250")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel250')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0250 finish.`);
@@ -406,7 +406,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0810 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel810")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel810')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0810 finish.`);
@@ -424,7 +424,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0750 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel750")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel750')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0750 finish.`);
@@ -441,7 +441,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0320 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel320")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel320')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0320 finish.`);
@@ -458,7 +458,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0800', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0800 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel800")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel800')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0800 finish.`);
@@ -475,7 +475,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0340 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel340")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel340')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0340 finish.`);
@@ -492,7 +492,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0850', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0850 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel850")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel850')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0850 finish.`);
@@ -509,7 +509,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0310 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel310")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel310')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0310 finish.`);
@@ -526,7 +526,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0820 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel820")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel820')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0820 finish.`);
@@ -543,7 +543,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0360 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel360")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel360')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0360 finish.`);
@@ -560,7 +560,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0860 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel860")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel860')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0860 finish.`);
@@ -577,7 +577,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel240")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel240')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0240 finish.`);
@@ -594,7 +594,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0730 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel730")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel730')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0730 finish.`);
@@ -611,7 +611,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0400 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel400")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel400')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0400 finish.`);
@@ -628,7 +628,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0880', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0880 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel880")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel880')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0880 finish.`);
@@ -645,7 +645,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0370 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel370")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel370')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0370 finish.`);
@@ -662,7 +662,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0890', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0890 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel890")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel890')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0890 finish.`);
@@ -679,7 +679,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0390 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel390")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel390')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0390 finish.`);
@@ -696,7 +696,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0870 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel870")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel870')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0870 finish.`);
@@ -713,7 +713,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0380 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel380")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel380')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0380 finish.`);
@@ -730,7 +730,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0900 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel900")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel900')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0900 finish.`);
@@ -748,7 +748,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0430 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel430")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel430')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0430 finish.`);
@@ -765,7 +765,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0910', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0910 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel910")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel910')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0910 finish.`);
@@ -782,7 +782,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0460 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel460")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel460')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0460 finish.`);
@@ -799,7 +799,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0450 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel450")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel450')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0450 finish.`);
@@ -816,7 +816,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0410 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel410")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel410')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0410 finish.`);
@@ -833,7 +833,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0440 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel440")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel440')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0440 finish.`);
@@ -850,7 +850,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0920', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0920 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel920")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel920')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0920 finish.`);
@@ -867,7 +867,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0470 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel470")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel470')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0470 finish.`);
@@ -884,7 +884,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0560 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel560")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel560')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0560 finish.`);
@@ -901,7 +901,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0480 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel480")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel480')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0480 finish.`);
@@ -918,7 +918,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel10")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel10')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0010 finish.`);
@@ -935,7 +935,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0530 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel530")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel530')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0530 finish.`);
@@ -952,7 +952,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0490 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel490")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel490')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0490 finish.`);
@@ -969,7 +969,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel40")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel40')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0040 finish.`);
@@ -986,7 +986,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0520 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel520")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel520')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0520 finish.`);
@@ -1003,7 +1003,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel30")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel30')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0030 finish.`);
@@ -1020,7 +1020,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0570 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel570")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel570')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0570 finish.`);
@@ -1037,7 +1037,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel150")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel150')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0150 finish.`);
@@ -1054,7 +1054,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0620 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel620")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel620')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0620 finish.`);
@@ -1071,7 +1071,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel20")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel20')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0020 finish.`);
@@ -1088,7 +1088,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0500 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel500")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel500')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0500 finish.`);
@@ -1105,7 +1105,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel100")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel100')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0100 finish.`);
@@ -1122,7 +1122,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0580 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel580")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel580')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0580 finish.`);
@@ -1139,7 +1139,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0140 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel140")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel140')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0140 finish.`);
@@ -1156,7 +1156,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0590 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel590")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel590')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0590 finish.`);
@@ -1173,7 +1173,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel110")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel110')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0110 finish.`);
@@ -1190,7 +1190,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0540 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel540")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel540')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0540 finish.`);
@@ -1207,7 +1207,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel120")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel120')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0120 finish.`);
@@ -1224,7 +1224,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0600 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel600")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel600')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0600 finish.`);
@@ -1241,7 +1241,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel50")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel50')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0050 finish.`);
@@ -1258,7 +1258,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0550 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel550")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel550')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0550 finish.`);
@@ -1275,7 +1275,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel60")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel60')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0060 finish.`);
@@ -1292,7 +1292,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0610 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel610")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel610')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0610 finish.`);
@@ -1309,7 +1309,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel90")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel90')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0090 finish.`);
@@ -1326,7 +1326,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0510 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel510")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel510')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0510 finish.`);
@@ -1343,7 +1343,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0130 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel130")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel130')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0130 finish.`);
@@ -1360,7 +1360,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0630 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel630")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel630')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0630 finish.`);
@@ -1377,7 +1377,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel160")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel160')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0160 finish.`);
@@ -1394,7 +1394,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0670 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel670")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel670')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0670 finish.`);
@@ -1411,7 +1411,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel70")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel70')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0070 finish.`);
@@ -1428,7 +1428,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0640 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel640")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel640')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0640 finish.`);
@@ -1445,7 +1445,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel80")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel80')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0080 finish.`);
@@ -1462,7 +1462,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0680 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel680")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel680')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0680 finish.`);
@@ -1479,7 +1479,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0180 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel180")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel180')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0180 finish.`);
@@ -1496,7 +1496,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0700 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel700")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel700')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0700 finish.`);
@@ -1513,7 +1513,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0700 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel170")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel170')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0170 finish.`);
@@ -1530,7 +1530,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0660 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel660")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel660')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0660 finish.`);
@@ -1547,7 +1547,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0190 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel190")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel190')
       let driver:Driver = Driver.create();
       // 点击Snapshotlevel0_2按钮
       let btnLevel = await driver.waitForComponent(ON.id('btn_level'), 1000);
@@ -1582,7 +1582,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0650 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel650")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel650')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0650 finish.`);
@@ -1599,7 +1599,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0210 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel210")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel210')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0210 finish.`);
@@ -1616,7 +1616,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0710 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel710")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshotlevel710')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0710 finish.`);
@@ -1633,7 +1633,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UNIQUEID_GET_SNAPSHOT_002', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UNIQUEID_GET_SNAPSHOT_002 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshot002")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshot002')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -1658,7 +1658,7 @@ export default function snapshotAttribute() {
      */
     it('SUB_ACE_UNIQUEID_GET_SNAPSHOT_001', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UNIQUEID_GET_SNAPSHOT_001 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotAttribute/Snapshot001")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotAttribute/Snapshot001')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)

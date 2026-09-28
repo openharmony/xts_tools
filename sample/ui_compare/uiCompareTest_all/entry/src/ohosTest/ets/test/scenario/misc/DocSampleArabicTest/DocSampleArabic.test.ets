@@ -49,12 +49,12 @@ export default function docSampleArabic() {
      */
     it('SUB_ACE_DOC_SAMPLE_ARABIC_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_SAMPLE_ARABIC_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/docSampleArabic/DocSampleArabic0020")
+      Settings.createWindow('testability/pages/scenario/misc/docSampleArabic/DocSampleArabic0020')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击切换到阿拉伯语按钮
-      let buttonSwitchToArabic = await driver.waitForComponent(ON.id("button_switch_to_arabic"), 3000)
+      let buttonSwitchToArabic = await driver.waitForComponent(ON.id('button_switch_to_arabic'), 3000)
       if (buttonSwitchToArabic) {
         await buttonSwitchToArabic.click()
         await Utils.sleep(1000)
@@ -62,7 +62,7 @@ export default function docSampleArabic() {
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击切换到中文按钮
-      let buttonSwitchToChinese = await driver.waitForComponent(ON.id("button_switch_to_chinese"), 3000)
+      let buttonSwitchToChinese = await driver.waitForComponent(ON.id('button_switch_to_chinese'), 3000)
       if (buttonSwitchToChinese) {
         await buttonSwitchToChinese.click()
         await Utils.sleep(1000)
@@ -83,12 +83,12 @@ export default function docSampleArabic() {
      */
     it('SUB_ACE_DOC_SAMPLE_ARABIC_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_SAMPLE_ARABIC_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/docSampleArabic/DocSampleArabic0030")
+      Settings.createWindow('testability/pages/scenario/misc/docSampleArabic/DocSampleArabic0030')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击切换到阿拉伯语按钮
-      let buttonSwitchToArabic = await driver.waitForComponent(ON.id("button_switch_to_arabic"), 3000)
+      let buttonSwitchToArabic = await driver.waitForComponent(ON.id('button_switch_to_arabic'), 3000)
       if (buttonSwitchToArabic) {
         await buttonSwitchToArabic.click()
         await Utils.sleep(1000)
@@ -96,7 +96,7 @@ export default function docSampleArabic() {
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击切换到中文按钮
-      let buttonSwitchToChinese = await driver.waitForComponent(ON.id("button_switch_to_chinese"), 3000)
+      let buttonSwitchToChinese = await driver.waitForComponent(ON.id('button_switch_to_chinese'), 3000)
       if (buttonSwitchToChinese) {
         await buttonSwitchToChinese.click()
         await Utils.sleep(1000)
@@ -117,12 +117,12 @@ export default function docSampleArabic() {
      */
     it('SUB_ACE_DOC_SAMPLE_ARABIC_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_SAMPLE_ARABIC_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/docSampleArabic/DocSampleArabic0040")
+      Settings.createWindow('testability/pages/scenario/misc/docSampleArabic/DocSampleArabic0040')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击切换到阿拉伯语按钮
-      let buttonSwitchToArabic = await driver.waitForComponent(ON.id("button_switch_to_arabic"), 3000)
+      let buttonSwitchToArabic = await driver.waitForComponent(ON.id('button_switch_to_arabic'), 3000)
       if (buttonSwitchToArabic) {
         await buttonSwitchToArabic.click()
         await Utils.sleep(1000)
@@ -130,7 +130,7 @@ export default function docSampleArabic() {
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击切换到中文按钮
-      let buttonSwitchToChinese = await driver.waitForComponent(ON.id("button_switch_to_chinese"), 3000)
+      let buttonSwitchToChinese = await driver.waitForComponent(ON.id('button_switch_to_chinese'), 3000)
       if (buttonSwitchToChinese) {
         await buttonSwitchToChinese.click()
         await Utils.sleep(1000)
@@ -151,12 +151,12 @@ export default function docSampleArabic() {
      */
     it('SUB_ACE_DOC_SAMPLE_ARABIC_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_SAMPLE_ARABIC_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/docSampleArabic/DocSampleArabic0050")
+      Settings.createWindow('testability/pages/scenario/misc/docSampleArabic/DocSampleArabic0050')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击切换到阿拉伯语按钮
-      let buttonSwitchToArabic = await driver.waitForComponent(ON.id("button_switch_to_arabic"), 3000)
+      let buttonSwitchToArabic = await driver.waitForComponent(ON.id('button_switch_to_arabic'), 3000)
       if (buttonSwitchToArabic) {
         await buttonSwitchToArabic.click()
         await Utils.sleep(1000)
@@ -164,7 +164,7 @@ export default function docSampleArabic() {
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击切换到中文按钮
-      let buttonSwitchToChinese = await driver.waitForComponent(ON.id("button_switch_to_chinese"), 3000)
+      let buttonSwitchToChinese = await driver.waitForComponent(ON.id('button_switch_to_chinese'), 3000)
       if (buttonSwitchToChinese) {
         await buttonSwitchToChinese.click()
         await Utils.sleep(1000)
@@ -185,12 +185,12 @@ export default function docSampleArabic() {
      */
     it('SUB_ACE_DOC_SAMPLE_ARABIC_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_SAMPLE_ARABIC_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/docSampleArabic/DocSampleArabic0060")
+      Settings.createWindow('testability/pages/scenario/misc/docSampleArabic/DocSampleArabic0060')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击切换到阿拉伯语按钮
-      let buttonSwitchToArabic = await driver.waitForComponent(ON.id("button_switch_to_arabic"), 3000)
+      let buttonSwitchToArabic = await driver.waitForComponent(ON.id('button_switch_to_arabic'), 3000)
       if (buttonSwitchToArabic) {
         await buttonSwitchToArabic.click()
         await Utils.sleep(1000)
@@ -198,7 +198,7 @@ export default function docSampleArabic() {
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击切换到维吾尔语按钮
-      let buttonSwitchToUyghur = await driver.waitForComponent(ON.id("button_switch_to_uyghur"), 3000)
+      let buttonSwitchToUyghur = await driver.waitForComponent(ON.id('button_switch_to_uyghur'), 3000)
       if (buttonSwitchToUyghur) {
         await buttonSwitchToUyghur.click()
         await Utils.sleep(1000)
@@ -219,12 +219,12 @@ export default function docSampleArabic() {
      */
     it('SUB_ACE_DOC_SAMPLE_ARABIC_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_SAMPLE_ARABIC_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/docSampleArabic/DocSampleArabic0070")
+      Settings.createWindow('testability/pages/scenario/misc/docSampleArabic/DocSampleArabic0070')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击切换到阿拉伯语按钮
-      let buttonSwitchToArabic = await driver.waitForComponent(ON.id("button_switch_to_arabic"), 3000)
+      let buttonSwitchToArabic = await driver.waitForComponent(ON.id('button_switch_to_arabic'), 3000)
       if (buttonSwitchToArabic) {
         await buttonSwitchToArabic.click()
         await Utils.sleep(1000)
@@ -232,7 +232,7 @@ export default function docSampleArabic() {
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击切换到中文按钮
-      let buttonSwitchToChinese = await driver.waitForComponent(ON.id("button_switch_to_chinese"), 3000)
+      let buttonSwitchToChinese = await driver.waitForComponent(ON.id('button_switch_to_chinese'), 3000)
       if (buttonSwitchToChinese) {
         await buttonSwitchToChinese.click()
         await Utils.sleep(1000)

@@ -47,7 +47,7 @@ export default function statusManagerV2RepeatFreezeStatusManagerTest() {
      */
     it('SUB_ACE_STATUSMANAGERV2_REPEATFREEZE_STATUSMANAGER_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_REPEATFREEZE_STATUSMANAGER_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/StatusManagerV2RepeatFreezeStatusManager/StatusManagerV2RepeatFreezeStatusManager001");
+      Settings.createWindow('testability/pages/scenario/misc/StatusManagerV2RepeatFreezeStatusManager/StatusManagerV2RepeatFreezeStatusManager001');
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('delete'), 1000);
       await button1.click();

@@ -64,13 +64,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete01");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete01');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0040_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0040_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete01'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0040_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0040_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0040 finish.`);
       done();
@@ -86,13 +86,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete02");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete02');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0030_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0030_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete02'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0030_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0030_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0030 finish.`);
       done();
@@ -108,13 +108,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete03");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete03');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0050_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0050_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete03'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0050_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0050_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0050 finish.`);
       done();
@@ -130,13 +130,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete04");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete04');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0020_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0020_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete04'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0020_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0020_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0020 finish.`);
       done();
@@ -152,13 +152,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete05");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete05');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0240_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0240_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete05'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0240_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0240_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0240 finish.`);
       done();
@@ -174,13 +174,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete06");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete06');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0100_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0100_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete06'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0100_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0100_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0100_02 finish.`);
       done();
@@ -196,13 +196,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete07");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete07');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0010_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0010_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete07'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0010_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0010_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0010 finish.`);
       done();
@@ -218,13 +218,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete08");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete08');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0060_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0060_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete08'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0060_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0060_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0060 finish.`);
       done();
@@ -240,13 +240,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete09");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete09');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0160_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0160_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete09'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0160_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0160_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0160 finish.`);
       done();
@@ -262,13 +262,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete10");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete10');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0070_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0070_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete10'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0070_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0070_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0070 finish.`);
       done();
@@ -284,13 +284,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete11");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete11');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0150_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0150_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete11'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0150_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0150_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0150 finish.`);
       done();
@@ -306,13 +306,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete12");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete12');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0080_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0080_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete12'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0080_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0080_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0080 finish.`);
       done();
@@ -328,13 +328,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0140 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete13");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete13');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0140_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0140_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete13'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0140_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0140_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0140 finish.`);
       done();
@@ -350,13 +350,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete14");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete14');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0090_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0090_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete14'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0090_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0090_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0090 finish.`);
       done();
@@ -372,13 +372,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete15");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete15');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0110_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0110_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete15'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0110_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0110_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0110 finish.`);
       done();
@@ -394,13 +394,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0130 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete16");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete16');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0130_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0130_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete16'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0130_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0130_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0130 finish.`);
       done();
@@ -416,13 +416,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete17");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete17');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0120_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0120_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete17'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0120_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0120_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0120 finish.`);
       done();
@@ -438,13 +438,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0170 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete18");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete18');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0170_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0170_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete18'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0170_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0170_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0170 finish.`);
       done();
@@ -460,13 +460,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0190 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete19");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete19');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0190_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0190_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete19'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0190_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0190_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0190 finish.`);
       done();
@@ -482,13 +482,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0180 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete20");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete20');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0180_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0180_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete20'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0180_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0180_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0180 finish.`);
       done();
@@ -504,13 +504,13 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0260 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete21");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete21');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0260_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0260_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete21'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0260_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0260_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0260 finish.`);
       done();
@@ -526,18 +526,18 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0270 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete22");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete22');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0270_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0270_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete22_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete22_02'),1000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0270_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0270_02');
       await driver.waitForIdle(500,2000);
       await button02.click();
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0270_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0270_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0270 finish.`);
       done();
@@ -553,18 +553,18 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0280', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0280 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete23");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete23');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0280_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0280_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete23_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete23_02'),1000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0280_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0280_02');
       await driver.waitForIdle(500,2000);
       await button02.click();
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0280_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0280_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0280 finish.`);
       done();
@@ -580,18 +580,18 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0310 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete24");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete24');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0310_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0310_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete24_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete24_02'),1000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0310_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0310_02');
       await driver.waitForIdle(500,2000);
       await button02.click();
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0310_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0310_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0310 finish.`);
       done();
@@ -607,23 +607,23 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete25");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete25');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340_01');
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete25_01'),1000);
       let textinput: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete25_02'),1000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete25_03'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete25_04'),1000);
       await button01.click();
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340_02');
       await driver.waitForIdle(500,2000);
       await textarea.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340_03');
       await driver.waitForIdle(500,2000);
       await textinput.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340_04');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340 finish.`);
       done();
@@ -639,18 +639,18 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0330 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete26");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete26');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0330_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0330_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete26_1'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete26_2'),1000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0330_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0330_02');
       await driver.waitForIdle(500,2000);
       await button02.click();
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0330_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0330_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0330 finish.`);
       done();
@@ -666,20 +666,20 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0350 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete27");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete27');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0350_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0350_01');
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete27_01'),1000);
       let textinput: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete27_02'),1000);
       let button: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete27_03'),1000);
       await textarea.click();
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0350_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0350_02');
       await driver.waitForIdle(500,2000);
       await textinput.click();
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0350_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0350_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0350 finish.`);
       done();
@@ -695,10 +695,10 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete28");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete28');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370_01');
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete28_01'),1000);
       let textinput: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete28_02'),1000);
       let search: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete28_03'),1000);
@@ -707,18 +707,18 @@ export default function uiComponentControllerAddDelete() {
       await textarea.click();
       await button01.click();
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370_02');
       await driver.waitForIdle(500,2000);
       await textinput.click();
       await button01.click();
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370_03');
       await driver.waitForIdle(500,2000);
       await search.click();
-      await search.inputText("hello world")
+      await search.inputText('hello world')
       await button01.click();
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370_04');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370 finish.`);
       done();
@@ -734,17 +734,17 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0380 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete29");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete29');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0380_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0380_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete29_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete29_02'),1000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0380_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0380_02');
       await driver.waitForIdle(500,2000);
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0380_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0380_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0380 finish.`);
       done();
@@ -760,17 +760,17 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0390 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete30");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete30');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0390_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0390_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete30_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete30_02'),1000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0390_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0390_02');
       await driver.waitForIdle(500,2000);
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0390_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0390_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0390 finish.`);
       done();
@@ -786,17 +786,17 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0400 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete31");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete31');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0400_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0400_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete31_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete31_02'),1000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0400_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0400_02');
       await driver.waitForIdle(500,2000);
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0400_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0400_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0400 finish.`);
       done();
@@ -812,14 +812,14 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0450', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0450 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete32");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete32');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0450_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0450_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete32_01'),1000);
       await button01.click();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0450_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0450_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0450 finish.`);
       done();
@@ -835,17 +835,17 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0410 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete33");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete33');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0410_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0410_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete33_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete33_02'),1000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0410_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0410_02');
       await driver.waitForIdle(500,2000);
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0410_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0410_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0450 finish.`);
       done();
@@ -861,10 +861,10 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete34");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete34');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete34_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete34_02'),1000);
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete34_03'),1000);
@@ -872,16 +872,16 @@ export default function uiComponentControllerAddDelete() {
       let button05: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete34_05'),1000);
       await button03.click();
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200_02');
       await driver.waitForIdle(500,2000);
       await button04.click();
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200_03');
       await driver.waitForIdle(500,2000);
       await button05.inputText('aaaaa');
       await button02.click();
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200_04');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200 finish.`);
       done();
@@ -897,10 +897,10 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete35");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete35');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete35_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete35_02'),1000);
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete35_03'),1000);
@@ -908,17 +908,17 @@ export default function uiComponentControllerAddDelete() {
       let button05: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete35_05'),1000);
       await button03.click();
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220_02');
       await driver.waitForIdle(500,2000);
       await button04.click();
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220_03');
       await driver.waitForIdle(500,2000);
       await button05.inputText('aaaaa');
       await button02.click();
       await driver.triggerKey(9);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220_04');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220 finish.`);
       done();
@@ -934,18 +934,18 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0440', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0440 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete36");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete36');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0440_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0440_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete36_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete36_02'),1000);
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0440_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0440_02');
       await driver.waitForIdle(500,2000);
       await button01.click();
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0440_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0440_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0440 finish.`);
       done();
@@ -961,27 +961,27 @@ export default function uiComponentControllerAddDelete() {
      */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete37");
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentControllerAddDelete/UiComponentControllerAddDelete37');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete37_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete37_02'),1000);
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete37_03'),1000);
       let button04: Component = await driver.waitForComponent(ON.id('UiComponentControllerAddDelete37_04'),1000);
       await button01.click();
       await button04.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250_02');
       await driver.waitForIdle(500,2000);
       await button02.click();
       await button04.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250_03');
       await driver.waitForIdle(500,2000);
       await button03.inputText('aaaaaaaaaaaaa');
       await driver.doubleClick(200, 450);
       await driver.mouseClick({x:200, y:400}, MouseButton.MOUSE_BUTTON_LEFT, 2072);
       await button04.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250_04');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220 finish.`);
       done();

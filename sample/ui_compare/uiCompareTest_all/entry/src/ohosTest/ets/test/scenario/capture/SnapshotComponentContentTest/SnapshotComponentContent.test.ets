@@ -49,7 +49,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0020")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0020')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -71,7 +71,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0090")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0090')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -93,7 +93,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0100")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0100')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -115,7 +115,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0070")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0070')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -137,7 +137,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0080")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0080')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -159,7 +159,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0030")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0030')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -181,7 +181,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0160")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0160')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -203,7 +203,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0520 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0520")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0520')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -225,7 +225,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0590 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0590")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0590')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -247,7 +247,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0570 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0570")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0570')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -269,7 +269,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0560 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0560")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0560')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -291,7 +291,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0580 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0580")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0580')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -313,7 +313,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0530 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0530")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0530')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -335,7 +335,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0630 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0630")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0630')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -357,7 +357,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0510 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0510")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0510')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -379,7 +379,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0660 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0660")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0660')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -401,7 +401,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0670 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0670")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0670')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -423,7 +423,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0680 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0680")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0680')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -445,7 +445,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0690 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0690")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0690')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -467,7 +467,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0710 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0710")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0710')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -489,7 +489,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0720 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0720")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0720')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -511,7 +511,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0700 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0700")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0700')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -533,7 +533,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0400 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0400")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0400')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -555,7 +555,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0410 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0410")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0410')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -577,7 +577,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0420 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0420")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0420')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -599,7 +599,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0440 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0440")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0440')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -621,7 +621,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0460 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0460")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0460')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -643,7 +643,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0470 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0470")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0470')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -665,7 +665,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0500 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0500")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0500')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -687,7 +687,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0170 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0170")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0170')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -709,7 +709,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0180 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0180")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0180')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -731,7 +731,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0190 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0190")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0190')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -753,7 +753,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0210 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0210")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0210')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -775,7 +775,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0220 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0220")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0220')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -797,7 +797,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0200 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0200")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0200')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -819,7 +819,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0230 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0230")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0230')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -841,7 +841,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0240")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0240')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -863,7 +863,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0250 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0250")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0250')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -885,7 +885,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0260 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0260")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0260')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -907,7 +907,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0260 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0270")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0270')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -929,7 +929,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0280 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0280")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0280')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -951,7 +951,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0110")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0110')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -973,7 +973,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0130 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0130")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0130')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -995,7 +995,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0140 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0140")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0140')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -1017,7 +1017,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0150")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0150')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000, 5000); // 增加最大等待时间到 5 秒
       let Button1: Component = await driver.waitForComponent(ON.id('btn'), 3000); // 最长等3秒
@@ -1044,7 +1044,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0120")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0120')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -1066,7 +1066,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0300 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0300")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0300')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -1088,7 +1088,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0290 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0290")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0290')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -1110,7 +1110,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0310 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0310")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0310')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -1132,7 +1132,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0330 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0330")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0330')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -1154,7 +1154,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0340 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0340")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0340')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -1176,7 +1176,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0350 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0350")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0350')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000, 5000); // 增加最大等待时间到 5 秒
       let Button1: Component = await driver.waitForComponent(ON.id('btn'), 3000); // 最长等3秒
@@ -1203,7 +1203,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0360 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0360")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0360')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000, 5000); // 增加最大等待时间到 5 秒
       let Button1: Component = await driver.waitForComponent(ON.id('btn'), 3000); // 最长等3秒
@@ -1230,7 +1230,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0370 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0370")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0370')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -1252,7 +1252,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0380 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0380")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0380')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);
@@ -1274,7 +1274,7 @@ export default function snapshotComponentContent() {
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0390 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0390")
+      Settings.createWindow('testability/pages/scenario/capture/snapshotComponentContent/SnapshotComponentContent0390')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('btn'),1000);

@@ -51,7 +51,7 @@ export default function foregroundColor() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0018', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0018 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/foregroundColor/ForegroundColor0018")
+      Settings.createWindow('testability/pages/scenario/misc/foregroundColor/ForegroundColor0018')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -72,7 +72,7 @@ export default function foregroundColor() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0022', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0022 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/foregroundColor/ForegroundColor0022")
+      Settings.createWindow('testability/pages/scenario/misc/foregroundColor/ForegroundColor0022')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -93,7 +93,7 @@ export default function foregroundColor() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0012', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0012 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/foregroundColor/ForegroundColor0012")
+      Settings.createWindow('testability/pages/scenario/misc/foregroundColor/ForegroundColor0012')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -114,7 +114,7 @@ export default function foregroundColor() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/foregroundColor/ForegroundColor0010")
+      Settings.createWindow('testability/pages/scenario/misc/foregroundColor/ForegroundColor0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -135,7 +135,7 @@ export default function foregroundColor() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0011', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0011 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/foregroundColor/ForegroundColor0011")
+      Settings.createWindow('testability/pages/scenario/misc/foregroundColor/ForegroundColor0011')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -156,7 +156,7 @@ export default function foregroundColor() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0015 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/foregroundColor/ForegroundColor0015")
+      Settings.createWindow('testability/pages/scenario/misc/foregroundColor/ForegroundColor0015')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -177,7 +177,7 @@ export default function foregroundColor() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0014', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0014 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/foregroundColor/ForegroundColor0014")
+      Settings.createWindow('testability/pages/scenario/misc/foregroundColor/ForegroundColor0014')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -198,7 +198,7 @@ export default function foregroundColor() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0016 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/foregroundColor/ForegroundColor0016")
+      Settings.createWindow('testability/pages/scenario/misc/foregroundColor/ForegroundColor0016')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -219,7 +219,7 @@ export default function foregroundColor() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0019 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/foregroundColor/ForegroundColor0019")
+      Settings.createWindow('testability/pages/scenario/misc/foregroundColor/ForegroundColor0019')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -240,7 +240,7 @@ export default function foregroundColor() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/foregroundColor/ForegroundColor0020")
+      Settings.createWindow('testability/pages/scenario/misc/foregroundColor/ForegroundColor0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -261,7 +261,7 @@ export default function foregroundColor() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0023', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0023 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/foregroundColor/ForegroundColor0023")
+      Settings.createWindow('testability/pages/scenario/misc/foregroundColor/ForegroundColor0023')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)

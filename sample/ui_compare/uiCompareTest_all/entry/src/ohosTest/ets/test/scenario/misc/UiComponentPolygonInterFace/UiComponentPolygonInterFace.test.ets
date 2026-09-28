@@ -64,7 +64,7 @@ export default function uiComponentPolygonInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_POLYGON_INTERFACE_0790', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POLYGON_INTERFACE_0790 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentPolygonInterFace/UiComponentPolygonInterFace01")
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentPolygonInterFace/UiComponentPolygonInterFace01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -83,7 +83,7 @@ export default function uiComponentPolygonInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_POLYGON_INTERFACE_0800', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POLYGON_INTERFACE_0800 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentPolygonInterFace/UiComponentPolygonInterFace02")
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentPolygonInterFace/UiComponentPolygonInterFace02')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

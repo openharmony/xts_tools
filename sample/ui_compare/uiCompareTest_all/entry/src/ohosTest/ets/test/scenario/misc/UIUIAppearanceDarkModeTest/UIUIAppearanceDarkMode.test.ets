@@ -68,7 +68,7 @@ export default function uIUIAppearanceDarkMode() {
      */
     it('SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0020';
-      let pageName = "UIUIAppearanceDarkMode0020";
+      let pageName = 'UIUIAppearanceDarkMode0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/scenario/misc/uIUIAppearanceDarkMode/' + pageName);
       let driver: Driver = Driver.create();
@@ -96,7 +96,7 @@ export default function uIUIAppearanceDarkMode() {
      */
     it('SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0030';
-      let pageName = "UIUIAppearanceDarkMode0030";
+      let pageName = 'UIUIAppearanceDarkMode0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/scenario/misc/uIUIAppearanceDarkMode/' + pageName);
       let driver: Driver = Driver.create();
@@ -124,7 +124,7 @@ export default function uIUIAppearanceDarkMode() {
      */
     it('SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0040';
-      let pageName = "UIUIAppearanceDarkMode0040";
+      let pageName = 'UIUIAppearanceDarkMode0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/scenario/misc/uIUIAppearanceDarkMode/' + pageName);
       let driver: Driver = Driver.create();
@@ -152,7 +152,7 @@ export default function uIUIAppearanceDarkMode() {
      */
     it('SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0050';
-      let pageName = "UIUIAppearanceDarkMode0050";
+      let pageName = 'UIUIAppearanceDarkMode0050';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/scenario/misc/uIUIAppearanceDarkMode/' + pageName);
       let driver: Driver = Driver.create();
@@ -180,7 +180,7 @@ export default function uIUIAppearanceDarkMode() {
      */
     it('SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0060';
-      let pageName = "UIUIAppearanceDarkMode0060";
+      let pageName = 'UIUIAppearanceDarkMode0060';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/scenario/misc/uIUIAppearanceDarkMode/' + pageName);
       let driver: Driver = Driver.create();

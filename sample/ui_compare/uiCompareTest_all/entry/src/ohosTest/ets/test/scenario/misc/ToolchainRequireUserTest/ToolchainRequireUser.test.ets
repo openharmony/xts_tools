@@ -49,7 +49,7 @@ export default function toolchainRequireUser() {
      */
     it('SUB_ACE_TOOLCHAIN_REQUIRE_USER_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_REQUIRE_USER_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/toolchainRequireUser/ToolchainRequireUser0010")
+      Settings.createWindow('testability/pages/scenario/misc/toolchainRequireUser/ToolchainRequireUser0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -68,7 +68,7 @@ export default function toolchainRequireUser() {
      */
     it('SUB_ACE_TOOLCHAIN_REQUIRE_USER_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_REQUIRE_USER_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/toolchainRequireUser/ToolchainRequireUser0020")
+      Settings.createWindow('testability/pages/scenario/misc/toolchainRequireUser/ToolchainRequireUser0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -87,7 +87,7 @@ export default function toolchainRequireUser() {
      */
     it('SUB_ACE_TOOLCHAIN_REQUIRE_USER_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_REQUIRE_USER_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/toolchainRequireUser/ToolchainRequireUser0030")
+      Settings.createWindow('testability/pages/scenario/misc/toolchainRequireUser/ToolchainRequireUser0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -106,7 +106,7 @@ export default function toolchainRequireUser() {
      */
     it('SUB_ACE_TOOLCHAIN_REQUIRE_USER_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_REQUIRE_USER_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/toolchainRequireUser/ToolchainRequireUser0040")
+      Settings.createWindow('testability/pages/scenario/misc/toolchainRequireUser/ToolchainRequireUser0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -125,7 +125,7 @@ export default function toolchainRequireUser() {
      */
     it('SUB_ACE_TOOLCHAIN_REQUIRE_USER_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_REQUIRE_USER_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/toolchainRequireUser/ToolchainRequireUser0050")
+      Settings.createWindow('testability/pages/scenario/misc/toolchainRequireUser/ToolchainRequireUser0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -144,7 +144,7 @@ export default function toolchainRequireUser() {
      */
     it('SUB_ACE_TOOLCHAIN_REQUIRE_USER_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_REQUIRE_USER_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/toolchainRequireUser/ToolchainRequireUser0060")
+      Settings.createWindow('testability/pages/scenario/misc/toolchainRequireUser/ToolchainRequireUser0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()

@@ -47,20 +47,20 @@ export default function uIImportComponentContentTest() {
      */
     it('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/UIImportComponentContent/UIImportComponentContent001");
+      Settings.createWindow('testability/pages/scenario/misc/UIImportComponentContent/UIImportComponentContent001');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040_03");
+      windowSnap.snapShot('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040_03');
       let button2: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040_02");
+      windowSnap.snapShot('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040_02');
       let button3: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button3.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040");
+      windowSnap.snapShot('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040 finish.`);
       done();
@@ -76,20 +76,20 @@ export default function uIImportComponentContentTest() {
      */
     it('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/UIImportComponentContent/UIImportComponentContent002");
+      Settings.createWindow('testability/pages/scenario/misc/UIImportComponentContent/UIImportComponentContent002');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020_03");
+      windowSnap.snapShot('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020_03');
       let button2: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020_02");
+      windowSnap.snapShot('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020_02');
       let button3: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button3.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020");
+      windowSnap.snapShot('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020');
       await Utils.sleep(2000);
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020 finish.`);
       done();
@@ -105,18 +105,18 @@ export default function uIImportComponentContentTest() {
      */
     it('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/UIImportComponentContent/UIImportComponentContent003");
+      Settings.createWindow('testability/pages/scenario/misc/UIImportComponentContent/UIImportComponentContent003');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button1.click();
-      windowSnap.snapShot("SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030_03");
+      windowSnap.snapShot('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030_03');
       let button2: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button2.click();
-      windowSnap.snapShot("SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030_02");
+      windowSnap.snapShot('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030_02');
       let button3: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button3.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030");
+      windowSnap.snapShot('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030 finish.`);
       done();

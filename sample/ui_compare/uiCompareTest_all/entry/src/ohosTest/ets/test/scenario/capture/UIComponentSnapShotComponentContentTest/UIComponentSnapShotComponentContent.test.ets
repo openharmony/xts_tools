@@ -48,7 +48,7 @@ export default function uIComponentSnapShotComponentContentTest() {
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0010', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0010';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/scenario/capture/UIComponentSnapShotComponentContent/UIComponentSnapShotComponentContent001");
+      Settings.createWindow('testability/pages/scenario/capture/UIComponentSnapShotComponentContent/UIComponentSnapShotComponentContent001');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
@@ -56,7 +56,7 @@ export default function uIComponentSnapShotComponentContentTest() {
       let button1: Component = await driver.waitForComponent(ON.id('snapShot'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0010");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -73,7 +73,7 @@ export default function uIComponentSnapShotComponentContentTest() {
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0650', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0650';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/scenario/capture/UIComponentSnapShotComponentContent/UIComponentSnapShotComponentContent002");
+      Settings.createWindow('testability/pages/scenario/capture/UIComponentSnapShotComponentContent/UIComponentSnapShotComponentContent002');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
@@ -84,7 +84,7 @@ export default function uIComponentSnapShotComponentContentTest() {
       let button2: Component = await driver.waitForComponent(ON.id('snapShot'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0650");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0650');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -101,7 +101,7 @@ export default function uIComponentSnapShotComponentContentTest() {
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0550', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0550';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/scenario/capture/UIComponentSnapShotComponentContent/UIComponentSnapShotComponentContent003");
+      Settings.createWindow('testability/pages/scenario/capture/UIComponentSnapShotComponentContent/UIComponentSnapShotComponentContent003');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
@@ -112,7 +112,7 @@ export default function uIComponentSnapShotComponentContentTest() {
       let button2: Component = await driver.waitForComponent(ON.id('snapShot'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0550");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0550');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -129,7 +129,7 @@ export default function uIComponentSnapShotComponentContentTest() {
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0450', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0450';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/scenario/capture/UIComponentSnapShotComponentContent/UIComponentSnapShotComponentContent004");
+      Settings.createWindow('testability/pages/scenario/capture/UIComponentSnapShotComponentContent/UIComponentSnapShotComponentContent004');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
@@ -140,7 +140,7 @@ export default function uIComponentSnapShotComponentContentTest() {
       let button2: Component = await driver.waitForComponent(ON.id('snapShot'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0450");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0450');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -157,7 +157,7 @@ export default function uIComponentSnapShotComponentContentTest() {
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0480', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0480';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/scenario/capture/UIComponentSnapShotComponentContent/UIComponentSnapShotComponentContent005");
+      Settings.createWindow('testability/pages/scenario/capture/UIComponentSnapShotComponentContent/UIComponentSnapShotComponentContent005');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
@@ -168,7 +168,7 @@ export default function uIComponentSnapShotComponentContentTest() {
       let button2: Component = await driver.waitForComponent(ON.id('snapShot'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0480");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0480');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

@@ -47,7 +47,7 @@ export default function statusManagerV2LazyForEachBetterTest() {
      */
     it('SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/concurrency/StatusManagerV2LazyForEachBetter/StatusManagerV2LazyForEachBetter001");
+      Settings.createWindow('testability/pages/scenario/concurrency/StatusManagerV2LazyForEachBetter/StatusManagerV2LazyForEachBetter001');
       let driver:Driver = Driver.create();
       let list: Component = await driver.waitForComponent(ON.type('List'), 1000);
       let point = await list.getBoundsCenter();
@@ -76,7 +76,7 @@ export default function statusManagerV2LazyForEachBetterTest() {
      */
     it('SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/concurrency/StatusManagerV2LazyForEachBetter/StatusManagerV2LazyForEachBetter003");
+      Settings.createWindow('testability/pages/scenario/concurrency/StatusManagerV2LazyForEachBetter/StatusManagerV2LazyForEachBetter003');
       let driver:Driver = Driver.create();
       let list: Component = await driver.waitForComponent(ON.type('List'), 1000);
       let point = await list.getBoundsCenter();

@@ -51,7 +51,7 @@ export default function statusmanagerComponentreuse() {
      */
     it('SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse20")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse20')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -73,7 +73,7 @@ export default function statusmanagerComponentreuse() {
      */
     it('SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse30")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse30')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -95,7 +95,7 @@ export default function statusmanagerComponentreuse() {
      */
     it('SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse120")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse120')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -117,7 +117,7 @@ export default function statusmanagerComponentreuse() {
      */
     it('SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse60")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse60')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -139,7 +139,7 @@ export default function statusmanagerComponentreuse() {
      */
     it('SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse40")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse40')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -161,7 +161,7 @@ export default function statusmanagerComponentreuse() {
      */
     it('SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse110")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse110')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -183,7 +183,7 @@ export default function statusmanagerComponentreuse() {
      */
     it('SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse100")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse100')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -205,7 +205,7 @@ export default function statusmanagerComponentreuse() {
      */
     it('SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse10")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse10')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -227,7 +227,7 @@ export default function statusmanagerComponentreuse() {
      */
     it('SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse80")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse80')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -250,7 +250,7 @@ export default function statusmanagerComponentreuse() {
      */
     it('SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse50")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse50')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -273,7 +273,7 @@ export default function statusmanagerComponentreuse() {
      */
     it('SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse90")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse90')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -295,7 +295,7 @@ export default function statusmanagerComponentreuse() {
      */
     it('SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse70")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse70')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -317,7 +317,7 @@ export default function statusmanagerComponentreuse() {
      */
     it('SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse150")
+      Settings.createWindow('testability/pages/scenario/misc/statusmanagerComponentreuse/StatusmanagerComponentreuse150')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)

@@ -64,20 +64,20 @@ export default function uiComponentThemeFontFamily() {
      */
     it('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/color_mode/uiComponentThemeFontFamily/UiComponentThemeFontFamily01");
+      Settings.createWindow('testability/pages/scenario/color_mode/uiComponentThemeFontFamily/UiComponentThemeFontFamily01');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0040_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0040_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentThemeFontFamily01_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentThemeFontFamily01_02'),1000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0040_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0040_02');
       await driver.waitForIdle(500,2000);
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0040_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0040_03');
       await driver.waitForIdle(500,2000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0040_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0040_04');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0070 finish.`);
       done();
@@ -93,20 +93,20 @@ export default function uiComponentThemeFontFamily() {
      */
     it('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/color_mode/uiComponentThemeFontFamily/UiComponentThemeFontFamily02");
+      Settings.createWindow('testability/pages/scenario/color_mode/uiComponentThemeFontFamily/UiComponentThemeFontFamily02');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0030_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0030_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentThemeFontFamily02_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentThemeFontFamily02_02'),1000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0030_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0030_02');
       await driver.waitForIdle(500,2000);
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0030_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0030_03');
       await driver.waitForIdle(500,2000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0030_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0030_04');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0030 finish.`);
       done();
@@ -122,20 +122,20 @@ export default function uiComponentThemeFontFamily() {
      */
     it('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/color_mode/uiComponentThemeFontFamily/UiComponentThemeFontFamily03");
+      Settings.createWindow('testability/pages/scenario/color_mode/uiComponentThemeFontFamily/UiComponentThemeFontFamily03');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0010_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0010_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentThemeFontFamily03_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentThemeFontFamily03_02'),1000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0010_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0010_02');
       await driver.waitForIdle(500,2000);
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0010_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0010_03');
       await driver.waitForIdle(500,2000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0010_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0010_04');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0010 finish.`);
       done();
@@ -151,19 +151,19 @@ export default function uiComponentThemeFontFamily() {
      */
     it('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/color_mode/uiComponentThemeFontFamily/UiComponentThemeFontFamily04");
+      Settings.createWindow('testability/pages/scenario/color_mode/uiComponentThemeFontFamily/UiComponentThemeFontFamily04');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0020_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0020_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentThemeFontFamily04_01'),1000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0020_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0020_02');
       await Utils.sleep(1000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0020_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0020_03');
       await Utils.sleep(1000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0020_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0020_04');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0020 finish.`);
       done();

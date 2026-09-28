@@ -46,17 +46,17 @@ export default function uiPcUxconsistency() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_PC_UXCONSISTENCY_0150", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_PC_UXCONSISTENCY_0150', Level.LEVEL3, async (done: Function) => {
       // 步骤1：创建 sidebarcontainer 组件
-      Settings.createWindow("testability/pages/scenario/misc/uiPcUxconsistency/UiPcUxconsistency0150")
+      Settings.createWindow('testability/pages/scenario/misc/uiPcUxconsistency/UiPcUxconsistency0150')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：动态切换 showSideBar 属性
-      let toggleBtn = await driver.waitForComponent(ON.id("button_uxconsistency_0150"), 500)
+      let toggleBtn = await driver.waitForComponent(ON.id('button_uxconsistency_0150'), 500)
       await toggleBtn.click()
       await Utils.sleep(500)
-      let sidebarContainer = await driver.waitForComponent(ON.id("sidebarcontainer_uxconsistency_0150"), 500)
+      let sidebarContainer = await driver.waitForComponent(ON.id('sidebarcontainer_uxconsistency_0150'), 500)
 
 
       // 步骤3：打开应用，点击桌面空白处
@@ -64,7 +64,7 @@ export default function uiPcUxconsistency() {
       await driver.click(sidebarContainer_bounds.right-200,sidebarContainer_bounds.bottom-300)
 
       // 预期效果：showSideBar 属性为显示状态时，页面出现半透明灰色蒙层
-      await windowSnap.snapShot("SUB_ACE_UI_PC_UXCONSISTENCY_0150_01")
+      await windowSnap.snapShot('SUB_ACE_UI_PC_UXCONSISTENCY_0150_01')
       await Utils.sleep(1000)
 
       done();
@@ -78,21 +78,21 @@ export default function uiPcUxconsistency() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_PC_UXCONSISTENCY_0130", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_PC_UXCONSISTENCY_0130', Level.LEVEL3, async (done: Function) => {
       // 步骤1：创建 sidebarcontainer 组件
-      Settings.createWindow("testability/pages/scenario/misc/uiPcUxconsistency/UiPcUxconsistency0130")
+      Settings.createWindow('testability/pages/scenario/misc/uiPcUxconsistency/UiPcUxconsistency0130')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：设置 SideBarPosition 为 Start
-      let sidebarContainer = await driver.waitForComponent(ON.id("sidebarcontainer_uxconsistency_0130"), 500)
+      let sidebarContainer = await driver.waitForComponent(ON.id('sidebarcontainer_uxconsistency_0130'), 500)
       await Utils.sleep(500)
 
       // 步骤3：打开应用，点击桌面空白处
       let sidebarContainer_bounds = await sidebarContainer.getBounds()
       await driver.click(sidebarContainer_bounds.right-200,sidebarContainer_bounds.bottom-300)
       // 预期效果：侧边栏所在区域出现半透明灰色蒙层
-      await windowSnap.snapShot("SUB_ACE_UI_PC_UXCONSISTENCY_0130_01")
+      await windowSnap.snapShot('SUB_ACE_UI_PC_UXCONSISTENCY_0130_01')
       await Utils.sleep(1000)
 
       done();
@@ -106,18 +106,18 @@ export default function uiPcUxconsistency() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_PC_UXCONSISTENCY_0060", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_PC_UXCONSISTENCY_0060', Level.LEVEL3, async (done: Function) => {
       // 步骤1：创建 navigation 组件，默认窗口大小720x1220
-      Settings.createWindow("testability/pages/scenario/misc/uiPcUxconsistency/UiPcUxconsistency0060")
+      Settings.createWindow('testability/pages/scenario/misc/uiPcUxconsistency/UiPcUxconsistency0060')
       let driver = await Driver.create()
       await Utils.sleep(1000)
 
       // 步骤2：设置 NavigationMode 为 Auto，截图初始状态（导航栏显示）
-      let navigation = await driver.waitForComponent(ON.id("navigation_uxconsistency_0060"), 500)
+      let navigation = await driver.waitForComponent(ON.id('navigation_uxconsistency_0060'), 500)
       await Utils.sleep(500)
 
       // 截图初始导航栏显示状态
-      await windowSnap.snapShot("SUB_ACE_UI_PC_UXCONSISTENCY_0060_01")
+      await windowSnap.snapShot('SUB_ACE_UI_PC_UXCONSISTENCY_0060_01')
       await Utils.sleep(1000)
 
       // 步骤3：从下向上缩小窗口到500x900（过渡状态）
@@ -127,7 +127,7 @@ export default function uiPcUxconsistency() {
       await Utils.sleep(1500)
 
       // 截图验证导航栏过渡状态
-      await windowSnap.snapShot("SUB_ACE_UI_PC_UXCONSISTENCY_0060_02")
+      await windowSnap.snapShot('SUB_ACE_UI_PC_UXCONSISTENCY_0060_02')
       await Utils.sleep(1000)
 
       // 步骤4：继续从下向上缩小窗口到360x600，导航栏完全消失
@@ -137,7 +137,7 @@ export default function uiPcUxconsistency() {
       await Utils.sleep(1500)
 
       // 预期效果：导航栏从显示半透明灰色蒙层状态过渡到完全消失状态
-      await windowSnap.snapShot("SUB_ACE_UI_PC_UXCONSISTENCY_0060_03")
+      await windowSnap.snapShot('SUB_ACE_UI_PC_UXCONSISTENCY_0060_03')
       await Utils.sleep(1000)
 
       done();
@@ -151,21 +151,21 @@ export default function uiPcUxconsistency() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_PC_UXCONSISTENCY_0110", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_PC_UXCONSISTENCY_0110', Level.LEVEL3, async (done: Function) => {
       // 步骤1：创建 sidebarcontainer 组件
-      Settings.createWindow("testability/pages/scenario/misc/uiPcUxconsistency/UiPcUxconsistency0110")
+      Settings.createWindow('testability/pages/scenario/misc/uiPcUxconsistency/UiPcUxconsistency0110')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：设置 showSideBar 属性为 true
-      let sidebarContainer = await driver.waitForComponent(ON.id("sidebarcontainer_uxconsistency_0110"), 500)
+      let sidebarContainer = await driver.waitForComponent(ON.id('sidebarcontainer_uxconsistency_0110'), 500)
       await Utils.sleep(500)
 
       // 步骤3：打开应用，点击桌面空白处
       let sidebarContainer_bounds = await sidebarContainer.getBounds()
       await driver.click(sidebarContainer_bounds.right-200,sidebarContainer_bounds.bottom-300)
       // 预期效果：页面无侧边栏显示，且不出现半透明灰色蒙层
-      await windowSnap.snapShot("SUB_ACE_UI_PC_UXCONSISTENCY_0110_01")
+      await windowSnap.snapShot('SUB_ACE_UI_PC_UXCONSISTENCY_0110_01')
       await Utils.sleep(1000)
 
       done();
@@ -179,21 +179,21 @@ export default function uiPcUxconsistency() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_PC_UXCONSISTENCY_0090", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_PC_UXCONSISTENCY_0090', Level.LEVEL3, async (done: Function) => {
       // 步骤1：创建 sidebarcontainer 组件
-      Settings.createWindow("testability/pages/scenario/misc/uiPcUxconsistency/UiPcUxconsistency0090")
+      Settings.createWindow('testability/pages/scenario/misc/uiPcUxconsistency/UiPcUxconsistency0090')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：设置 SideBarContainerType 为 Embed
-      let sidebarContainer = await driver.waitForComponent(ON.id("sidebarcontainer_uxconsistency_0090"), 500)
+      let sidebarContainer = await driver.waitForComponent(ON.id('sidebarcontainer_uxconsistency_0090'), 500)
       await Utils.sleep(500)
 
       // 步骤3：打开应用，点击桌面空白处
       let sidebarContainer_bounds = await sidebarContainer.getBounds()
       await driver.click(sidebarContainer_bounds.right-200,sidebarContainer_bounds.bottom-300)
       // 预期效果：侧边栏所在区域出现半透明灰色蒙层
-      await windowSnap.snapShot("SUB_ACE_UI_PC_UXCONSISTENCY_0090_01")
+      await windowSnap.snapShot('SUB_ACE_UI_PC_UXCONSISTENCY_0090_01')
       await Utils.sleep(1000)
 
       done();
@@ -207,23 +207,23 @@ export default function uiPcUxconsistency() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_PC_UXCONSISTENCY_0170", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_PC_UXCONSISTENCY_0170', Level.LEVEL3, async (done: Function) => {
       // 步骤1：创建 sidebarcontainer 组件
-      Settings.createWindow("testability/pages/scenario/misc/uiPcUxconsistency/UiPcUxconsistency0170")
+      Settings.createWindow('testability/pages/scenario/misc/uiPcUxconsistency/UiPcUxconsistency0170')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：动态切换 SideBarContainerType 属性
-      let toggleBtn = await driver.waitForComponent(ON.id("button_uxconsistency_0170"), 500)
+      let toggleBtn = await driver.waitForComponent(ON.id('button_uxconsistency_0170'), 500)
       await toggleBtn.click()
       await Utils.sleep(500)
 
       // 步骤3：打开应用，点击桌面空白处
-      let sidebarContainer = await driver.waitForComponent(ON.id("sidebarcontainer_uxconsistency_0170"), 500)
+      let sidebarContainer = await driver.waitForComponent(ON.id('sidebarcontainer_uxconsistency_0170'), 500)
       let sidebarContainer_bounds = await sidebarContainer.getBounds()
       await driver.click(sidebarContainer_bounds.right-200,sidebarContainer_bounds.bottom-300)
       // 预期效果：侧边栏所在区域出现半透明灰色蒙层
-      await windowSnap.snapShot("SUB_ACE_UI_PC_UXCONSISTENCY_0170_01")
+      await windowSnap.snapShot('SUB_ACE_UI_PC_UXCONSISTENCY_0170_01')
       await Utils.sleep(1000)
 
       done();

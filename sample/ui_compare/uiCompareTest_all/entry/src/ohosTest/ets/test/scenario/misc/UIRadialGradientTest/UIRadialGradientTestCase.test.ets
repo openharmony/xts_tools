@@ -66,7 +66,7 @@ export default function uIRadialGradientTest() {
     it('SUB_ACE_UI_OHOS_RADIALGRADIENT_RESOURCE_0010',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_RADIALGRADIENT_RESOURCE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/UIRadialGradientTestCase/UIRadialGradientTestCase001");
+      Settings.createWindow('testability/pages/scenario/misc/UIRadialGradientTestCase/UIRadialGradientTestCase001');
       await Utils.sleep(500);
       windowSnap.snapShot(`SUB_ACE_UI_OHOS_RADIALGRADIENT_RESOURCE_0010`);
       await Utils.sleep(500);

@@ -67,7 +67,7 @@ export default function uiComponentUIExtensionComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentUIExtensionComponent/UiComponentUIExtensionComponent01")
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentUIExtensionComponent/UiComponentUIExtensionComponent01')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -86,7 +86,7 @@ export default function uiComponentUIExtensionComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130`);
-      Settings.createWindow("testability/pages/scenario/misc/uiComponentUIExtensionComponent/UiComponentUIExtensionComponent02")
+      Settings.createWindow('testability/pages/scenario/misc/uiComponentUIExtensionComponent/UiComponentUIExtensionComponent02')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

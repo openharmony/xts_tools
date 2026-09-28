@@ -51,7 +51,7 @@ export default function toolchainComputeVerify() {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0010 start.`);
       
       try {
-        Settings.createWindow("testability/pages/scenario/misc/toolchainComputeVerify/ToolchainComputeVerify0010")
+        Settings.createWindow('testability/pages/scenario/misc/toolchainComputeVerify/ToolchainComputeVerify0010')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(1000, 2000)
         
@@ -80,7 +80,7 @@ export default function toolchainComputeVerify() {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0020 start.`);
       
       try {
-        Settings.createWindow("testability/pages/scenario/misc/toolchainComputeVerify/ToolchainComputeVerify0020")
+        Settings.createWindow('testability/pages/scenario/misc/toolchainComputeVerify/ToolchainComputeVerify0020')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(1000, 2000)
         
@@ -109,7 +109,7 @@ export default function toolchainComputeVerify() {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_COMPUTE_VERIFY_0030 start.`);
       
       try {
-        Settings.createWindow("testability/pages/scenario/misc/toolchainComputeVerify/ToolchainComputeVerify0030")
+        Settings.createWindow('testability/pages/scenario/misc/toolchainComputeVerify/ToolchainComputeVerify0030')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(1000, 2000)
         

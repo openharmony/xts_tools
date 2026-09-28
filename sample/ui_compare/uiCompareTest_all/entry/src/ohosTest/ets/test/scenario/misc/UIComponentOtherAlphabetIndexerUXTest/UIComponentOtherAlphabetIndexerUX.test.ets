@@ -47,7 +47,7 @@ export default function uIComponentOtherAlphabetIndexerUX() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_UX_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_UX_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uIComponentOtherAlphabetIndexerUX/UIComponentOtherAlphabetIndexerUX001");
+      Settings.createWindow('testability/pages/scenario/misc/uIComponentOtherAlphabetIndexerUX/UIComponentOtherAlphabetIndexerUX001');
       let driver: Driver = Driver.create();
       let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
       let point = await alphabetIndexer.getBoundsCenter();
@@ -55,7 +55,7 @@ export default function uIComponentOtherAlphabetIndexerUX() {
       await driver.waitForIdle(500, 1000);
       await driver.mouseScroll({x:point.x + 120, y: point.y + 150}, true, 70, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_UX_0120");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_UX_0120');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_UX_0120 finish.`);
       done();
