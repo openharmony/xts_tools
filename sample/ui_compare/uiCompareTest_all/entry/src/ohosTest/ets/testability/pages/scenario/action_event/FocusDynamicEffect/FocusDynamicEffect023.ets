@@ -38,8 +38,8 @@ class MyDataSource implements IDataSource {
 @Component
 struct FocusDynamicEffect023 {
   @State select: boolean = true
-  private iconStr: ResourceStr = $r("app.media.icon")
-  private iconStr2: ResourceStr = $r("app.media.icon")
+  private iconStr: ResourceStr = $r('app.media.icon')
+  private iconStr2: ResourceStr = $r('app.media.icon')
   private swiperController: SwiperController = new SwiperController()
   private data: MyDataSource = new MyDataSource([])
   aboutToAppear(): void {
@@ -156,7 +156,7 @@ struct FocusDynamicEffect023 {
       Row() {
         Stack() {
           Column(){
-            Button("上图下文弹出框")
+            Button('上图下文弹出框')
               .width(96)
               .height(40)
               .onClick(() => {
@@ -173,17 +173,17 @@ struct FocusDynamicEffect023 {
   @Builder
   SubMenu() {
     Menu() {
-      MenuItem({ content: "复制", labelInfo: "Ctrl+C" })
-      MenuItem({ content: "粘贴", labelInfo: "Ctrl+V" })
+      MenuItem({ content: '复制', labelInfo: 'Ctrl+C' })
+      MenuItem({ content: '粘贴', labelInfo: 'Ctrl+V' })
     }
   }
   @Builder
   MyMenu(){
     Menu() {
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
         endIcon: this.iconStr2,
         builder: ():void=>this.SubMenu()
       })

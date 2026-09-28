@@ -30,8 +30,8 @@ class MyCheckboxStyle implements ContentModifier<CheckBoxConfiguration> {
 @Builder
 function buildCheckbox(config: CheckBoxConfiguration) {
   Column({ space: 10 }) {
-    Text(config.name + (config.selected ? "（ 选中 ）" : "（ 非选中 ）")).margin({ right: 70, top: 50 })
-    Text(config.enabled ? "enabled true" : "enabled false").margin({ right: 110 })
+    Text(config.name + (config.selected ? '（ 选中 ）' : '（ 非选中 ）')).margin({ right: 70, top: 50 })
+    Text(config.enabled ? 'enabled true' : 'enabled false').margin({ right: 110 })
     Shape() {
       Path()
         .width(100)
@@ -177,6 +177,6 @@ struct UiComponentFormInteractionFrameNode99 {
           .height(100)
       }
     }
-    .width("100%")
+    .width('100%')
   }
 }

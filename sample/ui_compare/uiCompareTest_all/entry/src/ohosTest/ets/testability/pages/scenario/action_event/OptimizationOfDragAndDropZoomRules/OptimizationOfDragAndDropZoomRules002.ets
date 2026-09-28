@@ -25,8 +25,8 @@ struct OptimizationOfDragAndDropZoomRules002 {
   @State imageWidth: number = 100;
   @State imageHeight: number = 100;
   @State imgState: Visibility = Visibility.Visible;
-  @State abstractContent: string = "abstract";
-  @State textContent: string = "";
+  @State abstractContent: string = 'abstract';
+  @State textContent: string = '';
   @State backGroundColor: Color = Color.Transparent;
 
   getDataFromUdmfRetry(event: DragEvent, callback: (data: DragEvent) => void) {
@@ -42,7 +42,7 @@ struct OptimizationOfDragAndDropZoomRules002 {
       callback(event);
       return true;
     } catch (e) {
-      console.log("getData failed, code = " + (e as BusinessError).code + ", message = " + (e as BusinessError).message);
+      console.log('getData failed, code = ' + (e as BusinessError).code + ', message = ' + (e as BusinessError).message);
       return false;
     }
   }

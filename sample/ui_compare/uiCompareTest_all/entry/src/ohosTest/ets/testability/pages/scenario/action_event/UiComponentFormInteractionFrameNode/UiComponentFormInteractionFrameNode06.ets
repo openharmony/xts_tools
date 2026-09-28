@@ -46,7 +46,7 @@ class MyNodeController extends NodeController {
       .arrowPosition(ArrowPosition.END)
       .menuAlign(MenuAlignType.START, { dx: 0, dy: 0 })
       .width(200)
-      .divider({ strokeWidth: "10px",
+      .divider({ strokeWidth: '10px',
         color: Color.Orange })
       .id('UiComponentFormInteractionFrameNode06_01')
     col.appendChild(text);
@@ -106,7 +106,7 @@ struct UiComponentFormInteractionFrameNode06 {
           .arrowPosition(ArrowPosition .END)
           .menuAlign(MenuAlignType.START, { dx: 0, dy: 0 })
           .width(200)
-          .divider({ strokeWidth: "10px",
+          .divider({ strokeWidth: '10px',
             color: Color.Orange })
           .id('UiComponentFormInteractionFrameNode06_02')
         Text('set Select selectedOptionFontColor to Color.Pink')
@@ -122,6 +122,6 @@ struct UiComponentFormInteractionFrameNode06 {
           .height(100)
       }
     }
-    .width("100%")
+    .width('100%')
   }
 }

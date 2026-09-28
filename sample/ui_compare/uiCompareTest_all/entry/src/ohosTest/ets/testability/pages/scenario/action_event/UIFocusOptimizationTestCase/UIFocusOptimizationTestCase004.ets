@@ -20,7 +20,7 @@ import inputMethod from '@ohos.inputMethod'
 @Component
 struct PageOne {
   @State focusedComponent: string = 'root'
-  @State inputText: string = ""
+  @State inputText: string = ''
 
   build() {
     Column() {
@@ -32,16 +32,16 @@ struct PageOne {
         })
         .onBlur(() => this.focusedComponent = 'jumpBtn')
 
-      Button("跳转到pageTwo")
+      Button('跳转到pageTwo')
         .backgroundColor(this.focusedComponent === 'jumpBtn' ? '#2196F3' : '#FFFFFF')
         .onFocus(() => this.focusedComponent = 'jumpBtn')
         .onClick(() => router.pushUrl({ url: 'pages/PageTwo' }))
 
-      Button("ButtonOne")
+      Button('ButtonOne')
         .backgroundColor(this.focusedComponent === 'btn1' ? '#2196F3' : '#FFFFFF')
         .onFocus(() => this.focusedComponent = 'btn1')
 
-      Button("ButtonTwo")
+      Button('ButtonTwo')
         .backgroundColor(this.focusedComponent === 'btn2' ? '#2196F3' : '#FFFFFF')
         .onFocus(() => this.focusedComponent = 'btn2')
     }

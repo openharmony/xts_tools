@@ -23,19 +23,19 @@ struct NavigationHome {
   build() {
     Navigation() {
       Column() {
-        Button("双栏布局")
+        Button('双栏布局')
           .backgroundColor(this.focusColor)
           .onFocus(() => this.focusColor = '#E3F2FD')
           .onBlur(() => this.focusColor = '#FFFFFF')
 
-        Button("push pageOne")
+        Button('push pageOne')
           .backgroundColor('#2196F3')
           .onClick(() => router.pushUrl({ url: 'pages/PageOne' }))
 
-        Button("replace pageTwo")
+        Button('replace pageTwo')
           .onClick(() => router.replaceUrl({ url: 'pages/PageTwo' }))
       }
-      .onFocus(() => console.log("根容器获焦"))
+      .onFocus(() => console.log('根容器获焦'))
     }
     .title('导航首页')
   }
@@ -52,12 +52,12 @@ struct PageOne {
   build() {
     Scroll() {
       Column() {
-        Button("Button1")
+        Button('Button1')
           .backgroundColor(this.btnColor)
           .onFocus(() => this.btnColor = '#81C784')
           .onBlur(() => this.btnColor = '#FFFFFF')
 
-        Button("返回")
+        Button('返回')
           .onClick(() => router.back())
       }
     }

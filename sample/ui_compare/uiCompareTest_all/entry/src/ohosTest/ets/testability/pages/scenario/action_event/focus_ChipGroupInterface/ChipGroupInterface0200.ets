@@ -26,36 +26,36 @@ struct ChipGroupInterface0200 {
         items: [
           {
             prefixIcon: { src: 'dsadasdad' },
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             suffixIcon: { src: 'dsadasdad' },
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon') },
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
             prefixIcon: { src:'dsadasdad' },
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             suffixIcon: { src: 'dsadasdad' },
             allowClose: false
           },
           {
             prefixIcon: { src: 'dsadasdad' },
-            label: { text: "选项4" },
+            label: { text: '选项4' },
             suffixIcon: { src: 'dsadasdad' },
             allowClose: false
           },
           {
             prefixIcon: { src: 'dsadasdad' },
-            label: { text: "选项5" },
+            label: { text: '选项5' },
             suffixIcon: { src: 'dsadasdad' },
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon') },
-            label: { text: "选项6" },
+            label: { text: '选项6' },
             allowClose: false
           },
         ],

@@ -19,29 +19,29 @@ import inputMethod from '@ohos.inputMethod'
 @Entry
 @Component
 struct PageOneDefaultFocus {
-  @State inputText: string = ""
-  @State focusedComponent: string = "jumpBtn" // 焦点状态追踪
+  @State inputText: string = ''
+  @State focusedComponent: string = 'jumpBtn' // 焦点状态追踪
   inputController: TextInputController = new TextInputController()
 
   build() {
     Column() {
       // 跳转按钮（默认焦点）
-      Button("跳转到pageTwoDefaultFocus")
+      Button('跳转到pageTwoDefaultFocus')
         .defaultFocus(true)
-        .backgroundColor(this.focusedComponent === "jumpBtn" ? '#2196F3' : '#FFFFFF')
-        .onFocus(() => this.focusedComponent = "jumpBtn")
+        .backgroundColor(this.focusedComponent === 'jumpBtn' ? '#2196F3' : '#FFFFFF')
+        .onFocus(() => this.focusedComponent = 'jumpBtn')
         .onClick(() => router.pushUrl({ url: 'pages/PageTwoDefaultFocus' }))
 
       // 输入框
       TextInput({ placeholder: '输入内容' })
-        .backgroundColor(this.focusedComponent === "input" ? '#E3F2FD' : '#FFFFFF')
+        .backgroundColor(this.focusedComponent === 'input' ? '#E3F2FD' : '#FFFFFF')
         .onFocus(() => {
-          this.focusedComponent = "input"
+          this.focusedComponent = 'input'
           inputMethod.getController().showTextInput()
         })
         .onBlur(() => {
           inputMethod.getController().hideTextInput()
-          this.focusedComponent = "jumpBtn"
+          this.focusedComponent = 'jumpBtn'
         })
     }
   }

@@ -35,7 +35,7 @@ function buildRadio(config: RadioConfiguration) {
     Circle({ width: 50, height: 50 })
       .stroke(Color.Black)
       .fill(config.checked ? (config.contentModifier as MyRadioStyle).selectedColor : Color.White)
-    Button(config.checked ? "off" : "on")
+    Button(config.checked ? 'off' : 'on')
       .width(100)
       .id('UiComponentFormInteractionFrameNode79_01')
       .type(config.checked ? (config.contentModifier as MyRadioStyle).type : ButtonType.Normal)
@@ -70,7 +70,7 @@ function buildRadio2(config: RadioConfiguration) {
     Circle({ width: 50, height: 50 })
       .stroke(Color.Black)
       .fill(config.checked ? (config.contentModifier as MyRadioStyle).selectedColor : Color.White)
-    Button(config.checked ? "off" : "on")
+    Button(config.checked ? 'off' : 'on')
       .width(100)
       .id('UiComponentFormInteractionFrameNode79_02')
       .type(config.checked ? (config.contentModifier as MyRadioStyle).type : ButtonType.Normal)
@@ -194,6 +194,6 @@ struct UiComponentFormInteractionFrameNode79 {
           .height(100)
       }
     }
-    .width("100%")
+    .width('100%')
   }
 }

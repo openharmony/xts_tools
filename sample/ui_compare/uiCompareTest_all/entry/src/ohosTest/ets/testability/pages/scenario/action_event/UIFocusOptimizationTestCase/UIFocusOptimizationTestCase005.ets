@@ -19,24 +19,24 @@ import router from '@ohos.router'
 @Component
 struct ModalPageOneDefaultFocus {
   @State focusedId: string = 'buttonOne' // 焦点追踪变量
-  @State inputText: string = ""
+  @State inputText: string = ''
   inputController: TextInputController = new TextInputController()
 
   build() {
     Column() {
       // 跳转按钮（默认焦点）
-      Button("跳转到modalPageTwoDefaultFocus")
+      Button('跳转到modalPageTwoDefaultFocus')
         .defaultFocus(true)
         .backgroundColor(this.focusedId === 'jumpBtn' ? '#2196F3' : '#FFFFFF')
         .onFocus(() => this.focusedId = 'jumpBtn')
         .onClick(() => router.pushUrl({ url: 'pages/ModalPageTwoDefaultFocus' }))
 
-      Button("ButtonOne")
+      Button('ButtonOne')
         .id('buttonOne')
         .backgroundColor(this.focusedId === 'buttonOne' ? '#2196F3' : '#FFFFFF')
         .onFocus(() => this.focusedId = 'buttonOne')
 
-      Button("ButtonTwo")
+      Button('ButtonTwo')
         .backgroundColor(this.focusedId === 'buttonTwo' ? '#2196F3' : '#FFFFFF')
         .onFocus(() => this.focusedId = 'buttonTwo')
 

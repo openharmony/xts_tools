@@ -47,7 +47,7 @@ class MyNodeController extends NodeController {
       .arrowPosition(ArrowPosition.END)
       .menuAlign(MenuAlignType.START, { dx: 0, dy: 0 })
       .width(200)
-      .divider({ strokeWidth: "10px",
+      .divider({ strokeWidth: '10px',
         color: Color.Orange })
       .id('UiComponentFormInteractionFrameNode13_01')
     col.appendChild(text);
@@ -109,7 +109,7 @@ struct UiComponentFormInteractionFrameNode13 {
           .arrowPosition(ArrowPosition .END)
           .menuAlign(MenuAlignType.START, { dx: 0, dy: 0 })
           .width(200)
-          .divider({ strokeWidth: "10px",
+          .divider({ strokeWidth: '10px',
             color: Color.Orange })
           .id('UiComponentFormInteractionFrameNode13_02')
         Text('set Select selectedOptionFontr to style:FontStyle.Italic')
@@ -125,6 +125,6 @@ struct UiComponentFormInteractionFrameNode13 {
           .height(100)
       }
     }
-    .width("100%")
+    .width('100%')
   }
 }

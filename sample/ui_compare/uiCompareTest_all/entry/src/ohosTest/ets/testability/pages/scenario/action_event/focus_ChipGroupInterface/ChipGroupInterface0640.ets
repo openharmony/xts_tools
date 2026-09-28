@@ -26,13 +26,13 @@ struct ChipGroupInterface0640 {
         items: [
           {
             prefixIcon: { src: $r('app.media.icon')},
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             suffixIcon: { src: $r('app.media.icon')},
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon') },
-            label: { text: "选项5" },
+            label: { text: '选项5' },
             suffixIcon: { src: $r('app.media.icon') },
             allowClose: false
           },

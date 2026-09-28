@@ -20,13 +20,13 @@ import inputMethod from '@ohos.inputMethod';
 struct PopupFocusExample {
   @State showPopup: boolean = false
   @State focusedId: string = 'root'
-  @State inputText: string = ""
+  @State inputText: string = ''
   inputCtrl: TextInputController = new TextInputController()
 
   @Builder
   popupContentBuilder() {
     Column() {
-      Button("气泡按钮")
+      Button('气泡按钮')
         .backgroundColor(this.focusedId === 'popBtn' ? '#2196F3' : '#FFFFFF')
         .onFocus(() => this.focusedId = 'popBtn')
         .onClick(() => console.log('点击气泡按钮'))
@@ -50,7 +50,7 @@ struct PopupFocusExample {
 
   build() {
     Column() {
-      Button("打开气泡")
+      Button('打开气泡')
         .backgroundColor(this.focusedId === 'mainBtn' ? '#2196F3' : '#FFFFFF')
         .onFocus(() => this.focusedId = 'mainBtn')
         .onClick(() => this.showPopup = true)

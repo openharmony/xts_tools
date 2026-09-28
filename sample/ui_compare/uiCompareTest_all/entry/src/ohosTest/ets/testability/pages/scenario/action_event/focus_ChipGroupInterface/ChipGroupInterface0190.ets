@@ -26,37 +26,37 @@ struct ChipGroupInterface0190 {
         items: [
           {
             prefixIcon: { src: $r('app.float.boardSize_10') },
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             suffixIcon: { src: $r('app.float.boardSize_10') },
             allowClose: false
           },
           {
             prefixIcon: { src:('https://' + 'www.runoob.com' + '/try/demo_source/smiley-2.gif')},
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             suffixIcon: { src:('https://' + 'www.runoob.com' + '/try/demo_source/smiley-2.gif') },
             allowClose: false
           },
           {
             prefixIcon: { src: ('https://' + 'pic.mksucai.com' + '/00/37/57/b67d3418e8f14f11.webp') },
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             suffixIcon: { src: ('https://' + 'pic.mksucai.com' + '/00/37/57/b67d3418e8f14f11.webp') },
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.float.boardSize_10') },
-            label: { text: "选项4" },
+            label: { text: '选项4' },
             suffixIcon: { src: $r('app.float.boardSize_10') },
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.float.boardSize_10') },
-            label: { text: "选项5" },
+            label: { text: '选项5' },
             suffixIcon: { src: $r('app.float.boardSize_10') },
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.float.boardSize_10') },
-            label: { text: "选项6" },
+            label: { text: '选项6' },
             suffixIcon: { src: $r('app.float.boardSize_10') },
             allowClose: false
           },

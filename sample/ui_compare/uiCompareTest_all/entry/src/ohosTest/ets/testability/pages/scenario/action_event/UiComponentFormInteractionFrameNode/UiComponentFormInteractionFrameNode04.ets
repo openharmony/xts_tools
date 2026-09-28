@@ -44,7 +44,7 @@ class MyNodeController extends NodeController {
       .arrowPosition(ArrowPosition .END)
       .menuAlign(MenuAlignType.START, { dx: 0, dy: 0 })
       .width(200)
-      .divider({ strokeWidth: "10px",
+      .divider({ strokeWidth: '10px',
         color: Color.Orange })
       .id('UiComponentFormInteractionFrameNode03_01')
     col.appendChild(text);
@@ -102,7 +102,7 @@ struct UiComponentFormInteractionFrameNode03 {
           .arrowPosition(ArrowPosition .END)
           .menuAlign(MenuAlignType.START, { dx: 0, dy: 0 })
           .width(200)
-          .divider({ strokeWidth: "10px",
+          .divider({ strokeWidth: '10px',
             color: Color.Orange })
           .id('UiComponentFormInteractionFrameNode03_02')
         Text('set Select arrowPosition to END')
@@ -118,6 +118,6 @@ struct UiComponentFormInteractionFrameNode03 {
           .height(100)
       }
     }
-    .width("100%")
+    .width('100%')
   }
 }

@@ -118,6 +118,6 @@ struct UiComponentFormInteractionFrameNode59 {
           .height(100)
       }
     }
-    .width("100%")
+    .width('100%')
   }
 }

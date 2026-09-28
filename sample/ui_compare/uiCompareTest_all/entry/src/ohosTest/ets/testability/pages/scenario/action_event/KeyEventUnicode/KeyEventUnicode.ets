@@ -25,7 +25,7 @@ struct KeyEventUnicode {
       Text(this.name).fontSize(20).margin(10)
       Text(this.inputKey ? '输入按键: keyCode=' + this.inputKey : '输入按键: (按下按键后显示)')
         .fontSize(12).fontColor(Color.Blue).margin(6)
-      Button("按键测试")
+      Button('按键测试')
         .onKeyEvent((event?: KeyEvent) => {
           if (event) {
             this.inputKey = event.keyCode + ' keyText=' + event.keyText;

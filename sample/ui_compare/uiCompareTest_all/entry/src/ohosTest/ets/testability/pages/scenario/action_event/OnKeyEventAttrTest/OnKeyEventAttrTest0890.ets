@@ -28,7 +28,7 @@ struct OnKeyEventAttrTest0890 {
       Text(this.eventDisplay ? 'onKeyEventDispatch收到的event:\n' + this.eventDisplay : 'onKeyEventDispatch收到的event: (按下Tab等按键后显示)')
         .fontSize(14).fontColor(Color.Red).margin(10).width('90%')
 
-      Button("button").defaultFocus(true).id('OnKeyEventAttrTest0890_01').margin(10)
+      Button('button').defaultFocus(true).id('OnKeyEventAttrTest0890_01').margin(10)
     }
     .width('100%')
     .height('100%')

@@ -48,7 +48,7 @@ class MyNodeController extends NodeController {
       .arrowPosition(ArrowPosition.END)
       .menuAlign(MenuAlignType.START, { dx: 0, dy: 0 })
       .width(200)
-      .divider({ strokeWidth: "10px",
+      .divider({ strokeWidth: '10px',
         color: Color.Orange })
       .id('UiComponentFormInteractionFrameNode15_01')
     col.appendChild(text);
@@ -111,7 +111,7 @@ struct UiComponentFormInteractionFrameNode15 {
           .arrowPosition(ArrowPosition .END)
           .menuAlign(MenuAlignType.START, { dx: 0, dy: 0 })
           .width(200)
-          .divider({ strokeWidth: "10px",
+          .divider({ strokeWidth: '10px',
             color: Color.Orange })
           .id('UiComponentFormInteractionFrameNode15_02')
         Text('set Select menuAlign to MenuAlignType.CENTER, {dx: 0, dy: 0}')
@@ -127,6 +127,6 @@ struct UiComponentFormInteractionFrameNode15 {
           .height(100)
       }
     }
-    .width("100%")
+    .width('100%')
   }
 }

@@ -33,7 +33,7 @@ class MyNodeController extends NodeController {
       .checkboxShape(CheckBoxShape.ROUNDED_SQUARE)
       .selectedColor(null)
       .onChange((itemName: CheckboxGroupResult) => {
-        console.info("checkbox group content" + JSON.stringify(itemName));
+        console.info('checkbox group content' + JSON.stringify(itemName));
       })
       .id('UiComponentFormInteractionFrameNode98_01')
     let checkbox = typeNode.createNode(uiContext, 'Checkbox');
@@ -59,25 +59,25 @@ class MyNodeController extends NodeController {
         console.info('Checkbox3 change is' + value);
       })
     let text1 = typeNode.createNode(uiContext, 'Text');
-    text1.initialize("Checkbox1")
+    text1.initialize('Checkbox1')
       .fontSize(5)
       .lineHeight(10)
       .fontColor('#182431')
       .fontWeight(500)
     let text3 = typeNode.createNode(uiContext, 'Text');
-    text3.initialize("Checkbox2")
+    text3.initialize('Checkbox2')
       .fontSize(5)
       .lineHeight(10)
       .fontColor('#182431')
       .fontWeight(500)
     let text4 = typeNode.createNode(uiContext, 'Text');
-    text4.initialize("Checkbox3")
+    text4.initialize('Checkbox3')
       .fontSize(5)
       .lineHeight(10)
       .fontColor('#182431')
       .fontWeight(500)
     let text2 = typeNode.createNode(uiContext, 'Text');
-    text2.initialize("Select All")
+    text2.initialize('Select All')
       .fontSize(5)
       .lineHeight(10)
       .fontColor('#182431')
@@ -137,7 +137,7 @@ struct UiComponentFormInteractionFrameNode98 {
           .checkboxShape(CheckBoxShape.ROUNDED_SQUARE)
           .selectedColor(null)
           .onChange((itemName: CheckboxGroupResult) => {
-            console.info("checkbox group content" + JSON.stringify(itemName));
+            console.info('checkbox group content' + JSON.stringify(itemName));
           })
           .id('UiComponentFormInteractionFrameNode98_02')
         Text('Select All')
@@ -192,6 +192,6 @@ struct UiComponentFormInteractionFrameNode98 {
           .height(100)
       }
     }
-    .width("100%")
+    .width('100%')
   }
 }

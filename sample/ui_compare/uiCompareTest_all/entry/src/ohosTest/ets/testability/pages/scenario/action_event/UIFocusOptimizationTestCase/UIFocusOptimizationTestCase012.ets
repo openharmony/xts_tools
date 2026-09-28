@@ -21,16 +21,16 @@ struct ModalPageOne {
 
   build() {
     Column() {
-      Button("buttonOne")
+      Button('buttonOne')
         .defaultFocus(true)
         .backgroundColor(this.focusedId === 'btn1' ? '#2196F3' : '#FFFFFF')
         .onFocus(() => this.focusedId = 'btn1')
 
-      Button("buttonTwo")
+      Button('buttonTwo')
         .backgroundColor(this.focusedId === 'btn2' ? '#2196F3' : '#FFFFFF')
         .onFocus(() => this.focusedId = 'btn2')
 
-      Button("跳转modal2")
+      Button('跳转modal2')
         .backgroundColor(this.focusedId === 'jumpBtn' ? '#2196F3' : '#FFFFFF')
         .onFocus(() => this.focusedId = 'jumpBtn')
         .onClick(() => this.showModal2 = true)
@@ -55,12 +55,12 @@ struct ModalPageTwo {
 
   build() {
     Column() {
-      Button("modal2Btn1")
+      Button('modal2Btn1')
         .defaultFocus(true)
         .backgroundColor(this.focusedId === 'modal2Btn1' ? '#4CAF50' : '#FFFFFF')
         .onFocus(() => this.focusedId = 'modal2Btn1')
 
-      Button("modal2Btn2")
+      Button('modal2Btn2')
         .backgroundColor(this.focusedId === 'modal2Btn2' ? '#4CAF50' : '#FFFFFF')
         .onFocus(() => this.focusedId = 'modal2Btn2')
     }

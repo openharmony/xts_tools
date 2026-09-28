@@ -46,7 +46,7 @@ class MyNodeController extends NodeController {
       .arrowPosition(ArrowPosition.END)
       .menuAlign(MenuAlignType.START, { dx: 0, dy: 0 })
       .width(200)
-      .divider({ strokeWidth: "10px",
+      .divider({ strokeWidth: '10px',
         color: Color.Orange })
       .id('UiComponentFormInteractionFrameNode07_01')
     col.appendChild(text);
@@ -106,7 +106,7 @@ struct UiComponentFormInteractionFrameNode07 {
           .arrowPosition(ArrowPosition .END)
           .menuAlign(MenuAlignType.START, { dx: 0, dy: 0 })
           .width(200)
-          .divider({ strokeWidth: "10px",
+          .divider({ strokeWidth: '10px',
             color: Color.Orange })
           .id('UiComponentFormInteractionFrameNode07_02')
         Text('set Select optionFont to FontWeight.Bolder')
@@ -122,6 +122,6 @@ struct UiComponentFormInteractionFrameNode07 {
           .height(100)
       }
     }
-    .width("100%")
+    .width('100%')
   }
 }

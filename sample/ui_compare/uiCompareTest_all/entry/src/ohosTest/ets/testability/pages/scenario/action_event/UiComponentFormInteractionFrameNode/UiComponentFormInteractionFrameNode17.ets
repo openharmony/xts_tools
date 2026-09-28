@@ -48,7 +48,7 @@ class MyNodeController extends NodeController {
       .menuAlign(MenuAlignType.START, { dx: 0, dy: 0 })
       .width(200)
       .menuBackgroundBlurStyle(BlurStyle.COMPONENT_ULTRA_THICK)
-      .divider({ strokeWidth: "10px",
+      .divider({ strokeWidth: '10px',
         color: Color.Orange })
       .id('UiComponentFormInteractionFrameNode17_01')
     col.appendChild(text);
@@ -111,7 +111,7 @@ struct UiComponentFormInteractionFrameNode17 {
           .arrowPosition(ArrowPosition .END)
           .menuAlign(MenuAlignType.START, { dx: 0, dy: 0 })
           .width(200)
-          .divider({ strokeWidth: "10px",
+          .divider({ strokeWidth: '10px',
             color: Color.Orange })
           .id('UiComponentFormInteractionFrameNode17_02')
         Text('set Select optionBgColor to Color.Transparent')
@@ -127,6 +127,6 @@ struct UiComponentFormInteractionFrameNode17 {
           .height(100)
       }
     }
-    .width("100%")
+    .width('100%')
   }
 }

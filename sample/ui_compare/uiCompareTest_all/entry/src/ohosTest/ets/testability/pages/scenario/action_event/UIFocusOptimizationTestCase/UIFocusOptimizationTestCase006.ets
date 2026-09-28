@@ -20,23 +20,23 @@ import inputMethod from '@ohos.inputMethod'
 @Component
 struct PageOneDefaultFocus {
   @State focusedId: string = 'jumpBtn' // 焦点状态追踪
-  @State inputText: string = ""
+  @State inputText: string = ''
   inputCtrl: TextInputController = new TextInputController()
 
   build() {
     Column() {
       // 跳转按钮（默认焦点）
-      Button("跳转到pageTwoDefaultFocus")
+      Button('跳转到pageTwoDefaultFocus')
         .defaultFocus(true)
         .backgroundColor(this.focusedId === 'jumpBtn' ? '#2196F3' : '#FFFFFF')
         .onFocus(() => this.focusedId = 'jumpBtn')
         .onClick(() => router.pushUrl({ url: 'pages/PageTwoDefaultFocus' }))
 
-      Button("ButtonOne")
+      Button('ButtonOne')
         .backgroundColor(this.focusedId === 'btn1' ? '#2196F3' : '#FFFFFF')
         .onFocus(() => this.focusedId = 'btn1')
 
-      Button("ButtonTwo")
+      Button('ButtonTwo')
         .backgroundColor(this.focusedId === 'btn2' ? '#2196F3' : '#FFFFFF')
         .onFocus(() => this.focusedId = 'btn2')
 

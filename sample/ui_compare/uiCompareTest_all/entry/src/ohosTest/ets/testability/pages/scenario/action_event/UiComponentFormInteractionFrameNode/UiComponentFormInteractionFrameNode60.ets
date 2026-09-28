@@ -107,6 +107,6 @@ struct UiComponentFormInteractionFrameNode60 {
           .id('UiComponentFormInteractionFrameNode60_02')
       }
     }
-    .width("100%")
+    .width('100%')
   }
 }

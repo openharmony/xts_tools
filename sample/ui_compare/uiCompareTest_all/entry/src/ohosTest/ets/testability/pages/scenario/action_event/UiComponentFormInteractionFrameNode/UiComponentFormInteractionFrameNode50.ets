@@ -16,7 +16,7 @@
 import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
 
 class MyRatingStyle implements ContentModifier<RatingConfiguration> {
-  public name: string = "";
+  public name: string = '';
   public style: number = 0;
 
   constructor(value1: string, value2: number) {
@@ -140,7 +140,7 @@ function buildRating(config: RatingConfiguration) {
         }).visibility(config.stars >= 5 ? Visibility.Visible : Visibility.Hidden)
     }
 
-    Text("分值：" + config.rating)
+    Text('分值：' + config.rating)
   }
 }
 
@@ -161,7 +161,7 @@ class MyNodeController extends NodeController {
     text.initialize({ rating: 5, indicator: false })
       .stars(5)
       .stepSize(0.5)
-      .contentModifier(new MyRatingStyle("hello", 3))
+      .contentModifier(new MyRatingStyle('hello', 3))
       .onChange((value: number) => {
         console.log('onchange success')
       })
@@ -214,7 +214,7 @@ struct UiComponentFormInteractionFrameNode50 {
           .stars(this.stars)
           .stepSize(0.5)
           .margin({ top: 24 })
-          .contentModifier(new MyRatingStyle("hello", 3))
+          .contentModifier(new MyRatingStyle('hello', 3))
           .onChange((value: number) => {
             this.rating = value;
           })
@@ -232,6 +232,6 @@ struct UiComponentFormInteractionFrameNode50 {
           .height(100)
       }
     }
-    .width("100%")
+    .width('100%')
   }
 }

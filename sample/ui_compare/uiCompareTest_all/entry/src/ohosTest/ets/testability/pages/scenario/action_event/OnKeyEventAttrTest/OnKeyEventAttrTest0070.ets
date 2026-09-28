@@ -32,7 +32,7 @@ struct OnKeyEventAttrTest0070 {
       Text('用例: DISPATCH_0070 ' + this.name).fontSize(18).margin(10)
       Text(this.keyInputLog ? '输入按键:\n' + this.keyInputLog : '输入按键: (按键后显示)').fontSize(12).fontColor(Color.Blue).margin(6)
 
-      Button("button组件")
+      Button('button组件')
         .onKeyEvent((event?: KeyEvent) => {
           if (event) {
             const line = 'keyCode=' + event.keyCode + ' keyText=' + event.keyText + ' type=' + (event.type === KeyType.Down ? 'Down' : 'Up');

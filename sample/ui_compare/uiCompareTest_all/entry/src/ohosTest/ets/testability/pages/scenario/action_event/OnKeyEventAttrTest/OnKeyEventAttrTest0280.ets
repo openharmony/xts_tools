@@ -39,7 +39,7 @@ struct OnKeyEventAttrTest0280 {
         .id('OnKeyEventAttrTest0280_btn_switch')
         .margin(10)
 
-      Button("按钮1")
+      Button('按钮1')
         .onKeyEventDispatch((event?: KeyEvent) => {
           if (event) {
             const line = 'keyCode=' + event.keyCode + ' keyText=' + event.keyText + ' type=' + (event.type === KeyType.Down ? 'Down' : 'Up');

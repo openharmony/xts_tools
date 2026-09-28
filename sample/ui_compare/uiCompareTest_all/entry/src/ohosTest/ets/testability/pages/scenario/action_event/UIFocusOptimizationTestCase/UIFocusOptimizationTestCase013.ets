@@ -22,14 +22,14 @@ struct ModalPageOne {
 
   build() {
     Column() {
-      Button("跳转modalPageTwo")
+      Button('跳转modalPageTwo')
         .onClick(() => router.pushUrl({ url: 'pages/ModalPageTwo' }))
         .backgroundColor('#2196F3')
 
-      Button("ButtonOne")
+      Button('ButtonOne')
         .backgroundColor('#4CAF50')
 
-      Button("ButtonTwo")
+      Button('ButtonTwo')
         .backgroundColor('#FF9800')
     }
     .backgroundColor(this.rootBg)

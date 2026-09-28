@@ -26,37 +26,37 @@ struct ChipGroupInterface0410 {
         items: [
           {
             prefixIcon: { src: $r('app.media.icon'), size: { height:30,width:undefined } },
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             suffixIcon: { src: $r('app.media.icon') , size: { height:30,width:undefined}},
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon'), size: { height:30,width:'10px' } },
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             suffixIcon: { src: $r('app.media.icon') , size: { height:30,width:'10px' }},
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon') , size: { height:30,width:undefined}},
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             suffixIcon: { src: $r('app.media.icon'), size: { height:30,width:undefined  } },
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon'), size: { height:30,width:undefined } },
-            label: { text: "选项4" },
+            label: { text: '选项4' },
             suffixIcon: { src: $r('app.media.icon') , size: { height:30,width:undefined}},
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon'), size: { height:30,width:undefined} },
-            label: { text: "选项5" },
+            label: { text: '选项5' },
             suffixIcon: { src: $r('app.media.icon'), size: { height:30,width:undefined} },
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon') },
-            label: { text: "选项6" },
+            label: { text: '选项6' },
             suffixIcon: { src: $r('app.media.icon') },
             allowClose: false
           },

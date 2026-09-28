@@ -37,7 +37,7 @@ struct OnKeyEventAttrTest0090 {
         .margin(10)
 
       Column() {
-        Button("button组件")
+        Button('button组件')
           .onKeyEvent((event?: KeyEvent) => {
             if (event) {
               const line = 'keyCode=' + event.keyCode + ' keyText=' + event.keyText + ' type=' + (event.type === KeyType.Down ? 'Down' : 'Up');

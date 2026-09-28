@@ -25,29 +25,29 @@ struct ChipGroupInterface0650 {
       ChipGroup({
         items: [
           {
-            label: { text: "chaochangzifuchuan1" },
+            label: { text: 'chaochangzifuchuan1' },
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon'), size: { width:'5px' } },
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             suffixIcon: { src: $r('app.media.icon') , size: { width:'5px' }},
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon') , size: { width:'5px' }},
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             suffixIcon: { src: $r('app.media.icon'), size: {  width:'5px' } },
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon'), size: {  width:'5px' } },
-            label: { text: "选项4" },
+            label: { text: '选项4' },
             suffixIcon: { src: $r('app.media.icon') , size: {  width:'5px' }},
             allowClose: false
           },
           {
-            label: { text: "chaochangzifuchuan5" },
+            label: { text: 'chaochangzifuchuan5' },
             allowClose: false
           },
         ],

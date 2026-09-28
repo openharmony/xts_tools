@@ -20,7 +20,7 @@ struct ActionsheetInterface0010 {
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {
       Button('Click to Show ActionSheet')
-        .id("ActionsheetInterface0010_001")
+        .id('ActionsheetInterface0010_001')
         .onClick(() => {
           this.getUIContext().showActionSheet({
             title: 'ActionSheet title',

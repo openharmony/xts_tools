@@ -23,24 +23,24 @@ struct NavigationPage {
   build() {
     Navigation() {
       Column() {
-        Button("双栏布局")
+        Button('双栏布局')
           .backgroundColor(this.focusColor)
           .onFocus(() => this.focusColor = '#E3F2FD')
           .onBlur(() => this.focusColor = '#FFFFFF')
 
-        Button("push pageOne")
+        Button('push pageOne')
           .defaultFocus(true)
           .backgroundColor('#2196F3')
           .onClick(() => router.pushUrl({ url: 'pages/PageOne' }))
 
-        Button("清空页面栈")
+        Button('清空页面栈')
           .onClick(() => {
             router.clear()
             focusControl.requestFocus('root') // 强制焦点回到根容器
           })
       }
       .width('100%')
-      .onFocus(() => console.log("根容器获焦"))
+      .onFocus(() => console.log('根容器获焦'))
     }
     .title('导航首页')
   }
@@ -54,11 +54,11 @@ struct PageOne {
   build() {
     Scroll() {
       Column() {
-        Button("Button1")
+        Button('Button1')
           .focusable(true)
           .backgroundColor('#F44336')
 
-        Button("Button2")
+        Button('Button2')
           .defaultFocus(true)
           .backgroundColor(this.btn2Color)
           .onFocus(() => this.btn2Color = '#81C784')
