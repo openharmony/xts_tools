@@ -26,14 +26,14 @@ struct UIComponentOtherRefreshAnimation001 {
     Stack() {
       Row() {
         LoadingProgress().height(32)
-        Text("Refreshing...").fontSize(16).margin({ left: 20 })
+        Text('Refreshing...').fontSize(16).margin({ left: 20 })
       }
       .alignItems(VerticalAlign.Center)
     }
     .align(Alignment.Center)
     .clip(true)
     .constraintSize({ minHeight: 32 })
-    .width("100%")
+    .width('100%')
   }
 
 
