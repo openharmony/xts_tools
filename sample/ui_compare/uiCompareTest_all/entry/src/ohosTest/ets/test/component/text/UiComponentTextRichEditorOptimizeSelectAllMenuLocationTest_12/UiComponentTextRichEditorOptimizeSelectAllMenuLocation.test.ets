@@ -46,14 +46,14 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0025", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0025', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0025")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0025')
         let driver = await Driver.create()
 
         // 1、查找组件
         let rich_editor_optimizeselectallmenulocation_0025 =
-          await driver.waitForComponent(ON.id("rich_editor_optimizeselectallmenulocation_0025"),500)
+          await driver.waitForComponent(ON.id('rich_editor_optimizeselectallmenulocation_0025'),500)
         if (!rich_editor_optimizeselectallmenulocation_0025) {
           Logger.error('TEST', 'RichEditor component not found!');
           done();
@@ -78,7 +78,7 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
         // 3、随机选中查看菜单状态
         await rich_editor_optimizeselectallmenulocation_0025.doubleClick()
         await Utils.sleep(1000) // 等待双击操作完成
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0025_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0025_01')
         await Utils.sleep(1000) // 等待截图完成
         done();
       })
@@ -92,15 +92,15 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0035", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0035', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0035")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0035')
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
         // 1、查找组件
         let rich_editor_optimizeselectallmenulocation_0035 =
-          await driver.waitForComponent(ON.id("rich_editor_optimizeselectallmenulocation_0035"),500)
+          await driver.waitForComponent(ON.id('rich_editor_optimizeselectallmenulocation_0035'),500)
         if (!rich_editor_optimizeselectallmenulocation_0035) {
           Logger.error('TEST', 'RichEditor component not found!');
           done();
@@ -124,7 +124,7 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
         // 2、随机选中查看菜单状态
         await button_optimizeselectallmenulocation_0035_select.click()
         await Utils.sleep(2000) // 等待选择操作完成
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0035_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0035_01')
         await Utils.sleep(1000) // 等待截图完成
         done();
       })
@@ -137,15 +137,15 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0032", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0032', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0032")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0032')
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
         // 1、查找组件
         let rich_editor_optimizeselectallmenulocation_0032 =
-          await driver.waitForComponent(ON.id("rich_editor_optimizeselectallmenulocation_0032"),500)
+          await driver.waitForComponent(ON.id('rich_editor_optimizeselectallmenulocation_0032'),500)
         if (!rich_editor_optimizeselectallmenulocation_0032) {
           Logger.error('TEST', 'RichEditor component not found!');
           done();
@@ -182,7 +182,7 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
         }
         await button_optimizeselectallmenulocation_0032_select_refresh.click()
         await Utils.sleep(2000) // 等待选择操作完成
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0032_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0032_01')
         await Utils.sleep(1000) // 等待截图完成
         done();
       })
@@ -195,15 +195,15 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0030", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0030', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0030")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0030')
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
         // 1、查找组件
         let rich_editor_optimizeselectallmenulocation_0030 =
-          await driver.waitForComponent(ON.id("rich_editor_optimizeselectallmenulocation_0030"),500)
+          await driver.waitForComponent(ON.id('rich_editor_optimizeselectallmenulocation_0030'),500)
         if (!rich_editor_optimizeselectallmenulocation_0030) {
           Logger.error('TEST', 'RichEditor component not found!');
           done();
@@ -251,7 +251,7 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
         // await driver.swipe(point.x,point.y +50,point.x,point.y -50,400)
         await rich_editor_optimizeselectallmenulocation_0030.scrollToBottom(200)
         await Utils.sleep(1000) // 等待滚动操作完成
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0030_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0030_01')
         await Utils.sleep(1000) // 等待截图完成
         done();
       })
@@ -264,15 +264,15 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0017", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0017', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0017")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0017')
         await Utils.sleep(1000) // 等待窗口创建完成
         let driver = await Driver.create()
 
         // 1、查找组件
         let rich_editor_optimizeselectallmenulocation_0017 =
-          await driver.waitForComponent(ON.id("rich_editor_optimizeselectallmenulocation_0017"),500)
+          await driver.waitForComponent(ON.id('rich_editor_optimizeselectallmenulocation_0017'),500)
         if (!rich_editor_optimizeselectallmenulocation_0017) {
           Logger.error('TEST', 'RichEditor component not found!');
           done();
@@ -305,19 +305,19 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
         //  Bottom
         await button_optimizeselectallmenulocation_0017_selectBottom.click()
         await Utils.sleep(500)
-        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0017_01")
+        windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0017_01')
         await Utils.sleep(1000)
 
         // Mid
         await button_optimizeselectallmenulocation_0017_selectMid.click()
         await Utils.sleep(500)
-        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0017_01")
+        windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0017_01')
         await Utils.sleep(1000)
 
         // Top
         await button_optimizeselectallmenulocation_0017_selectTop.click()
         await Utils.sleep(500)
-        windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0017_01")
+        windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0017_01')
         await Utils.sleep(1000)
         done();
       })
@@ -330,15 +330,15 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0022", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0022', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0022")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0022')
         await Utils.sleep(1000) // 等待窗口创建完成
         let driver = await Driver.create()
 
         // 1、查找组件
         let rich_editor_optimizeselectallmenulocation_0022 =
-          await driver.waitForComponent(ON.id("rich_editor_optimizeselectallmenulocation_0022"),500)
+          await driver.waitForComponent(ON.id('rich_editor_optimizeselectallmenulocation_0022'),500)
         if (!rich_editor_optimizeselectallmenulocation_0022) {
           Logger.error('TEST', 'RichEditor component not found!');
           done();
@@ -375,7 +375,7 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
         }
         await button_optimizeselectallmenulocation_0022_select_refresh.click()
         await Utils.sleep(2000)
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0022_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0022_01')
         await Utils.sleep(1000)
         done();
       })
@@ -388,14 +388,14 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0020", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0020', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0020")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0020')
         await Utils.sleep(1000) // 等待窗口创建完成
         let driver = await Driver.create()
 
         // 1、查找组件
-        let rich_editor_optimizeselectallmenulocation_0020 = await driver.waitForComponent(ON.id("rich_editor_optimizeselectallmenulocation_0020"),500)
+        let rich_editor_optimizeselectallmenulocation_0020 = await driver.waitForComponent(ON.id('rich_editor_optimizeselectallmenulocation_0020'),500)
         if (!rich_editor_optimizeselectallmenulocation_0020) {
           Logger.error('TEST', 'RichEditor component not found!');
           done();
@@ -422,7 +422,7 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
         // 2、随机选中查看菜单状态
         await rich_editor_optimizeselectallmenulocation_0020.longClick()
         await Utils.sleep(1000)
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0020_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0020_01')
         await Utils.sleep(1000)
         done();
       })
@@ -435,15 +435,15 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0021", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0021', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0021")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0021')
         await Utils.sleep(1000) // 等待窗口创建完成
         let driver = await Driver.create()
 
         // 1、查找组件
         let rich_editor_optimizeselectallmenulocation_0021 =
-          await driver.waitForComponent(ON.id("rich_editor_optimizeselectallmenulocation_0021"),500)
+          await driver.waitForComponent(ON.id('rich_editor_optimizeselectallmenulocation_0021'),500)
         if (!rich_editor_optimizeselectallmenulocation_0021) {
           Logger.error('TEST', 'RichEditor component not found!');
           done();
@@ -469,7 +469,7 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
         await button_optimizeselectallmenulocation_0021_select_refresh.click()
         await Utils.sleep(1000)
         await rich_editor_optimizeselectallmenulocation_0021.longClick()
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0021_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0021_01')
         await Utils.sleep(1000)
         done();
       })
@@ -482,15 +482,15 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0026", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0026', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0026")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0026')
         await Utils.sleep(1000) // 等待窗口创建完成
         let driver = await Driver.create()
 
         // 1、查找组件
         let rich_editor_optimizeselectallmenulocation_0026 =
-          await driver.waitForComponent(ON.id("rich_editor_optimizeselectallmenulocation_0026"),500)
+          await driver.waitForComponent(ON.id('rich_editor_optimizeselectallmenulocation_0026'),500)
         if (!rich_editor_optimizeselectallmenulocation_0026) {
           Logger.error('TEST', 'RichEditor component not found!');
           done();
@@ -516,9 +516,9 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
         // 2、随机选中查看菜单状态
         await rich_editor_optimizeselectallmenulocation_0026.doubleClick()
         await Utils.sleep(1000)
-        let  selectedAllBtn0026 = await driver.waitForComponent(ON.text("全选"),500)
+        let  selectedAllBtn0026 = await driver.waitForComponent(ON.text('全选'),500)
         await selectedAllBtn0026.click()
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0026_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0026_01')
         await Utils.sleep(1000)
         done();
       })
@@ -531,15 +531,15 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0027", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0027', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0027")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOptimizeSelectAllMenuLocation/UiComponentTextRichEditorOptimizeSelectAllMenuLocation0027')
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
         // 1、查找组件
         let rich_editor_optimizeselectallmenulocation_0027 =
-          await driver.waitForComponent(ON.id("rich_editor_optimizeselectallmenulocation_0027"),500)
+          await driver.waitForComponent(ON.id('rich_editor_optimizeselectallmenulocation_0027'),500)
         if (!rich_editor_optimizeselectallmenulocation_0027) {
           Logger.error('TEST', 'RichEditor component not found!');
           done();
@@ -563,11 +563,11 @@ export default function uiComponentTextRichEditorOptimizeSelectAllMenuLocation()
         // 2、随机选中查看菜单状态
         await rich_editor_optimizeselectallmenulocation_0027.longClick()
         await Utils.sleep(1000)
-        let  selectedAllBtn0027 = await driver.waitForComponent(ON.text("全选"),500)
+        let  selectedAllBtn0027 = await driver.waitForComponent(ON.text('全选'),500)
         await selectedAllBtn0027.click()
         await button_optimizeselectallmenulocation_0027_exchangeWindow.click()
         await Utils.sleep(2000) // 等待窗口切换操作完成
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0027_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0027_01')
         await Utils.sleep(1000) // 等待截图完成
         done();
       })

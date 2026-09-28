@@ -64,7 +64,7 @@ export default function uiComponentTextRichEditorGetRects() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0003', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0003 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects01")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects01'),1000);
       await button01.click()
@@ -85,7 +85,7 @@ export default function uiComponentTextRichEditorGetRects() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0013', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0013 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects02")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects02'),1000);
       await button01.click()
@@ -106,7 +106,7 @@ export default function uiComponentTextRichEditorGetRects() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0012', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0012 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects03")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects03'),1000);
       await button01.click()
@@ -127,7 +127,7 @@ export default function uiComponentTextRichEditorGetRects() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0020 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects04")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects04_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects04_02'),1000);
@@ -154,7 +154,7 @@ export default function uiComponentTextRichEditorGetRects() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0015', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0015 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects05")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects05'),1000);
       await button01.click()
@@ -175,7 +175,7 @@ export default function uiComponentTextRichEditorGetRects() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0008', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0008 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects06")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects06')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects06'),1000);
       await button01.click()
@@ -196,7 +196,7 @@ export default function uiComponentTextRichEditorGetRects() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0014', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0014 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects07")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects07')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects07'),1000);
       await button01.click()
@@ -217,7 +217,7 @@ export default function uiComponentTextRichEditorGetRects() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0007', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0007 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects08")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects08')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects08'),1000);
       await button01.click()
@@ -238,7 +238,7 @@ export default function uiComponentTextRichEditorGetRects() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0017', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0017 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects09")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects09')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects09_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects09_02'),1000);
@@ -265,7 +265,7 @@ export default function uiComponentTextRichEditorGetRects() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0019', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0019 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects10")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects10')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects10'),1000);
       await button01.click()
@@ -286,7 +286,7 @@ export default function uiComponentTextRichEditorGetRects() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0004', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0004 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects11")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects11')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects11'),1000);
       await button01.click()
@@ -307,7 +307,7 @@ export default function uiComponentTextRichEditorGetRects() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0018', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0018 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects12")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects12')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects12_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorGetRects12_02'),1000);

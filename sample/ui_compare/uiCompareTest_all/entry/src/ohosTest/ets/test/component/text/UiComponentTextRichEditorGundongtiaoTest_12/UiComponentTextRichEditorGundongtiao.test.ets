@@ -48,14 +48,14 @@ export default function uiComponentTextRichEditorGundongtiao() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0001", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0001")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0001', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0001')
       await Utils.sleep(500)
       let driver = await Driver.create()
 
       // 1、查找RichEditor组件和添加内容按钮
-      let rich_editor_gundongtiao_0001 = await driver.waitForComponent(ON.id("rich_editor_gundongtiao_0001"), 500)
-      let addContentBtn = await driver.waitForComponent(ON.id("addContentBtn0001"), 500)
+      let rich_editor_gundongtiao_0001 = await driver.waitForComponent(ON.id('rich_editor_gundongtiao_0001'), 500)
+      let addContentBtn = await driver.waitForComponent(ON.id('addContentBtn0001'), 500)
       if (!rich_editor_gundongtiao_0001 || !addContentBtn) {
         Logger.error('TEST', 'Component not found!');
         done();
@@ -75,7 +75,7 @@ export default function uiComponentTextRichEditorGundongtiao() {
       await Utils.sleep(2500)
 
       // 4、截图验证测试结果
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0001_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0001_01')
       await Utils.sleep(500)
       done();
     })
@@ -88,13 +88,13 @@ export default function uiComponentTextRichEditorGundongtiao() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0010", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0010")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0010', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0010')
       await Utils.sleep(500)
       let driver = await Driver.create()
 
       // 1、查找RichEditor组件和控制按钮
-      let rich_editor_gundongtiao_0010 = await driver.waitForComponent(ON.id("rich_editor_gundongtiao_0010"), 500)
+      let rich_editor_gundongtiao_0010 = await driver.waitForComponent(ON.id('rich_editor_gundongtiao_0010'), 500)
       let addContentBtn = await driver.waitForComponent(ON.id('addContentBtn0010'), 500);
       let switchBtn = await driver.waitForComponent(ON.id('switchBarStateBtn0010'), 500);
       if (!rich_editor_gundongtiao_0010 || !addContentBtn || !switchBtn) {
@@ -112,7 +112,7 @@ export default function uiComponentTextRichEditorGundongtiao() {
       // 3、测试Auto状态并截图
       await rich_editor_gundongtiao_0010.scrollToTop()
       await Utils.sleep(300)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0010_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0010_01')
       await Utils.sleep(300)
 
       // 4、切换到On状态并测试滑动
@@ -120,7 +120,7 @@ export default function uiComponentTextRichEditorGundongtiao() {
       await Utils.sleep(300)
       await rich_editor_gundongtiao_0010.scrollToBottom()
       await Utils.sleep(300)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0010_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0010_02')
       await Utils.sleep(300)
 
       // 5、切换到Off状态并测试滑动
@@ -128,7 +128,7 @@ export default function uiComponentTextRichEditorGundongtiao() {
       await Utils.sleep(300)
       await rich_editor_gundongtiao_0010.scrollToTop()
       await Utils.sleep(300)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0010_03")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0010_03')
       await Utils.sleep(500)
       done();
     })
@@ -141,13 +141,13 @@ export default function uiComponentTextRichEditorGundongtiao() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0002", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0002")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0002', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0002')
       await Utils.sleep(500)
       let driver = await Driver.create()
 
       // 1、查找RichEditor组件和添加内容按钮
-      let rich_editor_gundongtiao_0002 = await driver.waitForComponent(ON.id("rich_editor_gundongtiao_0002"), 500)
+      let rich_editor_gundongtiao_0002 = await driver.waitForComponent(ON.id('rich_editor_gundongtiao_0002'), 500)
       let addContentBtn = await driver.waitForComponent(ON.id('addContentBtn0002'), 500);
       if (!rich_editor_gundongtiao_0002 || !addContentBtn) {
         Logger.error('TEST', 'Component not found!');
@@ -168,7 +168,7 @@ export default function uiComponentTextRichEditorGundongtiao() {
       await Utils.sleep(300)
 
       // 4、截图验证测试结果 - BarState为On时滚动条应该显示
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0002_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0002_01')
       await Utils.sleep(500)
       done();
     })
@@ -181,13 +181,13 @@ export default function uiComponentTextRichEditorGundongtiao() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0003", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0003")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0003', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorGundongtiao/UiComponentTextRichEditorGundongtiao0003')
       await Utils.sleep(500)
       let driver = await Driver.create()
 
       // 1、查找RichEditor组件和添加内容按钮
-      let rich_editor_gundongtiao_0003 = await driver.waitForComponent(ON.id("rich_editor_gundongtiao_0003"), 500)
+      let rich_editor_gundongtiao_0003 = await driver.waitForComponent(ON.id('rich_editor_gundongtiao_0003'), 500)
       let addContentBtn = await driver.waitForComponent(ON.id('addContentBtn0003'), 500);
       if (!rich_editor_gundongtiao_0003 || !addContentBtn) {
         Logger.error('TEST', 'Component not found!');
@@ -208,7 +208,7 @@ export default function uiComponentTextRichEditorGundongtiao() {
       await Utils.sleep(300)
 
       // 4、截图验证测试结果 - BarState为Off时滚动条不应该显示
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0003_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0003_01')
       await Utils.sleep(500)
       done();
     })

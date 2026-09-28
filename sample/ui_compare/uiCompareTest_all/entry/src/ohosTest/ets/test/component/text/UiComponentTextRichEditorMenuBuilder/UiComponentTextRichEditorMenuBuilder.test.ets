@@ -64,7 +64,7 @@ export default function uiComponentTextRichEditorMenuBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0007', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0007 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder01")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder01')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorMenuBuilder01'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -94,7 +94,7 @@ export default function uiComponentTextRichEditorMenuBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0009', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0009 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder02")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder02')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorMenuBuilder02'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -126,7 +126,7 @@ export default function uiComponentTextRichEditorMenuBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0004', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0004 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder03")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder03')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorMenuBuilder03'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -158,7 +158,7 @@ export default function uiComponentTextRichEditorMenuBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0001', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0001 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder04")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder04')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorMenuBuilder04'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -190,7 +190,7 @@ export default function uiComponentTextRichEditorMenuBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0002', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0002 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder05")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder05')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorMenuBuilder05'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -222,7 +222,7 @@ export default function uiComponentTextRichEditorMenuBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0006', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0006 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder06")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder06')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorMenuBuilder06'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -254,7 +254,7 @@ export default function uiComponentTextRichEditorMenuBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0005', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0005 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder07")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder07')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorMenuBuilder07'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -286,7 +286,7 @@ export default function uiComponentTextRichEditorMenuBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0008', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0008 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder08")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder08')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorMenuBuilder08'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -318,7 +318,7 @@ export default function uiComponentTextRichEditorMenuBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0010 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder09")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder09')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorMenuBuilder09'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -350,7 +350,7 @@ export default function uiComponentTextRichEditorMenuBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0012', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0012 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder10")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder10')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorMenuBuilder10'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -382,7 +382,7 @@ export default function uiComponentTextRichEditorMenuBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0011', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_BUILDER_0011 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder11")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorMenuBuilder/UiComponentTextRichEditorMenuBuilder11')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorMenuBuilder11'),1000);
       let point = await richeditor.getBoundsCenter()

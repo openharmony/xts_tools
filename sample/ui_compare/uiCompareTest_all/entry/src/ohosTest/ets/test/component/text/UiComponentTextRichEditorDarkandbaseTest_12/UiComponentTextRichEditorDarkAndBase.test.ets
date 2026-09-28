@@ -42,14 +42,14 @@ export default function uiComponentTextRichEditorDarkAndBase() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00031", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00031', Level.LEVEL3, async (done: Function) => {
 
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0031")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0031')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、查找richEditor组件
-      let rich_editor_darkandbase_00031 = await driver.waitForComponent(ON.id("rich_editor_darkandbase_00031"), 500)
+      let rich_editor_darkandbase_00031 = await driver.waitForComponent(ON.id('rich_editor_darkandbase_00031'), 500)
       // 2、输入测试文本
       await rich_editor_darkandbase_00031.inputText('1.浅色模式的输入', { paste: false, addition: true });
       await Utils.sleep(500)
@@ -63,7 +63,7 @@ export default function uiComponentTextRichEditorDarkAndBase() {
       await rich_editor_darkandbase_00031.inputText('2.深色模式的输入', { paste: false, addition: true });
       // 截图查看深色模式文本选中状态
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00031_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00031_01')
       await Utils.sleep(1000)
       // 5、关闭深色模式
       uiAppearance.setDarkMode(uiAppearance.DarkMode.ALWAYS_LIGHT)
@@ -72,7 +72,7 @@ export default function uiComponentTextRichEditorDarkAndBase() {
       await rich_editor_darkandbase_00031.inputText('3.恢复浅色模式的输入', { paste: false, addition: true });
       // 截图查看深色模式文本选中状态
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00031_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00031_02')
       await Utils.sleep(1000)
       done();
     })
@@ -86,13 +86,13 @@ export default function uiComponentTextRichEditorDarkAndBase() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00030", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0030")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00030', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0030')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、查找richEditor、setTypingStyle组件
-      let rich_editor_darkandbase_00030 = await driver.waitForComponent(ON.id("rich_editor_darkandbase_00030"), 500)
+      let rich_editor_darkandbase_00030 = await driver.waitForComponent(ON.id('rich_editor_darkandbase_00030'), 500)
       let button_darkandbase_00030_setTypingStyle = await driver.waitForComponent(ON.id('button_darkandbase_00030_setTypingStyle'), 500)
 
       // 2、设置预设样式并输入测试文本
@@ -108,7 +108,7 @@ export default function uiComponentTextRichEditorDarkAndBase() {
       await rich_editor_darkandbase_00030.inputText('2.深色模式的输入', { paste: false, addition: true });
       // 截图查看深色模式文本选中状态
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00030_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00030_01')
       await Utils.sleep(1000)
       // 5、关闭深色模式
       uiAppearance.setDarkMode(uiAppearance.DarkMode.ALWAYS_LIGHT)
@@ -117,7 +117,7 @@ export default function uiComponentTextRichEditorDarkAndBase() {
       await rich_editor_darkandbase_00030.inputText('3.恢复浅色模式的输入', { paste: false, addition: true });
       // 截图查看深色模式文本选中状态
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00030_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00030_02')
       await Utils.sleep(1000)
       done();
     })
@@ -130,38 +130,38 @@ export default function uiComponentTextRichEditorDarkAndBase() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0005", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0005")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0005', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0005')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、查找richEditor1组件
-      let rich_editor_darkandbase_0005 = await driver.waitForComponent(ON.id("rich_editor_darkandbase_0005"), 500)
+      let rich_editor_darkandbase_0005 = await driver.waitForComponent(ON.id('rich_editor_darkandbase_0005'), 500)
       let button_darkandbase_0005_setTypingStyle =
         await driver.waitForComponent(ON.id('button_darkandbase_0005_setTypingStyle'), 500)
-      await rich_editor_darkandbase_0005.inputText("测试1")
+      await rich_editor_darkandbase_0005.inputText('测试1')
 
       // 2、打开深色模式，查看效果并截图
       uiAppearance.setDarkMode(uiAppearance.DarkMode.ALWAYS_DARK)
       await Utils.sleep(500)
       // 截图查看深色模式文本选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0005_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0005_01')
       await Utils.sleep(1000)
 
       await rich_editor_darkandbase_0005.click()
-      await rich_editor_darkandbase_0005.inputText("测试2")
+      await rich_editor_darkandbase_0005.inputText('测试2')
 
       // 3、关闭深色模式，查看效果并截图
       uiAppearance.setDarkMode(uiAppearance.DarkMode.ALWAYS_LIGHT)
       await Utils.sleep(500)
       // 截图查看浅色模式文本选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0005_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0005_02')
       await Utils.sleep(1000)
 
       await button_darkandbase_0005_setTypingStyle.click()
       await rich_editor_darkandbase_0005.click()
-      await rich_editor_darkandbase_0005.inputText("测试3")
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0005_03")
+      await rich_editor_darkandbase_0005.inputText('测试3')
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0005_03')
       await Utils.sleep(1000)
 
 
@@ -176,16 +176,16 @@ export default function uiComponentTextRichEditorDarkAndBase() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0014", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0014")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0014', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0014')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、查找richEditor组件
-      let rich_editor_darkandbase_0014 = await driver.waitForComponent(ON.id("rich_editor_darkandbase_0014"), 500)
+      let rich_editor_darkandbase_0014 = await driver.waitForComponent(ON.id('rich_editor_darkandbase_0014'), 500)
 
       // 2、输入测试文本选中
-      await rich_editor_darkandbase_0014.inputText("这是输入的文本用于提供选中测试")
+      await rich_editor_darkandbase_0014.inputText('这是输入的文本用于提供选中测试')
       await Utils.sleep(500)
       await rich_editor_darkandbase_0014.longClick()
       await Utils.sleep(1000)
@@ -194,7 +194,7 @@ export default function uiComponentTextRichEditorDarkAndBase() {
       uiAppearance.setDarkMode(uiAppearance.DarkMode.ALWAYS_DARK)
       await Utils.sleep(500)
       // 截图查看深色模式文本选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0014_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0014_01')
       await Utils.sleep(1000)
       await Utils.sleep(500);
 
@@ -203,7 +203,7 @@ export default function uiComponentTextRichEditorDarkAndBase() {
       uiAppearance.setDarkMode(uiAppearance.DarkMode.ALWAYS_LIGHT)
       await Utils.sleep(500)
       // 截图查看浅色模式文本选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0014_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0014_02')
       await Utils.sleep(1000)
       await Utils.sleep(500);
       done();
@@ -217,20 +217,20 @@ export default function uiComponentTextRichEditorDarkAndBase() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0003", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0003")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0003', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0003')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、查找richEditor组件
-      let rich_editor_darkandbase_0003 = await driver.waitForComponent(ON.id("rich_editor_darkandbase_0003"), 500)
+      let rich_editor_darkandbase_0003 = await driver.waitForComponent(ON.id('rich_editor_darkandbase_0003'), 500)
       await rich_editor_darkandbase_0003.click()
       await Utils.sleep(500)
       // 3、打开深色模式，
       uiAppearance.setDarkMode(uiAppearance.DarkMode.ALWAYS_DARK)
       await Utils.sleep(500)
       // 截图查看深色模式文本选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0003_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0003_01')
       await Utils.sleep(1000)
       await Utils.sleep(500);
 
@@ -239,7 +239,7 @@ export default function uiComponentTextRichEditorDarkAndBase() {
       uiAppearance.setDarkMode(uiAppearance.DarkMode.ALWAYS_LIGHT)
       await Utils.sleep(500)
       // 截图查看浅色模式文本选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0003_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0003_02')
       await Utils.sleep(1000)
       await Utils.sleep(500);
 
@@ -255,17 +255,17 @@ export default function uiComponentTextRichEditorDarkAndBase() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0012", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0012")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0012', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0012')
       let driver = await Driver.create()
       await Utils.sleep(500);
 
       // 1、查找richEditor组件
-      let rich_editor_darkandbase_0012 = await driver.waitForComponent(ON.id("rich_editor_darkandbase_0012"), 500)
+      let rich_editor_darkandbase_0012 = await driver.waitForComponent(ON.id('rich_editor_darkandbase_0012'), 500)
       await Utils.sleep(500)
 
       // 2、输入测试文本选中
-      await rich_editor_darkandbase_0012.inputText("这是输入的文本用于光标颜色测试")
+      await rich_editor_darkandbase_0012.inputText('这是输入的文本用于光标颜色测试')
       await Utils.sleep(500)
       await rich_editor_darkandbase_0012.longClick()
       await Utils.sleep(1000)
@@ -274,7 +274,7 @@ export default function uiComponentTextRichEditorDarkAndBase() {
       uiAppearance.setDarkMode(uiAppearance.DarkMode.ALWAYS_DARK)
       await Utils.sleep(500)
       // 截图查看深色模式文本选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0012_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0012_01')
       await Utils.sleep(1000)
       await Utils.sleep(500);
 
@@ -283,7 +283,7 @@ export default function uiComponentTextRichEditorDarkAndBase() {
       uiAppearance.setDarkMode(uiAppearance.DarkMode.ALWAYS_LIGHT)
       await Utils.sleep(500)
       // 截图查看浅色模式文本选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0012_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0012_02')
       await Utils.sleep(1000)
       await Utils.sleep(500);
       done();
@@ -297,20 +297,20 @@ export default function uiComponentTextRichEditorDarkAndBase() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0017", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0017")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0017', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0017')
       let driver = await Driver.create()
       await Utils.sleep(500);
 
       // 1、查找richEditor1组件
-      let rich_editor_darkandbase_0017 = await driver.waitForComponent(ON.id("rich_editor_darkandbase_0017"), 500)
+      let rich_editor_darkandbase_0017 = await driver.waitForComponent(ON.id('rich_editor_darkandbase_0017'), 500)
       await Utils.sleep(1000)
 
       // 3、打开深色模式，查看效果并截图
       uiAppearance.setDarkMode(uiAppearance.DarkMode.ALWAYS_DARK)
       await Utils.sleep(500)
       // 截图查看深色模式文本选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0017_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0017_01')
       await Utils.sleep(1000)
       await rich_editor_darkandbase_0017.click()
       await Utils.sleep(500);
@@ -320,7 +320,7 @@ export default function uiComponentTextRichEditorDarkAndBase() {
       uiAppearance.setDarkMode(uiAppearance.DarkMode.ALWAYS_LIGHT)
       await Utils.sleep(500)
       // 截图查看浅色模式文本选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0017_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0017_02')
       await Utils.sleep(1000)
       await Utils.sleep(500);
       done();
@@ -334,8 +334,8 @@ export default function uiComponentTextRichEditorDarkAndBase() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0006", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0006")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0006', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0006')
       let driver = await Driver.create()
       await Utils.sleep(500);
 
@@ -350,7 +350,7 @@ export default function uiComponentTextRichEditorDarkAndBase() {
       await button_darkandbase_0006_addSymbolSpan.click()
       await Utils.sleep(500)
       // 截图查看深色模式文本选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0006_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0006_01')
       await Utils.sleep(1000)
 
 
@@ -360,7 +360,7 @@ export default function uiComponentTextRichEditorDarkAndBase() {
       await button_darkandbase_0006_addSymbolSpan.click()
       await Utils.sleep(500)
       // 截图查看浅色模式文本选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0006_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0006_02')
       await Utils.sleep(1000)
       done();
     })
@@ -373,13 +373,13 @@ export default function uiComponentTextRichEditorDarkAndBase() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0016", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0016")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0016', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDarkAndBase/UiComponentTextRichEditorDarkAndBase0016')
       let driver = await Driver.create()
       await Utils.sleep(500);
 
       // 1、查找richEditor1组件
-      let rich_editor_darkandbase_0016 = await driver.waitForComponent(ON.id("rich_editor_darkandbase_0016"), 500)
+      let rich_editor_darkandbase_0016 = await driver.waitForComponent(ON.id('rich_editor_darkandbase_0016'), 500)
       await Utils.sleep(1000)
 
       // 2、打开深色模式，查看效果并截图
@@ -388,14 +388,14 @@ export default function uiComponentTextRichEditorDarkAndBase() {
       await rich_editor_darkandbase_0016.click()
       await Utils.sleep(500)
       // 截图查看深色模式文本选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0016_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0016_01')
       await Utils.sleep(1000)
 
       // 3、关闭深色模式，查看效果并截图
       uiAppearance.setDarkMode(uiAppearance.DarkMode.ALWAYS_LIGHT)
       await Utils.sleep(500)
       // 截图查看浅色模式文本选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0016_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0016_02')
       await Utils.sleep(1000)
 
       done();

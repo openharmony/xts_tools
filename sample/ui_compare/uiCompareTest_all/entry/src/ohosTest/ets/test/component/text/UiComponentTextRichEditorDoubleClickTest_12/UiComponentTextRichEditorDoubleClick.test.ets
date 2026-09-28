@@ -48,13 +48,13 @@ export default function uiComponentTextRichEditorDoubleClick() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_003", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0003")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_003', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0003')
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 
       // 1、查找RichEditor组件
-      let rich_editor_doubleclick_0003 = await driver.waitForComponent(ON.id("rich_editor_doubleclick_0003"), 1500)
+      let rich_editor_doubleclick_0003 = await driver.waitForComponent(ON.id('rich_editor_doubleclick_0003'), 1500)
       if (!rich_editor_doubleclick_0003) {
         Logger.error('TEST', 'RichEditor component not found!');
         done();
@@ -72,7 +72,7 @@ export default function uiComponentTextRichEditorDoubleClick() {
       // 3、执行双击操作
       await driver.mouseDoubleClick(point_doubleclick_0003, MouseButton.MOUSE_BUTTON_LEFT)
       await Utils.sleep(1000)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_003_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_003_01')
       await Utils.sleep(1000)
       done();
     })
@@ -85,13 +85,13 @@ export default function uiComponentTextRichEditorDoubleClick() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_010", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0010")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_010', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0010')
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 
       // 1、查找RichEditor组件
-      let rich_editor_doubleclick_0010 = await driver.waitForComponent(ON.id("rich_editor_doubleclick_0010"), 1500)
+      let rich_editor_doubleclick_0010 = await driver.waitForComponent(ON.id('rich_editor_doubleclick_0010'), 1500)
       if (!rich_editor_doubleclick_0010) {
         Logger.error('TEST', 'RichEditor component not found!');
         done();
@@ -109,7 +109,7 @@ export default function uiComponentTextRichEditorDoubleClick() {
       // 3、执行双击操作
       await driver.mouseDoubleClick({x:point_doubleclick_0010.x, y:point_doubleclick_0010.y-10}, MouseButton.MOUSE_BUTTON_LEFT);
       await Utils.sleep(1000)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_010_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_010_01')
       await Utils.sleep(1000)
       done();
     })
@@ -122,13 +122,13 @@ export default function uiComponentTextRichEditorDoubleClick() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_001", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0001")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_001', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0001')
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 
       // 1、查找RichEditor组件
-      let rich_editor_doubleclick_0001 = await driver.waitForComponent(ON.id("rich_editor_doubleclick_0001"), 1500)
+      let rich_editor_doubleclick_0001 = await driver.waitForComponent(ON.id('rich_editor_doubleclick_0001'), 1500)
       if (!rich_editor_doubleclick_0001) {
         Logger.error('TEST', 'RichEditor component not found!');
         done();
@@ -144,7 +144,7 @@ export default function uiComponentTextRichEditorDoubleClick() {
       // 3、执行双击操作
       await driver.mouseDoubleClick({x:point_doubleclick_0001.x, y:point_doubleclick_0001.y-15}, MouseButton.MOUSE_BUTTON_LEFT);
       await Utils.sleep(1000)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_001_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_001_01')
       await Utils.sleep(1000)
       done();
     })

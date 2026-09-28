@@ -67,7 +67,7 @@ export default function uiComponentTextRicheditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0070 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRicheditor/UiComponentTextRicheditor02")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRicheditor/UiComponentTextRicheditor02')
       let driver: Driver=Driver.create()
       let text: Component = await driver.waitForComponent(ON.id('UiComponentTextRicheditor02'),1000)
       await text.inputText('aaaaaaaaa')
@@ -91,7 +91,7 @@ export default function uiComponentTextRicheditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0020 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRicheditor/UiComponentTextRicheditor03")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRicheditor/UiComponentTextRicheditor03')
       let driver: Driver=Driver.create()
       let text: Component = await driver.waitForComponent(ON.id('UiComponentTextRicheditor03'),1000)
       await text.inputText('aaaaaaaaa')
@@ -114,7 +114,7 @@ export default function uiComponentTextRicheditor() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0080 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRicheditor/UiComponentTextRicheditor03")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRicheditor/UiComponentTextRicheditor03')
       let driver: Driver=Driver.create()
       let text: Component = await driver.waitForComponent(ON.id('UiComponentTextRicheditor03'),1000)
       await text.inputText('aaaaaaaaa')
@@ -142,7 +142,7 @@ export default function uiComponentTextRicheditor() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0010`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRicheditor/UiComponentTextRicheditor05")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRicheditor/UiComponentTextRicheditor05')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -161,7 +161,7 @@ export default function uiComponentTextRicheditor() {
      */
     it('SUB_ACE_UI_COMPONENT_RICHEDITOR_SYMBOL_SHUFFLEEDITING_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RICHEDITOR_SYMBOL_SHUFFLEEDITING_0370`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRicheditor/UiComponentTextRicheditor06")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRicheditor/UiComponentTextRicheditor06')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       await driver.longClick(300,100)

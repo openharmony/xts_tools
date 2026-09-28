@@ -48,13 +48,13 @@ export default function uiComponentTextRichEditorThreeStrikes() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_THREESTRIKES_0003", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorThreeStrikes/UiComponentTextRichEditorThreeStrikes0003")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_THREESTRIKES_0003', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorThreeStrikes/UiComponentTextRichEditorThreeStrikes0003')
       await Utils.sleep(1000) // 等待窗口创建完成
       let driver = await Driver.create()
 
       // 1、查找组件
-      let rich_editor_threestrikes_0003 = await driver.waitForComponent(ON.id("rich_editor_threestrikes_0003"), 1500)
+      let rich_editor_threestrikes_0003 = await driver.waitForComponent(ON.id('rich_editor_threestrikes_0003'), 1500)
       if (!rich_editor_threestrikes_0003) {
         Logger.error('TEST', 'RichEditor component not found!');
         done();
@@ -73,7 +73,7 @@ export default function uiComponentTextRichEditorThreeStrikes() {
       await driver.click(point_threestrikes_0003.x,point_threestrikes_0003.y)
       
 
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_THREESTRIKES_0003_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_THREESTRIKES_0003_01')
       await Utils.sleep(1000)
       done();
     })

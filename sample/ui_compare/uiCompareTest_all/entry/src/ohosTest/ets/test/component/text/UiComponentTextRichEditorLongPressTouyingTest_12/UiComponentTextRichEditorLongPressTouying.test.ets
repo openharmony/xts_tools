@@ -48,13 +48,13 @@ export default function uiComponentTextRichEditorLongPressTouying() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0005", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0005")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0005', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0005')
       await Utils.sleep(2000) // 等待窗口创建完成
       let driver = await Driver.create()
 
       // 1、查找RichEditor组件
-      let rich_editor_longpresstouying_0005 = await driver.waitForComponent(ON.id("rich_editor_longpresstouying_0005"), 5000)
+      let rich_editor_longpresstouying_0005 = await driver.waitForComponent(ON.id('rich_editor_longpresstouying_0005'), 5000)
       if (!rich_editor_longpresstouying_0005) {
         Logger.error('TEST', 'RichEditor component not found!');
         done();
@@ -73,7 +73,7 @@ export default function uiComponentTextRichEditorLongPressTouying() {
       
       // 5、截图验证长按后的效果
       await Utils.sleep(1000)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0005_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0005_01')
       
       done();
     })
@@ -86,13 +86,13 @@ export default function uiComponentTextRichEditorLongPressTouying() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0003", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0003")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0003', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0003')
       await Utils.sleep(2000) // 等待窗口创建完成
       let driver = await Driver.create()
 
       // 1、查找RichEditor组件
-      let rich_editor_longpresstouying_0003 = await driver.waitForComponent(ON.id("rich_editor_longpresstouying_0003"), 5000)
+      let rich_editor_longpresstouying_0003 = await driver.waitForComponent(ON.id('rich_editor_longpresstouying_0003'), 5000)
       if (!rich_editor_longpresstouying_0003) {
         Logger.error('TEST', 'RichEditor component not found!');
         done();
@@ -111,7 +111,7 @@ export default function uiComponentTextRichEditorLongPressTouying() {
       
       // 5、截图验证长按后的效果
       await Utils.sleep(1000)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0003_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0003_01')
       
       done();
     })
@@ -124,13 +124,13 @@ export default function uiComponentTextRichEditorLongPressTouying() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0010", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0010")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0010', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0010')
       await Utils.sleep(2000) // 等待窗口创建完成
       let driver = await Driver.create()
 
       // 1、查找RichEditor组件
-      let rich_editor_longpresstouying_0010 = await driver.waitForComponent(ON.id("rich_editor_longpresstouying_0010"), 5000)
+      let rich_editor_longpresstouying_0010 = await driver.waitForComponent(ON.id('rich_editor_longpresstouying_0010'), 5000)
       if (!rich_editor_longpresstouying_0010) {
         Logger.error('TEST', 'RichEditor component not found!');
         done();
@@ -146,7 +146,7 @@ export default function uiComponentTextRichEditorLongPressTouying() {
       
       // 4、截图验证长按后的效果
       await Utils.sleep(1000)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0010_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0010_01')
       
       done();
     })
@@ -159,14 +159,14 @@ export default function uiComponentTextRichEditorLongPressTouying() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0009", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0009")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0009', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorLongPressTouying/UiComponentTextRichEditorLongPressTouying0009')
       await Utils.sleep(2000) // 等待窗口创建完成
       let driver = await Driver.create()
 
       // 1、查找RichEditor组件和选择图片按钮
-      let rich_editor_longpresstouying_0009 = await driver.waitForComponent(ON.id("rich_editor_longpresstouying_0009"), 5000)
-      let button_longpresstouying_0009_select = await driver.waitForComponent(ON.id("button_longpresstouying_0009_select"), 5000)
+      let rich_editor_longpresstouying_0009 = await driver.waitForComponent(ON.id('rich_editor_longpresstouying_0009'), 5000)
+      let button_longpresstouying_0009_select = await driver.waitForComponent(ON.id('button_longpresstouying_0009_select'), 5000)
       
       if (!rich_editor_longpresstouying_0009 || !button_longpresstouying_0009_select) {
         Logger.error('TEST', 'Required components not found!');
@@ -186,7 +186,7 @@ export default function uiComponentTextRichEditorLongPressTouying() {
       
       // 5、截图验证长按后的效果
       await Utils.sleep(1000)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0009_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0009_01')
       
       done();
     })

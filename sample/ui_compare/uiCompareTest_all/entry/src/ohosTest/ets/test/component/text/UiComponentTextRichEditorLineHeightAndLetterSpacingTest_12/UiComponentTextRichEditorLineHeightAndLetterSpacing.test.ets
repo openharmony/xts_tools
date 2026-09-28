@@ -46,13 +46,13 @@ export default function uiComponentTextRichEditorLineHeightAndLetterSpacing() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEHEIGHT_LETTERSPACING_0027", Level.LEVEL3, async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorLineHeightAndLetterSpacing/UiComponentTextRichEditorLineHeightAndLetterSpacing0027")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEHEIGHT_LETTERSPACING_0027', Level.LEVEL3, async (done: Function) => {
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorLineHeightAndLetterSpacing/UiComponentTextRichEditorLineHeightAndLetterSpacing0027')
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
         // 1、查找RichEditor组件
-        let rich_editor_lineheight_letterspacing_0027 = await driver.findComponent(ON.id("rich_editor_lineheight_letterspacing_0027"))
+        let rich_editor_lineheight_letterspacing_0027 = await driver.findComponent(ON.id('rich_editor_lineheight_letterspacing_0027'))
         if (!rich_editor_lineheight_letterspacing_0027) {
           Logger.error('TEST', 'RichEditor component not found!');
           done();
@@ -61,7 +61,7 @@ export default function uiComponentTextRichEditorLineHeightAndLetterSpacing() {
         // 2、等待组件加载完成
         await Utils.sleep(2000)
         // 3、截图查看缩进图片以及文本内容的显示效果
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEHEIGHTANDLETTERSPACING_0001_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEHEIGHTANDLETTERSPACING_0001_01')
         await Utils.sleep(1000)
 
         done();

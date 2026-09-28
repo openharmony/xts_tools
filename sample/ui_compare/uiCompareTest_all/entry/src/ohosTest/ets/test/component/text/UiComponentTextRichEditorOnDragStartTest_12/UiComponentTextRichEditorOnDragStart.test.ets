@@ -47,18 +47,18 @@ export default function uiComponentTextRichEditorOnDragStart() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_005", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart005")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_005', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart005')
       await Utils.sleep(1000)
       let driver = await Driver.create()
       // 1.查找预备拖出组件，添加预设图文并选择
-      let richEditorDragOut005 = await driver.waitForComponent(ON.id("richEditorDragOut005"),500)
-      let richEditorDropIn005 = await driver.waitForComponent(ON.id("richEditorDropIn005"),500)
-      let addSpanBtn005 = await driver.waitForComponent(ON.id("addSpanBtn005"),500)
+      let richEditorDragOut005 = await driver.waitForComponent(ON.id('richEditorDragOut005'),500)
+      let richEditorDropIn005 = await driver.waitForComponent(ON.id('richEditorDropIn005'),500)
+      let addSpanBtn005 = await driver.waitForComponent(ON.id('addSpanBtn005'),500)
       await addSpanBtn005.click()
       await richEditorDragOut005.click()
 
-      let selectImage005 = await driver.waitForComponent(ON.id("selectImage005"),500)
+      let selectImage005 = await driver.waitForComponent(ON.id('selectImage005'),500)
       await selectImage005.click()
       await Utils.sleep(1000)
 
@@ -69,7 +69,7 @@ export default function uiComponentTextRichEditorOnDragStart() {
       const imagePoint005 = await image005.getBoundsCenter()
       await driver.drag(imagePoint005.x,imagePoint005.y,richEditorDropInPoint005.x,richEditorDropInPoint005.y,2000)
       await Utils.sleep(2000)
-      await windowSnap.snapShot("testability/pages/component/text/uiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart005")
+      await windowSnap.snapShot('testability/pages/component/text/uiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart005')
       await Utils.sleep(1000)
       done();
     })
@@ -82,18 +82,18 @@ export default function uiComponentTextRichEditorOnDragStart() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_006", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow ("testability/pages/component/text/uiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart006")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_006', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow ('testability/pages/component/text/uiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart006')
       await Utils.sleep (1000)
       let driver = await Driver.create ()
       // 1. 查找预备拖出组件，添加预设图文并选择
-      let richEditorDragOut006 = await driver.waitForComponent (ON.id ("richEditorDragOut006"),500)
-      let richEditorDropIn006 = await driver.waitForComponent (ON.id ("richEditorDropIn006"),500)
-      let addSpanBtn006 = await driver.waitForComponent (ON.id ("addSpanBtn006"),500)
+      let richEditorDragOut006 = await driver.waitForComponent (ON.id ('richEditorDragOut006'),500)
+      let richEditorDropIn006 = await driver.waitForComponent (ON.id ('richEditorDropIn006'),500)
+      let addSpanBtn006 = await driver.waitForComponent (ON.id ('addSpanBtn006'),500)
       await addSpanBtn006.click ()
       await richEditorDragOut006.click ()
 
-      let selectImage006 = await driver.waitForComponent(ON.id("selectImage006"),500)
+      let selectImage006 = await driver.waitForComponent(ON.id('selectImage006'),500)
       await selectImage006.click()
       await Utils.sleep(1000)
 
@@ -103,7 +103,7 @@ export default function uiComponentTextRichEditorOnDragStart() {
 
       await driver.drag (richEditorDragOutPoint006.x-30,richEditorDragOutPoint006.y-30,richEditorDropInPoint006.x,richEditorDropInPoint006.y,2000)
       await Utils.sleep (2000)
-      await windowSnap.snapShot ("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_006_001")
+      await windowSnap.snapShot ('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_006_001')
       await Utils.sleep (1000)
       done ();
     })

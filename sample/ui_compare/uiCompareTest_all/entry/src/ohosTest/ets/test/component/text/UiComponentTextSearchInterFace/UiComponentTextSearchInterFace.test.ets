@@ -64,7 +64,7 @@ export default function uiComponentTextSearchInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1460', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1460 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextSearchInterFace/UiComponentTextSearchInterFace01")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextSearchInterFace/UiComponentTextSearchInterFace01')
       let driver:Driver=Driver.create();
       let search: Component = await driver.waitForComponent(ON.id('UiComponentTextSearchInterFace01'),1000);
       await search.inputText('hello');
@@ -85,7 +85,7 @@ export default function uiComponentTextSearchInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1450', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1450 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextSearchInterFace/UiComponentTextSearchInterFace02")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextSearchInterFace/UiComponentTextSearchInterFace02')
       let driver:Driver=Driver.create();
       let search: Component = await driver.waitForComponent(ON.id('UiComponentTextSearchInterFace02'),1000);
       await search.inputText('hello');
@@ -106,7 +106,7 @@ export default function uiComponentTextSearchInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1480', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1480 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextSearchInterFace/UiComponentTextSearchInterFace03")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextSearchInterFace/UiComponentTextSearchInterFace03')
       let driver:Driver=Driver.create();
       let search: Component = await driver.waitForComponent(ON.id('UiComponentTextSearchInterFace03'),1000);
       await search.inputText('hello');
@@ -127,7 +127,7 @@ export default function uiComponentTextSearchInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0150 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextSearchInterFace/UiComponentTextSearchInterFace04")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextSearchInterFace/UiComponentTextSearchInterFace04')
       let driver:Driver=Driver.create();
       let search: Component = await driver.waitForComponent(ON.id('UiComponentTextSearchInterFace04'),1000);
       await search.inputText('hello');
@@ -148,7 +148,7 @@ export default function uiComponentTextSearchInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0010 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextSearchInterFace/UiComponentTextSearchInterFace05")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextSearchInterFace/UiComponentTextSearchInterFace05')
       let driver:Driver=Driver.create();
       windowSnap.snapShot();
       await driver.waitForIdle(500,2000);

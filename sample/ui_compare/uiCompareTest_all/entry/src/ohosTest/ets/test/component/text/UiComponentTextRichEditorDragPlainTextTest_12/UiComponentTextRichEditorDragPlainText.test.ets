@@ -46,18 +46,18 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0024", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0024', Level.LEVEL3, async (done: Function) => {
 
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0024")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0024')
       await Utils.sleep(2000)
       let driver = await Driver.create()
 
-      let textInputDrag0024 = await driver.waitForComponent(ON.id("textInputDrag0024"), 500)
+      let textInputDrag0024 = await driver.waitForComponent(ON.id('textInputDrag0024'), 500)
 
       await textInputDrag0024.inputText('=================测试拖拽文本内容================',
         { paste: false, addition: true });
 
-      let richEditorDrag0024 = await driver.waitForComponent(ON.id("richEditorDrag0024"), 500)
+      let richEditorDrag0024 = await driver.waitForComponent(ON.id('richEditorDrag0024'), 500)
 
       await textInputDrag0024.longClick();
       await Utils.sleep(1000);
@@ -71,16 +71,16 @@ export default function uiComponentTextRichEditorDragPlainText() {
 
 
       // 点击验证按钮
-      let getSpansBtn = await driver.waitForComponent(ON.id("getSpansBtn0024"), 500)
+      let getSpansBtn = await driver.waitForComponent(ON.id('getSpansBtn0024'), 500)
       await getSpansBtn.click();
       await Utils.sleep(1000);
 
       // 检查验证结果
-      let resultText = await driver.waitForComponent(ON.id("getSpansResultText0024"), 500)
+      let resultText = await driver.waitForComponent(ON.id('getSpansResultText0024'), 500)
       let result = await resultText.getText();
       Logger.info('TEST', `验证结果: ${result}`)
 
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0024_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0024_01')
       await Utils.sleep(1000)
       Logger.info('TEST', '测试用例执行完成')
       done();
@@ -96,19 +96,19 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0013", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0013', Level.LEVEL3, async (done: Function) => {
 
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0013")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0013')
       await Utils.sleep(2000)
       let driver = await Driver.create()
 
-      let textInputDrag0013 = await driver.waitForComponent(ON.id("textInputDrag0013"), 500)
-      let addImage0013 = await driver.waitForComponent(ON.id("addImage0013"),500)
+      let textInputDrag0013 = await driver.waitForComponent(ON.id('textInputDrag0013'), 500)
+      let addImage0013 = await driver.waitForComponent(ON.id('addImage0013'),500)
 
       await textInputDrag0013.inputText('=================测试拖拽文本内容================',
         { paste: false, addition: true });
 
-      let richEditorDrag0013 = await driver.waitForComponent(ON.id("richEditorDrag0013"), 500)
+      let richEditorDrag0013 = await driver.waitForComponent(ON.id('richEditorDrag0013'), 500)
 
       await textInputDrag0013.longClick();
       await Utils.sleep(1000);
@@ -122,16 +122,16 @@ export default function uiComponentTextRichEditorDragPlainText() {
 
 
       // 点击验证按钮
-      let getSpansBtn = await driver.waitForComponent(ON.id("getSpansBtn0013"), 500)
+      let getSpansBtn = await driver.waitForComponent(ON.id('getSpansBtn0013'), 500)
       await getSpansBtn.click();
       await Utils.sleep(1000);
 
       // 检查验证结果
-      let resultText = await driver.waitForComponent(ON.id("getSpansResultText0013"), 500)
+      let resultText = await driver.waitForComponent(ON.id('getSpansResultText0013'), 500)
       let result = await resultText.getText();
       Logger.info('TEST', `验证结果: ${result}`)
 
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0013_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0013_01')
       await Utils.sleep(1000)
       Logger.info('TEST', '测试用例执行完成')
       done();
@@ -149,23 +149,23 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0003", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0003', Level.LEVEL3, async (done: Function) => {
 
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0003")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0003')
       await Utils.sleep(1000)
       let driver = await Driver.create()
 
       // 点击添加Span按钮，创建span1、空格、span2
-      let addSpanBtn0003 = await driver.waitForComponent(ON.id("addSpanBtn0003"), 500)
+      let addSpanBtn0003 = await driver.waitForComponent(ON.id('addSpanBtn0003'), 500)
       await addSpanBtn0003.click()
       await Utils.sleep(500) // 等待RichEditor内容更新
 
       // 输入要拖拽的文本
-      let textInputDrag0003 = await driver.waitForComponent(ON.id("textInputDrag0003"), 500)
+      let textInputDrag0003 = await driver.waitForComponent(ON.id('textInputDrag0003'), 500)
       await textInputDrag0003.inputText('这里是一段需要添加在Span1和Span2之间的文字', { paste: false, addition: true });
 
       // 获取RichEditor组件
-      let richEditorDrag0003 = await driver.waitForComponent(ON.id("richEditorDrag0003"), 500)
+      let richEditorDrag0003 = await driver.waitForComponent(ON.id('richEditorDrag0003'), 500)
 
       // 长按选择文本
       await textInputDrag0003.longClick();
@@ -188,16 +188,16 @@ export default function uiComponentTextRichEditorDragPlainText() {
       await Utils.sleep(1000); // 等待拖拽完成
 
       // 点击验证按钮
-      let getSpansBtn = await driver.waitForComponent(ON.id("getSpansBtn0003"), 500)
+      let getSpansBtn = await driver.waitForComponent(ON.id('getSpansBtn0003'), 500)
       await getSpansBtn.click();
       await Utils.sleep(1000);
 
       // 检查验证结果
-      let resultText = await driver.waitForComponent(ON.id("getSpansResultText0003"), 500)
+      let resultText = await driver.waitForComponent(ON.id('getSpansResultText0003'), 500)
       let result = await resultText.getText();
       Logger.info('TEST', `验证结果: ${result}`)
 
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0003_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0003_01')
       await Utils.sleep(1000)
       Logger.info('TEST', '测试用例执行完成')
       done();
@@ -212,18 +212,18 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0016", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0016', Level.LEVEL3, async (done: Function) => {
       try {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0016")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0016')
         await Utils.sleep(2000)
         let driver = await Driver.create()
 
-        let addTextBtn0016 = await driver.waitForComponent(ON.id("addTextBtn0016"),500)
+        let addTextBtn0016 = await driver.waitForComponent(ON.id('addTextBtn0016'),500)
         await addTextBtn0016.click()
-        let textInputDrag0016 = await driver.waitForComponent(ON.id("textInputDrag0016"), 500)
+        let textInputDrag0016 = await driver.waitForComponent(ON.id('textInputDrag0016'), 500)
         await textInputDrag0016.inputText('==============不同样式的文本内容===============', { paste: false, addition: true });
 
-        let richEditorDrag0016 = await driver.waitForComponent(ON.id("richEditorDrag0016"), 500)
+        let richEditorDrag0016 = await driver.waitForComponent(ON.id('richEditorDrag0016'), 500)
         await textInputDrag0016.longClick();
         await Utils.sleep(1000);
         let allSelect0016 = await driver.findComponent(ON.text('全选'))
@@ -235,16 +235,16 @@ export default function uiComponentTextRichEditorDragPlainText() {
         await driver.drag(inputCenter0016.x, inputCenter0016.y, editorCenter0016.x, editorCenter0016.y, 2000);
 
         // 点击验证按钮
-        let getSpansBtn = await driver.waitForComponent(ON.id("getSpansBtn0016"), 500)
+        let getSpansBtn = await driver.waitForComponent(ON.id('getSpansBtn0016'), 500)
         await getSpansBtn.click();
         await Utils.sleep(1000);
 
         // 检查验证结果
-        let resultText = await driver.waitForComponent(ON.id("getSpansResultText0016"), 500)
+        let resultText = await driver.waitForComponent(ON.id('getSpansResultText0016'), 500)
         let result = await resultText.getText();
         Logger.info('TEST', `验证结果: ${result}`)
 
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0016_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0016_01')
         await Utils.sleep(1000)
         Logger.info('TEST', '测试用例执行完成')
         done();
@@ -262,15 +262,15 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0017", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0017")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0017', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0017')
       let driver = await Driver.create()
 
       // 先设置 RichEditor 的预设样式，使其与已有文本样式不一致
-      let changeStylePinkBtn0017 = await driver.waitForComponent(ON.id("changeStylePinkBtn0017"), 300)
-      let changeStyleRedBtn0017 = await driver.waitForComponent(ON.id("changeStyleRedBtn0017"), 300)
+      let changeStylePinkBtn0017 = await driver.waitForComponent(ON.id('changeStylePinkBtn0017'), 300)
+      let changeStyleRedBtn0017 = await driver.waitForComponent(ON.id('changeStyleRedBtn0017'), 300)
       // 获取 RichEditor 目标
-      let richEditorDrag0017 = await driver.waitForComponent(ON.id("richEditorDrag0017"), 200)
+      let richEditorDrag0017 = await driver.waitForComponent(ON.id('richEditorDrag0017'), 200)
       await changeStylePinkBtn0017.click()
       await richEditorDrag0017.inputText('预设文本1', { paste: false, addition: true })
       await changeStyleRedBtn0017.click()
@@ -278,7 +278,7 @@ export default function uiComponentTextRichEditorDragPlainText() {
 
 
       // 在输入框中输入文本
-      let textInputDrag0017 = await driver.waitForComponent(ON.id("textInputDrag0017"), 200)
+      let textInputDrag0017 = await driver.waitForComponent(ON.id('textInputDrag0017'), 200)
       await textInputDrag0017.inputText('================拖拽测试样本===============',
         { paste: false, addition: true });
 
@@ -292,7 +292,7 @@ export default function uiComponentTextRichEditorDragPlainText() {
       const editorCenter0017 = await richEditorDrag0017.getBoundsCenter();
       await driver.drag(inputCenter0017.x, inputCenter0017.y, editorCenter0017.x, editorCenter0017.y, 2000);
 
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0017_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0017_01')
       await Utils.sleep(1000)
       Logger.info('TEST', '测试用例执行完成')
       done();
@@ -307,18 +307,18 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0006", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0006', Level.LEVEL3, async (done: Function) => {
       try {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0006")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0006')
         await Utils.sleep(1000)
         let driver = await Driver.create()
 
-        let everySpanBtn0006 = await driver.waitForComponent(ON.id("everySpanBtn0006"),500)
+        let everySpanBtn0006 = await driver.waitForComponent(ON.id('everySpanBtn0006'),500)
         await everySpanBtn0006.click()
-        let textInputDrag0006 = await driver.waitForComponent(ON.id("textInputDrag0006"), 500)
+        let textInputDrag0006 = await driver.waitForComponent(ON.id('textInputDrag0006'), 500)
         await textInputDrag0006.inputText('===========这是一段待拖入纯文本===========', { paste: false, addition: true });
 
-        let richEditorDrag0006 = await driver.waitForComponent(ON.id("richEditorDrag0006"), 500)
+        let richEditorDrag0006 = await driver.waitForComponent(ON.id('richEditorDrag0006'), 500)
         await textInputDrag0006.longClick();
         await Utils.sleep(1000);
         let allSelect0006 = await driver.findComponent(ON.text('全选'))
@@ -331,16 +331,16 @@ export default function uiComponentTextRichEditorDragPlainText() {
         await driver.drag(inputCenter.x, inputCenter.y, editorCenter.x, editorCenter.y, 2000);
 
         // 点击验证按钮
-        let getSpansBtn = await driver.waitForComponent(ON.id("getSpansBtn0006"), 500)
+        let getSpansBtn = await driver.waitForComponent(ON.id('getSpansBtn0006'), 500)
         await getSpansBtn.click();
         await Utils.sleep(1000);
 
         // 检查验证结果
-        let resultText = await driver.waitForComponent(ON.id("getSpansResultText0006"), 500)
+        let resultText = await driver.waitForComponent(ON.id('getSpansResultText0006'), 500)
         let result = await resultText.getText();
         Logger.info('TEST', `验证结果: ${result}`)
 
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0006_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0006_01')
         await Utils.sleep(1000)
         Logger.info('TEST', '测试用例执行完成')
         done();
@@ -358,18 +358,18 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0014", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0014', Level.LEVEL3, async (done: Function) => {
       try {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0014")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0014')
         await Utils.sleep(2000)
         let driver = await Driver.create()
 
-        let addSpanBtn0014 = await driver.waitForComponent(ON.id("addSpanBtn0014"),500)
+        let addSpanBtn0014 = await driver.waitForComponent(ON.id('addSpanBtn0014'),500)
         await addSpanBtn0014.click()
-        let textInputDrag0014 = await driver.waitForComponent(ON.id("textInputDrag0014"), 500)
+        let textInputDrag0014 = await driver.waitForComponent(ON.id('textInputDrag0014'), 500)
         await textInputDrag0014.inputText('======字体样式测试文本======', { paste: false, addition: true });
 
-        let richEditorDrag0014 = await driver.waitForComponent(ON.id("richEditorDrag0014"), 500)
+        let richEditorDrag0014 = await driver.waitForComponent(ON.id('richEditorDrag0014'), 500)
         await textInputDrag0014.longClick();
         await Utils.sleep(1000);
 
@@ -382,16 +382,16 @@ export default function uiComponentTextRichEditorDragPlainText() {
         await driver.drag(inputCenter.x, inputCenter.y, editorCenter.x, editorCenter.y, 2000);
 
         // 点击验证按钮
-        let getSpansBtn = await driver.waitForComponent(ON.id("getSpansBtn0014"), 500)
+        let getSpansBtn = await driver.waitForComponent(ON.id('getSpansBtn0014'), 500)
         await getSpansBtn.click();
         await Utils.sleep(1000);
 
         // 检查验证结果
-        let resultText = await driver.waitForComponent(ON.id("getSpansResultText0014"), 500)
+        let resultText = await driver.waitForComponent(ON.id('getSpansResultText0014'), 500)
         let result = await resultText.getText();
         Logger.info('TEST', `验证结果: ${result}`)
 
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0014_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0014_01')
         await Utils.sleep(1000)
         Logger.info('TEST', '测试用例执行完成')
         done();
@@ -410,18 +410,18 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0007", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0007', Level.LEVEL3, async (done: Function) => {
       try {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0007")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0007')
         await Utils.sleep(2000)
         let driver = await Driver.create()
 
-        let addLongTextBtn0007 = await driver.waitForComponent(ON.id("addLongTextBtn0007"),500)
+        let addLongTextBtn0007 = await driver.waitForComponent(ON.id('addLongTextBtn0007'),500)
         await addLongTextBtn0007.click()
-        let textInputDrag0007 = await driver.waitForComponent(ON.id("textInputDrag0007"), 500)
+        let textInputDrag0007 = await driver.waitForComponent(ON.id('textInputDrag0007'), 500)
         await textInputDrag0007.inputText('========插入的测试文本========', { paste: false, addition: true });
 
-        let richEditorDrag0007 = await driver.waitForComponent(ON.id("richEditorDrag0007"), 500)
+        let richEditorDrag0007 = await driver.waitForComponent(ON.id('richEditorDrag0007'), 500)
         await textInputDrag0007.longClick();
         await Utils.sleep(1000);
 
@@ -434,16 +434,16 @@ export default function uiComponentTextRichEditorDragPlainText() {
         await driver.drag(inputCenter.x, inputCenter.y, editorCenter.x, editorCenter.y, 2000);
 
         // 点击验证按钮
-        let getSpansBtn = await driver.waitForComponent(ON.id("getSpansBtn0007"), 500)
+        let getSpansBtn = await driver.waitForComponent(ON.id('getSpansBtn0007'), 500)
         await getSpansBtn.click();
         await Utils.sleep(1000);
 
         // 检查验证结果
-        let resultText = await driver.waitForComponent(ON.id("getSpansResultText0007"), 500)
+        let resultText = await driver.waitForComponent(ON.id('getSpansResultText0007'), 500)
         let result = await resultText.getText();
         Logger.info('TEST', `验证结果: ${result}`)
 
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0007_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0007_01')
         await Utils.sleep(1000)
         Logger.info('TEST', '测试用例执行完成')
         done();
@@ -461,9 +461,9 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0008", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0008', Level.LEVEL3, async (done: Function) => {
       try {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0008")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0008')
         await Utils.sleep(2000)
         let driver = await Driver.create()
 
@@ -473,11 +473,11 @@ export default function uiComponentTextRichEditorDragPlainText() {
         // await Utils.sleep(500)
 
         // 在输入框中输入文本
-        let textInputDrag0008 = await driver.waitForComponent(ON.id("textInputDrag0008"), 500)
+        let textInputDrag0008 = await driver.waitForComponent(ON.id('textInputDrag0008'), 500)
         await textInputDrag0008.inputText('========拖拽到长文本末尾的纯文本=======', { paste: false, addition: true });
 
         // 获取 RichEditor 目标
-        let richEditorDrag0008 = await driver.waitForComponent(ON.id("richEditorDrag0008"), 500)
+        let richEditorDrag0008 = await driver.waitForComponent(ON.id('richEditorDrag0008'), 500)
 
         // 长按并尽量全选后进行拖拽
         await textInputDrag0008.longClick();
@@ -494,16 +494,16 @@ export default function uiComponentTextRichEditorDragPlainText() {
         await driver.drag(inputCenter0008.x, inputCenter0008.y, editorCenter0008.x, editorCenter0008.y, 2000);
 
         // 点击验证按钮
-        let getSpansBtn0008 = await driver.waitForComponent(ON.id("getSpansBtn0008"), 500)
+        let getSpansBtn0008 = await driver.waitForComponent(ON.id('getSpansBtn0008'), 500)
         await getSpansBtn0008.click();
         await Utils.sleep(1000);
 
         // 检查验证结果
-        let resultText0008 = await driver.waitForComponent(ON.id("getSpansResultText0008"), 500)
+        let resultText0008 = await driver.waitForComponent(ON.id('getSpansResultText0008'), 500)
         let result0008 = await resultText0008.getText();
         Logger.info('TEST', `验证结果: ${result0008}`)
 
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0008_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0008_01')
         await Utils.sleep(1000)
         Logger.info('TEST', '测试用例执行完成')
         done();
@@ -521,20 +521,20 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0002", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0002', Level.LEVEL3, async (done: Function) => {
 
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0002")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0002')
       await Utils.sleep(2000)
       let driver = await Driver.create()
 
-      let addSpan1Btn0002 = await driver.waitForComponent(ON.id("addSpan1Btn0002"), 500)
+      let addSpan1Btn0002 = await driver.waitForComponent(ON.id('addSpan1Btn0002'), 500)
       await addSpan1Btn0002.click()
-      let textInputDrag0002 = await driver.waitForComponent(ON.id("textInputDrag0002"), 500)
+      let textInputDrag0002 = await driver.waitForComponent(ON.id('textInputDrag0002'), 500)
 
       await textInputDrag0002.inputText('=================测试拖拽文本内容================',
         { paste: false, addition: true });
 
-      let richEditorDrag0002 = await driver.waitForComponent(ON.id("richEditorDrag0002"), 500)
+      let richEditorDrag0002 = await driver.waitForComponent(ON.id('richEditorDrag0002'), 500)
 
       await textInputDrag0002.longClick();
       await Utils.sleep(1000);
@@ -548,16 +548,16 @@ export default function uiComponentTextRichEditorDragPlainText() {
 
 
       // 点击验证按钮
-      let getSpansBtn = await driver.waitForComponent(ON.id("getSpansBtn0002"), 500)
+      let getSpansBtn = await driver.waitForComponent(ON.id('getSpansBtn0002'), 500)
       await getSpansBtn.click();
       await Utils.sleep(1000);
 
       // 检查验证结果
-      let resultText = await driver.waitForComponent(ON.id("getSpansResultText0002"), 500)
+      let resultText = await driver.waitForComponent(ON.id('getSpansResultText0002'), 500)
       let result = await resultText.getText();
       Logger.info('TEST', `验证结果: ${result}`)
 
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0002_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0002_01')
       await Utils.sleep(1000)
       Logger.info('TEST', '测试用例执行完成')
       done();
@@ -572,17 +572,17 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0009", Level.LEVEL3, async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0009")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0009', Level.LEVEL3, async (done: Function) => {
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0009')
         await Utils.sleep(1000)
         let driver = await Driver.create()
 
-        let addLongTextBtn0009 = await driver.waitForComponent(ON.id("addLongTextBtn0009"),500)
+        let addLongTextBtn0009 = await driver.waitForComponent(ON.id('addLongTextBtn0009'),500)
         await addLongTextBtn0009.click()
-        let textInputDrag0009 = await driver.waitForComponent(ON.id("textInputDrag0009"), 500)
+        let textInputDrag0009 = await driver.waitForComponent(ON.id('textInputDrag0009'), 500)
         await textInputDrag0009.inputText('========插入的测试文本========', { paste: false, addition: true });
 
-        let richEditorDrag0009 = await driver.waitForComponent(ON.id("richEditorDrag0009"), 500)
+        let richEditorDrag0009 = await driver.waitForComponent(ON.id('richEditorDrag0009'), 500)
         await textInputDrag0009.longClick();
         await Utils.sleep(1000);
 
@@ -595,16 +595,16 @@ export default function uiComponentTextRichEditorDragPlainText() {
         await driver.drag(inputCenter.x, inputCenter.y, editorCenter.x, editorCenter.y, 2000);
 
         // 点击验证按钮
-        let getSpansBtn = await driver.waitForComponent(ON.id("getSpansBtn0009"), 500)
+        let getSpansBtn = await driver.waitForComponent(ON.id('getSpansBtn0009'), 500)
         await getSpansBtn.click();
         await Utils.sleep(1000);
 
         // 检查验证结果
-        let resultText = await driver.waitForComponent(ON.id("getSpansResultText0009"), 500)
+        let resultText = await driver.waitForComponent(ON.id('getSpansResultText0009'), 500)
         let result = await resultText.getText();
         Logger.info('TEST', `验证结果: ${result}`)
 
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0009_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0009_01')
         await Utils.sleep(1000)
         Logger.info('TEST', '测试用例执行完成')
         done();
@@ -619,17 +619,17 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0004", Level.LEVEL3, async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0004")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0004', Level.LEVEL3, async (done: Function) => {
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0004')
         await Utils.sleep(2000)
         let driver = await Driver.create()
 
-        let addSpan1Btn0004 = await driver.waitForComponent(ON.id("addSpan1Btn0004"), 500)
+        let addSpan1Btn0004 = await driver.waitForComponent(ON.id('addSpan1Btn0004'), 500)
         await addSpan1Btn0004.click()
-        let textInputDrag0004 = await driver.waitForComponent(ON.id("textInputDrag0004"), 500)
+        let textInputDrag0004 = await driver.waitForComponent(ON.id('textInputDrag0004'), 500)
         await textInputDrag0004.inputText('=================测试拖拽文本内容0004================', { paste: false, addition: true });
 
-        let richEditorDrag0004 = await driver.waitForComponent(ON.id("richEditorDrag0004"), 500)
+        let richEditorDrag0004 = await driver.waitForComponent(ON.id('richEditorDrag0004'), 500)
         await textInputDrag0004.longClick();
         await Utils.sleep(1000);
         let allSelect = await driver.findComponent(ON.text('全选'))
@@ -641,16 +641,16 @@ export default function uiComponentTextRichEditorDragPlainText() {
         await driver.drag(inputCenter.x, inputCenter.y, editorCenter.x, editorCenter.y, 2000);
 
         // 点击验证按钮
-        let getSpansBtn = await driver.waitForComponent(ON.id("getSpansBtn0004"), 500)
+        let getSpansBtn = await driver.waitForComponent(ON.id('getSpansBtn0004'), 500)
         await getSpansBtn.click();
         await Utils.sleep(1000);
 
         // 检查验证结果
-        let resultText = await driver.waitForComponent(ON.id("getSpansResultText0004"), 500)
+        let resultText = await driver.waitForComponent(ON.id('getSpansResultText0004'), 500)
         let result = await resultText.getText();
         Logger.info('TEST', `验证结果: ${result}`)
 
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0004_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0004_01')
         await Utils.sleep(1000)
         Logger.info('TEST', '测试用例执行完成')
         done();
@@ -664,18 +664,18 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0005", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0005', Level.LEVEL3, async (done: Function) => {
       try {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0005")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0005')
         await Utils.sleep(2000)
         let driver = await Driver.create()
 
-        let addContentBtn0005 = await driver.waitForComponent(ON.id("addContentBtn0005"), 500)
+        let addContentBtn0005 = await driver.waitForComponent(ON.id('addContentBtn0005'), 500)
         await addContentBtn0005.click()
-        let textInputDrag0005 = await driver.waitForComponent(ON.id("textInputDrag0005"), 500)
+        let textInputDrag0005 = await driver.waitForComponent(ON.id('textInputDrag0005'), 500)
         await textInputDrag0005.inputText('=================测试拖拽文本内容0005================', { paste: false, addition: true });
 
-        let richEditorDrag0005 = await driver.waitForComponent(ON.id("richEditorDrag0005"), 500)
+        let richEditorDrag0005 = await driver.waitForComponent(ON.id('richEditorDrag0005'), 500)
         await textInputDrag0005.longClick();
         await Utils.sleep(1000);
         let allSelect = await driver.findComponent(ON.text('全选'))
@@ -687,16 +687,16 @@ export default function uiComponentTextRichEditorDragPlainText() {
         await driver.drag(inputCenter.x, inputCenter.y, editorCenter.x, editorCenter.y, 2000);
 
         // 点击验证按钮
-        let getSpansBtn = await driver.waitForComponent(ON.id("getSpansBtn0005"), 500)
+        let getSpansBtn = await driver.waitForComponent(ON.id('getSpansBtn0005'), 500)
         await getSpansBtn.click();
         await Utils.sleep(1000);
 
         // 检查验证结果
-        let resultText = await driver.waitForComponent(ON.id("getSpansResultText0005"), 500)
+        let resultText = await driver.waitForComponent(ON.id('getSpansResultText0005'), 500)
         let result = await resultText.getText();
         Logger.info('TEST', `验证结果: ${result}`)
 
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0005_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0005_01')
         await Utils.sleep(1000)
         Logger.info('TEST', '测试用例执行完成')
         done();
@@ -714,21 +714,21 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0018", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0018', Level.LEVEL3, async (done: Function) => {
       try {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0018")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0018')
         await Utils.sleep(2000)
         let driver = await Driver.create()
 
-        let addLongTextBtn0018 = await driver.waitForComponent(ON.id("addLongTextBtn0018"), 500)
+        let addLongTextBtn0018 = await driver.waitForComponent(ON.id('addLongTextBtn0018'), 500)
         await addLongTextBtn0018.click()
-        let textInputDrag0018 = await driver.waitForComponent(ON.id("textInputDrag0018"), 500)
+        let textInputDrag0018 = await driver.waitForComponent(ON.id('textInputDrag0018'), 500)
         await textInputDrag0018.inputText(
           '==============================\n' +
           '测试拖拽文本内容0018\n' +
           '==============================\n', { paste: false, addition: true });
 
-        let richEditorDrag0018 = await driver.waitForComponent(ON.id("richEditorDrag0018"), 500)
+        let richEditorDrag0018 = await driver.waitForComponent(ON.id('richEditorDrag0018'), 500)
         await textInputDrag0018.longClick();
         await Utils.sleep(1000);
         let allSelect = await driver.findComponent(ON.text('全选'))
@@ -740,16 +740,16 @@ export default function uiComponentTextRichEditorDragPlainText() {
         await driver.drag(inputCenter.x, inputCenter.y, editorCenter.x, editorCenter.y, 2000);
 
         // 点击验证按钮
-        let getSpansBtn = await driver.waitForComponent(ON.id("getSpansBtn0018"), 500)
+        let getSpansBtn = await driver.waitForComponent(ON.id('getSpansBtn0018'), 500)
         await getSpansBtn.click();
         await Utils.sleep(1000);
 
         // 检查验证结果
-        let resultText = await driver.waitForComponent(ON.id("getSpansResultText0018"), 500)
+        let resultText = await driver.waitForComponent(ON.id('getSpansResultText0018'), 500)
         let result = await resultText.getText();
         Logger.info('TEST', `验证结果: ${result}`)
 
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0018_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0018_01')
         await Utils.sleep(1000)
         Logger.info('TEST', '测试用例执行完成')
         done();
@@ -767,18 +767,18 @@ export default function uiComponentTextRichEditorDragPlainText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0020", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0020', Level.LEVEL3, async (done: Function) => {
       try {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0020")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0020')
         await Utils.sleep(2000)
         let driver = await Driver.create()
 
-        let addMixedContentBtn0020 = await driver.waitForComponent(ON.id("addMixedContentBtn0020"), 500)
+        let addMixedContentBtn0020 = await driver.waitForComponent(ON.id('addMixedContentBtn0020'), 500)
         await addMixedContentBtn0020.click()
-        let textInputDrag0020 = await driver.waitForComponent(ON.id("textInputDrag0020"), 500)
+        let textInputDrag0020 = await driver.waitForComponent(ON.id('textInputDrag0020'), 500)
         await textInputDrag0020.inputText('=================测试拖拽文本内容0020================', { paste: false, addition: true });
 
-        let richEditorDrag0020 = await driver.waitForComponent(ON.id("richEditorDrag0020"), 500)
+        let richEditorDrag0020 = await driver.waitForComponent(ON.id('richEditorDrag0020'), 500)
         await textInputDrag0020.longClick();
         await Utils.sleep(1000);
         let allSelect = await driver.findComponent(ON.text('全选'))
@@ -790,16 +790,16 @@ export default function uiComponentTextRichEditorDragPlainText() {
         await driver.drag(inputCenter.x, inputCenter.y, editorCenter.x, editorCenter.y+400, 2000);
 
         // 点击验证按钮
-        let getSpansBtn = await driver.waitForComponent(ON.id("getSpansBtn0020"), 500)
+        let getSpansBtn = await driver.waitForComponent(ON.id('getSpansBtn0020'), 500)
         await getSpansBtn.click();
         await Utils.sleep(1000);
 
         // 检查验证结果
-        let resultText = await driver.waitForComponent(ON.id("getSpansResultText0020"), 500)
+        let resultText = await driver.waitForComponent(ON.id('getSpansResultText0020'), 500)
         let result = await resultText.getText();
         Logger.info('TEST', `验证结果: ${result}`)
 
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0020_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0020_01')
         await Utils.sleep(1000)
         Logger.info('TEST', '测试用例执行完成')
         done();

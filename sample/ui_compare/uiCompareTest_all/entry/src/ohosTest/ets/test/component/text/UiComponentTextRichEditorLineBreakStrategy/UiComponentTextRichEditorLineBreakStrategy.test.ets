@@ -64,7 +64,7 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0010 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_02/UiComponentTextRichEditorLineBreakStrategy01")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_02/UiComponentTextRichEditorLineBreakStrategy01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorLineBreakStrategy01'),1000);
       windowSnap.snapShot()
@@ -89,7 +89,7 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0011', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0011 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_02/UiComponentTextRichEditorLineBreakStrategy02")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_02/UiComponentTextRichEditorLineBreakStrategy02')
       let driver:Driver=Driver.create();
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorLineBreakStrategy02'),1000);
       windowSnap.snapShot()
@@ -114,7 +114,7 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0012', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0012 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_02/UiComponentTextRichEditorLineBreakStrategy03")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_02/UiComponentTextRichEditorLineBreakStrategy03')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorLineBreakStrategy03'),1000);
       windowSnap.snapShot()
@@ -139,7 +139,7 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0013', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0013 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_02/UiComponentTextRichEditorLineBreakStrategy04")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_02/UiComponentTextRichEditorLineBreakStrategy04')
       let driver:Driver=Driver.create();
       let button04: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorLineBreakStrategy04'),1000);
       windowSnap.snapShot()
@@ -164,7 +164,7 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0015', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0015 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_02/UiComponentTextRichEditorLineBreakStrategy05")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_02/UiComponentTextRichEditorLineBreakStrategy05')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -183,7 +183,7 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0014', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0014 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_02/UiComponentTextRichEditorLineBreakStrategy06")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_02/UiComponentTextRichEditorLineBreakStrategy06')
       let driver:Driver=Driver.create();
       let button06: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorLineBreakStrategy06'),1000);
       windowSnap.snapShot()

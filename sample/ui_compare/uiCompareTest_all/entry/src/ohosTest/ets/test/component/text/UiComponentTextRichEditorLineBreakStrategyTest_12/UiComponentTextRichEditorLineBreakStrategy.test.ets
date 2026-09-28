@@ -46,13 +46,13 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0007", Level.LEVEL3, async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_12/UiComponentTextRichEditorLineBreakStrategy0007")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0007', Level.LEVEL3, async (done: Function) => {
+        Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_12/UiComponentTextRichEditorLineBreakStrategy0007')
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
         // 1、查找RichEditor组件
-        let rich_editor_linebreakstrategy_0007 = await driver.findComponent(ON.id("rich_editor_linebreakstrategy_0007"))
+        let rich_editor_linebreakstrategy_0007 = await driver.findComponent(ON.id('rich_editor_linebreakstrategy_0007'))
         if (!rich_editor_linebreakstrategy_0007) {
           Logger.error('TEST', 'RichEditor component not found!');
           done();
@@ -60,9 +60,9 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
         }
 
         // 2、查找测试按钮组件
-        let button_linebreakstrategy_0007_setGreedy = await driver.findComponent(ON.id("button_linebreakstrategy_0007_setGreedy"))
-        let button_linebreakstrategy_0007_testBalanced = await driver.findComponent(ON.id("button_linebreakstrategy_0007_testBalanced"))
-        let button_linebreakstrategy_0007_getAttribute = await driver.findComponent(ON.id("button_linebreakstrategy_0007_getAttribute"))
+        let button_linebreakstrategy_0007_setGreedy = await driver.findComponent(ON.id('button_linebreakstrategy_0007_setGreedy'))
+        let button_linebreakstrategy_0007_testBalanced = await driver.findComponent(ON.id('button_linebreakstrategy_0007_testBalanced'))
+        let button_linebreakstrategy_0007_getAttribute = await driver.findComponent(ON.id('button_linebreakstrategy_0007_getAttribute'))
 
         if (!button_linebreakstrategy_0007_setGreedy || !button_linebreakstrategy_0007_testBalanced || !button_linebreakstrategy_0007_getAttribute) {
           Logger.error('TEST', 'Button components not found!');
@@ -74,7 +74,7 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
         await Utils.sleep(2000)
 
         // 4、截图查看初始BALANCED策略的折行效果
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0007_INITIAL_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0007_INITIAL_01')
         await Utils.sleep(1000)
 
         // 5、步骤1：先设置非当前测试策略（GREEDY），用于对比测试
@@ -91,7 +91,7 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
         // 7、步骤3：获取并验证BALANCED策略的linebreak属性值，完成测试
         await button_linebreakstrategy_0007_getAttribute.click()
         await Utils.sleep(1000)
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0007_02")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0007_02')
 
         done();
       })
@@ -104,13 +104,13 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0008", Level.LEVEL3, async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_12/UiComponentTextRichEditorLineBreakStrategy0008")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0008', Level.LEVEL3, async (done: Function) => {
+        Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_12/UiComponentTextRichEditorLineBreakStrategy0008')
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
         // 1、查找RichEditor组件
-        let rich_editor_linebreakstrategy_0008 = await driver.findComponent(ON.id("rich_editor_linebreakstrategy_0008"))
+        let rich_editor_linebreakstrategy_0008 = await driver.findComponent(ON.id('rich_editor_linebreakstrategy_0008'))
         if (!rich_editor_linebreakstrategy_0008) {
           Logger.error('TEST', 'RichEditor component not found!');
           done();
@@ -118,9 +118,9 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
         }
 
         // 2、查找测试按钮组件
-        let button_linebreakstrategy_0008_setBalanced = await driver.findComponent(ON.id("button_linebreakstrategy_0008_setBalanced"))
-        let button_linebreakstrategy_0008_testHighQuality = await driver.findComponent(ON.id("button_linebreakstrategy_0008_testHighQuality"))
-        let button_linebreakstrategy_0008_getAttribute = await driver.findComponent(ON.id("button_linebreakstrategy_0008_getAttribute"))
+        let button_linebreakstrategy_0008_setBalanced = await driver.findComponent(ON.id('button_linebreakstrategy_0008_setBalanced'))
+        let button_linebreakstrategy_0008_testHighQuality = await driver.findComponent(ON.id('button_linebreakstrategy_0008_testHighQuality'))
+        let button_linebreakstrategy_0008_getAttribute = await driver.findComponent(ON.id('button_linebreakstrategy_0008_getAttribute'))
 
         if (!button_linebreakstrategy_0008_setBalanced || !button_linebreakstrategy_0008_testHighQuality || !button_linebreakstrategy_0008_getAttribute) {
           Logger.error('TEST', 'Button components not found!');
@@ -143,7 +143,7 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
         // 6、步骤3：获取并验证HIGH_QUALITY策略的linebreak属性值，完成测试
         await button_linebreakstrategy_0008_getAttribute.click()
         await Utils.sleep(2000)
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0008_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0008_01')
 
         done();
       })
@@ -156,13 +156,13 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0009", Level.LEVEL3, async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_12/UiComponentTextRichEditorLineBreakStrategy0009")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0009', Level.LEVEL3, async (done: Function) => {
+        Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorLineBreakStrategy_12/UiComponentTextRichEditorLineBreakStrategy0009')
         await Utils.sleep(2000) // 等待窗口创建完成
         let driver = await Driver.create()
 
         // 1、查找RichEditor组件
-        let rich_editor_linebreakstrategy_0009 = await driver.findComponent(ON.id("rich_editor_linebreakstrategy_0009"))
+        let rich_editor_linebreakstrategy_0009 = await driver.findComponent(ON.id('rich_editor_linebreakstrategy_0009'))
         if (!rich_editor_linebreakstrategy_0009) {
           Logger.error('TEST', 'RichEditor component not found!');
           done();
@@ -170,9 +170,9 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
         }
 
         // 2、查找测试按钮组件
-        let button_linebreakstrategy_0009_setHighQuality = await driver.findComponent(ON.id("button_linebreakstrategy_0009_setHighQuality"))
-        let button_linebreakstrategy_0009_testGreedy = await driver.findComponent(ON.id("button_linebreakstrategy_0009_testGreedy"))
-        let button_linebreakstrategy_0009_getAttribute = await driver.findComponent(ON.id("button_linebreakstrategy_0009_getAttribute"))
+        let button_linebreakstrategy_0009_setHighQuality = await driver.findComponent(ON.id('button_linebreakstrategy_0009_setHighQuality'))
+        let button_linebreakstrategy_0009_testGreedy = await driver.findComponent(ON.id('button_linebreakstrategy_0009_testGreedy'))
+        let button_linebreakstrategy_0009_getAttribute = await driver.findComponent(ON.id('button_linebreakstrategy_0009_getAttribute'))
 
         if (!button_linebreakstrategy_0009_setHighQuality || !button_linebreakstrategy_0009_testGreedy || !button_linebreakstrategy_0009_getAttribute) {
           Logger.error('TEST', 'Button components not found!');
@@ -195,7 +195,7 @@ export default function uiComponentTextRichEditorLineBreakStrategy() {
         await button_linebreakstrategy_0009_getAttribute.click()
         await Utils.sleep(2000)
         // 6、步骤3：完成测试，截图记录最终状态
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0009_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0009_01')
 
         done();
       })

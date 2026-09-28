@@ -64,7 +64,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0062', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0062 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface01")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface01_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface01_02'),1000);
@@ -91,7 +91,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0063', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0063 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface02")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface02')
       let driver:Driver=Driver.create();
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface02_02'),1000);
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface02_03'),1000);
@@ -118,7 +118,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9793', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9793 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface03")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface03')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface03_03'),1000);
       let point = await richeditor.getBoundsCenter();
@@ -142,7 +142,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0111', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0111 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface04")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface04')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface04_03'),1000);
       await richeditor.inputText('a')
@@ -163,7 +163,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0112', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0112 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface05")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface05')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface05_03'),1000);
       await richeditor.inputText('a')
@@ -184,7 +184,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0027', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0027 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface06")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface06')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface06_03'),1000);
       windowSnap.snapShot()
@@ -207,7 +207,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0025', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0025 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface07")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface07')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface07_03'),1000);
       windowSnap.snapShot()
@@ -230,7 +230,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0026', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0026 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface08")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface08')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface08_03'),1000);
       windowSnap.snapShot()
@@ -253,7 +253,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0024', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0024 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface09")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface09')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface09_03'),1000);
       windowSnap.snapShot()
@@ -276,7 +276,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0106', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0106 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface10")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface10')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface10_03'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -306,7 +306,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0023', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0023 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface11")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface11')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface11_03'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -336,7 +336,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0116', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0116 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface12")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface12')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface12_03'),1000);
       windowSnap.snapShot()
@@ -361,7 +361,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0115', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0115 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface13")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface13')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface13_03'),1000);
       windowSnap.snapShot()
@@ -385,7 +385,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0114', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0114 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface14")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface14')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface14_03'),1000);
       windowSnap.snapShot()
@@ -409,7 +409,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0113', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0113 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface15")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface15')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface15_03'),1000);
       windowSnap.snapShot()
@@ -433,7 +433,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0103', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0103 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface16")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface16')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface16_03'),1000);
       windowSnap.snapShot()
@@ -457,7 +457,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0101', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0101 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface17")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface17')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface17_03'),1000);
       windowSnap.snapShot()
@@ -481,7 +481,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0108', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0108 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface18")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface18')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface18_03'),1000);
       windowSnap.snapShot()
@@ -508,7 +508,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0107', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0107 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface19")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface19')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface19_03'),1000);
       windowSnap.snapShot()
@@ -535,7 +535,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0065', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0065 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface20")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface20')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface20_01'),1000);
       windowSnap.snapShot()
@@ -557,7 +557,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0056', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0056 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface21")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface21')
       let driver:Driver=Driver.create();
       let richEditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface21_01'),1000);
       let setbutton1: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface21_02'),1000);
@@ -592,7 +592,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9792', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9792 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface22")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface22')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface22_01'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -618,7 +618,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0052', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0052 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface23")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface23')
       let driver:Driver=Driver.create();
       let setbutton1: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface23_02'),1000);
       let setbutton2: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface23_03'),1000);
@@ -646,7 +646,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1480', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1480 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface24")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface24')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface24'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -676,7 +676,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1470', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1470 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface25")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface25')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface25'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -701,7 +701,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1420', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1420 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface26")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface26')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface26'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -726,7 +726,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1390 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface27")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface27')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface27'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -747,7 +747,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1410 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface28")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface28')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface28'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -770,7 +770,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1500', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1500 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface29")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface29')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface29'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -795,7 +795,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1430', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1430 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface30")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface30')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface30'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -829,7 +829,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1440', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1440 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface31")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface31')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface31'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -863,7 +863,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1370 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface32")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface32')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface32'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -887,7 +887,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1460', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1460 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface33")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface33')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface33'),1000);
       let point = await richeditor.getBoundsCenter()
@@ -907,7 +907,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0400 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface34")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface34')
       let driver: Driver = Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface34'), 2000);
       let point = await richeditor.getBoundsCenter()
@@ -929,7 +929,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0370 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface35")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface35')
       let driver: Driver = Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface35'), 2000);
       let point = await richeditor.getBoundsCenter()
@@ -951,7 +951,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0380 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface36")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface36')
       let driver: Driver = Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface36'), 2000);
       let point = await richeditor.getBoundsCenter()
@@ -973,7 +973,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0390 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface37")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface37')
       let driver: Driver = Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface37'), 2000);
       let point = await richeditor.getBoundsCenter()
@@ -995,7 +995,7 @@ export default function uiComponentTextRichEditorInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1490', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1490 start.`);
-      Settings.createWindow("testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface38")
+      Settings.createWindow('testability/pages/component/text/UiComponentTextRichEditorInterface_02/UiComponentTextRichEditorInterface38')
       let driver: Driver = Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorInterface38'), 2000);
       let point = await richeditor.getBoundsCenter()

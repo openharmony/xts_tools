@@ -40,13 +40,13 @@ export default function uiComponentTextRichEditorSearch() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0002", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0002")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0002', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0002')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、获取RichEditor组件的边界信息
-      let rich_editor_search_0002 = await driver.waitForComponent(ON.id("rich_editor_search_0002"), 500)
+      let rich_editor_search_0002 = await driver.waitForComponent(ON.id('rich_editor_search_0002'), 500)
       let rich_editor_search_0002_bounds = await rich_editor_search_0002.getBounds()
 
       // 2、计算拖拽起点和终点（从左上角到右下角）
@@ -68,7 +68,7 @@ export default function uiComponentTextRichEditorSearch() {
       await Utils.sleep(1000)
 
       // 4、拖拽后菜单自动打开，截图验证搜索菜单位置
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0002_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0002_01')
       await Utils.sleep(1000)
 
       done();
@@ -82,14 +82,14 @@ export default function uiComponentTextRichEditorSearch() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0003", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0003")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0003', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0003')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、查找两个 RichEditor 组件
-      let rich_editor_search_0003_01 = await driver.waitForComponent(ON.id("rich_editor_search_0003_01"), 500)
-      let rich_editor_search_0003_02 = await driver.waitForComponent(ON.id("rich_editor_search_0003_02"), 500)
+      let rich_editor_search_0003_01 = await driver.waitForComponent(ON.id('rich_editor_search_0003_01'), 500)
+      let rich_editor_search_0003_02 = await driver.waitForComponent(ON.id('rich_editor_search_0003_02'), 500)
 
       // 2、长按第一个 RichEditor，选中内容
       await rich_editor_search_0003_01.longClick()
@@ -134,7 +134,7 @@ export default function uiComponentTextRichEditorSearch() {
       await Utils.sleep(1000)
 
       // 10、截图验证菜单顺序（应显示：剪切-复制-粘贴-搜索-拓展菜单）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0003_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0003_01')
       await Utils.sleep(1000)
 
 
@@ -149,13 +149,13 @@ export default function uiComponentTextRichEditorSearch() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0004", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0004")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0004', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0004')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、查找 RichEditor 组件
-      let rich_editor_search_0004 = await driver.waitForComponent(ON.id("rich_editor_search_0004"), 500)
+      let rich_editor_search_0004 = await driver.waitForComponent(ON.id('rich_editor_search_0004'), 500)
 
       // 2、长按 RichEditor，触发菜单
       await rich_editor_search_0004.longClick()
@@ -178,7 +178,7 @@ export default function uiComponentTextRichEditorSearch() {
       }
 
       // 5、截图验证搜索菜单显示（可能在主菜单或拓展菜单内）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0004_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0004_01')
       await Utils.sleep(1000)
 
       done();
@@ -192,13 +192,13 @@ export default function uiComponentTextRichEditorSearch() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0005", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0005")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0005', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0005')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、查找 RichEditor 组件
-      let rich_editor_search_0005 = await driver.waitForComponent(ON.id("rich_editor_search_0005"), 500)
+      let rich_editor_search_0005 = await driver.waitForComponent(ON.id('rich_editor_search_0005'), 500)
       let rich_editor_search_0005_bounds = await rich_editor_search_0005.getBounds()
 
       // 2、计算 RichEditor 中心位置
@@ -219,7 +219,7 @@ export default function uiComponentTextRichEditorSearch() {
       await Utils.sleep(1000)
 
       // 5、截图验证搜索菜单位置
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0005_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0005_01')
       await Utils.sleep(1000)
 
       done();
@@ -233,13 +233,13 @@ export default function uiComponentTextRichEditorSearch() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0008", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0008")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0008', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0008')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、查找主编辑区 RichEditor 并获取边界
-      let rich_editor_search_0008 = await driver.waitForComponent(ON.id("rich_editor_search_0008"), 500)
+      let rich_editor_search_0008 = await driver.waitForComponent(ON.id('rich_editor_search_0008'), 500)
       let rich_editor_search_0008_bounds = await rich_editor_search_0008.getBounds()
 
       // 2、使用 dragBetween 手势全选内容（更可靠）
@@ -267,7 +267,7 @@ export default function uiComponentTextRichEditorSearch() {
       await Utils.sleep(1000)
 
       // 4、截图验证日志区域显示"searched click"
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0008_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0008_01')
       await Utils.sleep(1000)
 
       done();
@@ -281,13 +281,13 @@ export default function uiComponentTextRichEditorSearch() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0010", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0010")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0010', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0010')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、查找 RichEditor 组件（只包含图片，不包含文本）
-      let rich_editor_search_0010 = await driver.waitForComponent(ON.id("rich_editor_search_0010"), 500)
+      let rich_editor_search_0010 = await driver.waitForComponent(ON.id('rich_editor_search_0010'), 500)
 
       // 2、长按 RichEditor，触发菜单
       await rich_editor_search_0010.longClick()
@@ -299,7 +299,7 @@ export default function uiComponentTextRichEditorSearch() {
       await Utils.sleep(1000)
 
       // 4、截图验证菜单中不显示"搜索"选项（因为选中的内容不包含文本）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0010_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0010_01')
       await Utils.sleep(1000)
 
       done();
@@ -313,15 +313,15 @@ export default function uiComponentTextRichEditorSearch() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0011", Level.LEVEL2, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0011")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0011', Level.LEVEL2, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0011')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 前置条件：设备不安装华为浏览器（需要在测试执行前手动配置或通过脚本卸载）
 
       // 1、查找 RichEditor 组件
-      let rich_editor_search_0011 = await driver.waitForComponent(ON.id("rich_editor_search_0011"), 500)
+      let rich_editor_search_0011 = await driver.waitForComponent(ON.id('rich_editor_search_0011'), 500)
 
       // 2、长按 RichEditor，触发菜单
       await rich_editor_search_0011.longClick()
@@ -333,7 +333,7 @@ export default function uiComponentTextRichEditorSearch() {
       await Utils.sleep(1000)
 
       // 4、截图验证菜单中不显示"搜索"选项（因为设备未安装华为浏览器）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0011_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0011_01')
       await Utils.sleep(1000)
 
       done();

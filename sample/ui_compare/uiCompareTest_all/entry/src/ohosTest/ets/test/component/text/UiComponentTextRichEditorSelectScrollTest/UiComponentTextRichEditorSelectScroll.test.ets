@@ -46,13 +46,13 @@ export default function uiComponentTextRichEditorSelectScroll() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_009_234", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorSelectScroll/UiComponentTextRichEditorSelectScroll009234")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_009_234', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorSelectScroll/UiComponentTextRichEditorSelectScroll009234')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1.点击richeditor组件获取焦点
-      let rich_editor_selectscroll_009234 = await driver.waitForComponent(ON.id("rich_editor_selectscroll_009234"), 500)
+      let rich_editor_selectscroll_009234 = await driver.waitForComponent(ON.id('rich_editor_selectscroll_009234'), 500)
       let rich_editor_selectscroll_009234_center = await rich_editor_selectscroll_009234.getBoundsCenter()
       await rich_editor_selectscroll_009234.click()
 
@@ -74,17 +74,17 @@ export default function uiComponentTextRichEditorSelectScroll() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_008", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorSelectScroll/UiComponentTextRichEditorSelectScroll008")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_008', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorSelectScroll/UiComponentTextRichEditorSelectScroll008')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1.点击richeditor组件获取焦点
-      let rich_editor_selectscroll_008 = await driver.waitForComponent(ON.id("rich_editor_selectscroll_008"), 500)
+      let rich_editor_selectscroll_008 = await driver.waitForComponent(ON.id('rich_editor_selectscroll_008'), 500)
       await rich_editor_selectscroll_008.click()
 
       // 2.选择部分图文
-      let btn_selectscroll_008_selectAll = await driver.waitForComponent(ON.id("btn_selectscroll_008_selectAll"), 500)
+      let btn_selectscroll_008_selectAll = await driver.waitForComponent(ON.id('btn_selectscroll_008_selectAll'), 500)
       await btn_selectscroll_008_selectAll.click()
 
       // 3.滑动后截图测试
@@ -112,17 +112,17 @@ export default function uiComponentTextRichEditorSelectScroll() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_003", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorSelectScroll/UiComponentTextRichEditorSelectScroll003")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_003', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorSelectScroll/UiComponentTextRichEditorSelectScroll003')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1.点击richeditor组件获取焦点
-      let rich_editor_selectscroll_003 = await driver.waitForComponent(ON.id("rich_editor_selectscroll_003"), 500)
+      let rich_editor_selectscroll_003 = await driver.waitForComponent(ON.id('rich_editor_selectscroll_003'), 500)
       await rich_editor_selectscroll_003.click()
 
       // 2.选择部分图文
-      let btn_selectscroll_003_selectAll = await driver.waitForComponent(ON.id("btn_selectscroll_003_selectAll"), 500)
+      let btn_selectscroll_003_selectAll = await driver.waitForComponent(ON.id('btn_selectscroll_003_selectAll'), 500)
       await btn_selectscroll_003_selectAll.click()
 
       // 3.滚动到底部并截图
@@ -145,17 +145,17 @@ export default function uiComponentTextRichEditorSelectScroll() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_001", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorSelectScroll/UiComponentTextRichEditorSelectScroll001")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_001', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorSelectScroll/UiComponentTextRichEditorSelectScroll001')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1.点击richeditor组件获取焦点
-      let rich_editor_selectscroll_001 = await driver.waitForComponent(ON.id("rich_editor_selectscroll_001"), 500)
+      let rich_editor_selectscroll_001 = await driver.waitForComponent(ON.id('rich_editor_selectscroll_001'), 500)
       await rich_editor_selectscroll_001.click()
 
       // 2.全选图文
-      let btn_selectscroll_001_selectAll = await driver.waitForComponent(ON.id("btn_selectscroll_001_selectAll"), 500)
+      let btn_selectscroll_001_selectAll = await driver.waitForComponent(ON.id('btn_selectscroll_001_selectAll'), 500)
       await btn_selectscroll_001_selectAll.click()
 
       // 3.滚动到顶部并截图
@@ -178,17 +178,17 @@ export default function uiComponentTextRichEditorSelectScroll() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_009", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorSelectScroll/UiComponentTextRichEditorSelectScroll009")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_009', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorSelectScroll/UiComponentTextRichEditorSelectScroll009')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1.点击richeditor组件获取焦点
-      let rich_editor_selectscroll_009 = await driver.waitForComponent(ON.id("rich_editor_selectscroll_009"), 500)
+      let rich_editor_selectscroll_009 = await driver.waitForComponent(ON.id('rich_editor_selectscroll_009'), 500)
       await rich_editor_selectscroll_009.click()
 
       // 2.选择部分图文
-      let btn_selectscroll_009_selectAll = await driver.waitForComponent(ON.id("btn_selectscroll_009_selectAll"), 500)
+      let btn_selectscroll_009_selectAll = await driver.waitForComponent(ON.id('btn_selectscroll_009_selectAll'), 500)
       await btn_selectscroll_009_selectAll.click()
 
       // 3.鼠标滚动并截图
@@ -216,17 +216,17 @@ export default function uiComponentTextRichEditorSelectScroll() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_002", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorSelectScroll/UiComponentTextRichEditorSelectScroll002")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_002', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorSelectScroll/UiComponentTextRichEditorSelectScroll002')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1.点击richeditor组件获取焦点
-      let rich_editor_selectscroll_002 = await driver.waitForComponent(ON.id("rich_editor_selectscroll_002"), 500)
+      let rich_editor_selectscroll_002 = await driver.waitForComponent(ON.id('rich_editor_selectscroll_002'), 500)
       await rich_editor_selectscroll_002.click()
 
       // 2.选择部分图文
-      let btn_selectscroll_002_selectAll = await driver.waitForComponent(ON.id("btn_selectscroll_002_selectAll"), 500)
+      let btn_selectscroll_002_selectAll = await driver.waitForComponent(ON.id('btn_selectscroll_002_selectAll'), 500)
       await btn_selectscroll_002_selectAll.click()
 
       // 3.滚动到底部并截图
@@ -244,17 +244,17 @@ export default function uiComponentTextRichEditorSelectScroll() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_010", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorSelectScroll/UiComponentTextRichEditorSelectScroll010")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_010', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorSelectScroll/UiComponentTextRichEditorSelectScroll010')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1.点击richeditor组件获取焦点
-      let rich_editor_selectscroll_010 = await driver.waitForComponent(ON.id("rich_editor_selectscroll_010"), 500)
+      let rich_editor_selectscroll_010 = await driver.waitForComponent(ON.id('rich_editor_selectscroll_010'), 500)
       await rich_editor_selectscroll_010.click()
 
       // 2.选择部分图文
-      let btn_selectscroll_010_selectAll = await driver.waitForComponent(ON.id("btn_selectscroll_010_selectAll"), 500)
+      let btn_selectscroll_010_selectAll = await driver.waitForComponent(ON.id('btn_selectscroll_010_selectAll'), 500)
       await btn_selectscroll_010_selectAll.click()
 
       // 3.鼠标滚动并截图

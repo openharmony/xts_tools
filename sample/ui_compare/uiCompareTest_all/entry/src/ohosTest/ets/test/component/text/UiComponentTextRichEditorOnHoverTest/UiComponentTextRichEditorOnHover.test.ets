@@ -44,17 +44,17 @@ export default function uiComponentTextRichEditorOnHover() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_onHover_00004", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_onHover_00004', Level.LEVEL3, async (done: Function) => {
       // 步骤1：打开测试页面，创建RichEditor组件
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOnHover/UiComponentTextRichEditorOnHover00004")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOnHover/UiComponentTextRichEditorOnHover00004')
       let driver = await Driver.create()
       await Utils.sleep(1000)
 
-      let rich_editor_onhover_00004 = await driver.waitForComponent(ON.id("rich_editor_onhover_00004"), 1000)
+      let rich_editor_onhover_00004 = await driver.waitForComponent(ON.id('rich_editor_onhover_00004'), 1000)
       await Utils.sleep(500)
 
       // 步骤2：点击"添加图文混排内容"按钮，添加图片和文本
-      let button_add_content = await driver.waitForComponent(ON.id("button_onhover_00004_add_content"), 1000)
+      let button_add_content = await driver.waitForComponent(ON.id('button_onhover_00004_add_content'), 1000)
       await button_add_content.click()
       await Utils.sleep(1000)
 
@@ -65,7 +65,7 @@ export default function uiComponentTextRichEditorOnHover() {
 
       // 步骤4：点击RichEditor组件，然后点击"选择图片"按钮选中图片
       await rich_editor_onhover_00004.click()
-      let button_select = await driver.waitForComponent(ON.id("button_onhover_00004_select"), 1000)
+      let button_select = await driver.waitForComponent(ON.id('button_onhover_00004_select'), 1000)
       await button_select.click()
       await Utils.sleep(500)
       
@@ -113,17 +113,17 @@ export default function uiComponentTextRichEditorOnHover() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_onHover_00002", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_onHover_00002', Level.LEVEL3, async (done: Function) => {
       // 步骤1：打开测试页面，创建RichEditor组件
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOnHover/UiComponentTextRichEditorOnHover00002")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOnHover/UiComponentTextRichEditorOnHover00002')
       let driver = await Driver.create()
       await Utils.sleep(1000)
 
-      let rich_editor_onhover_00002 = await driver.waitForComponent(ON.id("rich_editor_onhover_00002"), 1000)
+      let rich_editor_onhover_00002 = await driver.waitForComponent(ON.id('rich_editor_onhover_00002'), 1000)
       await Utils.sleep(500)
 
       // 步骤2：点击"添加图文混排内容"按钮，添加120x120的图片和文本
-      let button_add_content = await driver.waitForComponent(ON.id("button_onhover_00002_add_content"), 1000)
+      let button_add_content = await driver.waitForComponent(ON.id('button_onhover_00002_add_content'), 1000)
       await button_add_content.click()
       await Utils.sleep(1000)
 
@@ -174,17 +174,17 @@ export default function uiComponentTextRichEditorOnHover() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_onHover_00003", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_onHover_00003', Level.LEVEL3, async (done: Function) => {
       // 步骤1：打开测试页面，创建RichEditor组件
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOnHover/UiComponentTextRichEditorOnHover00003")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOnHover/UiComponentTextRichEditorOnHover00003')
       let driver = await Driver.create()
       await Utils.sleep(1000)
 
-      let rich_editor_onhover_00003 = await driver.waitForComponent(ON.id("rich_editor_onhover_00003"), 1000)
+      let rich_editor_onhover_00003 = await driver.waitForComponent(ON.id('rich_editor_onhover_00003'), 1000)
       await Utils.sleep(500)
 
       // 步骤2：点击"添加图文混排内容"按钮，添加100x100的图片和文本
-      let button_add_content = await driver.waitForComponent(ON.id("button_onhover_00003_add_content"), 1000)
+      let button_add_content = await driver.waitForComponent(ON.id('button_onhover_00003_add_content'), 1000)
       await button_add_content.click()
       await Utils.sleep(1000)
 
@@ -218,17 +218,17 @@ export default function uiComponentTextRichEditorOnHover() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_onHover_00008", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_onHover_00008', Level.LEVEL3, async (done: Function) => {
       // 步骤1：打开测试页面，创建RichEditor组件
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorOnHover/UiComponentTextRichEditorOnHover00008")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorOnHover/UiComponentTextRichEditorOnHover00008')
       let driver = await Driver.create()
       await Utils.sleep(1000)
 
-      let rich_editor_onhover_00008 = await driver.waitForComponent(ON.id("rich_editor_onhover_00008"), 1000)
+      let rich_editor_onhover_00008 = await driver.waitForComponent(ON.id('rich_editor_onhover_00008'), 1000)
       await Utils.sleep(500)
 
       // 步骤2：点击"添加两张图片"按钮，添加两张80x80的图片和间隔文本
-      let button_add_content = await driver.waitForComponent(ON.id("button_onhover_00008_add_content"), 1000)
+      let button_add_content = await driver.waitForComponent(ON.id('button_onhover_00008_add_content'), 1000)
       await button_add_content.click()
       await Utils.sleep(1000)
 

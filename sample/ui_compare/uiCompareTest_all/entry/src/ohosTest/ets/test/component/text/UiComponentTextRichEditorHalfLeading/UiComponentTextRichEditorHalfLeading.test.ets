@@ -64,7 +64,7 @@ export default function uiComponentTextRichEditorHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0010 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorHalfLeading/UiComponentTextRichEditorHalfLeading01")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorHalfLeading/UiComponentTextRichEditorHalfLeading01')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorHalfLeading01'),1000);
       let point = await richeditor.getBoundsCenter();
@@ -87,7 +87,7 @@ export default function uiComponentTextRichEditorHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0003', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0003 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorHalfLeading/UiComponentTextRichEditorHalfLeading02")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorHalfLeading/UiComponentTextRichEditorHalfLeading02')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorHalfLeading02'),1000);
       let point = await richeditor.getBoundsCenter();
@@ -110,7 +110,7 @@ export default function uiComponentTextRichEditorHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0007', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0007 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorHalfLeading/UiComponentTextRichEditorHalfLeading03")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorHalfLeading/UiComponentTextRichEditorHalfLeading03')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorHalfLeading03_02'),1000);
       windowSnap.snapShot()
@@ -132,7 +132,7 @@ export default function uiComponentTextRichEditorHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0008', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0008 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorHalfLeading/UiComponentTextRichEditorHalfLeading04")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorHalfLeading/UiComponentTextRichEditorHalfLeading04')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorHalfLeading04_02'),1000);
       windowSnap.snapShot()
@@ -154,7 +154,7 @@ export default function uiComponentTextRichEditorHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0004', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0004 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorHalfLeading/UiComponentTextRichEditorHalfLeading05")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorHalfLeading/UiComponentTextRichEditorHalfLeading05')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorHalfLeading05_02'),1000);
       windowSnap.snapShot()
@@ -176,7 +176,7 @@ export default function uiComponentTextRichEditorHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0005', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0005 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorHalfLeading/UiComponentTextRichEditorHalfLeading06")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorHalfLeading/UiComponentTextRichEditorHalfLeading06')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorHalfLeading06_02'),1000);
       windowSnap.snapShot()
@@ -198,7 +198,7 @@ export default function uiComponentTextRichEditorHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0006', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0006 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorHalfLeading/UiComponentTextRichEditorHalfLeading07")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorHalfLeading/UiComponentTextRichEditorHalfLeading07')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextRichEditorHalfLeading07_02'),1000);
       windowSnap.snapShot()
