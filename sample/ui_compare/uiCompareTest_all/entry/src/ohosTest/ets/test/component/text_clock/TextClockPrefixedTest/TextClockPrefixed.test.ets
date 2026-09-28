@@ -50,7 +50,7 @@ export default function textClockPrefixed() {
      */
     it('SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0040 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockPrefixed/TextClockPrefixed0040")
+      Settings.createWindow('testability/pages/component/text_clock/textClockPrefixed/TextClockPrefixed0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -71,7 +71,7 @@ export default function textClockPrefixed() {
      */
     it('SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0080 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockPrefixed/TextClockPrefixed0080")
+      Settings.createWindow('testability/pages/component/text_clock/textClockPrefixed/TextClockPrefixed0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -92,7 +92,7 @@ export default function textClockPrefixed() {
      */
     it('SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0090 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockPrefixed/TextClockPrefixed0090")
+      Settings.createWindow('testability/pages/component/text_clock/textClockPrefixed/TextClockPrefixed0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -113,7 +113,7 @@ export default function textClockPrefixed() {
      */
     it('SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0100', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0100 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockPrefixed/TextClockPrefixed0100")
+      Settings.createWindow('testability/pages/component/text_clock/textClockPrefixed/TextClockPrefixed0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -134,7 +134,7 @@ export default function textClockPrefixed() {
      */
     it('SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0050 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockPrefixed/TextClockPrefixed0050")
+      Settings.createWindow('testability/pages/component/text_clock/textClockPrefixed/TextClockPrefixed0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -155,7 +155,7 @@ export default function textClockPrefixed() {
      */
     it('SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0070 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockPrefixed/TextClockPrefixed0070")
+      Settings.createWindow('testability/pages/component/text_clock/textClockPrefixed/TextClockPrefixed0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)

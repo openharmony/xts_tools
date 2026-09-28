@@ -64,7 +64,7 @@ export default function uiComponentTextTranslateMenu() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0060 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTranslateMenu/UiComponentTextTranslateMenu01");
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTranslateMenu/UiComponentTextTranslateMenu01');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       await driver.longClick(100,100);
@@ -85,7 +85,7 @@ export default function uiComponentTextTranslateMenu() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0230 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTranslateMenu/UiComponentTextTranslateMenu02");
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTranslateMenu/UiComponentTextTranslateMenu02');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       let text: Component = await driver.waitForComponent(ON.id('UiComponentTextTranslateMenu02_01'),1000);
@@ -97,16 +97,16 @@ export default function uiComponentTextTranslateMenu() {
       let point3 = await textarea.getBoundsCenter();
       let point4 = await search.getBoundsCenter();
       await driver.mouseLongClick({x:point1.x, y:point1.y}, MouseButton.MOUSE_BUTTON_RIGHT);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0230_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0230_01');
       await driver.waitForIdle(500,2000);
       await driver.mouseLongClick({x:point2.x, y:point2.y}, MouseButton.MOUSE_BUTTON_RIGHT);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0230_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0230_02');
       await driver.waitForIdle(500,2000);
       await driver.mouseLongClick({x:point3.x, y:point3.y}, MouseButton.MOUSE_BUTTON_RIGHT);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0230_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0230_03');
       await driver.waitForIdle(500,2000);
       await driver.mouseLongClick({x:point4.x, y:point4.y}, MouseButton.MOUSE_BUTTON_RIGHT);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0230_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0230_04');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0230 finish.`);
       done();
@@ -122,7 +122,7 @@ export default function uiComponentTextTranslateMenu() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0110 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTranslateMenu/UiComponentTextTranslateMenu03");
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTranslateMenu/UiComponentTextTranslateMenu03');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       let textinput: Component = await driver.waitForComponent(ON.id('UiComponentTextTranslateMenu03_01'),1000);
@@ -131,15 +131,15 @@ export default function uiComponentTextTranslateMenu() {
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextTranslateMenu03_04'),1000);
       await textinput.click();
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0110_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0110_01');
       await driver.waitForIdle(500,2000);
       await textarea.click();
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0110_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0110_02');
       await driver.waitForIdle(500,2000);
       await search.click();
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0110_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0110_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0110 finish.`);
       done();

@@ -49,7 +49,7 @@ export default function textPickerStyleTest() {
      */
     it('SUB_TV_UX_TextPicker_012', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_TV_UX_TextPicker_012 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerStyle01")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerStyle01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_TV_UX_TextPicker_012')
@@ -68,7 +68,7 @@ export default function textPickerStyleTest() {
      */
     it('SUB_TV_UX_TextPicker_018', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_TV_UX_TextPicker_018 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerStyle02")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerStyle02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_TV_UX_TextPicker_018')
@@ -87,7 +87,7 @@ export default function textPickerStyleTest() {
      */
     it('SUB_TV_UX_TextPicker_020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_TV_UX_TextPicker_020 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerStyle03")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerStyle03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_TV_UX_TextPicker_020')
@@ -106,7 +106,7 @@ export default function textPickerStyleTest() {
      */
     it('SUB_TV_UX_TextPicker_024', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_TV_UX_TextPicker_024 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerStyle04")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerStyle04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_TV_UX_TextPicker_024')
@@ -125,7 +125,7 @@ export default function textPickerStyleTest() {
      */
     it('SUB_TV_UX_TextPicker_026', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_TV_UX_TextPicker_026 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerStyle05")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerStyle05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_TV_UX_TextPicker_026')
@@ -144,7 +144,7 @@ export default function textPickerStyleTest() {
      */
     it('SUB_TV_UX_TextPicker_033', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_TV_UX_TextPicker_033 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerStyle06")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerStyle06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_TV_UX_TextPicker_033')
@@ -163,7 +163,7 @@ export default function textPickerStyleTest() {
      */
     it('SUB_TV_UX_TextPicker_034', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_TV_UX_TextPicker_034 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerStyle07")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerStyle07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_TV_UX_TextPicker_034')
@@ -182,7 +182,7 @@ export default function textPickerStyleTest() {
      */
     it('SUB_TV_UX_TextPicker_035', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_TV_UX_TextPicker_035 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerStyle08")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerStyle08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_TV_UX_TextPicker_035')
@@ -201,7 +201,7 @@ export default function textPickerStyleTest() {
      */
     it('SUB_TV_UX_TextPicker_036', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_TV_UX_TextPicker_036 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerStyle09")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerStyle09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_TV_UX_TextPicker_036')

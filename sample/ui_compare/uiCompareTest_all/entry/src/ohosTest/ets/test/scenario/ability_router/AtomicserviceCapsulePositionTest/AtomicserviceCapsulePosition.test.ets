@@ -50,7 +50,7 @@ export default function atomicserviceCapsulePosition() {
      */
     it('SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0010")
+      Settings.createWindow('testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function atomicserviceCapsulePosition() {
      */
     it('SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0020")
+      Settings.createWindow('testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function atomicserviceCapsulePosition() {
      */
     it('SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0030")
+      Settings.createWindow('testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -107,7 +107,7 @@ export default function atomicserviceCapsulePosition() {
      */
     it('SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0040")
+      Settings.createWindow('testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -126,7 +126,7 @@ export default function atomicserviceCapsulePosition() {
      */
     it('SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0050")
+      Settings.createWindow('testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -145,7 +145,7 @@ export default function atomicserviceCapsulePosition() {
      */
     it('SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0060")
+      Settings.createWindow('testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -164,7 +164,7 @@ export default function atomicserviceCapsulePosition() {
      */
     it('SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0070")
+      Settings.createWindow('testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -183,7 +183,7 @@ export default function atomicserviceCapsulePosition() {
      */
     it('SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0080")
+      Settings.createWindow('testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -202,7 +202,7 @@ export default function atomicserviceCapsulePosition() {
      */
     it('SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0130 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0130")
+      Settings.createWindow('testability/pages/scenario/ability_router/atomicserviceCapsulePosition/AtomicserviceCapsulePosition0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()

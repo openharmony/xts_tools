@@ -66,7 +66,7 @@ export default function aceActionEventCommonEventAxisEventsListen() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_001', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_001 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventCommonEventAxisEventsListen/AceActionEventCommonEventAxisEventsListen01")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventCommonEventAxisEventsListen/AceActionEventCommonEventAxisEventsListen01')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let buttonA: Component = await driver.waitForComponent(ON.id('AceActionEventCommonEventAxisEventsListen01'),1000);
@@ -89,7 +89,7 @@ export default function aceActionEventCommonEventAxisEventsListen() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_002', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_002 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventCommonEventAxisEventsListen/AceActionEventCommonEventAxisEventsListen02")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventCommonEventAxisEventsListen/AceActionEventCommonEventAxisEventsListen02')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let buttonA: Component = await driver.waitForComponent(ON.id('AceActionEventCommonEventAxisEventsListen02'),1000);
@@ -112,7 +112,7 @@ export default function aceActionEventCommonEventAxisEventsListen() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_003', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_003 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventCommonEventAxisEventsListen/AceActionEventCommonEventAxisEventsListen03")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventCommonEventAxisEventsListen/AceActionEventCommonEventAxisEventsListen03')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let buttonA: Component = await driver.waitForComponent(ON.id('AceActionEventCommonEventAxisEventsListen03'),1000);

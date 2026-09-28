@@ -62,7 +62,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1110', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop01");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop01');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -90,7 +90,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1150', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop02");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop02');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -118,7 +118,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1130', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop03");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop03');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -146,7 +146,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1030', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop04");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop04');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -174,7 +174,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1080', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop05");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop05');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -202,7 +202,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0190', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop06");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop06');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -230,7 +230,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1260', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop07");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop07');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -258,7 +258,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0010', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop08");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop08');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -286,7 +286,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1220', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop09");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop09');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -312,7 +312,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1310', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop10");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop10');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -338,7 +338,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1140', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop11");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop11');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -364,7 +364,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0990', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop12");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop12');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -390,7 +390,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0170', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop13");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop13');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -421,7 +421,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0330', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop14");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop14');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -452,7 +452,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1250', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop15");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop15');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -483,7 +483,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1000', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop16");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop16');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -514,7 +514,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1390', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop17");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop17');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -545,7 +545,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1270', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop18");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop18');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -576,7 +576,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1290', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop19");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop19');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -607,7 +607,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1450', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop20");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop20');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -638,7 +638,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1420', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop21");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop21');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -667,7 +667,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1280', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop22");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop22');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -696,7 +696,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1410', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop23");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop23');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -725,7 +725,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1430', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop24");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop24');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -754,7 +754,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0500', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop25");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop25');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -783,7 +783,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0050', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop26");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop26');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -812,7 +812,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0100', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop27");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop27');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -841,7 +841,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0020', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop28");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop28');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -870,7 +870,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0150', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop29");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop29');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -901,7 +901,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0240', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop30");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop30');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -932,7 +932,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0420', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop31");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop31');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -963,7 +963,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0030', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop32");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop32');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -994,7 +994,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0380', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop33");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop33');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1025,7 +1025,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0130', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop34");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop34');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1056,7 +1056,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0290', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop35");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop35');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1087,7 +1087,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0160', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop36");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop36');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1118,7 +1118,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0430', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop37");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop37');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1149,7 +1149,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0140', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop38");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop38');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1180,7 +1180,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0280', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop39");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop39');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1211,7 +1211,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0410', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop40");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop40');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1242,7 +1242,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0300', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop41");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop41');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1273,7 +1273,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0270', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop42");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop42');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1304,7 +1304,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0510', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop43");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop43');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1335,7 +1335,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0310', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop44");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop44');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1366,7 +1366,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0440', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop45");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop45');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1397,7 +1397,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0870', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop46");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop46');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1428,7 +1428,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0470', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop47");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop47');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1459,7 +1459,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0680', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop48");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop48');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1490,7 +1490,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0450', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop49");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop49');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1518,7 +1518,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0590', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop50");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop50');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1546,7 +1546,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0730', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop51");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop51');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1574,7 +1574,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0650', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop52");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop52');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1602,7 +1602,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0630', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop53");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop53');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1630,7 +1630,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0900', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop54");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop54');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1658,7 +1658,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0620', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop55");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop55');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1686,7 +1686,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0520', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop56");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop56');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1714,7 +1714,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0640', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop57");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop57');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1745,7 +1745,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0770', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop58");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop58');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1776,7 +1776,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0540', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop59");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop59');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1807,7 +1807,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0820', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop60");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop60');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1838,7 +1838,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0660', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop61");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop61');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1866,7 +1866,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0760', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop62");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop62');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1894,7 +1894,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0930', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop63");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop63');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1922,7 +1922,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0780', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop64");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop64');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1950,7 +1950,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0960', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop65");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop65');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -1978,7 +1978,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0910', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop66");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop66');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -2006,7 +2006,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0920', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop67");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop67');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -2034,7 +2034,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0940', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop68");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop68');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -2062,7 +2062,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0800', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop69");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop69');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -2090,7 +2090,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1170', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop70");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop70');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -2118,7 +2118,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1010', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop71");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop71');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -2146,7 +2146,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0790', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop72");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop72');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -2174,7 +2174,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1360', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop73");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop73');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -2202,7 +2202,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1400', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop74");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop74');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态
@@ -2230,7 +2230,7 @@ export default function textPickerOnScrollStopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1120', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop75");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_onscrollstop/textPickerOnScrollStop75');
       await driver.waitForIdle(500, 2000);
       
       // 1、设置循环滑动状态

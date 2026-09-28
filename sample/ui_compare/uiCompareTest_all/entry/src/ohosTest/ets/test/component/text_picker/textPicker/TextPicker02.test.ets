@@ -50,7 +50,7 @@ export default function textPicker02Test () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0012', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0012 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/mediaTextPicker01")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/mediaTextPicker01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0012')
@@ -69,7 +69,7 @@ export default function textPicker02Test () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0013', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0013 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/mediaTextPicker02")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/mediaTextPicker02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0013')
@@ -88,7 +88,7 @@ export default function textPicker02Test () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0015', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0015 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/mediaTextPicker03")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/mediaTextPicker03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0015')
@@ -107,7 +107,7 @@ export default function textPicker02Test () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0019', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0019 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/mediaTextPicker04")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/mediaTextPicker04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0019')
@@ -126,7 +126,7 @@ export default function textPicker02Test () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0020 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/mediaTextPicker05")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/mediaTextPicker05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button: Component = await driver.waitForComponent(ON.id('mediaTextPicker05'), 1000);
@@ -148,7 +148,7 @@ export default function textPicker02Test () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0021', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0021 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/mediaTextPicker06")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/mediaTextPicker06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button: Component = await driver.waitForComponent(ON.id('mediaTextPicker06'), 1000);
@@ -170,7 +170,7 @@ export default function textPicker02Test () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0023', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0023 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/mediaTextPicker07")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/mediaTextPicker07')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let textPicker: Component = await driver.waitForComponent(ON.id('mediaTextPicker07'), 1000);
@@ -193,7 +193,7 @@ export default function textPicker02Test () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0024', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0024 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/mediaTextPicker08")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/mediaTextPicker08')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let textPicker: Component = await driver.waitForComponent(ON.id('mediaTextPicker08'), 1000);
@@ -216,7 +216,7 @@ export default function textPicker02Test () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0025', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0025 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/mediaTextPicker09")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/mediaTextPicker09')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let textPicker: Component = await driver.waitForComponent(ON.id('mediaTextPicker09'), 1000);
@@ -239,7 +239,7 @@ export default function textPicker02Test () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0026', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0026 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/mediaTextPicker10")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/mediaTextPicker10')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let textPicker: Component = await driver.waitForComponent(ON.id('mediaTextPicker10'), 1000);
@@ -262,7 +262,7 @@ export default function textPicker02Test () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0028', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0028 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/mediaTextPicker11")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/mediaTextPicker11')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -281,7 +281,7 @@ export default function textPicker02Test () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0029', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0029 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/mediaTextPicker12")
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/mediaTextPicker12')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

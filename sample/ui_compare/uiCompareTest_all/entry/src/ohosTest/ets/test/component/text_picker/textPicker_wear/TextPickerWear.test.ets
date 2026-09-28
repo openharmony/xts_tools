@@ -61,7 +61,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0450', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear01");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear01');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker更改选中项观察焦点显示
@@ -86,7 +86,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0440', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear02");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear02');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker向上滑动
@@ -117,7 +117,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0400', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear03");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear03');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker向上抛滑
@@ -146,7 +146,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0380', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear04");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear04');
       await driver.waitForIdle(500, 2000);
       
       // 1、多列TextPicker点击上面备选项
@@ -171,7 +171,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0430', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear05");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear05');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker向下抛滑
@@ -200,7 +200,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0370', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear06");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear06');
       await driver.waitForIdle(500, 2000);
       
       // 1、多列TextPicker向上滑动
@@ -231,7 +231,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0460', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear07");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear07');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker向上抛滑
@@ -260,7 +260,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0390', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear08");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear08');
       await driver.waitForIdle(500, 2000);
       
       // 1、多列TextPicker点击下面备选项
@@ -285,7 +285,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0510', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear09");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear09');
       await driver.waitForIdle(500, 2000);
       
       // 1、多列TextPicker点击下面备选项
@@ -310,7 +310,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0490', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear10");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear10');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker点击下面备选项
@@ -335,7 +335,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0520', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear11");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear11');
       await driver.waitForIdle(500, 2000);
       
       // 1、多列TextPicker向下滑动
@@ -366,7 +366,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0470', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear12");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear12');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker向下抛滑
@@ -395,7 +395,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0550', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear13");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear13');
       await driver.waitForIdle(500, 2000);
       
       // 1、多列TextPicker向下抛滑
@@ -424,7 +424,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0530', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear14");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear14');
       await driver.waitForIdle(500, 2000);
       
       // 1、多列TextPicker点击上面备选项
@@ -449,7 +449,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0540', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear15");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear15');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker更改选中项观察焦点显示
@@ -474,7 +474,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0570', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear16");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear16');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker点击上面备选项
@@ -499,7 +499,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0560', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear17");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear17');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker向上抛滑
@@ -528,7 +528,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0630', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear18");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear18');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker点击上面备选项
@@ -553,7 +553,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0640', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear19");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear19');
       await driver.waitForIdle(500, 2000);
       
       // 1、多列TextPicker向下滑动
@@ -584,7 +584,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0580', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear20");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear20');
       await driver.waitForIdle(500, 2000);
       
       // 1、多列TextPicker多指操作同时滑动多列
@@ -609,7 +609,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0620', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear21");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear21');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker向上/向下拖动
@@ -643,7 +643,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0610', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear22");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear22');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker向下滑动
@@ -674,7 +674,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0600', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear23");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear23');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker向下抛滑
@@ -703,7 +703,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0660', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear24");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear24');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker向上/向下拖动
@@ -737,7 +737,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0650', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear25");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear25');
       await driver.waitForIdle(500, 2000);
       
       // 1、多列TextPicker向上抛滑
@@ -766,7 +766,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0680', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear26");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear26');
       await driver.waitForIdle(500, 2000);
       
       // 1、多列TextPicker向上抛滑
@@ -795,7 +795,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0670', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear27");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear27');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker点击下面备选项
@@ -820,7 +820,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0720', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear28");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear28');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker更改选中项观察焦点显示
@@ -845,7 +845,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0700', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear29");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear29');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker向上滑动
@@ -876,7 +876,7 @@ export default function textPickerWearTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0710', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker_wear/textPickerWear30");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker_wear/textPickerWear30');
       await driver.waitForIdle(500, 2000);
       
       // 1、单列TextPicker向下滑动

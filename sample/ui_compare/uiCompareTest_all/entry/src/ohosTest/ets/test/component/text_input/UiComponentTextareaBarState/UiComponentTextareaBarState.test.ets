@@ -64,10 +64,10 @@ export default function uiComponentTextareaBarState() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0020 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextareaBarState/UiComponentTextareaBarState01")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextareaBarState/UiComponentTextareaBarState01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0020_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0020_01')
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentTextareaBarState01'),1000);
       let rect = await textarea.getBounds();
       let point = await textarea.getBoundsCenter();
@@ -76,7 +76,7 @@ export default function uiComponentTextareaBarState() {
       await driver.waitForIdle(500,2000);
       await textarea.click();
       await driver.mouseLongClick({x:click_x, y:click_y}, MouseButton.MOUSE_BUTTON_LEFT);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0020_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0020_02')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0020 finish.`);
       done()
@@ -92,10 +92,10 @@ export default function uiComponentTextareaBarState() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0030 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextareaBarState/UiComponentTextareaBarState02")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextareaBarState/UiComponentTextareaBarState02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0030_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0030_01')
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentTextareaBarState02'),1000);
       let rect = await textarea.getBounds();
       let point = await textarea.getBoundsCenter();
@@ -104,7 +104,7 @@ export default function uiComponentTextareaBarState() {
       await driver.waitForIdle(500,2000);
       await textarea.click();
       await driver.mouseClick({x:click_x, y:click_y}, MouseButton.MOUSE_BUTTON_LEFT);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0030_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0030_02')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0030 finish.`);
       done()
@@ -120,10 +120,10 @@ export default function uiComponentTextareaBarState() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0010 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextareaBarState/UiComponentTextareaBarState03")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextareaBarState/UiComponentTextareaBarState03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0010_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0010_01')
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentTextareaBarState03'),1000);
       let rect = await textarea.getBounds();
       let point = await textarea.getBoundsCenter();
@@ -134,10 +134,10 @@ export default function uiComponentTextareaBarState() {
       await driver.waitForIdle(500,2000);
       await textarea.click();
       await driver.mouseLongClick({x:click_x1, y:click_y1}, MouseButton.MOUSE_BUTTON_LEFT);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0010_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0010_02')
       await driver.waitForIdle(500,2000);
       await driver.mouseLongClick({x:click_x2, y:click_y2}, MouseButton.MOUSE_BUTTON_LEFT);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0010_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0010_03')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0010 finish.`);
       done()
@@ -153,10 +153,10 @@ export default function uiComponentTextareaBarState() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0040 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextareaBarState/UiComponentTextareaBarState04")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextareaBarState/UiComponentTextareaBarState04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0040_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0040_01')
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentTextareaBarState04'),1000);
       let rect = await textarea.getBounds();
       let point = await textarea.getBoundsCenter();
@@ -164,9 +164,9 @@ export default function uiComponentTextareaBarState() {
       let click_y=rect.top+(point.y-rect.top)*2-30;
       await driver.waitForIdle(500,2000);
       await textarea.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0040_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0040_02')
       await driver.mouseLongClick({x:click_x, y:click_y}, MouseButton.MOUSE_BUTTON_LEFT);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0040_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0040_03')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0040 finish.`);
       done()

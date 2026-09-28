@@ -64,7 +64,7 @@ export default function uiTextCrossDevice() {
      */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0010 start.`);
-      Settings.createWindow("testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice01")
+      Settings.createWindow('testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice01')
       let driver:Driver=Driver.create();
       let search: Component = await driver.waitForComponent(ON.id('UiTextCrossDevice01'),1000);
       await search.inputText('aaaaaaa')
@@ -85,7 +85,7 @@ export default function uiTextCrossDevice() {
      */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0020 start.`);
-      Settings.createWindow("testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice02")
+      Settings.createWindow('testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice02')
       let driver:Driver=Driver.create();
       let search: Component = await driver.waitForComponent(ON.id('UiTextCrossDevice02'),1000);
       let button: Component = await driver.waitForComponent(ON.id('UiTextCrossDevice02_02'),1000);
@@ -111,7 +111,7 @@ export default function uiTextCrossDevice() {
      */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0030 start.`);
-      Settings.createWindow("testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice03")
+      Settings.createWindow('testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice03')
       let driver:Driver=Driver.create();
       let search: Component = await driver.waitForComponent(ON.id('UiTextCrossDevice03'),1000);
       await search.inputText('HelloWorld')
@@ -132,7 +132,7 @@ export default function uiTextCrossDevice() {
      */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0040 start.`);
-      Settings.createWindow("testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice04")
+      Settings.createWindow('testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice04')
       let driver:Driver=Driver.create();
       let search: Component = await driver.waitForComponent(ON.id('UiTextCrossDevice04'),1000);
       // 输入多个字符，触发onChange
@@ -156,7 +156,7 @@ export default function uiTextCrossDevice() {
      */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0270 start.`);
-      Settings.createWindow("testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice05")
+      Settings.createWindow('testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice05')
       let driver:Driver=Driver.create();
       let search: Component = await driver.waitForComponent(ON.id('UiTextCrossDevice05'),1000);
       await driver.waitForIdle(500,2000)
@@ -176,7 +176,7 @@ export default function uiTextCrossDevice() {
      */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0280', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0280 start.`);
-      Settings.createWindow("testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice06")
+      Settings.createWindow('testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice06')
       let driver:Driver=Driver.create();
       let search: Component = await driver.waitForComponent(ON.id('UiTextCrossDevice06'),1000);
       await driver.waitForIdle(500,2000)
@@ -196,7 +196,7 @@ export default function uiTextCrossDevice() {
      */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0290 start.`);
-      Settings.createWindow("testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice07")
+      Settings.createWindow('testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice07')
       let driver:Driver=Driver.create();
       let search: Component = await driver.waitForComponent(ON.id('UiTextCrossDevice07'),1000);
       await driver.waitForIdle(500,2000)
@@ -216,7 +216,7 @@ export default function uiTextCrossDevice() {
      */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0300 start.`);
-      Settings.createWindow("testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice08")
+      Settings.createWindow('testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice08')
       let driver:Driver=Driver.create();
       let search: Component = await driver.waitForComponent(ON.id('UiTextCrossDevice08'),1000);
       await driver.waitForIdle(500,2000)
@@ -236,7 +236,7 @@ export default function uiTextCrossDevice() {
      */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0310 start.`);
-      Settings.createWindow("testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice09")
+      Settings.createWindow('testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice09')
       let driver:Driver=Driver.create();
       let search: Component = await driver.waitForComponent(ON.id('UiTextCrossDevice09'),1000);
       await driver.waitForIdle(500,2000)
@@ -256,7 +256,7 @@ export default function uiTextCrossDevice() {
      */
     it('SUB_ACE_UI_TEXT_CROSSDEVICE_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_CROSSDEVICE_0320 start.`);
-      Settings.createWindow("testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice10")
+      Settings.createWindow('testability/pages/component/text/uiTextCrossDevice/UiTextCrossDevice10')
       let driver:Driver=Driver.create();
       let search: Component = await driver.waitForComponent(ON.id('UiTextCrossDevice10'),1000);
       await driver.waitForIdle(500,2000)

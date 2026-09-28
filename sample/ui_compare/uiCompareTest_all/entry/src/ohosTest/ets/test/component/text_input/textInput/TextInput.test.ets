@@ -51,7 +51,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SHOWUNDERLINE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SHOWUNDERLINE_0010 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textInput01")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textInput01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTINPUT_SHOWUNDERLINE_0010')
@@ -70,7 +70,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_INPUT_KEYBOARDAVOIDMODE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_KEYBOARDAVOIDMODE_0180 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textInput02")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textInput02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_INPUT_KEYBOARDAVOIDMODE_0180')
@@ -89,7 +89,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TYPE_URL_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TYPE_URL_0010 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textInput03")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textInput03')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('inputUrl03'), 1000);
       await button.click();
@@ -110,7 +110,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TYPE_URL_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TYPE_URL_0130 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textInput03")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textInput03')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('textInput03TextInput'), 1000);
       await button.click();
@@ -131,7 +131,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0140 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/richEditor01")
+      Settings.createWindow('testability/pages/component/text_input/textInput/richEditor01')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('richEditor01'), 1000);
       await button.doubleClick();
@@ -152,7 +152,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0120 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/richEditor01")
+      Settings.createWindow('testability/pages/component/text_input/textInput/richEditor01')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('richEditor01'), 1000);
       await button.doubleClick();
@@ -179,7 +179,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SELECTIONMENU_PC_0100 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/richEditor01")
+      Settings.createWindow('testability/pages/component/text_input/textInput/richEditor01')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('richEditor01'), 1000);
       await button.doubleClick();
@@ -200,7 +200,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0100 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textArea01")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textArea01')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('TextArea01_01'), 1000);
       let point = await button1.getBoundsCenter();
@@ -226,7 +226,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0060 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textArea02")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textArea02')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('TextArea02_01'), 1000);
       let point = await button1.getBoundsCenter();
@@ -252,7 +252,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0020 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textArea03")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textArea03')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('TextArea03_01'), 1000);
       let point1 = await button1.getBoundsCenter();
@@ -282,7 +282,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0040 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textArea04")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textArea04')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('TextArea04_01'), 1000);
       let button2: Component = await driver.waitForComponent(ON.id('TextArea04_02'), 1000);
@@ -333,7 +333,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0030 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textArea05")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textArea05')
       let driver:Driver = Driver.create();
       // set textIndent
       let button1: Component = await driver.waitForComponent(ON.id('TextArea05_01'), 1000);
@@ -367,7 +367,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0090 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textArea06")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textArea06')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('TextArea06_01'), 1000);
       let point = await button1.getBoundsCenter();
@@ -393,7 +393,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0080 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textArea07")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textArea07')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('TextArea07_01'), 1000);
       let point = await button1.getBoundsCenter();
@@ -419,7 +419,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0010 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textArea08")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textArea08')
       let driver:Driver = Driver.create();
       // 选中组件 右键点击
       let textArea: Component = await driver.waitForComponent(ON.id('TextArea08'), 1000);
@@ -448,7 +448,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0050 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textArea09")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textArea09')
       let driver:Driver = Driver.create();
 
       try {
@@ -488,7 +488,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0070 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textArea10")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textArea10')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('TextArea10_01'), 1000);
       await button.click()
@@ -510,7 +510,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0110 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textArea11")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textArea11')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('TextArea11_01'), 1000);
       let point = await button1.getBoundsCenter();
@@ -536,7 +536,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0120 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textInput04")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textInput04')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('TextInput04_01'), 1000);
       let point = await button1.getBoundsCenter();
@@ -562,7 +562,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0140 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textInput05")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textInput05')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('TextInput05_01'), 1000);
       let point = await button1.getBoundsCenter();
@@ -588,7 +588,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0130 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textInput06")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textInput06')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('TextInput06_01'), 1000);
       let button2: Component = await driver.waitForComponent(ON.id('TextInput06_02'), 1000);
@@ -639,7 +639,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0150 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/textInput07")
+      Settings.createWindow('testability/pages/component/text_input/textInput/textInput07')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('TextInput07_01'), 1000);
       await button.click()
@@ -661,7 +661,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0190 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/text01")
+      Settings.createWindow('testability/pages/component/text_input/textInput/text01')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('Text01_01'), 1000);
       let button2: Component = await driver.waitForComponent(ON.id('Text01_02'), 1000);
@@ -712,7 +712,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0230 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/text02")
+      Settings.createWindow('testability/pages/component/text_input/textInput/text02')
       let driver:Driver = Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('Text02SpanBlank'), 1000);
       let point = await text.getBoundsCenter();
@@ -734,7 +734,7 @@ export default function textInputTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0170 start.`);
-      Settings.createWindow("testability/pages/component/text_input/textInput/text03")
+      Settings.createWindow('testability/pages/component/text_input/textInput/text03')
       let driver:Driver = Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('Text03'), 1000);
       let point = await text.getBoundsCenter();

@@ -50,7 +50,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface10")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface10')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -71,7 +71,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface20")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface20')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -92,7 +92,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface30")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface30')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -113,7 +113,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface40")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface40')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -134,7 +134,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface50")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface50')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -155,7 +155,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface60")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface60')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -176,7 +176,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface70")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface70')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -197,7 +197,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface80")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface80')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -218,7 +218,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface90")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface90')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -239,7 +239,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface100")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface100')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -260,7 +260,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface110")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface110')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -281,7 +281,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface120")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface120')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -302,7 +302,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0130 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface130")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface130')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -323,7 +323,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0140 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface140")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface140')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -344,7 +344,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface150")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface150')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -365,7 +365,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface160")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface160')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -386,7 +386,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0170 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface170")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface170')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -407,7 +407,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0180 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface180")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface180')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -428,7 +428,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0190 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface190")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface190')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -449,7 +449,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0200 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface200")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface200')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -470,7 +470,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0210 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface210")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface210')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -491,7 +491,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0220 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface220")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface220')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -512,7 +512,7 @@ export default function routingNamedRoutesInterface() {
      */
     it('SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0230 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface230")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingNamedRoutesInterface/RoutingNamedRoutesInterface230')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();

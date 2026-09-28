@@ -64,7 +64,7 @@ export default function uiComponentTextTimingOptimization() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0060 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization01")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -83,7 +83,7 @@ export default function uiComponentTextTimingOptimization() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0080 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization02")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization02')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let text: Component = await driver.waitForComponent(ON.id('UiComponentTextTimingOptimization02'),1000);
@@ -106,7 +106,7 @@ export default function uiComponentTextTimingOptimization() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0010 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization03")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization03')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -125,7 +125,7 @@ export default function uiComponentTextTimingOptimization() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0030 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization04")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization04')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -144,7 +144,7 @@ export default function uiComponentTextTimingOptimization() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0040 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization05")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization05')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -163,7 +163,7 @@ export default function uiComponentTextTimingOptimization() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0070 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization06")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization06')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -182,7 +182,7 @@ export default function uiComponentTextTimingOptimization() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0020 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization07")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization07')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -201,7 +201,7 @@ export default function uiComponentTextTimingOptimization() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0090 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization08")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization08')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       await driver.waitForIdle(500,2000);
@@ -225,7 +225,7 @@ export default function uiComponentTextTimingOptimization() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0110 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization09")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization09')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -244,7 +244,7 @@ export default function uiComponentTextTimingOptimization() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0050 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization10")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization10')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -263,7 +263,7 @@ export default function uiComponentTextTimingOptimization() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0100 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization11")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization11')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -282,7 +282,7 @@ export default function uiComponentTextTimingOptimization() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0130 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization12")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextTimingOptimization/UiComponentTextTimingOptimization12')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

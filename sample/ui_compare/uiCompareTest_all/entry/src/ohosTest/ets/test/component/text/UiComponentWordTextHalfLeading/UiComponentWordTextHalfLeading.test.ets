@@ -64,7 +64,7 @@ export default function uiComponentWordTextHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0010 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentWordTextHalfLeading/UiComponentWordTextHalfLeading01")
+      Settings.createWindow('testability/pages/component/text/uiComponentWordTextHalfLeading/UiComponentWordTextHalfLeading01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -83,7 +83,7 @@ export default function uiComponentWordTextHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0020 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentWordTextHalfLeading/UiComponentWordTextHalfLeading02")
+      Settings.createWindow('testability/pages/component/text/uiComponentWordTextHalfLeading/UiComponentWordTextHalfLeading02')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

@@ -50,7 +50,7 @@ export default function routingSupportstageInterface() {
      */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface10")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface10')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -72,7 +72,7 @@ export default function routingSupportstageInterface() {
      */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface30")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface30')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -94,7 +94,7 @@ export default function routingSupportstageInterface() {
      */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0050', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface50")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface50')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -116,7 +116,7 @@ export default function routingSupportstageInterface() {
      */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0060', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface60")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface60')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -138,7 +138,7 @@ export default function routingSupportstageInterface() {
      */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0070', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface70")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface70')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -161,7 +161,7 @@ export default function routingSupportstageInterface() {
      */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0080', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface80")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface80')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -183,7 +183,7 @@ export default function routingSupportstageInterface() {
      */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0040', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface40")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface40')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -205,7 +205,7 @@ export default function routingSupportstageInterface() {
      */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0100', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface100")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface100')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -227,7 +227,7 @@ export default function routingSupportstageInterface() {
      */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0020', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface20")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingSupportstageInterface/RoutingSupportstageInterface20')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)

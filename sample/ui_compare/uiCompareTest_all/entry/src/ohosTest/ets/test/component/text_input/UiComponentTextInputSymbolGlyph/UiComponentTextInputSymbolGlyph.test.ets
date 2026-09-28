@@ -64,7 +64,7 @@ export default function uiComponentTextInputSymbolGlyph() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0050 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph01")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph01')
       let driver:Driver=Driver.create();
       let textinput: Component = await driver.waitForComponent(ON.id('UiComponentTextInputSymbolGlyph01_01'),1000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputSymbolGlyph01_02'),1000);
@@ -93,7 +93,7 @@ export default function uiComponentTextInputSymbolGlyph() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0040 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph02")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph02')
       let driver:Driver=Driver.create();
       let textinput: Component = await driver.waitForComponent(ON.id('UiComponentTextInputSymbolGlyph02_01'),1000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputSymbolGlyph02_02'),1000);
@@ -122,7 +122,7 @@ export default function uiComponentTextInputSymbolGlyph() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0060 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph03")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph03')
       let driver:Driver=Driver.create();
       let textinput: Component = await driver.waitForComponent(ON.id('UiComponentTextInputSymbolGlyph03_01'),1000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputSymbolGlyph03_02'),1000);
@@ -151,7 +151,7 @@ export default function uiComponentTextInputSymbolGlyph() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0150 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph04")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph04')
       let driver:Driver=Driver.create();
       let textinput: Component = await driver.waitForComponent(ON.id('UiComponentTextInputSymbolGlyph04_01'),1000);
       windowSnap.snapShot()
@@ -173,7 +173,7 @@ export default function uiComponentTextInputSymbolGlyph() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0110 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph05")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph05')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextInputSymbolGlyph05_02'),1000);
       for(let i=0;i<4;++i) {
@@ -196,7 +196,7 @@ export default function uiComponentTextInputSymbolGlyph() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0120 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph06")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph06')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextInputSymbolGlyph06_02'),1000);
       for(let i=0;i<4;++i) {
@@ -219,7 +219,7 @@ export default function uiComponentTextInputSymbolGlyph() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_SYMBOLGLYPH_0220 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph07")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputSymbolGlyph/UiComponentTextInputSymbolGlyph07')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextInputSymbolGlyph07_02'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentTextInputSymbolGlyph07_03'),1000);

@@ -28,11 +28,11 @@ class WindowSnap {
   filePath(pageName ?: string) {
     let context: common.UIAbilityContext | undefined = GlobalThis.getInstance().getContext('context')
     Logger.info(TAG, 'deleteFile start');
-    let pathDir:string = context ? context.filesDir : "/"
+    let pathDir:string = context ? context.filesDir : '/'
     Logger.info(TAG, `deleteFile pathDir = ${pathDir}`)
-    let name = pageName ? pageName : "test"
+    let name = pageName ? pageName : 'test'
     let displayName = `IMG_${name}.webp`
-    let filePath: string = pathDir + "/" + displayName;
+    let filePath: string = pathDir + '/' + displayName;
     Logger.info(TAG, 'createFile filePath = ${filePath}')
     return filePath;
   }
@@ -52,7 +52,7 @@ class WindowSnap {
 
   async save(filePath: string, data: image.PixelMap) {
     let packOpts: image.PackingOption = {
-      format: "image/webp", quality: 100
+      format: 'image/webp', quality: 100
     }
     let imagePackerApi = image.createImagePacker()
     let arrayBuffer = await imagePackerApi.packing(data, packOpts)
@@ -140,10 +140,10 @@ class WindowSnap {
       Logger.info(TAG, 'properties.windowRect =  ' + JSON.stringify(properties))
 
       let screenshotOptions: screenshot.ScreenshotOptions = {
-        "screenRect": properties.windowRect,
-        "imageSize": {
-          "width": properties.windowRect.width,
-          "height": properties.windowRect.height
+        'screenRect': properties.windowRect,
+        'imageSize': {
+          'width': properties.windowRect.width,
+          'height': properties.windowRect.height
         }
       };
       Logger.info(TAG, 'screenshotOptions: ' + JSON.stringify(screenshotOptions));

@@ -50,7 +50,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0330', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0330 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0330")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0330')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.triggerKey(2017)
@@ -98,7 +98,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0050 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0050")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -118,7 +118,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0110 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0110")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -138,7 +138,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1000', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1000 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface1000")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface1000')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -158,7 +158,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0720', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0720 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0720")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0720')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -178,7 +178,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0680', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0680 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0680")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0680')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -198,7 +198,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0140', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0140 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0140")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0140')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -218,7 +218,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1130 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface1130")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface1130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -238,7 +238,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0970', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0970 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0970")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0970')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -258,7 +258,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1320', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1320 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface1320")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface1320')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -278,7 +278,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0740', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0740 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0740")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0740')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -298,7 +298,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0130 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0130")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -318,7 +318,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0660', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0660 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0660")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0660')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -338,7 +338,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1290', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1290 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface1290")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface1290')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -358,7 +358,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0670', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0670 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0670")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0670')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -378,7 +378,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1240', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1240 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface1240")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface1240')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -398,7 +398,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0100', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0100 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0100")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -418,7 +418,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0700', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0700 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0700")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0700')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -438,7 +438,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0650', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0650 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0650")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0650')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -458,7 +458,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0710', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0710 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0710")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0710')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -478,7 +478,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1020 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface1020")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface1020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -498,7 +498,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0060 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0060")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -518,7 +518,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1190', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1190 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface1190")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface1190')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -538,7 +538,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0120', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0120 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0120")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -558,7 +558,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1370', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1370 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface1370")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface1370')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -578,7 +578,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1440', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1440 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface1440")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface1440')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -598,7 +598,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0170', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0170 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface0170")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface0170')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -618,7 +618,7 @@ export default function searchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1510', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1510 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInterface/SearchInterface1510")
+      Settings.createWindow('testability/pages/component/text_input/searchInterface/SearchInterface1510')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       // windowSnap.snapShot()

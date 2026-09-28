@@ -49,7 +49,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit01")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit01')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       let point = await button.getBoundsCenter()
@@ -78,7 +78,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit02")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit02')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       let point = await button.getBoundsCenter()
@@ -107,7 +107,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit03")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit03')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       let point = await button.getBoundsCenter()
@@ -136,7 +136,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit04")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit04')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       let point = await button.getBoundsCenter()
@@ -175,7 +175,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit05")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit05')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       let point = await button.getBoundsCenter()
@@ -214,7 +214,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit06")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit06')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       let point = await button.getBoundsCenter()
@@ -253,7 +253,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit07")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit07')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       let point = await button.getBoundsCenter()
@@ -304,7 +304,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit08")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit08')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       let point = await button.getBoundsCenter()
@@ -355,7 +355,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit09")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit09')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       let point = await button.getBoundsCenter()
@@ -420,7 +420,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit10")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit10')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       let point = await button.getBoundsCenter()
@@ -485,7 +485,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit11")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit11')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       let point = await button.getBoundsCenter()
@@ -514,7 +514,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0130 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit12")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit12')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       let point = await button.getBoundsCenter()
@@ -543,7 +543,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit13")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit13')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       let point = await button.getBoundsCenter()
@@ -594,7 +594,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0530 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit14")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit14')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit14'),1000);
       let point = await button.getBoundsCenter()
@@ -636,7 +636,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0580 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit15")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit15')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit15'),1000);
       let point = await button.getBoundsCenter()
@@ -672,7 +672,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0590 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit16")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit16')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit16'),1000);
       let point = await button.getBoundsCenter()
@@ -708,7 +708,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0600 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit17")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit17')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit17'),1000);
       let point = await button.getBoundsCenter()
@@ -744,7 +744,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0610 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit18")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit18')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit18'),1000);
       let point = await button.getBoundsCenter()
@@ -780,7 +780,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0620 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit19")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit19')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit19'),1000);
       let point = await button.getBoundsCenter()
@@ -819,7 +819,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0680 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit20")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit20')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit20'),1000);
       let point = await button.getBoundsCenter()
@@ -855,7 +855,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0630 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit21")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit21')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit21'),1000);
       let point = await button.getBoundsCenter()
@@ -897,7 +897,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0690 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit22")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit22')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit22'),1000);
       let point = await button.getBoundsCenter()
@@ -933,7 +933,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0710 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit23")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit23')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit23'),1000);
       let point = await button.getBoundsCenter()
@@ -969,7 +969,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0720 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit24")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit24')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit24'),1000);
       let point = await button.getBoundsCenter()
@@ -1005,7 +1005,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0700 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit25")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit25')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit25'),1000);
       let point = await button.getBoundsCenter()
@@ -1041,7 +1041,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0520 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit26")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit26')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit26'),1000);
       let point = await button.getBoundsCenter()
@@ -1075,7 +1075,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0440 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit27")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit27')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit27'),1000);
       let point = await button.getBoundsCenter()
@@ -1109,7 +1109,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0460 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit28")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit28')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit28'),1000);
       let point = await button.getBoundsCenter()
@@ -1156,7 +1156,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0470 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit29")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit29')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit29'),1000);
       let point = await button.getBoundsCenter()
@@ -1193,7 +1193,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0480 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit30")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit30')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit30'),1000);
       let point = await button.getBoundsCenter()
@@ -1227,7 +1227,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0490 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit31")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit31')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit31'),1000);
       let point = await button.getBoundsCenter()
@@ -1280,7 +1280,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0500 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit32")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit32')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit32'),1000);
       let point = await button.getBoundsCenter()
@@ -1314,7 +1314,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0510 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit33")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit33')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit33'),1000);
       let point = await button.getBoundsCenter()
@@ -1348,7 +1348,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0450 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit34")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit34')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit34'),1000);
       let point = await button.getBoundsCenter()
@@ -1394,7 +1394,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0320 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit37")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit37')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit37'),1000);
       let point = await button.getBoundsCenter()
@@ -1435,7 +1435,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0330 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit38")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit38')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit38'),1000);
       let point = await button.getBoundsCenter()
@@ -1471,7 +1471,7 @@ export default function aCEActionGestureFingersLimit() {
      */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0340 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit39")
+      Settings.createWindow('testability/pages/scenario/action_event/aCEActionGestureFingersLimit/ACEActionGestureFingersLimit39')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ACEActionGestureFingersLimit39'),1000);
       let point = await button.getBoundsCenter()

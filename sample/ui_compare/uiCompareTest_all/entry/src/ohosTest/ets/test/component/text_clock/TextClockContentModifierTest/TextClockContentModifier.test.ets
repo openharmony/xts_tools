@@ -50,7 +50,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0080 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0080")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -70,7 +70,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0110 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0110")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -91,7 +91,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0260', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0260 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0260")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0260')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -112,7 +112,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0300', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0300 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0300")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0300')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -133,7 +133,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0290', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0290 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0290")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0290')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextClockContentModifier0290_001'),1000);
@@ -157,7 +157,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0310', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0310 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0310")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0310')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -178,7 +178,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0350', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0350 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0350")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0350')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextClockContentModifier0350_001'),1000);
@@ -205,7 +205,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0390', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0390 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0390")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0390')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextClockContentModifier0390_001'),1000);
@@ -232,7 +232,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0380', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0380 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0380")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0380')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextClockContentModifier0380_001'),1000);
@@ -259,7 +259,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0400', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0400 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0400")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0400')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextClockContentModifier0400_001'),1000);
@@ -283,7 +283,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0420', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0420 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0420")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0420')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextClockContentModifier0420_001'),1000);
@@ -310,7 +310,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0280', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0280 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0280")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0280')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextClockContentModifier0280_001'),1000);
@@ -334,7 +334,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0370', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0370 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0370")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0370')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextClockContentModifier0370_001'),1000);
@@ -358,7 +358,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0430', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0430 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0430")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0430')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextClockContentModifier0430_001'),1000);
@@ -382,7 +382,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0450', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0450 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0450")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0450')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextClockContentModifier0450_001'),1000);
@@ -406,7 +406,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0440', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0440 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0440")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0440')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextClockContentModifier0440_001'),1000);
@@ -430,7 +430,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0410', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0410 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0410")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0410')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextClockContentModifier0410_001'),1000);
@@ -457,7 +457,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0070 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0070")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -478,7 +478,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0140', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0140 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0140")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0140')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -499,7 +499,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0040 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0040")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -520,7 +520,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0060 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0060")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -541,7 +541,7 @@ export default function textClockContentModifier() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0020 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0020")
+      Settings.createWindow('testability/pages/component/text_clock/textClockContentModifier/TextClockContentModifier0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)

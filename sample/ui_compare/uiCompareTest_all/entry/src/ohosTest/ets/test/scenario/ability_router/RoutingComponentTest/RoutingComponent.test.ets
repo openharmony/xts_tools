@@ -47,7 +47,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent10")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent10')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING_0010 finish.`);
@@ -64,7 +64,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0020 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent20")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent20')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0020 finish.`);
@@ -81,7 +81,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0030 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent30")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent30')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0030 finish.`);
@@ -98,7 +98,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0040 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent40")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent40')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0040 finish.`);
@@ -115,7 +115,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0050 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent50")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent50')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0050 finish.`);
@@ -132,7 +132,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0060 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent60")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent60')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0060 finish.`);
@@ -149,7 +149,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0070 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent70")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent70')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0070 finish.`);
@@ -166,7 +166,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0080 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent80")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent80')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0080 finish.`);
@@ -183,7 +183,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0090 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent90")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent90')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0090 finish.`);
@@ -200,7 +200,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0100 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent100")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent100')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0100 finish.`);
@@ -217,7 +217,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0110 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent110")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent110')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0110 finish.`);
@@ -234,7 +234,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0120 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent120")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent120')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0120 finish.`);
@@ -251,7 +251,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0130 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent130")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent130')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0130 finish.`);
@@ -268,7 +268,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0140 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent140")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent140')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0140 finish.`);
@@ -285,7 +285,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0150 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent150")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent150')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0150 finish.`);
@@ -302,7 +302,7 @@ export default function routingComponent() {
      */
     it('SUB_ACE_UI_COMPONENT_ROTING__0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0160 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingComponent/RoutingComponent160")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingComponent/RoutingComponent160')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROTING__0160 finish.`);

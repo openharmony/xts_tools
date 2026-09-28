@@ -33,7 +33,7 @@ async function sleep(time: number): Promise<void> {
 
 class Settings {
   windowClass: window.Window | undefined = undefined
-  public windowCreateType: string = "changeWindow";
+  public windowCreateType: string = 'changeWindow';
   private static DEFAULT_WIDTH: number = 720;
   private static DEFAULT_HEIGHT: number = 1280;
   private static DEFAULT_DPI: number = 240;
@@ -193,7 +193,7 @@ class Settings {
     dpi?: number | undefined
   ) {
 
-    this.windowCreateType = "createWindow"
+    this.windowCreateType = 'createWindow'
     if (X == undefined) {
       X = Settings.DEFAULT_OFFSET_X;
     }
@@ -213,7 +213,7 @@ class Settings {
     this.changeDpi(dpi)
     sleep(1000)
     let config: window.Configuration = {
-      name: "floatWindow",
+      name: 'floatWindow',
       windowType: window.WindowType.TYPE_FLOAT,
       ctx: GlobalThis.getInstance().getContext('context')
     };
@@ -239,7 +239,7 @@ class Settings {
     dpi?: number | undefined
   ) {
 
-    this.windowCreateType = "changeWindow"
+    this.windowCreateType = 'changeWindow'
     if (width == undefined) {
       width = Settings.DEFAULT_WIDTH;
     }

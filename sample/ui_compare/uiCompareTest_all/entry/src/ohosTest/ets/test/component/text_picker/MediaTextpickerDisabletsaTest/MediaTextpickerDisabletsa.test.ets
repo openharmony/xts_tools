@@ -49,7 +49,7 @@ export default function mediaTextpickerDisabletsa() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0011', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0011 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/mediaTextpickerDisabletsa/mediaTextpickerDisabletsa")
+      Settings.createWindow('testability/pages/component/text_picker/mediaTextpickerDisabletsa/mediaTextpickerDisabletsa')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0011 finish.`);
@@ -66,7 +66,7 @@ export default function mediaTextpickerDisabletsa() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0010 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/mediaTextpickerDisabletsa/MediaTextpickerDisabletsa_01")
+      Settings.createWindow('testability/pages/component/text_picker/mediaTextpickerDisabletsa/MediaTextpickerDisabletsa_01')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0010 finish.`);
@@ -83,7 +83,7 @@ export default function mediaTextpickerDisabletsa() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_MTBF_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_MTBF_0010 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/mediaTextpickerDisabletsa/MediaTextpickerOnenterselectedareaMtbf01")
+      Settings.createWindow('testability/pages/component/text_picker/mediaTextpickerDisabletsa/MediaTextpickerOnenterselectedareaMtbf01')
       let driver:Driver = Driver.create();
       let component:Component = await driver.waitForComponent(ON.id('MediaTextpickerDisabletsa01'),1000);
       await component.scrollToTop()
@@ -106,7 +106,7 @@ export default function mediaTextpickerDisabletsa() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_MTBF_0020', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_MTBF_0020 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/mediaTextpickerDisabletsa/MediaTextpickerOnenterselectedareaMtbf02")
+      Settings.createWindow('testability/pages/component/text_picker/mediaTextpickerDisabletsa/MediaTextpickerOnenterselectedareaMtbf02')
       let driver:Driver = Driver.create();
       let component:Component = await driver.waitForComponent(ON.id('MediaTextpickerDisabletsa01'),1000);
       await component.click()
@@ -130,7 +130,7 @@ export default function mediaTextpickerDisabletsa() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0010 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/mediaTextpickerDisabletsa/MediaTextpickerOnenterselectedareaMtbf01")
+      Settings.createWindow('testability/pages/component/text_picker/mediaTextpickerDisabletsa/MediaTextpickerOnenterselectedareaMtbf01')
       let driver:Driver = Driver.create();
       let component:Component = await driver.waitForComponent(ON.id('MediaTextpickerDisabletsa01'),1000);
       await component.scrollToTop()
@@ -153,7 +153,7 @@ export default function mediaTextpickerDisabletsa() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0011', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0011 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/mediaTextpickerDisabletsa/MediaTextpickerOnenterselectedareaMtbf02")
+      Settings.createWindow('testability/pages/component/text_picker/mediaTextpickerDisabletsa/MediaTextpickerOnenterselectedareaMtbf02')
       let driver:Driver = Driver.create();
       let component:Component = await driver.waitForComponent(ON.id('MediaTextpickerDisabletsa01'),1000);
       await component.click()
@@ -176,7 +176,7 @@ export default function mediaTextpickerDisabletsa() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ONENTERSELECTEDAREA_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ONENTERSELECTEDAREA_0010 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/mediaTextpickerDisabletsa/MediaTimepickerOnenterselectedareaMtbf01")
+      Settings.createWindow('testability/pages/component/text_picker/mediaTextpickerDisabletsa/MediaTimepickerOnenterselectedareaMtbf01')
       let driver:Driver = Driver.create();
       let component:Component = await driver.waitForComponent(ON.id('MediaTextpickerDisabletsa01'),1000);
       await component.scrollToTop()
@@ -199,7 +199,7 @@ export default function mediaTextpickerDisabletsa() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ONENTERSELECTEDAREA_0011', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ONENTERSELECTEDAREA_0011 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/mediaTextpickerDisabletsa/MediaTimepickerOnenterselectedareaMtbf02")
+      Settings.createWindow('testability/pages/component/text_picker/mediaTextpickerDisabletsa/MediaTimepickerOnenterselectedareaMtbf02')
       let driver:Driver = Driver.create();
       let component:Component = await driver.waitForComponent(ON.id('MediaTextpickerDisabletsa01'),1000);
       await component.click()

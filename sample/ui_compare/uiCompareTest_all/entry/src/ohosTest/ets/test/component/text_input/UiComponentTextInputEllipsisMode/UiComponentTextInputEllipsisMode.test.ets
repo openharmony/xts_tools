@@ -64,7 +64,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0230 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode01")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode01_01'),1000);
@@ -96,7 +96,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0080 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode02")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode02_02'),1000);
@@ -123,7 +123,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0100 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode03")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode03_02'),1000);
@@ -150,7 +150,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0040 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode04")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode04_02'),1000);
@@ -177,7 +177,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0030 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode05")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode05_02'),1000);
@@ -204,7 +204,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0010 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode06")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode06_02'),1000);
@@ -231,7 +231,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0090 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode07")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode07')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode07_02'),1000);
@@ -256,7 +256,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0110 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode08")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode08')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode08_02'),1000);
@@ -284,7 +284,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0130 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode09")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode09')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode09_02'),1000);
@@ -310,7 +310,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0070 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode10")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode10')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode10_02'),1000);
@@ -338,7 +338,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0120 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode11")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode11')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode11_02'),1000);
@@ -365,7 +365,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0140 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode12")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode12')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode12_02'),1000);
@@ -392,7 +392,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0170 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode13")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode13')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode13_01'),1000);
@@ -413,7 +413,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0190 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode14")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode14')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode14_01'),1000);
@@ -437,7 +437,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0180 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode15")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode15')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode15_01'),1000);
@@ -461,7 +461,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0160 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode16")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode16')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode16_01'),1000);
@@ -488,7 +488,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0020 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode17")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode17')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode17_02'),1000);
@@ -513,7 +513,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0150 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode18")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode18')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode18_01'),1000);
@@ -538,7 +538,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0060 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode19")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode19')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode19_01'),1000);
@@ -573,7 +573,7 @@ export default function uiComponentTextInputEllipsisMode() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0050 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode20")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode20')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextInputEllipsisMode20_01'),1000);

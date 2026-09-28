@@ -49,7 +49,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0030 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore01")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -82,7 +82,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0040 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore02")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -119,7 +119,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0050 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore03")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -151,7 +151,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0060 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore04")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -173,7 +173,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0070 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore05")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -195,7 +195,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0080 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore06")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -217,7 +217,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0090 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore07")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -239,7 +239,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0100 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore08")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -261,7 +261,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0110 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore09")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -283,7 +283,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0120 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore10")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -305,7 +305,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0130 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore11")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -327,7 +327,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0140 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore12")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore12')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -349,7 +349,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0150 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore13")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -371,7 +371,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0160 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore14")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore14')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -396,7 +396,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0170 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore15")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore15')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -421,7 +421,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0180 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore16")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -446,7 +446,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0190 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore17")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -471,7 +471,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0200 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore18")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore18')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -496,7 +496,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0210 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore19")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore19')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -521,7 +521,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0220 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore20")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore20')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -546,7 +546,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0230 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore21")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore21')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -571,7 +571,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0240 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore22")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore22')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -596,7 +596,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0250 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore23")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore23')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -621,7 +621,7 @@ export default function textSpanStoreTest() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0260 start.`);
-      Settings.createWindow("testability/pages/component/text/text/textSpanStore24")
+      Settings.createWindow('testability/pages/component/text/text/textSpanStore24')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 

@@ -49,7 +49,7 @@ export default function mediaTextpickerColumnwidths() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0015', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0015 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/mediaTextpickerColumnwidths/MediaTextpickerColumnwidths15")
+      Settings.createWindow('testability/pages/component/text_picker/mediaTextpickerColumnwidths/MediaTextpickerColumnwidths15')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('MediaTextpickerColumnwidths_01'), 1000);  // 显式等待组件出现[6](@ref)
@@ -71,7 +71,7 @@ export default function mediaTextpickerColumnwidths() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0011', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0011 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/mediaTextpickerColumnwidths/MediaTextpickerColumnwidths11")
+      Settings.createWindow('testability/pages/component/text_picker/mediaTextpickerColumnwidths/MediaTextpickerColumnwidths11')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('MediaTextpickerColumnwidths_01'), 1000);  // 显式等待组件出现[6](@ref)
@@ -93,7 +93,7 @@ export default function mediaTextpickerColumnwidths() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0013', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0013 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/mediaTextpickerColumnwidths/MediaTextpickerColumnwidths13")
+      Settings.createWindow('testability/pages/component/text_picker/mediaTextpickerColumnwidths/MediaTextpickerColumnwidths13')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('MediaTextpickerColumnwidths_01'), 1000);  // 显式等待组件出现[6](@ref)
@@ -115,7 +115,7 @@ export default function mediaTextpickerColumnwidths() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0014', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0014 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/mediaTextpickerColumnwidths/MediaTextpickerColumnwidths14")
+      Settings.createWindow('testability/pages/component/text_picker/mediaTextpickerColumnwidths/MediaTextpickerColumnwidths14')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('MediaTextpickerColumnwidths_01'), 1000);  // 显式等待组件出现[6](@ref)
@@ -137,7 +137,7 @@ export default function mediaTextpickerColumnwidths() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0010 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/mediaTextpickerColumnwidths/MediaTextpickerColumnwidths10")
+      Settings.createWindow('testability/pages/component/text_picker/mediaTextpickerColumnwidths/MediaTextpickerColumnwidths10')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('MediaTextpickerColumnwidths_01'), 1000);  // 显式等待组件出现[6](@ref)
@@ -159,7 +159,7 @@ export default function mediaTextpickerColumnwidths() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0016', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0016 start.`);
-      Settings.createWindow("testability/pages/component/text_picker/mediaTextpickerColumnwidths/MediaTextpickerColumnwidths16")
+      Settings.createWindow('testability/pages/component/text_picker/mediaTextpickerColumnwidths/MediaTextpickerColumnwidths16')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('MediaTextpickerColumnwidths_01'), 1000);  // 显式等待组件出现[6](@ref)

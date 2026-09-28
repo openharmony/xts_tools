@@ -50,7 +50,7 @@ export default function textClockTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0067', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0067 start.`);
-      Settings.createWindow("testability/pages/component/text_clock/textClock/textClockSet01")
+      Settings.createWindow('testability/pages/component/text_clock/textClock/textClockSet01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0067')

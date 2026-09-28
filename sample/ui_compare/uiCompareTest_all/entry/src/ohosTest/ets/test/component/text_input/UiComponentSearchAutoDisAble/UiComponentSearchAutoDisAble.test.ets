@@ -64,7 +64,7 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0090 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble01")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -89,7 +89,7 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0010 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble02")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble02')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -114,12 +114,12 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0050 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble03")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble03')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
       let Search: Component = await driver.waitForComponent(ON.id('UiComponentSearchAutoDisAble03'),1000);
-      await Search.inputText("hello world");
+      await Search.inputText('hello world');
       await driver.waitForIdle(500,2000);
       let point = await Search.getBoundsCenter();
       let rect = await Search.getBounds();
@@ -141,12 +141,12 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0020 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble04")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble04')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
       let Search: Component = await driver.waitForComponent(ON.id('UiComponentSearchAutoDisAble04'),1000);
-      await Search.inputText("hello world");
+      await Search.inputText('hello world');
       await driver.waitForIdle(500,2000);
       let point = await Search.getBoundsCenter();
       let rect = await Search.getBounds();
@@ -168,12 +168,12 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0040 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble05")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble05')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
       let Search: Component = await driver.waitForComponent(ON.id('UiComponentSearchAutoDisAble05'),1000);
-      await Search.inputText("hello world");
+      await Search.inputText('hello world');
       await driver.waitForIdle(500,2000);
       let point = await Search.getBoundsCenter();
       let rect = await Search.getBounds();
@@ -195,7 +195,7 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0060 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble06")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble06')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -220,7 +220,7 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0180 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble07")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble07')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -245,7 +245,7 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0030 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble08")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble08')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -270,7 +270,7 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0120 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble09")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble09')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -295,7 +295,7 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0080 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble10")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble10')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -318,7 +318,7 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0070 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble11")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble11')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -341,7 +341,7 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0130 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble12")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble12')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -364,7 +364,7 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0110 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble13")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble13')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -389,7 +389,7 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0150 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble14")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble14')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -416,7 +416,7 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0170 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble15")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble15')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       for(let i=0;i<4;++i) {
@@ -441,7 +441,7 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0190 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble16")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble16')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -466,7 +466,7 @@ export default function uiComponentSearchAutoDisAble() {
      */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0140 start.`);
-      Settings.createWindow("testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble17")
+      Settings.createWindow('testability/pages/component/text_input/uiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble17')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

@@ -50,7 +50,7 @@ export default function routingRedirection() {
      */
     it('SUB_ACE_Routing_redirection_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection10")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection10')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -71,7 +71,7 @@ export default function routingRedirection() {
      */
     it('SUB_ACE_Routing_redirection_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection20")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection20')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -92,7 +92,7 @@ export default function routingRedirection() {
      */
     it('SUB_ACE_Routing_redirection_0030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection30")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection30')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -114,7 +114,7 @@ export default function routingRedirection() {
      */
     it('SUB_ACE_Routing_redirection_0040', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection40")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection40')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -136,7 +136,7 @@ export default function routingRedirection() {
      */
     it('SUB_ACE_Routing_redirection_0050', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection50")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection50')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -158,7 +158,7 @@ export default function routingRedirection() {
      */
     it('SUB_ACE_Routing_redirection_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection60")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection60')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -179,7 +179,7 @@ export default function routingRedirection() {
      */
     it('SUB_ACE_Routing_redirection_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection70")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection70')
       let driver:Driver = Driver.create();
       let component = await driver.waitForComponent(ON.id('btn'), 1000);
       await component.click();
@@ -200,7 +200,7 @@ export default function routingRedirection() {
      */
     it('SUB_ACE_Routing_redirection_0080', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection80")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection80')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)
@@ -222,7 +222,7 @@ export default function routingRedirection() {
      */
     it('SUB_ACE_Routing_redirection_0090', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection90")
+      Settings.createWindow('testability/pages/scenario/ability_router/routingRedirection/RoutingRedirection90')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('btn'), 1000);  // 显式等待组件出现[6](@ref)

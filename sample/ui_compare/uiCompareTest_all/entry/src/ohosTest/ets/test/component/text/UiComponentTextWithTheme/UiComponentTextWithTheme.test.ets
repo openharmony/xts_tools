@@ -64,16 +64,16 @@ export default function uiComponentTextWithTheme() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0070 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme01");
+      Settings.createWindow('testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme01');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0070_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0070_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextWithTheme01'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0070_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0070_02');
       await driver.waitForIdle(500,2000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0070_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0070_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0070 finish.`);
       done();
@@ -89,16 +89,16 @@ export default function uiComponentTextWithTheme() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0080 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme02");
+      Settings.createWindow('testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme02');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0080_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0080_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextWithTheme02'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0080_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0080_02');
       await driver.waitForIdle(500,2000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0080_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0080_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0070 finish.`);
       done();
@@ -114,16 +114,16 @@ export default function uiComponentTextWithTheme() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0030 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme03");
+      Settings.createWindow('testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme03');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0030_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0030_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextWithTheme03'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0030_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0030_02');
       await driver.waitForIdle(500,2000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0030_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0030_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0030 finish.`);
       done();
@@ -139,7 +139,7 @@ export default function uiComponentTextWithTheme() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0010 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme04");
+      Settings.createWindow('testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme04');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -158,7 +158,7 @@ export default function uiComponentTextWithTheme() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0020 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme05");
+      Settings.createWindow('testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme05');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -177,7 +177,7 @@ export default function uiComponentTextWithTheme() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0040 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme06");
+      Settings.createWindow('testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme06');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -196,7 +196,7 @@ export default function uiComponentTextWithTheme() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0060 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme07");
+      Settings.createWindow('testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme07');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextWithTheme07_01'),1000);
@@ -222,7 +222,7 @@ export default function uiComponentTextWithTheme() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0050 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme08");
+      Settings.createWindow('testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme08');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextWithTheme08_01'),1000);
@@ -248,7 +248,7 @@ export default function uiComponentTextWithTheme() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0050 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme09");
+      Settings.createWindow('testability/pages/component/text/uiComponentTextWithTheme/UiComponentTextWithTheme09');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextWithTheme09_01'),1000);

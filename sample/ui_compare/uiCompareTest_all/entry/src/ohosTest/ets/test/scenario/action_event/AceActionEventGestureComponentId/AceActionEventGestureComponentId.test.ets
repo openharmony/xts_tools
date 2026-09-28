@@ -64,7 +64,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId01")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('超长ID测试_This_I23456789_特殊符号!@#$%^&*()_+-=[]{}|;字列_한글문자_символы_'),1000);
       windowSnap.snapShot()
@@ -86,7 +86,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId02")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('换行符\nID测试'),1000);
       windowSnap.snapShot()
@@ -108,7 +108,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId03")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('9.99'),1000);
       windowSnap.snapShot()
@@ -130,7 +130,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId04")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.findComponent(ON.type('Button'));
       windowSnap.snapShot()
@@ -152,7 +152,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId05")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('-4.22'),1000);
       windowSnap.snapShot()
@@ -174,7 +174,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId06")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId06')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('！@#￥~'),1000);
       windowSnap.snapShot()
@@ -196,7 +196,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId07")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId07')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.findComponent(ON.type('Button'));
       windowSnap.snapShot()
@@ -218,7 +218,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId08")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId08')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.findComponent(ON.type('Button'));
       windowSnap.snapShot()
@@ -240,7 +240,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId09")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId09')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -262,7 +262,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId10")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId10')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -284,7 +284,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0130 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId11")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId11')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -306,7 +306,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0140 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId12")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId12')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -328,7 +328,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId13")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId13')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -350,7 +350,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0170 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId14")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId14')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -372,7 +372,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0180 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId15")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId15')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -394,7 +394,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0200 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId16")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId16')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -416,7 +416,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0220 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId18")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId18')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -438,7 +438,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0230 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId19")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId19')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -460,7 +460,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId20")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId20')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -482,7 +482,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0250 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId21")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId21')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -504,7 +504,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0260 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId22")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId22')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -526,7 +526,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0270 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId23")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId23')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -548,7 +548,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0280 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId24")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId24')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -570,7 +570,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0300 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId26")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId26')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -592,7 +592,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0320 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId27")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId27')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -614,7 +614,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0330 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId28")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId28')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -636,7 +636,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0340 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId29")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId29')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -658,7 +658,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0350 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId30")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId30')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -680,7 +680,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0360 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId31")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId31')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -702,7 +702,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0370 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId32")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId32')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -724,7 +724,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0380 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId33")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId33')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -746,7 +746,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0400 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId34")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId34')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -768,7 +768,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0650 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId35")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId35')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('longPressTextWithContinue'),1000);
       windowSnap.snapShot()
@@ -790,7 +790,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0660 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId36")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId36')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('longPressTextWithReject'),1000);
       windowSnap.snapShot()
@@ -812,7 +812,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0710 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId37")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId37')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -834,7 +834,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0700 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId38")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId38')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -857,7 +857,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0670 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId39")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId39')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -880,7 +880,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0680 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId40")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId40')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.type('Button'),1000);
       windowSnap.snapShot()
@@ -902,7 +902,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0530 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId41")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId41')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('longPressButton41'),1000);
       windowSnap.snapShot()
@@ -924,7 +924,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0590 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId42")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId42')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('longPressButton42'),1000);
       windowSnap.snapShot()
@@ -946,7 +946,7 @@ export default function aceActionEventGestureComponentId() {
      */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0620 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId43")
+      Settings.createWindow('testability/pages/scenario/action_event/aceActionEventGestureComponentId/AceActionEventGestureComponentId43')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('rotationGestureColumn43'),1000);
       windowSnap.snapShot()

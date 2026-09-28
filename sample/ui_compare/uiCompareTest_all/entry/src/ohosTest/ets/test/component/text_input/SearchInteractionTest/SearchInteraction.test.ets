@@ -50,7 +50,7 @@ export default function searchInteraction() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0090 start.`);
-      Settings.createWindow("testability/pages/component/text_input/searchInteraction/SearchInteraction0090")
+      Settings.createWindow('testability/pages/component/text_input/searchInteraction/SearchInteraction0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.triggerKey(2017)

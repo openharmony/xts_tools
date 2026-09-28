@@ -48,7 +48,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_07f07b14baf24fafa7a4743b3b6d6c3b', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase01");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase01');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -88,7 +88,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_14b87831670c4785be8ba178c20729bd', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase02");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase02');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -128,7 +128,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_17c8e9a5845645029f5c7b91379c3fa9', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase03");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase03');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -163,7 +163,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_1ea6aaaa59164ca09f779055a5f552bf', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase04");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase04');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -203,7 +203,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_215db3475396420780b9468f6b5ff0b2', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase05");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase05');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -243,7 +243,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_22ac5a840300445d9e6492a72c6edbe5', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase06");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase06');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -283,7 +283,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_22fa9676bd734062a2f6ee37f58849ea', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase07");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase07');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -323,7 +323,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_25f6417f4ecb434daad92b418b28252d', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase08");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase08');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -363,7 +363,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_2c8e0c798bf64a19a7390ba337103614', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase09");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase09');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -398,7 +398,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_30039cfa9bbb4c32a4cfe2b27deb5016', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase10");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase10');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -438,7 +438,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_3432d74b60784c37a3bbd9e7827161e7', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase11");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase11');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -473,7 +473,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_40339f966de94ef98a5caa6c45385505', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase12");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase12');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -508,7 +508,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_4244b55f14754080985d09058c9f475b', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase13");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase13');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -543,7 +543,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_45a89390e1fa4eda86efda313e14becd', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase14");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase14');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -583,7 +583,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_4668573ef865430fb5f52a7f204e3d3d', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase15");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase15');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -618,7 +618,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_47f5cf97c3834fda9cfc71b13bce5b35', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase16");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase16');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -653,7 +653,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_4b69a29e043d49f2826d78cdfa38c301', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase17");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase17');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -698,7 +698,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_4f35499a5da34892a348f699a3e53544', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase18");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase18');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -738,7 +738,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_5f255cbe232a4f89bcc64eb7b9bfd7ae', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase19");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase19');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -778,7 +778,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_6798a737e3c44b3ca369132b6d5539a9', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase20");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase20');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -813,7 +813,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_6e921880c23546b790a4030d143e1cf6', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase21");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase21');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -848,7 +848,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_7ff6b29516ae44718a7b2edfe4dc6827', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase22");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase22');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -888,7 +888,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_88aeda28742e415091f54af6df16ac76', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase23");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase23');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -928,7 +928,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_8951b19265b844d2938cb2e418db6ee2', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase24");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase24');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -963,7 +963,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_8e8138a0d4e3456a821d13e44e0ad056', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase25");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase25');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1003,7 +1003,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_8f5e401394864f4c81b5ae368a2d9e28', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase26");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase26');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1038,7 +1038,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_968fc329c6ca42349f5f34703516c729', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase27");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase27');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1083,7 +1083,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_9b0865fde4944a4bb7132ede4f0ee734', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase28");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase28');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1118,7 +1118,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_9eb33ab9b98f4e6abbd0496d3c11a5a1', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase29");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase29');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1163,7 +1163,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_adff3a7f152d40a1bf832657464cdd97', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase30");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase30');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1203,7 +1203,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_b299e39bc22540c1bbc92a18daacde52', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase31");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase31');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1243,7 +1243,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_b7b3eff086254580aad762d1412f167f', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase32");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase32');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1288,7 +1288,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_bac8776d9aa94f7087bf2e13350da157', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase33");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase33');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1328,7 +1328,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_bb7b577d6e3f42d1aea1beccef3ae6aa', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase34");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase34');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1373,7 +1373,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_bc806ed771454bd6ae5fa168ee7968fc', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase35");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase35');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1413,7 +1413,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_c01c175a018347d298ded2bbaa2d0348', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase36");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase36');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1453,7 +1453,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_c4dea52734874179b91657dfcadc88ff', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase37");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase37');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1488,7 +1488,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_c64edd5197f34871948a2e906c3c0dc8', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase38");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase38');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1528,7 +1528,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_c6ef566c80ff4adab2548e723f44b8be', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase39");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase39');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1568,7 +1568,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_cf66f56aac5b470b9a487312c914b36b', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase40");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase40');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1603,7 +1603,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_d0cf236fa8224bb4b73ffea51564af48', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase41");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase41');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1643,7 +1643,7 @@ export default function textPickerAllTestCases() {
      */
     it('TestCase_this case', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/text_picker/textPicker/textPickerTestCase42");
+      Settings.createWindow('testability/pages/component/text_picker/textPicker/textPickerTestCase42');
       await driver.waitForIdle(500, 2000);
 
       try {

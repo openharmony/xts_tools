@@ -52,7 +52,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0070 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA.click();
@@ -76,7 +76,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0010 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA.click();
@@ -96,7 +96,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0270 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
 
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
@@ -134,7 +134,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0190 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2'), 1000);
       await buttonA.click();
@@ -155,7 +155,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0560 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA.click();
@@ -185,7 +185,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0200 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA.click();
@@ -212,7 +212,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0290 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button3'), 1000);
       await buttonA.click();
@@ -233,7 +233,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0570 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4'), 1000);
       await buttonA.click();
@@ -257,7 +257,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0170 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button5'), 1000);
       await buttonA.click();
@@ -278,7 +278,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0740 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button6'), 1000);
       await buttonA.click();
@@ -302,7 +302,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0250 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button7'), 1000);
       await buttonA.click();
@@ -325,7 +325,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0340 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button9'), 1000);
       await buttonA.click();
@@ -345,7 +345,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0650 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button8'), 1000);
       await buttonA.click();
@@ -366,7 +366,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0550 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA.click();
@@ -390,7 +390,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0080 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button9'), 1000);
       await buttonA.click();
@@ -410,7 +410,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0230 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA.click();
@@ -433,7 +433,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0770 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button10'), 1000);
       await buttonA.click();
@@ -453,7 +453,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0380 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA2")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA2')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_1'), 1000);
       await buttonA.click();
@@ -472,7 +472,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0470 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
@@ -495,7 +495,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0660 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
@@ -519,7 +519,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0090 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA3")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA3')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button3_2'), 1000);
       await buttonA.click();
@@ -541,7 +541,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0040 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA3")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA3')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button3_2'), 1000);
       await buttonA.click();
@@ -563,7 +563,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0060 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA.click();
@@ -587,7 +587,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0520 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA3")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA3')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button3_3'), 1000);
       await buttonA.click();
@@ -607,7 +607,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0210 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA.click();
@@ -629,7 +629,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0760 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button11'), 1000);
       await buttonA.click();
@@ -654,7 +654,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0680 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
@@ -679,7 +679,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0390 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA2")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA2')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_3'), 1000);
@@ -702,7 +702,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0590 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
@@ -724,7 +724,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0730 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
@@ -747,7 +747,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0670 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
@@ -770,7 +770,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0460 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA5")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA5')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button5_1'), 1000);
       await buttonA.click();
@@ -791,7 +791,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0430 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
@@ -810,7 +810,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0410 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA2")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA2')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_3'), 1000);
       await buttonA.click();
@@ -831,7 +831,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0420 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA2")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA2')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_3'), 1000);
       await buttonA.click();
@@ -854,7 +854,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0400 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA2")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA2')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_3'), 1000);
       await buttonA.click();
@@ -873,7 +873,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0490 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_2'), 1000);
       await buttonA.click();
@@ -894,7 +894,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0440 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA3")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA3')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button3_2'), 1000);
       await buttonA.click();
@@ -913,7 +913,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0580 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
@@ -941,7 +941,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0630 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
@@ -964,7 +964,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0640 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
@@ -985,7 +985,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0280 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA2")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA2')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_2'), 1000);
       await buttonA.click();
@@ -1004,7 +1004,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0610 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_3'), 1000);
       await buttonA.click();
@@ -1023,7 +1023,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0620 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
@@ -1046,7 +1046,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0500 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_4'), 1000);
       await buttonA.click();
@@ -1065,7 +1065,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0510 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA3")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA3')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button3_2'), 1000);
       await buttonA.click();
@@ -1086,7 +1086,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0260 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA.click();
@@ -1111,7 +1111,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0370 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA2")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA2')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_3'), 1000);
       await buttonA.click();
@@ -1134,7 +1134,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0220 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA.click();
@@ -1157,7 +1157,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0350 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA6")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA6')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button6_1'), 1000);
       await buttonA.click();
@@ -1177,7 +1177,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0300 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA6")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA6')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button6_2'), 1000);
       await buttonA.click();
@@ -1199,7 +1199,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0310 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA6")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA6')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button6_2'), 1000);
       await buttonA.click();
@@ -1221,7 +1221,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0690 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA.click();
@@ -1249,7 +1249,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0360 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA2")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA2')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_2'), 1000);
       await buttonA.click();
@@ -1272,7 +1272,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0030 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button12'), 1000);
       await buttonA.click();
@@ -1295,7 +1295,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0050 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA.click();
@@ -1318,7 +1318,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0150 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button4'), 1000);
       await buttonA.click();
@@ -1341,7 +1341,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0330 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA2")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA2')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_3'), 1000);
       await buttonA.click();
@@ -1367,7 +1367,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0100 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button13'), 1000);
       await buttonA.click();
@@ -1388,7 +1388,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0480 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA4")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA4')
       let driver: Driver = Driver.create();
       let buttonA1: Component = await driver.waitForComponent(ON.id('PageA_Button4_1'), 1000);
       await buttonA1.click();
@@ -1415,7 +1415,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pages1_32/page01")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pages1_32/page01')
       let driver: Driver = Driver.create();
       let buttonInit: Component = await driver.waitForComponent(ON.id('Push_Pages'), 1000);
       await buttonInit.click();
@@ -1446,7 +1446,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0240 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA.click();
@@ -1471,7 +1471,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA2")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA2')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button2_3'), 1000);
       await buttonA.click();
@@ -1493,7 +1493,7 @@ export default function routerPushTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130 start.`);
-      Settings.createWindow("testability/pages/scenario/ability_router/router_push/pageA")
+      Settings.createWindow('testability/pages/scenario/ability_router/router_push/pageA')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('PageA_Button1'), 1000);
       await buttonA.click();

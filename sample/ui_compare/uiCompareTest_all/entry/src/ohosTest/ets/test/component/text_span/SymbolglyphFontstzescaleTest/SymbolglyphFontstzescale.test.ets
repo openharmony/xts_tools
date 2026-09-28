@@ -50,7 +50,7 @@ export default function symbolglyphFontstzescale() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0030 start.`);
-      Settings.createWindow("testability/pages/component/text_span/symbolglyphFontstzescale/symbolglyphFontstzescale")
+      Settings.createWindow('testability/pages/component/text_span/symbolglyphFontstzescale/symbolglyphFontstzescale')
       await uiAppearance.setFontScale(1.1);
       windowSnap.snapShot();
       await Utils.sleep(1000);

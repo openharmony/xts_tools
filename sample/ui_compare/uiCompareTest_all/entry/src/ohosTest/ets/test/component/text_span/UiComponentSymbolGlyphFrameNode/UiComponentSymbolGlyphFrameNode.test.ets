@@ -64,7 +64,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0080 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode01")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -83,7 +83,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0010 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode02")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode02')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -102,7 +102,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0070 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode03")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode03')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -121,7 +121,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0020 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode04")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode04')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -140,7 +140,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0030 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode05")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode05')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -159,7 +159,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0130 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode06")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode06')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -178,7 +178,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0140 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode07")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode07')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -197,7 +197,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0150 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode08")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode08')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -216,7 +216,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0090 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode09")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode09')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -235,7 +235,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0100 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode10")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode10')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -254,7 +254,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0160 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode11")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode11')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -273,7 +273,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0170 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode12")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode12')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -292,7 +292,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0180 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode13")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode13')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -311,7 +311,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0190 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode14")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode14')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -330,7 +330,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0200 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode15")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode15')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -349,7 +349,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0210 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode16")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode16')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -368,7 +368,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0230 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode17")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode17')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -387,7 +387,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0120 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode18")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode18')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -406,7 +406,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0050 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode19")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode19')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -425,7 +425,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0060 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode20")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode20')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -444,7 +444,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0220 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode21")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode21')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -463,7 +463,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0240 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode22")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode22')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -482,7 +482,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0250 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode23")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode23')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -501,7 +501,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0270 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode24")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode24')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -520,7 +520,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0300 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode25")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode25')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -539,7 +539,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0310 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode26")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode26')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -558,7 +558,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0320 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode27")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode27')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -577,7 +577,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0280', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0280 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode28")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode28')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -596,7 +596,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0290 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode29")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode29')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -615,7 +615,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0260 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode30")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode30')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -634,7 +634,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0370 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode31")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode31')
       let driver:Driver=Driver.create();
       let SymbolGlyph: Component = await driver.waitForComponent(ON.id('UiComponentSymbolGlyphFrameNode31'),1000);
       windowSnap.snapShot()
@@ -656,7 +656,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0390 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode32")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode32')
       let driver:Driver=Driver.create();
       let SymbolGlyph: Component = await driver.waitForComponent(ON.id('UiComponentSymbolGlyphFrameNode32'),1000);
       let point=await SymbolGlyph.getBoundsCenter();
@@ -677,7 +677,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0360', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0360 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode33")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode33')
       let driver:Driver=Driver.create();
       let SymbolGlyph: Component = await driver.waitForComponent(ON.id('UiComponentSymbolGlyphFrameNode33'),1000);
       let point=await SymbolGlyph.getBoundsCenter();
@@ -698,7 +698,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0380 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode34")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode34')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentSymbolGlyphFrameNode34_02'),1000);
       await button.click();
@@ -724,7 +724,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0040 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode35")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode35')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -743,7 +743,7 @@ export default function uiComponentSymbolGlyphFrameNode() {
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0330 start.`);
-      Settings.createWindow("testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode36")
+      Settings.createWindow('testability/pages/component/text_span/uiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode36')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
