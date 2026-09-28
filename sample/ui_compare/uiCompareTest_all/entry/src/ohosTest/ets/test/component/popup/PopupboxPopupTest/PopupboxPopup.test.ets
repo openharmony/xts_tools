@@ -50,22 +50,22 @@ export default function popupboxPopup() {
      */
     it('SUB_ACE_ANALYSE_UI_COMPONENT_POPUPBOX_POPUP_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ANALYSE_UI_COMPONENT_POPUPBOX_POPUP_0010 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupboxPopup/PopupboxPopup0010")
+      Settings.createWindow('testability/pages/component/popup/popupboxPopup/PopupboxPopup0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
-      let popupbutton = await driver.waitForComponent(ON.id("PopupboxPopup0010_001"), 2000)
+      let popupbutton = await driver.waitForComponent(ON.id('PopupboxPopup0010_001'), 2000)
       await popupbutton.click()
       await Utils.sleep(500)
       await popupbutton.click()
       await Utils.sleep(500)
-      let darkbutton = await driver.waitForComponent(ON.id("PopupboxPopup0010_002"), 2000)
+      let darkbutton = await driver.waitForComponent(ON.id('PopupboxPopup0010_002'), 2000)
       await darkbutton.click()
       await Utils.sleep(500)
       await popupbutton.click()
       await Utils.sleep(500)
       await popupbutton.click()
       await Utils.sleep(500)
-      let lightbutton = await driver.waitForComponent(ON.id("PopupboxPopup0010_003"), 2000)
+      let lightbutton = await driver.waitForComponent(ON.id('PopupboxPopup0010_003'), 2000)
       await lightbutton.click()
       await Utils.sleep(500)
       windowSnap.snapShot()

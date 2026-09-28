@@ -51,7 +51,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0170 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0170")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0170')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -60,14 +60,14 @@ export default function popupboxSmartmultiwindow() {
 
       // 步骤3：点击按钮调起对应的Dialog组件（验证手动打开）
       // 先关闭自动打开的Dialog
-      let closeBtn = await driver.waitForComponent(ON.id("customdialog_smartmultiwindow_0170_close"), 500)
+      let closeBtn = await driver.waitForComponent(ON.id('customdialog_smartmultiwindow_0170_close'), 500)
       if (closeBtn) {
         await closeBtn.click()
         await driver.waitForIdle(1000, 2000)
       }
 
       // 手动点击按钮打开Dialog
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_0170_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_0170_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 
@@ -95,7 +95,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0190 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0190")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0190')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -104,14 +104,14 @@ export default function popupboxSmartmultiwindow() {
 
       // 步骤3：点击按钮调起对应的Dialog组件（验证手动打开）
       // 先关闭自动打开的Dialog
-      let confirmBtn = await driver.waitForComponent(ON.text("确定"), 500)
+      let confirmBtn = await driver.waitForComponent(ON.text('确定'), 500)
       if (confirmBtn) {
         await confirmBtn.click()
         await driver.waitForIdle(1000, 2000)
       }
 
       // 手动点击按钮打开Dialog
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_0190_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_0190_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 
@@ -138,7 +138,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0290 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0290")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0290')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -146,7 +146,7 @@ export default function popupboxSmartmultiwindow() {
       await driver.waitForIdle(1000, 2000)
 
       // 步骤3：点击按钮弹出菜单（长按图片触发上下文菜单）
-      let imageComponent = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_0290_image"), 500)
+      let imageComponent = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_0290_image'), 500)
       await imageComponent.longClick()
       await driver.waitForIdle(1000, 2000)
 
@@ -175,7 +175,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0300 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0300")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0300')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -183,7 +183,7 @@ export default function popupboxSmartmultiwindow() {
       await driver.waitForIdle(1000, 2000)
 
       // 步骤3：点击按钮拉起对应的Toast组件（验证手动打开）
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_0300_open"), 3000)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_0300_open'), 3000)
       if (openBtn) {
         await openBtn.click()
         await driver.waitForIdle(1000, 2000)
@@ -213,7 +213,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0560 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0560")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0560')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -222,14 +222,14 @@ export default function popupboxSmartmultiwindow() {
 
       // 步骤3：点击按钮调起对应的Dialog组件（验证手动打开）
       // 先关闭自动打开的Dialog
-      let closeBtn = await driver.waitForComponent(ON.id("customdialog_smartmultiwindow_0560_close"), 500)
+      let closeBtn = await driver.waitForComponent(ON.id('customdialog_smartmultiwindow_0560_close'), 500)
       if (closeBtn) {
         await closeBtn.click()
         await driver.waitForIdle(1000, 2000)
       }
 
       // 手动点击按钮打开Dialog
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_0560_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_0560_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 
@@ -257,7 +257,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0570 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0570")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0570')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -266,14 +266,14 @@ export default function popupboxSmartmultiwindow() {
 
       // 步骤3：点击按钮调起对应的Dialog组件（验证手动打开）
       // 先关闭自动打开的Dialog
-      let closeBtn = await driver.waitForComponent(ON.id("opencustomdialog_smartmultiwindow_0570_close"), 3000)
+      let closeBtn = await driver.waitForComponent(ON.id('opencustomdialog_smartmultiwindow_0570_close'), 3000)
       if (closeBtn) {
         await closeBtn.click()
         await driver.waitForIdle(1000, 2000)
       }
 
       // 手动点击按钮打开Dialog
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_0570_open"), 3000)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_0570_open'), 3000)
       if (openBtn) {
         await openBtn.click()
         await driver.waitForIdle(1000, 2000)
@@ -303,7 +303,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0660 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0660")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0660')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -312,14 +312,14 @@ export default function popupboxSmartmultiwindow() {
 
       // 步骤3：点击按钮调起对应的Dialog组件（验证手动打开）
       // 先关闭自动打开的ActionMenu
-      let cancelBtn = await driver.waitForComponent(ON.text("取消"), 500)
+      let cancelBtn = await driver.waitForComponent(ON.text('取消'), 500)
       if (cancelBtn) {
         await cancelBtn.click()
         await driver.waitForIdle(1000, 2000)
       }
 
       // 手动点击按钮打开ActionMenu
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_0660_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_0660_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 
@@ -346,7 +346,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0830 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0830")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0830')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -354,7 +354,7 @@ export default function popupboxSmartmultiwindow() {
       await driver.waitForIdle(1000, 2000)
 
       // 步骤3：点击按钮拉起对应的Toast组件（验证手动打开）
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_0830_open"), 3000)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_0830_open'), 3000)
       if (openBtn) {
         await openBtn.click()
         await driver.waitForIdle(1000, 2000)
@@ -384,7 +384,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0970', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0970 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0970")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow0970')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -393,14 +393,14 @@ export default function popupboxSmartmultiwindow() {
 
       // 步骤3：点击按钮调起对应的Dialog组件（验证手动打开）
       // 先关闭自动打开的ActionMenu
-      let cancelBtn = await driver.waitForComponent(ON.text("取消"), 500)
+      let cancelBtn = await driver.waitForComponent(ON.text('取消'), 500)
       if (cancelBtn) {
         await cancelBtn.click()
         await driver.waitForIdle(1000, 2000)
       }
 
       // 手动点击按钮打开ActionMenu
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_0970_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_0970_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 
@@ -426,7 +426,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1010 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1010")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -434,7 +434,7 @@ export default function popupboxSmartmultiwindow() {
       await driver.waitForIdle(1000, 2000)
 
       // 步骤3：点击按钮拉起对应的Toast组件（验证手动打开）
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1010_open"), 3000)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1010_open'), 3000)
       if (openBtn) {
         await openBtn.click()
         await driver.waitForIdle(1000, 2000)
@@ -464,7 +464,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1080 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1080")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -477,7 +477,7 @@ export default function popupboxSmartmultiwindow() {
       await driver.waitForIdle(1000, 2000)
 
       // 手动点击按钮打开Dialog
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1080_open"), 3000)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1080_open'), 3000)
       if (openBtn) {
         await openBtn.click()
         await driver.waitForIdle(1000, 2000)
@@ -505,7 +505,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1250 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1250")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1250')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -514,14 +514,14 @@ export default function popupboxSmartmultiwindow() {
 
       // 步骤3：点击按钮调起对应的Dialog组件（验证手动打开）
       // 先关闭自动打开的ActionSheet
-      let cancelBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1250_cancel"), 500)
+      let cancelBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1250_cancel'), 500)
       if (cancelBtn) {
         await cancelBtn.click()
         await driver.waitForIdle(1000, 2000)
       }
 
       // 手动点击按钮打开ActionSheet
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1250_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1250_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 
@@ -549,7 +549,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1260 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1260")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1260')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -557,7 +557,7 @@ export default function popupboxSmartmultiwindow() {
       await driver.waitForIdle(1000, 2000)
 
       // 步骤3：点击按钮拉起对应的Toast组件（验证手动打开）
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1260_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1260_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 
@@ -585,7 +585,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1280 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1280")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1280')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -594,14 +594,14 @@ export default function popupboxSmartmultiwindow() {
 
       // 步骤3：点击按钮调起对应的Dialog组件（验证手动打开）
       // 先关闭自动打开的ActionSheet
-      let cancelBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1280_cancel"), 500)
+      let cancelBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1280_cancel'), 500)
       if (cancelBtn) {
         await cancelBtn.click()
         await driver.waitForIdle(1000, 2000)
       }
 
       // 手动点击按钮打开ActionSheet
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1280_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1280_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 
@@ -629,7 +629,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1290 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1290")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1290')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -642,7 +642,7 @@ export default function popupboxSmartmultiwindow() {
       await driver.waitForIdle(1000, 2000)
 
       // 手动点击按钮打开Dialog
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1290_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1290_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 
@@ -668,7 +668,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1390 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1390")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1390')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -676,7 +676,7 @@ export default function popupboxSmartmultiwindow() {
       await driver.waitForIdle(1000, 2000)
 
       // 步骤3：点击按钮拉起对应的Toast组件（验证手动打开）
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1390_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1390_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 
@@ -704,7 +704,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1450 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1450")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1450')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -712,7 +712,7 @@ export default function popupboxSmartmultiwindow() {
       await driver.waitForIdle(1000, 2000)
 
       // 步骤3：长按按钮弹出菜单
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1450_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1450_open'), 500)
       await openBtn.longClick()
       await driver.waitForIdle(1000, 2000)
 
@@ -741,7 +741,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1500 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1500")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1500')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -749,7 +749,7 @@ export default function popupboxSmartmultiwindow() {
       await driver.waitForIdle(1000, 2000)
 
       // 步骤3：点击按钮拉起对应的Toast组件（验证手动打开）
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1500_open"), 3000)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1500_open'), 3000)
       if (openBtn) {
         await openBtn.click()
         await driver.waitForIdle(1000, 2000)
@@ -779,7 +779,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1550 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1550")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1550')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -788,14 +788,14 @@ export default function popupboxSmartmultiwindow() {
 
       // 步骤3：点击按钮调起对应的Dialog组件（验证手动打开）
       // 先关闭自动打开的Dialog
-      let cancelBtn = await driver.waitForComponent(ON.text("取消"), 500)
+      let cancelBtn = await driver.waitForComponent(ON.text('取消'), 500)
       if (cancelBtn) {
         await cancelBtn.click()
         await driver.waitForIdle(1000, 2000)
       }
 
       // 手动点击按钮打开Dialog
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1550_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1550_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 
@@ -821,7 +821,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1810 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1810")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1810')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -830,14 +830,14 @@ export default function popupboxSmartmultiwindow() {
 
       // 步骤3：点击按钮调起对应的Dialog组件（验证手动打开）
       // 先关闭自动打开的Dialog
-      let cancelBtn = await driver.waitForComponent(ON.text("取消"), 500)
+      let cancelBtn = await driver.waitForComponent(ON.text('取消'), 500)
       if (cancelBtn) {
         await cancelBtn.click()
         await driver.waitForIdle(1000, 2000)
       }
 
       // 手动点击按钮打开Dialog
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1810_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1810_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 
@@ -864,7 +864,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1870 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1870")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1870')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -872,7 +872,7 @@ export default function popupboxSmartmultiwindow() {
       await driver.waitForIdle(1000, 2000)
 
       // 步骤3：点击按钮弹出菜单
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1870_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1870_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 
@@ -902,7 +902,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1920', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1920 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1920")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1920')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -911,14 +911,14 @@ export default function popupboxSmartmultiwindow() {
 
       // 步骤3：点击按钮调起对应的Dialog组件（验证手动打开）
       // 先关闭自动打开的Dialog
-      let closeBtn = await driver.waitForComponent(ON.id("customdialog_smartmultiwindow_1920_close"), 500)
+      let closeBtn = await driver.waitForComponent(ON.id('customdialog_smartmultiwindow_1920_close'), 500)
       if (closeBtn) {
         await closeBtn.click()
         await driver.waitForIdle(1000, 2000)
       }
 
       // 手动点击按钮打开Dialog
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1920_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1920_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 
@@ -946,7 +946,7 @@ export default function popupboxSmartmultiwindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1960', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1960 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1960")
+      Settings.createWindow('testability/pages/component/popup/popupboxSmartmultiwindow/PopupboxSmartmultiwindow1960')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -959,7 +959,7 @@ export default function popupboxSmartmultiwindow() {
       await driver.waitForIdle(1000, 2000)
 
       // 手动点击按钮打开Dialog
-      let openBtn = await driver.waitForComponent(ON.id("popupbox_smartmultiwindow_1960_open"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('popupbox_smartmultiwindow_1960_open'), 500)
       await openBtn.click()
       await driver.waitForIdle(1000, 2000)
 

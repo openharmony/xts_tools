@@ -50,19 +50,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0760 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0760")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0760')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_custom_dialog = await driver.waitForComponent(ON.id("button_custom_dialog"), 2000)
+      let button_custom_dialog = await driver.waitForComponent(ON.id('button_custom_dialog'), 2000)
       if (button_custom_dialog) {
         await button_custom_dialog.click()
         await Utils.sleep(500)
@@ -90,19 +90,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0790', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0790 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0790")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0790')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_custom_dialog = await driver.waitForComponent(ON.id("button_custom_dialog"), 2000)
+      let button_custom_dialog = await driver.waitForComponent(ON.id('button_custom_dialog'), 2000)
       if (button_custom_dialog) {
         await button_custom_dialog.click()
         await Utils.sleep(500)
@@ -130,19 +130,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0830 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0830")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0830')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode设置为异常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_custom_dialog = await driver.waitForComponent(ON.id("button_custom_dialog"), 2000)
+      let button_custom_dialog = await driver.waitForComponent(ON.id('button_custom_dialog'), 2000)
       if (button_custom_dialog) {
         await button_custom_dialog.click()
         await Utils.sleep(500)
@@ -170,19 +170,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0850', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0850 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0850")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0850')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:异常值 (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_custom_dialog = await driver.waitForComponent(ON.id("button_custom_dialog"), 2000)
+      let button_custom_dialog = await driver.waitForComponent(ON.id('button_custom_dialog'), 2000)
       if (button_custom_dialog) {
         await button_custom_dialog.click()
         await Utils.sleep(500)
@@ -210,19 +210,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0880', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0880 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0880")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0880')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:异常值 (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_custom_dialog = await driver.waitForComponent(ON.id("button_custom_dialog"), 2000)
+      let button_custom_dialog = await driver.waitForComponent(ON.id('button_custom_dialog'), 2000)
       if (button_custom_dialog) {
         await button_custom_dialog.click()
         await Utils.sleep(500)
@@ -250,19 +250,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0920', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0920 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0920")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0920')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:异常值 (已内置)
       // 步骤3：设置ImmersiveMode设置为异常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_custom_dialog = await driver.waitForComponent(ON.id("button_custom_dialog"), 2000)
+      let button_custom_dialog = await driver.waitForComponent(ON.id('button_custom_dialog'), 2000)
       if (button_custom_dialog) {
         await button_custom_dialog.click()
         await Utils.sleep(500)
@@ -290,19 +290,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0940', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0940 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0940")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0940')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT，设置levelUniqueId为异常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id("button_prompt_opencustomdialog"), 2000)
+      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id('button_prompt_opencustomdialog'), 2000)
       if (button_prompt_opencustomdialog) {
         await button_prompt_opencustomdialog.click()
         await Utils.sleep(500)
@@ -330,19 +330,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0950', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0950 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0950")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay0950')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT，设置levelUniqueId为异常值 (已内置)
       // 步骤4：点击向下偏移
-      let button_offset_down = await driver.waitForComponent(ON.id("button_offset_down"), 2000)
+      let button_offset_down = await driver.waitForComponent(ON.id('button_offset_down'), 2000)
       if (button_offset_down) {
         await button_offset_down.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id("button_prompt_opencustomdialog"), 2000)
+      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id('button_prompt_opencustomdialog'), 2000)
       if (button_prompt_opencustomdialog) {
         await button_prompt_opencustomdialog.click()
         await Utils.sleep(500)
@@ -350,7 +350,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证prompt_openCustomDialog显示效果（带偏移）
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_return_home = await driver.waitForComponent(ON.id("button_return_home"), 2000)
+      let button_return_home = await driver.waitForComponent(ON.id('button_return_home'), 2000)
       if (button_return_home) {
         await button_return_home.click()
         await Utils.sleep(500)
@@ -375,19 +375,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1010 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1010")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1010')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND，设置levelUniqueId为异常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id("button_prompt_opencustomdialog"), 2000)
+      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id('button_prompt_opencustomdialog'), 2000)
       if (button_prompt_opencustomdialog) {
         await button_prompt_opencustomdialog.click()
         await Utils.sleep(500)
@@ -415,19 +415,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1020 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1020")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1020')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND，设置levelUniqueId为异常值 (已内置)
       // 步骤4：点击向下偏移
-      let button_offset_down = await driver.waitForComponent(ON.id("button_offset_down"), 2000)
+      let button_offset_down = await driver.waitForComponent(ON.id('button_offset_down'), 2000)
       if (button_offset_down) {
         await button_offset_down.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id("button_prompt_opencustomdialog"), 2000)
+      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id('button_prompt_opencustomdialog'), 2000)
       if (button_prompt_opencustomdialog) {
         await button_prompt_opencustomdialog.click()
         await Utils.sleep(500)
@@ -435,7 +435,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证prompt_openCustomDialog显示效果（带偏移）
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_return_home = await driver.waitForComponent(ON.id("button_return_home"), 2000)
+      let button_return_home = await driver.waitForComponent(ON.id('button_return_home'), 2000)
       if (button_return_home) {
         await button_return_home.click()
         await Utils.sleep(500)
@@ -460,19 +460,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1040 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1040")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1040')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND，设置levelUniqueId为正常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id("button_prompt_opencustomdialog"), 2000)
+      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id('button_prompt_opencustomdialog'), 2000)
       if (button_prompt_opencustomdialog) {
         await button_prompt_opencustomdialog.click()
         await Utils.sleep(500)
@@ -500,19 +500,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1090 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1090")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1090')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode设置为异常值，设置levelUniqueId为异常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id("button_prompt_opencustomdialog"), 2000)
+      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id('button_prompt_opencustomdialog'), 2000)
       if (button_prompt_opencustomdialog) {
         await button_prompt_opencustomdialog.click()
         await Utils.sleep(500)
@@ -540,19 +540,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1100 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1100")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1100')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode设置为异常值，设置levelUniqueId为异常值 (已内置)
       // 步骤4：点击向下偏移
-      let button_offset_down = await driver.waitForComponent(ON.id("button_offset_down"), 2000)
+      let button_offset_down = await driver.waitForComponent(ON.id('button_offset_down'), 2000)
       if (button_offset_down) {
         await button_offset_down.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id("button_prompt_opencustomdialog"), 2000)
+      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id('button_prompt_opencustomdialog'), 2000)
       if (button_prompt_opencustomdialog) {
         await button_prompt_opencustomdialog.click()
         await Utils.sleep(500)
@@ -560,7 +560,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证prompt_openCustomDialog显示效果（带偏移）
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_return_home = await driver.waitForComponent(ON.id("button_return_home"), 2000)
+      let button_return_home = await driver.waitForComponent(ON.id('button_return_home'), 2000)
       if (button_return_home) {
         await button_return_home.click()
         await Utils.sleep(500)
@@ -585,19 +585,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1130 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1130")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1130')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id("button_prompt_opencustomdialog"), 2000)
+      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id('button_prompt_opencustomdialog'), 2000)
       if (button_prompt_opencustomdialog) {
         await button_prompt_opencustomdialog.click()
         await Utils.sleep(500)
@@ -625,19 +625,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1140 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1140")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1140')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT (已内置)
       // 步骤4：点击向下偏移
-      let button_offset = await driver.waitForComponent(ON.text("4. 点击向下偏移"), 2000)
+      let button_offset = await driver.waitForComponent(ON.text('4. 点击向下偏移'), 2000)
       if (button_offset) {
         await button_offset.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.text("5. 点击prompt_openCustomDialog"), 2000)
+      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.text('5. 点击prompt_openCustomDialog'), 2000)
       if (button_prompt_opencustomdialog) {
         await button_prompt_opencustomdialog.click()
         await Utils.sleep(500)
@@ -645,7 +645,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证prompt_openCustomDialog显示效果
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_home = await driver.waitForComponent(ON.text("返回首页"), 2000)
+      let button_home = await driver.waitForComponent(ON.text('返回首页'), 2000)
       if (button_home) {
         await button_home.click()
         await Utils.sleep(500)
@@ -668,19 +668,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1160 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1160")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1160')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.text("4. 点击100%mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.text('4. 点击100%mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.text("5. 点击prompt_openCustomDialog"), 2000)
+      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.text('5. 点击prompt_openCustomDialog'), 2000)
       if (button_prompt_opencustomdialog) {
         await button_prompt_opencustomdialog.click()
         await Utils.sleep(500)
@@ -708,19 +708,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1170 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1170")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1170')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND (已内置)
       // 步骤4：点击向下偏移
-      let button_offset = await driver.waitForComponent(ON.text("4. 点击向下偏移"), 2000)
+      let button_offset = await driver.waitForComponent(ON.text('4. 点击向下偏移'), 2000)
       if (button_offset) {
         await button_offset.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.text("5. 点击prompt_openCustomDialog"), 2000)
+      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.text('5. 点击prompt_openCustomDialog'), 2000)
       if (button_prompt_opencustomdialog) {
         await button_prompt_opencustomdialog.click()
         await Utils.sleep(500)
@@ -728,7 +728,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证prompt_openCustomDialog显示效果
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_home = await driver.waitForComponent(ON.text("返回首页"), 2000)
+      let button_home = await driver.waitForComponent(ON.text('返回首页'), 2000)
       if (button_home) {
         await button_home.click()
         await Utils.sleep(500)
@@ -751,19 +751,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1200 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1200")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1200')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode设置为异常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.text("4. 点击100%mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.text('4. 点击100%mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.text("5. 点击prompt_openCustomDialog"), 2000)
+      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.text('5. 点击prompt_openCustomDialog'), 2000)
       if (button_prompt_opencustomdialog) {
         await button_prompt_opencustomdialog.click()
         await Utils.sleep(500)
@@ -791,19 +791,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1210 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1210")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1210')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode设置为异常值 (已内置)
       // 步骤4：点击向下偏移
-      let button_offset = await driver.waitForComponent(ON.text("4. 点击向下偏移"), 2000)
+      let button_offset = await driver.waitForComponent(ON.text('4. 点击向下偏移'), 2000)
       if (button_offset) {
         await button_offset.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.text("5. 点击prompt_openCustomDialog"), 2000)
+      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.text('5. 点击prompt_openCustomDialog'), 2000)
       if (button_prompt_opencustomdialog) {
         await button_prompt_opencustomdialog.click()
         await Utils.sleep(500)
@@ -811,7 +811,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证prompt_openCustomDialog显示效果
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_home = await driver.waitForComponent(ON.text("返回首页"), 2000)
+      let button_home = await driver.waitForComponent(ON.text('返回首页'), 2000)
       if (button_home) {
         await button_home.click()
         await Utils.sleep(500)
@@ -834,19 +834,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1220 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1220")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1220')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:异常值 (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id("button_prompt_opencustomdialog"), 2000)
+      let button_prompt_opencustomdialog = await driver.waitForComponent(ON.id('button_prompt_opencustomdialog'), 2000)
       if (button_prompt_opencustomdialog) {
         await button_prompt_opencustomdialog.click()
         await Utils.sleep(500)
@@ -874,19 +874,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1230 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1230")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1230')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:异常值 (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT (已内置)
       // 步骤4：点击向下偏移
-      let button_offset_down = await driver.waitForComponent(ON.id("button_offset_down"), 2000)
+      let button_offset_down = await driver.waitForComponent(ON.id('button_offset_down'), 2000)
       if (button_offset_down) {
         await button_offset_down.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_custom_dialog = await driver.waitForComponent(ON.id("button_custom_dialog"), 2000)
+      let button_custom_dialog = await driver.waitForComponent(ON.id('button_custom_dialog'), 2000)
       if (button_custom_dialog) {
         await button_custom_dialog.click()
         await Utils.sleep(500)
@@ -894,7 +894,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证CustomDialog显示效果（带偏移）
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_return_home = await driver.waitForComponent(ON.id("button_return_home"), 2000)
+      let button_return_home = await driver.waitForComponent(ON.id('button_return_home'), 2000)
       if (button_return_home) {
         await button_return_home.click()
         await Utils.sleep(500)
@@ -919,19 +919,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1250 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1250")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1250')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:异常值 (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_custom_dialog = await driver.waitForComponent(ON.id("button_custom_dialog"), 2000)
+      let button_custom_dialog = await driver.waitForComponent(ON.id('button_custom_dialog'), 2000)
       if (button_custom_dialog) {
         await button_custom_dialog.click()
         await Utils.sleep(500)
@@ -959,19 +959,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1260 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1260")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1260')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:异常值 (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND (已内置)
       // 步骤4：点击向下偏移
-      let button_offset_down = await driver.waitForComponent(ON.id("button_offset_down"), 2000)
+      let button_offset_down = await driver.waitForComponent(ON.id('button_offset_down'), 2000)
       if (button_offset_down) {
         await button_offset_down.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_custom_dialog = await driver.waitForComponent(ON.id("button_custom_dialog"), 2000)
+      let button_custom_dialog = await driver.waitForComponent(ON.id('button_custom_dialog'), 2000)
       if (button_custom_dialog) {
         await button_custom_dialog.click()
         await Utils.sleep(500)
@@ -979,7 +979,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证CustomDialog显示效果（带偏移）
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_return_home = await driver.waitForComponent(ON.id("button_return_home"), 2000)
+      let button_return_home = await driver.waitForComponent(ON.id('button_return_home'), 2000)
       if (button_return_home) {
         await button_return_home.click()
         await Utils.sleep(500)
@@ -1004,19 +1004,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1290 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1290")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1290')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:异常值 (已内置)
       // 步骤3：设置ImmersiveMode设置为异常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_custom_dialog = await driver.waitForComponent(ON.id("button_custom_dialog"), 2000)
+      let button_custom_dialog = await driver.waitForComponent(ON.id('button_custom_dialog'), 2000)
       if (button_custom_dialog) {
         await button_custom_dialog.click()
         await Utils.sleep(500)
@@ -1044,19 +1044,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1300 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1300")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1300')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:异常值 (已内置)
       // 步骤3：设置ImmersiveMode设置为异常值 (已内置)
       // 步骤4：点击向下偏移
-      let button_offset_down = await driver.waitForComponent(ON.id("button_offset_down"), 2000)
+      let button_offset_down = await driver.waitForComponent(ON.id('button_offset_down'), 2000)
       if (button_offset_down) {
         await button_offset_down.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击prompt_openCustomDialog
-      let button_custom_dialog = await driver.waitForComponent(ON.id("button_custom_dialog"), 2000)
+      let button_custom_dialog = await driver.waitForComponent(ON.id('button_custom_dialog'), 2000)
       if (button_custom_dialog) {
         await button_custom_dialog.click()
         await Utils.sleep(500)
@@ -1064,7 +1064,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证CustomDialog显示效果（带偏移）
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_return_home = await driver.waitForComponent(ON.id("button_return_home"), 2000)
+      let button_return_home = await driver.waitForComponent(ON.id('button_return_home'), 2000)
       if (button_return_home) {
         await button_return_home.click()
         await Utils.sleep(500)
@@ -1089,19 +1089,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1310 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1310")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1310')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT，设置levelUniqueId为异常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1129,14 +1129,14 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1320 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1320")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1320')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT，设置levelUniqueId为异常值 (已内置)
       // 步骤4：设置isModal为false (已内置)
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1144,7 +1144,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证ShowActionSheet显示效果
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_return_home = await driver.waitForComponent(ON.id("button_return_home"), 2000)
+      let button_return_home = await driver.waitForComponent(ON.id('button_return_home'), 2000)
       if (button_return_home) {
         await button_return_home.click()
         await Utils.sleep(500)
@@ -1169,19 +1169,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1360 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1360")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1360')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND，设置levelUniqueId为异常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1209,14 +1209,14 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1370 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1370")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1370')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND，设置levelUniqueId为异常值 (已内置)
       // 步骤4：设置isModal为false (已内置)
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1224,7 +1224,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证ShowActionSheet显示效果
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_return_home = await driver.waitForComponent(ON.id("button_return_home"), 2000)
+      let button_return_home = await driver.waitForComponent(ON.id('button_return_home'), 2000)
       if (button_return_home) {
         await button_return_home.click()
         await Utils.sleep(500)
@@ -1249,19 +1249,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1380 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1380")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1380')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND，设置levelUniqueId为正常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1289,19 +1289,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1400 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1400")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1400')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode设置为异常值，设置levelUniqueId为异常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1329,14 +1329,14 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1410 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1410")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1410')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode设置为异常值，设置levelUniqueId为异常值 (已内置)
       // 步骤4：点击设置isModal为false (已内置)
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1344,7 +1344,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证ShowActionSheet显示效果
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_return_home = await driver.waitForComponent(ON.id("button_return_home"), 2000)
+      let button_return_home = await driver.waitForComponent(ON.id('button_return_home'), 2000)
       if (button_return_home) {
         await button_return_home.click()
         await Utils.sleep(500)
@@ -1369,19 +1369,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1440 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1440")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1440')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1409,14 +1409,14 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1450 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1450")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1450')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT (已内置)
       // 步骤4：设置isModal为false (已内置)
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1424,7 +1424,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证ShowActionSheet显示效果
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_return_home = await driver.waitForComponent(ON.id("button_return_home"), 2000)
+      let button_return_home = await driver.waitForComponent(ON.id('button_return_home'), 2000)
       if (button_return_home) {
         await button_return_home.click()
         await Utils.sleep(500)
@@ -1449,19 +1449,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1460 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1460")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1460')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1489,14 +1489,14 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1470 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1470")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1470')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND (已内置)
       // 步骤4：设置isModal为false (已内置)
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1504,7 +1504,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证ShowActionSheet显示效果
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_return_home = await driver.waitForComponent(ON.id("button_return_home"), 2000)
+      let button_return_home = await driver.waitForComponent(ON.id('button_return_home'), 2000)
       if (button_return_home) {
         await button_return_home.click()
         await Utils.sleep(500)
@@ -1529,19 +1529,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1480 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1480")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1480')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode设置为异常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1569,14 +1569,14 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1490 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1490")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1490')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:OVERLAY (已内置)
       // 步骤3：设置ImmersiveMode设置为异常值 (已内置)
       // 步骤4：设置isModal为false (已内置)
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1584,7 +1584,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证ShowActionSheet显示效果
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_return_home = await driver.waitForComponent(ON.id("button_return_home"), 2000)
+      let button_return_home = await driver.waitForComponent(ON.id('button_return_home'), 2000)
       if (button_return_home) {
         await button_return_home.click()
         await Utils.sleep(500)
@@ -1609,19 +1609,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1500 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1500")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1500')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:异常值 (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1649,19 +1649,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1520 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1520")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1520')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:异常值 (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1689,19 +1689,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1540 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1540")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1540')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:异常值 (已内置)
       // 步骤3：设置ImmersiveMode设置为异常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击ShowActionSheet
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 2000)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 2000)
       if (button_action_sheet) {
         await button_action_sheet.click()
         await Utils.sleep(500)
@@ -1729,19 +1729,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1560 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1560")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1560')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT，设置levelUniqueId为异常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击showDialog
-      let button_show_dialog = await driver.waitForComponent(ON.id("button_show_dialog"), 2000)
+      let button_show_dialog = await driver.waitForComponent(ON.id('button_show_dialog'), 2000)
       if (button_show_dialog) {
         await button_show_dialog.click()
         await Utils.sleep(500)
@@ -1769,19 +1769,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1570 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1570")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1570')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT，设置levelUniqueId为异常值 (已内置)
       // 步骤4：点击向下偏移
-      let button_offset_down = await driver.waitForComponent(ON.id("button_offset_down"), 2000)
+      let button_offset_down = await driver.waitForComponent(ON.id('button_offset_down'), 2000)
       if (button_offset_down) {
         await button_offset_down.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击showDialog
-      let button_show_dialog = await driver.waitForComponent(ON.id("button_show_dialog"), 2000)
+      let button_show_dialog = await driver.waitForComponent(ON.id('button_show_dialog'), 2000)
       if (button_show_dialog) {
         await button_show_dialog.click()
         await Utils.sleep(500)
@@ -1789,7 +1789,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证showDialog显示效果
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_return_home = await driver.waitForComponent(ON.id("button_return_home"), 2000)
+      let button_return_home = await driver.waitForComponent(ON.id('button_return_home'), 2000)
       if (button_return_home) {
         await button_return_home.click()
         await Utils.sleep(500)
@@ -1814,19 +1814,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1580 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1580")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1580')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.DEFAULT，设置levelUniqueId为正常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击showDialog
-      let button_show_dialog = await driver.waitForComponent(ON.id("button_show_dialog"), 2000)
+      let button_show_dialog = await driver.waitForComponent(ON.id('button_show_dialog'), 2000)
       if (button_show_dialog) {
         await button_show_dialog.click()
         await Utils.sleep(500)
@@ -1854,19 +1854,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1610 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1610")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1610')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND，设置levelUniqueId为异常值 (已内置)
       // 步骤4：点击100%mask
-      let button_100_mask = await driver.waitForComponent(ON.id("button_100_mask"), 2000)
+      let button_100_mask = await driver.waitForComponent(ON.id('button_100_mask'), 2000)
       if (button_100_mask) {
         await button_100_mask.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击showDialog
-      let button_show_dialog = await driver.waitForComponent(ON.id("button_show_dialog"), 2000)
+      let button_show_dialog = await driver.waitForComponent(ON.id('button_show_dialog'), 2000)
       if (button_show_dialog) {
         await button_show_dialog.click()
         await Utils.sleep(500)
@@ -1894,19 +1894,19 @@ export default function popupBoxSpecificationsPageDisplay02() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1620 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1620")
+      Settings.createWindow('testability/pages/component/popup/PopupBoxSpecificationsPageDisplay/PopupBoxSpecificationsPageDisplay1620')
       let driver: Driver = Driver.create();
       await Utils.sleep(1500)
       // 步骤2：设置LevelMode:EMBEDDED (已内置)
       // 步骤3：设置ImmersiveMode.EXTEND，设置levelUniqueId为异常值 (已内置)
       // 步骤4：点击向下偏移
-      let button_offset_down = await driver.waitForComponent(ON.id("button_offset_down"), 2000)
+      let button_offset_down = await driver.waitForComponent(ON.id('button_offset_down'), 2000)
       if (button_offset_down) {
         await button_offset_down.click()
         await Utils.sleep(500)
       }
       // 步骤5：点击showDialog
-      let button_show_dialog = await driver.waitForComponent(ON.id("button_show_dialog"), 2000)
+      let button_show_dialog = await driver.waitForComponent(ON.id('button_show_dialog'), 2000)
       if (button_show_dialog) {
         await button_show_dialog.click()
         await Utils.sleep(500)
@@ -1914,7 +1914,7 @@ export default function popupBoxSpecificationsPageDisplay02() {
       // 验证showDialog显示效果
       await Utils.sleep(2000)
       // 步骤6：点击最上方的返回首页
-      let button_return_home = await driver.waitForComponent(ON.id("button_return_home"), 2000)
+      let button_return_home = await driver.waitForComponent(ON.id('button_return_home'), 2000)
       if (button_return_home) {
         await button_return_home.click()
         await Utils.sleep(500)

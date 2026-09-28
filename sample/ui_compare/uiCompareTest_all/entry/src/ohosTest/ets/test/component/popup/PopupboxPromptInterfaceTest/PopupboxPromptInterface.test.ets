@@ -51,7 +51,7 @@ export default function popupboxPromptInterface() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_0030 start.`);
       // 步骤1：打开页面，选择UIContext
-      Settings.createWindow("testability/pages/component/popup/popupboxPromptInterface/PopupboxPromptInterface0030")
+      Settings.createWindow('testability/pages/component/popup/popupboxPromptInterface/PopupboxPromptInterface0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：buttons参数不传入
@@ -75,7 +75,7 @@ export default function popupboxPromptInterface() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_0060 start.`);
       // 步骤1：创建demo页
-      Settings.createWindow("testability/pages/component/popup/popupboxPromptInterface/PopupboxPromptInterface0060")
+      Settings.createWindow('testability/pages/component/popup/popupboxPromptInterface/PopupboxPromptInterface0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：运行程序
@@ -99,7 +99,7 @@ export default function popupboxPromptInterface() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_0090 start.`);
       // 步骤1：创建demo页
-      Settings.createWindow("testability/pages/component/popup/popupboxPromptInterface/PopupboxPromptInterface0090")
+      Settings.createWindow('testability/pages/component/popup/popupboxPromptInterface/PopupboxPromptInterface0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：运行程序
@@ -123,11 +123,11 @@ export default function popupboxPromptInterface() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_1500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_1500 start.`);
       // 步骤1：参照gitee上toast接口参数，示例1的代码
-      Settings.createWindow("testability/pages/component/popup/popupboxPromptInterface/PopupboxPromptInterface1500")
+      Settings.createWindow('testability/pages/component/popup/popupboxPromptInterface/PopupboxPromptInterface1500')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：浅色模式下查看toast显示
-      let showToastButton = await driver.waitForComponent(ON.id("PopupboxPromptInterface1500_001"), 500)
+      let showToastButton = await driver.waitForComponent(ON.id('PopupboxPromptInterface1500_001'), 500)
       await showToastButton.click()
       await Utils.sleep(1000)
       // 步骤3：截图验证toast视觉显示与设计图保持一致，符合UX规范
@@ -149,11 +149,11 @@ export default function popupboxPromptInterface() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_1600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_1600 start.`);
       // 步骤1：参照gitee上toast接口参数，示例1的代码
-      Settings.createWindow("testability/pages/component/popup/popupboxPromptInterface/PopupboxPromptInterface1600")
+      Settings.createWindow('testability/pages/component/popup/popupboxPromptInterface/PopupboxPromptInterface1600')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：深色模式下查看toast显示
-      let showToastButton = await driver.waitForComponent(ON.id("PopupboxPromptInterface1600_001"), 500)
+      let showToastButton = await driver.waitForComponent(ON.id('PopupboxPromptInterface1600_001'), 500)
       await showToastButton.click()
       await Utils.sleep(1000)
       // 步骤3：截图验证toast视觉显示与设计图保持一致，符合UX规范

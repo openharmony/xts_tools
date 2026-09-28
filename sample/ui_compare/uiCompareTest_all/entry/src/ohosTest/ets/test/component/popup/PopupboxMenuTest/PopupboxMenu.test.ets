@@ -50,10 +50,10 @@ export default function popupboxMenu() {
      */
     it('SUB_ACE_ANALYSE_UI_COMPONENT_POPUPBOX_MENU_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ANALYSE_UI_COMPONENT_POPUPBOX_MENU_0020 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupboxMenu/PopupboxMenu0020")
+      Settings.createWindow('testability/pages/component/popup/popupboxMenu/PopupboxMenu0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
-      let menubutton = await driver.waitForComponent(ON.id("PopupboxMenu0020_001"), 2000)
+      let menubutton = await driver.waitForComponent(ON.id('PopupboxMenu0020_001'), 2000)
       await menubutton.click()
       await Utils.sleep(500)
       windowSnap.snapShot()

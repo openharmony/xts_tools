@@ -51,11 +51,11 @@ export default function popupboxInverse() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_INVERSE_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_INVERSE_0280 start.`);
       // 步骤0：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxInverse/PopupboxInverse0280")
+      Settings.createWindow('testability/pages/component/popup/popupboxInverse/PopupboxInverse0280')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：点击button
-      let menubutton = await driver.waitForComponent(ON.id("PopupboxMenu0020_001"), 2000)
+      let menubutton = await driver.waitForComponent(ON.id('PopupboxMenu0020_001'), 2000)
       await menubutton.click()
       await Utils.sleep(500)
       // 步骤2：查看菜单样式，预期：弹出菜单，菜单分组中第二个菜单项和第一个菜单项距离为20
@@ -77,11 +77,11 @@ export default function popupboxInverse() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_INVERSE_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_INVERSE_0290 start.`);
       // 步骤0：打开页面
-      Settings.createWindow("testability/pages/component/popup/popupboxInverse/PopupboxInverse0290")
+      Settings.createWindow('testability/pages/component/popup/popupboxInverse/PopupboxInverse0290')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：点击button
-      let menubutton = await driver.waitForComponent(ON.id("PopupboxInverse0290_001"), 2000)
+      let menubutton = await driver.waitForComponent(ON.id('PopupboxInverse0290_001'), 2000)
       await menubutton.click()
       await Utils.sleep(500)
       // 步骤2：查看菜单样式，预期：弹出菜单，菜单分组中第二个菜单项和第三个菜单项距离为20

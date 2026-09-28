@@ -51,11 +51,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0060 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0060")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击输入框，观察输入法是否弹出输入保存的内容提示
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0060_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0060_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：输入后校验，输入框看是否是原先保存过的数据
@@ -79,11 +79,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0070 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0070")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：输入NUMBER_DECIMAL输入模式下，输入框输入支持的内容
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0070_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0070_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：关闭dialog并重新打开
@@ -107,11 +107,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0080 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0080")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击输入框，观察输入法是否弹出输入保存的内容提示
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0080_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0080_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：输入后校验，输入框看是否是原先保存过的数据
@@ -135,11 +135,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0090 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0090")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：输入NUMBER_PASSWORD输入模式下，输入框输入支持的内容
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0090_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0090_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：关闭dialog并重新打开
@@ -163,11 +163,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0100 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0100")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击输入框，观察输入法是否弹出输入保存的内容提示
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0100_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0100_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：输入后校验，输入框看是否是原先保存过的数据
@@ -191,11 +191,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0110 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0110")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：输入Number输入模式下，输入框输入支持的内容
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0110_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0110_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：关闭dialog并重新打开
@@ -219,11 +219,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0120 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0120")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击输入框，观察输入法是否弹出输入保存的内容提示
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0120_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0120_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：输入后校验，输入框看是否是原先保存过的数据
@@ -247,11 +247,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0130 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0130")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：输入Password输入模式下，输入框输入支持的内容
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0130_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0130_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：关闭dialog并重新打开
@@ -275,11 +275,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0140 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0140")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0140')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击输入框，观察输入法是否弹出输入保存的内容提示
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0140_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0140_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：输入后校验，输入框看是否是原先保存过的数据
@@ -303,11 +303,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0150 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0150")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0150')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：输入PhoneNumber输入模式下，输入框输入支持的内容
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0150_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0150_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：关闭dialog并重新打开
@@ -331,11 +331,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0160 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0160")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0160')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击输入框，观察输入法是否弹出输入保存的内容提示
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0160_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0160_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：输入后校验，输入框看是否是原先保存过的数据
@@ -359,11 +359,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0170 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0170")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0170')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：输入URL输入模式下，输入框输入支持的内容
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0170_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0170_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：关闭dialog并重新打开
@@ -387,11 +387,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0180 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0180")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0180')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击输入框，观察输入法是否弹出输入保存的内容提示
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0180_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0180_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：输入后校验，输入框看是否是原先保存过的数据
@@ -415,11 +415,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0190 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0190")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0190')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：输入USER_NAME输入模式下，输入框输入支持的内容
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0190_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0190_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：关闭dialog并重新打开
@@ -443,11 +443,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0200 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0200")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0200')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击输入框，观察输入法是否弹出输入保存的内容提示
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0200_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0200_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 步骤3：输入后校验，输入框看是否是原先保存过的数据
@@ -471,11 +471,11 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0210 start.`);
       // 步骤1：打开dialog输入框
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0210")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0210')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：弹出输入法，观察输入法和弹窗的交互
-      let inputField = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0210_001"), 500)
+      let inputField = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0210_001'), 500)
       await inputField.click()
       await Utils.sleep(1000)
       // 预期结果：弹窗可以配置键盘
@@ -498,19 +498,19 @@ export default function popupboxSpecificationsDialogAutofill() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0220 start.`);
       // 步骤1：编译hap并运行执行
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0220")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsDialogAutofill/PopupboxSpecificationsDialogAutofill0220')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：重复打开多个dialog
       // 步骤3：在多个输入框dialog中输入内容
-      let inputField1 = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0220_001"), 2000)
+      let inputField1 = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0220_001'), 2000)
       await inputField1.click()
       await Utils.sleep(1000)
       // 关闭输入法
       await driver.pressBack()
       await Utils.sleep(1000)
       // 步骤4：在打开的dialog中输入不同的内容
-      let inputField2 = await driver.waitForComponent(ON.id("PopupboxSpecificationsDialogAutofill0220_002"), 2000)
+      let inputField2 = await driver.waitForComponent(ON.id('PopupboxSpecificationsDialogAutofill0220_002'), 2000)
       await inputField2.click()
       await Utils.sleep(1000)
       // 关闭输入法

@@ -51,14 +51,14 @@ export default function popupboxPromptScenarios() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0020 start.`);
       // 步骤1：创建无按钮弹窗promptAction弹窗层测
-      Settings.createWindow("testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0020")
+      Settings.createWindow('testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：showInSubWindow参数设置为true
       // 步骤3：编译hap并安装运行
       // 步骤4：WGR该hap的图层（设为悬浮画面）
       // 步骤5：点击hap弹窗按钮，点击button的点击，此时弹窗图层可以穿透
-      let showDialogButton = await driver.waitForComponent(ON.id("PopupboxPromptScenarios0020_001"), 500)
+      let showDialogButton = await driver.waitForComponent(ON.id('PopupboxPromptScenarios0020_001'), 500)
       await showDialogButton.click()
       await Utils.sleep(1000)
       // 步骤6：截图验证 - 预期点击hap的点击消失
@@ -80,14 +80,14 @@ export default function popupboxPromptScenarios() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0030 start.`);
       // 步骤1：创建无按钮弹窗promptAction弹窗层测
-      Settings.createWindow("testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0030")
+      Settings.createWindow('testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：showInSubWindow参数设置为true
       // 步骤3：编译hap并安装运行
       // 步骤4：WGR该hap的图层（设为悬浮画面）
       // 步骤5：点击hap弹窗按钮，点击button的点击，此时弹窗图层可以穿透
-      let showDialogButton = await driver.waitForComponent(ON.id("PopupboxPromptScenarios0030_001"), 500)
+      let showDialogButton = await driver.waitForComponent(ON.id('PopupboxPromptScenarios0030_001'), 500)
       await showDialogButton.click()
       await Utils.sleep(1000)
       // 步骤6：截图验证 - 预期点击hap的点击消失
@@ -109,14 +109,14 @@ export default function popupboxPromptScenarios() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0040 start.`);
       // 步骤1：创建无按钮弹窗prompt弹窗层测
-      Settings.createWindow("testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0040")
+      Settings.createWindow('testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：showInSubWindow参数设置为true
       // 步骤3：编译hap并安装运行
       // 步骤4：WGR该hap的图层（设为悬浮画面）
       // 步骤5：点击hap弹窗按钮，点击button的点击，此时弹窗图层可以穿透
-      let showDialogButton = await driver.waitForComponent(ON.id("PopupboxPromptScenarios0040_001"), 500)
+      let showDialogButton = await driver.waitForComponent(ON.id('PopupboxPromptScenarios0040_001'), 500)
       await showDialogButton.click()
       await Utils.sleep(1000)
       // 步骤6：截图验证 - 预期点击hap的点击消失
@@ -138,14 +138,14 @@ export default function popupboxPromptScenarios() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0050 start.`);
       // 步骤1：创建无按钮弹窗prompt弹窗层测
-      Settings.createWindow("testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0050")
+      Settings.createWindow('testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：showInSubWindow参数设置为true
       // 步骤3：编译hap并安装运行
       // 步骤4：WGR该hap的图层（设为悬浮画面）
       // 步骤5：点击hap弹窗按钮，点击button的点击，此时弹窗图层可以穿透
-      let showDialogButton = await driver.waitForComponent(ON.id("PopupboxPromptScenarios0050_001"), 500)
+      let showDialogButton = await driver.waitForComponent(ON.id('PopupboxPromptScenarios0050_001'), 500)
       await showDialogButton.click()
       await Utils.sleep(1000)
       // 步骤6：截图验证 - 预期点击hap的点击消失
@@ -167,14 +167,14 @@ export default function popupboxPromptScenarios() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0060 start.`);
       // 步骤1：创建有按钮弹窗promptAction弹窗层测
-      Settings.createWindow("testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0060")
+      Settings.createWindow('testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：showInSubWindow参数设置为true
       // 步骤3：编译hap并安装运行
       // 步骤4：WGR该hap的图层（设为悬浮画面）
       // 步骤5：点击hap弹窗按钮，点击button的点击，此时弹窗图层可以穿透
-      let showDialogButton = await driver.waitForComponent(ON.id("PopupboxPromptScenarios0060_001"), 500)
+      let showDialogButton = await driver.waitForComponent(ON.id('PopupboxPromptScenarios0060_001'), 500)
       await showDialogButton.click()
       await Utils.sleep(1000)
       // 步骤6：截图验证 - 预期图层能获焦
@@ -196,14 +196,14 @@ export default function popupboxPromptScenarios() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0070 start.`);
       // 步骤1：创建有按钮弹窗promptAction弹窗层测
-      Settings.createWindow("testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0070")
+      Settings.createWindow('testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：showInSubWindow参数设置为true
       // 步骤3：编译hap并安装运行
       // 步骤4：WGR该hap的图层（设为悬浮画面）
       // 步骤5：点击hap弹窗按钮，点击button的点击，此时弹窗图层可以穿透
-      let showDialogButton = await driver.waitForComponent(ON.id("PopupboxPromptScenarios0070_001"), 500)
+      let showDialogButton = await driver.waitForComponent(ON.id('PopupboxPromptScenarios0070_001'), 500)
       await showDialogButton.click()
       await Utils.sleep(1000)
       // 步骤6：截图验证 - 预期图层能获焦
@@ -225,14 +225,14 @@ export default function popupboxPromptScenarios() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0080 start.`);
       // 步骤1：创建有按钮弹窗prompt弹窗层测
-      Settings.createWindow("testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0080")
+      Settings.createWindow('testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：showInSubWindow参数设置为true
       // 步骤3：编译hap并安装运行
       // 步骤4：WGR该hap的图层（设为悬浮画面）
       // 步骤5：点击hap弹窗按钮，点击button的点击，此时弹窗图层可以穿透
-      let showDialogButton = await driver.waitForComponent(ON.id("PopupboxPromptScenarios0080_001"), 500)
+      let showDialogButton = await driver.waitForComponent(ON.id('PopupboxPromptScenarios0080_001'), 500)
       await showDialogButton.click()
       await Utils.sleep(1000)
       // 步骤6：截图验证 - 预期图层能获焦
@@ -254,14 +254,14 @@ export default function popupboxPromptScenarios() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0090 start.`);
       // 步骤1：创建有按钮弹窗prompt弹窗层测
-      Settings.createWindow("testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0090")
+      Settings.createWindow('testability/pages/component/popup/popupboxPromptScenarios/PopupboxPromptScenarios0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：showInSubWindow参数设置为true
       // 步骤3：编译hap并安装运行
       // 步骤4：WGR该hap的图层（设为悬浮画面）
       // 步骤5：点击hap弹窗按钮，点击button的点击，此时弹窗图层可以穿透
-      let showDialogButton = await driver.waitForComponent(ON.id("PopupboxPromptScenarios0090_001"), 500)
+      let showDialogButton = await driver.waitForComponent(ON.id('PopupboxPromptScenarios0090_001'), 500)
       await showDialogButton.click()
       await Utils.sleep(1000)
       // 步骤6：截图验证 - 预期图层能获焦

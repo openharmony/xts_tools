@@ -51,7 +51,7 @@ export default function popupboxFollowdialog() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0030 start.`);
       // 步骤1：在IDE中注意开targetBuilder设置为undefined的代码行
-      Settings.createWindow("testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0030")
+      Settings.createWindow('testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：截图验证
@@ -73,11 +73,11 @@ export default function popupboxFollowdialog() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0040 start.`);
       // 步骤1：打开PopoverDialog1弹窗的页面
-      Settings.createWindow("testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0040")
+      Settings.createWindow('testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击false按钮，查看弹窗是否弹出
-      let falseButton = await driver.waitForComponent(ON.id("PopupboxFollowdialog0040_001"), 500)
+      let falseButton = await driver.waitForComponent(ON.id('PopupboxFollowdialog0040_001'), 500)
       await falseButton.click()
       await Utils.sleep(1000)
       // 步骤3：截图验证
@@ -99,11 +99,11 @@ export default function popupboxFollowdialog() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0050 start.`);
       // 步骤1：打开PopoverDialog1弹窗的页面
-      Settings.createWindow("testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0050")
+      Settings.createWindow('testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击true按钮，查看弹窗是否弹出
-      let trueButton = await driver.waitForComponent(ON.id("PopupboxFollowdialog0050_001"), 500)
+      let trueButton = await driver.waitForComponent(ON.id('PopupboxFollowdialog0050_001'), 500)
       await trueButton.click()
       await Utils.sleep(1000)
       // 步骤3：截图验证
@@ -125,11 +125,11 @@ export default function popupboxFollowdialog() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0060 start.`);
       // 步骤1：打开PopoverDialog1弹窗的页面
-      Settings.createWindow("testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0060")
+      Settings.createWindow('testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击undefined按钮，查看弹窗是否弹出
-      let undefinedButton = await driver.waitForComponent(ON.id("PopupboxFollowdialog0060_001"), 500)
+      let undefinedButton = await driver.waitForComponent(ON.id('PopupboxFollowdialog0060_001'), 500)
       await undefinedButton.click()
       await Utils.sleep(1000)
       // 步骤3：截图验证
@@ -151,19 +151,19 @@ export default function popupboxFollowdialog() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0070 start.`);
       // 步骤1：打开PopoverDialog1弹窗的页面
-      Settings.createWindow("testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0070")
+      Settings.createWindow('testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击PopoverDialog打开弹窗
-      let openButton = await driver.waitForComponent(ON.id("PopupboxFollowdialog0070_001"), 500)
+      let openButton = await driver.waitForComponent(ON.id('PopupboxFollowdialog0070_001'), 500)
       await openButton.click()
       await Utils.sleep(1000)
       // 步骤3：点击弹窗内容中的false按钮
-      let falseButton = await driver.waitForComponent(ON.id("PopupboxFollowdialog0070_002"), 500)
+      let falseButton = await driver.waitForComponent(ON.id('PopupboxFollowdialog0070_002'), 500)
       await falseButton.click()
       await Utils.sleep(1000)
       // 步骤4：重复步骤2，点击弹窗内容中的true按钮
-      let trueButton = await driver.waitForComponent(ON.id("PopupboxFollowdialog0070_003"), 500)
+      let trueButton = await driver.waitForComponent(ON.id('PopupboxFollowdialog0070_003'), 500)
       await trueButton.click()
       await Utils.sleep(1000)
       // 步骤5：截图验证
@@ -185,12 +185,12 @@ export default function popupboxFollowdialog() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0090 start.`);
       // 步骤1：打开PopoverDialog3弹窗的页面
-      Settings.createWindow("testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0090")
+      Settings.createWindow('testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：arrowOffset设置为25，radius设置默认值32
       // 步骤3：点击Click me按钮，查看气泡的弹窗显示
-      let clickMeButton = await driver.waitForComponent(ON.text("Click me"), 500)
+      let clickMeButton = await driver.waitForComponent(ON.text('Click me'), 500)
       await clickMeButton.click()
       await Utils.sleep(1000)
       // 步骤4：截图验证
@@ -212,14 +212,14 @@ export default function popupboxFollowdialog() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0100 start.`);
       // 步骤1：打开PopoverDialog3弹窗的页面
-      Settings.createWindow("testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0100")
+      Settings.createWindow('testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：arrowPointPosition设置为Center，点击Click me按钮，查看气泡的箭头的显示位置
-      let centerButton = await driver.waitForComponent(ON.id("PopupboxFollowdialog0100_001"), 500)
+      let centerButton = await driver.waitForComponent(ON.id('PopupboxFollowdialog0100_001'), 500)
       await centerButton.click()
       await Utils.sleep(500)
-      let clickMeButton = await driver.waitForComponent(ON.text("Click me"), 500)
+      let clickMeButton = await driver.waitForComponent(ON.text('Click me'), 500)
       await clickMeButton.click()
       await Utils.sleep(1000)
       // 步骤3：截图验证
@@ -241,15 +241,15 @@ export default function popupboxFollowdialog() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0110 start.`);
       // 步骤1：打开PopoverDialog3弹窗的页面
-      Settings.createWindow("testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0110")
+      Settings.createWindow('testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：width设置为200
       // 步骤3：Placement设置为Left，点击Click me按钮，查看气泡的弹窗显示位置
-      let leftButton = await driver.waitForComponent(ON.id("PopupboxFollowdialog0110_001"), 500)
+      let leftButton = await driver.waitForComponent(ON.id('PopupboxFollowdialog0110_001'), 500)
       await leftButton.click()
       await Utils.sleep(500)
-      let clickMeButton = await driver.waitForComponent(ON.text("Click me"), 500)
+      let clickMeButton = await driver.waitForComponent(ON.text('Click me'), 500)
       await clickMeButton.click()
       await Utils.sleep(1000)
       // 步骤4：截图验证
@@ -271,15 +271,15 @@ export default function popupboxFollowdialog() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0120 start.`);
       // 步骤1：打开PopoverDialog2弹窗的页面
-      Settings.createWindow("testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0120")
+      Settings.createWindow('testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击PopoverDialog打开弹窗
-      let openButton = await driver.waitForComponent(ON.id("PopupboxFollowdialog0120_001"), 500)
+      let openButton = await driver.waitForComponent(ON.id('PopupboxFollowdialog0120_001'), 500)
       await openButton.click()
       await Utils.sleep(1000)
       // 步骤3：多次点击弹窗内容中的test++按钮，动态切换样式属性的值，查看弹窗的样式是否和设置的属性值保持一致
-      let testButton = await driver.waitForComponent(ON.id("PopupboxFollowdialog0120_002"), 500)
+      let testButton = await driver.waitForComponent(ON.id('PopupboxFollowdialog0120_002'), 500)
       await testButton.click()
       await Utils.sleep(500)
       await testButton.click()
@@ -303,7 +303,7 @@ export default function popupboxFollowdialog() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0130 start.`);
       // 步骤1：在IDE中注释后含popover参数的代码行
-      Settings.createWindow("testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0130")
+      Settings.createWindow('testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：截图验证
@@ -325,7 +325,7 @@ export default function popupboxFollowdialog() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0140 start.`);
       // 步骤1：在IDE中注释后含targetBuilder参数的代码行
-      Settings.createWindow("testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0140")
+      Settings.createWindow('testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0140')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：截图验证
@@ -347,7 +347,7 @@ export default function popupboxFollowdialog() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0150 start.`);
       // 步骤1：在IDE中注释后含visible参数的代码行
-      Settings.createWindow("testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0150")
+      Settings.createWindow('testability/pages/component/popup/popupboxFollowdialog/PopupboxFollowdialog0150')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：截图验证

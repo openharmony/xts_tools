@@ -49,7 +49,7 @@ export default function popupboxDoubleStroke() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0020 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0020")
+      Settings.createWindow('testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0020')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -68,7 +68,7 @@ export default function popupboxDoubleStroke() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0050 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0050")
+      Settings.createWindow('testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0050')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -87,7 +87,7 @@ export default function popupboxDoubleStroke() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0080 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0080")
+      Settings.createWindow('testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0080')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -106,7 +106,7 @@ export default function popupboxDoubleStroke() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0090 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0090")
+      Settings.createWindow('testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0090')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -125,7 +125,7 @@ export default function popupboxDoubleStroke() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0110 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0110")
+      Settings.createWindow('testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0110')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -144,7 +144,7 @@ export default function popupboxDoubleStroke() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0160 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0160")
+      Settings.createWindow('testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0160')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -164,7 +164,7 @@ export default function popupboxDoubleStroke() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0180', Level.LEVEL3, async (done: Function) => {
       try {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0180 start.`);
-        Settings.createWindow("testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0180")
+        Settings.createWindow('testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0180')
         let driver:Driver = Driver.create();
         await driver.waitForIdle(5000,8000)
         windowSnap.snapShot()
@@ -187,7 +187,7 @@ export default function popupboxDoubleStroke() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0210 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0210")
+      Settings.createWindow('testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke0210')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -206,7 +206,7 @@ export default function popupboxDoubleStroke() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_1030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_1030 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke1030")
+      Settings.createWindow('testability/pages/component/popup/popupboxDoubleStroke/PopupboxDoubleStroke1030')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()

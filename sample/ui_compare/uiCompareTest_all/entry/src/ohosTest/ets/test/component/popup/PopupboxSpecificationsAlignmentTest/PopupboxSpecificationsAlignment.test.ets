@@ -51,25 +51,25 @@ export default function popupboxSpecificationsAlignment() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0030 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsAlignment/PopupboxSpecificationsAlignment0030")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsAlignment/PopupboxSpecificationsAlignment0030')
       let driver = await Driver.create()
       await driver.waitForIdle(2000,3000)
 
       // 步骤2：点击openCustomDialog，点击subWindow：T，点击isModal：F，点击Center
-      let subWindowButton = await driver.waitForComponent(ON.id("subWindow_button"), 500)
+      let subWindowButton = await driver.waitForComponent(ON.id('subWindow_button'), 500)
       await subWindowButton.click()
       await driver.waitForIdle(500,2000)
 
-      let isModalButton = await driver.waitForComponent(ON.id("isModal_button"), 500)
+      let isModalButton = await driver.waitForComponent(ON.id('isModal_button'), 500)
       await isModalButton.click()
       await driver.waitForIdle(500,2000)
 
-      let centerButton = await driver.waitForComponent(ON.id("center_button"), 500)
+      let centerButton = await driver.waitForComponent(ON.id('center_button'), 500)
       await centerButton.click()
       await driver.waitForIdle(500,2000)
 
       // 步骤3：多次点击click for dialog
-      let clickForDialogButton = await driver.waitForComponent(ON.id("click_for_dialog_button"), 500)
+      let clickForDialogButton = await driver.waitForComponent(ON.id('click_for_dialog_button'), 500)
       
       // 第一次点击弹窗
       await clickForDialogButton.click()
@@ -103,22 +103,22 @@ export default function popupboxSpecificationsAlignment() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0090 start.`);
       // 步骤1：页面初始化，设备连接键盘
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsAlignment/PopupboxSpecificationsAlignment0090")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsAlignment/PopupboxSpecificationsAlignment0090')
       let driver = await Driver.create()
       await driver.waitForIdle(2000,3000)
 
       // 步骤2：点击alertDialog，点击subWindow：T，按下Tab键切换焦点位到click for dialog，enter键click for dialog弹出弹窗
-      let subWindowButton = await driver.waitForComponent(ON.id("subWindow_button"), 500)
+      let subWindowButton = await driver.waitForComponent(ON.id('subWindow_button'), 500)
       await subWindowButton.click()
       await driver.waitForIdle(500,2000)
 
       // 直接点击click for dialog按钮弹出弹窗
-      let clickForDialogButton = await driver.waitForComponent(ON.text("click for dialog"), 1000)
+      let clickForDialogButton = await driver.waitForComponent(ON.text('click for dialog'), 1000)
       await clickForDialogButton.click()
       await driver.waitForIdle(500,2000)
 
       // 步骤3：点击确认按钮关闭弹窗
-      let confirmButton = await driver.waitForComponent(ON.text("确认"), 1000)
+      let confirmButton = await driver.waitForComponent(ON.text('确认'), 1000)
       await confirmButton.click()
       await driver.waitForIdle(500,2000)
 
@@ -145,12 +145,12 @@ export default function popupboxSpecificationsAlignment() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0100 start.`);
       // 步骤1：页面初始化，设备连接键盘
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsAlignment/PopupboxSpecificationsAlignment0100")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsAlignment/PopupboxSpecificationsAlignment0100')
       let driver = await Driver.create()
       await driver.waitForIdle(2000,3000)
 
       // 步骤2：点击alertDialog，点击subWindow：T，按下Tab键切换焦点位到click for dialog，点击click for dialog弹出弹窗
-      let subWindowButton = await driver.waitForComponent(ON.id("subWindow_button"), 500)
+      let subWindowButton = await driver.waitForComponent(ON.id('subWindow_button'), 500)
       await subWindowButton.click()
       await driver.waitForIdle(500,2000)
 
@@ -159,7 +159,7 @@ export default function popupboxSpecificationsAlignment() {
       await driver.waitForIdle(500,2000)
 
       // 点击click for dialog弹出弹窗
-      let clickForDialogButton = await driver.waitForComponent(ON.id("click_for_dialog_button"), 500)
+      let clickForDialogButton = await driver.waitForComponent(ON.id('click_for_dialog_button'), 500)
       await clickForDialogButton.click()
       await driver.waitForIdle(500,2000)
 
@@ -195,12 +195,12 @@ export default function popupboxSpecificationsAlignment() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0110 start.`);
       // 步骤1：页面初始化，设备连接键盘
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsAlignment/PopupboxSpecificationsAlignment0110")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsAlignment/PopupboxSpecificationsAlignment0110')
       let driver = await Driver.create()
       await driver.waitForIdle(2000,3000)
 
       // 步骤2：点击alertDialog，点击subWindow：T，按下Tab键切换焦点位到click for dialog，点击click for dialog
-      let subWindowButton = await driver.waitForComponent(ON.id("subWindow_button"), 500)
+      let subWindowButton = await driver.waitForComponent(ON.id('subWindow_button'), 500)
       await subWindowButton.click()
       await driver.waitForIdle(500,2000)
 
@@ -209,7 +209,7 @@ export default function popupboxSpecificationsAlignment() {
       await driver.waitForIdle(500,2000)
 
       // 点击click for dialog弹出弹窗
-      let clickForDialogButton = await driver.waitForComponent(ON.id("click_for_dialog_button"), 500)
+      let clickForDialogButton = await driver.waitForComponent(ON.id('click_for_dialog_button'), 500)
       await clickForDialogButton.click()
       await driver.waitForIdle(500,2000)
 
@@ -242,17 +242,17 @@ export default function popupboxSpecificationsAlignment() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0140 start.`);
       // 步骤1：页面初始化，设备连接键盘
-      Settings.createWindow("testability/pages/component/popup/popupboxSpecificationsAlignment/PopupboxSpecificationsAlignment0140")
+      Settings.createWindow('testability/pages/component/popup/popupboxSpecificationsAlignment/PopupboxSpecificationsAlignment0140')
       let driver = await Driver.create()
       await driver.waitForIdle(2000,3000)
 
       // 步骤2：点击showDialog，点击subWindow：T，点击click for dialog弹出对话框后，按enter/space关闭对话框，按下Tab键切换焦点位，查看焦点位置的落向
-      let subWindowButton = await driver.waitForComponent(ON.id("subWindow_button"), 500)
+      let subWindowButton = await driver.waitForComponent(ON.id('subWindow_button'), 500)
       await subWindowButton.click()
       await driver.waitForIdle(500,2000)
 
       // 点击click for dialog弹出弹窗
-      let clickForDialogButton = await driver.waitForComponent(ON.id("click_for_dialog_button"), 500)
+      let clickForDialogButton = await driver.waitForComponent(ON.id('click_for_dialog_button'), 500)
       await clickForDialogButton.click()
       await driver.waitForIdle(500,2000)
 
