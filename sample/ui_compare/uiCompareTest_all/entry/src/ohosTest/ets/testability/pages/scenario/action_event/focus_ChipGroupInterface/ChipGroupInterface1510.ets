@@ -24,14 +24,14 @@ struct ChipGroupInterface1510 {
 
   @Builder
   suffixBuilderString() {
-    Image("字")
+    Image('字')
       .width(16)
       .height(16)
   }
 
   @Builder
   suffixBuilderImageString() {
-    Image("icon.png")
+    Image('icon.png')
       .width(16)
       .height(16)
   }
@@ -39,19 +39,19 @@ struct ChipGroupInterface1510 {
   build() {
     Column() {
       // 第一组ChipGroup - suffix使用string异常值
-      Text("字").fontSize(16).margin({ top: 20, bottom: 10 })
+      Text('字').fontSize(16).margin({ top: 20, bottom: 10 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -66,19 +66,19 @@ struct ChipGroupInterface1510 {
       }).margin(20)
 
       // 第二组ChipGroup - suffix使用图片字符串
-      Text("图片字符串").fontSize(16).margin({ top: 20, bottom: 10 })
+      Text('图片字符串').fontSize(16).margin({ top: 20, bottom: 10 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],

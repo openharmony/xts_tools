@@ -31,15 +31,15 @@ struct ChipGroupInterface1240 {
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -56,15 +56,15 @@ struct ChipGroupInterface1240 {
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -84,15 +84,15 @@ struct ChipGroupInterface1240 {
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -112,15 +112,15 @@ struct ChipGroupInterface1240 {
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -140,15 +140,15 @@ struct ChipGroupInterface1240 {
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],

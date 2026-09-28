@@ -21,26 +21,26 @@ import { ChipSize, ChipGroup } from '@kit.ArkUI'
 struct ChipGroupInterface1600 {
   @State selected_index1: number[] = []
   @State selected_index2: number[] = []
-  @State hasUndefinedButtonText: string = "有undefined"
+  @State hasUndefinedButtonText: string = '有undefined'
 
   build() {
     Column() {
-      Text("ChipGroup组件，items2参数").fontSize(16).margin({ top: 20, bottom: 10 })
+      Text('ChipGroup组件，items2参数').fontSize(16).margin({ top: 20, bottom: 10 })
       
       Button(this.hasUndefinedButtonText).onClick(() => {
-        this.hasUndefinedButtonText = this.hasUndefinedButtonText === "有undefined" ? "reset" : "有undefined"
+        this.hasUndefinedButtonText = this.hasUndefinedButtonText === '有undefined' ? 'reset' : '有undefined'
       }).margin(20)
       
-      Text("空items数组测试").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('空items数组测试').fontSize(14).margin({ top: 10, bottom: 5 })
       // ChipGroup - 测试空items数组
       ChipGroup({
-        items: this.hasUndefinedButtonText === "有undefined" ? [] : [
+        items: this.hasUndefinedButtonText === '有undefined' ? [] : [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           }
         ],
@@ -53,33 +53,33 @@ struct ChipGroupInterface1600 {
         }
       }).margin(20)
 
-      Text("无效label内容测试").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('无效label内容测试').fontSize(14).margin({ top: 10, bottom: 5 })
       // ChipGroup - 测试无效的label内容
       ChipGroup({
-        items: this.hasUndefinedButtonText === "有undefined" ? [
+        items: this.hasUndefinedButtonText === '有undefined' ? [
           {
-            label: { text: "" }, // 空字符串
+            label: { text: '' }, // 空字符串
             allowClose: false
           },
           {
-            label: { text: "   " }, // 空白字符
+            label: { text: '   ' }, // 空白字符
             allowClose: false
           },
           {
-            label: { text: "正常选项" },
+            label: { text: '正常选项' },
             allowClose: false
           }
         ] : [
           {
-            label: { text: "选项A" },
+            label: { text: '选项A' },
             allowClose: false
           },
           {
-            label: { text: "选项B" },
+            label: { text: '选项B' },
             allowClose: false
           },
           {
-            label: { text: "选项C" },
+            label: { text: '选项C' },
             allowClose: false
           }
         ],

@@ -24,27 +24,27 @@ struct ChipGroupInterface1070 {
   @State selected_index3: number[] = []
   @State selected_index4: number[] = []
   @State selected_index5: number[] = []
-  @State colorButtonText: string = "color"
+  @State colorButtonText: string = 'color'
 
   build() {
     Column() {
       Button(this.colorButtonText).onClick(() => {
-        this.colorButtonText = this.colorButtonText === "color" ? "reset" : "color"
+        this.colorButtonText = this.colorButtonText === 'color' ? 'reset' : 'color'
       }).margin(20)
 
       // 第一组ChipGroup - 默认样式
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -61,15 +61,15 @@ struct ChipGroupInterface1070 {
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -89,15 +89,15 @@ struct ChipGroupInterface1070 {
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -117,15 +117,15 @@ struct ChipGroupInterface1070 {
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -145,15 +145,15 @@ struct ChipGroupInterface1070 {
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],

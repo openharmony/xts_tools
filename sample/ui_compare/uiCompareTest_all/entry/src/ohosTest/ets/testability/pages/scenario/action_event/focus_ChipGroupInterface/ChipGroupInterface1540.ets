@@ -63,19 +63,19 @@ struct ChipGroupInterface1540 {
   build() {
     Column() {
       // 第一组ChipGroup - suffix使用width为20%
-      Text("width为20%").fontSize(16).margin({ top: 20, bottom: 10 })
+      Text('width为20%').fontSize(16).margin({ top: 20, bottom: 10 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -90,19 +90,19 @@ struct ChipGroupInterface1540 {
       }).margin(20)
 
       // 第二组ChipGroup - suffix使用width为10px
-      Text("width为10px").fontSize(16).margin({ top: 20, bottom: 10 })
+      Text('width为10px').fontSize(16).margin({ top: 20, bottom: 10 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -117,19 +117,19 @@ struct ChipGroupInterface1540 {
       }).margin(20)
 
       // 第三组ChipGroup - suffix使用width为5vp
-      Text("width为5vp").fontSize(16).margin({ top: 20, bottom: 10 })
+      Text('width为5vp').fontSize(16).margin({ top: 20, bottom: 10 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -144,19 +144,19 @@ struct ChipGroupInterface1540 {
       }).margin(20)
 
       // 第四组ChipGroup - suffix使用width为20fp
-      Text("width为20fp").fontSize(16).margin({ top: 20, bottom: 10 })
+      Text('width为20fp').fontSize(16).margin({ top: 20, bottom: 10 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -171,19 +171,19 @@ struct ChipGroupInterface1540 {
       }).margin(20)
 
       // 第五组ChipGroup - suffix使用width为10lpx
-      Text("width为10lpx").fontSize(16).margin({ top: 20, bottom: 10 })
+      Text('width为10lpx').fontSize(16).margin({ top: 20, bottom: 10 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],

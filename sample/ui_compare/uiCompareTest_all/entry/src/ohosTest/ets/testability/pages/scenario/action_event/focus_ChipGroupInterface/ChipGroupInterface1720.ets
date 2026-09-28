@@ -22,31 +22,31 @@ struct ChipGroupInterface1720 {
   @State selected_index1: number[] = []
   @State selected_index2: number[] = []
   @State selected_index3: number[] = []
-  @State groupButtonText: string = "1组"
-  @State duplicateButtonText: string = "重"
+  @State groupButtonText: string = '1组'
+  @State duplicateButtonText: string = '重'
 
   build() {
     Column() {
       Button(this.groupButtonText).onClick(() => {
         switch (this.groupButtonText) {
-          case "1组":
-            this.groupButtonText = "2组"
+          case '1组':
+            this.groupButtonText = '2组'
             break
-          case "2组":
-            this.groupButtonText = "3组"
+          case '2组':
+            this.groupButtonText = '3组'
             break
-          case "3组":
-            this.groupButtonText = "1组"
+          case '3组':
+            this.groupButtonText = '1组'
             break
         }
       }).margin(20)
 
       // selectedIndexes 控制按钮
       Row() {
-        Text("selectedIndexes:").fontSize(14).margin({ right: 10 })
+        Text('selectedIndexes:').fontSize(14).margin({ right: 10 })
         Button(this.duplicateButtonText).onClick(() => {
-          this.duplicateButtonText = this.duplicateButtonText === "重" ? "重" : "重"
-          if (this.duplicateButtonText === "重") {
+          this.duplicateButtonText = this.duplicateButtonText === '重' ? '重' : '重'
+          if (this.duplicateButtonText === '重') {
             // 设置多个重复的范围内索引值
             this.selected_index3 = [1, 1, 1, 1, 1]
           } else {
@@ -55,13 +55,13 @@ struct ChipGroupInterface1720 {
         }).margin({ left: 10 }).width(50).height(40)
       }.margin({ bottom: 10 })
 
-      if (this.groupButtonText === "1组" || this.groupButtonText === "2组" || this.groupButtonText === "3组") {
-        Text("第一组ChipGroup").fontSize(14).margin({ top: 10, bottom: 5 })
+      if (this.groupButtonText === '1组' || this.groupButtonText === '2组' || this.groupButtonText === '3组') {
+        Text('第一组ChipGroup').fontSize(14).margin({ top: 10, bottom: 5 })
         ChipGroup({
           items: [
-            { label: { text: "选项1" }, allowClose: false },
-            { label: { text: "选项2" }, allowClose: false },
-            { label: { text: "选项3" }, allowClose: false }
+            { label: { text: '选项1' }, allowClose: false },
+            { label: { text: '选项2' }, allowClose: false },
+            { label: { text: '选项3' }, allowClose: false }
           ],
           selectedIndexes: this.selected_index1,
           multiple: true,
@@ -73,13 +73,13 @@ struct ChipGroupInterface1720 {
         }).margin(20)
       }
 
-      if (this.groupButtonText === "2组" || this.groupButtonText === "3组") {
-        Text("第二组ChipGroup").fontSize(14).margin({ top: 10, bottom: 5 })
+      if (this.groupButtonText === '2组' || this.groupButtonText === '3组') {
+        Text('第二组ChipGroup').fontSize(14).margin({ top: 10, bottom: 5 })
         ChipGroup({
           items: [
-            { label: { text: "选项A" }, allowClose: false },
-            { label: { text: "选项B" }, allowClose: false },
-            { label: { text: "选项C" }, allowClose: false }
+            { label: { text: '选项A' }, allowClose: false },
+            { label: { text: '选项B' }, allowClose: false },
+            { label: { text: '选项C' }, allowClose: false }
           ],
           selectedIndexes: this.selected_index2,
           multiple: true,
@@ -91,13 +91,13 @@ struct ChipGroupInterface1720 {
         }).margin(20)
       }
 
-      if (this.groupButtonText === "3组") {
-        Text("第三组ChipGroup").fontSize(14).margin({ top: 10, bottom: 5 })
+      if (this.groupButtonText === '3组') {
+        Text('第三组ChipGroup').fontSize(14).margin({ top: 10, bottom: 5 })
         ChipGroup({
           items: [
-            { label: { text: "项目1" }, allowClose: false },
-            { label: { text: "项目2" }, allowClose: false },
-            { label: { text: "项目3" }, allowClose: false }
+            { label: { text: '项目1' }, allowClose: false },
+            { label: { text: '项目2' }, allowClose: false },
+            { label: { text: '项目3' }, allowClose: false }
           ],
           selectedIndexes: this.selected_index3,
           multiple: true,

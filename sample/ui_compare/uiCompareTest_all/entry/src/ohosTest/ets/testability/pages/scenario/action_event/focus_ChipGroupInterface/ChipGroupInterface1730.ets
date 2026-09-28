@@ -21,14 +21,14 @@ import { ChipGroup } from '@kit.ArkUI'
 struct ChipGroupInterface1730 {
   build() {
     Column() {
-      Text("ChipGroup组件，selectedIndexes不传").fontSize(16).fontWeight(FontWeight.Bold).margin(20)
+      Text('ChipGroup组件，selectedIndexes不传').fontSize(16).fontWeight(FontWeight.Bold).margin(20)
       
-      Text("第一组ChipGroup - selectedIndexes不传").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('第一组ChipGroup - selectedIndexes不传').fontSize(14).margin({ top: 10, bottom: 5 })
       ChipGroup({
         items: [
-          { label: { text: "选项1" }, allowClose: false },
-          { label: { text: "选项2" }, allowClose: false },
-          { label: { text: "选项3" }, allowClose: false }
+          { label: { text: '选项1' }, allowClose: false },
+          { label: { text: '选项2' }, allowClose: false },
+          { label: { text: '选项3' }, allowClose: false }
         ],
         // selectedIndexes 参数不传
         multiple: true,
@@ -39,12 +39,12 @@ struct ChipGroupInterface1730 {
         }
       }).margin(20)
       
-      Text("第二组ChipGroup - selectedIndexes不传（单选模式）").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('第二组ChipGroup - selectedIndexes不传（单选模式）').fontSize(14).margin({ top: 10, bottom: 5 })
       ChipGroup({
         items: [
-          { label: { text: "项目A" }, allowClose: false },
-          { label: { text: "项目B" }, allowClose: false },
-          { label: { text: "项目C" }, allowClose: false }
+          { label: { text: '项目A' }, allowClose: false },
+          { label: { text: '项目B' }, allowClose: false },
+          { label: { text: '项目C' }, allowClose: false }
         ],
         // selectedIndexes 参数不传
         multiple: false,
@@ -55,14 +55,14 @@ struct ChipGroupInterface1730 {
         }
       }).margin(20)
       
-      Text("第三组ChipGroup - selectedIndexes不传（更多选项）").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('第三组ChipGroup - selectedIndexes不传（更多选项）').fontSize(14).margin({ top: 10, bottom: 5 })
       ChipGroup({
         items: [
-          { label: { text: "测试1" }, allowClose: false },
-          { label: { text: "测试2" }, allowClose: false },
-          { label: { text: "测试3" }, allowClose: false },
-          { label: { text: "测试4" }, allowClose: false },
-          { label: { text: "测试5" }, allowClose: false }
+          { label: { text: '测试1' }, allowClose: false },
+          { label: { text: '测试2' }, allowClose: false },
+          { label: { text: '测试3' }, allowClose: false },
+          { label: { text: '测试4' }, allowClose: false },
+          { label: { text: '测试5' }, allowClose: false }
         ],
         // selectedIndexes 参数不传
         multiple: true,

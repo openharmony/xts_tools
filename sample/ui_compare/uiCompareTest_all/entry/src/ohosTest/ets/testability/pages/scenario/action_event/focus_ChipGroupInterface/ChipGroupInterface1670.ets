@@ -22,39 +22,39 @@ struct ChipGroupInterface1670 {
   @State selected_index1: number[] = []
   @State selected_index2: number[] = []
   @State selected_index3: number[] = []
-  @State groupButtonText: string = "1组"
+  @State groupButtonText: string = '1组'
 
   build() {
     Column() {
-      Text("ChipGroup组件，selectedIndexes参数").fontSize(16).margin({ top: 20, bottom: 10 })
+      Text('ChipGroup组件，selectedIndexes参数').fontSize(16).margin({ top: 20, bottom: 10 })
       
       Button(this.groupButtonText).onClick(() => {
         switch (this.groupButtonText) {
-          case "1组":
-            this.groupButtonText = "2组"
+          case '1组':
+            this.groupButtonText = '2组'
             break
-          case "2组":
-            this.groupButtonText = "3组"
+          case '2组':
+            this.groupButtonText = '3组'
             break
-          case "3组":
-            this.groupButtonText = "1组"
+          case '3组':
+            this.groupButtonText = '1组'
             break
         }
       }).margin(20)
       
-      Text("第一组ChipGroup").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('第一组ChipGroup').fontSize(14).margin({ top: 10, bottom: 5 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           }
         ],
@@ -67,19 +67,19 @@ struct ChipGroupInterface1670 {
         }
       }).margin(20)
 
-      Text("第二组ChipGroup").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('第二组ChipGroup').fontSize(14).margin({ top: 10, bottom: 5 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项A" },
+            label: { text: '选项A' },
             allowClose: false
           },
           {
-            label: { text: "选项B" },
+            label: { text: '选项B' },
             allowClose: false
           },
           {
-            label: { text: "选项C" },
+            label: { text: '选项C' },
             allowClose: false
           }
         ],
@@ -92,22 +92,22 @@ struct ChipGroupInterface1670 {
         }
       }).margin(20)
 
-      Text("第三组ChipGroup").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('第三组ChipGroup').fontSize(14).margin({ top: 10, bottom: 5 })
       Row() {
-        Text("selectedIndexes: [" + this.selected_index3.join(', ') + "]").fontSize(12)
-        Button("内外").onClick(() => {
+        Text('selectedIndexes: [' + this.selected_index3.join(', ') + ']').fontSize(12)
+        Button('内外').onClick(() => {
           // 设置正常值(1) + 超过范围(5,10)
           this.selected_index3 = [1, 5, 10]
         }).margin({ left: 10 }).width(50).height(40)
-        Button("混合").onClick(() => {
+        Button('混合').onClick(() => {
           // 设置正常值(0,2) + 超过范围(4,8)
           this.selected_index3 = [0, 2, 4, 8]
         }).margin({ left: 5 }).width(50).height(40)
-        Button("边界").onClick(() => {
+        Button('边界').onClick(() => {
           // 设置正常值(3) + 刚好超出范围(4)
           this.selected_index3 = [3, 4]
         }).margin({ left: 5 }).width(50).height(40)
-        Button("清空").onClick(() => {
+        Button('清空').onClick(() => {
           this.selected_index3 = []
         }).margin({ left: 5 }).width(50).height(40)
       }.margin({ bottom: 10 })
@@ -115,19 +115,19 @@ struct ChipGroupInterface1670 {
       ChipGroup({
         items: [
           {
-            label: { text: "项目1" },
+            label: { text: '项目1' },
             allowClose: false
           },
           {
-            label: { text: "项目2" },
+            label: { text: '项目2' },
             allowClose: false
           },
           {
-            label: { text: "项目3" },
+            label: { text: '项目3' },
             allowClose: false
           },
           {
-            label: { text: "项目4" },
+            label: { text: '项目4' },
             allowClose: false
           }
         ],

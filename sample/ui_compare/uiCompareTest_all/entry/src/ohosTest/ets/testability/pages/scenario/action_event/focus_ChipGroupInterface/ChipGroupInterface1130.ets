@@ -24,27 +24,27 @@ struct ChipGroupInterface1130 {
   @State selected_index3: number[] = []
   @State selected_index4: number[] = []
   @State selected_index5: number[] = []
-  @State colorButtonText: string = "#8"
+  @State colorButtonText: string = '#8'
 
   build() {
     Column() {
       Button(this.colorButtonText).onClick(() => {
-        this.colorButtonText = this.colorButtonText === "#8" ? "reset" : "#8"
+        this.colorButtonText = this.colorButtonText === '#8' ? 'reset' : '#8'
       }).margin(20)
 
       // 第一组ChipGroup - 默认样式
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -61,20 +61,20 @@ struct ChipGroupInterface1130 {
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
         itemStyle: {
-          backgroundColor: "#FFC0D9D9",
+          backgroundColor: '#FFC0D9D9',
         },
         selectedIndexes: this.selected_index2,
         multiple: true,
@@ -89,20 +89,20 @@ struct ChipGroupInterface1130 {
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
         itemStyle: {
-          selectedBackgroundColor: "#FFC0D9D9"
+          selectedBackgroundColor: '#FFC0D9D9'
         },
         selectedIndexes: this.selected_index3,
         multiple: true,
@@ -117,20 +117,20 @@ struct ChipGroupInterface1130 {
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
         itemStyle: {
-          fontColor: "#FFC0D9D9"
+          fontColor: '#FFC0D9D9'
         },
         selectedIndexes: this.selected_index4,
         multiple: true,
@@ -145,20 +145,20 @@ struct ChipGroupInterface1130 {
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
         itemStyle: {
-          selectedFontColor: "#FFC0D9D9"
+          selectedFontColor: '#FFC0D9D9'
         },
         selectedIndexes: this.selected_index5,
         multiple: true,

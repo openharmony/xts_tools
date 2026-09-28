@@ -20,7 +20,7 @@ import { ChipSize, ChipGroup, IconGroupSuffix } from '@kit.ArkUI'
 @Component
 struct ChipGroupInterface1550 {
   @State selected_index1: number[] = []
-  @State heightButtonText: string = "height 30%"
+  @State heightButtonText: string = 'height 30%'
   @State currentHeight: string = '30%'
 
   @Builder
@@ -34,24 +34,24 @@ struct ChipGroupInterface1550 {
     Column() {
       Button(this.heightButtonText).onClick(() => {
         switch (this.heightButtonText) {
-          case "height 30%":
-            this.heightButtonText = "height 100px"
+          case 'height 30%':
+            this.heightButtonText = 'height 100px'
             this.currentHeight = '100px'
             break
-          case "height 100px":
-            this.heightButtonText = "height 100vp"
+          case 'height 100px':
+            this.heightButtonText = 'height 100vp'
             this.currentHeight = '100vp'
             break
-          case "height 100vp":
-            this.heightButtonText = "height 100fp"
+          case 'height 100vp':
+            this.heightButtonText = 'height 100fp'
             this.currentHeight = '100fp'
             break
-          case "height 100fp":
-            this.heightButtonText = "height 100lpx"
+          case 'height 100fp':
+            this.heightButtonText = 'height 100lpx'
             this.currentHeight = '100lpx'
             break
-          case "height 100lpx":
-            this.heightButtonText = "height 30%"
+          case 'height 100lpx':
+            this.heightButtonText = 'height 30%'
             this.currentHeight = '30%'
             break
         }
@@ -61,15 +61,15 @@ struct ChipGroupInterface1550 {
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],

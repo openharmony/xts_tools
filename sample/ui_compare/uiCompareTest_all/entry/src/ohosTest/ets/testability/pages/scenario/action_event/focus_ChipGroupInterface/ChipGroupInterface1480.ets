@@ -70,21 +70,21 @@ struct ChipGroupInterface1480 {
 
   build() {
     Column() {
-      Text("ChipGroup组件，suffix参数的src参数设置为resource类型").fontSize(16).margin({ top: 20, bottom: 10 })
+      Text('ChipGroup组件，suffix参数的src参数设置为resource类型').fontSize(16).margin({ top: 20, bottom: 10 })
 
-      Text("apppng").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('apppng').fontSize(14).margin({ top: 10, bottom: 5 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -98,19 +98,19 @@ struct ChipGroupInterface1480 {
         },
       }).margin(20)
 
-      Text("appsvg").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('appsvg').fontSize(14).margin({ top: 10, bottom: 5 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -124,19 +124,19 @@ struct ChipGroupInterface1480 {
         },
       }).margin(20)
 
-      Text("appjpg").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('appjpg').fontSize(14).margin({ top: 10, bottom: 5 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -150,19 +150,19 @@ struct ChipGroupInterface1480 {
         },
       }).margin(20)
 
-      Text("appgif").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('appgif').fontSize(14).margin({ top: 10, bottom: 5 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -176,19 +176,19 @@ struct ChipGroupInterface1480 {
         },
       }).margin(20)
 
-      Text("appbmp").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('appbmp').fontSize(14).margin({ top: 10, bottom: 5 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],
@@ -202,19 +202,19 @@ struct ChipGroupInterface1480 {
         },
       }).margin(20)
 
-      Text("appmp4").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('appmp4').fontSize(14).margin({ top: 10, bottom: 5 })
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
         ],

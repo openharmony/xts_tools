@@ -23,89 +23,89 @@ struct ChipGroupInterface1590 {
 
   build() {
     Column() {
-      Text("ChipGroup组件，items参数").fontSize(16).margin({ top: 20, bottom: 10 })
+      Text('ChipGroup组件，items参数').fontSize(16).margin({ top: 20, bottom: 10 })
       
       // 第一组ChipGroup - 包含多个chip，超出屏幕宽度
       ChipGroup({
         items: [
           {
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             allowClose: false
           },
           {
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             allowClose: false
           },
           {
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             allowClose: false
           },
           {
-            label: { text: "选项4" },
+            label: { text: '选项4' },
             allowClose: false
           },
           {
-            label: { text: "选项5" },
+            label: { text: '选项5' },
             allowClose: false
           },
           {
-            label: { text: "选项6" },
+            label: { text: '选项6' },
             allowClose: false
           },
           {
-            label: { text: "选项7" },
+            label: { text: '选项7' },
             allowClose: false
           },
           {
-            label: { text: "选项8" },
+            label: { text: '选项8' },
             allowClose: false
           },
           {
-            label: { text: "选项9" },
+            label: { text: '选项9' },
             allowClose: false
           },
           {
-            label: { text: "选项10" },
+            label: { text: '选项10' },
             allowClose: false
           },
           {
-            label: { text: "选项11" },
+            label: { text: '选项11' },
             allowClose: false
           },
           {
-            label: { text: "选项12" },
+            label: { text: '选项12' },
             allowClose: false
           },
           {
-            label: { text: "选项13" },
+            label: { text: '选项13' },
             allowClose: false
           },
           {
-            label: { text: "选项14" },
+            label: { text: '选项14' },
             allowClose: false
           },
           {
-            label: { text: "选项15" },
+            label: { text: '选项15' },
             allowClose: false
           },
           {
-            label: { text: "选项16" },
+            label: { text: '选项16' },
             allowClose: false
           },
           {
-            label: { text: "选项17" },
+            label: { text: '选项17' },
             allowClose: false
           },
           {
-            label: { text: "选项18" },
+            label: { text: '选项18' },
             allowClose: false
           },
           {
-            label: { text: "选项19" },
+            label: { text: '选项19' },
             allowClose: false
           },
           {
-            label: { text: "选项20" },
+            label: { text: '选项20' },
             allowClose: false
           }
         ],

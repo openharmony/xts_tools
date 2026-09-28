@@ -26,25 +26,25 @@ struct ChipGroupInterface0750 {
         items: [
           {
             prefixIcon: { src: $r('app.media.icon') },
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             suffixIcon: { src: $r('app.media.icon') },
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon') },
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             suffixIcon: { src: $r('app.media.icon')},
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon') },
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             suffixIcon: { src: $r('app.media.icon') },
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon') },
-            label: { text: "选项4" },
+            label: { text: '选项4' },
             suffixIcon: { src: $r('app.media.icon') },
             allowClose: false
           },

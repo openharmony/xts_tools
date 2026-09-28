@@ -26,30 +26,30 @@ struct ChipGroupInterface0710 {
         items: [
           {
             prefixIcon: { src: $r('app.media.icon'), size: { width:'5px' } },
-            label: { text: "选项1" },
+            label: { text: '选项1' },
             suffixIcon: { src: $r('app.media.icon') , size: { width:'5px' }},
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon'), size: { width:'5px' } },
-            label: { text: "选项2" },
+            label: { text: '选项2' },
             suffixIcon: { src: $r('app.media.icon') , size: { width:'5px' }},
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon') , size: { width:'5px' }},
-            label: { text: "选项3" },
+            label: { text: '选项3' },
             suffixIcon: { src: $r('app.media.icon'), size: {  width:'5px' } },
             allowClose: false
           },
           {
             prefixIcon: { src: $r('app.media.icon'), size: {  width:'5px' } },
-            label: { text: "选项4" },
+            label: { text: '选项4' },
             suffixIcon: { src: $r('app.media.icon') , size: {  width:'5px' }},
             allowClose: false
           },
           {
-            label: { text: "" },
+            label: { text: '' },
             allowClose: false
           },
         ],

@@ -23,39 +23,39 @@ struct ChipGroupInterface1750 {
   @State selected_index2: number[] = []
   @State selected_index3: number[] = []
   @State selected_index4: number[] = []
-  @State groupButtonText: string = "1组"
-  @State multipleButtonText: string = "true"
-  @State allSelectedButtonText: string = "全"
+  @State groupButtonText: string = '1组'
+  @State multipleButtonText: string = 'true'
+  @State allSelectedButtonText: string = '全'
   @State multipleValue: boolean = true
 
   build() {
     Column() {
       Button(this.groupButtonText).onClick(() => {
         switch (this.groupButtonText) {
-          case "1组":
-            this.groupButtonText = "2组"
+          case '1组':
+            this.groupButtonText = '2组'
             break
-          case "2组":
-            this.groupButtonText = "3组"
+          case '2组':
+            this.groupButtonText = '3组'
             break
-          case "3组":
-            this.groupButtonText = "4组"
+          case '3组':
+            this.groupButtonText = '4组'
             break
-          case "4组":
-            this.groupButtonText = "1组"
+          case '4组':
+            this.groupButtonText = '1组'
             break
         }
       }).margin(20)
 
       // multiple 控制按钮
       Row() {
-        Text("multiple:").fontSize(14).margin({ right: 10 })
+        Text('multiple:').fontSize(14).margin({ right: 10 })
         Button(this.multipleButtonText).onClick(() => {
-          if (this.multipleButtonText === "true") {
-            this.multipleButtonText = "false"
+          if (this.multipleButtonText === 'true') {
+            this.multipleButtonText = 'false'
             this.multipleValue = false
           } else {
-            this.multipleButtonText = "true"
+            this.multipleButtonText = 'true'
             this.multipleValue = true
           }
         }).margin({ left: 10 }).width(60).height(40)
@@ -63,9 +63,9 @@ struct ChipGroupInterface1750 {
 
       // selectedIndexes 控制按钮
       Row() {
-        Text("selectedIndexes:").fontSize(14).margin({ right: 10 })
+        Text('selectedIndexes:').fontSize(14).margin({ right: 10 })
         Button(this.allSelectedButtonText).onClick(() => {
-          if (this.allSelectedButtonText === "全") {
+          if (this.allSelectedButtonText === '全') {
             // 设置所有索引为选中状态
             this.selected_index4 = [0, 1, 2]
           } else {
@@ -74,13 +74,13 @@ struct ChipGroupInterface1750 {
         }).margin({ left: 10 }).width(50).height(40)
       }.margin({ bottom: 10 })
 
-      if (this.groupButtonText === "1组" || this.groupButtonText === "2组" || this.groupButtonText === "3组" || this.groupButtonText === "4组") {
-        Text("第一组ChipGroup").fontSize(14).margin({ top: 10, bottom: 5 })
+      if (this.groupButtonText === '1组' || this.groupButtonText === '2组' || this.groupButtonText === '3组' || this.groupButtonText === '4组') {
+        Text('第一组ChipGroup').fontSize(14).margin({ top: 10, bottom: 5 })
         ChipGroup({
           items: [
-            { label: { text: "选项1" }, allowClose: false },
-            { label: { text: "选项2" }, allowClose: false },
-            { label: { text: "选项3" }, allowClose: false }
+            { label: { text: '选项1' }, allowClose: false },
+            { label: { text: '选项2' }, allowClose: false },
+            { label: { text: '选项3' }, allowClose: false }
           ],
           selectedIndexes: this.selected_index1,
           multiple: true,
@@ -92,13 +92,13 @@ struct ChipGroupInterface1750 {
         }).margin(20)
       }
 
-      if (this.groupButtonText === "2组" || this.groupButtonText === "3组" || this.groupButtonText === "4组") {
-        Text("第二组ChipGroup").fontSize(14).margin({ top: 10, bottom: 5 })
+      if (this.groupButtonText === '2组' || this.groupButtonText === '3组' || this.groupButtonText === '4组') {
+        Text('第二组ChipGroup').fontSize(14).margin({ top: 10, bottom: 5 })
         ChipGroup({
           items: [
-            { label: { text: "选项A" }, allowClose: false },
-            { label: { text: "选项B" }, allowClose: false },
-            { label: { text: "选项C" }, allowClose: false }
+            { label: { text: '选项A' }, allowClose: false },
+            { label: { text: '选项B' }, allowClose: false },
+            { label: { text: '选项C' }, allowClose: false }
           ],
           selectedIndexes: this.selected_index2,
           multiple: true,
@@ -110,13 +110,13 @@ struct ChipGroupInterface1750 {
         }).margin(20)
       }
 
-      if (this.groupButtonText === "3组" || this.groupButtonText === "4组") {
-        Text("第三组ChipGroup").fontSize(14).margin({ top: 10, bottom: 5 })
+      if (this.groupButtonText === '3组' || this.groupButtonText === '4组') {
+        Text('第三组ChipGroup').fontSize(14).margin({ top: 10, bottom: 5 })
         ChipGroup({
           items: [
-            { label: { text: "项目1" }, allowClose: false },
-            { label: { text: "项目2" }, allowClose: false },
-            { label: { text: "项目3" }, allowClose: false }
+            { label: { text: '项目1' }, allowClose: false },
+            { label: { text: '项目2' }, allowClose: false },
+            { label: { text: '项目3' }, allowClose: false }
           ],
           selectedIndexes: this.selected_index3,
           multiple: true,
@@ -128,13 +128,13 @@ struct ChipGroupInterface1750 {
         }).margin(20)
       }
 
-      if (this.groupButtonText === "4组") {
-        Text("第四组ChipGroup - multiple测试").fontSize(14).margin({ top: 10, bottom: 5 })
+      if (this.groupButtonText === '4组') {
+        Text('第四组ChipGroup - multiple测试').fontSize(14).margin({ top: 10, bottom: 5 })
         ChipGroup({
           items: [
-            { label: { text: "测试1" }, allowClose: false },
-            { label: { text: "测试2" }, allowClose: false },
-            { label: { text: "测试3" }, allowClose: false }
+            { label: { text: '测试1' }, allowClose: false },
+            { label: { text: '测试2' }, allowClose: false },
+            { label: { text: '测试3' }, allowClose: false }
           ],
           selectedIndexes: this.selected_index4,
           multiple: this.multipleValue,
