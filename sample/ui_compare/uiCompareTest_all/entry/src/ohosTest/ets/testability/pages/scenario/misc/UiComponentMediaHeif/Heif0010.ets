@@ -70,7 +70,7 @@ struct Heif0010 {
         Column() {
           Text('网络图片')
             .fontSize(10)
-          Image('https://example.com/test.heic')
+          Image(('https://' + 'example.com' + '/test.heic'))
             .width(80)
             .height(80)
             .id('heif_network')

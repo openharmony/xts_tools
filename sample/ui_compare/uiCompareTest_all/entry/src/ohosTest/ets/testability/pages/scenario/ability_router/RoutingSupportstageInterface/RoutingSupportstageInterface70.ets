@@ -14,7 +14,7 @@
  */
 import { router } from '@kit.ArkUI'
 import { BusinessError } from '@kit.BasicServicesKit';
-class routerParams {
+class RouterParams {
   data1:string
 
   constructor(str:string) {
@@ -23,7 +23,7 @@ class routerParams {
 }
 @Entry
 @Component
-struct routerPage70 {
+struct RouterPage70 {
 
 
   build() {
@@ -33,7 +33,7 @@ struct routerPage70 {
           try {
             router.replaceUrl({
               url: 'pages/RoutingSupportstageInterface/RoutingSupportstageInterface70_copy',
-              params: new routerParams('message')
+              params: new RouterParams('message')
             }, router.RouterMode.Standard)
           } catch (err) {
             console.error(`replaceUrl failed, code is ${(err as BusinessError).code}, message is ${(err as BusinessError).message}`);

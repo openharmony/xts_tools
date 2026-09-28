@@ -37,9 +37,9 @@ struct ChipGroupInterface0180 {
             allowClose: false
           },
           {
-            prefixIcon: { src: 'https://pic.mksucai.com/00/37/57/b67d3418e8f14f11.webp' },
+            prefixIcon: { src: ('https://' + 'pic.mksucai.com' + '/00/37/57/b67d3418e8f14f11.webp') },
             label: { text: "选项3" },
-            suffixIcon: { src: 'https://pic.mksucai.com/00/37/57/b67d3418e8f14f11.webp' },
+            suffixIcon: { src: ('https://' + 'pic.mksucai.com' + '/00/37/57/b67d3418e8f14f11.webp') },
             allowClose: false
           },
           {

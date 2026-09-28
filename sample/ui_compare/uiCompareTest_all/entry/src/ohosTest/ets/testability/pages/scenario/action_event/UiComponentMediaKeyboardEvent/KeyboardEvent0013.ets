@@ -71,7 +71,9 @@ struct KeyboardEvent0013 {
               this.addLog('胶囊Progress 获得焦点')
             })
             .onBlur(() => {
-              if (this.focusedIndex === 1) this.focusedIndex = -1
+              if (this.focusedIndex === 1) {
+                this.focusedIndex = -1
+              }
               this.addLog('胶囊Progress 失去焦点')
             })
             .onKeyEvent((event: KeyEvent) => {
@@ -103,7 +105,9 @@ struct KeyboardEvent0013 {
               this.addLog('线性Progress 获得焦点')
             })
             .onBlur(() => {
-              if (this.focusedIndex === 2) this.focusedIndex = -1
+              if (this.focusedIndex === 2) {
+                this.focusedIndex = -1
+              }
               this.addLog('线性Progress 失去焦点')
             })
         }

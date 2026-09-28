@@ -51,12 +51,12 @@ struct ReusableChildComponent {
         console.info(`request image success, size: ${imgData.byteLength}`);
         let imgSource: image.ImageSource = image.createImageSource(imgData);
 
-        class sizeTmp {
+        class SizeTmp {
           public height: number = 100
           public width: number = 100
         }
 
-        let options: Record<string, number | boolean | sizeTmp> = {
+        let options: Record<string, number | boolean | SizeTmp> = {
           'alphaType': 0,
           'editable': false,
           'pixelFormat': 3,

@@ -14,20 +14,20 @@
  */
 @Entry
 @ComponentV2
-struct Index_110 {
+struct Index110 {
   build() {
     Column() {
-      ReusableV2Component_110()
+      ReusableV2Component110()
         .reuse({reuseId: () => 'reuseComponent'}) // 使用'reuseComponent'作为reuseId
-      ReusableV2Component_110()
+      ReusableV2Component110()
         .reuse({reuseId: () => 'reuseComponent'}) // 使用空字符串将默认使用组件名'ReusableV2Component'作为reuseId
-      ReusableV2Component_110() // 未指定reuseId将默认使用组件名'ReusableV2Component'作为reuseId
+      ReusableV2Component110() // 未指定reuseId将默认使用组件名'ReusableV2Component'作为reuseId
     }
   }
 }
 @ReusableV2
 @ComponentV2
-struct ReusableV2Component_110 {
+struct ReusableV2Component110 {
   build() {
     Button().onClick(()=>{}).id('btn')
   }

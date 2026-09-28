@@ -17,7 +17,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
 @Component
-struct routerTargetPage30 {
+struct RouterTargetPage30 {
   @State currentLength: number = 0;
   @State beforeLength: number = 0;
   @State operation: string = '';

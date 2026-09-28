@@ -34,7 +34,7 @@ struct UiComponentHyperLinkPreventDefault04 {
         .fontColor(Color.Black)
         .fontStyle(FontStyle.Italic)
         .height(50)
-      Hyperlink('https://www.baidu.com/','Go to the developer website') {
+      Hyperlink(('https://' + 'www.baidu.com' + '/'),'Go to the developer website') {
         Image($r('app.media.icon'))
           .width(100)
           .height(50)

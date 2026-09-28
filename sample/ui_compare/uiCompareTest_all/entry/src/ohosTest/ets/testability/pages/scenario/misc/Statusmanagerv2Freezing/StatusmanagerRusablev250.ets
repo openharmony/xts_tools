@@ -14,7 +14,7 @@
  */
 @Entry
 @ComponentV2
-struct Index_re250 {
+struct IndexRe250 {
   @Local condition: boolean = true;
   build() {
     Column() {

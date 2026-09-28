@@ -45,7 +45,9 @@ struct MenuPageOneDefaultFocus {
           .backgroundColor(this.focusedId === item.id ? '#2196F3' : '#FFFFFF')
           .onFocus(() => this.focusedId = item.id)
           .onClick(() => {
-            if (item.hasSub) this.subMenuVisible = true
+            if (item.hasSub) {
+              this.subMenuVisible = true
+            }
           })
       })
     }

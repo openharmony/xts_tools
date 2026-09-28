@@ -14,7 +14,7 @@
  */
 @Entry
 @ComponentV2
-struct TabContentTest_230 {
+struct TabContentTest230 {
   @Local message: number = 0;
   @Local data: number[] = [0, 1];
 
@@ -32,7 +32,7 @@ struct TabContentTest_230 {
         Tabs() {
           ForEach(this.data, (item: number) => {
             TabContent() {
-              FreezeChild_230({ message: this.message, index: item })
+              FreezeChild230({ message: this.message, index: item })
             }.tabBar(`tab${item}`)
           }, (item: number) => item.toString())
         }
@@ -44,7 +44,7 @@ struct TabContentTest_230 {
 }
 
 @ComponentV2({ freezeWhenInactive: true })
-struct FreezeChild_230 {
+struct FreezeChild230 {
   @Param message: number = 0;
   @Param index: number = 0;
 

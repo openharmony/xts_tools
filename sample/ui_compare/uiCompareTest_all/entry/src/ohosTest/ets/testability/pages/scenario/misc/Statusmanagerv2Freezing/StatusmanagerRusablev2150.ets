@@ -26,8 +26,8 @@ struct Index150 {
           .template('a', (ri) => {
             ListItem() {
               Column() {
-                //ReusableV2Component_150({ val: ri.item}) // 暂不支持，编译期报错
-                //ReusableV2Builder(ri.item) // 暂不支持，运行时报错
+                //ReusableV2Component150({ val: ri.item}) // 暂不支持，编译期报错
+                //reusableV2Builder(ri.item) // 暂不支持，运行时报错
                 NormalV2Component({ val: ri.item}) // 支持普通V2自定义组件下面包含V2复用组件
               }
             }
@@ -40,16 +40,16 @@ struct Index150 {
 struct NormalV2Component {
   @Require @Param val: number;
   build() {
-    ReusableV2Component_150({ val: this.val })
+    ReusableV2Component150({ val: this.val })
   }
 }
 @Builder
-function ReusableV2Builder(param: number) {
-  ReusableV2Component_150({ val: param })
+function reusableV2Builder(param: number) {
+  ReusableV2Component150({ val: param })
 }
 @ReusableV2
 @ComponentV2
-struct ReusableV2Component_150 {
+struct ReusableV2Component150 {
   @Require @Param val: number;
   build() {
     Column() {

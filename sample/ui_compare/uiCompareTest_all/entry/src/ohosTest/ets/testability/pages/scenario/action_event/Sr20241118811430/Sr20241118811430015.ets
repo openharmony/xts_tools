@@ -179,10 +179,18 @@ class SetLayoutPositionNodeController extends NodeController {
       for (let i = 0; i < this.childNodes.length; i++) {
         // 模拟获取每个节点的布局位置
         let position: PositionInfo = { x: 25 + i * 15, y: 20 + i * 10 };
-        if (position.x < minX) minX = position.x;
-        if (position.y < minY) minY = position.y;
-        if (position.x > maxX) maxX = position.x;
-        if (position.y > maxY) maxY = position.y;
+        if (position.x < minX) {
+          minX = position.x;
+        }
+        if (position.y < minY) {
+          minY = position.y;
+        }
+        if (position.x > maxX) {
+          maxX = position.x;
+        }
+        if (position.y > maxY) {
+          maxY = position.y;
+        }
       }
       this.logCallback?.(`计算布局位置边界: (${minX}, ${minY}) 到 (${maxX}, ${maxY})`);
     } else {

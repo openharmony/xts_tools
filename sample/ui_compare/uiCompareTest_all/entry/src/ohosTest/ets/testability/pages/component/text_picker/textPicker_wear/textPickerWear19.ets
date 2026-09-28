@@ -17,7 +17,7 @@ import { LengthMetrics } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct textPickerWear19 {
+struct TextPickerWear19 {
   @State selectedIndex: number[] = [3, 1];
   private multiOptions: string[][] = [
     ['选项1', '选项2', '选项3', '选项4', '选项5'],

@@ -19,7 +19,7 @@
  */
 @Entry
 @Component
-struct refreshInterconnection01 {
+struct RefreshInterconnection01 {
   @State isRefreshing: boolean = false;
   @State currentIndex: number = 0;
   private swiperController: SwiperController = new SwiperController();

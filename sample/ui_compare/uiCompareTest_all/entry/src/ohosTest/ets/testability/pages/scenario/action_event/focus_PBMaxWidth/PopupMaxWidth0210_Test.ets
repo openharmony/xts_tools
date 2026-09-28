@@ -18,13 +18,13 @@ import { Popup, PopupTextOptions, PopupButtonOptions, PopupIconOptions, router }
 
 @Entry
 @Component
-struct PopupMaxWidth0210_Test {
+struct PopupMaxWidth0210Test {
   aboutToAppear() {
-    console.info('PopupMaxWidth0210_Test page aboutToAppear');
+    console.info('PopupMaxWidth0210Test page aboutToAppear');
   }
 
   aboutToDisappear() {
-    console.info('PopupMaxWidth0210_Test page aboutToDisappear');
+    console.info('PopupMaxWidth0210Test page aboutToDisappear');
   }
 
   build() {

@@ -196,7 +196,7 @@ struct CustomizeGatherOrNot039 {
             .borderRadius(8)
             .border({
               width: this.selectedItems.has(index) ? 4 : 1,
-              color: this.selectedItems.has(index) ? '#CE93D8' : '#90CAF9'
+              color: this.selectedItems.has(index) ? '#CE93d7' : '#90CAF9'
             })
             .shadow(this.selectedItems.has(index) ? {
               radius: 12,

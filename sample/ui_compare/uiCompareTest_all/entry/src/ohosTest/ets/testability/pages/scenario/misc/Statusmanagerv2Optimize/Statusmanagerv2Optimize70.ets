@@ -28,12 +28,16 @@ struct Index70 {
       Button("change Local")
         .onClick(()=>{
           // 对数据源的更改会同步给子组件
-          if(!this.count)  this.count=0;
-          if(!this.message) this.message="hello"
+          if(!this.count) {
+            this.count=0;
+          }
+          if(!this.message) {
+            this.message="hello"
+          }
           this.flag = !this.flag;
         })
         .id('btn')
-      Child_70({
+      Child70({
         count: this.count,
         message: this.message,
         flag: this.flag
@@ -42,7 +46,7 @@ struct Index70 {
   }
 }
 @ComponentV2
-struct Child_70 {
+struct Child70 {
   @Require @Param count: number|null;
   @Require @Param message: string|undefined;
   @Require @Param flag: boolean;

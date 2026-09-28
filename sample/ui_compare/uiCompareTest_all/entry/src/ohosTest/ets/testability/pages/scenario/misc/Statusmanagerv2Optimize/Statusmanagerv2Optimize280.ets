@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-class InnerClass_280 {
+class InnerClass280 {
   public name: string;
   constructor(name: string) {
     this.name = name;
@@ -21,8 +21,8 @@ class InnerClass_280 {
 
 @Entry
 @ComponentV2
-struct MyComponent_280 {
-  @Local outerObj:InnerClass_280  =  new InnerClass_280("初始值") ;
+struct MyComponent280 {
+  @Local outerObj:InnerClass280  =  new InnerClass280("初始值") ;
 
   build() {
     Column() {

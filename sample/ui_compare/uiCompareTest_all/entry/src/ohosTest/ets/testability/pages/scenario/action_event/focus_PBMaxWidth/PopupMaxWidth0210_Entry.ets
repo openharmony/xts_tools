@@ -16,7 +16,7 @@ import { router } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct PopupMaxWidth0210_Entry {
+struct PopupMaxWidth0210Entry {
   build() {
     Column() {
       Text('返回再进入测试 - 入口页面')

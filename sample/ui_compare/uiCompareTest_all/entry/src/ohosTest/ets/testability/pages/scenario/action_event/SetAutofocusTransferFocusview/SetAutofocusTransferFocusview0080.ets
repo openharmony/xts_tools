@@ -53,7 +53,7 @@ struct PageThree0080 {
 }
 
 @Builder
-export function PageThreeBuilder0080() {
+export function pageThreeBuilder0080() {
   PageThree0080()
 }
 
@@ -67,7 +67,7 @@ struct SetAutofocusTransferFocusview0080 {
   @Builder
   navDestinationBuilder(name: string) {
     if (name === 'PageThree') {
-      PageThreeBuilder0080()
+      pageThreeBuilder0080()
     }
   }
 

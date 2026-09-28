@@ -127,7 +127,7 @@ struct BlockageDrag1020 {
           }
           .width('16.67%')
           .height('8.2%')
-          .backgroundColor('#607D8B')
+          .backgroundColor('#607d7B')
           .borderRadius(12)
           .justifyContent(FlexAlign.Center)
           .onClick(() => {

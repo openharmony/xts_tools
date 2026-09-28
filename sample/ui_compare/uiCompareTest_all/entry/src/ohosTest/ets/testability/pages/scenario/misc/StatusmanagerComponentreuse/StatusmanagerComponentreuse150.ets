@@ -20,7 +20,7 @@ struct ReusableConditionalExample {
     Column() {
       Button('回收/复用').onClick(()=>{this.condition=!this.condition;}).id('btn') // 点击切换回收/复用状态
       if (this.condition) {
-        ReusableV2Component_re150()
+        ReusableV2ComponentRe150()
       }
     }
   }
@@ -29,7 +29,7 @@ struct ReusableConditionalExample {
 // 可复用组件定义
 @ReusableV2
 @ComponentV2
-struct ReusableV2Component_re150 {
+struct ReusableV2ComponentRe150 {
 
   @Local message: string = 'Hello World';
   aboutToRecycle() {

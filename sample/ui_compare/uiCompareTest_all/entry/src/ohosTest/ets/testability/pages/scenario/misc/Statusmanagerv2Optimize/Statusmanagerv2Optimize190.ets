@@ -15,7 +15,7 @@
 
 // 数据模型
 @ObservedV2
-class AppData_190 {
+class AppData190 {
   @Trace current: undefined = undefined;
 
   // 计算属性（根据联合类型动态返回描述）
@@ -27,8 +27,8 @@ class AppData_190 {
 // 主组件
 @Entry
 @ComponentV2
-struct MainPage_190 {
-  appData: AppData_190 = new AppData_190();
+struct MainPage190 {
+  appData: AppData190 = new AppData190();
 
   build() {
     Column() {

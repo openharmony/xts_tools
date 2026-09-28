@@ -14,7 +14,7 @@
  */
 @Entry
 @ComponentV2
-struct TabContentTest_240_copy {
+struct TabContentTest240Copy {
   @Local message: number = 0;
   @Local data: number[] = [0, 1];
 
@@ -31,7 +31,7 @@ struct TabContentTest_240_copy {
         Tabs() {
           ForEach(this.data, (item: number) => {
             TabContent() {
-              FreezeChild_240_copy({ message: this.message, index: item })
+              FreezeChild240Copy({ message: this.message, index: item })
             }.tabBar(`tab${item}`)
           }, (item: number) => item.toString())
         }
@@ -43,7 +43,7 @@ struct TabContentTest_240_copy {
 }
 
 @ComponentV2({ freezeWhenInactive: true })
-struct FreezeChild_240_copy {
+struct FreezeChild240Copy {
   @Param message: number = 0;
   @Param index: number = 0;
 

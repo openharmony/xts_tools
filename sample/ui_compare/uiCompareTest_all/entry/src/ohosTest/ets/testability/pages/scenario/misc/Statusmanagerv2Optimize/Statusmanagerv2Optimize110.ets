@@ -13,10 +13,10 @@
  * limitations under the License.
  */
 type MixedType_110 = number | boolean | string | null | undefined | (() => void);
-enum LoginType_110 { pass = "密码登录", code = "验证码登录" }
+enum LoginType110 { pass = "密码登录", code = "验证码登录" }
 @Component
-struct CompD_110 {
-  @Consume flag: MixedType_110 | LoginType_110 ;
+struct CompD110 {
+  @Consume flag: MixedType_110 | LoginType110 ;
 
   build() {
     Column() {
@@ -28,8 +28,8 @@ struct CompD_110 {
 
 @Entry
 @Component
-struct CompA_110 {
-  @Provide flag: MixedType_110 | LoginType_110 = undefined;
+struct CompA110 {
+  @Provide flag: MixedType_110 | LoginType110 = undefined;
 
   build() {
     Column() {
@@ -46,11 +46,11 @@ struct CompA_110 {
           } else if (current instanceof Function) {
             this.flag = null;
           } else {
-            this.flag = LoginType_110.pass; // 枚举值
+            this.flag = LoginType110.pass; // 枚举值
           }
         })
         .id('btn')
-      CompD_110()
+      CompD110()
     }
   }
 }

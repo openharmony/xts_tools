@@ -44,7 +44,7 @@ function buildTextTimer(config: TextTimerConfiguration) {
 
 @Entry
 @Component
-struct textTimer01 {
+struct TextTimer01 {
   @State count: number = 10000;
   @State myTimerModifier: MyTextTimerModifier = new MyTextTimerModifier();
   @State format: string = 'SS';

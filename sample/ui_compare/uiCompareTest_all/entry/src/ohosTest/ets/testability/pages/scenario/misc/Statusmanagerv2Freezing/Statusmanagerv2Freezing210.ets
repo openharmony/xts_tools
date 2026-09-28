@@ -113,11 +113,11 @@ struct MyNavigationTestStack {
   @Builder
   PageMap(name: string) {
     if (name === 'pageOne') {
-      pageOneStack({ message: this.message, logNumber: this.logNumber })
+      PageOneStack({ message: this.message, logNumber: this.logNumber })
     } else if (name === 'pageTwo') {
-      pageTwoStack({ message: this.message, logNumber: this.logNumber })
+      PageTwoStack({ message: this.message, logNumber: this.logNumber })
     } else if (name === 'pageThree') {
-      pageThreeStack({ message: this.message, logNumber: this.logNumber })
+      PageThreeStack({ message: this.message, logNumber: this.logNumber })
     }
   }
 
@@ -146,7 +146,7 @@ struct MyNavigationTestStack {
 }
 
 @Component
-struct pageOneStack {
+struct PageOneStack {
   @Consume('pageInfo') pageInfo: NavPathStack;
   @State index: number = 1;
   @Link message: number;
@@ -183,7 +183,7 @@ struct pageOneStack {
 }
 
 @Component
-struct pageTwoStack {
+struct PageTwoStack {
   @Consume('pageInfo') pageInfo: NavPathStack;
   @State index: number = 2;
   @Link message: number;
@@ -220,7 +220,7 @@ struct pageTwoStack {
 }
 
 @Component
-struct pageThreeStack {
+struct PageThreeStack {
   @Consume('pageInfo') pageInfo: NavPathStack;
   @State index: number = 3;
   @Link message: number;

@@ -166,7 +166,7 @@ struct CustomizeGatherOrNot035 {
                 if (this.dragCount > 0 && this.selectedItems.has(index)) {
                   Text(`x${this.dragCount}`)
                     .fontSize(10)
-                    .fontColor('#D84315')
+                    .fontColor('#d74315')
                     .fontWeight(FontWeight.Bold)
                 }
               }
@@ -178,11 +178,11 @@ struct CustomizeGatherOrNot035 {
             .borderRadius(8)
             .border({
               width: this.selectedItems.has(index) ? 4 : 1,
-              color: this.selectedItems.has(index) ? '#D84315' : '#90CAF9'
+              color: this.selectedItems.has(index) ? '#d74315' : '#90CAF9'
             })
             .shadow(this.selectedItems.has(index) ? {
               radius: 12,
-              color: '#D84315',
+              color: '#d74315',
               offsetX: 0,
               offsetY: 3
             } : null)

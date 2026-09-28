@@ -14,7 +14,7 @@
  */
 
 @ObservedV2
-class DataModel_200 {
+class DataModel200 {
   // 原始状态（需响应式更新）
   @Trace arrayData: string[] = ['A', 'B'];
   @Trace setData: Set<number> = new Set([1, 2]);
@@ -46,8 +46,8 @@ class DataModel_200 {
 }
 @Entry
 @ComponentV2
-struct Index_200 {
-  data: DataModel_200 = new DataModel_200();
+struct Index200 {
+  data: DataModel200 = new DataModel200();
 
   refreshAll() {
     this.data.arrayData.push('C')

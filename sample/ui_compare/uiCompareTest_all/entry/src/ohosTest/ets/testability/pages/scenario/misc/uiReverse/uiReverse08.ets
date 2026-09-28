@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct uiReverse08 {
+struct UiReverse08 {
   @State text: string = '';
   @State positionInfo: CaretOffset = { index: 0, x: 0, y: 0 };
   @State onFocusTest: string = 'onBlur';
@@ -62,7 +62,7 @@ struct uiReverse08 {
       .reverse(this.reverse)
 
       Button('reverse = false')
-        .id('uiReverse08')
+        .id('UiReverse08')
         .height(40)
         .fontSize(15)
         .fontColor(Color.Black)

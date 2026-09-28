@@ -16,7 +16,7 @@ import { hilog } from '@kit.PerformanceAnalysisKit';
 
 @Entry
 @Component
-struct routerPage70_copy {
+struct RouterPage70Copy {
   aboutToAppear() {
     hilog.info(0x0000, 'testTag', '%{public}s', 'TestAbility index aboutToAppear');
   }

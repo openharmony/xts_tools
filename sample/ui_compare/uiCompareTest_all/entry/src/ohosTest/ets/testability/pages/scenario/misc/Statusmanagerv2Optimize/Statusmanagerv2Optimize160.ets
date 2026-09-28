@@ -14,7 +14,7 @@
  */
 
 @Component
-struct CompD_160 {
+struct CompD160 {
   @Consume selectedDate: Date;
   @Consume message: Map<number, string>
   @Consume message_set: Set<number>
@@ -33,7 +33,7 @@ struct CompD_160 {
 
 @Entry
 @Component
-struct CompA_160 {
+struct CompA160 {
   @Provide selectedDate: Date = new Date('2021-08-08')
   @Provide message: Map<number, string> = new Map([[0, "a"], [1, "b"], [3, "c"]])
   @Provide message_set: Set<number> = new Set([0, 1, 2, 3, 4])
@@ -49,7 +49,7 @@ struct CompA_160 {
           this.privateArray.push('D')
         })
         .id('btn')
-      CompD_160()
+      CompD160()
     }
   }
 }

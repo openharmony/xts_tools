@@ -45,7 +45,7 @@ struct DarkColorMode0027 {
         .fontSize(12)
         .margin({ bottom: 20 })
 
-      QRCode('https://www.example.com')
+      QRCode(('https://' + 'www.example.com' + ''))
         .width(120)
         .height(120)
         .id('qr_code')

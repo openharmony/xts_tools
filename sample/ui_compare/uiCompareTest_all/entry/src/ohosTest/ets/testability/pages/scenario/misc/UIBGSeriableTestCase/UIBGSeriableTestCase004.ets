@@ -84,7 +84,9 @@ struct ScrollByExample4 {
     const unitRegex = /([+-]?\d+)(vp|px)?/
     const match = value.match(unitRegex)
 
-    if (!match) throw new Error('无效格式')
+    if (!match) {
+      throw new Error('无效格式')
+    }
 
     const numericValue = parseFloat(match[1])
     const unit = match[2] || 'vp'

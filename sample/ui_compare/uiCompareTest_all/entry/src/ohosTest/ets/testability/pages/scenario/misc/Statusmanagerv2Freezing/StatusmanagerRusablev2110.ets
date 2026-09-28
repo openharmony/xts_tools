@@ -38,13 +38,13 @@ struct ReusableV2Component110 {
   build() {
     Column() {
       Text(this.message)
-      ReusableV2Component_111().reuse({reuseId: () => 'reuseComponent_1'})
+      ReusableV2Component111().reuse({reuseId: () => 'reuseComponent_1'})
     }
   }
 }
 @ReusableV2
 @ComponentV2
-struct ReusableV2Component_111 {
+struct ReusableV2Component111 {
   @Local message: string = 'Hello World';
   aboutToRecycle() {
     console.log('ReusableV2Component aboutToRecycle'); // 回收时被调用

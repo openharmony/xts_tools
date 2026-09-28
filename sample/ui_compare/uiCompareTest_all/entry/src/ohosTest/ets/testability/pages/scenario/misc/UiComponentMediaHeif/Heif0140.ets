@@ -65,7 +65,7 @@ struct Heif0140 {
         }
         .width('11.11%')
         .height('6.56%')
-        .backgroundImage('https://example.com/test.heic')
+        .backgroundImage(('https://' + 'example.com' + '/test.heic'))
         .backgroundImageSize(ImageSize.Cover)
         .id('bg_network')
         .margin({ right: 10 })

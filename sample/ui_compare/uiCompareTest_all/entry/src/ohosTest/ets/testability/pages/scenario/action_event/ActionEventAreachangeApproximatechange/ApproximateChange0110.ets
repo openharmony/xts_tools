@@ -108,7 +108,7 @@ struct ApproximateChange0110 {
             .fontWeight(FontWeight.Bold)
             .width('100%')
             .height(150)
-            .backgroundColor('#607D8B')
+            .backgroundColor('#607d7B')
             .textAlign(TextAlign.Center)
             .fontColor(Color.White)
             .borderRadius(8)

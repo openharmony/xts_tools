@@ -14,18 +14,18 @@
  */
 @Entry
 @ComponentV2
-struct Index_re40 {
+struct IndexRe40 {
   build() {
     Column() {
-      ReusableV2Component_40()
-      ReusableV2Component_40()
-      ReusableV2Component_40() // 未指定reuseId将默认使用组件名'ReusableV2Component'作为reuseId
+      ReusableV2Component40()
+      ReusableV2Component40()
+      ReusableV2Component40() // 未指定reuseId将默认使用组件名'ReusableV2Component'作为reuseId
     }
   }
 }
 @ReusableV2
 @ComponentV2
-struct ReusableV2Component_40 {
+struct ReusableV2Component40 {
   build() {
     Button().onClick(()=>{}).id('btn')
   }

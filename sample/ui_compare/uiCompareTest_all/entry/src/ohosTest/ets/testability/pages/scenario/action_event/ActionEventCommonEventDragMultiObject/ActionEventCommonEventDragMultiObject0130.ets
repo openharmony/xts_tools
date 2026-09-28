@@ -50,11 +50,11 @@ struct ActionEventCommonEventDragMultiObject0130 {
                 extraParams: 'touchPoint设置为-1,-1测试',
                 touchPoint: { x: -1, y: -1 }
               }
-              class tmp{
+              class Tmp{
                 event:DragEvent|undefined = undefined
                 public extraParams:string = ''
               }
-              let eve:tmp = new tmp()
+              let eve:Tmp = new Tmp()
               this.getUIContext().getDragController().executeDrag(()=>{this.DraggingBuilder()}, dragInfo, (err, eve) => { // 建议使用 this.getUIContext().getDragController().executeDrag()接口
                 if(eve.event){
                   if (eve.event.getResult() == DragResult.DRAG_SUCCESSFUL) {

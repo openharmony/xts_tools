@@ -35,7 +35,7 @@ struct UiComponentHyperLinkPreventDefault02 {
           .fontColor(Color.Black)
           .fontStyle(FontStyle.Italic)
           .height(100)
-        Hyperlink('https://www.baidu.com/','Go to the developer website') {
+        Hyperlink(('https://' + 'www.baidu.com' + '/'),'Go to the developer website') {
         }
         .id('UiComponentHyperLinkPreventDefault02')
         .onClick((event)=>{

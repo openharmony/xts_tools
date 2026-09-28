@@ -58,7 +58,9 @@ struct KeyboardEvent0010 {
               this.addLog('Image1 获得焦点')
             })
             .onBlur(() => {
-              if (this.focusedIndex === 0) this.focusedIndex = -1
+              if (this.focusedIndex === 0) {
+                this.focusedIndex = -1
+              }
               this.addLog('Image1 失去焦点')
             })
             .onKeyEvent((event: KeyEvent) => {
@@ -80,7 +82,9 @@ struct KeyboardEvent0010 {
               this.addLog('Image2 获得焦点')
             })
             .onBlur(() => {
-              if (this.focusedIndex === 1) this.focusedIndex = -1
+              if (this.focusedIndex === 1) {
+                this.focusedIndex = -1
+              }
               this.addLog('Image2 失去焦点')
             })
             .onKeyEvent((event: KeyEvent) => {
@@ -102,7 +106,9 @@ struct KeyboardEvent0010 {
               this.addLog('Image3 获得焦点')
             })
             .onBlur(() => {
-              if (this.focusedIndex === 2) this.focusedIndex = -1
+              if (this.focusedIndex === 2) {
+                this.focusedIndex = -1
+              }
               this.addLog('Image3 失去焦点')
             })
             .onKeyEvent((event: KeyEvent) => {

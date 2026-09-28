@@ -23,7 +23,7 @@ class Product {
 
 @Entry
 @ComponentV2
-struct Index_op40 {
+struct IndexOp40 {
   product: Product = new Product();
 
   // 刷新 @Local 变量的方法

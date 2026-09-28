@@ -37,7 +37,7 @@ struct ReusableChildComponent {
   @State pixelMapImg: PixelMap | undefined = undefined;
 
   aboutToAppear() {
-    this.requestImageUrl('https://images.openharmony.cn/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg');// 请填写一个具体的网络图片地址
+    this.requestImageUrl(('https://' + 'images.openharmony.cn' + '/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg'));// 请填写一个具体的网络图片地址
   }
 
   requestImageUrl(url: string) {
@@ -49,12 +49,12 @@ struct ReusableChildComponent {
         console.info(`request image success, size: ${imgData.byteLength}`);
         let imgSource: image.ImageSource = image.createImageSource(imgData);
 
-        class sizeTmp {
+        class SizeTmp {
           public height: number = 100
           public width: number = 100
         }
 
-        let options: Record<string, number | boolean | sizeTmp> = {
+        let options: Record<string, number | boolean | SizeTmp> = {
           'alphaType': 0,
           'editable': false,
           'pixelFormat': 3,

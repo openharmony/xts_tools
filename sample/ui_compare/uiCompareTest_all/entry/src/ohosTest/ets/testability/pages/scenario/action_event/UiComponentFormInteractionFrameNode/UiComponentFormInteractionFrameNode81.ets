@@ -36,7 +36,7 @@ class MyNodeController extends NodeController {
       style: SliderStyle.OutSet
     })
       .blockColor('#FF00FF')
-      .trackColor('#ADD8E6')
+      .trackColor('#ADd7E6')
       .showSteps(true)
       .stepSize(8)
       .stepColor(Color.Yellow)
@@ -98,7 +98,7 @@ struct UiComponentFormInteractionFrameNode81 {
           style: SliderStyle.OutSet
         })
           .blockColor('#FF00FF')
-          .trackColor('#ADD8E6')
+          .trackColor('#ADd7E6')
           .showSteps(true)
           .stepSize(8)
           .stepColor(Color.Yellow)

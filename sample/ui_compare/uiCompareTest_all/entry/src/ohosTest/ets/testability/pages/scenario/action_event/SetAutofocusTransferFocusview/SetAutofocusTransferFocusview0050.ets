@@ -92,12 +92,12 @@ struct PageTwo0050 {
 }
 
 @Builder
-export function PageOneBuilder0050() {
+export function pageOneBuilder0050() {
   PageOne0050()
 }
 
 @Builder
-export function PageTwoBuilder0050() {
+export function pageTwoBuilder0050() {
   PageTwo0050()
 }
 
@@ -111,9 +111,9 @@ struct SetAutofocusTransferFocusview0050 {
   @Builder
   navDestinationBuilder(name: string) {
     if (name === 'PageOne') {
-      PageOneBuilder0050()
+      pageOneBuilder0050()
     } else if (name === 'PageTwo') {
-      PageTwoBuilder0050()
+      pageTwoBuilder0050()
     }
   }
 

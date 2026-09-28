@@ -226,7 +226,7 @@ struct ActionEventCommonEventFrameNode11 {
               .fontSize(13)
               .width('100%')
               .height(38)
-              .backgroundColor('#607D8B')
+              .backgroundColor('#607d7B')
               .fontColor('#FFFFFF')
               .onClick(() => {
                 this.frameNode = null;

@@ -25,12 +25,12 @@ struct Child260 {
         .onClick(() => {
           this.message = 'world';
         })
-      Child_261()
+      Child261()
     }
   }
 }
 @Component
-struct Child_261 {
+struct Child261 {
   message: string = "hello";
 
   build() {

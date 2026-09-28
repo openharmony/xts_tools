@@ -18,7 +18,7 @@ import { hilog } from '@kit.PerformanceAnalysisKit';
 
 @Entry
 @Component
-struct monopolize05 {
+struct Monopolize05 {
   @State message: string = 'RECONSTRUCTION'
   @State stdResult:string = ''
   @State exitCode:number = 0

@@ -32,7 +32,7 @@ function overlayBuilder(params: Params){
 
 @Entry
 @Component
-struct Page_4040 {
+struct Page4040 {
   @State overlayColor: string = 'rgba(0, 0, 0, 0.6)';
   private uiContext: UIContext = this.getUIContext();
   private overlayNode: ComponentContent<Params> = new ComponentContent(this.uiContext, wrapBuilder(overlayBuilder), new Params(this.overlayColor))

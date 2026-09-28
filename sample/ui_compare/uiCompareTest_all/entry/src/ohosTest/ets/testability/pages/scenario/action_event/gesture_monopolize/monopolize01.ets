@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct monopolize01 {
+struct Monopolize01 {
   @State message: string = 'set monopolizeEvents false'
   @State messageOut: string = ' '
   @State messageInner: string = ' '

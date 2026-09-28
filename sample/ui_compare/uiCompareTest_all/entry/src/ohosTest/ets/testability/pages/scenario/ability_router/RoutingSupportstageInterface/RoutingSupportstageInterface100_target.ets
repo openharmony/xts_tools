@@ -16,7 +16,7 @@ import { router } from '@kit.ArkUI'
 
 @Entry
 @Component
-struct routerTargetPage100 {
+struct RouterTargetPage100 {
   @State receivedParams: string = '';
   @State routerStackInfo: string = '';
 
@@ -119,7 +119,7 @@ struct routerTargetPage100 {
           this.updateRouterStackInfo();
         })
         .width('80%')
-        .backgroundColor('#607d8b')
+        .backgroundColor('#607d7b')
         .fontColor('#ffffff')
         .margin({ top: 10 })
 

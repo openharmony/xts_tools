@@ -13,14 +13,14 @@
  * limitations under the License.
  */
 type MixedType = number | boolean | string | null | undefined | (() => void);
-enum LoginType_60 { pass = "密码登录", code = "验证码登录" }
+enum LoginType60 { pass = "密码登录", code = "验证码登录" }
 // 父组件
 @Entry
 @ComponentV2
-struct Index_op60 {
+struct IndexOp60 {
   @Local count: number|null = null;
   @Local message: string|undefined = undefined;
-  @Local flag: MixedType | LoginType_60 = 0;
+  @Local flag: MixedType | LoginType60 = 0;
   // 刷新逻辑
   refreshValue() {
     const current = this.flag;
@@ -33,7 +33,7 @@ struct Index_op60 {
     } else if (current instanceof Function) {
       this.flag = null;
     } else {
-      this.flag = LoginType_60.pass; // 枚举值
+      this.flag = LoginType60.pass; // 枚举值
     }
   }
   build() {
@@ -44,8 +44,12 @@ struct Index_op60 {
       Button("change Local")
         .onClick(()=>{
           // 对数据源的更改会同步给子组件
-          if(!this.count)  this.count=0;
-          if(!this.message) this.message="hello"
+          if(!this.count) {
+            this.count=0;
+          }
+          if(!this.message) {
+            this.message="hello"
+          }
           this.refreshValue()
         })
         .id('btn')
@@ -61,7 +65,7 @@ struct Index_op60 {
 struct Child60 {
   @Require @Param count: number|null;
   @Require @Param message: string|undefined;
-  @Require @Param flag: MixedType | LoginType_60;
+  @Require @Param flag: MixedType | LoginType60;
   build() {
     Column() {
       Text(`Param ${this.count}`)

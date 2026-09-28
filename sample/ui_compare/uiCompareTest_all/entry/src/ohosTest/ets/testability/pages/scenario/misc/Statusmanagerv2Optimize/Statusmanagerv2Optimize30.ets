@@ -14,14 +14,14 @@
  */
 
 @ObservedV2
-class Product_30 {
+class Product30 {
   @Trace price: number | null = null;
 }
 
 @Entry
 @ComponentV2
-struct Index_30 {
-  product: Product_30 = new Product_30();
+struct Index30 {
+  product: Product30 = new Product30();
 
   build() {
     Column() {

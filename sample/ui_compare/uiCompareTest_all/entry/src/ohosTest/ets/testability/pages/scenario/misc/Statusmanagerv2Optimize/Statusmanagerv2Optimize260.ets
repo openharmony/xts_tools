@@ -29,7 +29,7 @@ const name: Name = new Name();
 
 @Entry
 @ComponentV2
-struct Index_260 {
+struct Index260 {
   name1: Name = name;
 
   build() {

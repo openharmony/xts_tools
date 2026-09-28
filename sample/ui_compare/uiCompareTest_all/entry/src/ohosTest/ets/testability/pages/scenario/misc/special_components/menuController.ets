@@ -16,7 +16,7 @@ import uiContext, { ContextMenuController } from '@ohos.arkui.UIContext';
 
 @Entry
 @Component
-struct getContextMenuControllerExample {
+struct GetContextMenuControllerExample {
   menu: ContextMenuController = this.getUIContext().getContextMenuController();
   @State state: string = '111';
 

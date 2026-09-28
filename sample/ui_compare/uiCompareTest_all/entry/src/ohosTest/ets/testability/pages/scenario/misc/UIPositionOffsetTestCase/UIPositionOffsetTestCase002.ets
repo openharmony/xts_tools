@@ -30,7 +30,9 @@ struct PositionExample {
 
   // 有效性校验正则
   private isValid(value: string): boolean {
-    if (value.startsWith('$r')) return true // 假设资源引用有效
+    if (value.startsWith('$r')) {
+      return true // 假设资源引用有效
+    }
     const regex = /^-?\d+(\.\d+)?(px|vp|fp|lpx|%)?$/
     return regex.test(value)
   }

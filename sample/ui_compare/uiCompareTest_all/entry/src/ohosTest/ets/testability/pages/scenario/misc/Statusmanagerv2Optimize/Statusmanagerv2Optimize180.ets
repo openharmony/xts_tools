@@ -43,7 +43,7 @@ class AppData {
 // 主组件
 @Entry
 @ComponentV2
-struct MainPage_180 {
+struct MainPage180 {
   appData: AppData = new AppData();
 
   // 刷新联合类型值

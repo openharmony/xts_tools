@@ -14,22 +14,22 @@
  */
 @Entry
 @ComponentV2
-struct Index_290 {
+struct Index290 {
   @Local condition: boolean = true;
   build() {
     Column() {
       Button('回收/复用').onClick(()=>{this.condition=!this.condition;}) // 点击切换回收/复用状态
       if (this.condition) {
-        ReusableV2Component_290().reuse({reuseId: () => 'reuseComponent'})
+        ReusableV2Component290().reuse({reuseId: () => 'reuseComponent'})
       }else {
-        ReusableV2Component_290().reuse({reuseId: () => 'reuseComponent'})
+        ReusableV2Component290().reuse({reuseId: () => 'reuseComponent'})
       }
     }
   }
 }
 @ReusableV2
 @ComponentV2
-struct ReusableV2Component_290 {
+struct ReusableV2Component290 {
   @Local message: string = 'Hello World';
   aboutToRecycle() {
     console.log('ReusableV2Component aboutToRecycle'); // 回收时被调用

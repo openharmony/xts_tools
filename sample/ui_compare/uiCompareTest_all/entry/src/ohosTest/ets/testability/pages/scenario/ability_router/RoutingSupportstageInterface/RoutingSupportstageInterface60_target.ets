@@ -17,7 +17,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
 @Component
-struct routerTargetPage60 {
+struct RouterTargetPage60 {
   @State receivedParams: string = '';
   @State routerStackInfo: string = '';
   @State testType: string = '';
@@ -218,7 +218,7 @@ struct routerTargetPage60 {
           this.addLog('已刷新页面信息');
         })
         .width('80%')
-        .backgroundColor('#607d8b')
+        .backgroundColor('#607d7b')
         .fontColor('#ffffff')
         .margin({ top: 15 })
 

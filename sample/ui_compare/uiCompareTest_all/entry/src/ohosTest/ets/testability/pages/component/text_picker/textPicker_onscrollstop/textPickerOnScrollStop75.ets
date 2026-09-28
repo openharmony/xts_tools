@@ -17,7 +17,7 @@ import { LengthMetrics } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct textPickerOnScrollStop75 {
+struct TextPickerOnScrollStop75 {
   @State selectedIndex: number = 2;
   @State private eventLog: string = '等待onScrollStop事件触发...';
   private range: string[] = ['选项1', '选项2', '选项3', '选项4', '选项5', '选项6', '选项7', '选项8', '选项9', '选项10'];

@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct monopolize02 {
+struct Monopolize02 {
   private arr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
   @State monopolize: boolean = false
   @State listText1:string = '1111'

@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct uiReverse06 {
+struct UiReverse06 {
   @State text: string = '';
   @State positionInfo: CaretOffset = { index: 0, x: 0, y: 0 };
   @State onFocusTest: string = 'onBlur';

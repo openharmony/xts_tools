@@ -17,7 +17,7 @@ import { router } from '@kit.ArkUI'
 
 @Entry
 @Component
-struct routerPage40_copy {
+struct RouterPage40Copy {
   aboutToAppear() {
     hilog.info(0x0000, 'testTag', '%{public}s', 'TestAbility index aboutToAppear');
   }

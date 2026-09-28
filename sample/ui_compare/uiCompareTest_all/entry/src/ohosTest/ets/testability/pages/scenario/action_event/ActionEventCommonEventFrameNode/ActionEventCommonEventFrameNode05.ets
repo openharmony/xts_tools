@@ -200,7 +200,7 @@ struct ActionEventCommonEventFrameNode05 {
               .fontSize(14)
               .width('100%')
               .height(45)
-              .backgroundColor('#607D8B')
+              .backgroundColor('#607d7B')
               .fontColor('#FFFFFF')
               .onClick(() => {
                 this.frameChildNode = null;

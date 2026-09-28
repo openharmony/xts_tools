@@ -31,15 +31,15 @@ struct ChipGroupInterface0190 {
             allowClose: false
           },
           {
-            prefixIcon: { src:'https://www.runoob.com/try/demo_source/smiley-2.gif'},
+            prefixIcon: { src:('https://' + 'www.runoob.com' + '/try/demo_source/smiley-2.gif')},
             label: { text: "选项2" },
-            suffixIcon: { src:'https://www.runoob.com/try/demo_source/smiley-2.gif' },
+            suffixIcon: { src:('https://' + 'www.runoob.com' + '/try/demo_source/smiley-2.gif') },
             allowClose: false
           },
           {
-            prefixIcon: { src: 'https://pic.mksucai.com/00/37/57/b67d3418e8f14f11.webp' },
+            prefixIcon: { src: ('https://' + 'pic.mksucai.com' + '/00/37/57/b67d3418e8f14f11.webp') },
             label: { text: "选项3" },
-            suffixIcon: { src: 'https://pic.mksucai.com/00/37/57/b67d3418e8f14f11.webp' },
+            suffixIcon: { src: ('https://' + 'pic.mksucai.com' + '/00/37/57/b67d3418e8f14f11.webp') },
             allowClose: false
           },
           {

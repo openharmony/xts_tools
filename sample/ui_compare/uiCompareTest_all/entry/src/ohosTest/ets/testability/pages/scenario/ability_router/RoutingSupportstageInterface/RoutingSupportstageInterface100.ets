@@ -15,7 +15,7 @@
 import { router } from '@kit.ArkUI'
 import { BusinessError } from '@kit.BasicServicesKit';
 
-class innerParams {
+class InnerParams {
   data3:number[]
 
   constructor(tuple:number[]) {
@@ -23,19 +23,19 @@ class innerParams {
   }
 }
 
-class routerParams {
+class RouterParams {
   data1:string
-  data2:innerParams
+  data2:InnerParams
 
   constructor(str:string, tuple:number[]) {
     this.data1 = str
-    this.data2 = new innerParams(tuple)
+    this.data2 = new InnerParams(tuple)
   }
 }
 
 @Entry
 @Component
-struct routerPage100 {
+struct RouterPage100 {
   @State routeStatus: string = '准备进行命名路由跳转';
   @State routerStackInfo: string = '';
 

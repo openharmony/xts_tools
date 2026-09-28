@@ -17,7 +17,7 @@ import { router } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct PreviewAnimation0050_Second {
+struct PreviewAnimation0050Second {
   @State message: string = '第二个页面'
 
   // 页面转场效果

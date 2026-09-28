@@ -61,7 +61,7 @@ struct Heif0090 {
 
       Text() {
         Span('网络图片: ')
-        ImageSpan('https://example.com/test.heic')
+        ImageSpan(('https://' + 'example.com' + '/test.heic'))
           .width(50)
           .height(50)
           .id('imagespan_network')

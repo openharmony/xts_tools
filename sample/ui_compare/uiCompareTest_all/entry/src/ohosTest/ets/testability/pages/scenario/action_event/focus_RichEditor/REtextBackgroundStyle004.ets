@@ -16,7 +16,7 @@
 
 @Entry
 @Component
-struct textBackgroundStyle004 {
+struct TextBackgroundStyle004 {
   controller: RichEditorController = new RichEditorController()
   build() {
     Column() {

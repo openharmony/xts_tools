@@ -19,7 +19,7 @@
  */
 @Entry
 @Component
-struct refreshPromptText02 {
+struct RefreshPromptText02 {
   @State isRefreshing: boolean = false;
   @State arr: string[] = ['项目1', '项目2', '项目3', '项目4', '项目5', '项目6', '项目7', '项目8', '项目9', '项目10'];
   @State refreshOffset: number = 0;

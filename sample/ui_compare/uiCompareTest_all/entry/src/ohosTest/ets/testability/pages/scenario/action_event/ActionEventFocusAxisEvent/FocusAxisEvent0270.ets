@@ -48,10 +48,18 @@ struct FocusAxisEvent0270 {
       }
       
       let activeKeys: string[] = [];
-      if (this.ctrlState) activeKeys.push('Ctrl');
-      if (this.altState) activeKeys.push('Alt');
-      if (this.shiftState) activeKeys.push('Shift');
-      if (this.fnState) activeKeys.push('Fn');
+      if (this.ctrlState) {
+        activeKeys.push('Ctrl');
+      }
+      if (this.altState) {
+        activeKeys.push('Alt');
+      }
+      if (this.shiftState) {
+        activeKeys.push('Shift');
+      }
+      if (this.fnState) {
+        activeKeys.push('Fn');
+      }
       
       this.modifierKeyState = activeKeys.length > 0 ? activeKeys.join('+') : '无';
       this.addLog(`[Modifier] ModifierKeyState: ${this.modifierKeyState}`);

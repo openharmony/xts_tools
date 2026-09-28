@@ -172,8 +172,12 @@ class GetMeasuredSizeNodeController extends NodeController {
       for (let i = 0; i < this.childNodes.length; i++) {
         // 模拟获取每个节点的测量尺寸
         let measuredSize: SizeInfo = { width: 50 + i * 10, height: 28 + i * 5 };
-        if (measuredSize.width > maxWidth) maxWidth = measuredSize.width;
-        if (measuredSize.height > maxHeight) maxHeight = measuredSize.height;
+        if (measuredSize.width > maxWidth) {
+          maxWidth = measuredSize.width;
+        }
+        if (measuredSize.height > maxHeight) {
+          maxHeight = measuredSize.height;
+        }
       }
       this.logCallback?.(`获取最大测量尺寸: ${maxWidth}x${maxHeight}`);
     } else {

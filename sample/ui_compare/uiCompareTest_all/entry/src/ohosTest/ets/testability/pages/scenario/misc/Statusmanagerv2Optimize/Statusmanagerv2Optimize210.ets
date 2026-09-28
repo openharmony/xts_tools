@@ -15,7 +15,7 @@
 
 // 数据模型
 @ObservedV2
-class AppData_210 {
+class AppData210 {
   @Trace current: string = 'hello';
 
   // 计算属性（根据联合类型动态返回描述）
@@ -27,8 +27,8 @@ class AppData_210 {
 // 主组件
 @Entry
 @ComponentV2
-struct MainPage_210 {
-  appData: AppData_210 = new AppData_210();
+struct MainPage210 {
+  appData: AppData210 = new AppData210();
 
   build() {
     Column() {

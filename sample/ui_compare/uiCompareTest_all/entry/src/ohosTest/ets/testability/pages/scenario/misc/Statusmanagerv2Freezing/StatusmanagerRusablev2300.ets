@@ -25,12 +25,12 @@ struct ReusableChild300 {
         .onClick(() => {
           this.message = 'world';
         })
-      Child_302();
+      Child302();
     }
   }
 }
 @Component
-struct Child_302 {
+struct Child302 {
   message: string = "hello";
 
   build() {
@@ -45,7 +45,7 @@ struct Child_302 {
   }
 }
 @Component
-struct Child_301 {
+struct Child301 {
   message: string = "hello";
 
   build() {
@@ -76,7 +76,7 @@ struct Index300 {
         })
       Divider()
         .color(Color.Blue)
-      Child_301()
+      Child301()
     }
     .height('100%')
     .width('100%')

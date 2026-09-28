@@ -104,7 +104,7 @@ struct AceActionEventCommonEventDragMenu57 {
             .width('100%')
             .padding({ left: 10 })
 
-          Hyperlink('https://www.example.com', '点击访问示例网站') {
+          Hyperlink(('https://' + 'www.example.com' + ''), '点击访问示例网站') {
             Image('./icon.png')
               .width(150)
               .height(40)

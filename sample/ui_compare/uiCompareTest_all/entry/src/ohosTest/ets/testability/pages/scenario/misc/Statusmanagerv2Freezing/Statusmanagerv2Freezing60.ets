@@ -116,7 +116,7 @@ struct LforEachTest {
       }).id('button')
       Tabs() {
           LazyForEach(this.data, (item: number) => {
-            FreezeChild_60({ message: this.message, index: item })
+            FreezeChild60({ message: this.message, index: item })
             TabContent() {
               Text("hello")
             }
@@ -127,7 +127,7 @@ struct LforEachTest {
 }
 
 @Component({ freezeWhenInactive: true })
-struct FreezeChild_60 {
+struct FreezeChild60 {
   @Link @Watch("onMessageUpdated") message: number;
   private index: number = 0;
 

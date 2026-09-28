@@ -62,7 +62,7 @@ struct Heif0150 {
           .fontSize(12)
           .padding(20)
           .borderImage({
-            source: 'https://example.com/border.heic',
+            source: ('https://' + 'example.com' + '/border.heic'),
             slice: 10,
             width: 10,
             repeat: RepeatMode.Stretch

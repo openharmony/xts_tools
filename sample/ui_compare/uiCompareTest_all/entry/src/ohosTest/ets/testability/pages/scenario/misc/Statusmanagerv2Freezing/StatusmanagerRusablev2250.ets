@@ -25,13 +25,13 @@ struct ReusableChild250 {
         .onClick(() => {
           this.message = 'world';
         })
-      Child_252()
+      Child252()
     }
   }
 }
 
 @ComponentV2
-struct Child_252 {
+struct Child252 {
   @Local message: string = "hello";
 
   build() {

@@ -88,7 +88,7 @@ struct PreviewBasic0190 {
           style: SliderStyle.InSet
         })
           .blockColor('#191970')
-          .trackColor('#ADD8E6')
+          .trackColor('#ADd7E6')
           .selectedColor('#4169E1')
           .trackThickness(20)
           .blockSize({ width: 16, height: 16 })
@@ -114,7 +114,7 @@ struct PreviewBasic0190 {
           style: SliderStyle.InSet
         })
           .blockColor('#191970')
-          .trackColor('#ADD8E6')
+          .trackColor('#ADd7E6')
           .selectedColor('#4169E1')
           .trackThickness(24)
           .blockSize({ width: 20, height: 20 })
@@ -143,7 +143,7 @@ struct PreviewBasic0190 {
           style: SliderStyle.NONE
         })
           .blockColor('#191970')
-          .trackColor('#ADD8E6')
+          .trackColor('#ADd7E6')
           .selectedColor('#4169E1')
           .trackThickness(8)
           .showTips(true)
