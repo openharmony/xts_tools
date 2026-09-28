@@ -69,7 +69,7 @@ struct UIComponentSpecialComponentsUIContextComponentSnapshot0460 {
           width: 2
         })
 
-      Button("click to generate UI snapshot")
+      Button('click to generate UI snapshot')
         .onClick(() => {
           this.uiContext.getComponentSnapshot()
             .createFromBuilder(() => {
@@ -79,11 +79,11 @@ struct UIComponentSpecialComponentsUIContextComponentSnapshot0460 {
               waitUntilRenderFinished: true
             })
             .then((pixmap: image.PixelMap) => {
-              console.info("generate UI snapshot succeed.");
+              console.info('generate UI snapshot succeed.');
               this.message += '\ngenerate UI snapshot succeed.';
               this.pixmap = pixmap;            })
             .catch((err: Error) => {
-              console.error("generate UI snapshot error: " + JSON.stringify(err));
+              console.error('generate UI snapshot error: ' + JSON.stringify(err));
               this.message += '\nerror: ' + JSON.stringify(err);
             })
         })

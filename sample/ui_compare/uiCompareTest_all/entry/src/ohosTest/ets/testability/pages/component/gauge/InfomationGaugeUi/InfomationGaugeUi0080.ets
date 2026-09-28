@@ -17,16 +17,16 @@
 @Entry
 @Component
 struct InfomationGaugeUi0080 {
-  @State curcolor: Array<[ResourceColor | LinearGradient , number]> = [["rgba(40,94,243,0.62)", 1], ["rgba(231,204,42,0.93)", 1], ["rgba(61,202,137,0.93)", 1], ["rgba(202,18,12,0.93)", 1]]
+  @State curcolor: Array<[ResourceColor | LinearGradient , number]> = [['rgba(40,94,243,0.62)', 1], ['rgba(231,204,42,0.93)', 1], ['rgba(61,202,137,0.93)', 1], ['rgba(202,18,12,0.93)', 1]]
 
   @Builder descriptionBuilder() {
     Text('说明文本')
       .maxFontSize('30sp')
-      .minFontSize("10.0vp")
-      .fontColor("#fffa2a2d")
+      .minFontSize('10.0vp')
+      .fontColor('#fffa2a2d')
       .fontWeight(FontWeight.Medium)
       .width('100%')
-      .height("100%")
+      .height('100%')
       .textAlign(TextAlign.Center)
   }
 
@@ -38,16 +38,16 @@ struct InfomationGaugeUi0080 {
           Text('50')
             .fontWeight(FontWeight.Medium)
             .width('62%')
-            .fontColor("#ff182431")
-            .maxFontSize("60.0vp")
-            .minFontSize("30.0vp")
+            .fontColor('#ff182431')
+            .maxFontSize('60.0vp')
+            .minFontSize('30.0vp')
             .textAlign(TextAlign.Center)
             .margin({ top: '35%' })
             .textOverflow({ overflow: TextOverflow.Ellipsis })
             .maxLines(1)
           Text('辅助文本')
-            .maxFontSize("16.0fp")
-            .minFontSize("10.0vp")
+            .maxFontSize('16.0fp')
+            .minFontSize('10.0vp')
             .fontColor($r('sys.color.ohos_id_color_text_secondary'))
             .fontColor($r('sys.color.ohos_id_color_text_secondary'))
             .fontWeight(FontWeight.Regular)
@@ -74,7 +74,7 @@ struct InfomationGaugeUi0080 {
           .margin(20)
           .id('InfomationGaugeUi0080_001')
           .onClick(() => {
-            this.curcolor = [["#9F285EF3", 0.2], ["#EEE7CC2A", 0.1]]
+            this.curcolor = [['#9F285EF3', 0.2], ['#EEE7CC2A', 0.1]]
           })
         Button('color2')
           .borderRadius(8)

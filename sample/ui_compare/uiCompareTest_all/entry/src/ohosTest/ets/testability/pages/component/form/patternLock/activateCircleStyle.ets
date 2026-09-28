@@ -45,7 +45,7 @@ struct ActivateCircleStylePage {
         })
         .autoReset(true)
         .onDotConnect((index: number) => {
-          console.log("onDotConnect index: " + index)
+          console.log('onDotConnect index: ' + index)
         })
         .onPatternComplete((input: number[]) => {
           // 输入的密码长度小于5时，提示重新输入
@@ -67,7 +67,7 @@ struct ActivateCircleStylePage {
           } else {
             // 提示第二次输入密码
             this.passwords = input
-            this.message = "Please enter again."
+            this.message = 'Please enter again.'
           }
         })
 
@@ -90,7 +90,7 @@ struct ActivateCircleStylePage {
         })
         .autoReset(true)
         .onDotConnect((index: number) => {
-          console.log("onDotConnect index: " + index)
+          console.log('onDotConnect index: ' + index)
         })
 
       Button('Reset PatternLock').margin(30).onClick(() => {

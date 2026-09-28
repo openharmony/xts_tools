@@ -19,7 +19,7 @@ import { pointer } from '@kit.InputKit';
 @Component
 struct UiComponentUiContextAddMenuFocus04 {
   controller: TextAreaController = new TextAreaController();
-  @State inputValue: string = "";
+  @State inputValue: string = '';
   @State height1: string | number = '50%';
   @State height2: number = 100;
   @State supportAvoidance: boolean = true;
@@ -36,7 +36,7 @@ struct UiComponentUiContextAddMenuFocus04 {
       Grid() {
         ForEach([1, 2, 3, 4, 5, 6, 7, 8, 9, '*', 0, '#'], (item: number | string) => {
           GridItem() {
-            Button(item + "")
+            Button(item + '')
               .width(110).onClick(() => {
               this.inputValue += item;
             })
@@ -49,7 +49,7 @@ struct UiComponentUiContextAddMenuFocus04 {
   build() {
     Column() {
       Row() {
-        Button("20%")
+        Button('20%')
           .fontSize(10)
           .height(100)
           .backgroundColor(0x317aff)
@@ -66,9 +66,9 @@ struct UiComponentUiContextAddMenuFocus04 {
             }
           })
           .onClick(() => {
-            this.height1 = "20%";
+            this.height1 = '20%';
           })
-        Button("80%")
+        Button('80%')
           .fontSize(10)
           .height(100)
           .backgroundColor(0x317aff)
@@ -85,13 +85,13 @@ struct UiComponentUiContextAddMenuFocus04 {
             }
           })
           .onClick(() => {
-            this.height1 = "80%";
+            this.height1 = '80%';
           })
       }
       .justifyContent(FlexAlign.Center)
       .alignItems(VerticalAlign.Bottom)
       .height(this.height1)
-      .width("100%")
+      .width('100%')
       .padding({ bottom: 50 })
 
       TextArea({ controller: this.controller, text: this.inputValue })

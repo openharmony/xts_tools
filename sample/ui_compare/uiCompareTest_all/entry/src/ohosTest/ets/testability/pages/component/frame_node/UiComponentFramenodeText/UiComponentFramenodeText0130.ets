@@ -51,13 +51,13 @@ struct UiComponentFramenodeText0130 {
   infoShowOptions: RichEditorOptions = { controller: this.infoShowController }
 
   aboutToAppear() {
-    this.infoShowController.addTextSpan("页面加载完成，TextArea组件已创建\n", {
+    this.infoShowController.addTextSpan('页面加载完成，TextArea组件已创建\n', {
       style: {
         fontColor: Color.Green,
         fontSize: 14
       }
     })
-    this.infoShowController.addTextSpan("maxLength已设置为12个字符\n", {
+    this.infoShowController.addTextSpan('maxLength已设置为12个字符\n', {
       style: {
         fontColor: Color.Blue,
         fontSize: 14
@@ -100,14 +100,14 @@ struct UiComponentFramenodeText0130 {
         .onChange((value: string) => {
           this.currentLength = value.length
           this.text = value
-          this.infoShowController.addTextSpan("当前输入：" + value + "（长度：" + value.length + "）\n", {
+          this.infoShowController.addTextSpan('当前输入：' + value + '（长度：' + value.length + '）\n', {
             style: {
               fontColor: value.length >= 12 ? Color.Red : Color.Black,
               fontSize: 14
             }
           })
           if (value.length >= 12) {
-            this.infoShowController.addTextSpan("已达到最大长度限制12个字符\n", {
+            this.infoShowController.addTextSpan('已达到最大长度限制12个字符\n', {
               style: {
                 fontColor: Color.Red,
                 fontSize: 14,
@@ -144,9 +144,9 @@ struct UiComponentFramenodeText0130 {
         .margin({ top: 10 })
         .backgroundColor(Color.Red)
         .onClick(() => {
-          this.text = "十二个字符测试内容"
+          this.text = '十二个字符测试内容'
           this.currentLength = this.text.length
-          this.infoShowController.addTextSpan("已输入12个字符：" + this.text + "\n", {
+          this.infoShowController.addTextSpan('已输入12个字符：' + this.text + '\n', {
             style: {
               fontColor: Color.Red,
               fontSize: 14,
@@ -164,16 +164,16 @@ struct UiComponentFramenodeText0130 {
         .backgroundColor(Color.Orange)
         .onClick(() => {
           // 尝试输入超过12个字符，但会被maxLength限制
-          let longText = "这是一段超过十二个字符的长文本内容"
+          let longText = '这是一段超过十二个字符的长文本内容'
           this.text = longText
           // 由于maxLength限制，实际只会显示前12个字符
-          this.infoShowController.addTextSpan("尝试输入：" + longText + "（长度：" + longText.length + "）\n", {
+          this.infoShowController.addTextSpan('尝试输入：' + longText + '（长度：' + longText.length + '）\n', {
             style: {
               fontColor: Color.Orange,
               fontSize: 14
             }
           })
-          this.infoShowController.addTextSpan("实际输入受maxLength(12)限制\n", {
+          this.infoShowController.addTextSpan('实际输入受maxLength(12)限制\n', {
             style: {
               fontColor: Color.Blue,
               fontSize: 14

@@ -18,7 +18,7 @@ import { NodeController, FrameNode } from '@kit.ArkUI'
 class MarqueeNodeController extends NodeController {
   private rootNode: FrameNode | null = null
   private marqueeNode: FrameNode | null = null
-  private marqueeText: string = "这是一段跑马灯文本内容，用于测试MarqueeUpdateStrategy.DEFAULT策略效果"
+  private marqueeText: string = '这是一段跑马灯文本内容，用于测试MarqueeUpdateStrategy.DEFAULT策略效果'
 
   makeNode(uiContext: UIContext): FrameNode | null {
     this.rootNode = new FrameNode(uiContext)
@@ -55,20 +55,20 @@ struct UiComponentFramenodeText0050 {
   @State step: number = 6
   @State loop: number = -1
   @State fromStart: boolean = true
-  @State marqueeText: string = "这是一段跑马灯文本内容，用于测试MarqueeUpdateStrategy.DEFAULT策略效果"
+  @State marqueeText: string = '这是一段跑马灯文本内容，用于测试MarqueeUpdateStrategy.DEFAULT策略效果'
   @State currentText: string = this.marqueeText
 
   infoShowController: RichEditorController = new RichEditorController()
   infoShowOptions: RichEditorOptions = { controller: this.infoShowController }
 
   aboutToAppear() {
-    this.infoShowController.addTextSpan("页面加载完成，Marquee组件已创建\n", {
+    this.infoShowController.addTextSpan('页面加载完成，Marquee组件已创建\n', {
       style: {
         fontColor: Color.Green,
         fontSize: 14
       }
     })
-    this.infoShowController.addTextSpan("MarqueeUpdateStrategy已设置为DEFAULT\n", {
+    this.infoShowController.addTextSpan('MarqueeUpdateStrategy已设置为DEFAULT\n', {
       style: {
         fontColor: Color.Blue,
         fontSize: 14
@@ -134,21 +134,21 @@ struct UiComponentFramenodeText0050 {
         .backgroundColor(Color.Red)
         .onClick(() => {
           // 修改 Marquee 组件中的文字内容
-          this.currentText = "新的跑马灯文本内容已更新，测试DEFAULT策略是否重置滚动位置并重新启动滚动"
-          this.infoShowController.addTextSpan("已修改跑马灯文本内容\n", {
+          this.currentText = '新的跑马灯文本内容已更新，测试DEFAULT策略是否重置滚动位置并重新启动滚动'
+          this.infoShowController.addTextSpan('已修改跑马灯文本内容\n', {
             style: {
               fontColor: Color.Red,
               fontSize: 14,
               fontWeight: FontWeight.Bold
             }
           })
-          this.infoShowController.addTextSpan("新文本：" + this.currentText + "\n", {
+          this.infoShowController.addTextSpan('新文本：' + this.currentText + '\n', {
             style: {
               fontColor: Color.Orange,
               fontSize: 14
             }
           })
-          this.infoShowController.addTextSpan("预期效果：重置滚动位置，并重新启动滚动\n", {
+          this.infoShowController.addTextSpan('预期效果：重置滚动位置，并重新启动滚动\n', {
             style: {
               fontColor: Color.Green,
               fontSize: 14
@@ -165,7 +165,7 @@ struct UiComponentFramenodeText0050 {
         .backgroundColor(Color.Orange)
         .onClick(() => {
           this.start = !this.start
-          this.infoShowController.addTextSpan("滚动状态切换：" + (this.start ? "启动" : "停止") + "\n", {
+          this.infoShowController.addTextSpan('滚动状态切换：' + (this.start ? '启动' : '停止') + '\n', {
             style: {
               fontColor: Color.Blue,
               fontSize: 14

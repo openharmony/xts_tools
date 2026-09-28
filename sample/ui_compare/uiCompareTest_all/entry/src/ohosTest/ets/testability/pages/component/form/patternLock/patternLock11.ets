@@ -67,7 +67,7 @@ struct PatternLock11 {
             })
             .autoReset(true)
             .onDotConnect((index: number) => {
-              console.log("onDotConnect index: " + index)
+              console.log('onDotConnect index: ' + index)
             })
         }.width('40%')
         .margin({right:'5%'})
@@ -92,7 +92,7 @@ struct PatternLock11 {
             })
             .autoReset(true)
             .onDotConnect((index: number) => {
-              console.log("onDotConnect index: " + index)
+              console.log('onDotConnect index: ' + index)
             })
         }.width('40%')
       }
@@ -118,7 +118,7 @@ struct PatternLock11 {
             })
             .autoReset(true)
             .onDotConnect((index: number) => {
-              console.log("onDotConnect index: " + index)
+              console.log('onDotConnect index: ' + index)
             })
         }.width('40%')
         .margin({right:'5%'})
@@ -143,7 +143,7 @@ struct PatternLock11 {
             })
             .autoReset(true)
             .onDotConnect((index: number) => {
-              console.log("onDotConnect index: " + index)
+              console.log('onDotConnect index: ' + index)
             })
         }.width('40%')
       }

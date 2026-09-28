@@ -26,7 +26,7 @@ struct CounterLargeFont0016 {
   @State counterOptions: CounterOptions = {
     type: CounterType.LIST,
     numberOptions: {
-      label: "价格",
+      label: '价格',
       min: 0,
       value: 5,
       max: 10,

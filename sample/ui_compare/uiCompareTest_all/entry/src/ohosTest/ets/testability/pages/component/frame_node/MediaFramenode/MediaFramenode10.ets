@@ -27,8 +27,8 @@ class MyNodeController extends NodeController {
       .width('100%').height('100%').margin({ top: 5 });
     node.appendChild(col);
 
-    let qrcode = typeNode.createNode(uiContext,"QRCode")
-    qrcode.initialize("hello").width(100).height(100)
+    let qrcode = typeNode.createNode(uiContext,'QRCode')
+    qrcode.initialize('hello').width(100).height(100)
     col.appendChild(qrcode)
 
     return node;

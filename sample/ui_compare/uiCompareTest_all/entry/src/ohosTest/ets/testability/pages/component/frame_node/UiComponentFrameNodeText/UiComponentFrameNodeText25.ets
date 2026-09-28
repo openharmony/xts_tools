@@ -82,7 +82,7 @@ class MyNodeController extends NodeController {
       .margin({ top: 5 });
     node.appendChild(col);
 
-    let textArea = typeNode.createNode(uiContext, "TextArea")
+    let textArea = typeNode.createNode(uiContext, 'TextArea')
     textArea.initialize({
       text: this.text,
       placeholder: 'The text area can hold an unlimited amount of text. input your word...',
@@ -96,16 +96,16 @@ class MyNodeController extends NodeController {
       })
       .editMenuOptions({
         onCreateMenu: this.onCreateMenu, onMenuItemClick: (menuItem: TextMenuItem, textRange: TextRange) => {
-          if (menuItem.id.equals(TextMenuItemId.of("custom2"))) {
-            console.log("拦截 id: custom2 start:" + textRange.start + "; end:" + textRange.end)
+          if (menuItem.id.equals(TextMenuItemId.of('custom2'))) {
+            console.log('拦截 id: custom2 start:' + textRange.start + '; end:' + textRange.end)
             return true;
           }
           if (menuItem.id.equals(TextMenuItemId.COPY)) {
-            console.log("拦截 COPY start:" + textRange.start + "; end:" + textRange.end)
+            console.log('拦截 COPY start:' + textRange.start + '; end:' + textRange.end)
             return true;
           }
           if (menuItem.id.equals(TextMenuItemId.SELECT_ALL)) {
-            console.log("不拦截 SELECT_ALL start:" + textRange.start + "; end:" + textRange.end)
+            console.log('不拦截 SELECT_ALL start:' + textRange.start + '; end:' + textRange.end)
             return false;
           }
           return false;

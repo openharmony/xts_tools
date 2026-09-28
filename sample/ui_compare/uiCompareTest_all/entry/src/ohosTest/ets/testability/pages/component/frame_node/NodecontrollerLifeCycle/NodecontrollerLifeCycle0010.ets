@@ -17,62 +17,62 @@ import { NodeController, BuilderNode, NodeRenderType, FrameNode } from '@kit.Ark
 
 class MyButtonController extends NodeController {
   makeNode(uiContext: UIContext): FrameNode | null {
-    console.log("Cmw myButton onAttach");
-    let rootNode = new BuilderNode(uiContext, { surfaceId: "", type: NodeRenderType.RENDER_TYPE_DISPLAY });
+    console.log('Cmw myButton onAttach');
+    let rootNode = new BuilderNode(uiContext, { surfaceId: '', type: NodeRenderType.RENDER_TYPE_DISPLAY });
     rootNode.build(wrapBuilder<[]>(buttonBuilder));
     return rootNode.getFrameNode();
   }
   aboutToAppear(): void {
-    console.log("Cmw cmw_button_上树");
+    console.log('Cmw cmw_button_上树');
   }
 }
 
 class MyImageController extends NodeController {
   makeNode(uiContext: UIContext): FrameNode | null {
-    console.log("Cmw myImage onAttach");
-    let rootNode = new BuilderNode(uiContext, { surfaceId: "", type: NodeRenderType.RENDER_TYPE_DISPLAY });
+    console.log('Cmw myImage onAttach');
+    let rootNode = new BuilderNode(uiContext, { surfaceId: '', type: NodeRenderType.RENDER_TYPE_DISPLAY });
     rootNode.build(wrapBuilder<[]>(textBuilder));
     return rootNode.getFrameNode();
   }
   aboutToAppear(): void {
-    console.log("Cmw cmw_image_上树");
+    console.log('Cmw cmw_image_上树');
   }
 }
 
 class MyMarqueeController extends NodeController {
   makeNode(uiContext: UIContext): FrameNode | null {
-    console.log("Cmw myMarquee onAttach");
-    let rootNode = new BuilderNode(uiContext, { surfaceId: "", type: NodeRenderType.RENDER_TYPE_DISPLAY });
+    console.log('Cmw myMarquee onAttach');
+    let rootNode = new BuilderNode(uiContext, { surfaceId: '', type: NodeRenderType.RENDER_TYPE_DISPLAY });
     rootNode.build(wrapBuilder<[]>(textBuilder));
     return rootNode.getFrameNode();
   }
   aboutToAppear(): void {
-    console.log("Cmw cmw_marquee_上树");
+    console.log('Cmw cmw_marquee_上树');
   }
 }
 
 class Array1ButtonController extends NodeController {
   makeNode(uiContext: UIContext): FrameNode | null {
-    console.log("Cmw array1_Button onAttach");
-    let rootNode = new BuilderNode(uiContext, { surfaceId: "", type: NodeRenderType.RENDER_TYPE_DISPLAY });
+    console.log('Cmw array1_Button onAttach');
+    let rootNode = new BuilderNode(uiContext, { surfaceId: '', type: NodeRenderType.RENDER_TYPE_DISPLAY });
     rootNode.build(wrapBuilder<[]>(buttonBuilder));
     return rootNode.getFrameNode();
   }
   aboutToAppear(): void {
-    console.log("Cmw 数组中的组件上树");
+    console.log('Cmw 数组中的组件上树');
   }
 }
 
 @Builder
 function buttonBuilder() {
-  Button("Button")
+  Button('Button')
     .width(150)
     .height(40)
 }
 
 @Builder
 function textBuilder() {
-  Text("Text")
+  Text('Text')
     .width(150)
     .height(40)
 }

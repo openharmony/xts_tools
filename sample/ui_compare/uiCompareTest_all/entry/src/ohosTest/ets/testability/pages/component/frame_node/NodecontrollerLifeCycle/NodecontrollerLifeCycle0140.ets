@@ -17,43 +17,43 @@ import { NodeController, BuilderNode, NodeRenderType, FrameNode } from '@kit.Ark
 
 class MyButtonController extends NodeController {
   private containerId: number = 0;
-  onWillBind(): void { console.log("cmw myButton onWillBind"); }
-  onBind(containerId: number): void { this.containerId = containerId; console.log("cmw myButton onBind:" + containerId); }
+  onWillBind(): void { console.log('cmw myButton onWillBind'); }
+  onBind(containerId: number): void { this.containerId = containerId; console.log('cmw myButton onBind:' + containerId); }
   makeNode(uiContext: UIContext): FrameNode | null {
-    console.log("cmw myButton makeNode");
-    let rootNode = new BuilderNode(uiContext, { surfaceId: "", type: NodeRenderType.RENDER_TYPE_DISPLAY });
+    console.log('cmw myButton makeNode');
+    let rootNode = new BuilderNode(uiContext, { surfaceId: '', type: NodeRenderType.RENDER_TYPE_DISPLAY });
     rootNode.build(wrapBuilder<[]>(buttonBuilder));
     return rootNode.getFrameNode();
   }
-  onAttach(): void { console.log("cmw myButton onAttach"); }
-  onDetach(): void { console.log("cmw myButton onDetach"); }
-  aboutToDisappear(): void { console.log("cmw myButton aboutToDisappear"); }
-  onWillUnbind(): void { console.log("cmw myButton onWillUnbind"); }
-  onUnbind(): void { console.log("cmw myButton onUnbind:" + this.containerId); }
+  onAttach(): void { console.log('cmw myButton onAttach'); }
+  onDetach(): void { console.log('cmw myButton onDetach'); }
+  aboutToDisappear(): void { console.log('cmw myButton aboutToDisappear'); }
+  onWillUnbind(): void { console.log('cmw myButton onWillUnbind'); }
+  onUnbind(): void { console.log('cmw myButton onUnbind:' + this.containerId); }
 }
 
 class MyTextController extends NodeController {
   private containerId: number = 0;
-  onWillBind(): void { console.log("cmw myText onWillBind"); }
-  onBind(containerId: number): void { this.containerId = containerId; console.log("cmw myText onBind:" + containerId); }
+  onWillBind(): void { console.log('cmw myText onWillBind'); }
+  onBind(containerId: number): void { this.containerId = containerId; console.log('cmw myText onBind:' + containerId); }
   makeNode(uiContext: UIContext): FrameNode | null {
-    console.log("cmw myText makeNode");
-    let rootNode = new BuilderNode(uiContext, { surfaceId: "", type: NodeRenderType.RENDER_TYPE_DISPLAY });
+    console.log('cmw myText makeNode');
+    let rootNode = new BuilderNode(uiContext, { surfaceId: '', type: NodeRenderType.RENDER_TYPE_DISPLAY });
     rootNode.build(wrapBuilder<[]>(textBuilder));
     return rootNode.getFrameNode();
   }
-  onAttach(): void { console.log("cmw myText onAttach"); }
-  onDetach(): void { console.log("cmw myText onDetach"); }
-  aboutToDisappear(): void { console.log("cmw myText aboutToDisappear"); }
-  onWillUnbind(): void { console.log("cmw myText onWillUnbind"); }
-  onUnbind(): void { console.log("cmw myText onUnbind:" + this.containerId); }
+  onAttach(): void { console.log('cmw myText onAttach'); }
+  onDetach(): void { console.log('cmw myText onDetach'); }
+  aboutToDisappear(): void { console.log('cmw myText aboutToDisappear'); }
+  onWillUnbind(): void { console.log('cmw myText onWillUnbind'); }
+  onUnbind(): void { console.log('cmw myText onUnbind:' + this.containerId); }
 }
 
 @Builder
-function buttonBuilder() { Button("Button").width(150).height(40) }
+function buttonBuilder() { Button('Button').width(150).height(40) }
 
 @Builder
-function textBuilder() { Text("Text").width(150).height(40) }
+function textBuilder() { Text('Text').width(150).height(40) }
 
 @Entry
 @Component
@@ -61,8 +61,8 @@ struct NodecontrollerLifeCycle0140 {
   private myButtonController: MyButtonController = new MyButtonController();
   private myTextController: MyTextController = new MyTextController();
 
-  aboutToAppear(): void { console.log("cmw NodecontrollerLifeCycle0140 aboutToAppear"); }
-  aboutToDisappear(): void { console.log("cmw NodecontrollerLifeCycle0140 aboutToDisappear"); }
+  aboutToAppear(): void { console.log('cmw NodecontrollerLifeCycle0140 aboutToAppear'); }
+  aboutToDisappear(): void { console.log('cmw NodecontrollerLifeCycle0140 aboutToDisappear'); }
 
   build() {
     Column({ space: 20 }) {

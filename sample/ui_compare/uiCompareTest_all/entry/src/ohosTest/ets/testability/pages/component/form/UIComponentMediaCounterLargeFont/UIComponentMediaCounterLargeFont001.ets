@@ -31,7 +31,7 @@ struct UIComponentMediaCounterLargeFont001 {
         options: {
           type: CounterType.LIST,
           numberOptions: {
-            label: "系统字体",
+            label: '系统字体',
             min: 1,
             value: 1,
             max: 6

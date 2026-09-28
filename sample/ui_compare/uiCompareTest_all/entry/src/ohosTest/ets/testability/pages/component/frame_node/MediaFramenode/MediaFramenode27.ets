@@ -27,7 +27,7 @@ class MyNodeController extends NodeController {
       .width('100%').height('100%').margin({ top: 5 });
     node.appendChild(col);
 
-    let textTimer = typeNode.createNode(uiContext,"TextTimer")
+    let textTimer = typeNode.createNode(uiContext,'TextTimer')
     textTimer.initialize().fontColor(Color.Black).fontSize(50)
     col.appendChild(textTimer)
 

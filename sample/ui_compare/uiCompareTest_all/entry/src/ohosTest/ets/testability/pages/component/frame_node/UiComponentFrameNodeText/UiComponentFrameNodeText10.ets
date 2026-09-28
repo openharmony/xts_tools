@@ -26,10 +26,10 @@ class MyNodeController extends NodeController {
   private textOverflow: TextOverflow = TextOverflow.None;
   private textContentStyle: TextContentStyle = TextContentStyle.DEFAULT;
   private message1: string =
-    "They can be classified as built-in components–those directly provided by the ArkUI framework and custom components – those defined by developers" +
-      "The built-in components include buttons radio buttonsprogress indicators and text You can set the rendering effectof thesecomponents in method " +
-      "chaining mode,page components are divided into independent UI units to implementindependent"
-      +"creation development and reuse of different units on pages making pages more engineering-oriented.";
+    'They can be classified as built-in components–those directly provided by the ArkUI framework and custom components – those defined by developers' +
+      'The built-in components include buttons radio buttonsprogress indicators and text You can set the rendering effectof thesecomponents in method ' +
+      'chaining mode,page components are divided into independent UI units to implementindependent'
+      +'creation development and reuse of different units on pages making pages more engineering-oriented.';
 
   settextContentStyle(textContentStyle: TextContentStyle) {
     this.textContentStyle = textContentStyle;
@@ -56,7 +56,7 @@ class MyNodeController extends NodeController {
       .margin({ top: 5 });
     node.appendChild(col);
 
-    let textArea = typeNode.createNode(uiContext, "TextArea")
+    let textArea = typeNode.createNode(uiContext, 'TextArea')
     textArea.initialize({
       text: this.message1,
       placeholder: 'The text area can hold an unlimited amount of text. input your word...',

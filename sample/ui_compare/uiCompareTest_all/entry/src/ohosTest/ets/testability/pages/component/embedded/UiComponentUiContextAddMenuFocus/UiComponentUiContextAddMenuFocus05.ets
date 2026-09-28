@@ -21,7 +21,7 @@ struct UiComponentUiContextAddMenuFocus05 {
   @State submitValue: string = '';
   @State text: string = '';
   public readonly NUM_TEXT_MAXSIZE_LENGTH = 13;
-  @State teleNumberNoSpace: string = "";
+  @State teleNumberNoSpace: string = '';
   @State nextCaret: number = -1;
   @State actualCh: number = -1;
   @State lastCaretPosition: number = 0;
@@ -29,7 +29,7 @@ struct UiComponentUiContextAddMenuFocus05 {
   controller: TextInputController = new TextInputController();
 
   isEmpty(str?: string): boolean {
-    return str == 'undefined' || !str || !new RegExp("[^\\s]").test(str);
+    return str == 'undefined' || !str || !new RegExp('[^\\s]').test(str);
   }
 
   checkNeedNumberSpace(numText: string) {
@@ -50,12 +50,12 @@ struct UiComponentUiContextAddMenuFocus05 {
     if (this.isEmpty(str)) {
       return '';
     }
-    return str.replace(new RegExp("[\\s]", "g"), '');
+    return str.replace(new RegExp('[\\s]', 'g'), '');
   }
 
   setCaret() {
     if (this.nextCaret != -1) {
-      console.log("to keep caret position right, change caret to", this.nextCaret);
+      console.log('to keep caret position right, change caret to', this.nextCaret);
       this.controller.caretPosition(this.nextCaret);
       this.nextCaret = -1;
     }
@@ -70,7 +70,7 @@ struct UiComponentUiContextAddMenuFocus05 {
         }
       }
       this.actualCh += this.teleNumberNoSpace.length - befNumberNoSpace.length;
-      console.log("actualCh: " + this.actualCh);
+      console.log('actualCh: ' + this.actualCh);
       for (let i = 0; i < nextText.length; i++) {
         if (nextText[i] != ' ') {
           this.actualCh -= 1;
@@ -82,7 +82,7 @@ struct UiComponentUiContextAddMenuFocus05 {
       }
     } else if (befNumberNoSpace.length > this.teleNumberNoSpace.length) {
       if (this.lastCaretPosition === this.text.length) {
-        console.log("Caret at last, no need to change");
+        console.log('Caret at last, no need to change');
       } else if (this.lastCaretPosition === this.lastCaretPositionEnd) {
         for (let i = this.lastCaretPosition; i < this.text.length; i++) {
           if (this.text[i] != ' ') {
@@ -110,7 +110,7 @@ struct UiComponentUiContextAddMenuFocus05 {
         TextInput({ text: `${this.text}`, controller: this.controller }).type(InputType.PhoneNumber).height('48vp')
           .onChange((number: string) => {
             this.teleNumberNoSpace = this.removeSpace(number);
-            let nextText: string = "";
+            let nextText: string = '';
             if (this.teleNumberNoSpace.length > this.NUM_TEXT_MAXSIZE_LENGTH - 2) {
               nextText = this.teleNumberNoSpace;
             } else if (this.checkNeedNumberSpace(number)) {
@@ -129,7 +129,7 @@ struct UiComponentUiContextAddMenuFocus05 {
             } else {
               nextText = number;
             }
-            console.log("onChange Triggered:" + this.text + "|" + nextText + "|" + number);
+            console.log('onChange Triggered:' + this.text + '|' + nextText + '|' + number);
             if (this.text === nextText && nextText === number) {
               this.setCaret();
             } else {
@@ -138,7 +138,7 @@ struct UiComponentUiContextAddMenuFocus05 {
             this.text = nextText;
           })
           .onTextSelectionChange((selectionStart, selectionEnd) => {
-            console.log("selection change: ", selectionStart, selectionEnd);
+            console.log('selection change: ', selectionStart, selectionEnd);
             this.lastCaretPosition = selectionStart;
             this.lastCaretPositionEnd = selectionEnd;
           })
@@ -153,6 +153,6 @@ struct UiComponentUiContextAddMenuFocus05 {
       }
     }
     .width('100%')
-    .height("100%")
+    .height('100%')
   }
 }

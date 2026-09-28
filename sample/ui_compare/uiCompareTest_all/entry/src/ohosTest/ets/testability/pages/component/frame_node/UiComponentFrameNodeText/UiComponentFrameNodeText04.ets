@@ -36,7 +36,7 @@ class MyNodeController extends NodeController {
       .height('100%')
       .margin({ top: 5 });
     node.appendChild(col);
-    let textArea = typeNode.createNode(uiContext, "TextArea")
+    let textArea = typeNode.createNode(uiContext, 'TextArea')
     textArea.initialize({text: this.text,
       placeholder: 'The text area can hold an unlimited amount of text. input your word...',
       controller: this.areaController})

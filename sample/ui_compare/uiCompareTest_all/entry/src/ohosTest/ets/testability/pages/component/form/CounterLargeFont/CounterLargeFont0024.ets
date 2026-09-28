@@ -25,7 +25,7 @@ struct CounterLargeFont0024 {
   @State counterOptions: CounterOptions = {
     type: CounterType.COMPACT,
     numberOptions: {
-      label: "数量",
+      label: '数量',
       min: 0,
       value: 5,
       max: 10,

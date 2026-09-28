@@ -29,9 +29,9 @@ function buildGauge10(config: GaugeConfiguration) {
       value: config.value,
       min: config.min,
       max: config.max
-    }).width("50%")
+    }).width('50%')
   }
-  .width("100%")
+  .width('100%')
   .padding(20)
   .margin({ top: 5 })
   .alignItems(HorizontalAlign.Center)

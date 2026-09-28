@@ -22,11 +22,11 @@ struct InfomationGaugeUi0070 {
   @Builder descriptionBuilder() {
     Text('说明文本')
       .maxFontSize('30sp')
-      .minFontSize("10.0vp")
-      .fontColor("#fffa2a2d")
+      .minFontSize('10.0vp')
+      .fontColor('#fffa2a2d')
       .fontWeight(FontWeight.Medium)
       .width('100%')
-      .height("100%")
+      .height('100%')
       .textAlign(TextAlign.Center)
   }
 
@@ -38,16 +38,16 @@ struct InfomationGaugeUi0070 {
           Text('50')
             .fontWeight(FontWeight.Medium)
             .width('62%')
-            .fontColor("#ff182431")
-            .maxFontSize("60.0vp")
-            .minFontSize("30.0vp")
+            .fontColor('#ff182431')
+            .maxFontSize('60.0vp')
+            .minFontSize('30.0vp')
             .textAlign(TextAlign.Center)
             .margin({ top: '35%' })
             .textOverflow({ overflow: TextOverflow.Ellipsis })
             .maxLines(1)
           Text('辅助文本')
-            .maxFontSize("16.0fp")
-            .minFontSize("10.0vp")
+            .maxFontSize('16.0fp')
+            .minFontSize('10.0vp')
             .fontColor($r('sys.color.ohos_id_color_text_secondary'))
             .fontColor($r('sys.color.ohos_id_color_text_secondary'))
             .fontWeight(FontWeight.Regular)
@@ -92,7 +92,7 @@ struct InfomationGaugeUi0070 {
           .margin(20)
           .id('InfomationGaugeUi0070_003')
           .onClick(() => {
-            this.curcolor = [["abcd", 1], ["abcd", 1], ["abcd", 1], ["abcd", 1]]
+            this.curcolor = [['abcd', 1], ['abcd', 1], ['abcd', 1], ['abcd', 1]]
           })
       }
     }.margin({ top: 40 }).width('100%').height('100%')

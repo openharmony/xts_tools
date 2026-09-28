@@ -50,13 +50,13 @@ struct UiComponentFramenodeText0080 {
   infoShowOptions: RichEditorOptions = { controller: this.infoShowController }
 
   aboutToAppear() {
-    this.infoShowController.addTextSpan("页面加载完成，TextArea组件已创建\n", {
+    this.infoShowController.addTextSpan('页面加载完成，TextArea组件已创建\n', {
       style: {
         fontColor: Color.Green,
         fontSize: 14
       }
     })
-    this.infoShowController.addTextSpan("placeholderFont已设置：size: 20, weight: 15, style: Normal/Italic\n", {
+    this.infoShowController.addTextSpan('placeholderFont已设置：size: 20, weight: 15, style: Normal/Italic\n', {
       style: {
         fontColor: Color.Blue,
         fontSize: 14

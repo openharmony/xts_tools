@@ -31,16 +31,16 @@ struct PaddingPageUIComponentSpecialComponentsEmbeddedComponentPropertyTestCommo
         .backgroundColor(Color.White)
 
       EmbeddedComponent({
-        bundleName: "com.example.uicompare",
-        abilityName: "MyEmbeddedUIExtAbility",
+        bundleName: 'com.example.uicompare',
+        abilityName: 'MyEmbeddedUIExtAbility',
       }, EmbeddedType.EMBEDDED_UI_EXTENSION)
         .onTerminated((info) => {
-          console.log("EntryEmbeddedUIExtAbility Index2: onTerminated, info:" + JSON.stringify(info));
+          console.log('EntryEmbeddedUIExtAbility Index2: onTerminated, info:' + JSON.stringify(info));
           this.message = 'Termination: code = ' + info.code + ', want = ' + JSON.stringify(info.want);
           this.context.terminateSelf();
         })
         .onError((error) => {
-          console.log("EntryEmbeddedUIExtAbility Index2: onError, error:" + JSON.stringify(error));
+          console.log('EntryEmbeddedUIExtAbility Index2: onError, error:' + JSON.stringify(error));
           this.message = 'Error: code = ' + error.code;
         })
         .padding(this.ec_paddingLength)

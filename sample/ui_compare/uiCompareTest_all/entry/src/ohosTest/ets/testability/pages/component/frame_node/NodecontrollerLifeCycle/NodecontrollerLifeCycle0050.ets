@@ -17,37 +17,37 @@ import { NodeController, BuilderNode, NodeRenderType, FrameNode } from '@kit.Ark
 
 class MyButtonController extends NodeController {
   private containerId: number = 0;
-  onWillBind(): void { console.log("Cmw myButton onWillBind"); }
-  onBind(containerId: number): void { this.containerId = containerId; console.log("Cmw myButton onBind:" + containerId); }
+  onWillBind(): void { console.log('Cmw myButton onWillBind'); }
+  onBind(containerId: number): void { this.containerId = containerId; console.log('Cmw myButton onBind:' + containerId); }
   makeNode(uiContext: UIContext): FrameNode | null {
-    console.log("Cmw myButton makeNode");
-    let rootNode = new BuilderNode(uiContext, { surfaceId: "", type: NodeRenderType.RENDER_TYPE_DISPLAY });
+    console.log('Cmw myButton makeNode');
+    let rootNode = new BuilderNode(uiContext, { surfaceId: '', type: NodeRenderType.RENDER_TYPE_DISPLAY });
     rootNode.build(wrapBuilder<[]>(buttonBuilder));
     return rootNode.getFrameNode();
   }
-  onWillUnbind(): void { console.log("Cmw myButton onWillUnbind"); }
-  onUnbind(): void { console.log("Cmw myButton onUnbind:" + this.containerId); }
+  onWillUnbind(): void { console.log('Cmw myButton onWillUnbind'); }
+  onUnbind(): void { console.log('Cmw myButton onUnbind:' + this.containerId); }
 }
 
 class MyTextController extends NodeController {
   private containerId: number = 0;
-  onWillBind(): void { console.log("Cmw myText onWillBind"); }
-  onBind(containerId: number): void { this.containerId = containerId; console.log("Cmw myText onBind:" + containerId); }
+  onWillBind(): void { console.log('Cmw myText onWillBind'); }
+  onBind(containerId: number): void { this.containerId = containerId; console.log('Cmw myText onBind:' + containerId); }
   makeNode(uiContext: UIContext): FrameNode | null {
-    console.log("Cmw myText makeNode");
-    let rootNode = new BuilderNode(uiContext, { surfaceId: "", type: NodeRenderType.RENDER_TYPE_DISPLAY });
+    console.log('Cmw myText makeNode');
+    let rootNode = new BuilderNode(uiContext, { surfaceId: '', type: NodeRenderType.RENDER_TYPE_DISPLAY });
     rootNode.build(wrapBuilder<[]>(textBuilder));
     return rootNode.getFrameNode();
   }
-  onWillUnbind(): void { console.log("Cmw myText onWillUnbind"); }
-  onUnbind(): void { console.log("Cmw myText onUnbind:" + this.containerId); }
+  onWillUnbind(): void { console.log('Cmw myText onWillUnbind'); }
+  onUnbind(): void { console.log('Cmw myText onUnbind:' + this.containerId); }
 }
 
 @Builder
-function buttonBuilder() { Button("Button").width(150).height(40) }
+function buttonBuilder() { Button('Button').width(150).height(40) }
 
 @Builder
-function textBuilder() { Text("Text").width(150).height(40) }
+function textBuilder() { Text('Text').width(150).height(40) }
 
 @Entry
 @Component

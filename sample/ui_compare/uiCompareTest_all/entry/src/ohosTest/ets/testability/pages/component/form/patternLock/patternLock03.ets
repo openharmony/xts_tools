@@ -63,7 +63,7 @@ struct PatternLock03 {
             .backgroundColor(1)
             .autoReset(true)
             .onDotConnect((index: number) => {
-              console.log("onDotConnect index: " + index)
+              console.log('onDotConnect index: ' + index)
             })
         }.width('40%')
         .margin({right:'5%'})
@@ -83,7 +83,7 @@ struct PatternLock03 {
             .backgroundColor(0)
             .autoReset(true)
             .onDotConnect((index: number) => {
-              console.log("onDotConnect index: " + index)
+              console.log('onDotConnect index: ' + index)
             })
         }.width('40%')
       }
@@ -104,7 +104,7 @@ struct PatternLock03 {
             .backgroundColor(-1)
             .autoReset(true)
             .onDotConnect((index: number) => {
-              console.log("onDotConnect index: " + index)
+              console.log('onDotConnect index: ' + index)
             })
         }.width('40%')
         .margin({right:'5%'})
@@ -124,7 +124,7 @@ struct PatternLock03 {
             .backgroundColor(100)
             .autoReset(true)
             .onDotConnect((index: number) => {
-              console.log("onDotConnect index: " + index)
+              console.log('onDotConnect index: ' + index)
             })
         }.width('40%')
       }
@@ -157,7 +157,7 @@ struct PatternLock03 {
           .backgroundColor('')
           .autoReset(true)
           .onDotConnect((index: number) => {
-            console.log("onDotConnect index: " + index)
+            console.log('onDotConnect index: ' + index)
           })
       }
 

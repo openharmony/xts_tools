@@ -52,17 +52,17 @@ struct ThirdPage {
         .margin({bottom: 10})
 
       EmbeddedComponent({
-        bundleName: "com.example.uicompare",
-        abilityName: "MyEmbeddedUIExtAbility",
+        bundleName: 'com.example.uicompare',
+        abilityName: 'MyEmbeddedUIExtAbility',
         parameters: {}
       }, EmbeddedType.EMBEDDED_UI_EXTENSION)
         .onTerminated((info) => {
-          console.log("EntryEmbeddedUIExtAbility Index2: onTerminated, info:" + JSON.stringify(info));
+          console.log('EntryEmbeddedUIExtAbility Index2: onTerminated, info:' + JSON.stringify(info));
           this.message = 'Termination: code = ' + info.code + ', want = ' + JSON.stringify(info.want);
           this.context.terminateSelf();
         })
         .onError((error) => {
-          console.log("ThirdPage: EmbeddedComponent onError, error:" + JSON.stringify(error));
+          console.log('ThirdPage: EmbeddedComponent onError, error:' + JSON.stringify(error));
           this.message = 'ThirdPage: EmbeddedComponent Error: code = ' + error.code + ', message = ' + error.message;
         })
         .onClick(() => {

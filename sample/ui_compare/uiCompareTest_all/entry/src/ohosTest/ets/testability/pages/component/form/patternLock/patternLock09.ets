@@ -59,7 +59,7 @@ struct PatternLock09 {
           .backgroundColor('#F5F5F5')
           .autoReset(undefined)
           .onDotConnect((index: number) => {
-            console.log("onDotConnect index: " + index)
+            console.log('onDotConnect index: ' + index)
           })
       }.width('40%')
       .margin({ right: '5%' })
@@ -79,7 +79,7 @@ struct PatternLock09 {
           .backgroundColor('#F5F5F5')
           .autoReset(null)
           .onDotConnect((index: number) => {
-            console.log("onDotConnect index: " + index)
+            console.log('onDotConnect index: ' + index)
           })
       }.width('40%')
 
