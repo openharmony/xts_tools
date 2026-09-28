@@ -22,7 +22,7 @@ class CustomModifier extends CommonModifier {
 
 @Entry
 @Component
-struct imageModifier02 {
+struct ImageModifier02 {
   @State info:string = 'loading~~';
   @State imageModifier: CommonModifier = new CustomModifier()
     .height(144)
@@ -63,7 +63,7 @@ struct imageModifier02 {
           .fontWeight(300)
           .margin(6)
 
-        Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+        Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
           .key("imageModifier")
           .attributeModifier(this.imageModifier as CommonModifier)
           .alt($r('app.media.icon'))

@@ -17,7 +17,7 @@ import { image } from '@kit.ImageKit'
 
 @Entry
 @Component
-struct imageLattice09 {
+struct ImageLattice09 {
   @State info1: string = 'loading~~';
   @State info2: string = 'loading~~';
   @State info3: string = 'loading~~';

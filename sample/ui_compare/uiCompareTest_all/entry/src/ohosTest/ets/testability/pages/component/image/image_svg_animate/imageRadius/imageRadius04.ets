@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageRadius04 {
+struct ImageRadius04 {
   @State info1:string = 'loading~~';
   @State info2:string = 'loading~~';
 
@@ -33,7 +33,7 @@ struct imageRadius04 {
           .fontWeight(300)
           .margin(6)
 
-        Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+        Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
           .borderRadius(10)
           .margin(15)
           .width(80)
@@ -60,7 +60,7 @@ struct imageRadius04 {
           .fontWeight(300)
           .margin(6)
 
-        Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+        Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
           .borderRadius(100)
           .margin(15)
           .width(80)

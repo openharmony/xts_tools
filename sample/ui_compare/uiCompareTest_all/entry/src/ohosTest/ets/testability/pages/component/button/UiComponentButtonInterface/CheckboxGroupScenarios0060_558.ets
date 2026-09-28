@@ -31,7 +31,7 @@ interface CheckboxItem {
 
 @Entry
 @Component
-struct CheckboxGroupScenarios0060_558 {
+struct CheckboxGroupScenarios0060558 {
   @State testLog: string[] = [];
   @State checkboxList: CheckboxItem[] = [
     { name: 'item1', label: '选项1', selected: false },
@@ -45,7 +45,7 @@ struct CheckboxGroupScenarios0060_558 {
     if (this.testLog.length > 15) {
       this.testLog = this.testLog.slice(0, 15);
     }
-    hilog.info(0x0000, 'CheckboxGroupScenarios0060_558', log);
+    hilog.info(0x0000, 'CheckboxGroupScenarios0060558', log);
   }
 
   removeSelectedItem(): void {

@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageReset02 {
+struct ImageReset02 {
   @State imageSrcIndex: number = 0;
   @State imageSrcList: (ResourceStr | ImageContent)[] = [$r('app.media.icon'), ImageContent.EMPTY];
   @State drawingColorFilterSecond: ColorFilter | undefined = undefined;

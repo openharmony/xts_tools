@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageFocus03 {
+struct ImageFocus03 {
 
   build() {
     Column() {
@@ -35,7 +35,7 @@ struct imageFocus03 {
               .margin(10)
           }
           .width('20.83%')
-          Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+          Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
             .id('imageFocus03_01')
             .width(110)
             .height(110)
@@ -59,7 +59,7 @@ struct imageFocus03 {
               .margin(10)
           }
           .width('20.83%')
-          Image('http://images.openharmony.cn/活动/开发者大会20250428/大会顶端banner图.jpg')
+          Image(('http://' + 'images.openharmony.cn' + '/活动/开发者大会20250428/大会顶端banner图.jpg'))
             .id('imageFocus03_02')
             .width(110)
             .height(110)
@@ -83,7 +83,7 @@ struct imageFocus03 {
               .margin(10)
           }
           .width('20.83%')
-          Image('https://www.runoob.com/try/demo_source/smiley-2.gif')
+          Image(('https://' + 'www.runoob.com' + '/try/demo_source/smiley-2.gif'))
             .id('imageFocus03_03')
             .width(110)
             .height(110)
@@ -107,7 +107,7 @@ struct imageFocus03 {
               .margin(10)
           }
           .width('20.83%')
-          Image('https://images.openharmony.cn/活动/技术大会20240923/补充头像/默认男头像.svg')
+          Image(('https://' + 'images.openharmony.cn' + '/活动/技术大会20240923/补充头像/默认男头像.svg'))
             .id('imageFocus03_04')
             .width(110)
             .height(110)

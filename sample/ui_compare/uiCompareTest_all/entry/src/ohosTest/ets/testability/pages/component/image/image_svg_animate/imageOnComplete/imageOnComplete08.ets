@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageOnComplete08 {
+struct ImageOnComplete08 {
   @State info:string = 'loading~~';
   @State img:ResourceStr = $r('app.media.icon');
   @State loadingStatus:number = 1;

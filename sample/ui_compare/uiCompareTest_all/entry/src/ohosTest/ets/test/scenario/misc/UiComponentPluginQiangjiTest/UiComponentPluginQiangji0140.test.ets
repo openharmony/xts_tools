@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentPluginQiangji0140() {
-  describe('UiComponentPluginQiangji0140', () => {
+export default function uiComponentPluginQiangji0140() {
+  describe('uiComponentPluginQiangji0140', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARKUI_QIANGJI_LAYOUT_MULTITHREAD_0140
      * @tc.name   : Real component path: image

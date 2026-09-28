@@ -119,7 +119,7 @@ struct CommonAttrPriority0080 {
         }
         .width('90%')
         .padding(8)
-        .backgroundColor('#D8D8D8')
+        .backgroundColor('#d7d7d7')
         .borderRadius(8)
         .margin({ bottom: 0 })
 

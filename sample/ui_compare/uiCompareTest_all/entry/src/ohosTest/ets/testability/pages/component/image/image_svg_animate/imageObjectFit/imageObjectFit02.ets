@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageObjectFit02 {
+struct ImageObjectFit02 {
   @State info: string = 'loading~~';
 
   build() {
@@ -49,7 +49,7 @@ struct imageObjectFit02 {
           .margin(15)
           .width(114)
           .height(114)
-          .alt('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+          .alt(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
           .borderRadius(15)
           .onComplete((event) => {
             if (event) {

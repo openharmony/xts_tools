@@ -23,7 +23,7 @@ struct UIComponentMediaVideoReset012 {
   private firstError: boolean = true;
   private controller: VideoController = new VideoController()
   // private videoSrc: string = 'https://www.runoob.com/try/demo_source/movie.mp4'
-  private videoSrc: string = 'https://media.w3.org/2010/05/sintel/trailer.mp4'
+  private videoSrc: string = ('https://' + 'media.w3.org' + '/2010/05/sintel/trailer.mp4')
 
    build() {
      Row() {

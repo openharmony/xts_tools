@@ -17,7 +17,7 @@ import { image } from '@kit.ImageKit'
 
 @Entry
 @Component
-struct imageOnComplete09 {
+struct ImageOnComplete09 {
   @State value: number = 0;
   @State numberArr: number[] = [100, 200]
   @State imagePixelMap: image.PixelMap | undefined = undefined

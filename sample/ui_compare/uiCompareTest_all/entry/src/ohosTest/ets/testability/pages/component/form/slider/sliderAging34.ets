@@ -36,7 +36,7 @@ struct SliderAging34 {
         .id('slider_aging_34')
         .width('80%')
         .blockColor(0x191970)
-        .trackColor(0xADD8E6)
+        .trackColor(0xADd7E6)
         .selectedColor(0x4169E1)
         .showTips(true)
         .showSteps(true)

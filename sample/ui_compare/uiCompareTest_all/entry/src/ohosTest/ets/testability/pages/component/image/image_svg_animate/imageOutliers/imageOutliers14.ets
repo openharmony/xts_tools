@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageOutliers14 {
+struct ImageOutliers14 {
   @State info1:string = 'loading~~';
   @State info2:string = 'loading~~';
   @State info3:string = 'loading~~';
@@ -69,7 +69,7 @@ struct imageOutliers14 {
               .fontWeight(300)
               .margin(6)
 
-            Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+            Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
               .width(80)
               .height(80)
               .borderRadius(20)
@@ -108,7 +108,7 @@ struct imageOutliers14 {
               .fontWeight(300)
               .margin(6)
 
-            Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+            Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
               .width(80)
               .height(80)
               .borderRadius(20)
@@ -150,7 +150,7 @@ struct imageOutliers14 {
               .fontWeight(300)
               .margin(6)
 
-            Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+            Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
               .width(80)
               .height(80)
               .borderRadius(20)
@@ -189,7 +189,7 @@ struct imageOutliers14 {
               .fontWeight(300)
               .margin(6)
 
-            Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+            Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
               .width(80)
               .height(80)
               .borderRadius(20)
@@ -231,7 +231,7 @@ struct imageOutliers14 {
               .fontWeight(300)
               .margin(6)
 
-            Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+            Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
               .width(60)
               .height(60)
               .borderRadius(20)
@@ -269,7 +269,7 @@ struct imageOutliers14 {
               .fontWeight(300)
               .margin(6)
 
-            Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+            Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
               .width(60)
               .height(60)
               .borderRadius(20)
@@ -307,7 +307,7 @@ struct imageOutliers14 {
               .fontWeight(300)
               .margin(6)
 
-            Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+            Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
               .width(60)
               .height(60)
               .borderRadius(20)

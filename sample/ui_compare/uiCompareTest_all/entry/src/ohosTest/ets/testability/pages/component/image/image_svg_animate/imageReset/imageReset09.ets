@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageReset09 {
+struct ImageReset09 {
   @State imageSrcIndex: number = 0;
   @State imageSrcList: (ResourceStr | ImageContent)[] = [$r('app.media.icon'), ImageContent.EMPTY];
   @State info:string = 'loading~~';
@@ -64,7 +64,7 @@ struct imageReset09 {
       .backgroundColor('#fff')
 
       Button('Empty')
-        .id("imageReset09")
+        .id("ImageReset09")
         .height(60)
         .fontSize(18)
         .fontColor(Color.Black)

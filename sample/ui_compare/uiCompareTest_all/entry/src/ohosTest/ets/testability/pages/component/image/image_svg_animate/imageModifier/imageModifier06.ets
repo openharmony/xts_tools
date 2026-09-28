@@ -22,7 +22,7 @@ class CustomModifier extends CommonModifier {
 
 @Entry
 @Component
-struct imageModifier06 {
+struct ImageModifier06 {
   @State imageModifier: CommonModifier = new CustomModifier()
     .height(450)
     .width(300)

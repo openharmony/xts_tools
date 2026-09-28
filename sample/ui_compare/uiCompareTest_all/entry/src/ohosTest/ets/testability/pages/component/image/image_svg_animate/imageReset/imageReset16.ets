@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageReset16 {
+struct ImageReset16 {
   @State info1:string = 'loading~~';
   @State info2:string = 'loading~~';
   @State info3:string = 'loading~~';
@@ -34,7 +34,7 @@ struct imageReset16 {
   build() {
     Column() {
       Button('Empty')
-      .id("imageReset16")
+      .id("ImageReset16")
       .height(40)
       .fontSize(18)
       .fontColor(Color.Black)

@@ -16,9 +16,9 @@ import { drawing, common2D } from '@kit.ArkGraphics2D';
 
 @Entry
 @Component
-struct imageOpacity01 {
+struct ImageOpacity01 {
   @State info:string = 'loading~~';
-  @State img:ResourceStr = 'https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png';
+  @State img:ResourceStr = ('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png');
   @State loadingStatus:number = 1;
   private ColorFilterMatrix: number[] = [0.239, 0, 0, 0, 0, 0, 0.616, 0, 0, 0, 0, 0, 0.706, 0, 0, 0, 0, 0, 1, 0];
   @State DrawingColorFilterFirst: ColorFilter | DrawingColorFilter | undefined = new ColorFilter(this.ColorFilterMatrix);
@@ -30,10 +30,10 @@ struct imageOpacity01 {
   };
   @State drawingColorFilterFirst: ColorFilter | undefined = undefined;
   imgUrl:ResourceStr[] = [
-    'https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png',
-    'https://images.openharmony.cn/活动/技术大会20240923/补充头像/默认男头像.svg',
-    'https://www.runoob.com/try/demo_source/smiley-2.gif',
-    'http://images.openharmony.cn/活动/开发者大会20250428/大会顶端banner图.jpg'
+    ('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'),
+    ('https://' + 'images.openharmony.cn' + '/活动/技术大会20240923/补充头像/默认男头像.svg'),
+    ('https://' + 'www.runoob.com' + '/try/demo_source/smiley-2.gif'),
+    ('http://' + 'images.openharmony.cn' + '/活动/开发者大会20250428/大会顶端banner图.jpg')
   ]
   index:number = 0;
 

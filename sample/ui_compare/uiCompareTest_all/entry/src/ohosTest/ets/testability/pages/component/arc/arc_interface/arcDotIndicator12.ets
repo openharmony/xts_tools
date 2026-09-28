@@ -58,7 +58,7 @@ function generateColorArray(baseColors: Color[], targetLength: number): Color[] 
 
 @Entry
 @Component
-struct arcDotIndicator12 {
+struct ArcDotIndicator12 {
   @State itemSimpleColor: Color | number | string = '';
   @State selectedItemSimpleColor: Color | number | string = '';
   private wearableSwiperController: ArcSwiperController = new ArcSwiperController();
@@ -139,7 +139,7 @@ struct arcDotIndicator12 {
       }.height('70%')
 
       Button('showNext')
-        .id('arcDotIndicator12')
+        .id('ArcDotIndicator12')
         .fontSize(24)
         .onClick(() => {
           this.wearableSwiperController.showNext()

@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentSpecialUecInterface005() {
-  describe('UiComponentSpecialUecInterface005', () => {
+export default function uiComponentSpecialUecInterface005() {
+  describe('uiComponentSpecialUecInterface005', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_PREVIEW_UEC_005
      * @tc.name   : UEC wrong provider param marker

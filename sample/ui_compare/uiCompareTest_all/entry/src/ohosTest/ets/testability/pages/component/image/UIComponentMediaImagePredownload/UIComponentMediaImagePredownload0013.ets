@@ -24,8 +24,8 @@ struct UIComponentMediaImagePredownload0013 {
   aboutToAppear(): void {
     let options: cacheDownload.CacheDownloadOptions = {};
     try {
-      cacheDownload.download("https://cdn.finchina.com/app/pic/homePage/V6.0_qujj_zygjjjsjdb.png@3x.png?15671", options);
-      cacheDownload.download("https://cdn.finchina.com/app/pic/homePage/zygjjjsjdb.svg?9631", options);
+      cacheDownload.download(('https://' + 'cdn.finchina.com' + '/app/pic/homePage/V6.0_qujj_zygjjjsjdb.png@3x.png?15671'), options);
+      cacheDownload.download(('https://' + 'cdn.finchina.com' + '/app/pic/homePage/zygjjjsjdb.svg?9631'), options);
     } catch (err) {
       console.error(`Failed to download the resource. err: ${JSON.stringify(err)}`);
       this.message += '\nFailed to download the resource. err: ' + JSON.stringify(err);
@@ -38,7 +38,7 @@ struct UIComponentMediaImagePredownload0013 {
         .margin(10)
 
       Text('网络png图片资源，可以显示：')
-      Image('https://cdn.finchina.com/app/pic/homePage/V6.0_qujj_zygjjjsjdb.png@3x.png?15671')
+      Image(('https://' + 'cdn.finchina.com' + '/app/pic/homePage/V6.0_qujj_zygjjjsjdb.png@3x.png?15671'))
         .onComplete((event) => {
           this.message += '\n png image onComplete, width: ' + event?.width + ', height: ' + event?.height;
         })
@@ -49,7 +49,7 @@ struct UIComponentMediaImagePredownload0013 {
         .height(50)
 
       Text('网络svg图片资源，可以显示：')
-      Image('https://cdn.finchina.com/app/pic/homePage/zygjjjsjdb.svg?9631')
+      Image(('https://' + 'cdn.finchina.com' + '/app/pic/homePage/zygjjjsjdb.svg?9631'))
         .onComplete((event) => {
           this.message += '\n svg image onComplete, width: ' + event?.width + ', height: ' + event?.height;
         })

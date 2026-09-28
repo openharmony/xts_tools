@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct videoOptimize15 {
+struct VideoOptimize15 {
   @State eventLog: string = '等待onPrepared事件触发...';
   @State videoStatus: 'idle' | 'loading' | 'success' | 'error' = 'idle';
   @State eventHistory: string[] = [];

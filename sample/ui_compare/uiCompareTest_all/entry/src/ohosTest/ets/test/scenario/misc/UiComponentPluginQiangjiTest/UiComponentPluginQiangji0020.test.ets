@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentPluginQiangji0020() {
-  describe('UiComponentPluginQiangji0020', () => {
+export default function uiComponentPluginQiangji0020() {
+  describe('uiComponentPluginQiangji0020', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARKUI_DEV_QIANGJI__FOLDSPLITCONTAINER_0020
      * @tc.name   : ColumnSplit layout ready

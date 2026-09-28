@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function RefreshTest() {
+export default function refreshTest() {
 
-  describe('RefreshTest', () => {
+  describe('refreshTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

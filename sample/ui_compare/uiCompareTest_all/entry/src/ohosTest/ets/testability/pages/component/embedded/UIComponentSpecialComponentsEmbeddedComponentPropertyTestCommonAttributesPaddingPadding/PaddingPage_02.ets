@@ -18,9 +18,9 @@ import { common } from '@kit.AbilityKit';
 
 @Entry
 @Component
-struct PaddingPage_UIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingPadding0020 {
-  @State name: string = 'PaddingPage_UIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingPadding0020';
-  @State message: string = 'PaddingPage_UIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingPadding0020';
+struct PaddingPageUIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingPadding0020 {
+  @State name: string = 'PaddingPageUIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingPadding0020';
+  @State message: string = 'PaddingPageUIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingPadding0020';
   @State ec_paddingLength: Length = 10;
   private context:common.UIAbilityContext = getContext(this) as common.UIAbilityContext;
 

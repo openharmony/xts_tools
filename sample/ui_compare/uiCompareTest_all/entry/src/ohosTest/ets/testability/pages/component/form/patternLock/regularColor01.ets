@@ -18,7 +18,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
 @Component
-struct regularColor01 {
+struct RegularColor01 {
   @State passwords: Number[] = []
   @State message: string = 'please input password!'
   private patternLockController: PatternLockController = new PatternLockController()

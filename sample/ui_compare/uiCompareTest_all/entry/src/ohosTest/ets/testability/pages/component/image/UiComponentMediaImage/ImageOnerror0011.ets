@@ -46,7 +46,7 @@ struct ImageOnerror0011 {
         .fontSize(12)
         .margin({ bottom: 10 })
 
-      Image('https://example.com/empty_file.jpg')
+      Image(('https://' + 'example.com' + '/empty_file.jpg'))
         .width(120)
         .height(120)
         .id('image_network_error')

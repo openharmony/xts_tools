@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponent0803Remaining0500() {
-  describe('UiComponent0803Remaining0500', () => {
+export default function uiComponent0803Remaining0500() {
+  describe('uiComponent0803Remaining0500', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_FOLDERSTACK_0500
      * @tc.name   : ColumnSplit layout ready

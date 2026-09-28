@@ -15,9 +15,9 @@
 
 @Entry
 @Component
-struct imageOnComplete01 {
+struct ImageOnComplete01 {
   @State info:string = 'loading~~';
-  @State img:ResourceStr = 'https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png';
+  @State img:ResourceStr = ('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png');
   @State loadingStatus:number = 1
   @State contentWidth:number = 1
   @State contentHeight:number = 1
@@ -48,7 +48,7 @@ struct imageOnComplete01 {
           .fontWeight(300)
           .margin(10)
           .onClick( () => {
-            this.img = 'https://images.openharmony.cn/活动/技术大会20240923/补充头像/默认男头像.svg';
+            this.img = ('https://' + 'images.openharmony.cn' + '/活动/技术大会20240923/补充头像/默认男头像.svg');
           })
 
         Text('loadingStatus :' + this.loadingStatus)

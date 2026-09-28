@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentPluginQiangji0050() {
-  describe('UiComponentPluginQiangji0050', () => {
+export default function uiComponentPluginQiangji0050() {
+  describe('uiComponentPluginQiangji0050', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARKUI_QIANGJI_SHAPE_MULTITHREAD_0050
      * @tc.name   : Batch Ellipse nodes proxy

@@ -19,8 +19,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentMediaHeifTest() {
-  describe('UiComponentMediaHeifTest', () => {
+export default function uiComponentMediaHeifTest() {
+  describe('uiComponentMediaHeifTest', () => {
     let driver: Driver = Driver.create();
 
     afterEach(async () => {

@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentPluginComponent0001() {
-  describe('UiComponentPluginComponent0001', () => {
+export default function uiComponentPluginComponent0001() {
+  describe('uiComponentPluginComponent0001', () => {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENT_ONERROR_0001
      * @tc.name   : PluginComponent onError marker

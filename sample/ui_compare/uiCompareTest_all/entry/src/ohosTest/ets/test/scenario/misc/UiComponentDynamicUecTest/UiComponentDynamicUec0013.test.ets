@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentDynamicUec0013() {
-  describe('UiComponentDynamicUec0013', () => {
+export default function uiComponentDynamicUec0013() {
+  describe('uiComponentDynamicUec0013', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_DYNAMICCOMPONENT_UEC_ARKUI_0013
      * @tc.name   : UIExtensionComponent onError/host path

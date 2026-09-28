@@ -16,7 +16,7 @@ import { drawing, common2D } from '@kit.ArkGraphics2D';
 
 @Entry
 @Component
-struct imageReset14 {
+struct ImageReset14 {
   @State imageSrcIndex: number = 0;
   @State imageSrcList: (ResourceStr | ImageContent)[] = [$r('app.media.icon'), ImageContent.EMPTY];
   @State info:string = 'loading~~';

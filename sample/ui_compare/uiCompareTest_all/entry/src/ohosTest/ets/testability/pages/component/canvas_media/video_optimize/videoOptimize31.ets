@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct videoOptimize31 {
+struct VideoOptimize31 {
   @State eventLog: string = '等待操作...';
   @State operationCount: number = 0;
   @State videoStatus: 'idle' | 'loading' | 'success' | 'error' | 'playing' | 'seeking' = 'idle';

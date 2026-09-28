@@ -47,7 +47,7 @@ struct UiComponentButtonSliderInterFace07 {
       })
         .blockColor(Color.Grey)
         .selectedColor('#4169E1')
-        .trackColor('#ADD8E6')
+        .trackColor('#ADd7E6')
         .showTips(true)
         .trackThickness(5)
         .blockBorderColor(Color.Black)

@@ -17,7 +17,7 @@ import { LengthUnit, Router } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct activateCircleStylePage {
+struct ActivateCircleStylePage {
   @State passwords: Number[] = []
   @State message: string = 'please input password!'
   private patternLockController1: PatternLockController = new PatternLockController()

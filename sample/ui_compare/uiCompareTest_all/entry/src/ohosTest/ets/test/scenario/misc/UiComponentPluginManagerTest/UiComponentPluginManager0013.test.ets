@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentPluginManager0013() {
-  describe('UiComponentPluginManager0013', () => {
+export default function uiComponentPluginManager0013() {
+  describe('uiComponentPluginManager0013', () => {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_PUSH_0013
      * @tc.name   : Plugin manager push target abilityName marker

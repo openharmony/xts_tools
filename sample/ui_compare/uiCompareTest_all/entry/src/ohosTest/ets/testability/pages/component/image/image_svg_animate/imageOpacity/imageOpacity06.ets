@@ -15,9 +15,9 @@
 
 @Entry
 @Component
-struct imageOpacity06 {
+struct ImageOpacity06 {
   @State info:string = 'loading~~';
-  @State img:ResourceStr = 'https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png';
+  @State img:ResourceStr = ('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png');
   @State loadingStatus:number = 1;
 
   build() {

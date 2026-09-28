@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentPluginManager0008() {
-  describe('UiComponentPluginManager0008', () => {
+export default function uiComponentPluginManager0008() {
+  describe('uiComponentPluginManager0008', () => {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_REQUEST_QIANGJI_0008
      * @tc.name   : PluginComponent invalid source onError

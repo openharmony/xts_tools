@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentSpecialUecInterface0030() {
-  describe('UiComponentSpecialUecInterface0030', () => {
+export default function uiComponentSpecialUecInterface0030() {
+  describe('uiComponentSpecialUecInterface0030', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_QINAGJI_0030
      * @tc.name   : UIExtensionComponent onError/host path

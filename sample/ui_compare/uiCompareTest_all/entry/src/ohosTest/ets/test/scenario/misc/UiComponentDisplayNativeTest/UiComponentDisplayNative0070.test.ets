@@ -19,8 +19,8 @@ import Utils from '../../../model/Utils'
 import AssertLogHelper from '../../../model/AssertLogHelper'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentDisplayNative0070() {
-  describe('UiComponentDisplayNative0070', () => {
+export default function uiComponentDisplayNative0070() {
+  describe('uiComponentDisplayNative0070', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DISPLAY_NATIVE_0070
      * @tc.name   : PatternLock native trace marker without tdd binary

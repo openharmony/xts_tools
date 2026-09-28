@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageRadius01 {
+struct ImageRadius01 {
   @State info:string = 'loading~~';
 
   build() {
@@ -32,7 +32,7 @@ struct imageRadius01 {
           .fontWeight(300)
           .margin(6)
 
-        Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+        Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
           .borderRadius(20)
           .margin(15)
           .onComplete((event) => {

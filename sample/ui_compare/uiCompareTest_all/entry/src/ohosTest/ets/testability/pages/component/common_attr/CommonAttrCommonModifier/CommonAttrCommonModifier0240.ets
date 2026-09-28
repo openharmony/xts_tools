@@ -219,7 +219,7 @@ struct CommonAttrCommonModifier0240 {
             }
             .width('6.94%')
             .height('2.05%')
-            .backgroundColor('#607D8B')
+            .backgroundColor('#607d7B')
             .justifyContent(FlexAlign.Center)
             .margin(2)
 

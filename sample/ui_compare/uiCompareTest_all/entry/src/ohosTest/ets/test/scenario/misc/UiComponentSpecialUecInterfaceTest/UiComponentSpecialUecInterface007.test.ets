@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentSpecialUecInterface007() {
-  describe('UiComponentSpecialUecInterface007', () => {
+export default function uiComponentSpecialUecInterface007() {
+  describe('uiComponentSpecialUecInterface007', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_PREVIEW_UEC_007
      * @tc.name   : UEC destroy failure marker

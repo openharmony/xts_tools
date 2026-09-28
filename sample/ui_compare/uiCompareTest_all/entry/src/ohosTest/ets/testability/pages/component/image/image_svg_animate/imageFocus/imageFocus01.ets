@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageFocus01 {
+struct ImageFocus01 {
   build() {
     Column() {
       Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center }) {
@@ -30,7 +30,7 @@ struct imageFocus01 {
           .lineHeight(20)
           .fontWeight(300)
           .margin(10)
-        Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+        Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
           .width(110)
           .height(110)
           .margin(15)
@@ -47,7 +47,7 @@ struct imageFocus01 {
           .lineHeight(20)
           .fontWeight(300)
           .margin(10)
-        Image('http://images.openharmony.cn/活动/开发者大会20250428/大会顶端banner图.jpg')
+        Image(('http://' + 'images.openharmony.cn' + '/活动/开发者大会20250428/大会顶端banner图.jpg'))
           .width(110)
           .height(110)
           .margin(15)
@@ -64,7 +64,7 @@ struct imageFocus01 {
           .lineHeight(20)
           .fontWeight(300)
           .margin(10)
-        Image('https://www.runoob.com/try/demo_source/smiley-2.gif')
+        Image(('https://' + 'www.runoob.com' + '/try/demo_source/smiley-2.gif'))
           .width(110)
           .height(110)
           .margin(15)
@@ -81,7 +81,7 @@ struct imageFocus01 {
           .lineHeight(20)
           .fontWeight(300)
           .margin(10)
-        Image('https://images.openharmony.cn/活动/技术大会20240923/补充头像/默认男头像.svg')
+        Image(('https://' + 'images.openharmony.cn' + '/活动/技术大会20240923/补充头像/默认男头像.svg'))
           .width(110)
           .height(110)
           .margin(15)

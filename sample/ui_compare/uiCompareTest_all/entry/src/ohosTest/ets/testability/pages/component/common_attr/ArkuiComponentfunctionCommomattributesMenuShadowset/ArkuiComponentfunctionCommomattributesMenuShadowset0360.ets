@@ -43,7 +43,7 @@ struct ArkuiComponentfunctionCommomattributesMenuShadowset0360 {
           this.isDarkMode = true
         })
 
-      Web({ src: 'https://www.openharmony.cn', controller: this.controller })
+      Web({ src: ('https://' + 'www.openharmony.cn' + ''), controller: this.controller })
         .id("web_component_0360")
         .width('100%')
         .height(500)

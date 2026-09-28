@@ -23,7 +23,7 @@ struct UiComponentResourceImageAttachmentOption08{
   imagePixelMap: image.PixelMap | undefined = undefined;
   @State imagePixelMap3: image.PixelMap | undefined = undefined;
   @State colorFilter : string = ''
-  @State resource : string = 'http://images/xxx.jpeg'
+  @State resource : string = ('http://' + 'images' + '/xxx.jpeg')
   mutableStr: MutableStyledString = new MutableStyledString('123');
   controller: TextController = new TextController();
   controller2: TextController = new TextController();

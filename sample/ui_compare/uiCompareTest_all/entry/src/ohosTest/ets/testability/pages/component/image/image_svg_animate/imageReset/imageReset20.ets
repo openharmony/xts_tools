@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageReset20 {
+struct ImageReset20 {
   @State info1:string = 'loading~~';
   @State info2:string = 'loading~~';
   @State info3:string = 'loading~~';

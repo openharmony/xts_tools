@@ -18,9 +18,9 @@ import { common } from '@kit.AbilityKit';
 
 @Entry
 @Component
-struct MarginPage_UIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingLength0020 {
-  @State name: string = 'MarginPage_UIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingLength0020';
-  @State message: string = 'MarginPage_UIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingLength0020';
+struct MarginPageUIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingLength0020 {
+  @State name: string = 'MarginPageUIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingLength0020';
+  @State message: string = 'MarginPageUIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingLength0020';
   @State ec_marginLength: Length = 10;
   private context:common.UIAbilityContext = getContext(this) as common.UIAbilityContext;
 

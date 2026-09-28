@@ -46,7 +46,7 @@ class MyDataSource implements IDataSource {
 
 @Entry
 @Component
-struct arcDotIndicator03 {
+struct ArcDotIndicator03 {
   @State itemSimpleColor: Color | number | string = '';
   @State selectedItemSimpleColor: Color | number | string = '';
   private wearableSwiperController: ArcSwiperController = new ArcSwiperController();

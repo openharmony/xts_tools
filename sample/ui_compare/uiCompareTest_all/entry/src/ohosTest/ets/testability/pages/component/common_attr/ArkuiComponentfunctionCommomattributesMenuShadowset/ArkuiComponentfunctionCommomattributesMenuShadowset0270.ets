@@ -35,7 +35,7 @@ struct ArkuiComponentfunctionCommomattributesMenuShadowset0270 {
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Web({ src: 'https://www.openharmony.cn', controller: this.controller })
+      Web({ src: ('https://' + 'www.openharmony.cn' + ''), controller: this.controller })
         .id("web_component_0270")
         .width('100%')
         .height(500)

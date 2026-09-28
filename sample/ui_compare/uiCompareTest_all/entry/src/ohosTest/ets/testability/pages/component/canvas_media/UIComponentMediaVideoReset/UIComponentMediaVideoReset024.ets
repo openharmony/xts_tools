@@ -22,7 +22,7 @@ function sleepUIComponentMediaVideoReset(ms: number) {
 struct UIComponentMediaVideoReset024 {
   @State name: string = 'UIComponentMediaVideoReset024';
   private controller: VideoController = new VideoController()
-  private videoSrc: string = 'https://www.runoob.com/try/demo_source/movie.mp4'
+  private videoSrc: string = ('https://' + 'www.runoob.com' + '/try/demo_source/movie.mp4')
 
    build() {
      Row() {

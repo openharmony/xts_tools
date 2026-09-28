@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponent0803Remaining0170() {
-  describe('UiComponent0803Remaining0170', () => {
+export default function uiComponent0803Remaining0170() {
+  describe('uiComponent0803Remaining0170', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_MODIFIER_CAPABILITY_0170
      * @tc.name   : Real component path: image

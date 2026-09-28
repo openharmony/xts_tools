@@ -16,7 +16,7 @@ import { drawing } from '@kit.ArkGraphics2D';
 
 @Entry
 @Component
-struct imageLattice04 {
+struct ImageLattice04 {
   @State info1: string = 'loading~~';
   @State info2: string = 'loading~~';
   @State info3: string = 'loading~~';

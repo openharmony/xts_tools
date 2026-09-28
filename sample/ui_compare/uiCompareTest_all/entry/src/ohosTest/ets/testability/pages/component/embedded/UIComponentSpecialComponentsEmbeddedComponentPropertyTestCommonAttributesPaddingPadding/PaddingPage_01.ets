@@ -18,9 +18,9 @@ import { common } from '@kit.AbilityKit';
 
 @Entry
 @Component
-struct PaddingPage_UIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingPadding0010 {
-  @State name: string = 'PaddingPage_UIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingPadding0010';
-  @State message: string = 'PaddingPage_UIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingPadding0010';
+struct PaddingPageUIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingPadding0010 {
+  @State name: string = 'PaddingPageUIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingPadding0010';
+  @State message: string = 'PaddingPageUIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingPadding0010';
   @State ec_paddingMargin: Margin = {
     top: 10,
     bottom: 20,

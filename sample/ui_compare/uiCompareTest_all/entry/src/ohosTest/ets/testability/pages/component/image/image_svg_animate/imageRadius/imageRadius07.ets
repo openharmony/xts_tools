@@ -18,7 +18,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
 @Component
-struct imageRadius07 {
+struct ImageRadius07 {
   @State info1:string = 'loading~~';
   @State info2:string = 'loading~~';
   @State info3:string = 'loading~~';

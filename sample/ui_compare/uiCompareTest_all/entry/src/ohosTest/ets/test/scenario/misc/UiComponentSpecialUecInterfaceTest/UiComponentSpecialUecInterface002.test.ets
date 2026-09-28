@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentSpecialUecInterface002() {
-  describe('UiComponentSpecialUecInterface002', () => {
+export default function uiComponentSpecialUecInterface002() {
+  describe('uiComponentSpecialUecInterface002', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_PREVIEW_UEC_002
      * @tc.name   : UEC preview host interaction marker

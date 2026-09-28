@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageReset10 {
+struct ImageReset10 {
   @State imageSrcIndex: number = 0;
   @State imageSrcList: (ResourceStr | ImageContent)[] = [$r('app.media.icon'), ImageContent.EMPTY];
   @State info:string = 'loading~~';

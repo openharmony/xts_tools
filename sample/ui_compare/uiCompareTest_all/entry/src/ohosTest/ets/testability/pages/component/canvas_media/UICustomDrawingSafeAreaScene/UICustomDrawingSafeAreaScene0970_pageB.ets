@@ -17,8 +17,8 @@ import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
 @Component
-struct UICustomDrawingSafeAreaScene0970_pageB {
-  @State name: string = 'UICustomDrawingSafeAreaScene0970_pageB';
+struct UICustomDrawingSafeAreaScene0970PageB {
+  @State name: string = 'UICustomDrawingSafeAreaScene0970PageB';
   @State message: string = '';
   @State barMode: BarMode = BarMode.Fixed;
   @State data: string = '<p>RichText content</p>';

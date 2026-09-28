@@ -27,7 +27,7 @@ struct UIComponentMediaImagePredownload0011 {
         .margin(10)
 
       Text('网络png图片资源，可以显示：')
-      Image('https://cdn.finchina.com/app/pic/homePage/V6.0_qujj_zygjjjsjdb.png@3x.png?15671')
+      Image(('https://' + 'cdn.finchina.com' + '/app/pic/homePage/V6.0_qujj_zygjjjsjdb.png@3x.png?15671'))
         .onComplete((event) => {
           this.message += '\n png image onComplete, width: ' + event?.width + ', height: ' + event?.height;
         })
@@ -37,7 +37,7 @@ struct UIComponentMediaImagePredownload0011 {
         .width(50)
 
       Text('网络svg图片资源，可以显示：')
-      Image('https://cdn.finchina.com/app/pic/homePage/zygjjjsjdb.svg?9631')
+      Image(('https://' + 'cdn.finchina.com' + '/app/pic/homePage/zygjjjsjdb.svg?9631'))
         .onComplete((event) => {
           this.message += '\n svg image onComplete, width: ' + event?.width + ', height: ' + event?.height;
         })

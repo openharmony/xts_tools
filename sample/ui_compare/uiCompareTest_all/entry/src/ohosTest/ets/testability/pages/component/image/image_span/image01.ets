@@ -24,7 +24,7 @@ struct Image01 {
   @State message: string = 'Image01'
 
   aboutToAppear() {
-    this.requestImageUrl('http://images.openharmony.cn/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E6%B4%BB%E5%8A%A8/419/3.2releas-656-432.jpg'); // 请填写一个具体的网络图片地址
+    this.requestImageUrl(('http://' + 'images.openharmony.cn' + '/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E6%B4%BB%E5%8A%A8/419/3.2releas-656-432.jpg')); // 请填写一个具体的网络图片地址
   }
 
   requestImageUrl(url: string) {
@@ -35,11 +35,11 @@ struct Image01 {
         let imgData: ArrayBuffer = data.result as ArrayBuffer;
         console.info(`request image success, size: ${imgData.byteLength}`);
         let imgSource: image.ImageSource = image.createImageSource(imgData);
-        class sizeTmp {
+        class SizeTmp {
           public height: number = 100;
           public width: number = 100;
         }
-        let options: Record<string, number | boolean | sizeTmp> = {
+        let options: Record<string, number | boolean | SizeTmp> = {
           'alphaType': 0,
           'editable': false,
           'pixelFormat': 3,

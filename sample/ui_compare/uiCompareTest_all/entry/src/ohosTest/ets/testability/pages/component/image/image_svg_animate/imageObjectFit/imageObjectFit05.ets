@@ -17,7 +17,7 @@ import { image } from '@kit.ImageKit';
 
 @Entry
 @Component
-struct imageObjectFit05 {
+struct ImageObjectFit05 {
   @State info1: string = 'loading~~';
   @State info2: string = 'loading~~';
   @State info3: string = 'loading~~';
@@ -26,10 +26,10 @@ struct imageObjectFit05 {
   @State isShow: boolean = true;
   @State changeAppear: string = '点我卸载挂载组件';
   @State imageSrcList1: (ResourceStr | ImageContent)[] = [$r('app.media.icon'), ImageContent.EMPTY];
-  @State imageSrcList2: (ResourceStr | ImageContent)[] = ['https://images.openharmony.cn/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg', ImageContent.EMPTY];
-  @State imageSrcList3: (ResourceStr | ImageContent)[] = ['https://docimg9.docs.qq.com/image/AgAABd3lbMrG1njr_7dKwYs9RKdNxYEz.png?w=114&h=114', ImageContent.EMPTY];
-  @State imageSrcList4: (ResourceStr | ImageContent)[] = ['https://images.pexels.com/photos/1485894/pexels-photo-1485894.jpeg', ImageContent.EMPTY];
-  @State imageSrcList5: (ResourceStr | ImageContent)[] = ['https://www.runoob.com/try/demo_source/smiley-2.gif', ImageContent.EMPTY];
+  @State imageSrcList2: (ResourceStr | ImageContent)[] = [('https://' + 'images.openharmony.cn' + '/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg'), ImageContent.EMPTY];
+  @State imageSrcList3: (ResourceStr | ImageContent)[] = [('https://' + 'docimg9.docs.qq.com' + '/image/AgAABd3lbMrG1njr_7dKwYs9RKdNxYEz.png?w=114&h=114'), ImageContent.EMPTY];
+  @State imageSrcList4: (ResourceStr | ImageContent)[] = [('https://' + 'images.pexels.com' + '/photos/1485894/pexels-photo-1485894.jpeg'), ImageContent.EMPTY];
+  @State imageSrcList5: (ResourceStr | ImageContent)[] = [('https://' + 'www.runoob.com' + '/try/demo_source/smiley-2.gif'), ImageContent.EMPTY];
   @State imageSrcIndex1: number = 0;
   @State imageSrcIndex2: number = 0;
   @State imageSrcIndex3: number = 0;

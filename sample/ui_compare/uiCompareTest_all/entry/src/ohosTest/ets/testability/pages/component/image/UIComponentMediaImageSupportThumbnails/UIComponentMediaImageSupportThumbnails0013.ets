@@ -14,7 +14,7 @@
  */
 import { matrix4 } from '@kit.ArkUI';
 
-class imageModifier implements AttributeModifier<ImageAttribute> {
+class ImageModifier implements AttributeModifier<ImageAttribute> {
   public translateX: number = 0;
   public translateY: number = 0;
 
@@ -35,7 +35,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
   @State message: string = 'UIComponentMediaImageSupportThumbnails0013';
   @State translateX: number = 0;
   @State translateY: number = 0;
-  @State modifier: imageModifier = new imageModifier();
+  @State modifier: ImageModifier = new ImageModifier();
   @State matrix1: ImageMatrix = matrix4.identity()
     .translate({
       x: this.translateX,
@@ -48,7 +48,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
         Text('===原生调用===')
 
         Text('png图片:')
-        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.png")
+        Image(('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.png'))
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -56,7 +56,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
           .backgroundColor(Color.Orange)
 
         Text('jpg图片:')
-        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.jpg")
+        Image(('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.jpg'))
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -64,7 +64,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
           .backgroundColor(Color.Orange)
 
         Text('jpeg图片:')
-        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.jpeg")
+        Image(('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.jpeg'))
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -72,7 +72,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
           .backgroundColor(Color.Orange)
 
         Text('webp图片:')
-        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.webp")
+        Image(('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.webp'))
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -80,7 +80,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
           .backgroundColor(Color.Orange)
 
         Text('gif图片:')
-        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.gif")
+        Image(('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.gif'))
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -88,7 +88,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
           .backgroundColor(Color.Orange)
 
         Text('bmp图片:')
-        Image('https://gitee.com/drthrhr/test-resources/raw/testResources/image.bmp')
+        Image(('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.bmp'))
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -96,7 +96,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
           .backgroundColor(Color.Orange)
 
         Text('heif图片:')
-        Image('https://gitee.com/drthrhr/test-resources/raw/testResources/image.heif')
+        Image(('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.heif'))
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -256,7 +256,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
         Text('===Modifier调用===')
 
         Text('png图片:')
-        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.png")
+        Image(('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.png'))
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -264,7 +264,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
           .backgroundColor(Color.Orange)
 
         Text('jpg图片:')
-        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.jpg")
+        Image(('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.jpg'))
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -272,7 +272,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
           .backgroundColor(Color.Orange)
 
         Text('jpeg图片:')
-        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.jpeg")
+        Image(('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.jpeg'))
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -280,7 +280,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
           .backgroundColor(Color.Orange)
 
         Text('webp图片:')
-        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.webp")
+        Image(('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.webp'))
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -288,7 +288,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
           .backgroundColor(Color.Orange)
 
         Text('gif图片:')
-        Image("https://gitee.com/drthrhr/test-resources/raw/testResources/image.gif")
+        Image(('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.gif'))
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -296,7 +296,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
           .backgroundColor(Color.Orange)
 
         Text('bmp图片:')
-        Image('https://gitee.com/drthrhr/test-resources/raw/testResources/image.bmp')
+        Image(('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.bmp'))
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)
@@ -304,7 +304,7 @@ struct UIComponentMediaImageSupportThumbnails0013 {
           .backgroundColor(Color.Orange)
 
         Text('heif图片:')
-        Image('https://gitee.com/drthrhr/test-resources/raw/testResources/image.heif')
+        Image(('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.heif'))
           .objectFit(ImageFit.MATRIX)
           .width(90)
           .height(90)

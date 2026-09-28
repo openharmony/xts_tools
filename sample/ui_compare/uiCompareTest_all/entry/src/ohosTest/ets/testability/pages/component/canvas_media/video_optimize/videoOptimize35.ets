@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct videoOptimize35 {
+struct VideoOptimize35 {
   @State eventLog: string = '等待onPrepared事件触发...';
   @State videoSrc: Resource = $rawfile('video1.mp4');
   @State operationCount: number = 0;

@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct videoOptimize14 {
+struct VideoOptimize14 {
   @State eventLog: string = '等待操作...';
   @State isVisible: boolean = false;
   @State operationCount: number = 0;

@@ -17,7 +17,7 @@ import { LengthMetrics, LengthMetricsUnit, LengthUnit } from '@kit.ArkUI';
 @Entry
 @Component
 struct UiComponentButtonSliderInterFace09 {
-  @State text: string = "set trackColor to 0xADD8E6";
+  @State text: string = "set trackColor to 0xADd7E6";
   @State outSetValueOne: number = 50;
   @State space: number = 8;
   @State arrowPosition: ArrowPosition = ArrowPosition.END;
@@ -47,7 +47,7 @@ struct UiComponentButtonSliderInterFace09 {
       })
         .blockColor(Color.Grey)
         .selectedColor('#4169E1')
-        .trackColor('0xADD8E6')
+        .trackColor('0xADd7E6')
         .showTips(true)
         .trackThickness(10)
         .blockBorderColor(Color.Black)

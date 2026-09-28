@@ -53,7 +53,7 @@ export struct Bitmap0080 {
 
         // WebView 区域
         Web({
-          src: 'https://www.example.com',
+          src: ('https://' + 'www.example.com' + ''),
           controller: this.webviewController
         })
           .width('90%')

@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageLabel29 {
+struct ImageLabel29 {
   @State info:string = 'loading~~';
 
   build() {
@@ -33,7 +33,7 @@ struct imageLabel29 {
             .fontWeight(300)
             .margin(6)
 
-          Image($r('app.media.imageLabel29'))
+          Image($r('app.media.ImageLabel29'))
             .width(110)
             .height(110)
             .margin(15)

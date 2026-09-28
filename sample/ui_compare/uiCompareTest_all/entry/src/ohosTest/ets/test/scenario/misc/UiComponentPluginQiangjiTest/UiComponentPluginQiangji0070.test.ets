@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentPluginQiangji0070() {
-  describe('UiComponentPluginQiangji0070', () => {
+export default function uiComponentPluginQiangji0070() {
+  describe('uiComponentPluginQiangji0070', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARKUI_QIANGJI_SHAPE_MULTITHREAD_0070
      * @tc.name   : Batch Path nodes proxy

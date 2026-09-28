@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageReset18 {
+struct ImageReset18 {
   @State info1:string = 'loading~~';
   @State info2:string = 'loading~~';
   @State info3:string = 'loading~~';
@@ -113,7 +113,7 @@ struct imageReset18 {
         .objectRepeat(this.testArg4)
 
       Button('Empty')
-        .id("imageReset18")
+        .id("ImageReset18")
         .height(40)
         .fontSize(18)
         .fontColor(Color.Black)

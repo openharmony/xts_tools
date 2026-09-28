@@ -16,7 +16,7 @@ import { uiAppearance } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct imageParse01 {
+struct ImageParse01 {
   @State info: string = 'loading~~';
 
   build() {

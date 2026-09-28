@@ -46,7 +46,7 @@ class MyDataSource implements IDataSource {
 
 @Entry
 @Component
-struct arcDotIndicator02 {
+struct ArcDotIndicator02 {
   @State itemSimpleColor: Color | number | string = '';
   @State selectedItemSimpleColor: Color | number | string = '';
   private wearableSwiperController: ArcSwiperController = new ArcSwiperController();
@@ -127,7 +127,7 @@ struct arcDotIndicator02 {
       }.height('60%')
 
       Button('showNext')
-        .id('arcDotIndicator02')
+        .id('ArcDotIndicator02')
         .fontSize(24)
         .onClick(() => {
           this.wearableSwiperController.showNext()

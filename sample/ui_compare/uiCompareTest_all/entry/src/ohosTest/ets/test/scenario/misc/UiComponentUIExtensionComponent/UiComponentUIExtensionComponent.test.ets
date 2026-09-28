@@ -38,9 +38,9 @@ import { BusinessError } from '@kit.BasicServicesKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiComponentUIExtensionComponent() {
+export default function uiComponentUIExtensionComponent() {
 
-  describe('UiComponentUIExtensionComponent', () => {
+  describe('uiComponentUIExtensionComponent', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

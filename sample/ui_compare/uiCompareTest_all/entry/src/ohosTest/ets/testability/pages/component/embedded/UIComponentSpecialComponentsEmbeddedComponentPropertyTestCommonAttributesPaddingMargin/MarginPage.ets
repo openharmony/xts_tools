@@ -18,9 +18,9 @@ import { common } from '@kit.AbilityKit';
 
 @Entry
 @Component
-struct MarginPage_UIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingMargin0010 {
-  @State name: string = 'MarginPage_UIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingMargin0010';
-  @State message: string = 'MarginPage_UIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingMargin0010';
+struct MarginPageUIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingMargin0010 {
+  @State name: string = 'MarginPageUIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingMargin0010';
+  @State message: string = 'MarginPageUIComponentSpecialComponentsEmbeddedComponentPropertyTestCommonAttributesPaddingMargin0010';
   @State ec_marginMargin: Margin = {
     top: 10,
     bottom: 20,

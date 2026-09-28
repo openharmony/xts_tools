@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageBorder01 {
+struct ImageBorder01 {
   @State info1:string = 'loading~~';
   @State info2:string = 'loading~~';
 
@@ -44,7 +44,7 @@ struct imageBorder01 {
           .fontWeight(300)
           .margin(6)
 
-        Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+        Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
           .borderWidth(1)
           .objectFit(ImageFit.Contain)
           .margin(15)
@@ -62,7 +62,7 @@ struct imageBorder01 {
             }
           })
 
-        Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+        Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
           .borderWidth(1)
           .objectFit(ImageFit.Contain)
           .margin(15)

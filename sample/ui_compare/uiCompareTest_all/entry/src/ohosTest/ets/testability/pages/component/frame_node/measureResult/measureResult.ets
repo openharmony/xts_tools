@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct measureResult {
+struct MeasureResult {
   build() {
     Column() {
       CustomLayout({
@@ -68,7 +68,7 @@ struct CustomLayout {
     console.log('llhh333 onPlaceChildren selfLayoutInfo ' + selfLayoutInfo.width + '-' + selfLayoutInfo.height);
     let startPos = 300;
     children.forEach((child, childIndex) => {
-      let pos = startPos - child.measureResult.height;
+      let pos = startPos - child.MeasureResult.height;
       child.layout({ x: pos, y: pos })
     })
     this.borderWidthStr = JSON.stringify(selfLayoutInfo.borderWidth)

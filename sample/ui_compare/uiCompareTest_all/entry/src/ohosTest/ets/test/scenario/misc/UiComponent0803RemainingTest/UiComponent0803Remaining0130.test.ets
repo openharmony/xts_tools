@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponent0803Remaining0130() {
-  describe('UiComponent0803Remaining0130', () => {
+export default function uiComponent0803Remaining0130() {
+  describe('uiComponent0803Remaining0130', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_DFX_0130
      * @tc.name   : Video prepared or error status

@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageOutliers17 {
+struct ImageOutliers17 {
   @State info1:string = 'loading~~';
   @State info2:string = 'loading~~';
   @State testArg1:number | undefined | null  = undefined;
@@ -58,7 +58,7 @@ struct imageOutliers17 {
             .fontWeight(300)
             .margin(6)
 
-          Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+          Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
             .width(120)
             .height(120)
             .borderRadius(20)
@@ -97,7 +97,7 @@ struct imageOutliers17 {
             .fontWeight(300)
             .margin(6)
 
-          Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+          Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
             .width(120)
             .height(120)
             .borderRadius(20)

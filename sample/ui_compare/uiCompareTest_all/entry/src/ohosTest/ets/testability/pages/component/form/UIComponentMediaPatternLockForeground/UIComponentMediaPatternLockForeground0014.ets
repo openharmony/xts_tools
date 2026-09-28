@@ -15,7 +15,7 @@
 import { LengthMetrics, LengthUnit, uiAppearance } from '@kit.ArkUI';
 import { BusinessError } from '@kit.BasicServicesKit';
 
-class patternLockModifier implements AttributeModifier<PatternLockAttribute> {
+class PatternLockModifier implements AttributeModifier<PatternLockAttribute> {
   public enableFlag: boolean = false;
   public activateCircleRadiusValue: number = 9;
 
@@ -36,7 +36,7 @@ class patternLockModifier implements AttributeModifier<PatternLockAttribute> {
 struct UIComponentMediaPatternLockForeground0014 {
   @State name: string = 'UIComponentMediaPatternLockForeground0014';
   @State message: string = 'UIComponentMediaPatternLockForeground0014';
-  @State modifier: patternLockModifier = new patternLockModifier();
+  @State modifier: PatternLockModifier = new PatternLockModifier();
   private patternLockController1: PatternLockController = new PatternLockController();
   private patternLockController2: PatternLockController = new PatternLockController();
 

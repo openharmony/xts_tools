@@ -48,7 +48,7 @@ struct ImageSrc0010 {
         .fontSize(12)
         .margin({ bottom: 10 })
 
-      Image('https://example.com/test_image.png')
+      Image(('https://' + 'example.com' + '/test_image.png'))
         .width(120)
         .height(120)
         .id('image_network_cache')

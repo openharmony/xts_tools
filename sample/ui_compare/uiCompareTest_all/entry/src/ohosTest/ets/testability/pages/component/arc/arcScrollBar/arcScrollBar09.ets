@@ -17,7 +17,7 @@ import { ArcScrollBar } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct arcScrollBar09 {
+struct ArcScrollBar09 {
   private listScroller: Scroller = new Scroller();
   private gridScroller: Scroller = new Scroller();
   private scrollScroller: Scroller = new Scroller();

@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponent0803Remaining0870() {
-  describe('UiComponent0803Remaining0870', () => {
+export default function uiComponent0803Remaining0870() {
+  describe('uiComponent0803Remaining0870', () => {
     /*
      * @tc.number : SUB_ACE_FOLDERSTACK_MINIATURIZATION_0870
      * @tc.name   : ColumnSplit layout ready

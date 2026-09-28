@@ -43,7 +43,13 @@ async function sleep(time: number): Promise<void> {
 export default class TestAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam) {
     hilog.info(0x0000, 'testTag', '%{public}s', 'TestAbility onCreate');
-    hilog.info(0x0000, 'testTag', '%{public}s', 'want param:' + JSON.stringify(want) ?? '');
+    let wantStr: string = '';
+    try {
+      wantStr = JSON.stringify(want);
+    } catch (e) {
+      wantStr = 'stringify_failed';
+    }
+    hilog.info(0x0000, 'testTag', '%{public}s', 'want param:' + wantStr ?? '');
     hilog.info(0x0000, 'testTag', '%{public}s', 'launchParam:' + JSON.stringify(launchParam) ?? '');
     let abilityDelegator: AbilityDelegatorRegistry.AbilityDelegator
     abilityDelegator = AbilityDelegatorRegistry.getAbilityDelegator()

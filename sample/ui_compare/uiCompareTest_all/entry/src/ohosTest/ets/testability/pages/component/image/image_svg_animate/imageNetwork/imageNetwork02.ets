@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageNetwork02 {
+struct ImageNetwork02 {
   @State info1: string = 'loading~~';
   @State info2: string = 'loading~~';
   @State info3: string = 'loading~~';
@@ -47,7 +47,7 @@ struct imageNetwork02 {
           .fontWeight(300)
           .margin(6)
 
-        Image('https://images.openharmony.cn/活动/技术大会20240923/补充头像/默认男头像.svg')
+        Image(('https://' + 'images.openharmony.cn' + '/活动/技术大会20240923/补充头像/默认男头像.svg'))
           .width(110)
           .height(110)
           .margin(20)

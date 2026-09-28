@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentPluginQiangji0030() {
-  describe('UiComponentPluginQiangji0030', () => {
+export default function uiComponentPluginQiangji0030() {
+  describe('uiComponentPluginQiangji0030', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARKUI_QIANGJI_SHAPE_MULTITHREAD_0030
      * @tc.name   : Batch Video nodes proxy

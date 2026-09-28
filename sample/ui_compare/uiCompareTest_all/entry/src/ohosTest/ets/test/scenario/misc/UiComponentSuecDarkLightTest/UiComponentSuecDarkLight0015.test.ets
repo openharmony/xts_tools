@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentSuecDarkLight0015() {
-  describe('UiComponentSuecDarkLight0015', () => {
+export default function uiComponentSuecDarkLight0015() {
+  describe('uiComponentSuecDarkLight0015', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_ARKUI_DARK_LIGHT_0015
      * @tc.name   : UIExtensionComponent onError/host path

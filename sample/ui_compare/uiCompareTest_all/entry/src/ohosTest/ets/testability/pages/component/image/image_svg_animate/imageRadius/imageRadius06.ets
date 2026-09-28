@@ -41,7 +41,7 @@ struct ReusableFlowItem {
 
 @Entry
 @Component
-struct imageRadius06 {
+struct ImageRadius06 {
   minSize: number = 80;
   maxSize: number = 180;
   fontSize: number = 24;

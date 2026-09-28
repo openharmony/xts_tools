@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MouseButton } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function UiReverseTest() {
+export default function uiReverseTest() {
 
-  describe('UiReverseTest', () => {
+  describe('uiReverseTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

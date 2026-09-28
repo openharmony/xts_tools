@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct activeColor02 {
+struct ActiveColor02 {
   @State passwords: Number[] = []
   @State message: string = 'please input password!'
   private patternLockController: PatternLockController = new PatternLockController()

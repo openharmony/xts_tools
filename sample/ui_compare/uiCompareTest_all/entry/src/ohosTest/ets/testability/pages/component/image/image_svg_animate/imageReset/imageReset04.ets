@@ -16,7 +16,7 @@ import { RectShape } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct imageReset04 {
+struct ImageReset04 {
   @State imageSrcIndex: number = 0;
   @State imageSrcList: (ResourceStr | ImageContent)[] = [$r('app.media.icon'), ImageContent.EMPTY];
   @State info:string = 'loading~~';
@@ -65,7 +65,7 @@ struct imageReset04 {
       .backgroundColor('#fff')
 
       Button('EMPTY')
-        .id("imageReset04")
+        .id("ImageReset04")
         .height(60)
         .fontSize(18)
         .fontColor(Color.Black)

@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct videoOptimize27 {
+struct VideoOptimize27 {
   @State isAutoPlay: boolean = false;
   @State eventLog: string = '等待操作...';
   @State operationCount: number = 0;

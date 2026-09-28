@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentDisplayNative0110() {
-  describe('UiComponentDisplayNative0110', () => {
+export default function uiComponentDisplayNative0110() {
+  describe('uiComponentDisplayNative0110', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DISPLAY_NATIVE_0110
      * @tc.name   : Information display native trace stability marker

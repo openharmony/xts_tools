@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct pathColor02 {
+struct PathColor02 {
   @State passwords: Number[] = []
   @State message: string = 'please input password!'
   private patternLockController: PatternLockController = new PatternLockController()

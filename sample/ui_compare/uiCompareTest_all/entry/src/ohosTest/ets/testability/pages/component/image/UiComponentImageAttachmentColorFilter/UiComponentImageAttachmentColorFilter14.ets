@@ -228,7 +228,7 @@ struct UiComponentImageAttachmentColorFilter14 {
           Text('样式信息')
             .fontSize(14)
             .fontWeight(FontWeight.Bold)
-            .fontColor('#607D8B')
+            .fontColor('#607d7B')
             .width('100%')
 
           Text(this.styleInfo)

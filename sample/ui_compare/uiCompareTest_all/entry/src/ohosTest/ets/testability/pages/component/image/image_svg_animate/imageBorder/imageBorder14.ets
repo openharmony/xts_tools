@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageBorder14 {
+struct ImageBorder14 {
   @State info:string = 'loading~~';
 
   build() {
@@ -31,7 +31,7 @@ struct imageBorder14 {
           .lineHeight(20)
           .fontWeight(300)
           .margin(6)
-        Image('https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png')
+        Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
           .width(150)
           .borderRadius(20)
           .margin(15)

@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentSpecialUecInterface004() {
-  describe('UiComponentSpecialUecInterface004', () => {
+export default function uiComponentSpecialUecInterface004() {
+  describe('uiComponentSpecialUecInterface004', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_PREVIEW_UEC_004
      * @tc.name   : UEC destroy UEA marker

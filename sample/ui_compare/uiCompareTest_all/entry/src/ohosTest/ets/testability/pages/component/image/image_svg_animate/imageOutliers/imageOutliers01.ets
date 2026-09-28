@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageOutliers01 {
+struct ImageOutliers01 {
   @State info1:string = 'loading~~';
   @State info2:string = 'loading~~';
   @State info3:string = 'loading~~';

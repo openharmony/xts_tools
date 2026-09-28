@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageBorder06 {
+struct ImageBorder06 {
   @State info:string = 'loading~~';
 
   build() {
@@ -32,7 +32,7 @@ struct imageBorder06 {
           .fontWeight(300)
           .margin(6)
 
-        Image('https://docs.openharmony.cn/doc_v5.1_1753224319/zh-cn/application-dev/reference/apis-arkui/arkui-ts/figures/zh-cn_image_view2.png')
+        Image(('https://' + 'docs.openharmony.cn' + '/doc_v5.1_1753224319/zh-cn/application-dev/reference/apis-arkui/arkui-ts/figures/zh-cn_image_view2.png'))
           .width(150)
           .borderRadius(20)
           .borderWidth(1)

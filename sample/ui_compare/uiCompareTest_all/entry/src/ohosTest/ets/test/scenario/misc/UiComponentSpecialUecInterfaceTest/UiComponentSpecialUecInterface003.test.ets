@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentSpecialUecInterface003() {
-  describe('UiComponentSpecialUecInterface003', () => {
+export default function uiComponentSpecialUecInterface003() {
+  describe('uiComponentSpecialUecInterface003', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_PREVIEW_UEC_003
      * @tc.name   : UEC error when UEA missing marker

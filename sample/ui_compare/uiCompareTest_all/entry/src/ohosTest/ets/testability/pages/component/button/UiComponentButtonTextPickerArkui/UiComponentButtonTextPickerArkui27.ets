@@ -23,12 +23,12 @@ class MyMenuItemContentModifier implements ContentModifier<MenuItemConfiguration
   }
 
   applyContent(): WrappedBuilder<[MenuItemConfiguration]> {
-    return wrapBuilder(MenuItemBuilder);
+    return wrapBuilder(menuItemBuilder);
   }
 }
 
 @Builder
-function MenuItemBuilder(configuration: MenuItemConfiguration) {
+function menuItemBuilder(configuration: MenuItemConfiguration) {
   Row() {
     Text(configuration.value)
       .fontColor('#182431')

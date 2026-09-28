@@ -14,7 +14,7 @@
  */
 import { matrix4 } from '@kit.ArkUI';
 
-class imageModifier implements AttributeModifier<ImageAttribute> {
+class ImageModifier implements AttributeModifier<ImageAttribute> {
   public fillColorValue: null | undefined | ResourceColor | ColorContent = Color.Blue;
 
   applyNormalAttribute(instance: ImageAttribute): void {
@@ -27,7 +27,7 @@ class imageModifier implements AttributeModifier<ImageAttribute> {
 struct UIComponentMediaImageFillColorReset0011 {
   @State name: string = 'UIComponentMediaImageFillColorReset0011';
   @State message: string = 'UIComponentMediaImageFillColorReset0011';
-  @State modifier: imageModifier = new imageModifier();
+  @State modifier: ImageModifier = new ImageModifier();
   @State fillColorValue_Step3_01: null | undefined | ResourceColor | ColorContent = Color.Red;
   @State fillColorValue_Step3_02: null | undefined | ResourceColor | ColorContent = Color.Green;
   @State fillColorValue_Step4_01: null | undefined | ResourceColor | ColorContent = 0xffffff;

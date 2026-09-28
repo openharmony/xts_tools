@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentPluginQiangji0090() {
-  describe('UiComponentPluginQiangji0090', () => {
+export default function uiComponentPluginQiangji0090() {
+  describe('uiComponentPluginQiangji0090', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARKUI_QIANGJI_SHAPE_MULTITHREAD_0090
      * @tc.name   : Batch Polygon nodes proxy

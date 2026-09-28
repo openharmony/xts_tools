@@ -146,7 +146,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw143 {
             Text('生成的URL地址')
               .fontSize(15)
               .fontWeight(FontWeight.Bold)
-              .fontColor('#607D8B')
+              .fontColor('#607d7B')
               .width('100%')
             Text(`${this.toDataURL.substring(0, 50)}...`)
               .fontSize(11)

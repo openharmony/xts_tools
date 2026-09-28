@@ -17,14 +17,14 @@ import { ComponentContent } from '@kit.ArkUI';
 class Params {
 }
 @Builder
-function LoadingBuilder(params: Params) {
+function loadingBuilder(params: Params) {
   Column() {
     LoadingProgress()
       .color(Color.Blue)
   }
 }
 @Builder
-function AreaChangePlaceholderBuilder(params: Params) {
+function areaChangePlaceholderBuilder(params: Params) {
   Column() {
   }
   .width('100%')
@@ -42,8 +42,8 @@ struct SpecialComponentsUIContextGrayscale0100 {
   @State hei: number = 300;
   @State windowStrategy: WindowModeFollowStrategy = WindowModeFollowStrategy.FOLLOW_UI_EXTENSION_ABILITY_WINDOW_MODE;
   private proxy: UIExtensionProxy | null = null;
-  private initPlaceholder = new ComponentContent(this.getUIContext(), wrapBuilder(LoadingBuilder), new Params);
-  private areaChangePlaceholder = new ComponentContent(this.getUIContext(), wrapBuilder(AreaChangePlaceholderBuilder), new Params);
+  private initPlaceholder = new ComponentContent(this.getUIContext(), wrapBuilder(loadingBuilder), new Params);
+  private areaChangePlaceholder = new ComponentContent(this.getUIContext(), wrapBuilder(areaChangePlaceholderBuilder), new Params);
 
 
   build() {

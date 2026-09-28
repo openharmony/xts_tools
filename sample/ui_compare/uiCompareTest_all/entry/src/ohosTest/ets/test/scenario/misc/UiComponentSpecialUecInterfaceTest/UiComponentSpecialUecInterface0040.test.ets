@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentSpecialUecInterface0040() {
-  describe('UiComponentSpecialUecInterface0040', () => {
+export default function uiComponentSpecialUecInterface0040() {
+  describe('uiComponentSpecialUecInterface0040', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0040
      * @tc.name   : UEC without width height still creates host placeholder

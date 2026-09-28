@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentPluginComponent0002() {
-  describe('UiComponentPluginComponent0002', () => {
+export default function uiComponentPluginComponent0002() {
+  describe('uiComponentPluginComponent0002', () => {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENT_0002
      * @tc.name   : PluginComponent invalid source marker

@@ -23,8 +23,8 @@ import Logger from '../../../model/Logger';
  * UI组件AbilityformCut测试
  * 测试SegmentButton、ActionSheet、ChipGroup、Chip、Select、Popup等组件
  */
-export default function UiComponentAbilityformCutTest() {
-  describe('UiComponentAbilityformCutTest', () => {
+export default function uiComponentAbilityformCutTest() {
+  describe('uiComponentAbilityformCutTest', () => {
     afterEach(async () => {
       if (Settings.windowClass) {
         Settings.destroyWindow(Settings.windowClass);

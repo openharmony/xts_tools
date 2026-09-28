@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function WearingFrame() {
+export default function wearingFrame() {
 
-  describe('WearingFrame', () => {
+  describe('wearingFrame', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

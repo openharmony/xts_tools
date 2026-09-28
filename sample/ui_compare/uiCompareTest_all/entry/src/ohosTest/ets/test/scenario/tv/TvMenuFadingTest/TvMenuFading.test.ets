@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function TvMenuFading() {
+export default function tvMenuFading() {
 
-  describe('TvMenuFading', () => {
+  describe('tvMenuFading', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

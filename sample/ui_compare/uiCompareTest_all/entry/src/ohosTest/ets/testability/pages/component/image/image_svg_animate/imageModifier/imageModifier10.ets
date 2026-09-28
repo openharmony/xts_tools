@@ -22,7 +22,7 @@ class CustomModifier extends CommonModifier {
 
 @Entry
 @Component
-struct imageModifier10 {
+struct ImageModifier10 {
 
   @Builder OverlayNode() {
     Column() {
@@ -43,17 +43,17 @@ struct imageModifier10 {
     .linearGradientBlur(60, { fractionStops: [[0, 0], [0, 0.66], [1, 0.66], [1, 1]], direction: GradientDirection.Bottom })
     .foregroundBlurStyle(BlurStyle.Thin, { colorMode: ThemeColorMode.LIGHT, adaptiveColor: AdaptiveColor.DEFAULT, scale: 1.0 })
   @State info:string = 'loading~~';
-  @State img:ResourceStr = 'https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png';
+  @State img:ResourceStr = ('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png');
   @State loadingStatus:number = 1
   @State contentWidth:number = 1
   @State contentHeight:number = 1
   @State contentOffsetX:number = 1
   @State contentOffsetY:number = 1
   imgUrl:ResourceStr[] = [
-    'https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png',
-    'https://images.openharmony.cn/活动/技术大会20240923/补充头像/默认男头像.svg',
-    'https://www.runoob.com/try/demo_source/smiley-2.gif',
-    'http://images.openharmony.cn/活动/开发者大会20250428/大会顶端banner图.jpg'
+    ('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'),
+    ('https://' + 'images.openharmony.cn' + '/活动/技术大会20240923/补充头像/默认男头像.svg'),
+    ('https://' + 'www.runoob.com' + '/try/demo_source/smiley-2.gif'),
+    ('http://' + 'images.openharmony.cn' + '/活动/开发者大会20250428/大会顶端banner图.jpg')
   ]
   index:number = 0;
 
@@ -86,7 +86,7 @@ struct imageModifier10 {
           .margin(10)
 
         Button('change image url')
-          .id("imageModifier10")
+          .id("ImageModifier10")
           .height(40)
           .fontSize(15)
           .fontColor(Color.Black)

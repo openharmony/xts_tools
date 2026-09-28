@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageParse08 {
+struct ImageParse08 {
   @State info: string = 'loading~~';
 
   build() {
