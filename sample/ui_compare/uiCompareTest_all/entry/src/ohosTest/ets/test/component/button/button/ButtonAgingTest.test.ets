@@ -50,7 +50,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0420 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button01")
+      Settings.createWindow('testability/pages/component/button/button/button01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -79,7 +79,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1060 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button02")
+      Settings.createWindow('testability/pages/component/button/button/button02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -108,7 +108,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0400 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button03")
+      Settings.createWindow('testability/pages/component/button/button/button03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -137,7 +137,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1100 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button04")
+      Settings.createWindow('testability/pages/component/button/button/button04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -166,7 +166,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0370 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button05")
+      Settings.createWindow('testability/pages/component/button/button/button05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -195,7 +195,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1090 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button06")
+      Settings.createWindow('testability/pages/component/button/button/button06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -224,7 +224,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0430 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button07")
+      Settings.createWindow('testability/pages/component/button/button/button07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -253,7 +253,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1070 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button08")
+      Settings.createWindow('testability/pages/component/button/button/button08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -282,7 +282,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0390 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button09")
+      Settings.createWindow('testability/pages/component/button/button/button09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -311,7 +311,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1040 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button10")
+      Settings.createWindow('testability/pages/component/button/button/button10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -340,7 +340,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0410 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button11")
+      Settings.createWindow('testability/pages/component/button/button/button11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -369,7 +369,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1080 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button12")
+      Settings.createWindow('testability/pages/component/button/button/button12')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -398,7 +398,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0440 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button13")
+      Settings.createWindow('testability/pages/component/button/button/button13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -427,7 +427,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1050 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button14")
+      Settings.createWindow('testability/pages/component/button/button/button14')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -456,7 +456,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0840 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button15")
+      Settings.createWindow('testability/pages/component/button/button/button15')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -480,7 +480,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0660 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button16")
+      Settings.createWindow('testability/pages/component/button/button/button16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -509,7 +509,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0830 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button17")
+      Settings.createWindow('testability/pages/component/button/button/button17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -533,7 +533,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0680 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button18")
+      Settings.createWindow('testability/pages/component/button/button/button18')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -557,7 +557,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0810 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button19")
+      Settings.createWindow('testability/pages/component/button/button/button19')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -581,7 +581,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0640 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button20")
+      Settings.createWindow('testability/pages/component/button/button/button20')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -610,7 +610,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0450 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button21")
+      Settings.createWindow('testability/pages/component/button/button/button21')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -639,7 +639,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0620 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button22")
+      Settings.createWindow('testability/pages/component/button/button/button22')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -668,7 +668,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0380 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button23")
+      Settings.createWindow('testability/pages/component/button/button/button23')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -697,7 +697,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0630 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button24")
+      Settings.createWindow('testability/pages/component/button/button/button24')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -726,7 +726,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0850', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0850 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button25")
+      Settings.createWindow('testability/pages/component/button/button/button25')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -750,7 +750,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0800', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0800 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button26")
+      Settings.createWindow('testability/pages/component/button/button/button26')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -774,7 +774,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0650 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button27")
+      Settings.createWindow('testability/pages/component/button/button/button27')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -803,7 +803,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0670 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button28")
+      Settings.createWindow('testability/pages/component/button/button/button28')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -828,7 +828,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0920', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0920 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button29")
+      Settings.createWindow('testability/pages/component/button/button/button29')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -857,7 +857,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0700 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button30")
+      Settings.createWindow('testability/pages/component/button/button/button30')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -886,7 +886,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0320 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button31")
+      Settings.createWindow('testability/pages/component/button/button/button31')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -911,7 +911,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1110 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button32")
+      Settings.createWindow('testability/pages/component/button/button/button32')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -936,7 +936,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0860 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button33")
+      Settings.createWindow('testability/pages/component/button/button/button33')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -960,7 +960,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0690 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button34")
+      Settings.createWindow('testability/pages/component/button/button/button34')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -985,7 +985,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0950', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0950 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button35")
+      Settings.createWindow('testability/pages/component/button/button/button35')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1014,7 +1014,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0720 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button36")
+      Settings.createWindow('testability/pages/component/button/button/button36')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1039,7 +1039,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0080 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button37")
+      Settings.createWindow('testability/pages/component/button/button/button37')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1063,7 +1063,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0890', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0890 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button38")
+      Settings.createWindow('testability/pages/component/button/button/button38')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1092,7 +1092,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0710 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button39")
+      Settings.createWindow('testability/pages/component/button/button/button39')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1121,7 +1121,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0020 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button40")
+      Settings.createWindow('testability/pages/component/button/button/button40')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1157,7 +1157,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0880', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0880 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button41")
+      Settings.createWindow('testability/pages/component/button/button/button41')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1186,7 +1186,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0740 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button42")
+      Settings.createWindow('testability/pages/component/button/button/button42')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1210,7 +1210,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0090 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button43")
+      Settings.createWindow('testability/pages/component/button/button/button43')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1239,7 +1239,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0870 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button44")
+      Settings.createWindow('testability/pages/component/button/button/button44')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1263,7 +1263,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0730 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button45")
+      Settings.createWindow('testability/pages/component/button/button/button45')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1287,7 +1287,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0040 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button46")
+      Settings.createWindow('testability/pages/component/button/button/button46')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1311,7 +1311,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0930', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0930 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button47")
+      Settings.createWindow('testability/pages/component/button/button/button47')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1340,7 +1340,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0770 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button48")
+      Settings.createWindow('testability/pages/component/button/button/button48')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1365,7 +1365,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0050 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button49")
+      Settings.createWindow('testability/pages/component/button/button/button49')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1394,7 +1394,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0910', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0910 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button50")
+      Settings.createWindow('testability/pages/component/button/button/button50')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1423,7 +1423,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0760 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button51")
+      Settings.createWindow('testability/pages/component/button/button/button51')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1448,7 +1448,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0070 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button52")
+      Settings.createWindow('testability/pages/component/button/button/button52')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1477,7 +1477,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0900 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button53")
+      Settings.createWindow('testability/pages/component/button/button/button53')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1506,7 +1506,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0750 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button54")
+      Settings.createWindow('testability/pages/component/button/button/button54')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1530,7 +1530,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0010 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button55")
+      Settings.createWindow('testability/pages/component/button/button/button55')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1566,7 +1566,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0940', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0940 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button56")
+      Settings.createWindow('testability/pages/component/button/button/button56')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1595,7 +1595,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1130 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button57")
+      Settings.createWindow('testability/pages/component/button/button/button57')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1624,7 +1624,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0100 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button58")
+      Settings.createWindow('testability/pages/component/button/button/button58')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1653,7 +1653,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0820 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button59")
+      Settings.createWindow('testability/pages/component/button/button/button59')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1682,7 +1682,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1120 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button60")
+      Settings.createWindow('testability/pages/component/button/button/button60')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1711,7 +1711,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0160 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button61")
+      Settings.createWindow('testability/pages/component/button/button/button61')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1740,7 +1740,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0460 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button62")
+      Settings.createWindow('testability/pages/component/button/button/button62')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1769,7 +1769,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1160 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button63")
+      Settings.createWindow('testability/pages/component/button/button/button63')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1798,7 +1798,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0120 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button64")
+      Settings.createWindow('testability/pages/component/button/button/button64')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1826,7 +1826,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0470 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button65")
+      Settings.createWindow('testability/pages/component/button/button/button65')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1855,7 +1855,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1200 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button66")
+      Settings.createWindow('testability/pages/component/button/button/button66')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1884,7 +1884,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0110 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button67")
+      Settings.createWindow('testability/pages/component/button/button/button67')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1909,7 +1909,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0480 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button68")
+      Settings.createWindow('testability/pages/component/button/button/button68')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1938,7 +1938,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1150 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button69")
+      Settings.createWindow('testability/pages/component/button/button/button69')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1967,7 +1967,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0030 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button70")
+      Settings.createWindow('testability/pages/component/button/button/button70')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1991,7 +1991,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0510 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button71")
+      Settings.createWindow('testability/pages/component/button/button/button71')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2020,7 +2020,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1140 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button72")
+      Settings.createWindow('testability/pages/component/button/button/button72')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2049,7 +2049,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0060 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button73")
+      Settings.createWindow('testability/pages/component/button/button/button73')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2078,7 +2078,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0490 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button74")
+      Settings.createWindow('testability/pages/component/button/button/button74')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2107,7 +2107,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1180 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button75")
+      Settings.createWindow('testability/pages/component/button/button/button75')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2136,7 +2136,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0140 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button76")
+      Settings.createWindow('testability/pages/component/button/button/button76')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2174,7 +2174,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0500 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button77")
+      Settings.createWindow('testability/pages/component/button/button/button77')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2203,7 +2203,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1240 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button78")
+      Settings.createWindow('testability/pages/component/button/button/button78')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2232,7 +2232,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0150 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button79")
+      Settings.createWindow('testability/pages/component/button/button/button79')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2256,7 +2256,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0520 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button80")
+      Settings.createWindow('testability/pages/component/button/button/button80')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2285,7 +2285,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1220 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button81")
+      Settings.createWindow('testability/pages/component/button/button/button81')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2314,7 +2314,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0130 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button82")
+      Settings.createWindow('testability/pages/component/button/button/button82')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2351,7 +2351,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0540 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button83")
+      Settings.createWindow('testability/pages/component/button/button/button83')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2380,7 +2380,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1210 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button84")
+      Settings.createWindow('testability/pages/component/button/button/button84')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2409,7 +2409,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0190 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button85")
+      Settings.createWindow('testability/pages/component/button/button/button85')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2433,7 +2433,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0560 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button86")
+      Settings.createWindow('testability/pages/component/button/button/button86')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2462,7 +2462,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1250 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button87")
+      Settings.createWindow('testability/pages/component/button/button/button87')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2491,7 +2491,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0180 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button88")
+      Settings.createWindow('testability/pages/component/button/button/button88')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2515,7 +2515,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0600 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button89")
+      Settings.createWindow('testability/pages/component/button/button/button89')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2539,7 +2539,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1170 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button90")
+      Settings.createWindow('testability/pages/component/button/button/button90')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2568,7 +2568,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0200 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button91")
+      Settings.createWindow('testability/pages/component/button/button/button91')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2588,7 +2588,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0230 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button92")
+      Settings.createWindow('testability/pages/component/button/button/button92')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2612,7 +2612,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0530 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button93")
+      Settings.createWindow('testability/pages/component/button/button/button93')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2641,7 +2641,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0570 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button94")
+      Settings.createWindow('testability/pages/component/button/button/button94')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2670,7 +2670,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1230 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button95")
+      Settings.createWindow('testability/pages/component/button/button/button95')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2699,7 +2699,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0780 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button96")
+      Settings.createWindow('testability/pages/component/button/button/button96')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2723,7 +2723,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0240 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button97")
+      Settings.createWindow('testability/pages/component/button/button/button97')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2752,7 +2752,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0580 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button98")
+      Settings.createWindow('testability/pages/component/button/button/button98')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2776,7 +2776,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1260 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button99")
+      Settings.createWindow('testability/pages/component/button/button/button99')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2804,7 +2804,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0220 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button100")
+      Settings.createWindow('testability/pages/component/button/button/button100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2833,7 +2833,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0550 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button101")
+      Settings.createWindow('testability/pages/component/button/button/button101')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2862,7 +2862,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1270 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button102")
+      Settings.createWindow('testability/pages/component/button/button/button102')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2890,7 +2890,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0170 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button103")
+      Settings.createWindow('testability/pages/component/button/button/button103')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2914,7 +2914,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0590 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button104")
+      Settings.createWindow('testability/pages/component/button/button/button104')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2938,7 +2938,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0790', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0790 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button105")
+      Settings.createWindow('testability/pages/component/button/button/button105')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2962,7 +2962,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0260 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button106")
+      Settings.createWindow('testability/pages/component/button/button/button106')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -2991,7 +2991,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0610 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button107")
+      Settings.createWindow('testability/pages/component/button/button/button107')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3015,7 +3015,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1190 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button108")
+      Settings.createWindow('testability/pages/component/button/button/button108')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3044,7 +3044,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0250 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button109")
+      Settings.createWindow('testability/pages/component/button/button/button109')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3073,7 +3073,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0960', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0960 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button110")
+      Settings.createWindow('testability/pages/component/button/button/button110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3102,7 +3102,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0210 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button111")
+      Settings.createWindow('testability/pages/component/button/button/button111')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3122,7 +3122,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0970', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0970 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button112")
+      Settings.createWindow('testability/pages/component/button/button/button112')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3151,7 +3151,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0340 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button113")
+      Settings.createWindow('testability/pages/component/button/button/button113')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3180,7 +3180,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0980', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0980 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button114")
+      Settings.createWindow('testability/pages/component/button/button/button114')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3209,7 +3209,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0360 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button115")
+      Settings.createWindow('testability/pages/component/button/button/button115')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3233,7 +3233,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1010 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button116")
+      Settings.createWindow('testability/pages/component/button/button/button116')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3257,7 +3257,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0310 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button117")
+      Settings.createWindow('testability/pages/component/button/button/button117')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3281,7 +3281,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1000', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1000 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button118")
+      Settings.createWindow('testability/pages/component/button/button/button118')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3305,7 +3305,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0350 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button119")
+      Settings.createWindow('testability/pages/component/button/button/button119')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3329,7 +3329,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1030 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button120")
+      Settings.createWindow('testability/pages/component/button/button/button120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3358,7 +3358,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0300 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button121")
+      Settings.createWindow('testability/pages/component/button/button/button121')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3382,7 +3382,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1020 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button122")
+      Settings.createWindow('testability/pages/component/button/button/button122')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3411,7 +3411,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0330 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button123")
+      Settings.createWindow('testability/pages/component/button/button/button123')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -3435,7 +3435,7 @@ export default function buttonAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0990', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0990 start.`);
-      Settings.createWindow("testability/pages/component/button/button/button124")
+      Settings.createWindow('testability/pages/component/button/button/button124')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 

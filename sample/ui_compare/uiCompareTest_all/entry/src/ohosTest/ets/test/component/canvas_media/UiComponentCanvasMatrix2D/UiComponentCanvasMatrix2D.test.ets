@@ -64,7 +64,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0110 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D01")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -83,7 +83,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0130 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D02")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -102,7 +102,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0250 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D03")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -121,7 +121,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0270 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D04")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -140,7 +140,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0150 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D05")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -159,7 +159,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0390 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D06")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -178,7 +178,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0210 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D07")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -197,7 +197,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0230 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D08")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -216,7 +216,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0380 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D09")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -235,7 +235,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0370 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D10")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -254,7 +254,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0340 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D11")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -273,7 +273,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0080 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D12")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D12')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -292,7 +292,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0070 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D13")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -311,7 +311,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0060 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D14")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D14')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -330,7 +330,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0040 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D15")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D15')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -349,7 +349,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0120 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D16")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -368,7 +368,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0100 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D17")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -387,7 +387,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0400 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D18")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D18')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -406,7 +406,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0410 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D19")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D19')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -425,7 +425,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0450 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D20")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D20')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -444,7 +444,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0430 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D21")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D21')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -463,7 +463,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0440 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D22")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D22')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -482,7 +482,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0420 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D23")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D23')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -501,7 +501,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0200 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D24")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D24')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -520,7 +520,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0180 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D25")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D25')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -539,7 +539,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0170 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D26")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D26')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -558,7 +558,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0190 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D27")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D27')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -577,7 +577,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0160 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D28")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D28')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -596,7 +596,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0260 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D29")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D29')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -615,7 +615,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0220 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D30")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D30')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -634,7 +634,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0240 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D31")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D31')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -653,7 +653,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0320 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D32")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D32')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -672,7 +672,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0330 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D33")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D33')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -691,7 +691,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0300 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D34")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D34')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -710,7 +710,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0490 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D35")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D35')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -729,7 +729,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0470 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D36")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D36')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -748,7 +748,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0480 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D37")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D37')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -767,7 +767,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0600 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D38")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D38')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -786,7 +786,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0310 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D39")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D39')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -805,7 +805,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0460 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D40")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D40')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -824,7 +824,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0360 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D41")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D41')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -843,7 +843,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0280 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D42")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D42')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -862,7 +862,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0350 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D43")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D43')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -881,7 +881,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0590 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D44")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D44')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -900,7 +900,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0050 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D45")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D45')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -919,7 +919,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0090 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D46")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D46')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -938,7 +938,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0140 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D47")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D47')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -957,7 +957,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0290 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D48")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D48')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -976,7 +976,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0570 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D49")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D49')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -995,7 +995,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0580 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D50")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D50')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -1014,7 +1014,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0540 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D51")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D51')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -1033,7 +1033,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0550 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D52")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D52')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()
@@ -1052,7 +1052,7 @@ export default function uiComponentCanvasMatrix2D() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0560 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D53")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasMatrix2D/UiComponentCanvasMatrix2D53')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       windowSnap.snapShot()

@@ -64,7 +64,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0410 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius01")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius01_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius01_02'),1000);
@@ -88,7 +88,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0400 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius02")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius02_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius02_02'),1000);
@@ -112,7 +112,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0360', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0360 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius03")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius03_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius03_02'),1000);
@@ -136,7 +136,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0010 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius04")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius04_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius04_02'),1000);
@@ -160,7 +160,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0240 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius05")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius05_02'),1000);
       windowSnap.snapShot()
@@ -182,7 +182,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0270 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius06")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius06')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius06_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius06_02'),1000);
@@ -209,7 +209,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0260 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius08")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius08')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius08_01'),1000);
       windowSnap.snapShot()
@@ -231,7 +231,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0220 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius09")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius09')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius09_01'),1000);
       windowSnap.snapShot()
@@ -253,7 +253,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0230 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius10")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius10')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -272,7 +272,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0380 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius11")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius11')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius11_01'),1000);
@@ -315,7 +315,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0430 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius12")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius12')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius12_01'),1000);
@@ -337,7 +337,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0370 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius13")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius13')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius13_01'),1000);
@@ -359,7 +359,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0420 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius14")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius14')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius14_01'),1000);
@@ -381,7 +381,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0480 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius15")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius15')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius15_01'),1000);
@@ -403,7 +403,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0500 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius17")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius17')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius17_01'),1000);
@@ -429,7 +429,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0280 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius16")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius16')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius16_01'),1000);
@@ -451,7 +451,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0460 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius18")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius18')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius18_01'),1000);
@@ -473,7 +473,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0290 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius19")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius19')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius19_01'),1000);
@@ -495,7 +495,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0510 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius20")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius20')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius20_01'),1000);
@@ -517,7 +517,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0300 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius21")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius21')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius21_01'),1000);
@@ -539,7 +539,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0310 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius22")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius22')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius22_01'),1000);
@@ -561,7 +561,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0320 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius23")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius23')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -580,7 +580,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0340 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius24")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius24')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius24_01'),1000);
@@ -602,7 +602,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0330 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius25")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius25')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius25_01'),1000);
@@ -624,7 +624,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0350 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius26")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius26')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius26_01'),1000);
@@ -646,7 +646,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0450 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius27")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius27')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius27_01'),1000);
@@ -671,7 +671,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0440 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius28")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius28')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius28_01'),1000);
@@ -696,7 +696,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0030 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius29")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius29')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius29_01'),1000);
@@ -718,7 +718,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0490 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius30")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius30')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius30_01'),1000);
@@ -743,7 +743,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0470 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius31")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius31')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius31_01'),1000);
@@ -770,7 +770,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0390 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius32")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius32')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius32_01'),1000);
@@ -795,7 +795,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0020 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius33")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius33')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius33_01'),1000);
@@ -817,7 +817,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0520 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius34")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius34')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius34_01'),1000);
@@ -839,7 +839,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0530 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius35")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius35')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius35_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius35_02'),1000);
@@ -872,7 +872,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0160 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius36")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius36')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius36_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius36_02'),1000);
@@ -913,7 +913,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0170 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius37")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius37')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius37_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius37_02'),1000);
@@ -946,7 +946,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0180 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius38")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius38')
       let driver:Driver=Driver.create();
       let button05: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius38_05'),1000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius38_01'),1000);
@@ -996,7 +996,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0210 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius39")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius39')
       let driver:Driver=Driver.create();
       let button05: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius39_05'),1000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius39_01'),1000);
@@ -1046,7 +1046,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0190 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius40")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius40')
       let driver:Driver=Driver.create();
       let button05: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius40_05'),1000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius40_01'),1000);
@@ -1096,7 +1096,7 @@ export default function uiComponentButtonButtonRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0200 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius41")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonButtonRadius/UiComponentButtonButtonRadius41')
       let driver:Driver=Driver.create();
       let button05: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius41_05'),1000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonButtonRadius41_01'),1000);

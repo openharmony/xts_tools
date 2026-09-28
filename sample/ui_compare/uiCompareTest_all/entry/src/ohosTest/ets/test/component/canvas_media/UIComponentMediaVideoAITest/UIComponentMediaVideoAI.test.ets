@@ -39,7 +39,7 @@ export default function uIComponentMediaVideoAI() {
       try {
         wifiManager.enableWifi();
       } catch (error) {
-        Logger.error(`[${TAG}_beforeAll]`, "enableWifi failed:" + JSON.stringify(error));
+        Logger.error(`[${TAG}_beforeAll]`, 'enableWifi failed:' + JSON.stringify(error));
       }
       await Utils.sleep(5000);
       done();
@@ -603,7 +603,7 @@ export default function uIComponentMediaVideoAI() {
       await driver.waitForIdle(1000, 1000);
       await startButton.click();
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
-        events: ["videoFinish"]
+        events: ['videoFinish']
       };
       let subscriber : commonEventManager.CommonEventSubscriber;
       await commonEventManager.createSubscriber(commonEventSubscribeInfo)
@@ -621,7 +621,7 @@ export default function uIComponentMediaVideoAI() {
             await driver.waitForIdle(1000, 1000);
             await windowSnap.snapShot();
             commonEventManager.unsubscribe(commonEventSubscriber, (err, data) => {
-              hilog.info(0x0000, TAG, "[%{public}s] unsubscribe callback. err: %{public}s, data: %{public}s", TAG, JSON.stringify(err), JSON.stringify(data));
+              hilog.info(0x0000, TAG, '[%{public}s] unsubscribe callback. err: %{public}s, data: %{public}s', TAG, JSON.stringify(err), JSON.stringify(data));
               done();
             });
           })

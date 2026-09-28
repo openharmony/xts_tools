@@ -64,7 +64,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_1330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_1330 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier01")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -83,7 +83,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0870 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier02")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier02')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier02'),1000);
@@ -104,7 +104,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0760 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier03")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier03')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier03'),1000);
@@ -125,7 +125,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0770 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier04")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier04')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier04'),1000);
@@ -146,7 +146,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0840 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier05")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier05')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier05'),1000);
@@ -167,7 +167,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0730 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier06")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier06')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier06'),1000);
@@ -188,7 +188,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0860 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier07")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier07')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier07'),1000);
@@ -209,7 +209,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0780 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier08")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier08')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier08'),1000);
@@ -230,7 +230,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0740 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier09")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier09')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier09'),1000);
@@ -251,7 +251,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0790', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0790 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier10")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier10')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier10'),1000);
@@ -272,7 +272,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0810 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier11")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier11')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier11'),1000);
@@ -293,7 +293,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0800', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0800 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier12")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier12')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier12'),1000);
@@ -314,7 +314,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0750 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier13")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier13')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier13'),1000);
@@ -335,7 +335,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0850', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0850 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier14")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier14')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier14'),1000);
@@ -356,7 +356,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0920', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0920 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier15")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier15')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier15'),1000);
@@ -377,7 +377,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0900 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier16")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier16')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier16'),1000);
@@ -398,7 +398,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0890', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0890 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier17")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier17')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier17'),1000);
@@ -419,7 +419,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0820 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier18")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier18')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier18'),1000);
@@ -440,7 +440,7 @@ export default function uiComponentCanvasModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0830 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier19")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasModifier/UiComponentCanvasModifier19')
       let driver:Driver = Driver.create();
       windowSnap.snapShot();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentCanvasModifier19'),1000);

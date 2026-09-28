@@ -51,7 +51,7 @@ export default function path2dAndCanvaspath2d() {
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0010 start.`);
       // 步骤1：创建组件，设置频繁调用任务
-      Settings.createWindow("testability/pages/component/canvas_media/path2dAndCanvaspath2d/Path2dAndCanvaspath2d0010")
+      Settings.createWindow('testability/pages/component/canvas_media/path2dAndCanvaspath2d/Path2dAndCanvaspath2d0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：任务中调用Path2D路径对象LineTo方法进行绘制
@@ -74,7 +74,7 @@ export default function path2dAndCanvaspath2d() {
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0020 start.`);
       // 步骤1：创建组件，设置频繁调用任务
-      Settings.createWindow("testability/pages/component/canvas_media/path2dAndCanvaspath2d/Path2dAndCanvaspath2d0020")
+      Settings.createWindow('testability/pages/component/canvas_media/path2dAndCanvaspath2d/Path2dAndCanvaspath2d0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：任务中调用Path2D路径对象bezierCurveTo方法进行绘制
@@ -97,7 +97,7 @@ export default function path2dAndCanvaspath2d() {
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0030 start.`);
       // 步骤1：创建组件，设置频繁调用任务
-      Settings.createWindow("testability/pages/component/canvas_media/path2dAndCanvaspath2d/Path2dAndCanvaspath2d0030")
+      Settings.createWindow('testability/pages/component/canvas_media/path2dAndCanvaspath2d/Path2dAndCanvaspath2d0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：任务中调用Path2D路径对象quadraticCurveTo方法进行绘制
@@ -120,7 +120,7 @@ export default function path2dAndCanvaspath2d() {
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0040 start.`);
       // 步骤1：创建组件，设置频繁调用任务
-      Settings.createWindow("testability/pages/component/canvas_media/path2dAndCanvaspath2d/Path2dAndCanvaspath2d0040")
+      Settings.createWindow('testability/pages/component/canvas_media/path2dAndCanvaspath2d/Path2dAndCanvaspath2d0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：任务中调用Path2D路径对象arc方法进行绘制
@@ -143,7 +143,7 @@ export default function path2dAndCanvaspath2d() {
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0050 start.`);
       // 步骤1：创建组件，设置频繁调用任务
-      Settings.createWindow("testability/pages/component/canvas_media/path2dAndCanvaspath2d/Path2dAndCanvaspath2d0050")
+      Settings.createWindow('testability/pages/component/canvas_media/path2dAndCanvaspath2d/Path2dAndCanvaspath2d0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：任务中调用Path2D路径对象arcTo方法进行绘制
@@ -166,7 +166,7 @@ export default function path2dAndCanvaspath2d() {
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0060 start.`);
       // 步骤1：创建组件，设置频繁调用任务
-      Settings.createWindow("testability/pages/component/canvas_media/path2dAndCanvaspath2d/Path2dAndCanvaspath2d0060")
+      Settings.createWindow('testability/pages/component/canvas_media/path2dAndCanvaspath2d/Path2dAndCanvaspath2d0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：任务中调用Path2D路径对象ellipse方法进行绘制
@@ -189,7 +189,7 @@ export default function path2dAndCanvaspath2d() {
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0070 start.`);
       // 步骤1：创建组件，设置频繁调用任务
-      Settings.createWindow("testability/pages/component/canvas_media/path2dAndCanvaspath2d/Path2dAndCanvaspath2d0070")
+      Settings.createWindow('testability/pages/component/canvas_media/path2dAndCanvaspath2d/Path2dAndCanvaspath2d0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：任务中调用Path2D路径对象rect方法进行绘制

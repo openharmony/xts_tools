@@ -50,7 +50,7 @@ export default function arcScrollBarTest () {
      */
     it('SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0010 start.`);
-      Settings.createWindow("testability/pages/component/arc/arcScrollBar/arcScrollBar01")
+      Settings.createWindow('testability/pages/component/arc/arcScrollBar/arcScrollBar01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -82,7 +82,7 @@ export default function arcScrollBarTest () {
      */
     it('SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0020 start.`);
-      Settings.createWindow("testability/pages/component/arc/arcScrollBar/arcScrollBar02")
+      Settings.createWindow('testability/pages/component/arc/arcScrollBar/arcScrollBar02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -114,7 +114,7 @@ export default function arcScrollBarTest () {
      */
     it('SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0030 start.`);
-      Settings.createWindow("testability/pages/component/arc/arcScrollBar/arcScrollBar03")
+      Settings.createWindow('testability/pages/component/arc/arcScrollBar/arcScrollBar03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -144,7 +144,7 @@ export default function arcScrollBarTest () {
      */
     it('SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0040 start.`);
-      Settings.createWindow("testability/pages/component/arc/arcScrollBar/arcScrollBar04")
+      Settings.createWindow('testability/pages/component/arc/arcScrollBar/arcScrollBar04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -181,7 +181,7 @@ export default function arcScrollBarTest () {
      */
     it('SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0050 start.`);
-      Settings.createWindow("testability/pages/component/arc/arcScrollBar/arcScrollBar05")
+      Settings.createWindow('testability/pages/component/arc/arcScrollBar/arcScrollBar05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -213,7 +213,7 @@ export default function arcScrollBarTest () {
      */
     it('SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0060 start.`);
-      Settings.createWindow("testability/pages/component/arc/arcScrollBar/arcScrollBar06")
+      Settings.createWindow('testability/pages/component/arc/arcScrollBar/arcScrollBar06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -252,7 +252,7 @@ export default function arcScrollBarTest () {
      */
     it('SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0070 start.`);
-      Settings.createWindow("testability/pages/component/arc/arcScrollBar/arcScrollBar07")
+      Settings.createWindow('testability/pages/component/arc/arcScrollBar/arcScrollBar07')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -289,7 +289,7 @@ export default function arcScrollBarTest () {
      */
     it('SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0080 start.`);
-      Settings.createWindow("testability/pages/component/arc/arcScrollBar/arcScrollBar08")
+      Settings.createWindow('testability/pages/component/arc/arcScrollBar/arcScrollBar08')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -328,7 +328,7 @@ export default function arcScrollBarTest () {
      */
     it('SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0100 start.`);
-      Settings.createWindow("testability/pages/component/arc/arcScrollBar/arcScrollBar09")
+      Settings.createWindow('testability/pages/component/arc/arcScrollBar/arcScrollBar09')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       

@@ -50,7 +50,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0010', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0010 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0010")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0020', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0020 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0020")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0030', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0030 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0030")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -107,7 +107,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0040', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0040 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0040")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -126,7 +126,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0050', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0050 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0050")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -145,7 +145,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0060', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0060 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0060")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -164,7 +164,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0070', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0070 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0070")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -183,7 +183,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0080', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0080 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0080")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -202,7 +202,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0090', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0090 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0090")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -221,7 +221,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0100', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0100 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0100")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -240,7 +240,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0110', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0110 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0110")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -259,7 +259,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0120', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0120 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0120")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -278,7 +278,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0130', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0130 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0130")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -297,7 +297,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0140', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0140 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0140")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0140')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -316,7 +316,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0150', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0150 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0150")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0150')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -335,7 +335,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0160', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0160 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0160")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0160')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -354,7 +354,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0170', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0170 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0170")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0170')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -373,7 +373,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0180', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0180 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0180")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0180')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -392,7 +392,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0190', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0190 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0190")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0190')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -411,7 +411,7 @@ export default function canvasLetterSpacing() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0200', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0200 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0200")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasLetterSpacing/CanvasLetterSpacing0200')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()

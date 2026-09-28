@@ -64,7 +64,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0190 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging01")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging01_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging01_02'),1000);
@@ -109,7 +109,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0300', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0300 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging02")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging02_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging02_02'),1000);
@@ -154,7 +154,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0330', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0330 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging03")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging03_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging03_02'),1000);
@@ -199,7 +199,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0250', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0250 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging04")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging04_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging04_02'),1000);
@@ -244,7 +244,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0070 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging05")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging05_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging05_02'),1000);
@@ -289,7 +289,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0040 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging06")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging06')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging06_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging06_02'),1000);
@@ -334,7 +334,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0180 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging07")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging07')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging07_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging07_02'),1000);
@@ -379,7 +379,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0230', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0230 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging08")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging08')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging08_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging08_02'),1000);
@@ -424,7 +424,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0260', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0260 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging09")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging09')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging09_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging09_02'),1000);
@@ -469,7 +469,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0310 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging10")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging10')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging10_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging10_02'),1000);
@@ -514,7 +514,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0160', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0160 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging11")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging11')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging11_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging11_02'),1000);
@@ -559,7 +559,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0080 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging12")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging12')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging12_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging12_02'),1000);
@@ -604,7 +604,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0110 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging13")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging13')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging13_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging13_02'),1000);
@@ -649,7 +649,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0060 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging14")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging14')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging14_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging14_02'),1000);
@@ -694,7 +694,7 @@ export default function uiComponentButtonSegmentButtonAging() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0320', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0320 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging15")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSegmentButtonAging/UiComponentButtonSegmentButtonAging15')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging15_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentButtonSegmentButtonAging15_02'),1000);

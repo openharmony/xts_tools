@@ -49,14 +49,14 @@ export default function uIComponentArcListScrollBarTest() {
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010 start.`);
       const caseName: string = 'SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010';
-      Settings.createWindow("testability/pages/component/arc/UIComponentArcListScrollBar/UIComponentArcListScrollBar001");
+      Settings.createWindow('testability/pages/component/arc/UIComponentArcListScrollBar/UIComponentArcListScrollBar001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010_06");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010_06');
       let button1: Component = await driver.waitForComponent(ON.id('off'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010_05");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010_05');
       let button2: Component = await driver.waitForComponent(ON.id('auto'), 1000);
       await button2.click();
       let arcList: Component = await driver.waitForComponent(ON.type('ArcList'), 1000);
@@ -65,15 +65,15 @@ export default function uIComponentArcListScrollBarTest() {
       let rect = await arcList.getBounds();
       console.info(`${caseName} reect is ${(JSON.stringify(rect))}`);
       await driver.click(rect.right - 5, point.y);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010_04');
       await Utils.sleep(2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010_03');
       let button3: Component = await driver.waitForComponent(ON.id('undefined'), 1000);
       await button3.click();
       await driver.click(rect.right - 5, point.y);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010_02');
       await Utils.sleep(2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010 finish.`);
       done();
@@ -90,7 +90,7 @@ export default function uIComponentArcListScrollBarTest() {
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0030 start.`);
       const caseName: string = 'SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0030';
-      Settings.createWindow("testability/pages/component/arc/UIComponentArcListScrollBar/UIComponentArcListScrollBar003");
+      Settings.createWindow('testability/pages/component/arc/UIComponentArcListScrollBar/UIComponentArcListScrollBar003');
       let driver: Driver = Driver.create();
       let arcList: Component = await driver.waitForComponent(ON.type('ArcList'), 1000);
       let point = await arcList.getBoundsCenter();
@@ -98,9 +98,9 @@ export default function uIComponentArcListScrollBarTest() {
       let rect = await arcList.getBounds();
       console.info(`${caseName} reect is ${(JSON.stringify(rect))}`);
       await driver.click(rect.right - 5, point.y);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0030_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0030_02');
       await driver.drag(rect.right - 5, point.y, rect.right - 5, point.y + 50, 600);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0030");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0030');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0030 finish.`);
       done();

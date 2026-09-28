@@ -49,7 +49,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0010 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType01")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -74,7 +74,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0020 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType02")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -101,7 +101,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0030 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType03")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -126,7 +126,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0040 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType04")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -153,7 +153,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0050 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType05")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -178,7 +178,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0060 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType06")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -209,7 +209,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0070 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType07")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -234,7 +234,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0080 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType08")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -259,7 +259,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0090 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType09")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -284,7 +284,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0100 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType10")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -315,7 +315,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0110 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType11")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -340,7 +340,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0130 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType13")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -370,7 +370,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0140 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType14")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType14')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -400,7 +400,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0150 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType15")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType15')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -430,7 +430,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0160 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType16")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -460,7 +460,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0170 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType17")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -490,7 +490,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0180 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType18")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType18')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -520,7 +520,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0190 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType19")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType19')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -551,7 +551,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0200 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType20")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType20')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -576,7 +576,7 @@ export default function toggleTypeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0220 start.`);
-      Settings.createWindow("testability/pages/component/button/toggle/toggleType22")
+      Settings.createWindow('testability/pages/component/button/toggle/toggleType22')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 

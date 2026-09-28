@@ -64,7 +64,7 @@ export default function uiComponentCanvasOffScreenCanvas() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0060 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas01")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -83,7 +83,7 @@ export default function uiComponentCanvasOffScreenCanvas() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0050 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas02")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas02')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -102,7 +102,7 @@ export default function uiComponentCanvasOffScreenCanvas() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0040 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas03")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas03')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -121,7 +121,7 @@ export default function uiComponentCanvasOffScreenCanvas() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0020 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas04")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas04')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -140,7 +140,7 @@ export default function uiComponentCanvasOffScreenCanvas() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0030 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas05")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas05')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -159,7 +159,7 @@ export default function uiComponentCanvasOffScreenCanvas() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0010 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas06")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffScreenCanvas/UiComponentCanvasOffScreenCanvas06')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

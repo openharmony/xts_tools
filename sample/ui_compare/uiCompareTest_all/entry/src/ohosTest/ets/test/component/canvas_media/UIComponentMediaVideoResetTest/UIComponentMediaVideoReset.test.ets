@@ -42,7 +42,7 @@ export default function uIComponentMediaVideoReset() {
       try {
         wifiManager.enableWifi();
       } catch (error) {
-        Logger.error(`[${TAG}_beforeEach]`, "enableWifi failed:" + JSON.stringify(error));
+        Logger.error(`[${TAG}_beforeEach]`, 'enableWifi failed:' + JSON.stringify(error));
       }
       await Utils.sleep(5000);
       done();
@@ -94,10 +94,10 @@ export default function uIComponentMediaVideoReset() {
       try {
         wifiManager.disableWifi();
       } catch (error) {
-        Logger.error(`[${TAG}]`, "first disableWifi failed:" + JSON.stringify(error));
+        Logger.error(`[${TAG}]`, 'first disableWifi failed:' + JSON.stringify(error));
       }
       let firstEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
-        events: ["videoError_1"]
+        events: ['videoError_1']
       };
       let firstSubscriber : commonEventManager.CommonEventSubscriber;
       await commonEventManager.createSubscriber(firstEventSubscribeInfo)
@@ -113,7 +113,7 @@ export default function uIComponentMediaVideoReset() {
             try {
               wifiManager.enableWifi();
             } catch (error) {
-              Logger.error(`[${TAG}]`, "second enableWifi failed:" + JSON.stringify(error));
+              Logger.error(`[${TAG}]`, 'second enableWifi failed:' + JSON.stringify(error));
             }
             await driver.waitForIdle(5000, 5000);
             await startButton.click();
@@ -134,10 +134,10 @@ export default function uIComponentMediaVideoReset() {
             try {
               wifiManager.disableWifi();
             } catch (error) {
-              Logger.error(`[${TAG}]`, "disableWifi failed:" + JSON.stringify(error));
+              Logger.error(`[${TAG}]`, 'disableWifi failed:' + JSON.stringify(error));
             }
             let secondEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
-              events: ["videoError_2"]
+              events: ['videoError_2']
             };
             let secondSubscriber : commonEventManager.CommonEventSubscriber;
             await commonEventManager.createSubscriber(secondEventSubscribeInfo)
@@ -153,7 +153,7 @@ export default function uIComponentMediaVideoReset() {
                   try {
                     wifiManager.enableWifi();
                   } catch (error) {
-                    Logger.error(`[${TAG}]`, "second enableWifi failed:" + JSON.stringify(error));
+                    Logger.error(`[${TAG}]`, 'second enableWifi failed:' + JSON.stringify(error));
                   }
                   await driver.waitForIdle(5000, 5000);
                   await startButton.click();
@@ -192,7 +192,7 @@ export default function uIComponentMediaVideoReset() {
       try {
         wifiManager.disableWifi();
       } catch (error) {
-        Logger.error(`[${TAG}]`, "disableWifi failed:" + JSON.stringify(error));
+        Logger.error(`[${TAG}]`, 'disableWifi failed:' + JSON.stringify(error));
       }
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentMediaVideoReset/UIComponentMediaVideoReset011');
       let driver: Driver = Driver.create();
@@ -205,7 +205,7 @@ export default function uIComponentMediaVideoReset() {
       try {
         wifiManager.enableWifi();
       } catch (error) {
-        Logger.error(`[${TAG}]`, "enableWifi failed:" + JSON.stringify(error));
+        Logger.error(`[${TAG}]`, 'enableWifi failed:' + JSON.stringify(error));
       }
       await driver.waitForIdle(5000, 5000);
       await startButton.click();
@@ -240,10 +240,10 @@ export default function uIComponentMediaVideoReset() {
       try {
         wifiManager.disableWifi();
       } catch (error) {
-        Logger.error(`[${TAG}]`, "disableWifi failed:" + JSON.stringify(error));
+        Logger.error(`[${TAG}]`, 'disableWifi failed:' + JSON.stringify(error));
       }
       let commonEventSubscribeInfo: commonEventManager.CommonEventSubscribeInfo = {
-        events: ["videoError"]
+        events: ['videoError']
       };
       let subscriber : commonEventManager.CommonEventSubscriber;
       await commonEventManager.createSubscriber(commonEventSubscribeInfo)
@@ -259,7 +259,7 @@ export default function uIComponentMediaVideoReset() {
             try {
               wifiManager.enableWifi();
             } catch (error) {
-              Logger.error(`[${TAG}]`, "enableWifi failed:" + JSON.stringify(error));
+              Logger.error(`[${TAG}]`, 'enableWifi failed:' + JSON.stringify(error));
             }
             await driver.waitForIdle(5000, 5000);
             await resetButton.click();
@@ -267,7 +267,7 @@ export default function uIComponentMediaVideoReset() {
             await driver.waitForIdle(3000, 3000);
             windowSnap.snapShot();
             commonEventManager.unsubscribe(commonEventSubscriber, (err, data) => {
-              hilog.info(0x0000, TAG, "[%{public}s] unsubscribe callback. err: %{public}s, data: %{public}s", TAG, JSON.stringify(err), JSON.stringify(data));
+              hilog.info(0x0000, TAG, '[%{public}s] unsubscribe callback. err: %{public}s, data: %{public}s', TAG, JSON.stringify(err), JSON.stringify(data));
               done();
             });
           })

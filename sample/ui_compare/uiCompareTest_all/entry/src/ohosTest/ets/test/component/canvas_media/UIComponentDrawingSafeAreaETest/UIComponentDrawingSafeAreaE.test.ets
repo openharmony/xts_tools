@@ -68,7 +68,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0010';
-      let pageName = "UIComponentDrawingSafeAreaE0010";
+      let pageName = 'UIComponentDrawingSafeAreaE0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -92,7 +92,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0020';
-      let pageName = "UIComponentDrawingSafeAreaE0020";
+      let pageName = 'UIComponentDrawingSafeAreaE0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -116,7 +116,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0030';
-      let pageName = "UIComponentDrawingSafeAreaE0030";
+      let pageName = 'UIComponentDrawingSafeAreaE0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -140,7 +140,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0040';
-      let pageName = "UIComponentDrawingSafeAreaE0040";
+      let pageName = 'UIComponentDrawingSafeAreaE0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -164,7 +164,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0050', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0050';
-      let pageName = "UIComponentDrawingSafeAreaE0050";
+      let pageName = 'UIComponentDrawingSafeAreaE0050';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -188,7 +188,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0060', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0060';
-      let pageName = "UIComponentDrawingSafeAreaE0060";
+      let pageName = 'UIComponentDrawingSafeAreaE0060';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -212,7 +212,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0070', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0070';
-      let pageName = "UIComponentDrawingSafeAreaE0070";
+      let pageName = 'UIComponentDrawingSafeAreaE0070';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -236,7 +236,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0080', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0080';
-      let pageName = "UIComponentDrawingSafeAreaE0080";
+      let pageName = 'UIComponentDrawingSafeAreaE0080';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -260,7 +260,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0090', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0090';
-      let pageName = "UIComponentDrawingSafeAreaE0090";
+      let pageName = 'UIComponentDrawingSafeAreaE0090';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -314,7 +314,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0130';
-      let pageName = "UIComponentDrawingSafeAreaE0130";
+      let pageName = 'UIComponentDrawingSafeAreaE0130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -338,7 +338,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0140';
-      let pageName = "UIComponentDrawingSafeAreaE0140";
+      let pageName = 'UIComponentDrawingSafeAreaE0140';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -362,7 +362,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0150';
-      let pageName = "UIComponentDrawingSafeAreaE0150";
+      let pageName = 'UIComponentDrawingSafeAreaE0150';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -386,7 +386,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0160';
-      let pageName = "UIComponentDrawingSafeAreaE0160";
+      let pageName = 'UIComponentDrawingSafeAreaE0160';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -410,7 +410,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0170';
-      let pageName = "UIComponentDrawingSafeAreaE0170";
+      let pageName = 'UIComponentDrawingSafeAreaE0170';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -434,7 +434,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0180';
-      let pageName = "UIComponentDrawingSafeAreaE0180";
+      let pageName = 'UIComponentDrawingSafeAreaE0180';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -458,7 +458,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0190';
-      let pageName = "UIComponentDrawingSafeAreaE0190";
+      let pageName = 'UIComponentDrawingSafeAreaE0190';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -509,7 +509,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0200';
-      let pageName = "UIComponentDrawingSafeAreaE0200";
+      let pageName = 'UIComponentDrawingSafeAreaE0200';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -560,7 +560,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0220';
-      let pageName = "UIComponentDrawingSafeAreaE0220";
+      let pageName = 'UIComponentDrawingSafeAreaE0220';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -584,7 +584,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0230';
-      let pageName = "UIComponentDrawingSafeAreaE0230";
+      let pageName = 'UIComponentDrawingSafeAreaE0230';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -608,7 +608,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0240';
-      let pageName = "UIComponentDrawingSafeAreaE0240";
+      let pageName = 'UIComponentDrawingSafeAreaE0240';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -632,7 +632,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0250';
-      let pageName = "UIComponentDrawingSafeAreaE0250";
+      let pageName = 'UIComponentDrawingSafeAreaE0250';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -656,7 +656,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0260';
-      let pageName = "UIComponentDrawingSafeAreaE0260";
+      let pageName = 'UIComponentDrawingSafeAreaE0260';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -680,7 +680,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0270';
-      let pageName = "UIComponentDrawingSafeAreaE0270";
+      let pageName = 'UIComponentDrawingSafeAreaE0270';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -704,7 +704,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0280';
-      let pageName = "UIComponentDrawingSafeAreaE0280";
+      let pageName = 'UIComponentDrawingSafeAreaE0280';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -728,7 +728,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0290', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0290';
-      let pageName = "UIComponentDrawingSafeAreaE0290";
+      let pageName = 'UIComponentDrawingSafeAreaE0290';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -752,7 +752,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0300';
-      let pageName = "UIComponentDrawingSafeAreaE0300";
+      let pageName = 'UIComponentDrawingSafeAreaE0300';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -776,7 +776,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0310';
-      let pageName = "UIComponentDrawingSafeAreaE0310";
+      let pageName = 'UIComponentDrawingSafeAreaE0310';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -800,7 +800,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0320';
-      let pageName = "UIComponentDrawingSafeAreaE0320";
+      let pageName = 'UIComponentDrawingSafeAreaE0320';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -824,7 +824,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0330', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0330';
-      let pageName = "UIComponentDrawingSafeAreaE0330";
+      let pageName = 'UIComponentDrawingSafeAreaE0330';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -848,7 +848,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0340', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0340';
-      let pageName = "UIComponentDrawingSafeAreaE0340";
+      let pageName = 'UIComponentDrawingSafeAreaE0340';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -885,7 +885,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0350', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0350';
-      let pageName = "UIComponentDrawingSafeAreaE0350";
+      let pageName = 'UIComponentDrawingSafeAreaE0350';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -922,7 +922,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0360', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0360';
-      let pageName = "UIComponentDrawingSafeAreaE0360";
+      let pageName = 'UIComponentDrawingSafeAreaE0360';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -946,7 +946,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0370', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0370';
-      let pageName = "UIComponentDrawingSafeAreaE0370";
+      let pageName = 'UIComponentDrawingSafeAreaE0370';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -970,7 +970,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0380', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0380';
-      let pageName = "UIComponentDrawingSafeAreaE0380";
+      let pageName = 'UIComponentDrawingSafeAreaE0380';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -994,7 +994,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0390', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0390';
-      let pageName = "UIComponentDrawingSafeAreaE0390";
+      let pageName = 'UIComponentDrawingSafeAreaE0390';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -1018,7 +1018,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0400', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0400';
-      let pageName = "UIComponentDrawingSafeAreaE0400";
+      let pageName = 'UIComponentDrawingSafeAreaE0400';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -1042,7 +1042,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0410', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0410';
-      let pageName = "UIComponentDrawingSafeAreaE0410";
+      let pageName = 'UIComponentDrawingSafeAreaE0410';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();
@@ -1066,7 +1066,7 @@ export default function uIComponentDrawingSafeAreaE() {
      */
     it('SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0420', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0420';
-      let pageName = "UIComponentDrawingSafeAreaE0420";
+      let pageName = 'UIComponentDrawingSafeAreaE0420';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/canvas_media/uIComponentDrawingSafeAreaE/' + pageName);
       let driver: Driver = Driver.create();

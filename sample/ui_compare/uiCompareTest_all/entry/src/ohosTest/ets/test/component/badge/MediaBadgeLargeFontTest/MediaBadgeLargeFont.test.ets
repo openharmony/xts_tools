@@ -54,7 +54,7 @@ export default function mediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0036', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0036 start.`);
-      Settings.createWindow("testability/pages/component/badge/mediaBadgeLargeFont/MediaBadgeLargeFont36")
+      Settings.createWindow('testability/pages/component/badge/mediaBadgeLargeFont/MediaBadgeLargeFont36')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0036 finish.`);

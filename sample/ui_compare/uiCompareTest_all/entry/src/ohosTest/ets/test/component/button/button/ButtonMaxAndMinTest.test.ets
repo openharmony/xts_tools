@@ -54,7 +54,7 @@ export default function buttonMaxAndMinTest() {
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
 
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin01")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -97,7 +97,7 @@ export default function buttonMaxAndMinTest() {
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
 
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin02")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -140,7 +140,7 @@ export default function buttonMaxAndMinTest() {
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
 
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin03")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -183,7 +183,7 @@ export default function buttonMaxAndMinTest() {
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
 
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin04")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -226,7 +226,7 @@ export default function buttonMaxAndMinTest() {
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
 
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin05")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -269,7 +269,7 @@ export default function buttonMaxAndMinTest() {
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
 
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin06")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -312,7 +312,7 @@ export default function buttonMaxAndMinTest() {
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
 
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin07")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -355,7 +355,7 @@ export default function buttonMaxAndMinTest() {
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
 
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin08")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -398,7 +398,7 @@ export default function buttonMaxAndMinTest() {
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
 
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin09")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -441,7 +441,7 @@ export default function buttonMaxAndMinTest() {
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
 
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin10")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -482,7 +482,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0110 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin11")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_11'), 1000);
@@ -514,7 +514,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0120 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin12")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin12')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_12'), 1000);
@@ -546,7 +546,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0130 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin13")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_13'), 1000);
@@ -578,7 +578,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0140 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin14")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin14')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_14'), 1000);
@@ -610,7 +610,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0150 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin15")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin15')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_15'), 1000);
@@ -642,7 +642,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0160 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin16")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_16'), 1000);
@@ -674,7 +674,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0170 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin17")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_17'), 1000);
@@ -706,7 +706,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0180 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin18")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin18')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_18'), 1000);
@@ -738,7 +738,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0190 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin19")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin19')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_19'), 1000);
@@ -770,7 +770,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0200 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin20")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin20')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_20'), 1000);
@@ -802,7 +802,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0210 start.`);
       await uiAppearance.setFontScale(1.75);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin21")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin21')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_21'), 1000);
@@ -834,7 +834,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0220 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin22")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin22')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_22'), 1000);
@@ -866,7 +866,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0230 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin23")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin23')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_23'), 1000);
@@ -898,7 +898,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0240 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin24")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin24')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_24'), 1000);
@@ -930,7 +930,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0250 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin25")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin25')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_25'), 1000);
@@ -962,7 +962,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0260 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin26")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin26')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_26'), 1000);
@@ -994,7 +994,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0270 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin27")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin27')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_27'), 1000);
@@ -1026,7 +1026,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0280 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin28")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin28')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_28'), 1000);
@@ -1058,7 +1058,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0290 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin29")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin29')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_29'), 1000);
@@ -1090,7 +1090,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0300 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin30")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin30')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_30'), 1000);
@@ -1122,7 +1122,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0310 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin31")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin31')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_31'), 1000);
@@ -1154,7 +1154,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0320 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin32")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin32')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_32'), 1000);
@@ -1186,7 +1186,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0330 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin33")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin33')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_33'), 1000);
@@ -1218,7 +1218,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0340 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin34")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin34')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_34'), 1000);
@@ -1250,7 +1250,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0350 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin35")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin35')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_35'), 1000);
@@ -1282,7 +1282,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0360 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin36")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin36')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_36'), 1000);
@@ -1314,7 +1314,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0370 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin37")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin37')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_37'), 1000);
@@ -1346,7 +1346,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0380 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin38")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin38')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_38'), 1000);
@@ -1378,7 +1378,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0390 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin39")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin39')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_39'), 1000);
@@ -1410,7 +1410,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0400 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin40")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin40')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_40'), 1000);
@@ -1442,7 +1442,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0410 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin41")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin41')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_41'), 1000);
@@ -1474,7 +1474,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0420 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin42")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin42')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_42'), 1000);
@@ -1506,7 +1506,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0430 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin43")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin43')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_43'), 1000);
@@ -1538,7 +1538,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0440 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin44")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin44')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_44'), 1000);
@@ -1570,7 +1570,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0450 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin45")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin45')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_45'), 1000);
@@ -1602,7 +1602,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0460 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin46")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin46')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_46'), 1000);
@@ -1634,7 +1634,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0470 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin47")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin47')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_47'), 1000);
@@ -1666,7 +1666,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0480 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin48")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin48')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_48'), 1000);
@@ -1698,7 +1698,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0490 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin49")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin49')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_49'), 1000);
@@ -1730,7 +1730,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0500 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin50")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin50')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_50'), 1000);
@@ -1762,7 +1762,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0510 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin51")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin51')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_51'), 1000);
@@ -1794,7 +1794,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0520 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin52")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin52')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_52'), 1000);
@@ -1826,7 +1826,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0530 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin53")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin53')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_53'), 1000);
@@ -1858,7 +1858,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0540 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin54")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin54')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_54'), 1000);
@@ -1890,7 +1890,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0550 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin55")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin55')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_55'), 1000);
@@ -1922,7 +1922,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0560 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin56")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin56')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_56'), 1000);
@@ -1954,7 +1954,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0570 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin57")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin57')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_57'), 1000);
@@ -1986,7 +1986,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0580 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin58")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin58')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_58'), 1000);
@@ -2018,7 +2018,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0590 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin59")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin59')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_59'), 1000);
@@ -2050,7 +2050,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0600 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin60")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin60')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_60'), 1000);
@@ -2082,7 +2082,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0610 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin61")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin61')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_61'), 1000);
@@ -2114,7 +2114,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0620 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin62")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin62')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_62'), 1000);
@@ -2146,7 +2146,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0630 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin63")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin63')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_63'), 1000);
@@ -2178,7 +2178,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0640 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin64")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin64')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_64'), 1000);
@@ -2210,7 +2210,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0650 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin65")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin65')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_65'), 1000);
@@ -2242,7 +2242,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0660 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin66")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin66')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_66'), 1000);
@@ -2274,7 +2274,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0670 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin67")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin67')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_67'), 1000);
@@ -2306,7 +2306,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0680 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin68")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin68')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_68'), 1000);
@@ -2338,7 +2338,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0690 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin69")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin69')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_69'), 1000);
@@ -2370,7 +2370,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0700 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin70")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin70')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_70'), 1000);
@@ -2402,7 +2402,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0710 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin71")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin71')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_71'), 1000);
@@ -2434,7 +2434,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0720 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin72")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin72')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_72'), 1000);
@@ -2466,7 +2466,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0730 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin73")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin73')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_73'), 1000);
@@ -2498,7 +2498,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0740 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin74")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin74')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_74'), 1000);
@@ -2530,7 +2530,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0750 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin75")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin75')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_75'), 1000);
@@ -2562,7 +2562,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0760 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin76")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin76')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_76'), 1000);
@@ -2594,7 +2594,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0770 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin77")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin77')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_77'), 1000);
@@ -2626,7 +2626,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0780 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin78")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin78')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_78'), 1000);
@@ -2658,7 +2658,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0790 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin79")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin79')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_79'), 1000);
@@ -2690,7 +2690,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0800 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin80")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin80')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_80'), 1000);
@@ -2722,7 +2722,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0810 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin81")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin81')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_81'), 1000);
@@ -2754,7 +2754,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0820 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin82")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin82')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_82'), 1000);
@@ -2786,7 +2786,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0830 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin83")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin83')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_83'), 1000);
@@ -2818,7 +2818,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0840 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin84")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin84')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_84'), 1000);
@@ -2850,7 +2850,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0850 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin85")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin85')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_85'), 1000);
@@ -2882,7 +2882,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0860 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin86")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin86')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_86'), 1000);
@@ -2914,7 +2914,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0870 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin87")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin87')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_87'), 1000);
@@ -2946,7 +2946,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0880 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin88")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin88')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_88'), 1000);
@@ -2978,7 +2978,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0890 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin89")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin89')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_89'), 1000);
@@ -3010,7 +3010,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0900 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin90")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin90')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_90'), 1000);
@@ -3042,7 +3042,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0910 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin91")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin91')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_91'), 1000);
@@ -3074,7 +3074,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0920 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin92")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin92')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_92'), 1000);
@@ -3106,7 +3106,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0940 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin94")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin94')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_94'), 1000);
@@ -3138,7 +3138,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0950 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin95")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin95')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_95'), 1000);
@@ -3170,7 +3170,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0960 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin96")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin96')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_96'), 1000);
@@ -3202,7 +3202,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0970 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin97")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin97')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_97'), 1000);
@@ -3234,7 +3234,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0980 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin98")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin98')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_98'), 1000);
@@ -3266,7 +3266,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0990 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin99")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin99')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_99'), 1000);
@@ -3298,7 +3298,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1000 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin100")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_100'), 1000);
@@ -3330,7 +3330,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1010 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin101")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin101')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_101'), 1000);
@@ -3362,7 +3362,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1020 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin102")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin102')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_102'), 1000);
@@ -3394,7 +3394,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1030 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin103")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin103')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_103'), 1000);
@@ -3426,7 +3426,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1040 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin104")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin104')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_104'), 1000);
@@ -3458,7 +3458,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1050 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin105")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin105')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_105'), 1000);
@@ -3490,7 +3490,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1060 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin106")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin106')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_106'), 1000);
@@ -3522,7 +3522,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1070 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin107")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin107')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_107'), 1000);
@@ -3554,7 +3554,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1080 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin108")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin108')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_108'), 1000);
@@ -3586,7 +3586,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1090 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin109")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin109')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_109'), 1000);
@@ -3618,7 +3618,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1100 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin110")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_110'), 1000);
@@ -3650,7 +3650,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1110 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin111")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin111')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_111'), 1000);
@@ -3682,7 +3682,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1120 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin112")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin112')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_112'), 1000);
@@ -3714,7 +3714,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1130 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin113")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin113')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_113'), 1000);
@@ -3746,7 +3746,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1140 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin114")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin114')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_114'), 1000);
@@ -3778,7 +3778,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1150 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin115")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin115')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_115'), 1000);
@@ -3810,7 +3810,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1160 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin116")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin116')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_116'), 1000);
@@ -3842,7 +3842,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1170 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin117")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin117')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_117'), 1000);
@@ -3874,7 +3874,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1180 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin118")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin118')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_118'), 1000);
@@ -3906,7 +3906,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1190 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin119")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin119')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_119'), 1000);
@@ -3938,7 +3938,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1200 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin120")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_120'), 1000);
@@ -3970,7 +3970,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1210 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin121")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin121')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_121'), 1000);
@@ -4002,7 +4002,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1220 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin122")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin122')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_122'), 1000);
@@ -4034,7 +4034,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1230 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin123")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin123')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_123'), 1000);
@@ -4066,7 +4066,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1240 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin124")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin124')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_124'), 1000);
@@ -4098,7 +4098,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1250 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin125")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin125')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_125'), 1000);
@@ -4130,7 +4130,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1260 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin126")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin126')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_126'), 1000);
@@ -4162,7 +4162,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1270 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin127")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin127')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_127'), 1000);
@@ -4194,7 +4194,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1280 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin128")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin128')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_128'), 1000);
@@ -4226,7 +4226,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1290 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin129")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin129')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_129'), 1000);
@@ -4258,7 +4258,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1300 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin130")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_130'), 1000);
@@ -4290,7 +4290,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1310 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin131")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin131')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_131'), 1000);
@@ -4322,7 +4322,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1320 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin132")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin132')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_132'), 1000);
@@ -4354,7 +4354,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1330 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin133")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin133')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_133'), 1000);
@@ -4386,7 +4386,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1340 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin134")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin134')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_134'), 1000);
@@ -4418,7 +4418,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1350 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin135")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin135')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_135'), 1000);
@@ -4450,7 +4450,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1360 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin136")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin136')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_136'), 1000);
@@ -4482,7 +4482,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1370 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin137")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin137')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_137'), 1000);
@@ -4514,7 +4514,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1380 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin138")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin138')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_138'), 1000);
@@ -4546,7 +4546,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1390 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin139")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin139')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_139'), 1000);
@@ -4578,7 +4578,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1400 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin140")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin140')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_140'), 1000);
@@ -4610,7 +4610,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1410 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin141")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin141')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_141'), 1000);
@@ -4642,7 +4642,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1420 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin142")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin142')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_142'), 1000);
@@ -4674,7 +4674,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1430 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin143")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin143')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_143'), 1000);
@@ -4706,7 +4706,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1440 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin144")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin144')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_144'), 1000);
@@ -4738,7 +4738,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1450 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin145")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin145')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_145'), 1000);
@@ -4770,7 +4770,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1460 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin146")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin146')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_146'), 1000);
@@ -4802,7 +4802,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1470 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin147")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin147')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_147'), 1000);
@@ -4834,7 +4834,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1480 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin148")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin148')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_148'), 1000);
@@ -4866,7 +4866,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1490 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin149")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin149')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_149'), 1000);
@@ -4898,7 +4898,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1500 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin150")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin150')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_150'), 1000);
@@ -4930,7 +4930,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1510 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin151")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin151')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_151'), 1000);
@@ -4962,7 +4962,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1520 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin152")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin152')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_152'), 1000);
@@ -4994,7 +4994,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1530 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin153")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin153')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_153'), 1000);
@@ -5026,7 +5026,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1540 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin154")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin154')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_154'), 1000);
@@ -5058,7 +5058,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1550 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin155")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin155')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_155'), 1000);
@@ -5090,7 +5090,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1560 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin156")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin156')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_156'), 1000);
@@ -5122,7 +5122,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1570 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin157")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin157')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_157'), 1000);
@@ -5154,7 +5154,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1580 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin158")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin158')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_158'), 1000);
@@ -5186,7 +5186,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1590 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin159")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin159')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_159'), 1000);
@@ -5218,7 +5218,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1600 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin160")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin160')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_160'), 1000);
@@ -5250,7 +5250,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1610 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin161")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin161')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_161'), 1000);
@@ -5282,7 +5282,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1620 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin162")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin162')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_162'), 1000);
@@ -5314,7 +5314,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1630 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin163")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin163')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_163'), 1000);
@@ -5346,7 +5346,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1650 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin165")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin165')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_165'), 1000);
@@ -5378,7 +5378,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1660 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin166")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin166')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_166'), 1000);
@@ -5410,7 +5410,7 @@ export default function buttonMaxAndMinTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1670 start.`);
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500);
-      Settings.createWindow("testability/pages/component/button/button/buttonMaxAndMin167")
+      Settings.createWindow('testability/pages/component/button/button/buttonMaxAndMin167')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       let changeSizeButton: Component = await driver.waitForComponent(ON.id('changeSizeButton_167'), 1000);

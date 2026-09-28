@@ -49,7 +49,7 @@ export default function arcListTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_0010 start.`);
-      Settings.createWindow("testability/pages/component/arc/arclist/arcList01")
+      Settings.createWindow('testability/pages/component/arc/arclist/arcList01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -82,7 +82,7 @@ export default function arcListTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_0030 start.`);
-      Settings.createWindow("testability/pages/component/arc/arclist/arcList02")
+      Settings.createWindow('testability/pages/component/arc/arclist/arcList02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -128,7 +128,7 @@ export default function arcListTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_0040 start.`);
-      Settings.createWindow("testability/pages/component/arc/arclist/arcList03")
+      Settings.createWindow('testability/pages/component/arc/arclist/arcList03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -153,7 +153,7 @@ export default function arcListTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_DIRECTION_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_DIRECTION_0010 start.`);
-      Settings.createWindow("testability/pages/component/arc/arclist/arcList04")
+      Settings.createWindow('testability/pages/component/arc/arclist/arcList04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -178,7 +178,7 @@ export default function arcListTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_PM_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_PM_0010 start.`);
-      Settings.createWindow("testability/pages/component/arc/arclist/arcList05")
+      Settings.createWindow('testability/pages/component/arc/arclist/arcList05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -210,7 +210,7 @@ export default function arcListTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0040 start.`);
-      Settings.createWindow("testability/pages/component/arc/arclist/arcList06")
+      Settings.createWindow('testability/pages/component/arc/arclist/arcList06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -240,7 +240,7 @@ export default function arcListTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0050 start.`);
-      Settings.createWindow("testability/pages/component/arc/arclist/arcList07")
+      Settings.createWindow('testability/pages/component/arc/arclist/arcList07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -283,7 +283,7 @@ export default function arcListTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0060 start.`);
-      Settings.createWindow("testability/pages/component/arc/arclist/arcList08")
+      Settings.createWindow('testability/pages/component/arc/arclist/arcList08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -305,7 +305,7 @@ export default function arcListTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0070 start.`);
-      Settings.createWindow("testability/pages/component/arc/arclist/arcList09")
+      Settings.createWindow('testability/pages/component/arc/arclist/arcList09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -334,7 +334,7 @@ export default function arcListTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0080 start.`);
-      Settings.createWindow("testability/pages/component/arc/arclist/arcList10")
+      Settings.createWindow('testability/pages/component/arc/arclist/arcList10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -361,7 +361,7 @@ export default function arcListTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0090 start.`);
-      Settings.createWindow("testability/pages/component/arc/arclist/arcList11")
+      Settings.createWindow('testability/pages/component/arc/arclist/arcList11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -394,7 +394,7 @@ export default function arcListTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0110 start.`);
-      Settings.createWindow("testability/pages/component/arc/arclist/arcList12")
+      Settings.createWindow('testability/pages/component/arc/arclist/arcList12')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -419,7 +419,7 @@ export default function arcListTest() {
      */
     it('SUB_ACE_UI_COMPONENT_ARCLISTITEM_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLISTITEM_0010 start.`);
-      Settings.createWindow("testability/pages/component/arc/arclist/arcList13")
+      Settings.createWindow('testability/pages/component/arc/arclist/arcList13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 

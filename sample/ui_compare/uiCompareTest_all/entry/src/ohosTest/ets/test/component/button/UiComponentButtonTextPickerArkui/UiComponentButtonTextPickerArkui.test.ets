@@ -64,7 +64,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0760', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0760 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui01")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -83,7 +83,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0750', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0750 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui02")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui02')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -102,7 +102,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0800', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0800 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui03")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui03')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -121,7 +121,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0790', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0790 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui04")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui04')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -140,7 +140,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0770', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0770 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui05")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui05')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui05_02'),1000);
       await button.click();
@@ -164,7 +164,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0310 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui06")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui06')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -183,7 +183,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0320 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui07")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui07')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -202,7 +202,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0330 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui08")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui08')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -221,7 +221,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0340', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0340 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui09")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui09')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -240,7 +240,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0350 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui10")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui10')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -259,7 +259,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0360', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0360 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui11")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui11')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -278,7 +278,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0400 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui12")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui12')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -297,7 +297,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0390 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui13")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui13')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -316,7 +316,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0370 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui14")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui14')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -335,7 +335,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0380 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui15")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui15')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -354,7 +354,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0190 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui16")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui16')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -373,7 +373,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0200 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui17")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui17')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -392,7 +392,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0210 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui18")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui18')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -411,7 +411,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0220 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui19")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui19')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -430,7 +430,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0260 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui20")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui20')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -449,7 +449,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0250 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui21")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui21')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -468,7 +468,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0270 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui22")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui22')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -487,7 +487,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0280', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0280 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui23")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui23')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -506,7 +506,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0300 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui24")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui24')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -525,7 +525,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0240 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui25")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui25')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -544,7 +544,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0230 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui26")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui26')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -563,7 +563,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0840', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0840 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui27")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui27')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -582,7 +582,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0850', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0850 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui28")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui28')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -601,7 +601,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0830', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0830 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui29")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui29')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui29'),1000);
       await select.click();
@@ -622,7 +622,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0880', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0880 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui30")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui30')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -641,7 +641,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0890', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0890 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui31")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui31')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -660,7 +660,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0860', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0860 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui32")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui32')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -679,7 +679,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0870', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0870 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui33")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui33')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -698,7 +698,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0900', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0900 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui34")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui34')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui34'),1000);
       await select.click();
@@ -719,7 +719,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0910', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0910 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui35")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui35')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui35'),1000);
       await select.click();
@@ -740,7 +740,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0940', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0940 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui36")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui36')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui36'),1000);
       await select.click();
@@ -761,7 +761,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0950', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0950 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui37")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui37')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui37'),1000);
       await select.click();
@@ -782,7 +782,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1000', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1000 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui38")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui38')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui38'),1000);
       await select.click();
@@ -803,7 +803,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0920', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0920 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui39")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui39')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui39'),1000);
       await select.click();
@@ -824,7 +824,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0930', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0930 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui40")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui40')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui40'),1000);
       await select.click();
@@ -845,7 +845,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0960', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0960 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui41")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui41')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui41'),1000);
       await select.click();
@@ -866,7 +866,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0970', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0970 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui42")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui42')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui42'),1000);
       await select.click();
@@ -887,7 +887,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0980', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0980 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui43")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui43')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui43'),1000);
       await select.click();
@@ -908,7 +908,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0990', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0990 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui44")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui44')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui44'),1000);
       await select.click();
@@ -929,7 +929,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0820', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0820 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui45")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui45')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui45'),1000);
       await select.click();
@@ -950,7 +950,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1170 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui46")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui46')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui46'),1000);
       await select.click();
@@ -971,7 +971,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1180 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui47")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui47')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui47'),1000);
       await select.click();
@@ -992,7 +992,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1190 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui48")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui48')
       let driver:Driver=Driver.create();
       let select: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui48'),1000);
       await select.click();
@@ -1013,7 +1013,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0720', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0720 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui49")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui49')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1032,7 +1032,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0710', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0710 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui50")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui50')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1051,7 +1051,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0730', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0730 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui51")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui51')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1070,7 +1070,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0670', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0670 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui52")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui52')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1089,7 +1089,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0490', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0490 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui53")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui53')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1108,7 +1108,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0500', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0500 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui54")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui54')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1127,7 +1127,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0470', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0470 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui55")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui55')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1146,7 +1146,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0480', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0480 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui56")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui56')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1165,7 +1165,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0420', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0420 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui57")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui57')
       let driver:Driver=Driver.create();
       let CalendarPicker: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui57'),1000);
       await driver.waitForIdle(500,2000)
@@ -1186,7 +1186,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0430', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0430 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui58")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui58')
       let driver:Driver=Driver.create();
       let CalendarPicker: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui58'),1000);
       await driver.waitForIdle(500,2000)
@@ -1207,7 +1207,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0780', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0780 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui59")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui59')
       let driver:Driver=Driver.create();
       let CalendarPicker: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui59'),1000);
       await driver.waitForIdle(500,2000)
@@ -1228,7 +1228,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0450', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0450 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui60")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui60')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1247,7 +1247,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0440', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0440 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui61")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui61')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1266,7 +1266,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0810', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0810 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui62")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui62')
       let driver:Driver=Driver.create();
       let Rating: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui62'),1000);
       await Rating.click();
@@ -1287,7 +1287,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0740', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0740 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui63")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui63')
       let driver:Driver=Driver.create();
       let Rating: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui63_02'),1000);
       await Rating.click();
@@ -1308,7 +1308,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0410 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui64")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui64')
       let driver:Driver=Driver.create();
       let Rating: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui64'),1000);
       await Rating.click();
@@ -1329,7 +1329,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0290 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui65")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui65')
       let driver:Driver=Driver.create();
       let Rating: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui65'),1000);
       await Rating.click();
@@ -1350,7 +1350,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0700', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0700 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui66")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui66')
       let driver:Driver=Driver.create();
       let TimePicker: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui66'),1000);
       let point = await TimePicker.getBoundsCenter()
@@ -1372,7 +1372,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0460', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0460 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui67")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui67')
       let driver:Driver=Driver.create();
       let CalendarPicker: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui67'),1000);
       let point = await CalendarPicker.getBoundsCenter();
@@ -1395,7 +1395,7 @@ export default function uiComponentButtonTextPickerArkui() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0180 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui68")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui68')
       let driver:Driver=Driver.create();
       let TextPicker: Component = await driver.waitForComponent(ON.id('UiComponentButtonTextPickerArkui68'),1000);
       let point = await TextPicker.getBoundsCenter();

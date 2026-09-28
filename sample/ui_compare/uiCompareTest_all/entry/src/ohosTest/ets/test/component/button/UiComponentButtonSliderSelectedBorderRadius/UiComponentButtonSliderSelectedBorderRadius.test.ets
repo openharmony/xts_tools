@@ -64,7 +64,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0110 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius01")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -83,7 +83,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0080 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius02")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius02')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -102,7 +102,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0100 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius03")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius03')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -121,7 +121,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0060 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius04")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius04')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -140,7 +140,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0180 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius05")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius05')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -159,7 +159,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0070 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius06")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius06')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -178,7 +178,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0090 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius07")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius07')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -197,7 +197,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0160 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius08")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius08')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -216,7 +216,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0140 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius09")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius09')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -235,7 +235,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0150 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius10")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius10')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -254,7 +254,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0250 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius11")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius11')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -273,7 +273,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0270 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius12")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius12')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -292,7 +292,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0230 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius13")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius13')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -311,7 +311,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0040 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius14")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius14')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -330,7 +330,7 @@ export default function uiComponentButtonSliderSelectedBorderRadius() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SELECTEDBORDERRADIUS_0120 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius15")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderSelectedBorderRadius/UiComponentButtonSliderSelectedBorderRadius15')
       let driver:Driver=Driver.create();
       let slider: Component = await driver.waitForComponent(ON.id('UiComponentButtonSliderSelectedBorderRadius15'),1000);
       await slider.click()

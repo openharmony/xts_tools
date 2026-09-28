@@ -50,7 +50,7 @@ export default function canvasCustomFont() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0010', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0010 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0010")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function canvasCustomFont() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0020', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0020 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0020")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function canvasCustomFont() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0030', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0030 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0030")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -107,7 +107,7 @@ export default function canvasCustomFont() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0040', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0040 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0040")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -126,7 +126,7 @@ export default function canvasCustomFont() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0050', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0050 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0050")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -145,7 +145,7 @@ export default function canvasCustomFont() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0060', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0060 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0060")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -164,7 +164,7 @@ export default function canvasCustomFont() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0070', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0070 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0070")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -183,7 +183,7 @@ export default function canvasCustomFont() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0080', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0080 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0080")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()
@@ -202,7 +202,7 @@ export default function canvasCustomFont() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0090', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0090 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0090")
+      Settings.createWindow('testability/pages/component/canvas_media/canvasCustomFont/CanvasCustomFont0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000, 8000)
       windowSnap.snapShot()

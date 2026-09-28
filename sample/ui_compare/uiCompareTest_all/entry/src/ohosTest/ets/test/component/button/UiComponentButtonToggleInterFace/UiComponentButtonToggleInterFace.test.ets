@@ -64,7 +64,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0120 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace01")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace01')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let toggle1: Component = await driver.waitForComponent(ON.id('UiComponentButtonToggleInterFace01_01'),1000);
@@ -90,7 +90,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0150 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace02")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace02')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -109,7 +109,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0160 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace03")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace03')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -128,7 +128,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0140 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace04")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace04')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -147,7 +147,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0190 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace05")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace05')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -166,7 +166,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0180 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace06")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace06')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -185,7 +185,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0130 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace07")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace07')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -204,7 +204,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0290 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace08")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace08')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -223,7 +223,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0270 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace09")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace09')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -242,7 +242,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0260 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace10")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace10')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -261,7 +261,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0280', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0280 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace11")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace11')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -280,7 +280,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0310 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace12")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace12')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -299,7 +299,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0300 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace13")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace13')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -318,7 +318,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0320 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace14")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace14')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -337,7 +337,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0080 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace15")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace15')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -356,7 +356,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0110 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace16")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace16')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -375,7 +375,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0020 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace17")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace17')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -394,7 +394,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0030 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace18")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace18')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -413,7 +413,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0050 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace19")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace19')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -432,7 +432,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0210 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace20")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace20')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonToggleInterFace20_01'),1000);
@@ -454,7 +454,7 @@ export default function uiComponentButtonToggleInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0350 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace21")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonToggleInterFace/UiComponentButtonToggleInterFace21')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

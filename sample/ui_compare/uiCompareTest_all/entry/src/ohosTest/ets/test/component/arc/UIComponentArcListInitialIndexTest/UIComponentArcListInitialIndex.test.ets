@@ -49,17 +49,17 @@ export default function uIComponentArcListInitialIndexTest() {
     it('SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0010', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0010';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/arc/UIComponentArcListInitialIndex/UIComponentArcListInitialIndex001");
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0010_03");
+      Settings.createWindow('testability/pages/component/arc/UIComponentArcListInitialIndex/UIComponentArcListInitialIndex001');
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0010_03');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('abnormal'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0010_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0010_02');
       let button2: Component = await driver.waitForComponent(ON.id('undefined'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0010");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -76,10 +76,10 @@ export default function uIComponentArcListInitialIndexTest() {
     it('SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0020', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0020';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/arc/UIComponentArcListInitialIndex/UIComponentArcListInitialIndex004");
+      Settings.createWindow('testability/pages/component/arc/UIComponentArcListInitialIndex/UIComponentArcListInitialIndex004');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARCLIST_INITIALINDEX_0020');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -95,12 +95,12 @@ export default function uIComponentArcListInitialIndexTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040 start.`);
-      Settings.createWindow("testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge003");
+      Settings.createWindow('testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge003');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0040 finish.`);
       done();
@@ -116,12 +116,12 @@ export default function uIComponentArcListInitialIndexTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150 start.`);
-      Settings.createWindow("testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge004");
+      Settings.createWindow('testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge004');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0150 finish.`);
       done();
@@ -137,12 +137,12 @@ export default function uIComponentArcListInitialIndexTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0030 start.`);
-      Settings.createWindow("testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge005");
+      Settings.createWindow('testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge005');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0030");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0030');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0030 finish.`);
       done();
@@ -158,12 +158,12 @@ export default function uIComponentArcListInitialIndexTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0060 start.`);
-      Settings.createWindow("testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge006");
+      Settings.createWindow('testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge006');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0060");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0060');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0060 finish.`);
       done();
@@ -179,12 +179,12 @@ export default function uIComponentArcListInitialIndexTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0100 start.`);
-      Settings.createWindow("testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge007");
+      Settings.createWindow('testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge007');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0100");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0100');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0100 finish.`);
       done();
@@ -200,12 +200,12 @@ export default function uIComponentArcListInitialIndexTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0090 start.`);
-      Settings.createWindow("testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge008");
+      Settings.createWindow('testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge008');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0090");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0090');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0090 finish.`);
       done();
@@ -221,12 +221,12 @@ export default function uIComponentArcListInitialIndexTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0050 start.`);
-      Settings.createWindow("testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge009");
+      Settings.createWindow('testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge009');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0050");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0050');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0050 finish.`);
       done();
@@ -242,12 +242,12 @@ export default function uIComponentArcListInitialIndexTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0070 start.`);
-      Settings.createWindow("testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge010");
+      Settings.createWindow('testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge010');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0070");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0070');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0070 finish.`);
       done();
@@ -263,12 +263,12 @@ export default function uIComponentArcListInitialIndexTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0110 start.`);
-      Settings.createWindow("testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge011");
+      Settings.createWindow('testability/pages/component/arc/UIComponentListAndGridListFadingEdge_04/UIComponentListAndGridListFadingEdge011');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0110");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0110');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0110 finish.`);
       done();

@@ -64,7 +64,7 @@ export default function uiComponentButtonSliderInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_1060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_1060 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace01")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace01')
       let driver:Driver=Driver.create();
       let slider: Component = await driver.waitForComponent(ON.id('UiComponentButtonSliderInterFace01'),1000);
       windowSnap.snapShot()
@@ -89,7 +89,7 @@ export default function uiComponentButtonSliderInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_1040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_1040 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace02")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace02')
       let driver:Driver=Driver.create();
       let slider: Component = await driver.waitForComponent(ON.id('UiComponentButtonSliderInterFace02'),1000);
       windowSnap.snapShot()
@@ -114,7 +114,7 @@ export default function uiComponentButtonSliderInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0270 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace03")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace03')
       let driver:Driver=Driver.create();
       let slider: Component = await driver.waitForComponent(ON.id('UiComponentButtonSliderInterFace03'),1000);
       await slider.click()
@@ -134,7 +134,7 @@ export default function uiComponentButtonSliderInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0510', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0510 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace04")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace04')
       let driver:Driver=Driver.create();
       let slider: Component = await driver.waitForComponent(ON.id('UiComponentButtonSliderInterFace04'),1000);
       await slider.click()
@@ -154,7 +154,7 @@ export default function uiComponentButtonSliderInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0350 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace05")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace05')
       let driver:Driver=Driver.create();
       let slider: Component = await driver.waitForComponent(ON.id('UiComponentButtonSliderInterFace05'),1000);
       await slider.click()
@@ -174,7 +174,7 @@ export default function uiComponentButtonSliderInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0120 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace06")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace06')
       let driver:Driver=Driver.create();
       let slider: Component = await driver.waitForComponent(ON.id('UiComponentButtonSliderInterFace06'),1000);
       await slider.click()
@@ -194,7 +194,7 @@ export default function uiComponentButtonSliderInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0160 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace07")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace07')
       let driver:Driver=Driver.create();
       let slider: Component = await driver.waitForComponent(ON.id('UiComponentButtonSliderInterFace07'),1000);
       await slider.click()
@@ -214,7 +214,7 @@ export default function uiComponentButtonSliderInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0590', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0590 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace08")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace08')
       let driver:Driver=Driver.create();
       let slider: Component = await driver.waitForComponent(ON.id('UiComponentButtonSliderInterFace08'),1000);
       await slider.click()
@@ -234,7 +234,7 @@ export default function uiComponentButtonSliderInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0540', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0540 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace09")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace09')
       let driver:Driver=Driver.create();
       let slider: Component = await driver.waitForComponent(ON.id('UiComponentButtonSliderInterFace09'),1000);
       await slider.click()
@@ -254,7 +254,7 @@ export default function uiComponentButtonSliderInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0600', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0600 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace10")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace10')
       let driver:Driver=Driver.create();
       let slider: Component = await driver.waitForComponent(ON.id('UiComponentButtonSliderInterFace10'),1000);
       await slider.click()
@@ -274,7 +274,7 @@ export default function uiComponentButtonSliderInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0610', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0610 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace11")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace11')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -293,7 +293,7 @@ export default function uiComponentButtonSliderInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0580', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0580 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace12")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace12')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -312,7 +312,7 @@ export default function uiComponentButtonSliderInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0020 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace13")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace13')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -331,7 +331,7 @@ export default function uiComponentButtonSliderInterFace() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0110 start.`);
-      Settings.createWindow("testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace14")
+      Settings.createWindow('testability/pages/component/button/uiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace14')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentButtonSliderInterFace14_02'),1000);
       windowSnap.snapShot()
