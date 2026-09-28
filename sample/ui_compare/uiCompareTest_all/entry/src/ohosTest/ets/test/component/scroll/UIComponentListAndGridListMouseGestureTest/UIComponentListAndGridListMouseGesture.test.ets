@@ -67,7 +67,7 @@ export default function uIComponentListAndGridListMouseGesture() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0010';
-      let pageName = "UIComponentListAndGridListMouseGesture0010";
+      let pageName = 'UIComponentListAndGridListMouseGesture0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMouseGesture/' + pageName);
       let driver: Driver = Driver.create();
@@ -96,7 +96,7 @@ export default function uIComponentListAndGridListMouseGesture() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0020';
-      let pageName = "UIComponentListAndGridListMouseGesture0020";
+      let pageName = 'UIComponentListAndGridListMouseGesture0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMouseGesture/' + pageName);
       let driver: Driver = Driver.create();
@@ -123,7 +123,7 @@ export default function uIComponentListAndGridListMouseGesture() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0040';
-      let pageName = "UIComponentListAndGridListMouseGesture0040";
+      let pageName = 'UIComponentListAndGridListMouseGesture0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMouseGesture/' + pageName);
       let driver: Driver = Driver.create();
@@ -150,7 +150,7 @@ export default function uIComponentListAndGridListMouseGesture() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0070';
-      let pageName = "UIComponentListAndGridListMouseGesture0070";
+      let pageName = 'UIComponentListAndGridListMouseGesture0070';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMouseGesture/' + pageName);
       let driver: Driver = Driver.create();
@@ -177,7 +177,7 @@ export default function uIComponentListAndGridListMouseGesture() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0080';
-      let pageName = "UIComponentListAndGridListMouseGesture0080";
+      let pageName = 'UIComponentListAndGridListMouseGesture0080';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMouseGesture/' + pageName);
       let driver: Driver = Driver.create();
@@ -204,7 +204,7 @@ export default function uIComponentListAndGridListMouseGesture() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0120';
-      let pageName = "UIComponentListAndGridListMouseGesture0120";
+      let pageName = 'UIComponentListAndGridListMouseGesture0120';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMouseGesture/' + pageName);
       let driver: Driver = Driver.create();
@@ -239,7 +239,7 @@ export default function uIComponentListAndGridListMouseGesture() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0130';
-      let pageName = "UIComponentListAndGridListMouseGesture0130";
+      let pageName = 'UIComponentListAndGridListMouseGesture0130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMouseGesture/' + pageName);
       let driver: Driver = Driver.create();
@@ -268,7 +268,7 @@ export default function uIComponentListAndGridListMouseGesture() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0150';
-      let pageName = "UIComponentListAndGridListMouseGesture0150";
+      let pageName = 'UIComponentListAndGridListMouseGesture0150';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMouseGesture/' + pageName);
       let driver: Driver = Driver.create();
@@ -295,7 +295,7 @@ export default function uIComponentListAndGridListMouseGesture() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0160';
-      let pageName = "UIComponentListAndGridListMouseGesture0160";
+      let pageName = 'UIComponentListAndGridListMouseGesture0160';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMouseGesture/' + pageName);
       let driver: Driver = Driver.create();
@@ -325,7 +325,7 @@ export default function uIComponentListAndGridListMouseGesture() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0170';
-      let pageName = "UIComponentListAndGridListMouseGesture0170";
+      let pageName = 'UIComponentListAndGridListMouseGesture0170';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMouseGesture/' + pageName);
       let driver: Driver = Driver.create();
@@ -352,7 +352,7 @@ export default function uIComponentListAndGridListMouseGesture() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0210';
-      let pageName = "UIComponentListAndGridListMouseGesture0210";
+      let pageName = 'UIComponentListAndGridListMouseGesture0210';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMouseGesture/' + pageName);
       let driver: Driver = Driver.create();
@@ -381,7 +381,7 @@ export default function uIComponentListAndGridListMouseGesture() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0230';
-      let pageName = "UIComponentListAndGridListMouseGesture0230";
+      let pageName = 'UIComponentListAndGridListMouseGesture0230';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMouseGesture/' + pageName);
       let driver: Driver = Driver.create();

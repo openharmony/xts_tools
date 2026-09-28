@@ -47,10 +47,10 @@ export default function uIComponentListAndGridListClipContentTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0040 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0040");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0040');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0040 finish.`);
       done();
@@ -66,10 +66,10 @@ export default function uIComponentListAndGridListClipContentTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0050 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0050");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0050');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0050 finish.`);
       done();
@@ -85,26 +85,26 @@ export default function uIComponentListAndGridListClipContentTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent003');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070_05");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070_05');
       let button1: Component = await driver.waitForComponent(ON.id('-1'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070_04');
       let button2: Component = await driver.waitForComponent(ON.id('undefined'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070_03');
       let button3: Component = await driver.waitForComponent(ON.id('null'), 1000);
       await button3.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070_02');
       let button4: Component = await driver.waitForComponent(ON.id('70000'), 1000);
       await button4.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070 finish.`);
       done();
@@ -120,10 +120,10 @@ export default function uIComponentListAndGridListClipContentTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0020 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent004');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0020');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0020 finish.`);
       done();
@@ -139,10 +139,10 @@ export default function uIComponentListAndGridListClipContentTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0060 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent005");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent005');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0060");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0060');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0060 finish.`);
       done();
@@ -158,26 +158,26 @@ export default function uIComponentListAndGridListClipContentTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent006");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent006');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030_05");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030_05');
       let button1: Component = await driver.waitForComponent(ON.id('-1'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030_04');
       let button2: Component = await driver.waitForComponent(ON.id('undefined'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030_03');
       let button3: Component = await driver.waitForComponent(ON.id('null'), 1000);
       await button3.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030_02');
       let button4: Component = await driver.waitForComponent(ON.id('200%'), 1000);
       await button4.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030 finish.`);
       done();
@@ -193,10 +193,10 @@ export default function uIComponentListAndGridListClipContentTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0080 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent007");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent007');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0080");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0080');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0080 finish.`);
       done();
@@ -212,26 +212,26 @@ export default function uIComponentListAndGridListClipContentTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent009");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListClipContent/UIComponentListAndGridListClipContent009');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090_05");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090_05');
       let button1: Component = await driver.waitForComponent(ON.id('-1'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090_04');
       let button2: Component = await driver.waitForComponent(ON.id('undefined'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090_03');
       let button3: Component = await driver.waitForComponent(ON.id('null'), 1000);
       await button3.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090_02');
       let button4: Component = await driver.waitForComponent(ON.id('70000'), 1000);
       await button4.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090 finish.`);
       done();

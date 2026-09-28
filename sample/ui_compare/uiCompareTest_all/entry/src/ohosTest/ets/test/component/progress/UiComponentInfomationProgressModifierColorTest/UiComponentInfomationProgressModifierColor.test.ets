@@ -49,7 +49,7 @@ export default function uiComponentInfomationProgressModifierColor() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0011', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0011 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentInfomationProgressModifierColor/UiComponentInfomationProgressModifierColor0011")
+      Settings.createWindow('testability/pages/component/progress/uiComponentInfomationProgressModifierColor/UiComponentInfomationProgressModifierColor0011')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('UiComponentInfomationProgressModifierColor0011_001'), 1000);  // 显式等待组件出现[6](@ref)
@@ -74,7 +74,7 @@ export default function uiComponentInfomationProgressModifierColor() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0012', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0012 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentInfomationProgressModifierColor/UiComponentInfomationProgressModifierColor0012")
+      Settings.createWindow('testability/pages/component/progress/uiComponentInfomationProgressModifierColor/UiComponentInfomationProgressModifierColor0012')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('UiComponentInfomationProgressModifierColor0011_001'), 1000);  // 显式等待组件出现[6](@ref)

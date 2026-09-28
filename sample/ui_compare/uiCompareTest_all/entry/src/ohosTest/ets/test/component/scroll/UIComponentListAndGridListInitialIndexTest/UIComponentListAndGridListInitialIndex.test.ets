@@ -47,18 +47,18 @@ export default function uIComponentListAndGridListInitialIndexTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListInitialIndex/UIComponentListAndGridListInitialIndex001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListInitialIndex/UIComponentListAndGridListInitialIndex001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010_03');
       let button1: Component = await driver.waitForComponent(ON.id('scrollToItemInGroup'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010_02');
       let button2: Component = await driver.waitForComponent(ON.id('scrollEdge'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010 finish.`);
       done();
@@ -74,18 +74,18 @@ export default function uIComponentListAndGridListInitialIndexTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListInitialIndex/UIComponentListAndGridListInitialIndex004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListInitialIndex/UIComponentListAndGridListInitialIndex004');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020_03');
       let button1: Component = await driver.waitForComponent(ON.id('scrollToItemInGroup'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020_02');
       let button2: Component = await driver.waitForComponent(ON.id('scrollEdge'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020 finish.`);
       done();

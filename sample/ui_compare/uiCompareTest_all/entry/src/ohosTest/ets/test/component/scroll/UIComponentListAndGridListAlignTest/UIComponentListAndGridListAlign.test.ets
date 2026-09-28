@@ -67,7 +67,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0180';
-      let pageName = "UIComponentListAndGridListAlign0180";
+      let pageName = 'UIComponentListAndGridListAlign0180';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();
@@ -94,7 +94,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0190';
-      let pageName = "UIComponentListAndGridListAlign0190";
+      let pageName = 'UIComponentListAndGridListAlign0190';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();
@@ -121,7 +121,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0220';
-      let pageName = "UIComponentListAndGridListAlign0220";
+      let pageName = 'UIComponentListAndGridListAlign0220';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();
@@ -150,7 +150,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0260';
-      let pageName = "UIComponentListAndGridListAlign0260";
+      let pageName = 'UIComponentListAndGridListAlign0260';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();
@@ -177,7 +177,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0270';
-      let pageName = "UIComponentListAndGridListAlign0270";
+      let pageName = 'UIComponentListAndGridListAlign0270';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();
@@ -204,7 +204,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0300';
-      let pageName = "UIComponentListAndGridListAlign0300";
+      let pageName = 'UIComponentListAndGridListAlign0300';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();
@@ -231,7 +231,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0380', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0380';
-      let pageName = "UIComponentListAndGridListAlign0380";
+      let pageName = 'UIComponentListAndGridListAlign0380';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();
@@ -258,7 +258,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0390', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0390';
-      let pageName = "UIComponentListAndGridListAlign0390";
+      let pageName = 'UIComponentListAndGridListAlign0390';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();
@@ -285,7 +285,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0430', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0430';
-      let pageName = "UIComponentListAndGridListAlign0430";
+      let pageName = 'UIComponentListAndGridListAlign0430';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();
@@ -314,7 +314,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0470', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0470';
-      let pageName = "UIComponentListAndGridListAlign0470";
+      let pageName = 'UIComponentListAndGridListAlign0470';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();
@@ -341,7 +341,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0480', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0480';
-      let pageName = "UIComponentListAndGridListAlign0480";
+      let pageName = 'UIComponentListAndGridListAlign0480';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();
@@ -368,7 +368,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0520', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0520';
-      let pageName = "UIComponentListAndGridListAlign0520";
+      let pageName = 'UIComponentListAndGridListAlign0520';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();
@@ -397,7 +397,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0560', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0560';
-      let pageName = "UIComponentListAndGridListAlign0560";
+      let pageName = 'UIComponentListAndGridListAlign0560';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();
@@ -424,7 +424,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0570', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0570';
-      let pageName = "UIComponentListAndGridListAlign0570";
+      let pageName = 'UIComponentListAndGridListAlign0570';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();
@@ -451,7 +451,7 @@ export default function uIComponentListAndGridListAlign() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0610', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0610';
-      let pageName = "UIComponentListAndGridListAlign0610";
+      let pageName = 'UIComponentListAndGridListAlign0610';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAlign/' + pageName);
       let driver: Driver = Driver.create();

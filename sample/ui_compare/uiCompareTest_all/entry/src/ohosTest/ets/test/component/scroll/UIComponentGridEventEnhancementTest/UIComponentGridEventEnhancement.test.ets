@@ -50,7 +50,7 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0050_734', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0050_734';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement001');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
@@ -59,7 +59,7 @@ export default function uIComponentGridEventEnhancementTest() {
       console.info(`${caseName} rect of Grid is ${JSON.stringify(rect)}`);
       await driver.mouseDrag({x: rect.right - 15, y: rect.top + 50}, {x: rect.right - 15, y: rect.top - 30}, 1000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0050_734");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0050_734');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -76,7 +76,7 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0020_491', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0020_491';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement002');
       let driver: Driver = Driver.create();
       let grid: Component = await driver.waitForComponent(ON.id('Grid'), 1000);
       let point = await grid.getBoundsCenter();
@@ -86,7 +86,7 @@ export default function uIComponentGridEventEnhancementTest() {
       await driver.waitForIdle(500, 1000);
       await driver.drag(point.x, point.y, point1.x, point1.y);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0020_491");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0020_491');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -103,10 +103,10 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0010_754', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0010_754';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement003');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0010_754");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0010_754');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -123,14 +123,14 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0030_456', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0030_456';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement004');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('down'), 1000);
       await button1.click();
       let button2: Component = await driver.waitForComponent(ON.id('up'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0030_456");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0030_456');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -147,12 +147,12 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0230_067', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0230_067';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement005");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement005');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0230_067");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0230_067');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -169,7 +169,7 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0190_649', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0190_649';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement006");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement006');
       let driver: Driver = Driver.create();
       let grid: Component = await driver.waitForComponent(ON.id('Grid'), 1000);
       let point: Point = await grid.getBoundsCenter();
@@ -177,7 +177,7 @@ export default function uIComponentGridEventEnhancementTest() {
       let point1: Point = { x: point.x, y: point.y + 50};
       await driver.drag(point1.x, point1.y, point.x, point.y);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0190_649");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0190_649');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -194,14 +194,14 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0200_675', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0200_675';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement007");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement007');
       let driver: Driver = Driver.create();
       let grid: Component = await driver.waitForComponent(ON.id('Grid'), 1000);
       let rect = await grid.getBounds();
       console.info(`${caseName} rect of Grid is ${JSON.stringify(rect)}`);
       await driver.mouseDrag({x: rect.right - 15, y: rect.top + 20}, {x: rect.right - 15, y: rect.top + 50}, 1000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0200_675");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0200_675');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -218,12 +218,12 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0220_256', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0220_256';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement008");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement008');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0220_256");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0220_256');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -240,12 +240,12 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0280_691', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0280_691';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement009");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement009');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0280_691");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0280_691');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -262,7 +262,7 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0250_830', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0250_830';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement010");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement010');
       let driver: Driver = Driver.create();
       let grid: Component = await driver.waitForComponent(ON.id('Grid'), 1000);
       let point: Point = await grid.getBoundsCenter();
@@ -270,7 +270,7 @@ export default function uIComponentGridEventEnhancementTest() {
       let point1: Point = { x: point.x, y: point.y + 50};
       await driver.drag(point1.x, point1.y, point.x, point.y);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0250_830");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0250_830');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -287,12 +287,12 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0100_270', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0100_270';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement011");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement011');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('bottom'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0100_270");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0100_270');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -309,14 +309,14 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0090_242', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0090_242';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement012");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement012');
       let driver: Driver = Driver.create();
       let grid: Component = await driver.waitForComponent(ON.id('Grid'), 1000);
       let rect = await grid.getBounds();
       console.info(`${caseName} rect of Grid is ${JSON.stringify(rect)}`);
       await driver.mouseDrag({x: rect.right - 15, y: rect.top + 10}, {x: rect.right - 15, y: rect.bottom}, 5000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0090_242");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0090_242');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -333,7 +333,7 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0080_777', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0080_777';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement013");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement013');
       let driver: Driver = Driver.create();
       let grid: Component = await driver.waitForComponent(ON.id('Grid'), 1000);
       let rect = await grid.getBounds();
@@ -345,7 +345,7 @@ export default function uIComponentGridEventEnhancementTest() {
       await driver.drag(point.x, rect.bottom, point.x, rect.top, 10000);
       await driver.drag(point.x, rect.bottom, point.x, point.y, 10000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0080_777");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0080_777');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -362,12 +362,12 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0170_101', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0170_101';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement014");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement014');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0170_101");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0170_101');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -384,14 +384,14 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0150_981', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0150_981';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement015");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement015');
       let driver: Driver = Driver.create();
       let grid: Component = await driver.waitForComponent(ON.id('Grid'), 1000);
       let rect = await grid.getBounds();
       console.info(`${caseName} rect of Grid is ${JSON.stringify(rect)}`);
       await driver.mouseDrag({x: rect.right - 15, y: rect.top + 10}, {x: rect.right - 15, y: rect.top + 20});
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0150_981");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0150_981');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -408,14 +408,14 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0140_025', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0140_025';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement016");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement016');
       let driver: Driver = Driver.create();
       let grid: Component = await driver.waitForComponent(ON.id('Grid'), 1000);
       let point = await grid.getBoundsCenter();
       console.info(`${caseName} point of point is ${JSON.stringify(point)}`);
       await driver.drag(point.x, point.y + 30, point.x, point.y - 10);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0140_025");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0140_025');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -432,12 +432,12 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0160_071', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0160_071';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement017");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement017');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0160_071");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0160_071');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -454,14 +454,14 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0310_287', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0310_287';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement018");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement018');
       let driver: Driver = Driver.create();
       let grid: Component = await driver.waitForComponent(ON.id('Grid'), 1000);
       let rect = await grid.getBounds();
       console.info(`${caseName} rect of Grid is ${JSON.stringify(rect)}`);
       await driver.mouseDrag({x: rect.right - 15, y: rect.top + 10}, {x: rect.right - 15, y: rect.top + 20});
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0310_287");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0310_287');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -478,10 +478,10 @@ export default function uIComponentGridEventEnhancementTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0290_176', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0290_176';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement019");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridEventEnhancement/UIComponentGridEventEnhancement019');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0290_176");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0290_176');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

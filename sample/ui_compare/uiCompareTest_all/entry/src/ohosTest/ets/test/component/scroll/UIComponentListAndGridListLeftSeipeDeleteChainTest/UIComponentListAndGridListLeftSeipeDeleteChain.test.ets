@@ -67,7 +67,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0010';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0010";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -102,7 +102,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0040';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0040";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -128,7 +128,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0050';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0050";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0050';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -156,7 +156,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0060';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0060";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0060';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -182,7 +182,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0070';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0070";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0070';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -208,7 +208,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0080';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0080";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0080';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -239,7 +239,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0090';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0090";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0090';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -265,7 +265,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0100';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0100";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0100';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -291,7 +291,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0110';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0110";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0110';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -323,7 +323,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0120';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0120";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0120';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -355,7 +355,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0130';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0130";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -388,7 +388,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0140';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0140";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0140';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -414,7 +414,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0180';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0180";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0180';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -440,7 +440,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0190';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0190";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0190';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -466,7 +466,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0200';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0200";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0200';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -492,7 +492,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0210';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0210";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0210';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -518,7 +518,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0230';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0230";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0230';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -544,7 +544,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0240';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0240";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0240';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -570,7 +570,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0250';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0250";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0250';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -596,7 +596,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0260';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0260";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0260';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -622,7 +622,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0270';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0270";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0270';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -648,7 +648,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0280';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0280";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0280';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -674,7 +674,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0290', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0290';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0290";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0290';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -700,7 +700,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0300';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0300";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0300';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -726,7 +726,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0310';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0310";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0310';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -752,7 +752,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0320';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0320";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0320';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -778,7 +778,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0360', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0360';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0360";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0360';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -804,7 +804,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0370', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0370';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0370";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0370';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -830,7 +830,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0380', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0380';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0380";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0380';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -856,7 +856,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0390', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0390';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0390";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0390';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -882,7 +882,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0400', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0400';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0400";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0400';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();
@@ -910,7 +910,7 @@ export default function uIComponentListAndGridListLeftSeipeDeleteChain() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0410', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0410';
-      let pageName = "UIComponentListAndGridListLeftSeipeDeleteChain0410";
+      let pageName = 'UIComponentListAndGridListLeftSeipeDeleteChain0410';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListLeftSeipeDeleteChain/' + pageName);
       let driver: Driver = Driver.create();

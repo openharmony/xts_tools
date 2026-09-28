@@ -68,7 +68,7 @@ export default function uIComponentListAndGridGridMirror() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0510', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0510';
-      let pageName = "UIComponentListAndGridGridMirror0510";
+      let pageName = 'UIComponentListAndGridGridMirror0510';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridGridMirror_03/' + pageName);
       let driver: Driver = Driver.create();

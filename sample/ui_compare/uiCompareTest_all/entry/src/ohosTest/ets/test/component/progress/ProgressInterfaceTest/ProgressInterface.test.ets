@@ -50,7 +50,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0070 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0070")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -71,7 +71,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0060 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0060")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -92,7 +92,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0140', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0140 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0140")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0140')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -113,7 +113,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0180 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0180")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0180')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -134,7 +134,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0240', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0240 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0240")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0240')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -155,7 +155,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0250', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0250 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0250")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0250')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -176,7 +176,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0330', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0330 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0330")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0330')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -197,7 +197,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0080 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0080")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -218,7 +218,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0440', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0440 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0440")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0440')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -239,7 +239,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0320', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0320 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0320")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0320')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -260,7 +260,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0460', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0460 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0460")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0460')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -281,7 +281,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0410', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0410 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0410")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0410')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -302,7 +302,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0360', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0360 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0360")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0360')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -323,7 +323,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0340', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0340 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0340")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0340')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -344,7 +344,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0350', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0350 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0350")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0350')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -365,7 +365,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0310', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0310 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0310")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0310')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -386,7 +386,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0450', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0450 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0450")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0450')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -407,7 +407,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0470', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0470 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0470")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0470')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -428,7 +428,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0430', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0430 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0430")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0430')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -449,7 +449,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0390', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0390 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0390")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0390')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -470,7 +470,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0370', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0370 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0370")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0370')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -491,7 +491,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0400', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0400 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0400")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0400')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -512,7 +512,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0420', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0420 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0420")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0420')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -533,7 +533,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0280', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0280 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0280")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0280')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -554,7 +554,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0490', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0490 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0280")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0280')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -575,7 +575,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0480', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0480 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0480")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0480')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -596,7 +596,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0500', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0500 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0500")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0500')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -617,7 +617,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0200', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0200 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0200")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0200')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -638,7 +638,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0290', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0290 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0290")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0290')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -659,7 +659,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0300', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0300 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0300")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0300')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -680,7 +680,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0020 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0020")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -701,7 +701,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0260', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0260 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0260")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0260')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -722,7 +722,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0270', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0270 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0270")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0270')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -743,7 +743,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0010 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0010")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -764,7 +764,7 @@ export default function progressInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0090 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressInterface/ProgressInterface0090")
+      Settings.createWindow('testability/pages/component/progress/progressInterface/ProgressInterface0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)

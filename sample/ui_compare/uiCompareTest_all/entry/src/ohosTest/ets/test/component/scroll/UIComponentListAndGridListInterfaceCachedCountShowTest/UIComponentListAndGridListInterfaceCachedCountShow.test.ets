@@ -47,14 +47,14 @@ export default function uIComponentListAndGridListInterfaceCachedCountShowTest()
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0010 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListInterfaceCachedCountShow/UIComponentListAndGridListInterfaceCachedCountShow001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListInterfaceCachedCountShow/UIComponentListAndGridListInterfaceCachedCountShow001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0010_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0010_02');
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0010");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0010 finish.`);
       done();
@@ -70,10 +70,10 @@ export default function uIComponentListAndGridListInterfaceCachedCountShowTest()
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0020 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListInterfaceCachedCountShow/UIComponentListAndGridListInterfaceCachedCountShow002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListInterfaceCachedCountShow/UIComponentListAndGridListInterfaceCachedCountShow002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0020');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0020 finish.`);
       done();
@@ -89,10 +89,10 @@ export default function uIComponentListAndGridListInterfaceCachedCountShowTest()
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0030 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListInterfaceCachedCountShow/UIComponentListAndGridListInterfaceCachedCountShow003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListInterfaceCachedCountShow/UIComponentListAndGridListInterfaceCachedCountShow003');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0030");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0030');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0030 finish.`);
       done();

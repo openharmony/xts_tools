@@ -68,7 +68,7 @@ export default function uIComponentListAndGridListChainAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0010';
-      let pageName = "UIComponentListAndGridListChainAnimation0010";
+      let pageName = 'UIComponentListAndGridListChainAnimation0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListChainAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -96,7 +96,7 @@ export default function uIComponentListAndGridListChainAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0020';
-      let pageName = "UIComponentListAndGridListChainAnimation0020";
+      let pageName = 'UIComponentListAndGridListChainAnimation0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListChainAnimation/' + pageName);
       let driver: Driver = Driver.create();

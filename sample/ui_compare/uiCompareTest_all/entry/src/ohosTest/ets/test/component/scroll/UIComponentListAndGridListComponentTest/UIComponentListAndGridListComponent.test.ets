@@ -47,15 +47,15 @@ export default function uIComponentListAndGridListComponentTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListComponent/UIComponentListAndGridListComponent001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListComponent/UIComponentListAndGridListComponent001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020');
       let button: Component = await driver.waitForComponent(ON.id('Test++'), 1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020_02');
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020 finish.`);
       done();

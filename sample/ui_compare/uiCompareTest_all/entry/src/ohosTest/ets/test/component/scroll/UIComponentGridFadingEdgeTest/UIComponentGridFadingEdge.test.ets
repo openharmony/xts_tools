@@ -49,12 +49,12 @@ export default function uIComponentGridFadingEdgeTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0010', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0010';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridFadingEdge/UIComponentGridFadingEdge001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridFadingEdge/UIComponentGridFadingEdge001');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0010");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -71,12 +71,12 @@ export default function uIComponentGridFadingEdgeTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0050', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0050';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridFadingEdge/UIComponentGridFadingEdge002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridFadingEdge/UIComponentGridFadingEdge002');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0050");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0050');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -93,12 +93,12 @@ export default function uIComponentGridFadingEdgeTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0140', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0140';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridFadingEdge/UIComponentGridFadingEdge003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridFadingEdge/UIComponentGridFadingEdge003');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0140");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0140');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -115,12 +115,12 @@ export default function uIComponentGridFadingEdgeTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0020', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0020';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridFadingEdge/UIComponentGridFadingEdge004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridFadingEdge/UIComponentGridFadingEdge004');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0020');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

@@ -68,7 +68,7 @@ export default function uIComponentGridAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0040';
-      let pageName = "UIComponentGridAnimation0040";
+      let pageName = 'UIComponentGridAnimation0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -98,7 +98,7 @@ export default function uIComponentGridAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0050';
-      let pageName = "UIComponentGridAnimation0050";
+      let pageName = 'UIComponentGridAnimation0050';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -122,7 +122,7 @@ export default function uIComponentGridAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0110';
-      let pageName = "UIComponentGridAnimation0110";
+      let pageName = 'UIComponentGridAnimation0110';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -146,7 +146,7 @@ export default function uIComponentGridAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0120';
-      let pageName = "UIComponentGridAnimation0120";
+      let pageName = 'UIComponentGridAnimation0120';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -170,7 +170,7 @@ export default function uIComponentGridAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0130';
-      let pageName = "UIComponentGridAnimation0130";
+      let pageName = 'UIComponentGridAnimation0130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -198,7 +198,7 @@ export default function uIComponentGridAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0140';
-      let pageName = "UIComponentGridAnimation0140";
+      let pageName = 'UIComponentGridAnimation0140';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -226,7 +226,7 @@ export default function uIComponentGridAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0150';
-      let pageName = "UIComponentGridAnimation0150";
+      let pageName = 'UIComponentGridAnimation0150';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridAnimation/' + pageName);
       let driver: Driver = Driver.create();

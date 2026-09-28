@@ -64,7 +64,7 @@ export default function uiRichEditorScroll() {
      */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0120 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll01")
+      Settings.createWindow('testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot();
@@ -87,7 +87,7 @@ export default function uiRichEditorScroll() {
      */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0150 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll02")
+      Settings.createWindow('testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll02')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot();
@@ -110,7 +110,7 @@ export default function uiRichEditorScroll() {
      */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0110 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll03")
+      Settings.createWindow('testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll03')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot();
@@ -133,7 +133,7 @@ export default function uiRichEditorScroll() {
      */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0210 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll04")
+      Settings.createWindow('testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll04')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot();
@@ -156,7 +156,7 @@ export default function uiRichEditorScroll() {
      */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0230 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll05")
+      Settings.createWindow('testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll05')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot();
@@ -180,7 +180,7 @@ export default function uiRichEditorScroll() {
      */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0130 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll06")
+      Settings.createWindow('testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll06')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot();
@@ -208,7 +208,7 @@ export default function uiRichEditorScroll() {
      */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0250 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll07")
+      Settings.createWindow('testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll07')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot();
@@ -236,7 +236,7 @@ export default function uiRichEditorScroll() {
      */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0270 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll08")
+      Settings.createWindow('testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll08')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot();
@@ -262,7 +262,7 @@ export default function uiRichEditorScroll() {
      */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0220 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll09")
+      Settings.createWindow('testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll09')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -281,7 +281,7 @@ export default function uiRichEditorScroll() {
      */
     it('SUB_ACE_UI_RICHEDITOR_SCROLL_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_RICHEDITOR_SCROLL_0140 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll10")
+      Settings.createWindow('testability/pages/component/rich_editor/UiRichEditorScroll_02/UiRichEditorScroll10')
       let driver:Driver=Driver.create();
       let richeditor: Component = await driver.waitForComponent(ON.id('UiRichEditorScroll10'),1000);
       let point = await richeditor.getBoundsCenter();

@@ -68,7 +68,7 @@ export default function uIComponentGridForEach() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_FOREACH_0010_679', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_FOREACH_0010_679';
-      let pageName = "UIComponentGridForEach0010_679";
+      let pageName = 'UIComponentGridForEach0010_679';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridForEach/' + pageName);
       let driver: Driver = Driver.create();
@@ -97,7 +97,7 @@ export default function uIComponentGridForEach() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_FOREACH_0020_681', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_FOREACH_0020_681';
-      let pageName = "UIComponentGridForEach0020_681";
+      let pageName = 'UIComponentGridForEach0020_681';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridForEach/' + pageName);
       let driver: Driver = Driver.create();
@@ -126,7 +126,7 @@ export default function uIComponentGridForEach() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_FOREACH_0030_403', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_FOREACH_0030_403';
-      let pageName = "UIComponentGridForEach0030_403";
+      let pageName = 'UIComponentGridForEach0030_403';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridForEach/' + pageName);
       let driver: Driver = Driver.create();
@@ -155,7 +155,7 @@ export default function uIComponentGridForEach() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_FOREACH_0040_091', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_FOREACH_0040_091';
-      let pageName = "UIComponentGridForEach0040_091";
+      let pageName = 'UIComponentGridForEach0040_091';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridForEach/' + pageName);
       let driver: Driver = Driver.create();

@@ -50,7 +50,7 @@ export default function progressModifierColor() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0013', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0013 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressModifierColor/ProgressModifierColor0013")
+      Settings.createWindow('testability/pages/component/progress/progressModifierColor/ProgressModifierColor0013')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressModifierColor0013_001'),1000);
@@ -79,7 +79,7 @@ export default function progressModifierColor() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0014', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0014 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressModifierColor/ProgressModifierColor0014")
+      Settings.createWindow('testability/pages/component/progress/progressModifierColor/ProgressModifierColor0014')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressModifierColor0014_001'),1000);
@@ -108,7 +108,7 @@ export default function progressModifierColor() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0015 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressModifierColor/ProgressModifierColor0015")
+      Settings.createWindow('testability/pages/component/progress/progressModifierColor/ProgressModifierColor0015')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressModifierColor0015_001'),1000);
@@ -137,7 +137,7 @@ export default function progressModifierColor() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0016 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressModifierColor/ProgressModifierColor0016")
+      Settings.createWindow('testability/pages/component/progress/progressModifierColor/ProgressModifierColor0016')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressModifierColor0016_001'),1000);
@@ -166,7 +166,7 @@ export default function progressModifierColor() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0017', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0017 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressModifierColor/ProgressModifierColor0017")
+      Settings.createWindow('testability/pages/component/progress/progressModifierColor/ProgressModifierColor0017')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressModifierColor0017_001'),1000);
@@ -195,7 +195,7 @@ export default function progressModifierColor() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0018', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0018 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressModifierColor/ProgressModifierColor0018")
+      Settings.createWindow('testability/pages/component/progress/progressModifierColor/ProgressModifierColor0018')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressModifierColor0018_001'),1000);
@@ -224,7 +224,7 @@ export default function progressModifierColor() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0019 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressModifierColor/ProgressModifierColor0019")
+      Settings.createWindow('testability/pages/component/progress/progressModifierColor/ProgressModifierColor0019')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressModifierColor0019_001'),1000);
@@ -253,7 +253,7 @@ export default function progressModifierColor() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0020 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressModifierColor/ProgressModifierColor0020")
+      Settings.createWindow('testability/pages/component/progress/progressModifierColor/ProgressModifierColor0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressModifierColor0020_001'),1000);
@@ -282,7 +282,7 @@ export default function progressModifierColor() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0021', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0021 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressModifierColor/ProgressModifierColor0021")
+      Settings.createWindow('testability/pages/component/progress/progressModifierColor/ProgressModifierColor0021')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressModifierColor0021_001'),1000);

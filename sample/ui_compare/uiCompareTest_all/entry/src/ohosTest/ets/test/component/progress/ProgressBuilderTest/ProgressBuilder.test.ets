@@ -50,7 +50,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0110 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0110")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0110_001'),1000);
@@ -79,7 +79,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0620', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0620 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0620")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0620')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -100,7 +100,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0370', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0370 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0370")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0370')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -121,7 +121,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0580', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0580 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0580")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0580')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0580_001'),1000);
@@ -147,7 +147,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0520', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0520 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0520")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0520')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0520_001'),1000);
@@ -173,7 +173,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0060 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0060")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0060_001'),1000);
@@ -199,7 +199,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0450', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0450 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0450")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0450')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -220,7 +220,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0290', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0290 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0290")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0290')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -241,7 +241,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0500', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0500 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0500")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0500')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -262,7 +262,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0240', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0240 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0240")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0240')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -283,7 +283,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0570', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0570 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0570")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0570')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -304,7 +304,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0260', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0260 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0260")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0260')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -325,7 +325,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0130 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0130")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0130_001'),1000);
@@ -351,7 +351,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0230', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0230 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0230")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0230')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -372,7 +372,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0380', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0380 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0380")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0380')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -393,7 +393,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0480', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0480 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0480")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0480')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -414,7 +414,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0070 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0070")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -435,7 +435,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0190', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0190 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0190")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0190')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0190_001'),1000);
@@ -458,7 +458,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0460', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0460 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0460")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0460')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -479,7 +479,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0080 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0080")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0080_001'),1000);
@@ -501,7 +501,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0040 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0040")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -522,7 +522,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0310', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0310 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0310")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0310')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -543,7 +543,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0600', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0600 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0600")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0600')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0600_001'),1000);
@@ -569,7 +569,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0030 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0030")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -590,7 +590,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0440', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0440 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0440")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0440')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -611,7 +611,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0250', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0250 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0250")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0250')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -632,7 +632,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0530', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0530 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0530")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0530')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0530_001'),1000);
@@ -658,7 +658,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0160', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0160 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0160")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0160')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0160_001'),1000);
@@ -684,7 +684,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0330', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0330 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0330")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0330')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -705,7 +705,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0550', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0550 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0550")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0550')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0550_001'),1000);
@@ -731,7 +731,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0020 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0020")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0020_001'),1000);
@@ -757,7 +757,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0410', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0410 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0410")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0410')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -778,7 +778,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0590', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0590 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0590")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0590')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0590_001'),1000);
@@ -804,7 +804,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0150', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0150 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0150")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0150')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0150_001'),1000);
@@ -830,7 +830,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0470', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0470 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0470")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0470')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -851,7 +851,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0090 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0090")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0090_001'),1000);
@@ -877,7 +877,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0350', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0350 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0350")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0350')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -898,7 +898,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0430', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0430 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0430")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0430')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -919,7 +919,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0220', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0220 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0220")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0220')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -940,7 +940,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0340', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0340 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0340")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0340')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -961,7 +961,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0490', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0490 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0490")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0490')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -982,7 +982,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0510', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0510 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0510")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0510')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -1003,7 +1003,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0420', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0420 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0420")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0420')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -1024,7 +1024,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0610', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0610 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0610")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0610')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -1045,7 +1045,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0360', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0360 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0360")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0360')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -1066,7 +1066,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0170', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0170 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0170")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0170')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0170_001'),1000);
@@ -1092,7 +1092,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0540', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0540 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0540")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0540')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0540_001'),1000);
@@ -1118,7 +1118,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0120', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0120 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0120")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0120_001'),1000);
@@ -1144,7 +1144,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0270', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0270 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0270")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0270')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -1165,7 +1165,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0050 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0050")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -1186,7 +1186,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0390', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0390 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0390")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0390')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -1207,7 +1207,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0320', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0320 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0320")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0320')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -1229,7 +1229,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0140', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0140 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0140")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0140')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressBuilder0140_001'),1000);
@@ -1255,7 +1255,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0560', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0560 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0560")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0560')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -1276,7 +1276,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0280', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0280 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0280")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0280')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -1297,7 +1297,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0400', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0400 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0400")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0400')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -1318,7 +1318,7 @@ export default function progressBuilder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0300', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0300 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBuilder/ProgressBuilder0300")
+      Settings.createWindow('testability/pages/component/progress/progressBuilder/ProgressBuilder0300')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)

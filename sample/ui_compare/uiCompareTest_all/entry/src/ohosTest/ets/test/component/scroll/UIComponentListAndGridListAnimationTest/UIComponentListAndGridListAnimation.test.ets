@@ -68,7 +68,7 @@ export default function uIComponentListAndGridListAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ANIMATION_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ANIMATION_0130';
-      let pageName = "UIComponentListAndGridListAnimation0130";
+      let pageName = 'UIComponentListAndGridListAnimation0130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListAnimation/' + pageName);
       let driver: Driver = Driver.create();

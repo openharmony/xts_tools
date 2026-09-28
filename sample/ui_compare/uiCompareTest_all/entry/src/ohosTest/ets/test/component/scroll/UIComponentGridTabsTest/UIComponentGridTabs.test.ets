@@ -68,7 +68,7 @@ export default function uIComponentGridTabs() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_TABS_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_TABS_0010';
-      let pageName = "UIComponentGridTabs0010";
+      let pageName = 'UIComponentGridTabs0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridTabs/' + pageName);
       let driver: Driver = Driver.create();

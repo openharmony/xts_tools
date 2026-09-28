@@ -47,10 +47,10 @@ export default function uIComponentListAndGridGridMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridGridMirror_04/UIComponentListAndGridGridMirror001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridGridMirror_04/UIComponentListAndGridGridMirror001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100 finish.`);
       done();
@@ -66,12 +66,12 @@ export default function uIComponentListAndGridGridMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridGridMirror_04/UIComponentListAndGridGridMirror002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridGridMirror_04/UIComponentListAndGridGridMirror002');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0380");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0380');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0380 finish.`);
       done();
@@ -87,10 +87,10 @@ export default function uIComponentListAndGridGridMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0440', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0440 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridGridMirror_04/UIComponentListAndGridGridMirror003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridGridMirror_04/UIComponentListAndGridGridMirror003');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0440");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0440');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0440 finish.`);
       done();
@@ -106,10 +106,10 @@ export default function uIComponentListAndGridGridMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridGridMirror_04/UIComponentListAndGridGridMirror004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridGridMirror_04/UIComponentListAndGridGridMirror004');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450 finish.`);
       done();
@@ -125,10 +125,10 @@ export default function uIComponentListAndGridGridMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridGridMirror_04/UIComponentListAndGridGridMirror005");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridGridMirror_04/UIComponentListAndGridGridMirror005');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430 finish.`);
       done();
@@ -144,12 +144,12 @@ export default function uIComponentListAndGridGridMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridGridMirror_04/UIComponentListAndGridGridMirror006");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridGridMirror_04/UIComponentListAndGridGridMirror006');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420 finish.`);
       done();

@@ -66,7 +66,7 @@ export default function uiArkuiProgressMirror() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0030 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror01")
+      Settings.createWindow('testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror01')
       let driver:Driver=Driver.create();
       let buttonch: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror01_01'),1000);
       let buttona: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror01_02'),1000);
@@ -91,7 +91,7 @@ export default function uiArkuiProgressMirror() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0020 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror02")
+      Settings.createWindow('testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror02')
       let driver:Driver=Driver.create();
       let buttonch: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror02_01'),1000);
       let buttona: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror02_02'),1000);
@@ -116,7 +116,7 @@ export default function uiArkuiProgressMirror() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0060 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror03")
+      Settings.createWindow('testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror03')
       let driver:Driver=Driver.create();
       let buttonch: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror03_01'),1000);
       let buttona: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror03_02'),1000);
@@ -141,7 +141,7 @@ export default function uiArkuiProgressMirror() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0010 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror04")
+      Settings.createWindow('testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror04')
       let driver:Driver=Driver.create();
       let buttonch: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror04_01'),1000);
       let buttona: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror04_02'),1000);
@@ -180,7 +180,7 @@ export default function uiArkuiProgressMirror() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0070 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror05")
+      Settings.createWindow('testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror05')
       let driver:Driver=Driver.create();
       let buttonch: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror05_01'),1000);
       let buttona: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror05_02'),1000);
@@ -219,7 +219,7 @@ export default function uiArkuiProgressMirror() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0050 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror06")
+      Settings.createWindow('testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror06')
       let driver:Driver=Driver.create();
       let buttonch: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror06_01'),1000);
       let buttona: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror06_02'),1000);
@@ -244,7 +244,7 @@ export default function uiArkuiProgressMirror() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0040 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror07")
+      Settings.createWindow('testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror07')
       let driver:Driver=Driver.create();
       let buttonch: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror07_01'),1000);
       let buttona: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror07_02'),1000);
@@ -283,7 +283,7 @@ export default function uiArkuiProgressMirror() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0090 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror08")
+      Settings.createWindow('testability/pages/component/progress/uiArkuiProgressMirror/UiArkuiProgressMirror08')
       let driver:Driver=Driver.create();
       let buttonch: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror08_01'),1000);
       let buttona: Component = await driver.waitForComponent(ON.id('UiArkuiProgressMirror08_02'),1000);

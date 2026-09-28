@@ -68,7 +68,7 @@ export default function uIComponentListAndGridGridDirectionLayout() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0040_392', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0040_392';
-      let pageName = "UIComponentListAndGridGridDirectionLayout0040_392";
+      let pageName = 'UIComponentListAndGridGridDirectionLayout0040_392';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridGridDirectionLayout/' + pageName);
       let driver: Driver = Driver.create();
@@ -90,7 +90,7 @@ export default function uIComponentListAndGridGridDirectionLayout() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0050_392', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0050_392';
-      let pageName = "UIComponentListAndGridGridDirectionLayout0050_392";
+      let pageName = 'UIComponentListAndGridGridDirectionLayout0050_392';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridGridDirectionLayout/' + pageName);
       let driver: Driver = Driver.create();
@@ -112,7 +112,7 @@ export default function uIComponentListAndGridGridDirectionLayout() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0060_279', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0060_279';
-      let pageName = "UIComponentListAndGridGridDirectionLayout0060_279";
+      let pageName = 'UIComponentListAndGridGridDirectionLayout0060_279';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridGridDirectionLayout/' + pageName);
       let driver: Driver = Driver.create();
@@ -137,7 +137,7 @@ export default function uIComponentListAndGridGridDirectionLayout() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0080_804', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0080_804';
-      let pageName = "UIComponentListAndGridGridDirectionLayout0080_804";
+      let pageName = 'UIComponentListAndGridGridDirectionLayout0080_804';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridGridDirectionLayout/' + pageName);
       let driver: Driver = Driver.create();
@@ -159,7 +159,7 @@ export default function uIComponentListAndGridGridDirectionLayout() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0090_199', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0090_199';
-      let pageName = "UIComponentListAndGridGridDirectionLayout0090_199";
+      let pageName = 'UIComponentListAndGridGridDirectionLayout0090_199';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridGridDirectionLayout/' + pageName);
       let driver: Driver = Driver.create();

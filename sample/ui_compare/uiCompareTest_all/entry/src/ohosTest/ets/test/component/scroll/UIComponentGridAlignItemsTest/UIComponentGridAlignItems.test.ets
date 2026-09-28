@@ -47,10 +47,10 @@ export default function uIComponentGridAlignItemsTest() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0010 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridAlignItems/UIComponentGridAlignItems001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridAlignItems/UIComponentGridAlignItems001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0010");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0010 finish.`);
       done();
@@ -66,10 +66,10 @@ export default function uIComponentGridAlignItemsTest() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0060 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridAlignItems/UIComponentGridAlignItems002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridAlignItems/UIComponentGridAlignItems002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0060");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0060');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0060 finish.`);
       done();
@@ -85,10 +85,10 @@ export default function uIComponentGridAlignItemsTest() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0020 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridAlignItems/UIComponentGridAlignItems003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridAlignItems/UIComponentGridAlignItems003');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0020');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0020 finish.`);
       done();
@@ -105,14 +105,14 @@ export default function uIComponentGridAlignItemsTest() {
     it('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0300', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0300';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridAlignItems/UIComponentGridAlignItems004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridAlignItems/UIComponentGridAlignItems004');
       let driver: Driver = Driver.create();
       let grid: Component = await driver.waitForComponent(ON.type('Grid'), 1000);
       let rect = await grid.getBounds();
       console.info(`${caseName} rect of Grid is ${JSON.stringify(rect)}`);
       await driver.mouseDrag({x: rect.right - 15, y: rect.top + 10}, {x: rect.right - 15, y: rect.top + 100}, 1000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0300");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0300');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

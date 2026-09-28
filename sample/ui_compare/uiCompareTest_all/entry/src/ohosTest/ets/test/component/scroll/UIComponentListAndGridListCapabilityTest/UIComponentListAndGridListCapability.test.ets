@@ -67,7 +67,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0190';
-      let pageName = "UIComponentListAndGridListCapability0190";
+      let pageName = 'UIComponentListAndGridListCapability0190';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -89,7 +89,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0200';
-      let pageName = "UIComponentListAndGridListCapability0200";
+      let pageName = 'UIComponentListAndGridListCapability0200';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -111,7 +111,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0230';
-      let pageName = "UIComponentListAndGridListCapability0230";
+      let pageName = 'UIComponentListAndGridListCapability0230';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -133,7 +133,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0240';
-      let pageName = "UIComponentListAndGridListCapability0240";
+      let pageName = 'UIComponentListAndGridListCapability0240';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -155,7 +155,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0270';
-      let pageName = "UIComponentListAndGridListCapability0270";
+      let pageName = 'UIComponentListAndGridListCapability0270';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -177,7 +177,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0280';
-      let pageName = "UIComponentListAndGridListCapability0280";
+      let pageName = 'UIComponentListAndGridListCapability0280';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -199,7 +199,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0310';
-      let pageName = "UIComponentListAndGridListCapability0310";
+      let pageName = 'UIComponentListAndGridListCapability0310';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -221,7 +221,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0320';
-      let pageName = "UIComponentListAndGridListCapability0320";
+      let pageName = 'UIComponentListAndGridListCapability0320';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -243,7 +243,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0350', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0350';
-      let pageName = "UIComponentListAndGridListCapability0350";
+      let pageName = 'UIComponentListAndGridListCapability0350';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -265,7 +265,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0360', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0360';
-      let pageName = "UIComponentListAndGridListCapability0360";
+      let pageName = 'UIComponentListAndGridListCapability0360';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -287,7 +287,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0400', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0400';
-      let pageName = "UIComponentListAndGridListCapability0400";
+      let pageName = 'UIComponentListAndGridListCapability0400';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -309,7 +309,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0430', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0430';
-      let pageName = "UIComponentListAndGridListCapability0430";
+      let pageName = 'UIComponentListAndGridListCapability0430';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -331,7 +331,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0440', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0440';
-      let pageName = "UIComponentListAndGridListCapability0440";
+      let pageName = 'UIComponentListAndGridListCapability0440';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -353,7 +353,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0470', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0470';
-      let pageName = "UIComponentListAndGridListCapability0470";
+      let pageName = 'UIComponentListAndGridListCapability0470';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -375,7 +375,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0480', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0480';
-      let pageName = "UIComponentListAndGridListCapability0480";
+      let pageName = 'UIComponentListAndGridListCapability0480';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -397,7 +397,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0510', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0510';
-      let pageName = "UIComponentListAndGridListCapability0510";
+      let pageName = 'UIComponentListAndGridListCapability0510';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -419,7 +419,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0520', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0520';
-      let pageName = "UIComponentListAndGridListCapability0520";
+      let pageName = 'UIComponentListAndGridListCapability0520';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -441,7 +441,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0550', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0550';
-      let pageName = "UIComponentListAndGridListCapability0550";
+      let pageName = 'UIComponentListAndGridListCapability0550';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -463,7 +463,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0560', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0560';
-      let pageName = "UIComponentListAndGridListCapability0560";
+      let pageName = 'UIComponentListAndGridListCapability0560';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -485,7 +485,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0590', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0590';
-      let pageName = "UIComponentListAndGridListCapability0590";
+      let pageName = 'UIComponentListAndGridListCapability0590';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -507,7 +507,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0600', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0600';
-      let pageName = "UIComponentListAndGridListCapability0600";
+      let pageName = 'UIComponentListAndGridListCapability0600';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -529,7 +529,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0630', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0630';
-      let pageName = "UIComponentListAndGridListCapability0630";
+      let pageName = 'UIComponentListAndGridListCapability0630';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -551,7 +551,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0640', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0640';
-      let pageName = "UIComponentListAndGridListCapability0640";
+      let pageName = 'UIComponentListAndGridListCapability0640';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -573,7 +573,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0670', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0670';
-      let pageName = "UIComponentListAndGridListCapability0670";
+      let pageName = 'UIComponentListAndGridListCapability0670';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -595,7 +595,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0680', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0680';
-      let pageName = "UIComponentListAndGridListCapability0680";
+      let pageName = 'UIComponentListAndGridListCapability0680';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -617,7 +617,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0710', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0710';
-      let pageName = "UIComponentListAndGridListCapability0710";
+      let pageName = 'UIComponentListAndGridListCapability0710';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -639,7 +639,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0720', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0720';
-      let pageName = "UIComponentListAndGridListCapability0720";
+      let pageName = 'UIComponentListAndGridListCapability0720';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -661,7 +661,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0750', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0750';
-      let pageName = "UIComponentListAndGridListCapability0750";
+      let pageName = 'UIComponentListAndGridListCapability0750';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -683,7 +683,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0760', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0760';
-      let pageName = "UIComponentListAndGridListCapability0760";
+      let pageName = 'UIComponentListAndGridListCapability0760';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -705,7 +705,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0790', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0790';
-      let pageName = "UIComponentListAndGridListCapability0790";
+      let pageName = 'UIComponentListAndGridListCapability0790';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -727,7 +727,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0800', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0800';
-      let pageName = "UIComponentListAndGridListCapability0800";
+      let pageName = 'UIComponentListAndGridListCapability0800';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -749,7 +749,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0820', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0820';
-      let pageName = "UIComponentListAndGridListCapability0820";
+      let pageName = 'UIComponentListAndGridListCapability0820';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -771,7 +771,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0840', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0840';
-      let pageName = "UIComponentListAndGridListCapability0840";
+      let pageName = 'UIComponentListAndGridListCapability0840';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -793,7 +793,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0870', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0870';
-      let pageName = "UIComponentListAndGridListCapability0870";
+      let pageName = 'UIComponentListAndGridListCapability0870';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -815,7 +815,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0910', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0910';
-      let pageName = "UIComponentListAndGridListCapability0910";
+      let pageName = 'UIComponentListAndGridListCapability0910';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -837,7 +837,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1100';
-      let pageName = "UIComponentListAndGridListCapability1100";
+      let pageName = 'UIComponentListAndGridListCapability1100';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListCapability/' + pageName);
       let driver: Driver = Driver.create();
@@ -859,7 +859,7 @@ export default function uIComponentListAndGridListCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1130';
-      let pageName = "UIComponentListAndGridListCapability1130";
+      let pageName = 'UIComponentListAndGridListCapability1130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages//' + pageName);
       let driver: Driver = Driver.create();

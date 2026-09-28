@@ -68,7 +68,7 @@ export default function uIComponentListAndGridListUniversalPropertyConstraintSiz
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0130';
-      let pageName = "UIComponentListAndGridListUniversalPropertyConstraintSize0130";
+      let pageName = 'UIComponentListAndGridListUniversalPropertyConstraintSize0130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListUniversalPropertyConstraintSize/' + pageName);
       let driver: Driver = Driver.create();
@@ -97,7 +97,7 @@ export default function uIComponentListAndGridListUniversalPropertyConstraintSiz
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0140';
-      let pageName = "UIComponentListAndGridListUniversalPropertyConstraintSize0140";
+      let pageName = 'UIComponentListAndGridListUniversalPropertyConstraintSize0140';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListUniversalPropertyConstraintSize/' + pageName);
       let driver: Driver = Driver.create();
@@ -126,7 +126,7 @@ export default function uIComponentListAndGridListUniversalPropertyConstraintSiz
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0150';
-      let pageName = "UIComponentListAndGridListUniversalPropertyConstraintSize0150";
+      let pageName = 'UIComponentListAndGridListUniversalPropertyConstraintSize0150';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListUniversalPropertyConstraintSize/' + pageName);
       let driver: Driver = Driver.create();
@@ -155,7 +155,7 @@ export default function uIComponentListAndGridListUniversalPropertyConstraintSiz
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0160';
-      let pageName = "UIComponentListAndGridListUniversalPropertyConstraintSize0160";
+      let pageName = 'UIComponentListAndGridListUniversalPropertyConstraintSize0160';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListUniversalPropertyConstraintSize/' + pageName);
       let driver: Driver = Driver.create();

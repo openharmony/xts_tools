@@ -47,10 +47,10 @@ export default function uIComponentGridLayoutTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0530_799', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0530_799 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridLayout/UIComponentGridLayout001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridLayout/UIComponentGridLayout001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0530_799");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0530_799');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0530_799 finish.`);
       done();
@@ -66,10 +66,10 @@ export default function uIComponentGridLayoutTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0520_674', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0520_674 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridLayout/UIComponentGridLayout002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridLayout/UIComponentGridLayout002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0520_674");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0520_674');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0520_674 finish.`);
       done();

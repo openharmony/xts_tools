@@ -69,7 +69,7 @@ export default function uIComponentListAndGridListMirror() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0020';
-      let pageName = "UIComponentListAndGridListMirror0020";
+      let pageName = 'UIComponentListAndGridListMirror0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMirror/' + pageName);
       let driver: Driver = Driver.create();
@@ -104,7 +104,7 @@ export default function uIComponentListAndGridListMirror() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0040';
-      let pageName = "UIComponentListAndGridListMirror0040";
+      let pageName = 'UIComponentListAndGridListMirror0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMirror/' + pageName);
       let driver: Driver = Driver.create();
@@ -139,7 +139,7 @@ export default function uIComponentListAndGridListMirror() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0050';
-      let pageName = "UIComponentListAndGridListMirror0050";
+      let pageName = 'UIComponentListAndGridListMirror0050';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMirror/' + pageName);
       let driver: Driver = Driver.create();
@@ -174,7 +174,7 @@ export default function uIComponentListAndGridListMirror() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0650', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0650';
-      let pageName = "UIComponentListAndGridListMirror0650";
+      let pageName = 'UIComponentListAndGridListMirror0650';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListMirror/' + pageName);
       let driver: Driver = Driver.create();

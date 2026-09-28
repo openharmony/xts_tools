@@ -48,7 +48,7 @@ export default function functionRepeatWaterFlowTest() {
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0070 start.`);
-      Settings.createWindow("testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow001");
+      Settings.createWindow('testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow001');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('changeDir'), 1000);
       await button.click();
@@ -69,7 +69,7 @@ export default function functionRepeatWaterFlowTest() {
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0050 start.`);
-      Settings.createWindow("testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow002");
+      Settings.createWindow('testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow002');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('changeColumnsGap'), 1000);
       await button.click();
@@ -91,7 +91,7 @@ export default function functionRepeatWaterFlowTest() {
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0110', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0110';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow003");
+      Settings.createWindow('testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow003');
       let driver: Driver = Driver.create();
       let waterFlow: Component = await driver.waitForComponent(ON.id('WaterFlow'), 1000);
       let point = await waterFlow.getBoundsCenter();
@@ -115,7 +115,7 @@ export default function functionRepeatWaterFlowTest() {
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0100', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0100';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow004");
+      Settings.createWindow('testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow004');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0100_04');
@@ -135,7 +135,7 @@ export default function functionRepeatWaterFlowTest() {
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0060', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0060';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow005");
+      Settings.createWindow('testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow005');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('changeRowsGap'), 1000);
       await button.click();
@@ -157,7 +157,7 @@ export default function functionRepeatWaterFlowTest() {
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0200', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0200';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow006");
+      Settings.createWindow('testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow006');
       let driver: Driver = Driver.create();
       let list: Component = await driver.waitForComponent(ON.id('List'), 1000);
       let point = await list.getBoundsCenter();
@@ -181,7 +181,7 @@ export default function functionRepeatWaterFlowTest() {
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0120', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0120';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow007");
+      Settings.createWindow('testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow007');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('changeScrollBarState'), 1000);
       await button.click();
@@ -203,7 +203,7 @@ export default function functionRepeatWaterFlowTest() {
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0130', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0130';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow008");
+      Settings.createWindow('testability/pages/component/scroll/FunctionRepeatWaterFlow/FunctionRepeatWaterFlow008');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('changeEdgeEffect'), 1000);
       await button.click();

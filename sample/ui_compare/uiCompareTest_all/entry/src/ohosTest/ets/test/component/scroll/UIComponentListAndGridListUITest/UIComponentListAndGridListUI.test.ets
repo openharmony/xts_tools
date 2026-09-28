@@ -67,7 +67,7 @@ export default function uIComponentListAndGridListUI() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0020';
-      let pageName = "UIComponentListAndGridListUI0020";
+      let pageName = 'UIComponentListAndGridListUI0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListUI/' + pageName);
       let driver: Driver = Driver.create();
@@ -92,7 +92,7 @@ export default function uIComponentListAndGridListUI() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0030';
-      let pageName = "UIComponentListAndGridListUI0030";
+      let pageName = 'UIComponentListAndGridListUI0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListUI/' + pageName);
       let driver: Driver = Driver.create();
@@ -117,7 +117,7 @@ export default function uIComponentListAndGridListUI() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0040';
-      let pageName = "UIComponentListAndGridListUI0040";
+      let pageName = 'UIComponentListAndGridListUI0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListUI/' + pageName);
       let driver: Driver = Driver.create();
@@ -142,7 +142,7 @@ export default function uIComponentListAndGridListUI() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0420', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0420';
-      let pageName = "UIComponentListAndGridListUI0420";
+      let pageName = 'UIComponentListAndGridListUI0420';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListUI/' + pageName);
       let driver: Driver = Driver.create();
@@ -168,7 +168,7 @@ export default function uIComponentListAndGridListUI() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0640', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0640';
-      let pageName = "UIComponentListAndGridListUI0640";
+      let pageName = 'UIComponentListAndGridListUI0640';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListUI/' + pageName);
       let driver: Driver = Driver.create();
@@ -194,7 +194,7 @@ export default function uIComponentListAndGridListUI() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0650', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0650';
-      let pageName = "UIComponentListAndGridListUI0650";
+      let pageName = 'UIComponentListAndGridListUI0650';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListUI/' + pageName);
       let driver: Driver = Driver.create();
@@ -220,7 +220,7 @@ export default function uIComponentListAndGridListUI() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0660', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0660';
-      let pageName = "UIComponentListAndGridListUI0660";
+      let pageName = 'UIComponentListAndGridListUI0660';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListUI/' + pageName);
       let driver: Driver = Driver.create();

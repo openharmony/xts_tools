@@ -67,7 +67,7 @@ export default function uIComponentListAndGridGridScrollbar() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0010';
-      let pageName = "UIComponentListAndGridGridScrollbar0010";
+      let pageName = 'UIComponentListAndGridGridScrollbar0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridGridScrollbar/' + pageName);
       let driver: Driver = Driver.create();
@@ -93,7 +93,7 @@ export default function uIComponentListAndGridGridScrollbar() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0020';
-      let pageName = "UIComponentListAndGridGridScrollbar0020";
+      let pageName = 'UIComponentListAndGridGridScrollbar0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridGridScrollbar/' + pageName);
       let driver: Driver = Driver.create();
@@ -121,7 +121,7 @@ export default function uIComponentListAndGridGridScrollbar() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0030';
-      let pageName = "UIComponentListAndGridGridScrollbar0030";
+      let pageName = 'UIComponentListAndGridGridScrollbar0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridGridScrollbar/' + pageName);
       let driver: Driver = Driver.create();
@@ -152,7 +152,7 @@ export default function uIComponentListAndGridGridScrollbar() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0040';
-      let pageName = "UIComponentListAndGridGridScrollbar0040";
+      let pageName = 'UIComponentListAndGridGridScrollbar0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridGridScrollbar/' + pageName);
       let driver: Driver = Driver.create();

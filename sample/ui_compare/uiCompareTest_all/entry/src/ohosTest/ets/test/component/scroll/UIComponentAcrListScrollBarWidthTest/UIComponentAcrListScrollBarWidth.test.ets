@@ -49,7 +49,7 @@ export default function uIComponentAcrListScrollBarWidthTest() {
     it('SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARWIDTH_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARWIDTH_0010 start.`);
       const caseName: string = 'SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARWIDTH_0010';
-      Settings.createWindow("testability/pages/component/scroll/UIComponentAcrListScrollBarWidth/UIComponentAcrListScrollBarWidth001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentAcrListScrollBarWidth/UIComponentAcrListScrollBarWidth001');
       let driver: Driver = Driver.create();
       let arcList: Component = await driver.waitForComponent(ON.type('ArcList'), 1000);
       let point = await arcList.getBoundsCenter();

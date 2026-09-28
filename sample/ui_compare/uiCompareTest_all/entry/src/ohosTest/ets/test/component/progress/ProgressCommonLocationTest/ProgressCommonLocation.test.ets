@@ -50,7 +50,7 @@ export default function progressCommonLocation() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0003', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0003 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressCommonLocation/ProgressCommonLocation0003")
+      Settings.createWindow('testability/pages/component/progress/progressCommonLocation/ProgressCommonLocation0003')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -71,7 +71,7 @@ export default function progressCommonLocation() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0002', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0002 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressCommonLocation/ProgressCommonLocation0002")
+      Settings.createWindow('testability/pages/component/progress/progressCommonLocation/ProgressCommonLocation0002')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -92,7 +92,7 @@ export default function progressCommonLocation() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0006', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0006 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressCommonLocation/ProgressCommonLocation0006")
+      Settings.createWindow('testability/pages/component/progress/progressCommonLocation/ProgressCommonLocation0006')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -113,7 +113,7 @@ export default function progressCommonLocation() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0007', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0007 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressCommonLocation/ProgressCommonLocation0007")
+      Settings.createWindow('testability/pages/component/progress/progressCommonLocation/ProgressCommonLocation0007')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -134,7 +134,7 @@ export default function progressCommonLocation() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_LOCATION_0010 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressCommonLocation/ProgressCommonLocation0010")
+      Settings.createWindow('testability/pages/component/progress/progressCommonLocation/ProgressCommonLocation0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)

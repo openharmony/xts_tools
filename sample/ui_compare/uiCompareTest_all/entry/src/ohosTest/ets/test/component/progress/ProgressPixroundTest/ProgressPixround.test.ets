@@ -51,7 +51,7 @@ export default function progressPixround() {
     it('SUB_ACE_UI_PROGRESS_PIXROUND_0001', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_PIXROUND_0001 start.`);
       // 步骤0：打开页面
-      Settings.createWindow("testability/pages/component/progress/progressPixround/ProgressPixround0001")
+      Settings.createWindow('testability/pages/component/progress/progressPixround/ProgressPixround0001')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       await windowSnap.snapShot()

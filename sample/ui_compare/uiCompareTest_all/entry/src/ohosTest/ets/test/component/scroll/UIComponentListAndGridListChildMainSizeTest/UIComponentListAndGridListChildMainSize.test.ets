@@ -68,7 +68,7 @@ export default function uIComponentListAndGridListChildMainSize() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0100';
-      let pageName = "UIComponentListAndGridListChildMainSize0100";
+      let pageName = 'UIComponentListAndGridListChildMainSize0100';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListChildMainSize/' + pageName);
       let driver: Driver = Driver.create();
@@ -92,7 +92,7 @@ export default function uIComponentListAndGridListChildMainSize() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0130';
-      let pageName = "UIComponentListAndGridListChildMainSize0130";
+      let pageName = 'UIComponentListAndGridListChildMainSize0130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListChildMainSize/' + pageName);
       let driver: Driver = Driver.create();
@@ -116,7 +116,7 @@ export default function uIComponentListAndGridListChildMainSize() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0170';
-      let pageName = "UIComponentListAndGridListChildMainSize0170";
+      let pageName = 'UIComponentListAndGridListChildMainSize0170';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListChildMainSize/' + pageName);
       let driver: Driver = Driver.create();
@@ -138,7 +138,7 @@ export default function uIComponentListAndGridListChildMainSize() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0180';
-      let pageName = "UIComponentListAndGridListChildMainSize0180";
+      let pageName = 'UIComponentListAndGridListChildMainSize0180';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListChildMainSize/' + pageName);
       let driver: Driver = Driver.create();
@@ -160,7 +160,7 @@ export default function uIComponentListAndGridListChildMainSize() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0200';
-      let pageName = "UIComponentListAndGridListChildMainSize0200";
+      let pageName = 'UIComponentListAndGridListChildMainSize0200';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListChildMainSize/' + pageName);
       let driver: Driver = Driver.create();
@@ -184,7 +184,7 @@ export default function uIComponentListAndGridListChildMainSize() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0220';
-      let pageName = "UIComponentListAndGridListChildMainSize0220";
+      let pageName = 'UIComponentListAndGridListChildMainSize0220';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListChildMainSize/' + pageName);
       let driver: Driver = Driver.create();
@@ -210,7 +210,7 @@ export default function uIComponentListAndGridListChildMainSize() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0470', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0470';
-      let pageName = "UIComponentListAndGridListChildMainSize0470";
+      let pageName = 'UIComponentListAndGridListChildMainSize0470';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridListChildMainSize/' + pageName);
       let driver: Driver = Driver.create();

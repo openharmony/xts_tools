@@ -68,7 +68,7 @@ export default function uIComponentGridXommonSmooth() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0280';
-      let pageName = "UIComponentGridXommonSmooth0280";
+      let pageName = 'UIComponentGridXommonSmooth0280';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridXommonSmooth/' + pageName);
       let driver: Driver = Driver.create();
@@ -96,7 +96,7 @@ export default function uIComponentGridXommonSmooth() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0310';
-      let pageName = "UIComponentGridXommonSmooth0310";
+      let pageName = 'UIComponentGridXommonSmooth0310';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridXommonSmooth/' + pageName);
       let driver: Driver = Driver.create();
@@ -130,7 +130,7 @@ export default function uIComponentGridXommonSmooth() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0320';
-      let pageName = "UIComponentGridXommonSmooth0320";
+      let pageName = 'UIComponentGridXommonSmooth0320';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridXommonSmooth/' + pageName);
       let driver: Driver = Driver.create();
@@ -158,7 +158,7 @@ export default function uIComponentGridXommonSmooth() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0340', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0340';
-      let pageName = "UIComponentGridXommonSmooth0340";
+      let pageName = 'UIComponentGridXommonSmooth0340';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridXommonSmooth/' + pageName);
       let driver: Driver = Driver.create();

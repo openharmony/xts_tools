@@ -69,7 +69,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0010';
-      let pageName = "UIComponentGridJiaoDian0010";
+      let pageName = 'UIComponentGridJiaoDian0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -104,7 +104,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0020';
-      let pageName = "UIComponentGridJiaoDian0020";
+      let pageName = 'UIComponentGridJiaoDian0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -142,7 +142,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0050';
-      let pageName = "UIComponentGridJiaoDian0050";
+      let pageName = 'UIComponentGridJiaoDian0050';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -188,7 +188,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0060';
-      let pageName = "UIComponentGridJiaoDian0060";
+      let pageName = 'UIComponentGridJiaoDian0060';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -223,7 +223,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0070';
-      let pageName = "UIComponentGridJiaoDian0070";
+      let pageName = 'UIComponentGridJiaoDian0070';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -258,7 +258,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0080';
-      let pageName = "UIComponentGridJiaoDian0080";
+      let pageName = 'UIComponentGridJiaoDian0080';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -321,7 +321,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0090';
-      let pageName = "UIComponentGridJiaoDian0090";
+      let pageName = 'UIComponentGridJiaoDian0090';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -359,7 +359,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0100';
-      let pageName = "UIComponentGridJiaoDian0100";
+      let pageName = 'UIComponentGridJiaoDian0100';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -393,7 +393,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0110';
-      let pageName = "UIComponentGridJiaoDian0110";
+      let pageName = 'UIComponentGridJiaoDian0110';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -436,7 +436,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0120';
-      let pageName = "UIComponentGridJiaoDian0120";
+      let pageName = 'UIComponentGridJiaoDian0120';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -471,7 +471,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0130';
-      let pageName = "UIComponentGridJiaoDian0130";
+      let pageName = 'UIComponentGridJiaoDian0130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -508,7 +508,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0140';
-      let pageName = "UIComponentGridJiaoDian0140";
+      let pageName = 'UIComponentGridJiaoDian0140';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -544,7 +544,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0150';
-      let pageName = "UIComponentGridJiaoDian0150";
+      let pageName = 'UIComponentGridJiaoDian0150';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -581,7 +581,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0160';
-      let pageName = "UIComponentGridJiaoDian0160";
+      let pageName = 'UIComponentGridJiaoDian0160';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -618,7 +618,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0170';
-      let pageName = "UIComponentGridJiaoDian0170";
+      let pageName = 'UIComponentGridJiaoDian0170';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -657,7 +657,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0180';
-      let pageName = "UIComponentGridJiaoDian0180";
+      let pageName = 'UIComponentGridJiaoDian0180';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -693,7 +693,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0190';
-      let pageName = "UIComponentGridJiaoDian0190";
+      let pageName = 'UIComponentGridJiaoDian0190';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -729,7 +729,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0200';
-      let pageName = "UIComponentGridJiaoDian0200";
+      let pageName = 'UIComponentGridJiaoDian0200';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();
@@ -767,7 +767,7 @@ export default function uIComponentGridJiaoDian() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0210';
-      let pageName = "UIComponentGridJiaoDian0210";
+      let pageName = 'UIComponentGridJiaoDian0210';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridJiaoDian/' + pageName);
       let driver: Driver = Driver.create();

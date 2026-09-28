@@ -50,7 +50,7 @@ export default function qrcodeWatches() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0012', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0012 start.`);
-      Settings.createWindow("testability/pages/component/qrcode/qrcodeWatches/QrcodeWatches0012")
+      Settings.createWindow('testability/pages/component/qrcode/qrcodeWatches/QrcodeWatches0012')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -71,7 +71,7 @@ export default function qrcodeWatches() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0013', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0013 start.`);
-      Settings.createWindow("testability/pages/component/qrcode/qrcodeWatches/QrcodeWatches0013")
+      Settings.createWindow('testability/pages/component/qrcode/qrcodeWatches/QrcodeWatches0013')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -92,7 +92,7 @@ export default function qrcodeWatches() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0015 start.`);
-      Settings.createWindow("testability/pages/component/qrcode/qrcodeWatches/QrcodeWatches0015")
+      Settings.createWindow('testability/pages/component/qrcode/qrcodeWatches/QrcodeWatches0015')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -113,7 +113,7 @@ export default function qrcodeWatches() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0014', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0014 start.`);
-      Settings.createWindow("testability/pages/component/qrcode/qrcodeWatches/QrcodeWatches0014")
+      Settings.createWindow('testability/pages/component/qrcode/qrcodeWatches/QrcodeWatches0014')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -134,7 +134,7 @@ export default function qrcodeWatches() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0011', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0011 start.`);
-      Settings.createWindow("testability/pages/component/qrcode/qrcodeWatches/QrcodeWatches0011")
+      Settings.createWindow('testability/pages/component/qrcode/qrcodeWatches/QrcodeWatches0011')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -155,7 +155,7 @@ export default function qrcodeWatches() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0010 start.`);
-      Settings.createWindow("testability/pages/component/qrcode/qrcodeWatches/QrcodeWatches0010")
+      Settings.createWindow('testability/pages/component/qrcode/qrcodeWatches/QrcodeWatches0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)

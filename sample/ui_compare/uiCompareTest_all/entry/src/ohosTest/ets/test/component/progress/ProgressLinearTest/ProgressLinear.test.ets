@@ -50,7 +50,7 @@ export default function progressLinear() {
      */
     it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0010 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressLinear/ProgressLinear01")
+      Settings.createWindow('testability/pages/component/progress/progressLinear/ProgressLinear01')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0010 finish.`);
@@ -67,7 +67,7 @@ export default function progressLinear() {
      */
     it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0011', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0011 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressLinear/ProgressLinear02")
+      Settings.createWindow('testability/pages/component/progress/progressLinear/ProgressLinear02')
       windowSnap.snapShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0011 finish.`);
@@ -84,7 +84,7 @@ export default function progressLinear() {
      */
     it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0012', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0012 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressLinear/ProgressLinear03")
+      Settings.createWindow('testability/pages/component/progress/progressLinear/ProgressLinear03')
 
       windowSnap.snapShot();
       await Utils.sleep(1000);
@@ -102,7 +102,7 @@ export default function progressLinear() {
      */
     it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressLinear/ProgressLinear04")
+      Settings.createWindow('testability/pages/component/progress/progressLinear/ProgressLinear04')
 
       windowSnap.snapShot();
       await Utils.sleep(1000);
@@ -120,7 +120,7 @@ export default function progressLinear() {
      */
     it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressLinear/ProgressLinear05")
+      Settings.createWindow('testability/pages/component/progress/progressLinear/ProgressLinear05')
 
       windowSnap.snapShot();
       await Utils.sleep(1000);

@@ -68,7 +68,7 @@ export default function uIComponentListAndGridListFadingEdge() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0130';
-      let pageName = "UIComponentListAndGridListFadingEdge0130";
+      let pageName = 'UIComponentListAndGridListFadingEdge0130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/arc/UIComponentListAndGridListFadingEdge_03/' + pageName);
       let driver: Driver = Driver.create();
@@ -93,7 +93,7 @@ export default function uIComponentListAndGridListFadingEdge() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FADINGEDGE_0180';
-      let pageName = "UIComponentListAndGridListFadingEdge0180";
+      let pageName = 'UIComponentListAndGridListFadingEdge0180';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/arc/UIComponentListAndGridListFadingEdge_03/' + pageName);
       let driver: Driver = Driver.create();

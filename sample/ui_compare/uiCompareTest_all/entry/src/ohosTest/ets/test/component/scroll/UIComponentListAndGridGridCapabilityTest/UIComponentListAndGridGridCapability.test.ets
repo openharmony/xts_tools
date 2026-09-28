@@ -68,7 +68,7 @@ export default function uIComponentListAndGridGridCapability() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0240_582', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0240_582';
-      let pageName = "UIComponentListAndGridGridCapability0240_582";
+      let pageName = 'UIComponentListAndGridGridCapability0240_582';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridGridCapability/' + pageName);
       let driver: Driver = Driver.create();

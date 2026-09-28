@@ -68,7 +68,7 @@ export default function uIComponentGridEvent() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_0010';
-      let pageName = "UIComponentGridEvent0010";
+      let pageName = 'UIComponentGridEvent0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridEvent/' + pageName);
       let driver: Driver = Driver.create();
@@ -95,7 +95,7 @@ export default function uIComponentGridEvent() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_0020';
-      let pageName = "UIComponentGridEvent0020";
+      let pageName = 'UIComponentGridEvent0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridEvent/' + pageName);
       let driver: Driver = Driver.create();
@@ -122,7 +122,7 @@ export default function uIComponentGridEvent() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_0030';
-      let pageName = "UIComponentGridEvent0030";
+      let pageName = 'UIComponentGridEvent0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridEvent/' + pageName);
       let driver: Driver = Driver.create();
@@ -152,7 +152,7 @@ export default function uIComponentGridEvent() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_0040';
-      let pageName = "UIComponentGridEvent0040";
+      let pageName = 'UIComponentGridEvent0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridEvent/' + pageName);
       let driver: Driver = Driver.create();
@@ -182,7 +182,7 @@ export default function uIComponentGridEvent() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_0090';
-      let pageName = "UIComponentGridEvent0090";
+      let pageName = 'UIComponentGridEvent0090';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridEvent/' + pageName);
       let driver: Driver = Driver.create();
@@ -212,7 +212,7 @@ export default function uIComponentGridEvent() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_0100';
-      let pageName = "UIComponentGridEvent0100";
+      let pageName = 'UIComponentGridEvent0100';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridEvent/' + pageName);
       let driver: Driver = Driver.create();
@@ -240,7 +240,7 @@ export default function uIComponentGridEvent() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_0110';
-      let pageName = "UIComponentGridEvent0110";
+      let pageName = 'UIComponentGridEvent0110';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridEvent/' + pageName);
       let driver: Driver = Driver.create();

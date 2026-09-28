@@ -47,7 +47,7 @@ export default function uIComponentListAndGridListFocusTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0010 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListFocus/UIComponentListAndGridListFocus001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListFocus/UIComponentListAndGridListFocus001');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
@@ -57,7 +57,7 @@ export default function uIComponentListAndGridListFocusTest() {
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0010");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0010 finish.`);
       done();
@@ -73,7 +73,7 @@ export default function uIComponentListAndGridListFocusTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0030 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListFocus/UIComponentListAndGridListFocus002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListFocus/UIComponentListAndGridListFocus002');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
@@ -83,7 +83,7 @@ export default function uIComponentListAndGridListFocusTest() {
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0030");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0030');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0030 finish.`);
       done();
@@ -99,7 +99,7 @@ export default function uIComponentListAndGridListFocusTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0040 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListFocus/UIComponentListAndGridListFocus003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListFocus/UIComponentListAndGridListFocus003');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
@@ -109,7 +109,7 @@ export default function uIComponentListAndGridListFocusTest() {
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0040");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0040');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0040 finish.`);
       done();
@@ -125,18 +125,18 @@ export default function uIComponentListAndGridListFocusTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0020 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListFocus/UIComponentListAndGridListFocus004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListFocus/UIComponentListAndGridListFocus004');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0020_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0020_02');
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0020');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0020 finish.`);
       done();

@@ -47,7 +47,7 @@ export default function uIArkUIGridCachedCountTest() {
      */
     it('SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0010 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIArkUIGridCachedCount/UIArkUIGridCachedCount001");
+      Settings.createWindow('testability/pages/component/scroll/UIArkUIGridCachedCount/UIArkUIGridCachedCount001');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
@@ -68,7 +68,7 @@ export default function uIArkUIGridCachedCountTest() {
      */
     it('SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0020 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIArkUIGridCachedCount/UIArkUIGridCachedCount002");
+      Settings.createWindow('testability/pages/component/scroll/UIArkUIGridCachedCount/UIArkUIGridCachedCount002');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
@@ -89,7 +89,7 @@ export default function uIArkUIGridCachedCountTest() {
      */
     it('SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0090 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIArkUIGridCachedCount/UIArkUIGridCachedCount003");
+      Settings.createWindow('testability/pages/component/scroll/UIArkUIGridCachedCount/UIArkUIGridCachedCount003');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();

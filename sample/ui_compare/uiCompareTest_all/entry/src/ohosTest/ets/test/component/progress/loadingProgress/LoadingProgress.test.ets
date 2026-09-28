@@ -50,7 +50,7 @@ export default function loadingProgressTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_LOADINGPROGRESS_OUTLIERS_0023', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_LOADINGPROGRESS_OUTLIERS_0023 start.`);
-      Settings.createWindow("testability/pages/component/progress/loadingProgress/LoadingProgress01")
+      Settings.createWindow('testability/pages/component/progress/loadingProgress/LoadingProgress01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function loadingProgressTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_LOADINGPROGRESS_OUTLIERS_0024', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_LOADINGPROGRESS_OUTLIERS_0024 start.`);
-      Settings.createWindow("testability/pages/component/progress/loadingProgress/LoadingProgress02")
+      Settings.createWindow('testability/pages/component/progress/loadingProgress/LoadingProgress02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

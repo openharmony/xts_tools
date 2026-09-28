@@ -67,7 +67,7 @@ export default function uiComponentRichEditorMenuReinforcing() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0014', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0014 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing01")
+      Settings.createWindow('testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing01')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentRichEditorMenuReinforcing01_01'),1000);
@@ -92,7 +92,7 @@ export default function uiComponentRichEditorMenuReinforcing() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0011', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0011 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing02")
+      Settings.createWindow('testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing02')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentRichEditorMenuReinforcing02_01'),1000);
@@ -117,7 +117,7 @@ export default function uiComponentRichEditorMenuReinforcing() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0003', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0003 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing03")
+      Settings.createWindow('testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing03')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentRichEditorMenuReinforcing03_02'),1000);
@@ -140,7 +140,7 @@ export default function uiComponentRichEditorMenuReinforcing() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0010 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing04")
+      Settings.createWindow('testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing04')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentRichEditorMenuReinforcing04_01'),1000);
@@ -165,7 +165,7 @@ export default function uiComponentRichEditorMenuReinforcing() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0015', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0015 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing05")
+      Settings.createWindow('testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing05')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentRichEditorMenuReinforcing05_01'),1000);
@@ -190,7 +190,7 @@ export default function uiComponentRichEditorMenuReinforcing() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0013', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0013 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing06")
+      Settings.createWindow('testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing06')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentRichEditorMenuReinforcing06_02'),1000);
@@ -214,7 +214,7 @@ export default function uiComponentRichEditorMenuReinforcing() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0012', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0012 start.`);
-      Settings.createWindow("testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing07")
+      Settings.createWindow('testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing07')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentRichEditorMenuReinforcing07_02'),1000);
@@ -238,13 +238,13 @@ export default function uiComponentRichEditorMenuReinforcing() {
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0018', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0012 start.`);
       try {
-        i18n.System.setAppPreferredLanguage("ug");
+        i18n.System.setAppPreferredLanguage('ug');
         Logger.info(`call System.setSystemLanguage success.`);
       } catch(error) {
         let err: BusinessError = error as BusinessError;
         Logger.error(`call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
       }
-      Settings.createWindow("testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing08")
+      Settings.createWindow('testability/pages/component/rich_editor/uiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing08')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let richeditor: Component = await driver.waitForComponent(ON.id('UiComponentRichEditorMenuReinforcing08_02'),1000);

@@ -49,10 +49,10 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0470_029', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0470_029';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0470_029");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0470_029');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -69,10 +69,10 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0480_481', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0480_481';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0480_481");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0480_481');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -89,10 +89,10 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0500_012', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0500_012';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout003');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0500_012");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0500_012');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -109,10 +109,10 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0550_289', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0550_289';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout004');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0550_289");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0550_289');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -129,10 +129,10 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0510_476', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0510_476';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout005");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout005');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0510_476");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0510_476');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -149,10 +149,10 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0490_309', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0490_309';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout006");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout006');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0490_309");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0490_309');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -169,10 +169,10 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0540_151', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0540_151';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout007");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout007');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0540_151");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0540_151');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -189,10 +189,10 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0520_964', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0520_964';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout008");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout008');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0520_964");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0520_964');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -209,10 +209,10 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0530_795', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0530_795';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout009");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout009');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0530_795");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0530_795');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -229,10 +229,10 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0560_397', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0560_397';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout010");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout010');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0560_397");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0560_397');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -249,10 +249,10 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0430_786', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0430_786';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout011");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout011');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0430_786");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0430_786');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -269,10 +269,10 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0450_330', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0450_330';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout012");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout012');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0450_330");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0450_330');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -289,10 +289,10 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0440_333', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0440_333';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout013");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout013');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0440_333");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0440_333');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -309,12 +309,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0240_812', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0240_812';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout014");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout014');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollToIndex'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0240_812");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0240_812');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -331,14 +331,14 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0360_349', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0360_349';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout015");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout015');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button1.click();
       let button: Component = await driver.waitForComponent(ON.id('scrollBy'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0360_349");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0360_349');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -355,14 +355,14 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0290_349', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0290_349';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout016");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout016');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button1.click();
       let button2: Component = await driver.waitForComponent(ON.id('scrollBy'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0290_349");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0290_349');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -379,14 +379,14 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0270_751', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0270_751';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout017");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout017');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button1.click();
       let button2: Component = await driver.waitForComponent(ON.id('scrollPage'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0270_751");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0270_751');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -403,12 +403,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0300_639', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0300_639';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout018");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout018');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollBy'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0300_639");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0300_639');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -425,12 +425,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0310_384', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0310_384';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout019");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout019');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollBy'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0310_384");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0310_384');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -447,12 +447,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0330_675', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0330_675';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout020");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout020');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollBy'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0330_675");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0330_675');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -469,12 +469,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0340_161', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0340_161';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout021");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout021');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollBy'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0340_161");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0340_161');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -491,12 +491,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0350_390', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0350_390';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout022");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout022');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollBy'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0350_390");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0350_390');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -513,12 +513,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0200_060', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0200_060';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout023");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout023');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollEdge'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0200_060");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0200_060');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -535,12 +535,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0320_852', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0320_852';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout024");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout024');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollBy'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0320_852");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0320_852');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -557,12 +557,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0090_453', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0090_453';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout025");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout025');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollTo'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0090_453");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0090_453');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -579,12 +579,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0140_747', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0140_747';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout026");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout026');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollTo'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0140_747");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0140_747');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -601,12 +601,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0160_541', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0160_541';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout027");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout027');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollTo'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0160_541");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0160_541');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -623,12 +623,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0220_361', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0220_361';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout028");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout028');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollToIndex'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0220_361");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0220_361');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -645,12 +645,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0230_076', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0230_076';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout029");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout029');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollToIndex'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0230_076");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0230_076');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -667,12 +667,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0130_467', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0130_467';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout030");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout030');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollTo'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0130_467");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0130_467');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -689,12 +689,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0210_053', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0210_053';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout031");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout031');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollEdge'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0210_053");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0210_053');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -711,12 +711,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0100_126', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0100_126';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout032");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout032');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollTo'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0100_126");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0100_126');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -733,14 +733,14 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0110_305', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0110_305';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout033");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout033');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button1.click();
       let button2: Component = await driver.waitForComponent(ON.id('scrollTo'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0110_305");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0110_305');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -757,14 +757,14 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0150_913', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0150_913';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout034");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout034');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button1.click();
       let button2: Component = await driver.waitForComponent(ON.id('scrollTo'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0150_913");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0150_913');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -781,14 +781,14 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0190_112', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0190_112';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout035");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout035');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button1.click();
       let button2: Component = await driver.waitForComponent(ON.id('scrollEdge'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0190_112");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0190_112');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -805,12 +805,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0170_801', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0170_801';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout036");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout036');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollTo'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0170_801");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0170_801');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -827,12 +827,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0120_790', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0120_790';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout037");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout037');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollTo'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0120_790");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0120_790');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -849,14 +849,14 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0180_673', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0180_673';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout038");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout038');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button1.click();
       let button2: Component = await driver.waitForComponent(ON.id('scrollEdge'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0180_673");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0180_673');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -873,14 +873,14 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0250_162', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0250_162';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout039");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout039');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button1.click();
       let button2: Component = await driver.waitForComponent(ON.id('scrollToIndex'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0250_162");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0250_162');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -897,12 +897,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0280_097', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0280_097';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout040");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout040');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollBy'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0280_097");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0280_097');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -919,12 +919,12 @@ export default function uIComponentGridSettingLayoutTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0260_534', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0260_534';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout041");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentGridSettingLayout/UIComponentGridSettingLayout041');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollPage'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0260_534");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0260_534');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

@@ -48,21 +48,21 @@ export default function uIComponentListAndGridListScrollPageTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListAndGridListScrollPage/UIComponentListAndGridListScrollPage001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListAndGridListScrollPage/UIComponentListAndGridListScrollPage001');
       let driver: Driver = Driver.create();
       let list: Component = await driver.waitForComponent(ON.type('List'), 1000);
       let rect1 = await list.getBounds();
       console.info(`${caseName} rect of List is ${JSON.stringify(rect1)}`);
       await driver.mouseLongClick({x: rect1.right - 10, y: rect1.bottom - 200}, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140');
       let scrollBar: Component = await driver.waitForComponent(ON.type('ScrollBar'), 1000);
       let rect2 = await scrollBar.getBounds();
       console.info(`${caseName} rect of List is ${JSON.stringify(rect2)}`);
       await driver.mouseLongClick({x: rect2.right - 2, y: rect2.top + 2}, MouseButton.MOUSE_BUTTON_LEFT);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140_02');
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLPAGE_0140');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

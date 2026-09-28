@@ -68,7 +68,7 @@ export default function uIComponentGridClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0010';
-      let pageName = "UIComponentGridClipComent0010";
+      let pageName = 'UIComponentGridClipComent0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -90,7 +90,7 @@ export default function uIComponentGridClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0240';
-      let pageName = "UIComponentGridClipComent0240";
+      let pageName = 'UIComponentGridClipComent0240';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridClipComent/' + pageName);
       let driver: Driver = Driver.create();

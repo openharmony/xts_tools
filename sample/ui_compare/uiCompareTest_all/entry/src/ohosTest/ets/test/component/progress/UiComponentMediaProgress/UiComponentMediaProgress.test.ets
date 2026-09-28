@@ -64,7 +64,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0018', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0018 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress01")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -83,7 +83,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0036', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0036 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress02")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress02')
       let driver:Driver=Driver.create();
       await Utils.sleep(1000)
       windowSnap.snapShot()
@@ -102,7 +102,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0019', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0019 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress03")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress03')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -121,7 +121,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0038', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0038 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress04")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress04')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -140,7 +140,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0014', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0014 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress05")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress05')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -159,7 +159,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0033', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0033 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress06")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress06')
       let driver:Driver=Driver.create();
       await Utils.sleep(1000)
       windowSnap.snapShot()
@@ -178,7 +178,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0024', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0024 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress07")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress07')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -197,7 +197,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0039', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0039 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress08")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress08')
       let driver:Driver=Driver.create();
       await Utils.sleep(1000)
       windowSnap.snapShot()
@@ -216,7 +216,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0023', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0023 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress09")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress09')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -235,7 +235,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0021', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0021 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress10")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress10')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -254,7 +254,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0077', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0077 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress11")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress11')
       let driver:Driver=Driver.create();
       await Utils.sleep(1000)
       windowSnap.snapShot()
@@ -273,7 +273,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0064', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0064 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress12")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress12')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -292,7 +292,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0063', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0063 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress13")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress13')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -311,7 +311,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0060 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress14")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress14')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -330,7 +330,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0074', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0074 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress15")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress15')
       let driver:Driver=Driver.create();
       await Utils.sleep(1000)
       windowSnap.snapShot()
@@ -349,7 +349,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0087', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0087 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress16")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress16')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentMediaProgress16'),1000);
       await driver.waitForIdle(500,2000)
@@ -375,7 +375,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0022', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0022 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress17")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress17')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -394,7 +394,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0013', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0013 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress18")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress18')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -413,7 +413,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0088', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0088 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress19")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress19')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentMediaProgress19'),1000);
       await driver.waitForIdle(500,2000)
@@ -439,7 +439,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0086', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0086 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress20")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress20')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentMediaProgress20'),1000);
       await driver.waitForIdle(500,2000)
@@ -465,7 +465,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0089', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0089 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress21")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress21')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentMediaProgress21'),1000);
       await driver.waitForIdle(500,2000)
@@ -491,7 +491,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0026', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0026 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress22")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress22')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -510,7 +510,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0011', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0011 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress23")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress23')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -529,7 +529,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0016', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0016 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress24")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress24')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -548,7 +548,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0068', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0068 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress25")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress25')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -567,7 +567,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0070 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress26")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress26')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -586,7 +586,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0062', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0062 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress27")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress27')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -605,7 +605,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0058', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0058 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress28")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress28')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -624,7 +624,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0059', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0059 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress29")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress29')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -643,7 +643,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0071', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0071 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress30")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress30')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -662,7 +662,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0028', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0028 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress31")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress31')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -681,7 +681,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0029', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0029 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress32")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress32')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -700,7 +700,7 @@ export default function uiComponentMediaProgress() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0104', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0104 start.`);
-      Settings.createWindow("testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress33")
+      Settings.createWindow('testability/pages/component/progress/uiComponentMediaProgress/UiComponentMediaProgress33')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

@@ -68,7 +68,7 @@ export default function uIComponentListAndGridGridDisplayedColumns() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0150_347', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0150_347';
-      let pageName = "UIComponentListAndGridGridDisplayedColumns0150_347";
+      let pageName = 'UIComponentListAndGridGridDisplayedColumns0150_347';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridGridDisplayedColumns/' + pageName);
       let driver: Driver = Driver.create();
@@ -91,7 +91,7 @@ export default function uIComponentListAndGridGridDisplayedColumns() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0290_526', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0290_526';
-      let pageName = "UIComponentListAndGridGridDisplayedColumns0290_526";
+      let pageName = 'UIComponentListAndGridGridDisplayedColumns0290_526';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridGridDisplayedColumns/' + pageName);
       let driver: Driver = Driver.create();

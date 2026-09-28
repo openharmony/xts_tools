@@ -68,7 +68,7 @@ export default function uIComponentGridEdgeEffect() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EDGEEFFECT_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EDGEEFFECT_0110';
-      let pageName = "UIComponentGridEdgeEffect0110";
+      let pageName = 'UIComponentGridEdgeEffect0110';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentGridEdgeEffect/' + pageName);
       let driver: Driver = Driver.create();
