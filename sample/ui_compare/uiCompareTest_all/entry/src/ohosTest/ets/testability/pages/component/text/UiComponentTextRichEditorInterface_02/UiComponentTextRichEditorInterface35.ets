@@ -17,16 +17,16 @@
 @Component
 struct UiComponentTextRichEditorInterface35 {
   controller: RichEditorController = new RichEditorController();
-  @State clickInfo: string = "请点击图片进行测试"
+  @State clickInfo: string = '请点击图片进行测试'
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0370")
+      Text('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0370')
         .fontSize(14)
         .fontColor(0x666666)
         .margin({ bottom: 10 })
 
-      Text("ImageSpan点击事件测试")
+      Text('ImageSpan点击事件测试')
         .fontSize(18)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 20 })
@@ -44,20 +44,20 @@ struct UiComponentTextRichEditorInterface35 {
       RichEditor({ controller: this.controller })
         .id('UiComponentTextRichEditorInterface35')
         .onReady(() => {
-          this.controller.addTextSpan("点击下面的图片：", {
+          this.controller.addTextSpan('点击下面的图片：', {
             style: {
               fontColor: Color.Black,
               fontSize: 16
             }
           })
 
-          this.controller.addTextSpan("\n", {
+          this.controller.addTextSpan('\n', {
             style: {
               fontColor: 0xCCCCCC,
               fontSize: 12,
             }
           })
-          this.controller.addTextSpan("——————————————", {
+          this.controller.addTextSpan('——————————————', {
             style: {
               fontColor: 0xCCCCCC,
               fontSize: 14,
@@ -65,7 +65,7 @@ struct UiComponentTextRichEditorInterface35 {
               letterSpacing: 2
             }
           })
-          this.controller.addTextSpan("\n", {
+          this.controller.addTextSpan('\n', {
             style: {
               fontColor: 0xCCCCCC,
               fontSize: 12,
@@ -84,18 +84,18 @@ struct UiComponentTextRichEditorInterface35 {
             gesture: {
               onClick: () => {
                 this.clickInfo = `图片被点击了！时间: ${new Date().toLocaleTimeString()}`
-                console.log("ImageSpan点击事件触发")
+                console.log('ImageSpan点击事件触发')
               }
             }
           })
 
-          this.controller.addTextSpan("\n", {
+          this.controller.addTextSpan('\n', {
             style: {
               fontColor: 0xCCCCCC,
               fontSize: 12,
             }
           })
-          this.controller.addTextSpan("——————————————", {
+          this.controller.addTextSpan('——————————————', {
             style: {
               fontColor: 0xCCCCCC,
               fontSize: 14,
@@ -103,14 +103,14 @@ struct UiComponentTextRichEditorInterface35 {
               letterSpacing: 2
             }
           })
-          this.controller.addTextSpan("\n", {
+          this.controller.addTextSpan('\n', {
             style: {
               fontColor: 0xCCCCCC,
               fontSize: 12,
             }
           })
 
-          this.controller.addTextSpan("这是普通文字", {
+          this.controller.addTextSpan('这是普通文字', {
             style: {
               fontColor: Color.Black,
               fontSize: 16
@@ -132,26 +132,26 @@ struct UiComponentTextRichEditorInterface35 {
           return true;
         })
         .onIMEInputComplete((value: RichEditorTextSpanResult) => {
-          console.info("---------------------- onIMEInputComplete ---------------------");
-          console.info("spanIndex:" + value.spanPosition.spanIndex);
-          console.info("spanRange:[" + value.spanPosition.spanRange[0] + "," + value.spanPosition.spanRange[1] + "]");
-          console.info("offsetInSpan:[" + value.offsetInSpan[0] + "," + value.offsetInSpan[1] + "]");
-          console.info("value:" + value.value);
+          console.info('---------------------- onIMEInputComplete ---------------------');
+          console.info('spanIndex:' + value.spanPosition.spanIndex);
+          console.info('spanRange:[' + value.spanPosition.spanRange[0] + ',' + value.spanPosition.spanRange[1] + ']');
+          console.info('offsetInSpan:[' + value.offsetInSpan[0] + ',' + value.offsetInSpan[1] + ']');
+          console.info('value:' + value.value);
         })
         .aboutToDelete((value: RichEditorDeleteValue) => {
-          console.info("---------------------- aboutToDelete --------------------------");
-          console.info("offset:" + value.offset);
-          console.info("direction:" + value.direction);
-          console.info("length:" + value.length);
+          console.info('---------------------- aboutToDelete --------------------------');
+          console.info('offset:' + value.offset);
+          console.info('direction:' + value.direction);
+          console.info('length:' + value.length);
           value.richEditorDeleteSpans.forEach(item => {
-            console.info("---------------------- item --------------------------");
-            console.info("spanIndex:" + item.spanPosition.spanIndex);
-            console.info("spanRange:[" + item.spanPosition.spanRange[0] + "," + item.spanPosition.spanRange[1] + "]");
-            console.info("offsetInSpan:[" + item.offsetInSpan[0] + "," + item.offsetInSpan[1] + "]");
+            console.info('---------------------- item --------------------------');
+            console.info('spanIndex:' + item.spanPosition.spanIndex);
+            console.info('spanRange:[' + item.spanPosition.spanRange[0] + ',' + item.spanPosition.spanRange[1] + ']');
+            console.info('offsetInSpan:[' + item.offsetInSpan[0] + ',' + item.offsetInSpan[1] + ']');
             if (typeof (item as RichEditorImageSpanResult)['imageStyle'] != 'undefined') {
-              console.info("image:" + (item as RichEditorImageSpanResult).valueResourceStr);
+              console.info('image:' + (item as RichEditorImageSpanResult).valueResourceStr);
             } else {
-              console.info("text:" + (item as RichEditorTextSpanResult).value);
+              console.info('text:' + (item as RichEditorTextSpanResult).value);
             }
           })
           return true;

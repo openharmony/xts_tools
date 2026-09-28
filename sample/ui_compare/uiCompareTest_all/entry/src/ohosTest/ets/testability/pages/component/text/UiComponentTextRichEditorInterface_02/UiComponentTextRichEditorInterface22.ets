@@ -20,7 +20,7 @@ const Indentation2 = 40;
 class LeadingMarginCreator2 {
   private settings: RenderingContextSettings = new RenderingContextSettings(true);
   private offscreenCanvas: OffscreenCanvas = new OffscreenCanvas(canvasWidth2, canvasHeight2);
-  private offContext: OffscreenCanvasRenderingContext2D = this.offscreenCanvas.getContext("2d", this.settings);
+  private offContext: OffscreenCanvasRenderingContext2D = this.offscreenCanvas.getContext('2d', this.settings);
   public static instance: LeadingMarginCreator2 = new LeadingMarginCreator2();
 
 
@@ -71,7 +71,7 @@ class LeadingMarginCreator2 {
   }
 
   public genStrMark(fontSize: number, str: string): PixelMap {
-    this.offContext = this.offscreenCanvas.getContext("2d", this.settings);
+    this.offContext = this.offscreenCanvas.getContext('2d', this.settings);
     this.clearCanvas()
     this.offContext.font = fontSize + 'vp sans-serif';
     this.offContext.fillText(str + '.', 0, fontSize * 0.9)
@@ -79,7 +79,7 @@ class LeadingMarginCreator2 {
   }
 
   public genSquareMark(fontSize: number): PixelMap {
-    this.offContext = this.offscreenCanvas.getContext("2d", this.settings);
+    this.offContext = this.offscreenCanvas.getContext('2d', this.settings);
     this.clearCanvas()
     const coordinate = fontSize * (1 - 1 / 1.5) / 2;
     const sideLength = fontSize / 1.5;
@@ -93,7 +93,7 @@ class LeadingMarginCreator2 {
     const fontSizeLevel = this.getFontSizeLevel(fontSize);
     const marginlevel = this.getmarginLevel(width);
     const newCanvas = new OffscreenCanvas(canvasWidth2, canvasHeight2);
-    const newOffContext: OffscreenCanvasRenderingContext2D = newCanvas.getContext("2d", this.settings);
+    const newOffContext: OffscreenCanvasRenderingContext2D = newCanvas.getContext('2d', this.settings);
     const centerCoordinate = 50;
     const radius = 10;
     this.clearCanvas()
@@ -118,7 +118,7 @@ struct UiComponentTextRichEditorInterface22 {
   @State fs: number = 30;
   @State cl: number = Color.Black;
   @State richEditorTextStyle: RichEditorTextStyle = {};
-  @State message2: string = "Not triggered onSelect setSelection";
+  @State message2: string = 'Not triggered onSelect setSelection';
   private leftMargin: Dimension = 0;
 
   aboutToAppear() {
@@ -142,12 +142,12 @@ struct UiComponentTextRichEditorInterface22 {
         RichEditor(this.options)
           .id('UiComponentTextRichEditorInterface22_01')
           .onSelect((value: RichEditorSelection) => {
-            this.message2="triggered onSelect setSelection success and set selection to all"
+            this.message2='triggered onSelect setSelection success and set selection to all'
             this.controller.setSelection(-1,-1)
             console.info('onSelect success');
           })
           .onReady(() => {
-            this.controller.addTextSpan("0123456789\n",
+            this.controller.addTextSpan('0123456789\n',
               {
                 style:
                 {
@@ -160,7 +160,7 @@ struct UiComponentTextRichEditorInterface22 {
                 }
               })
 
-            this.controller.addTextSpan("abcdefg",
+            this.controller.addTextSpan('abcdefg',
               {
                 style:
                 {
@@ -174,8 +174,8 @@ struct UiComponentTextRichEditorInterface22 {
           })
           .borderWidth(1)
           .borderColor(Color.Green)
-          .width("100%")
-          .height("20%")
+          .width('100%')
+          .height('20%')
 
         Row({ space: 5 }) {
           Button('setTypingStyle1')
@@ -208,15 +208,15 @@ struct UiComponentTextRichEditorInterface22 {
             })
         }
         Divider()
-        Button("getTypingStyle")
+        Button('getTypingStyle')
           .id('UiComponentTextRichEditorInterface22_04')
           .onClick(() => {
             this.richEditorTextStyle = this.controller.getTypingStyle();
-            console.info("RichEditor getTypingStyle:" + JSON.stringify(this.richEditorTextStyle));
+            console.info('RichEditor getTypingStyle:' + JSON.stringify(this.richEditorTextStyle));
           })
         Divider()
         Row({ space: 5 }) {
-          Button("向右列表缩进").onClick(() => {
+          Button('向右列表缩进').onClick(() => {
             let margin = Number(this.leftMargin);
             if (margin < 200) {
               margin += Indentation2;
@@ -234,7 +234,7 @@ struct UiComponentTextRichEditorInterface22 {
             })
           })
 
-          Button("向左列表缩进").onClick(() => {
+          Button('向左列表缩进').onClick(() => {
             let margin = Number(this.leftMargin);
             if (margin > 0) {
               margin -= Indentation2;

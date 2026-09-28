@@ -23,16 +23,16 @@ struct UiComponentTextRichEditorInterface20 {
   options: RichEditorOptions = { controller: this.controller };
   private start: number = -1;
   private end: number = -1;
-  @State message: string = "[-1, -1]";
-  @State content: string = "";
+  @State message: string = '[-1, -1]';
+  @State content: string = '';
   @State paddingVal: number = 5;
   @State borderRad: number = 4;
 
   build() {
     Column() {
       Column() {
-        Text("updateParagraphStyle range boundaries fall in the middle of elements with a length greater than 1")
-          .width("100%")
+        Text('updateParagraphStyle range boundaries fall in the middle of elements with a length greater than 1')
+          .width('100%')
           .fontSize(18)
           .maxLines(3)
           .textAlign(TextAlign.Start)
@@ -46,11 +46,11 @@ struct UiComponentTextRichEditorInterface20 {
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("20%")
+      .width('100%')
+      .height('20%')
 
       Row() {
-        Button("updateSpanStyle1")
+        Button('updateSpanStyle1')
           .id('UiComponentTextRichEditorInterface20_01')
           .fontSize(12)
           .onClick(() => {
@@ -71,8 +71,8 @@ struct UiComponentTextRichEditorInterface20 {
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("10%")
+      .width('100%')
+      .height('10%')
 
       Row() {
         Button('selection(2,3)')
@@ -121,14 +121,14 @@ struct UiComponentTextRichEditorInterface20 {
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("10%")
+      .width('100%')
+      .height('10%')
 
       Column() {
         RichEditor(this.options)
           .id('UiComponentTextRichEditorInterface20_03')
           .onReady(() => {
-            this.controller.addTextSpan("😊",
+            this.controller.addTextSpan('😊',
               {
                 style:
                 {
@@ -137,7 +137,7 @@ struct UiComponentTextRichEditorInterface20 {
                 }
               })
 
-            this.controller.addSymbolSpan($r("sys.symbol.ohos_trash"),
+            this.controller.addSymbolSpan($r('sys.symbol.ohos_trash'),
               {
                 style:
                 {
@@ -145,7 +145,7 @@ struct UiComponentTextRichEditorInterface20 {
                 }
               })
 
-            this.controller.addTextSpan("0789",
+            this.controller.addTextSpan('0789',
               {
                 style:
                 {
@@ -157,51 +157,51 @@ struct UiComponentTextRichEditorInterface20 {
           .onSelect((value: RichEditorSelection) => {
             this.start = value.selection[0];
             this.end = value.selection[1];
-            this.message = "[" + this.start + ", " + this.end + "]";
+            this.message = '[' + this.start + ', ' + this.end + ']';
           })
           .aboutToIMEInput((value: RichEditorInsertValue) => {
-            console.info("---------------------- aboutToIMEInput ----------------------");
-            console.info("insertOffset:" + value.insertOffset);
-            console.info("insertValue:" + value.insertValue);
+            console.info('---------------------- aboutToIMEInput ----------------------');
+            console.info('insertOffset:' + value.insertOffset);
+            console.info('insertValue:' + value.insertValue);
             return true;
           })
           .onIMEInputComplete((value: RichEditorTextSpanResult) => {
-            console.info("---------------------- onIMEInputComplete ---------------------");
-            console.info("spanIndex:" + value.spanPosition.spanIndex);
-            console.info("spanRange:[" + value.spanPosition.spanRange[0] + "," + value.spanPosition.spanRange[1] + "]");
-            console.info("offsetInSpan:[" + value.offsetInSpan[0] + "," + value.offsetInSpan[1] + "]");
-            console.info("value:" + value.value);
+            console.info('---------------------- onIMEInputComplete ---------------------');
+            console.info('spanIndex:' + value.spanPosition.spanIndex);
+            console.info('spanRange:[' + value.spanPosition.spanRange[0] + ',' + value.spanPosition.spanRange[1] + ']');
+            console.info('offsetInSpan:[' + value.offsetInSpan[0] + ',' + value.offsetInSpan[1] + ']');
+            console.info('value:' + value.value);
           })
           .aboutToDelete((value: RichEditorDeleteValue) => {
-            console.info("---------------------- aboutToDelete --------------------------");
-            console.info("offset:" + value.offset);
-            console.info("direction:" + value.direction);
-            console.info("length:" + value.length);
+            console.info('---------------------- aboutToDelete --------------------------');
+            console.info('offset:' + value.offset);
+            console.info('direction:' + value.direction);
+            console.info('length:' + value.length);
             value.richEditorDeleteSpans.forEach(item => {
-              console.info("---------------------- item --------------------------");
-              console.info("spanIndex:" + item.spanPosition.spanIndex);
-              console.info("spanRange:[" + item.spanPosition.spanRange[0] + "," + item.spanPosition.spanRange[1] + "]");
-              console.info("offsetInSpan:[" + item.offsetInSpan[0] + "," + item.offsetInSpan[1] + "]");
+              console.info('---------------------- item --------------------------');
+              console.info('spanIndex:' + item.spanPosition.spanIndex);
+              console.info('spanRange:[' + item.spanPosition.spanRange[0] + ',' + item.spanPosition.spanRange[1] + ']');
+              console.info('offsetInSpan:[' + item.offsetInSpan[0] + ',' + item.offsetInSpan[1] + ']');
               if (typeof (item as RichEditorImageSpanResult)['imageStyle'] != 'undefined') {
-                console.info("image:" + (item as RichEditorImageSpanResult).valueResourceStr);
+                console.info('image:' + (item as RichEditorImageSpanResult).valueResourceStr);
               } else {
-                console.info("text:" + (item as RichEditorTextSpanResult).value);
+                console.info('text:' + (item as RichEditorTextSpanResult).value);
               }
             })
             return true;
           })
           .onDeleteComplete(() => {
-            console.info("---------------------- onDeleteComplete ------------------------");
+            console.info('---------------------- onDeleteComplete ------------------------');
           })
           .borderWidth(1)
           .borderColor(Color.Green)
-          .width("100%")
+          .width('100%')
           .height('40%')
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("70%")
+      .width('100%')
+      .height('70%')
     }
   }
 }

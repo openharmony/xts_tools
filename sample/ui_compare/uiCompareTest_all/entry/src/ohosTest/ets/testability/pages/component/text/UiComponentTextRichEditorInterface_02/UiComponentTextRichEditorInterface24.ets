@@ -39,7 +39,7 @@ struct UiComponentTextRichEditorInterface24 {
   private editorMenuOptions: EditorMenuOptions[] =
     [
       {
-        icon: $r("app.media.icon"), action: () => {
+        icon: $r('app.media.icon'), action: () => {
         if (this.controller) {
           let selection = this.controller.getSelection();
           let spans = selection.spans;
@@ -66,7 +66,7 @@ struct UiComponentTextRichEditorInterface24 {
       }
       },
       {
-        icon: $r("app.media.icon"), action: () => {
+        icon: $r('app.media.icon'), action: () => {
         if (this.controller) {
           let selection = this.controller.getSelection();
           let spans = selection.spans;
@@ -93,7 +93,7 @@ struct UiComponentTextRichEditorInterface24 {
       }
       },
       {
-        icon: $r("app.media.icon"),
+        icon: $r('app.media.icon'),
         action: () => {
           if (this.controller) {
             let selection = this.controller.getSelection();
@@ -125,11 +125,11 @@ struct UiComponentTextRichEditorInterface24 {
         }
       },
       {
-        icon: $r("app.media.icon"), action: () => {
+        icon: $r('app.media.icon'), action: () => {
       }, builder: (): void => this.sliderPanel()
       },
       {
-        icon: $r("app.media.icon"), action: () => {
+        icon: $r('app.media.icon'), action: () => {
         if (this.controller) {
           let selection = this.controller.getSelection();
           let spans = selection.spans;
@@ -157,13 +157,13 @@ struct UiComponentTextRichEditorInterface24 {
       }]
   private expandedMenuOptions: ExpandedMenuOptions[] =
     [{
-      startIcon: $r("app.media.icon"), content: '词典', action: () => {
+      startIcon: $r('app.media.icon'), content: '词典', action: () => {
       }
     }, {
-      startIcon: $r("app.media.icon"), content: '翻译', action: () => {
+      startIcon: $r('app.media.icon'), content: '翻译', action: () => {
       }
     }, {
-      startIcon: $r("app.media.icon"), content: '搜索', action: () => {
+      startIcon: $r('app.media.icon'), content: '搜索', action: () => {
       }
     }]
   private expandedMenuOptions1: ExpandedMenuOptions[] = []
@@ -316,7 +316,7 @@ struct UiComponentTextRichEditorInterface24 {
           bottom:30,
           top:10
         })
-      Button("SetSelection")
+      Button('SetSelection')
         .onClick((event: ClickEvent) => {
           if (this.controller) {
             this.controller.setSelection(0, 2);

@@ -19,9 +19,9 @@ struct UiComponentTextRichEditorInterface34 {
   controller: RichEditorController = new RichEditorController();
   options: RichEditorOptions = { controller: this.controller };
 
-  @State message: string = "TextSpan长按事件测试页面"
-  @State longPressInfo: string = "暂无长按事件"
-  @State clickInfo: string = "暂无点击事件"
+  @State message: string = 'TextSpan长按事件测试页面'
+  @State longPressInfo: string = '暂无长按事件'
+  @State clickInfo: string = '暂无点击事件'
   @State spanCount: number = 0
 
   build() {
@@ -39,11 +39,11 @@ struct UiComponentTextRichEditorInterface34 {
       }
       .borderWidth(1)
       .borderColor(Color.Gray)
-      .width("100%")
-      .height("10%")
+      .width('100%')
+      .height('10%')
 
       Column() {
-        Text("长按事件信息:")
+        Text('长按事件信息:')
           .fontSize(14)
           .fontWeight(FontWeight.Medium)
           .margin({ bottom: 5 })
@@ -56,7 +56,7 @@ struct UiComponentTextRichEditorInterface34 {
           .width('100%')
           .border({ width: 1, color: Color.Blue, radius: 4 })
 
-        Text("点击事件信息:")
+        Text('点击事件信息:')
           .fontSize(14)
           .fontWeight(FontWeight.Medium)
           .margin({ bottom: 5, top: 10 })
@@ -72,12 +72,12 @@ struct UiComponentTextRichEditorInterface34 {
       .padding(15)
       .borderWidth(1)
       .borderColor(Color.Orange)
-      .width("100%")
-      .height("25%")
+      .width('100%')
+      .height('25%')
 
       // 操作按钮区域
       Row() {
-        Button("添加TextSpan")
+        Button('添加TextSpan')
           .fontSize(12)
           .borderRadius(8)
           .backgroundColor(0x317aff)
@@ -87,7 +87,7 @@ struct UiComponentTextRichEditorInterface34 {
           })
           .margin({ right: 10 })
 
-        Button("清空内容")
+        Button('清空内容')
           .fontSize(12)
           .borderRadius(8)
           .backgroundColor(0xff7a31)
@@ -97,7 +97,7 @@ struct UiComponentTextRichEditorInterface34 {
           })
           .margin({ right: 10 })
 
-        Button("重置信息")
+        Button('重置信息')
           .fontSize(12)
           .borderRadius(8)
           .backgroundColor(0x31ff7a)
@@ -110,11 +110,11 @@ struct UiComponentTextRichEditorInterface34 {
       .padding(10)
       .borderWidth(1)
       .borderColor(Color.Blue)
-      .width("100%")
-      .height("12%")
+      .width('100%')
+      .height('12%')
 
       Column() {
-        Text("RichEditor - 长按下方的TextSpan测试长按事件")
+        Text('RichEditor - 长按下方的TextSpan测试长按事件')
           .fontSize(14)
           .fontColor(0x666666)
           .margin({ bottom: 10 })
@@ -125,9 +125,9 @@ struct UiComponentTextRichEditorInterface34 {
             this.addInitialContent()
           })
           .onSelect((value: RichEditorSelection) => {
-            console.log("选择文本范围: [" + value.selection[0] + ", " + value.selection[1] + "]")
+            console.log('选择文本范围: [' + value.selection[0] + ', ' + value.selection[1] + ']')
           })
-          .placeholder("请添加TextSpan进行测试...", {
+          .placeholder('请添加TextSpan进行测试...', {
             fontColor: Color.Gray,
             font: {
               size: 16,
@@ -138,15 +138,15 @@ struct UiComponentTextRichEditorInterface34 {
           .borderWidth(2)
           .borderColor(Color.Green)
           .borderRadius(8)
-          .width("100%")
-          .height("100%")
+          .width('100%')
+          .height('100%')
           .padding(10)
       }
       .padding(15)
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("53%")
+      .width('100%')
+      .height('53%')
     }
     .width('100%')
     .height('100%')
@@ -167,16 +167,16 @@ struct UiComponentTextRichEditorInterface34 {
       gesture: {
         onLongPress: () => {
           this.longPressInfo = `长按了TextSpan: "${spanText}" (时间: ${new Date().toLocaleTimeString()})`
-          console.log("TextSpan长按事件触发: " + spanText)
+          console.log('TextSpan长按事件触发: ' + spanText)
         },
         onClick: () => {
           this.clickInfo = `点击了TextSpan: "${spanText}" (时间: ${new Date().toLocaleTimeString()})`
-          console.log("TextSpan点击事件触发: " + spanText)
+          console.log('TextSpan点击事件触发: ' + spanText)
         }
       }
     })
 
-    this.controller.addTextSpan("这是普通文本。", {
+    this.controller.addTextSpan('这是普通文本。', {
       style: {
         fontColor: Color.Black,
         fontSize: 14
@@ -185,7 +185,7 @@ struct UiComponentTextRichEditorInterface34 {
   }
 
   private addInitialContent() {
-    this.controller.addTextSpan("欢迎使用TextSpan长按事件测试！\n\n", {
+    this.controller.addTextSpan('欢迎使用TextSpan长按事件测试！\n\n', {
       style: {
         fontColor: Color.Black,
         fontSize: 16,
@@ -199,12 +199,12 @@ struct UiComponentTextRichEditorInterface34 {
   private clearContent() {
     this.controller.deleteSpans({ start: 0, end: -1 })
     this.spanCount = 0
-    this.longPressInfo = "内容已清空"
-    this.clickInfo = "内容已清空"
+    this.longPressInfo = '内容已清空'
+    this.clickInfo = '内容已清空'
   }
 
   private resetInfo() {
-    this.longPressInfo = "暂无长按事件"
-    this.clickInfo = "暂无点击事件"
+    this.longPressInfo = '暂无长按事件'
+    this.clickInfo = '暂无点击事件'
   }
 }
