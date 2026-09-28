@@ -26,7 +26,7 @@ import { PageTwo0130Builder } from './pageTwo0130';
 import { PageThree0130Builder } from './pageThree0130';
 
 @Builder
-function DynamicBuilder0130(name: string, param: Object) {
+function dynamicBuilder0130(name: string, param: Object) {
   if (name === 'BasicStackOperation0130') {
     BasicStackOperation0130Builder(name, param);
   } else if (name === 'PageOne0130') {
@@ -67,7 +67,7 @@ struct NavigationOnActiveOnInActive0130 {
       .backgroundColor('#FFFFFF')
     }
     .title('Navigation基础场景')
-    .navDestination(DynamicBuilder0130)
+    .navDestination(dynamicBuilder0130)
   }
 }
 

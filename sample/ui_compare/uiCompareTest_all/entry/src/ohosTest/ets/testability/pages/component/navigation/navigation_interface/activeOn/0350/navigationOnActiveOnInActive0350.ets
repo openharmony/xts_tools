@@ -24,7 +24,7 @@ import { HspPageOne0350Builder } from './hspPageOne0350';
 import { HspPageThree0350Builder } from './hspPageThree0350';
 
 @Builder
-function DynamicBuilder0350(name: string, param: Object) {
+function dynamicBuilder0350(name: string, param: Object) {
   if (name === 'HspPageOne0350') {
     HspPageOne0350Builder(name, param);
   } else if (name === 'HspPageThree0350') {
@@ -70,7 +70,7 @@ struct NavigationOnActiveOnInActive0350 {
       .backgroundColor('#FFFFFF')
     }
     .title('Navigation基础场景')
-    .navDestination(DynamicBuilder0350)
+    .navDestination(dynamicBuilder0350)
   }
 }
 

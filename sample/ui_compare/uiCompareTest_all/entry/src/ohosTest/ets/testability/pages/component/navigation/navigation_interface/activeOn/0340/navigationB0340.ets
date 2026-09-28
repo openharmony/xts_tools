@@ -31,12 +31,12 @@ function getAutoPushPageTwoFlag(param: Object): boolean {
 }
 
 @Builder
-export function NavigationB0340Builder(name: string, param: Object) {
+export function navigationB0340Builder(name: string, param: Object) {
   NavigationB0340({ autoPushPageTwo: getAutoPushPageTwoFlag(param) })
 }
 
 @Builder
-function DynamicBuilderB0340(name: string, param: Object) {
+function dynamicBuilderB0340(name: string, param: Object) {
   if (name === 'PageTwo0340') {
     PageTwo0340Builder(name, param);
   } else if (name === 'PageFour0340') {
@@ -93,7 +93,7 @@ export struct NavigationB0340 {
         .backgroundColor('#E5E5E5')
       }
       .title('NavigationB')
-      .navDestination(DynamicBuilderB0340)
+      .navDestination(dynamicBuilderB0340)
     }
     .title('NavigationB')
     .mode(NavDestinationMode.STANDARD)

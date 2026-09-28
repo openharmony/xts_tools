@@ -20,7 +20,7 @@
  */
 
 @Builder
-export function ResourceTitleWithMenuPage0060Builder(name: string, param: Object) {
+export function resourceTitleWithMenuPage0060Builder(name: string, param: Object) {
   ResourceTitleWithMenuPage0060()
 }
 

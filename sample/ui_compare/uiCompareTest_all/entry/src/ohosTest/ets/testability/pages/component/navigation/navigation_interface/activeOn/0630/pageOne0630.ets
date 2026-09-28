@@ -14,12 +14,12 @@
  */
 
 @Builder
-export function PageOne0630Builder(name: string, param: Object) {
+export function pageOne0630Builder(name: string, param: Object) {
   PageOne0630()
 }
 
 @Builder
-function Dialog0630Builder() {
+function dialog0630Builder() {
   Dialog0630()
 }
 
@@ -73,7 +73,7 @@ struct Dialog0630 {
 export struct PageOne0630 {
   pathStack: NavPathStack = new NavPathStack();
   dialogController: CustomDialogController = new CustomDialogController({
-    builder: Dialog0630Builder,
+    builder: dialog0630Builder,
     alignment: DialogAlignment.Center,
     autoCancel: true
   });

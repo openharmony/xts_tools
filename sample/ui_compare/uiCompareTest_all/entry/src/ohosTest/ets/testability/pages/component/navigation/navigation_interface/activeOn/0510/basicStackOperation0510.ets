@@ -16,7 +16,7 @@
 import { HalfModal0510Builder } from './halfModal0510';
 
 @Builder
-export function BasicStackOperation0510Builder(name: string, param: Object) {
+export function basicStackOperation0510Builder(name: string, param: Object) {
   BasicStackOperation0510()
 }
 

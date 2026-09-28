@@ -20,7 +20,7 @@
  */
 
 @Builder
-export function CustomBuilderTitlePage0040Builder(name: string, param: Object) {
+export function customBuilderTitlePage0040Builder(name: string, param: Object) {
   CustomBuilderTitlePage0040()
 }
 

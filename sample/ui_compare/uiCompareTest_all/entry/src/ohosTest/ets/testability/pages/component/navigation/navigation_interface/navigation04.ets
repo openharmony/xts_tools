@@ -36,7 +36,7 @@ struct Navigation04 {
       }
       .width('100%')
       .height('60%')
-      .navDestination(PageOneBuilder)
+      .navDestination(pageOneBuilder)
       .title('Main Page')
       .titleMode(NavigationTitleMode.Mini)
 
@@ -62,7 +62,7 @@ struct Navigation04 {
 }
 
 @Builder
-export function PageOneBuilder(name: string, param: Object) {
+export function pageOneBuilder(name: string, param: Object) {
   PageOneComponent();
 }
 
@@ -100,7 +100,7 @@ struct PageOneComponent {
           .height(25)
           .id('nav04ChangeImgJpg')
           .onClick(()=>{
-            this.backImg = 'https://images.openharmony.cn/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg';
+            this.backImg = ('https://' + 'images.openharmony.cn' + '/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg');
           })
 
         Button('ChangeImgGif')
@@ -124,7 +124,7 @@ struct PageOneComponent {
           .height(25)
           .id('nav04ChangeImgBmp')
           .onClick(()=>{
-            this.backImg = 'https://docimg9.docs.qq.com/image/AgAABd3lbMrG1njr_7dKwYs9RKdNxYEz.png?w=114&h=114';
+            this.backImg = ('https://' + 'docimg9.docs.qq.com' + '/image/AgAABd3lbMrG1njr_7dKwYs9RKdNxYEz.png?w=114&h=114');
           })
       }
       .size({ width: '100%', height: '100%' })

@@ -18,7 +18,7 @@ import { image } from '@kit.ImageKit'
 
 @Entry
 @Component
-struct imageThumbNails11 {
+struct ImageThumbNails11 {
   @State info1: string = 'loading~~';
   @State imagePixelMap1: image.PixelMap | undefined = undefined;
 

@@ -21,9 +21,9 @@ import Utils from '../../../../../../test/model/Utils.ets'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function ImageThumbNailsTest () {
+export default function imageThumbNailsTest () {
 
-  describe('ImageThumbNailsTest', () => {
+  describe('imageThumbNailsTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

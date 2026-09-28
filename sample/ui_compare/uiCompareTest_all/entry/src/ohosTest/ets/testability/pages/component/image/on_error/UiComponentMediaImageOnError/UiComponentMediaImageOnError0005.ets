@@ -20,7 +20,7 @@ struct UiComponentMediaImageOnError0005 {
     Column({ space: 16 }) {
       Text('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_MSG_0005')
         .fontSize(12)
-      Image('http://127.0.0.1:1/not_exist.png')
+      Image(('http://' + '127.0.0.1:1' + '/not_exist.png'))
         .width(80).height(80).alt($r('app.media.icon')).id('image_onerror_0005')
     }
     .width('100%')

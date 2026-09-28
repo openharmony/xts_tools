@@ -21,7 +21,7 @@ interface GeneratedTypeLiteralInterface_1 {
 
 @Entry
 @Component
-struct ComponentNavNavigation0541_001 {
+struct ComponentNavNavigation0541001 {
   @Provide('pageInfos') pageInfos: NavPathStack = new NavPathStack()
   @State mode:NavigationMode=NavigationMode.Auto
   @State titleMode:NavigationTitleMode=NavigationTitleMode.Free
@@ -39,7 +39,7 @@ struct ComponentNavNavigation0541_001 {
           .width('80%')
           .height(40)
           .margin(20)
-          .id('ComponentNavNavigation0541_001')
+          .id('ComponentNavNavigation0541001')
           .onClick(() => {
             this.pageInfos.pushPath({ name: 'pageOne' }) //将name指定的NavDestination页面信息入栈
           })

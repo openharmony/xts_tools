@@ -14,7 +14,7 @@
  */
 
 @Builder
-export function PageTwo0200Builder(name: string, param: Object) {
+export function pageTwo0200Builder(name: string, param: Object) {
   PageTwo0200()
 }
 

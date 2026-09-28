@@ -16,7 +16,7 @@
 import { PageOne0460Builder } from './pageOne0460';
 
 @Builder
-function DynamicBuilderRouterPageOne0460(name: string, param: Object) {
+function dynamicBuilderRouterPageOne0460(name: string, param: Object) {
   if (name === 'PageOne0460') {
     PageOne0460Builder(name, param);
   }
@@ -52,7 +52,7 @@ export struct RouterPageOne0460 {
         .backgroundColor('#E3F2FD')
       }
       .title('NavigationA')
-      .navDestination(DynamicBuilderRouterPageOne0460)
+      .navDestination(dynamicBuilderRouterPageOne0460)
     }
     .width('100%')
     .height('100%')

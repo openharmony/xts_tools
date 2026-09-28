@@ -36,7 +36,7 @@ struct Navigation30 {
       }
       .width('100%')
       .height('60%')
-      .navDestination(PageElevenBuilder)
+      .navDestination(pageElevenBuilder)
       .title('Main Page')
       .titleMode(NavigationTitleMode.Mini)
     }
@@ -46,7 +46,7 @@ struct Navigation30 {
 }
 
 @Builder
-export function PageElevenBuilder(name: string, param: Object) {
+export function pageElevenBuilder(name: string, param: Object) {
   PageElevenComponent();
 }
 

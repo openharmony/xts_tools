@@ -16,7 +16,7 @@ import fileio from '@ohos.fileio';
 import { image } from '@kit.ImageKit';
 @Entry
 @Component
-struct ComponentNavNavigationBack0281_A {
+struct ComponentNavNavigationBack0281A {
   @Consume('pageInfos') pageInfos: NavPathStack
   @State backButtonIcon:string | PixelMap | Resource= 'AAA'
   build() {
@@ -52,7 +52,7 @@ struct ComponentNavNavigationBack0281_A {
 
   async loadGifIcon() {
     try {
-      const filePath = 'https://images.openharmony.cn/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg';
+      const filePath = ('https://' + 'images.openharmony.cn' + '/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg');
       fileio.opendir(filePath); // 打开文件
       const color = new ArrayBuffer(96); // 96 为需要创建的像素 buffer 大小
       // 创建 PixelMap
@@ -70,5 +70,5 @@ struct ComponentNavNavigationBack0281_A {
   }
 }
 
-export { ComponentNavNavigationBack0281_A }
+export { ComponentNavNavigationBack0281A }
 

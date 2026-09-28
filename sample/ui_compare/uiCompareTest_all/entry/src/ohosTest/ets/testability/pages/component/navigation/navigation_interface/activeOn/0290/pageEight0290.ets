@@ -14,7 +14,7 @@
  */
 
 @Builder
-export function PageEight0290Builder(name: string, param: Object) {
+export function pageEight0290Builder(name: string, param: Object) {
   PageEight0290()
 }
 

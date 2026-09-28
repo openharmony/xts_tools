@@ -36,7 +36,7 @@ struct Navigation05 {
       }
       .width('100%')
       .height('60%')
-      .navDestination(PageThreeBuilder)
+      .navDestination(pageThreeBuilder)
       .title('Main Page')
       .titleMode(NavigationTitleMode.Mini)
     }
@@ -46,7 +46,7 @@ struct Navigation05 {
 }
 
 @Builder
-export function PageThreeBuilder(name: string, param: Object) {
+export function pageThreeBuilder(name: string, param: Object) {
   PageThreeComponent();
 }
 

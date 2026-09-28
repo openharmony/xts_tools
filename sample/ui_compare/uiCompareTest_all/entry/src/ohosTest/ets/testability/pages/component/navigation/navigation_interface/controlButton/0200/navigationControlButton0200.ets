@@ -23,7 +23,7 @@
 import { CustomControlButtonPage0200Builder } from './customControlButtonPage0200';
 
 @Builder
-function DynamicBuilder0200(name: string, param: Object) {
+function dynamicBuilder0200(name: string, param: Object) {
   if (name === 'CustomControlButtonPage0200') {
     CustomControlButtonPage0200Builder(name, param);
   }
@@ -80,7 +80,7 @@ export struct NavigationControlButton0200 {
       }
       .title('Navigation基础场景')
       .titleMode(NavigationTitleMode.Free)
-      .navDestination(DynamicBuilder0200)
+      .navDestination(dynamicBuilder0200)
     }
     .showSideBar(this.showSideBar)
     .sideBarWidth(240)

@@ -14,7 +14,7 @@
  */
 
 @Builder
-export function PageNavCBuilder(name: string, param: Object) {
+export function pageNavCBuilder(name: string, param: Object) {
   PageNavC()
 }
 

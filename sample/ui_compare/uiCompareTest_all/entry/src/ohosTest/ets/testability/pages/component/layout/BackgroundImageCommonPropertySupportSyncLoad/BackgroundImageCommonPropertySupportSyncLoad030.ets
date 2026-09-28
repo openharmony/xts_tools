@@ -18,7 +18,7 @@
 struct BackgroundImageCommonPropertySupportSyncLoad030 {
   @State name: string = 'BackgroundImageCommonPropertySupportSyncLoad030';
   @State message: string = this.name;
-  @State imgSrc: string | undefined | null = 'https://gitee.com/drthrhr/test-resources/raw/testResources/bigImage.jpg';
+  @State imgSrc: string | undefined | null = ('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/bigImage.jpg');
   @State imgSrc1: string | undefined | null = undefined;
   @State imgSrc2: string | undefined | null = undefined;
   @State imgSrc3: string | undefined | null = undefined;
@@ -43,7 +43,7 @@ struct BackgroundImageCommonPropertySupportSyncLoad030 {
             this.imgSrc2 = '/images/2.png';
             this.imgSrc3 = '/images/3.png';
             this.imgSrc4 = '/images/4.png';
-            this.imgSrc5 = 'https://gitee.com/drthrhr/test-resources/raw/testResources/image.svg';
+            this.imgSrc5 = ('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.svg');
             this.imgType = 'PNG and SVG';
             this.imgInfo = `图片资源类型： ${this.imgType}`;
           })

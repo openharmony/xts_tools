@@ -19,7 +19,7 @@ interface DerivedNavPathStack {
 }
 
 @Builder
-export function PageOne0360Builder(name: string, param: Object) {
+export function pageOne0360Builder(name: string, param: Object) {
   PageOne0360()
 }
 

@@ -16,7 +16,7 @@
 import { promptAction } from '@kit.ArkUI';
 
 @Builder
-export function PageOne0640Builder(name: string, param: Object) {
+export function pageOne0640Builder(name: string, param: Object) {
   PageOne0640()
 }
 

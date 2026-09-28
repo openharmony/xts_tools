@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageRotate03 {
+struct ImageRotate03 {
   @State info1:string = 'loading~~';
   @State info2:string = 'loading~~';
   @State info3:string = 'loading~~';
@@ -64,7 +64,7 @@ struct imageRotate03 {
           .margin(10)
 
         Button('change img and orientation')
-          .id("imageRotate03")
+          .id("ImageRotate03")
           .height(40)
           .fontSize(15)
           .fontColor(Color.Black)
@@ -73,7 +73,7 @@ struct imageRotate03 {
           .fontWeight(300)
           .margin(10)
           .onClick( () => {
-            this.img = 'https://foruda.gitee.com/images/1753255402677959741/499f5538_10080759.png'
+            this.img = ('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png')
             this.testArg1_01 = ImageRotateOrientation.LEFT;
             this.testArg1_02 = ImageRotateOrientation.DOWN;
             this.testArg1_03 = ImageRotateOrientation.RIGHT;

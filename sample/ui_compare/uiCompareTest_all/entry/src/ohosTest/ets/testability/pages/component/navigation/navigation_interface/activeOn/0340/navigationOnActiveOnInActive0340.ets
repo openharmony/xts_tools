@@ -31,7 +31,7 @@ export function getMainPathStack0340(): NavPathStack | null {
 }
 
 @Builder
-function DynamicBuilder0340(name: string, param: Object) {
+function dynamicBuilder0340(name: string, param: Object) {
   if (name === 'NavigationA0340') {
     NavigationA0340Builder(name, param);
   } else if (name === 'NavigationB0340') {
@@ -76,6 +76,6 @@ export struct NavigationOnActiveOnInActive0340 {
       .backgroundColor('#FFFFFF')
     }
     .title('Navigation基础场景')
-    .navDestination(DynamicBuilder0340)
+    .navDestination(dynamicBuilder0340)
   }
 }

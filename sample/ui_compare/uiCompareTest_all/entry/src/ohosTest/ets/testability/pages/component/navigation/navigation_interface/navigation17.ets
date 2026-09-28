@@ -14,7 +14,7 @@
  */
 
 @Builder
-export function PageEightBuilder(name: string, param: Object) {
+export function pageEightBuilder(name: string, param: Object) {
   PageEightComponent();
 }
 

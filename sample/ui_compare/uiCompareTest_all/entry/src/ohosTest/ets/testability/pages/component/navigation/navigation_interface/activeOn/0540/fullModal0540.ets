@@ -14,7 +14,7 @@
  */
 
 @Builder
-export function FullModal0540Builder(name: string, param: Object) {
+export function fullModal0540Builder(name: string, param: Object) {
   FullModal0540()
 }
 

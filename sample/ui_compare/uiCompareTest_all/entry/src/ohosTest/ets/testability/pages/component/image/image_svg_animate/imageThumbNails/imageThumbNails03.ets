@@ -17,7 +17,7 @@ import { matrix4 } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct imageThumbNails03 {
+struct ImageThumbNails03 {
   @State info1: string = 'loading~~';
   @State info2: string = 'loading~~';
   @State info3: string = 'loading~~';

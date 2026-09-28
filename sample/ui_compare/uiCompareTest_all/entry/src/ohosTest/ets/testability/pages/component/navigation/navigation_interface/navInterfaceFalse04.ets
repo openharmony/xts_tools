@@ -90,12 +90,12 @@ struct NavInterfaceFalse04 {
       .backgroundColor(0xFFFFFF)
     }
     .title('Navigation栈操作异常值测试')
-    .navDestination(PageOneBuilder)
+    .navDestination(pageOneBuilder)
   }
 }
 
 @Builder
-export function PageOneBuilder(name: string, param: Object) {
+export function pageOneBuilder(name: string, param: Object) {
   Column() {
     Text('Page One')
       .fontSize(20)

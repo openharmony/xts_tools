@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageRotate01 {
+struct ImageRotate01 {
   @State info1:string = 'loading~~';
   @State info2:string = 'loading~~';
   @State info3:string = 'loading~~';

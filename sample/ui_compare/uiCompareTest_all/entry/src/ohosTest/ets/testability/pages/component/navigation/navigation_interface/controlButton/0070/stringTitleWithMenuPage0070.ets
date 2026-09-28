@@ -20,7 +20,7 @@
  */
 
 @Builder
-export function StringTitleWithMenuPage0070Builder(name: string, param: Object) {
+export function stringTitleWithMenuPage0070Builder(name: string, param: Object) {
   StringTitleWithMenuPage0070()
 }
 

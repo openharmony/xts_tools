@@ -24,7 +24,7 @@ import { PageEight0290Builder } from './pageEight0290';
 import { TestStandard010290Builder } from './testStandard010290';
 
 @Builder
-function DynamicBuilder0290(name: string, param: Object) {
+function dynamicBuilder0290(name: string, param: Object) {
   if (name === 'PageEight0290') {
     PageEight0290Builder(name, param);
   } else if (name === 'TestStandard010290') {
@@ -61,7 +61,7 @@ struct NavigationOnActiveOnInActive0290 {
       .backgroundColor('#FFFFFF')
     }
     .title('Navigation基础场景')
-    .navDestination(DynamicBuilder0290)
+    .navDestination(dynamicBuilder0290)
   }
 }
 

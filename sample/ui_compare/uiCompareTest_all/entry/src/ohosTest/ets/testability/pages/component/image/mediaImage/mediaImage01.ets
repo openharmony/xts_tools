@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct mediaImage01 {
+struct MediaImage01 {
   build() {
     Column() {
       Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center }) {

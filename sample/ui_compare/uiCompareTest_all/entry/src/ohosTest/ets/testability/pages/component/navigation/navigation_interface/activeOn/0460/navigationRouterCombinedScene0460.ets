@@ -17,7 +17,7 @@ import { Router } from '@kit.ArkUI';
 import { BusinessError } from '@kit.BasicServicesKit';
 
 @Builder
-export function NavigationRouterCombinedScene0460Builder(name: string, param: Object) {
+export function navigationRouterCombinedScene0460Builder(name: string, param: Object) {
   NavigationRouterCombinedScene0460()
 }
 

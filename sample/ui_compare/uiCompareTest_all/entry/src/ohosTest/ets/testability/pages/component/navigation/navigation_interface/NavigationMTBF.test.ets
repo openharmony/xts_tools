@@ -21,9 +21,9 @@ import Utils from '../../../../../test/model/Utils.ets';
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit';
 
-export default function NavigationMTBFTest() {
+export default function navigationMTBFTest() {
 
-  describe('NavigationMTBFTest', () => {
+  describe('navigationMTBFTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

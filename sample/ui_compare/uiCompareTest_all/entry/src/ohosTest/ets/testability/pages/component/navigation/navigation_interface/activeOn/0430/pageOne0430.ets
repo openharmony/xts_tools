@@ -16,7 +16,7 @@
 import { PageThree0430Builder } from './pageThree0430';
 
 @Builder
-export function PageOne0430Builder(name: string, param: Object) {
+export function pageOne0430Builder(name: string, param: Object) {
   PageOne0430()
 }
 

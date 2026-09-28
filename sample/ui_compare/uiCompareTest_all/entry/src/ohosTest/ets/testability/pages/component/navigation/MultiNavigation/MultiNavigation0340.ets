@@ -19,7 +19,7 @@ interface ParamInfo0340 {
 
 // PageHome1 组件
 @Component
-struct PageHome1_0340 {
+struct PageHome10340 {
   build() {
     NavDestination() {
       Column() {
@@ -55,7 +55,7 @@ struct PageHome1_0340 {
 
 // PageDetail1 组件
 @Component
-struct PageDetail1_0340 {
+struct PageDetail10340 {
   build() {
     NavDestination() {
       Column() {
@@ -105,9 +105,9 @@ struct MultiNavigation0340 {
   @Builder
   PageMap(name: string) {
     if (name === 'PageHome1') {
-      PageHome1_0340()
+      PageHome10340()
     } else if (name === 'PageDetail1') {
-      PageDetail1_0340()
+      PageDetail10340()
     }
   }
 
@@ -234,7 +234,7 @@ struct MultiNavigation0340 {
             Button('size')
               .id('sizeButton')
               .fontSize(13)
-              .backgroundColor('#607D8B')
+              .backgroundColor('#607d7B')
               .fontColor('#FFFFFF')
               .width('100%')
               .height(36)

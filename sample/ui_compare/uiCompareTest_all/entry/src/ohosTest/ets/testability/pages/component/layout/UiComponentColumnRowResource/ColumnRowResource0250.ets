@@ -52,7 +52,7 @@ struct ColumnRowResource0250 {
 
       Row({ space: 10 }) {
         Text('A').backgroundColor('#FFB6C1').padding(10)
-        Text('B').backgroundColor('#ADD8E6').padding(10)
+        Text('B').backgroundColor('#ADd7E6').padding(10)
         Text('C').backgroundColor('#90EE90').padding(10)
       }
       .id('row_space')
@@ -64,7 +64,7 @@ struct ColumnRowResource0250 {
 
       Column({ space: 10 }) {
         Text('1').backgroundColor('#FFB6C1').padding(10).width(50)
-        Text('2').backgroundColor('#ADD8E6').padding(10).width(50)
+        Text('2').backgroundColor('#ADd7E6').padding(10).width(50)
         Text('3').backgroundColor('#90EE90').padding(10).width(50)
       }
       .id('column_space')

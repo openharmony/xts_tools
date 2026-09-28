@@ -23,7 +23,7 @@
 import { NavigationCommonTitleNonCustomMenuPage0080Builder } from '../0080/navigationCommonTitleNonCustomMenuPage0080';
 
 @Builder
-function DynamicBuilder0260(name: string, param: Object) {
+function dynamicBuilder0260(name: string, param: Object) {
   if (name === 'NavigationCommonTitleNonCustomMenuPage0080') {
     NavigationCommonTitleNonCustomMenuPage0080Builder(name, param);
   }
@@ -111,7 +111,7 @@ export struct NavigationControlButton0260 {
       }
       .title('Navigation基础场景')
       .titleMode(NavigationTitleMode.Free)
-      .navDestination(DynamicBuilder0260)
+      .navDestination(dynamicBuilder0260)
     }
     .showSideBar(this.showSideBar)
     .sideBarWidth(240)

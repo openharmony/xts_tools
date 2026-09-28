@@ -20,7 +20,7 @@
  */
 
 @Builder
-export function NavigationCommonTitleNonCustomMenuPage0080Builder(name: string, param: Object) {
+export function navigationCommonTitleNonCustomMenuPage0080Builder(name: string, param: Object) {
   NavigationCommonTitleNonCustomMenuPage0080()
 }
 

@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct ComponentNavNavigation054_A {
+struct ComponentNavNavigation054A {
   @State Color:ResourceColor = Color.Red
   build() {
     NavDestination() {
@@ -34,4 +34,4 @@ struct ComponentNavNavigation054_A {
 
 }
 
-export { ComponentNavNavigation054_A }
+export { ComponentNavNavigation054A }

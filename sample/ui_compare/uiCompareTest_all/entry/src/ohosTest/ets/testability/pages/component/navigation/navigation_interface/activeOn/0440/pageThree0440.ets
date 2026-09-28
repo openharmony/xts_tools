@@ -17,7 +17,7 @@ import { Router } from '@kit.ArkUI';
 import { BusinessError } from '@kit.BasicServicesKit';
 
 @Builder
-export function PageThree0440Builder(name: string, param: Object) {
+export function pageThree0440Builder(name: string, param: Object) {
   PageThree0440()
 }
 

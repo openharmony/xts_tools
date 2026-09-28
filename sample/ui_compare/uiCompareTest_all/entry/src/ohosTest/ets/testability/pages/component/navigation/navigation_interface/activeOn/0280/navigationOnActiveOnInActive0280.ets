@@ -24,7 +24,7 @@ import { PageSeven0280Builder } from './pageSeven0280';
 import { TestDialog010280Builder } from './testDialog010280';
 
 @Builder
-function DynamicBuilder0280(name: string, param: Object) {
+function dynamicBuilder0280(name: string, param: Object) {
   if (name === 'PageSeven0280') {
     PageSeven0280Builder(name, param);
   } else if (name === 'TestDialog010280') {
@@ -61,7 +61,7 @@ struct NavigationOnActiveOnInActive0280 {
       .backgroundColor('#FFFFFF')
     }
     .title('Navigation基础场景')
-    .navDestination(DynamicBuilder0280)
+    .navDestination(dynamicBuilder0280)
   }
 }
 

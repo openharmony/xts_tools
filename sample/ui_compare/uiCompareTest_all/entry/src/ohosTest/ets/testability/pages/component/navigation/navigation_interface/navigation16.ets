@@ -14,7 +14,7 @@
  */
 
 @Builder
-export function PageSevenBuilder(name: string, param: Object) {
+export function pageSevenBuilder(name: string, param: Object) {
   PageSevenComponent();
 }
 

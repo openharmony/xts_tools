@@ -24,7 +24,7 @@ import { TestStandard020320Builder } from './testStandard020320';
 import { TestStandard010320Builder } from './testStandard010320';
 
 @Builder
-function DynamicBuilder0320(name: string, param: Object) {
+function dynamicBuilder0320(name: string, param: Object) {
   if (name === 'TestStandard020320') {
     TestStandard020320Builder(name, param);
   } else if (name === 'TestStandard010320') {
@@ -61,7 +61,7 @@ struct NavigationOnActiveOnInActive0320 {
       .backgroundColor('#FFFFFF')
     }
     .title('Navigation基础场景')
-    .navDestination(DynamicBuilder0320)
+    .navDestination(dynamicBuilder0320)
   }
 }
 

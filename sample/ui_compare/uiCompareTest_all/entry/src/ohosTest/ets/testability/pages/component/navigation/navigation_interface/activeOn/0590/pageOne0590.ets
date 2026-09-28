@@ -16,7 +16,7 @@
 import { CustomDialog0590Builder } from './customDialog0590';
 
 @Builder
-export function PageOne0590Builder(name: string, param: Object) {
+export function pageOne0590Builder(name: string, param: Object) {
   PageOne0590()
 }
 

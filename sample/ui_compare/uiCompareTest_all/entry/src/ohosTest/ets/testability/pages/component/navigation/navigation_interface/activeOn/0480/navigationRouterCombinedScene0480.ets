@@ -16,7 +16,7 @@
 import { PageOne0480Builder } from './pageOne0480';
 
 @Builder
-export function NavigationRouterCombinedScene0480Builder(name: string, param: Object) {
+export function navigationRouterCombinedScene0480Builder(name: string, param: Object) {
   NavigationRouterCombinedScene0480()
 }
 

@@ -26,7 +26,7 @@ import { PageTwo0390Builder } from './pageTwo0390';
 import { PageThree0390Builder } from './pageThree0390';
 
 @Builder
-function DynamicBuilder0390(name: string, param: Object) {
+function dynamicBuilder0390(name: string, param: Object) {
   if (name === 'BasicStackOperation0390') {
     BasicStackOperation0390Builder(name, param);
   } else if (name === 'PageOne0390') {
@@ -67,7 +67,7 @@ struct NavigationOnActiveOnInActive0390 {
       .backgroundColor('#FFFFFF')
     }
     .title('Navigation基础场景')
-    .navDestination(DynamicBuilder0390)
+    .navDestination(dynamicBuilder0390)
   }
 }
 

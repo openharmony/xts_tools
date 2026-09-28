@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct mediaImage06 {
+struct MediaImage06 {
   @State fillColor:Color = Color.Blue
   
   build() {

@@ -19,7 +19,7 @@ interface ParamInfo0280 {
 
 // PageHome1 组件
 @Component
-struct PageHome1_0280 {
+struct PageHome10280 {
   @Prop index: number = 0;
 
   build() {
@@ -56,7 +56,7 @@ struct MultiNavigation0280 {
   @Builder
   PageMap(name: string, param: ESObject) {
     if (name === 'PageHome1') {
-      PageHome1_0280({ index: param as number })
+      PageHome10280({ index: param as number })
     }
   }
 

@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageSvg04 {
+struct ImageSvg04 {
   build() {
     Column() {
       Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Start }) {

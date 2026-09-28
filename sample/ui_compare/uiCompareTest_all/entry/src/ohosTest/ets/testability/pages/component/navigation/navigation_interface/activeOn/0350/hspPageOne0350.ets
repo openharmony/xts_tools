@@ -14,7 +14,7 @@
  */
 
 @Builder
-export function HspPageOne0350Builder(name: string, param: Object) {
+export function hspPageOne0350Builder(name: string, param: Object) {
   HspPageOne0350()
 }
 

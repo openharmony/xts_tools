@@ -14,7 +14,7 @@
  */
 
 @Builder
-export function TestDialog010300Builder(name: string, param: Object) {
+export function testDialog010300Builder(name: string, param: Object) {
   TestDialog010300()
 }
 

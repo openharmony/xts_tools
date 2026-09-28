@@ -25,7 +25,7 @@ import { PageOne0440Builder } from './pageOne0440';
 import { PageThree0440Builder } from './pageThree0440';
 
 @Builder
-function DynamicBuilder0440(name: string, param: Object) {
+function dynamicBuilder0440(name: string, param: Object) {
   if (name === 'NavigationRouterCombinedScene0440') {
     NavigationRouterCombinedScene0440Builder(name, param);
   } else if (name === 'PageOne0440') {
@@ -64,7 +64,7 @@ struct NavigationOnActiveOnInActive0440 {
       .backgroundColor('#FFFFFF')
     }
     .title('Navigation与Router结合场景')
-    .navDestination(DynamicBuilder0440)
+    .navDestination(dynamicBuilder0440)
   }
 }
 

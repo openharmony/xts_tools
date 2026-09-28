@@ -14,7 +14,7 @@
  */
 
 @Builder
-export function BasicStackOperation0390Builder(name: string, param: Object) {
+export function basicStackOperation0390Builder(name: string, param: Object) {
   BasicStackOperation0390()
 }
 

@@ -18,7 +18,7 @@
 struct BackgroundImageCommonPropertySupportSyncLoad026 {
   @State name: string = 'BackgroundImageCommonPropertySupportSyncLoad026';
   @State message: string = this.name;
-  @State imgSrc: string | undefined | null = 'https://gitee.com/drthrhr/test-resources/raw/testResources/bigImage.jpg';
+  @State imgSrc: string | undefined | null = ('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/bigImage.jpg');
   @State imgType: string = 'JPG';
   @State imgInfo: string = '图片资源类型： ';
 

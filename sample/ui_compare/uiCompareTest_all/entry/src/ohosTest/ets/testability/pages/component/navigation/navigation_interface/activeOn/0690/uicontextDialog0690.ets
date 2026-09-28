@@ -14,7 +14,7 @@
  */
 
 @Builder
-export function UIContextDialog0690Builder() {
+export function uIContextDialog0690Builder() {
   Column() {
     Text('UIContextDialog')
       .fontSize(20)

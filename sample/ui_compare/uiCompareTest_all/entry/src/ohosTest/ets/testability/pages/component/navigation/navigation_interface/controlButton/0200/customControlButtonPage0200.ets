@@ -20,7 +20,7 @@
  */
 
 @Builder
-export function CustomControlButtonPage0200Builder(name: string, param: Object) {
+export function customControlButtonPage0200Builder(name: string, param: Object) {
   CustomControlButtonPage0200()
 }
 

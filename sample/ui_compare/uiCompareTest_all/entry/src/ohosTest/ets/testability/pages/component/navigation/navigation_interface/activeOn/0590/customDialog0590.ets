@@ -33,7 +33,7 @@ export struct CustomDialog0590 {
 }
 
 @Builder
-export function CustomDialog0590Builder() {
+export function customDialog0590Builder() {
   CustomDialog0590()
 }
 

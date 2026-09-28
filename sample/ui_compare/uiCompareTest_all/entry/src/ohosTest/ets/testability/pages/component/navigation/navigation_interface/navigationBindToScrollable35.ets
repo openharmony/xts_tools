@@ -68,12 +68,12 @@ struct NavigationBindToScrollable35 {
         action: () => {}
       }
     ])
-    .navDestination(PageOneBuilder)
+    .navDestination(pageOneBuilder)
   }
 }
 
 @Builder
-export function PageOneBuilder(name: string, param: Object) {
+export function pageOneBuilder(name: string, param: Object) {
   PageOne()
 }
 

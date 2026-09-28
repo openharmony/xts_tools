@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct imageRotate04 {
+struct ImageRotate04 {
   @State info1: string = 'loading~~';
   @State info2: string = 'loading~~';
   @State info3: string = 'loading~~';
@@ -46,7 +46,7 @@ struct imageRotate04 {
           .margin(5)
 
         Button(this.changeAppear)
-          .id("imageRotate04")
+          .id("ImageRotate04")
           .height(40)
           .fontSize(15)
           .fontColor(Color.Black)

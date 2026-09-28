@@ -16,7 +16,7 @@
 import { PageOne0420Builder } from './pageOne0420';
 
 @Builder
-export function BasicStackOperation0420Builder(name: string, param: Object) {
+export function basicStackOperation0420Builder(name: string, param: Object) {
   BasicStackOperation0420()
 }
 

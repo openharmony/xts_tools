@@ -56,7 +56,7 @@ struct CustomLayoutBorderWidthComponent {
     }
     .width('100%')
     .height('100%')
-    .backgroundColor('#ADD8E6')
+    .backgroundColor('#ADd7E6')
     .justifyContent(FlexAlign.Center)
   }
 }

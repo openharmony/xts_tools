@@ -17,7 +17,7 @@ import { ComponentContent, PromptAction } from '@kit.ArkUI';
 import { CustomDialog0680Builder } from './customDialog0680';
 
 @Builder
-export function PageOne0680Builder(name: string, param: Object) {
+export function pageOne0680Builder(name: string, param: Object) {
   PageOne0680()
 }
 

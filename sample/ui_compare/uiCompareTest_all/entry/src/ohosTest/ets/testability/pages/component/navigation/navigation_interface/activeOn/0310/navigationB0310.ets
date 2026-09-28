@@ -17,12 +17,12 @@ import { PageOne0310Builder } from './pageOne0310';
 import { PageThree0310Builder } from './pageThree0310';
 
 @Builder
-export function NavigationB0310Builder(name: string, param: Object) {
+export function navigationB0310Builder(name: string, param: Object) {
   NavigationB0310()
 }
 
 @Builder
-function DynamicBuilderB0310(name: string, param: Object) {
+function dynamicBuilderB0310(name: string, param: Object) {
   if (name === 'PageOne0310') {
     PageOne0310Builder(name, param);
   } else if (name === 'PageThree0310') {
@@ -68,7 +68,7 @@ export struct NavigationB0310 {
         .backgroundColor('#F5F5F5')
       }
       .title('NavigationB')
-      .navDestination(DynamicBuilderB0310)
+      .navDestination(dynamicBuilderB0310)
     }
     .title('NavigationB')
     .mode(NavDestinationMode.STANDARD)

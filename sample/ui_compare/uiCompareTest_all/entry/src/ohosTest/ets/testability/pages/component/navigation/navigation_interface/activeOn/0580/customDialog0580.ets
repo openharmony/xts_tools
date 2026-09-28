@@ -44,7 +44,7 @@ export struct CustomDialog0580 {
 }
 
 @Builder
-export function CustomDialog0580Builder() {
+export function customDialog0580Builder() {
   CustomDialog0580()
 }
 

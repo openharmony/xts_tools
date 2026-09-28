@@ -21,7 +21,7 @@ interface NavParam0340 {
 }
 
 @Builder
-export function PageThree0340Builder(name: string, param: Object) {
+export function pageThree0340Builder(name: string, param: Object) {
   PageThree0340()
 }
 

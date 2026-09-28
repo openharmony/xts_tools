@@ -16,12 +16,12 @@
 import { PageTwo0310Builder } from './pageTwo0310';
 
 @Builder
-export function NavigationA0310Builder(name: string, param: Object) {
+export function navigationA0310Builder(name: string, param: Object) {
   NavigationA0310()
 }
 
 @Builder
-function DynamicBuilderA0310(name: string, param: Object) {
+function dynamicBuilderA0310(name: string, param: Object) {
   if (name === 'PageTwo0310') {
     PageTwo0310Builder(name, param);
   }
@@ -65,7 +65,7 @@ export struct NavigationA0310 {
         .backgroundColor('#E5E5E5')
       }
       .title('NavigationA')
-      .navDestination(DynamicBuilderA0310)
+      .navDestination(dynamicBuilderA0310)
     }
     .title('NavigationA')
     .mode(NavDestinationMode.STANDARD)

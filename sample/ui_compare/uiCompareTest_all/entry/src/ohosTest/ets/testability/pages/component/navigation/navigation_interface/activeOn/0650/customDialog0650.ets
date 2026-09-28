@@ -14,7 +14,7 @@
  */
 
 @Builder
-export function CustomDialog0650Builder() {
+export function customDialog0650Builder() {
   Column() {
     Text('CustomDialog')
       .fontSize(20)

@@ -14,7 +14,7 @@
  */
 @Entry
 @Component
-struct ComponentNavNavigationBack0291_A {
+struct ComponentNavNavigationBack0291A {
   @Consume('pageInfos') pageInfos: NavPathStack
   @State backButtonIcon:string | PixelMap | Resource= 'AAA'
   build() {
@@ -34,7 +34,7 @@ struct ComponentNavNavigationBack0291_A {
           .margin(20)
           .id('ComponentNavNavigationBack0291_A2')
           .onClick(() => {
-            this.backButtonIcon = 'https://images.openharmony.cn/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg'
+            this.backButtonIcon = ('https://' + 'images.openharmony.cn' + '/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg')
           })
       }.width('100%').height('100%')
     }.title('pageOne')
@@ -49,4 +49,4 @@ struct ComponentNavNavigationBack0291_A {
   }
 }
 
-export { ComponentNavNavigationBack0291_A }
+export { ComponentNavNavigationBack0291A }

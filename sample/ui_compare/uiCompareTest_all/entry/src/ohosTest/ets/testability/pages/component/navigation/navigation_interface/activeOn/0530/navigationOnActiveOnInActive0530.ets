@@ -24,7 +24,7 @@ import { BasicStackOperation0530Builder } from './basicStackOperation0530';
 import { HalfModal0530Builder } from './halfModal0530';
 
 @Builder
-function DynamicBuilder0530(name: string, param: Object) {
+function dynamicBuilder0530(name: string, param: Object) {
   if (name === 'BasicStackOperation0530') {
     BasicStackOperation0530Builder(name, param);
   } else if (name === 'HalfModal0530') {
@@ -61,7 +61,7 @@ struct NavigationOnActiveOnInActive0530 {
       .backgroundColor('#FFFFFF')
     }
     .title('Navigation基础场景')
-    .navDestination(DynamicBuilder0530)
+    .navDestination(dynamicBuilder0530)
   }
 }
 

@@ -14,7 +14,7 @@
  */
 
 @Builder
-export function HspPageThree0350Builder(name: string, param: Object) {
+export function hspPageThree0350Builder(name: string, param: Object) {
   HspPageThree0350()
 }
 

@@ -75,12 +75,12 @@ struct NavigationBindToScrollable29 {
       }
     ])
     // 异常值场景：不绑定或绑定null/undefined
-    .navDestination(PageOneBuilder)
+    .navDestination(pageOneBuilder)
   }
 }
 
 @Builder
-export function PageOneBuilder(name: string, param: Object) {
+export function pageOneBuilder(name: string, param: Object) {
   PageOne()
 }
 

@@ -23,7 +23,7 @@
 import { StringTitleWithMenuPage0070Builder } from './stringTitleWithMenuPage0070';
 
 @Builder
-function DynamicBuilder0070(name: string, param: Object) {
+function dynamicBuilder0070(name: string, param: Object) {
   if (name === 'StringTitleWithMenuPage0070') {
     StringTitleWithMenuPage0070Builder(name, param);
   }
@@ -74,7 +74,7 @@ export struct NavigationControlButton0070 {
       }
       .title('Navigation基础场景')
       .titleMode(NavigationTitleMode.Free)
-      .navDestination(DynamicBuilder0070)
+      .navDestination(dynamicBuilder0070)
     }
     .showSideBar(this.showSideBar)
     .sideBarWidth(240)

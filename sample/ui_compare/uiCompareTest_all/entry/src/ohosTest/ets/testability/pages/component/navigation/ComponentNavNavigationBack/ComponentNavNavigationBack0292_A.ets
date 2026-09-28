@@ -14,7 +14,7 @@
  */
 @Entry
 @Component
-struct ComponentNavNavigationBack0292_A {
+struct ComponentNavNavigationBack0292A {
   @Consume('pageInfos') pageInfos: NavPathStack
   @State backButtonIcon:string | PixelMap | Resource= 'AAA'
   build() {
@@ -49,4 +49,4 @@ struct ComponentNavNavigationBack0292_A {
   }
 }
 
-export { ComponentNavNavigationBack0292_A }
+export { ComponentNavNavigationBack0292A }

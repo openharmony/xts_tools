@@ -16,7 +16,7 @@
 
 @Entry
 @Component
-struct ComponentNavNavigationBack0294_A {
+struct ComponentNavNavigationBack0294A {
   @Consume('pageInfos') pageInfos: NavPathStack
   @State backButtonIcon:string | PixelMap | Resource= 'AAA'
   build() {
@@ -36,7 +36,7 @@ struct ComponentNavNavigationBack0294_A {
           .margin(20)
           .id('ComponentNavNavigationBack0294_A2')
           .onClick(() => {
-            this.backButtonIcon = 'https://docimg9.docs.qq.com/image/AgAABd3lbMrG1njr_7dKwYs9RKdNxYEz.png?w=114&h=114'
+            this.backButtonIcon = ('https://' + 'docimg9.docs.qq.com' + '/image/AgAABd3lbMrG1njr_7dKwYs9RKdNxYEz.png?w=114&h=114')
           })
       }.width('100%').height('100%')
     }.title('pageOne')
@@ -51,4 +51,4 @@ struct ComponentNavNavigationBack0294_A {
   }
 }
 
-export { ComponentNavNavigationBack0294_A }
+export { ComponentNavNavigationBack0294A }

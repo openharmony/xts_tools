@@ -16,7 +16,7 @@
 import { HalfModal0500Builder } from './halfModal0500';
 
 @Builder
-export function BasicStackOperation0500Builder(name: string, param: Object) {
+export function basicStackOperation0500Builder(name: string, param: Object) {
   BasicStackOperation0500()
 }
 

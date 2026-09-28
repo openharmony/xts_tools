@@ -16,7 +16,7 @@
 import { getMainPathStack0310 } from './navigationOnActiveOnInActive0310';
 
 @Builder
-export function PageThree0310Builder(name: string, param: Object) {
+export function pageThree0310Builder(name: string, param: Object) {
   PageThree0310()
 }
 

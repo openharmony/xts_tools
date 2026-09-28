@@ -19,7 +19,7 @@ interface ParamInfo0510 {
 
 // PageHome1 组件 - 左侧主页
 @Component
-struct PageHome1_0510 {
+struct PageHome10510 {
   build() {
     Column() {
       Text('PageHome1 页面')
@@ -41,7 +41,7 @@ struct PageHome1_0510 {
 
 // PageDetail1 组件
 @Component
-struct PageDetail1_0510 {
+struct PageDetail10510 {
   build() {
     NavDestination() {
       Column() {
@@ -73,7 +73,7 @@ struct PageDetail1_0510 {
 
 // PageDetail2 组件
 @Component
-struct PageDetail2_0510 {
+struct PageDetail20510 {
   build() {
     NavDestination() {
       Column() {
@@ -124,11 +124,11 @@ struct MultiNavigation0510 {
   @Builder
   PageMap(name: string) {
     if (name === 'PageHome1') {
-      PageHome1_0510()
+      PageHome10510()
     } else if (name === 'PageDetail1') {
-      PageDetail1_0510()
+      PageDetail10510()
     } else if (name === 'PageDetail2') {
-      PageDetail2_0510()
+      PageDetail20510()
     }
   }
 
@@ -240,7 +240,7 @@ struct MultiNavigation0510 {
         Button('size')
           .id('sizeButton')
           .fontSize(12)
-          .backgroundColor('#607D8B')
+          .backgroundColor('#607d7B')
           .fontColor('#FFFFFF')
           .width('95%')
           .height(32)
@@ -282,7 +282,7 @@ struct MultiNavigation0510 {
       // Navigation 组件区域 - Split模式实现双栏
       Navigation(this.navPathStack) {
         // 左侧主页内容
-        PageHome1_0510()
+        PageHome10510()
       }
       .navDestination(this.PageMap)
       .mode(NavigationMode.Split)

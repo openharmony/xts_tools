@@ -19,7 +19,7 @@ interface ParamInfo0550 {
 
 // PageHome1 组件 - 左侧主页
 @Component
-struct PageHome1_0550 {
+struct PageHome10550 {
   build() {
     Column() {
       Text('PageHome1 页面')
@@ -41,7 +41,7 @@ struct PageHome1_0550 {
 
 // PageDetail1 组件
 @Component
-struct PageDetail1_0550 {
+struct PageDetail10550 {
   private navPathStack: NavPathStack = new NavPathStack();
   @State resultText: string = '';
 
@@ -129,9 +129,9 @@ struct MultiNavigation0550 {
   @Builder
   PageMap(name: string) {
     if (name === 'PageHome1') {
-      PageHome1_0550()
+      PageHome10550()
     } else if (name === 'PageDetail1') {
-      PageDetail1_0550()
+      PageDetail10550()
     }
   }
 
@@ -224,7 +224,7 @@ struct MultiNavigation0550 {
         Button('size')
           .id('sizeButton')
           .fontSize(12)
-          .backgroundColor('#607D8B')
+          .backgroundColor('#607d7B')
           .fontColor('#FFFFFF')
           .width('95%')
           .height(32)
@@ -266,7 +266,7 @@ struct MultiNavigation0550 {
       // Navigation 组件区域 - Split模式实现双栏
       Navigation(this.navPathStack) {
         // 左侧主页内容
-        PageHome1_0550()
+        PageHome10550()
       }
       .navDestination(this.PageMap)
       .mode(NavigationMode.Split)

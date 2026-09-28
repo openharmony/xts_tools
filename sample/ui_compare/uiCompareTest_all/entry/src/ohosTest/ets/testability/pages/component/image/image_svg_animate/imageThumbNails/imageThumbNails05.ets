@@ -17,7 +17,7 @@ import { matrix4 } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct imageThumbNails05 {
+struct ImageThumbNails05 {
   @State info1: string = 'loading~~';
   @State info2: string = 'loading~~';
   @State info3: string = 'loading~~';
@@ -53,7 +53,7 @@ struct imageThumbNails05 {
           .margin(5)
 
         Button(this.changeAppear)
-          .id("imageThumbNails05")
+          .id("ImageThumbNails05")
           .height(40)
           .fontSize(15)
           .fontColor(Color.Black)
@@ -148,7 +148,7 @@ struct imageThumbNails05 {
               .margin(6)
           }
 
-          Image('https://images.openharmony.cn/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg')
+          Image(('https://' + 'images.openharmony.cn' + '/330-%E8%BF%90%E8%90%A5%E5%9B%BE/%E5%AD%A6%E9%99%A2/530/application_basic_l.jpg'))
             .width(110)
             .height(110)
             .margin(20)
@@ -206,7 +206,7 @@ struct imageThumbNails05 {
               .margin(6)
           }
 
-          Image('https://docimg9.docs.qq.com/image/AgAABd3lbMrG1njr_7dKwYs9RKdNxYEz.png?w=114&h=114')
+          Image(('https://' + 'docimg9.docs.qq.com' + '/image/AgAABd3lbMrG1njr_7dKwYs9RKdNxYEz.png?w=114&h=114'))
             .width(110)
             .height(140)
             .margin(20)
@@ -269,7 +269,7 @@ struct imageThumbNails05 {
               .margin(6)
           }
 
-          Image('https://images.pexels.com/photos/1485894/pexels-photo-1485894.jpeg')
+          Image(('https://' + 'images.pexels.com' + '/photos/1485894/pexels-photo-1485894.jpeg'))
             .width(110)
             .height(140)
             .margin(20)
@@ -332,7 +332,7 @@ struct imageThumbNails05 {
               .margin(6)
           }
 
-          Image('https://www.runoob.com/try/demo_source/smiley-2.gif')
+          Image(('https://' + 'www.runoob.com' + '/try/demo_source/smiley-2.gif'))
             .width(110)
             .height(120)
             .margin(20)

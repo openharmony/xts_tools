@@ -17,7 +17,7 @@ import { TextModifier } from '@kit.ArkUI';
 import { MainTitleModifier1, MainTitleModifier2 } from './navFeatureUtils';
 
 @Builder
-function CustomTitleBuilder() {
+function customTitleBuilder() {
   Column() {
     Text('自定义标题')
       .fontSize(20)
@@ -103,7 +103,7 @@ struct NavFeature21 {
       .edgeEffect(EdgeEffect.Spring)
     }
     .titleMode(this.titleMode)
-    .title(CustomTitleBuilder, {
+    .title(customTitleBuilder, {
       mainTitleModifier: this.mainTitleModifier ?? undefined
     })
   }

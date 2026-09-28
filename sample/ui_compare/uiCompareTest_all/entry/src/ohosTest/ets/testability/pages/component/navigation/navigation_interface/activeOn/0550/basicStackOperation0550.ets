@@ -16,7 +16,7 @@
 import { FullModal0550Builder } from './fullModal0550';
 
 @Builder
-export function BasicStackOperation0550Builder(name: string, param: Object) {
+export function basicStackOperation0550Builder(name: string, param: Object) {
   BasicStackOperation0550()
 }
 

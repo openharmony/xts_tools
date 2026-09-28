@@ -14,7 +14,7 @@
  */
 
 @Builder
-export function HalfModal0500Builder(name: string, param: Object) {
+export function halfModal0500Builder(name: string, param: Object) {
   HalfModal0500()
 }
 

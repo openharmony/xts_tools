@@ -20,7 +20,7 @@
  */
 
 @Builder
-export function StringTitlePage0020Builder(name: string, param: Object) {
+export function stringTitlePage0020Builder(name: string, param: Object) {
   StringTitlePage0020()
 }
 

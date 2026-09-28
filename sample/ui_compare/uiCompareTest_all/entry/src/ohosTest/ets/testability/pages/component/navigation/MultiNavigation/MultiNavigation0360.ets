@@ -19,7 +19,7 @@ interface ParamInfo0360 {
 
 // PageFull1 组件
 @Component
-struct PageFull1_0360 {
+struct PageFull10360 {
   build() {
     NavDestination() {
       Column() {
@@ -83,7 +83,7 @@ struct MultiNavigation0360 {
   @Builder
   PageMap(name: string) {
     if (name === 'PageFull1') {
-      PageFull1_0360()
+      PageFull10360()
     }
   }
 

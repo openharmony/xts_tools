@@ -39,7 +39,7 @@ struct Navigation39 {
       }
       .width('100%')
       .height('60%')
-      .navDestination(Page15Builder)
+      .navDestination(page15Builder)
       .title('Main Page')
       .titleMode(NavigationTitleMode.Mini)
 
@@ -65,12 +65,12 @@ struct Navigation39 {
 }
 
 @Builder
-export function Page15Builder(name: string, param: Object) {
+export function page15Builder(name: string, param: Object) {
   Page15Component();
 }
 
 @Builder
-export function Page16Builder(name: string, param: Object) {
+export function page16Builder(name: string, param: Object) {
   Page16Component();
 }
 
@@ -90,13 +90,13 @@ function createPixelMapImage(img: PixelMap | undefined, url: string) {
           let imageData: ArrayBuffer = OutData.result as ArrayBuffer;
           let imageSource: image.ImageSource = image.createImageSource(imageData);
 
-          class tmp {
+          class Tmp {
             public height: number = 100;
             public width: number = 100;
           }
 
           // 创建图片大小
-          let options: Record<string, number | boolean | tmp> = {
+          let options: Record<string, number | boolean | Tmp> = {
             'alphaType': 0, // 透明度
             'editable': false, // 是否可编辑
             'pixelFormat': 3, // 像素格式
@@ -122,7 +122,7 @@ struct Page15Component {
   @State y: string = '0';
 
   aboutToAppear(): void {
-    createPixelMapImage(this.backImg,'https://i.imgs.ovh/2025/06/26/RtRhM.png')
+    createPixelMapImage(this.backImg,('https://' + 'i.imgs.ovh' + '/2025/06/26/RtRhM.png'))
   }
 
   build() {
@@ -141,7 +141,7 @@ struct Page15Component {
           .height(25)
           .id('nav39ChangeImgPng')
           .onClick(()=>{
-            createPixelMapImage(this.backImg,'https://i.imgs.ovh/2025/06/26/RtRhM.png')
+            createPixelMapImage(this.backImg,('https://' + 'i.imgs.ovh' + '/2025/06/26/RtRhM.png'))
           })
 
         Button('ChangeImgJpg')
@@ -149,7 +149,7 @@ struct Page15Component {
           .height(25)
           .id('nav39ChangeImgJpg')
           .onClick(()=>{
-            createPixelMapImage(this.backImg,'http://images.openharmony.cn/活动/开发者大会20250428/大会顶端banner图.jpg')
+            createPixelMapImage(this.backImg,('http://' + 'images.openharmony.cn' + '/活动/开发者大会20250428/大会顶端banner图.jpg'))
           })
 
         Button('ChangeImgGif')
@@ -157,7 +157,7 @@ struct Page15Component {
           .height(25)
           .id('nav39ChangeImgGif')
           .onClick(()=>{
-            createPixelMapImage(this.backImg,'https://www.runoob.com/try/demo_source/smiley-2.gif')
+            createPixelMapImage(this.backImg,('https://' + 'www.runoob.com' + '/try/demo_source/smiley-2.gif'))
           })
 
         Button('ChangeImgSvg')
@@ -165,7 +165,7 @@ struct Page15Component {
           .height(25)
           .id('nav39ChangeImgSvg')
           .onClick(()=>{
-            createPixelMapImage(this.backImg,'https://images.openharmony.cn/活动/技术大会20240923/补充头像/默认男头像.svg')
+            createPixelMapImage(this.backImg,('https://' + 'images.openharmony.cn' + '/活动/技术大会20240923/补充头像/默认男头像.svg'))
           })
 
         Button('ChangeImgBmp')

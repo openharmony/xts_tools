@@ -17,7 +17,7 @@ class TmpClass {
   public count: number = 10;
 }
 
-class param {
+class Param {
   public info: string = "__default_param__";
 
   constructor(info: string) {
@@ -26,7 +26,7 @@ class param {
 }
 
 @Builder
-export function PageNavABuilder(name: string, param: Object) {
+export function pageNavABuilder(name: string, Param: Object) {
   PageNavA()
 }
 
@@ -46,7 +46,7 @@ export struct PageNavA {
             //将name指定的NavDestination页面信息入栈，传递的数据为param
             this.pageInfos.pushPath({
               name: 'PageNavB',
-              param: new param('push PageNavB')
+              Param: new Param('push PageNavB')
             });
           })
         Button('pushPathByName', { stateEffect: true, type: ButtonType.Capsule })

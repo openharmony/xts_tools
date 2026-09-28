@@ -14,11 +14,11 @@
  */
 
 @Builder
-export function PageNavBBuilder(name: string, param: Object) {
+export function pageNavBBuilder(name: string, Param: Object) {
   PageNavB()
 }
 
-class param {
+class Param {
   public info: string = "__default_param__";
 
   constructor(info: string) {
@@ -58,7 +58,7 @@ export struct PageNavB {
             //将name指定的NavDestination页面信息入栈，传递的数据为param
             this.pathStack.pushPath({
               name: 'PageNavC',
-              param: new param('push PageNavC')
+              Param: new Param('push PageNavC')
             });
           })
         Button('pushPathByName', { stateEffect: true, type: ButtonType.Capsule })

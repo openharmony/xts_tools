@@ -20,7 +20,7 @@
  */
 
 @Builder
-export function CustomBuilderTitleCustomMenuPage0090Builder(name: string, param: Object) {
+export function customBuilderTitleCustomMenuPage0090Builder(name: string, param: Object) {
   CustomBuilderTitleCustomMenuPage0090()
 }
 

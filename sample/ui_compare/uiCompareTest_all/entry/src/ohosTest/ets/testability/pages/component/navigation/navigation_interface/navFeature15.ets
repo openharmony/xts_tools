@@ -17,7 +17,7 @@ import { TextModifier } from '@kit.ArkUI';
 import { MainTitleModifier1, MainTitleModifier2, SubTitleModifier1, SubTitleModifier2 } from './navFeatureUtils';
 
 @Builder
-export function NavDestinationPage15Builder(name: string, param: Object) {
+export function navDestinationPage15Builder(name: string, param: Object) {
   NavDestinationPage15()
 }
 
@@ -135,7 +135,7 @@ struct NavFeature15 {
       .padding(20)
       .backgroundColor(0xFFFFFF)
     }
-    .navDestination(NavDestinationPage15Builder)
+    .navDestination(navDestinationPage15Builder)
     .title('主页面')
   }
 }

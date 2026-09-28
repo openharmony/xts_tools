@@ -20,7 +20,7 @@ interface ParamInfo0260 {
 
 // PageHome1 组件
 @Component
-struct PageHome1_0260 {
+struct PageHome10260 {
   build() {
     NavDestination() {
       Column() {
@@ -52,7 +52,7 @@ struct PageHome1_0260 {
 
 // PageDetail1 组件
 @Component
-struct PageDetail1_0260 {
+struct PageDetail10260 {
   build() {
     NavDestination() {
       Column() {
@@ -84,7 +84,7 @@ struct PageDetail1_0260 {
 
 // PageDetail2 组件
 @Component
-struct PageDetail2_0260 {
+struct PageDetail20260 {
   build() {
     NavDestination() {
       Column() {
@@ -116,7 +116,7 @@ struct PageDetail2_0260 {
 
 // PageFull1 组件
 @Component
-struct PageFull1_0260 {
+struct PageFull10260 {
   build() {
     NavDestination() {
       Column() {
@@ -167,13 +167,13 @@ struct MultiNavigation0260 {
   @Builder
   PageMap(name: string) {
     if (name === 'PageHome1') {
-      PageHome1_0260()
+      PageHome10260()
     } else if (name === 'PageDetail1') {
-      PageDetail1_0260()
+      PageDetail10260()
     } else if (name === 'PageDetail2') {
-      PageDetail2_0260()
+      PageDetail20260()
     } else if (name === 'PageFull1') {
-      PageFull1_0260()
+      PageFull10260()
     }
   }
 

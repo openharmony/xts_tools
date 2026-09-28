@@ -19,7 +19,7 @@ interface ParamInfo0310 {
 
 // PageHome1 组件
 @Component
-struct PageHome1_0310 {
+struct PageHome10310 {
   build() {
     NavDestination() {
       Column() {
@@ -60,7 +60,7 @@ struct MultiNavigation0310 {
   @Builder
   PageMap(name: string) {
     if (name === 'PageHome1') {
-      PageHome1_0310()
+      PageHome10310()
     }
   }
 

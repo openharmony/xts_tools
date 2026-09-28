@@ -24,7 +24,7 @@ import { BasicStackOperation0680Builder } from './basicStackOperation0680';
 import { PageOne0680Builder } from './pageOne0680';
 
 @Builder
-function DynamicBuilder0680(name: string, param: Object) {
+function dynamicBuilder0680(name: string, param: Object) {
   if (name === 'BasicStackOperation0680') {
     BasicStackOperation0680Builder(name, param);
   } else if (name === 'PageOne0680') {
@@ -61,7 +61,7 @@ struct NavigationOnActiveOnInActive0680 {
       .backgroundColor('#FFFFFF')
     }
     .title('Navigation基础场景')
-    .navDestination(DynamicBuilder0680)
+    .navDestination(dynamicBuilder0680)
   }
 }
 

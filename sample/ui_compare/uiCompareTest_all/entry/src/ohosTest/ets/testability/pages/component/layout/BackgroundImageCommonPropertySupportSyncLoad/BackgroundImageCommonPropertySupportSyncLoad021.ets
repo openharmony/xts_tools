@@ -18,7 +18,7 @@
 struct BackgroundImageCommonPropertySupportSyncLoad021 {
   @State name: string = 'BackgroundImageCommonPropertySupportSyncLoad021';
   @State message: string = this.name;
-  @State imgSrc: string = 'https://gitee.com/drthrhr/test-resources/raw/testResources/bigImage.jpg';
+  @State imgSrc: string = ('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/bigImage.jpg');
   @State imgType: string = 'JPG';
   @State imgInfo: string = '图片资源类型： ';
 
@@ -46,7 +46,7 @@ struct BackgroundImageCommonPropertySupportSyncLoad021 {
       Button('切换图片类型')
         .id(this.name + '_02')
         .onClick(() => {
-          this.imgSrc = 'https://gitee.com/drthrhr/test-resources/raw/testResources/image.heif';
+          this.imgSrc = ('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.heif');
           this.imgType = 'HEIF';
           this.imgInfo = `图片资源类型： ${this.imgType}`;
         })

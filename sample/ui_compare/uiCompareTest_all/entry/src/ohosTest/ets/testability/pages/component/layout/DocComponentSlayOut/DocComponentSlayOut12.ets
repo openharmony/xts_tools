@@ -54,14 +54,18 @@ struct DocComponentSlayOut12 {
             .width(60)
           Button('-')
             .onClick(() => {
-              if (this.stepSize > 1) this.stepSize--;
+              if (this.stepSize > 1) {
+                this.stepSize--;
+              }
             })
           Text(`${this.stepSize}`)
             .width(30)
             .textAlign(TextAlign.Center)
           Button('+')
             .onClick(() => {
-              if (this.stepSize < 5) this.stepSize++;
+              if (this.stepSize < 5) {
+                this.stepSize++;
+              }
             })
         }
 
@@ -71,7 +75,9 @@ struct DocComponentSlayOut12 {
             .width(60)
           Button('-')
             .onClick(() => {
-              if (this.minValue > 0) this.minValue--;
+              if (this.minValue > 0) {
+                this.minValue--;
+              }
               if (this.currentValue < this.minValue) {
                 this.currentValue = this.minValue;
               }
@@ -81,7 +87,9 @@ struct DocComponentSlayOut12 {
             .textAlign(TextAlign.Center)
           Button('+')
             .onClick(() => {
-              if (this.minValue < this.currentValue) this.minValue++;
+              if (this.minValue < this.currentValue) {
+                this.minValue++;
+              }
             })
         }
 
@@ -91,14 +99,18 @@ struct DocComponentSlayOut12 {
             .width(60)
           Button('-')
             .onClick(() => {
-              if (this.maxValue > this.currentValue) this.maxValue--;
+              if (this.maxValue > this.currentValue) {
+                this.maxValue--;
+              }
             })
           Text(`${this.maxValue}`)
             .width(30)
             .textAlign(TextAlign.Center)
           Button('+')
             .onClick(() => {
-              if (this.maxValue < 100) this.maxValue++;
+              if (this.maxValue < 100) {
+                this.maxValue++;
+              }
             })
         }
       }

@@ -14,7 +14,7 @@
  */
 
 @Builder
-export function TestStandard020330Builder(name: string, param: Object) {
+export function testStandard020330Builder(name: string, param: Object) {
   TestStandard020330()
 }
 

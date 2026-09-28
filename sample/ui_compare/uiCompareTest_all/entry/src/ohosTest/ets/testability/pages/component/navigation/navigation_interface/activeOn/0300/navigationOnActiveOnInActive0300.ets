@@ -24,7 +24,7 @@ import { PageOne0300Builder } from './pageOne0300';
 import { TestDialog010300Builder } from './testDialog010300';
 
 @Builder
-function DynamicBuilder0300(name: string, param: Object) {
+function dynamicBuilder0300(name: string, param: Object) {
   if (name === 'PageOne0300') {
     PageOne0300Builder(name, param);
   } else if (name === 'TestDialog010300') {
@@ -61,7 +61,7 @@ struct NavigationOnActiveOnInActive0300 {
       .backgroundColor('#FFFFFF')
     }
     .title('Navigation基础场景')
-    .navDestination(DynamicBuilder0300)
+    .navDestination(dynamicBuilder0300)
   }
 }
 

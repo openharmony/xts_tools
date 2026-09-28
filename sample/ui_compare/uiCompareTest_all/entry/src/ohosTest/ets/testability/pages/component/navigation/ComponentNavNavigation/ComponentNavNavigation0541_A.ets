@@ -18,7 +18,7 @@ import { fileIo } from '@kit.CoreFileKit'
  */
 @Entry
 @Component
-struct ComponentNavNavigation0541_A {
+struct ComponentNavNavigation0541A {
   @Consume('pageInfos') pageInfos: NavPathStack
   @State backButtonIcon:string | PixelMap | Resource= 'AAA'
   @State isGifMode: boolean = false; // 用于切换状态
@@ -38,5 +38,5 @@ struct ComponentNavNavigation0541_A {
   }
 }
 
-export { ComponentNavNavigation0541_A }
+export { ComponentNavNavigation0541A }
 
