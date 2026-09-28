@@ -24,7 +24,7 @@ struct BadgeImage02 {
         .margin({ bottom: 20 })
 
       // 外部Image
-      Image($r("sys.media.ohos_ic_public_cut"))
+      Image($r('sys.media.ohos_ic_public_cut'))
         .id('outer_image')
         .width(80)
         .height(80)
@@ -33,7 +33,7 @@ struct BadgeImage02 {
 
       // Badge组件包含内部Image
       Badge({ count: 3, style: { badgeSize: 16, badgeColor: Color.Red } }) {
-        Image($r("sys.media.ohos_ic_public_cut"))
+        Image($r('sys.media.ohos_ic_public_cut'))
           .id('inner_image')
           .width(80)
           .height(80)

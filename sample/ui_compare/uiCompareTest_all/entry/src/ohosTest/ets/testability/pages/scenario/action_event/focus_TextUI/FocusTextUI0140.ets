@@ -28,8 +28,8 @@ struct FocusTextUI0140 {
 
       // 测试组合2: string "5"和"20"
       Text('2. string 5和20')
-        .minFontSize("5")
-        .maxFontSize("20")
+        .minFontSize('5')
+        .maxFontSize('20')
         .width('90%')
         .backgroundColor('#F5F5F5')
         .padding(10)
@@ -65,7 +65,7 @@ struct FocusTextUI0140 {
       // 测试组合6: number 2和string "20"
       Text('6. number 2和string 20')
         .minFontSize(2)
-        .maxFontSize("20")
+        .maxFontSize('20')
         .width('90%')
         .backgroundColor('#F5F5F5')
         .padding(10)
@@ -73,7 +73,7 @@ struct FocusTextUI0140 {
 
       // 测试组合7: string "5"和Resource float 20
       Text('7. string 5和Resource float 20')
-        .minFontSize("5")
+        .minFontSize('5')
         .maxFontSize($r('app.float.float_value_20') )
         .width('90%')
         .backgroundColor('#F5F5F5')
@@ -101,7 +101,7 @@ struct FocusTextUI0140 {
       // 测试组合10: Resource integer 5和string "20"
       Text('10. Resource integer 5和string 20')
         .minFontSize($r('app.integer.integer_value_5') )
-        .maxFontSize("20")
+        .maxFontSize('20')
         .width('90%')
         .backgroundColor('#F5F5F5')
         .padding(10)
@@ -119,7 +119,7 @@ struct FocusTextUI0140 {
       // 测试组合12: Resource integer 20和string 5
       Text('12. Resource integer 20和string 5')
         .minFontSize($r('app.integer.integer_value_20') )
-        .maxFontSize("5")
+        .maxFontSize('5')
         .width('90%')
         .backgroundColor('#F5F5F5')
         .padding(10)
@@ -137,8 +137,8 @@ struct FocusTextUI0140 {
 
       // 测试组合14: string "20"和"5"
       Text('14. string 20和5')
-        .minFontSize("20")
-        .maxFontSize("5")
+        .minFontSize('20')
+        .maxFontSize('5')
         .width('90%')
         .backgroundColor('#F5F5F5')
         .padding(10)
@@ -146,7 +146,7 @@ struct FocusTextUI0140 {
 
       // 测试组合15: string "5"和Resource integer 20
       Text('15. string 5和Resource integer 20')
-        .minFontSize("5")
+        .minFontSize('5')
         .maxFontSize($r('app.integer.integer_value_20') )
         .width('90%')
         .backgroundColor('#F5F5F5')
@@ -155,7 +155,7 @@ struct FocusTextUI0140 {
 
       // 测试组合16: string "5"和number 20
       Text('16. string 5和number 20')
-        .minFontSize("5")
+        .minFontSize('5')
         .maxFontSize(20)
         .width('90%')
         .backgroundColor('#F5F5F5')

@@ -25,14 +25,14 @@ struct ChipGroupInterface1780 {
 
   build() {
     Column() {
-      Text("ChipGroup组件，multiple不设置").fontSize(16).fontWeight(FontWeight.Bold).margin(20)
+      Text('ChipGroup组件，multiple不设置').fontSize(16).fontWeight(FontWeight.Bold).margin(20)
       
-      Text("第一组ChipGroup - multiple不设置").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('第一组ChipGroup - multiple不设置').fontSize(14).margin({ top: 10, bottom: 5 })
       ChipGroup({
         items: [
-          { label: { text: "选项1" }, allowClose: false },
-          { label: { text: "选项2" }, allowClose: false },
-          { label: { text: "选项3" }, allowClose: false }
+          { label: { text: '选项1' }, allowClose: false },
+          { label: { text: '选项2' }, allowClose: false },
+          { label: { text: '选项3' }, allowClose: false }
         ],
         selectedIndexes: this.selected_index1,
         // multiple 参数不设置
@@ -44,14 +44,14 @@ struct ChipGroupInterface1780 {
         }
       }).margin(20)
       
-      Text("第二组ChipGroup - multiple不设置（更多选项）").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('第二组ChipGroup - multiple不设置（更多选项）').fontSize(14).margin({ top: 10, bottom: 5 })
       ChipGroup({
         items: [
-          { label: { text: "项目A" }, allowClose: false },
-          { label: { text: "项目B" }, allowClose: false },
-          { label: { text: "项目C" }, allowClose: false },
-          { label: { text: "项目D" }, allowClose: false },
-          { label: { text: "项目E" }, allowClose: false }
+          { label: { text: '项目A' }, allowClose: false },
+          { label: { text: '项目B' }, allowClose: false },
+          { label: { text: '项目C' }, allowClose: false },
+          { label: { text: '项目D' }, allowClose: false },
+          { label: { text: '项目E' }, allowClose: false }
         ],
         selectedIndexes: this.selected_index2,
         // multiple 参数不设置
@@ -63,13 +63,13 @@ struct ChipGroupInterface1780 {
         }
       }).margin(20)
       
-      Text("第三组ChipGroup - multiple不设置（测试交互）").fontSize(14).margin({ top: 10, bottom: 5 })
+      Text('第三组ChipGroup - multiple不设置（测试交互）').fontSize(14).margin({ top: 10, bottom: 5 })
       ChipGroup({
         items: [
-          { label: { text: "测试1" }, allowClose: false },
-          { label: { text: "测试2" }, allowClose: false },
-          { label: { text: "测试3" }, allowClose: false },
-          { label: { text: "测试4" }, allowClose: false }
+          { label: { text: '测试1' }, allowClose: false },
+          { label: { text: '测试2' }, allowClose: false },
+          { label: { text: '测试3' }, allowClose: false },
+          { label: { text: '测试4' }, allowClose: false }
         ],
         selectedIndexes: this.selected_index3,
         // multiple 参数不设置
@@ -81,7 +81,7 @@ struct ChipGroupInterface1780 {
         }
       }).margin(20)
       
-      Text("说明：测试multiple参数不设置时的默认选择行为").fontSize(12).fontColor(Color.Gray).margin(20)
+      Text('说明：测试multiple参数不设置时的默认选择行为').fontSize(12).fontColor(Color.Gray).margin(20)
     }
   }
 }

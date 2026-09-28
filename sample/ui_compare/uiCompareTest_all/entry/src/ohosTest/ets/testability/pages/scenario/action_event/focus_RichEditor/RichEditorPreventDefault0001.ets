@@ -20,7 +20,7 @@ struct PreventDefault0001 {
   controller1: TextInputController = new TextInputController()
   options: RichEditorOptions = { controller: this.controller }
   needFocusKey: string = 'RichEditorKeyboardTest'
-  @State lineMetrics: string = ""; // 定义lineMetrics状态变量
+  @State lineMetrics: string = ''; // 定义lineMetrics状态变量
 
 
   build() {
@@ -41,9 +41,9 @@ struct PreventDefault0001 {
 
             }
           })
-          this.controller.addImageSpan($r("app.media.img2"), {
+          this.controller.addImageSpan($r('app.media.img2'), {
             imageStyle: {
-              size: ["57px", "57px"]
+              size: ['57px', '57px']
             },
             gesture:
             {

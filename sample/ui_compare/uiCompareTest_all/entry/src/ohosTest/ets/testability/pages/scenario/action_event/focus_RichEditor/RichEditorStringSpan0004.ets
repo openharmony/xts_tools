@@ -27,17 +27,17 @@ class MyUserDateSpan0004 extends UserDataSpan {
 @Component
 struct RichESS0004 {
   @State fontStyle: FontStyle = FontStyle.Italic;
-  styleString: MutableStyledString = new MutableStyledString("hello world", [{
+  styleString: MutableStyledString = new MutableStyledString('hello world', [{
     start: 0,
     length: 11,
     styledKey: StyledStringKey.USER_DATA,
-    styledValue: new MyUserDateSpan0004("hello", 21)
+    styledValue: new MyUserDateSpan0004('hello', 21)
   }]);
   controller: RichEditorStyledStringController = new RichEditorStyledStringController();
   options: RichEditorStyledStringOptions = {
     controller: this.controller
   };
-  mutableStyledString1: MutableStyledString = new MutableStyledString("属性字符串", [{
+  mutableStyledString1: MutableStyledString = new MutableStyledString('属性字符串', [{
   start: 0,
   length: 6,
   styledKey: StyledStringKey.USER_DATA,
@@ -51,24 +51,24 @@ struct RichESS0004 {
         })
         .width(300)
         .height(100)
-        .backgroundColor("#F9F9F9")
-        .border({ width: 1, color: "#DDD" })
+        .backgroundColor('#F9F9F9')
+        .border({ width: 1, color: '#DDD' })
 
       Row() {
-        Button("SetStyles调用")
+        Button('SetStyles调用')
           .id('ReSets0004')
           .onClick(() => {
             console.log('GetStyles初始日志' + JSON.stringify(this.styleString.getStyles(0,this.styleString.length)));
             this.controller.setStyledString(this.mutableStyledString1);
           })
 
-        Button("GetStyles调用")
+        Button('GetStyles调用')
           .id('ReSs0004')
           .onClick(() => {
             console.log('SetStyles调用日志' + JSON.stringify(this.mutableStyledString1.getStyles(0,this.mutableStyledString1.length)));
           })
       }
-      .width("100%")
+      .width('100%')
       .margin({ bottom: 20 })
     }
     .width('100%')

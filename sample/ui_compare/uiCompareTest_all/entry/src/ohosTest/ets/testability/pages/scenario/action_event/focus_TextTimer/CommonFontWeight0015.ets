@@ -24,7 +24,7 @@ struct TextTimerExample0015 {
       TextTimer({ isCountDown: true, count: 30000, controller: this.textTimerController })
         .format(this.format)
         .fontColor(Color.Black)
-        .fontWeight("400")
+        .fontWeight('400')
         .fontSize(50)
     }
   }

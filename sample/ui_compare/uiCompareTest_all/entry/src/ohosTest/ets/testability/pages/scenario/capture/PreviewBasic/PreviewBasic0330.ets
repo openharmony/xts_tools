@@ -29,6 +29,6 @@ struct PreviewBasic0330 {
       .onDec(() => {
         this.value--;
       })
-    }.width("100%")
+    }.width('100%')
   }
 }

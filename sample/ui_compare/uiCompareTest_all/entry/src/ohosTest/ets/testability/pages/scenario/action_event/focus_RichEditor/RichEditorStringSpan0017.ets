@@ -31,14 +31,14 @@ struct RichESS0017 {
   options: RichEditorStyledStringOptions = {
     controller: this.controller
   };
-  mutableStyledString1: MutableStyledString = new MutableStyledString("属性字符串", [{
+  mutableStyledString1: MutableStyledString = new MutableStyledString('属性字符串', [{
     start: 0,
     length: 6,
     styledKey: StyledStringKey.USER_DATA,
     styledValue: new MyUserDateSpan0017('Zhang ',23)
   }]);
 
-  mutableStyledString2: MutableStyledString = new MutableStyledString("insertStyledString", [{
+  mutableStyledString2: MutableStyledString = new MutableStyledString('insertStyledString', [{
     start: 0,
     length: 6,
     styledKey: StyledStringKey.USER_DATA,
@@ -52,11 +52,11 @@ struct RichESS0017 {
         })
         .width(300)
         .height(100)
-        .backgroundColor("#F9F9F9")
-        .border({ width: 1, color: "#DDD" })
+        .backgroundColor('#F9F9F9')
+        .border({ width: 1, color: '#DDD' })
 
       Row() {
-        Button("insertStyledString调用")
+        Button('insertStyledString调用')
           .id('ReSets0017')
           .onClick(() => {
             console.log('GetStyles调用日志' + JSON.stringify(this.mutableStyledString1.getStyles(0,this.mutableStyledString1.length)));
@@ -64,13 +64,13 @@ struct RichESS0017 {
             this.controller.setStyledString(this.mutableStyledString1);
           })
 
-        Button("GetStyles调用")
+        Button('GetStyles调用')
           .id('ReSs0017')
           .onClick(() => {
             console.log('insertString调用日志' + JSON.stringify(this.mutableStyledString1.getStyles(0,this.mutableStyledString1.length)));
           })
       }
-      .width("100%")
+      .width('100%')
       .margin({ bottom: 20 })
 
     }

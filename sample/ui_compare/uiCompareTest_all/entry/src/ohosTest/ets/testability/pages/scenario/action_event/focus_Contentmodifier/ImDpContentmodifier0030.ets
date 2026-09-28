@@ -20,9 +20,9 @@ function buildDataPanel0030(config: DataPanelConfiguration) {
     Stack() {
       // 背景矩形 - 作为Stack的底层
       Rect()
-        .width("100%")
-        .height("100%")
-        .backgroundColor("#F0F8FF")
+        .width('100%')
+        .height('100%')
+        .backgroundColor('#F0F8FF')
         .borderRadius(10)
 
       // 数据项列表 - 作为Stack的上层
@@ -33,12 +33,12 @@ function buildDataPanel0030(config: DataPanelConfiguration) {
       }
       .padding(10)
     }
-    .width("100%")
-    .height("100%")
+    .width('100%')
+    .height('100%')
 
     // 分隔线
     Column() {
-      Line().width("100%").backgroundColor("#ff373737").margin({ bottom: 5 })
+      Line().width('100%').backgroundColor('#ff373737').margin({ bottom: 5 })
     }.padding({ left: 20, right: 20 })
 
     // 数据统计信息
@@ -67,7 +67,7 @@ struct ImdpCM0030 {
 
   build() {
     Column() {
-      Text("Data panel with Stack")
+      Text('Data panel with Stack')
         .fontSize(16)
         .fontWeight(500)
         .margin({ top: 12, bottom: 10 })
@@ -80,12 +80,12 @@ struct ImdpCM0030 {
         })
           .width(400)
           .height(280) // 增加高度以适配Stack布局
-          .constraintSize({ maxWidth: "100%" })
+          .constraintSize({ maxWidth: '100%' })
           .padding({ top: 10 })
           .contentModifier(new DataPanelBuilder0030())
       }
       .margin(15)
-      .backgroundColor("#fff5f5f5")
+      .backgroundColor('#fff5f5f5')
     }
   }
 }
@@ -98,8 +98,8 @@ struct ChildItem0030 {
 
   // 优化颜色数组定义（避免在构造函数中使用this）
   private colorArray: string[] = [
-    "#65ff00dd", "#6500ff99", "#65ffe600",
-    "#6595ff00", "#65000dff", "#650099ff"
+    '#65ff00dd', '#6500ff99', '#65ffe600',
+    '#6595ff00', '#65000dff', '#650099ff'
   ];
 
   build() {
@@ -111,7 +111,7 @@ struct ChildItem0030 {
           .backgroundColor(this.colorArray[this.index % this.colorArray.length])
           .radius(5)
           .align(Alignment.Start)
-        Text(" " + this.item)
+        Text(' ' + this.item)
           .fontSize(17)
       }
     }

@@ -16,7 +16,7 @@
 @Entry
 @Component
 struct SimpleDataPanel0290 {
-  @State brValue: string = "5";
+  @State brValue: string = '5';
   build() {
     Column() {
       DataPanel({
@@ -32,7 +32,7 @@ struct SimpleDataPanel0290 {
 
       Button('点击测试')
         .id('DpBR0290')
-        .onClick(()=>{ this.brValue = "10%" })
+        .onClick(()=>{ this.brValue = '10%' })
 
       DataPanel({
         values: [1],

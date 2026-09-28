@@ -26,7 +26,7 @@ function buildDataPanel0090(config: DataPanelConfiguration) {
 
     // 分隔线
     Column() {
-      Line().width("100%").backgroundColor("#ff373737").margin({ bottom: 5 })
+      Line().width('100%').backgroundColor('#ff373737').margin({ bottom: 5 })
     }.padding({ left: 20, right: 20 })
 
     // 数据统计信息
@@ -56,7 +56,7 @@ class DataPanelBuilder0090 implements ContentModifier<DataPanelConfiguration> {
 struct DataPanelIndex0090 {
   build() {
     Column() {
-      Text("Data panel").margin({ top: 12 });
+      Text('Data panel').margin({ top: 12 });
       Row() {
         DataPanel({
           values: [12.3, 21.1, 13.4, 35.2, 26.0, 32.0],
@@ -65,10 +65,10 @@ struct DataPanelIndex0090 {
         })
           .width(400)
           .height(300) // 增加高度以显示按钮
-          .constraintSize({ maxWidth: "100%" })
+          .constraintSize({ maxWidth: '100%' })
           .padding({ top: 10 })
           .contentModifier(new DataPanelBuilder0090())
-      }.margin(15).backgroundColor("#fff5f5f5")
+      }.margin(15).backgroundColor('#fff5f5f5')
     }
   }
 }
@@ -81,8 +81,8 @@ struct ChildItem0090 {
 
   // 简化颜色数组定义
   private colorArray: string[] = [
-    "#65ff00dd", "#6500ff99", "#65ffe600",
-    "#6595ff00", "#65000dff", "#650099ff"
+    '#65ff00dd', '#6500ff99', '#65ffe600',
+    '#6595ff00', '#65000dff', '#650099ff'
   ];
 
   build() {
@@ -94,7 +94,7 @@ struct ChildItem0090 {
           .backgroundColor(this.colorArray[this.index % this.colorArray.length])
           .radius(5)
           .align(Alignment.Start)
-        Text(" " + this.item)
+        Text(' ' + this.item)
           .fontSize(17)
       }
     }.height('2.3%')

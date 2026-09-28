@@ -25,11 +25,11 @@ struct SnapshotAttribute220 {
         .width(80)
         .height(80)
         .margin({ left: -20 })
-        .id("targetComponent") // 为需要截图的组件设置id
+        .id('targetComponent') // 为需要截图的组件设置id
         .foregroundColor(this.col)
 
       // 截图按钮
-      Button("点击截图")
+      Button('点击截图')
         .onClick(() => {
           this.col=Color.Blue;
         })

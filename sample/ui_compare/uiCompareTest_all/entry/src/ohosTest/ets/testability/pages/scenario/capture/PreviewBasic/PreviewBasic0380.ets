@@ -41,7 +41,7 @@ struct PreviewBasic0380 {
           enableWaveEffect: true
         })
         .onDotConnect((index: number) => {
-          console.info("onDotConnect index: " + index);
+          console.info('onDotConnect index: ' + index);
         })
         .onPatternComplete((input: number[]) => {
           // 输入的密码长度小于5时，提示重新输入
@@ -63,7 +63,7 @@ struct PreviewBasic0380 {
           } else {
             // 提示第二次输入密码
             this.passwords = input;
-            this.message = "Please enter again.";
+            this.message = 'Please enter again.';
           }
         })
       Button('Reset PatternLock').margin(30).onClick(() => {

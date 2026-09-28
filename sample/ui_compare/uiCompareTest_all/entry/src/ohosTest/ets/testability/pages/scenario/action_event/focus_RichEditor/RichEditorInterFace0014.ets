@@ -19,29 +19,29 @@ struct RichEditorSpan0014 {
   options: RichEditorOptions = { controller: this.controller };
   private start: number = -1;
   private end: number = -1;
-  @State message: string = "[-1, -1]";
-  @State content: string = "";
+  @State message: string = '[-1, -1]';
+  @State content: string = '';
 
   build() {
     Column() {
       Column() {
-        Text("selection range:").width("100%")
+        Text('selection range:').width('100%')
         Text() {
           Span(this.message)
-        }.width("100%")
-        Text("selection content:").width("100%")
+        }.width('100%')
+        Text('selection content:').width('100%')
         Text() {
           Span(this.content)
-        }.width("100%")
+        }.width('100%')
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("20%")
+      .width('100%')
+      .height('20%')
 
       Column(){
        Row(){
-         Button("0-1更新样式:加粗").id('111').onClick(() => {
+         Button('0-1更新样式:加粗').id('111').onClick(() => {
          this.controller.updateSpanStyle({
            start: 0,
            end: 1,
@@ -52,7 +52,7 @@ struct RichEditorSpan0014 {
          })
        })
 
-         Button("1-2更新样式:加粗").id('222').onClick(() => {
+         Button('1-2更新样式:加粗').id('222').onClick(() => {
            this.controller.updateSpanStyle({
              start: 1,
              end: 2,
@@ -63,7 +63,7 @@ struct RichEditorSpan0014 {
            })
          })
 
-         Button("100-101更新样式:加粗").id('333').onClick(() => {
+         Button('100-101更新样式:加粗').id('333').onClick(() => {
            this.controller.updateSpanStyle({
              start: 100,
              end: 101,
@@ -76,7 +76,7 @@ struct RichEditorSpan0014 {
        }
 
         Row(){
-         Button("2-1更新样式:加粗").id('444').onClick(() => {
+         Button('2-1更新样式:加粗').id('444').onClick(() => {
           this.controller.updateSpanStyle({
             start: 2,
             end: 1,
@@ -87,7 +87,7 @@ struct RichEditorSpan0014 {
           })
         })
 
-        Button("-1--1更新样式:加粗").id('555').onClick(() => {
+        Button('-1--1更新样式:加粗').id('555').onClick(() => {
           this.controller.updateSpanStyle({
             start: -1,
             end: -1,
@@ -100,13 +100,13 @@ struct RichEditorSpan0014 {
       }
       }
       .borderColor(Color.Red)
-      .width("100%")
-      .height("10%")
+      .width('100%')
+      .height('10%')
 
       Column() {
         RichEditor(this.options)
           .onReady(() => {
-            this.controller.addTextSpan("012345",
+            this.controller.addTextSpan('012345',
               {
                 style:
                 {
@@ -114,21 +114,21 @@ struct RichEditorSpan0014 {
                   fontSize: 30
                 }
               })
-            this.controller.addSymbolSpan($r("app.media.Symbolspan001"),
+            this.controller.addSymbolSpan($r('app.media.Symbolspan001'),
               {
                 style:
                 {
                   fontSize: 30
                 }
               })
-            this.controller.addImageSpan($r("app.media.icon"),
+            this.controller.addImageSpan($r('app.media.icon'),
               {
                 imageStyle:
                 {
-                  size: ["57px", "57px"]
+                  size: ['57px', '57px']
                 }
               })
-            this.controller.addTextSpan("56789",
+            this.controller.addTextSpan('56789',
               {
                 style:
                 {
@@ -140,26 +140,26 @@ struct RichEditorSpan0014 {
           .onSelect((value: RichEditorSelection) => {
             this.start = value.selection[0];
             this.end = value.selection[1];
-            this.message = "[" + this.start + ", " + this.end + "]";
+            this.message = '[' + this.start + ', ' + this.end + ']';
           })
-          .placeholder("input...", {
+          .placeholder('input...', {
             fontColor: Color.Gray,
             font: {
               size: 16,
               weight: FontWeight.Normal,
-              family: "sans-serif",
+              family: 'sans-serif',
               style: FontStyle.Normal
             }
           })
           .borderWidth(1)
           .borderColor(Color.Green)
-          .width("100%")
-          .height("30%")
+          .width('100%')
+          .height('30%')
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("70%")
+      .width('100%')
+      .height('70%')
     }
   }
 }

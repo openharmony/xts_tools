@@ -23,7 +23,7 @@ struct PopupMaxWidth0070 {
       // popup 高级组件，使用资源引用方式设置maxWidth为$r("app.string.string1")，值为"200vp"
       Popup({
         // 设置maxWidth为资源引用
-        maxWidth: $r("app.string.string1"),
+        maxWidth: $r('app.string.string1'),
         // PopupIconOptions类型设置图标内容
         icon: {
           image: $r('app.media.icon'),

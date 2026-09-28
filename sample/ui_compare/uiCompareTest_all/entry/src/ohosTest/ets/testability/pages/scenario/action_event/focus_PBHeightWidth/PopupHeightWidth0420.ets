@@ -82,17 +82,17 @@ struct PopupHeightWidth0420 {
 
   build() {
     Column({ space: 20 }) {
-      Text(this.rectangleDrawable !== null ? "长方形DrawableDescriptor加载成功 ✓" : "加载中...")
+      Text(this.rectangleDrawable !== null ? '长方形DrawableDescriptor加载成功 ✓' : '加载中...')
         .fontSize(16)
         .fontColor(this.rectangleDrawable !== null ? Color.Green : Color.Orange)
       
       if (this.rectangleDrawable !== null) {
         Column({ space: 10 }) {
-          Text("长方形图标预览 (120x60):")
+          Text('长方形图标预览 (120x60):')
             .fontSize(14)
             .fontColor(Color.Gray)
           
-          Text("自适应显示效果:")
+          Text('自适应显示效果:')
             .fontSize(12)
             .fontColor(Color.Gray)
           
@@ -108,7 +108,7 @@ struct PopupHeightWidth0420 {
         .borderRadius(8)
       }
       
-      Button("显示Popup")
+      Button('显示Popup')
         .id('showPopupButton0420')
         .onClick(() => {
           this.showPopup = !this.showPopup;

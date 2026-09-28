@@ -24,8 +24,8 @@ class MyData2 {
 @Entry
 @ComponentV2
 struct StatusManagerV2IfElseAnimateTo004 {
-  @Local data1: MyData2|undefined = new MyData2("branch 0");
-  @Local data2: MyData2|undefined = new MyData2("branch 1");
+  @Local data1: MyData2|undefined = new MyData2('branch 0');
+  @Local data2: MyData2|undefined = new MyData2('branch 1');
   private caseName: string = 'SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0040';
 
   build() {
@@ -41,20 +41,20 @@ struct StatusManagerV2IfElseAnimateTo004 {
             .fontColor(Color.Blue)
             .fontSize(40)
             .textAlign(TextAlign.Center)
-            .id("1")
+            .id('1')
             .transition(TransitionEffect.IDENTITY)
         } else {
           Text(this.data2?.str)
             .fontColor(Color.Pink)
             .fontSize(40)
             .textAlign(TextAlign.Center)
-            .id("2")
+            .id('2')
             .transition(TransitionEffect.IDENTITY)
         }
       }.width('100%').height('20%').justifyContent(FlexAlign.Center)
       Column() {
-        Button("play with animation")
-          .id("changeData2")
+        Button('play with animation')
+          .id('changeData2')
           .margin(20)
           .fontSize(30)
           .stateEffect(true)
@@ -64,11 +64,11 @@ struct StatusManagerV2IfElseAnimateTo004 {
             animateTo({}, () => {
               if (this.data1) {
                 this.data1 = undefined;
-                this.data2 = new MyData2("branch 1");
+                this.data2 = new MyData2('branch 1');
                 console.info(`${this.caseName} data1 is ${JSON.stringify(this.data1)}`);
                 console.info(`${this.caseName} data2 is ${JSON.stringify(this.data2)}`);
               } else {
-                this.data1 = new MyData2("branch 0");
+                this.data1 = new MyData2('branch 0');
                 this.data2 = undefined;
                 console.info(`${this.caseName} data1 is ${JSON.stringify(this.data1)}`);
                 console.info(`${this.caseName} data2 is ${JSON.stringify(this.data2)}`);

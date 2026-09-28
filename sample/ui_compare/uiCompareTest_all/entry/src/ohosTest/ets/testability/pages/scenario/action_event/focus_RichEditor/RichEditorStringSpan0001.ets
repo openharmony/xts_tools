@@ -27,11 +27,11 @@ class MyUserDateSpan0001 extends UserDataSpan {
 @Component
 struct RichESS0001 {
   @State fontStyle: FontStyle = FontStyle.Italic;
-  styleString: MutableStyledString = new MutableStyledString("hello world", [{
+  styleString: MutableStyledString = new MutableStyledString('hello world', [{
     start: 0,
     length: 11,
     styledKey: StyledStringKey.USER_DATA,
-    styledValue: new MyUserDateSpan0001("hello", 21)
+    styledValue: new MyUserDateSpan0001('hello', 21)
   }]);
   controller: RichEditorStyledStringController = new RichEditorStyledStringController();
   options: RichEditorStyledStringOptions = {
@@ -45,17 +45,17 @@ struct RichESS0001 {
         })
         .width(300)
         .height(100)
-        .backgroundColor("#F9F9F9")
-        .border({ width: 1, color: "#DDD" })
+        .backgroundColor('#F9F9F9')
+        .border({ width: 1, color: '#DDD' })
 
       Row() {
-        Button("GetStyles调用")
+        Button('GetStyles调用')
           .id('ReSs0001')
           .onClick(() => {
             console.log('GetStyles调用日志' + JSON.stringify(this.styleString.getStyles(0,this.styleString.length)));
           })
       }
-      .width("100%")
+      .width('100%')
       .margin({ bottom: 20 })
     }
     .width('100%')

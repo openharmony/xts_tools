@@ -26,7 +26,7 @@ struct CounterImage02 {
         .margin({ bottom: 20 })
 
       // 外部Image
-      Image($r("sys.media.ohos_ic_public_cut"))
+      Image($r('sys.media.ohos_ic_public_cut'))
         .id('outer_image')
         .width(80)
         .height(80)
@@ -35,7 +35,7 @@ struct CounterImage02 {
 
       // Counter组件包含内部Image
       Counter() {
-        Image($r("sys.media.ohos_ic_public_cut"))
+        Image($r('sys.media.ohos_ic_public_cut'))
           .id('inner_image')
           .width(80)
           .height(80)

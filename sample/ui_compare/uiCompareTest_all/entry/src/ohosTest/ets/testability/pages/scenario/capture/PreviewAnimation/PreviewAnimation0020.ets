@@ -58,7 +58,7 @@ struct PreviewAnimation0020 {
       .translate({ x: this.boxTranslateX, y: this.boxTranslateY })
       .rotate({ angle: this.boxRotate })
       .scale({ x: this.boxScale, y: this.boxScale })
-      .animation({ curve: "ease-out" })
+      .animation({ curve: 'ease-out' })
       .id('PreviewAnimation0020_004')
       .margin({ bottom: 30 })
 

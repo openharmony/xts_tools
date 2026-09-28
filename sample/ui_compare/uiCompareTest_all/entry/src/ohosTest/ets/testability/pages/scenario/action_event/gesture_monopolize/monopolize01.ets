@@ -37,8 +37,8 @@ struct Monopolize01 {
         .margin(10)
           // 通过button的点击事件来切换内层column的独占控制属性
         .onClick(()=>{
-          this.messageOut = " "
-          this.messageInner = " "
+          this.messageOut = ' '
+          this.messageInner = ' '
         })
       Column() {
         Column(){}
@@ -52,8 +52,8 @@ struct Monopolize01 {
         // 内层column绑定触摸事件
         .onTouch((event:TouchEvent)=>{
           if (event.type == TouchType.Down) {
-            console.log("inner column touch down")
-            this.messageInner = "inner column touch down"
+            console.log('inner column touch down')
+            this.messageInner = 'inner column touch down'
           }
         })
       }
@@ -63,8 +63,8 @@ struct Monopolize01 {
       // 外层column绑定触摸事件
       .onTouch((event)=>{
         if (event.type == TouchType.Down) {
-          console.log("outside column touch down")
-          this.messageOut = "inner column touch down"
+          console.log('outside column touch down')
+          this.messageOut = 'inner column touch down'
         }
       })
     }

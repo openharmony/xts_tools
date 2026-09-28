@@ -23,7 +23,7 @@ struct PopupHeightWidth0400 {
   popupBuilder() {
     Popup({
       icon: {
-        image: "common/icon.png"
+        image: 'common/icon.png'
       } as PopupIconOptions,
       message: {
         text: 'Popup内容 - 测试icon image为string路径'
@@ -39,7 +39,7 @@ struct PopupHeightWidth0400 {
 
   build() {
     Column() {
-      Button("显示Popup")
+      Button('显示Popup')
         .id('showPopupButton0400')
         .onClick(() => {
           this.showPopup = !this.showPopup;

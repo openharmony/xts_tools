@@ -21,7 +21,7 @@ struct DatePickerDialog0330 {
   build() {
     Row() {
       Column() {
-        Button("DatePickerDialog:" + this.v)
+        Button('DatePickerDialog:' + this.v)
           .margin(20)
           .id('DPD0330')
           .tabStop(true)
@@ -46,28 +46,28 @@ struct DatePickerDialog0330 {
                   console.log(this.select + '')
                   // 点击确定后，被选到的文本数据展示到页面
                   this.v = value.value as string
-                  console.info("TextPickerDialog:onAccept()" + JSON.stringify(value))
+                  console.info('TextPickerDialog:onAccept()' + JSON.stringify(value))
                 },
                 onCancel: () => {
-                  console.info("TextPickerDialog:onCancel()")
+                  console.info('TextPickerDialog:onCancel()')
                 },
                 onChange: (value: TextPickerResult) => {
-                  console.info("TextPickerDialog:onChange()" + JSON.stringify(value))
+                  console.info('TextPickerDialog:onChange()' + JSON.stringify(value))
                 },
                 onScrollStop: (value: TextPickerResult) => {
-                  console.info("TextPickerDialog:onScrollStop()" + JSON.stringify(value))
+                  console.info('TextPickerDialog:onScrollStop()' + JSON.stringify(value))
                 },
                 onDidAppear: () => {
-                  console.info("TextPickerDialog:onDidAppear()")
+                  console.info('TextPickerDialog:onDidAppear()')
                 },
                 onDidDisappear: () => {
-                  console.info("TextPickerDialog:onDidDisappear()")
+                  console.info('TextPickerDialog:onDidDisappear()')
                 },
                 onWillAppear: () => {
-                  console.info("TextPickerDialog:onWillAppear()")
+                  console.info('TextPickerDialog:onWillAppear()')
                 },
                 onWillDisappear: () => {
-                  console.info("TextPickerDialog:onWillDisappear()")
+                  console.info('TextPickerDialog:onWillDisappear()')
                 }
               })
           })

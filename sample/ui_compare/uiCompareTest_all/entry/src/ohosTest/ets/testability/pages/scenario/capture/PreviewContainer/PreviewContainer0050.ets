@@ -16,7 +16,7 @@
 @Entry
 @Component
 struct PreviewContainer0050 {
-  @State numbers: string[] = ["0", "1", "2", "3", "4", "5", "6", "7", "8"];
+  @State numbers: string[] = ['0', '1', '2', '3', '4', '5', '6', '7', '8'];
   @State selectedIndex: number = -1;
 
   build() {

@@ -24,7 +24,7 @@ struct Hyphenation00001 {
         .key('ParagraphSet')
         .placeholder('Input words here')
         .onReady(() => {
-          this.controller.addTextSpan("This is a long paragraph of english words to test the congratulation of the paragraphStyle, see if the paragraph breaks as set.", {
+          this.controller.addTextSpan('This is a long paragraph of english words to test the congratulation of the paragraphStyle, see if the paragraph breaks as set.', {
             style: {
               fontColor: Color.Pink
             },
@@ -36,7 +36,7 @@ struct Hyphenation00001 {
         .align(Alignment.TopStart)
         .height(100)
         .borderWidth(1)
-        .width("100%")
+        .width('100%')
     }
   }
 }

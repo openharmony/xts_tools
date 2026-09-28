@@ -38,10 +38,10 @@ struct PatternLockKeyboard01 {
         .autoReset(true)
         .focusable(true)
         .onPatternComplete((input: number[]) => {
-          console.info("Pattern complete: " + input.toString());
+          console.info('Pattern complete: ' + input.toString());
         })
         .onDotConnect((index: number) => {
-          console.info("Dot connect index: " + index);
+          console.info('Dot connect index: ' + index);
         })
 
       Text('预期效果：按Tab键和上下左右键，九宫格解锁按钮可正常获焦')

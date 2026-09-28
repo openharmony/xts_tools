@@ -17,7 +17,7 @@
 @Component
 struct PreviewBasic0230 {
   controller: TextAreaController = new TextAreaController();
-  @State inputValue: string = "";
+  @State inputValue: string = '';
 
   // 自定义键盘组件
   @Builder CustomKeyboardBuilder() {
@@ -29,7 +29,7 @@ struct PreviewBasic0230 {
       Grid() {
         ForEach([1, 2, 3, 4, 5, 6, 7, 8, 9, '*', 0, '#'], (item: number | string) => {
           GridItem() {
-            Button(item + "")
+            Button(item + '')
               .width(110).onClick(() => {
               this.inputValue += item;
             })

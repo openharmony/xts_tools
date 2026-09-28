@@ -46,7 +46,7 @@ struct DataPanelWatches0014 {
             max: 100,
             type: DataPanelType.Circle,
           }).width(168).height(168)
-            .strokeWidth(" ")
+            .strokeWidth(' ')
             .padding(10)
         }
       }

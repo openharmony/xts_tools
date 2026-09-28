@@ -29,7 +29,7 @@ struct BuilderDemo540 {
           colors: [[0xAEE1E1, 0.0], [0xD3E0DC, 0.3], [0xFCD1D1, 1.0]]
         },
         slice: { top: 10, bottom: 10, left: 10, right: 10 },
-        width: { top: "10px", bottom: "10px", left: "10px", right: "10px" },
+        width: { top: '10px', bottom: '10px', left: '10px', right: '10px' },
         repeat: RepeatMode.Stretch,
         fill: false
       })

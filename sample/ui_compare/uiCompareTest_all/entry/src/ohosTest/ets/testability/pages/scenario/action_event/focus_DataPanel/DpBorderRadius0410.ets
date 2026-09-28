@@ -36,7 +36,7 @@ struct SimpleDataPanel0410 {
 
       Button('点击测试')
         .id('DpBR0410')
-        .onClick(()=>{ this.tright = " "; this.tleft = "abcde";this.bright = undefined;this.bleft = "#####" })
+        .onClick(()=>{ this.tright = ' '; this.tleft = 'abcde';this.bright = undefined;this.bleft = '#####' })
     }
     .width('100%')
     .height('100%')

@@ -18,23 +18,23 @@
 struct REInterFace0059 {
   controller: RichEditorController = new RichEditorController();
   options: RichEditorOptions = { controller: this.controller };
-  @State content: string = "";
+  @State content: string = '';
 
   build() {
     Column() {
       // 内容显示区域
       Column() {
-        Text("编辑器内容:").width("100%")
+        Text('编辑器内容:').width('100%')
         Text() {
           Span(this.content)
-        }.width("100%")
+        }.width('100%')
       }
       .border({ width: 1, color: Color.Red })
-      .width("100%")
+      .width('100%')
       .padding(10)
 
       // 操作按钮
-      Button("获取全部内容")
+      Button('获取全部内容')
         .id('InterFace0059')
         .onClick(() => this.getAllContent())
         .margin({ top: 20 })
@@ -42,14 +42,14 @@ struct REInterFace0059 {
       // 富文本编辑器
       RichEditor(this.options)
         .onReady(() => this.initContent())
-        .placeholder("输入内容...")
+        .placeholder('输入内容...')
         .border({ width: 1, color: Color.Green })
-        .width("100%")
+        .width('100%')
         .height(200)
         .margin({ top: 20 })
     }
-    .width("100%")
-    .height("100%")
+    .width('100%')
+    .height('100%')
     .padding(20)
   }
 
@@ -57,14 +57,14 @@ struct REInterFace0059 {
   private initContent() {
     this.controller.addTextSpan('测试文本 ');
     this.controller.addTextSpan('😄', { style: { fontSize: 24 } }); // Emoji
-    this.controller.addSymbolSpan($r("app.media.Symbolspan001")); // 符号
+    this.controller.addSymbolSpan($r('app.media.Symbolspan001')); // 符号
     this.controller.addTextSpan(' 更多文本 ');
     this.controller.addTextSpan('🎉', { style: { fontSize: 24 } }); // Emoji
   }
 
   // 获取全部内容（从开始到结尾）
   private getAllContent() {
-    this.content = "";
+    this.content = '';
 
     try {
       // 获取整个编辑器的Span信息（使用足够大的end值）

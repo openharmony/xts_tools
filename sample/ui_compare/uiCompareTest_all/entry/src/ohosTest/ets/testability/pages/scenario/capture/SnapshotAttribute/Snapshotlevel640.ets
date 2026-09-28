@@ -18,7 +18,7 @@ import { image } from '@kit.ImageKit';
 import { ComponentContent } from '@kit.ArkUI';
 
 class Params{
-  backgroundColor: string | Resource = ""
+  backgroundColor: string | Resource = ''
   constructor(backgroundColor: string | Resource) {
     this.backgroundColor = backgroundColor;
   }

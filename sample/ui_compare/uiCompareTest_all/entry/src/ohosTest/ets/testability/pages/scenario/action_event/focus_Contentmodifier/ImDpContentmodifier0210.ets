@@ -21,10 +21,10 @@ function buildDataPanel0210(config: DataPanelConfiguration) {
       .width(12.3 * 600 / 140)
       .radius(5)
       .align(Alignment.Start)
-    Text(" " + 12.3)
+    Text(' ' + 12.3)
       .fontSize(17)
   }
-  .width("100%").margin({ bottom: 5 }).height('100%')
+  .width('100%').margin({ bottom: 5 }).height('100%')
 }
 
 class DataPanelBuilder0210 implements ContentModifier<DataPanelConfiguration> {
@@ -38,16 +38,16 @@ class DataPanelBuilder0210 implements ContentModifier<DataPanelConfiguration> {
 @Entry
 @Component
 struct ContentModifier0210 {
-  public color1: string = "#65ff00dd"
+  public color1: string = '#65ff00dd'
   public colorArray: string[] = [this.color1]
   build() {
     Column() {
-      Text("Data panel").margin({ top: 12 });
+      Text('Data panel').margin({ top: 12 });
       Row() {
         DataPanel({ values: [12.3], max: 140, type: DataPanelType.Circle })
           .width(400)
           .height(260)
-          .constraintSize({ maxWidth: "100%" })
+          .constraintSize({ maxWidth: '100%' })
           .padding({ top: 10 })
           .contentModifier(new DataPanelBuilder0210())
           .trackBackgroundColor($r('app.color.Pink'))

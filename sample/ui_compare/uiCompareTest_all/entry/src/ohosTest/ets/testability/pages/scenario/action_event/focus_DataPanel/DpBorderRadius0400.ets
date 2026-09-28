@@ -16,7 +16,7 @@
 @Entry
 @Component
 struct SimpleDataPanel0400 {
-  @State brValue: Resource = $r("app.string.string_value_20");
+  @State brValue: Resource = $r('app.string.string_value_20');
   build() {
     Column() {
       DataPanel({
@@ -32,7 +32,7 @@ struct SimpleDataPanel0400 {
 
       Button('点击测试')
         .id('DpBR0400')
-        .onClick(()=>{ this.brValue = $r("app.string.select_select_null")})
+        .onClick(()=>{ this.brValue = $r('app.string.select_select_null')})
 
     }
     .width('100%')

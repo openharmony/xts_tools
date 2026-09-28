@@ -34,7 +34,7 @@ struct TextBackgroundStyle001 {
         .align(Alignment.TopStart)
         .height(100)
         .borderWidth(1)
-        .width("100%")
+        .width('100%')
     }
   }
 }

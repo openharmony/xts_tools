@@ -19,7 +19,7 @@ struct BuilderDemo560 {
   @Builder
   showTextBuilder() {
     Row() {
-      Text("BackgroundBrightness")
+      Text('BackgroundBrightness')
     }
     .width('100%')
     .height('100%')

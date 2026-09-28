@@ -79,7 +79,7 @@ struct SegmentButtonV21450 {
             this.itemShadowValue = {
               radius: LengthMetrics.resource($r('app.string.string1')),
               type: 0, // ShadowType.COLOR
-              color: "#00FF00",
+              color: '#00FF00',
               offsetX: LengthMetrics.resource($r('app.string.string1')),
               offsetY: LengthMetrics.resource($r('app.string.string1')),
               fill: false

@@ -22,8 +22,8 @@ class MyData2 {
 @Entry
 @Component
 struct StatusManagerV2IfElseAnimateTo002 {
-  @State data1: MyData2|undefined = new MyData2("branch 0");
-  @State data2: MyData2|undefined = new MyData2("branch 1");
+  @State data1: MyData2|undefined = new MyData2('branch 0');
+  @State data2: MyData2|undefined = new MyData2('branch 1');
   private caseName: string = 'SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0020';
 
   build() {
@@ -39,18 +39,18 @@ struct StatusManagerV2IfElseAnimateTo002 {
             .fontColor(Color.Blue)
             .fontSize(40)
             .textAlign(TextAlign.Center)
-            .id("1")
+            .id('1')
         } else {
           Text(this.data2?.str)
             .fontColor(Color.Pink)
             .fontSize(40)
             .textAlign(TextAlign.Center)
-            .id("2")
+            .id('2')
         }
       }.width('100%').height('20%').justifyContent(FlexAlign.Center)
       Column() {
-        Button("play with animation")
-          .id("changeData")
+        Button('play with animation')
+          .id('changeData')
           .margin(20)
           .fontSize(30)
           .stateEffect(true)
@@ -60,11 +60,11 @@ struct StatusManagerV2IfElseAnimateTo002 {
             animateTo({}, () => {
               if (this.data1) {
                 this.data1 = undefined;
-                this.data2 = new MyData2("branch 1");
+                this.data2 = new MyData2('branch 1');
                 console.info(`${this.caseName} data1 is ${JSON.stringify(this.data1)}`);
                 console.info(`${this.caseName} data2 is ${JSON.stringify(this.data2)}`);
               } else {
-                this.data1 = new MyData2("branch 0");
+                this.data1 = new MyData2('branch 0');
                 this.data2 = undefined;
                 console.info(`${this.caseName} data1 is ${JSON.stringify(this.data1)}`);
                 console.info(`${this.caseName} data2 is ${JSON.stringify(this.data2)}`);

@@ -19,14 +19,14 @@ struct RichEditorSpan0015 {
   options: RichEditorOptions = { controller: this.controller };
   private start: number = -1;
   private end: number = -1;
-  @State message: string = "[-1, -1]";
-  @State content: string = "";
+  @State message: string = '[-1, -1]';
+  @State content: string = '';
 
   build() {
     Column() {
       Column(){
         Row(){
-          Button("0-1段落更新样式").id('Paragraph111').onClick(() => {
+          Button('0-1段落更新样式').id('Paragraph111').onClick(() => {
             this.controller.updateParagraphStyle({
               start: 0,
               end: 1,
@@ -39,7 +39,7 @@ struct RichEditorSpan0015 {
             })
           })
 
-          Button("1-2段落更新样式").id('Paragraph222').onClick(() => {
+          Button('1-2段落更新样式').id('Paragraph222').onClick(() => {
             this.controller.updateParagraphStyle({
               start: 1,
               end: 2,
@@ -53,7 +53,7 @@ struct RichEditorSpan0015 {
             })
           })
 
-          Button("50-51更新样式").id('Paragraph333').onClick(() => {
+          Button('50-51更新样式').id('Paragraph333').onClick(() => {
             this.controller.updateParagraphStyle({
               start: 50,
               end: 51,
@@ -69,12 +69,12 @@ struct RichEditorSpan0015 {
         }
       }
       .borderColor(Color.Red)
-      .width("100%")
+      .width('100%')
 
       Column() {
         RichEditor(this.options)
           .onReady(() => {
-            this.controller.addTextSpan("01234567890这将是一段长文本显示，为了测试段落样式修改",
+            this.controller.addTextSpan('01234567890这将是一段长文本显示，为了测试段落样式修改',
               {
                 style:
                 {
@@ -82,7 +82,7 @@ struct RichEditorSpan0015 {
                   fontSize: 30
                 }
               })
-            this.controller.addTextSpan("这将是一段长文本显示，为了测试段落样式修改01234567890",
+            this.controller.addTextSpan('这将是一段长文本显示，为了测试段落样式修改01234567890',
               {
                 style:
                 {
@@ -94,25 +94,25 @@ struct RichEditorSpan0015 {
           .onSelect((value: RichEditorSelection) => {
             this.start = value.selection[0];
             this.end = value.selection[1];
-            this.message = "[" + this.start + ", " + this.end + "]";
+            this.message = '[' + this.start + ', ' + this.end + ']';
           })
-          .placeholder("input...", {
+          .placeholder('input...', {
             fontColor: Color.Gray,
             font: {
               size: 16,
               weight: FontWeight.Normal,
-              family: "sans-serif",
+              family: 'sans-serif',
               style: FontStyle.Normal
             }
           })
           .borderWidth(1)
           .borderColor(Color.Green)
-          .width("100%")
-          .height("30%")
+          .width('100%')
+          .height('30%')
       }
       .borderColor(Color.Red)
-      .width("100%")
-      .height("100%")
+      .width('100%')
+      .height('100%')
     }
   }
 }

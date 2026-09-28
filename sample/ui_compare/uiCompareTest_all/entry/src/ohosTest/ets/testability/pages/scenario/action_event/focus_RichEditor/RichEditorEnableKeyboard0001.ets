@@ -20,7 +20,7 @@ struct KeyBoard0001 {
   controller: RichEditorController = new RichEditorController()
   controller1: TextInputController = new TextInputController()
   needFocusKey: string = 'RichEditorKeyboardTest'
-  @State textFlag: string = "TextFlag";
+  @State textFlag: string = 'TextFlag';
 
   build() {
     Column() {
@@ -30,7 +30,7 @@ struct KeyBoard0001 {
         .height(100)
         .borderWidth(1)
         .borderColor(Color.Red)
-        .width("100%")
+        .width('100%')
         .onPaste((event?: PasteEvent) => {
         })
       Button('点我获取焦点')

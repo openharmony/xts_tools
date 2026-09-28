@@ -23,7 +23,7 @@ function buildDataPanel0060(config: DataPanelConfiguration) {
     }.padding(10)
 
     Column() {
-      Line().width("100%").backgroundColor("#ff373737").margin({ bottom: 5 })
+      Line().width('100%').backgroundColor('#ff373737').margin({ bottom: 5 })
     }.padding({ left: 20, right: 20 })
 
     Row() {
@@ -52,15 +52,15 @@ struct ImdpCM0060 {
   @State value6:number= 32.0;
   build() {
     Column() {
-      Text("Data panel").margin({ top: 12 });
+      Text('Data panel').margin({ top: 12 });
       Row() {
         DataPanel({ values: [this.value1, this.value2, this.value3, this.value4, this.value5, this.value6], max: 140, type: DataPanelType.Circle })
           .width(400)
           .height(260)
-          .constraintSize({ maxWidth: "100%" })
+          .constraintSize({ maxWidth: '100%' })
           .padding({ top: 10 })
           .contentModifier(new DataPanelBuilder0060())
-      }.margin(15).backgroundColor("#fff5f5f5")
+      }.margin(15).backgroundColor('#fff5f5f5')
       Button('动态变化按钮')
         .id('dataPanel0060')
         .onClick(()=>{
@@ -80,12 +80,12 @@ struct ChildItem0060 {
   @Prop item: number;
   @Prop index: number;
   @Prop max: number;
-  public color1: string = "#65ff00dd"
-  public color2: string = "#6500ff99"
-  public color3: string = "#65ffe600"
-  public color4: string = "#6595ff00"
-  public color5: string = "#65000dff"
-  public color6: string = "#650099ff"
+  public color1: string = '#65ff00dd'
+  public color2: string = '#6500ff99'
+  public color3: string = '#65ffe600'
+  public color4: string = '#6595ff00'
+  public color5: string = '#65000dff'
+  public color6: string = '#650099ff'
   public colorArray: string[] = [this.color1, this.color2, this.color3, this.color4, this.color5, this.color6]
 
   build() {
@@ -97,7 +97,7 @@ struct ChildItem0060 {
           .foregroundColor(this.colorArray[this.index])
           .radius(5)
           .align(Alignment.Start)
-        Text(" " + this.item)
+        Text(' ' + this.item)
           .fontSize(17)
       }
     }.height('2.3%')

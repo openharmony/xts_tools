@@ -58,7 +58,7 @@ struct PreviewBasic0120 {
             }.width('100%').padding(10)
           }
         }
-        .title("WLAN详细设置") // 修改标题文字
+        .title('WLAN详细设置') // 修改标题文字
         .backgroundColor('#F5F5F5') // 添加背景色
       }
       .margin({ top: 15, bottom: 8, left: 10, right: 10 }) // 修改外边距
@@ -105,7 +105,7 @@ struct PreviewBasic0120 {
             }.width('100%').padding(10)
           }
         }
-        .title("蓝牙设备管理")
+        .title('蓝牙设备管理')
         .backgroundColor('#F5F5F5')
       }
       .margin({ top: 8, bottom: 8, left: 10, right: 10 })
@@ -143,7 +143,7 @@ struct PreviewBasic0120 {
             Text('GPS精度: 高').fontSize(16).fontColor(Color.Gray)
           }.alignItems(HorizontalAlign.Start).padding(20)
         }
-        .title("位置服务")
+        .title('位置服务')
         .backgroundColor('#F5F5F5')
       }
       .margin({ top: 8, bottom: 8, left: 10, right: 10 })
@@ -182,7 +182,7 @@ struct PreviewBasic0120 {
             Button('开启热点').width('80%').height(50)
           }.alignItems(HorizontalAlign.Center).padding(20)
         }
-        .title("个人热点")
+        .title('个人热点')
         .backgroundColor('#F5F5F5')
       }
       .margin({ top: 8, bottom: 15, left: 10, right: 10 })
@@ -197,7 +197,7 @@ struct PreviewBasic0120 {
     .height('100%')
     .width('100%')
     .title('网络设置中心') // 修改导航标题
-    .backgroundColor("#E8EAF6") // 修改背景颜色
+    .backgroundColor('#E8EAF6') // 修改背景颜色
     .titleMode(NavigationTitleMode.Mini) // 修改为 Mini 标题模式
     .mode(NavigationMode.Stack) // 修改为 Stack 模式
     .hideBackButton(false) // 显示返回按钮

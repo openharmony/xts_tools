@@ -124,7 +124,7 @@ export struct PreviewContainer0040 {
         LazyForEach(this.dataSource, (item: number) => {
           FlowItem() {
             Column() {
-              Text("N" + item)
+              Text('N' + item)
                 .fontSize(12)
                 .height(16)
                 .textAlign(TextAlign.Center)

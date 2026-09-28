@@ -45,7 +45,7 @@ struct Monopolize02 {
         .gesture(
           TapGesture()
             .onAction((event: GestureEvent) => {
-              console.log("TapGesture");
+              console.log('TapGesture');
               this.listText1 = '22222'
             })
         )
@@ -78,7 +78,7 @@ struct Monopolize02 {
       .gesture(
         TapGesture()
           .onAction((event: GestureEvent) => {
-            console.log("TapGesture");
+            console.log('TapGesture');
             this.listText2 = '22222'
           })
       )

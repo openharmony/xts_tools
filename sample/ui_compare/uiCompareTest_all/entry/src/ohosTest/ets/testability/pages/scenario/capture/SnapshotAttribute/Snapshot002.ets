@@ -32,7 +32,7 @@ struct SnapshotExample002 {
             .width(80)
             .height(80)
             .margin({ left: -20 })
-            .id("targetComponent") // 为需要截图的组件设置id
+            .id('targetComponent') // 为需要截图的组件设置id
         }
       }
       .height('24.59%')
@@ -46,17 +46,17 @@ struct SnapshotExample002 {
         .margin(5)
 
       // 截图按钮
-      Button("点击截图")
+      Button('点击截图')
         .onClick(() => {
           // 获取UIContext并调用组件截图方法
           const uiContext = this.getUIContext()
-          uiContext.getComponentSnapshot().get("targetComponent",
+          uiContext.getComponentSnapshot().get('targetComponent',
             (error: Error, pixmap: image.PixelMap) => {
               if (error) {
-                console.log("截图错误: " + JSON.stringify(error))
+                console.log('截图错误: ' + JSON.stringify(error))
                 return
               }
-              console.log("截图成功")
+              console.log('截图成功')
               this.pixmap = pixmap
             },
             { scale: this.myScale, waitUntilRenderFinished: this.myWait }

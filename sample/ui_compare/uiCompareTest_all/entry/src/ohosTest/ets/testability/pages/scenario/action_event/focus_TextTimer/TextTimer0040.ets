@@ -28,13 +28,13 @@ function buildTextTimer0040(config: TextTimerConfiguration) {
       Circle({ width: 150, height: 150 })
         .fill(config.started ? (config.isCountDown ? 0xFF232323 : 0xFF717171) : 0xFF929292)
       Column() {
-        Text(config.isCountDown ? "倒计时" : "正计时").fontColor(Color.White)
+        Text(config.isCountDown ? '倒计时' : '正计时').fontColor(Color.White)
         Text(
-          (config.isCountDown ? "剩余" : "已经过去了") + (config.isCountDown ?
-            (Math.max(config.count / 1000 - config.elapsedTime / 100, 0)).toFixed(1) + "/" +
+          (config.isCountDown ? '剩余' : '已经过去了') + (config.isCountDown ?
+            (Math.max(config.count / 1000 - config.elapsedTime / 100, 0)).toFixed(1) + '/' +
             (config.count / 1000).toFixed(0)
             : ((config.elapsedTime / 100).toFixed(0))
-          ) + "秒"
+          ) + '秒'
         ).fontColor(Color.White)
       }
     }
@@ -59,15 +59,15 @@ struct TextTimer0040 {
             console.info('textTimer onTimer utc is：' + utc + ', elapsedTime: ' + elapsedTime);
           })
         Row() {
-          Button("start").id('textTimer0040s').onClick(() => {
+          Button('start').id('textTimer0040s').onClick(() => {
             this.countDownTextTimerController.start();
             this.countUpTextTimerController.start();
           }).margin(10)
-          Button("pause").id('textTimer0040p').onClick(() => {
+          Button('pause').id('textTimer0040p').onClick(() => {
             this.countDownTextTimerController.pause();
             this.countUpTextTimerController.pause();
           }).margin(10)
-          Button("reset").id('textTimer0040r').onClick(() => {
+          Button('reset').id('textTimer0040r').onClick(() => {
             this.countDownTextTimerController.reset();
             this.countUpTextTimerController.reset();
           }).margin(10)

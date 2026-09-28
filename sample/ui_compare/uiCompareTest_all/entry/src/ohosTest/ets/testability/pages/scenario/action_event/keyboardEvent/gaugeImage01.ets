@@ -26,7 +26,7 @@ struct GaugeImage01 {
         .margin({ bottom: 20 })
 
       // 外部Image
-      Image($r("sys.media.ohos_ic_public_cut"))
+      Image($r('sys.media.ohos_ic_public_cut'))
         .id('outer_image')
         .width(80)
         .height(80)
@@ -35,7 +35,7 @@ struct GaugeImage01 {
 
       // Gauge组件包含内部Image
       Gauge({ value: this.gaugeValue, min: 0, max: 100 }) {
-        Image($r("sys.media.ohos_ic_public_cut"))
+        Image($r('sys.media.ohos_ic_public_cut'))
           .id('inner_image')
           .width(80)
           .height(80)

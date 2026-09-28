@@ -26,12 +26,12 @@ struct DataPanelWatches0019 {
         '#00FF00',                // 绿色（纯色）
         '#0000FF',                // 蓝色（纯色）
         '#FFFF00',                // 黄色（纯色）
-        new LinearGradient([{ color: "#65EEC9A3", offset: 0 }, { color: "#65EF629F", offset: 1 }]),
+        new LinearGradient([{ color: '#65EEC9A3', offset: 0 }, { color: '#65EF629F', offset: 1 }]),
         '#F0FFFF',
-        new LinearGradient([{ color: "#6572B513", offset: 0 }, { color: "#6508efa6", offset: 1 }]),
+        new LinearGradient([{ color: '#6572B513', offset: 0 }, { color: '#6508efa6', offset: 1 }]),
         '#00FFFF',
         '#055555',
-        new LinearGradient([{ color: "#65e26709", offset: 0 }, { color: "#65efbd08", offset: 1 }])
+        new LinearGradient([{ color: '#65e26709', offset: 0 }, { color: '#65efbd08', offset: 1 }])
       ])
     }
     .width('100%')

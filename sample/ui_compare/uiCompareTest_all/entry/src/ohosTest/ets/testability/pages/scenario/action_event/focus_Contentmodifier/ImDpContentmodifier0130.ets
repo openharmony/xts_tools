@@ -19,7 +19,7 @@ function buildDataPanel0130(config: DataPanelConfiguration) {
     // 新增Column布局，设置背景色以便观察
     Column() {
       // 添加一些文本内容
-      Text("数据面板内容")
+      Text('数据面板内容')
         .fontSize(18)
         .fontWeight(500)
         .margin({ top: 20 })
@@ -29,26 +29,26 @@ function buildDataPanel0130(config: DataPanelConfiguration) {
         Rect()
           .height(20)
           .width(120)
-          .backgroundColor("#4080FF")
+          .backgroundColor('#4080FF')
           .borderRadius(10)
 
-        Text("60%")
+        Text('60%')
           .fontSize(14)
           .margin({ left: 10 })
       }
-      .width("80%")
+      .width('80%')
       .margin({ top: 20 })
     }
-    .width("90%")
-    .height("80%")
-    .backgroundColor("#F0F8FF")
+    .width('90%')
+    .height('80%')
+    .backgroundColor('#F0F8FF')
     .borderRadius(10)
-    .shadow({ radius: 2, color: "#888888" })
+    .shadow({ radius: 2, color: '#888888' })
     .justifyContent(FlexAlign.Center)
   }
-  .width("100%")
-  .height("100%")
-  .backgroundColor("#FFFFFF")
+  .width('100%')
+  .height('100%')
+  .backgroundColor('#FFFFFF')
   .justifyContent(FlexAlign.Center)
 }
 
@@ -63,12 +63,12 @@ class DataPanelBuilder0130 implements ContentModifier<DataPanelConfiguration> {
 @Entry
 @Component
 struct ContentModifier0130 {
-  public color1: string = "#65ff00dd"
+  public color1: string = '#65ff00dd'
   public colorArray: string[] = [this.color1]
 
   build() {
     Column() {
-      Text("Data panel")
+      Text('Data panel')
         .margin({ top: 12 })
         .fontSize(20)
 
@@ -76,17 +76,17 @@ struct ContentModifier0130 {
         // 设置size({ width: '30%', height: 400})
         DataPanel({ values: [12.3], max: 140, type: DataPanelType.Circle })
           .size({ width: '30%', height: 400 })  // 新增size设置
-          .constraintSize({ maxWidth: "100%" })
+          .constraintSize({ maxWidth: '100%' })
           .padding({ top: 10 })
           .contentModifier(new DataPanelBuilder0130())
           .valueColors(this.colorArray)
       }
       .margin(15)
-      .backgroundColor("#fff5f5f5")
-      .width("100%")
+      .backgroundColor('#fff5f5f5')
+      .width('100%')
       .height('36.89%')  // 调整Row高度以容纳DataPanel
     }
-    .width("100%")
-    .height("100%")
+    .width('100%')
+    .height('100%')
   }
 }

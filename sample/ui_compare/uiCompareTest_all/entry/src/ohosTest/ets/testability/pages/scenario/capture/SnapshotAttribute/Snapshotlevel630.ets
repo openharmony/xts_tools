@@ -23,7 +23,7 @@ struct BuilderDemo630 {
       .fontSize(30)
       .fontWeight(FontWeight.Bold)
       .width(240).height(240)
-      .overlay("Winter is a beautiful season, especially when it snows.", {
+      .overlay('Winter is a beautiful season, especially when it snows.', {
         align: Alignment.Bottom,
         offset: { x: 0, y: -15 }
       })

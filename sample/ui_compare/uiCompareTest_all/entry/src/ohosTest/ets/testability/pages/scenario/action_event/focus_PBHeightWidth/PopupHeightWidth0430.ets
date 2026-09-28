@@ -40,13 +40,13 @@ struct PopupHeightWidth0430 {
 
   build() {
     Column({ space: 20 }) {
-      Text("图标宽度测试 (50px)")
+      Text('图标宽度测试 (50px)')
         .fontSize(18)
         .fontWeight(FontWeight.Bold)
       
       Row({ space: 15 }) {
         Column({ space: 5 }) {
-          Text("30px")
+          Text('30px')
             .fontSize(12)
           Image($r('app.media.icon1'))
             .width(30)
@@ -54,7 +54,7 @@ struct PopupHeightWidth0430 {
         }
         
         Column({ space: 5 }) {
-          Text("50px")
+          Text('50px')
             .fontSize(12)
             .fontColor(Color.Blue)
             .fontWeight(FontWeight.Bold)
@@ -64,7 +64,7 @@ struct PopupHeightWidth0430 {
         }
         
         Column({ space: 5 }) {
-          Text("70px")
+          Text('70px')
             .fontSize(12)
           Image($r('app.media.icon1'))
             .width(70)
@@ -75,7 +75,7 @@ struct PopupHeightWidth0430 {
       .backgroundColor('#f5f5f5')
       .borderRadius(8)
       
-      Button("显示Popup")
+      Button('显示Popup')
         .id('showPopupButton0430')
         .onClick(() => {
           this.showPopup = !this.showPopup;

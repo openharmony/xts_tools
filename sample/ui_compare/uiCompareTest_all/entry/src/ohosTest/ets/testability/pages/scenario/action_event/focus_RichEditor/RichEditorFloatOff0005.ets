@@ -20,7 +20,7 @@ struct FloatOff0005 {
   controller1: TextInputController = new TextInputController()
   options: RichEditorOptions = { controller: this.controller }
   needFocusKey: string = 'RichEditorKeyboardTest'
-  @State lineMetrics: string = ""; // 定义lineMetrics状态变量
+  @State lineMetrics: string = ''; // 定义lineMetrics状态变量
 
 
   build() {

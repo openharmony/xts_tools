@@ -50,7 +50,7 @@ struct PopupHeightWidth1460 {
 
   build() {
     Column() {
-      Button("显示Popup")
+      Button('显示Popup')
         .id('showPopupButton1460')
         .onClick(() => {
           this.showPopup = !this.showPopup;

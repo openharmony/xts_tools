@@ -153,10 +153,10 @@ struct AnimatorTest01 {
                 if (this.backAnimator) {
                   this.backAnimator.reset({
                     duration: 3000,
-                    easing: "ease-in",
+                    easing: 'ease-in',
                     delay: 0,
-                    fill: "forwards",
-                    direction: "alternate",
+                    fill: 'forwards',
+                    direction: 'alternate',
                     iterations: 3,
                     begin: 100,
                     end: 300

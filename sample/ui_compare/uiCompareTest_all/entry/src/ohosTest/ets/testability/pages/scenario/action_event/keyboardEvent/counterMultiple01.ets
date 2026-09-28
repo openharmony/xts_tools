@@ -38,7 +38,7 @@ struct CounterMultiple01 {
         })
 
       // 外部Image
-      Image($r("sys.media.ohos_ic_public_cut"))
+      Image($r('sys.media.ohos_ic_public_cut'))
         .id('outer_image')
         .width(80)
         .height(80)
@@ -58,7 +58,7 @@ struct CounterMultiple01 {
               this.innerText = value;
             })
 
-          Image($r("sys.media.ohos_ic_public_cut"))
+          Image($r('sys.media.ohos_ic_public_cut'))
             .id('inner_image')
             .width(80)
             .height(80)

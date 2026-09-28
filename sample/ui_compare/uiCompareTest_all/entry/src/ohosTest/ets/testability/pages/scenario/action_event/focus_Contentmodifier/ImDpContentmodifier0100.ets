@@ -16,7 +16,7 @@
 @Builder
 function buildDataPanel0100(config: DataPanelConfiguration) {
   Column()
-    .width("100%").backgroundColor("#ff373737").margin({ bottom: 5 })
+    .width('100%').backgroundColor('#ff373737').margin({ bottom: 5 })
 }
 
 class DataPanelBuilder0100 implements ContentModifier<DataPanelConfiguration> {
@@ -32,15 +32,15 @@ class DataPanelBuilder0100 implements ContentModifier<DataPanelConfiguration> {
 struct ContentModifier0100 {
   build() {
     Column() {
-      Text("Data panel").margin({ top: 12 });
+      Text('Data panel').margin({ top: 12 });
       Row() {
         DataPanel({ values: [12.3, 21.1, 13.4, 35.2, 26.0, 32.0], max: 140, type: DataPanelType.Circle })
           .width(400)
           .height(260)
-          .constraintSize({ maxWidth: "100%" })
+          .constraintSize({ maxWidth: '100%' })
           .padding({ top: 10 })
           .contentModifier(new DataPanelBuilder0100())
-      }.margin(15).backgroundColor("#fff5f5f5")
+      }.margin(15).backgroundColor('#fff5f5f5')
     }
   }
 }

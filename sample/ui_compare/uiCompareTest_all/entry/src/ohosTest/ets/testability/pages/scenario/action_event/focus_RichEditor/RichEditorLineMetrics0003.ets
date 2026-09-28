@@ -21,7 +21,7 @@ struct LineMetrics0003 {
   controller1: TextInputController = new TextInputController()
   options: RichEditorOptions = { controller: this.controller }
   needFocusKey: string = 'RichEditorKeyboardTest'
-  @State lineMetrics: string = ""; // 定义lineMetrics状态变量
+  @State lineMetrics: string = ''; // 定义lineMetrics状态变量
 
   build() {
     Column() {
@@ -33,9 +33,9 @@ struct LineMetrics0003 {
               fontSize: 15,
             }
           })
-          this.controller.addImageSpan($r("app.media.img2"), {
+          this.controller.addImageSpan($r('app.media.img2'), {
             imageStyle: {
-              size: ["57px", "57px"]
+              size: ['57px', '57px']
             }
           })
         })
@@ -49,10 +49,10 @@ struct LineMetrics0003 {
         .onClick(() => {
           let layoutManager: LayoutManager =  this.controller.getLayoutManager()
           let lineMetrics: LineMetrics = layoutManager.getLineMetrics(1);
-          this.lineMetrics = "lineMetrics is" + JSON.stringify(lineMetrics)  + '\n\n'
+          this.lineMetrics = 'lineMetrics is' + JSON.stringify(lineMetrics)  + '\n\n'
           if (lineMetrics.runMetrics) {
             lineMetrics.runMetrics.forEach((value, key) => {
-              this.lineMetrics += "runMetrics key is " + key + " " + JSON.stringify(value) + "\n\n";
+              this.lineMetrics += 'runMetrics key is ' + key + ' ' + JSON.stringify(value) + '\n\n';
             });
           }
         })

@@ -29,7 +29,7 @@ struct PreviewBasic0090 {
     let hours = date.getHours().toString().padStart(2, '0');
     let minutes = date.getMinutes().toString().padStart(2, '0');
     let seconds = date.getSeconds().toString().padStart(2, '0');
-    return hours + ":" + minutes + ":" + seconds;
+    return hours + ':' + minutes + ':' + seconds;
   }
 
   build() {

@@ -16,24 +16,24 @@
 @Builder
 function buildSimpleColumn0020(config: DataPanelConfiguration) {
   Row() {
-    Text("简单Column示例")
+    Text('简单Column示例')
       .fontSize(16)
       .margin({ top: 10 })
-      .width("100%")
+      .width('100%')
       .textAlign(TextAlign.Center)
 
     Line()
-      .width("80%")
-      .backgroundColor("#E5E5E5")
+      .width('80%')
+      .backgroundColor('#E5E5E5')
       .margin({ top: 5, bottom: 10 })
 
     Text(`数据长度: ${config.values.length}`)
       .fontSize(14)
       .margin({ left: 15 })
   }
-  .width("100%")
-  .height("100%")
-  .backgroundColor("#F5F7FA")
+  .width('100%')
+  .height('100%')
+  .backgroundColor('#F5F7FA')
   .borderRadius(8)
 }
 
@@ -48,7 +48,7 @@ class SimpleColumnBuilder0020 implements ContentModifier<DataPanelConfiguration>
 struct SimpleColumnDemo0020 {
   build() {
     Column() {
-      Text("自定义Builder演示")
+      Text('自定义Builder演示')
         .fontSize(18)
         .margin({ top: 12, bottom: 15 })
 
@@ -57,8 +57,8 @@ struct SimpleColumnDemo0020 {
         .height(150)
         .contentModifier(new SimpleColumnBuilder0020())
     }
-    .width("100%")
-    .height("100%")
+    .width('100%')
+    .height('100%')
     .padding(15)
   }
 }

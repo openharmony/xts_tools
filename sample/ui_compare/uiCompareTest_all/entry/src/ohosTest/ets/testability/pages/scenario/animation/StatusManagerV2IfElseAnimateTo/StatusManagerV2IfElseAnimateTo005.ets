@@ -24,16 +24,16 @@ class MyData2 {
 @Entry
 @Component
 struct StatusManagerV2IfElseAnimateTo005 {
-  @State data1: MyData2|undefined = new MyData2("branch 0");
-  @State data2: MyData2|undefined = new MyData2("branch 1");
-  @State data3: MyData2|undefined = new MyData2("branch 2");
-  @State data4: MyData2|undefined = new MyData2("branch 3");
+  @State data1: MyData2|undefined = new MyData2('branch 0');
+  @State data2: MyData2|undefined = new MyData2('branch 1');
+  @State data3: MyData2|undefined = new MyData2('branch 2');
+  @State data4: MyData2|undefined = new MyData2('branch 3');
   @State dataFlag: number = 0;
   private caseName: string = 'SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0050';
 
   async routePage() {
     this.getUIContext().getRouter().pushUrl({
-      url: "testability/pages/scenario/animation/StatusManagerV2IfElseAnimateTo/StatusManagerV2IfElseAnimateTo006",
+      url: 'testability/pages/scenario/animation/StatusManagerV2IfElseAnimateTo/StatusManagerV2IfElseAnimateTo006',
     })
       .then(() => {
         console.info(`${this.caseName} StatusManagerV2IfElseAnimateTo006 succeeded`);
@@ -60,41 +60,41 @@ struct StatusManagerV2IfElseAnimateTo005 {
             .fontColor(Color.Blue)
             .fontSize(40)
             .textAlign(TextAlign.Center)
-            .id("1")
+            .id('1')
             .transition(TransitionEffect.IDENTITY)
         } else if (this.data2) {
           Text(this.data2?.str)
             .fontColor(Color.Pink)
             .fontSize(40)
             .textAlign(TextAlign.Center)
-            .id("2")
+            .id('2')
             .transition(TransitionEffect.IDENTITY)
         } else if (this.data3) {
           Text(this.data3?.str)
             .fontColor(Color.Red)
             .fontSize(40)
             .textAlign(TextAlign.Center)
-            .id("3")
+            .id('3')
             .transition(TransitionEffect.IDENTITY)
         } else if (this.data4) {
           Text(this.data4?.str)
             .fontColor(Color.Orange)
             .fontSize(40)
             .textAlign(TextAlign.Center)
-            .id("4")
+            .id('4')
             .transition(TransitionEffect.IDENTITY)
         } else {
           Text('其他')
             .fontColor(Color.Black)
             .fontSize(40)
             .textAlign(TextAlign.Center)
-            .id("5")
+            .id('5')
             .transition(TransitionEffect.IDENTITY)
         }
       }.width('100%').height('20%').justifyContent(FlexAlign.Center)
       Column() {
-        Button("play with animation")
-          .id("changeData1")
+        Button('play with animation')
+          .id('changeData1')
           .margin(20)
           .fontSize(30)
           .stateEffect(true)
@@ -105,25 +105,25 @@ struct StatusManagerV2IfElseAnimateTo005 {
               this.dataFlag++;
               console.info(`${this.caseName} dataFlag is ${this.dataFlag}`);
               if (this.dataFlag == 0) {
-                this.data1 = new MyData2("branch 0");
+                this.data1 = new MyData2('branch 0');
                 this.data2 = undefined;
                 this.data3 = undefined;
                 this.data4 = undefined;
               } else if(this.dataFlag == 1) {
                 this.data1 = undefined;
-                this.data2 = new MyData2("branch 1");
+                this.data2 = new MyData2('branch 1');
                 this.data3 = undefined;
                 this.data4 = undefined;
               } else if (this.dataFlag == 2) {
                 this.data1 = undefined;
                 this.data2 = undefined;
-                this.data3 = new MyData2("branch 2");
+                this.data3 = new MyData2('branch 2');
                 this.data4 = undefined;
               } else if (this.dataFlag == 3) {
                 this.data1 = undefined;
                 this.data2 = undefined;
                 this.data3 = undefined;
-                this.data4 = new MyData2("branch 3");
+                this.data4 = new MyData2('branch 3');
               } else {
                 this.data1 = undefined;
                 this.data2 = undefined;

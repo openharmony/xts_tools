@@ -67,14 +67,14 @@ struct PopupHeightWidth2600 {
 
   build() {
     Column() {
-      Button("切换到深色模式")
+      Button('切换到深色模式')
         .id('setDarkModeButton2600')
         .onClick(() => {
           this.setDarkMode();
         })
         .margin(20)
 
-      Button("显示Popup")
+      Button('显示Popup')
         .id('showPopupButton2600')
         .onClick(() => {
           this.showPopup = true;

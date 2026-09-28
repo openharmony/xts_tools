@@ -23,7 +23,7 @@ class MyNodeController0190 extends NodeController {
       .borderColor(Color.Gray)
       .borderWidth(1)
       .margin({ left: 10 });
-    let textArea = typeNode.createNode(uiContext, "TextArea")
+    let textArea = typeNode.createNode(uiContext, 'TextArea')
     textArea.initialize({text: 'textArea调测文本',
       placeholder: 'The text area can hold an unlimited amount of text. input your word...',
       controller: areacontroller})

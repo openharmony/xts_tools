@@ -24,15 +24,15 @@ function buildDataPanel0180(config: DataPanelConfiguration) {
           .margin({ top: 10 })
       })
     }
-    .width("120%")  // 宽度超出父容器20%
-    .height("120%") // 高度超出父容器20%
-    .backgroundColor("#F0F8FF")
+    .width('120%')  // 宽度超出父容器20%
+    .height('120%') // 高度超出父容器20%
+    .backgroundColor('#F0F8FF')
     .borderRadius(10)
-    .shadow({ radius: 5, color: "#888888" })
+    .shadow({ radius: 5, color: '#888888' })
   }
-  .width("100%")
-  .height("100%")
-  .backgroundColor("#FFFFFF")
+  .width('100%')
+  .height('100%')
+  .backgroundColor('#FFFFFF')
   .justifyContent(FlexAlign.Center)
 }
 
@@ -47,30 +47,30 @@ class DataPanelBuilder0180 implements ContentModifier<DataPanelConfiguration> {
 @Entry
 @Component
 struct ContentModifier0180 {
-  public color1: string = "#65ff00dd"
+  public color1: string = '#65ff00dd'
   public colorArray: string[] = [this.color1]
 
   build() {
     Column() {
-      Text("Data panel - 超出部分测试")
+      Text('Data panel - 超出部分测试')
         .margin({ top: 12 })
         .fontSize(20)
 
       Row() {
         DataPanel({ values: [12], max: 140, type: DataPanelType.Circle })
           .size({ width: 300, height: 300 })  // 设置固定尺寸以便观察
-          .constraintSize({ maxWidth: "100%" })
+          .constraintSize({ maxWidth: '100%' })
           .padding({ top: 10 })
           .contentModifier(new DataPanelBuilder0180())
           .valueColors(this.colorArray)
       }
       .margin(15)
-      .backgroundColor("#fff5f5f5")
-      .width("100%")
+      .backgroundColor('#fff5f5f5')
+      .width('100%')
       .height('28.69%')
     }
-    .width("100%")
-    .height("100%")
+    .width('100%')
+    .height('100%')
     .padding(20)
   }
 }

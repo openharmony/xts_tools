@@ -28,7 +28,7 @@ struct PreviewContainer0120 {
 
       // Set the spacing between child components using the Resource type.
       Text('Resource space').width('90%')
-      Row({ space: $r("app.string.stringSpace") }) {
+      Row({ space: $r('app.string.stringSpace') }) {
         Row().width('30%').height('4.1%').backgroundColor(0xAFEEEE)
         Row().width('30%').height('4.1%').backgroundColor(0x00FFFF)
       }.width('90%').height('8.77%').border({ width: 1 })

@@ -55,7 +55,7 @@ struct DataPanelWatches0016 {
             max: 100,
             type: DataPanelType.Circle,
           }).width(200).height(200)
-            .trackBackgroundColor(" ")
+            .trackBackgroundColor(' ')
             .padding(10)
         }
       }

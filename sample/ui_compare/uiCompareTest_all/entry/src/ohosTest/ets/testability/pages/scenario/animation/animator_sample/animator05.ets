@@ -27,7 +27,7 @@ struct AnimatorTest01 {
 
   public options: SimpleAnimatorOptions[] = [
     new SimpleAnimatorOptions(100, 200).duration(1000),
-    new SimpleAnimatorOptions(100, 200).easing("ease"),
+    new SimpleAnimatorOptions(100, 200).easing('ease'),
     new SimpleAnimatorOptions(100, 200).delay(0),
     new SimpleAnimatorOptions(100, 200).fill(FillMode.Forwards),
     new SimpleAnimatorOptions(100, 200).direction(PlayMode.Normal),
@@ -156,10 +156,10 @@ struct AnimatorTest01 {
                 if (this.backAnimator) {
                   this.backAnimator.reset({
                     duration: 3000,
-                    easing: "ease-in",
+                    easing: 'ease-in',
                     delay: 0,
-                    fill: "forwards",
-                    direction: "alternate",
+                    fill: 'forwards',
+                    direction: 'alternate',
                     iterations: 3,
                     begin: 100,
                     end: 300

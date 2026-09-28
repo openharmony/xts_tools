@@ -39,21 +39,21 @@ struct PreviewBasic0260 {
         })
 
       Row({ space: 15 }) {
-        Button("开始")
+        Button('开始')
           .onClick(() => {
             this.textTimerController.start();
           })
           .fontSize(16)
           .backgroundColor('#007DFF')
 
-        Button("暂停")
+        Button('暂停')
           .onClick(() => {
             this.textTimerController.pause();
           })
           .fontSize(16)
           .backgroundColor('#FF9500')
 
-        Button("重置")
+        Button('重置')
           .onClick(() => {
             this.textTimerController.reset();
           })

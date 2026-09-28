@@ -32,7 +32,7 @@ struct SimpleDataPanel0280 {
 
       Button('点击测试')
         .id('DpBR0280')
-        .onClick(()=>{ this.brValue = "50%" })
+        .onClick(()=>{ this.brValue = '50%' })
     }
     .width('100%')
     .height('100%')

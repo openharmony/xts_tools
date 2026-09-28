@@ -21,8 +21,8 @@ struct PreviewAnimation0040 {
   @State rotateY: number = 0
   @State rotateZ: number = 0
   @State rotateAngle: number = 0
-  @State rotateCenterX: string = "50%"
-  @State rotateCenterY: string = "50%"
+  @State rotateCenterX: string = '50%'
+  @State rotateCenterY: string = '50%'
 
   build() {
     Column() {
@@ -80,8 +80,8 @@ struct PreviewAnimation0040 {
               this.rotateY = 20
               this.rotateZ = 30
               this.rotateAngle = -100
-              this.rotateCenterX = "50%"
-              this.rotateCenterY = "50%"
+              this.rotateCenterX = '50%'
+              this.rotateCenterY = '50%'
             })
 
           Button('X轴旋转 (x:1, angle:90°)')
@@ -92,8 +92,8 @@ struct PreviewAnimation0040 {
               this.rotateY = 0
               this.rotateZ = 0
               this.rotateAngle = 90
-              this.rotateCenterX = "50%"
-              this.rotateCenterY = "50%"
+              this.rotateCenterX = '50%'
+              this.rotateCenterY = '50%'
             })
 
           Button('Y轴旋转 (y:1, angle:90°)')
@@ -104,8 +104,8 @@ struct PreviewAnimation0040 {
               this.rotateY = 1
               this.rotateZ = 0
               this.rotateAngle = 90
-              this.rotateCenterX = "50%"
-              this.rotateCenterY = "50%"
+              this.rotateCenterX = '50%'
+              this.rotateCenterY = '50%'
             })
 
           Button('Z轴旋转 (z:1, angle:90°)')
@@ -116,8 +116,8 @@ struct PreviewAnimation0040 {
               this.rotateY = 0
               this.rotateZ = 1
               this.rotateAngle = 90
-              this.rotateCenterX = "50%"
-              this.rotateCenterY = "50%"
+              this.rotateCenterX = '50%'
+              this.rotateCenterY = '50%'
             })
 
           Button('旋转180度')
@@ -138,8 +138,8 @@ struct PreviewAnimation0040 {
             .width('90%')
             .id('PreviewAnimation0040_011')
             .onClick(() => {
-              this.rotateCenterX = "0%"
-              this.rotateCenterY = "0%"
+              this.rotateCenterX = '0%'
+              this.rotateCenterY = '0%'
               this.rotateZ = 1
               this.rotateAngle = 45
             })
@@ -148,8 +148,8 @@ struct PreviewAnimation0040 {
             .width('90%')
             .id('PreviewAnimation0040_012')
             .onClick(() => {
-              this.rotateCenterX = "100%"
-              this.rotateCenterY = "100%"
+              this.rotateCenterX = '100%'
+              this.rotateCenterY = '100%'
               this.rotateZ = 1
               this.rotateAngle = 45
             })
@@ -163,8 +163,8 @@ struct PreviewAnimation0040 {
               this.rotateY = 1
               this.rotateZ = 1
               this.rotateAngle = 120
-              this.rotateCenterX = "50%"
-              this.rotateCenterY = "50%"
+              this.rotateCenterX = '50%'
+              this.rotateCenterY = '50%'
             })
 
           Button('重置所有')
@@ -176,8 +176,8 @@ struct PreviewAnimation0040 {
               this.rotateY = 0
               this.rotateZ = 0
               this.rotateAngle = 0
-              this.rotateCenterX = "50%"
-              this.rotateCenterY = "50%"
+              this.rotateCenterX = '50%'
+              this.rotateCenterY = '50%'
             })
         }
         .width('100%')

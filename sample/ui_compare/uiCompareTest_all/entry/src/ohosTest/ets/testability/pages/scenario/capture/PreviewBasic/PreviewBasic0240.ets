@@ -35,12 +35,12 @@ struct PreviewBasic0240 {
           this.accumulateTime = value;
         })
         .margin(20)
-      Button("start TextClock")
+      Button('start TextClock')
         .margin({ bottom: 10 })
         .onClick(() => {
           this.controller.start();
         })
-      Button("stop TextClock")
+      Button('stop TextClock')
         .onClick(() => {
           this.controller.stop();
         })
