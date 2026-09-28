@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentPopupAccessibility1460() {
-  describe('UiComponentPopupAccessibility1460', () => {
+export default function uiComponentPopupAccessibility1460() {
+  describe('uiComponentPopupAccessibility1460', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1460
      * @tc.name   : DatePicker screen-reader popup marker

@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentEmbeddedComponent0051() {
-  describe('UiComponentEmbeddedComponent0051', () => {
+export default function uiComponentEmbeddedComponent0051() {
+  describe('uiComponentEmbeddedComponent0051', () => {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_EMBEDDEDCOMPONENT_QIANGJI_0017
      * @tc.name   : UIExtensionComponent onError/host path

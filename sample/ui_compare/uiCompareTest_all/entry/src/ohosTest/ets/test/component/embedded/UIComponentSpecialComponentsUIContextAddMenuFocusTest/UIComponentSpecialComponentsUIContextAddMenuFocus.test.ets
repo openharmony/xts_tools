@@ -33,8 +33,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentSpecialComponentsUIContextAddMenuFocus() {
-  describe('UIComponentSpecialComponentsUIContextAddMenuFocus', () => {
+export default function uIComponentSpecialComponentsUIContextAddMenuFocus() {
+  describe('uIComponentSpecialComponentsUIContextAddMenuFocus', () => {
     beforeAll(() => {
 
     })

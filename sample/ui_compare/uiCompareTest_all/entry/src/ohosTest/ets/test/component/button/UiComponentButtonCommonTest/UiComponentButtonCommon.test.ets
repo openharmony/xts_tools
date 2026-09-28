@@ -19,8 +19,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentButtonCommon() {
-  describe('UiComponentButtonCommon', () => {
+export default function uiComponentButtonCommon() {
+  describe('uiComponentButtonCommon', () => {
     afterEach(async () => {
       if (Settings.windowClass) {
         await Settings.destroyWindow(Settings.windowClass);

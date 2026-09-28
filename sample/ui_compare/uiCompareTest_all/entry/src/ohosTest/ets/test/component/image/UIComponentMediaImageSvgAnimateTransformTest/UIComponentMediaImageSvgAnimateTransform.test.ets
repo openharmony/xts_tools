@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentMediaImageSvgAnimateTransform() {
-  describe('UIComponentMediaImageSvgAnimateTransform', () => {
+export default function uIComponentMediaImageSvgAnimateTransform() {
+  describe('uIComponentMediaImageSvgAnimateTransform', () => {
     beforeAll(() => {
 
     })

@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 
-export default function CanvasCustomFont() {
+export default function canvasCustomFont() {
 
-  describe('CanvasCustomFont', () => {
+  describe('canvasCustomFont', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

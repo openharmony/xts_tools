@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function CommonAttrCommonModifier() {
+export default function commonAttrCommonModifier() {
 
-  describe('CommonAttrCommonModifier', () => {
+  describe('commonAttrCommonModifier', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

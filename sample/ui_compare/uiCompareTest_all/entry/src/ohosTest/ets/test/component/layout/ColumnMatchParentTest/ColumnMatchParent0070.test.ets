@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function ColumnMatchParent0070() {
+export default function columnMatchParent0070() {
 
-  describe('ColumnMatchParent0070', () => {
+  describe('columnMatchParent0070', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

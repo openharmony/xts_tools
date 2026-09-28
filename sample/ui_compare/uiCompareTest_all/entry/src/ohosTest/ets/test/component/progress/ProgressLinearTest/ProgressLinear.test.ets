@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component,} from '@kit.TestKit';
 
 
-export default function ProgressLinear() {
+export default function progressLinear() {
 
-  describe('ProgressLinear', () => {
+  describe('progressLinear', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

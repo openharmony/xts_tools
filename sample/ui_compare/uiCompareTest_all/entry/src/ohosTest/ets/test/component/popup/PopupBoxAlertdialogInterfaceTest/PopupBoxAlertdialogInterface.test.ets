@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function PopupBoxAlertdialogInterface() {
+export default function popupBoxAlertdialogInterface() {
 
-  describe('PopupBoxAlertdialogInterface', () => {
+  describe('popupBoxAlertdialogInterface', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

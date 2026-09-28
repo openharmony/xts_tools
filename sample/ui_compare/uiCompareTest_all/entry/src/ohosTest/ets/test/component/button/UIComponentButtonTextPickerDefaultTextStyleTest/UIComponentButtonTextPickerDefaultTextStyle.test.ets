@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentButtonTextPickerDefaultTextStyle() {
-  describe('UIComponentButtonTextPickerDefaultTextStyle', () => {
+export default function uIComponentButtonTextPickerDefaultTextStyle() {
+  describe('uIComponentButtonTextPickerDefaultTextStyle', () => {
     beforeAll(() => {
 
     })

@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentMediaPickerContainer0086() {
-  describe('UiComponentMediaPickerContainer0086', () => {
+export default function uiComponentMediaPickerContainer0086() {
+  describe('uiComponentMediaPickerContainer0086', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PICKER_CONTAINER_0086
      * @tc.name   : Picker container DFX dump readiness marker
@@ -31,7 +31,7 @@ export default function UiComponentMediaPickerContainer0086() {
     it('SUB_ACE_UI_COMPONENT_MEDIA_PICKER_CONTAINER_0086', Level.LEVEL3, async (done: Function) => {
       await Settings.changeWindow(
         'testability/pages/component/picker/UiComponentMediaPickerContainer/' +
-        'UiComponentMediaPickerContainer0086'
+        'uiComponentMediaPickerContainer0086'
       )
       let driver = await Driver.create()
       await Utils.sleep(1500)

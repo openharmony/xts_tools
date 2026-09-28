@@ -19,9 +19,9 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentPopupboxMenuBlur() {
-  describe('UiComponentPopupboxMenuBlur', () => {
-    const TAG: string = 'UiComponentPopupboxMenuBlur';
+export default function uiComponentPopupboxMenuBlur() {
+  describe('uiComponentPopupboxMenuBlur', () => {
+    const TAG: string = 'uiComponentPopupboxMenuBlur';
     let driver = Driver.create();
 
     afterEach(async () => {

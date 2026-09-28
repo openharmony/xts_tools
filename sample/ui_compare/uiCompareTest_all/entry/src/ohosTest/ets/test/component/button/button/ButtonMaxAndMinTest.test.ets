@@ -22,8 +22,8 @@ import { uiAppearance } from '@kit.ArkUI';
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function ButtonMaxAndMinTest() {
-  describe('ButtonMaxAndMinTest', () => {
+export default function buttonMaxAndMinTest() {
+  describe('buttonMaxAndMinTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -22,9 +22,9 @@ import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 import { window } from '@kit.ArkUI'
 
-export default function NavigationInterfaceTest() {
+export default function navigationInterfaceTest() {
 
-  describe('NavigationInterfaceTest', () => {
+  describe('navigationInterfaceTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function PopupboxPopup() {
+export default function popupboxPopup() {
 
-  describe('PopupboxPopup', () => {
+  describe('popupboxPopup', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

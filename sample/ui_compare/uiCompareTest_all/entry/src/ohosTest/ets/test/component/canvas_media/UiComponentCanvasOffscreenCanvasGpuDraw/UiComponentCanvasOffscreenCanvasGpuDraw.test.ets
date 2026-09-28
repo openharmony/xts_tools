@@ -35,9 +35,9 @@ import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiComponentCanvasOffscreenCanvasGpuDraw() {
+export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
 
-  describe('UiComponentCanvasOffscreenCanvasGpuDraw', () => {
+  describe('uiComponentCanvasOffscreenCanvasGpuDraw', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

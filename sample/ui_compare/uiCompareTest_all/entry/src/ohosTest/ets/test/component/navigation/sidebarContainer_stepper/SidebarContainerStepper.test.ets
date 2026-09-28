@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function SidebarContainerStepperTest() {
+export default function sidebarContainerStepperTest() {
 
-  describe('SidebarContainerStepperTest', () => {
+  describe('sidebarContainerStepperTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

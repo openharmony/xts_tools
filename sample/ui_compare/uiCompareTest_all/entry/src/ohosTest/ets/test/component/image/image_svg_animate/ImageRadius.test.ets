@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function ImageRadiusTest () {
+export default function imageRadiusTest () {
 
-  describe('ImageRadiusTest', () => {
+  describe('imageRadiusTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

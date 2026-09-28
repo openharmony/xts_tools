@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentXComponentMarker0130() {
-  describe('UiComponentXComponentMarker0130', () => {
+export default function uiComponentXComponentMarker0130() {
+  describe('uiComponentXComponentMarker0130', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_IGNORE_BUFFER_ALPHA_0130
      * @tc.name   : XComponent host onLoad

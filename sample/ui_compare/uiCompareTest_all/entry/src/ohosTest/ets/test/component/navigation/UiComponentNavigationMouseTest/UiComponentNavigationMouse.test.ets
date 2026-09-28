@@ -17,8 +17,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, MouseButton } from '@kit.TestKit'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentNavigationMouse() {
-  describe('UiComponentNavigationMouse', () => {
+export default function uiComponentNavigationMouse() {
+  describe('uiComponentNavigationMouse', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

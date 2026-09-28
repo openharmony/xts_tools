@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentMediaImagePredownload() {
-  describe('UIComponentMediaImagePredownload', () => {
+export default function uIComponentMediaImagePredownload() {
+  describe('uIComponentMediaImagePredownload', () => {
     beforeAll(() => {
 
     })

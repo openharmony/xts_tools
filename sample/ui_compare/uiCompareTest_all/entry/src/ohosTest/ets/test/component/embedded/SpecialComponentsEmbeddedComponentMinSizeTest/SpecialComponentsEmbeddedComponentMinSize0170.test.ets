@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function SpecialComponentsEmbeddedComponentMinSize0170() {
+export default function specialComponentsEmbeddedComponentMinSize0170() {
 
-  describe('SpecialComponentsEmbeddedComponentMinSize0170', () => {
+  describe('specialComponentsEmbeddedComponentMinSize0170', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

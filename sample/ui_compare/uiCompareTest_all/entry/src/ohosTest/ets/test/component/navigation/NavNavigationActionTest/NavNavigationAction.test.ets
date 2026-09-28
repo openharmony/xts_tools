@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function NavNavigationAction() {
+export default function navNavigationAction() {
 
-  describe('NavNavigationAction', () => {
+  describe('navNavigationAction', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

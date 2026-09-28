@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function LoadingprogressAnimation() {
+export default function loadingprogressAnimation() {
 
-  describe('LoadingprogressAnimation', () => {
+  describe('loadingprogressAnimation', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentPopupBoxPopupScenarios() {
-  describe('UIComponentPopupBoxPopupScenarios', () => {
+export default function uIComponentPopupBoxPopupScenarios() {
+  describe('uIComponentPopupBoxPopupScenarios', () => {
     beforeAll(() => {
 
     })

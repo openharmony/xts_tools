@@ -35,9 +35,9 @@ import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiComponentCanvasPath2DAndCanvasPattern() {
+export default function uiComponentCanvasPath2DAndCanvasPattern() {
 
-  describe('UiComponentCanvasPath2DAndCanvasPattern', () => {
+  describe('uiComponentCanvasPath2DAndCanvasPattern', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

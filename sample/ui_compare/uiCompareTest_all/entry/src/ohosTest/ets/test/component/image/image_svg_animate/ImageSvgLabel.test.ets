@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function ImageSvgLabelTest () {
+export default function imageSvgLabelTest () {
 
-  describe('ImageSvgLabelTest', () => {
+  describe('imageSvgLabelTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

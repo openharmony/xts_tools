@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentEmbeddedComponent0034() {
-  describe('UiComponentEmbeddedComponent0034', () => {
+export default function uiComponentEmbeddedComponent0034() {
+  describe('uiComponentEmbeddedComponent0034', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NATIVE_0034
      * @tc.name   : EmbeddedComponent terminateSelf marker

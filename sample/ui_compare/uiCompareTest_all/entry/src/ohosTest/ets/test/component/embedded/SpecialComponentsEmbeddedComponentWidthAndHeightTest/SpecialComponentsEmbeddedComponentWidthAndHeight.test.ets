@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function SpecialComponentsEmbeddedComponentWidthAndHeight() {
+export default function specialComponentsEmbeddedComponentWidthAndHeight() {
 
-  describe('SpecialComponentsEmbeddedComponentWidthAndHeight', () => {
+  describe('specialComponentsEmbeddedComponentWidthAndHeight', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

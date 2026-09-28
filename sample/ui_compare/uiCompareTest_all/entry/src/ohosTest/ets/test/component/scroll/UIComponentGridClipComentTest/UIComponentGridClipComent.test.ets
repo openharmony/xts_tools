@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentGridClipComent() {
-  describe('UIComponentGridClipComent', () => {
+export default function uIComponentGridClipComent() {
+  describe('uIComponentGridClipComent', () => {
     beforeAll(() => {
 
     })

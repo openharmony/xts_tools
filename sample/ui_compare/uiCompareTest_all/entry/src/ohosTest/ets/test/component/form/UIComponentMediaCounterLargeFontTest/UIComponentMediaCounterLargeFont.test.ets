@@ -21,8 +21,8 @@ import { Driver, ON, Component } from '@kit.TestKit'
 import { uiAppearance } from '@kit.ArkUI';
 import { BusinessError } from '@kit.BasicServicesKit';
 
-export default function UIComponentMediaCounterLargeFontTest() {
-  describe('UIComponentMediaCounterLargeFontTest', () => {
+export default function uIComponentMediaCounterLargeFontTest() {
+  describe('uIComponentMediaCounterLargeFontTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

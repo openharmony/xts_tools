@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentDrawingSafeAreaE() {
-  describe('UIComponentDrawingSafeAreaE', () => {
+export default function uIComponentDrawingSafeAreaE() {
+  describe('uIComponentDrawingSafeAreaE', () => {
     beforeAll(() => {
 
     })

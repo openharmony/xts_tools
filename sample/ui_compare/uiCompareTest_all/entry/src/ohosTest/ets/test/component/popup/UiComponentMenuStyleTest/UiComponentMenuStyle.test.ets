@@ -19,9 +19,9 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentMenuStyle() {
-  describe('UiComponentMenuStyle', () => {
-    const TAG: string = 'UiComponentMenuStyle';
+export default function uiComponentMenuStyle() {
+  describe('uiComponentMenuStyle', () => {
+    const TAG: string = 'uiComponentMenuStyle';
     let driver = Driver.create();
 
     afterEach(async () => {

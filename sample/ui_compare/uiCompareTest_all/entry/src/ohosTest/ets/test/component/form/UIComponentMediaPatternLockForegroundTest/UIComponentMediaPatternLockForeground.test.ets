@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentMediaPatternLockForeground() {
-  describe('UIComponentMediaPatternLockForeground', () => {
+export default function uIComponentMediaPatternLockForeground() {
+  describe('uIComponentMediaPatternLockForeground', () => {
     beforeAll(() => {
 
     })

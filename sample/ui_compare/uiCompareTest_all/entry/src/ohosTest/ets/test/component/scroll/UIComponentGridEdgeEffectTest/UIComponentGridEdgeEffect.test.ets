@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentGridEdgeEffect() {
-  describe('UIComponentGridEdgeEffect', () => {
+export default function uIComponentGridEdgeEffect() {
+  describe('uIComponentGridEdgeEffect', () => {
     beforeAll(() => {
 
     })

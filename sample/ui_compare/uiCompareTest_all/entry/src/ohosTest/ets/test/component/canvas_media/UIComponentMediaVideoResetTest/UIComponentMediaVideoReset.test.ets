@@ -33,8 +33,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentMediaVideoReset() {
-  describe('UIComponentMediaVideoReset', () => {
+export default function uIComponentMediaVideoReset() {
+  describe('uIComponentMediaVideoReset', () => {
     beforeAll(() => {
 
     })

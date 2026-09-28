@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentMediaTimePickerEnableCascade() {
-  describe('UIComponentMediaTimePickerEnableCascade', () => {
+export default function uIComponentMediaTimePickerEnableCascade() {
+  describe('uIComponentMediaTimePickerEnableCascade', () => {
     beforeAll(() => {
 
     })

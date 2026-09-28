@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function ToastPromptActionTest () {
+export default function toastPromptActionTest () {
 
-  describe('ToastPromptActionTest', () => {
+  describe('toastPromptActionTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return
@@ -61,12 +61,12 @@ export default function ToastPromptActionTest () {
       // 依次启动多个Toast
       await toast1Button.click();
       await driver.waitForIdle(500,2000);
-      console.log('ToastPromptActionTest Toast1.click success')
+      console.log('toastPromptActionTest Toast1.click success')
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0040_01')
       await Utils.sleep(1000)
 
       await toast2Button.click();
-      console.log('ToastPromptActionTest Toast2.click success1')
+      console.log('toastPromptActionTest Toast2.click success1')
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0040_02')
       await Utils.sleep(2500)
@@ -77,11 +77,11 @@ export default function ToastPromptActionTest () {
 
       // 依次关闭Toast
       await close2Button.click();
-      console.log('ToastPromptActionTest Close2.click success')
+      console.log('toastPromptActionTest Close2.click success')
       await driver.waitForIdle(500,2000);
 
       await close1Button.click();
-      console.log('ToastPromptActionTest Close1.click success')
+      console.log('toastPromptActionTest Close1.click success')
       await driver.waitForIdle(500,2000);
       await Utils.sleep(1000);
 
@@ -333,7 +333,7 @@ export default function ToastPromptActionTest () {
 
       // 打开Toast
       await openButton.click();
-      console.log('ToastPromptActionTest open_toast_button_10.click success')
+      console.log('toastPromptActionTest open_toast_button_10.click success')
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_PROMPTACTION_0100_01')
       await Utils.sleep(2500)

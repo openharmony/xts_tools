@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentXComponentMarker0110() {
-  describe('UiComponentXComponentMarker0110', () => {
+export default function uiComponentXComponentMarker0110() {
+  describe('uiComponentXComponentMarker0110', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_PRIVACY_LAYER_0110
      * @tc.name   : XComponent privacy layer split marker

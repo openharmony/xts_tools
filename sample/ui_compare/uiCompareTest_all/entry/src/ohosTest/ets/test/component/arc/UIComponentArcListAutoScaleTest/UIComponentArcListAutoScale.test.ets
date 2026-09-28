@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
 import { BusinessError } from '@kit.BasicServicesKit';
 
-export default function UIComponentArcListAutoScaleTest() {
-  describe('UIComponentArcListAutoScaleTest', () => {
+export default function uIComponentArcListAutoScaleTest() {
+  describe('uIComponentArcListAutoScaleTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

@@ -33,8 +33,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentSpecialComponentsXComponentOnload() {
-  describe('UIComponentSpecialComponentsXComponentOnload', () => {
+export default function uIComponentSpecialComponentsXComponentOnload() {
+  describe('uIComponentSpecialComponentsXComponentOnload', () => {
     beforeAll(() => {
 
     })

@@ -21,8 +21,8 @@ import { Component, Driver, ON } from '@kit.TestKit'
 import windowSnap from '../../../model/snapShot'
 import { KeyCode } from '@kit.InputKit'
 
-export default function UiRichEditorScroll() {
-  describe('UiRichEditorScroll', () => {
+export default function uiRichEditorScroll() {
+  describe('uiRichEditorScroll', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

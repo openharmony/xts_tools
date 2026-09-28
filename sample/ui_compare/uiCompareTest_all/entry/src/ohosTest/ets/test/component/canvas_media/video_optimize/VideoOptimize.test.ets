@@ -21,14 +21,14 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function VideoOptimizeTest() {
-  describe('VideoOptimizeTest', () => {
+export default function videoOptimizeTest() {
+  describe('videoOptimizeTest', () => {
     beforeAll(() => {
-      console.info('VideoOptimizeTest beforeAll');
+      console.info('videoOptimizeTest beforeAll');
     });
 
     beforeEach(() => {
-      console.info('VideoOptimizeTest beforeEach');
+      console.info('videoOptimizeTest beforeEach');
     });
 
     afterEach(async (done: Function) => {
@@ -48,7 +48,7 @@ export default function VideoOptimizeTest() {
     })
 
     afterAll(() => {
-      console.info('VideoOptimizeTest afterAll');
+      console.info('videoOptimizeTest afterAll');
     });
 
     /*

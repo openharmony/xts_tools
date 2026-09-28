@@ -23,8 +23,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentButtonSliderTest() {
-  describe('UiComponentButtonSliderTest', () => {
+export default function uiComponentButtonSliderTest() {
+  describe('uiComponentButtonSliderTest', () => {
     afterEach(async () => {
       if (Settings.windowClass) {
         Settings.destroyWindow(Settings.windowClass);

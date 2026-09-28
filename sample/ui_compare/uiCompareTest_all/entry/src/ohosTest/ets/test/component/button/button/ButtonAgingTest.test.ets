@@ -22,8 +22,8 @@ import { uiAppearance } from '@kit.ArkUI';
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function ButtonAgingTest() {
-  describe('ButtonAgingTest', () => {
+export default function buttonAgingTest() {
+  describe('buttonAgingTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -35,9 +35,9 @@ import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiComponentButtonSliderInterFace() {
+export default function uiComponentButtonSliderInterFace() {
 
-  describe('UiComponentButtonSliderInterFace', () => {
+  describe('uiComponentButtonSliderInterFace', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return
@@ -226,7 +226,7 @@ export default function UiComponentButtonSliderInterFace() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0540
-     * @tc.name   : trackColor settings 0xADD8E6
+     * @tc.name   : trackColor settings 0xADd7E6
      * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest

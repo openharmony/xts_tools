@@ -22,9 +22,9 @@ import { Driver, ON, Component } from '@kit.TestKit';
 import I18n from '@ohos.i18n';
 import { BusinessError } from '@kit.BasicServicesKit';
 
-export default function CounterMirrorImage() {
+export default function counterMirrorImage() {
 
-  describe('CounterMirrorImage', () => {
+  describe('counterMirrorImage', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

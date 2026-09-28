@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentInfomationProgressModifierColor() {
-  describe('UIComponentInfomationProgressModifierColor', () => {
+export default function uIComponentInfomationProgressModifierColor() {
+  describe('uIComponentInfomationProgressModifierColor', () => {
     beforeAll(() => {
 
     })

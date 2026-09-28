@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentMediaCalendarPickerDisabledDate0020() {
-  describe('UiComponentMediaCalendarPickerDisabledDate0020', () => {
+export default function uiComponentMediaCalendarPickerDisabledDate0020() {
+  describe('uiComponentMediaCalendarPickerDisabledDate0020', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CAlENDARPICKER_DISABLEDDATE_0020
      * @tc.name   : CalendarPicker disabledDateRange null keeps today selectable
@@ -31,7 +31,7 @@ export default function UiComponentMediaCalendarPickerDisabledDate0020() {
     it('SUB_ACE_UI_COMPONENT_MEDIA_CAlENDARPICKER_DISABLEDDATE_0020', Level.LEVEL3, async (done: Function) => {
       await Settings.changeWindow(
         'testability/pages/component/picker/UiComponentMediaCalendarPickerDisabledDate/' +
-        'UiComponentMediaCalendarPickerDisabledDate0020'
+        'uiComponentMediaCalendarPickerDisabledDate0020'
       )
       let driver = await Driver.create()
       await Utils.sleep(1500)

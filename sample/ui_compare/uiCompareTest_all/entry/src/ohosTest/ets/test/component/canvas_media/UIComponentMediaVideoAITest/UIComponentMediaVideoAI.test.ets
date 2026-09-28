@@ -33,8 +33,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentMediaVideoAI() {
-  describe('UIComponentMediaVideoAI', () => {
+export default function uIComponentMediaVideoAI() {
+  describe('uIComponentMediaVideoAI', () => {
     beforeAll(async (done: Function) => {
       try {
         wifiManager.enableWifi();

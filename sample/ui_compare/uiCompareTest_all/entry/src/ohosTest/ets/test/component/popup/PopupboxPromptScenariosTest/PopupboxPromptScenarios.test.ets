@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function PopupboxPromptScenarios() {
+export default function popupboxPromptScenarios() {
 
-  describe('PopupboxPromptScenarios', () => {
+  describe('popupboxPromptScenarios', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

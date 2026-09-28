@@ -19,8 +19,8 @@ import windowSnap from '../../../model/snapShot';
 import { Driver, ON, Component } from '@kit.TestKit';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentNavNavdestinationNavdestinationsystemtransitio() {
-  describe('UiComponentNavNavdestinationNavdestinationsystemtransitio', () => {
+export default function uiComponentNavNavdestinationNavdestinationsystemtransitio() {
+  describe('uiComponentNavNavdestinationNavdestinationsystemtransitio', () => {
     let driver: Driver = Driver.create();
 
     afterEach(async () => {

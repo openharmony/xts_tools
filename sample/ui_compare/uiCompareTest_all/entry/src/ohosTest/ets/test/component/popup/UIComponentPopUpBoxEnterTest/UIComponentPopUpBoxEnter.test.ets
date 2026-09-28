@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentPopUpBoxEnter() {
-  describe('UIComponentPopUpBoxEnter', () => {
+export default function uIComponentPopUpBoxEnter() {
+  describe('uIComponentPopUpBoxEnter', () => {
     beforeAll(() => {
 
     })

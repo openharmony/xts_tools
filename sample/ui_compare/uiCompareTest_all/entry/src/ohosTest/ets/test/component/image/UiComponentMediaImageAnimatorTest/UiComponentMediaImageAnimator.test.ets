@@ -18,20 +18,20 @@ import { Driver, ON } from '@kit.TestKit'
 import Settings from '../../../model/Settings'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentMediaImageAnimatorTest() {
-  describe('UiComponentMediaImageAnimatorTest', () => {
+export default function uiComponentMediaImageAnimatorTest() {
+  describe('uiComponentMediaImageAnimatorTest', () => {
     let driver: Driver = Driver.create()
 
     beforeAll(async () => {
-      console.info('UiComponentMediaImageAnimatorTest beforeAll')
+      console.info('uiComponentMediaImageAnimatorTest beforeAll')
     })
 
     beforeEach(async () => {
-      console.info('UiComponentMediaImageAnimatorTest beforeEach')
+      console.info('uiComponentMediaImageAnimatorTest beforeEach')
     })
 
     afterEach(async () => {
-      console.info('UiComponentMediaImageAnimatorTest afterEach')
+      console.info('uiComponentMediaImageAnimatorTest afterEach')
       await driver.delayMs(500)
       if (Settings.windowClass) {
         await Settings.destroyWindow(Settings.windowClass)
@@ -39,7 +39,7 @@ export default function UiComponentMediaImageAnimatorTest() {
     })
 
     afterAll(async () => {
-      console.info('UiComponentMediaImageAnimatorTest afterAll')
+      console.info('uiComponentMediaImageAnimatorTest afterAll')
     })
 
     /*

@@ -35,9 +35,9 @@ import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiComponentImageAttachmentColorFilter() {
+export default function uiComponentImageAttachmentColorFilter() {
 
-  describe('UiComponentImageAttachmentColorFilter', () => {
+  describe('uiComponentImageAttachmentColorFilter', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

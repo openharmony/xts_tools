@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentMediaTimePickerStartEndTime() {
-  describe('UIComponentMediaTimePickerStartEndTime', () => {
+export default function uIComponentMediaTimePickerStartEndTime() {
+  describe('uIComponentMediaTimePickerStartEndTime', () => {
     beforeAll(() => {
 
     })

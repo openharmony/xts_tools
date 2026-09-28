@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
 import { KeyCode } from '@kit.InputKit'
 
-export default function UiComponentMediaCalendarPickerDate() {
+export default function uiComponentMediaCalendarPickerDate() {
 
-  describe('UiComponentMediaCalendarPickerDate', () => {
+  describe('uiComponentMediaCalendarPickerDate', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

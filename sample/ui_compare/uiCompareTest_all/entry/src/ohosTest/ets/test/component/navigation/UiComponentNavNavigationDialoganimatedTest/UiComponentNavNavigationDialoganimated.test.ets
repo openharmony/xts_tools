@@ -18,20 +18,20 @@ import { Driver, ON, Component } from '@kit.TestKit'
 import Settings from '../../../model/Settings'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentNavNavigationDialoganimatedTest() {
-  describe('UiComponentNavNavigationDialoganimatedTest', () => {
+export default function uiComponentNavNavigationDialoganimatedTest() {
+  describe('uiComponentNavNavigationDialoganimatedTest', () => {
     let driver: Driver = Driver.create()
 
     beforeAll(async () => {
-      console.info('UiComponentNavNavigationDialoganimatedTest beforeAll')
+      console.info('uiComponentNavNavigationDialoganimatedTest beforeAll')
     })
 
     beforeEach(async () => {
-      console.info('UiComponentNavNavigationDialoganimatedTest beforeEach')
+      console.info('uiComponentNavNavigationDialoganimatedTest beforeEach')
     })
 
     afterEach(async () => {
-      console.info('UiComponentNavNavigationDialoganimatedTest afterEach')
+      console.info('uiComponentNavNavigationDialoganimatedTest afterEach')
       // 销毁窗口
       if (Settings.windowClass) {
         Settings.destroyWindow(Settings.windowClass)
@@ -40,7 +40,7 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
     })
 
     afterAll(async () => {
-      console.info('UiComponentNavNavigationDialoganimatedTest afterAll')
+      console.info('uiComponentNavNavigationDialoganimatedTest afterAll')
     })
 
     /*

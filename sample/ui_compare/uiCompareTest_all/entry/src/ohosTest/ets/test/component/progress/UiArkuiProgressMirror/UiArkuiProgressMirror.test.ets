@@ -37,9 +37,9 @@ import { KeyCode } from '@kit.InputKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiArkuiProgressMirror() {
+export default function uiArkuiProgressMirror() {
 
-  describe('UiArkuiProgressMirror', () => {
+  describe('uiArkuiProgressMirror', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

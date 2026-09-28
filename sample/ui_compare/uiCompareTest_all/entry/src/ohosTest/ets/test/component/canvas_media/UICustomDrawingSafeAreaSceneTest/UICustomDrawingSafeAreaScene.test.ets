@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UICustomDrawingSafeAreaScene() {
-  describe('UICustomDrawingSafeAreaScene', () => {
+export default function uICustomDrawingSafeAreaScene() {
+  describe('uICustomDrawingSafeAreaScene', () => {
     beforeAll(() => {
 
     })

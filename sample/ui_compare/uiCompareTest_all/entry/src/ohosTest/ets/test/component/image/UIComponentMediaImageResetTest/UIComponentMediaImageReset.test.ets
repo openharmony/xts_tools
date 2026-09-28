@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentMediaImageReset() {
-  describe('UIComponentMediaImageReset', () => {
+export default function uIComponentMediaImageReset() {
+  describe('uIComponentMediaImageReset', () => {
     beforeAll(() => {
 
     })

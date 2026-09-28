@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function Path2dAndCanvaspath2d() {
+export default function path2dAndCanvaspath2d() {
 
-  describe('Path2dAndCanvaspath2d', () => {
+  describe('path2dAndCanvaspath2d', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

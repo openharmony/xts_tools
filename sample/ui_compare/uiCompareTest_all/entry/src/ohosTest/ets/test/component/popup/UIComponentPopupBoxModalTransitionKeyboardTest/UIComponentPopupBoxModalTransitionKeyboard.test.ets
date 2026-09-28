@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentPopupBoxModalTransitionKeyboard() {
-  describe('UIComponentPopupBoxModalTransitionKeyboard', () => {
+export default function uIComponentPopupBoxModalTransitionKeyboard() {
+  describe('uIComponentPopupBoxModalTransitionKeyboard', () => {
     beforeAll(() => {
 
     })

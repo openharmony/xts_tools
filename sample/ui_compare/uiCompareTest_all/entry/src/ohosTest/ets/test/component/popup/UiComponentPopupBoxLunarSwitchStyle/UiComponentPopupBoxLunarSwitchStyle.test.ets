@@ -38,9 +38,9 @@ import { BusinessError } from '@kit.BasicServicesKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiComponentPopupBoxLunarSwitchStyle() {
+export default function uiComponentPopupBoxLunarSwitchStyle() {
 
-  describe('UiComponentPopupBoxLunarSwitchStyle', () => {
+  describe('uiComponentPopupBoxLunarSwitchStyle', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

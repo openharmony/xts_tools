@@ -20,8 +20,8 @@ import { Driver, ON } from '@kit.TestKit'
 import windowSnap from '../../../model/snapShot'
 import TestHelper from '../../../model/TestHelper'
 
-export default function UiComponentNavNavigationAutonegotiation() {
-  describe('UiComponentNavNavigationAutonegotiation', () => {
+export default function uiComponentNavNavigationAutonegotiation() {
+  describe('uiComponentNavNavigationAutonegotiation', () => {
 
     afterEach(async (done: Function) => {
 

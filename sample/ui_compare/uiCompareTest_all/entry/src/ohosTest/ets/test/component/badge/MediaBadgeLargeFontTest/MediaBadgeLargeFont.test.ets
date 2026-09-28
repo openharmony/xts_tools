@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { uiAppearance } from '@kit.ArkUI';
 
-export default function MediaBadgeLargeFont() {
+export default function mediaBadgeLargeFont() {
 
-  describe('MediaBadgeLargeFont', () => {
+  describe('mediaBadgeLargeFont', () => {
     beforeAll(async () => {
       // 测试前置操作：设置字体为2倍
       await uiAppearance.setFontScale(2); // 2表示200%大小

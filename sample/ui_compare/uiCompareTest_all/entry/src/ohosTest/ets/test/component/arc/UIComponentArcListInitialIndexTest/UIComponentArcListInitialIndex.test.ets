@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
 import { BusinessError } from '@kit.BasicServicesKit';
 
-export default function UIComponentArcListInitialIndexTest() {
-  describe('UIComponentArcListInitialIndexTest', () => {
+export default function uIComponentArcListInitialIndexTest() {
+  describe('uIComponentArcListInitialIndexTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentToolbarCustom0410() {
-  describe('UiComponentToolbarCustom0410', () => {
+export default function uiComponentToolbarCustom0410() {
+  describe('uiComponentToolbarCustom0410', () => {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_TOOLBAR_CUSTOM_0410
      * @tc.name   : Real component path: row_reverse

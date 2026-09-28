@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentPopupboxMenuUiextension() {
-  describe('UiComponentPopupboxMenuUiextension', () => {
+export default function uiComponentPopupboxMenuUiextension() {
+  describe('uiComponentPopupboxMenuUiextension', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()

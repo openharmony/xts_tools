@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MouseButton } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function DatePickerModeTest() {
+export default function datePickerModeTest() {
 
-  describe('DatePickerModeTest', () => {
+  describe('datePickerModeTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -18,20 +18,20 @@ import { Driver, ON } from '@kit.TestKit'
 import Settings from '../../../model/Settings'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentMediaVideoHspTest() {
-  describe('UiComponentMediaVideoHspTest', () => {
+export default function uiComponentMediaVideoHspTest() {
+  describe('uiComponentMediaVideoHspTest', () => {
     let driver: Driver = Driver.create()
 
     beforeAll(async () => {
-      console.info('UiComponentMediaVideoHspTest beforeAll')
+      console.info('uiComponentMediaVideoHspTest beforeAll')
     })
 
     beforeEach(async () => {
-      console.info('UiComponentMediaVideoHspTest beforeEach')
+      console.info('uiComponentMediaVideoHspTest beforeEach')
     })
 
     afterEach(async () => {
-      console.info('UiComponentMediaVideoHspTest afterEach')
+      console.info('uiComponentMediaVideoHspTest afterEach')
       await driver.delayMs(500)
       if (Settings.windowClass) {
         await Settings.destroyWindow(Settings.windowClass)
@@ -39,7 +39,7 @@ export default function UiComponentMediaVideoHspTest() {
     })
 
     afterAll(async () => {
-      console.info('UiComponentMediaVideoHspTest afterAll')
+      console.info('uiComponentMediaVideoHspTest afterAll')
     })
 
     /*

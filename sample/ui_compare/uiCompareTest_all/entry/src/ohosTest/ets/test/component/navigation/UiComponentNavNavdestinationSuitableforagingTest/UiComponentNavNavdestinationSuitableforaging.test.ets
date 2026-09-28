@@ -18,20 +18,20 @@ import { Driver, ON } from '@kit.TestKit'
 import Settings from '../../../model/Settings'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentNavNavdestinationSuitableforagingTest() {
-  describe('UiComponentNavNavdestinationSuitableforagingTest', () => {
+export default function uiComponentNavNavdestinationSuitableforagingTest() {
+  describe('uiComponentNavNavdestinationSuitableforagingTest', () => {
     let driver: Driver = Driver.create()
 
     beforeAll(async () => {
-      console.info('UiComponentNavNavdestinationSuitableforagingTest beforeAll')
+      console.info('uiComponentNavNavdestinationSuitableforagingTest beforeAll')
     })
 
     beforeEach(async () => {
-      console.info('UiComponentNavNavdestinationSuitableforagingTest beforeEach')
+      console.info('uiComponentNavNavdestinationSuitableforagingTest beforeEach')
     })
 
     afterEach(async () => {
-      console.info('UiComponentNavNavdestinationSuitableforagingTest afterEach')
+      console.info('uiComponentNavNavdestinationSuitableforagingTest afterEach')
       await driver.delayMs(500)
       if (Settings.windowClass) {
         await Settings.destroyWindow(Settings.windowClass)
@@ -39,7 +39,7 @@ export default function UiComponentNavNavdestinationSuitableforagingTest() {
     })
 
     afterAll(async () => {
-      console.info('UiComponentNavNavdestinationSuitableforagingTest afterAll')
+      console.info('uiComponentNavNavdestinationSuitableforagingTest afterAll')
     })
 
     /*

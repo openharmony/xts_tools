@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentMediaDatePickerMode0024() {
-  describe('UiComponentMediaDatePickerMode0024', () => {
+export default function uiComponentMediaDatePickerMode0024() {
+  describe('uiComponentMediaDatePickerMode0024', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0024
      * @tc.name   : DatePicker memory leak readiness marker

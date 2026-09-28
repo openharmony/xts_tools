@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function LoadingProgressTest() {
+export default function loadingProgressTest() {
 
-  describe('LoadingProgressTest', () => {
+  describe('loadingProgressTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

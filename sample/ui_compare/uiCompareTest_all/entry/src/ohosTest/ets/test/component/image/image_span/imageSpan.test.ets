@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function ImageSpanTest() {
+export default function imageSpanTest() {
 
-  describe('ImageSpanTest', () => {
+  describe('imageSpanTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

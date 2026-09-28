@@ -30,8 +30,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentPopupBoxSelectMirror() {
-  describe('UIComponentPopupBoxSelectMirror', () => {
+export default function uIComponentPopupBoxSelectMirror() {
+  describe('uIComponentPopupBoxSelectMirror', () => {
     beforeAll(() => {
 
     })

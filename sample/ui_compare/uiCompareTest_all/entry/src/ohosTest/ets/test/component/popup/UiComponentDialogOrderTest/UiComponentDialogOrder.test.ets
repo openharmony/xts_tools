@@ -22,8 +22,8 @@ import Logger from '../../../model/Logger';
 /*
  * Dialog Order层级测试
  */
-export default function UiComponentDialogOrderTest() {
-  describe('UiComponentDialogOrderTest', () => {
+export default function uiComponentDialogOrderTest() {
+  describe('uiComponentDialogOrderTest', () => {
     afterEach(async () => {
       if (Settings.windowClass) {
         Settings.destroyWindow(Settings.windowClass);
@@ -49,23 +49,31 @@ export default function UiComponentDialogOrderTest() {
       // 点击层级按钮
       let levelBtn = await driver.findComponent(ON.id('DialogOrder0010_Level'));
       expect(levelBtn !== null).assertTrue();
-      if (levelBtn) await levelBtn.click();
+      if (levelBtn) {
+        await levelBtn.click();
+      }
       await driver.delayMs(300);
 
       // 点击showDialog按钮
       let showDialogBtn = await driver.findComponent(ON.id('DialogOrder0010_ShowDialog'));
       expect(showDialogBtn !== null).assertTrue();
-      if (showDialogBtn) await showDialogBtn.click();
+      if (showDialogBtn) {
+        await showDialogBtn.click();
+      }
       await driver.delayMs(1000);
 
       // 点击确定关闭弹窗
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
 
       // 获取Order值
       let getOrderBtn = await driver.findComponent(ON.id('DialogOrder0010_GetOrder'));
-      if (getOrderBtn) await getOrderBtn.click();
+      if (getOrderBtn) {
+        await getOrderBtn.click();
+      }
       await driver.delayMs(300);
 
       await windowSnap.snapShot();
@@ -89,16 +97,22 @@ export default function UiComponentDialogOrderTest() {
 
       let customDialogBtn = await driver.findComponent(ON.id('DialogOrder0020_CustomDialog'));
       expect(customDialogBtn !== null).assertTrue();
-      if (customDialogBtn) await customDialogBtn.click();
+      if (customDialogBtn) {
+        await customDialogBtn.click();
+      }
       await driver.delayMs(1000);
 
       // 点击确定关闭弹窗
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
 
       let getOrderBtn = await driver.findComponent(ON.id('DialogOrder0020_GetOrder'));
-      if (getOrderBtn) await getOrderBtn.click();
+      if (getOrderBtn) {
+        await getOrderBtn.click();
+      }
       await driver.delayMs(300);
 
       await windowSnap.snapShot();
@@ -122,15 +136,21 @@ export default function UiComponentDialogOrderTest() {
 
       let alertDialogBtn = await driver.findComponent(ON.id('DialogOrder0040_AlertDialog'));
       expect(alertDialogBtn !== null).assertTrue();
-      if (alertDialogBtn) await alertDialogBtn.click();
+      if (alertDialogBtn) {
+        await alertDialogBtn.click();
+      }
       await driver.delayMs(1000);
 
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
 
       let getOrderBtn = await driver.findComponent(ON.id('DialogOrder0040_GetOrder'));
-      if (getOrderBtn) await getOrderBtn.click();
+      if (getOrderBtn) {
+        await getOrderBtn.click();
+      }
       await driver.delayMs(300);
 
       await windowSnap.snapShot();
@@ -154,15 +174,21 @@ export default function UiComponentDialogOrderTest() {
 
       let openDialogBtn = await driver.findComponent(ON.id('DialogOrder0050_OpenCustomDialog'));
       expect(openDialogBtn !== null).assertTrue();
-      if (openDialogBtn) await openDialogBtn.click();
+      if (openDialogBtn) {
+        await openDialogBtn.click();
+      }
       await driver.delayMs(1000);
 
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
 
       let getOrderBtn = await driver.findComponent(ON.id('DialogOrder0050_GetOrder'));
-      if (getOrderBtn) await getOrderBtn.click();
+      if (getOrderBtn) {
+        await getOrderBtn.click();
+      }
       await driver.delayMs(300);
 
       await windowSnap.snapShot();
@@ -186,16 +212,22 @@ export default function UiComponentDialogOrderTest() {
 
       let actionSheetBtn = await driver.findComponent(ON.id('DialogOrder0060_ActionSheet'));
       expect(actionSheetBtn !== null).assertTrue();
-      if (actionSheetBtn) await actionSheetBtn.click();
+      if (actionSheetBtn) {
+        await actionSheetBtn.click();
+      }
       await driver.delayMs(1000);
 
       // 点击取消关闭
       let cancelBtn = await driver.findComponent(ON.text('取消'));
-      if (cancelBtn) await cancelBtn.click();
+      if (cancelBtn) {
+        await cancelBtn.click();
+      }
       await driver.delayMs(500);
 
       let getOrderBtn = await driver.findComponent(ON.id('DialogOrder0060_GetOrder'));
-      if (getOrderBtn) await getOrderBtn.click();
+      if (getOrderBtn) {
+        await getOrderBtn.click();
+      }
       await driver.delayMs(300);
 
       await windowSnap.snapShot();
@@ -219,15 +251,21 @@ export default function UiComponentDialogOrderTest() {
 
       let showDialogBtn = await driver.findComponent(ON.id('DialogOrder0090_ShowDialog'));
       expect(showDialogBtn !== null).assertTrue();
-      if (showDialogBtn) await showDialogBtn.click();
+      if (showDialogBtn) {
+        await showDialogBtn.click();
+      }
       await driver.delayMs(1000);
 
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
 
       let getOrderBtn = await driver.findComponent(ON.id('DialogOrder0090_GetOrder'));
-      if (getOrderBtn) await getOrderBtn.click();
+      if (getOrderBtn) {
+        await getOrderBtn.click();
+      }
       await driver.delayMs(300);
 
       await windowSnap.snapShot();
@@ -251,15 +289,21 @@ export default function UiComponentDialogOrderTest() {
 
       let presentDialogBtn = await driver.findComponent(ON.id('DialogOrder0120_PresentDialog'));
       expect(presentDialogBtn !== null).assertTrue();
-      if (presentDialogBtn) await presentDialogBtn.click();
+      if (presentDialogBtn) {
+        await presentDialogBtn.click();
+      }
       await driver.delayMs(1000);
 
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
 
       let getOrderBtn = await driver.findComponent(ON.id('DialogOrder0120_GetOrder'));
-      if (getOrderBtn) await getOrderBtn.click();
+      if (getOrderBtn) {
+        await getOrderBtn.click();
+      }
       await driver.delayMs(300);
 
       await windowSnap.snapShot();
@@ -283,15 +327,21 @@ export default function UiComponentDialogOrderTest() {
 
       let alertDialogBtn = await driver.findComponent(ON.id('DialogOrder0210_AlertDialog'));
       expect(alertDialogBtn !== null).assertTrue();
-      if (alertDialogBtn) await alertDialogBtn.click();
+      if (alertDialogBtn) {
+        await alertDialogBtn.click();
+      }
       await driver.delayMs(1000);
 
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
 
       let getOrderBtn = await driver.findComponent(ON.id('DialogOrder0210_GetOrder'));
-      if (getOrderBtn) await getOrderBtn.click();
+      if (getOrderBtn) {
+        await getOrderBtn.click();
+      }
       await driver.delayMs(300);
 
       await windowSnap.snapShot();
@@ -315,15 +365,21 @@ export default function UiComponentDialogOrderTest() {
 
       let showDialogBtn = await driver.findComponent(ON.id('DialogOrder0280_ShowDialog'));
       expect(showDialogBtn !== null).assertTrue();
-      if (showDialogBtn) await showDialogBtn.click();
+      if (showDialogBtn) {
+        await showDialogBtn.click();
+      }
       await driver.delayMs(1000);
 
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
 
       let getOrderBtn = await driver.findComponent(ON.id('DialogOrder0280_GetOrder'));
-      if (getOrderBtn) await getOrderBtn.click();
+      if (getOrderBtn) {
+        await getOrderBtn.click();
+      }
       await driver.delayMs(300);
 
       await windowSnap.snapShot();
@@ -347,15 +403,21 @@ export default function UiComponentDialogOrderTest() {
 
       let alertDialogBtn = await driver.findComponent(ON.id('DialogOrder0350_AlertDialog'));
       expect(alertDialogBtn !== null).assertTrue();
-      if (alertDialogBtn) await alertDialogBtn.click();
+      if (alertDialogBtn) {
+        await alertDialogBtn.click();
+      }
       await driver.delayMs(1000);
 
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
 
       let getOrderBtn = await driver.findComponent(ON.id('DialogOrder0350_GetOrder'));
-      if (getOrderBtn) await getOrderBtn.click();
+      if (getOrderBtn) {
+        await getOrderBtn.click();
+      }
       await driver.delayMs(300);
 
       await windowSnap.snapShot();
@@ -377,10 +439,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0030_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -400,10 +466,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0070_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -423,10 +493,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0080_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -446,10 +520,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0100_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -469,10 +547,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0110_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -492,10 +574,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0130_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -515,10 +601,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0140_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -538,10 +628,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0150_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -561,10 +655,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0160_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -584,10 +682,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0170_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -607,10 +709,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0180_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -630,10 +736,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0190_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let cancelBtn = await driver.findComponent(ON.text('取消'));
-      if (cancelBtn) await cancelBtn.click();
+      if (cancelBtn) {
+        await cancelBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -653,10 +763,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0200_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -676,10 +790,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0220_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -699,10 +817,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0230_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -722,10 +844,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0240_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -745,10 +871,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0250_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -768,10 +898,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0260_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -791,10 +925,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0270_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let cancelBtn = await driver.findComponent(ON.text('取消'));
-      if (cancelBtn) await cancelBtn.click();
+      if (cancelBtn) {
+        await cancelBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -814,10 +952,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0290_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -837,10 +979,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0300_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -860,10 +1006,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0310_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -883,10 +1033,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0320_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let confirmBtn = await driver.findComponent(ON.text('确定'));
-      if (confirmBtn) await confirmBtn.click();
+      if (confirmBtn) {
+        await confirmBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -906,10 +1060,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0330_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let cancelBtn = await driver.findComponent(ON.text('取消'));
-      if (cancelBtn) await cancelBtn.click();
+      if (cancelBtn) {
+        await cancelBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();
@@ -929,10 +1087,14 @@ export default function UiComponentDialogOrderTest() {
       await driver.delayMs(1000);
       let dialogBtn = await driver.findComponent(ON.id('DialogOrder0340_Dialog'));
       expect(dialogBtn !== null).assertTrue();
-      if (dialogBtn) await dialogBtn.click();
+      if (dialogBtn) {
+        await dialogBtn.click();
+      }
       await driver.delayMs(1000);
       let cancelBtn = await driver.findComponent(ON.text('取消'));
-      if (cancelBtn) await cancelBtn.click();
+      if (cancelBtn) {
+        await cancelBtn.click();
+      }
       await driver.delayMs(500);
       await windowSnap.snapShot();
       done();

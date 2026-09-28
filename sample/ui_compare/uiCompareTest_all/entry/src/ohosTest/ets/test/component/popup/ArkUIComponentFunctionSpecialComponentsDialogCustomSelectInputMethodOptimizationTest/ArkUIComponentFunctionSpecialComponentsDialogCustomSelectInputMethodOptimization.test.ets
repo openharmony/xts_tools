@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function ArkUIComponentFunctionSpecialComponentsDialogCustomSelectInputMethodOptimization() {
-  describe('ArkUIComponentFunctionSpecialComponentsDialogCustomSelectInputMethodOptimization', () => {
+export default function arkUIComponentFunctionSpecialComponentsDialogCustomSelectInputMethodOptimization() {
+  describe('arkUIComponentFunctionSpecialComponentsDialogCustomSelectInputMethodOptimization', () => {
     beforeAll(() => {
 
     })

@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function PatternLockTest () {
+export default function patternLockTest () {
 
-  describe('PatternLockTest', () => {
+  describe('patternLockTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

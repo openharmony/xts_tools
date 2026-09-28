@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentSpecialComponentsEmbeddedComponentFingerClick() {
-  describe('UIComponentSpecialComponentsEmbeddedComponentFingerClick', () => {
+export default function uIComponentSpecialComponentsEmbeddedComponentFingerClick() {
+  describe('uIComponentSpecialComponentsEmbeddedComponentFingerClick', () => {
     beforeAll(() => {
       try {
         mpEnable = systemParameterEnhance.getSync('persist.sys.abilityms.multi_process_model');

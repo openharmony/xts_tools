@@ -18,20 +18,20 @@ import { Driver, ON, Component } from '@kit.TestKit'
 import Settings from '../../../model/Settings'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentNavNavdestinationPropertyTest() {
-  describe('UiComponentNavNavdestinationPropertyTest', () => {
+export default function uiComponentNavNavdestinationPropertyTest() {
+  describe('uiComponentNavNavdestinationPropertyTest', () => {
     let driver: Driver = Driver.create()
 
     beforeAll(async () => {
-      console.info('UiComponentNavNavdestinationPropertyTest beforeAll')
+      console.info('uiComponentNavNavdestinationPropertyTest beforeAll')
     })
 
     beforeEach(async () => {
-      console.info('UiComponentNavNavdestinationPropertyTest beforeEach')
+      console.info('uiComponentNavNavdestinationPropertyTest beforeEach')
     })
 
     afterEach(async () => {
-      console.info('UiComponentNavNavdestinationPropertyTest afterEach')
+      console.info('uiComponentNavNavdestinationPropertyTest afterEach')
       // 销毁窗口
       if (Settings.windowClass) {
         Settings.destroyWindow(Settings.windowClass)
@@ -40,7 +40,7 @@ export default function UiComponentNavNavdestinationPropertyTest() {
     })
 
     afterAll(async () => {
-      console.info('UiComponentNavNavdestinationPropertyTest afterAll')
+      console.info('uiComponentNavNavdestinationPropertyTest afterAll')
     })
 
     /*

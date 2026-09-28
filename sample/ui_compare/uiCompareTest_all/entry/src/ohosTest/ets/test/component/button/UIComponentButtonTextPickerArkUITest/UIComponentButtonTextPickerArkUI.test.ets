@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
 import { Point } from '@kit.TestKit'
 
-export default function UIComponentButtonTextPickerArkUITest() {
-  describe('UIComponentButtonTextPickerArkUITest', () => {
+export default function uIComponentButtonTextPickerArkUITest() {
+  describe('uIComponentButtonTextPickerArkUITest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

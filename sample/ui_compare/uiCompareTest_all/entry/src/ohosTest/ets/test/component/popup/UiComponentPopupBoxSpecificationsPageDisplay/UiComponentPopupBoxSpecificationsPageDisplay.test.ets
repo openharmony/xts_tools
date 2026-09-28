@@ -35,9 +35,9 @@ import { Driver, ON, Component, MouseButton, UiWindow } from '@kit.TestKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiComponentPopupBoxSpecificationsPageDisplay() {
+export default function uiComponentPopupBoxSpecificationsPageDisplay() {
 
-  describe('UiComponentPopupBoxSpecificationsPageDisplay', () => {
+  describe('uiComponentPopupBoxSpecificationsPageDisplay', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -19,8 +19,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentMenuMirrorImageExtended() {
-  describe('UiComponentMenuMirrorImageExtended', () => {
+export default function uiComponentMenuMirrorImageExtended() {
+  describe('uiComponentMenuMirrorImageExtended', () => {
 
     afterEach(async () => {
       if (Settings.windowClass) {

@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function ImageModifierTest () {
+export default function imageModifierTest () {
 
-  describe('ImageModifierTest', () => {
+  describe('imageModifierTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

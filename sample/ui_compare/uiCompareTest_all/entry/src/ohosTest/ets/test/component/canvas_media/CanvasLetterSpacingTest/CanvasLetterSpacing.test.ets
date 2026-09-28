@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 
-export default function CanvasLetterSpacing() {
+export default function canvasLetterSpacing() {
 
-  describe('CanvasLetterSpacing', () => {
+  describe('canvasLetterSpacing', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

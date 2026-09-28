@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Component, Driver, ON } from '@kit.TestKit'
 
 
-export default function ComponentNavNavigation() {
+export default function componentNavNavigation() {
 
-  describe('ComponentNavNavigation', () => {
+  describe('componentNavNavigation', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

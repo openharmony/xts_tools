@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function SpecialComponentsUIContextGrayscale() {
+export default function specialComponentsUIContextGrayscale() {
 
-  describe('SpecialComponentsUIContextGrayscale', () => {
+  describe('specialComponentsUIContextGrayscale', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

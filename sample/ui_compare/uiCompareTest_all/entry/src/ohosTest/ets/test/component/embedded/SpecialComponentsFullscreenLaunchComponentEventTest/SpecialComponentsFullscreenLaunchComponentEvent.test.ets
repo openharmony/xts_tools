@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
 
-export default function SpecialComponentsFullscreenLaunchComponentEvent() {
+export default function specialComponentsFullscreenLaunchComponentEvent() {
 
-  describe('SpecialComponentsFullscreenLaunchComponentEvent', () => {
+  describe('specialComponentsFullscreenLaunchComponentEvent', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return
@@ -307,8 +307,12 @@ export default function SpecialComponentsFullscreenLaunchComponentEvent() {
           Logger.info('TEST', 'Drag operation completed');
         } else {
           Logger.error('TEST', 'Drag source or drop target not found');
-          if (!dragText) Logger.error('TEST', 'ModalDragPage_004 not found');
-          if (!inputField) Logger.error('TEST', 'ModalDragPage_006 not found');
+          if (!dragText) {
+            Logger.error('TEST', 'ModalDragPage_004 not found');
+          }
+          if (!inputField) {
+            Logger.error('TEST', 'ModalDragPage_006 not found');
+          }
         }
         
         // 验证输入框内容

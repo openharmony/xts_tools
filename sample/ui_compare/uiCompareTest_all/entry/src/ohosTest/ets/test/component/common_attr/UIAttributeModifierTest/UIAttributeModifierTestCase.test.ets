@@ -36,9 +36,9 @@ import Utils from '../../../model/Utils'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UIAttributeModifierTest() {
+export default function uIAttributeModifierTest() {
 
-  describe('UIAttributeModifierTest', () => {
+  describe('uIAttributeModifierTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

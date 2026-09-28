@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentGridEvent() {
-  describe('UIComponentGridEvent', () => {
+export default function uIComponentGridEvent() {
+  describe('uIComponentGridEvent', () => {
     beforeAll(() => {
 
     })

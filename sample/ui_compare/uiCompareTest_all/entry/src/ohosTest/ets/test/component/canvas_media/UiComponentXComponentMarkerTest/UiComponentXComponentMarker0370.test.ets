@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentXComponentMarker0370() {
-  describe('UiComponentXComponentMarker0370', () => {
+export default function uiComponentXComponentMarker0370() {
+  describe('uiComponentXComponentMarker0370', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0370
      * @tc.name   : XComponent host onLoad

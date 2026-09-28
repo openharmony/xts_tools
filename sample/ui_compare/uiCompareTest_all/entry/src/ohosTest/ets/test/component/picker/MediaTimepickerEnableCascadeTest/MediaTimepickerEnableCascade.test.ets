@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function MediaTimepickerEnableCascade() {
+export default function mediaTimepickerEnableCascade() {
 
-  describe('MediaTimepickerEnableCascade', () => {
+  describe('mediaTimepickerEnableCascade', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

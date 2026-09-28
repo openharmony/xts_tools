@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentMediaImageSupportThumbnails() {
-  describe('UIComponentMediaImageSupportThumbnails', () => {
+export default function uIComponentMediaImageSupportThumbnails() {
+  describe('uIComponentMediaImageSupportThumbnails', () => {
     beforeAll(() => {
 
     })

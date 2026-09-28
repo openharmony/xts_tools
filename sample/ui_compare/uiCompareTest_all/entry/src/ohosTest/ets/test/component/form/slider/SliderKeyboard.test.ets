@@ -22,9 +22,9 @@ import { Driver, ON, Component } from '@kit.TestKit';
 import { KeyCode } from '@kit.InputKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function SliderKeyboardTest() {
+export default function sliderKeyboardTest() {
 
-  describe('SliderKeyboardTest', () => {
+  describe('sliderKeyboardTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

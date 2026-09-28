@@ -19,8 +19,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function NavigationDFXEnhanced() {
-  describe('NavigationDFXEnhanced', () => {
+export default function navigationDFXEnhanced() {
+  describe('navigationDFXEnhanced', () => {
 
     afterEach(async () => {
       if (Settings.windowClass) {

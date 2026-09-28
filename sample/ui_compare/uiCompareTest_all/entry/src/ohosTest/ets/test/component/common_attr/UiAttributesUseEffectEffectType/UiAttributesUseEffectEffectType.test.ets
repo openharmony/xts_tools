@@ -37,9 +37,9 @@ import { BusinessError } from '@kit.BasicServicesKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiAttributesUseEffectEffectType() {
+export default function uiAttributesUseEffectEffectType() {
 
-  describe('UiAttributesUseEffectEffectType', () => {
+  describe('uiAttributesUseEffectEffectType', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

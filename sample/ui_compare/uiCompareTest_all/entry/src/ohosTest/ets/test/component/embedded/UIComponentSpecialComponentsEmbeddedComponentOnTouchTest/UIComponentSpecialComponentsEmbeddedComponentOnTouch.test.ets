@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentSpecialComponentsEmbeddedComponentOnTouch() {
-  describe('UIComponentSpecialComponentsEmbeddedComponentOnTouch', () => {
+export default function uIComponentSpecialComponentsEmbeddedComponentOnTouch() {
+  describe('uIComponentSpecialComponentsEmbeddedComponentOnTouch', () => {
     beforeAll(() => {
       try {
         mpEnable = systemParameterEnhance.getSync('persist.sys.abilityms.multi_process_model');

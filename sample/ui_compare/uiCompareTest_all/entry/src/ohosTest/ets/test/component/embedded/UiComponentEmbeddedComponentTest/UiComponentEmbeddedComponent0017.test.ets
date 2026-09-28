@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentEmbeddedComponent0017() {
-  describe('UiComponentEmbeddedComponent0017', () => {
+export default function uiComponentEmbeddedComponent0017() {
+  describe('uiComponentEmbeddedComponent0017', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NATIVE_0017
      * @tc.name   : EmbeddedComponent onError timeout marker

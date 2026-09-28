@@ -19,8 +19,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentMenuShadow() {
-  describe('UiComponentMenuShadow', () => {
+export default function uiComponentMenuShadow() {
+  describe('uiComponentMenuShadow', () => {
 
     afterEach(async () => {
       if (Settings.windowClass) {

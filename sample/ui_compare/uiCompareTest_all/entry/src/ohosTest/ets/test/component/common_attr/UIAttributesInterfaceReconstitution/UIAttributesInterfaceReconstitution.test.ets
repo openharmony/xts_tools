@@ -37,9 +37,9 @@ import { KeyCode } from '@kit.InputKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UIAttributesInterfaceReconstitution() {
+export default function uIAttributesInterfaceReconstitution() {
 
-  describe('UIAttributesInterfaceReconstitution', () => {
+  describe('uIAttributesInterfaceReconstitution', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIAttributesHoverEffectDoubleStrokeInterface() {
-  describe('UIAttributesHoverEffectDoubleStrokeInterface', () => {
+export default function uIAttributesHoverEffectDoubleStrokeInterface() {
+  describe('uIAttributesHoverEffectDoubleStrokeInterface', () => {
     beforeAll(() => {
 
     })

@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, Component, ON, MouseButton } from '@kit.TestKit'
 
-export default function ArkUIComponentFunctionCommonMattributesCustomBackgroudBlurTest() {
+export default function arkUIComponentFunctionCommonMattributesCustomBackgroudBlurTest() {
 
-  describe('ArkUIComponentFunctionCommonMattributesCustomBackgroudBlurTest', () => {
+  describe('arkUIComponentFunctionCommonMattributesCustomBackgroudBlurTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

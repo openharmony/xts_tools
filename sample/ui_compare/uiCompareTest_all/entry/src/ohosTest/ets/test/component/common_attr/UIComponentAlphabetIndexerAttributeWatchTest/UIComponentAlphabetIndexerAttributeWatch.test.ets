@@ -29,8 +29,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentAlphabetIndexerAttributeWatch() {
-  describe('UIComponentAlphabetIndexerAttributeWatch', () => {
+export default function uIComponentAlphabetIndexerAttributeWatch() {
+  describe('uIComponentAlphabetIndexerAttributeWatch', () => {
     beforeAll(() => {
 
     })

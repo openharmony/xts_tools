@@ -21,8 +21,8 @@ import { Driver, ON, Component, MouseButton } from '@kit.TestKit'
 import { BusinessError } from '@kit.BasicServicesKit';
 import { Point } from '@kit.TestKit';
 
-export default function UIComponentGridEventEnhancementTest() {
-  describe('UIComponentGridEventEnhancementTest', () => {
+export default function uIComponentGridEventEnhancementTest() {
+  describe('uIComponentGridEventEnhancementTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

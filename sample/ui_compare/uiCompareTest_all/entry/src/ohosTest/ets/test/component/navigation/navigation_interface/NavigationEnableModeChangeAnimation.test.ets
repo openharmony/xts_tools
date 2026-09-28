@@ -20,9 +20,9 @@ import Utils from '../../../model/Utils';
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit';
 
-export default function NavigationEnableModeChangeAnimationTest() {
+export default function navigationEnableModeChangeAnimationTest() {
 
-  describe('NavigationEnableModeChangeAnimationTest', () => {
+  describe('navigationEnableModeChangeAnimationTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

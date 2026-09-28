@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function NavTabsTest() {
+export default function navTabsTest() {
 
-  describe('NavTabsTest', () => {
+  describe('navTabsTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

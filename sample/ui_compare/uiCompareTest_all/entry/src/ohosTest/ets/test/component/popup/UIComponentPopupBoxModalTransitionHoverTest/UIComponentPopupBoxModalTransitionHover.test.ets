@@ -30,8 +30,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentPopupBoxModalTransitionHover() {
-  describe('UIComponentPopupBoxModalTransitionHover', () => {
+export default function uIComponentPopupBoxModalTransitionHover() {
+  describe('uIComponentPopupBoxModalTransitionHover', () => {
     beforeAll(() => {
 
     })

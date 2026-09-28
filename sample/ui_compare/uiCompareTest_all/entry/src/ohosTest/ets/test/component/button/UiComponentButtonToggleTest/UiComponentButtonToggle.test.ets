@@ -19,8 +19,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentButtonToggleTest() {
-  describe('UiComponentButtonToggleTest', () => {
+export default function uiComponentButtonToggleTest() {
+  describe('uiComponentButtonToggleTest', () => {
     afterEach(async () => {
       if (Settings.windowClass) {
         Settings.destroyWindow(Settings.windowClass);

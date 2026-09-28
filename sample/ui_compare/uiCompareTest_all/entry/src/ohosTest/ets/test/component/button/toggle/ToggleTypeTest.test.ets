@@ -21,8 +21,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function ToggleTypeTest() {
-  describe('ToggleTypeTest', () => {
+export default function toggleTypeTest() {
+  describe('toggleTypeTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

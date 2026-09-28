@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { BusinessError } from '@kit.BasicServicesKit'
 
-export default function ImageNetworkTest() {
+export default function imageNetworkTest() {
 
-  describe('ImageNetworkTest', () => {
+  describe('imageNetworkTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

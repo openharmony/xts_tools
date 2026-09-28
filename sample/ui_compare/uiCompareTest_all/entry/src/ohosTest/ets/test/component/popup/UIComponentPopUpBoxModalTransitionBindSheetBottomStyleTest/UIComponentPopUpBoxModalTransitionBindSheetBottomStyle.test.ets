@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentPopUpBoxModalTransitionBindSheetBottomStyle() {
-  describe('UIComponentPopUpBoxModalTransitionBindSheetBottomStyle', () => {
+export default function uIComponentPopUpBoxModalTransitionBindSheetBottomStyle() {
+  describe('uIComponentPopUpBoxModalTransitionBindSheetBottomStyle', () => {
     beforeAll(() => {
 
     })

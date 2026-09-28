@@ -20,9 +20,9 @@ import Logger from '../../../model/Logger'
 import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 
-export default function PopupboxDoubleStroke() {
+export default function popupboxDoubleStroke() {
 
-  describe('PopupboxDoubleStroke', () => {
+  describe('popupboxDoubleStroke', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

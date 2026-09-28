@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentPopUpBoxFollowDialog() {
-  describe('UIComponentPopUpBoxFollowDialog', () => {
+export default function uIComponentPopUpBoxFollowDialog() {
+  describe('uIComponentPopUpBoxFollowDialog', () => {
     beforeAll(() => {
 
     })

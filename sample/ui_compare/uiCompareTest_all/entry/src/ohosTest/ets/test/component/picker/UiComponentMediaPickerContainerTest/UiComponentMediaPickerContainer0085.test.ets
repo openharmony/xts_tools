@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentMediaPickerContainer0085() {
-  describe('UiComponentMediaPickerContainer0085', () => {
+export default function uiComponentMediaPickerContainer0085() {
+  describe('uiComponentMediaPickerContainer0085', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PICKER_CONTAINER_0085
      * @tc.name   : Real component path: textpicker
@@ -31,7 +31,7 @@ export default function UiComponentMediaPickerContainer0085() {
     it('SUB_ACE_UI_COMPONENT_MEDIA_PICKER_CONTAINER_0085', Level.LEVEL3, async (done: Function) => {
       await Settings.changeWindow(
         'testability/pages/component/picker/UiComponentMediaPickerContainer/' +
-        'UiComponentMediaPickerContainer0085'
+        'uiComponentMediaPickerContainer0085'
       )
       let driver = await Driver.create()
       await Utils.sleep(1500)

@@ -20,8 +20,8 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component, On } from '@kit.TestKit'
 import { Point } from '@kit.TestKit'
 
-export default function FunctionRepeatWaterFlowTest() {
-  describe('FunctionRepeatWaterFlowTest', () => {
+export default function functionRepeatWaterFlowTest() {
+  describe('functionRepeatWaterFlowTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return;

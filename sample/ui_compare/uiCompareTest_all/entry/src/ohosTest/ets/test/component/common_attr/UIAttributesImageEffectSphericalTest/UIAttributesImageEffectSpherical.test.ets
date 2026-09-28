@@ -34,8 +34,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIAttributesImageEffectSpherical() {
-  describe('UIAttributesImageEffectSpherical', () => {
+export default function uIAttributesImageEffectSpherical() {
+  describe('uIAttributesImageEffectSpherical', () => {
     beforeAll(() => {
 
     })

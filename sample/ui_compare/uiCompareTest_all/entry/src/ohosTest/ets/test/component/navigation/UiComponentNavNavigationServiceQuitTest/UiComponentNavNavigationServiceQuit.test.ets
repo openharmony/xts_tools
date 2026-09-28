@@ -19,9 +19,9 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentNavNavigationServiceQuit() {
-  describe('UiComponentNavNavigationServiceQuit', () => {
-    const TAG: string = 'UiComponentNavNavigationServiceQuit';
+export default function uiComponentNavNavigationServiceQuit() {
+  describe('uiComponentNavNavigationServiceQuit', () => {
+    const TAG: string = 'uiComponentNavNavigationServiceQuit';
     let driver = Driver.create();
 
     afterEach(async () => {

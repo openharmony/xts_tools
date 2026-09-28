@@ -38,9 +38,9 @@ import { BusinessError } from '@kit.BasicServicesKit'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UiComponentRichEditorMenuReinforcing() {
+export default function uiComponentRichEditorMenuReinforcing() {
 
-  describe('UiComponentRichEditorMenuReinforcing', () => {
+  describe('uiComponentRichEditorMenuReinforcing', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

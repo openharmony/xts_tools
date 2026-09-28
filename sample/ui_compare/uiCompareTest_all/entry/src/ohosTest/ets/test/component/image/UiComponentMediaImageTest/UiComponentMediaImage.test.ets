@@ -19,8 +19,8 @@ import Settings from '../../../model/Settings';
 import windowSnap from '../../../model/snapShot';
 import Logger from '../../../model/Logger';
 
-export default function UiComponentMediaImageTest() {
-  describe('UiComponentMediaImageTest', () => {
+export default function uiComponentMediaImageTest() {
+  describe('uiComponentMediaImageTest', () => {
     let driver: Driver = Driver.create();
 
     afterEach(async () => {

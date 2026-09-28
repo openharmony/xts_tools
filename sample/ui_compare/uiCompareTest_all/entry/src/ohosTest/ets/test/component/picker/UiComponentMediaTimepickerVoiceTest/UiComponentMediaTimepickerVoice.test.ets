@@ -18,20 +18,20 @@ import { Driver, ON } from '@kit.TestKit'
 import Settings from '../../../model/Settings'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentMediaTimepickerVoiceTest() {
-  describe('UiComponentMediaTimepickerVoiceTest', () => {
+export default function uiComponentMediaTimepickerVoiceTest() {
+  describe('uiComponentMediaTimepickerVoiceTest', () => {
     let driver: Driver = Driver.create()
 
     beforeAll(async () => {
-      console.info('UiComponentMediaTimepickerVoiceTest beforeAll')
+      console.info('uiComponentMediaTimepickerVoiceTest beforeAll')
     })
 
     beforeEach(async () => {
-      console.info('UiComponentMediaTimepickerVoiceTest beforeEach')
+      console.info('uiComponentMediaTimepickerVoiceTest beforeEach')
     })
 
     afterEach(async () => {
-      console.info('UiComponentMediaTimepickerVoiceTest afterEach')
+      console.info('uiComponentMediaTimepickerVoiceTest afterEach')
       await driver.delayMs(500)
       if (Settings.windowClass) {
         await Settings.destroyWindow(Settings.windowClass)
@@ -39,7 +39,7 @@ export default function UiComponentMediaTimepickerVoiceTest() {
     })
 
     afterAll(async () => {
-      console.info('UiComponentMediaTimepickerVoiceTest afterAll')
+      console.info('uiComponentMediaTimepickerVoiceTest afterAll')
     })
 
     /*

@@ -30,8 +30,8 @@ function sleep(ms: number) {
   return new Promise<string>(resolve => setTimeout(resolve, ms));
 }
 
-export default function UIComponentLayoutStack() {
-  describe('UIComponentLayoutStack', () => {
+export default function uIComponentLayoutStack() {
+  describe('uIComponentLayoutStack', () => {
     beforeAll(() => {
 
     })

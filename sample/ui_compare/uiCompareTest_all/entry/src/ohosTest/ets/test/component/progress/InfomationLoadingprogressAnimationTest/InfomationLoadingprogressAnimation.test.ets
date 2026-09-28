@@ -21,9 +21,9 @@ import Utils from '../../../model/Utils'
 import { Driver, ON, Component } from '@kit.TestKit';
 import { uiAppearance } from '@kit.ArkUI';
 
-export default function InfomationLoadingprogressAnimation() {
+export default function infomationLoadingprogressAnimation() {
 
-  describe('InfomationLoadingprogressAnimation', () => {
+  describe('infomationLoadingprogressAnimation', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

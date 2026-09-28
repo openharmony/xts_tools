@@ -36,9 +36,9 @@ import Utils from '../../../model/Utils'
  *  Logger.info(TAG,`config = ${config}, err = ${JSON.stringify(exception)}`)
  * */
 
-export default function UIOverlayTest() {
+export default function uIOverlayTest() {
 
-  describe('UIOverlayTest', () => {
+  describe('uIOverlayTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return

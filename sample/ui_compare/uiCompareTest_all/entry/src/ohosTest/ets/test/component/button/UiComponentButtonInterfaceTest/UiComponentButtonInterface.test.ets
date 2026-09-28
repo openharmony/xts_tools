@@ -22,8 +22,8 @@ import Logger from '../../../model/Logger';
 /*
  * Button/Checkbox/DatePicker组件测试
  */
-export default function UiComponentButtonInterfaceTest() {
-  describe('UiComponentButtonInterfaceTest', () => {
+export default function uiComponentButtonInterfaceTest() {
+  describe('uiComponentButtonInterfaceTest', () => {
     afterEach(async () => {
       if (Settings.windowClass) {
         Settings.destroyWindow(Settings.windowClass);
@@ -57,11 +57,17 @@ export default function UiComponentButtonInterfaceTest() {
       expect(normalBtn !== null).assertTrue();
       
       // 点击各按钮测试
-      if (circleBtn) await circleBtn.click();
+      if (circleBtn) {
+        await circleBtn.click();
+      }
       await driver.delayMs(300);
-      if (capsuleBtn) await capsuleBtn.click();
+      if (capsuleBtn) {
+        await capsuleBtn.click();
+      }
       await driver.delayMs(300);
-      if (normalBtn) await normalBtn.click();
+      if (normalBtn) {
+        await normalBtn.click();
+      }
       await driver.delayMs(300);
       
       await windowSnap.snapShot();
@@ -242,11 +248,15 @@ export default function UiComponentButtonInterfaceTest() {
       // 点击各checkbox
       let cb1 = await driver.findComponent(ON.id('CheckboxGroupRtl0010_1'));
       expect(cb1 !== null).assertTrue();
-      if (cb1) await cb1.click();
+      if (cb1) {
+        await cb1.click();
+      }
       await driver.delayMs(300);
       
       let cb2 = await driver.findComponent(ON.id('CheckboxGroupRtl0010_2'));
-      if (cb2) await cb2.click();
+      if (cb2) {
+        await cb2.click();
+      }
       await driver.delayMs(300);
       
       await windowSnap.snapShot();
@@ -317,17 +327,23 @@ export default function UiComponentButtonInterfaceTest() {
       // 测试EMPHASIZED样式
       let testBtn = await driver.findComponent(ON.id('ButtonUx005_TestButton'));
       expect(testBtn !== null).assertTrue();
-      if (testBtn) await testBtn.click();
+      if (testBtn) {
+        await testBtn.click();
+      }
       await driver.delayMs(300);
       
       // 切换到NORMAL样式
       let normalBtn = await driver.findComponent(ON.id('ButtonUx005_SetNormal'));
-      if (normalBtn) await normalBtn.click();
+      if (normalBtn) {
+        await normalBtn.click();
+      }
       await driver.delayMs(500);
       
       // 切换到TEXTUAL样式
       let textualBtn = await driver.findComponent(ON.id('ButtonUx005_SetTextual'));
-      if (textualBtn) await textualBtn.click();
+      if (textualBtn) {
+        await textualBtn.click();
+      }
       await driver.delayMs(500);
       
       await windowSnap.snapShot();
@@ -352,7 +368,9 @@ export default function UiComponentButtonInterfaceTest() {
       // 点击全选
       let group = await driver.findComponent(ON.id('CheckboxGroupScenarios0060_Group'));
       expect(group !== null).assertTrue();
-      if (group) await group.click();
+      if (group) {
+        await group.click();
+      }
       await driver.delayMs(500);
       
       await windowSnap.snapShot();
@@ -377,14 +395,18 @@ export default function UiComponentButtonInterfaceTest() {
       // 选中第一项
       let cb0 = await driver.findComponent(ON.id('CheckboxGroupScenarios0060_558_0'));
       expect(cb0 !== null).assertTrue();
-      if (cb0) await cb0.click();
+      if (cb0) {
+        await cb0.click();
+      }
       await driver.delayMs(300);
       
       await windowSnap.snapShot();
       
       // 点击移除选中项
       let removeBtn = await driver.findComponent(ON.id('CheckboxGroupScenarios0060_558_Remove'));
-      if (removeBtn) await removeBtn.click();
+      if (removeBtn) {
+        await removeBtn.click();
+      }
       await driver.delayMs(500);
       
       await windowSnap.snapShot();

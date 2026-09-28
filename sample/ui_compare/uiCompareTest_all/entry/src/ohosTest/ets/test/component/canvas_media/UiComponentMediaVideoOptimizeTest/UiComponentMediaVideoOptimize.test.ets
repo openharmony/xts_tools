@@ -18,20 +18,20 @@ import { Driver, ON } from '@kit.TestKit'
 import Settings from '../../../model/Settings'
 import windowSnap from '../../../model/snapShot'
 
-export default function UiComponentMediaVideoOptimizeTest() {
-  describe('UiComponentMediaVideoOptimizeTest', () => {
+export default function uiComponentMediaVideoOptimizeTest() {
+  describe('uiComponentMediaVideoOptimizeTest', () => {
     let driver: Driver = Driver.create()
 
     beforeAll(async () => {
-      console.info('UiComponentMediaVideoOptimizeTest beforeAll')
+      console.info('uiComponentMediaVideoOptimizeTest beforeAll')
     })
 
     beforeEach(async () => {
-      console.info('UiComponentMediaVideoOptimizeTest beforeEach')
+      console.info('uiComponentMediaVideoOptimizeTest beforeEach')
     })
 
     afterEach(async () => {
-      console.info('UiComponentMediaVideoOptimizeTest afterEach')
+      console.info('uiComponentMediaVideoOptimizeTest afterEach')
       await driver.delayMs(500)
       if (Settings.windowClass) {
         await Settings.destroyWindow(Settings.windowClass)
@@ -39,7 +39,7 @@ export default function UiComponentMediaVideoOptimizeTest() {
     })
 
     afterAll(async () => {
-      console.info('UiComponentMediaVideoOptimizeTest afterAll')
+      console.info('uiComponentMediaVideoOptimizeTest afterAll')
     })
 
     /*

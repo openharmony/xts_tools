@@ -18,8 +18,8 @@ import Settings from '../../../model/Settings'
 import Utils from '../../../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentXComponentMarker0310() {
-  describe('UiComponentXComponentMarker0310', () => {
+export default function uiComponentXComponentMarker0310() {
+  describe('uiComponentXComponentMarker0310', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_SUPPORT_FUNCTION_KEY_STATUS_AND_MOUSE_EVENT_0310
      * @tc.name   : XComponent host onLoad

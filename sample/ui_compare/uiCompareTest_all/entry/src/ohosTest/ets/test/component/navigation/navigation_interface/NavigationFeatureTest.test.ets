@@ -23,9 +23,9 @@ import { BusinessError } from '@kit.BasicServicesKit';
 import { window } from '@kit.ArkUI';
 import { i18n } from '@kit.LocalizationKit';
 
-export default function NavigationFeatureTest() {
+export default function navigationFeatureTest() {
 
-  describe('NavigationFeatureTest', () => {
+  describe('navigationFeatureTest', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         return
