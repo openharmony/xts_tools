@@ -50,7 +50,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0010 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0010")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -70,7 +70,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0035', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0035 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0035")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0035')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -90,7 +90,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0012', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0012 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0012")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0012')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -110,7 +110,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0017', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0017 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0017")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0017')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -130,7 +130,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0027', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0027 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0027")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0027')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -150,7 +150,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0031', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0031 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0031")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0031')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -170,7 +170,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0032', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0032 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0032")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0032')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -190,7 +190,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0041', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0041 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0041")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0041')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -210,7 +210,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0042', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0042 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0042")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0042')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -230,7 +230,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0043', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0043 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0043")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0043')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -250,7 +250,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0044', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0044 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0044")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0044')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -270,7 +270,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0066', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0066 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0066")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0066')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -290,7 +290,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0067', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0067 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0067")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0067')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -310,7 +310,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0073', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0073 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0073")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0073')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -330,7 +330,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0076', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0076 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0076")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0076')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -350,7 +350,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0079', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0079 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0079")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0079')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -370,7 +370,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0085', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0085 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0085")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0085')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -390,7 +390,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0090 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0090")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(3000,5000)
       windowSnap.snapShot()
@@ -409,7 +409,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0091', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0091 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0091")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0091')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -429,7 +429,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0092', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0092 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0092")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0092')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -448,7 +448,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0097', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0097 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0097")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0097')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(3000,5000)
       windowSnap.snapShot()
@@ -468,7 +468,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0098', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0098 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0098")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0098')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -488,7 +488,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0117', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0117 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0117")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0117')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -508,7 +508,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0120', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0120 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0120")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -528,7 +528,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0123', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0123 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0123")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0123')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -548,7 +548,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0126', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0126 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0126")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0126')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -568,7 +568,7 @@ export default function progressBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0130 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorder/ProgressBorder0130")
+      Settings.createWindow('testability/pages/component/progress/progressBorder/ProgressBorder0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)

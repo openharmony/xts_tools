@@ -50,7 +50,7 @@ export default function infomationLoadingprogressAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADINGPROGRESS_ANIMATION_0020', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADINGPROGRESS_ANIMATION_0020 start.`);
-      Settings.createWindow("testability/pages/component/progress/infomationLoadingprogressAnimation/infomationLoadingprogressAnimation")
+      Settings.createWindow('testability/pages/component/progress/infomationLoadingprogressAnimation/infomationLoadingprogressAnimation')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADINGPROGRESS_ANIMATION_0020 finish.`);

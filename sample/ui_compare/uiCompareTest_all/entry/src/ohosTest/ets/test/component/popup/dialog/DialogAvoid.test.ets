@@ -48,7 +48,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0020 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid01")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -94,7 +94,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0030 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid02")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -135,7 +135,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0050 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid03")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -181,7 +181,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0060 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid04")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -227,7 +227,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0070 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid05")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -273,7 +273,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0080 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid06")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -319,7 +319,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0090 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid07")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -365,7 +365,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0100 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid08")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -411,7 +411,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0110 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid09")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -457,7 +457,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0120 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid10")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -503,7 +503,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0130 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid11")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -549,7 +549,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0140 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid12")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid12')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -600,7 +600,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0150 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid13")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -652,7 +652,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0160 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid14")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid14')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -703,7 +703,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0170 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid15")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid15')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -754,7 +754,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0180 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid16")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -805,7 +805,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0190 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid17")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -856,7 +856,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0200 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid18")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid18')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -907,7 +907,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0210 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid19")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid19')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -958,7 +958,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0230 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid20")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid20')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1004,7 +1004,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0240 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid21")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid21')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1045,7 +1045,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0250 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid22")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid22')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1091,7 +1091,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0260 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid23")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid23')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1137,7 +1137,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0270 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid24")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid24')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1183,7 +1183,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0280 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid25")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid25')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1229,7 +1229,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0290 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid26")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid26')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1275,7 +1275,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0300 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid27")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid27')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1321,7 +1321,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0310 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid28")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid28')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1367,7 +1367,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0320 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid29")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid29')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1413,7 +1413,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0330 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid30")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid30')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1459,7 +1459,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0340 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid31")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid31')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1510,7 +1510,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0350 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid32")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid32')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1561,7 +1561,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0360 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid33")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid33')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1612,7 +1612,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0370 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid34")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid34')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1663,7 +1663,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0380 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid35")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid35')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1714,7 +1714,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0390 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid36")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid36')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1765,7 +1765,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0400 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid37")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid37')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -1816,7 +1816,7 @@ export default function dialogAvoidTest() {
      */
     it('SUB_ACE_UI_COMPONENT_DIALOGAVOID_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_DIALOGAVOID_0410 start.`);
-      Settings.createWindow("testability/pages/component/popup/dialog/dialogAvoid38")
+      Settings.createWindow('testability/pages/component/popup/dialog/dialogAvoid38')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 

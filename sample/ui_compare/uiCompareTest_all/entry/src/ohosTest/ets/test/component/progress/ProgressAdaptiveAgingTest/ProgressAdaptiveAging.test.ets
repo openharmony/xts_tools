@@ -50,7 +50,7 @@ export default function progressAdaptiveAging() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0020 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0020")
+      Settings.createWindow('testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressAdaptiveAging0020_001'),1000);
@@ -92,7 +92,7 @@ export default function progressAdaptiveAging() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0040 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0040")
+      Settings.createWindow('testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressAdaptiveAging0040_001'),1000);
@@ -128,7 +128,7 @@ export default function progressAdaptiveAging() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0010 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0010")
+      Settings.createWindow('testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressAdaptiveAging0010_001'),1000);
@@ -161,7 +161,7 @@ export default function progressAdaptiveAging() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0060 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0060")
+      Settings.createWindow('testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressAdaptiveAging0060_001'),1000);
@@ -194,7 +194,7 @@ export default function progressAdaptiveAging() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0030 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0030")
+      Settings.createWindow('testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressAdaptiveAging0030_001'),1000);
@@ -227,7 +227,7 @@ export default function progressAdaptiveAging() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0080 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0080")
+      Settings.createWindow('testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressAdaptiveAging0080_001'),1000);
@@ -260,7 +260,7 @@ export default function progressAdaptiveAging() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0050 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0050")
+      Settings.createWindow('testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressAdaptiveAging0050_001'),1000);
@@ -293,7 +293,7 @@ export default function progressAdaptiveAging() {
      */
     it('SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0070 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0070")
+      Settings.createWindow('testability/pages/component/progress/progressAdaptiveAging/ProgressAdaptiveAging0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ProgressAdaptiveAging0070_001'),1000);

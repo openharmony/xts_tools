@@ -51,7 +51,7 @@ export default function loadingProgress() {
     it('SUB_ACE_UI_loadingProgress_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_loadingProgress_0010 start.`);
       // 步骤0：打开页面
-      Settings.createWindow("testability/pages/component/progress/loadingProgress/LoadingProgress0010")
+      Settings.createWindow('testability/pages/component/progress/loadingProgress/LoadingProgress0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：构造loadingProgress组件

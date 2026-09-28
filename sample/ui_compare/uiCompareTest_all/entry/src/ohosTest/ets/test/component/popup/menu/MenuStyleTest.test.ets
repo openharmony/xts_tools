@@ -49,7 +49,7 @@ export default function menuStyleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0760 start.`);
-      Settings.createWindow("testability/pages/component/popup/menu/menuPadding01")
+      Settings.createWindow('testability/pages/component/popup/menu/menuPadding01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -79,7 +79,7 @@ export default function menuStyleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_1050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_1050 start.`);
-      Settings.createWindow("testability/pages/component/popup/menu/menuHover01")
+      Settings.createWindow('testability/pages/component/popup/menu/menuHover01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -108,7 +108,7 @@ export default function menuStyleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_1010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_1010 start.`);
-      Settings.createWindow("testability/pages/component/popup/menu/menuKeyboard01")
+      Settings.createWindow('testability/pages/component/popup/menu/menuKeyboard01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -137,7 +137,7 @@ export default function menuStyleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_1040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_1040 start.`);
-      Settings.createWindow("testability/pages/component/popup/menu/menuGesture01")
+      Settings.createWindow('testability/pages/component/popup/menu/menuGesture01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -166,7 +166,7 @@ export default function menuStyleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_1020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_1020 start.`);
-      Settings.createWindow("testability/pages/component/popup/menu/menuExpand01")
+      Settings.createWindow('testability/pages/component/popup/menu/menuExpand01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       

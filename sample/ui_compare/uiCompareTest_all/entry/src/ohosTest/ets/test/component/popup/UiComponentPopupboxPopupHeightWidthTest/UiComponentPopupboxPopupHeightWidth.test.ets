@@ -45,19 +45,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0140", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0140', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0140")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0140')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0140_open = await driver.waitForComponent(ON.id("button_popup_0140_open"), 500)
+      let button_popup_0140_open = await driver.waitForComponent(ON.id('button_popup_0140_open'), 500)
       await button_popup_0140_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为自适应宽度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0140_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0140_01')
       await Utils.sleep(1000)
 
       done();
@@ -71,19 +71,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0160", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0160', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0160")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0160')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0160_open = await driver.waitForComponent(ON.id("button_popup_0160_open"), 500)
+      let button_popup_0160_open = await driver.waitForComponent(ON.id('button_popup_0160_open'), 500)
       await button_popup_0160_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为 50px
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0160_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0160_01')
       await Utils.sleep(1000)
 
       done();
@@ -97,19 +97,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0170", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0170', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0170")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0170')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0170_open = await driver.waitForComponent(ON.id("button_popup_0170_open"), 500)
+      let button_popup_0170_open = await driver.waitForComponent(ON.id('button_popup_0170_open'), 500)
       await button_popup_0170_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为自适应宽度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0170_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0170_01')
       await Utils.sleep(1000)
 
       done();
@@ -123,19 +123,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0180", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0180', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0180")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0180')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0180_open = await driver.waitForComponent(ON.id("button_popup_0180_open"), 500)
+      let button_popup_0180_open = await driver.waitForComponent(ON.id('button_popup_0180_open'), 500)
       await button_popup_0180_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为自适应宽度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0180_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0180_01')
       await Utils.sleep(1000)
 
       done();
@@ -149,19 +149,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0190", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0190', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0190")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0190')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0190_open = await driver.waitForComponent(ON.id("button_popup_0190_open"), 500)
+      let button_popup_0190_open = await driver.waitForComponent(ON.id('button_popup_0190_open'), 500)
       await button_popup_0190_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为 50vp
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0190_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0190_01')
       await Utils.sleep(1000)
 
       done();
@@ -175,19 +175,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0200", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0200', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0200")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0200')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0200_open = await driver.waitForComponent(ON.id("button_popup_0200_open"), 500)
+      let button_popup_0200_open = await driver.waitForComponent(ON.id('button_popup_0200_open'), 500)
       await button_popup_0200_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为自适应宽度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0200_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0200_01')
       await Utils.sleep(1000)
 
       done();
@@ -201,19 +201,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0210", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0210', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0210")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0210')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0210_open = await driver.waitForComponent(ON.id("button_popup_0210_open"), 500)
+      let button_popup_0210_open = await driver.waitForComponent(ON.id('button_popup_0210_open'), 500)
       await button_popup_0210_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为自适应宽度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0210_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0210_01')
       await Utils.sleep(1000)
 
       done();
@@ -227,19 +227,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0220", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0220', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0220")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0220')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0220_open = await driver.waitForComponent(ON.id("button_popup_0220_open"), 500)
+      let button_popup_0220_open = await driver.waitForComponent(ON.id('button_popup_0220_open'), 500)
       await button_popup_0220_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为 50fp
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0220_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0220_01')
       await Utils.sleep(1000)
 
       done();
@@ -253,19 +253,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0230", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0230', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0230")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0230')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0230_open = await driver.waitForComponent(ON.id("button_popup_0230_open"), 500)
+      let button_popup_0230_open = await driver.waitForComponent(ON.id('button_popup_0230_open'), 500)
       await button_popup_0230_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为自适应宽度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0230_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0230_01')
       await Utils.sleep(1000)
 
       done();
@@ -279,19 +279,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0240", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0240', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0240")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0240')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0240_open = await driver.waitForComponent(ON.id("button_popup_0240_open"), 500)
+      let button_popup_0240_open = await driver.waitForComponent(ON.id('button_popup_0240_open'), 500)
       await button_popup_0240_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为自适应宽度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0240_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0240_01')
       await Utils.sleep(1000)
 
       done();
@@ -305,19 +305,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0250", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0250', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0250")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0250')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0250_open = await driver.waitForComponent(ON.id("button_popup_0250_open"), 500)
+      let button_popup_0250_open = await driver.waitForComponent(ON.id('button_popup_0250_open'), 500)
       await button_popup_0250_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为 50lpx
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0250_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0250_01')
       await Utils.sleep(1000)
 
       done();
@@ -331,19 +331,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0260", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0260', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0260")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0260')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0260_open = await driver.waitForComponent(ON.id("button_popup_0260_open"), 500)
+      let button_popup_0260_open = await driver.waitForComponent(ON.id('button_popup_0260_open'), 500)
       await button_popup_0260_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为自适应宽度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0260_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0260_01')
       await Utils.sleep(1000)
 
       done();
@@ -357,19 +357,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0270", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0270', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0270")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0270')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0270_open = await driver.waitForComponent(ON.id("button_popup_0270_open"), 500)
+      let button_popup_0270_open = await driver.waitForComponent(ON.id('button_popup_0270_open'), 500)
       await button_popup_0270_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为自适应宽度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0270_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0270_01')
       await Utils.sleep(1000)
 
       done();
@@ -383,19 +383,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0280", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0280', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0280")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0280')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0280_open = await driver.waitForComponent(ON.id("button_popup_0280_open"), 500)
+      let button_popup_0280_open = await driver.waitForComponent(ON.id('button_popup_0280_open'), 500)
       await button_popup_0280_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为组件的 80%
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0280_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0280_01')
       await Utils.sleep(1000)
 
       done();
@@ -409,19 +409,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0290", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0290', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0290")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0290')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0290_open = await driver.waitForComponent(ON.id("button_popup_0290_open"), 500)
+      let button_popup_0290_open = await driver.waitForComponent(ON.id('button_popup_0290_open'), 500)
       await button_popup_0290_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为自适应宽度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0290_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0290_01')
       await Utils.sleep(1000)
 
       done();
@@ -435,19 +435,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0300", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0300', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0300")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0300')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0300_open = await driver.waitForComponent(ON.id("button_popup_0300_open"), 500)
+      let button_popup_0300_open = await driver.waitForComponent(ON.id('button_popup_0300_open'), 500)
       await button_popup_0300_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为自适应宽度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0300_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0300_01')
       await Utils.sleep(1000)
 
       done();
@@ -461,19 +461,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0310", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0310', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0310")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0310')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0310_open = await driver.waitForComponent(ON.id("button_popup_0310_open"), 500)
+      let button_popup_0310_open = await driver.waitForComponent(ON.id('button_popup_0310_open'), 500)
       await button_popup_0310_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 气泡宽度为 50px
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0310_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0310_01')
       await Utils.sleep(1000)
 
       done();
@@ -487,19 +487,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0320", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0320', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0320")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0320')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0320_open = await driver.waitForComponent(ON.id("button_popup_0320_open"), 500)
+      let button_popup_0320_open = await driver.waitForComponent(ON.id('button_popup_0320_open'), 500)
       await button_popup_0320_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 弹窗宽度与文本长度适配
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0320_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0320_01')
       await Utils.sleep(1000)
 
       done();
@@ -513,19 +513,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0330", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0330', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0330")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0330')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0330_open = await driver.waitForComponent(ON.id("button_popup_0330_open"), 500)
+      let button_popup_0330_open = await driver.waitForComponent(ON.id('button_popup_0330_open'), 500)
       await button_popup_0330_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 弹窗宽度与文本长度适配
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0330_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0330_01')
       await Utils.sleep(1000)
 
       done();
@@ -539,19 +539,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0340", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0340', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0340")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0340')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0340_open = await driver.waitForComponent(ON.id("button_popup_0340_open"), 500)
+      let button_popup_0340_open = await driver.waitForComponent(ON.id('button_popup_0340_open'), 500)
       await button_popup_0340_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 弹窗宽度与文本长度适配
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0340_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0340_01')
       await Utils.sleep(1000)
 
       done();
@@ -565,19 +565,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0350", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0350', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0350")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0350')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0350_open = await driver.waitForComponent(ON.id("button_popup_0350_open"), 500)
+      let button_popup_0350_open = await driver.waitForComponent(ON.id('button_popup_0350_open'), 500)
       await button_popup_0350_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 弹窗宽度与文本长度适配
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0350_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0350_01')
       await Utils.sleep(1000)
 
       done();
@@ -591,19 +591,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0360", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0360', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0360")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0360')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0360_open = await driver.waitForComponent(ON.id("button_popup_0360_open"), 500)
+      let button_popup_0360_open = await driver.waitForComponent(ON.id('button_popup_0360_open'), 500)
       await button_popup_0360_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 弹窗宽度与文本长度适配
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0360_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0360_01')
       await Utils.sleep(1000)
 
       done();
@@ -617,19 +617,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0370", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0370', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0370")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth0370')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_0370_open = await driver.waitForComponent(ON.id("button_popup_0370_open"), 500)
+      let button_popup_0370_open = await driver.waitForComponent(ON.id('button_popup_0370_open'), 500)
       await button_popup_0370_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 弹窗宽度为 480vp
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0370_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0370_01')
       await Utils.sleep(1000)
 
       done();
@@ -643,19 +643,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2280", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2280', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2280")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2280')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 直接在 IDE 的预览功能中查看 UI 界面
-      let button_popup_2280_open = await driver.waitForComponent(ON.id("button_popup_2280_open"), 500)
+      let button_popup_2280_open = await driver.waitForComponent(ON.id('button_popup_2280_open'), 500)
       await button_popup_2280_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 可以通过预览功能查看高级组件 popup，UI 界面显示正常
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2280_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2280_01')
       await Utils.sleep(1000)
 
       done();
@@ -669,19 +669,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2290", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2290', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2290")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2290')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_2290_open = await driver.waitForComponent(ON.id("button_popup_2290_open"), 500)
+      let button_popup_2290_open = await driver.waitForComponent(ON.id('button_popup_2290_open'), 500)
       await button_popup_2290_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 位置点均位于父组件区域的范围内，不会超出父组件的边界范围
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2290_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2290_01')
       await Utils.sleep(1000)
 
       done();
@@ -695,19 +695,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2300", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2300', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2300")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2300')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_2300_open = await driver.waitForComponent(ON.id("button_popup_2300_open"), 500)
+      let button_popup_2300_open = await driver.waitForComponent(ON.id('button_popup_2300_open'), 500)
       await button_popup_2300_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 位置点均位于父组件区域的范围内，不会超出父组件的边界范围
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2300_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2300_01')
       await Utils.sleep(1000)
 
       done();
@@ -721,19 +721,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2310", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2310', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2310")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2310')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_2310_open = await driver.waitForComponent(ON.id("button_popup_2310_open"), 500)
+      let button_popup_2310_open = await driver.waitForComponent(ON.id('button_popup_2310_open'), 500)
       await button_popup_2310_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 位置点均位于父组件区域的范围内，不会超出父组件的边界范围
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2310_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2310_01')
       await Utils.sleep(1000)
 
       done();
@@ -747,19 +747,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2320", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2320', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2320")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2320')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_2320_open = await driver.waitForComponent(ON.id("button_popup_2320_open"), 500)
+      let button_popup_2320_open = await driver.waitForComponent(ON.id('button_popup_2320_open'), 500)
       await button_popup_2320_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 直角三角形
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2320_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2320_01')
       await Utils.sleep(1000)
 
       done();
@@ -773,19 +773,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2330", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2330', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2330")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2330')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_2330_open = await driver.waitForComponent(ON.id("button_popup_2330_open"), 500)
+      let button_popup_2330_open = await driver.waitForComponent(ON.id('button_popup_2330_open'), 500)
       await button_popup_2330_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 默认三角形
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2330_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2330_01')
       await Utils.sleep(1000)
 
       done();
@@ -799,19 +799,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2340", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2340', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2340")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2340')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_2340_open = await driver.waitForComponent(ON.id("button_popup_2340_open"), 500)
+      let button_popup_2340_open = await driver.waitForComponent(ON.id('button_popup_2340_open'), 500)
       await button_popup_2340_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 直角三角形
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2340_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2340_01')
       await Utils.sleep(1000)
 
       done();
@@ -825,19 +825,19 @@ export default function uiComponentPopupboxPopupHeightWidth() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2350", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2350', Level.LEVEL3, async (done: Function) => {
       // 步骤1: 打开 demo
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2350")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupHeightWidth/UiComponentPopupboxPopupHeightWidth2350')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2: 点击按钮
-      let button_popup_2350_open = await driver.waitForComponent(ON.id("button_popup_2350_open"), 500)
+      let button_popup_2350_open = await driver.waitForComponent(ON.id('button_popup_2350_open'), 500)
       await button_popup_2350_open.click()
       await Utils.sleep(500)
 
       // 预期效果1: 侧边距离不足 40vp，不显示箭头
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2350_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2350_01')
       await Utils.sleep(1000)
 
       done();

@@ -50,22 +50,22 @@ export default function progressBorderradius() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDERRADIUS_0025', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDERRADIUS_0025 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBorderradius/ProgressBorderradius0025")
+      Settings.createWindow('testability/pages/component/progress/progressBorderradius/ProgressBorderradius0025')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
-      let button1 = await driver.waitForComponent(ON.id("ProgressBorderradius0025_001"), 2000)
+      let button1 = await driver.waitForComponent(ON.id('ProgressBorderradius0025_001'), 2000)
       await button1.click()
       await Utils.sleep(500)
-      let button2 = await driver.waitForComponent(ON.id("ProgressBorderradius0025_002"), 2000)
+      let button2 = await driver.waitForComponent(ON.id('ProgressBorderradius0025_002'), 2000)
       await button2.click()
       await Utils.sleep(500)
-      let button3 = await driver.waitForComponent(ON.id("ProgressBorderradius0025_003"), 2000)
+      let button3 = await driver.waitForComponent(ON.id('ProgressBorderradius0025_003'), 2000)
       await button3.click()
       await Utils.sleep(500)
-      let button4 = await driver.waitForComponent(ON.id("ProgressBorderradius0025_004"), 2000)
+      let button4 = await driver.waitForComponent(ON.id('ProgressBorderradius0025_004'), 2000)
       await button4.click()
       await Utils.sleep(500)
-      let button5 = await driver.waitForComponent(ON.id("ProgressBorderradius0025_005"), 2000)
+      let button5 = await driver.waitForComponent(ON.id('ProgressBorderradius0025_005'), 2000)
       await button5.click()
       await Utils.sleep(500)
       windowSnap.snapShot()

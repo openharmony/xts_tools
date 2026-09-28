@@ -49,7 +49,7 @@ export default function menuMarginTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0010 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupbox_menu/menuMargin01")
+      Settings.createWindow('testability/pages/component/popup/popupbox_menu/menuMargin01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -75,7 +75,7 @@ export default function menuMarginTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0020 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupbox_menu/menuMargin02")
+      Settings.createWindow('testability/pages/component/popup/popupbox_menu/menuMargin02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -101,7 +101,7 @@ export default function menuMarginTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0030 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupbox_menu/menuMargin03")
+      Settings.createWindow('testability/pages/component/popup/popupbox_menu/menuMargin03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -127,7 +127,7 @@ export default function menuMarginTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0040 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupbox_menu/menuMargin04")
+      Settings.createWindow('testability/pages/component/popup/popupbox_menu/menuMargin04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -153,7 +153,7 @@ export default function menuMarginTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0050 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupbox_menu/menuMargin05")
+      Settings.createWindow('testability/pages/component/popup/popupbox_menu/menuMargin05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -179,7 +179,7 @@ export default function menuMarginTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0060 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupbox_menu/menuMargin06")
+      Settings.createWindow('testability/pages/component/popup/popupbox_menu/menuMargin06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -205,7 +205,7 @@ export default function menuMarginTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0070 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupbox_menu/menuMargin07")
+      Settings.createWindow('testability/pages/component/popup/popupbox_menu/menuMargin07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -231,7 +231,7 @@ export default function menuMarginTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0080 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupbox_menu/menuMargin08")
+      Settings.createWindow('testability/pages/component/popup/popupbox_menu/menuMargin08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -257,7 +257,7 @@ export default function menuMarginTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0090 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupbox_menu/menuMargin09")
+      Settings.createWindow('testability/pages/component/popup/popupbox_menu/menuMargin09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -288,7 +288,7 @@ export default function menuMarginTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0100 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupbox_menu/menuMargin10")
+      Settings.createWindow('testability/pages/component/popup/popupbox_menu/menuMargin10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -319,7 +319,7 @@ export default function menuMarginTest() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0110 start.`);
-      Settings.createWindow("testability/pages/component/popup/popupbox_menu/menuMargin11")
+      Settings.createWindow('testability/pages/component/popup/popupbox_menu/menuMargin11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 

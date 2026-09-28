@@ -50,7 +50,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1010', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid01");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid01');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -94,7 +94,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1050', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid02");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid02');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -138,7 +138,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1020', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid03");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid03');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -182,7 +182,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1070', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid04");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid04');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -226,7 +226,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1120', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid05");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid05');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -270,7 +270,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1100', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid06");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid06');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -314,7 +314,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1040', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid07");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid07');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -349,7 +349,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1130', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid08");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid08');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -393,7 +393,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1030', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid09");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid09');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -437,7 +437,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1060', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid10");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid10');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -481,7 +481,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1110', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid11");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid11');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -525,7 +525,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1160', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid12");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid12');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -569,7 +569,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1090', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid13");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid13');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -613,7 +613,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1080', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid14");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid14');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -657,7 +657,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1150', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid15");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid15');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -692,7 +692,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1140', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid16");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid16');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -736,7 +736,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1170', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid17");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid17');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -780,7 +780,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1180', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid18");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid18');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -824,7 +824,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1190', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid19");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid19');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -868,7 +868,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1200', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid20");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid20');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -912,7 +912,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1210', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid21");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid21');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -956,7 +956,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1220', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid22");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid22');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1000,7 +1000,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1230', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid23");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid23');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1044,7 +1044,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1240', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid24");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid24');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1088,7 +1088,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1250', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid25");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid25');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1132,7 +1132,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1260', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid26");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid26');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1176,7 +1176,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1270', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid27");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid27');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1220,7 +1220,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1280', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid28");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid28');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1264,7 +1264,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1290', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid29");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid29');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1308,7 +1308,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1300', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid30");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid30');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1343,7 +1343,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1310', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid31");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid31');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1387,7 +1387,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1320', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid32");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid32');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1431,7 +1431,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1330', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid33");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid33');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1475,7 +1475,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1340', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid34");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid34');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1519,7 +1519,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1350', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid35");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid35');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1563,7 +1563,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1360', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid36");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid36');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1598,7 +1598,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1370', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid37");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid37');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1642,7 +1642,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1380', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid38");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid38');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1686,7 +1686,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1390', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid39");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid39');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1730,7 +1730,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1400', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid40");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid40');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1774,7 +1774,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1410', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid41");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid41');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1818,7 +1818,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1420', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid42");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid42');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1862,7 +1862,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1430', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid43");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid43');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1906,7 +1906,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1440', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid44");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid44');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1950,7 +1950,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0900', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid45");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid45');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -1994,7 +1994,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0910', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid46");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid46');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -2038,7 +2038,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0920', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid47");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid47');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -2082,7 +2082,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0930', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid48");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid48');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -2126,7 +2126,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0940', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid49");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid49');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -2170,7 +2170,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0950', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid50");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid50');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -2214,7 +2214,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0960', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid51");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid51');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -2258,7 +2258,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0970', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid52");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid52');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -2302,7 +2302,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0980', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid53");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid53');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -2346,7 +2346,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_0990', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid54");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid54');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -2390,7 +2390,7 @@ export default function toastAvoidTest () {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_TOASTAVOID_1000', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/popup/toast_promptAction/toastAvoid55");
+      Settings.createWindow('testability/pages/component/popup/toast_promptAction/toastAvoid55');
       await driver.waitForIdle(500, 2000);
 
       try {

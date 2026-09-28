@@ -51,7 +51,7 @@ export default function aceUiProgress() {
     it('SUB_ACE_UI_Progress_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_Progress_0010 start.`);
       // 步骤1：构造一个Image组件，添加mask属性并设置ProgressMask
-      Settings.createWindow("testability/pages/component/progress/aceUiProgress/AceUiProgress0010")
+      Settings.createWindow('testability/pages/component/progress/aceUiProgress/AceUiProgress0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：将进度调至最大（页面中已设置进度为100）
@@ -75,7 +75,7 @@ export default function aceUiProgress() {
     it('SUB_ACE_UI_Progress_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_Progress_0020 start.`);
       // 步骤1：构造一个Image组件，添加mask属性并设置ProgressMask，enableBreathingAnimation为false
-      Settings.createWindow("testability/pages/component/progress/aceUiProgress/AceUiProgress0020")
+      Settings.createWindow('testability/pages/component/progress/aceUiProgress/AceUiProgress0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：将进度调至最大（页面中已设置进度为100）
@@ -99,13 +99,13 @@ export default function aceUiProgress() {
     it('SUB_ACE_UI_Progress_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_Progress_0030 start.`);
       // 步骤1：构造一个Image组件，添加mask属性并设置ProgressMask
-      Settings.createWindow("testability/pages/component/progress/aceUiProgress/AceUiProgress0030")
+      Settings.createWindow('testability/pages/component/progress/aceUiProgress/AceUiProgress0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：将进度调至最大（页面中已设置进度为100）
       // 步骤3：观察动画效果
       // 步骤4：设置enableBreathingAnimation为false
-      let btnDisable = await driver.waitForComponent(ON.id("btn_disable_breathe_0030"), 500)
+      let btnDisable = await driver.waitForComponent(ON.id('btn_disable_breathe_0030'), 500)
       await btnDisable.click()
       await Utils.sleep(500)
       // 步骤5：观察动画效果
@@ -128,7 +128,7 @@ export default function aceUiProgress() {
     it('SUB_ACE_UI_Progress_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_Progress_0040 start.`);
       // 步骤1：构造一个Image组件，添加mask属性并设置ProgressMask，enableBreathingAnimation为true
-      Settings.createWindow("testability/pages/component/progress/aceUiProgress/AceUiProgress0040")
+      Settings.createWindow('testability/pages/component/progress/aceUiProgress/AceUiProgress0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：将进度调至最大（页面中已设置进度为100）
@@ -152,7 +152,7 @@ export default function aceUiProgress() {
     it('SUB_ACE_UI_Progress_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_Progress_0050 start.`);
       // 步骤1：创建loadingProgress组件
-      Settings.createWindow("testability/pages/component/progress/aceUiProgress/AceUiProgress0050")
+      Settings.createWindow('testability/pages/component/progress/aceUiProgress/AceUiProgress0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：观察显示效果

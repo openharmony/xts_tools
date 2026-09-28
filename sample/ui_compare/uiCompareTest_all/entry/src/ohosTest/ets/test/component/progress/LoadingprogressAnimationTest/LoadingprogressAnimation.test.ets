@@ -50,7 +50,7 @@ export default function loadingprogressAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADINGPROGRESS_ANIMATION_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADINGPROGRESS_ANIMATION_0050 start.`);
-      Settings.createWindow("testability/pages/component/progress/loadingprogressAnimation/LoadingprogressAnimation0050")
+      Settings.createWindow('testability/pages/component/progress/loadingprogressAnimation/LoadingprogressAnimation0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()

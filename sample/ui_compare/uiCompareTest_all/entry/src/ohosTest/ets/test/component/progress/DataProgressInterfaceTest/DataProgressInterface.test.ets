@@ -52,7 +52,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_001 start.`);
       
       // 预置条件：当状态为false时，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface001")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface001')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -89,7 +89,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_002 start.`);
       
       // 预置条件：当状态为true时，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface002")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface002')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -129,7 +129,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_003 start.`);
       
       // 预置条件：本端设置为实际值时，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface003")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface003')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -169,7 +169,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_004 start.`);
       
       // 预置条件：跨端设置为实际值时，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface004")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface004')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -209,7 +209,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_005 start.`);
       
       // 预置条件：本端设置为非实际值时，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface005")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface005')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -249,7 +249,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_006 start.`);
       
       // 预置条件：跨端设置为非实际值时，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface006")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface006')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -289,7 +289,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_007 start.`);
       
       // 预置条件：本端场景fileConflictOptions状态OVERWRITE时，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface007")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface007')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -329,7 +329,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_008 start.`);
       
       // 预置条件：跨端场景fileConflictOptions状态OVERWRITE时，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface008")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface008')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -369,7 +369,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_009 start.`);
       
       // 预置条件：本端场景fileConflictOptions状态SKIP时，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface009")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface009')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -409,7 +409,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_010 start.`);
       
       // 预置条件：跨端场景fileConflictOptions状态SKIP时，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface010")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -449,7 +449,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_011 start.`);
       
       // 预置条件：本端场景progressIndicator状态DEFAULT时，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface011")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface011')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -492,7 +492,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_012 start.`);
       
       // 预置条件：跨端场景progressIndicator状态DEFAULT时，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface012")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface012')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -535,7 +535,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_013 start.`);
       
       // 预置条件：本端场景progressIndicator状态NONE时，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface013")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface013')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -575,7 +575,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_014 start.`);
       
       // 预置条件：跨端场景progressIndicator状态NONE时，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface014")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface014')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -615,7 +615,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_015 start.`);
       
       // 预置条件：本端场景正常设置DataProgressListener，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface015")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface015')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -658,7 +658,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_016 start.`);
       
       // 预置条件：跨端场景正常设置DataProgressListener，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface016")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface016')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -701,7 +701,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_017 start.`);
       
       // 预置条件：本端场景不设置DataProgressListener，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface017")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface017')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -741,7 +741,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_018 start.`);
       
       // 预置条件：跨端场景不设置DataProgressListener，正常拖拽图片到可释放区域
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface018")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface018')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -781,7 +781,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_019 start.`);
       
       // 预置条件：本端场景数据传输过程中触发cancelDataLoading接口
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface019")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface019')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -824,7 +824,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_020 start.`);
       
       // 预置条件：跨端场景数据传输过程中触发cancelDataLoading接口
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface020")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -867,7 +867,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_021 start.`);
       
       // 预置条件：本端场景非数据传输过程中触发cancelDataLoading接口
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface021")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface021')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       
@@ -904,7 +904,7 @@ export default function dataProgressInterface() {
       Logger.info('TEST', `SUB_ACE_DRAG_DROP_EVENT_SUPPORT_OBTAIN_DATA_PROGRESS_INTERFACE_022 start.`);
       
       // 预置条件：跨端场景非数据传输过程中触发cancelDataLoading接口
-      Settings.createWindow("testability/pages/component/progress/dataProgressInterface/DataProgressInterface022")
+      Settings.createWindow('testability/pages/component/progress/dataProgressInterface/DataProgressInterface022')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       

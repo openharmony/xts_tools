@@ -50,7 +50,7 @@ export default function componentProgressLinear() {
      */
     it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0015 start.`);
-      Settings.createWindow("testability/pages/component/progress/componentProgressLinear/ComponentProgressLinear0015")
+      Settings.createWindow('testability/pages/component/progress/componentProgressLinear/ComponentProgressLinear0015')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentProgressLinear0015_001'),1000);
@@ -95,7 +95,7 @@ export default function componentProgressLinear() {
      */
     it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0016 start.`);
-      Settings.createWindow("testability/pages/component/progress/componentProgressLinear/ComponentProgressLinear0016")
+      Settings.createWindow('testability/pages/component/progress/componentProgressLinear/ComponentProgressLinear0016')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentProgressLinear0016_type_001'),1000);
@@ -196,7 +196,7 @@ export default function componentProgressLinear() {
      */
     it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0017', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0017 start.`);
-      Settings.createWindow("testability/pages/component/progress/componentProgressLinear/ComponentProgressLinear0017")
+      Settings.createWindow('testability/pages/component/progress/componentProgressLinear/ComponentProgressLinear0017')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentProgressLinear0017_001'),1000);
@@ -254,7 +254,7 @@ export default function componentProgressLinear() {
      */
     it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0018', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0018 start.`);
-      Settings.createWindow("testability/pages/component/progress/componentProgressLinear/ComponentProgressLinear0018")
+      Settings.createWindow('testability/pages/component/progress/componentProgressLinear/ComponentProgressLinear0018')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentProgressLinear0018_001'),1000);

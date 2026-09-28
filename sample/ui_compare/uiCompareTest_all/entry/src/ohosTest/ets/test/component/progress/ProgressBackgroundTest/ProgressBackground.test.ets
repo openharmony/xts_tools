@@ -50,7 +50,7 @@ export default function progressBackground() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0010 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBackground/ProgressBackground0010")
+      Settings.createWindow('testability/pages/component/progress/progressBackground/ProgressBackground0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -71,7 +71,7 @@ export default function progressBackground() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0013', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0013 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBackground/ProgressBackground0013")
+      Settings.createWindow('testability/pages/component/progress/progressBackground/ProgressBackground0013')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -92,7 +92,7 @@ export default function progressBackground() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0015 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBackground/ProgressBackground0015")
+      Settings.createWindow('testability/pages/component/progress/progressBackground/ProgressBackground0015')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -113,7 +113,7 @@ export default function progressBackground() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0016 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBackground/ProgressBackground0016")
+      Settings.createWindow('testability/pages/component/progress/progressBackground/ProgressBackground0016')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -136,7 +136,7 @@ export default function progressBackground() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0017', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0017 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBackground/ProgressBackground0017")
+      Settings.createWindow('testability/pages/component/progress/progressBackground/ProgressBackground0017')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -156,7 +156,7 @@ export default function progressBackground() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0019 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBackground/ProgressBackground0019")
+      Settings.createWindow('testability/pages/component/progress/progressBackground/ProgressBackground0019')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -176,7 +176,7 @@ export default function progressBackground() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0026', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0026 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBackground/ProgressBackground0026")
+      Settings.createWindow('testability/pages/component/progress/progressBackground/ProgressBackground0026')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -197,7 +197,7 @@ export default function progressBackground() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0029', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0029 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBackground/ProgressBackground0029")
+      Settings.createWindow('testability/pages/component/progress/progressBackground/ProgressBackground0029')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
@@ -218,7 +218,7 @@ export default function progressBackground() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0031', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0031 start.`);
-      Settings.createWindow("testability/pages/component/progress/progressBackground/ProgressBackground0031")
+      Settings.createWindow('testability/pages/component/progress/progressBackground/ProgressBackground0031')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.waitForIdle(500,2000)
