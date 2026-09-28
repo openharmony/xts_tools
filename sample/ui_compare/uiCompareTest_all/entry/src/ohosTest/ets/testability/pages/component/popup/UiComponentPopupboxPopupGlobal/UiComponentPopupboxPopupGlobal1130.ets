@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
 
   constructor(text: string) {
     this.text = text;
@@ -91,7 +91,7 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("命令式 Popup")
+    Text('命令式 Popup')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
@@ -109,17 +109,17 @@ function popupBuilder(params: Params) {
 @Builder
 function sheetBuilder(uiContext: UIContext, promptAction: PromptAction) {
   Column() {
-    Text("半模态内容")
+    Text('半模态内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(20)
     
-    Button("弹出气泡")
-      .id("button_show_popup_1130")
+    Button('弹出气泡')
+      .id('button_show_popup_1130')
       .margin({ top: 20, bottom: 20 })
       .onClick(() => {
         let promptActionClass = new PromptActionClass();
-        let contentNode = new ComponentContent(uiContext, wrapBuilder(popupBuilder), new Params("半模态中的Popup"));
+        let contentNode = new ComponentContent(uiContext, wrapBuilder(popupBuilder), new Params('半模态中的Popup'));
         
         promptActionClass.setPromptAction(promptAction);
         promptActionClass.setContentNode(contentNode);
@@ -128,7 +128,7 @@ function sheetBuilder(uiContext: UIContext, promptAction: PromptAction) {
           enableArrow: true
         });
         promptActionClass.setIsPartialUpdate(false);
-        promptActionClass.setTarget({ id: "sheet_target_1130" });
+        promptActionClass.setTarget({ id: 'sheet_target_1130' });
         promptActionClass.openPopup();
         
         // 3秒后更新popup
@@ -147,7 +147,7 @@ function sheetBuilder(uiContext: UIContext, promptAction: PromptAction) {
       })
     
     Column() {
-      Text("目标组件")
+      Text('目标组件')
         .fontSize(18)
         .margin(10)
     }
@@ -156,7 +156,7 @@ function sheetBuilder(uiContext: UIContext, promptAction: PromptAction) {
     .backgroundColor('#FFE0E0FF')
     .borderRadius(8)
     .justifyContent(FlexAlign.Center)
-    .id("sheet_target_1130")
+    .id('sheet_target_1130')
   }
   .width('100%')
   .height('60%')
@@ -172,28 +172,28 @@ struct UiComponentPopupboxPopupGlobal1130 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1130")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1130')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_1130")
+        .id('title_text_1130')
 
-      Text("测试说明：\n验证在半模态里面调用 openPopup、updatePopup、closePopup 接口")
+      Text('测试说明：\n验证在半模态里面调用 openPopup、updatePopup、closePopup 接口')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("Popup3")
-        .id("button_popup3_1130")
+      Button('Popup3')
+        .id('button_popup3_1130')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Popup3 button clicked')
         })
 
-      Button("bindSheet")
-        .id("button_bindsheet_1130")
+      Button('bindSheet')
+        .id('button_bindsheet_1130')
         .margin({ bottom: 20 })
         .bindSheet(this.isSheetVisible, sheetBuilder(this.uiContext, this.promptAction), {
           height: 600

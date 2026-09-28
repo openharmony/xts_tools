@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
 
   constructor(text: string) {
     this.text = text;
@@ -91,7 +91,7 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("命令式 Popup")
+    Text('命令式 Popup')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
@@ -116,38 +116,38 @@ struct UiComponentPopupboxPopupGlobal1030 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1030")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1030')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_1030")
+        .id('title_text_1030')
 
-      Text("测试说明：\n验证多个异步回调同时打开同一个 openPopup")
+      Text('测试说明：\n验证多个异步回调同时打开同一个 openPopup')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("Test")
-        .id("button_test_1030")
+      Button('Test')
+        .id('button_test_1030')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Test button clicked')
         })
 
-      Button("跳转")
-        .id("button_jump_1030")
+      Button('跳转')
+        .id('button_jump_1030')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Jump button clicked')
         })
 
-      Button("toolItem4")
-        .id("button_toolitem4_1030")
+      Button('toolItem4')
+        .id('button_toolitem4_1030')
         .margin({ bottom: 20 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("多个异步回调测试"));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('多个异步回调测试'));
           
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);
@@ -157,7 +157,7 @@ struct UiComponentPopupboxPopupGlobal1030 {
             popupColor: '#FFB6C1'
           });
           this.promptActionClass.setIsPartialUpdate(false);
-          this.promptActionClass.setTarget({ id: "target_component_1030" });
+          this.promptActionClass.setTarget({ id: 'target_component_1030' });
           
           // 同时触发多个异步openPopup调用
           setTimeout(() => {
@@ -174,7 +174,7 @@ struct UiComponentPopupboxPopupGlobal1030 {
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -183,7 +183,7 @@ struct UiComponentPopupboxPopupGlobal1030 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_1030")
+      .id('target_component_1030')
     }
     .width('100%')
     .height('100%')

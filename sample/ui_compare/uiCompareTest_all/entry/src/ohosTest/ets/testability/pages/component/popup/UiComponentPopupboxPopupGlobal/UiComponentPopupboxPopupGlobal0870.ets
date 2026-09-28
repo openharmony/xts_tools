@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
 
   constructor(text: string, promptActionClass: PromptActionClass) {
@@ -93,14 +93,14 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("Popup 内容")
+    Text('Popup 内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    Text("onWillDismiss 测试")
+    Text('onWillDismiss 测试')
       .fontSize(16)
       .margin(10)
-    Text("点击空白处或滑动可关闭")
+    Text('点击空白处或滑动可关闭')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin(10)
@@ -115,7 +115,7 @@ function popupBuilder(params: Params) {
 @Entry
 @Component
 struct UiComponentPopupboxPopupGlobal0870 {
-  @State targetSpace: string = "onWillDismiss：false"
+  @State targetSpace: string = 'onWillDismiss：false'
   private uiContext: UIContext = this.getUIContext();
   private promptAction: PromptAction = this.uiContext.getPromptAction();
   private promptActionClass: PromptActionClass = new PromptActionClass();
@@ -123,13 +123,13 @@ struct UiComponentPopupboxPopupGlobal0870 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0870")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0870')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0870")
+        .id('title_text_0870')
 
-      Text("测试说明：\n验证 updatePopup 接口设置 onWillDismiss 为 true 时，后修改为 false（partialUpdate 为 false）")
+      Text('测试说明：\n验证 updatePopup 接口设置 onWillDismiss 为 true 时，后修改为 false（partialUpdate 为 false）')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
@@ -137,21 +137,21 @@ struct UiComponentPopupboxPopupGlobal0870 {
         .borderRadius(8)
 
       Row() {
-        Text("当前状态：")
+        Text('当前状态：')
           .fontSize(14)
         Text(this.targetSpace)
           .fontSize(14)
           .fontColor(Color.Blue)
-          .id("target_space_status_0870")
+          .id('target_space_status_0870')
       }
       .margin({ bottom: 20 })
 
-      Button("Test")
-        .id("button_test_0870")
+      Button('Test')
+        .id('button_test_0870')
         .margin({ bottom: 10 })
         .onClick(() => {
           // 初始打开popup，onWillDismiss为true
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('hello', this.promptActionClass));
           
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);
@@ -163,19 +163,19 @@ struct UiComponentPopupboxPopupGlobal0870 {
             }
           });
           this.promptActionClass.setIsPartialUpdate(false);
-          this.promptActionClass.setTarget({ id: "target_component_0870" });
+          this.promptActionClass.setTarget({ id: 'target_component_0870' });
           this.promptActionClass.openPopup();
         })
 
-      Button("跳转")
-        .id("button_jump_0870")
+      Button('跳转')
+        .id('button_jump_0870')
         .margin({ bottom: 10 })
         .onClick(() => {
-          this.targetSpace = "onWillDismiss：false"
+          this.targetSpace = 'onWillDismiss：false'
         })
 
-      Button("update 更新")
-        .id("button_update_0870")
+      Button('update 更新')
+        .id('button_update_0870')
         .margin({ bottom: 20 })
         .onClick(() => {
           // 更新popup，将onWillDismiss设置为false（移除回调）
@@ -186,7 +186,7 @@ struct UiComponentPopupboxPopupGlobal0870 {
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -195,7 +195,7 @@ struct UiComponentPopupboxPopupGlobal0870 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_0870")
+      .id('target_component_0870')
     }
     .width('100%')
     .height('100%')

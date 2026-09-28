@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
 
   constructor(text: string) {
     this.text = text;
@@ -91,7 +91,7 @@ class Params {
 @Builder
 function popupBuilder1(params: Params) {
   Column() {
-    Text("Popup 1")
+    Text('Popup 1')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
@@ -109,7 +109,7 @@ function popupBuilder1(params: Params) {
 @Builder
 function popupBuilder2(params: Params) {
   Column() {
-    Text("Popup 2")
+    Text('Popup 2')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
@@ -136,40 +136,40 @@ struct UiComponentPopupboxPopupGlobal1110 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1110")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1110')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_1110")
+        .id('title_text_1110')
 
-      Text("测试说明：\n验证多个异步回调同时更新 updatePopup（targetinfo 不同）")
+      Text('测试说明：\n验证多个异步回调同时更新 updatePopup（targetinfo 不同）')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("Test")
-        .id("button_test_1110")
+      Button('Test')
+        .id('button_test_1110')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Test button clicked')
         })
 
-      Button("跳转")
-        .id("button_jump_1110")
+      Button('跳转')
+        .id('button_jump_1110')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Jump button clicked')
         })
 
-      Button("toolItem8")
-        .id("button_toolitem8_1110")
+      Button('toolItem8')
+        .id('button_toolitem8_1110')
         .margin({ bottom: 20 })
         .onClick(() => {
           // 创建两个contentNode，使用不同的targetInfo
-          this.contentNode1 = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder1), new Params("Target 1"));
-          this.contentNode2 = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder2), new Params("Target 2"));
+          this.contentNode1 = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder1), new Params('Target 1'));
+          this.contentNode2 = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder2), new Params('Target 2'));
           
           // 配置第一个popup
           this.promptActionClass1.setPromptAction(this.promptAction);
@@ -180,7 +180,7 @@ struct UiComponentPopupboxPopupGlobal1110 {
             popupColor: '#ADd7E6'
           });
           this.promptActionClass1.setIsPartialUpdate(false);
-          this.promptActionClass1.setTarget({ id: "target_component1_1110" });
+          this.promptActionClass1.setTarget({ id: 'target_component1_1110' });
           this.promptActionClass1.openPopup();
           
           // 配置第二个popup
@@ -192,7 +192,7 @@ struct UiComponentPopupboxPopupGlobal1110 {
             popupColor: '#90EE90'
           });
           this.promptActionClass2.setIsPartialUpdate(false);
-          this.promptActionClass2.setTarget({ id: "target_component2_1110" });
+          this.promptActionClass2.setTarget({ id: 'target_component2_1110' });
           this.promptActionClass2.openPopup();
           
           // 2秒后同时更新两个popup
@@ -217,7 +217,7 @@ struct UiComponentPopupboxPopupGlobal1110 {
 
       Row() {
         Column() {
-          Text("目标组件1")
+          Text('目标组件1')
             .fontSize(18)
             .margin(10)
         }
@@ -226,11 +226,11 @@ struct UiComponentPopupboxPopupGlobal1110 {
         .backgroundColor('#FFE0E0FF')
         .borderRadius(8)
         .justifyContent(FlexAlign.Center)
-        .id("target_component1_1110")
+        .id('target_component1_1110')
         .margin({ right: 20 })
 
         Column() {
-          Text("目标组件2")
+          Text('目标组件2')
             .fontSize(18)
             .margin(10)
         }
@@ -239,7 +239,7 @@ struct UiComponentPopupboxPopupGlobal1110 {
         .backgroundColor('#E0E0FF')
         .borderRadius(8)
         .justifyContent(FlexAlign.Center)
-        .id("target_component2_1110")
+        .id('target_component2_1110')
       }
       .justifyContent(FlexAlign.Center)
     }

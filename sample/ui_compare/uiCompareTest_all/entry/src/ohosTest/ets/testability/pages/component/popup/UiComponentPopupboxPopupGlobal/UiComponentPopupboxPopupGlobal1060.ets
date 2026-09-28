@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
 
   constructor(text: string) {
     this.text = text;
@@ -91,7 +91,7 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("命令式 Popup")
+    Text('命令式 Popup')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
@@ -118,40 +118,40 @@ struct UiComponentPopupboxPopupGlobal1060 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1060")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1060')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_1060")
+        .id('title_text_1060')
 
-      Text("测试说明：\n验证多个异步回调同时打开 openPopup（targetinfo 相同）")
+      Text('测试说明：\n验证多个异步回调同时打开 openPopup（targetinfo 相同）')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("Test")
-        .id("button_test_1060")
+      Button('Test')
+        .id('button_test_1060')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Test button clicked')
         })
 
-      Button("跳转")
-        .id("button_jump_1060")
+      Button('跳转')
+        .id('button_jump_1060')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Jump button clicked')
         })
 
-      Button("toolItem8")
-        .id("button_toolitem8_1060")
+      Button('toolItem8')
+        .id('button_toolitem8_1060')
         .margin({ bottom: 20 })
         .onClick(() => {
           // 创建两个contentNode，使用相同的targetInfo
-          this.contentNode1 = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("Popup 1"));
-          this.contentNode2 = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("Popup 2"));
+          this.contentNode1 = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('Popup 1'));
+          this.contentNode2 = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('Popup 2'));
           
           // 配置第一个popup
           this.promptActionClass1.setPromptAction(this.promptAction);
@@ -161,7 +161,7 @@ struct UiComponentPopupboxPopupGlobal1060 {
             enableArrow: true
           });
           this.promptActionClass1.setIsPartialUpdate(false);
-          this.promptActionClass1.setTarget({ id: "target_component_1060" });
+          this.promptActionClass1.setTarget({ id: 'target_component_1060' });
           
           // 配置第二个popup（相同的targetInfo）
           this.promptActionClass2.setPromptAction(this.promptAction);
@@ -171,7 +171,7 @@ struct UiComponentPopupboxPopupGlobal1060 {
             enableArrow: true
           });
           this.promptActionClass2.setIsPartialUpdate(false);
-          this.promptActionClass2.setTarget({ id: "target_component_1060" });
+          this.promptActionClass2.setTarget({ id: 'target_component_1060' });
           
           // 同时触发两个openPopup
           setTimeout(() => {
@@ -184,7 +184,7 @@ struct UiComponentPopupboxPopupGlobal1060 {
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -193,7 +193,7 @@ struct UiComponentPopupboxPopupGlobal1060 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_1060")
+      .id('target_component_1060')
     }
     .width('100%')
     .height('100%')

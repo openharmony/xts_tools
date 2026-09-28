@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
 
   constructor(text: string) {
     this.text = text;
@@ -91,7 +91,7 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("命令式 Popup")
+    Text('命令式 Popup')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
@@ -116,36 +116,36 @@ struct UiComponentPopupboxPopupGlobal1020 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1020")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1020')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_1020")
+        .id('title_text_1020')
 
-      Text("测试说明：\n验证先调用 updatePopup 接口后调用 openPopup")
+      Text('测试说明：\n验证先调用 updatePopup 接口后调用 openPopup')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("Popup3")
-        .id("button_popup3_1020")
+      Button('Popup3')
+        .id('button_popup3_1020')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Popup3 button clicked')
         })
 
-      Button("先 update 后 open")
-        .id("button_test_1020")
+      Button('先 update 后 open')
+        .id('button_test_1020')
         .margin({ bottom: 20 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("测试内容"));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('测试内容'));
           
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);
           this.promptActionClass.setIsPartialUpdate(false);
-          this.promptActionClass.setTarget({ id: "target_component_1020" });
+          this.promptActionClass.setTarget({ id: 'target_component_1020' });
           
           // 先调用 updatePopup (应该报103303错误)
           this.promptActionClass.updatePopup({
@@ -164,7 +164,7 @@ struct UiComponentPopupboxPopupGlobal1020 {
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -173,7 +173,7 @@ struct UiComponentPopupboxPopupGlobal1020 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_1020")
+      .id('target_component_1020')
     }
     .width('100%')
     .height('100%')

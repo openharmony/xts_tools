@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
 
   constructor(text: string) {
     this.text = text;
@@ -91,11 +91,11 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("Popup 内容")
+    Text('Popup 内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    Text("radius: 10px")
+    Text('radius: 10px')
       .fontSize(16)
       .margin(10)
   }
@@ -109,7 +109,7 @@ function popupBuilder(params: Params) {
 @Entry
 @Component
 struct UiComponentPopupboxPopupGlobal1890 {
-  @State targetSpace: string = "radius：10px"
+  @State targetSpace: string = 'radius：10px'
   private uiContext: UIContext = this.getUIContext();
   private promptAction: PromptAction = this.uiContext.getPromptAction();
   private promptActionClass: PromptActionClass = new PromptActionClass();
@@ -117,13 +117,13 @@ struct UiComponentPopupboxPopupGlobal1890 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1890")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1890')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_1890")
+        .id('title_text_1890')
 
-      Text("测试说明：\n验证 openPopup 接口 options 设置 radius 参数为 10px 时")
+      Text('测试说明：\n验证 openPopup 接口 options 设置 radius 参数为 10px 时')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
@@ -131,49 +131,49 @@ struct UiComponentPopupboxPopupGlobal1890 {
         .borderRadius(8)
 
       Row() {
-        Text("当前状态：")
+        Text('当前状态：')
           .fontSize(14)
         Text(this.targetSpace)
           .fontSize(14)
           .fontColor(Color.Blue)
-          .id("target_space_status_1890")
+          .id('target_space_status_1890')
       }
       .margin({ bottom: 20 })
 
-      Button("Test")
-        .id("button_test_1890")
+      Button('Test')
+        .id('button_test_1890')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Test button clicked')
         })
 
-      Button("跳转")
-        .id("button_jump_1890")
+      Button('跳转')
+        .id('button_jump_1890')
         .margin({ bottom: 10 })
         .onClick(() => {
-          this.targetSpace = "radius：10px"
+          this.targetSpace = 'radius：10px'
         })
 
-      Button("open 打开")
-        .id("button_open_1890")
+      Button('open 打开')
+        .id('button_open_1890')
         .margin({ bottom: 20 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello"));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('hello'));
           
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);
           this.promptActionClass.setOptions({
             placement: Placement.Bottom,
             enableArrow: true,
-            radius: "10px"
+            radius: '10px'
           });
           this.promptActionClass.setIsPartialUpdate(false);
-          this.promptActionClass.setTarget({ id: "target_component_1890" });
+          this.promptActionClass.setTarget({ id: 'target_component_1890' });
           this.promptActionClass.openPopup();
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -182,7 +182,7 @@ struct UiComponentPopupboxPopupGlobal1890 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_1890")
+      .id('target_component_1890')
     }
     .width('100%')
     .height('100%')

@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
   public rotateAngle: number = 0
 
@@ -95,14 +95,14 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("Popup 内容")
+    Text('Popup 内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    Text("这是一个全局 Popup 弹窗")
+    Text('这是一个全局 Popup 弹窗')
       .fontSize(16)
       .margin(10)
-    Text("followTransformOfTarget: undefined")
+    Text('followTransformOfTarget: undefined')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin({ top: 10 })
@@ -123,7 +123,7 @@ function popupBuilder(params: Params) {
 @Entry
 @Component
 struct UiComponentPopupboxPopupGlobal0590 {
-  @State followTransformState: string = "undefined"
+  @State followTransformState: string = 'undefined'
   @State rotateAngle: number = 0
   private uiContext: UIContext = this.getUIContext();
   private promptAction: PromptAction = this.uiContext.getPromptAction();
@@ -132,36 +132,36 @@ struct UiComponentPopupboxPopupGlobal0590 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0590")
+        .id('title_text_0590')
 
-      Text("测试说明：\n验证 openPopup 接口设置 followTransformOfTarget 为 undefined 时")
+      Text('测试说明：\n验证 openPopup 接口设置 followTransformOfTarget 为 undefined 时')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("followTransformOfTarget：undefined")
-        .id("button_set_followtransform_undefined_0590")
+      Button('followTransformOfTarget：undefined')
+        .id('button_set_followtransform_undefined_0590')
         .margin({ bottom: 10 })
         .onClick(() => {
-          this.followTransformState = "undefined"
+          this.followTransformState = 'undefined'
         })
 
-      Button("followTransformOfTarget_rotate")
-        .id("button_followtransform_rotate_0590")
+      Button('followTransformOfTarget_rotate')
+        .id('button_followtransform_rotate_0590')
         .margin({ bottom: 20 })
         .onClick(() => {
           // 旋转目标组件 90 度
           this.rotateAngle = 90;
           
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass, this.rotateAngle));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('hello', this.promptActionClass, this.rotateAngle));
           
-          let frameNode = this.uiContext.getFrameNodeById("target_component_0590");
+          let frameNode = this.uiContext.getFrameNodeById('target_component_0590');
           let targetId = frameNode?.getUniqueId() || 0;
           
           this.promptActionClass.setPromptAction(this.promptAction);
@@ -177,7 +177,7 @@ struct UiComponentPopupboxPopupGlobal0590 {
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -186,7 +186,7 @@ struct UiComponentPopupboxPopupGlobal0590 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_0590")
+      .id('target_component_0590')
       .rotate({ angle: this.rotateAngle })
       .animation({ duration: 500 })
     }

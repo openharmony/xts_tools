@@ -91,21 +91,21 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("Popup 内容")
+    Text('Popup 内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    TextInput({ placeholder: "测试 focusable" })
+    TextInput({ placeholder: '测试 focusable' })
       .width(150)
       .margin(10)
-      .id("popup_input_0840")
-    Text("partialUpdate 为 false，更新不生效")
+      .id('popup_input_0840')
+    Text('partialUpdate 为 false，更新不生效')
       .fontSize(12)
       .fontColor(Color.Gray)
       .margin({ top: 10 })
     
     Button('跳转')
-      .id("button_jump_0840")
+      .id('button_jump_0840')
       .margin({ top: 10 })
       .width(100)
       .onClick(() => {
@@ -113,7 +113,7 @@ function popupBuilder(params: Params) {
       })
     
     Button('update 更新_focusable')
-      .id("button_update_focusable_0840")
+      .id('button_update_focusable_0840')
       .margin({ top: 10 })
       .width(150)
       .onClick(() => {
@@ -146,24 +146,24 @@ struct UiComponentPopupboxPopupGlobal0840 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0840")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0840')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0840")
+        .id('title_text_0840')
 
-      Text("测试说明：\n验证 updatePopup 接口 options 设置 focusable 参数为 true 时，后修改为 false（partialUpdate 为 false）")
+      Text('测试说明：\n验证 updatePopup 接口 options 设置 focusable 参数为 true 时，后修改为 false（partialUpdate 为 false）')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("Test")
-        .id("button_test_0840")
+      Button('Test')
+        .id('button_test_0840')
         .margin({ bottom: 10 })
         .onClick(() => {
-          let frameNode: FrameNode | null = this.uiContext.getFrameNodeById("target_component_0840");
+          let frameNode: FrameNode | null = this.uiContext.getFrameNodeById('target_component_0840');
           let targetId = frameNode?.getUniqueId() || 0;
           this.targetId = targetId;
           
@@ -176,7 +176,7 @@ struct UiComponentPopupboxPopupGlobal0840 {
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -185,7 +185,7 @@ struct UiComponentPopupboxPopupGlobal0840 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_0840")
+      .id('target_component_0840')
     }
     .width('100%')
     .height('100%')

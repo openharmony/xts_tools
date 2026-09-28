@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
 
   constructor(text: string) {
     this.text = text;
@@ -91,7 +91,7 @@ class Params {
 @Builder
 function commandPopupBuilder(params: Params) {
   Column() {
-    Text("命令式 Popup")
+    Text('命令式 Popup')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
@@ -117,28 +117,28 @@ struct UiComponentPopupboxPopupGlobal1010 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1010")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1010')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_1010")
+        .id('title_text_1010')
 
-      Text("测试说明：\n验证 onWillDismiss 里面调用 openPopup、updatePopup、closePopup 接口")
+      Text('测试说明：\n验证 onWillDismiss 里面调用 openPopup、updatePopup、closePopup 接口')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("Popup3")
-        .id("button_popup3_1010")
+      Button('Popup3')
+        .id('button_popup3_1010')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Popup3 button clicked')
         })
 
-      Button("PopupOptions_onWillDismiss")
-        .id("button_test_1010")
+      Button('PopupOptions_onWillDismiss')
+        .id('button_test_1010')
         .margin({ bottom: 20 })
         .bindPopup(this.isPopupVisible, {
           message: 'PopupOptions onWillDismiss 测试',
@@ -146,7 +146,7 @@ struct UiComponentPopupboxPopupGlobal1010 {
             console.info('PopupOptions onWillDismiss, reason: ' + dismissPopupAction.reason);
             
             // popup关闭时，打开命令式popup
-            this.commandContentNode = new ComponentContent(this.uiContext, wrapBuilder(commandPopupBuilder), new Params("命令式 Popup 内容"));
+            this.commandContentNode = new ComponentContent(this.uiContext, wrapBuilder(commandPopupBuilder), new Params('命令式 Popup 内容'));
             
             this.promptActionClass.setPromptAction(this.promptAction);
             this.promptActionClass.setContentNode(this.commandContentNode);
@@ -155,7 +155,7 @@ struct UiComponentPopupboxPopupGlobal1010 {
               enableArrow: true
             });
             this.promptActionClass.setIsPartialUpdate(false);
-            this.promptActionClass.setTarget({ id: "target_component_1010" });
+            this.promptActionClass.setTarget({ id: 'target_component_1010' });
             this.promptActionClass.openPopup();
             
             // 3秒后更新popup
@@ -178,7 +178,7 @@ struct UiComponentPopupboxPopupGlobal1010 {
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -187,7 +187,7 @@ struct UiComponentPopupboxPopupGlobal1010 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_1010")
+      .id('target_component_1010')
     }
     .width('100%')
     .height('100%')

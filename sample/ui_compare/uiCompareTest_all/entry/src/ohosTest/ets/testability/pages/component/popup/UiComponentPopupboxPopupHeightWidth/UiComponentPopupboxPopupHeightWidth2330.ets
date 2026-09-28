@@ -69,7 +69,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
 
   constructor(text: string, promptActionClass: PromptActionClass) {
@@ -81,11 +81,11 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("箭头样式测试")
+    Text('箭头样式测试')
       .fontSize(18)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    Text("通过 arrowOffset 设定箭头位置，气泡安全距离内，箭头应显示为默认三角形")
+    Text('通过 arrowOffset 设定箭头位置，气泡安全距离内，箭头应显示为默认三角形')
       .fontSize(14)
       .margin(10)
     Button('Close')
@@ -112,27 +112,27 @@ struct UiComponentPopupboxPopupHeightWidth2330 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2330")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2330')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_2330")
+        .id('title_text_2330')
 
-      Text("测试说明：\npopup 新增箭头样式，通过 arrowoffset 设定箭头位置，气泡安全距离内")
+      Text('测试说明：\npopup 新增箭头样式，通过 arrowoffset 设定箭头位置，气泡安全距离内')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("Open Popup")
-        .id("button_popup_2330_open")
+      Button('Open Popup')
+        .id('button_popup_2330_open')
         .margin({ bottom: 10 })
         .onClick(() => {
-          let frameNode: FrameNode | null = this.uiContext.getFrameNodeById("target_component_2330");
+          let frameNode: FrameNode | null = this.uiContext.getFrameNodeById('target_component_2330');
           let targetId = frameNode?.getUniqueId() || 0;
 
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('hello', this.promptActionClass));
 
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);
@@ -142,12 +142,12 @@ struct UiComponentPopupboxPopupHeightWidth2330 {
             arrowOffset: 0
           });
           this.promptActionClass.setIsPartialUpdate(true);
-          this.promptActionClass.setTarget({ id: "target_component_2330", componentId: targetId });
+          this.promptActionClass.setTarget({ id: 'target_component_2330', componentId: targetId });
           this.promptActionClass.openPopup();
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -156,7 +156,7 @@ struct UiComponentPopupboxPopupHeightWidth2330 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_2330")
+      .id('target_component_2330')
     }
     .width('100%')
     .height('100%')
