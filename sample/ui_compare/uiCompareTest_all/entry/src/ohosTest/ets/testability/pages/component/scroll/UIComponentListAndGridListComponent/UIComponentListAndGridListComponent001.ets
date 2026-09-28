@@ -39,7 +39,7 @@ function itemHead(params: HeadBuilderParams) {
   Text(params.text)
     .fontSize(20)
     .height('48vp')
-    .width("100%")
+    .width('100%')
     .padding(10)
     .backgroundColor($r('sys.color.background_tertiary'))
 }
@@ -49,7 +49,7 @@ function itemFoot(params: FootBuilderParams) {
   Text('共' + params.num + '节课')
     .fontSize(20)
     .height('48vp')
-    .width("100%")
+    .width('100%')
     .padding(10)
     .backgroundColor($r('sys.color.background_tertiary'))
 }
@@ -102,7 +102,7 @@ struct UIComponentListAndGridListComponent001 {
 
   build() {
     Column() {
-      Button("Test++")
+      Button('Test++')
         .id('Test++')
         .stateEffect(true)
         .width(100)
@@ -129,7 +129,7 @@ struct UIComponentListAndGridListComponent001 {
             ForEach(item.projects, (project: string) => {
               ListItem() {
                 Text(project)
-                  .width("100%")
+                  .width('100%')
                   .height(100)
                   .fontSize(20)
                   .textAlign(TextAlign.Center)
