@@ -50,7 +50,7 @@ export default function focusPopupBoxTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0330', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0330  start.`);
       try {
-        await Settings.createWindow("testability/pages/scenario/action_event/focus_PopupBox/PopupBoxEnter0330");
+        await Settings.createWindow('testability/pages/scenario/action_event/focus_PopupBox/PopupBoxEnter0330');
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -111,7 +111,7 @@ export default function focusPopupBoxTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0490', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0490  start.`);
       try {
-        await Settings.createWindow("testability/pages/scenario/action_event/focus_PopupBox/PopupBoxEnter0490");
+        await Settings.createWindow('testability/pages/scenario/action_event/focus_PopupBox/PopupBoxEnter0490');
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -172,7 +172,7 @@ export default function focusPopupBoxTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0530', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0530  start.`);
       try {
-        await Settings.createWindow("testability/pages/scenario/action_event/focus_PopupBox/PBAvoidSafeZone0530");
+        await Settings.createWindow('testability/pages/scenario/action_event/focus_PopupBox/PBAvoidSafeZone0530');
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -201,7 +201,7 @@ export default function focusPopupBoxTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0670', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0670  start.`);
       try {
-        await Settings.createWindow("testability/pages/scenario/action_event/focus_PopupBox/PBAvoidSafeZone0670");
+        await Settings.createWindow('testability/pages/scenario/action_event/focus_PopupBox/PBAvoidSafeZone0670');
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -231,7 +231,7 @@ export default function focusPopupBoxTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0010  start.`);
       try {
-        await Settings.createWindow("testability/pages/scenario/action_event/focus_PopupBox/PBLunarSwitchStyle0010");
+        await Settings.createWindow('testability/pages/scenario/action_event/focus_PopupBox/PBLunarSwitchStyle0010');
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();
@@ -261,7 +261,7 @@ export default function focusPopupBoxTest() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0100', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0100  start.`);
       try {
-        await Settings.createWindow("testability/pages/scenario/action_event/focus_PopupBox/PBLunarSwitchStyle0100");
+        await Settings.createWindow('testability/pages/scenario/action_event/focus_PopupBox/PBLunarSwitchStyle0100');
       } catch (e) {
         Logger.error('TEST', `Failed to create window: ${e}`);
         done();

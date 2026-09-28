@@ -51,7 +51,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0011', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0011  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0011")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0011')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -72,7 +72,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0012', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0012  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0012")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0012')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -93,7 +93,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0014', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0014  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0014")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0014')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -115,7 +115,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0015  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0015")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0015')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -136,7 +136,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0016  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0016")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0016')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -157,7 +157,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0018', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0018  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0018")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0018')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -178,7 +178,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0019  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0019")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0019')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -199,7 +199,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0021', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0021  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0021")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0021')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -220,7 +220,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0022', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0021  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0022")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0022')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -241,7 +241,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0024', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0024  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0024")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0024')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -262,7 +262,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0029', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0029  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0029")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0029')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -283,7 +283,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0030  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0030")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0030')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -303,7 +303,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0031', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0031  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0031")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0031')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -324,7 +324,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0032', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0032  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0032")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0032')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -345,7 +345,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0033', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0033  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0033")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0033')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -365,7 +365,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0034', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0034  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0034")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0034')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -387,7 +387,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0036', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0036  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0036")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0036')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -408,7 +408,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0037', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0037  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0037")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0037')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -429,7 +429,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0038', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0038  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0038")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0038')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -450,7 +450,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0039', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0039  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0039")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0039')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -470,7 +470,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0041', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0041  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0041")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0041')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -491,7 +491,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0042', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0042  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0042")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0042')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -512,7 +512,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0043', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0043  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0043")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0043')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -532,7 +532,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0044', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0044  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0044")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0044')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -553,7 +553,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0046', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0046  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0046")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0046')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -574,7 +574,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0047', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0047  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0047")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0047')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -595,7 +595,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0048', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0048  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0048")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0048')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -616,7 +616,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0049', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0049  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0049")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0049')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -637,7 +637,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0050  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0050")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0050')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -657,7 +657,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0051', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0051  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0051")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0051')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -678,7 +678,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0053', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0053  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0053")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0053')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -699,7 +699,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0055', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0055  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0055")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0055')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -719,7 +719,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0057', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0057  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0057")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0057')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -740,7 +740,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0058', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0058  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0058")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0058')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -761,7 +761,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0060  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0060")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0060')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -781,7 +781,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0063', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0063  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0063")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0063')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -802,7 +802,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0064', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0064  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0064")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0064')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -823,7 +823,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0065', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0065  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0065")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0065')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -843,7 +843,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0066', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0066  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0066")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0066')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -864,7 +864,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0068', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0068  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0068")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0068')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -882,7 +882,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0072', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0072  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0072")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0072')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -902,7 +902,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0073', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0073  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0073")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0073')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -923,7 +923,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0074', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0074  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0074")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0074')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -944,7 +944,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0075', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0075  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0075")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0075')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -964,7 +964,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0076', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0076  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0076")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0076')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -985,7 +985,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0079', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0079  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0079")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0079')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -1006,7 +1006,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0080  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0080")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0080')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -1027,7 +1027,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0081', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0081  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0081")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0081')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -1047,7 +1047,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0086', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0086  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0086")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0086')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -1068,7 +1068,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0089', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0089  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0089")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0089')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -1089,7 +1089,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0090  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0090")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0090')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -1110,7 +1110,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0091', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0091  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0091")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0091')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -1130,7 +1130,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0092', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0092  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0092")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0092')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()
@@ -1151,7 +1151,7 @@ export default function focusMediaBadgeBorder() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0093', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0093  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0093")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeBorder/MbBorder0093')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       windowSnap.snapShot()

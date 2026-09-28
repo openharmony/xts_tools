@@ -64,7 +64,7 @@ export default function uiComponentHyperLinkPreventDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault01")
+      Settings.createWindow('testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault01')
       let driver:Driver=Driver.create();
       windowSnap.snapShot();
       await driver.waitForIdle(500,2000)
@@ -86,7 +86,7 @@ export default function uiComponentHyperLinkPreventDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault02")
+      Settings.createWindow('testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault02')
       let driver:Driver=Driver.create();
       windowSnap.snapShot();
       await driver.waitForIdle(500,2000)
@@ -108,7 +108,7 @@ export default function uiComponentHyperLinkPreventDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault03")
+      Settings.createWindow('testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault03')
       let driver:Driver=Driver.create();
       windowSnap.snapShot();
       await driver.waitForIdle(500,2000)
@@ -131,7 +131,7 @@ export default function uiComponentHyperLinkPreventDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault04")
+      Settings.createWindow('testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault04')
       let driver:Driver=Driver.create();
       windowSnap.snapShot();
       await driver.waitForIdle(500,2000)
@@ -154,7 +154,7 @@ export default function uiComponentHyperLinkPreventDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault05")
+      Settings.createWindow('testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault05')
       let driver:Driver=Driver.create();
       windowSnap.snapShot();
       await driver.waitForIdle(500,2000)
@@ -177,7 +177,7 @@ export default function uiComponentHyperLinkPreventDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault06")
+      Settings.createWindow('testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault06')
       let driver:Driver=Driver.create();
       windowSnap.snapShot();
       await driver.waitForIdle(500,2000)
@@ -200,7 +200,7 @@ export default function uiComponentHyperLinkPreventDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault07")
+      Settings.createWindow('testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault07')
       let driver:Driver=Driver.create();
       windowSnap.snapShot();
       await driver.waitForIdle(500,2000)
@@ -223,7 +223,7 @@ export default function uiComponentHyperLinkPreventDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HYPERLINK_PREVENTDEFAULT_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault08")
+      Settings.createWindow('testability/pages/scenario/action_event/uiComponentHyperLinkPreventDefault/UiComponentHyperLinkPreventDefault08')
       let driver:Driver=Driver.create();
       windowSnap.snapShot();
       await driver.waitForIdle(500,2000)

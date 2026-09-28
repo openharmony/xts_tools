@@ -52,7 +52,7 @@ export default function focusDataPanelTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0016  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpAnimateTo0016")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpAnimateTo0016')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpAT0016'), 1000);
       await button.click();
@@ -74,7 +74,7 @@ export default function focusDataPanelTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0017', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0017  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpAnimateTo0017")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpAnimateTo0017')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpAT0017'), 1000);
       await button.click();
@@ -96,7 +96,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0010  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0010")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0010')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0010'), 1000);
       await button.click();
@@ -118,7 +118,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0020  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0020")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0020')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0020'), 1000);
       await button.click();
@@ -140,7 +140,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0030  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0030")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0030')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0030'), 1000);
       await button.click();
@@ -163,7 +163,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0040  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0040")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0040')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0040'), 1000);
       await button.click();
@@ -185,7 +185,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0050  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0050")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0050')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0050'), 1000);
       await button.click();
@@ -207,7 +207,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0070  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0070")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0070')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0070'), 1000);
       await button.click();
@@ -229,7 +229,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0080  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0080")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0080')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0080'), 1000);
       await button.click();
@@ -251,7 +251,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0090  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0090")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0090')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0090'), 1000);
       await button.click();
@@ -272,7 +272,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0100', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0100  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0100")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0100')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0100'), 1000);
       await button.click();
@@ -294,7 +294,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0110  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0110")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0110')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0110'), 1000);
       await button.click();
@@ -316,7 +316,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0130  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0130")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0130')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0130'), 1000);
       await button.click();
@@ -338,7 +338,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0140', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0140  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0140")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0140')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0140'), 1000);
       await button.click();
@@ -360,7 +360,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0150', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0150  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0150")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0150')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0150'), 1000);
       await button.click();
@@ -382,7 +382,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0160', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0160  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0160")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0160')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0160'), 1000);
       await button.click();
@@ -404,7 +404,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0170', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0170  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0170")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0170')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0170'), 1000);
       await button.click();
@@ -426,7 +426,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0180  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0180")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0180')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0180'), 1000);
       await button.click();
@@ -448,7 +448,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0190', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0190  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0190")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0190')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0190'), 1000);
       await button.click();
@@ -470,7 +470,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0200', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0200  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0200")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0200')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0200'), 1000);
       await button.click();
@@ -492,7 +492,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0250', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0250  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0250")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0250')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0250'), 1000);
       await button.click();
@@ -514,7 +514,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0260', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0260  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0260")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0260')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0260'), 1000);
       await button.click();
@@ -536,7 +536,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0270', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0270  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0270")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0270')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0270'), 1000);
       await button.click();
@@ -558,7 +558,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0280', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0280  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0280")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0280')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0280'), 1000);
       await button.click();
@@ -580,7 +580,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0290', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0290  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0290")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0290')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0290'), 1000);
       await button.click();
@@ -602,7 +602,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0300', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0300  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0300")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0300')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0300'), 1000);
       await button.click();
@@ -623,7 +623,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0310', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0310  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0310")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0310')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0310'), 1000);
       await button.click();
@@ -645,7 +645,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0320', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0320  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0320")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0320')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0320'), 1000);
       await button.click();
@@ -667,7 +667,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0330', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0330  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0330")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0330')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0330'), 1000);
       await button.click();
@@ -689,7 +689,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0340', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0340  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0340")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0340')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0340'), 1000);
       await button.click();
@@ -711,7 +711,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0350', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0350  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0350")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0350')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0350'), 1000);
       await button.click();
@@ -733,7 +733,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0360', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0360  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0360")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0360')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0360'), 1000);
       await button.click();
@@ -755,7 +755,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0370', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0370  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0370")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0370')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0370'), 1000);
       await button.click();
@@ -777,7 +777,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0380', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0380  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0380")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0380')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0380'), 1000);
       await button.click();
@@ -799,7 +799,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0390', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0390  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0390")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0390')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0390'), 1000);
       await button.click();
@@ -821,7 +821,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0400', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0400  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0400")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0400')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0400'), 1000);
       await button.click();
@@ -843,7 +843,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0410', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0410  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0410")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0410')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0410'), 1000);
       await button.click();
@@ -865,7 +865,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0430', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0430  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0430")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0430')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0430'), 1000);
       await button.click();
@@ -887,7 +887,7 @@ export default function focusDataPanelTest() {
      */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0440', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0440  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0440")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpBorderRadius0440')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DpBR0440'), 1000);
       await button.click();
@@ -909,7 +909,7 @@ export default function focusDataPanelTest() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0180  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpInterface0180")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpInterface0180')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -929,7 +929,7 @@ export default function focusDataPanelTest() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0490', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0490  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpInterface0490")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpInterface0490')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -949,7 +949,7 @@ export default function focusDataPanelTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0010  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpWatches0010")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpWatches0010')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -969,7 +969,7 @@ export default function focusDataPanelTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0011', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0010  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpWatches0011")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpWatches0011')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -989,7 +989,7 @@ export default function focusDataPanelTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0012', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0012  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpWatches0012")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpWatches0012')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -1009,7 +1009,7 @@ export default function focusDataPanelTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0013', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0013  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpWatches0013")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpWatches0013')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -1029,7 +1029,7 @@ export default function focusDataPanelTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0014', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0014  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpWatches0014")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpWatches0014')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -1049,7 +1049,7 @@ export default function focusDataPanelTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0015  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpWatches0015")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpWatches0015')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -1069,7 +1069,7 @@ export default function focusDataPanelTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0016  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpWatches0016")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpWatches0016')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -1089,7 +1089,7 @@ export default function focusDataPanelTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0017', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0017  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpWatches0017")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpWatches0017')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -1109,7 +1109,7 @@ export default function focusDataPanelTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0018', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0018  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpWatches0018")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpWatches0018')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -1129,7 +1129,7 @@ export default function focusDataPanelTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0019  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_DataPanel/DpWatches0019")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_DataPanel/DpWatches0019')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()

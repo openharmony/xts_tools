@@ -52,7 +52,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 胶囊型分段按钮（单选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20010");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20010');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -92,7 +92,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 胶囊型分段按钮（单选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20020");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20020');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -132,7 +132,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 胶囊型分段按钮（单选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20030");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20030');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -172,7 +172,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 胶囊型分段按钮（单选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20040");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20040');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -212,7 +212,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 胶囊型分段按钮（单选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20050");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20050');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -252,7 +252,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 胶囊型分段按钮（单选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20060");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20060');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -292,7 +292,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 胶囊型分段按钮（单选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20070");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20070');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -332,7 +332,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 胶囊型分段按钮（单选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20080");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20080');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -372,7 +372,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 胶囊型分段按钮（多选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20090");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20090');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -412,7 +412,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 胶囊型分段按钮（多选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20100");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20100');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -452,7 +452,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 胶囊型分段按钮（多选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20110");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20110');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -492,7 +492,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 胶囊型分段按钮（多选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20120");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20120');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -532,7 +532,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 胶囊型分段按钮（多选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20130");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20130');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -572,7 +572,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 胶囊型分段按钮（多选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20140");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20140');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -612,7 +612,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 胶囊型分段按钮（多选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20150");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20150');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -652,7 +652,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - MultiCapsuleSegmentButtonV2 胶囊型分段按钮（多选）');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20160");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20160');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -692,7 +692,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 页签型分段按钮');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20170");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20170');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -732,7 +732,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 页签型分段按钮');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20180");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20180');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -772,7 +772,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 页签型分段按钮');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20190");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20190');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -812,7 +812,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 页签型分段按钮');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20200");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20200');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -852,7 +852,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 页签型分段按钮');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20210");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20210');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -892,7 +892,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 页签型分段按钮');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20220");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20220');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -932,7 +932,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 页签型分段按钮');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20230");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20230');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -972,7 +972,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - TabSegmentButtonV2 页签型分段按钮');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20240");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20240');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1012,7 +1012,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with colorMode: DARK');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20250");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20250');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1041,7 +1041,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with colorMode: LIGHT');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20260");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20260');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1070,7 +1070,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with colorMode: SYSTEM');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20270");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20270');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1099,7 +1099,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with BlurStyle.COMPONENT_REGULAR');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20280");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20280');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1136,7 +1136,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with BlurStyle.COMPONENT_THICK');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20290");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20290');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1173,7 +1173,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with BlurStyle.COMPONENT_THIN');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20300");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20300');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1210,7 +1210,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with BlurStyle.COMPONENT_ULTRA_THICK');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20310");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20310');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1247,7 +1247,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with BlurStyle.BACKGROUND_REGULAR');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20320");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20320');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1284,7 +1284,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with BlurStyle.BACKGROUND_THICK');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20330");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20330');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1321,7 +1321,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with BlurStyle.BACKGROUND_THIN');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20340");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20340');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1358,7 +1358,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with BlurStyle.BACKGROUND_ULTRA_THICK');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20350");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20350');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1395,7 +1395,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with BlurStyle.COMPONENT_ULTRA_THIN');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20360");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20360');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1432,7 +1432,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with BlurStyle.NONE');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20370");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20370');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1469,7 +1469,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with BlurStyle.Regular');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20380");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20380');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1506,7 +1506,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with BlurStyle.Thick');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20390");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20390');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1543,7 +1543,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with BlurStyle.Thin');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20400");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20400');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1580,7 +1580,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with rgba color');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20410");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20410');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1617,7 +1617,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with custom colors');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20420");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20420');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1670,7 +1670,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 with preset colors');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20430");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20430');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1723,7 +1723,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonBorderRadius');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20440");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20440');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1763,7 +1763,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonBorderRadius with percentage');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20450");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20450');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1803,7 +1803,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonBorderRadius with fp unit');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20460");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20460');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1843,7 +1843,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonBorderRadius with lpx unit');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20470");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20470');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1883,7 +1883,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonBorderRadius with px unit');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20480");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20480');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1923,7 +1923,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonBorderRadius with vp unit');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20490");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20490');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -1963,7 +1963,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonBorderRadius with undefined');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20500");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20500');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2003,7 +2003,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20510");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20510');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2043,7 +2043,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with negative value');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20520");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20520');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2083,7 +2083,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with percentage');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20530");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20530');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2123,7 +2123,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with fp unit');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20540");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20540');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2163,7 +2163,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with lpx unit');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20550");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20550');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2203,7 +2203,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with px unit');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20560");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20560');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2243,7 +2243,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with vp unit');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20570");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20570');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2283,7 +2283,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with undefined');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20580");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20580');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2323,7 +2323,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonPadding');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20590");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20590');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2363,7 +2363,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonPadding with percentage');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20600");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20600');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2403,7 +2403,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonPadding with fp unit');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20610");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20610');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2443,7 +2443,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonPadding with lpx unit');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20620");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20620');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2483,7 +2483,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonPadding with px unit');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20630");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20630');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2523,7 +2523,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonPadding with vp unit');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20640");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20640');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2563,7 +2563,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonPadding with undefined');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20650");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20650');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2603,7 +2603,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemBorderRadius with resource');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20660");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20660');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2643,7 +2643,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemBorderRadius with 10%');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20670");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20670');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2683,7 +2683,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemBorderRadius with 10fp');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20680");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20680');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2723,7 +2723,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemBorderRadius with 10lpx');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20690");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20690');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2763,7 +2763,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemBorderRadius with 10px');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20700");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20700');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2803,7 +2803,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemBorderRadius with 10vp');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20710");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20710');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2843,7 +2843,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemBorderRadius with undefined');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20720");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20720');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2883,7 +2883,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontColor with rgba');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20730");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20730');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -2920,7 +2920,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontColor with custom colors');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20740");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20740');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3022,7 +3022,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontColor with preset colors');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20750");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20750');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3059,7 +3059,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontSize with -1');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20760");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20760');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3096,7 +3096,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontSize with 20vp');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20770");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20770');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3133,7 +3133,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontSize with 40%');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20780");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20780');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3170,7 +3170,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontSize with 40fp');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20790");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20790');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3207,7 +3207,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontSize with 40lpx');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20800");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20800');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3244,7 +3244,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontSize with 40px');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20810");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20810');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3281,7 +3281,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontSize with resource');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20820");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20820');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3318,7 +3318,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontSize with undefined');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20830");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20830');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3355,7 +3355,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontWeight with Bolder');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20840");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20840');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3392,7 +3392,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontWeight with Bold');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20850");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20850');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3429,7 +3429,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontWeight with Lighter');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20860");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20860');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3466,7 +3466,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontWeight with Medium');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20870");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20870');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3503,7 +3503,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontWeight with Normal');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20880");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20880');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3540,7 +3540,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontWeight with Regular');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20890");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20890');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3577,7 +3577,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemFontWeight with undefined');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20900");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20900');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3614,7 +3614,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemIconFillColor with rgba');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20910");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20910');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3651,7 +3651,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemIconFillColor with custom colors');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20920");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20920');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3753,7 +3753,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemIconFillColor with preset colors');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20930");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20930');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3809,7 +3809,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemIconSize with undefined');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20940");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20940');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3846,7 +3846,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemIconSize with -1vp');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20950");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20950');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3883,7 +3883,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemIconSize with 20vp');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20960");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20960');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3920,7 +3920,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemIconSize with 40fp and 40%');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20970");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20970');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3957,7 +3957,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemIconSize with 40px and 40lpx');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20980");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20980');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -3994,7 +3994,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemIconSize with 50vp and resource');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20990");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV20990');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4031,7 +4031,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemMaxFontScale with abnormal number');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21000");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21000');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4074,7 +4074,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemMaxFontScale with resource type');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21010");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21010');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4111,7 +4111,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemMaxFontScale with normal range number');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21020");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21020');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4160,7 +4160,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemMinFontScale with abnormal number');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21030");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21030');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4203,7 +4203,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemMinFontScale with resource type');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21040");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21040');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4240,7 +4240,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemMinFontScale with normal range number');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21050");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21050');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4289,7 +4289,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with resource type');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21060");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21060');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4326,7 +4326,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with -1vp');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21070");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21070');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4363,7 +4363,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with 40%');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21080");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21080');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4400,7 +4400,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with 40fp');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21090");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21090');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4437,7 +4437,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with 40lpx');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21100");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21100');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4474,7 +4474,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with 40px');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21110");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21110');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4511,7 +4511,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with 40vp');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21120");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21120');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4548,7 +4548,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 buttonMinHeight with undefined');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21130");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21130');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4585,7 +4585,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemPadding with mixed units');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21140");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21140');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4622,7 +4622,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemPadding with negative values');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21150");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21150');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4659,7 +4659,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemPadding with 1% for all sides');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21160");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21160');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4696,7 +4696,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemSelectedBackgroundColor with rgba yellow');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21170");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21170');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4733,7 +4733,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemSelectedBackgroundColor with custom colors');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21180");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21180');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4812,7 +4812,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemSelectedBackgroundColor with preset colors');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21190");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21190');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4861,7 +4861,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemSelectedFontColor with rgba yellow');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21200");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21200');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4898,7 +4898,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemSelectedFontColor with custom colors');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21210");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21210');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
@@ -4977,7 +4977,7 @@ export default function focusSegmentButtonV2TestPart1() {
 
       // 步骤1：进入测试页面
       Logger.info('TEST', 'Step 1: Open test page - CapsuleSegmentButtonV2 itemSelectedFontColor with preset colors');
-      Settings.createWindow("testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21220");
+      Settings.createWindow('testability/pages/scenario/action_event/focus_SegmentButtonV2/SegmentButtonV21220');
 
       let driver = Driver.create();
       await driver.waitForIdle(1000, 2000);

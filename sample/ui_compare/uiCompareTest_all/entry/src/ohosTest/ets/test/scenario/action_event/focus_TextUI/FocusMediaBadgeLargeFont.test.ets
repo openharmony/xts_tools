@@ -50,7 +50,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0011', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0011  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0011")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0011')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0011A'), 1000);
       await buttonA.click();
@@ -82,7 +82,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0013', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0013  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0013")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0013')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0013A'), 1000);
       await buttonA.click();
@@ -111,7 +111,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0014', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0014  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0014")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0014')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0014A'), 1000);
       await buttonA.click();
@@ -143,7 +143,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0015  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0015")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0015')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0015A'), 1000);
       await buttonA.click();
@@ -166,7 +166,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0016  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0016")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0016')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0016A'), 1000);
       await buttonA.click();
@@ -194,7 +194,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0017', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0017  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0017")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0017')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0017A'), 1000);
       await buttonA.click();
@@ -226,7 +226,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0018', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0018  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0018")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0018')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0018A'), 1000);
       await buttonA.click();
@@ -248,7 +248,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0019  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0019")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0019')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0019A'), 1000);
       await buttonA.click();
@@ -277,7 +277,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0020  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0020")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0020')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0020A'), 1000);
       await buttonA.click();
@@ -309,7 +309,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0021', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0021  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0021")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0021')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0021A'), 1000);
       await buttonA.click();
@@ -333,7 +333,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0022', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0022  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0022")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0022')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0022A'), 1000);
       await buttonA.click();
@@ -362,7 +362,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0023', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0023  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0023")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0023')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0023A'), 1000);
       await buttonA.click();
@@ -394,7 +394,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0024', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0024  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0024")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0024')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0024A'), 1000);
       await buttonA.click();
@@ -417,7 +417,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0025', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0025  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0025")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0025')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0025A'), 1000);
       await buttonA.click();
@@ -446,7 +446,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0026', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0026  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0026")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0026')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0026A'), 1000);
       await buttonA.click();
@@ -477,7 +477,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0027', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0027  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0027")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0027')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0027A'), 1000);
       await buttonA.click();
@@ -499,7 +499,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0028', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0028  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0028")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0028')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0028A'), 1000);
       await buttonA.click();
@@ -527,7 +527,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0029', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0029  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0029")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0029')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0029A'), 1000);
       await buttonA.click();
@@ -559,7 +559,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0030  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0030")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0030')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0030A'), 1000);
       await buttonA.click();
@@ -583,7 +583,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0031', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0031  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0031")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0031')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0031A'), 1000);
       await buttonA.click();
@@ -612,7 +612,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0032', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0032  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0032")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0032')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0032A'), 1000);
       await buttonA.click();
@@ -644,7 +644,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0033', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0033  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0033")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0033')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0033A'), 1000);
       await buttonA.click();
@@ -667,7 +667,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0035', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0035  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0035")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0035')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0035A'), 1000);
       await buttonA.click();
@@ -699,7 +699,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0037', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0037  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0037")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0037')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0037A'), 1000);
       await buttonA.click();
@@ -727,7 +727,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0038', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0038  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0038")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0038')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0038A'), 1000);
       await buttonA.click();
@@ -759,7 +759,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0039', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0039  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0039")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0039')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0039A'), 1000);
       await buttonA.click();
@@ -782,7 +782,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0040  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0040")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0040')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0040A'), 1000);
       await buttonA.click();
@@ -811,7 +811,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0041', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0041  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0041")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0041')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0041A'), 1000);
       await buttonA.click();
@@ -844,7 +844,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0042', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0042  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0042")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0042')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0042A'), 1000);
       await buttonA.click();
@@ -867,7 +867,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0043', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0043  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0043")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0043')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0043A'), 1000);
       await buttonA.click();
@@ -896,7 +896,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0044', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0044  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0044")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0044')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0044A'), 1000);
       await buttonA.click();
@@ -928,7 +928,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0045', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0045  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0045")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0045')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0045A'), 1000);
       await buttonA.click();
@@ -951,7 +951,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0046', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0046  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0046")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0046')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0046A'), 1000);
       await buttonA.click();
@@ -979,7 +979,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0047', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0047  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0047")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0047')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0047A'), 1000);
       await buttonA.click();
@@ -1010,7 +1010,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0048', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0048  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0048")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0048')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0048A'), 1000);
       await buttonA.click();
@@ -1032,7 +1032,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0049', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0049  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0049")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0049')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0049A'), 1000);
       await buttonA.click();
@@ -1060,7 +1060,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0050  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0050")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0050')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0050A'), 1000);
       await buttonA.click();
@@ -1093,7 +1093,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0051', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0051  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0051")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0051')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0051A'), 1000);
       await buttonA.click();
@@ -1117,7 +1117,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0052', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0052  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0052")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0052')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0052A'), 1000);
       await buttonA.click();
@@ -1147,7 +1147,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0053', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0053  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0053")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0053')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0053A'), 1000);
       await buttonA.click();
@@ -1180,7 +1180,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0054', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0054  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0054")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0054')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0054A'), 1000);
       await buttonA.click();
@@ -1204,7 +1204,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0055', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0055  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0055")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0055')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0055A'), 1000);
       await buttonA.click();
@@ -1234,7 +1234,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0056', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0056  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0056")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0056')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0056A'), 1000);
       await buttonA.click();
@@ -1267,7 +1267,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0057', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0057  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0057")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0057')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0057A'), 1000);
       await buttonA.click();
@@ -1291,7 +1291,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0058', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0058  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0058")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0058')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0058A'), 1000);
       await buttonA.click();
@@ -1324,7 +1324,7 @@ export default function focusMediaBadgeLargeFont() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0059', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0059  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0059")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_Media_BadgeLargeFont/MbLargeFont0059')
       let driver: Driver = Driver.create();
       let buttonA: Component = await driver.waitForComponent(ON.id('MbLF0059A'), 1000);
       await buttonA.click();
