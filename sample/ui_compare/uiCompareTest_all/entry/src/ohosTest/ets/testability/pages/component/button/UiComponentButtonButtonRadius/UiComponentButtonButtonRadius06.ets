@@ -52,7 +52,7 @@ struct UiComponentButtonButtonRadius06 {
         })
         .borderWidth(1)
 
-      Button("TimePickerDialog 12小时制")
+      Button('TimePickerDialog 12小时制')
         .margin(20)
         .id('UiComponentButtonButtonRadius06_01')
         .onClick(() => {
@@ -84,31 +84,31 @@ struct UiComponentButtonButtonRadius06 {
             onAccept: (value: TimePickerResult) => {
               if (value.hour != undefined && value.minute != undefined) {
                 this.selectTime.setHours(value.hour, value.minute)
-                console.info("TimePickerDialog:onAccept()" + JSON.stringify(value))
+                console.info('TimePickerDialog:onAccept()' + JSON.stringify(value))
               }
             },
             onCancel: () => {
-              console.info("TimePickerDialog:onCancel()")
+              console.info('TimePickerDialog:onCancel()')
             },
             onChange: (value: TimePickerResult) => {
-              console.info("TimePickerDialog:onChange()" + JSON.stringify(value))
+              console.info('TimePickerDialog:onChange()' + JSON.stringify(value))
             },
             onDidAppear: () => {
-              console.info("TimePickerDialog:onDidAppear()")
+              console.info('TimePickerDialog:onDidAppear()')
             },
             onDidDisappear: () => {
-              console.info("TimePickerDialog:onDidDisappear()")
+              console.info('TimePickerDialog:onDidDisappear()')
             },
             onWillAppear: () => {
-              console.info("TimePickerDialog:onWillAppear()")
+              console.info('TimePickerDialog:onWillAppear()')
             },
             onWillDisappear: () => {
-              console.info("TimePickerDialog:onWillDisappear()")
+              console.info('TimePickerDialog:onWillDisappear()')
             }
           })
         })
 
-      Button("TimePickerDialog 24小时制")
+      Button('TimePickerDialog 24小时制')
         .margin(20)
         .id('UiComponentButtonButtonRadius06_02')
         .onClick(() => {
@@ -141,26 +141,26 @@ struct UiComponentButtonButtonRadius06 {
             onAccept: (value: TimePickerResult) => {
               if (value.hour != undefined && value.minute != undefined) {
                 this.selectTime.setHours(value.hour, value.minute)
-                console.info("TimePickerDialog:onAccept()" + JSON.stringify(value))
+                console.info('TimePickerDialog:onAccept()' + JSON.stringify(value))
               }
             },
             onCancel: () => {
-              console.info("TimePickerDialog:onCancel()")
+              console.info('TimePickerDialog:onCancel()')
             },
             onChange: (value: TimePickerResult) => {
-              console.info("TimePickerDialog:onChange()" + JSON.stringify(value))
+              console.info('TimePickerDialog:onChange()' + JSON.stringify(value))
             },
             onDidAppear: () => {
-              console.info("TimePickerDialog:onDidAppear()")
+              console.info('TimePickerDialog:onDidAppear()')
             },
             onDidDisappear: () => {
-              console.info("TimePickerDialog:onDidDisappear()")
+              console.info('TimePickerDialog:onDidDisappear()')
             },
             onWillAppear: () => {
-              console.info("TimePickerDialog:onWillAppear()")
+              console.info('TimePickerDialog:onWillAppear()')
             },
             onWillDisappear: () => {
-              console.info("TimePickerDialog:onWillDisappear()")
+              console.info('TimePickerDialog:onWillDisappear()')
             }
           })
         })

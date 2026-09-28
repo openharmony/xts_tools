@@ -50,7 +50,7 @@ export default function componentOutliersTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTIMER_OUTLIERS_0056', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTIMER_OUTLIERS_0056 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/component_outliers/textTimer01")
+      Settings.createWindow('testability/pages/scenario/misc/component_outliers/textTimer01')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('TextTimer_01'), 1000);
       await button1.click();
@@ -92,7 +92,7 @@ export default function componentOutliersTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0074', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0074 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/component_outliers/textClock01")
+      Settings.createWindow('testability/pages/scenario/misc/component_outliers/textClock01')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('TextClock_01'), 1000);
       await button1.click();
@@ -134,7 +134,7 @@ export default function componentOutliersTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/component_outliers/patternLock01")
+      Settings.createWindow('testability/pages/scenario/misc/component_outliers/patternLock01')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('PatternLock_01'), 1000);
       await button1.click();
@@ -187,7 +187,7 @@ export default function componentOutliersTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_OUTLIERS_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_OUTLIERS_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/component_outliers/guage01")
+      Settings.createWindow('testability/pages/scenario/misc/component_outliers/guage01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

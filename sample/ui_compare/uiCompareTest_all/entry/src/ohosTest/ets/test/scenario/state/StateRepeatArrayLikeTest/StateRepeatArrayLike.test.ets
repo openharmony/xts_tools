@@ -47,7 +47,7 @@ export default function stateRepeatArrayLikeTest() {
      */
     it('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/state/StateRepeatArrayLike/StateRepeatArrayLike001");
+      Settings.createWindow('testability/pages/scenario/state/StateRepeatArrayLike/StateRepeatArrayLike001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 4000);
       windowSnap.snapShot('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0010');
@@ -66,7 +66,7 @@ export default function stateRepeatArrayLikeTest() {
      */
     it('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/state/StateRepeatArrayLike/StateRepeatArrayLike002");
+      Settings.createWindow('testability/pages/scenario/state/StateRepeatArrayLike/StateRepeatArrayLike002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 4000);
       windowSnap.snapShot('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020_02');
@@ -85,7 +85,7 @@ export default function stateRepeatArrayLikeTest() {
      */
     it('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/state/StateRepeatArrayLike/StateRepeatArrayLike003");
+      Settings.createWindow('testability/pages/scenario/state/StateRepeatArrayLike/StateRepeatArrayLike003');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 4000);
       windowSnap.snapShot('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030_03');

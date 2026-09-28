@@ -50,7 +50,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0040")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -70,7 +70,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0160', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0160")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0160')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -90,7 +90,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0100', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0100")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -110,7 +110,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0030")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -130,7 +130,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0130 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0130")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -150,7 +150,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0060")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -170,7 +170,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0140', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0140 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0140")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0140')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -190,7 +190,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0050")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -210,7 +210,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0110")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -230,7 +230,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0150', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0150")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0150')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -250,7 +250,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0090")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -270,7 +270,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0180 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0180")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0180')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -290,7 +290,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0010")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -310,7 +310,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0120', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0120")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -330,7 +330,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0230', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0230 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0230")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0230')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -350,7 +350,7 @@ export default function builder() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0240', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/state/builder/Builder0240")
+      Settings.createWindow('testability/pages/scenario/state/builder/Builder0240')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       let Button1: Component = await driver.waitForComponent(ON.id('Builder0240_001'),1000);

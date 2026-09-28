@@ -27,119 +27,119 @@ struct UIComponentArcListFlingSpeedLimit001 {
         ArcListItem() {
           Row() {
             Column() {
-              Text("WLAN").fontSize("38px").fontColor("#FFFFFFFF")
-              Text("已开启").fontSize("20px").fontColor("#FFFFFFFF")
-            }.width("190px")
+              Text('WLAN').fontSize('38px').fontColor('#FFFFFFFF')
+              Text('已开启').fontSize('20px').fontColor('#FFFFFFFF')
+            }.width('190px')
           }
         }
-        .borderRadius("65px")
-        .width("414px")
-        .height("129px")
-        .backgroundColor("#26FFFFFF")
+        .borderRadius('65px')
+        .width('414px')
+        .height('129px')
+        .backgroundColor('#26FFFFFF')
 
         ArcListItem() {
           Row() {
             Column() {
-              Text("蓝牙").fontSize("38px").fontColor("#FFFFFFFF")
-              Text("已开启").fontSize("20px").fontColor("#FFFFFFFF")
-            }.width("190px")
+              Text('蓝牙').fontSize('38px').fontColor('#FFFFFFFF')
+              Text('已开启').fontSize('20px').fontColor('#FFFFFFFF')
+            }.width('190px')
           }
         }
-        .borderRadius("65px")
-        .width("414px")
-        .height("129px")
-        .backgroundColor("#26FFFFFF")
+        .borderRadius('65px')
+        .width('414px')
+        .height('129px')
+        .backgroundColor('#26FFFFFF')
 
         ArcListItem() {
           Row() {
             Column() {
-              Text("移动网络").fontSize("38px").fontColor("#FFFFFFFF")
-            }.width("190px")
+              Text('移动网络').fontSize('38px').fontColor('#FFFFFFFF')
+            }.width('190px')
           }
         }
-        .borderRadius("65px")
-        .width("414px")
-        .height("129px")
-        .backgroundColor("#26FFFFFF")
+        .borderRadius('65px')
+        .width('414px')
+        .height('129px')
+        .backgroundColor('#26FFFFFF')
 
         ArcListItem() {
           Row() {
             Column() {
-              Text("更多连接").fontSize("38px").fontColor("#FFFFFFFF")
-            }.width("190px")
+              Text('更多连接').fontSize('38px').fontColor('#FFFFFFFF')
+            }.width('190px')
           }
         }
-        .borderRadius("65px")
-        .width("414px")
-        .height("129px")
-        .backgroundColor("#26FFFFFF")
+        .borderRadius('65px')
+        .width('414px')
+        .height('129px')
+        .backgroundColor('#26FFFFFF')
 
         ArcListItem() {
           Row() {
             Column() {
-              Text("显示和亮度").fontSize("38px").fontColor("#FFFFFFFF")
-            }.width("190px")
+              Text('显示和亮度').fontSize('38px').fontColor('#FFFFFFFF')
+            }.width('190px')
           }
         }
-        .borderRadius("65px")
-        .width("414px")
-        .height("129px")
-        .backgroundColor("#26FFFFFF")
+        .borderRadius('65px')
+        .width('414px')
+        .height('129px')
+        .backgroundColor('#26FFFFFF')
 
         ArcListItem() {
           Row() {
             Column() {
-              Text("闹钟").fontSize("38px").fontColor("#FFFFFFFF")
-            }.width("190px")
+              Text('闹钟').fontSize('38px').fontColor('#FFFFFFFF')
+            }.width('190px')
           }
         }
-        .borderRadius("65px")
-        .width("414px")
-        .height("129px")
-        .backgroundColor("#26FFFFFF")
+        .borderRadius('65px')
+        .width('414px')
+        .height('129px')
+        .backgroundColor('#26FFFFFF')
 
         ArcListItem() {
           Row() {
             Column() {
-              Text("日程").fontSize("38px").fontColor("#FFFFFFFF")
-            }.width("190px")
+              Text('日程').fontSize('38px').fontColor('#FFFFFFFF')
+            }.width('190px')
           }
         }
-        .borderRadius("65px")
-        .width("414px")
-        .height("129px")
-        .backgroundColor("#26FFFFFF")
+        .borderRadius('65px')
+        .width('414px')
+        .height('129px')
+        .backgroundColor('#26FFFFFF')
 
         ArcListItem() {
           Row() {
             Column() {
-              Text("活力指标").fontSize("38px").fontColor("#FFFFFFFF")
-            }.width("190px")
+              Text('活力指标').fontSize('38px').fontColor('#FFFFFFFF')
+            }.width('190px')
           }
         }
-        .borderRadius("65px")
-        .width("414px")
-        .height("129px")
-        .backgroundColor("#26FFFFFF")
+        .borderRadius('65px')
+        .width('414px')
+        .height('129px')
+        .backgroundColor('#26FFFFFF')
 
         ArcListItem() {
           Row() {
             Column() {
-              Text("天气").fontSize("38px").fontColor("#FFFFFFFF")
-            }.width("190px")
+              Text('天气').fontSize('38px').fontColor('#FFFFFFFF')
+            }.width('190px')
           }
         }
-        .borderRadius("65px")
-        .width("414px")
-        .height("129px")
-        .backgroundColor("#26FFFFFF")
+        .borderRadius('65px')
+        .width('414px')
+        .height('129px')
+        .backgroundColor('#26FFFFFF')
       }
       .scrollBar(BarState.On)
       .chainAnimation(true)
-      .width("466px")
-      .height("466px")
+      .width('466px')
+      .height('466px')
       .space(LengthMetrics.px(10))
-      .borderRadius("233px")
+      .borderRadius('233px')
       .backgroundColor(0xAFEEEE)
       .flingSpeedLimit(this.flingSpeedLimit)
 

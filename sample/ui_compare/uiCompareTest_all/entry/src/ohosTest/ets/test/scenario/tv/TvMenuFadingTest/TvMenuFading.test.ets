@@ -51,12 +51,12 @@ export default function tvMenuFading() {
     it('SUB_ACE_UI_COMPONENT_TV_Menu_FADING_001', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TV_Menu_FADING_001 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/scenario/tv/tvMenuFading/TvMenuFading001")
+      Settings.createWindow('testability/pages/scenario/tv/tvMenuFading/TvMenuFading001')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击按钮显示菜单
-      let btn_show_menu = await driver.findComponent(ON.id("btn_show_menu_fading_001"))
+      let btn_show_menu = await driver.findComponent(ON.id('btn_show_menu_fading_001'))
       await btn_show_menu.click()
       await Utils.sleep(500)
 
@@ -79,12 +79,12 @@ export default function tvMenuFading() {
     it('SUB_ACE_UI_COMPONENT_TV_Menu_FADING_002', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TV_Menu_FADING_002 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/scenario/tv/tvMenuFading/TvMenuFading002")
+      Settings.createWindow('testability/pages/scenario/tv/tvMenuFading/TvMenuFading002')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击按钮显示菜单
-      let btn_show_menu = await driver.findComponent(ON.id("btn_show_menu_fading_002"))
+      let btn_show_menu = await driver.findComponent(ON.id('btn_show_menu_fading_002'))
       await btn_show_menu.click()
       await Utils.sleep(500)
 
@@ -107,12 +107,12 @@ export default function tvMenuFading() {
     it('SUB_ACE_UI_COMPONENT_TV_Menu_FADING_003', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TV_Menu_FADING_003 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/scenario/tv/tvMenuFading/TvMenuFading003")
+      Settings.createWindow('testability/pages/scenario/tv/tvMenuFading/TvMenuFading003')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击按钮显示菜单
-      let btn_show_menu = await driver.findComponent(ON.id("btn_show_menu_fading_003"))
+      let btn_show_menu = await driver.findComponent(ON.id('btn_show_menu_fading_003'))
       await btn_show_menu.click()
       await Utils.sleep(500)
 
@@ -135,12 +135,12 @@ export default function tvMenuFading() {
     it('SUB_ACE_UI_COMPONENT_TV_Menu_FADING_004', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TV_Menu_FADING_004 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/scenario/tv/tvMenuFading/TvMenuFading004")
+      Settings.createWindow('testability/pages/scenario/tv/tvMenuFading/TvMenuFading004')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击按钮显示菜单
-      let btn_show_menu = await driver.findComponent(ON.id("btn_show_menu_fading_004"))
+      let btn_show_menu = await driver.findComponent(ON.id('btn_show_menu_fading_004'))
       await btn_show_menu.click()
       await Utils.sleep(500)
 
@@ -163,17 +163,17 @@ export default function tvMenuFading() {
     it('SUB_ACE_UI_COMPONENT_TV_Menu_FADING_021', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TV_Menu_FADING_021 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/scenario/tv/tvMenuFading/TvMenuFading021")
+      Settings.createWindow('testability/pages/scenario/tv/tvMenuFading/TvMenuFading021')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击按钮弹出菜单
-      let btn_show_menu = await driver.findComponent(ON.id("btn_show_menu_fading_021"))
+      let btn_show_menu = await driver.findComponent(ON.id('btn_show_menu_fading_021'))
       await btn_show_menu.click()
       await Utils.sleep(500)
 
       // 步骤3：点击第一个菜单项弹出子菜单(SIDE_EXPAND方式)
-      let menu_item_01 = await driver.findComponent(ON.id("menu_item_fading_021_01"))
+      let menu_item_01 = await driver.findComponent(ON.id('menu_item_fading_021_01'))
       await menu_item_01.click()
       await Utils.sleep(500)
 
@@ -196,17 +196,17 @@ export default function tvMenuFading() {
     it('SUB_ACE_UI_COMPONENT_TV_Menu_FADING_031', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TV_Menu_FADING_031 start.`);
       // 步骤1：打开页面，新建menu组件，使menuitem文字内容超长
-      Settings.createWindow("testability/pages/scenario/tv/tvMenuFading/TvMenuFading031")
+      Settings.createWindow('testability/pages/scenario/tv/tvMenuFading/TvMenuFading031')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击按钮显示菜单
-      let btn_show_menu = await driver.findComponent(ON.id("btn_show_menu_fading_031"))
+      let btn_show_menu = await driver.findComponent(ON.id('btn_show_menu_fading_031'))
       await btn_show_menu.click()
       await Utils.sleep(500)
 
       // 步骤3：获焦超长menuitem，触发跑马灯+渐隐
-      let menu_item_01 = await driver.findComponent(ON.id("menu_item_fading_031_01"))
+      let menu_item_01 = await driver.findComponent(ON.id('menu_item_fading_031_01'))
       await menu_item_01.click()
       await Utils.sleep(1000)
 
@@ -229,17 +229,17 @@ export default function tvMenuFading() {
     it('SUB_ACE_UI_COMPONENT_TV_Menu_FADING_032', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TV_Menu_FADING_032 start.`);
       // 步骤1：打开页面，新建menu组件，使menuitem文字内容超长
-      Settings.createWindow("testability/pages/scenario/tv/tvMenuFading/TvMenuFading032")
+      Settings.createWindow('testability/pages/scenario/tv/tvMenuFading/TvMenuFading032')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击按钮显示菜单
-      let btn_show_menu = await driver.findComponent(ON.id("btn_show_menu_fading_032"))
+      let btn_show_menu = await driver.findComponent(ON.id('btn_show_menu_fading_032'))
       await btn_show_menu.click()
       await Utils.sleep(500)
 
       // 步骤3：获焦超长menuitem，触发跑马灯+渐隐
-      let menu_item_01 = await driver.findComponent(ON.id("menu_item_fading_032_01"))
+      let menu_item_01 = await driver.findComponent(ON.id('menu_item_fading_032_01'))
       await menu_item_01.click()
       await Utils.sleep(1000)
 
@@ -262,17 +262,17 @@ export default function tvMenuFading() {
     it('SUB_ACE_UI_COMPONENT_TV_Menu_FADING_033', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TV_Menu_FADING_033 start.`);
       // 步骤1：打开页面，新建menu组件，每个menuitem都超长
-      Settings.createWindow("testability/pages/scenario/tv/tvMenuFading/TvMenuFading033")
+      Settings.createWindow('testability/pages/scenario/tv/tvMenuFading/TvMenuFading033')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击按钮显示菜单
-      let btn_show_menu = await driver.findComponent(ON.id("btn_show_menu_fading_033"))
+      let btn_show_menu = await driver.findComponent(ON.id('btn_show_menu_fading_033'))
       await btn_show_menu.click()
       await Utils.sleep(500)
 
       // 步骤3：长按第一个menuitem并移动
-      let menu_item_01 = await driver.findComponent(ON.id("menu_item_fading_033_01"))
+      let menu_item_01 = await driver.findComponent(ON.id('menu_item_fading_033_01'))
       let bounds = await menu_item_01.getBounds()
       let centerX = Math.round((bounds.left + bounds.right) / 2)
       let centerY = Math.round((bounds.top + bounds.bottom) / 2)
@@ -280,7 +280,7 @@ export default function tvMenuFading() {
       await Utils.sleep(500)
 
       // 步骤4：移动到第二个menuitem
-      let menu_item_02 = await driver.findComponent(ON.id("menu_item_fading_033_02"))
+      let menu_item_02 = await driver.findComponent(ON.id('menu_item_fading_033_02'))
       let bounds2 = await menu_item_02.getBounds()
       let centerX2 = Math.round((bounds2.left + bounds2.right) / 2)
       let centerY2 = Math.round((bounds2.top + bounds2.bottom) / 2)
@@ -306,17 +306,17 @@ export default function tvMenuFading() {
     it('SUB_ACE_UI_COMPONENT_TV_Menu_FADING_034', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TV_Menu_FADING_034 start.`);
       // 步骤1：打开页面，新建menu组件，存在二级菜单
-      Settings.createWindow("testability/pages/scenario/tv/tvMenuFading/TvMenuFading034")
+      Settings.createWindow('testability/pages/scenario/tv/tvMenuFading/TvMenuFading034')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击按钮显示菜单
-      let btn_show_menu = await driver.findComponent(ON.id("btn_show_menu_fading_034"))
+      let btn_show_menu = await driver.findComponent(ON.id('btn_show_menu_fading_034'))
       await btn_show_menu.click()
       await Utils.sleep(500)
 
       // 步骤3：点击带二级菜单的菜单项，展开二级菜单
-      let menu_item_02 = await driver.findComponent(ON.id("menu_item_fading_034_02"))
+      let menu_item_02 = await driver.findComponent(ON.id('menu_item_fading_034_02'))
       await menu_item_02.click()
       await Utils.sleep(500)
 
@@ -343,37 +343,37 @@ export default function tvMenuFading() {
     it('SUB_ACE_UI_COMPONENT_TV_Menu_FADING_035', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TV_Menu_FADING_035 start.`);
       // 步骤1：打开页面，新建menu组件，存在多个MenuItem，每个content均超长
-      Settings.createWindow("testability/pages/scenario/tv/tvMenuFading/TvMenuFading035")
+      Settings.createWindow('testability/pages/scenario/tv/tvMenuFading/TvMenuFading035')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击按钮显示菜单
-      let btn_show_menu = await driver.findComponent(ON.id("btn_show_menu_fading_035"))
+      let btn_show_menu = await driver.findComponent(ON.id('btn_show_menu_fading_035'))
       await btn_show_menu.click()
       await Utils.sleep(500)
 
       // 步骤3：在每个menuItem进行hover切换，模拟灵犀遥控器hover切换
-      let menu_item_01 = await driver.findComponent(ON.id("menu_item_fading_035_01"))
+      let menu_item_01 = await driver.findComponent(ON.id('menu_item_fading_035_01'))
       let bounds1 = await menu_item_01.getBounds()
       await driver.mouseMoveTo({ x: Math.round((bounds1.left + bounds1.right) / 2), y: Math.round((bounds1.top + bounds1.bottom) / 2) })
       await Utils.sleep(300)
 
-      let menu_item_02 = await driver.findComponent(ON.id("menu_item_fading_035_02"))
+      let menu_item_02 = await driver.findComponent(ON.id('menu_item_fading_035_02'))
       let bounds2 = await menu_item_02.getBounds()
       await driver.mouseMoveTo({ x: Math.round((bounds2.left + bounds2.right) / 2), y: Math.round((bounds2.top + bounds2.bottom) / 2) })
       await Utils.sleep(300)
 
-      let menu_item_03 = await driver.findComponent(ON.id("menu_item_fading_035_03"))
+      let menu_item_03 = await driver.findComponent(ON.id('menu_item_fading_035_03'))
       let bounds3 = await menu_item_03.getBounds()
       await driver.mouseMoveTo({ x: Math.round((bounds3.left + bounds3.right) / 2), y: Math.round((bounds3.top + bounds3.bottom) / 2) })
       await Utils.sleep(300)
 
-      let menu_item_04 = await driver.findComponent(ON.id("menu_item_fading_035_04"))
+      let menu_item_04 = await driver.findComponent(ON.id('menu_item_fading_035_04'))
       let bounds4 = await menu_item_04.getBounds()
       await driver.mouseMoveTo({ x: Math.round((bounds4.left + bounds4.right) / 2), y: Math.round((bounds4.top + bounds4.bottom) / 2) })
       await Utils.sleep(300)
 
-      let menu_item_05 = await driver.findComponent(ON.id("menu_item_fading_035_05"))
+      let menu_item_05 = await driver.findComponent(ON.id('menu_item_fading_035_05'))
       let bounds5 = await menu_item_05.getBounds()
       await driver.mouseMoveTo({ x: Math.round((bounds5.left + bounds5.right) / 2), y: Math.round((bounds5.top + bounds5.bottom) / 2) })
       await Utils.sleep(300)
@@ -397,12 +397,12 @@ export default function tvMenuFading() {
     it('SUB_ACE_UI_COMPONENT_TV_Menu_FADING_036', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TV_Menu_FADING_036 start.`);
       // 步骤1：打开页面，新建menu组件，存在多个MenuItem，每个content均超长
-      Settings.createWindow("testability/pages/scenario/tv/tvMenuFading/TvMenuFading036")
+      Settings.createWindow('testability/pages/scenario/tv/tvMenuFading/TvMenuFading036')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：点击按钮显示菜单
-      let btn_show_menu = await driver.findComponent(ON.id("btn_show_menu_fading_036"))
+      let btn_show_menu = await driver.findComponent(ON.id('btn_show_menu_fading_036'))
       await btn_show_menu.click()
       await Utils.sleep(500)
 

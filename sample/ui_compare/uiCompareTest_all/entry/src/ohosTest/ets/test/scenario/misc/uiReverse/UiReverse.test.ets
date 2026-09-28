@@ -50,7 +50,7 @@ export default function uiReverseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiReverse/uiReverse01")
+      Settings.createWindow('testability/pages/scenario/misc/uiReverse/uiReverse01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -86,7 +86,7 @@ export default function uiReverseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiReverse/uiReverse02")
+      Settings.createWindow('testability/pages/scenario/misc/uiReverse/uiReverse02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -105,7 +105,7 @@ export default function uiReverseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiReverse/uiReverse03")
+      Settings.createWindow('testability/pages/scenario/misc/uiReverse/uiReverse03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -141,7 +141,7 @@ export default function uiReverseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiReverse/uiReverse04")
+      Settings.createWindow('testability/pages/scenario/misc/uiReverse/uiReverse04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -160,7 +160,7 @@ export default function uiReverseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiReverse/uiReverse05")
+      Settings.createWindow('testability/pages/scenario/misc/uiReverse/uiReverse05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -179,7 +179,7 @@ export default function uiReverseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiReverse/uiReverse06")
+      Settings.createWindow('testability/pages/scenario/misc/uiReverse/uiReverse06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -198,7 +198,7 @@ export default function uiReverseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiReverse/uiReverse07")
+      Settings.createWindow('testability/pages/scenario/misc/uiReverse/uiReverse07')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -222,7 +222,7 @@ export default function uiReverseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiReverse/uiReverse08")
+      Settings.createWindow('testability/pages/scenario/misc/uiReverse/uiReverse08')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -246,7 +246,7 @@ export default function uiReverseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiReverse/uiReverse09")
+      Settings.createWindow('testability/pages/scenario/misc/uiReverse/uiReverse09')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -270,7 +270,7 @@ export default function uiReverseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0130 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiReverse/uiReverse10")
+      Settings.createWindow('testability/pages/scenario/misc/uiReverse/uiReverse10')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -294,7 +294,7 @@ export default function uiReverseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0140 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiReverse/uiReverse11")
+      Settings.createWindow('testability/pages/scenario/misc/uiReverse/uiReverse11')
       let driver:Driver = Driver.create();
 
       await driver.waitForIdle(500,2000);
@@ -329,7 +329,7 @@ export default function uiReverseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiReverse/uiReverse12")
+      Settings.createWindow('testability/pages/scenario/misc/uiReverse/uiReverse12')
       let driver:Driver = Driver.create();
 
       await driver.waitForIdle(500,2000);

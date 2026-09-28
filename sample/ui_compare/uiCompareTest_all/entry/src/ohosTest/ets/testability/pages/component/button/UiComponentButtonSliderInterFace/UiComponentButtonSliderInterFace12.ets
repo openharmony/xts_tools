@@ -17,11 +17,11 @@ import { LengthMetrics, LengthMetricsUnit, LengthUnit } from '@kit.ArkUI';
 @Entry
 @Component
 struct UiComponentButtonSliderInterFace12 {
-  @State text: string = "not set trackThickness(outset)";
+  @State text: string = 'not set trackThickness(outset)';
   @State outSetValueOne: number = 50;
   @State space: number = 8;
   @State arrowPosition: ArrowPosition = ArrowPosition.END;
-  @State text2: string = "set trackThickness(outset) to 4vp";
+  @State text2: string = 'set trackThickness(outset) to 4vp';
 
   build() {
     Column() {

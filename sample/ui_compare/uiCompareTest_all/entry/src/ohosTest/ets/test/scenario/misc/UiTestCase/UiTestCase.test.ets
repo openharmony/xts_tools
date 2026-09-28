@@ -64,7 +64,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase01")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase01')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -83,7 +83,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0011', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0011 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase02")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase02')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -102,7 +102,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0012', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0012 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase03")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase03')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -121,7 +121,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0013', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0013 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase04")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase04')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -140,7 +140,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0015', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0015 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase05")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase05')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -159,7 +159,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0016', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0016 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase06")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase06')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -178,7 +178,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0014', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0014 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase07")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase07')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -197,7 +197,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0017', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0017 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase08")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase08')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -216,7 +216,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0018', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0018 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase09")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase09')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -235,7 +235,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0021', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0021 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase10")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase10')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -254,7 +254,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0022', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0022 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase11")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase11')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -273,7 +273,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0024', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0024 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase12")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase12')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -292,7 +292,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0027', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0027 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase13")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase13')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -311,7 +311,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0031', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0031 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase14")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase14')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -330,7 +330,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0032', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0032 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase15")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase15')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -349,7 +349,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0042', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0042 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase16")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase16')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -368,7 +368,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0039', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0039 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase17")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase17')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -387,7 +387,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0038', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0038 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase18")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase18')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -406,7 +406,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0046', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0046 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase19")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase19')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -425,7 +425,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0029', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0029 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase20")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase20')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -444,7 +444,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0036', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0036 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase21")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase21')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -463,7 +463,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0045', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0045 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase22")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase22')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -482,7 +482,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0025', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0025 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase23")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase23')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -501,7 +501,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0028', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0028 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase24")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase24')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -520,7 +520,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase25")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase25')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -539,7 +539,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase26")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase26')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -558,7 +558,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0035 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase27")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase27')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -577,7 +577,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0034 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase28")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase28')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -596,7 +596,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase29")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase29')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -615,7 +615,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0033 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase30")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase30')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -634,7 +634,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0043 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase31")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase31')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -653,7 +653,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0044 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase32")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase32')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -672,7 +672,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0048 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase33")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase33')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -691,7 +691,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0019 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase34")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase34')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -710,7 +710,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0041 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase35")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase35')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -729,7 +729,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0037 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase36")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase36')
       let driver: Driver=Driver.create()
       let button: Component = await driver.waitForComponent(ON.id('UiTestCase36'),1000)
       await button.click()
@@ -749,7 +749,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0023', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0023 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase37")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase37')
       await Utils.sleep(1000)
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
@@ -776,7 +776,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXTAREA_SELECTION_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase38")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase38')
       let driver: Driver=Driver.create()
       let button: Component = await driver.waitForComponent(ON.id('UiTestCase38_button'),1000)
       let text: Component = await driver.waitForComponent(ON.id('UiTestCase38_text'),1000)
@@ -798,7 +798,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0047 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase39")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase39')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -817,7 +817,7 @@ export default function uiTestCase() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_FONTFEATURE_0026 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/uiTestCase/UiTestCase40")
+      Settings.createWindow('testability/pages/scenario/misc/uiTestCase/UiTestCase40')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

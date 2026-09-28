@@ -135,7 +135,7 @@ struct UiComponentButtonButtonAttributeUpdater19 {
             .onClick(() => {
               this.updateCount++;
               try {
-                this.modifier.updateConstructorParams("场景十一修改");
+                this.modifier.updateConstructorParams('场景十一修改');
                 this.logMessage = `✓ 第${this.updateCount}次更新\nlabel: "场景十一修改"\n时间: ${new Date().toLocaleTimeString()}`;
                 console.log(`[AttributeUpdater] updateConstructorParams("场景十一修改")`);
               } catch (error) {

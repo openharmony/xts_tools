@@ -51,7 +51,7 @@ export default function wearingFrame() {
       Logger.info('TEST', `SUB_ACE_WEARING_FRAME_0030 start.`);
       
       try {
-        Settings.createWindow("testability/pages/scenario/misc/wearingFrame/WearingFrame0030")
+        Settings.createWindow('testability/pages/scenario/misc/wearingFrame/WearingFrame0030')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(2000, 3000)
         
@@ -101,7 +101,7 @@ export default function wearingFrame() {
       Logger.info('TEST', `SUB_ACE_WEARING_FRAME_0050 start.`);
 
       try {
-        Settings.createWindow("testability/pages/scenario/misc/wearingFrame/WearingFrame0050")
+        Settings.createWindow('testability/pages/scenario/misc/wearingFrame/WearingFrame0050')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(2000, 3000)
 

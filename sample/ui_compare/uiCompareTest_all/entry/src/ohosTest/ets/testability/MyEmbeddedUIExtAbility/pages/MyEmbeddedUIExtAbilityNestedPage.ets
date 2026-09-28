@@ -52,11 +52,11 @@ struct MyEmbeddedUIExtAbilityNestedPage {
         }
         .margin(10)
         EmbeddedComponent({
-          bundleName: "com.example.uicompare",
-          abilityName: "MyEmbeddedUIExtAbility",
+          bundleName: 'com.example.uicompare',
+          abilityName: 'MyEmbeddedUIExtAbility',
         }, EmbeddedType.EMBEDDED_UI_EXTENSION)
           .onError((error) => {
-            console.log("MyEmbeddedUIExtAbilityNestedPage: NestedEmbeddedComponent onError, error:" + JSON.stringify(error));
+            console.log('MyEmbeddedUIExtAbilityNestedPage: NestedEmbeddedComponent onError, error:' + JSON.stringify(error));
             this.message = 'MyEmbeddedUIExtAbilityNestedPage: NestedEmbeddedComponent Error: code = ' + error.code + ', message = ' + error.message;
           })
           .size({width: this.ec_width, height: this.ec_height})

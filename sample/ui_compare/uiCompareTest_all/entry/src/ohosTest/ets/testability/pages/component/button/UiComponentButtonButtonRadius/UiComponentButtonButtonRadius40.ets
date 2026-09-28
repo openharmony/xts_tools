@@ -145,19 +145,19 @@ struct UiComponentButtonButtonRadius40 {
                   console.info('DatePickerDialog: onChange() ' + JSON.stringify(value))
                 },
                 onDateChange: (value: Date) => {
-                  console.info("DatePickerDialog:onDateChange()" + value.toString());
+                  console.info('DatePickerDialog:onDateChange()' + value.toString());
                 },
                 onDidAppear: () => {
-                  console.info("DatePickerDialog:onDidAppear()");
+                  console.info('DatePickerDialog:onDidAppear()');
                 },
                 onDidDisappear: () => {
-                  console.info("DatePickerDialog:onDidDisappear()");
+                  console.info('DatePickerDialog:onDidDisappear()');
                 },
                 onWillAppear: () => {
-                  console.info("DatePickerDialog:onWillAppear()");
+                  console.info('DatePickerDialog:onWillAppear()');
                 },
                 onWillDisappear: () => {
-                  console.info("DatePickerDialog:onWillDisappear()");
+                  console.info('DatePickerDialog:onWillDisappear()');
                 }
               })
             })

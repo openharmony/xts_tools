@@ -20,7 +20,7 @@ import { ComponentContent, LengthMetrics, UIContext, CircleShape, ArcList, ArcLi
 @Builder
 function buildText() {
   Column() {
-    Text("header")
+    Text('header')
       .fontSize('60px')
       .fontWeight(FontWeight.Bold)
   }.margin(0)

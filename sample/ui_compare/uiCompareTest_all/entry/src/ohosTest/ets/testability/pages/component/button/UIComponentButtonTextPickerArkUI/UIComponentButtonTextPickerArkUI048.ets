@@ -16,7 +16,7 @@
 @Entry
 @Component
 struct UIComponentButtonTextPickerArkUI048 {
-  @State text: string = "TTTTT";
+  @State text: string = 'TTTTT';
   @State index: number = 2;
   @State space: number | undefined = undefined;
   @State arrowPosition: ArrowPosition = ArrowPosition.END;

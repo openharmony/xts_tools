@@ -50,7 +50,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0180 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer01")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer01')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -71,7 +71,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer02")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer02')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -92,7 +92,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0200 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer03")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer03')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -113,7 +113,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0190 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer04")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer04')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -134,7 +134,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0170 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer05")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer05')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -155,7 +155,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer06")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer06')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -176,7 +176,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer07")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer07')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -197,7 +197,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer08")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer08')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -218,7 +218,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0230 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer09")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer09')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -239,7 +239,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0210 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer10")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer10')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -260,7 +260,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0260 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer11")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer11')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -281,7 +281,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0250 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer12")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer12')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -302,7 +302,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0300 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer13")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer13')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -323,7 +323,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0280 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer14")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer14')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -344,7 +344,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0480 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer15")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer15')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -365,7 +365,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0500 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer16")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer16')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -386,7 +386,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0490 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer17")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer17')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -407,7 +407,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0380 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer18")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer18')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -428,7 +428,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0310 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer19")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer19')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -449,7 +449,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0220 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer20")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer20')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();
@@ -470,7 +470,7 @@ export default function alphabetIndexerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0250 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer21")
+      Settings.createWindow('testability/pages/scenario/misc/alphabetIndexer/alphabetIndexer21')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.text('B'), 1000);
       await button.click();

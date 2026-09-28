@@ -17,7 +17,7 @@ import { LengthMetrics, LengthMetricsUnit, LengthUnit } from '@kit.ArkUI';
 @Entry
 @Component
 struct UiComponentButtonSliderInterFace02 {
-  @State text: string = "set slider direction to Vertical and mouse drag";
+  @State text: string = 'set slider direction to Vertical and mouse drag';
   @State outSetValueOne: number = 50;
   @State space: number = 8;
   @State arrowPosition: ArrowPosition = ArrowPosition.END;

@@ -51,12 +51,12 @@ export default function avoidContinuumshuWindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0010 start.`);
       // 页面初始化
-      Settings.createWindow("testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0010")
+      Settings.createWindow('testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0010')
       let driver = await Driver.create()
       await Utils.sleep(1000)
       
       // 步骤1：点击button按钮
-      let avoid_continuumshu_button_0010 = await driver.waitForComponent(ON.id("avoid_continuumshu_button_0010"), 500)
+      let avoid_continuumshu_button_0010 = await driver.waitForComponent(ON.id('avoid_continuumshu_button_0010'), 500)
       await avoid_continuumshu_button_0010.click()
       await driver.waitForIdle(1000,3000)
       
@@ -97,12 +97,12 @@ export default function avoidContinuumshuWindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0020 start.`);
       // 页面初始化
-      Settings.createWindow("testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0020")
+      Settings.createWindow('testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0020')
       let driver = await Driver.create()
       await Utils.sleep(1000)
       
       // 步骤1：点击button按钮
-      let avoid_continuumshu_popup_button_0020 = await driver.waitForComponent(ON.id("avoid_continuumshu_popup_button_0020"), 500)
+      let avoid_continuumshu_popup_button_0020 = await driver.waitForComponent(ON.id('avoid_continuumshu_popup_button_0020'), 500)
       await avoid_continuumshu_popup_button_0020.click()
       await driver.waitForIdle(1000,3000)
       
@@ -143,12 +143,12 @@ export default function avoidContinuumshuWindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0030 start.`);
       // 页面初始化
-      Settings.createWindow("testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0030")
+      Settings.createWindow('testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0030')
       let driver = await Driver.create()
       await Utils.sleep(1000)
       
       // 步骤1：点击button按钮
-      let avoid_continuumshu_alertdialog_button_0030 = await driver.waitForComponent(ON.id("avoid_continuumshu_alertdialog_button_0030"), 500)
+      let avoid_continuumshu_alertdialog_button_0030 = await driver.waitForComponent(ON.id('avoid_continuumshu_alertdialog_button_0030'), 500)
       await avoid_continuumshu_alertdialog_button_0030.click()
       await driver.waitForIdle(1000,3000)
       
@@ -189,12 +189,12 @@ export default function avoidContinuumshuWindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0040 start.`);
       // 页面初始化
-      Settings.createWindow("testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0040")
+      Settings.createWindow('testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0040')
       let driver = await Driver.create()
       await Utils.sleep(1000)
       
       // 步骤1：点击button按钮
-      let avoid_continuumshu_actionsheet_button_0040 = await driver.waitForComponent(ON.id("avoid_continuumshu_actionsheet_button_0040"), 3000)
+      let avoid_continuumshu_actionsheet_button_0040 = await driver.waitForComponent(ON.id('avoid_continuumshu_actionsheet_button_0040'), 3000)
       await avoid_continuumshu_actionsheet_button_0040.click()
       await driver.waitForIdle(1000,3000)
       
@@ -204,7 +204,7 @@ export default function avoidContinuumshuWindow() {
       await driver.waitForIdle(1000,3000)
       
       // 再次点击按钮弹出actionsheet
-      let button2 = await driver.waitForComponent(ON.id("avoid_continuumshu_actionsheet_button_0040"), 1000)
+      let button2 = await driver.waitForComponent(ON.id('avoid_continuumshu_actionsheet_button_0040'), 1000)
       await button2.click()
       await driver.waitForIdle(1000,3000)
       
@@ -213,7 +213,7 @@ export default function avoidContinuumshuWindow() {
       await driver.waitForIdle(1000,3000)
       
       // 再次点击按钮弹出actionsheet
-      let button3 = await driver.waitForComponent(ON.id("avoid_continuumshu_actionsheet_button_0040"), 1000)
+      let button3 = await driver.waitForComponent(ON.id('avoid_continuumshu_actionsheet_button_0040'), 1000)
       await button3.click()
       await driver.waitForIdle(1000,3000)
       
@@ -241,12 +241,12 @@ export default function avoidContinuumshuWindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0050 start.`);
       // 页面初始化
-      Settings.createWindow("testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0050")
+      Settings.createWindow('testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0050')
       let driver = await Driver.create()
       await Utils.sleep(1000)
       
       // 步骤1：点击button按钮
-      let avoid_continuumshu_customdialog_button_0050 = await driver.waitForComponent(ON.id("avoid_continuumshu_customdialog_button_0050"), 500)
+      let avoid_continuumshu_customdialog_button_0050 = await driver.waitForComponent(ON.id('avoid_continuumshu_customdialog_button_0050'), 500)
       await avoid_continuumshu_customdialog_button_0050.click()
       await driver.waitForIdle(1000,3000)
       
@@ -280,12 +280,12 @@ export default function avoidContinuumshuWindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0060 start.`);
       // 页面初始化
-      Settings.createWindow("testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0060")
+      Settings.createWindow('testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0060')
       let driver = await Driver.create()
       await Utils.sleep(1000)
       
       // 步骤1：点击button按钮
-      let avoid_continuumshu_promptaction_button_0060 = await driver.waitForComponent(ON.id("avoid_continuumshu_promptaction_button_0060"), 500)
+      let avoid_continuumshu_promptaction_button_0060 = await driver.waitForComponent(ON.id('avoid_continuumshu_promptaction_button_0060'), 500)
       await avoid_continuumshu_promptaction_button_0060.click()
       await driver.waitForIdle(1000,3000)
       
@@ -326,12 +326,12 @@ export default function avoidContinuumshuWindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0070 start.`);
       // 页面初始化
-      Settings.createWindow("testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0070")
+      Settings.createWindow('testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0070')
       let driver = await Driver.create()
       await Utils.sleep(1000)
       
       // 步骤1：点击button按钮
-      let avoid_continuumshu_actionmenu_button_0070 = await driver.waitForComponent(ON.id("avoid_continuumshu_actionmenu_button_0070"), 500)
+      let avoid_continuumshu_actionmenu_button_0070 = await driver.waitForComponent(ON.id('avoid_continuumshu_actionmenu_button_0070'), 500)
       await avoid_continuumshu_actionmenu_button_0070.click()
       await driver.waitForIdle(1000,3000)
       
@@ -372,23 +372,23 @@ export default function avoidContinuumshuWindow() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0080 start.`);
       // 页面初始化
-      Settings.createWindow("testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0080")
+      Settings.createWindow('testability/pages/scenario/window/avoidContinuumshuWindow/AvoidContinuumshuWindow0080')
       let driver = await Driver.create()
       await Utils.sleep(1000)
       
       // 步骤1：点击button按钮
-      let avoid_continuumshu_opencustomdialog_button_0080 = await driver.waitForComponent(ON.id("avoid_continuumshu_opencustomdialog_button_0080"), 2000)
+      let avoid_continuumshu_opencustomdialog_button_0080 = await driver.waitForComponent(ON.id('avoid_continuumshu_opencustomdialog_button_0080'), 2000)
       await avoid_continuumshu_opencustomdialog_button_0080.click()
       await driver.waitForIdle(1000,3000)
       
       // 步骤2：连续点击弹窗内按钮关闭prompaction opencustomdialog
       // 第一次点击弹窗内的"取消"按钮
-      let cancel_button = await driver.waitForComponent(ON.id("avoid_continuumshu_opencustomdialog_button_0080_001"), 2000)
+      let cancel_button = await driver.waitForComponent(ON.id('avoid_continuumshu_opencustomdialog_button_0080_001'), 2000)
       await cancel_button.click()
       await driver.waitForIdle(1000,3000)
 
       // 再次点击主按钮弹出prompaction opencustomdialog
-      avoid_continuumshu_opencustomdialog_button_0080 = await driver.waitForComponent(ON.id("avoid_continuumshu_opencustomdialog_button_0080"), 2000)
+      avoid_continuumshu_opencustomdialog_button_0080 = await driver.waitForComponent(ON.id('avoid_continuumshu_opencustomdialog_button_0080'), 2000)
       await avoid_continuumshu_opencustomdialog_button_0080.click()
       await driver.waitForIdle(1000,3000)
       

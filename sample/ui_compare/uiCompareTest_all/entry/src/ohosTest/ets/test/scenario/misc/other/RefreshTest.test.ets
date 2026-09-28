@@ -52,7 +52,7 @@ export default function refreshTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERCONNECTION_0020 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/scenario/misc/other/refresh/refreshInterconnection01");
+      Settings.createWindow('testability/pages/scenario/misc/other/refresh/refreshInterconnection01');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -97,7 +97,7 @@ export default function refreshTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_REFRESH_PULLDOWNRADIO_0010 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/scenario/misc/other/refresh/refreshPullDownRatio01");
+      Settings.createWindow('testability/pages/scenario/misc/other/refresh/refreshPullDownRatio01');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -134,7 +134,7 @@ export default function refreshTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_REFRESH_PULLDOWNRADIO_0050 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/scenario/misc/other/refresh/refreshPullDownRatio05");
+      Settings.createWindow('testability/pages/scenario/misc/other/refresh/refreshPullDownRatio05');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -171,7 +171,7 @@ export default function refreshTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_REFRESH_PULLDOWNRADIO_0020 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/scenario/misc/other/refresh/refreshPullDownRatio02");
+      Settings.createWindow('testability/pages/scenario/misc/other/refresh/refreshPullDownRatio02');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -208,7 +208,7 @@ export default function refreshTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_REFRESH_PULLDOWNRADIO_0040 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/scenario/misc/other/refresh/refreshPullDownRatio04");
+      Settings.createWindow('testability/pages/scenario/misc/other/refresh/refreshPullDownRatio04');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -245,7 +245,7 @@ export default function refreshTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_REFRESH_PULLDOWNRADIO_0030 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/scenario/misc/other/refresh/refreshPullDownRatio03");
+      Settings.createWindow('testability/pages/scenario/misc/other/refresh/refreshPullDownRatio03');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -282,7 +282,7 @@ export default function refreshTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_REFRESH_PULLDOWNRADIO_0180 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/scenario/misc/other/refresh/refreshPullDownRatio06");
+      Settings.createWindow('testability/pages/scenario/misc/other/refresh/refreshPullDownRatio06');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -319,7 +319,7 @@ export default function refreshTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0010 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/scenario/misc/other/refresh/refreshPullToRefresh01");
+      Settings.createWindow('testability/pages/scenario/misc/other/refresh/refreshPullToRefresh01');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -356,7 +356,7 @@ export default function refreshTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_PROMPTTEXT_0140 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/scenario/misc/other/refresh/refreshPromptText01");
+      Settings.createWindow('testability/pages/scenario/misc/other/refresh/refreshPromptText01');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -393,7 +393,7 @@ export default function refreshTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_PROMPTTEXT_0130 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/scenario/misc/other/refresh/refreshPromptText02");
+      Settings.createWindow('testability/pages/scenario/misc/other/refresh/refreshPromptText02');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -435,7 +435,7 @@ export default function refreshTest() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_PROMPTTEXT_0190 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/scenario/misc/other/refresh/refreshPromptText03");
+      Settings.createWindow('testability/pages/scenario/misc/other/refresh/refreshPromptText03');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       

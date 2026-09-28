@@ -17,7 +17,7 @@ import { LengthMetrics, LengthMetricsUnit, LengthUnit } from '@kit.ArkUI';
 @Entry
 @Component
 struct UiComponentButtonSliderInterFace05 {
-  @State text: string = "Multiple set showSteps";
+  @State text: string = 'Multiple set showSteps';
   @State outSetValueOne: number = 50;
   @State space: number = 8;
   @State arrowPosition: ArrowPosition = ArrowPosition.END;

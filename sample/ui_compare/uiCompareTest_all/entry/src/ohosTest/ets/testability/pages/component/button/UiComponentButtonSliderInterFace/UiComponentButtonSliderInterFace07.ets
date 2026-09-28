@@ -17,7 +17,7 @@ import { LengthMetrics, LengthMetricsUnit, LengthUnit } from '@kit.ArkUI';
 @Entry
 @Component
 struct UiComponentButtonSliderInterFace07 {
-  @State text: string = "set direction to Horizontal";
+  @State text: string = 'set direction to Horizontal';
   @State outSetValueOne: number = 50;
   @State space: number = 8;
   @State arrowPosition: ArrowPosition = ArrowPosition.END;

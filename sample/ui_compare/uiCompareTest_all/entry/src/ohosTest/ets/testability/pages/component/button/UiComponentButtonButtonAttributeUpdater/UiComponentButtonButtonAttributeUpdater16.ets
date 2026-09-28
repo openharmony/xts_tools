@@ -125,7 +125,7 @@ struct UiComponentButtonButtonAttributeUpdater16 {
             .onClick(() => {
               this.updateCount++;
               try {
-                this.modifier.updateConstructorParams("七", { 
+                this.modifier.updateConstructorParams('七', { 
                   type: ButtonType.Circle, 
                   buttonStyle: ButtonStyleMode.NORMAL,
                   controlSize: ControlSize.SMALL 

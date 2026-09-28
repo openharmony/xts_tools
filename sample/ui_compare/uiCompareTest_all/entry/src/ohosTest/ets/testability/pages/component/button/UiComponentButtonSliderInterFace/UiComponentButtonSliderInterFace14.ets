@@ -17,7 +17,7 @@ import { LengthMetrics, LengthMetricsUnit, LengthUnit } from '@kit.ArkUI';
 @Entry
 @Component
 struct UiComponentButtonSliderInterFace14 {
-  @State text: string = "Dynamic change trackThickness";
+  @State text: string = 'Dynamic change trackThickness';
   @State outSetValueOne: number = 50;
   @State space: number = 8;
   @State arrowPosition: ArrowPosition = ArrowPosition.END;

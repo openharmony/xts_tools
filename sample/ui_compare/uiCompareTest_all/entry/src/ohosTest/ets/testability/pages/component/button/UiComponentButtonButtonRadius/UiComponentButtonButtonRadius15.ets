@@ -105,7 +105,7 @@ struct UiComponentButtonButtonRadius15 {
             .onClick(() => {
               this.count++;
               this.logMessage = `按钮被点击 ${this.count}次`;
-              console.log("onclick success")
+              console.log('onclick success')
             })
             .onTouch((event: TouchEvent) => {
               if (event.type === TouchType.Down) {

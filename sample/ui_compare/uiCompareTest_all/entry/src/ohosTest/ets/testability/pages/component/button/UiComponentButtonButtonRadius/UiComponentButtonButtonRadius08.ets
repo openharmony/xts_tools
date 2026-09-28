@@ -55,7 +55,7 @@ struct UiComponentButtonButtonRadius08 {
         })
         .borderWidth(1)
 
-      Button("TextPickerDialog:" + this.v)
+      Button('TextPickerDialog:' + this.v)
         .id('UiComponentButtonButtonRadius08_01')
         .margin(20)
         .labelStyle({
@@ -101,28 +101,28 @@ struct UiComponentButtonButtonRadius08 {
               this.select = value.index
               console.log(this.select + '')
               this.v = value.value as string
-              console.info("TextPickerDialog:onAccept()" + JSON.stringify(value))
+              console.info('TextPickerDialog:onAccept()' + JSON.stringify(value))
             },
             onCancel: () => {
-              console.info("TextPickerDialog:onCancel()")
+              console.info('TextPickerDialog:onCancel()')
             },
             onChange: (value: TextPickerResult) => {
-              console.info("TextPickerDialog:onChange()" + JSON.stringify(value))
+              console.info('TextPickerDialog:onChange()' + JSON.stringify(value))
             },
             onScrollStop: (value: TextPickerResult) => {
-              console.info("TextPickerDialog:onScrollStop()" + JSON.stringify(value))
+              console.info('TextPickerDialog:onScrollStop()' + JSON.stringify(value))
             },
             onDidAppear: () => {
-              console.info("TextPickerDialog:onDidAppear()")
+              console.info('TextPickerDialog:onDidAppear()')
             },
             onDidDisappear: () => {
-              console.info("TextPickerDialog:onDidDisappear()")
+              console.info('TextPickerDialog:onDidDisappear()')
             },
             onWillAppear: () => {
-              console.info("TextPickerDialog:onWillAppear()")
+              console.info('TextPickerDialog:onWillAppear()')
             },
             onWillDisappear: () => {
-              console.info("TextPickerDialog:onWillDisappear()")
+              console.info('TextPickerDialog:onWillDisappear()')
             }
           })
         })

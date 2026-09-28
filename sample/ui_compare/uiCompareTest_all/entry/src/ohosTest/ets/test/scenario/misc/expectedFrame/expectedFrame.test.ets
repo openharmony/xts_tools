@@ -51,7 +51,7 @@ export default function expectedFrameTest() {
      */
     it('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/expectedFrame/expectedFrame01")
+      Settings.createWindow('testability/pages/scenario/misc/expectedFrame/expectedFrame01')
       let driver:Driver = Driver.create();
       let buttonCircle: Component = await driver.waitForComponent(ON.id('Circle01'), 1000);
       let button01: Component = await driver.waitForComponent(ON.id('changeRateRange120_01'), 1000);
@@ -59,10 +59,10 @@ export default function expectedFrameTest() {
       let button03: Component = await driver.waitForComponent(ON.id('changeRateRange30_01'), 1000);
       await button01.click();
       let callback = (frameInfo: displaySync.IntervalInfo) => {
-        console.info("DisplaySync", 'TimeStamp:' + frameInfo.timestamp + ' TargetTimeStamp: ' + frameInfo.targetTimestamp);
+        console.info('DisplaySync', 'TimeStamp:' + frameInfo.timestamp + ' TargetTimeStamp: ' + frameInfo.targetTimestamp);
       }
       let backDisplaySync: displaySync.DisplaySync = displaySync.create();
-      backDisplaySync?.on("frame", callback)
+      backDisplaySync?.on('frame', callback)
       await buttonCircle.click()
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040_01')
@@ -89,14 +89,14 @@ export default function expectedFrameTest() {
      */
     it('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/expectedFrame/expectedFrame02")
+      Settings.createWindow('testability/pages/scenario/misc/expectedFrame/expectedFrame02')
       let driver:Driver = Driver.create();
       let buttonCircle: Component = await driver.waitForComponent(ON.id('Circle02'), 1000);
       let callback = (frameInfo: displaySync.IntervalInfo) => {
-        console.info("DisplaySync", 'TimeStamp:' + frameInfo.timestamp + ' TargetTimeStamp: ' + frameInfo.targetTimestamp);
+        console.info('DisplaySync', 'TimeStamp:' + frameInfo.timestamp + ' TargetTimeStamp: ' + frameInfo.targetTimestamp);
       }
       let backDisplaySync: displaySync.DisplaySync = displaySync.create();
-      backDisplaySync?.on("frame", callback)
+      backDisplaySync?.on('frame', callback)
       await buttonCircle.click()
       windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0010')
       await Utils.sleep(1000)
@@ -114,7 +114,7 @@ export default function expectedFrameTest() {
      */
     it('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/misc/expectedFrame/expectedFrame03")
+      Settings.createWindow('testability/pages/scenario/misc/expectedFrame/expectedFrame03')
       let driver:Driver = Driver.create();
       let buttonCircle: Component = await driver.waitForComponent(ON.id('Circle03'), 1000);
       let button01: Component = await driver.waitForComponent(ON.id('changeRateRange120_03'), 1000);
@@ -123,10 +123,10 @@ export default function expectedFrameTest() {
       await button01.click();
       await buttonCircle.click()
       let callback = (frameInfo: displaySync.IntervalInfo) => {
-        console.info("DisplaySync", 'TimeStamp:' + frameInfo.timestamp + ' TargetTimeStamp: ' + frameInfo.targetTimestamp);
+        console.info('DisplaySync', 'TimeStamp:' + frameInfo.timestamp + ' TargetTimeStamp: ' + frameInfo.targetTimestamp);
       }
       let backDisplaySync: displaySync.DisplaySync = displaySync.create();
-      backDisplaySync?.on("frame", callback)
+      backDisplaySync?.on('frame', callback)
       windowSnap.snapShot('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0020_01')
       await Utils.sleep(1000)
       await button02.click();

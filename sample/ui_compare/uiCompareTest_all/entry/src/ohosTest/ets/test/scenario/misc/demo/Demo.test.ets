@@ -90,7 +90,7 @@ export default function demoTest() {
     it('demoTest_001', 0, async (done: Function) => {
       //更改page路由
 
-      Settings.createWindow("testability/pages/demo")
+      Settings.createWindow('testability/pages/demo')
       await Utils.sleep(1000)
       windowSnap.snapShot()
       await Utils.sleep(1000)

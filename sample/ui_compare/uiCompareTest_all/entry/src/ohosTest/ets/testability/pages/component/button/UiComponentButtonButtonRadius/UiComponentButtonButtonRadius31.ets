@@ -80,7 +80,7 @@ struct UiComponentButtonButtonRadius31 {
 
         // 测试按钮
         Column({ space: 8 }) {
-          Button("set ug")
+          Button('set ug')
             .margin(20)
             .controlSize(ControlSize.NORMAL)
             .id('UiComponentButtonButtonRadius31_02')
@@ -104,14 +104,14 @@ struct UiComponentButtonButtonRadius31 {
             .onClick(()=>{
               try {
                 i18n.System.setAppPreferredLanguage('ug');
-                console.log("setAppPreferredLanguage success")
+                console.log('setAppPreferredLanguage success')
               } catch (error) {
                 let err: BusinessError = error as BusinessError;
                 console.error(`call System.setAppPreferredLanguage failed, error code: ${err.code}, message: ${err.message}.`);
               }
             })
 
-          Button("set zh-Hans")
+          Button('set zh-Hans')
             .margin(20)
             .controlSize(ControlSize.NORMAL)
             .id('UiComponentButtonButtonRadius31_03')
@@ -135,7 +135,7 @@ struct UiComponentButtonButtonRadius31 {
             .onClick(()=>{
               try {
                 i18n.System.setAppPreferredLanguage('zh-Hans');
-                console.log("setAppPreferredLanguage success")
+                console.log('setAppPreferredLanguage success')
               } catch (error) {
                 let err: BusinessError = error as BusinessError;
                 console.error(`call System.setAppPreferredLanguage failed, error code: ${err.code}, message: ${err.message}.`);
@@ -154,7 +154,7 @@ struct UiComponentButtonButtonRadius31 {
             .onClick(() => {
               this.count++;
               this.logMessage = `按钮被点击 ${this.count}次`;
-              console.log("onclick success")
+              console.log('onclick success')
             })
             .onTouch((event: TouchEvent) => {
               if (event.type === TouchType.Down) {

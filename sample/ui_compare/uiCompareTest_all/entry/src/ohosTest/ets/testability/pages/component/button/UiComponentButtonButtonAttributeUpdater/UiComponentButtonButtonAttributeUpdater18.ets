@@ -125,7 +125,7 @@ struct UiComponentButtonButtonAttributeUpdater18 {
             .onClick(() => {
               this.updateCount++;
               try {
-                this.modifier.updateConstructorParams("场景六修改", undefined);
+                this.modifier.updateConstructorParams('场景六修改', undefined);
                 this.buttonLabel = '场景六修改';
                 this.buttonType = 'EMPHASIZED(观察)';
                 this.logMessage = `✓ 第${this.updateCount}次更新\nlabel: "场景六修改"\nOption: undefined\n时间: ${new Date().toLocaleTimeString()}`;

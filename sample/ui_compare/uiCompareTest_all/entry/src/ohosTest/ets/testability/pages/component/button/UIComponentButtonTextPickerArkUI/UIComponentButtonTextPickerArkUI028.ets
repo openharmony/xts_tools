@@ -34,7 +34,7 @@ struct UIComponentButtonTextPickerArkUI028 {
           selected: this.selectedTime
         })
           .id('timepicker')
-          .dateTimeOptions({hour: "2-digit", minute: "2-digit", second: "2-digit"})
+          .dateTimeOptions({hour: '2-digit', minute: '2-digit', second: '2-digit'})
           .useMilitaryTime(false)
           .loop(false)
           .onChange((value: TimePickerResult) => {

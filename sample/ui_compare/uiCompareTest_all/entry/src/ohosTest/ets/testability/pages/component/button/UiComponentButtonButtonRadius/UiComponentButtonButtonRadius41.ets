@@ -156,22 +156,22 @@ struct UiComponentButtonButtonRadius41 {
                   console.info('TextPickerDialog: onCancel()')
                 },
                 onChange: (value: TextPickerResult) => {
-                  console.info("TextPickerDialog:onChange()" + JSON.stringify(value));
+                  console.info('TextPickerDialog:onChange()' + JSON.stringify(value));
                 },
                 onScrollStop: (value: TextPickerResult) => {
-                  console.info("TextPickerDialog:onScrollStop()" + JSON.stringify(value));
+                  console.info('TextPickerDialog:onScrollStop()' + JSON.stringify(value));
                 },
                 onDidAppear: () => {
-                  console.info("TextPickerDialog:onDidAppear()");
+                  console.info('TextPickerDialog:onDidAppear()');
                 },
                 onDidDisappear: () => {
-                  console.info("TextPickerDialog:onDidDisappear()");
+                  console.info('TextPickerDialog:onDidDisappear()');
                 },
                 onWillAppear: () => {
-                  console.info("TextPickerDialog:onWillAppear()");
+                  console.info('TextPickerDialog:onWillAppear()');
                 },
                 onWillDisappear: () => {
-                  console.info("TextPickerDialog:onWillDisappear()");
+                  console.info('TextPickerDialog:onWillDisappear()');
                 }
               })
             })

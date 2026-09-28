@@ -90,7 +90,7 @@ struct UiComponentButtonButtonRadius09 {
           },
           onWillDismiss: (
             (dismissPopupAction: DismissPopupAction) => {
-              console.info("dismissReason:" + JSON.stringify(dismissPopupAction.reason));
+              console.info('dismissReason:' + JSON.stringify(dismissPopupAction.reason));
               if (dismissPopupAction.reason === DismissReason.PRESS_BACK) {
                 dismissPopupAction.dismiss();
               }

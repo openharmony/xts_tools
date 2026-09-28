@@ -51,12 +51,12 @@ export default function windowAbilityMaskLayer() {
     it('SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_001', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_001 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/scenario/window/windowAbilityMaskLayer/WindowAbilityMaskLayer001")
+      Settings.createWindow('testability/pages/scenario/window/windowAbilityMaskLayer/WindowAbilityMaskLayer001')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：自由窗口，点击按钮开启蒙层
-      let maskBtn = await driver.waitForComponent(ON.id("window_ability_mask_layer_001_btn"), 500)
+      let maskBtn = await driver.waitForComponent(ON.id('window_ability_mask_layer_001_btn'), 500)
       await maskBtn.click()
       await Utils.sleep(500)
 
@@ -81,12 +81,12 @@ export default function windowAbilityMaskLayer() {
     it('SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_002', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_002 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/scenario/window/windowAbilityMaskLayer/WindowAbilityMaskLayer002")
+      Settings.createWindow('testability/pages/scenario/window/windowAbilityMaskLayer/WindowAbilityMaskLayer002')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：自由窗口，点击按钮
-      let maskBtn = await driver.waitForComponent(ON.id("window_ability_mask_layer_002_btn"), 500)
+      let maskBtn = await driver.waitForComponent(ON.id('window_ability_mask_layer_002_btn'), 500)
       await maskBtn.click()
       await Utils.sleep(500)
 
@@ -110,12 +110,12 @@ export default function windowAbilityMaskLayer() {
     it('SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_003', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_003 start.`);
       // 步骤1：打开页面，蒙层已开启
-      Settings.createWindow("testability/pages/scenario/window/windowAbilityMaskLayer/WindowAbilityMaskLayer003")
+      Settings.createWindow('testability/pages/scenario/window/windowAbilityMaskLayer/WindowAbilityMaskLayer003')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：自由窗口，蒙层已开启，点击蒙层上的按钮关闭蒙层
-      let maskBtn = await driver.waitForComponent(ON.id("window_ability_mask_layer_003_btn"), 500)
+      let maskBtn = await driver.waitForComponent(ON.id('window_ability_mask_layer_003_btn'), 500)
       await maskBtn.click()
       await Utils.sleep(500)
 
@@ -139,17 +139,17 @@ export default function windowAbilityMaskLayer() {
     it('SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_004', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_004 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/scenario/window/windowAbilityMaskLayer/WindowAbilityMaskLayer004")
+      Settings.createWindow('testability/pages/scenario/window/windowAbilityMaskLayer/WindowAbilityMaskLayer004')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：窗口最大化，点击按钮开启蒙层
-      let openBtn = await driver.waitForComponent(ON.id("window_ability_mask_layer_004_open_btn"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('window_ability_mask_layer_004_open_btn'), 500)
       await openBtn.click()
       await Utils.sleep(500)
 
       // 步骤3：点击蒙层上的按钮关闭蒙层
-      let closeBtn = await driver.waitForComponent(ON.id("window_ability_mask_layer_004_close_btn"), 500)
+      let closeBtn = await driver.waitForComponent(ON.id('window_ability_mask_layer_004_close_btn'), 500)
       await closeBtn.click()
       await Utils.sleep(500)
 
@@ -174,17 +174,17 @@ export default function windowAbilityMaskLayer() {
     it('SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_005', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_005 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/scenario/window/windowAbilityMaskLayer/WindowAbilityMaskLayer005")
+      Settings.createWindow('testability/pages/scenario/window/windowAbilityMaskLayer/WindowAbilityMaskLayer005')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：蒙层窗口上方显示其他窗口，被部分遮挡，点击蒙层窗口上的按钮开启蒙层
-      let openBtn = await driver.waitForComponent(ON.id("window_ability_mask_layer_005_open_btn"), 500)
+      let openBtn = await driver.waitForComponent(ON.id('window_ability_mask_layer_005_open_btn'), 500)
       await openBtn.click()
       await Utils.sleep(500)
 
       // 步骤3：点击蒙层上的按钮关闭蒙层
-      let closeBtn = await driver.waitForComponent(ON.id("window_ability_mask_layer_005_close_btn"), 500)
+      let closeBtn = await driver.waitForComponent(ON.id('window_ability_mask_layer_005_close_btn'), 500)
       await closeBtn.click()
       await Utils.sleep(500)
 
@@ -209,12 +209,12 @@ export default function windowAbilityMaskLayer() {
     it('SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_008', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_008 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/scenario/window/windowAbilityMaskLayer/WindowAbilityMaskLayer008")
+      Settings.createWindow('testability/pages/scenario/window/windowAbilityMaskLayer/WindowAbilityMaskLayer008')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
 
       // 步骤2：连续开启/关闭蒙层50次
-      let testBtn = await driver.waitForComponent(ON.id("window_ability_mask_layer_008_btn"), 500)
+      let testBtn = await driver.waitForComponent(ON.id('window_ability_mask_layer_008_btn'), 500)
       await testBtn.click()
       await Utils.sleep(500)
 

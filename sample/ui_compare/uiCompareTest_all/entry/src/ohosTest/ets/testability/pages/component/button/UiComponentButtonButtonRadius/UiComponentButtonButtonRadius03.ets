@@ -72,7 +72,7 @@ struct UiComponentButtonButtonRadius03 {
           })
           .onClick(()=>{
             this.count++;
-            console.log("NORMAL onclick success")
+            console.log('NORMAL onclick success')
           })
           .borderRadius(10)
           .buttonStyle(ButtonStyleMode.NORMAL)
@@ -100,7 +100,7 @@ struct UiComponentButtonButtonRadius03 {
           })
           .onClick(()=>{
             this.count++;
-            console.log("EMPHASIZED onclick success")
+            console.log('EMPHASIZED onclick success')
           })
           .borderRadius(10)
           .buttonStyle(ButtonStyleMode.EMPHASIZED)
