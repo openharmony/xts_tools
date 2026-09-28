@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
 
   constructor(text: string, promptActionClass: PromptActionClass) {
@@ -93,18 +93,18 @@ class Params {
 @Builder
 function popupBuilderWithInput(params: Params) {
   Column() {
-    Text("Popup 内容")
+    Text('Popup 内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    Text("focusable: true")
+    Text('focusable: true')
       .fontSize(16)
       .margin(10)
-    TextInput({ placeholder: "请输入内容" })
+    TextInput({ placeholder: '请输入内容' })
       .width(180)
       .height(40)
       .margin(10)
-      .id("text_input_0390")
+      .id('text_input_0390')
   }
   .width('100%')
   .height('100%')
@@ -116,7 +116,7 @@ function popupBuilderWithInput(params: Params) {
 @Entry
 @Component
 struct UiComponentPopupboxPopupGlobal0390 {
-  @State pfocusable: string = "focusable：false"
+  @State pfocusable: string = 'focusable：false'
   private uiContext: UIContext = this.getUIContext();
   private promptAction: PromptAction = this.uiContext.getPromptAction();
   private promptActionClass: PromptActionClass = new PromptActionClass();
@@ -124,13 +124,13 @@ struct UiComponentPopupboxPopupGlobal0390 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0390")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0390')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0390")
+        .id('title_text_0390')
 
-      Text("测试说明：\n验证 openPopup 接口 options 设置 focusable 参数为 true 时")
+      Text('测试说明：\n验证 openPopup 接口 options 设置 focusable 参数为 true 时')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
@@ -138,34 +138,34 @@ struct UiComponentPopupboxPopupGlobal0390 {
         .borderRadius(8)
 
       Row() {
-        Text("当前状态：")
+        Text('当前状态：')
           .fontSize(14)
         Text(this.pfocusable)
           .fontSize(14)
           .fontColor(Color.Blue)
-          .id("pfocusable_status_0390")
+          .id('pfocusable_status_0390')
       }
       .margin({ bottom: 20 })
 
-      Button("Test")
-        .id("button_test_0390")
+      Button('Test')
+        .id('button_test_0390')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Test button clicked')
         })
 
-      Button("跳转")
-        .id("button_jump_0390")
+      Button('跳转')
+        .id('button_jump_0390')
         .margin({ bottom: 10 })
         .onClick(() => {
-          this.pfocusable = "focusable：true"
+          this.pfocusable = 'focusable：true'
         })
 
-      Button("open2")
-        .id("button_open2_0390")
+      Button('open2')
+        .id('button_open2_0390')
         .margin({ bottom: 20 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilderWithInput), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilderWithInput), new Params('hello', this.promptActionClass));
           
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);
@@ -175,12 +175,12 @@ struct UiComponentPopupboxPopupGlobal0390 {
             focusable: true
           });
           this.promptActionClass.setIsPartialUpdate(false);
-          this.promptActionClass.setTarget({ id: "target_component_0390" });
+          this.promptActionClass.setTarget({ id: 'target_component_0390' });
           this.promptActionClass.openPopup();
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -189,7 +189,7 @@ struct UiComponentPopupboxPopupGlobal0390 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_0390")
+      .id('target_component_0390')
     }
     .width('100%')
     .height('100%')

@@ -19,7 +19,7 @@ import { PromptAction, promptAction } from '@kit.ArkUI';
 @Entry
 @ComponentV2
 struct UIComponentPopupBoxSpecificationsCustomClose08 {
-  @Local message: string = "presentCustomDialog 测试";
+  @Local message: string = 'presentCustomDialog 测试';
   private ctx: UIContext = this.getUIContext();
   private promptAction: PromptAction = this.ctx.getPromptAction();
   private dialogController: promptAction.DialogController = new promptAction.DialogController();
@@ -28,18 +28,18 @@ struct UIComponentPopupBoxSpecificationsCustomClose08 {
 
   private baseDialogOptions2: promptAction.DialogOptions = {
     maskRect: {
-      x: "20px",
-      y: "20px",
-      width: "2000px",
-      height: "2000px"
+      x: '20px',
+      y: '20px',
+      width: '2000px',
+      height: '2000px'
     },
     alignment: DialogAlignment.Top,
-    offset: { dx: "20px", dy: "200px" },
+    offset: { dx: '20px', dy: '200px' },
     showInSubWindow: false,
     isModal: false,
     autoCancel: true,
     transition: TransitionEffect.SLIDE,
-    maskColor: "#ff000000",
+    maskColor: '#ff000000',
     keyboardAvoidMode: KeyboardAvoidMode.NONE,
     enableHoverMode: true,
     cornerRadius: { topLeft: '10vp', topRight: '20vp', bottomLeft: '40vp', bottomRight: '30vp' },
@@ -149,7 +149,7 @@ struct UIComponentPopupBoxSpecificationsCustomClose08 {
                   this.testResult = `弹窗已打开，dialogId: ${dialogId}`;
                 })
                 .catch((err: BusinessError) => {
-                  console.error("presentCustomDialog error: " + err.code + " " + err.message);
+                  console.error('presentCustomDialog error: ' + err.code + ' ' + err.message);
                   this.testResult = `弹窗打开失败: ${err.message}`;
                 })
             })

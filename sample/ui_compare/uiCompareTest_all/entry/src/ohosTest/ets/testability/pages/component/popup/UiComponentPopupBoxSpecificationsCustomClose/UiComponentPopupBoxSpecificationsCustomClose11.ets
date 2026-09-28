@@ -19,7 +19,7 @@ import { PromptAction, promptAction } from '@kit.ArkUI';
 @Entry
 @ComponentV2
 struct UIComponentPopupBoxSpecificationsCustomClose11 {
-  @Local message: string = "presentCustomDialog 测试";
+  @Local message: string = 'presentCustomDialog 测试';
   private ctx: UIContext = this.getUIContext();
   private promptAction: PromptAction = this.ctx.getPromptAction();
   private dialogController: promptAction.DialogController = new promptAction.DialogController();
@@ -132,7 +132,7 @@ struct UIComponentPopupBoxSpecificationsCustomClose11 {
                   this.testResult = `弹窗已打开，dialogId: ${dialogId}`;
                 })
                 .catch((err: BusinessError) => {
-                  console.error("presentCustomDialog error: " + err.code + " " + err.message);
+                  console.error('presentCustomDialog error: ' + err.code + ' ' + err.message);
                   this.testResult = `弹窗打开失败: ${err.message}`;
                 })
             })

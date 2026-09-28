@@ -21,7 +21,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 struct UiComponentPopupBoxSpecificationsPageDisplay106 {
   @Local maskX: number|string = 0;
   @Local maskY: number|string = 0;
-  @Local message: string = "CustomDialog测试";
+  @Local message: string = 'CustomDialog测试';
   private uiContext: UIContext = this.getUIContext();
   private promptActionInstance: PromptAction = this.uiContext.getPromptAction();
   private dialogController: promptAction.DialogController = new promptAction.DialogController();
@@ -81,8 +81,8 @@ struct UiComponentPopupBoxSpecificationsPageDisplay106 {
         .height(50)
         .type(ButtonType.Capsule)
         .onClick(() => {
-          this.maskX = "100%"
-          this.maskY = "100%"
+          this.maskX = '100%'
+          this.maskY = '100%'
           console.log('设置100%mask成功')
         })
 

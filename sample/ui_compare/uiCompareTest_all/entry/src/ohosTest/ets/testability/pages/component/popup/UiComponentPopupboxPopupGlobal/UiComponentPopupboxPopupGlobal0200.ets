@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
 
   constructor(text: string, promptActionClass: PromptActionClass) {
@@ -93,14 +93,14 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("Popup 内容")
+    Text('Popup 内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    Text("id 为 string 但不唯一")
+    Text('id 为 string 但不唯一')
       .fontSize(16)
       .margin(10)
-    Text("使用 componentId 唯一标识")
+    Text('使用 componentId 唯一标识')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin(10)
@@ -139,33 +139,33 @@ struct UiComponentPopupboxPopupGlobal0200 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0200")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0200')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0200")
+        .id('title_text_0200')
 
-      Text("测试说明：\n验证 openPopup 接口设置 target 参数（id 为 string 类型但不唯一，使用 componentId）时")
+      Text('测试说明：\n验证 openPopup 接口设置 target 参数（id 为 string 类型但不唯一，使用 componentId）时')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("Popup9")
-        .id("button_popup9_0200")
+      Button('Popup9')
+        .id('button_popup9_0200')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Popup9 button clicked')
         })
 
-      Button("Open Popup3, componentId 唯一")
-        .id("button_open_popup3_0200")
+      Button('Open Popup3, componentId 唯一')
+        .id('button_open_popup3_0200')
         .margin({ bottom: 10 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('hello', this.promptActionClass));
           
-          let frameNode = this.uiContext.getFrameNodeById("target_component");
+          let frameNode = this.uiContext.getFrameNodeById('target_component');
           this.componentId3 = frameNode?.getUniqueId() || 0;
           
           this.promptActionClass.setPromptAction(this.promptAction);
@@ -175,12 +175,12 @@ struct UiComponentPopupboxPopupGlobal0200 {
             enableArrow: true
           });
           this.promptActionClass.setIsPartialUpdate(true);
-          this.promptActionClass.setTarget({ id: "target_component", componentId: this.componentId3 });
+          this.promptActionClass.setTarget({ id: 'target_component', componentId: this.componentId3 });
           this.promptActionClass.openPopup();
         })
 
       Column() {
-        Text("Popup3")
+        Text('Popup3')
           .fontSize(18)
           .margin(10)
       }
@@ -189,10 +189,10 @@ struct UiComponentPopupboxPopupGlobal0200 {
       .backgroundColor('#FFFFE0E0')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component")
+      .id('target_component')
 
       Column() {
-        Text("Popup3 (重名)")
+        Text('Popup3 (重名)')
           .fontSize(18)
           .margin(10)
       }
@@ -202,7 +202,7 @@ struct UiComponentPopupboxPopupGlobal0200 {
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
       .margin({ top: 20 })
-      .id("target_component")
+      .id('target_component')
     }
     .width('100%')
     .height('100%')

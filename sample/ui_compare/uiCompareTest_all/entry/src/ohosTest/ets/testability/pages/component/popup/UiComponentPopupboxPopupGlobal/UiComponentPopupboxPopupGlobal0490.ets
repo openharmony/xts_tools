@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
 
   constructor(text: string, promptActionClass: PromptActionClass) {
@@ -93,18 +93,18 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("Popup 内容")
+    Text('Popup 内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    Text("transition move")
+    Text('transition move')
       .fontSize(16)
       .margin(10)
-    Text("TOP + START")
+    Text('TOP + START')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin(10)
-    Text("asymmetric combine")
+    Text('asymmetric combine')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin(10)
@@ -132,38 +132,38 @@ struct UiComponentPopupboxPopupGlobal0490 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0490")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0490')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0490")
+        .id('title_text_0490')
 
-      Text("测试说明：\n验证 openPopup 接口 options 设置 transition 参数 move 为 TOP 和 START、asymmetric、combine 时")
+      Text('测试说明：\n验证 openPopup 接口 options 设置 transition 参数 move 为 TOP 和 START、asymmetric、combine 时')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("Test")
-        .id("button_test_0490")
+      Button('Test')
+        .id('button_test_0490')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Test button clicked')
         })
 
-      Button("跳转")
-        .id("button_jump_0490")
+      Button('跳转')
+        .id('button_jump_0490')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Jump button clicked')
         })
 
-      Button("transition_move1")
-        .id("button_transition_move1_0490")
+      Button('transition_move1')
+        .id('button_transition_move1_0490')
         .margin({ bottom: 20 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('hello', this.promptActionClass));
           
           // 设置 transition 参数 move TOP + START，asymmetric + combine
           const appearEffect = TransitionEffect.move(TransitionEdge.TOP)
@@ -181,12 +181,12 @@ struct UiComponentPopupboxPopupGlobal0490 {
             transition: TransitionEffect.asymmetric(appearEffect, disappearEffect)
           });
           this.promptActionClass.setIsPartialUpdate(false);
-          this.promptActionClass.setTarget({ id: "target_component_0490" });
+          this.promptActionClass.setTarget({ id: 'target_component_0490' });
           this.promptActionClass.openPopup();
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -195,7 +195,7 @@ struct UiComponentPopupboxPopupGlobal0490 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_0490")
+      .id('target_component_0490')
     }
     .width('100%')
     .height('100%')

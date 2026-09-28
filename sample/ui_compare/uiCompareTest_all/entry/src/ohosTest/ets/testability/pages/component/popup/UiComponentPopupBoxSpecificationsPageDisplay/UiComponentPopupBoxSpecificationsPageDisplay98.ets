@@ -17,7 +17,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 import { ComponentContent, LevelMode, ImmersiveMode, promptAction } from '@kit.ArkUI';
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   dialogController: promptAction.DialogController = new promptAction.DialogController();
   uiContext: UIContext | null = null;
 
@@ -71,7 +71,7 @@ function buildText(params: Params) {
 @Entry
 @ComponentV2
 struct UiComponentPopupBoxSpecificationsPageDisplay98 {
-  @Local message: string = "openCustomDialogWithController测试";
+  @Local message: string = 'openCustomDialogWithController测试';
   @Local maskX: number|string = 0;
   @Local maskY: number|string = 0;
   private dialogController: promptAction.DialogController = new promptAction.DialogController();
@@ -95,8 +95,8 @@ struct UiComponentPopupBoxSpecificationsPageDisplay98 {
         .height(50)
         .type(ButtonType.Capsule)
         .onClick(() => {
-          this.maskX = "100%"
-          this.maskY = "100%"
+          this.maskX = '100%'
+          this.maskY = '100%'
           console.log('100%mask设置成功')
         })
 

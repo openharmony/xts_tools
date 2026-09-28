@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
 
   constructor(text: string, promptActionClass: PromptActionClass) {
@@ -93,18 +93,18 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("Popup 内容")
+    Text('Popup 内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    Text("backgroundBlurStyle")
+    Text('backgroundBlurStyle')
       .fontSize(16)
       .margin(10)
-    Text("BACKGROUND_ULTRA_THICK")
+    Text('BACKGROUND_ULTRA_THICK')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin(10)
-    Text("超远距景深模糊")
+    Text('超远距景深模糊')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin(10)
@@ -129,13 +129,13 @@ struct UiComponentPopupboxPopupGlobal0290 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0290")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0290')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0290")
+        .id('title_text_0290')
 
-      Text("测试说明：\n验证 openPopup 接口 options 设置 backgroundBlurStyle 参数为 BACKGROUND_ULTRA_THICK 时")
+      Text('测试说明：\n验证 openPopup 接口 options 设置 backgroundBlurStyle 参数为 BACKGROUND_ULTRA_THICK 时')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
@@ -143,32 +143,32 @@ struct UiComponentPopupboxPopupGlobal0290 {
         .borderRadius(8)
 
       Row() {
-        Text("当前状态：")
+        Text('当前状态：')
           .fontSize(12)
         Column() {
-          Text("placement:" + Number(this.placementValue))
+          Text('placement:' + Number(this.placementValue))
             .fontSize(12)
             .fontColor(Color.Blue)
-          Text("popupcolor:" + (this.popupColorValue === null ? "null" : "white"))
+          Text('popupcolor:' + (this.popupColorValue === null ? 'null' : 'white'))
             .fontSize(12)
             .fontColor(Color.Blue)
-          Text("backgroundBlurStyle：" + Number(this.blurStyleValue))
+          Text('backgroundBlurStyle：' + Number(this.blurStyleValue))
             .fontSize(12)
             .fontColor(Color.Blue)
-            .id("target_space_status_0290")
+            .id('target_space_status_0290')
         }
       }
       .margin({ bottom: 20 })
 
-      Button("Test")
-        .id("button_test_0290")
+      Button('Test')
+        .id('button_test_0290')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Test button clicked')
         })
 
-      Button("跳转")
-        .id("button_jump_0290")
+      Button('跳转')
+        .id('button_jump_0290')
         .margin({ bottom: 10 })
         .onClick(() => {
           this.placementValue = Placement.Left  // placement:3 对应 Placement.Left
@@ -176,11 +176,11 @@ struct UiComponentPopupboxPopupGlobal0290 {
           this.blurStyleValue = BlurStyle.BACKGROUND_ULTRA_THICK  // backgroundBlurStyle:6
         })
 
-      Button("open 打开")
-        .id("button_open_0290")
+      Button('open 打开')
+        .id('button_open_0290')
         .margin({ bottom: 20 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('hello', this.promptActionClass));
           
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);
@@ -190,12 +190,12 @@ struct UiComponentPopupboxPopupGlobal0290 {
             backgroundBlurStyle: this.blurStyleValue
           });
           this.promptActionClass.setIsPartialUpdate(false);
-          this.promptActionClass.setTarget({ id: "target_component_0290" });
+          this.promptActionClass.setTarget({ id: 'target_component_0290' });
           this.promptActionClass.openPopup();
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -204,7 +204,7 @@ struct UiComponentPopupboxPopupGlobal0290 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_0290")
+      .id('target_component_0290')
     }
     .width('100%')
     .height('100%')

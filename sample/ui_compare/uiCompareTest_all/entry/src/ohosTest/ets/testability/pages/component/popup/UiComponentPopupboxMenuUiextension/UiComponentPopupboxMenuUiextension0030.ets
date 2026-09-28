@@ -21,12 +21,12 @@ struct UiComponentPopupboxMenuUiextension0030 {
   @Builder
   SubMenu() {
     Menu() {
-      MenuItem({ content: "二级菜单项1" })
-        .id("submenu_item_1_0030")
-      MenuItem({ content: "二级菜单项2" })
-        .id("submenu_item_2_0030")
-      MenuItem({ content: "二级菜单项3" })
-        .id("submenu_item_3_0030")
+      MenuItem({ content: '二级菜单项1' })
+        .id('submenu_item_1_0030')
+      MenuItem({ content: '二级菜单项2' })
+        .id('submenu_item_2_0030')
+      MenuItem({ content: '二级菜单项3' })
+        .id('submenu_item_3_0030')
     }
     .subMenuExpandingMode(SubMenuExpandingMode.SIDE_EXPAND)
   }
@@ -34,33 +34,33 @@ struct UiComponentPopupboxMenuUiextension0030 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "一级菜单项1" })
-        .id("menu_item_1_0030")
-      MenuItem({ startIcon: $r("sys.media.ohos_ic_public_cut"), content: "一级菜单项2", endIcon: $r("sys.media.ohos_ic_public_arrow_right"), builder: (): void => this.SubMenu() })
-        .id("menu_item_2_0030")
-      MenuItem({ content: "一级菜单项3" })
-        .id("menu_item_3_0030")
+      MenuItem({ content: '一级菜单项1' })
+        .id('menu_item_1_0030')
+      MenuItem({ startIcon: $r('sys.media.ohos_ic_public_cut'), content: '一级菜单项2', endIcon: $r('sys.media.ohos_ic_public_arrow_right'), builder: (): void => this.SubMenu() })
+        .id('menu_item_2_0030')
+      MenuItem({ content: '一级菜单项3' })
+        .id('menu_item_3_0030')
     }
     .subMenuExpandingMode(SubMenuExpandingMode.SIDE_EXPAND)
   }
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0030")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0030')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0030")
+        .id('title_text_0030')
 
-      Text("测试说明：\n不设置preview，subMenuExpandingMode设置为side_expand，通过isShow控制bindContextMenu的显隐")
+      Text('测试说明：\n不设置preview，subMenuExpandingMode设置为side_expand，通过isShow控制bindContextMenu的显隐')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("点击控制菜单显隐")
-        .id("button_menu_0030")
+      Button('点击控制菜单显隐')
+        .id('button_menu_0030')
         .onClick(() => {
           this.isShowMenu = !this.isShowMenu
         })

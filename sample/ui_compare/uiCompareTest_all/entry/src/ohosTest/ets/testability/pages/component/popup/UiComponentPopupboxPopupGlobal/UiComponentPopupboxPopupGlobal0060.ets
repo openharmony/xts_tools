@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
 
   constructor(text: string, promptActionClass: PromptActionClass) {
@@ -93,14 +93,14 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("Popup 内容")
+    Text('Popup 内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    Text("这是一个全局 Popup 弹窗")
+    Text('这是一个全局 Popup 弹窗')
       .fontSize(16)
       .margin(10)
-    Text("target: id=number, componentId=number")
+    Text('target: id=number, componentId=number')
       .fontSize(12)
       .fontColor(Color.Gray)
       .margin({ top: 10 })
@@ -137,28 +137,28 @@ struct UiComponentPopupboxPopupGlobal0060 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0060")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0060')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0060")
+        .id('title_text_0060')
 
-      Text("测试说明：\n验证 openPopup 接口设置 target 参数（id、componentId 都为 number 类型）时")
+      Text('测试说明：\n验证 openPopup 接口设置 target 参数（id、componentId 都为 number 类型）时')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("Open Popup")
-        .id("button_popup_0060_open")
+      Button('Open Popup')
+        .id('button_popup_0060_open')
         .margin({ bottom: 10 })
         .onClick(() => {
           // 获取目标组件的 uniqueId
-          let frameNode: FrameNode | null = this.uiContext.getFrameNodeById("target_component_0060");
+          let frameNode: FrameNode | null = this.uiContext.getFrameNodeById('target_component_0060');
           let targetId = frameNode?.getUniqueId() || 0;
           
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('hello', this.promptActionClass));
           
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);
@@ -168,12 +168,12 @@ struct UiComponentPopupboxPopupGlobal0060 {
             arrowOffset: 0
           });
           this.promptActionClass.setIsPartialUpdate(true);
-          this.promptActionClass.setTarget({ id: "target_component_0060", componentId: targetId });
+          this.promptActionClass.setTarget({ id: 'target_component_0060', componentId: targetId });
           this.promptActionClass.openPopup();
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -182,7 +182,7 @@ struct UiComponentPopupboxPopupGlobal0060 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_0060")
+      .id('target_component_0060')
     }
     .width('100%')
     .height('100%')

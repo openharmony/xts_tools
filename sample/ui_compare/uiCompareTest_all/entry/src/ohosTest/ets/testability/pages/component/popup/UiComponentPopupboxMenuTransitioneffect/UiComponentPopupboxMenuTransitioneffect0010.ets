@@ -19,42 +19,42 @@ struct UiComponentPopupboxMenuTransitioneffect0010 {
   @Builder
   SubMenu1() {
     Menu() {
-      MenuItem({ content: "子菜单项1-1" })
-        .id("submenu_item_1_1_0010")
-      MenuItem({ content: "子菜单项1-2" })
-        .id("submenu_item_1_2_0010")
+      MenuItem({ content: '子菜单项1-1' })
+        .id('submenu_item_1_1_0010')
+      MenuItem({ content: '子菜单项1-2' })
+        .id('submenu_item_1_2_0010')
     }
   }
 
   @Builder
   SubMenu2() {
     Menu() {
-      MenuItem({ content: "子菜单项2-1" })
-        .id("submenu_item_2_1_0010")
-      MenuItem({ content: "子菜单项2-2" })
-        .id("submenu_item_2_2_0010")
+      MenuItem({ content: '子菜单项2-1' })
+        .id('submenu_item_2_1_0010')
+      MenuItem({ content: '子菜单项2-2' })
+        .id('submenu_item_2_2_0010')
     }
   }
 
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1", builder: (): void => this.SubMenu1() })
-        .id("menu_item_1_0010")
-      MenuItem({ content: "菜单项2", builder: (): void => this.SubMenu2() })
-        .id("menu_item_2_0010")
+      MenuItem({ content: '菜单项1', builder: (): void => this.SubMenu1() })
+        .id('menu_item_1_0010')
+      MenuItem({ content: '菜单项2', builder: (): void => this.SubMenu2() })
+        .id('menu_item_2_0010')
     }
   }
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0010")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0010')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0010")
+        .id('title_text_0010')
 
-      Text("测试说明：\nbindContextMenu设置非对称转场动画，出现从左边缘，消失从右边缘\n三个按钮分别测试：\n1.bindContextMenu - 无动画\n2.070_opacity_move - 仅透明度动画\n3.opacity_move - 完整非对称动画")
+      Text('测试说明：\nbindContextMenu设置非对称转场动画，出现从左边缘，消失从右边缘\n三个按钮分别测试：\n1.bindContextMenu - 无动画\n2.070_opacity_move - 仅透明度动画\n3.opacity_move - 完整非对称动画')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
@@ -62,8 +62,8 @@ struct UiComponentPopupboxMenuTransitioneffect0010 {
         .borderRadius(8)
 
       Column() {
-        Button("bindContextMenu")
-          .id("button_bind_context_menu_0010")
+        Button('bindContextMenu')
+          .id('button_bind_context_menu_0010')
           .width(240)
           .height(50)
           .fontSize(16)
@@ -73,8 +73,8 @@ struct UiComponentPopupboxMenuTransitioneffect0010 {
             placement: Placement.Top
           })
 
-        Button("070_opacity_move")
-          .id("button_070_opacity_move_0010")
+        Button('070_opacity_move')
+          .id('button_070_opacity_move_0010')
           .width(240)
           .height(50)
           .fontSize(16)
@@ -85,8 +85,8 @@ struct UiComponentPopupboxMenuTransitioneffect0010 {
             transition: TransitionEffect.opacity(0.5).animation({ duration: 3000 })
           })
 
-        Button("opacity_move")
-          .id("button_opacity_move_0010")
+        Button('opacity_move')
+          .id('button_opacity_move_0010')
           .width(240)
           .height(50)
           .fontSize(16)

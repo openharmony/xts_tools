@@ -42,8 +42,8 @@ struct UiComponentPopupBoxSpecificationsPageDisplay116 {
         .height(50)
         .type(ButtonType.Capsule)
         .onClick(() => {
-          this.maskX = "100%"
-          this.maskY = "100%"
+          this.maskX = '100%'
+          this.maskY = '100%'
           console.log('设置100%mask成功')
         })
 

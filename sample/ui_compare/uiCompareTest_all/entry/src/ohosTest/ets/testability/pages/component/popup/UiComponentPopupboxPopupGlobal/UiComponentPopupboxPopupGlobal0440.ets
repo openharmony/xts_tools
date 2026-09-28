@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
 
   constructor(text: string, promptActionClass: PromptActionClass) {
@@ -93,18 +93,18 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("Popup 内容")
+    Text('Popup 内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    Text("transition opacity: 0.5")
+    Text('transition opacity: 0.5')
       .fontSize(16)
       .margin(10)
-    Text("动画持续 3 秒")
+    Text('动画持续 3 秒')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin(10)
-    Text("Linear 曲线")
+    Text('Linear 曲线')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin(10)
@@ -126,38 +126,38 @@ struct UiComponentPopupboxPopupGlobal0440 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0440")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0440')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0440")
+        .id('title_text_0440')
 
-      Text("测试说明：\n验证 openPopup 接口 options 设置 transition 参数 opacity 为 0.5 时")
+      Text('测试说明：\n验证 openPopup 接口 options 设置 transition 参数 opacity 为 0.5 时')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("Test")
-        .id("button_test_0440")
+      Button('Test')
+        .id('button_test_0440')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Test button clicked')
         })
 
-      Button("跳转")
-        .id("button_jump_0440")
+      Button('跳转')
+        .id('button_jump_0440')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Jump button clicked')
         })
 
-      Button("transition_opacity")
-        .id("button_transition_opacity_0440")
+      Button('transition_opacity')
+        .id('button_transition_opacity_0440')
         .margin({ bottom: 20 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('hello', this.promptActionClass));
           
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);
@@ -170,12 +170,12 @@ struct UiComponentPopupboxPopupGlobal0440 {
             }).combine(TransitionEffect.opacity(0.5))
           });
           this.promptActionClass.setIsPartialUpdate(false);
-          this.promptActionClass.setTarget({ id: "target_component_0440" });
+          this.promptActionClass.setTarget({ id: 'target_component_0440' });
           this.promptActionClass.openPopup();
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -184,7 +184,7 @@ struct UiComponentPopupboxPopupGlobal0440 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_0440")
+      .id('target_component_0440')
     }
     .width('100%')
     .height('100%')

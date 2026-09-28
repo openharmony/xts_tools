@@ -18,21 +18,21 @@
 struct UiComponentPopupboxMenuLocation0110 {
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0110")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0110')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0110")
+        .id('title_text_0110')
 
-      Text("测试说明：\n警告弹窗 - alignment-Center 屏幕横向和纵向居中\n设置showInSubWindow=true，alignment设置Center")
+      Text('测试说明：\n警告弹窗 - alignment-Center 屏幕横向和纵向居中\n设置showInSubWindow=true，alignment设置Center')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("弹出警告弹窗")
-        .id("button_alert_0110")
+      Button('弹出警告弹窗')
+        .id('button_alert_0110')
         .margin({ bottom: 10 })
         .onClick(() => {
           AlertDialog.show({

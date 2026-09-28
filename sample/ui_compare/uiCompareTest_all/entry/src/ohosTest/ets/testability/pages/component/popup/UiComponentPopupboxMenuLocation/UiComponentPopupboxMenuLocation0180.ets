@@ -20,13 +20,13 @@ struct UiComponentPopupboxMenuLocation0180 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0180")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0180')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0180")
+        .id('title_text_0180')
 
-      Text("测试说明：\nisModal=false - 绑定2个弹窗")
+      Text('测试说明：\nisModal=false - 绑定2个弹窗')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
@@ -36,10 +36,10 @@ struct UiComponentPopupboxMenuLocation0180 {
       Text(`点击次数：${this.clickCount}`)
         .fontSize(14)
         .margin({ bottom: 20 })
-        .id("click_count_0180")
+        .id('click_count_0180')
 
-      Button("弹出警告弹窗")
-        .id("button_alert_0180")
+      Button('弹出警告弹窗')
+        .id('button_alert_0180')
         .margin({ bottom: 10 })
         .onClick(() => {
           this.clickCount++

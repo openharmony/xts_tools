@@ -17,7 +17,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 import { ComponentContent, LevelMode, ImmersiveMode, promptAction } from '@kit.ArkUI';
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   dialogController: promptAction.DialogController = new promptAction.DialogController();
   uiContext: UIContext | null = null;
 
@@ -71,7 +71,7 @@ function buildText(params: Params) {
 @Entry
 @ComponentV2
 struct UiComponentPopupBoxSpecificationsPageDisplay114 {
-  @Local message: string = "openCustomDialogWithController测试";
+  @Local message: string = 'openCustomDialogWithController测试';
   @Local maskX: number|string = 0;
   @Local maskY: number|string = 0;
   private dialogController: promptAction.DialogController = new promptAction.DialogController();
@@ -120,7 +120,7 @@ struct UiComponentPopupBoxSpecificationsPageDisplay114 {
             showInSubWindow:true,
             alignment: DialogAlignment.Center,
             offset: { dx: 0, dy: 0 },
-            maskRect: { x: 0, y: 0, width: "100%", height: "100%" },
+            maskRect: { x: 0, y: 0, width: '100%', height: '100%' },
             onDidAppear: () => {
               console.info('openCustomDialogWithController,is onDidAppear!');
             },

@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
 
   constructor(text: string, promptActionClass: PromptActionClass) {
@@ -93,14 +93,14 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("Popup 内容")
+    Text('Popup 内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    Text("shadow 设置为 undefined")
+    Text('shadow 设置为 undefined')
       .fontSize(16)
       .margin(10)
-    Text("使用默认中阴影")
+    Text('使用默认中阴影')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin(10)
@@ -115,7 +115,7 @@ function popupBuilder(params: Params) {
 @Entry
 @Component
 struct UiComponentPopupboxPopupGlobal0220 {
-  @State targetSpace: string = "shadow：undefined"
+  @State targetSpace: string = 'shadow：undefined'
   private uiContext: UIContext = this.getUIContext();
   private promptAction: PromptAction = this.uiContext.getPromptAction();
   private promptActionClass: PromptActionClass = new PromptActionClass();
@@ -123,13 +123,13 @@ struct UiComponentPopupboxPopupGlobal0220 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0220")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0220')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0220")
+        .id('title_text_0220')
 
-      Text("测试说明：\n验证 openPopup 接口 options 设置 shadow 参数为 undefined 时")
+      Text('测试说明：\n验证 openPopup 接口 options 设置 shadow 参数为 undefined 时')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
@@ -137,34 +137,34 @@ struct UiComponentPopupboxPopupGlobal0220 {
         .borderRadius(8)
 
       Row() {
-        Text("当前状态：")
+        Text('当前状态：')
           .fontSize(14)
         Text(this.targetSpace)
           .fontSize(14)
           .fontColor(Color.Blue)
-          .id("target_space_status_0220")
+          .id('target_space_status_0220')
       }
       .margin({ bottom: 20 })
 
-      Button("Test")
-        .id("button_test_0220")
+      Button('Test')
+        .id('button_test_0220')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Test button clicked')
         })
 
-      Button("跳转")
-        .id("button_jump_0220")
+      Button('跳转')
+        .id('button_jump_0220')
         .margin({ bottom: 10 })
         .onClick(() => {
-          this.targetSpace = "shadow：undefined"
+          this.targetSpace = 'shadow：undefined'
         })
 
-      Button("open 打开")
-        .id("button_open_0220")
+      Button('open 打开')
+        .id('button_open_0220')
         .margin({ bottom: 20 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('hello', this.promptActionClass));
           
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);
@@ -174,12 +174,12 @@ struct UiComponentPopupboxPopupGlobal0220 {
             shadow: undefined
           });
           this.promptActionClass.setIsPartialUpdate(false);
-          this.promptActionClass.setTarget({ id: "target_component_0220" });
+          this.promptActionClass.setTarget({ id: 'target_component_0220' });
           this.promptActionClass.openPopup();
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -188,7 +188,7 @@ struct UiComponentPopupboxPopupGlobal0220 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_0220")
+      .id('target_component_0220')
     }
     .width('100%')
     .height('100%')

@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
 
   constructor(text: string, promptActionClass: PromptActionClass) {
@@ -93,18 +93,18 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("Popup 内容")
+    Text('Popup 内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    Text("transition rotate")
+    Text('transition rotate')
       .fontSize(16)
       .margin(10)
-    Text("x:50, y:50, z:50")
+    Text('x:50, y:50, z:50')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin(10)
-    Text("angle:90deg")
+    Text('angle:90deg')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin(10)
@@ -126,38 +126,38 @@ struct UiComponentPopupboxPopupGlobal0480 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0480")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0480')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0480")
+        .id('title_text_0480')
 
-      Text("测试说明：\n验证 openPopup 接口 options 设置 transition 参数 rotate 为 50,50.50,90edg,50,50,0,0 时")
+      Text('测试说明：\n验证 openPopup 接口 options 设置 transition 参数 rotate 为 50,50.50,90edg,50,50,0,0 时')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("Test")
-        .id("button_test_0480")
+      Button('Test')
+        .id('button_test_0480')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Test button clicked')
         })
 
-      Button("跳转")
-        .id("button_jump_0480")
+      Button('跳转')
+        .id('button_jump_0480')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Jump button clicked')
         })
 
-      Button("transition_rotate")
-        .id("button_transition_rotate_0480")
+      Button('transition_rotate')
+        .id('button_transition_rotate_0480')
         .margin({ bottom: 20 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('hello', this.promptActionClass));
           
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);
@@ -177,12 +177,12 @@ struct UiComponentPopupboxPopupGlobal0480 {
               .animation({ duration: 3000, curve: Curve.Linear })
           });
           this.promptActionClass.setIsPartialUpdate(false);
-          this.promptActionClass.setTarget({ id: "target_component_0480" });
+          this.promptActionClass.setTarget({ id: 'target_component_0480' });
           this.promptActionClass.openPopup();
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -191,7 +191,7 @@ struct UiComponentPopupboxPopupGlobal0480 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_0480")
+      .id('target_component_0480')
     }
     .width('100%')
     .height('100%')

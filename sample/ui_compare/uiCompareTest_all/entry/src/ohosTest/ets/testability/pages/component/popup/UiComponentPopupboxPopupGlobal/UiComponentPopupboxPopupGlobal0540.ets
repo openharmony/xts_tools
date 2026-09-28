@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
 
   constructor(text: string, promptActionClass: PromptActionClass) {
@@ -93,14 +93,14 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("Popup 内容")
+    Text('Popup 内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    Text("这是一个全局 Popup 弹窗")
+    Text('这是一个全局 Popup 弹窗')
       .fontSize(16)
       .margin(10)
-    Text("onWillDismiss: null")
+    Text('onWillDismiss: null')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin({ top: 10 })
@@ -121,7 +121,7 @@ function popupBuilder(params: Params) {
 @Entry
 @Component
 struct UiComponentPopupboxPopupGlobal0540 {
-  @State onWillDismissState: string = "null"
+  @State onWillDismissState: string = 'null'
   private uiContext: UIContext = this.getUIContext();
   private promptAction: PromptAction = this.uiContext.getPromptAction();
   private promptActionClass: PromptActionClass = new PromptActionClass();
@@ -129,33 +129,33 @@ struct UiComponentPopupboxPopupGlobal0540 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0540")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0540')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0540")
+        .id('title_text_0540')
 
-      Text("测试说明：\n验证 openPopup 接口设置 onWillDismiss 为 null 时")
+      Text('测试说明：\n验证 openPopup 接口设置 onWillDismiss 为 null 时')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("onWillDismiss：null")
-        .id("button_set_onwilldismiss_null_0540")
+      Button('onWillDismiss：null')
+        .id('button_set_onwilldismiss_null_0540')
         .margin({ bottom: 10 })
         .onClick(() => {
-          this.onWillDismissState = "null"
+          this.onWillDismissState = 'null'
         })
 
-      Button("open2")
-        .id("button_open2_0540")
+      Button('open2')
+        .id('button_open2_0540')
         .margin({ bottom: 20 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('hello', this.promptActionClass));
           
-          let frameNode = this.uiContext.getFrameNodeById("target_component_0540");
+          let frameNode = this.uiContext.getFrameNodeById('target_component_0540');
           let targetId = frameNode?.getUniqueId() || 0;
           
           this.promptActionClass.setPromptAction(this.promptAction);
@@ -170,7 +170,7 @@ struct UiComponentPopupboxPopupGlobal0540 {
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -179,7 +179,7 @@ struct UiComponentPopupboxPopupGlobal0540 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_0540")
+      .id('target_component_0540')
     }
     .width('100%')
     .height('100%')

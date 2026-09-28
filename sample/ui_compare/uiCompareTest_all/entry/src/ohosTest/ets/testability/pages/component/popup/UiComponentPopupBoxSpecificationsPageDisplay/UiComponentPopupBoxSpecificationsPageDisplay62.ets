@@ -119,19 +119,19 @@ struct UiComponentPopupBoxSpecificationsPageDisplay62 {
         ],
         onWillAppear: () => {
           this.log = 'Log information:#onWillAppear';
-          console.info("showDialog,is onWillAppear!");
+          console.info('showDialog,is onWillAppear!');
         },
         onDidAppear: () => {
           this.log += '# onDidAppear';
-          console.info("showDialog,is onDidAppear!");
+          console.info('showDialog,is onDidAppear!');
         },
         onWillDisappear: () => {
           this.log += '# onWillDisappear';
-          console.info("showDialog,is onWillDisappear!");
+          console.info('showDialog,is onWillDisappear!');
         },
         onDidDisappear: () => {
           this.log += '# onDidDisappear';
-          console.info("showDialog,is onDidDisappear!");
+          console.info('showDialog,is onDidDisappear!');
         }
       })
     } catch (error) {

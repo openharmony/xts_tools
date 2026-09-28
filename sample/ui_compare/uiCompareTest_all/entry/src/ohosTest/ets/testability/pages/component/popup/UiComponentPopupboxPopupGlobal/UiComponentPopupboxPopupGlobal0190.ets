@@ -81,7 +81,7 @@ export class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
 
   constructor(text: string, promptActionClass: PromptActionClass) {
@@ -93,18 +93,18 @@ class Params {
 @Builder
 function popupBuilder(params: Params) {
   Column() {
-    Text("Popup 内容")
+    Text('Popup 内容')
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin(10)
-    Text("shadow 设置为 ShadowOptions")
+    Text('shadow 设置为 ShadowOptions')
       .fontSize(16)
       .margin(10)
-    Text("radius: 45, type: COLOR, color: purple")
+    Text('radius: 45, type: COLOR, color: purple')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin(10)
-    Text("offsetX: 45, offsetY: 45, fill: true")
+    Text('offsetX: 45, offsetY: 45, fill: true')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin(10)
@@ -119,7 +119,7 @@ function popupBuilder(params: Params) {
 @Entry
 @Component
 struct UiComponentPopupboxPopupGlobal0190 {
-  @State targetSpace: string = "shadow：null"
+  @State targetSpace: string = 'shadow：null'
   @State currentClickCount: number = 0
   private uiContext: UIContext = this.getUIContext();
   private promptAction: PromptAction = this.uiContext.getPromptAction();
@@ -128,13 +128,13 @@ struct UiComponentPopupboxPopupGlobal0190 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0190")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0190')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0190")
+        .id('title_text_0190')
 
-      Text("测试说明：\n验证 openPopup 接口 options 设置 shadow 参数为 ShadowOptions 属性时")
+      Text('测试说明：\n验证 openPopup 接口 options 设置 shadow 参数为 ShadowOptions 属性时')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
@@ -142,49 +142,49 @@ struct UiComponentPopupboxPopupGlobal0190 {
         .borderRadius(8)
 
       Row() {
-        Text("当前状态：")
+        Text('当前状态：')
           .fontSize(14)
         Text(this.targetSpace)
           .fontSize(14)
           .fontColor(Color.Blue)
-          .id("target_space_status_0190")
+          .id('target_space_status_0190')
       }
       .margin({ bottom: 20 })
 
-      Button("Test")
-        .id("button_test_0190")
+      Button('Test')
+        .id('button_test_0190')
         .margin({ bottom: 10 })
         .onClick(() => {
           console.info('Test button clicked')
         })
 
-      Button("跳转")
-        .id("button_jump_0190")
+      Button('跳转')
+        .id('button_jump_0190')
         .margin({ bottom: 10 })
         .onClick(() => {
           // 点三下切换到 shadow:[object Object] 状态
           this.currentClickCount++
           if (this.currentClickCount === 1) {
-            this.targetSpace = "shadow：null"
+            this.targetSpace = 'shadow：null'
           } else if (this.currentClickCount === 2) {
-            this.targetSpace = "shadow：undefined"
+            this.targetSpace = 'shadow：undefined'
           } else if (this.currentClickCount === 3) {
-            this.targetSpace = "shadow：[object Object]"
+            this.targetSpace = 'shadow：[object Object]'
             this.currentClickCount = 0 // 重置计数
           }
         })
 
-      Button("open 打开")
-        .id("button_open_0190")
+      Button('open 打开')
+        .id('button_open_0190')
         .margin({ bottom: 20 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params('hello', this.promptActionClass));
           
           // 设置 shadow 参数为 ShadowOptions 属性
           let shadowOptions: ShadowOptions = {
             radius: 45,
             type: ShadowType.COLOR,
-            color: $r("app.color.color1"),
+            color: $r('app.color.color1'),
             offsetX: 45,
             offsetY: 45,
             fill: true
@@ -198,12 +198,12 @@ struct UiComponentPopupboxPopupGlobal0190 {
             shadow: shadowOptions
           });
           this.promptActionClass.setIsPartialUpdate(false);
-          this.promptActionClass.setTarget({ id: "target_component_0190" });
+          this.promptActionClass.setTarget({ id: 'target_component_0190' });
           this.promptActionClass.openPopup();
         })
 
       Column() {
-        Text("目标组件")
+        Text('目标组件')
           .fontSize(18)
           .margin(10)
       }
@@ -212,7 +212,7 @@ struct UiComponentPopupboxPopupGlobal0190 {
       .backgroundColor('#FFE0E0FF')
       .borderRadius(8)
       .justifyContent(FlexAlign.Center)
-      .id("target_component_0190")
+      .id('target_component_0190')
     }
     .width('100%')
     .height('100%')

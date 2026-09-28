@@ -19,7 +19,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 @Entry
 @ComponentV2
 struct UiComponentPopupBoxSpecificationsPageDisplay24 {
-  @Local message: string = "CustomDialog测试";
+  @Local message: string = 'CustomDialog测试';
   private uiContext: UIContext = this.getUIContext();
   private promptActionInstance: PromptAction = this.uiContext.getPromptAction();
   private dialogController: promptAction.DialogController = new promptAction.DialogController();

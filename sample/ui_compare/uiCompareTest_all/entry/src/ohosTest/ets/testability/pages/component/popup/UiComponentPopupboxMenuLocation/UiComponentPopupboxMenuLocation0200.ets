@@ -20,13 +20,13 @@ struct UiComponentPopupboxMenuLocation0200 {
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0200")
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_LOCATION_0200')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0200")
+        .id('title_text_0200')
 
-      Text("测试说明：\n手机内连续弹窗 - 后台操作")
+      Text('测试说明：\n手机内连续弹窗 - 后台操作')
         .fontSize(14)
         .margin({ bottom: 20 })
         .padding(10)
@@ -36,10 +36,10 @@ struct UiComponentPopupboxMenuLocation0200 {
       Text(`点击次数：${this.clickCount}`)
         .fontSize(14)
         .margin({ bottom: 20 })
-        .id("click_count_0200")
+        .id('click_count_0200')
 
-      Button("弹出警告弹窗")
-        .id("button_alert_0200")
+      Button('弹出警告弹窗')
+        .id('button_alert_0200')
         .margin({ bottom: 10 })
         .onClick(() => {
           this.clickCount++
