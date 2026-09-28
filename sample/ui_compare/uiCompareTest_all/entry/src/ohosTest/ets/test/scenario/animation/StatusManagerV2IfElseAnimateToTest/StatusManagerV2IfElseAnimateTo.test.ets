@@ -48,7 +48,7 @@ export default function statusManagerV2IfElseAnimateToTest() {
      */
     it('SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/StatusManagerV2IfElseAnimateTo/StatusManagerV2IfElseAnimateTo001");
+      Settings.createWindow('testability/pages/scenario/animation/StatusManagerV2IfElseAnimateTo/StatusManagerV2IfElseAnimateTo001');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('changeData'), 3000);
       await button.click();
@@ -69,7 +69,7 @@ export default function statusManagerV2IfElseAnimateToTest() {
      */
     it('SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/StatusManagerV2IfElseAnimateTo/StatusManagerV2IfElseAnimateTo002");
+      Settings.createWindow('testability/pages/scenario/animation/StatusManagerV2IfElseAnimateTo/StatusManagerV2IfElseAnimateTo002');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('changeData'), 1000);
       await button.click();
@@ -90,7 +90,7 @@ export default function statusManagerV2IfElseAnimateToTest() {
      */
     it('SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/StatusManagerV2IfElseAnimateTo/StatusManagerV2IfElseAnimateTo003");
+      Settings.createWindow('testability/pages/scenario/animation/StatusManagerV2IfElseAnimateTo/StatusManagerV2IfElseAnimateTo003');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('changeData1'), 1000);
       await button1.click();
@@ -117,7 +117,7 @@ export default function statusManagerV2IfElseAnimateToTest() {
      */
     it('SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/StatusManagerV2IfElseAnimateTo/StatusManagerV2IfElseAnimateTo005");
+      Settings.createWindow('testability/pages/scenario/animation/StatusManagerV2IfElseAnimateTo/StatusManagerV2IfElseAnimateTo005');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('changeData1'), 1000);
       await button1.click();

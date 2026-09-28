@@ -50,22 +50,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0010 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0010")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0010')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Asymmetric】
-      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id("button_duration_10000_asymmetric"), 500)
+      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id('button_duration_10000_asymmetric'), 500)
       await button_duration_10000_asymmetric.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -92,22 +92,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0020 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0020")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0020')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Combine】
-      let button_duration_10000_combine = await driver.waitForComponent(ON.id("button_duration_10000_combine"), 500)
+      let button_duration_10000_combine = await driver.waitForComponent(ON.id('button_duration_10000_combine'), 500)
       await button_duration_10000_combine.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -134,22 +134,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0030 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0030")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0030')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Move】
-      let button_duration_10000_move = await driver.waitForComponent(ON.id("button_duration_10000_move"), 500)
+      let button_duration_10000_move = await driver.waitForComponent(ON.id('button_duration_10000_move'), 500)
       await button_duration_10000_move.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -179,22 +179,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0050 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0050")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0050')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Rotate】
-      let button_duration_10000_rotate = await driver.waitForComponent(ON.id("button_duration_10000_rotate"), 500)
+      let button_duration_10000_rotate = await driver.waitForComponent(ON.id('button_duration_10000_rotate'), 500)
       await button_duration_10000_rotate.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -224,22 +224,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0060 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0060")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0060')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Scale】
-      let button_duration_10000_scale = await driver.waitForComponent(ON.id("button_duration_10000_scale"), 500)
+      let button_duration_10000_scale = await driver.waitForComponent(ON.id('button_duration_10000_scale'), 500)
       await button_duration_10000_scale.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -269,22 +269,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0080 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0080")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0080')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_IDENTITY】
-      let button_duration_10000_pat_identity = await driver.waitForComponent(ON.id("button_duration_10000_pat_identity"), 500)
+      let button_duration_10000_pat_identity = await driver.waitForComponent(ON.id('button_duration_10000_pat_identity'), 500)
       await button_duration_10000_pat_identity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -314,22 +314,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0090 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0090")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0090')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【button_duration_10000_pat_opacity】
-      let button_duration_10000_pat_opacity = await driver.waitForComponent(ON.id("button_duration_10000_pat_opacity"), 500)
+      let button_duration_10000_pat_opacity = await driver.waitForComponent(ON.id('button_duration_10000_pat_opacity'), 500)
       await button_duration_10000_pat_opacity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -359,22 +359,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0100 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0090")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0090')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_OPACITY】
-      let button_duration_10000_pat_opacity = await driver.waitForComponent(ON.id("button_duration_10000_pat_opacity"), 500)
+      let button_duration_10000_pat_opacity = await driver.waitForComponent(ON.id('button_duration_10000_pat_opacity'), 500)
       await button_duration_10000_pat_opacity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -404,22 +404,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0110 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0110")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0110')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_SLIDE_SWITCH】
-      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide_switch"), 500)
+      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id('button_duration_10000_pat_slide_switch'), 500)
       await button_duration_10000_pat_slide_switch.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -449,29 +449,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0120 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0120")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0120')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Asymmetric】
-      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id("button_duration_10000_asymmetric"), 500)
+      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id('button_duration_10000_asymmetric'), 500)
       await button_duration_10000_asymmetric.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【ActionSheet: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -511,29 +511,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0130 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0130")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0130')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Combine】
-      let button_duration_10000_combine = await driver.waitForComponent(ON.id("button_duration_10000_combine"), 500)
+      let button_duration_10000_combine = await driver.waitForComponent(ON.id('button_duration_10000_combine'), 500)
       await button_duration_10000_combine.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【ActionSheet: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
 
@@ -573,29 +573,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0140 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0140")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0140')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Move】
-      let button_duration_10000_move = await driver.waitForComponent(ON.id("button_duration_10000_move"), 500)
+      let button_duration_10000_move = await driver.waitForComponent(ON.id('button_duration_10000_move'), 500)
       await button_duration_10000_move.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【ActionSheet: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
 
@@ -635,29 +635,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0150 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0150")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0150')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Opacity】
-      let button_duration_10000_opacity = await driver.waitForComponent(ON.id("button_duration_10000_opacity"), 500)
+      let button_duration_10000_opacity = await driver.waitForComponent(ON.id('button_duration_10000_opacity'), 500)
       await button_duration_10000_opacity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【ActionSheet: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -697,29 +697,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0160 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0160")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0160')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Rotate】
-      let button_duration_10000_rotate = await driver.waitForComponent(ON.id("button_duration_10000_rotate"), 500)
+      let button_duration_10000_rotate = await driver.waitForComponent(ON.id('button_duration_10000_rotate'), 500)
       await button_duration_10000_rotate.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【ActionSheet: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
 
@@ -760,29 +760,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0170 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0170")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0170')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Scale】
-      let button_duration_10000_scale = await driver.waitForComponent(ON.id("button_duration_10000_scale"), 500)
+      let button_duration_10000_scale = await driver.waitForComponent(ON.id('button_duration_10000_scale'), 500)
       await button_duration_10000_scale.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【ActionSheet: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -822,29 +822,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0180 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0180")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0180')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Translate】
-      let button_duration_10000_translate = await driver.waitForComponent(ON.id("button_duration_10000_translate"), 500)
+      let button_duration_10000_translate = await driver.waitForComponent(ON.id('button_duration_10000_translate'), 500)
       await button_duration_10000_translate.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【ActionSheet: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -884,29 +884,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0190 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0190")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0190')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_IDENTITY】
-      let button_duration_10000_pat_identity = await driver.waitForComponent(ON.id("button_duration_10000_pat_identity"), 500)
+      let button_duration_10000_pat_identity = await driver.waitForComponent(ON.id('button_duration_10000_pat_identity'), 500)
       await button_duration_10000_pat_identity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【ActionSheet: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -946,29 +946,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0200 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0200")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0200')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_OPACITY】
-      let button_duration_10000_pat_opacity = await driver.waitForComponent(ON.id("button_duration_10000_pat_opacity"), 500)
+      let button_duration_10000_pat_opacity = await driver.waitForComponent(ON.id('button_duration_10000_pat_opacity'), 500)
       await button_duration_10000_pat_opacity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【ActionSheet: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -1008,29 +1008,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0210 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0210")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0210')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_SLIDE】
-      let button_duration_10000_pat_slide = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide"), 500)
+      let button_duration_10000_pat_slide = await driver.waitForComponent(ON.id('button_duration_10000_pat_slide'), 500)
       await button_duration_10000_pat_slide.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【ActionSheet: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -1070,29 +1070,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0220 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0220")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0220')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_SLIDE_SWITCH】
-      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide_switch"), 500)
+      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id('button_duration_10000_pat_slide_switch'), 500)
       await button_duration_10000_pat_slide_switch.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【ActionSheet: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -1132,22 +1132,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0240 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0240")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0240')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_SLIDE_SWITCH】
-      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide_switch"), 500)
+      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id('button_duration_10000_pat_slide_switch'), 500)
       await button_duration_10000_pat_slide_switch.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -1194,22 +1194,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0250 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0250")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0250')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Asymmetric】
-      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id("button_duration_10000_asymmetric"), 500)
+      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id('button_duration_10000_asymmetric'), 500)
       await button_duration_10000_asymmetric.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -1248,22 +1248,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0270 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0270")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0270')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【iter_Duration_2000】
-      let button_iter_duration_2000 = await driver.waitForComponent(ON.id("iter_duration_2000"), 500)
+      let button_iter_duration_2000 = await driver.waitForComponent(ON.id('iter_duration_2000'), 500)
       await button_iter_duration_2000.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_2000_Opacity】
-      let button_duration_2000_opacity = await driver.waitForComponent(ON.id("button_duration_2000_opacity"), 500)
+      let button_duration_2000_opacity = await driver.waitForComponent(ON.id('button_duration_2000_opacity'), 500)
       await button_duration_2000_opacity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -1292,22 +1292,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0300 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0300")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0300')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Combine】
-      let button_duration_10000_combine = await driver.waitForComponent(ON.id("button_duration_10000_combine"), 500)
+      let button_duration_10000_combine = await driver.waitForComponent(ON.id('button_duration_10000_combine'), 500)
       await button_duration_10000_combine.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -1337,22 +1337,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0340 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0340")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0340')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Scale】
-      let button_duration_10000_scale = await driver.waitForComponent(ON.id("button_duration_10000_scale"), 500)
+      let button_duration_10000_scale = await driver.waitForComponent(ON.id('button_duration_10000_scale'), 500)
       await button_duration_10000_scale.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -1382,22 +1382,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0370 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0370")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0370')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_OPACITY】
-      let button_duration_10000_pat_opacity = await driver.waitForComponent(ON.id("button_duration_10000_pat_opacity"), 500)
+      let button_duration_10000_pat_opacity = await driver.waitForComponent(ON.id('button_duration_10000_pat_opacity'), 500)
       await button_duration_10000_pat_opacity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -1427,29 +1427,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0480 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0480")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0480')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_OPACITY】
-      let button_duration_10000_pat_opacity = await driver.waitForComponent(ON.id("button_duration_10000_pat_opacity"), 500)
+      let button_duration_10000_pat_opacity = await driver.waitForComponent(ON.id('button_duration_10000_pat_opacity'), 500)
       await button_duration_10000_pat_opacity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
 
@@ -1489,29 +1489,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0500 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0500")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0500')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_SLIDE_SWITCH】
-      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide_switch"), 500)
+      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id('button_duration_10000_pat_slide_switch'), 500)
       await button_duration_10000_pat_slide_switch.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -1551,22 +1551,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0230 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0230")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0230')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_SLIDE_SWITCH】
-      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide_switch"), 500)
+      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id('button_duration_10000_pat_slide_switch'), 500)
       await button_duration_10000_pat_slide_switch.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -1613,22 +1613,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0280 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0280")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0280')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【playMode_Duration_2000】
-      let button_playmode_duration_2000 = await driver.waitForComponent(ON.id("playmode_duration_2000"), 500)
+      let button_playmode_duration_2000 = await driver.waitForComponent(ON.id('playmode_duration_2000'), 500)
       await button_playmode_duration_2000.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_2000_Asymmetric】
-      let button_duration_2000_asymmetric = await driver.waitForComponent(ON.id("button_duration_2000_asymmetric"), 500)
+      let button_duration_2000_asymmetric = await driver.waitForComponent(ON.id('button_duration_2000_asymmetric'), 500)
       await button_duration_2000_asymmetric.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -1651,17 +1651,17 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0260 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0260")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0260')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【不设置】
-      let button_no_transition = await driver.waitForComponent(ON.id("button_no_transition"), 500)
+      let button_no_transition = await driver.waitForComponent(ON.id('button_no_transition'), 500)
       await button_no_transition.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【AlertDialog】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -1688,29 +1688,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0410 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0410")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0410')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Combine】
-      let button_duration_10000_combine = await driver.waitForComponent(ON.id("button_duration_10000_combine"), 500)
+      let button_duration_10000_combine = await driver.waitForComponent(ON.id('button_duration_10000_combine'), 500)
       await button_duration_10000_combine.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -1750,22 +1750,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0390 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0390")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0390')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_SLIDE_SWITCH】
-      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide_switch"), 500)
+      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id('button_duration_10000_pat_slide_switch'), 500)
       await button_duration_10000_pat_slide_switch.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
 
@@ -1792,29 +1792,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0450 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0450")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0450')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Scale】
-      let button_duration_10000_scale = await driver.waitForComponent(ON.id("button_duration_10000_scale"), 500)
+      let button_duration_10000_scale = await driver.waitForComponent(ON.id('button_duration_10000_scale'), 500)
       await button_duration_10000_scale.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -1854,22 +1854,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0350 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0350")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0350')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Translate】
-      let button_duration_10000_translate = await driver.waitForComponent(ON.id("button_duration_10000_translate"), 500)
+      let button_duration_10000_translate = await driver.waitForComponent(ON.id('button_duration_10000_translate'), 500)
       await button_duration_10000_translate.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -1896,29 +1896,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0470 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0470")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0470')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_IDENTITY】
-      let button_duration_10000_pat_identity = await driver.waitForComponent(ON.id("button_duration_10000_pat_identity"), 500)
+      let button_duration_10000_pat_identity = await driver.waitForComponent(ON.id('button_duration_10000_pat_identity'), 500)
       await button_duration_10000_pat_identity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -1958,29 +1958,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0430 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0430")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0430')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Opacity】
-      let button_duration_10000_opacity = await driver.waitForComponent(ON.id("button_duration_10000_opacity"), 500)
+      let button_duration_10000_opacity = await driver.waitForComponent(ON.id('button_duration_10000_opacity'), 500)
       await button_duration_10000_opacity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
       // 等待一小段时间让动画开始播放，但不等动画完成
       await Utils.sleep(2000)
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -2020,22 +2020,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0330 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0330")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0330')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Rotate】
-      let button_duration_10000_rotate = await driver.waitForComponent(ON.id("button_duration_10000_rotate"), 500)
+      let button_duration_10000_rotate = await driver.waitForComponent(ON.id('button_duration_10000_rotate'), 500)
       await button_duration_10000_rotate.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -2062,22 +2062,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0320 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0320")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0320')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Opacity】
-      let button_duration_10000_opacity = await driver.waitForComponent(ON.id("button_duration_10000_opacity"), 500)
+      let button_duration_10000_opacity = await driver.waitForComponent(ON.id('button_duration_10000_opacity'), 500)
       await button_duration_10000_opacity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -2104,22 +2104,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0520 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0520")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0520')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_SLIDE_SWITCH】
-      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide_switch"), 500)
+      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id('button_duration_10000_pat_slide_switch'), 500)
       await button_duration_10000_pat_slide_switch.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
 
@@ -2162,22 +2162,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0310 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0310")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0310')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Move】
-      let button_duration_10000_move = await driver.waitForComponent(ON.id("button_duration_10000_move"), 500)
+      let button_duration_10000_move = await driver.waitForComponent(ON.id('button_duration_10000_move'), 500)
       await button_duration_10000_move.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
 
@@ -2205,22 +2205,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0550 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0550")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0550')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【iter_Duration_2000】
-      let button_iter_duration_2000 = await driver.waitForComponent(ON.id("iter_duration_2000"), 500)
+      let button_iter_duration_2000 = await driver.waitForComponent(ON.id('iter_duration_2000'), 500)
       await button_iter_duration_2000.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_2000_Opacity】
-      let button_duration_2000_opacity = await driver.waitForComponent(ON.id("button_duration_2000_opacity"), 500)
+      let button_duration_2000_opacity = await driver.waitForComponent(ON.id('button_duration_2000_opacity'), 500)
       await button_duration_2000_opacity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
 
@@ -2249,28 +2249,28 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0460 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0460")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0460')
       let driver: Driver = Driver.create();
 
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Translate】
-      let button_duration_10000_translate = await driver.waitForComponent(ON.id("button_duration_10000_translate"), 500)
+      let button_duration_10000_translate = await driver.waitForComponent(ON.id('button_duration_10000_translate'), 500)
       await button_duration_10000_translate.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
       // 等待2秒让动画开始播放(但不等动画完成，因为动画持续10000ms)
       await Utils.sleep(2000)
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -2310,22 +2310,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0510 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0510")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0510')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_SLIDE_SWITCH】
-      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide_switch"), 500)
+      let button_duration_10000_pat_slide_switch = await driver.waitForComponent(ON.id('button_duration_10000_pat_slide_switch'), 500)
       await button_duration_10000_pat_slide_switch.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
 
@@ -2372,29 +2372,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0400 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0400")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0400')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Asymmetric】
-      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id("button_duration_10000_asymmetric"), 500)
+      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id('button_duration_10000_asymmetric'), 500)
       await button_duration_10000_asymmetric.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
       // 等待2秒让动画开始播放(但不等动画完成，因为动画持续10000ms)
       await Utils.sleep(2000)
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
 
@@ -2435,29 +2435,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0490 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0490")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0490')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_SLIDE】
-      let button_duration_10000_pat_slide = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide"), 500)
+      let button_duration_10000_pat_slide = await driver.waitForComponent(ON.id('button_duration_10000_pat_slide'), 500)
       await button_duration_10000_pat_slide.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
       // 等待2秒让动画开始播放(但不等动画完成，因为动画持续10000ms)
       await Utils.sleep(2000)
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
 
@@ -2497,22 +2497,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0380 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0380")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0380')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_SLIDE】
-      let button_duration_10000_pat_slide = await driver.waitForComponent(ON.id("button_duration_10000_pat_slide"), 500)
+      let button_duration_10000_pat_slide = await driver.waitForComponent(ON.id('button_duration_10000_pat_slide'), 500)
       await button_duration_10000_pat_slide.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
 
@@ -2539,29 +2539,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0420 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0420")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0420')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Move】
-      let button_duration_10000_move = await driver.waitForComponent(ON.id("button_duration_10000_move"), 500)
+      let button_duration_10000_move = await driver.waitForComponent(ON.id('button_duration_10000_move'), 500)
       await button_duration_10000_move.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
 
       // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
       // 等待2秒让动画开始播放(但不等动画完成，因为动画持续10000ms)
       await Utils.sleep(2000)
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -2601,22 +2601,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0290 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0290")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0290')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Asymmetric】
-      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id("button_duration_10000_asymmetric"), 500)
+      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id('button_duration_10000_asymmetric'), 500)
       await button_duration_10000_asymmetric.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
 
@@ -2643,22 +2643,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0530 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0530")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0530')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Asymmetric】
-      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id("button_duration_10000_asymmetric"), 500)
+      let button_duration_10000_asymmetric = await driver.waitForComponent(ON.id('button_duration_10000_asymmetric'), 500)
       await button_duration_10000_asymmetric.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -2695,22 +2695,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0560 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0560")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0560')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【playMode_Duration_2000】
-      let button_playmode_duration_2000 = await driver.waitForComponent(ON.id("playmode_duration_2000"), 500)
+      let button_playmode_duration_2000 = await driver.waitForComponent(ON.id('playmode_duration_2000'), 500)
       await button_playmode_duration_2000.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_2000_Asymmetric】
-      let button_duration_2000_asymmetric = await driver.waitForComponent(ON.id("button_duration_2000_asymmetric"), 500)
+      let button_duration_2000_asymmetric = await driver.waitForComponent(ON.id('button_duration_2000_asymmetric'), 500)
       await button_duration_2000_asymmetric.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -2733,22 +2733,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0360 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0360")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0360')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_pat_IDENTITY】
-      let button_duration_10000_pat_identity = await driver.waitForComponent(ON.id("button_duration_10000_pat_identity"), 500)
+      let button_duration_10000_pat_identity = await driver.waitForComponent(ON.id('button_duration_10000_pat_identity'), 500)
       await button_duration_10000_pat_identity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
 
@@ -2775,29 +2775,29 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0440 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0440")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0440')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Rotate】
-      let button_duration_10000_rotate = await driver.waitForComponent(ON.id("button_duration_10000_rotate"), 500)
+      let button_duration_10000_rotate = await driver.waitForComponent(ON.id('button_duration_10000_rotate'), 500)
       await button_duration_10000_rotate.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【ActionSheet: autoCancel_True】
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet_auto_cancel_true"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet_auto_cancel_true'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
       // 步骤5：弹出动画过程中，点击【AlertDialog: autoCancel_True】按钮
       // 等待2秒让动画开始播放(但不等动画完成，因为动画持续10000ms)
       await Utils.sleep(2000)
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       
@@ -2837,21 +2837,21 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0540 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0540")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0540')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【不设置】
-      let button_no_set = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_no_set = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_no_set.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【ActionSheet】
-      let button_no_transition = await driver.waitForComponent(ON.id("button_no_transition"), 500)
+      let button_no_transition = await driver.waitForComponent(ON.id('button_no_transition'), 500)
       await button_no_transition.click()
       await Utils.sleep(500)
 
-      let button_action_sheet = await driver.waitForComponent(ON.id("button_action_sheet"), 500)
+      let button_action_sheet = await driver.waitForComponent(ON.id('button_action_sheet'), 500)
       await button_action_sheet.click()
       await Utils.sleep(500)
       
@@ -2878,22 +2878,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0040 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0040")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0040')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Opacity】
-      let button_duration_10000_opacity = await driver.waitForComponent(ON.id("button_duration_10000_opacity"), 500)
+      let button_duration_10000_opacity = await driver.waitForComponent(ON.id('button_duration_10000_opacity'), 500)
       await button_duration_10000_opacity.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
 
@@ -2921,22 +2921,22 @@ export default function specificationsTransition() {
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0070 start.`);
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0070")
+      Settings.createWindow('testability/pages/scenario/animation/specificationsTransition/SpecificationsTransition0070')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击【Duration_10000_Index】
-      let button_duration_10000_index = await driver.waitForComponent(ON.id("button_duration_10000_index"), 500)
+      let button_duration_10000_index = await driver.waitForComponent(ON.id('button_duration_10000_index'), 500)
       await button_duration_10000_index.click()
       await Utils.sleep(500)
       
       // 步骤3：点击【Duration_10000_Translate】
-      let button_duration_10000_translate = await driver.waitForComponent(ON.id("button_duration_10000_translate"), 500)
+      let button_duration_10000_translate = await driver.waitForComponent(ON.id('button_duration_10000_translate'), 500)
       await button_duration_10000_translate.click()
       await Utils.sleep(500)
       
       // 步骤4：点击【AlertDialog: autoCancel_True】
-      let button_alert_dialog = await driver.waitForComponent(ON.id("button_alert_dialog_auto_cancel_true"), 500)
+      let button_alert_dialog = await driver.waitForComponent(ON.id('button_alert_dialog_auto_cancel_true'), 500)
       await button_alert_dialog.click()
       await Utils.sleep(500)
       

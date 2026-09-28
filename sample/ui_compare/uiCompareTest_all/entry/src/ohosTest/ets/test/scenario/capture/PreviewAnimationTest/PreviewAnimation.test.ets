@@ -49,7 +49,7 @@ export default function previewAnimation() {
      */
     it('SUB_ACE_PREVIEW_ANIMATION_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_ANIMATION_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewAnimation/PreviewAnimation0020")
+      Settings.createWindow('testability/pages/scenario/capture/previewAnimation/PreviewAnimation0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -165,7 +165,7 @@ export default function previewAnimation() {
      */
     it('SUB_ACE_PREVIEW_ANIMATION_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_ANIMATION_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewAnimation/PreviewAnimation0030")
+      Settings.createWindow('testability/pages/scenario/capture/previewAnimation/PreviewAnimation0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -281,7 +281,7 @@ export default function previewAnimation() {
      */
     it('SUB_ACE_PREVIEW_ANIMATION_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_ANIMATION_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewAnimation/PreviewAnimation0040")
+      Settings.createWindow('testability/pages/scenario/capture/previewAnimation/PreviewAnimation0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -417,7 +417,7 @@ export default function previewAnimation() {
      */
     it('SUB_ACE_PREVIEW_ANIMATION_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_ANIMATION_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewAnimation/PreviewAnimation0050")
+      Settings.createWindow('testability/pages/scenario/capture/previewAnimation/PreviewAnimation0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       

@@ -64,7 +64,7 @@ export default function uiMotionAnimationPropertyAnimation() {
      */
     it('SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_CURVE_010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_CURVE_010 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/uiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation01")
+      Settings.createWindow('testability/pages/scenario/animation/uiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiMotionAnimationPropertyAnimation01'),1000);
       windowSnap.snapShot()
@@ -86,7 +86,7 @@ export default function uiMotionAnimationPropertyAnimation() {
      */
     it('SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_DELAY_010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_DELAY_010 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/uiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation02")
+      Settings.createWindow('testability/pages/scenario/animation/uiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiMotionAnimationPropertyAnimation02'),1000);
       windowSnap.snapShot()
@@ -108,7 +108,7 @@ export default function uiMotionAnimationPropertyAnimation() {
      */
     it('SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_PLAYMODE_010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_PLAYMODE_010 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/uiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation03")
+      Settings.createWindow('testability/pages/scenario/animation/uiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiMotionAnimationPropertyAnimation03'),1000);
       windowSnap.snapShot()
@@ -130,7 +130,7 @@ export default function uiMotionAnimationPropertyAnimation() {
      */
     it('SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_DURATION_010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_DURATION_010 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/uiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation04")
+      Settings.createWindow('testability/pages/scenario/animation/uiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiMotionAnimationPropertyAnimation04'),1000);
       windowSnap.snapShot()
@@ -152,7 +152,7 @@ export default function uiMotionAnimationPropertyAnimation() {
      */
     it('SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_ITERATIONS_010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_ITERATIONS_010 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/uiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation05")
+      Settings.createWindow('testability/pages/scenario/animation/uiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiMotionAnimationPropertyAnimation05'),1000);
       windowSnap.snapShot()
@@ -174,7 +174,7 @@ export default function uiMotionAnimationPropertyAnimation() {
      */
     it('SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_TEMPO_010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_MOTION_ANIMATION_PROPERTYANMATION_TEMPO_010 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/uiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation06")
+      Settings.createWindow('testability/pages/scenario/animation/uiMotionAnimationPropertyAnimation/UiMotionAnimationPropertyAnimation06')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiMotionAnimationPropertyAnimation06'),1000);
       windowSnap.snapShot()

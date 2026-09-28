@@ -50,7 +50,7 @@ export default function gestureMonopolize01Test() {
      */
     it('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/gesture_monopolize/monopolize01")
+      Settings.createWindow('testability/pages/scenario/action_event/gesture_monopolize/monopolize01')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('innerColumn01'), 1000);
       await button.click();
@@ -71,7 +71,7 @@ export default function gestureMonopolize01Test() {
      */
     it('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/gesture_monopolize/monopolize02")
+      Settings.createWindow('testability/pages/scenario/action_event/gesture_monopolize/monopolize02')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('List02'), 1000);
       await driver.click(600,380)
@@ -98,7 +98,7 @@ export default function gestureMonopolize01Test() {
      */
     it('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/gesture_monopolize/monopolize03")
+      Settings.createWindow('testability/pages/scenario/action_event/gesture_monopolize/monopolize03')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('innerColumn03'), 1000);
       await button.longClick();
@@ -127,7 +127,7 @@ export default function gestureMonopolize01Test() {
      */
     it('SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/gesture_monopolize/monopolize04")
+      Settings.createWindow('testability/pages/scenario/action_event/gesture_monopolize/monopolize04')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('innerColumn04'), 1000);
       await button.longClick();
@@ -156,7 +156,7 @@ export default function gestureMonopolize01Test() {
      */
     it('SUB_ACE_ACTION_GESTURE_RECONSTRUCTION_INTERFACE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_RECONSTRUCTION_INTERFACE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/gesture_monopolize/monopolize05")
+      Settings.createWindow('testability/pages/scenario/action_event/gesture_monopolize/monopolize05')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('monopolizeButton05'), 1000);
       await button.click();

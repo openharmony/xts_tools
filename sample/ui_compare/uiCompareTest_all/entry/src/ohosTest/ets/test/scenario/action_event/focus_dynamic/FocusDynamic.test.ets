@@ -50,7 +50,7 @@ export default function focusDynamicTest() {
      */
     it('SUB_ACE_FOCUS_DYNAMIC_EFFECT_017', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FOCUS_DYNAMIC_EFFECT_017 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_dynamic/focusDynamic01")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_dynamic/focusDynamic01')
       let driver:Driver = Driver.create();
       await driver.triggerKey(2049);
       await driver.waitForIdle(200,500);

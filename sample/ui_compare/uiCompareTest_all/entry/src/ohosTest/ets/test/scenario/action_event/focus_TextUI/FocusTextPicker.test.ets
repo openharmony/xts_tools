@@ -52,7 +52,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0040  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0040")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0040')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.fling(UiDirection.DOWN,10000)
@@ -77,7 +77,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0060  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0060")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0060')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0060'), 1000);
@@ -101,7 +101,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0070  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0070")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0070')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0070'), 1000);
@@ -124,7 +124,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0080  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0080")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0080')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0080'), 1000);
@@ -147,7 +147,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0110  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0110")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0110')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0110'), 1000);
@@ -170,7 +170,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0180  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0180")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0180')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0180'), 1000);
@@ -193,7 +193,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0200', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0200  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0200")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0200')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0200'), 1000);
@@ -217,7 +217,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0210', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0210  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0210")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0210')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0210'), 1000);
@@ -241,7 +241,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0220', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0220  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0220")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0220')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0220'), 1000);
@@ -265,7 +265,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0250', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0250  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0250")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0250')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0250'), 1000);
@@ -289,7 +289,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0320', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0320  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0320")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0320')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0320'), 1000);
@@ -344,7 +344,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0340', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0340  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0340")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0340')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0340'), 1000);
@@ -366,7 +366,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0350', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0350  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0350")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0350')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0350'), 1000);
@@ -389,7 +389,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0360', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0360  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0360")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0360')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0360'), 1000);
@@ -412,7 +412,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0390', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0390  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0390")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0390')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0390'), 1000);
@@ -435,7 +435,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0460', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0460  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0460")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0460')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0460'), 1000);
@@ -458,7 +458,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0480', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0480  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0480")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0480')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0480'), 1000);
@@ -481,7 +481,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0490', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0490  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0490")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0490')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0490'), 1000);
@@ -504,7 +504,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0530', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0530  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0530")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0530')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0530'), 1000);
@@ -527,7 +527,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0550', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0550  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0550")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0550')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0550'), 1000);
@@ -550,7 +550,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0560', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0560  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0560")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0560')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0560'), 1000);
@@ -573,7 +573,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0570', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0570  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0570")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0570')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.fling(UiDirection.DOWN,10000)
@@ -597,7 +597,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0600', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0600  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0600")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0600')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0600'), 1000);
@@ -620,7 +620,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0670', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0670  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0670")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0670')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0670'), 1000);
@@ -643,7 +643,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0690', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0690  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0690")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0690')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0690'), 1000);
@@ -666,7 +666,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0700', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0700  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0700")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0700')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0700'), 1000);
@@ -689,7 +689,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0710', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0710  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0710")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0710')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0710'), 1000);
@@ -712,7 +712,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0740', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0740  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0740")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0740')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.fling(UiDirection.DOWN,10000)
@@ -736,7 +736,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0810', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0810  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0810")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0810')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.fling(UiDirection.DOWN,10000)
@@ -760,7 +760,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0830', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0830  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0830")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0830')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0830'), 1000);
@@ -783,7 +783,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0840', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0840  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0840")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0840')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.fling(UiDirection.DOWN,10000)
@@ -807,7 +807,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0850', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0850  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0850")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0850')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0850'), 1000);
@@ -830,7 +830,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0880', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0880  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0880")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0880')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0880'), 1000);
@@ -853,7 +853,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0950', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0950  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0950")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0950')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0950'), 1000);
@@ -876,7 +876,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0970', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0970  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0970")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0970')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.fling(UiDirection.UP,10000)
@@ -900,7 +900,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0980', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0980  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0980")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop0980')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp0980'), 1000);
@@ -956,7 +956,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1020  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1020")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1020')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp1020'), 1000);
@@ -980,7 +980,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1040  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1040")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1040')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp1040'), 1000);
@@ -1004,7 +1004,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1050  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1050")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1050')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp1050'), 1000);
@@ -1028,7 +1028,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1060  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1060")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1060')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.fling(UiDirection.UP,10000)
@@ -1054,7 +1054,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1090  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1090")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1090')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.fling(UiDirection.UP,10000)
@@ -1080,7 +1080,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1160', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1160  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1160")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1160')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.fling(UiDirection.UP,10000)
@@ -1106,7 +1106,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1180  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1180")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1180')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp1180'), 1000);
@@ -1130,7 +1130,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1190', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1190  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1190")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1190')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp1190'), 1000);
@@ -1154,7 +1154,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1200', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1200  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1200")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1200')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp1200'), 1000);
@@ -1178,7 +1178,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1230', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1200  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1230")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1230')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp1230'), 1000);
@@ -1202,7 +1202,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1300', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1300  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1300")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1300')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.fling(UiDirection.DOWN,10000)
@@ -1227,7 +1227,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1320', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1320  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1320")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1320')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp1320'), 1000);
@@ -1252,7 +1252,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1330', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1330  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1330")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1330')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       await driver.fling(UiDirection.DOWN,10000)
@@ -1277,7 +1277,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1340', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1340  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1340")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1340')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp1340'), 1000);
@@ -1301,7 +1301,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1370', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1370  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1370")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1370')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp1370'), 1000);
@@ -1325,7 +1325,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1440', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1440  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1440")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1440')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp1440'), 1000);
@@ -1380,7 +1380,7 @@ export default function focusTextPickerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1460', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1460  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1460")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextPicker/TextPickerOnscrollstop1460')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(2000,2000);
       let button: Component = await driver.waitForComponent(ON.id('tp1460'), 1000);

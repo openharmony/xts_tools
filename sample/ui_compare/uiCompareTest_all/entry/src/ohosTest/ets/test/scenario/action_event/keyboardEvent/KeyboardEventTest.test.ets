@@ -50,7 +50,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0014', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0014 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/qrcodeKeyboard01")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/qrcodeKeyboard01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -81,7 +81,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0015', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0015 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/patternLockKeyboard01")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/patternLockKeyboard01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -118,7 +118,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/badgeTextInput01")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/badgeTextInput01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -148,7 +148,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0011', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0011 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/badgeTextInput02")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/badgeTextInput02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -176,7 +176,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0012', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0012 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/badgeImage01")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/badgeImage01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -206,7 +206,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0013', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0013 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/badgeImage02")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/badgeImage02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -234,7 +234,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0014', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0014 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/counterTextInput01")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/counterTextInput01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -264,7 +264,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0015', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0015 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/counterTextInput02")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/counterTextInput02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -292,7 +292,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0016', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0016 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/counterImage01")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/counterImage01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -322,7 +322,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0017', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0017 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/counterImage02")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/counterImage02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -350,7 +350,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0018', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0018 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/counterMultiple01")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/counterMultiple01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -390,7 +390,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0019', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0019 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/gaugeTextInput01")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/gaugeTextInput01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -420,7 +420,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/gaugeTextInput02")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/gaugeTextInput02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -448,7 +448,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0021', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0021 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/gaugeImage01")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/gaugeImage01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -478,7 +478,7 @@ export default function keyboardEventTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0022', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NODE_MESSAGE_0022 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/keyboardEvent/gaugeImage02")
+      Settings.createWindow('testability/pages/scenario/action_event/keyboardEvent/gaugeImage02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       

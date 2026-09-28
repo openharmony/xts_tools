@@ -49,7 +49,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0010', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0010")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0010')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -68,7 +68,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0030', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0030")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0030')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0050', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0050")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0050')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -107,7 +107,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0090', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0090")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0090')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -126,7 +126,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0100', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0100")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0100')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -145,7 +145,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0120', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0120")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0120')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -164,7 +164,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0180', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0180 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0180")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0180')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -183,7 +183,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0190', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0190 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0190")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0190')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -202,7 +202,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0220', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0220 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0220")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0220')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -221,7 +221,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0230', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0230 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0230")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0230')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -240,7 +240,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0240', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0240")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0240')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -259,7 +259,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0260', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0260 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0260")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0260')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -278,7 +278,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0280', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0280 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0280")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0280')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -297,7 +297,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0320', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0320 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0320")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0320')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -316,7 +316,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0330', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0330 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0330")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0330')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -335,7 +335,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0350', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0350 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0350")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0350')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -354,7 +354,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0370', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0370 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0370")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0370')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -373,7 +373,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0380', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0380 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0380")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0380')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -392,7 +392,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0400', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0400 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0400")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0400')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -411,7 +411,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0460', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0460 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0460")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0460')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -430,7 +430,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0470', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0470 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0470")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0470')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -449,7 +449,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0510', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0510 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0510")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0510')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -468,7 +468,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0530', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0530 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0530")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0530')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -487,7 +487,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0540', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0540 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0540")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0540')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -506,7 +506,7 @@ export default function previewBasic() {
      */
     it('SUB_ACE_PREVIEW_BASIC_0550', Level.LEVEL4, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_PREVIEW_BASIC_0550 start.`);
-      Settings.createWindow("testability/pages/scenario/capture/previewBasic/PreviewBasic0550")
+      Settings.createWindow('testability/pages/scenario/capture/previewBasic/PreviewBasic0550')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()

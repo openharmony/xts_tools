@@ -50,7 +50,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0002', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0002  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TtFontColor0002")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TtFontColor0002')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0003', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0003  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TtFontColor0003")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TtFontColor0003')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0004', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0004  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TtFontColor0004")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TtFontColor0004')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -108,7 +108,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0002', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0002  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TtFontSize0002")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TtFontSize0002')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -127,7 +127,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0003', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0003  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TtFontSize0003")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TtFontSize0003')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -147,7 +147,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0004', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0004  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TtFontSize0004")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TtFontSize0004')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -167,7 +167,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0010  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/CommonFontWeight0010")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/CommonFontWeight0010')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -187,7 +187,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0012', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0012  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/CommonFontWeight0012")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/CommonFontWeight0012')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -207,7 +207,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0014', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0014  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/CommonFontWeight0014")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/CommonFontWeight0014')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -227,7 +227,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0015', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0015  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/CommonFontWeight0015")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/CommonFontWeight0015')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -247,7 +247,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0016', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0016  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/CommonFontWeight0016")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/CommonFontWeight0016')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -266,7 +266,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0023', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0023  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/CommonFontWeight0023")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/CommonFontWeight0023')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -285,7 +285,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0040', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0040  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TextTimer0040")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TextTimer0040')
       let driver:Driver = Driver.create();
       let buttons: Component = await driver.waitForComponent(ON.id('textTimer0040s'), 500);
       await buttons.click();
@@ -313,7 +313,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0050', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0050  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TextTimer0050")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TextTimer0050')
       let driver:Driver = Driver.create();
       let buttons: Component = await driver.waitForComponent(ON.id('textTimer0050s'), 500);
       await buttons.click();
@@ -340,7 +340,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0060', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0060  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TextTimer0060")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TextTimer0060')
       let driver:Driver = Driver.create();
       let buttons: Component = await driver.waitForComponent(ON.id('textTimer0060s'), 500);
       await buttons.click();
@@ -369,7 +369,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0070', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0070  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TextTimer0070")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TextTimer0070')
       let driver:Driver = Driver.create();
       let buttons: Component = await driver.waitForComponent(ON.id('textTimer0070s'), 500);
       await buttons.click();
@@ -397,7 +397,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0080', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0080  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TextTimer0080")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TextTimer0080')
       let driver:Driver = Driver.create();
       let buttons: Component = await driver.waitForComponent(ON.id('textTimer0080s'), 500);
       await buttons.click();
@@ -425,7 +425,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0090', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0090  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TextTimer0090")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TextTimer0090')
       let driver:Driver = Driver.create();
       let buttons: Component = await driver.waitForComponent(ON.id('textTimer0090s'), 500);
       await buttons.click();
@@ -452,7 +452,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0100', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0100  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TextTimer0100")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TextTimer0100')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -472,7 +472,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0250', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0250  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TtInterface0250")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TtInterface0250')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -491,7 +491,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0280', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0280  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TtInterface0280")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TtInterface0280')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()
@@ -511,7 +511,7 @@ export default function focusTextTimerTest() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0290', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0290  start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focus_TextTimer/TtInterface0290")
+      Settings.createWindow('testability/pages/scenario/action_event/focus_TextTimer/TtInterface0290')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000);
       windowSnap.snapShot()

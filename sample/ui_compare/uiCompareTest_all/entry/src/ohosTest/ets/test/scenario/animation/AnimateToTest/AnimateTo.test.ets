@@ -50,7 +50,7 @@ export default function animateTo() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_LOADINGPROGRESS_ANIMATETO_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_LOADINGPROGRESS_ANIMATETO_0019 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/animateTo/AnimateTo0019")
+      Settings.createWindow('testability/pages/scenario/animation/animateTo/AnimateTo0019')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
@@ -70,7 +70,7 @@ export default function animateTo() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_LOADINGPROGRESS_ANIMATETO_0018', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_LOADINGPROGRESS_ANIMATETO_0018 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/animateTo/AnimateTo0018")
+      Settings.createWindow('testability/pages/scenario/animation/animateTo/AnimateTo0018')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()

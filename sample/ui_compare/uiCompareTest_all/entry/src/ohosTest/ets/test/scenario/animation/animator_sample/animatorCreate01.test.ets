@@ -50,7 +50,7 @@ export default function animatorCreate01Test() {
      */
     it('SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/animator_sample/animator01")
+      Settings.createWindow('testability/pages/scenario/animation/animator_sample/animator01')
       let driver:Driver = Driver.create();
       for (let i = 0; i < 3; i++) {
         const str = `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0040_${(i+1).toString().padStart(2, '0')}`;
@@ -77,7 +77,7 @@ export default function animatorCreate01Test() {
      */
     it('SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/animator_sample/animator02")
+      Settings.createWindow('testability/pages/scenario/animation/animator_sample/animator02')
       let driver:Driver = Driver.create();
       for (let i = 0; i < 5; i++) {
         const str = `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0020_${(i+1).toString().padStart(2, '0')}`;
@@ -104,7 +104,7 @@ export default function animatorCreate01Test() {
      */
     it('SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/animator_sample/animator03")
+      Settings.createWindow('testability/pages/scenario/animation/animator_sample/animator03')
       let driver:Driver = Driver.create();
       for (let i = 0; i < 3; i++) {
         const str = `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0090_${(i+1).toString().padStart(2, '0')}`;
@@ -131,7 +131,7 @@ export default function animatorCreate01Test() {
      */
     it('SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/animator_sample/animator04")
+      Settings.createWindow('testability/pages/scenario/animation/animator_sample/animator04')
       let driver:Driver = Driver.create();
       for (let i = 0; i < 10; i++) {
         const str = `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0070_${(i+1).toString().padStart(2, '0')}`;
@@ -158,7 +158,7 @@ export default function animatorCreate01Test() {
      */
     it('SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/animator_sample/animator05")
+      Settings.createWindow('testability/pages/scenario/animation/animator_sample/animator05')
       let driver:Driver = Driver.create();
       for (let i = 0; i < 6; i++) {
         const str = `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0010_${(i+1).toString().padStart(2, '0')}`;
@@ -185,7 +185,7 @@ export default function animatorCreate01Test() {
      */
     it('SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/animation/animator_sample/animator06")
+      Settings.createWindow('testability/pages/scenario/animation/animator_sample/animator06')
       let driver:Driver = Driver.create();
       for (let i = 0; i < 1; i++) {
         const str = `SUB_ACE_UI_OHOS_ANIMATOR_SIMPLE_CREATE_0160_${(i+1).toString().padStart(2, '0')}`;
