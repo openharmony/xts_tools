@@ -51,7 +51,7 @@ struct UIComponentScrollPullDown0250 {
       WaterFlow() {
         ForEach(this.arr, (item: number) => {
           FlowItem() {
-            Text("item" + item)
+            Text('item' + item)
               .width('25%')
               .height(150)
               .backgroundColor(Color.White)

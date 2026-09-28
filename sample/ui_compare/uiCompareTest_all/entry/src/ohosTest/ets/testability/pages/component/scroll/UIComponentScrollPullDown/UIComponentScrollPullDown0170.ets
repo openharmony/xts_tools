@@ -52,7 +52,7 @@ struct UIComponentScrollPullDown0170 {
       Grid(this.scroller) {
         ForEach(this.arr, (item: number) => {
           GridItem() {
-            Text("item" + item)
+            Text('item' + item)
               .width('100%')
               .height(150)
               .backgroundColor(Color.White)

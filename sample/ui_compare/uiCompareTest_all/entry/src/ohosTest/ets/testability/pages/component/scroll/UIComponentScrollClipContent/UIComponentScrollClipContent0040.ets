@@ -33,13 +33,13 @@ struct UIComponentScrollClipContent0040 {
           .margin(10)
           .textAlign(TextAlign.Center)
       }
-      .width("100%")
+      .width('100%')
       .height('20%')
 
       Scroll() {
         Column() {
         }
-        .width("100%")
+        .width('100%')
         .height('100%')
         .backgroundColor(Color.Yellow)
       }

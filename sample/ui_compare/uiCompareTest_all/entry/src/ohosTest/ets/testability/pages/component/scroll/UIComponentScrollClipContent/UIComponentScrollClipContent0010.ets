@@ -40,7 +40,7 @@ struct UIComponentScrollClipContent0010 {
   listCard() {
     .backgroundColor(Color.White)
     .height(72)
-    .width("100%")
+    .width('100%')
     .borderRadius(12)
   }
 
@@ -77,7 +77,7 @@ struct UIComponentScrollClipContent0010 {
             }
           })
       }
-      .width("100%")
+      .width('100%')
       .height('20%')
 
       Scroll() {
@@ -85,20 +85,20 @@ struct UIComponentScrollClipContent0010 {
           List({ space: 10 }) {
             ForEach(this.arr, (item: number) => {
               ListItem() {
-                Text("item" + item)
+                Text('item' + item)
                   .fontSize(16)
               }
               .listCard()
             }, (item: string) => item)
           }
           .id(this.name + '_01')
-          .width("100%")
+          .width('100%')
           .nestedScroll({
             scrollForward: NestedScrollMode.PARENT_FIRST,
             scrollBackward: NestedScrollMode.SELF_FIRST
           })
         }
-        .width("100%")
+        .width('100%')
         .height('100%')
         .backgroundColor(Color.Yellow)
       }

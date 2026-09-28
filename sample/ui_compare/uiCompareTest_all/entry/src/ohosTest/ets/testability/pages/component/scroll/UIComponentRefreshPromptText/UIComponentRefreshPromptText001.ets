@@ -18,7 +18,7 @@
 struct UIComponentRefreshPromptText001 {
   @State message: string = 'Hello'
   @State isRefreshing: boolean = false
-  @State promptText: string = "Refreshing..."
+  @State promptText: string = 'Refreshing...'
   @State arr: String[] = ['0', '1', '2', '3', '4','5','6','7','8','9','10']
 
   build() {

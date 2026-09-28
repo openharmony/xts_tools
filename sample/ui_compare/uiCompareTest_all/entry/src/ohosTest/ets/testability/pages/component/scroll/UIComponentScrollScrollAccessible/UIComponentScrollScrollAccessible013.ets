@@ -67,7 +67,7 @@ struct UIComponentScrollScrollAccessible013 {
         LazyForEach(this.dataSource, (item: number) => {
           FlowItem() {
             Column() {
-              Button("N" + item)
+              Button('N' + item)
                 .height(100)
                 .width('50%')
             }
@@ -86,7 +86,7 @@ struct UIComponentScrollScrollAccessible013 {
       }
       .scrollBar(BarState.On)
       .scrollBarWidth(12)
-      .columnsTemplate("1fr 1fr")
+      .columnsTemplate('1fr 1fr')
       .columnsGap(10)
       .rowsGap(5)
       .backgroundColor(0xFAEEE0)

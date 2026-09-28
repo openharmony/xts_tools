@@ -52,7 +52,7 @@ struct UIComponentScrollPullDown0100 {
         Column() {
           ForEach(this.arr, (item: number) => {
             ListItem() {
-              Text("item" + item)
+              Text('item' + item)
                 .width('100%')
                 .height(150)
                 .backgroundColor(Color.White)

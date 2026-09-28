@@ -47,16 +47,16 @@ struct UIComponentScrollScrollAccessible026 {
     Text(text)
       .fontSize(20)
       .backgroundColor(0xAABBCC)
-      .width("100%")
+      .width('100%')
       .padding(10)
   }
 
   @Builder
   itemFoot(num: number) {
-    Text('共' + num + "节课")
+    Text('共' + num + '节课')
       .fontSize(16)
       .backgroundColor(0xAABBCC)
-      .width("100%")
+      .width('100%')
       .padding(5)
   }
 
@@ -74,7 +74,7 @@ struct UIComponentScrollScrollAccessible026 {
               ForEach(item.projects, (project: string) => {
                 ListItem() {
                   Text(project)
-                    .width("100%")
+                    .width('100%')
                     .height(100)
                     .fontSize(20)
                     .textAlign(TextAlign.Center)

@@ -160,14 +160,14 @@ struct UIComponentScrollAlphabetIndexerModifier1280 {
 
       Scroll() {
         Column() {
-          Text("outer component top")
+          Text('outer component top')
             .fontSize(20)
             .fontColor(Color.White)
             .fontWeight(FontWeight.Medium)
             .fontStyle(FontStyle.Italic)
             .textAlign(TextAlign.Center)
-            .width("100%")
-            .height("20%")
+            .width('100%')
+            .height('20%')
             .backgroundColor('#0080DC')
             .lineHeight(20)
             .maxLines(2)
@@ -263,7 +263,7 @@ struct UIComponentScrollAlphabetIndexerModifier1280 {
           .scrollBarColor(Color.Red)
           .scrollBarWidth(10)
           .backToTop(true)
-          .width("100%")
+          .width('100%')
           .height('60%')
           .nestedScroll(this.nestedScrollValue)
           .margin({
@@ -273,16 +273,16 @@ struct UIComponentScrollAlphabetIndexerModifier1280 {
             right: 5
           })
           .onScrollFrameBegin((offset: number, state: ScrollState) => {
-            console.info("Scroll onScrollFrameBegin");
+            console.info('Scroll onScrollFrameBegin');
             this.message += `\n Scroll onScrollFrameBegin, offset: ${offset}, state: ${state}`;
             return { offsetRemain: offset };
           })
           .onWillScroll((xOffset: number, yOffset: number, scrollState: ScrollState) => {
-            console.info("Scroll onWillScroll");
+            console.info('Scroll onWillScroll');
             this.message += `\n Scroll onWillScroll, scrollXOffset: ${xOffset.toString()}, scrollYOffset: ${yOffset.toString()}, scrollState: ${scrollState.toString()}`;
           })
           .onDidScroll((xOffset: number, yOffset: number, scrollState: ScrollState) => {
-            console.info("Scroll onDidScroll");
+            console.info('Scroll onDidScroll');
             console.info(xOffset.toString());
             console.info(yOffset.toString());
             console.info(scrollState.toString());
@@ -293,30 +293,30 @@ struct UIComponentScrollAlphabetIndexerModifier1280 {
             this.message += `\n Scroll onScrollEdge, side: ${side}`;
           })
           .onScrollStart(() => {
-            console.info("Scroll onScrollStart");
+            console.info('Scroll onScrollStart');
             this.message += `\n Scroll onScrollStart`;
           })
           .onScrollStop(() => {
-            console.info("Scroll onScrollStop");
+            console.info('Scroll onScrollStop');
             this.message += `\n Scroll onScrollStop`;
           })
           .onReachStart(() => {
-            console.info("Scroll onReachStart");
+            console.info('Scroll onReachStart');
             this.message += `\n Scroll onReachStart`;
           })
           .onReachEnd(() => {
-            console.info("Scroll onReachEnd");
+            console.info('Scroll onReachEnd');
             this.message += `\n Scroll onReachEnd`;
           })
 
-          Text("outer component bottom")
+          Text('outer component bottom')
             .fontSize(20)
             .fontColor(Color.White)
             .fontWeight(FontWeight.Medium)
             .fontStyle(FontStyle.Italic)
             .textAlign(TextAlign.Center)
-            .width("100%")
-            .height("20%")
+            .width('100%')
+            .height('20%')
             .backgroundColor('#0080DC')
             .lineHeight(20)
             .maxLines(2)

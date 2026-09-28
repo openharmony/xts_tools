@@ -27,37 +27,37 @@ struct UIComponentScrollFadingEdge0020 {
   listCard() {
     .backgroundColor(Color.White)
     .height(72)
-    .width("100%")
+    .width('100%')
     .borderRadius(12)
   }
 
   build() {
     Scroll() {
       Column() {
-        Text("Scroll Area")
-          .width("100%")
-          .height("30%")
+        Text('Scroll Area')
+          .width('100%')
+          .height('30%')
           .backgroundColor(Color.Yellow)
           .textAlign(TextAlign.Center)
 
         List({ space: 10 }) {
           ForEach(this.arr, (item: number) => {
             ListItem() {
-              Text("item" + item)
+              Text('item' + item)
                 .fontSize(16)
             }
             .listCard()
           }, (item: string) => item)
         }
         .id(this.name + '_01')
-        .width("100%")
+        .width('100%')
         .nestedScroll({
           scrollForward: NestedScrollMode.PARENT_FIRST,
           scrollBackward: NestedScrollMode.SELF_FIRST
         })
 
       }
-      .width("100%")
+      .width('100%')
     }
     .fadingEdge(this.fadingEdgeFlag,{fadingEdgeLength:LengthMetrics.vp(80)})
     .friction(0.6)

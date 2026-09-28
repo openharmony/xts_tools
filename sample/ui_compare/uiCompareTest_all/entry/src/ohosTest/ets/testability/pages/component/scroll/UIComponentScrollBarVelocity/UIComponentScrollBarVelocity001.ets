@@ -82,7 +82,7 @@ struct UIComponentScrollBarVelocity001 {
             LazyForEach(this.dataSource, (item: number) => {
               FlowItem() {
                 Column() {
-                  Text("N" + item)
+                  Text('N' + item)
                     .textAlign(TextAlign.Center)
                     .fontStyle(FontStyle.Normal)
                 }
@@ -102,7 +102,7 @@ struct UIComponentScrollBarVelocity001 {
           .id('WaterFlow1')
           .layoutDirection(FlexDirection.RowReverse)
           .scrollBar(BarState.On)
-          .columnsTemplate("1fr 1fr")
+          .columnsTemplate('1fr 1fr')
           .columnsGap(10)
           .rowsGap(5)
           .backgroundColor(0xFAEEE0)
@@ -126,7 +126,7 @@ struct UIComponentScrollBarVelocity001 {
             LazyForEach(this.dataSource, (item: number) => {
               FlowItem() {
                 Column() {
-                  Text("N" + item)
+                  Text('N' + item)
                     .textAlign(TextAlign.Center)
                     .fontStyle(FontStyle.Normal)
                 }
@@ -146,7 +146,7 @@ struct UIComponentScrollBarVelocity001 {
           .id('WaterFlow2')
           .layoutDirection(FlexDirection.RowReverse)
           .scrollBar(BarState.On)
-          .columnsTemplate("1fr 1fr")
+          .columnsTemplate('1fr 1fr')
           .columnsGap(10)
           .rowsGap(5)
           .backgroundColor(0xFAEEE0)
