@@ -110,16 +110,16 @@ struct UIComponentGridAnimation0040 {
         console.info(scrollState.toString());
       })
       .onScrollStart(() => {
-        console.info("XXX" + "Grid onScrollStart");
+        console.info('XXX' + 'Grid onScrollStart');
       })
       .onScrollStop(() => {
-        console.info("XXX" + "Grid onScrollStop");
+        console.info('XXX' + 'Grid onScrollStop');
       })
       .onReachStart(() => {
-        console.info("XXX" + "Grid onReachStart");
+        console.info('XXX' + 'Grid onReachStart');
       })
       .onReachEnd(() => {
-        console.info("XXX" + "Grid onReachEnd");
+        console.info('XXX' + 'Grid onReachEnd');
       })
       
     }

@@ -131,11 +131,11 @@ struct UIComponentGridEvent0090 {
         return this.pixelMapBuilder();
       })
       .onItemDragMove((event: ItemDragInfo, itemIndex: number, insertIndex: number) => {
-        console.info("Grid onItemDragMove");
+        console.info('Grid onItemDragMove');
         this.message += `\n Grid onItemDragMove, event: ${event.toString()}, itemIndex: ${itemIndex.toString()}, insertIndex: ${insertIndex.toString()}`;
       })
       .onItemDrop((event: ItemDragInfo, itemIndex: number, insertIndex: number, isSuccess: boolean) => {
-        console.info("Grid onItemDrop");
+        console.info('Grid onItemDrop');
         if (!isSuccess || insertIndex >= this.numbers.length) {
           return;
         }
@@ -156,15 +156,15 @@ struct UIComponentGridEvent0090 {
         this.message += `\n Grid onScrollStart`;
       })
       .onScrollStop(() => {
-        console.info("Grid onScrollStop");
+        console.info('Grid onScrollStop');
         this.message += `\n Grid onScrollStop`;
       })
       .onReachStart(() => {
-        console.info("Grid onReachStart");
+        console.info('Grid onReachStart');
         this.message += `\n Grid onReachStart`;
       })
       .onReachEnd(() => {
-        console.info("Grid onReachEnd");
+        console.info('Grid onReachEnd');
         this.message += `\n Grid onReachEnd`;
       })
 

@@ -113,19 +113,19 @@ struct UIComponentGridAnimation0150 {
         this.message += `\n Grid onDidScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}`;
       })
       .onScrollStart(() => {
-        console.info("XXX" + "Grid onScrollStart");
+        console.info('XXX' + 'Grid onScrollStart');
         this.message += `\n Grid onScrollStart`;
       })
       .onScrollStop(() => {
-        console.info("XXX" + "Grid onScrollStop");
+        console.info('XXX' + 'Grid onScrollStop');
         this.message += `\n Grid onScrollStop`;
       })
       .onReachStart(() => {
-        console.info("XXX" + "Grid onReachStart");
+        console.info('XXX' + 'Grid onReachStart');
         this.message += `\n Grid onReachStart`;
       })
       .onReachEnd(() => {
-        console.info("XXX" + "Grid onReachEnd");
+        console.info('XXX' + 'Grid onReachEnd');
         this.message += `\n Grid onReachEnd`;
       })
 

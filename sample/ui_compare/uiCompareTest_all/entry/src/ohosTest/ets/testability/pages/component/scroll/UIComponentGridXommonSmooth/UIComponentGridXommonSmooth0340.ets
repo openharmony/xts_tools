@@ -134,19 +134,19 @@ struct UIComponentGridXommonSmooth0340 {
         return this.pixelMapBuilder();
       })
       .onItemDragEnter((event: ItemDragInfo) => {
-        console.info("Grid onItemDragEnter");
+        console.info('Grid onItemDragEnter');
         this.message += `\n Grid onItemDragEnter, event: ${JSON.stringify(event)}`;
       })
       .onItemDragLeave((event: ItemDragInfo, itemIndex: number) => {
-        console.info("Grid onItemDragLeave");
+        console.info('Grid onItemDragLeave');
         this.message += `\n Grid onItemDragLeave, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}`;
       })
       .onItemDragMove((event: ItemDragInfo, itemIndex: number, insertIndex: number) => {
-        console.info("Grid onItemDragMove");
+        console.info('Grid onItemDragMove');
         this.message += `\n Grid onItemDragMove, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}, insertIndex: ${insertIndex.toString()}`;
       })
       .onItemDrop((event: ItemDragInfo, itemIndex: number, insertIndex: number, isSuccess: boolean) => {
-        console.info("Grid onItemDrop");
+        console.info('Grid onItemDrop');
         this.message += `\n Grid onItemDrop, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}, insertIndex: ${insertIndex.toString()}, isSuccess: ${isSuccess}`;
       })
       .onScrollFrameBegin((offset: number, state: ScrollState) => {
@@ -154,7 +154,7 @@ struct UIComponentGridXommonSmooth0340 {
         return { offsetRemain: offset };
       })
       .onScrollBarUpdate((index: number, offset: number) => {
-        console.info('Grid onScrollBarUpdate,index : ' + index.toString() + ",offset" + offset.toString());
+        console.info('Grid onScrollBarUpdate,index : ' + index.toString() + ',offset' + offset.toString());
         return {
           totalOffset: (index / 5) * (80 + 10) - offset,
           totalLength: 80 * 5 + 10 * 4
@@ -166,7 +166,7 @@ struct UIComponentGridXommonSmooth0340 {
         this.message += `\n Grid onScrollIndex, first: ${first.toString()}, last: ${last.toString()}`;
       })
       .onWillScroll((scrollOffset: number, scrollState: ScrollState, scrollSource: ScrollSource) => {
-        console.info("Grid onWillScroll");
+        console.info('Grid onWillScroll');
         this.message += `\n Grid onWillScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}, scrollSource: ${scrollSource.toString()}`;
       })
       .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
@@ -182,15 +182,15 @@ struct UIComponentGridXommonSmooth0340 {
         this.message += `\n Grid onScrollStart`;
       })
       .onScrollStop(() => {
-        console.info("Grid onScrollStop");
+        console.info('Grid onScrollStop');
         this.message += `\n Grid onScrollStop`;
       })
       .onReachStart(() => {
-        console.info("Grid onReachStart");
+        console.info('Grid onReachStart');
         this.message += `\n Grid onReachStart`;
       })
       .onReachEnd(() => {
-        console.info("Grid onReachEnd");
+        console.info('Grid onReachEnd');
         this.message += `\n Grid onReachEnd`;
       })
 

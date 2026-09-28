@@ -33,7 +33,7 @@ struct UiRichEditorScroll0080 {
 
       // 测试按钮：添加预置图文（用于验证样式一致性）
       Button('添加多行图片')
-        .id("addImageBtn0080")
+        .id('addImageBtn0080')
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
@@ -42,11 +42,11 @@ struct UiRichEditorScroll0080 {
 
             this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
               imageStyle: {
-                size: ["100px", "100px"],
+                size: ['100px', '100px'],
               }
             })
 
-            this.controller.addTextSpan("第"+i+"个\n")
+            this.controller.addTextSpan('第'+i+'个\n')
           }
         })
         .margin(10)

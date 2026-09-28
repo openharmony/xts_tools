@@ -31,7 +31,7 @@ class GridModifierUIComponentGridEventModifier0100 implements AttributeModifier<
   applyNormalAttribute(instance: GridAttribute): void {
     instance
       .onItemDragStart((event: ItemDragInfo, itemIndex: number) => {
-        console.info("Grid onItemDragStart");
+        console.info('Grid onItemDragStart');
         this.info.message += `\n Grid onItemDragStart, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex}`;
       })
   }
@@ -124,19 +124,19 @@ struct UIComponentGridEventModifier0100 {
       .editMode(true)
       .attributeModifier(this.modifier)
       .onItemDragEnter((event: ItemDragInfo) => {
-        console.info("Grid onItemDragEnter");
+        console.info('Grid onItemDragEnter');
         this.info.message += `\n Grid onItemDragEnter, event: ${JSON.stringify(event)}`;
       })
       .onItemDragLeave((event: ItemDragInfo, itemIndex: number) => {
-        console.info("Grid onItemDragLeave");
+        console.info('Grid onItemDragLeave');
         this.info.message += `\n Grid onItemDragLeave, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}`;
       })
       .onItemDragMove((event: ItemDragInfo, itemIndex: number, insertIndex: number) => {
-        console.info("Grid onItemDragMove");
+        console.info('Grid onItemDragMove');
         this.info.message += `\n Grid onItemDragMove, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}, insertIndex: ${insertIndex.toString()}`;
       })
       .onItemDrop((event: ItemDragInfo, itemIndex: number, insertIndex: number, isSuccess: boolean) => {
-        console.info("Grid onItemDrop");
+        console.info('Grid onItemDrop');
         if (!isSuccess || insertIndex >= this.numbers.length) {
           return;
         }
@@ -148,7 +148,7 @@ struct UIComponentGridEventModifier0100 {
         return { offsetRemain: offset };
       })
       .onScrollBarUpdate((index: number, offset: number) => {
-        console.info('Grid onScrollBarUpdate,index : ' + index.toString() + ",offset" + offset.toString());
+        console.info('Grid onScrollBarUpdate,index : ' + index.toString() + ',offset' + offset.toString());
         return {
           totalOffset: (index / 5) * (80 + 10) - offset,
           totalLength: 80 * 5 + 10 * 4
@@ -160,7 +160,7 @@ struct UIComponentGridEventModifier0100 {
         this.info.message += `\n Grid onReachEnd, first: ${first.toString()}, last: ${last.toString()}`;
       })
       .onWillScroll((scrollOffset: number, scrollState: ScrollState, scrollSource: ScrollSource) => {
-        console.info("Grid onWillScroll");
+        console.info('Grid onWillScroll');
         this.info.message += `\n Grid onWillScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}, scrollSource: ${scrollSource.toString()}`;
       })
       .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
@@ -176,15 +176,15 @@ struct UIComponentGridEventModifier0100 {
         this.info.message += `\n Grid onScrollStart`;
       })
       .onScrollStop(() => {
-        console.info("Grid onScrollStop");
+        console.info('Grid onScrollStop');
         this.info.message += `\n Grid onScrollStop`;
       })
       .onReachStart(() => {
-        console.info("Grid onReachStart");
+        console.info('Grid onReachStart');
         this.info.message += `\n Grid onReachStart`;
       })
       .onReachEnd(() => {
-        console.info("Grid onReachEnd");
+        console.info('Grid onReachEnd');
         this.info.message += `\n Grid onReachEnd`;
       })
 

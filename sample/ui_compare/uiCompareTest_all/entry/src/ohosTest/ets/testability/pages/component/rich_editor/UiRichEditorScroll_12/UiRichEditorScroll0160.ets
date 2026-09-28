@@ -37,7 +37,7 @@ struct UiRichEditorScroll0160 {
         .backgroundColor(Color.White)
         .onReady(() => {
           // 初始化时添加少量内容
-          this.controller.addTextSpan("测试开始：", {
+          this.controller.addTextSpan('测试开始：', {
             style: {
               fontSize: 30,
               fontColor: Color.Black

@@ -28,13 +28,13 @@ struct UiRichEditorScroll0070 {
     Column() {
       // 测试按钮：添加预置图文（用于验证样式一致性）
       Button('添加超尺寸的单字符')
-        .id("addTextBtn0070")
+        .id('addTextBtn0070')
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
         .onClick(() => {
           // 添加一些文本内容
-          this.controller.addTextSpan("深",
+          this.controller.addTextSpan('深',
             {
               style:{
                 fontSize: 240
