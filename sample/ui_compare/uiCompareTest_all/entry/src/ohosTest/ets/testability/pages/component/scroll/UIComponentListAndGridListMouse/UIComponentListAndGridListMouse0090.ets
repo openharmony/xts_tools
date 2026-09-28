@@ -295,30 +295,30 @@ struct UIComponentListAndGridListMouse0090 {
         right: 5
       })
       .onItemMove((from: number, to: number) =>{
-        console.info("LazyForEach-List onItemMove");
+        console.info('LazyForEach-List onItemMove');
         this.message += `\n LazyForEach-List onItemMove, from: ${from.toString()}, to: ${to.toString()}`;
         return true;
       })
       .onItemDragStart((event: ItemDragInfo, itemIndex: number) => {
-        console.info("LazyForEach-List onItemDragStart");
+        console.info('LazyForEach-List onItemDragStart');
         this.message += `\n LazyForEach-List onItemDragStart, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}`;
         this.text = this.numbers[itemIndex].toString();
         return this.pixelMapBuilder();
       })
       .onItemDragEnter((event: ItemDragInfo) => {
-        console.info("LazyForEach-List onItemDragEnter");
+        console.info('LazyForEach-List onItemDragEnter');
         this.message += `\n LazyForEach-List onItemDragEnter, event: ${JSON.stringify(event)}`;
       })
       .onItemDragLeave((event: ItemDragInfo, itemIndex: number) => {
-        console.info("LazyForEach-List onItemDragLeave");
+        console.info('LazyForEach-List onItemDragLeave');
         this.message += `\n LazyForEach-List onItemDragLeave, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}`;
       })
       .onItemDragMove((event: ItemDragInfo, itemIndex: number, insertIndex: number) => {
-        console.info("LazyForEach-List onItemDragMove");
+        console.info('LazyForEach-List onItemDragMove');
         this.message += `\n LazyForEach-List onItemDragMove, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}, insertIndex: ${insertIndex.toString()}`;
       })
       .onItemDrop((event: ItemDragInfo, itemIndex: number, insertIndex: number, isSuccess: boolean) => {
-        console.info("LazyForEach-List onItemDrop");
+        console.info('LazyForEach-List onItemDrop');
         if (!isSuccess || insertIndex >= this.numbers.length) {
           return;
         }
@@ -326,49 +326,49 @@ struct UIComponentListAndGridListMouse0090 {
         this.message += `\n LazyForEach-List onItemDrop, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}, insertIndex: ${insertIndex.toString()}, isSuccess: ${isSuccess}`;
       })
       .onScrollVisibleContentChange((start: VisibleListContentInfo, end: VisibleListContentInfo) => {
-        console.info("LazyForEach-List onScrollVisibleContentChange");
+        console.info('LazyForEach-List onScrollVisibleContentChange');
         this.message += `\n LazyForEach-List onScrollVisibleContentChange, start: ${JSON.stringify(start)}, end: ${JSON.stringify(end)}`;
       })
       .onScrollFrameBegin((offset: number, state: ScrollState) => {
-        console.info("LazyForEach-List onScrollFrameBegin");
+        console.info('LazyForEach-List onScrollFrameBegin');
         this.message += `\n LazyForEach-List onScrollFrameBegin, offset: ${offset}, state: ${state}`;
         return { offsetRemain: offset };
       })
       .onScrollIndex((first: number, last: number) => {
-        console.info("LazyForEach-List onScrollIndex");
+        console.info('LazyForEach-List onScrollIndex');
         console.info(first.toString());
         console.info(last.toString());
         this.message += `\n LazyForEach-List onScrollIndex, first: ${first.toString()}, last: ${last.toString()}`;
       })
       .onWillScroll((scrollOffset: number, scrollState: ScrollState, scrollSource: ScrollSource) => {
-        console.info("LazyForEach-List onWillScroll");
+        console.info('LazyForEach-List onWillScroll');
         this.message += `\n LazyForEach-List onWillScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}, scrollSource: ${scrollSource.toString()}`;
       })
       .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
-        console.info("LazyForEach-List onDidScroll");
+        console.info('LazyForEach-List onDidScroll');
         console.info(scrollOffset.toString());
         console.info(scrollState.toString());
         this.message += `\n LazyForEach-List onDidScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}`;
       })
       .onScrollFrameBegin((offset: number, state: ScrollState) => {
-        console.info("LazyForEach-List onScrollFrameBegin");
+        console.info('LazyForEach-List onScrollFrameBegin');
         this.message += `\n LazyForEach-List onScrollFrameBegin, offset: ${offset}, state: ${state}`;
         return { offsetRemain: offset };
       })
       .onScrollStart(() => {
-        console.info("LazyForEach-List onScrollStart");
+        console.info('LazyForEach-List onScrollStart');
         this.message += `\n LazyForEach-List onScrollStart`;
       })
       .onScrollStop(() => {
-        console.info("LazyForEach-List onScrollStop");
+        console.info('LazyForEach-List onScrollStop');
         this.message += `\n LazyForEach-List onScrollStop`;
       })
       .onReachStart(() => {
-        console.info("LazyForEach-List onReachStart");
+        console.info('LazyForEach-List onReachStart');
         this.message += `\n LazyForEach-List onReachStart`;
       })
       .onReachEnd(() => {
-        console.info("LazyForEach-List onReachEnd");
+        console.info('LazyForEach-List onReachEnd');
         this.message += `\n LazyForEach-List onReachEnd`;
       })
 
