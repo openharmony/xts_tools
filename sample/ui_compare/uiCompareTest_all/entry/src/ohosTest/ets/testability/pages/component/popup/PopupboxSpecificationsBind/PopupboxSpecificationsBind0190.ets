@@ -62,15 +62,15 @@ struct PopupboxSpecificationsBind0190 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0190")
+        .id('message_text_bind_0190')
 
       Text('动效状态: ' + this.animationStatus)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("animation_status_bind_0190")
+        .id('animation_status_bind_0190')
 
       Button('点击弹出气泡')
-        .id("button_bind_0190")
+        .id('button_bind_0190')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindPopup(this.isShow, {
@@ -112,14 +112,14 @@ struct PopupboxSpecificationsBind0190 {
         })
 
       Button('显示isShow状态')
-        .id("show_status_bind_0190")
+        .id('show_status_bind_0190')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow
         })
 
       Button('人为打断动效')
-        .id("interrupt_animation_bind_0190")
+        .id('interrupt_animation_bind_0190')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {
@@ -138,7 +138,7 @@ struct PopupboxSpecificationsBind0190 {
         })
 
       Button('模拟点击空白区域')
-        .id("click_blank_bind_0190")
+        .id('click_blank_bind_0190')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {

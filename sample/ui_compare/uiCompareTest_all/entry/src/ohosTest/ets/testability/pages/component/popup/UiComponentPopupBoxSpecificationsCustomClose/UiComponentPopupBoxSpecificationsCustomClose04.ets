@@ -17,7 +17,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 import { ComponentContent, promptAction } from '@kit.ArkUI';
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   externalController: promptAction.DialogController = new promptAction.DialogController();
   closeCallback: () => void = () => {};
 
@@ -70,7 +70,7 @@ function buildText(params: Params) {
 @Entry
 @ComponentV2
 struct UiComponentPopupBoxSpecificationsCustomClose04 {
-  @Local message: string = "测试弹窗";
+  @Local message: string = '测试弹窗';
   private dialogController: promptAction.DialogController = new promptAction.DialogController();
   private baseDialogOptions9: promptAction.BaseDialogOptions = {
     alignment: DialogAlignment.CenterEnd,
@@ -100,7 +100,7 @@ struct UiComponentPopupBoxSpecificationsCustomClose04 {
         .borderRadius(8)
         .width('90%')
 
-      Button("baseDO9")
+      Button('baseDO9')
         .id('UiComponentPopupBoxSpecificationsCustomClose04_03')
         .fontSize(18)
         .width(200)

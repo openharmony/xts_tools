@@ -20,12 +20,12 @@ import router from '@ohos.router';
 @Component
 struct MainPage {
   @State currentFocus: string = 'jumpBtn'
-  @State inputText: string = ""
+  @State inputText: string = ''
   inputCtrl: TextInputController = new TextInputController()
 
   build() {
     Column({ space: 20 }) {
-      Button("跳转次级页")
+      Button('跳转次级页')
         .id('jumpBtn')
         .backgroundColor(this.currentFocus === 'jumpBtn' ? '#2196F3' : '#E0E0E0')
         .onFocus(() => this.currentFocus = 'jumpBtn')
@@ -45,7 +45,7 @@ struct MainPage {
           this.inputCtrl.stopEditing()
         })
 
-      Button("测试按钮")
+      Button('测试按钮')
         .id('testBtn')
         .backgroundColor(this.currentFocus === 'testBtn' ? '#4CAF50' : '#E0E0E0')
         .onFocus(() => this.currentFocus = 'testBtn')
@@ -71,7 +71,7 @@ struct SubPage {
 
   build() {
     Column({ space: 15 }) {
-      Button("返回主页面")
+      Button('返回主页面')
         .id('backBtn')
         .backgroundColor(this.subFocus === 'backBtn' ? '#FF9800' : '#E0E0E0')
         .onFocus(() => this.subFocus = 'backBtn')
@@ -87,7 +87,7 @@ struct SubPage {
         })
         .onBlur(() => this.subFocus = 'backBtn')
 
-      Button("测试按钮2")
+      Button('测试按钮2')
         .id('testBtn2')
         .backgroundColor(this.subFocus === 'testBtn2' ? '#4CAF50' : '#E0E0E0')
         .onFocus(() => this.subFocus = 'testBtn2')

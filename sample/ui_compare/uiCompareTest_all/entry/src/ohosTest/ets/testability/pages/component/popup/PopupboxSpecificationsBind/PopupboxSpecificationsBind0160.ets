@@ -24,15 +24,15 @@ struct PopupboxSpecificationsBind0160 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
+      MenuItem({ content: '菜单项1' })
         .onClick(() => {
           this.message = '菜单项1点击，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项2" })
+      MenuItem({ content: '菜单项2' })
         .onClick(() => {
           this.message = '菜单项2点击，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项3" })
+      MenuItem({ content: '菜单项3' })
         .onClick(() => {
           this.message = '菜单项3点击，isShow值: ' + this.isShow
         })
@@ -59,28 +59,28 @@ struct PopupboxSpecificationsBind0160 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0160")
+        .id('message_text_bind_0160')
 
       Text('屏幕状态: ' + this.screenStatus)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("screen_status_bind_0160")
+        .id('screen_status_bind_0160')
 
       Button('点击打开菜单')
-        .id("button_bind_0160")
+        .id('button_bind_0160')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindMenu(this.MyMenu)
 
       Button('显示isShow状态')
-        .id("show_status_bind_0160")
+        .id('show_status_bind_0160')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow
         })
 
       Button('模拟息屏')
-        .id("simulate_screen_off_bind_0160")
+        .id('simulate_screen_off_bind_0160')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {

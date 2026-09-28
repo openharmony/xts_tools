@@ -46,23 +46,23 @@ struct UIComponentPopupBoxMenuFollow01 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单选项1" })
+      MenuItem({ content: '菜单选项1' })
         .onClick(() => {
           this.handleMenuClick('选项1');
         })
-      MenuItem({ content: "菜单选项2" })
+      MenuItem({ content: '菜单选项2' })
         .onClick(() => {
           this.handleMenuClick('选项2');
         })
-      MenuItem({ content: "菜单选项3" })
+      MenuItem({ content: '菜单选项3' })
         .onClick(() => {
           this.handleMenuClick('选项3');
         })
-      MenuItem({ content: "菜单选项4" })
+      MenuItem({ content: '菜单选项4' })
         .onClick(() => {
           this.handleMenuClick('选项4');
         })
-      MenuItem({ content: "重置状态" })
+      MenuItem({ content: '重置状态' })
         .onClick(() => {
           this.resetState();
         })

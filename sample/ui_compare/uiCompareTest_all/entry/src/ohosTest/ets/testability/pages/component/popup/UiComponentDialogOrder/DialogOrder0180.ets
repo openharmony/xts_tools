@@ -30,7 +30,7 @@ struct CustomDialogExample0180 {
     Column({ space: 15 }) {
       Text('CustomDialogController弹窗').fontSize(18).fontWeight(FontWeight.Bold)
       Text('层级设置为: undefined (默认0)').fontSize(14).fontColor('#666666')
-      Button('确定').onClick(() => { this.onConfirm(); if (this.controller) this.controller.close(); })
+      Button('确定').onClick(() => { this.onConfirm(); if (this.controller) { this.controller.close(); } })
     }.padding(20)
   }
 }

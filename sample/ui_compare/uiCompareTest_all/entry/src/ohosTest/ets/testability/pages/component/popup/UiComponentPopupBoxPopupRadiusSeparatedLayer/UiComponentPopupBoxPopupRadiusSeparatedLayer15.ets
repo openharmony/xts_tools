@@ -77,7 +77,7 @@ struct UiComponentPopupBoxPopupRadiusSeparatedLayer15 {
           message: 'This is a popup with PopupOptions',
           placementOnTop: true,
           showInSubWindow:false,
-          radius:"20lpx",
+          radius:'20lpx',
           primaryButton: {
             value: 'confirm',
             action: () => {

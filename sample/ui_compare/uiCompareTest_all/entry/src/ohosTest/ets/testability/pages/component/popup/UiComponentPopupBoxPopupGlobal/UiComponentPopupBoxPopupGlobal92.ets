@@ -81,7 +81,7 @@ class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
 
   constructor(text: string, promptActionClass: PromptActionClass) {
@@ -119,7 +119,7 @@ function buildText(params: Params) {
 @Entry
 @Component
 struct UiComponentPopupBoxPopupGlobal92 {
-  @State message: string = "hello";
+  @State message: string = 'hello';
   @State rotateAngle: number = 0;
   @State isRotating: boolean = false;
   private uiContext: UIContext = this.getUIContext();
@@ -140,7 +140,7 @@ struct UiComponentPopupBoxPopupGlobal92 {
         .fontStyle(FontStyle.Italic)
         .fontWeight(FontWeight.Bold)
 
-      Button("openPopup")
+      Button('openPopup')
         .margin({ top: 20 })
         .id('UiComponentPopupBoxPopupGlobal92')
         .rotate({ angle: this.rotateAngle })

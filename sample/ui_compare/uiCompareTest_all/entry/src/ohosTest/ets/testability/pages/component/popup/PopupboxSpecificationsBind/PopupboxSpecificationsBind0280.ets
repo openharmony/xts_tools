@@ -24,19 +24,19 @@ struct PopupboxSpecificationsBind0280 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
+      MenuItem({ content: '菜单项1' })
         .onClick(() => {
           this.menuItemStatus = '点击菜单项1'
           this.isShow = false
           this.message = '点击菜单项1关闭，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项2" })
+      MenuItem({ content: '菜单项2' })
         .onClick(() => {
           this.menuItemStatus = '点击菜单项2'
           this.isShow = false
           this.message = '点击菜单项2关闭，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项3" })
+      MenuItem({ content: '菜单项3' })
         .onClick(() => {
           this.menuItemStatus = '点击菜单项3'
           this.isShow = false
@@ -55,21 +55,21 @@ struct PopupboxSpecificationsBind0280 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0280")
+        .id('message_text_bind_0280')
 
       Text('菜单项状态: ' + this.menuItemStatus)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("menu_item_status_bind_0280")
+        .id('menu_item_status_bind_0280')
 
       Button('点击打开菜单')
-        .id("button_bind_0280")
+        .id('button_bind_0280')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindMenu(this.MyMenu)
 
       Button('显示isShow状态')
-        .id("show_status_bind_0280")
+        .id('show_status_bind_0280')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow

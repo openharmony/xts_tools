@@ -19,7 +19,7 @@ import { PromptAction, promptAction } from '@kit.ArkUI';
 @Entry
 @ComponentV2
 struct UIComponentPopupBoxSpecificationsCustomClose07 {
-  @Local message: string = "presentCustomDialog 测试";
+  @Local message: string = 'presentCustomDialog 测试';
   private ctx: UIContext = this.getUIContext();
   private promptAction: PromptAction = this.ctx.getPromptAction();
   private dialogController: promptAction.DialogController = new promptAction.DialogController();
@@ -34,7 +34,7 @@ struct UIComponentPopupBoxSpecificationsCustomClose07 {
     maskColor: Color.Yellow,
     keyboardAvoidMode: KeyboardAvoidMode.NONE,
     backgroundBlurStyle: BlurStyle.COMPONENT_THIN,
-    backgroundColor: "#ff000000",
+    backgroundColor: '#ff000000',
     borderColor: 0x999999,
   }
 
@@ -147,7 +147,7 @@ struct UIComponentPopupBoxSpecificationsCustomClose07 {
                   this.testResult = `弹窗已打开，dialogId: ${dialogId}`;
                 })
                 .catch((err: BusinessError) => {
-                  console.error("presentCustomDialog error: " + err.code + " " + err.message);
+                  console.error('presentCustomDialog error: ' + err.code + ' ' + err.message);
                   this.testResult = `弹窗打开失败: ${err.message}`;
                 })
             })

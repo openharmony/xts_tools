@@ -24,15 +24,15 @@ struct PopupboxSpecificationsBind0250 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
+      MenuItem({ content: '菜单项1' })
         .onClick(() => {
           this.message = '菜单项1点击，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项2" })
+      MenuItem({ content: '菜单项2' })
         .onClick(() => {
           this.message = '菜单项2点击，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项3" })
+      MenuItem({ content: '菜单项3' })
         .onClick(() => {
           this.message = '菜单项3点击，isShow值: ' + this.isShow
         })
@@ -49,28 +49,28 @@ struct PopupboxSpecificationsBind0250 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0250")
+        .id('message_text_bind_0250')
 
       Text('空白点击状态: ' + this.blankStatus)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("blank_status_bind_0250")
+        .id('blank_status_bind_0250')
 
       Button('长按打开菜单')
-        .id("button_bind_0250")
+        .id('button_bind_0250')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindContextMenu(this.MyMenu, ResponseType.LongPress)
 
       Button('显示isShow状态')
-        .id("show_status_bind_0250")
+        .id('show_status_bind_0250')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow
         })
 
       Button('模拟点击空白')
-        .id("simulate_blank_click_bind_0250")
+        .id('simulate_blank_click_bind_0250')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {
@@ -118,7 +118,7 @@ struct PopupboxSpecificationsBind0250 {
       .borderRadius(8)
       .margin({ top: 20 })
       .justifyContent(FlexAlign.Center)
-      .id("blank_area_bind_0250")
+      .id('blank_area_bind_0250')
       .onClick(() => {
         if (this.isShow) {
           this.blankStatus = '点击空白区域'

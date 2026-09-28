@@ -58,8 +58,8 @@ struct UIComponentPopUpBoxDoubleStroke0150 {
               this.message += '\n actionSheet canceled';
             },
             onWillDismiss: (dismissDialogAction: DismissDialogAction) => {
-              console.info("reason=" + JSON.stringify(dismissDialogAction.reason))
-              console.info("dialog onWillDismiss");
+              console.info('reason=' + JSON.stringify(dismissDialogAction.reason))
+              console.info('dialog onWillDismiss');
               this.message += '\n actionSheet onWillDismiss, reason = ' + JSON.stringify(dismissDialogAction.reason);
               if (dismissDialogAction.reason === DismissReason.PRESS_BACK) {
                 dismissDialogAction.dismiss();

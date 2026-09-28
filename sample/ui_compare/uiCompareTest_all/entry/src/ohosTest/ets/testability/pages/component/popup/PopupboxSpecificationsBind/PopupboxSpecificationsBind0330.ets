@@ -62,15 +62,15 @@ struct PopupboxSpecificationsBind0330 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0330")
+        .id('message_text_bind_0330')
 
       Text('定时器状态: ' + this.timerStatus)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("timer_status_bind_0330")
+        .id('timer_status_bind_0330')
 
       Button('点击弹出气泡(非双向绑定)')
-        .id("button_bind_0330")
+        .id('button_bind_0330')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindPopup(this.isShow, {
@@ -83,14 +83,14 @@ struct PopupboxSpecificationsBind0330 {
         })
 
       Button('显示isShow状态')
-        .id("show_status_bind_0330")
+        .id('show_status_bind_0330')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow
         })
 
       Button('手动切换isShow')
-        .id("toggle_show_bind_0330")
+        .id('toggle_show_bind_0330')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {
@@ -100,7 +100,7 @@ struct PopupboxSpecificationsBind0330 {
         })
 
       Button('开始定时切换')
-        .id("start_timer_bind_0330")
+        .id('start_timer_bind_0330')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {
@@ -116,7 +116,7 @@ struct PopupboxSpecificationsBind0330 {
         })
 
       Button('停止定时切换')
-        .id("stop_timer_bind_0330")
+        .id('stop_timer_bind_0330')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {
@@ -160,7 +160,7 @@ struct PopupboxSpecificationsBind0330 {
       .borderRadius(8)
       .margin({ top: 20 })
       .justifyContent(FlexAlign.Center)
-      .id("status_display_bind_0330")
+      .id('status_display_bind_0330')
     }
     .width('100%')
     .height('100%')

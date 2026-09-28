@@ -40,7 +40,7 @@ struct PopupboxSpecificationsBind0230 {
         .margin({ bottom: 10 })
       
       Button('Close')
-        .id("close_button_bind_0230")
+        .id('close_button_bind_0230')
         .fontSize(14)
         .backgroundColor(Color.Red)
         .fontColor(Color.White)
@@ -65,15 +65,15 @@ struct PopupboxSpecificationsBind0230 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0230")
+        .id('message_text_bind_0230')
 
       Text('关闭状态: ' + this.closeStatus)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("close_status_bind_0230")
+        .id('close_status_bind_0230')
 
       Button('点击弹出气泡')
-        .id("button_bind_0230")
+        .id('button_bind_0230')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindPopup(this.isShow, {
@@ -98,7 +98,7 @@ struct PopupboxSpecificationsBind0230 {
         })
 
       Button('显示isShow状态')
-        .id("show_status_bind_0230")
+        .id('show_status_bind_0230')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow

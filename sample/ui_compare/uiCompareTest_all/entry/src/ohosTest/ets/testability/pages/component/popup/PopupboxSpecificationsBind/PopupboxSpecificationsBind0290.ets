@@ -24,15 +24,15 @@ struct PopupboxSpecificationsBind0290 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
+      MenuItem({ content: '菜单项1' })
         .onClick(() => {
           this.message = '菜单项1点击，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项2" })
+      MenuItem({ content: '菜单项2' })
         .onClick(() => {
           this.message = '菜单项2点击，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项3" })
+      MenuItem({ content: '菜单项3' })
         .onClick(() => {
           this.message = '菜单项3点击，isShow值: ' + this.isShow
         })
@@ -49,15 +49,15 @@ struct PopupboxSpecificationsBind0290 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0290")
+        .id('message_text_bind_0290')
 
       Text('拖拽状态: ' + this.dragStatus)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("drag_status_bind_0290")
+        .id('drag_status_bind_0290')
 
       Button('长按预览图打开菜单')
-        .id("button_bind_0290")
+        .id('button_bind_0290')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindContextMenu(this.MyMenu, ResponseType.LongPress)
@@ -71,14 +71,14 @@ struct PopupboxSpecificationsBind0290 {
         })
 
       Button('显示isShow状态')
-        .id("show_status_bind_0290")
+        .id('show_status_bind_0290')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow
         })
 
       Button('模拟拖拽预览图')
-        .id("simulate_drag_bind_0290")
+        .id('simulate_drag_bind_0290')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {
@@ -123,7 +123,7 @@ struct PopupboxSpecificationsBind0290 {
           .width(100)
           .height(100)
           .borderRadius(8)
-          .id("preview_image_bind_0290")
+          .id('preview_image_bind_0290')
       }
       .width('100%')
       .height('9.84%')

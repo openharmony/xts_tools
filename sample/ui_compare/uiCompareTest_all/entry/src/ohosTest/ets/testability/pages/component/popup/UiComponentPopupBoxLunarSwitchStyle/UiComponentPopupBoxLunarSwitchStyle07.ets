@@ -16,7 +16,7 @@
 @Entry
 @Component
 struct UiComponentPopupBoxLunarSwitchStyle07 {
-  selectedDate: Date = new Date("2010-1-1")
+  selectedDate: Date = new Date('2010-1-1')
   @State text : string = '(dark mode)DatePickerDialog set LunarSwitchStyle Resource reference type'
 
   build() {
@@ -49,12 +49,12 @@ struct UiComponentPopupBoxLunarSwitchStyle07 {
         .padding(20)
         .borderWidth(1)
 
-      Button("DatePickerDialog")
+      Button('DatePickerDialog')
         .margin(20)
         .onClick(() => {
           DatePickerDialog.show({
-            start: new Date("2000-1-1"),
-            end: new Date("2100-12-31"),
+            start: new Date('2000-1-1'),
+            end: new Date('2100-12-31'),
             selected: this.selectedDate,
             showTime:true,
             useMilitaryTime:false,
@@ -63,30 +63,30 @@ struct UiComponentPopupBoxLunarSwitchStyle07 {
             selectedTextStyle: {color: '#ff182431', font: {size: '14fp', weight: FontWeight.Regular}},
             onDateAccept: (value: Date) => {
               this.selectedDate = value
-              console.info("DatePickerDialog:onDateAccept()" + value.toString())
+              console.info('DatePickerDialog:onDateAccept()' + value.toString())
             },
             onCancel: () => {
-              console.info("DatePickerDialog:onCancel()")
+              console.info('DatePickerDialog:onCancel()')
             },
             onDateChange: (value: Date) => {
-              console.info("DatePickerDialog:onDateChange()" + value.toString())
+              console.info('DatePickerDialog:onDateChange()' + value.toString())
             },
             onDidAppear: () => {
-              console.info("DatePickerDialog:onDidAppear()")
+              console.info('DatePickerDialog:onDidAppear()')
             },
             onDidDisappear: () => {
-              console.info("DatePickerDialog:onDidDisappear()")
+              console.info('DatePickerDialog:onDidDisappear()')
             },
             onWillAppear: () => {
-              console.info("DatePickerDialog:onWillAppear()")
+              console.info('DatePickerDialog:onWillAppear()')
             },
             onWillDisappear: () => {
-              console.info("DatePickerDialog:onWillDisappear()")
+              console.info('DatePickerDialog:onWillDisappear()')
             }
           })
         })
 
-      Button("Lunar DatePickerDialog")
+      Button('Lunar DatePickerDialog')
         .margin(20)
         .controlSize(ControlSize.NORMAL)
         .type(ButtonType.Capsule)
@@ -109,8 +109,8 @@ struct UiComponentPopupBoxLunarSwitchStyle07 {
         })
         .onClick(() => {
           DatePickerDialog.show({
-            start: new Date("2000-1-1"),
-            end: new Date("2100-12-31"),
+            start: new Date('2000-1-1'),
+            end: new Date('2100-12-31'),
             selected: this.selectedDate,
             showTime: true,
             useMilitaryTime: true,
@@ -144,25 +144,25 @@ struct UiComponentPopupBoxLunarSwitchStyle07 {
             },
             onDateAccept: (value: Date) => {
               this.selectedDate = value
-              console.info("DatePickerDialog:onDateAccept()" + value.toString())
+              console.info('DatePickerDialog:onDateAccept()' + value.toString())
             },
             onCancel: () => {
-              console.info("DatePickerDialog:onCancel()")
+              console.info('DatePickerDialog:onCancel()')
             },
             onDateChange: (value: Date) => {
-              console.info("DatePickerDialog:onDateChange()" + value.toString())
+              console.info('DatePickerDialog:onDateChange()' + value.toString())
             },
             onDidAppear: () => {
-              console.info("DatePickerDialog:onDidAppear()")
+              console.info('DatePickerDialog:onDidAppear()')
             },
             onDidDisappear: () => {
-              console.info("DatePickerDialog:onDidDisappear()")
+              console.info('DatePickerDialog:onDidDisappear()')
             },
             onWillAppear: () => {
-              console.info("DatePickerDialog:onWillAppear()")
+              console.info('DatePickerDialog:onWillAppear()')
             },
             onWillDisappear: () => {
-              console.info("DatePickerDialog:onWillDisappear()")
+              console.info('DatePickerDialog:onWillDisappear()')
             }
           })
         })

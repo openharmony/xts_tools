@@ -81,7 +81,7 @@ class PromptActionClass {
 }
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   promptActionClass: PromptActionClass = new PromptActionClass();
 
   constructor(text: string, promptActionClass: PromptActionClass) {
@@ -118,7 +118,7 @@ function buildText(params: Params) {
 @Entry
 @Component
 struct UiComponentPopupBoxPopupGlobal68 {
-  @State message: string = "hello";
+  @State message: string = 'hello';
   private uiContext: UIContext = this.getUIContext();
   private promptAction: PromptAction = this.uiContext.getPromptAction();
   private promptActionClass: PromptActionClass = new PromptActionClass();
@@ -129,7 +129,7 @@ struct UiComponentPopupBoxPopupGlobal68 {
     shadow: {
       radius: 50,
       type: ShadowType.BLUR,
-      color: "#FF00FF",
+      color: '#FF00FF',
       offsetX: 50,
       offsetY: 50,
       fill: false
@@ -138,7 +138,7 @@ struct UiComponentPopupBoxPopupGlobal68 {
 
   build() {
     Column() {
-      Button("openPopup")
+      Button('openPopup')
         .margin({ top: 200, left:175})
         .id('UiComponentPopupBoxPopupGlobal68')
         .onClick(() => {

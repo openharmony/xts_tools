@@ -17,7 +17,7 @@ import { ComponentContent, PromptAction } from '@kit.ArkUI';
 import { BusinessError } from '@kit.BasicServicesKit';
 
 class DialogParams {
-  public message: string = "";
+  public message: string = '';
   promptAction: PromptAction | null = null;
   contentNode: ComponentContent<Object> | null = null;
 

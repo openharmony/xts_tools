@@ -25,15 +25,15 @@ struct PopupboxSpecificationsBind0180 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
+      MenuItem({ content: '菜单项1' })
         .onClick(() => {
           this.message = '菜单项1点击，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项2" })
+      MenuItem({ content: '菜单项2' })
         .onClick(() => {
           this.message = '菜单项2点击，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项3" })
+      MenuItem({ content: '菜单项3' })
         .onClick(() => {
           this.message = '菜单项3点击，isShow值: ' + this.isShow
         })
@@ -50,28 +50,28 @@ struct PopupboxSpecificationsBind0180 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0180")
+        .id('message_text_bind_0180')
 
       Text('动效状态: ' + this.animationStatus)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("animation_status_bind_0180")
+        .id('animation_status_bind_0180')
 
       Button('点击打开菜单')
-        .id("button_bind_0180")
+        .id('button_bind_0180')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindMenu(this.MyMenu)
 
       Button('显示isShow状态')
-        .id("show_status_bind_0180")
+        .id('show_status_bind_0180')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow
         })
 
       Button('人为打断动效')
-        .id("interrupt_animation_bind_0180")
+        .id('interrupt_animation_bind_0180')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {
@@ -90,7 +90,7 @@ struct PopupboxSpecificationsBind0180 {
         })
 
       Button('模拟点击空白区域')
-        .id("click_blank_bind_0180")
+        .id('click_blank_bind_0180')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {

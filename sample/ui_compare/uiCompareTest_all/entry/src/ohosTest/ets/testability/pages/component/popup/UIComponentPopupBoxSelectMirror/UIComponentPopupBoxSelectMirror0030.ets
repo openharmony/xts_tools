@@ -18,7 +18,7 @@
 struct UIComponentPopupBoxSelectMirror0030 {
   @State name: string = 'UIComponentPopupBoxSelectMirror0030';
   @State message: string = this.name;
-  @State text: string = "Select";
+  @State text: string = 'Select';
   @State index: number = 2;
   @State space: number = 8;
   @State arrowPosition: ArrowPosition = ArrowPosition.END;

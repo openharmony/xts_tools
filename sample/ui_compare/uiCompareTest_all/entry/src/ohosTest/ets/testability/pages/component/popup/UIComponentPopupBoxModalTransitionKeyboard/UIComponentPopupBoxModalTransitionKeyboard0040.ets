@@ -34,7 +34,7 @@ struct UIComponentPopupBoxModalTransitionKeyboard0040 {
   @Builder
   myBuilder() {
     Column() {
-      Button("close modal")
+      Button('close modal')
         .borderRadius(20)
         .backgroundColor(0x317aff)
         .fontSize(16)
@@ -46,7 +46,7 @@ struct UIComponentPopupBoxModalTransitionKeyboard0040 {
         .id(this.name + '_02')
 
       TextInput({
-        placeholder: "TextInput placeholder"
+        placeholder: 'TextInput placeholder'
       })
         .width('50%')
         .height(35)
@@ -81,7 +81,7 @@ struct UIComponentPopupBoxModalTransitionKeyboard0040 {
           bottom: 10
         })
 
-      Button("bindsheet")
+      Button('bindsheet')
         .onClick(() => {
           this.isShow = true;
         })
@@ -108,19 +108,19 @@ struct UIComponentPopupBoxModalTransitionKeyboard0040 {
           backgroundColor: Color.Yellow,
           preferType: this.sheetType,
           onWillAppear: () => {
-            console.log("BindSheet onWillAppear.");
+            console.log('BindSheet onWillAppear.');
             this.logInfo += '\n BindSheet onWillAppear.';
           },
           onAppear: () => {
-            console.log("BindSheet onAppear.");
+            console.log('BindSheet onAppear.');
             this.logInfo += '\n BindSheet onAppear.';
           },
           onWillDisappear: () => {
-            console.log("BindSheet onWillDisappear.");
+            console.log('BindSheet onWillDisappear.');
             this.logInfo += '\n BindSheet onWillDisappear.';
           },
           onDisappear: () => {
-            console.log("BindSheet onDisappear.");
+            console.log('BindSheet onDisappear.');
             this.logInfo += '\n BindSheet onDisappear.';
           }
         })

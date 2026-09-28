@@ -61,15 +61,15 @@ struct PopupboxSpecificationsBind0270 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0270")
+        .id('message_text_bind_0270')
 
       Text('空白点击状态: ' + this.blankStatus)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("blank_status_bind_0270")
+        .id('blank_status_bind_0270')
 
       Button('点击弹出气泡')
-        .id("button_bind_0270")
+        .id('button_bind_0270')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindPopup(this.isShow, {
@@ -94,14 +94,14 @@ struct PopupboxSpecificationsBind0270 {
         })
 
       Button('显示isShow状态')
-        .id("show_status_bind_0270")
+        .id('show_status_bind_0270')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow
         })
 
       Button('模拟点击空白')
-        .id("simulate_blank_click_bind_0270")
+        .id('simulate_blank_click_bind_0270')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {
@@ -149,7 +149,7 @@ struct PopupboxSpecificationsBind0270 {
       .borderRadius(8)
       .margin({ top: 20 })
       .justifyContent(FlexAlign.Center)
-      .id("blank_area_bind_0270")
+      .id('blank_area_bind_0270')
       .onClick(() => {
         if (this.isShow) {
           this.blankStatus = '点击空白区域'

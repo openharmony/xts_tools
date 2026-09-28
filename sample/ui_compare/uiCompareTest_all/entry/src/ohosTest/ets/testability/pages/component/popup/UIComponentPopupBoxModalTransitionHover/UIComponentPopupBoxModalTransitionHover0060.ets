@@ -31,21 +31,21 @@ struct UIComponentPopupBoxModalTransitionHover0060 {
   @Builder
   myBuilder() {
     Column() {
-      Button("change height")
+      Button('change height')
         .margin(10)
         .fontSize(20)
         .onClick(() => {
           this.sheetHeight = 500;
         })
 
-      Button("Set Illegal height")
+      Button('Set Illegal height')
         .margin(10)
         .fontSize(20)
         .onClick(() => {
           this.sheetHeight = -1;
         })
 
-      Button("close modal 1")
+      Button('close modal 1')
         .margin(10)
         .fontSize(20)
         .onClick(() => {
@@ -70,7 +70,7 @@ struct UIComponentPopupBoxModalTransitionHover0060 {
           bottom: 10
         })
 
-      Button("bindsheet")
+      Button('bindsheet')
         .onClick(() => {
           this.isShow = true;
         })
@@ -95,19 +95,19 @@ struct UIComponentPopupBoxModalTransitionHover0060 {
           backgroundColor: Color.Yellow,
           preferType: this.sheetType,
           onWillAppear: () => {
-            console.log("BindSheet onWillAppear.");
+            console.log('BindSheet onWillAppear.');
             this.message += '\n BindSheet onWillAppear.';
           },
           onAppear: () => {
-            console.log("BindSheet onAppear.");
+            console.log('BindSheet onAppear.');
             this.message += '\n BindSheet onAppear.';
           },
           onWillDisappear: () => {
-            console.log("BindSheet onWillDisappear.");
+            console.log('BindSheet onWillDisappear.');
             this.message += '\n BindSheet onWillDisappear.';
           },
           onDisappear: () => {
-            console.log("BindSheet onDisappear.");
+            console.log('BindSheet onDisappear.');
             this.message += '\n BindSheet onDisappear.';
           }
         })

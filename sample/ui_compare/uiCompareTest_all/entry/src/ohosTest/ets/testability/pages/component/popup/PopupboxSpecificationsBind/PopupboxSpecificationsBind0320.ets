@@ -25,15 +25,15 @@ struct PopupboxSpecificationsBind0320 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
+      MenuItem({ content: '菜单项1' })
         .onClick(() => {
           this.message = '菜单项1点击，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项2" })
+      MenuItem({ content: '菜单项2' })
         .onClick(() => {
           this.message = '菜单项2点击，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项3" })
+      MenuItem({ content: '菜单项3' })
         .onClick(() => {
           this.message = '菜单项3点击，isShow值: ' + this.isShow
         })
@@ -50,28 +50,28 @@ struct PopupboxSpecificationsBind0320 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0320")
+        .id('message_text_bind_0320')
 
       Text('定时器状态: ' + this.timerStatus)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("timer_status_bind_0320")
+        .id('timer_status_bind_0320')
 
       Button('点击打开菜单(非双向绑定)')
-        .id("button_bind_0320")
+        .id('button_bind_0320')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindMenu(this.MyMenu)
 
       Button('显示isShow状态')
-        .id("show_status_bind_0320")
+        .id('show_status_bind_0320')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow
         })
 
       Button('手动切换isShow')
-        .id("toggle_show_bind_0320")
+        .id('toggle_show_bind_0320')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {
@@ -81,7 +81,7 @@ struct PopupboxSpecificationsBind0320 {
         })
 
       Button('开始定时切换')
-        .id("start_timer_bind_0320")
+        .id('start_timer_bind_0320')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {
@@ -97,7 +97,7 @@ struct PopupboxSpecificationsBind0320 {
         })
 
       Button('停止定时切换')
-        .id("stop_timer_bind_0320")
+        .id('stop_timer_bind_0320')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {
@@ -141,7 +141,7 @@ struct PopupboxSpecificationsBind0320 {
       .borderRadius(8)
       .margin({ top: 20 })
       .justifyContent(FlexAlign.Center)
-      .id("status_display_bind_0320")
+      .id('status_display_bind_0320')
     }
     .width('100%')
     .height('100%')
