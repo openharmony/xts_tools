@@ -85,10 +85,10 @@ function sliderBuilder15(config: SliderConfiguration) {
         .onChange((value: number, mode: SliderChangeMode) => {
           config.triggerChange(value, mode);
         })
-      Text('当前状态：' + ((config.contentModifier as MySliderStyle15).sliderChangeMode == 0 ? "Begin"
-        : ((config.contentModifier as MySliderStyle15).sliderChangeMode == 1 ? "Moving"
-          : ((config.contentModifier as MySliderStyle15).sliderChangeMode == 2 ? "End"
-            : ((config.contentModifier as MySliderStyle15).sliderChangeMode == 3 ? "Click" : "无")))))
+      Text('当前状态：' + ((config.contentModifier as MySliderStyle15).sliderChangeMode == 0 ? 'Begin'
+        : ((config.contentModifier as MySliderStyle15).sliderChangeMode == 1 ? 'Moving'
+          : ((config.contentModifier as MySliderStyle15).sliderChangeMode == 2 ? 'End'
+            : ((config.contentModifier as MySliderStyle15).sliderChangeMode == 3 ? 'Click' : '无')))))
         .fontSize(10)
         .fontColor(Color.Red)
         .fontWeight(FontWeight.Bolder)
@@ -163,7 +163,7 @@ struct UiComponentButtonSliderSelectedBorderRadius15 {
       .width('100%')
 
       Text(this.text)
-        .width("100%")
+        .width('100%')
         .fontSize(18)
         .maxLines(3)
         .textAlign(TextAlign.Start)

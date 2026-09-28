@@ -18,13 +18,13 @@
 struct ArkuiComponentfunctionCommomattributesMenuShadowset0200 {
   build() {
     Column() {
-      Text("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0200")
+      Text('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0200')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0200")
+        .id('title_text_0200')
 
-      Text("测试说明：\n验证直板机在浅色模式下，select下拉菜单的阴影显示正常")
+      Text('测试说明：\n验证直板机在浅色模式下，select下拉菜单的阴影显示正常')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
@@ -32,13 +32,13 @@ struct ArkuiComponentfunctionCommomattributesMenuShadowset0200 {
         .borderRadius(8)
 
       Select([
-        { value: "选项1" },
-        { value: "选项2" },
-        { value: "选项3" }
+        { value: '选项1' },
+        { value: '选项2' },
+        { value: '选项3' }
       ])
-        .id("select_menu_0200")
+        .id('select_menu_0200')
         .selected(0)
-        .value("请选择")
+        .value('请选择')
         .font({ size: 16, weight: FontWeight.Medium })
         .fontColor(Color.Black)
         .selectedOptionFont({ size: 16, weight: FontWeight.Regular })

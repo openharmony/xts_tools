@@ -53,7 +53,7 @@ struct UICustomDrawingSafeAreaScene0560 {
         StepperItem() {
           Column() {
             TextInput({
-              placeholder: "TextInput placeholder"
+              placeholder: 'TextInput placeholder'
             })
               .type(InputType.Number)
               .enterKeyType(EnterKeyType.Done)
@@ -230,7 +230,7 @@ struct UICustomDrawingSafeAreaScene0560 {
                 this.thirdState = this.thirdState === ItemState.Waiting ? ItemState.Normal : ItemState.Waiting;
               })
             TextArea({
-              placeholder: "TextArea placeholder"
+              placeholder: 'TextArea placeholder'
             })
               .enterKeyType(EnterKeyType.Done)
               .caretColor(Color.Red)

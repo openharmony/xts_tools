@@ -19,13 +19,13 @@ struct UiComponentCanvasModifier03 {
   private settings: RenderingContextSettings = new RenderingContextSettings(true);
   private context: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.settings);
   private matrix: Matrix2D = new Matrix2D();
-  private img: ImageBitmap = new ImageBitmap("/icon.png");
+  private img: ImageBitmap = new ImageBitmap('/icon.png');
   private pattern: CanvasPattern | null = null;
   @State text : string ='scaleX=40'
 
   build() {
     Column() {
-      Button("Click to set transform")
+      Button('Click to set transform')
         .onClick(() => {
           this.matrix.scaleX = 40
           this.matrix.rotateX = 0
@@ -38,8 +38,8 @@ struct UiComponentCanvasModifier03 {
           }
           this.context.fillRect(0, 0, 480, 720)
         })
-        .width("45%")
-        .margin("5px")
+        .width('45%')
+        .margin('5px')
         .id('UiComponentCanvasModifier03')
       Canvas(this.context)
         .width('100%')

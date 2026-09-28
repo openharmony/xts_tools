@@ -42,11 +42,11 @@ struct UiComponentCanvasMatrix2D44 {
         .onReady(() => {
           let ctx = this.context
           console.log('context onReady')
-          ctx.direction = "ltr";
+          ctx.direction = 'ltr';
           this.context.font = '10px'
-          this.context.fillText("hello world!",10,10)
+          this.context.fillText('hello world!',10,10)
           this.context.font = '10px'
-          this.context.strokeText("hello world!",10,10)
+          this.context.strokeText('hello world!',10,10)
         })
 
       Text('direction is not set')
@@ -68,9 +68,9 @@ struct UiComponentCanvasMatrix2D44 {
         .onReady(() => {
           console.log('context2 onReady')
           this.context2.font = '10px'
-          this.context2.fillText("hello world",10,10)
+          this.context2.fillText('hello world',10,10)
           this.context2.font = '10px'
-          this.context2.strokeText("hello world",10,10)
+          this.context2.strokeText('hello world',10,10)
         })
     }
     .width('100%')

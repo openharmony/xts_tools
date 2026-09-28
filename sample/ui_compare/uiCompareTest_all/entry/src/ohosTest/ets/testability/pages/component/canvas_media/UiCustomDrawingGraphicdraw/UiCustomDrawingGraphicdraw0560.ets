@@ -56,7 +56,7 @@ export struct UiCustomDrawingGraphicdraw0560 {
       XComponent({
         id: 'xcomponentId',
         type: XComponentType.TEXTURE,
-        controller: this.xComponentController, libraryname: "nativerender"
+        controller: this.xComponentController, libraryname: 'nativerender'
       })
         .width('90%')
         .height(200)

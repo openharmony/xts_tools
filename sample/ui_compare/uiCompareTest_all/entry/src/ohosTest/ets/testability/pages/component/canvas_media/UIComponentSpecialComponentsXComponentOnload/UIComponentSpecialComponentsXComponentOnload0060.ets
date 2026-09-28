@@ -54,7 +54,7 @@ struct UIComponentSpecialComponentsXComponentOnload0060 {
           this.myXComponentController.setXComponentSurfaceRotation({lock: this.lockFlag});
         })
 
-      Button("getXComponentSurfaceRotation")
+      Button('getXComponentSurfaceRotation')
         .margin(5)
         .id(this.name + '_03')
         .onClick(() => {

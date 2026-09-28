@@ -16,7 +16,7 @@
 import { SymbolGlyphModifier } from '@kit.ArkUI';
 
 class MyMenuItemContentModifier implements ContentModifier<MenuItemConfiguration> {
-  public modifierText: string = "";
+  public modifierText: string = '';
 
   constructor(text: string) {
     this.modifierText = text;
@@ -62,7 +62,7 @@ function menuItemBuilder(configuration: MenuItemConfiguration) {
 @Entry
 @Component
 struct UiComponentButtonTextPickerArkui45 {
-  @State text: string = "TTTTT";
+  @State text: string = 'TTTTT';
   @State symbolModifier1: SymbolGlyphModifier =
     new SymbolGlyphModifier($r('sys.symbol.ohos_trash'))
       .fontColor([Color.Gray]);
@@ -88,7 +88,7 @@ struct UiComponentButtonTextPickerArkui45 {
             console.info('Select index:' + index);
             console.info('Select text:' + text);
           })
-          .menuItemContentModifier(new MyMenuItemContentModifier("Content Modifier"))
+          .menuItemContentModifier(new MyMenuItemContentModifier('Content Modifier'))
       }
       .alignItems(VerticalAlign.Center)
       .height('50%')

@@ -14,7 +14,7 @@
  */
 
 class MyRatingStyle2 implements ContentModifier<RatingConfiguration> {
-  public name: string = "";
+  public name: string = '';
   public style: number = 0;
 
   constructor(value1: string, value2: number) {
@@ -138,7 +138,7 @@ function buildRating2(config: RatingConfiguration) {
         }).visibility(config.stars >= 5 ? Visibility.Visible : Visibility.Hidden)
     }
 
-    Text("分值：" + config.rating)
+    Text('分值：' + config.rating)
   }
 }
 
@@ -181,8 +181,8 @@ struct UiComponentButtonTextPickerArkui01 {
             console.info('Rating change is' + value);
             this.rating = value;
           })
-          .contentModifier(new MyRatingStyle2("hello", 3))
-        Button(this.ratingIndicator ? "ratingIndicator : true" : "ratingIndicator : false")
+          .contentModifier(new MyRatingStyle2('hello', 3))
+        Button(this.ratingIndicator ? 'ratingIndicator : true' : 'ratingIndicator : false')
           .onClick((event) => {
             if (this.ratingIndicator) {
               this.ratingIndicator = false;
@@ -205,7 +205,7 @@ struct UiComponentButtonTextPickerArkui01 {
             }
           })
 
-        Button(this.ratingStars < 5 ? "ratingStars + 1, ratingStars =" + this.ratingStars : "ratingStars最大值为5")
+        Button(this.ratingStars < 5 ? 'ratingStars + 1, ratingStars =' + this.ratingStars : 'ratingStars最大值为5')
           .onClick((event) => {
             if (this.ratingStars < 5) {
               this.ratingStars += 1;
@@ -226,8 +226,8 @@ struct UiComponentButtonTextPickerArkui01 {
             }
           })
 
-        Button(this.ratingStars > 0 ? "ratingStars - 1, ratingStars =" + this.ratingStars :
-          "ratingStars小于等于0时默认等于5")
+        Button(this.ratingStars > 0 ? 'ratingStars - 1, ratingStars =' + this.ratingStars :
+          'ratingStars小于等于0时默认等于5')
           .onClick((event) => {
             if (this.ratingStars > 0) {
               this.ratingStars -= 1;
@@ -248,7 +248,7 @@ struct UiComponentButtonTextPickerArkui01 {
             }
           })
 
-        Button(this.ratingStepsize == 0.5 ? "ratingStepsize : 0.5" : "ratingStepsize : 1")
+        Button(this.ratingStepsize == 0.5 ? 'ratingStepsize : 0.5' : 'ratingStepsize : 1')
           .onClick((event) => {
             if (this.ratingStepsize == 0.5) {
               this.ratingStepsize = 1;

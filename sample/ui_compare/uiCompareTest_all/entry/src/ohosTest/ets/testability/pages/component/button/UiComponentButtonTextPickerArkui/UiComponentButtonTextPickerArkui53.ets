@@ -23,7 +23,7 @@ struct UiComponentButtonTextPickerArkui53 {
     DatePickerMode.MONTH_AND_DAY,
   ];
   @State datePickerModeIndex: number = 0;
-  @State text :string = "DatePicker set disappearTextStyle to blue"
+  @State text :string = 'DatePicker set disappearTextStyle to blue'
   private selectedDate: Date = new Date('2025-01-15');
 
   build() {

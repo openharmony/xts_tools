@@ -24,7 +24,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw132 {
   private offContext2: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings2)
   @State text :string = 'set Canvas height to 0'
   @State text2 :string = 'set imageSmoothingEnabled to false'
-  private img:ImageBitmap = new ImageBitmap("/icon.png")
+  private img:ImageBitmap = new ImageBitmap('/icon.png')
 
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {
@@ -47,12 +47,12 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw132 {
         .backgroundColor('#F5DC62')
         .onReady(() =>{
           let ctx = this.context
-          ctx.fillStyle = "green";
+          ctx.fillStyle = 'green';
           ctx.fillRect(20, 20, 100, 100);
           ctx.restore();
           ctx.fillRect(150, 75, 100, 100);
           ctx.font = '50px sans-serif'
-          ctx.fillText("Hello World!", 50, 100)
+          ctx.fillText('Hello World!', 50, 100)
           console.log('onReady success')
         })
     }

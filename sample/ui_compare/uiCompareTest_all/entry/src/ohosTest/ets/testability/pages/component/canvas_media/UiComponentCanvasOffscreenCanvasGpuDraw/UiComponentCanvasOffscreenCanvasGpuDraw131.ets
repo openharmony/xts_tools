@@ -24,8 +24,8 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw131 {
   private offContext2: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings2)
   @State text :string = 'not set imageSmoothingEnabled'
   @State text2 :string = 'set imageSmoothingEnabled to false'
-  private img:ImageBitmap = new ImageBitmap("/icon.png")
-  @State toDataURL: string = ""
+  private img:ImageBitmap = new ImageBitmap('/icon.png')
+  @State toDataURL: string = ''
 
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {

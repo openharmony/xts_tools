@@ -24,8 +24,8 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw22 {
   private offContext2: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings2)
   @State text :string = 'toDataURL type is png'
   @State text2 :string = ''
-  private img:ImageBitmap = new ImageBitmap("/icon.png")
-  @State toDataURL: string = ""
+  private img:ImageBitmap = new ImageBitmap('/icon.png')
+  @State toDataURL: string = ''
 
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {
@@ -46,9 +46,9 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw22 {
         .backgroundColor('#F5DC62')
         .onReady(() =>{
           let ctx = this.context
-          ctx.fillStyle = "#00ff00"
+          ctx.fillStyle = '#00ff00'
           ctx.fillRect(0,0,100,100)
-          this.toDataURL = ctx.toDataURL("/icon.png")
+          this.toDataURL = ctx.toDataURL('/icon.png')
           console.log('onReady success')
         })
       Text(this.toDataURL)

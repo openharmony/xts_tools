@@ -24,7 +24,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw117 {
   private offContext2: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings2)
   @State text :string = 'set the fill parameter to evenodd'
   @State text2 :string = 'not set the fill parameter'
-  private img:ImageBitmap = new ImageBitmap("/icon.png")
+  private img:ImageBitmap = new ImageBitmap('/icon.png')
 
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {

@@ -100,7 +100,7 @@ struct UICustomDrawingSafeAreaScene0540 {
         TabContent() {
           Column() {
             TextInput({
-              placeholder: "TextInput placeholder"
+              placeholder: 'TextInput placeholder'
             })
               .type(InputType.Number)
               .enterKeyType(EnterKeyType.Done)
@@ -196,7 +196,7 @@ struct UICustomDrawingSafeAreaScene0540 {
         TabContent() {
           Column() {
             TextArea({
-              placeholder: "TextArea placeholder"
+              placeholder: 'TextArea placeholder'
             })
               .enterKeyType(EnterKeyType.Done)
               .caretColor(Color.Red)

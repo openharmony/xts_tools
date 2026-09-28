@@ -23,7 +23,7 @@ struct UiComponentButtonTextPickerArkui55 {
     DatePickerMode.MONTH_AND_DAY,
   ];
   @State datePickerModeIndex: number = 0;
-  @State text :string = "DatePicker set lunar to true"
+  @State text :string = 'DatePicker set lunar to true'
   private selectedDate: Date = new Date('2025-01-15');
 
   build() {

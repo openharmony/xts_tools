@@ -106,9 +106,9 @@ struct UIComponentMediaVideoAI029 {
             };
             commonEventManager.publish('videoFinish', options, (err: BusinessError) => {
               if (err) {
-                hilog.info(0x0000, TAG, "[%{public}s] Video onFinish. PublishCallBack err: %{public}s", TAG, JSON.stringify(err));
+                hilog.info(0x0000, TAG, '[%{public}s] Video onFinish. PublishCallBack err: %{public}s', TAG, JSON.stringify(err));
               } else {
-                hilog.info(0x0000, TAG, "[%{public}s] Video onFinish. Publish success", TAG);
+                hilog.info(0x0000, TAG, '[%{public}s] Video onFinish. Publish success', TAG);
               }
             });
           })

@@ -23,7 +23,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw16 {
   private offContext: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings)
   @State text :string = 'draw square'
   @State text2 :string = 'not draw square'
-  private img:ImageBitmap = new ImageBitmap("/icon.png")
+  private img:ImageBitmap = new ImageBitmap('/icon.png')
 
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {

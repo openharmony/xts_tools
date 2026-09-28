@@ -82,7 +82,7 @@ struct UIComponentDrawingSafeAreaE0340 {
       Stack({alignContent: Alignment.Top}) {
 
         TextInput({
-          placeholder: "TextInput 1"
+          placeholder: 'TextInput 1'
         })
           .width('50%')
           .height(35)
@@ -97,7 +97,7 @@ struct UIComponentDrawingSafeAreaE0340 {
           })
 
         TextInput({
-          placeholder: "TextInput 2"
+          placeholder: 'TextInput 2'
         })
           .width('70%')
           .height(85)
@@ -113,7 +113,7 @@ struct UIComponentDrawingSafeAreaE0340 {
 
         Row() {
           TextInput({
-            placeholder: "TextInput in row"
+            placeholder: 'TextInput in row'
           })
             .width('50%')
             .height(35)

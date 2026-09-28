@@ -18,7 +18,7 @@ import { SymbolGlyphModifier } from '@kit.ArkUI'
 @Entry
 @Component
 struct UiComponentButtonTextPickerArkui43 {
-  @State text: string = "TTTTT";
+  @State text: string = 'TTTTT';
   @State index: number = 2;
   @State text2 : string ='select set optionFont to { size: 26, weight: 400 }'
   @State space: number = 8;

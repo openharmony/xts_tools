@@ -24,7 +24,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw53 {
   private offContext2: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings2)
   @State text :string = 'set font to normal bolder 50px sans-serif'
   @State text2 :string = 'set font to 50px'
-  private img:ImageBitmap = new ImageBitmap("/icon.png")
+  private img:ImageBitmap = new ImageBitmap('/icon.png')
 
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {

@@ -18,7 +18,7 @@
 struct UiComponentButtonTextPickerArkui52 {
   @State isMilitaryTime: boolean = true;
   private selectedTime: Date = new Date('2022-07-01T08:00:00');
-  @State text :string = "timePicker set dateTimeOptions to undefined"
+  @State text :string = 'timePicker set dateTimeOptions to undefined'
 
   build() {
     Column() {
@@ -36,7 +36,7 @@ struct UiComponentButtonTextPickerArkui52 {
       Button('切换12小时制/24小时制')
         .margin(30)
         .type(ButtonType.Capsule)
-        .width("50%")
+        .width('50%')
         .height(100)
         .backgroundColor(0x317aff)
         .labelStyle({ overflow: TextOverflow.Clip,

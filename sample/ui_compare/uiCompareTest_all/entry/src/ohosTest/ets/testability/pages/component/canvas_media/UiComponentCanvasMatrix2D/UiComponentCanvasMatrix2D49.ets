@@ -46,9 +46,9 @@ struct UiComponentCanvasMatrix2D49 {
           ctx.imageSmoothingEnabled = true
           ctx.drawImage(img, 0, 0, 100, 100);
           this.context.font = '10px'
-          this.context.fillText("hello world",10,10)
+          this.context.fillText('hello world',10,10)
           this.context.font = '10px'
-          this.context.strokeText("hello world",10,10)
+          this.context.strokeText('hello world',10,10)
           console.log('context onReady')
         })
 
@@ -74,9 +74,9 @@ struct UiComponentCanvasMatrix2D49 {
           ctx.imageSmoothingEnabled = false
           ctx.drawImage(img, 0, 0, 100, 100);
           this.context2.font = '10px'
-          this.context2.fillText("hello world",10,10)
+          this.context2.fillText('hello world',10,10)
           this.context2.font = '10px'
-          this.context2.strokeText("hello world",10,10)
+          this.context2.strokeText('hello world',10,10)
           console.log('context2 onReady')
         })
     }

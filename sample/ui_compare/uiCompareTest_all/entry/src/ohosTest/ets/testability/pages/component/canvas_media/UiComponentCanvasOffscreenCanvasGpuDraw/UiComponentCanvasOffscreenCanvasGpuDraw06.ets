@@ -40,11 +40,11 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw06 {
         .backgroundColor('#F5DC62')
         .onReady(() =>{
           let ctx = this.context
-          this.offContext.fillStyle = "red";
+          this.offContext.fillStyle = 'red';
           this.offContext.lineWidth = 3
           this.offContext.strokeStyle ='#0000ff'
           this.offContext.save();
-          ctx.fillStyle = "green";
+          ctx.fillStyle = 'green';
           ctx.fillRect(20, 20, 100, 100);
           ctx.restore();
           this.offContext.fillRect(150, 75, 100, 100);

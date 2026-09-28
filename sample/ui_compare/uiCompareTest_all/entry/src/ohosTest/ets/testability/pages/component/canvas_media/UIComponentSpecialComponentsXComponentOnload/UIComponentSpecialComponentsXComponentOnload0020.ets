@@ -43,7 +43,7 @@ struct UIComponentSpecialComponentsXComponentOnload0020 {
       Text(this.message)
         .margin(20)
 
-      Button("getXComponentContext")
+      Button('getXComponentContext')
         .margin(20)
         .id(this.name + '_02')
         .onClick(() => {

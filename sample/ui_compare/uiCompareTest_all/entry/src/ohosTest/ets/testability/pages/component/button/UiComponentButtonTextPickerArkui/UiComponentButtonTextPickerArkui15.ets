@@ -23,7 +23,7 @@ struct UiComponentButtonTextPickerArkui15 {
   @State infoOne: string = '';
   @State infoTwo: string = '';
   @State infoThree: string = '';
-  @State Text: string="CheckboxGroup set mark to undefined"
+  @State Text: string='CheckboxGroup set mark to undefined'
   @State color: Color|undefined = Color.Gray
   @State shape : CheckBoxShape|undefined= CheckBoxShape.ROUNDED_SQUARE
 
@@ -38,8 +38,8 @@ struct UiComponentButtonTextPickerArkui15 {
           .mark(undefined)
           .checkboxShape(this.shape)
           .onChange((itemName: CheckboxGroupResult) => {
-            this.infoOne = "checkboxGroupOne" + JSON.stringify(itemName);
-            console.info("checkboxGroupOne" + JSON.stringify(itemName));
+            this.infoOne = 'checkboxGroupOne' + JSON.stringify(itemName);
+            console.info('checkboxGroupOne' + JSON.stringify(itemName));
           })
         Text('checkboxGroupOne Select All')
           .fontSize(14)
@@ -78,8 +78,8 @@ struct UiComponentButtonTextPickerArkui15 {
           .unselectedColor(this.color)
           .selectedColor('#007DFF')
           .onChange((itemName: CheckboxGroupResult) => {
-            this.infoTwo = "checkboxGroupTwo" + JSON.stringify(itemName);
-            console.info("checkboxGroupTwo" + JSON.stringify(itemName));
+            this.infoTwo = 'checkboxGroupTwo' + JSON.stringify(itemName);
+            console.info('checkboxGroupTwo' + JSON.stringify(itemName));
           })
         Text('checkboxGroupTwo Select All')
           .fontSize(14)
@@ -119,8 +119,8 @@ struct UiComponentButtonTextPickerArkui15 {
           .selectedColor('#007DFF')
           .mark(undefined)
           .onChange((itemName: CheckboxGroupResult) => {
-            this.infoThree = "checkboxGroupThree" + JSON.stringify(itemName);
-            console.info("checkboxGroupThree" + JSON.stringify(itemName));
+            this.infoThree = 'checkboxGroupThree' + JSON.stringify(itemName);
+            console.info('checkboxGroupThree' + JSON.stringify(itemName));
           })
         Text('checkboxGroupThree Select All')
           .fontSize(14)

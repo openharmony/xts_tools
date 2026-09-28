@@ -81,7 +81,7 @@ struct UiComponentButtonTextPickerArkui63 {
           right:1
         })
 
-      Text("操作步骤：点击星星改变评星，观察上方两个文本是否变化")
+      Text('操作步骤：点击星星改变评星，观察上方两个文本是否变化')
         .fontSize(12)
         .fontColor(Color.Gray)
         .width('80%')

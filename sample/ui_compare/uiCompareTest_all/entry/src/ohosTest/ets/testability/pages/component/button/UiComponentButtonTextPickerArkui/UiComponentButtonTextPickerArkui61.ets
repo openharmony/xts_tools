@@ -79,7 +79,7 @@ struct UiComponentButtonTextPickerArkui61 {
         .margin(10)
         .onChange((value) => {
           this.text = JSON.stringify(value)
-          console.info("CalendarPicker onChange:" + JSON.stringify(value))
+          console.info('CalendarPicker onChange:' + JSON.stringify(value))
         })
 
       Text('not set textStyle')
@@ -102,7 +102,7 @@ struct UiComponentButtonTextPickerArkui61 {
         .margin(10)
         .onChange((value) => {
           this.text = JSON.stringify(value)
-          console.info("CalendarPicker onChange:" + JSON.stringify(value))
+          console.info('CalendarPicker onChange:' + JSON.stringify(value))
         })
     }
     .width('100%')

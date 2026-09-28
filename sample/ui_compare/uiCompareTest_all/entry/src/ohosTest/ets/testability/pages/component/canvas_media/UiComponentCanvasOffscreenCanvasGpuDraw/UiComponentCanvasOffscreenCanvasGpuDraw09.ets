@@ -43,11 +43,11 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw09 {
         .backgroundColor('#F5DC62')
         .onReady(() =>{
           let ctx = this.context
-          this.offContext.fillStyle = "red";
+          this.offContext.fillStyle = 'red';
           this.offContext.lineWidth = 3
           this.offContext.strokeStyle ='#0000ff'
           ctx.font = '50px abc'
-          ctx.fillText("Hello World!", 50, 100)
+          ctx.fillText('Hello World!', 50, 100)
           console.log('onReady success')
         })
 
@@ -68,10 +68,10 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw09 {
         .backgroundColor('#F5DC62')
         .onReady(() =>{
           let ctx = this.context2
-          this.offContext.fillStyle = "red";
+          this.offContext.fillStyle = 'red';
           this.offContext.lineWidth = 3
           this.offContext.strokeStyle ='#0000ff'
-          ctx.fillText("Hello World!", 50, 100)
+          ctx.fillText('Hello World!', 50, 100)
           console.log('onReady success')
         })
     }

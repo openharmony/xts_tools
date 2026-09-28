@@ -70,9 +70,9 @@ struct UIComponentMediaVideoReset010 {
                };
                commonEventManager.publish('videoError_1', options, (err: BusinessError) => {
                  if (err) {
-                   hilog.info(0x0000, TAG, "[%{public}s] videoError_1: PublishCallBack err: %{public}s", TAG, JSON.stringify(err));
+                   hilog.info(0x0000, TAG, '[%{public}s] videoError_1: PublishCallBack err: %{public}s', TAG, JSON.stringify(err));
                  } else {
-                   hilog.info(0x0000, TAG, "[%{public}s] videoError_1: Publish success", TAG);
+                   hilog.info(0x0000, TAG, '[%{public}s] videoError_1: Publish success', TAG);
                  }
                });
              }
@@ -83,9 +83,9 @@ struct UIComponentMediaVideoReset010 {
                setTimeout(() => {
                  commonEventManager.publish('videoError_2', options, (err: BusinessError) => {
                    if (err) {
-                     hilog.info(0x0000, TAG, "[%{public}s] videoError_2: PublishCallBack err: %{public}s", TAG, JSON.stringify(err));
+                     hilog.info(0x0000, TAG, '[%{public}s] videoError_2: PublishCallBack err: %{public}s', TAG, JSON.stringify(err));
                    } else {
-                     hilog.info(0x0000, TAG, "[%{public}s] videoError_2: Publish success", TAG);
+                     hilog.info(0x0000, TAG, '[%{public}s] videoError_2: Publish success', TAG);
                    }
                  });
                }, 1000);

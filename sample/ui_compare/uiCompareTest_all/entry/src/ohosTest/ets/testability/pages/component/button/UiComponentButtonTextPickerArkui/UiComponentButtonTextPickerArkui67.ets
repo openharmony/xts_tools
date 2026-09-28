@@ -29,7 +29,7 @@ struct UiComponentButtonTextPickerArkui67 {
       CalendarPicker({ hintRadius: 10, selected: this.selectedDate })
         .edgeAlign(CalendarAlign.END)
         .textStyle({
-          color: "#ff182431",
+          color: '#ff182431',
           font: { size: 20, weight: FontWeight.Normal }
         })
         .margin(10)
@@ -69,7 +69,7 @@ struct UiComponentButtonTextPickerArkui67 {
           right:1
         })
 
-      Text("操作步骤：点击星星改变评星，观察上方两个文本是否变化")
+      Text('操作步骤：点击星星改变评星，观察上方两个文本是否变化')
         .fontSize(12)
         .fontColor(Color.Gray)
         .width('80%')

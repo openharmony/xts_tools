@@ -24,7 +24,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw102 {
   private offContext2: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings2)
   @State text :string = 'not set font'
   @State text2 :string = 'set font to default'
-  private img:ImageBitmap = new ImageBitmap("/icon.png")
+  private img:ImageBitmap = new ImageBitmap('/icon.png')
 
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {
@@ -47,7 +47,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw102 {
         .backgroundColor('#F5DC62')
         .onReady(() =>{
           let ctx = this.context
-          ctx.fillText("Hello World!", 50, 100)
+          ctx.fillText('Hello World!', 50, 100)
           console.log('onReady success')
         })
       Text(this.text2)
@@ -70,7 +70,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw102 {
         .onReady(() =>{
           let ctx = this.context2
           ctx.font = 'normal normal 14px sans-serif'
-          ctx.fillText("Hello World!", 50, 100)
+          ctx.fillText('Hello World!', 50, 100)
           console.log('onReady success')
         })
     }

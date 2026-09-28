@@ -57,7 +57,7 @@ struct UIComponentSpecialComponentsXComponentOnload0070 {
           })
         })
 
-      Button("getXComponentSurfaceRect")
+      Button('getXComponentSurfaceRect')
         .margin(5)
         .id(this.name + '_03')
         .onClick(() => {

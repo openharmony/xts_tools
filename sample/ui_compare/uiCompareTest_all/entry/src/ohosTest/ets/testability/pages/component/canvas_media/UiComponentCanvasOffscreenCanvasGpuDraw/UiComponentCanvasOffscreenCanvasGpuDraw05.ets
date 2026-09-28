@@ -45,8 +45,8 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw05 {
         .onReady(() =>{
           let ctx = this.context
           let grad = this.offContext.createRadialGradient(200,200,100,200,200,0)
-          grad.addColorStop(0,"white" )
-          grad.addColorStop(1, "red")
+          grad.addColorStop(0,'white' )
+          grad.addColorStop(1, 'red')
           this.offContext.fillStyle = grad
           this.offContext.fillRect(0, 0, 400, 400)
           let image1:ImageBitmap = this.offContext.transferToImageBitmap()
@@ -72,8 +72,8 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw05 {
         .onReady(() =>{
           let ctx = this.context2
           let grad = this.offContext.createRadialGradient(200,200,100,200,200,0)
-          grad.addColorStop(0,"white" )
-          grad.addColorStop(1, "red")
+          grad.addColorStop(0,'white' )
+          grad.addColorStop(1, 'red')
           this.offContext2.fillRect(0, 0, 400, 400)
           let image2:ImageBitmap = this.offContext2.transferToImageBitmap()
           ctx.transferFromImageBitmap(image2)

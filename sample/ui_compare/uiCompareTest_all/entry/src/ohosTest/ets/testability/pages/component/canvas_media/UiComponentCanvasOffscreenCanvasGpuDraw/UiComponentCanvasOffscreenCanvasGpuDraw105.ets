@@ -24,7 +24,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw105 {
   private offContext2: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings2)
   @State text :string = 'set strokeRect(0,0,100,100)'
   @State text2 :string = 'set strokeRect(100,100,100,100)'
-  private img:ImageBitmap = new ImageBitmap("/icon.png")
+  private img:ImageBitmap = new ImageBitmap('/icon.png')
 
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {

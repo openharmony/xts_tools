@@ -87,7 +87,7 @@ struct UIComponentDrawingSafeAreaE0190 {
 
           Row() {
             TextInput({
-              placeholder: "TextInput in row"
+              placeholder: 'TextInput in row'
             })
               .width('50%')
               .height(35)
@@ -117,7 +117,7 @@ struct UIComponentDrawingSafeAreaE0190 {
           })
 
           TextInput({
-            placeholder: "TextInput in column"
+            placeholder: 'TextInput in column'
           })
             .width('50%')
             .height(35)
@@ -194,7 +194,7 @@ struct UIComponentDrawingSafeAreaE0190 {
             })
 
           TextInput({
-            placeholder: "TextInput in column"
+            placeholder: 'TextInput in column'
           })
             .width('50%')
             .height(35)
@@ -210,7 +210,7 @@ struct UIComponentDrawingSafeAreaE0190 {
 
           Row() {
             TextInput({
-              placeholder: "TextInput in row"
+              placeholder: 'TextInput in row'
             })
               .width('50%')
               .height(35)

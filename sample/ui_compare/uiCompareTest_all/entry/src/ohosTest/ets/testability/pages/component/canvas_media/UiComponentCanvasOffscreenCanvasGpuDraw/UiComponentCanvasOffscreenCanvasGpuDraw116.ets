@@ -24,7 +24,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw116 {
   private offContext2: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings2)
   @State text :string = 'set the save'
   @State text2 :string = 'not set the save'
-  private img:ImageBitmap = new ImageBitmap("/icon.png")
+  private img:ImageBitmap = new ImageBitmap('/icon.png')
 
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {
@@ -48,7 +48,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw116 {
         .onReady(() =>{
           let ctx = this.context
           ctx.save();
-          ctx.fillStyle = "green";
+          ctx.fillStyle = 'green';
           ctx.fillRect(20, 20, 100, 100);
           ctx.restore();
           ctx.fillRect(150, 75, 100, 100);
@@ -73,7 +73,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw116 {
         .backgroundColor('#F5DC62')
         .onReady(() =>{
           let ctx = this.context2
-          ctx.fillStyle = "green";
+          ctx.fillStyle = 'green';
           ctx.fillRect(20, 20, 100, 100);
           ctx.restore();
           ctx.fillRect(150, 75, 100, 100);

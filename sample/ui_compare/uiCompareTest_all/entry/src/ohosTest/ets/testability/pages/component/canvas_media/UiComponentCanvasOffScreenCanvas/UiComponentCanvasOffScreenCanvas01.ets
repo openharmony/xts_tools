@@ -47,7 +47,7 @@ struct UiComponentCanvasOffScreenCanvas01 {
             .borderColor('#057D02')
             .backgroundColor('#FFFFFF')
             .onReady(() => {
-              let offContext = this.offCanvas.getContext("2d", this.settings)
+              let offContext = this.offCanvas.getContext('2d', this.settings)
               offContext.fillStyle = '#CDCDCD'
               offContext.fillRect(0, 0, this.offCanvas.width, 150)
               let image = this.offCanvas.transferToImageBitmap()
@@ -76,7 +76,7 @@ struct UiComponentCanvasOffScreenCanvas01 {
             .borderColor('#057D02')
             .backgroundColor('#FFFFFF')
             .onReady(() => {
-              let offContext = this.offCanvas2.getContext("2d", this.settings2)
+              let offContext = this.offCanvas2.getContext('2d', this.settings2)
               offContext.fillStyle = '#CDCDCD'
               offContext.fillRect(0, 0, this.offCanvas.width, 150)
               let image = this.offCanvas2.transferToImageBitmap()

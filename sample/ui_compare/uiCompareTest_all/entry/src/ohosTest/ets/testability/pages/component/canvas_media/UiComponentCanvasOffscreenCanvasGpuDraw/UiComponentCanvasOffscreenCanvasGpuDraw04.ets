@@ -47,8 +47,8 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw04 {
           ctx.strokeRect(0, 0, 200, 200)
           ctx.createRadialGradient(200,200,100,200,200,0)
           let grad = this.offContext.createRadialGradient(200,200,100,200,200,0)
-          grad.addColorStop(0,"white" )
-          grad.addColorStop(1, "red")
+          grad.addColorStop(0,'white' )
+          grad.addColorStop(1, 'red')
           this.offContext.fillStyle = grad
           this.offContext.fillRect(0, 0, 400, 400)
           let image2:ImageBitmap = this.offContext.transferToImageBitmap()

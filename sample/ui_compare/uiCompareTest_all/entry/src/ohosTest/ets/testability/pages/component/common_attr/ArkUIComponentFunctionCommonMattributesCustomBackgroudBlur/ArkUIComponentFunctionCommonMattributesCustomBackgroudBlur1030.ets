@@ -43,7 +43,7 @@ struct ArkUIComponentFunctionCommonMattributesCustomBackgroudBlur1030 {
       {
         backgroundEffect: {
           radius: 30,
-          color: $r("app.color.color1")
+          color: $r('app.color.color1')
         },
         backgroundColor: '#00000000'
       })

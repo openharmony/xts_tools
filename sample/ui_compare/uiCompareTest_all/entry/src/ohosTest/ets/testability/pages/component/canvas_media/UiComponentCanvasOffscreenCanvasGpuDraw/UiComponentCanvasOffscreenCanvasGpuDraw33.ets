@@ -24,7 +24,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw33 {
   private offContext2: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings2)
   @State text :string = 'set measureText("Hello World!").fontBoundingBoxDescent'
   @State text2 :string = 'not set measureText("Hello World!").fontBoundingBoxDescent'
-  private img:ImageBitmap = new ImageBitmap("/icon.png")
+  private img:ImageBitmap = new ImageBitmap('/icon.png')
 
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {
@@ -46,8 +46,8 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw33 {
         .onReady(() =>{
           let ctx = this.context
           ctx.font = '50px sans-serif'
-          ctx.fillText("Hello World!", 20, 100)
-          ctx.fillText('Text'+this.context.measureText("Hello World!").fontBoundingBoxDescent, 20, 200)
+          ctx.fillText('Hello World!', 20, 100)
+          ctx.fillText('Text'+this.context.measureText('Hello World!').fontBoundingBoxDescent, 20, 200)
           console.log('onReady success')
         })
       Text(this.text2)
@@ -68,7 +68,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw33 {
         .onReady(() =>{
           let ctx = this.context2
           ctx.font = '50px sans-serif'
-          ctx.fillText("Hello World!", 20, 100)
+          ctx.fillText('Hello World!', 20, 100)
           console.log('onReady success')
         })
     }

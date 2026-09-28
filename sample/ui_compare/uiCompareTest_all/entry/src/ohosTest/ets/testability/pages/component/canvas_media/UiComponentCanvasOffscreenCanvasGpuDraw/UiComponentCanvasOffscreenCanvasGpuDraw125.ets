@@ -24,7 +24,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw125 {
   private offContext2: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings2)
   @State text :string = 'set direction to rtl'
   @State text2 :string = 'set direction to ltr'
-  private img:ImageBitmap = new ImageBitmap("/icon.png")
+  private img:ImageBitmap = new ImageBitmap('/icon.png')
 
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {
@@ -47,8 +47,8 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw125 {
         .backgroundColor('#F5DC62')
         .onReady(() =>{
           let ctx = this.context
-          ctx.direction="rtl"
-          this.context.fillText("Hello World!", 20, 60)
+          ctx.direction='rtl'
+          this.context.fillText('Hello World!', 20, 60)
           console.log('onReady success')
         })
       Text(this.text2)
@@ -70,8 +70,8 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw125 {
         .backgroundColor('#F5DC62')
         .onReady(() =>{
           let ctx = this.context2
-          ctx.direction="ltr"
-          ctx.fillText("Hello World!", 20, 60)
+          ctx.direction='ltr'
+          ctx.fillText('Hello World!', 20, 60)
           console.log('onReady success')
         })
     }

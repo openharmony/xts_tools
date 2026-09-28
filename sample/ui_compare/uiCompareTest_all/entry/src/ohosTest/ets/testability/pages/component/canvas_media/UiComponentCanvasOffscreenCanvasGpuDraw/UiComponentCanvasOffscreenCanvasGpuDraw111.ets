@@ -24,7 +24,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw111 {
   private offContext2: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings2)
   @State text :string = 'set clip parameter to evenodd'
   @State text2 :string = 'not set clip'
-  private img:ImageBitmap = new ImageBitmap("/icon.png")
+  private img:ImageBitmap = new ImageBitmap('/icon.png')
 
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {
@@ -49,7 +49,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw111 {
           let ctx = this.context
           ctx.rect(80,10,20,130)
           ctx.rect(40,50,100,50)
-          ctx.clip( "evenodd")
+          ctx.clip( 'evenodd')
           ctx.fillRect(0, 0, 200, 200)
           console.log('onReady success')
         })

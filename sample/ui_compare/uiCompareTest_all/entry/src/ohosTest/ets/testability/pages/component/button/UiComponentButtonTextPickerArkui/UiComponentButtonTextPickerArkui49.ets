@@ -33,7 +33,7 @@ function buildRadio2(config: RadioConfiguration) {
     Circle({ width: 50, height: 50 })
       .stroke(Color.Black)
       .fill(config.checked ? (config.contentModifier as MyRadioStyle).selectedColor : Color.White)
-    Button(config.checked ? "off" : "on")
+    Button(config.checked ? 'off' : 'on')
       .id('UiComponentButtonTextPickerArkui49')
       .width(100)
       .type(config.checked ? (config.contentModifier as MyRadioStyle).type : ButtonType.Normal)
@@ -67,7 +67,7 @@ struct UiComponentButtonTextPickerArkui49 {
       }
       Text(this.text2)
         .fontSize(18)
-        .width("100%")
+        .width('100%')
         .height(100)
         .maxLines(3)
         .textAlign(TextAlign.Center)

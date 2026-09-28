@@ -18,7 +18,7 @@ import { SymbolGlyphModifier } from '@kit.ArkUI'
 @Entry
 @Component
 struct UiComponentButtonTextPickerArkui35 {
-  @State text: string = "TTTTT";
+  @State text: string = 'TTTTT';
   @State index: number = 2;
   @State text2 : string ='select set selectedOptionBgColor to undefined'
   @State space: number = 8;

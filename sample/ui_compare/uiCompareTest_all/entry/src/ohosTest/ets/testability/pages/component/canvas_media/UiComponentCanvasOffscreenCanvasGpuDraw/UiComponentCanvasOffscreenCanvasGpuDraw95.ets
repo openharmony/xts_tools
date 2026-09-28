@@ -24,7 +24,7 @@ struct UiComponentCanvasOffscreenCanvasGpuDraw95 {
   private offContext2: OffscreenCanvasRenderingContext2D = new OffscreenCanvasRenderingContext2D(600, 600, this.settings2)
   @State text :string = 'set getImageData'
   @State text2 :string = 'set font to default'
-  private img:ImageBitmap = new ImageBitmap("/icon.png")
+  private img:ImageBitmap = new ImageBitmap('/icon.png')
   @State text3 :Uint8ClampedArray = new Uint8ClampedArray(1000);
 
   build() {

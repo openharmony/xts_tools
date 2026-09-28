@@ -43,14 +43,14 @@ struct UIComponentSpecialComponentsXComponentOnload0040 {
       Text(this.message)
         .margin(20)
 
-      Button("setXComponentSurfaceSize")
+      Button('setXComponentSurfaceSize')
         .margin(20)
         .id(this.name + '_02')
         .onClick(() => {
           this.myXComponentController.setXComponentSurfaceSize({surfaceWidth: 200, surfaceHeight: 400});
         })
 
-      Button("getXComponentSurfaceID")
+      Button('getXComponentSurfaceID')
         .margin(20)
         .id(this.name + '_03')
         .onClick(() => {
