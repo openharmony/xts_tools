@@ -19,7 +19,7 @@ import { LengthMetrics } from '@kit.ArkUI';
 @Component
 struct UiComponentTextReverseAnalysis09 {
   @State testId: string = 'SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0190';
-  mutableStyledString: MutableStyledString = new MutableStyledString("哈🇨🇳哈", [{
+  mutableStyledString: MutableStyledString = new MutableStyledString('哈🇨🇳哈', [{
     start: 0,
     length: 5,
     styledKey: StyledStringKey.FONT,

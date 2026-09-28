@@ -23,7 +23,7 @@ struct UIComponentTextRichEditorUI0400 {
       Column() {
         RichEditor(this.options)
           .onReady(() => {
-            this.controller.addTextSpan("012345",
+            this.controller.addTextSpan('012345',
               {
                 style:
                 {
@@ -32,7 +32,7 @@ struct UIComponentTextRichEditorUI0400 {
                   fontWeight: FontWeight.Regular
                 }
               })
-            this.controller.addSymbolSpan($r("sys.symbol.ohos_trash"),
+            this.controller.addSymbolSpan($r('sys.symbol.ohos_trash'),
               {
                 style:
                 {
@@ -40,15 +40,15 @@ struct UIComponentTextRichEditorUI0400 {
                   fontWeight: FontWeight.Regular
                 }
               })
-            this.controller.addImageSpan($r("app.media.icon"),
+            this.controller.addImageSpan($r('app.media.icon'),
               {
                 imageStyle:
                 {
-                  size: ["57px", "57px"],
+                  size: ['57px', '57px'],
                   objectFit: ImageFit.ScaleDown
                 }
               })
-            this.controller.addTextSpan("56789",
+            this.controller.addTextSpan('56789',
               {
                 style:
                 {
@@ -58,7 +58,7 @@ struct UIComponentTextRichEditorUI0400 {
                 }
               })
           })
-          .placeholder("input...", {
+          .placeholder('input...', {
             fontColor: Color.Gray,
             font: {
               size: 25,
@@ -68,11 +68,11 @@ struct UIComponentTextRichEditorUI0400 {
           })
           .borderWidth(5)
           .borderColor(Color.Green)
-          .width("100%")
-          .height("30%")
+          .width('100%')
+          .height('30%')
       }
-      .width("100%")
-      .height("70%")
+      .width('100%')
+      .height('70%')
     }
   }
 }

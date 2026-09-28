@@ -19,7 +19,7 @@ import { LengthMetrics } from '@kit.ArkUI';
 @Component
 struct UiComponentTextReverseAnalysis12 {
   @State testId: string = 'SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0230';
-  mutableStyledString: MutableStyledString = new MutableStyledString("哈哈🇨🇳", [{
+  mutableStyledString: MutableStyledString = new MutableStyledString('哈哈🇨🇳', [{
     start: 0,
     length: 5,
     styledKey: StyledStringKey.FONT,
@@ -72,7 +72,7 @@ struct UiComponentTextReverseAnalysis12 {
 
         Button('执行 insertString(5, "插入")')
           .onClick(() => {
-            this.mutableStyledString.insertString(5, "插入");
+            this.mutableStyledString.insertString(5, '插入');
             this.resultText = this.mutableStyledString.getString();
             this.controller.setStyledString(this.mutableStyledString);
             this.operationLog = `执行 insertString(5, "插入")\n`;

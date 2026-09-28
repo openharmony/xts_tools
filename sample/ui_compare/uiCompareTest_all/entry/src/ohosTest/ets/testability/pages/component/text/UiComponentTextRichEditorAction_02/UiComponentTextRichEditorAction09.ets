@@ -19,7 +19,7 @@ const Indentation = 40
 class UiComponentTextRichEditorAction09LeadingMarginCreator {
   private settings: RenderingContextSettings = new RenderingContextSettings(true)
   private offscreenCanvas: OffscreenCanvas = new OffscreenCanvas(canvasWidth, canvasHeight)
-  private offContext: OffscreenCanvasRenderingContext2D = this.offscreenCanvas.getContext("2d", this.settings)
+  private offContext: OffscreenCanvasRenderingContext2D = this.offscreenCanvas.getContext('2d', this.settings)
   public static instance: UiComponentTextRichEditorAction09LeadingMarginCreator = new UiComponentTextRichEditorAction09LeadingMarginCreator()
 
   public getFontSizeLevel(fontSize: number) {
@@ -68,7 +68,7 @@ class UiComponentTextRichEditorAction09LeadingMarginCreator {
   }
 
   public genStrMark(fontSize: number, str: string): PixelMap {
-    this.offContext = this.offscreenCanvas.getContext("2d", this.settings)
+    this.offContext = this.offscreenCanvas.getContext('2d', this.settings)
     this.clearCanvas()
     this.offContext.font = fontSize + 'vp sans-serif'
     this.offContext.fillText(str + '.', 0, fontSize * 0.9)
@@ -76,7 +76,7 @@ class UiComponentTextRichEditorAction09LeadingMarginCreator {
   }
 
   public genSquareMark(fontSize: number): PixelMap {
-    this.offContext = this.offscreenCanvas.getContext("2d", this.settings)
+    this.offContext = this.offscreenCanvas.getContext('2d', this.settings)
     this.clearCanvas()
     const coordinate = fontSize * (1 - 1 / 1.5) / 2
     const sideLength = fontSize / 1.5
@@ -89,7 +89,7 @@ class UiComponentTextRichEditorAction09LeadingMarginCreator {
     const offsetLevel = [22, 28, 32, 34, 38]
     const fontSizeLevel = this.getFontSizeLevel(fontSize)
     const marginlevel = this.getmarginLevel(width)
-    const newOffContext: OffscreenCanvasRenderingContext2D = this.offscreenCanvas.getContext("2d", this.settings)
+    const newOffContext: OffscreenCanvasRenderingContext2D = this.offscreenCanvas.getContext('2d', this.settings)
     const centerCoordinate = 50
     const radius = 10
     this.clearCanvas()
@@ -132,18 +132,18 @@ struct UiComponentTextRichEditorAction09 {
               {
                 imageStyle:
                 {
-                  size: ["57px", "57px"]
+                  size: ['57px', '57px']
                 }
               })
           })
           .borderWidth(1)
           .borderColor(Color.Green)
-          .width("100%")
-          .height("50%")
+          .width('100%')
+          .height('50%')
 
-        Button("addtextspan")
+        Button('addtextspan')
           .onClick(() => {
-            this.controller.addTextSpan("0123456789",
+            this.controller.addTextSpan('0123456789',
               {
                 style:
                 {
@@ -155,7 +155,7 @@ struct UiComponentTextRichEditorAction09 {
           .id('UiComponentTextRichEditorAction09_01')
         Divider()
         Row({ space: 5 }) {
-          Button("向右列表缩进")
+          Button('向右列表缩进')
             .onClick(() => {
               let margin = Number(this.leftMargin)
               if (margin < 200) {
@@ -174,7 +174,7 @@ struct UiComponentTextRichEditorAction09 {
               })
             })
 
-          Button("向左列表缩进").onClick(() => {
+          Button('向左列表缩进').onClick(() => {
             let margin = Number(this.leftMargin)
             if (margin > 0) {
               margin -= Indentation
@@ -194,7 +194,7 @@ struct UiComponentTextRichEditorAction09 {
         }
         Divider()
         Row({ space: 5 }) {
-          Button("向右空白缩进")
+          Button('向右空白缩进')
             .onClick(() => {
               let margin = Number(this.leftMargin)
               if (margin < 200) {
@@ -211,7 +211,7 @@ struct UiComponentTextRichEditorAction09 {
             })
             .id('UiComponentTextRichEditorAction09_02')
 
-          Button("向左空白缩进")
+          Button('向左空白缩进')
             .onClick(() => {
               let margin = Number(this.leftMargin)
               if (margin > 0) {

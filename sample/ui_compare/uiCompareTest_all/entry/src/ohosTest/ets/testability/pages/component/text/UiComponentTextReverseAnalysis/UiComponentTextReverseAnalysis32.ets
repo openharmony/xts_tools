@@ -55,10 +55,10 @@ struct UiComponentTextReverseAnalysis32 {
             .placeholderFont({ size: 14, weight: 400 })
             .textFont({ size: 14, weight: 400 })
             .onSubmit((value: string) => {
-              console.log("Search onSubmit")
+              console.log('Search onSubmit')
             })
             .onChange((value: string) => {
-              console.log("Search onChange")
+              console.log('Search onChange')
             })
             .cancelButton({
               style: this.cancelButtonStyle

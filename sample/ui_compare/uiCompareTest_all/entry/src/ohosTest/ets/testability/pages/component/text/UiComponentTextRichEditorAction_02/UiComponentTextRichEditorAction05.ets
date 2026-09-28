@@ -60,9 +60,9 @@ struct UiComponentTextRichEditorAction05 {
   options: RichEditorOptions = { controller: this.controller };
   private start: number = -1;
   private end: number = -1;
-  @State message: string = "[-1, -1]"
-  @State content: string = ""
-  @State text: string = "Open/close the pop-up window, and the handle behaves normally"
+  @State message: string = '[-1, -1]'
+  @State content: string = ''
+  @State text: string = 'Open/close the pop-up window, and the handle behaves normally'
   @State inputValue: string = 'click me'
   dialogController: CustomDialogController | null = new CustomDialogController({
     builder: CustomDialogExample2({
@@ -111,8 +111,8 @@ struct UiComponentTextRichEditorAction05 {
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("20%")
+      .width('100%')
+      .height('20%')
 
       Row() {
         Button('show pop-up')
@@ -123,7 +123,7 @@ struct UiComponentTextRichEditorAction05 {
           })
           .id('UiComponentTextRichEditorAction05_01')
           .fontSize(6)
-          .width("40%")
+          .width('40%')
           .backgroundColor(0x317aff)
           .labelStyle({ overflow: TextOverflow.Clip,
             maxLines: 2,
@@ -137,27 +137,27 @@ struct UiComponentTextRichEditorAction05 {
             }
           })
           .backgroundColor(0x317aff)
-        Button("获取选择内容")
+        Button('获取选择内容')
           .borderRadius(8)
           .backgroundColor(0x317aff)
           .fontWeight(900)
           .fontStyle(FontStyle.Italic)
           .onClick(() => {
-            this.content = "";
+            this.content = '';
             this.controller.getSpans({
               start: this.start,
               end: this.end
             }).forEach(item => {
               if(typeof(item as RichEditorImageSpanResult)['imageStyle'] != 'undefined'){
                 this.content += (item as RichEditorImageSpanResult).valueResourceStr;
-                this.content += "\n"
+                this.content += '\n'
               } else {
                 if(typeof(item as RichEditorTextSpanResult)['symbolSpanStyle'] != 'undefined') {
                   this.content += (item as RichEditorTextSpanResult).symbolSpanStyle?.fontSize;
-                  this.content += "\n"
+                  this.content += '\n'
                 }else {
                   this.content += (item as RichEditorTextSpanResult).value;
-                  this.content += "\n"
+                  this.content += '\n'
                 }
               }
             })
@@ -165,14 +165,14 @@ struct UiComponentTextRichEditorAction05 {
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("10%")
+      .width('100%')
+      .height('10%')
 
       Column() {
         RichEditor(this.options)
           .id('UiComponentTextRichEditorAction05_03')
           .onReady(() => {
-            this.controller.addTextSpan("012345",
+            this.controller.addTextSpan('012345',
               {
                 style:
                 {
@@ -180,21 +180,21 @@ struct UiComponentTextRichEditorAction05 {
                   fontSize: 30
                 }
               })
-            this.controller.addSymbolSpan($r("sys.symbol.ohos_trash"),
+            this.controller.addSymbolSpan($r('sys.symbol.ohos_trash'),
               {
                 style:
                 {
                   fontSize: 30
                 }
               })
-            this.controller.addImageSpan($r("app.media.icon"),
+            this.controller.addImageSpan($r('app.media.icon'),
               {
                 imageStyle:
                 {
-                  size: ["57px", "57px"]
+                  size: ['57px', '57px']
                 }
               })
-            this.controller.addTextSpan("56789",
+            this.controller.addTextSpan('56789',
               {
                 style:
                 {
@@ -206,43 +206,43 @@ struct UiComponentTextRichEditorAction05 {
           .onSelect((value: RichEditorSelection) => {
             this.start = value.selection[0];
             this.end = value.selection[1];
-            this.message = "[" + this.start + ", " + this.end + "]"
+            this.message = '[' + this.start + ', ' + this.end + ']'
           })
           .aboutToIMEInput((value: RichEditorInsertValue) => {
-            console.log("---------------------- aboutToIMEInput ----------------------")
-            console.log("insertOffset:" + value.insertOffset)
-            console.log("insertValue:" + value.insertValue)
+            console.log('---------------------- aboutToIMEInput ----------------------')
+            console.log('insertOffset:' + value.insertOffset)
+            console.log('insertValue:' + value.insertValue)
             return true;
           })
           .onIMEInputComplete((value: RichEditorTextSpanResult) => {
-            console.log("---------------------- onIMEInputComplete ---------------------")
-            console.log("spanIndex:" + value.spanPosition.spanIndex)
-            console.log("spanRange:[" + value.spanPosition.spanRange[0] + "," + value.spanPosition.spanRange[1] + "]")
-            console.log("offsetInSpan:[" + value.offsetInSpan[0] + "," + value.offsetInSpan[1] + "]")
-            console.log("value:" + value.value)
+            console.log('---------------------- onIMEInputComplete ---------------------')
+            console.log('spanIndex:' + value.spanPosition.spanIndex)
+            console.log('spanRange:[' + value.spanPosition.spanRange[0] + ',' + value.spanPosition.spanRange[1] + ']')
+            console.log('offsetInSpan:[' + value.offsetInSpan[0] + ',' + value.offsetInSpan[1] + ']')
+            console.log('value:' + value.value)
           })
           .aboutToDelete((value: RichEditorDeleteValue) => {
-            console.log("---------------------- aboutToDelete --------------------------")
-            console.log("offset:" + value.offset)
-            console.log("direction:" + value.direction)
-            console.log("length:" + value.length)
+            console.log('---------------------- aboutToDelete --------------------------')
+            console.log('offset:' + value.offset)
+            console.log('direction:' + value.direction)
+            console.log('length:' + value.length)
             value.richEditorDeleteSpans.forEach(item => {
-              console.log("---------------------- item --------------------------")
-              console.log("spanIndex:" + item.spanPosition.spanIndex)
-              console.log("spanRange:[" + item.spanPosition.spanRange[0] + "," + item.spanPosition.spanRange[1] + "]")
-              console.log("offsetInSpan:[" + item.offsetInSpan[0] + "," + item.offsetInSpan[1] + "]")
+              console.log('---------------------- item --------------------------')
+              console.log('spanIndex:' + item.spanPosition.spanIndex)
+              console.log('spanRange:[' + item.spanPosition.spanRange[0] + ',' + item.spanPosition.spanRange[1] + ']')
+              console.log('offsetInSpan:[' + item.offsetInSpan[0] + ',' + item.offsetInSpan[1] + ']')
               if (typeof(item as RichEditorImageSpanResult)['imageStyle'] != 'undefined') {
-                console.log("image:" + (item as RichEditorImageSpanResult).valueResourceStr)
+                console.log('image:' + (item as RichEditorImageSpanResult).valueResourceStr)
               } else {
-                console.log("text:" + (item as RichEditorTextSpanResult).value)
+                console.log('text:' + (item as RichEditorTextSpanResult).value)
               }
             })
             return true;
           })
           .onDeleteComplete(() => {
-            console.log("---------------------- onDeleteComplete ------------------------")
+            console.log('---------------------- onDeleteComplete ------------------------')
           })
-          .placeholder("input...", {
+          .placeholder('input...', {
             fontColor: Color.Gray,
             font: {
               size: 16,
@@ -252,13 +252,13 @@ struct UiComponentTextRichEditorAction05 {
           })
           .borderWidth(1)
           .borderColor(Color.Green)
-          .width("100%")
-          .height("30%")
+          .width('100%')
+          .height('30%')
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("70%")
+      .width('100%')
+      .height('70%')
     }
   }
 }

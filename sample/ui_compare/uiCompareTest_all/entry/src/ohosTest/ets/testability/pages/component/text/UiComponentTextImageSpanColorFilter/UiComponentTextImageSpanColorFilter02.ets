@@ -42,10 +42,10 @@ struct UiComponentTextImageSpanColorFilter02 {
             }, drawing.BlendMode.SRC))
             .obscured([ObscuredReasons.PLACEHOLDER])
             .onError((err) => {
-              console.log("onError: " + err.message);
+              console.log('onError: ' + err.message);
             })
             .onComplete((event) => {
-              console.log("onComplete: " + event.loadingStatus);
+              console.log('onComplete: ' + event.loadingStatus);
             })
         }
       }

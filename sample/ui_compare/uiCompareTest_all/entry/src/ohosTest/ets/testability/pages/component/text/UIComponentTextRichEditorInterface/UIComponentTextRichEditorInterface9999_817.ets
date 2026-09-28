@@ -25,7 +25,7 @@ struct UIComponentTextRichEditorInterface9999817 {
       Column() {
         RichEditor(this.options)
           .onReady(() => {
-            this.controller.addTextSpan("012345678901234567890123456789",
+            this.controller.addTextSpan('012345678901234567890123456789',
               {
                 style:
                 {
@@ -42,7 +42,7 @@ struct UIComponentTextRichEditorInterface9999817 {
                 decoration: { type: TextDecorationType.Underline, color: Color.Green }
               })
           })
-          .placeholder("input...", {
+          .placeholder('input...', {
             fontColor: Color.Gray,
             font: {
               size: 16,
@@ -53,7 +53,7 @@ struct UIComponentTextRichEditorInterface9999817 {
           .id(this.name + '_01')
           .borderWidth(5)
           .borderColor(Color.Green)
-          .width("100%")
+          .width('100%')
 
         Text(this.message)
           .margin({top: 10})
@@ -83,8 +83,8 @@ struct UIComponentTextRichEditorInterface9999817 {
           })
           .margin({bottom: 10})
       }
-      .width("100%")
-      .height("70%")
+      .width('100%')
+      .height('70%')
     }
   }
 }

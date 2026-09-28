@@ -19,7 +19,7 @@ import { LengthMetrics } from '@kit.ArkUI';
 @Component
 struct UiComponentTextReverseAnalysis04 {
   @State testId: string = 'SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0080';
-  mutableStyledString: MutableStyledString = new MutableStyledString("初始字符串", [{
+  mutableStyledString: MutableStyledString = new MutableStyledString('初始字符串', [{
     start: 0,
     length: 5,
     styledKey: StyledStringKey.FONT,
@@ -72,7 +72,7 @@ struct UiComponentTextReverseAnalysis04 {
 
         Button('执行 insertString(3, "新插入文本") 并设置上划线样式')
           .onClick(() => {
-            this.mutableStyledString.insertString(3, "新插入文本");
+            this.mutableStyledString.insertString(3, '新插入文本');
             this.mutableStyledString.setStyle({
               start: 3,
               length: 5,

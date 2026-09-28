@@ -20,7 +20,7 @@ import { LengthMetrics } from '@kit.ArkUI';
 struct UiComponentTextReverseAnalysis27 {
   @State testId: string = 'SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0650';
   controller: TextController = new TextController();
-  mutableStyledString: MutableStyledString = new MutableStyledString("测试文本", [
+  mutableStyledString: MutableStyledString = new MutableStyledString('测试文本', [
     {
       start: 0,
       length: 4,

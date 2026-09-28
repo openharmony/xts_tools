@@ -24,7 +24,7 @@ struct UIComponentTextRichEditorKeyboardAppearance002 {
       Column() {
         RichEditor(this.options)
           .onReady(() => {
-            this.controller.addTextSpan("012345678901234567890123456789",
+            this.controller.addTextSpan('012345678901234567890123456789',
               {
                 style:
                 {
@@ -33,7 +33,7 @@ struct UIComponentTextRichEditorKeyboardAppearance002 {
                 }
               })
           })
-          .placeholder("input...", {
+          .placeholder('input...', {
             fontColor: Color.Gray,
             font: {
               size: 16,
@@ -45,11 +45,11 @@ struct UIComponentTextRichEditorKeyboardAppearance002 {
           .keyboardAppearance(KeyboardAppearance.DARK_IMMERSIVE)
           .borderWidth(5)
           .borderColor(Color.Green)
-          .width("100%")
+          .width('100%')
 
       }
-      .width("100%")
-      .height("70%")
+      .width('100%')
+      .height('70%')
     }
   }
 }

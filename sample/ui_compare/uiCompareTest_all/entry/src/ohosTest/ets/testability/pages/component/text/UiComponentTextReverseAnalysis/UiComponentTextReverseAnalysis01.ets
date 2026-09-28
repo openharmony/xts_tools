@@ -19,7 +19,7 @@ import { LengthMetrics } from '@kit.ArkUI';
 @Component
 struct UiComponentTextReverseAnalysis01 {
   @State testId: string = 'SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0050';
-  mutableStyledString: MutableStyledString = new MutableStyledString("^⌯𖥦⌯^ ੭ #jk", [{
+  mutableStyledString: MutableStyledString = new MutableStyledString('^⌯𖥦⌯^ ੭ #jk', [{
     start: 0,
     length: 5,
     styledKey: StyledStringKey.FONT,
@@ -72,7 +72,7 @@ struct UiComponentTextReverseAnalysis01 {
 
         Button('执行 replaceString(3, 1, "替换")')
           .onClick(() => {
-            this.mutableStyledString.replaceString(3, 1, "替换");
+            this.mutableStyledString.replaceString(3, 1, '替换');
             this.resultText = this.mutableStyledString.getString();
             this.controller.setStyledString(this.mutableStyledString);
             this.operationLog = `执行 replaceString(3, 1, "替换")\n`;

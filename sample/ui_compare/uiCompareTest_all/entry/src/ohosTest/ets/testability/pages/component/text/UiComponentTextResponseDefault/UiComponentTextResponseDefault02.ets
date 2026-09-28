@@ -53,12 +53,12 @@ struct UiComponentTextResponseDefault02 {
     Column() {
       Menu() {
         MenuItemGroup() {
-          MenuItem({ startIcon: $r('app.media.app_icon'), content: "Right Click Menu 1", labelInfo: "" })
+          MenuItem({ startIcon: $r('app.media.app_icon'), content: 'Right Click Menu 1', labelInfo: '' })
             .onClick((event) => {
               this.controller.closeSelectionMenu();
             })
-          MenuItem({ startIcon: $r('app.media.app_icon'), content: "Right Click Menu 2", labelInfo: "" })
-          MenuItem({ startIcon: $r('app.media.app_icon'), content: "Right Click Menu 3", labelInfo: "" })
+          MenuItem({ startIcon: $r('app.media.app_icon'), content: 'Right Click Menu 2', labelInfo: '' })
+          MenuItem({ startIcon: $r('app.media.app_icon'), content: 'Right Click Menu 3', labelInfo: '' })
         }
       }
       .menuStyles2()
@@ -69,12 +69,12 @@ struct UiComponentTextResponseDefault02 {
     Column() {
       Menu() {
         MenuItemGroup() {
-          MenuItem({ startIcon: $r('app.media.app_icon'), content: "Long Press Image Menu 1", labelInfo: "" })
+          MenuItem({ startIcon: $r('app.media.app_icon'), content: 'Long Press Image Menu 1', labelInfo: '' })
             .onClick((event) => {
               this.controller.closeSelectionMenu();
             })
-          MenuItem({ startIcon: $r('app.media.app_icon'), content: "Long Press Image Menu 2", labelInfo: "" })
-          MenuItem({ startIcon: $r('app.media.app_icon'), content: "Long Press Image Menu 3", labelInfo: "" })
+          MenuItem({ startIcon: $r('app.media.app_icon'), content: 'Long Press Image Menu 2', labelInfo: '' })
+          MenuItem({ startIcon: $r('app.media.app_icon'), content: 'Long Press Image Menu 3', labelInfo: '' })
         }
       }
       .menuStyles2()
@@ -85,12 +85,12 @@ struct UiComponentTextResponseDefault02 {
     Column() {
       Menu() {
         MenuItemGroup() {
-          MenuItem({ startIcon: $r('app.media.app_icon'), content: "Select Mixed Menu 1", labelInfo: "" })
+          MenuItem({ startIcon: $r('app.media.app_icon'), content: 'Select Mixed Menu 1', labelInfo: '' })
             .onClick((event) => {
               this.controller.closeSelectionMenu();
             })
-          MenuItem({ startIcon: $r('app.media.app_icon'), content: "Select Mixed Menu 2", labelInfo: "" })
-          MenuItem({ startIcon: $r('app.media.app_icon'), content: "Select Mixed Menu 3", labelInfo: "" })
+          MenuItem({ startIcon: $r('app.media.app_icon'), content: 'Select Mixed Menu 2', labelInfo: '' })
+          MenuItem({ startIcon: $r('app.media.app_icon'), content: 'Select Mixed Menu 3', labelInfo: '' })
         }
       }
       .menuStyles2()

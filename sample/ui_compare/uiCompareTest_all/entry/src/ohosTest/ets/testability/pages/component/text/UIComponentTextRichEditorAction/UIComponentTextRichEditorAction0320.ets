@@ -24,7 +24,7 @@ struct UIComponentTextRichEditorAction0320 {
       Column() {
         RichEditor(this.options)
           .onReady(() => {
-            this.controller.addTextSpan("012345\n012345012345012345",
+            this.controller.addTextSpan('012345\n012345012345012345',
               {
                 style:
                 {
@@ -32,14 +32,14 @@ struct UIComponentTextRichEditorAction0320 {
                   fontSize: 25
                 }
               })
-            this.controller.addSymbolSpan($r("sys.symbol.ohos_trash"),
+            this.controller.addSymbolSpan($r('sys.symbol.ohos_trash'),
               {
                 style:
                 {
                   fontSize: 25
                 }
               })
-            this.controller.addTextSpan("01234567890123456789\n0123456789",
+            this.controller.addTextSpan('01234567890123456789\n0123456789',
               {
                 style:
                 {
@@ -47,14 +47,14 @@ struct UIComponentTextRichEditorAction0320 {
                   fontSize: 25
                 }
               })
-            this.controller.addImageSpan($r("app.media.icon"),
+            this.controller.addImageSpan($r('app.media.icon'),
               {
                 imageStyle:
                 {
-                  size: ["57px", "57px"]
+                  size: ['57px', '57px']
                 }
               })
-            this.controller.addTextSpan("56789",
+            this.controller.addTextSpan('56789',
               {
                 style:
                 {
@@ -63,7 +63,7 @@ struct UIComponentTextRichEditorAction0320 {
                 }
               })
           })
-          .placeholder("input...", {
+          .placeholder('input...', {
             fontColor: Color.Gray,
             font: {
               size: 16,
@@ -74,12 +74,12 @@ struct UIComponentTextRichEditorAction0320 {
           .borderWidth(5)
           .borderColor(Color.Green)
           .id(this.name + '_01')
-          .width("100%")
+          .width('100%')
           .height(150)
 
       }
-      .width("100%")
-      .height("70%")
+      .width('100%')
+      .height('70%')
     }
   }
 }

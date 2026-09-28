@@ -33,7 +33,7 @@ struct UiComponentTextCommonLineSpace01 {
         .type(InputType.Password)
         .showPassword(true)
         .caretColor(Color.Blue)
-        .fontFeature("\"subs\" 1")
+        .fontFeature('"subs" 1')
         .id('TextInput001')
         .cancelButton({
           style: CancelButtonStyle.CONSTANT,

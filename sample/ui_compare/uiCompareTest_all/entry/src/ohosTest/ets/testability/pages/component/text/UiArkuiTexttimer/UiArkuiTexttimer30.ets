@@ -29,23 +29,23 @@ struct UiArkuiTexttimer30 {
           console.info('textTimer notCountDown utc is：' + utc + ', elapsedTime: ' + elapsedTime)
         })
       Row() {
-        Button("start").onClick(() => {
+        Button('start').onClick(() => {
           this.textTimerController.start()
         })
           .id('start')
-        Button("pause").onClick(() => {
+        Button('pause').onClick(() => {
           this.textTimerController.pause()
         })
           .id('pause')
-        Button("reset").onClick(() => {
+        Button('reset').onClick(() => {
           this.textTimerController.reset()
         })
           .id('reset')
-        Button("changCount").onClick(() => {
+        Button('changCount').onClick(() => {
           this.count=-3600
         })
           .id('reset1')
-        Button("changCount").onClick(() => {
+        Button('changCount').onClick(() => {
           this.count=86400000
         })
           .id('reset2')
