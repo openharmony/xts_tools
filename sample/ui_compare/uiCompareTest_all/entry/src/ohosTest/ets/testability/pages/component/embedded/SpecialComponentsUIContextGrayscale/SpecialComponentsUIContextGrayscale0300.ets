@@ -17,294 +17,294 @@
 @Component
 struct SpecialComponentsUIContextGrayscale0300 {
   @State select: boolean = true;
-  private iconStr: ResourceStr = $r("app.media.icon");
-  private iconStr2: ResourceStr = $r("app.media.icon");
+  private iconStr: ResourceStr = $r('app.media.icon');
+  private iconStr2: ResourceStr = $r('app.media.icon');
 
   @Builder
   SubMenu() {
     Menu() {
-      MenuItem({ content: "复制", labelInfo: "Ctrl+C" })
-      MenuItem({ content: "粘贴", labelInfo: "Ctrl+V" })
+      MenuItem({ content: '复制', labelInfo: 'Ctrl+C' })
+      MenuItem({ content: '粘贴', labelInfo: 'Ctrl+V' })
     }
   }
 
   @Builder
   MyMenu(){
     Menu() {
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
         .enabled(false)
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
         endIcon: this.iconStr2,
         builder: ():void=>this.SubMenu()
       })
       MenuItemGroup({ header: '小标题' }) {
         MenuItem({
           startIcon: this.iconStr,
-          content: "菜单选项",
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
         MenuItem({
-          startIcon: $r("app.media.app_icon"),
-          content: "菜单选项",
+          startIcon: $r('app.media.app_icon'),
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
       }
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
       })
     }
     .grayscale(-10)
 
     Menu() {
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
         .enabled(false)
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
         endIcon: this.iconStr2,
         builder: ():void=>this.SubMenu()
       })
       MenuItemGroup({ header: '小标题' }) {
         MenuItem({
           startIcon: this.iconStr,
-          content: "菜单选项",
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
         MenuItem({
-          startIcon: $r("app.media.app_icon"),
-          content: "菜单选项",
+          startIcon: $r('app.media.app_icon'),
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
       }
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
       })
     }
     .grayscale(-1)
 
     Menu() {
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
         .enabled(false)
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
         endIcon: this.iconStr2,
         builder: ():void=>this.SubMenu()
       })
       MenuItemGroup({ header: '小标题' }) {
         MenuItem({
           startIcon: this.iconStr,
-          content: "菜单选项",
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
         MenuItem({
-          startIcon: $r("app.media.app_icon"),
-          content: "菜单选项",
+          startIcon: $r('app.media.app_icon'),
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
       }
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
       })
     }
     .grayscale(0)
 
     Menu() {
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
         .enabled(false)
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
         endIcon: this.iconStr2,
         builder: ():void=>this.SubMenu()
       })
       MenuItemGroup({ header: '小标题' }) {
         MenuItem({
           startIcon: this.iconStr,
-          content: "菜单选项",
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
         MenuItem({
-          startIcon: $r("app.media.app_icon"),
-          content: "菜单选项",
+          startIcon: $r('app.media.app_icon'),
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
       }
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
       })
     }
     .grayscale(0.2)
 
     Menu() {
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
         .enabled(false)
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
         endIcon: this.iconStr2,
         builder: ():void=>this.SubMenu()
       })
       MenuItemGroup({ header: '小标题' }) {
         MenuItem({
           startIcon: this.iconStr,
-          content: "菜单选项",
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
         MenuItem({
-          startIcon: $r("app.media.app_icon"),
-          content: "菜单选项",
+          startIcon: $r('app.media.app_icon'),
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
       }
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
       })
     }
     .grayscale(0.5)
 
     Menu() {
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
         .enabled(false)
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
         endIcon: this.iconStr2,
         builder: ():void=>this.SubMenu()
       })
       MenuItemGroup({ header: '小标题' }) {
         MenuItem({
           startIcon: this.iconStr,
-          content: "菜单选项",
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
         MenuItem({
-          startIcon: $r("app.media.app_icon"),
-          content: "菜单选项",
+          startIcon: $r('app.media.app_icon'),
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
       }
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
       })
     }
     .grayscale(0.8)
 
     Menu() {
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
         .enabled(false)
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
         endIcon: this.iconStr2,
         builder: ():void=>this.SubMenu()
       })
       MenuItemGroup({ header: '小标题' }) {
         MenuItem({
           startIcon: this.iconStr,
-          content: "菜单选项",
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
         MenuItem({
-          startIcon: $r("app.media.app_icon"),
-          content: "菜单选项",
+          startIcon: $r('app.media.app_icon'),
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
       }
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
       })
     }
     .grayscale(1)
 
     Menu() {
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
         .enabled(false)
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
         endIcon: this.iconStr2,
         builder: ():void=>this.SubMenu()
       })
       MenuItemGroup({ header: '小标题' }) {
         MenuItem({
           startIcon: this.iconStr,
-          content: "菜单选项",
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
         MenuItem({
-          startIcon: $r("app.media.app_icon"),
-          content: "菜单选项",
+          startIcon: $r('app.media.app_icon'),
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
       }
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
       })
     }
     .grayscale(1.5)
 
     Menu() {
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项" })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项' })
         .enabled(false)
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
         endIcon: this.iconStr2,
         builder: ():void=>this.SubMenu()
       })
       MenuItemGroup({ header: '小标题' }) {
         MenuItem({
           startIcon: this.iconStr,
-          content: "菜单选项",
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
         MenuItem({
-          startIcon: $r("app.media.app_icon"),
-          content: "菜单选项",
+          startIcon: $r('app.media.app_icon'),
+          content: '菜单选项',
           endIcon: this.iconStr2,
           builder: ():void=>this.SubMenu()
         })
       }
       MenuItem({
         startIcon: this.iconStr,
-        content: "菜单选项",
+        content: '菜单选项',
       })
     }
     .grayscale(100)

@@ -505,6 +505,6 @@ struct SpecialComponentsUIContextGrayscale0270 {
         .height(300)
         .emitter(this.emitterProperties)
         .grayscale(100)
-    }.width("100%").height("100%").align(Alignment.Center)
+    }.width('100%').height('100%').align(Alignment.Center)
   }
 }

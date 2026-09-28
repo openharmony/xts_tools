@@ -23,7 +23,7 @@ struct UiAttributesUseEffectEffectType02 {
         .autoResize(true)
       EffectComponent() {
         Column({ space: 20 }) {
-          Text("Normal text with useEffect is true and EffectType is DEFAULT")
+          Text('Normal text with useEffect is true and EffectType is DEFAULT')
             .textAlign(TextAlign.Center)
             .useEffect(!this.isUse, EffectType.DEFAULT)
             .textSelectable(TextSelectableMode.SELECTABLE_FOCUSABLE)

@@ -25,7 +25,7 @@ struct SpecialComponentsUIContextGrayscale0210 {
       Grid() {
         ForEach([1, 2, 3, 4, 5, 6, 7, 8, 9, '*', 0, '#'], (item: number | string) => {
           GridItem() {
-            Button(item + "")
+            Button(item + '')
               .width(110).onClick(() => {
               this.controller.addTextSpan(item + '', {
                 offset: this.controller.getCaretOffset(),
@@ -51,7 +51,7 @@ struct SpecialComponentsUIContextGrayscale0210 {
         .height(200)
         .borderWidth(1)
         .borderColor(Color.Red)
-        .width("100%")
+        .width('100%')
         .grayscale(-10)
 
       RichEditor({ controller: this.controller })
@@ -60,7 +60,7 @@ struct SpecialComponentsUIContextGrayscale0210 {
         .height(200)
         .borderWidth(1)
         .borderColor(Color.Red)
-        .width("100%")
+        .width('100%')
         .grayscale(-1)
 
       RichEditor({ controller: this.controller })
@@ -69,7 +69,7 @@ struct SpecialComponentsUIContextGrayscale0210 {
         .height(200)
         .borderWidth(1)
         .borderColor(Color.Red)
-        .width("100%")
+        .width('100%')
         .grayscale(0)
 
       RichEditor({ controller: this.controller })
@@ -78,7 +78,7 @@ struct SpecialComponentsUIContextGrayscale0210 {
         .height(200)
         .borderWidth(1)
         .borderColor(Color.Red)
-        .width("100%")
+        .width('100%')
         .grayscale(0.2)
 
       RichEditor({ controller: this.controller })
@@ -87,7 +87,7 @@ struct SpecialComponentsUIContextGrayscale0210 {
         .height(200)
         .borderWidth(1)
         .borderColor(Color.Red)
-        .width("100%")
+        .width('100%')
         .grayscale(0.5)
 
       RichEditor({ controller: this.controller })
@@ -96,7 +96,7 @@ struct SpecialComponentsUIContextGrayscale0210 {
         .height(200)
         .borderWidth(1)
         .borderColor(Color.Red)
-        .width("100%")
+        .width('100%')
         .grayscale(0.8)
 
       RichEditor({ controller: this.controller })
@@ -105,7 +105,7 @@ struct SpecialComponentsUIContextGrayscale0210 {
         .height(200)
         .borderWidth(1)
         .borderColor(Color.Red)
-        .width("100%")
+        .width('100%')
         .grayscale(1)
 
       RichEditor({ controller: this.controller })
@@ -114,7 +114,7 @@ struct SpecialComponentsUIContextGrayscale0210 {
         .height(200)
         .borderWidth(1)
         .borderColor(Color.Red)
-        .width("100%")
+        .width('100%')
         .grayscale(1.5)
 
       RichEditor({ controller: this.controller })
@@ -123,7 +123,7 @@ struct SpecialComponentsUIContextGrayscale0210 {
         .height(200)
         .borderWidth(1)
         .borderColor(Color.Red)
-        .width("100%")
+        .width('100%')
         .grayscale(100)
     }
   }

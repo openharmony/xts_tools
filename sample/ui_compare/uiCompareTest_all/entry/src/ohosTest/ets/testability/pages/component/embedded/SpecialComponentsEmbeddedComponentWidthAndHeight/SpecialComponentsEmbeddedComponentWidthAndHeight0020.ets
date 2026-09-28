@@ -18,8 +18,8 @@
 struct SpecialComponentsEmbeddedComponentWidthAndHeight0020 {
 
   private want: Want = {
-    bundleName: "com.example.uicompare",
-    abilityName: "TestAbility",
+    bundleName: 'com.example.uicompare',
+    abilityName: 'TestAbility',
   };
 
   @State firstWidth: number = 100
@@ -78,7 +78,7 @@ struct SpecialComponentsEmbeddedComponentWidthAndHeight0020 {
         .height(40)
         .id('SpecialComponentsEmbeddedComponentWidthAndHeight0020_006')
         .onClick(() => {
-          console.info(getInspectorByKey("SpecialComponentsEmbeddedComponentWidthAndHeight0020_002"))
+          console.info(getInspectorByKey('SpecialComponentsEmbeddedComponentWidthAndHeight0020_002'))
         })
 
     }

@@ -23,7 +23,7 @@ struct UiAttributesUseEffectEffectType03 {
         .autoResize(true)
       EffectComponent() {
         Column({ space: 20 }) {
-          Text("Normal text with useEffect is true")
+          Text('Normal text with useEffect is true')
             .textAlign(TextAlign.Center)
             .useEffect(!this.isUse)
             .fontSize(16)

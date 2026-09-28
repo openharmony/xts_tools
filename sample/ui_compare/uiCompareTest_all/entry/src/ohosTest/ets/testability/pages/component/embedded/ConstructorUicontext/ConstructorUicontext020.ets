@@ -14,7 +14,7 @@
  */
 
 
-import { BuilderNode, NodeContent } from "@kit.ArkUI";
+import { BuilderNode, NodeContent } from '@kit.ArkUI';
 
 // 定义传递参数的接口
 interface ParamsInterface {
@@ -45,20 +45,20 @@ function buildText(params: ParamsInterface) {
 @Component
 struct ConstructorUicontext020 {
 
-  @State message: string = "HELLO";
+  @State message: string = 'HELLO';
   private content: NodeContent = new NodeContent();
 
   build() {
     Row() {
       Column() {
         Button('addBuilderNode')
-          .id("ConstructorUicontext020_001")
+          .id('ConstructorUicontext020_001')
           .onClick(() => {
             let buildNode = new BuilderNode<[ParamsInterface]>(this.getUIContext());
             // 创建节点树
             buildNode.build(wrapBuilder<[ParamsInterface]>(buildText), {
               text: this.message, func: () => {
-                return "FUNCTION";
+                return 'FUNCTION';
               }
             }, { nestingBuilderSupported: true });
             this.content.addFrameNode(buildNode.getFrameNode());
@@ -66,7 +66,7 @@ struct ConstructorUicontext020 {
           })
         ContentSlot(this.content)
       }
-      .id("column")
+      .id('column')
       .width('100%')
       .height('100%')
     }

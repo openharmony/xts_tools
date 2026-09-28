@@ -52,8 +52,8 @@ struct SpecialComponentsUIContextGrayscale0310 {
                 console.info('Closed callbacks');
               },
               onWillDismiss: (dismissDialogAction: DismissDialogAction) => {
-                console.info("reason=" + JSON.stringify(dismissDialogAction.reason));
-                console.info("dialog onWillDismiss");
+                console.info('reason=' + JSON.stringify(dismissDialogAction.reason));
+                console.info('dialog onWillDismiss');
                 if (dismissDialogAction.reason === DismissReason.PRESS_BACK) {
                   dismissDialogAction.dismiss();
                 }
@@ -101,8 +101,8 @@ struct SpecialComponentsUIContextGrayscale0310 {
                 console.info('Closed callbacks');
               },
               onWillDismiss: (dismissDialogAction: DismissDialogAction) => {
-                console.info("reason=" + JSON.stringify(dismissDialogAction.reason));
-                console.info("dialog onWillDismiss");
+                console.info('reason=' + JSON.stringify(dismissDialogAction.reason));
+                console.info('dialog onWillDismiss');
                 if (dismissDialogAction.reason === DismissReason.PRESS_BACK) {
                   dismissDialogAction.dismiss();
                 }
@@ -150,8 +150,8 @@ struct SpecialComponentsUIContextGrayscale0310 {
                 console.info('Closed callbacks');
               },
               onWillDismiss: (dismissDialogAction: DismissDialogAction) => {
-                console.info("reason=" + JSON.stringify(dismissDialogAction.reason));
-                console.info("dialog onWillDismiss");
+                console.info('reason=' + JSON.stringify(dismissDialogAction.reason));
+                console.info('dialog onWillDismiss');
                 if (dismissDialogAction.reason === DismissReason.PRESS_BACK) {
                   dismissDialogAction.dismiss();
                 }
@@ -199,8 +199,8 @@ struct SpecialComponentsUIContextGrayscale0310 {
                 console.info('Closed callbacks');
               },
               onWillDismiss: (dismissDialogAction: DismissDialogAction) => {
-                console.info("reason=" + JSON.stringify(dismissDialogAction.reason));
-                console.info("dialog onWillDismiss");
+                console.info('reason=' + JSON.stringify(dismissDialogAction.reason));
+                console.info('dialog onWillDismiss');
                 if (dismissDialogAction.reason === DismissReason.PRESS_BACK) {
                   dismissDialogAction.dismiss();
                 }
@@ -248,8 +248,8 @@ struct SpecialComponentsUIContextGrayscale0310 {
                 console.info('Closed callbacks');
               },
               onWillDismiss: (dismissDialogAction: DismissDialogAction) => {
-                console.info("reason=" + JSON.stringify(dismissDialogAction.reason));
-                console.info("dialog onWillDismiss");
+                console.info('reason=' + JSON.stringify(dismissDialogAction.reason));
+                console.info('dialog onWillDismiss');
                 if (dismissDialogAction.reason === DismissReason.PRESS_BACK) {
                   dismissDialogAction.dismiss();
                 }
@@ -297,8 +297,8 @@ struct SpecialComponentsUIContextGrayscale0310 {
                 console.info('Closed callbacks');
               },
               onWillDismiss: (dismissDialogAction: DismissDialogAction) => {
-                console.info("reason=" + JSON.stringify(dismissDialogAction.reason));
-                console.info("dialog onWillDismiss");
+                console.info('reason=' + JSON.stringify(dismissDialogAction.reason));
+                console.info('dialog onWillDismiss');
                 if (dismissDialogAction.reason === DismissReason.PRESS_BACK) {
                   dismissDialogAction.dismiss();
                 }
@@ -346,8 +346,8 @@ struct SpecialComponentsUIContextGrayscale0310 {
                 console.info('Closed callbacks');
               },
               onWillDismiss: (dismissDialogAction: DismissDialogAction) => {
-                console.info("reason=" + JSON.stringify(dismissDialogAction.reason));
-                console.info("dialog onWillDismiss");
+                console.info('reason=' + JSON.stringify(dismissDialogAction.reason));
+                console.info('dialog onWillDismiss');
                 if (dismissDialogAction.reason === DismissReason.PRESS_BACK) {
                   dismissDialogAction.dismiss();
                 }
@@ -395,8 +395,8 @@ struct SpecialComponentsUIContextGrayscale0310 {
                 console.info('Closed callbacks');
               },
               onWillDismiss: (dismissDialogAction: DismissDialogAction) => {
-                console.info("reason=" + JSON.stringify(dismissDialogAction.reason));
-                console.info("dialog onWillDismiss");
+                console.info('reason=' + JSON.stringify(dismissDialogAction.reason));
+                console.info('dialog onWillDismiss');
                 if (dismissDialogAction.reason === DismissReason.PRESS_BACK) {
                   dismissDialogAction.dismiss();
                 }
@@ -444,8 +444,8 @@ struct SpecialComponentsUIContextGrayscale0310 {
                 console.info('Closed callbacks');
               },
               onWillDismiss: (dismissDialogAction: DismissDialogAction) => {
-                console.info("reason=" + JSON.stringify(dismissDialogAction.reason));
-                console.info("dialog onWillDismiss");
+                console.info('reason=' + JSON.stringify(dismissDialogAction.reason));
+                console.info('dialog onWillDismiss');
                 if (dismissDialogAction.reason === DismissReason.PRESS_BACK) {
                   dismissDialogAction.dismiss();
                 }

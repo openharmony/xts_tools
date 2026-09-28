@@ -20,8 +20,8 @@
 struct SpecialComponentsEmbeddedComponentMinSize0020 {
 
   private want: Want = {
-    bundleName: "com.example.uicompare",
-    abilityName: "TestAbility",
+    bundleName: 'com.example.uicompare',
+    abilityName: 'TestAbility',
   };
 
   @State WIDTH:number = 10
@@ -50,7 +50,7 @@ struct SpecialComponentsEmbeddedComponentMinSize0020 {
         .height(40)
         .id('SpecialComponentsEmbeddedComponentMinSize0020_003')
         .onClick(()=>{
-          console.info(getInspectorByKey("SpecialComponentsEmbeddedComponentMinSize0020_001"))
+          console.info(getInspectorByKey('SpecialComponentsEmbeddedComponentMinSize0020_001'))
         })
 
     }

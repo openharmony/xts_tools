@@ -23,7 +23,7 @@ struct UiAttributesUseEffectEffectType04 {
         .autoResize(true)
       EffectComponent() {
         Column({ space: 20 }) {
-          Text("Normal text with useEffect is true and set SELECTABLE_FOCUSABLE")
+          Text('Normal text with useEffect is true and set SELECTABLE_FOCUSABLE')
             .textAlign(TextAlign.Center)
             .useEffect(!this.isUse, EffectType.WINDOW_EFFECT)
             .fontSize(16)

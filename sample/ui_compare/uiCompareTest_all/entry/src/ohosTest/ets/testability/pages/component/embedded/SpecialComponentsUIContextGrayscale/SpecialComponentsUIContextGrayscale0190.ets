@@ -18,7 +18,7 @@
 @Component
 struct SpecialComponentsUIContextGrayscale0190 {
   controller: TextInputController = new TextInputController();
-  @State inputValue: string = "";
+  @State inputValue: string = '';
 
   // 自定义键盘组件
   @Builder
@@ -31,7 +31,7 @@ struct SpecialComponentsUIContextGrayscale0190 {
       Grid() {
         ForEach([1, 2, 3, 4, 5, 6, 7, 8, 9, '*', 0, '#'], (item: number | string) => {
           GridItem() {
-            Button(item + "")
+            Button(item + '')
               .width(110).onClick(() => {
               this.inputValue += item;
             })

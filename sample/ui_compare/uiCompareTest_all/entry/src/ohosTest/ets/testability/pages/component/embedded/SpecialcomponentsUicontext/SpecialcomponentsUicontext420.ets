@@ -39,12 +39,12 @@ struct OffscreenSnapshotExample {
         .visibility(Visibility.Hidden)
     }
     .width('100%')
-    .id("builder")
+    .id('builder')
   }
 
   build() {
     Column() {
-      Button("click to generate offscreen UI snapshot")
+      Button('click to generate offscreen UI snapshot')
         .onClick(() => {
           componentSnapshot.createFromBuilder(()=>{this.RandomBuilder()})
             .then((pixmap: image.PixelMap) => {
@@ -52,10 +52,10 @@ struct OffscreenSnapshotExample {
               // save pixmap to file
               // ....
               // get component size and location
-              let info = componentUtils.getRectangleById("builder")
+              let info = componentUtils.getRectangleById('builder')
               console.log(info.size.width + ' ' + info.size.height + ' ' + info.localOffset.x + ' ' + info.localOffset.y + ' ' + info.windowOffset.x + ' ' + info.windowOffset.y)
             }).catch((err:Error) => {
-            console.log("error: " + err)
+            console.log('error: ' + err)
           })
         })
         .id('button')

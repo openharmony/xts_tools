@@ -33,16 +33,16 @@ struct EventTestPage {
         .backgroundColor(Color.White)
 
       EmbeddedComponent({
-        bundleName: "com.example.uicompare",
-        abilityName: "MyEmbeddedUIExtAbilityNested",
+        bundleName: 'com.example.uicompare',
+        abilityName: 'MyEmbeddedUIExtAbilityNested',
       }, EmbeddedType.EMBEDDED_UI_EXTENSION)
         .onTerminated((info) => {
-          console.log("EntryEmbeddedUIExtAbility Index2: onTerminated, info:" + JSON.stringify(info));
+          console.log('EntryEmbeddedUIExtAbility Index2: onTerminated, info:' + JSON.stringify(info));
           this.message = 'Termination: code = ' + info.code + ', want = ' + JSON.stringify(info.want);
           this.context.terminateSelf();
         })
         .onError((error) => {
-          console.log("EventTestPage: EmbeddedComponent onError, error:" + JSON.stringify(error));
+          console.log('EventTestPage: EmbeddedComponent onError, error:' + JSON.stringify(error));
           this.message = 'EventTestPage: EmbeddedComponent Error: code = ' + error.code + ', message = ' + error.message;
         })
         .onClick(() => {

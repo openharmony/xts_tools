@@ -17,8 +17,8 @@
 @Entry
 @Component
 struct SpecialComponentsUIContextGrayscale0160 {
-  normalIcon: Resource = $r("app.media.icon");
-  selectedIcon: Resource = $r("app.media.icon");
+  normalIcon: Resource = $r('app.media.icon');
+  selectedIcon: Resource = $r('app.media.icon');
   @State arr: number[] = [1, 2, 3];
   @State current: number = 1;
 
@@ -29,7 +29,7 @@ struct SpecialComponentsUIContextGrayscale0160 {
           ForEach(this.arr, (item: number) => {
             Column({ space: 5 }) {
               Image(this.current === item ? this.selectedIcon : this.normalIcon).width(64).height(64)
-              Text("Index0" + item)
+              Text('Index0' + item)
                 .fontSize(25)
                 .fontColor(this.current === item ? '#0A59F7' : '#999')
                 .fontFamily('source-sans-pro,cursive,sans-serif')
@@ -75,7 +75,7 @@ struct SpecialComponentsUIContextGrayscale0160 {
           ForEach(this.arr, (item: number) => {
             Column({ space: 5 }) {
               Image(this.current === item ? this.selectedIcon : this.normalIcon).width(64).height(64)
-              Text("Index0" + item)
+              Text('Index0' + item)
                 .fontSize(25)
                 .fontColor(this.current === item ? '#0A59F7' : '#999')
                 .fontFamily('source-sans-pro,cursive,sans-serif')
@@ -101,7 +101,7 @@ struct SpecialComponentsUIContextGrayscale0160 {
           ForEach(this.arr, (item: number) => {
             Column({ space: 5 }) {
               Image(this.current === item ? this.selectedIcon : this.normalIcon).width(64).height(64)
-              Text("Index0" + item)
+              Text('Index0' + item)
                 .fontSize(25)
                 .fontColor(this.current === item ? '#0A59F7' : '#999')
                 .fontFamily('source-sans-pro,cursive,sans-serif')
@@ -127,7 +127,7 @@ struct SpecialComponentsUIContextGrayscale0160 {
           ForEach(this.arr, (item: number) => {
             Column({ space: 5 }) {
               Image(this.current === item ? this.selectedIcon : this.normalIcon).width(64).height(64)
-              Text("Index0" + item)
+              Text('Index0' + item)
                 .fontSize(25)
                 .fontColor(this.current === item ? '#0A59F7' : '#999')
                 .fontFamily('source-sans-pro,cursive,sans-serif')
@@ -153,7 +153,7 @@ struct SpecialComponentsUIContextGrayscale0160 {
           ForEach(this.arr, (item: number) => {
             Column({ space: 5 }) {
               Image(this.current === item ? this.selectedIcon : this.normalIcon).width(64).height(64)
-              Text("Index0" + item)
+              Text('Index0' + item)
                 .fontSize(25)
                 .fontColor(this.current === item ? '#0A59F7' : '#999')
                 .fontFamily('source-sans-pro,cursive,sans-serif')
@@ -179,7 +179,7 @@ struct SpecialComponentsUIContextGrayscale0160 {
           ForEach(this.arr, (item: number) => {
             Column({ space: 5 }) {
               Image(this.current === item ? this.selectedIcon : this.normalIcon).width(64).height(64)
-              Text("Index0" + item)
+              Text('Index0' + item)
                 .fontSize(25)
                 .fontColor(this.current === item ? '#0A59F7' : '#999')
                 .fontFamily('source-sans-pro,cursive,sans-serif')
@@ -205,7 +205,7 @@ struct SpecialComponentsUIContextGrayscale0160 {
           ForEach(this.arr, (item: number) => {
             Column({ space: 5 }) {
               Image(this.current === item ? this.selectedIcon : this.normalIcon).width(64).height(64)
-              Text("Index0" + item)
+              Text('Index0' + item)
                 .fontSize(25)
                 .fontColor(this.current === item ? '#0A59F7' : '#999')
                 .fontFamily('source-sans-pro,cursive,sans-serif')
@@ -231,7 +231,7 @@ struct SpecialComponentsUIContextGrayscale0160 {
           ForEach(this.arr, (item: number) => {
             Column({ space: 5 }) {
               Image(this.current === item ? this.selectedIcon : this.normalIcon).width(64).height(64)
-              Text("Index0" + item)
+              Text('Index0' + item)
                 .fontSize(25)
                 .fontColor(this.current === item ? '#0A59F7' : '#999')
                 .fontFamily('source-sans-pro,cursive,sans-serif')
@@ -257,7 +257,7 @@ struct SpecialComponentsUIContextGrayscale0160 {
           ForEach(this.arr, (item: number) => {
             Column({ space: 5 }) {
               Image(this.current === item ? this.selectedIcon : this.normalIcon).width(64).height(64)
-              Text("Index0" + item)
+              Text('Index0' + item)
                 .fontSize(25)
                 .fontColor(this.current === item ? '#0A59F7' : '#999')
                 .fontFamily('source-sans-pro,cursive,sans-serif')
