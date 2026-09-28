@@ -74,7 +74,7 @@ struct ImageObjectFit01 {
           .margin(5)
 
         Button('ImageFit.Cover')
-          .id("imageObjectFit01_01")
+          .id('imageObjectFit01_01')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)
@@ -87,7 +87,7 @@ struct ImageObjectFit01 {
           })
 
         Button('ImageFit.Auto')
-          .id("imageObjectFit01_02")
+          .id('imageObjectFit01_02')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)
@@ -100,7 +100,7 @@ struct ImageObjectFit01 {
           })
 
         Button('ImageFit.Fill')
-          .id("imageObjectFit01_03")
+          .id('imageObjectFit01_03')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)
@@ -113,7 +113,7 @@ struct ImageObjectFit01 {
           })
 
         Button('ImageFit.ScaleDown')
-          .id("imageObjectFit01_04")
+          .id('imageObjectFit01_04')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)
@@ -126,7 +126,7 @@ struct ImageObjectFit01 {
           })
 
         Button('ImageFit.None')
-          .id("imageObjectFit01_05")
+          .id('imageObjectFit01_05')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)

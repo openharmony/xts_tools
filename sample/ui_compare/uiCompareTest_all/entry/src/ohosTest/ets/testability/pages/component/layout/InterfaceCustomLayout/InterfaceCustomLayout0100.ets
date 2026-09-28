@@ -56,7 +56,7 @@ struct CustomLayoutMaxHeightComponent {
         .margin({ bottom: 5 })
       
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_customlayout_0100")
+        .id('rich_editor_customlayout_0100')
         .width('100%')
         .height(80)
         .borderWidth(1)
@@ -91,7 +91,7 @@ struct InterfaceCustomLayout0100 {
       // 父组件设置约束，自定义组件将获取这些约束信息
       Column() {
         CustomLayoutMaxHeightComponent()
-          .id("custom_layout_maxheight_component_0100")
+          .id('custom_layout_maxheight_component_0100')
       }
       .width('47.22%')
       .height('22.95%')

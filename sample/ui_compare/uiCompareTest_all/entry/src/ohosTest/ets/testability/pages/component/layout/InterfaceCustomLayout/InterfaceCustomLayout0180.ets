@@ -67,7 +67,7 @@ struct CustomLayoutChildrenHeightComponent {
         .margin({ bottom: 5 })
       
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_customlayout_0180")
+        .id('rich_editor_customlayout_0180')
         .width('100%')
         .height(90)
         .borderWidth(1)
@@ -120,7 +120,7 @@ struct InterfaceCustomLayout0180 {
 
       // 自定义组件，测试子组件测量后的高度
       CustomLayoutChildrenHeightComponent()
-        .id("custom_layout_children_height_component_0180")
+        .id('custom_layout_children_height_component_0180')
         .width('90%')
         .height(320)
         .borderWidth(2)

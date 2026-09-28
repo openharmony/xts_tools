@@ -96,9 +96,9 @@ struct Navigation03 {
       .backButtonIcon(new SymbolGlyphModifier($r('sys.symbol.ohos_folder_badge_plus')))
       .toolbarConfiguration([
         {
-          value: $r("app.string.navigation_tools"),
-          icon: $r("sys.symbol.ohos_folder_badge_plus"),
-          activeIcon: $r("sys.symbol.ohos_trash"),
+          value: $r('app.string.navigation_tools'),
+          icon: $r('sys.symbol.ohos_folder_badge_plus'),
+          activeIcon: $r('sys.symbol.ohos_trash'),
         }
       ])
     }.width('100%').height('100%').backgroundColor('#F1F3F5')

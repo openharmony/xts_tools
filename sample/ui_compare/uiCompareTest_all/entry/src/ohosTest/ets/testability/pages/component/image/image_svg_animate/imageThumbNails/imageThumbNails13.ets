@@ -107,7 +107,7 @@ struct ImageThumbNails13 {
           .margin(5)
 
         Button('change matrix01')
-          .id("imageThumbNails13_01")
+          .id('imageThumbNails13_01')
           .height(5)
           .fontSize(15)
           .fontColor(Color.Black)
@@ -120,7 +120,7 @@ struct ImageThumbNails13 {
           })
         
         Button('change matrix02')
-          .id("imageThumbNails13_02")
+          .id('imageThumbNails13_02')
           .height(5)
           .fontSize(15)
           .fontColor(Color.Black)
@@ -133,7 +133,7 @@ struct ImageThumbNails13 {
           })
         
         Button('change matrix03')
-          .id("imageThumbNails13_03")
+          .id('imageThumbNails13_03')
           .height(5)
           .fontSize(15)
           .fontColor(Color.Black)
@@ -146,7 +146,7 @@ struct ImageThumbNails13 {
           })
         
         Button('change matrix04')
-          .id("imageThumbNails13_04")
+          .id('imageThumbNails13_04')
           .height(5)
           .fontSize(15)
           .fontColor(Color.Black)

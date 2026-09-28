@@ -14,12 +14,12 @@
  */
 
 @Builder
-export function pageNavBBuilder(name: string, Param: Object) {
+export function pageNavBBuilder(name: string, param: Object) {
   PageNavB()
 }
 
 class Param {
-  public info: string = "__default_param__";
+  public info: string = '__default_param__';
 
   constructor(info: string) {
     this.info = info;
@@ -31,16 +31,16 @@ export struct PageNavB {
   pathStack: NavPathStack = new NavPathStack();
   private menuItems: NavigationMenuItem[] = [
     {
-      value: "1",
+      value: '1',
       icon: 'resources/base/media/undo.svg',
     },
     {
-      value: "2",
+      value: '2',
       icon: 'resources/base/media/redo.svg',
       isEnabled: false,
     },
     {
-      value: "3",
+      value: '3',
       icon: 'resources/base/media/ic_public_ok.svg',
       isEnabled: true,
     }
@@ -78,7 +78,7 @@ export struct PageNavB {
     })
     .onReady((context: NavDestinationContext) => {
       this.pathStack = context.pathStack;
-      console.info("current page config info is " + JSON.stringify(context.getConfigInRouteMap()));
+      console.info('current page config info is ' + JSON.stringify(context.getConfigInRouteMap()));
     })
   }
 }

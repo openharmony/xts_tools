@@ -78,7 +78,7 @@ struct CustomLayoutUnitConsistencyComponent {
         .margin({ bottom: 5 })
       
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_customlayout_0260")
+        .id('rich_editor_customlayout_0260')
         .width('100%')
         .height(100)
         .borderWidth(1)
@@ -133,7 +133,7 @@ struct InterfaceCustomLayout0260 {
           .height(250)
           .margin({ top: 10, right: 15, bottom: 20, left: 25 })
           .padding({ top: 8, right: 12, bottom: 16, left: 20 })
-          .id("custom_layout_unit_consistency_component_0260")
+          .id('custom_layout_unit_consistency_component_0260')
           .borderWidth(2)
           .borderColor(Color.Orange)
           .backgroundColor('#FAFAFA')

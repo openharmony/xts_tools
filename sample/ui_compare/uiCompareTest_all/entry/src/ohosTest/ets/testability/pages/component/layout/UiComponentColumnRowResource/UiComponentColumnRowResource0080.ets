@@ -22,7 +22,7 @@
 export struct ColumnRowResource0080 {
   @Local currentSpace: number | string | Resource = 5;
   @Local currentType: string = 'float';
-  @Local resourceTypes: string[] = ["float", "string", "integer"];
+  @Local resourceTypes: string[] = ['float', 'string', 'integer'];
 
 
   build() {

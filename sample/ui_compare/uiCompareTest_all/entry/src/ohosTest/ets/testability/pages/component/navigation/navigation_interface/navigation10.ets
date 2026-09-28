@@ -53,7 +53,7 @@ struct Navigation10 {
         .width('100%')
         .margin({ top: 12, left: '10%' })
       }
-      .title($r("app.string.navigation_title"))
+      .title($r('app.string.navigation_title'))
       .menus(this.NavigationMenus)
       .titleMode(NavigationTitleMode.Full)
       .hideNavBar(false)

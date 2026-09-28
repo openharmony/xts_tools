@@ -63,7 +63,7 @@ struct ImageThumbNails20 {
           .margin(5)
 
         Button('点击切换Image的src')
-          .id("ImageThumbNails20")
+          .id('ImageThumbNails20')
           .height(40)
           .fontSize(15)
           .fontColor(Color.Black)

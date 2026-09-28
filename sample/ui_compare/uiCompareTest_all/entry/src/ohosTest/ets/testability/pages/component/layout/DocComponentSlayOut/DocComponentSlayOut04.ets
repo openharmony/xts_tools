@@ -62,7 +62,7 @@ struct DocComponentSlayOut04 {
         console.info(last.toString())
       })
       .onScrollBarUpdate((index: number, offset: number) => {
-        console.info("XXX" + 'Grid onScrollBarUpdate,index : ' + index.toString() + ",offset" + offset.toString())
+        console.info('XXX' + 'Grid onScrollBarUpdate,index : ' + index.toString() + ',offset' + offset.toString())
         return { totalOffset: (index / 5) * (80 + 10) - offset, totalLength: 80 * 5 + 10 * 4 }
       })
       .onScroll((scrollOffset: number, scrollState: ScrollState) => {
@@ -70,18 +70,18 @@ struct DocComponentSlayOut04 {
         console.info(scrollState.toString())
       })
       .onScrollStart(() => {
-        console.info("XXX" + "Grid onScrollStart")
+        console.info('XXX' + 'Grid onScrollStart')
       })
       .onScrollStop(() => {
-        console.info("XXX" + "Grid onScrollStop")
+        console.info('XXX' + 'Grid onScrollStop')
       })
       .onReachStart(() => {
         this.gridPosition = 0
-        console.info("XXX" + "Grid onReachStart")
+        console.info('XXX' + 'Grid onReachStart')
       })
       .onReachEnd(() => {
         this.gridPosition = 2
-        console.info("XXX" + "Grid onReachEnd")
+        console.info('XXX' + 'Grid onReachEnd')
       })
 
       Button('change barwidth')

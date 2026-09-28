@@ -22,7 +22,7 @@
 export struct ColumnRowResource0130 {
   @Local currentSpace: number | string | Resource = 5;
   @Local currentType: string = 'initial';
-  @Local testValues: string[] = ["\"AAA\""];
+  @Local testValues: string[] = ['"AAA"'];
 
   switchSpace(value: string): void {
     this.currentType = value;

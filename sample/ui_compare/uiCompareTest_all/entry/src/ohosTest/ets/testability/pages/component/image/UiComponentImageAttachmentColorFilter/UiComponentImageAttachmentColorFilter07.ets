@@ -39,7 +39,7 @@ struct UiComponentImageAttachmentColorFilter07{
   }]);
 
   async aboutToAppear() {
-    console.info("aboutToAppear initial imagePixelMap");
+    console.info('aboutToAppear initial imagePixelMap');
     this.imagePixelMap = await this.getPixmapFromMedia($r('app.media.app_icon'));
   }
 
@@ -125,7 +125,7 @@ struct UiComponentImageAttachmentColorFilter07{
           .fontSize(5)
         Button('Image之replace')
           .onClick(() => {
-            this.mutableStr.replaceString(0, 1, "789");
+            this.mutableStr.replaceString(0, 1, '789');
             this.controller.setStyledString(this.mutableStr);
           })
           .id('UiComponentImageAttachmentColorFilter07_03')

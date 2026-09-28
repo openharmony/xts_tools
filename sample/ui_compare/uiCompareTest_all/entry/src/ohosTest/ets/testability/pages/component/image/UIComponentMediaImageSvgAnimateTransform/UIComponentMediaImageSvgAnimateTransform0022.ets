@@ -27,7 +27,7 @@ struct UIComponentMediaImageSvgAnimateTransform0022 {
         .margin(10)
 
       Text('预置的svg图源：')
-      Image("/images/UIComponentMediaImageSvgAnimateTransform0022.svg")
+      Image('/images/UIComponentMediaImageSvgAnimateTransform0022.svg')
         .onComplete((event) => {
           this.message += '\n svg image onComplete, width: ' + event?.width + ', height: ' + event?.height;
         })

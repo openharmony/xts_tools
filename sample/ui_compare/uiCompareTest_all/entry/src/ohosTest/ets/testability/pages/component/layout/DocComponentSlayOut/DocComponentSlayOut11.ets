@@ -45,14 +45,14 @@ struct DocComponentSlayOut11 {
     }
   }
   @State isShow:boolean = false;
-  private iconStr: ResourceStr = $r("app.media.icon");
+  private iconStr: ResourceStr = $r('app.media.icon');
 
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ startIcon: this.iconStr, content: "菜单选项" })
-      MenuItem({ startIcon: this.iconStr, content: "菜单选项" })
-      MenuItem({ startIcon: this.iconStr, content: "菜单选项" })
+      MenuItem({ startIcon: this.iconStr, content: '菜单选项' })
+      MenuItem({ startIcon: this.iconStr, content: '菜单选项' })
+      MenuItem({ startIcon: this.iconStr, content: '菜单选项' })
     }
   }
   build() {

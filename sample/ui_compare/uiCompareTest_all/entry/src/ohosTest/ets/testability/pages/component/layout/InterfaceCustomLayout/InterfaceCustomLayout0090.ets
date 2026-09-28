@@ -56,7 +56,7 @@ struct CustomLayoutMinHeightComponent {
         .margin({ bottom: 5 })
       
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_customlayout_0090")
+        .id('rich_editor_customlayout_0090')
         .width('100%')
         .height(80)
         .borderWidth(1)
@@ -91,7 +91,7 @@ struct InterfaceCustomLayout0090 {
       // 父组件设置约束，自定义组件将获取这些约束信息
       Column() {
         CustomLayoutMinHeightComponent()
-          .id("custom_layout_minheight_component_0090")
+          .id('custom_layout_minheight_component_0090')
       }
       .width('44.44%')
       .height('20.49%')

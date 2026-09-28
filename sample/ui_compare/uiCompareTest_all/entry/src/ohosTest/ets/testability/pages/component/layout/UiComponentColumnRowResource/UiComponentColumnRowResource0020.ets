@@ -20,7 +20,7 @@
 @Entry
 @ComponentV2
 export struct ColumnRowResource0020 {
-  @Local currentSpace: number | string = "5";
+  @Local currentSpace: number | string = '5';
 
 
   build() {

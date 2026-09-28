@@ -74,7 +74,7 @@ struct ImageObjectFit04 {
           .margin(5)
 
         Button('ImageFit.TOP')
-          .id("imageObjectFit04_01")
+          .id('imageObjectFit04_01')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)
@@ -87,7 +87,7 @@ struct ImageObjectFit04 {
           })
 
         Button('ImageFit.TOP_END')
-          .id("imageObjectFit04_02")
+          .id('imageObjectFit04_02')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)
@@ -100,7 +100,7 @@ struct ImageObjectFit04 {
           })
 
         Button('ImageFit.START')
-          .id("imageObjectFit04_03")
+          .id('imageObjectFit04_03')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)
@@ -113,7 +113,7 @@ struct ImageObjectFit04 {
           })
 
         Button('ImageFit.CENTER')
-          .id("imageObjectFit04_04")
+          .id('imageObjectFit04_04')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)
@@ -126,7 +126,7 @@ struct ImageObjectFit04 {
           })
 
         Button('ImageFit.END')
-          .id("imageObjectFit04_05")
+          .id('imageObjectFit04_05')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)
@@ -139,7 +139,7 @@ struct ImageObjectFit04 {
           })
 
         Button('ImageFit.BOTTOM_START')
-          .id("imageObjectFit04_06")
+          .id('imageObjectFit04_06')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)
@@ -152,7 +152,7 @@ struct ImageObjectFit04 {
           })
 
         Button('ImageFit.BOTTOM')
-          .id("imageObjectFit04_07")
+          .id('imageObjectFit04_07')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)
@@ -165,7 +165,7 @@ struct ImageObjectFit04 {
           })
 
         Button('ImageFit.BOTTOM_END')
-          .id("imageObjectFit04_08")
+          .id('imageObjectFit04_08')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)

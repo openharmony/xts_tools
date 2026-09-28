@@ -22,11 +22,11 @@ struct PrivacySensitiveGauge0120 {
   @Builder descriptionBuilder() {
     Text('说明文本')
       .maxFontSize('30sp')
-      .minFontSize("10.0vp")
-      .fontColor("#fffa2a2d")
+      .minFontSize('10.0vp')
+      .fontColor('#fffa2a2d')
       .fontWeight(FontWeight.Medium)
       .width('100%')
-      .height("100%")
+      .height('100%')
       .textAlign(TextAlign.Center)
   }
 
@@ -37,16 +37,16 @@ struct PrivacySensitiveGauge0120 {
           Text('50')
             .fontWeight(FontWeight.Medium)
             .width('62%')
-            .fontColor("#ff182431")
-            .maxFontSize("60.0vp")
-            .minFontSize("30.0vp")
+            .fontColor('#ff182431')
+            .maxFontSize('60.0vp')
+            .minFontSize('30.0vp')
             .textAlign(TextAlign.Center)
             .margin({ top: '35%' })
             .textOverflow({ overflow: TextOverflow.Ellipsis })
             .maxLines(1)
           Text('辅助文本')
-            .maxFontSize("16.0fp")
-            .minFontSize("10.0vp")
+            .maxFontSize('16.0fp')
+            .minFontSize('10.0vp')
             .fontColor($r('sys.color.ohos_id_color_text_secondary'))
             .fontColor($r('sys.color.ohos_id_color_text_secondary'))
             .fontWeight(FontWeight.Regular)
@@ -74,7 +74,7 @@ struct PrivacySensitiveGauge0120 {
           .margin(8)
           .id('PrivacySensitiveGauge0120_001')
           .onClick(() => {
-            this.col = [["abcd", 1], ["abcd", 1], ["abcd", 1], ["abcd", 1],[$r('app.color.blue'),1],[$r('app.color.yellow'),1],[$r('app.color.green'),1],[$r('app.color.red'),1],[0x317AF7, 0.1], [0x5BA854, 0.3], [0xE08C3A,0.6],[Color.Blue,1],[Color.Green,2],[Color.Yellow,4],[Color.Pink,6],[Color.Green,8]]
+            this.col = [['abcd', 1], ['abcd', 1], ['abcd', 1], ['abcd', 1],[$r('app.color.blue'),1],[$r('app.color.yellow'),1],[$r('app.color.green'),1],[$r('app.color.red'),1],[0x317AF7, 0.1], [0x5BA854, 0.3], [0xE08C3A,0.6],[Color.Blue,1],[Color.Green,2],[Color.Yellow,4],[Color.Pink,6],[Color.Green,8]]
           })
         Button('change2')
           .borderRadius(8)

@@ -18,7 +18,7 @@ class TmpClass {
 }
 
 class Param {
-  public info: string = "__default_param__";
+  public info: string = '__default_param__';
 
   constructor(info: string) {
     this.info = info;
@@ -26,7 +26,7 @@ class Param {
 }
 
 @Builder
-export function pageNavABuilder(name: string, Param: Object) {
+export function pageNavABuilder(name: string, param: Object) {
   PageNavA()
 }
 

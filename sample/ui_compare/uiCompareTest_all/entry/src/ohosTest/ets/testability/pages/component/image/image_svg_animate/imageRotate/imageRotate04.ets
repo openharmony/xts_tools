@@ -46,7 +46,7 @@ struct ImageRotate04 {
           .margin(5)
 
         Button(this.changeAppear)
-          .id("ImageRotate04")
+          .id('ImageRotate04')
           .height(40)
           .fontSize(15)
           .fontColor(Color.Black)

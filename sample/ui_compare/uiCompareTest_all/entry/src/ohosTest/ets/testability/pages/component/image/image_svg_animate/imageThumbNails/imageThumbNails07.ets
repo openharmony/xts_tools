@@ -52,7 +52,7 @@ struct ImageThumbNails07 {
           .margin(5)
 
         Button(this.changeAppear)
-          .id("ImageThumbNails07")
+          .id('ImageThumbNails07')
           .height(40)
           .fontSize(15)
           .fontColor(Color.Black)

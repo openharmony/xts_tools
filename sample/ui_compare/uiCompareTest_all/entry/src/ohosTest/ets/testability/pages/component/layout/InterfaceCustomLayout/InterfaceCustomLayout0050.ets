@@ -62,7 +62,7 @@ struct CustomLayoutDefaultComponent {
       
       // 子组件3 - RichEditor显示信息
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_customlayout_0050")
+        .id('rich_editor_customlayout_0050')
         .width('90%')
         .height(40)
         .borderWidth(1)
@@ -104,7 +104,7 @@ struct InterfaceCustomLayout0050 {
 
       // 自定义组件，不进行任何measure操作
       CustomLayoutDefaultComponent()
-        .id("custom_layout_default_component_0050")
+        .id('custom_layout_default_component_0050')
         .width('90%')
         .height(300)
         .borderWidth(2)

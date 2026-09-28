@@ -12,9 +12,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { CommonModifier } from "@kit.ArkUI"
+import { CommonModifier } from '@kit.ArkUI'
 
-const TEST_TAG: string = "AttributeModifier";
+const TEST_TAG: string = 'AttributeModifier';
 
 class MyModifier extends CommonModifier {
   applyNormalAttribute(instance: CommonAttribute): void {
@@ -64,14 +64,14 @@ struct UIComponentMediaSvgLinkImageColorFilter001 {
         .stateEffect(true)
         .id('change')
         .onClick(() => {
-          console.log(TEST_TAG, "onClick")
+          console.log(TEST_TAG, 'onClick')
           this.index++;
           if (this.index % 2 === 1) {
             (this.myModifier as MyModifier).setGroup1()
-            console.log(TEST_TAG, "setGroup1")
+            console.log(TEST_TAG, 'setGroup1')
           } else {
             (this.myModifier as MyModifier).setGroup2()
-            console.log(TEST_TAG, "setGroup2")
+            console.log(TEST_TAG, 'setGroup2')
           }
         })
     }

@@ -74,7 +74,7 @@ struct ImageObjectFit05 {
           .margin(5)
 
         Button('ImageFit.TOP')
-          .id("imageObjectFit05_01")
+          .id('imageObjectFit05_01')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)
@@ -87,7 +87,7 @@ struct ImageObjectFit05 {
           })
 
         Button('ImageFit.TOP_END')
-          .id("imageObjectFit05_02")
+          .id('imageObjectFit05_02')
           .height('1%')
           .fontSize(15)
           .fontColor(Color.Black)

@@ -30,7 +30,7 @@ struct Navigation05 {
             .height(40)
             .margin(20)
             .onClick(() => {
-              this.stack.pushPath({ name: "pageThree" });
+              this.stack.pushPath({ name: 'pageThree' });
             })
         }
       }
@@ -62,7 +62,7 @@ struct PageThreeComponent {
   build() {
     NavDestination() {
       Column() {
-        Text(" pageThree event: " + this.eventStr)
+        Text(' pageThree event: ' + this.eventStr)
 
         Button('push next page', { stateEffect: true, type: ButtonType.Capsule })
           .id('nav05PushPageNine')
@@ -70,7 +70,7 @@ struct PageThreeComponent {
           .height(40)
           .margin(20)
           .onClick(() => {
-            this.stack.pushPath({ name: "pageOne" });
+            this.stack.pushPath({ name: 'pageOne' });
           })
 
         Button('ChangeSystemBarStyle')
@@ -86,28 +86,28 @@ struct PageThreeComponent {
     }
     .systemBarStyle({statusBarContentColor:this.barColor})
     .onAppear(() => {
-      this.eventStr += "<onAppear>";
+      this.eventStr += '<onAppear>';
     })
     .onDisAppear(() => {
-      this.eventStr += "<onDisAppear>";
+      this.eventStr += '<onDisAppear>';
     })
     .onShown(() => {
-      this.eventStr += "<onShown>";
+      this.eventStr += '<onShown>';
     })
     .onHidden(() => {
-      this.eventStr += "<onHidden>";
+      this.eventStr += '<onHidden>';
     })
     .onWillAppear(() => {
-      this.eventStr += "<onWillAppear>";
+      this.eventStr += '<onWillAppear>';
     })
     .onWillDisappear(() => {
-      this.eventStr += "<onWillDisappear>";
+      this.eventStr += '<onWillDisappear>';
     })
     .onWillShow(() => {
-      this.eventStr += "<onWillShow>";
+      this.eventStr += '<onWillShow>';
     })
     .onWillHide(() => {
-      this.eventStr += "<onWillHide>";
+      this.eventStr += '<onWillHide>';
     })
     .title(this.name)
     .translate({ y: this.y })

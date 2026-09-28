@@ -52,7 +52,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0010 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF01")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -85,7 +85,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0020 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF02")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -125,7 +125,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0030 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF03")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -165,7 +165,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0040 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF04")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -198,7 +198,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0050 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF05")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -238,7 +238,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0060 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF06")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -278,7 +278,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0070 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF07")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -311,7 +311,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0080 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF08")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -351,7 +351,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0090 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF09")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -391,7 +391,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0100 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF10")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -424,7 +424,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0110 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF11")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -464,7 +464,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0120 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF12")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF12')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -504,7 +504,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0130 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF13")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -550,7 +550,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0140 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF14")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF14')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -590,7 +590,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0150 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF15")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF15')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -630,7 +630,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0160 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF16")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -670,7 +670,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0170 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF17")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -710,7 +710,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0180 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF18")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF18')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -750,7 +750,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0200 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF20")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF20')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -790,7 +790,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0210 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF21")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF21')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -830,7 +830,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0220 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF22")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF22')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -870,7 +870,7 @@ export default function navigationMTBFTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_MTBF_0270 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationMTBF27")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationMTBF27')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       

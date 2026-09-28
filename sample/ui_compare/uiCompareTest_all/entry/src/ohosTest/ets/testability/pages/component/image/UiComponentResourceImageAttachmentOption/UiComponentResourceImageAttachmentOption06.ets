@@ -42,7 +42,7 @@ struct UiComponentResourceImageAttachmentOption06{
   }]);
 
   async aboutToAppear() {
-    console.info("aboutToAppear initial imagePixelMap");
+    console.info('aboutToAppear initial imagePixelMap');
     this.imagePixelMap = await this.getPixmapFromMedia($r('app.media.app_icon'));
   }
 

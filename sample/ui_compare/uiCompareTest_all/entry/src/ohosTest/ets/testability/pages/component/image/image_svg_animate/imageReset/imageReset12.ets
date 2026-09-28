@@ -64,7 +64,7 @@ struct ImageReset12 {
       .backgroundColor('#fff')
 
       Button('Empty')
-        .id("ImageReset12")
+        .id('ImageReset12')
         .height(60)
         .fontSize(18)
         .fontColor(Color.Black)

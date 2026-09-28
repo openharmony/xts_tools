@@ -64,7 +64,7 @@ struct ImageModifier02 {
           .margin(6)
 
         Image(('https://' + 'foruda.gitee.com' + '/images/1753255402677959741/499f5538_10080759.png'))
-          .key("imageModifier")
+          .key('imageModifier')
           .attributeModifier(this.imageModifier as CommonModifier)
           .alt($r('app.media.icon'))
           .onComplete((event) => {

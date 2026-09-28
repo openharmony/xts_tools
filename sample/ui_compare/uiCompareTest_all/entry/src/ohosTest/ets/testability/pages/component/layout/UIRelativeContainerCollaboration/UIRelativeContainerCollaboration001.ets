@@ -27,10 +27,10 @@ struct UIRelativeContainerCollaboration001 {
         .height('8.2%')
         .backgroundColor('#a3cf62')
         .alignRules({
-          top: { anchor: "__container__", align: VerticalAlign.Top },
-          left: { anchor: "__container__", align: HorizontalAlign.Start }
+          top: { anchor: '__container__', align: VerticalAlign.Top },
+          left: { anchor: '__container__', align: HorizontalAlign.Start }
         })
-        .id("row1")
+        .id('row1')
 
         Row() {
           Text('row2')
@@ -40,10 +40,10 @@ struct UIRelativeContainerCollaboration001 {
         .height('8.2%')
         .backgroundColor('#00ae9d')
         .alignRules({
-          top: { anchor: "__container__", align: VerticalAlign.Top },
-          right: { anchor: "__container__", align: HorizontalAlign.End }
+          top: { anchor: '__container__', align: VerticalAlign.Top },
+          right: { anchor: '__container__', align: HorizontalAlign.End }
         })
-        .id("row2")
+        .id('row2')
 
         Row() {
           Text('row3')
@@ -52,39 +52,39 @@ struct UIRelativeContainerCollaboration001 {
         .height('8.2%')
         .backgroundColor('#0a59f7')
         .alignRules({
-          top: { anchor: "row1", align: VerticalAlign.Bottom },
-          left: { anchor: "row1", align: HorizontalAlign.End },
-          right: { anchor: "row2", align: HorizontalAlign.Start }
+          top: { anchor: 'row1', align: VerticalAlign.Bottom },
+          left: { anchor: 'row1', align: HorizontalAlign.End },
+          right: { anchor: 'row2', align: HorizontalAlign.Start }
         })
-        .id("row3")
+        .id('row3')
 
         Row() {
           Text('row4')
         }.justifyContent(FlexAlign.Center)
         .backgroundColor('#2ca9e0')
         .alignRules({
-          top: { anchor: "row3", align: VerticalAlign.Bottom },
-          bottom: { anchor: "__container__", align: VerticalAlign.Bottom },
-          left: { anchor: "__container__", align: HorizontalAlign.Start },
-          right: { anchor: "row1", align: HorizontalAlign.End }
+          top: { anchor: 'row3', align: VerticalAlign.Bottom },
+          bottom: { anchor: '__container__', align: VerticalAlign.Bottom },
+          left: { anchor: '__container__', align: HorizontalAlign.Start },
+          right: { anchor: 'row1', align: HorizontalAlign.End }
         })
-        .id("row4")
+        .id('row4')
 
         Row() {
           Text('row5')
         }.justifyContent(FlexAlign.Center)
         .backgroundColor('#30c9f7')
         .alignRules({
-          top: { anchor: "row3", align: VerticalAlign.Bottom },
-          bottom: { anchor: "__container__", align: VerticalAlign.Bottom },
-          left: { anchor: "row2", align: HorizontalAlign.Start },
-          right: { anchor: "__container__", align: HorizontalAlign.End }
+          top: { anchor: 'row3', align: VerticalAlign.Bottom },
+          bottom: { anchor: '__container__', align: VerticalAlign.Bottom },
+          left: { anchor: 'row2', align: HorizontalAlign.Start },
+          right: { anchor: '__container__', align: HorizontalAlign.End }
         })
-        .id("row5")
+        .id('row5')
       }
       .width('41.67%').height('24.59%')
       .margin({ left: 50 })
-      .border({ width: 2, color: "#6699FF" })
+      .border({ width: 2, color: '#6699FF' })
     }
     .height('100%')
   }

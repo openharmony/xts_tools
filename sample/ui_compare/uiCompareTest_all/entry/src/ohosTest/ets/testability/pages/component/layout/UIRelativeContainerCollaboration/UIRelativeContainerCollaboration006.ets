@@ -26,7 +26,7 @@ struct UIRelativeContainerCollaboration006 {
         .width('13.89%')
         .height('8.2%')
         .backgroundColor('#a3cf62')
-        .id("row1")
+        .id('row1')
 
         Row() {
           Text('row2')
@@ -36,10 +36,10 @@ struct UIRelativeContainerCollaboration006 {
         .height('8.2%')
         .backgroundColor('#00ae9d')
         .alignRules({
-          middle: { anchor: "row1", align: HorizontalAlign.End },
-          top: { anchor: "row1", align: VerticalAlign.Bottom }
+          middle: { anchor: 'row1', align: HorizontalAlign.End },
+          top: { anchor: 'row1', align: VerticalAlign.Bottom }
         })
-        .id("row2")
+        .id('row2')
 
         Row() {
           Text('row3')
@@ -49,10 +49,10 @@ struct UIRelativeContainerCollaboration006 {
         .height('8.2%')
         .backgroundColor('#0a59f7')
         .alignRules({
-          left: { anchor: "barrier1", align: HorizontalAlign.End },
-          top: { anchor: "row1", align: VerticalAlign.Top }
+          left: { anchor: 'barrier1', align: HorizontalAlign.End },
+          top: { anchor: 'row1', align: VerticalAlign.Top }
         })
-        .id("row3")
+        .id('row3')
 
         Row() {
           Text('row4')
@@ -62,17 +62,17 @@ struct UIRelativeContainerCollaboration006 {
         .height('4.1%')
         .backgroundColor('#2ca9e0')
         .alignRules({
-          left: { anchor: "row1", align: HorizontalAlign.Start },
-          top: { anchor: "barrier2", align: VerticalAlign.Bottom }
+          left: { anchor: 'row1', align: HorizontalAlign.Start },
+          top: { anchor: 'barrier2', align: VerticalAlign.Bottom }
         })
-        .id("row4")
+        .id('row4')
       }
       .width('41.67%')
       .height('24.59%')
       .margin({ left: 50 })
-      .border({ width: 2, color: "#6699FF" })
-      .barrier([{ id: "barrier1", direction: BarrierDirection.RIGHT, referencedId: ["row1", "row2"] },
-        { id: "barrier2", direction: BarrierDirection.BOTTOM, referencedId: ["row1", "row2"] }])
+      .border({ width: 2, color: '#6699FF' })
+      .barrier([{ id: 'barrier1', direction: BarrierDirection.RIGHT, referencedId: ['row1', 'row2'] },
+        { id: 'barrier2', direction: BarrierDirection.BOTTOM, referencedId: ['row1', 'row2'] }])
     }
     .height('100%')
   }

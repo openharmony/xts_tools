@@ -43,7 +43,7 @@ struct ImageBorder09 {
               colors: [[0xAEE1E1, 0.0], [0xD3E0DC, 0.3], [0xFCD1D1, 1.0]]
             },
             slice: -50,
-            width: { top: "20px", bottom: "20px", left: "20px", right: "20px" },
+            width: { top: '20px', bottom: '20px', left: '20px', right: '20px' },
           })
           .onComplete((event) => {
             if (event) {

@@ -67,7 +67,7 @@ struct CustomLayoutPercentageComponent {
         .margin({ bottom: 5 })
       
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_customlayout_0250")
+        .id('rich_editor_customlayout_0250')
         .width('100%')
         .height(80)
         .borderWidth(1)
@@ -121,7 +121,7 @@ struct InterfaceCustomLayout0250 {
         CustomLayoutPercentageComponent()
           .width('50%')  // 传入宽度为50%
           .height('60%') // 传入高度为60%
-          .id("custom_layout_percentage_component_0250")
+          .id('custom_layout_percentage_component_0250')
           .borderWidth(2)
           .borderColor(Color.Blue)
           .backgroundColor('#F8F8FF')

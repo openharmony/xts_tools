@@ -27,7 +27,7 @@ struct ImageModifier10 {
   @Builder OverlayNode() {
     Column() {
       Image($r('app.media.icon'))
-      Text("This is overlayNode").fontSize(20).fontColor(Color.White)
+      Text('This is overlayNode').fontSize(20).fontColor(Color.White)
     }.width('100%').height('100%').alignItems(HorizontalAlign.Center)
   }
 
@@ -86,7 +86,7 @@ struct ImageModifier10 {
           .margin(10)
 
         Button('change image url')
-          .id("ImageModifier10")
+          .id('ImageModifier10')
           .height(40)
           .fontSize(15)
           .fontColor(Color.Black)

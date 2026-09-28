@@ -39,7 +39,7 @@ struct ImageBorder08 {
           .borderImage({
             source: $r('app.media.icon'),
             slice: { top: 10, bottom: 10, left: 10, right: 10 },
-            width: { top: "20px", bottom: "20px", left: "20px", right: "20px" },
+            width: { top: '20px', bottom: '20px', left: '20px', right: '20px' },
             repeat: RepeatMode.Stretch,
             fill: false
           })

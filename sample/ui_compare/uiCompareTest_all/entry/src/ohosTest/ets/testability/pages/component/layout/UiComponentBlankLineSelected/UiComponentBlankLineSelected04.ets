@@ -18,8 +18,8 @@
 struct UiComponentBlankLineSelected04 {
   @State onCopy: string = '';
   @State text: string =
-    'hello world hello world hello world hello world hello world hello world'+"" +
-      "                                                              ";
+    'hello world hello world hello world hello world hello world hello world'+'' +
+      '                                                              ';
   @State start: number = 80;
   @State end: number = 100;
   @State fontsize:number=12;

@@ -34,7 +34,7 @@ struct ImageReset17 {
   build() {
     Column() {
       Button('Empty')
-      .id("imageReset17_01")
+      .id('imageReset17_01')
       .height(40)
       .fontSize(18)
       .fontColor(Color.Black)
@@ -47,7 +47,7 @@ struct ImageReset17 {
       })
 
       Button('传入图片')
-        .id("imageReset17_02")
+        .id('imageReset17_02')
         .height(40)
         .fontSize(18)
         .fontColor(Color.Black)

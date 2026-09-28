@@ -27,10 +27,10 @@ struct UIRelativeContainerCollaboration002 {
         .height('8.2%')
         .backgroundColor('#a3cf62')
         .alignRules({
-          top: { anchor: "__container__", align: VerticalAlign.Top },
-          left: { anchor: "__container__", align: HorizontalAlign.Start }
+          top: { anchor: '__container__', align: VerticalAlign.Top },
+          left: { anchor: '__container__', align: HorizontalAlign.Start }
         })
-        .id("row1")
+        .id('row1')
         .margin(10)
 
         Row() {
@@ -41,10 +41,10 @@ struct UIRelativeContainerCollaboration002 {
         .height('8.2%')
         .backgroundColor('#00ae9d')
         .alignRules({
-          left: { anchor: "row1", align: HorizontalAlign.End },
-          top: { anchor: "row1", align: VerticalAlign.Top }
+          left: { anchor: 'row1', align: HorizontalAlign.End },
+          top: { anchor: 'row1', align: VerticalAlign.Top }
         })
-        .id("row2")
+        .id('row2')
 
         Row() {
           Text('row3')
@@ -54,10 +54,10 @@ struct UIRelativeContainerCollaboration002 {
         .height('8.2%')
         .backgroundColor('#0a59f7')
         .alignRules({
-          left: { anchor: "row1", align: HorizontalAlign.Start },
-          top: { anchor: "row1", align: VerticalAlign.Bottom }
+          left: { anchor: 'row1', align: HorizontalAlign.Start },
+          top: { anchor: 'row1', align: VerticalAlign.Bottom }
         })
-        .id("row3")
+        .id('row3')
 
         Row() {
           Text('row4')
@@ -67,15 +67,15 @@ struct UIRelativeContainerCollaboration002 {
         .height('8.2%')
         .backgroundColor('#2ca9e0')
         .alignRules({
-          left: { anchor: "row3", align: HorizontalAlign.End },
-          top: { anchor: "row2", align: VerticalAlign.Bottom }
+          left: { anchor: 'row3', align: HorizontalAlign.End },
+          top: { anchor: 'row2', align: VerticalAlign.Bottom }
         })
-        .id("row4")
+        .id('row4')
         .margin(10)
       }
       .width('41.67%').height('24.59%')
       .margin({ left: 50 })
-      .border({ width: 2, color: "#6699FF" })
+      .border({ width: 2, color: '#6699FF' })
     }
     .height('100%')
   }

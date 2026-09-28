@@ -59,7 +59,7 @@ struct CustomLayoutPlaceChildrenMinWidthComponent {
         .margin({ bottom: 5 })
       
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_customlayout_0190")
+        .id('rich_editor_customlayout_0190')
         .width('100%')
         .height(60)
         .borderWidth(1)
@@ -106,7 +106,7 @@ struct InterfaceCustomLayout0190 {
       // 父组件设置约束，自定义组件将在onPlaceChildren中获取这些约束信息
       Column() {
         CustomLayoutPlaceChildrenMinWidthComponent()
-          .id("custom_layout_placechildren_minwidth_component_0190")
+          .id('custom_layout_placechildren_minwidth_component_0190')
       }
       .width('44.44%')
       .height('19.67%')

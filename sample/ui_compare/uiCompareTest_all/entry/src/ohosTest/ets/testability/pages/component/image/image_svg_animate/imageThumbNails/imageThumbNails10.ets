@@ -68,7 +68,7 @@ struct ImageThumbNails10 {
           .margin(5)
 
         Button('change matrix1')
-          .id("ImageThumbNails10")
+          .id('ImageThumbNails10')
           .height(40)
           .fontSize(15)
           .fontColor(Color.Black)

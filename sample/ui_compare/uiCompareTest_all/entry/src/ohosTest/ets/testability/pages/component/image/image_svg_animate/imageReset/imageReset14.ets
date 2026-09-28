@@ -72,7 +72,7 @@ struct ImageReset14 {
       .backgroundColor('#fff')
 
       Button('set colorFilter')
-        .id("imageReset14_01")
+        .id('imageReset14_01')
         .height(40)
         .fontSize(15)
         .fontColor(Color.Black)
@@ -86,7 +86,7 @@ struct ImageReset14 {
         })
 
       Button('Empty')
-        .id("imageReset14_02")
+        .id('imageReset14_02')
         .height(60)
         .fontSize(18)
         .fontColor(Color.Black)

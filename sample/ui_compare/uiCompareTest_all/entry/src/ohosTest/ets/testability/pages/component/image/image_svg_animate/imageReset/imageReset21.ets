@@ -114,7 +114,7 @@ struct ImageReset21 {
 
       Row(){
         Button('Empty')
-          .id("imageReset21_01")
+          .id('imageReset21_01')
           .height(40)
           .fontSize(18)
           .fontColor(Color.Black)
@@ -127,7 +127,7 @@ struct ImageReset21 {
           })
 
         Button('传入图片')
-          .id("imageReset21_02")
+          .id('imageReset21_02')
           .height(40)
           .fontSize(18)
           .fontColor(Color.Black)

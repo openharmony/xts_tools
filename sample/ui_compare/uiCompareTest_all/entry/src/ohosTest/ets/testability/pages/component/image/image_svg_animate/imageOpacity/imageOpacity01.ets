@@ -63,7 +63,7 @@ struct ImageOpacity01 {
           .margin(6)
 
         Button('change image url')
-          .id("imageOpacity01_01")
+          .id('imageOpacity01_01')
           .height(50)
           .fontSize(15)
           .fontColor(Color.Black)
@@ -80,7 +80,7 @@ struct ImageOpacity01 {
           })
 
         Button('set colorFilter')
-          .id("imageOpacity01_02")
+          .id('imageOpacity01_02')
           .height(40)
           .fontSize(15)
           .fontColor(Color.Black)

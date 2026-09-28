@@ -18,7 +18,7 @@
 struct UiComponentColumnMatchParent28 {
   @State Mywidth: number=40
   @State Myheight: number=40
-  @State text : string = "change height and width"
+  @State text : string = 'change height and width'
 
   build() {
     Column() {
@@ -132,7 +132,7 @@ struct UiComponentColumnMatchParent28 {
         Column() {
           Text('Column3')
             .height(30)
-            .width("40%")
+            .width('40%')
             .padding(3)
             .ellipsisMode(EllipsisMode.END)
             .fontSize(4)

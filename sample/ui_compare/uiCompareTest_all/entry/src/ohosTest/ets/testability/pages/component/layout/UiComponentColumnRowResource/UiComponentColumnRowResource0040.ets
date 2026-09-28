@@ -22,7 +22,7 @@
 export struct ColumnRowResource0040 {
   @Local currentSpace: number | string | Resource = 5;
   @Local currentType: string = 'boolean';
-  @Local resourceTypes: string[] = ["boolean", "color", "intarray", "pattern", "plural", "strarray", "media"];
+  @Local resourceTypes: string[] = ['boolean', 'color', 'intarray', 'pattern', 'plural', 'strarray', 'media'];
 
 
   build() {

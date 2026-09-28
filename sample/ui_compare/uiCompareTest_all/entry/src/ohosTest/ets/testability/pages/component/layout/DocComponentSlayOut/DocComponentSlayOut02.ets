@@ -94,19 +94,19 @@ struct DocComponentSlayOut02 {
         console.info(index.toString())
       })
       .onGestureSwipe((index: number, extraInfo: SwiperAnimationEvent) => {
-        console.info("index: " + index)
-        console.info("current offset: " + extraInfo.currentOffset)
+        console.info('index: ' + index)
+        console.info('current offset: ' + extraInfo.currentOffset)
       })
       .onAnimationStart((index: number, targetIndex: number, extraInfo: SwiperAnimationEvent) => {
-        console.info("index: " + index)
-        console.info("targetIndex: " + targetIndex)
-        console.info("current offset: " + extraInfo.currentOffset)
-        console.info("target offset: " + extraInfo.targetOffset)
-        console.info("velocity: " + extraInfo.velocity)
+        console.info('index: ' + index)
+        console.info('targetIndex: ' + targetIndex)
+        console.info('current offset: ' + extraInfo.currentOffset)
+        console.info('target offset: ' + extraInfo.targetOffset)
+        console.info('velocity: ' + extraInfo.velocity)
       })
       .onAnimationEnd((index: number, extraInfo: SwiperAnimationEvent) => {
-        console.info("index: " + index)
-        console.info("current offset: " + extraInfo.currentOffset)
+        console.info('index: ' + index)
+        console.info('current offset: ' + extraInfo.currentOffset)
       })
       .onAreaChange((oldValue: Area, newValue: Area) => {
         this.swiperHeight = newValue.height as number
@@ -132,7 +132,7 @@ struct DocComponentSlayOut02 {
         .maxLines(2)
         .border({width:5,color:Color.Black})
         .width('90%')
-        .height("10%")
+        .height('10%')
     }
     .width('100%')
     .margin({ top: 5 })

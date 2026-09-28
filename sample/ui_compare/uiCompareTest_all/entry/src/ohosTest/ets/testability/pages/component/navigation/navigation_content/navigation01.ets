@@ -40,9 +40,9 @@ struct Navigation01 {
       .hideTitleBar(this.titleBar)
       .hideToolBar(this.toolBar)
       .toolbarConfiguration([
-        { value: "a" },
-        { value: "b" },
-        { value: "c" }
+        { value: 'a' },
+        { value: 'b' },
+        { value: 'c' }
       ])
 
       Button('change hideTitleBar')

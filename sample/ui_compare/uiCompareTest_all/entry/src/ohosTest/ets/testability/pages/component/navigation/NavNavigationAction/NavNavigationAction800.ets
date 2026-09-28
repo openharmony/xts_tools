@@ -79,7 +79,7 @@ struct NavNavigationAction800 {
       Navigation() {
         Button('sublong', { type: ButtonType.Normal, stateEffect: true })
           .borderRadius(8)
-          .id("NavNavigationAction800_001")
+          .id('NavNavigationAction800_001')
           .backgroundColor(Color.Pink)
           .width(90)
           .onClick(() => {
@@ -87,7 +87,7 @@ struct NavNavigationAction800 {
           })
         Button('sublong2', { type: ButtonType.Normal, stateEffect: true })
           .borderRadius(8)
-          .id("NavNavigationAction800_002")
+          .id('NavNavigationAction800_002')
           .backgroundColor(Color.Pink)
           .width(90)
           .onClick(() => {
@@ -95,7 +95,7 @@ struct NavNavigationAction800 {
           })
         Button('sublong3', { type: ButtonType.Normal, stateEffect: true })
           .borderRadius(8)
-          .id("NavNavigationAction800_003")
+          .id('NavNavigationAction800_003')
           .backgroundColor(Color.Pink)
           .width(90)
           .onClick(() => {
@@ -136,15 +136,15 @@ struct NavNavigationAction800 {
       .titleMode(NavigationTitleMode.Full)
       .toolbarConfiguration([
         {
-          value: $r("app.string.module_test_desc"),
+          value: $r('app.string.module_test_desc'),
           icon: $r('app.media.icon')
         },
         {
-          value: $r("app.string.module_test_desc"),
+          value: $r('app.string.module_test_desc'),
           icon: $r('app.media.icon')
         },
         {
-          value: $r("app.string.module_test_desc"),
+          value: $r('app.string.module_test_desc'),
           icon: $r('app.media.icon')
         }
       ])

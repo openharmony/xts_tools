@@ -54,7 +54,7 @@ struct ImageThumbNails03 {
           .margin(5)
 
         Button(this.changeAppear)
-          .id("imageThumbNails02")
+          .id('imageThumbNails02')
           .height(40)
           .fontSize(15)
           .fontColor(Color.Black)
@@ -96,7 +96,7 @@ struct ImageThumbNails03 {
             .height(110)
             .margin(20)
             .padding(5)
-            .alt($r("app.media.icon"))
+            .alt($r('app.media.icon'))
             .objectFit(ImageFit.Contain)
             .backgroundColor(Color.White)
             .imageMatrix(this.matrix1)

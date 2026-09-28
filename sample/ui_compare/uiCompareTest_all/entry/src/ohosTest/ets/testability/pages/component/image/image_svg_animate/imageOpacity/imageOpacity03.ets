@@ -55,7 +55,7 @@ struct ImageOpacity03 {
           .margin(6)
 
         Button('change image url')
-          .id("imageOpacity03_01")
+          .id('imageOpacity03_01')
           .height(50)
           .fontSize(15)
           .fontColor(Color.Black)
@@ -73,7 +73,7 @@ struct ImageOpacity03 {
         
         Row(){
           Button('opacity = 0')
-            .id("imageOpacity03_02")
+            .id('imageOpacity03_02')
             .height(40)
             .fontSize(15)
             .fontColor(Color.Black)
@@ -86,7 +86,7 @@ struct ImageOpacity03 {
             })
 
           Button('opacity = 0.1')
-            .id("imageOpacity03_03")
+            .id('imageOpacity03_03')
             .height(40)
             .fontSize(15)
             .fontColor(Color.Black)
@@ -103,7 +103,7 @@ struct ImageOpacity03 {
 
         Row(){
           Button('opacity = 0.5')
-            .id("imageOpacity03_04")
+            .id('imageOpacity03_04')
             .height(40)
             .fontSize(15)
             .fontColor(Color.Black)
@@ -116,7 +116,7 @@ struct ImageOpacity03 {
             })
 
           Button('opacity = 0.9')
-            .id("imageOpacity03_05")
+            .id('imageOpacity03_05')
             .height(40)
             .fontSize(15)
             .fontColor(Color.Black)
@@ -132,7 +132,7 @@ struct ImageOpacity03 {
         .height('4.92%')
 
         Button('opacity = 1')
-          .id("imageOpacity03_06")
+          .id('imageOpacity03_06')
           .height(40)
           .fontSize(15)
           .fontColor(Color.Black)

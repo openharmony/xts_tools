@@ -36,6 +36,6 @@ struct ComponentNavNavigationBack0294B {
 
 export { ComponentNavNavigationBack0294B }
 export class Pages {
-  public names: string = ""
+  public names: string = ''
   values: NavPathStack | null = null
 }

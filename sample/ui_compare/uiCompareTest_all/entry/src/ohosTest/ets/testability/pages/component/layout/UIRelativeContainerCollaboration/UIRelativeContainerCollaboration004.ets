@@ -24,17 +24,17 @@ struct UIRelativeContainerCollaboration004 {
           .height('8.2%')
           .backgroundColor('#a3cf62')
           .alignRules({
-            top: { anchor: "__container__", align: VerticalAlign.Top },
-            bottom: { anchor: "__container__", align: VerticalAlign.Bottom },
-            left: { anchor: "__container__", align: HorizontalAlign.Start },
-            right: { anchor: "__container__", align: HorizontalAlign.End },
+            top: { anchor: '__container__', align: VerticalAlign.Top },
+            bottom: { anchor: '__container__', align: VerticalAlign.Bottom },
+            left: { anchor: '__container__', align: HorizontalAlign.Start },
+            right: { anchor: '__container__', align: HorizontalAlign.End },
             bias: { vertical: 0.3 }
           })
-          .id("row1")
+          .id('row1')
       }
       .width('41.67%').height('24.59%')
       .margin({ left: 50 })
-      .border({ width: 2, color: "#6699FF" })
+      .border({ width: 2, color: '#6699FF' })
     }
     .height('100%')
   }

@@ -113,7 +113,7 @@ struct ImageReset18 {
         .objectRepeat(this.testArg4)
 
       Button('Empty')
-        .id("ImageReset18")
+        .id('ImageReset18')
         .height(40)
         .fontSize(18)
         .fontColor(Color.Black)

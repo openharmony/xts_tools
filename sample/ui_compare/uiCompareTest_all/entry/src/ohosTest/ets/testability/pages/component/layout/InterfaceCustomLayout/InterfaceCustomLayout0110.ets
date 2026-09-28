@@ -55,7 +55,7 @@ struct CustomLayoutPlaceChildrenMarginComponent {
         .margin({ bottom: 5 })
       
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_customlayout_0110")
+        .id('rich_editor_customlayout_0110')
         .width('100%')
         .height(60)
         .borderWidth(1)
@@ -102,7 +102,7 @@ struct InterfaceCustomLayout0110 {
       // 对自定义组件设置margin值
       CustomLayoutPlaceChildrenMarginComponent()
         .margin({ top: 15, right: 20, bottom: 25, left: 30 })
-        .id("custom_layout_placechildren_margin_component_0110")
+        .id('custom_layout_placechildren_margin_component_0110')
         .borderWidth(2)
         .borderColor(Color.Pink)
         .backgroundColor('#F5F5DC')

@@ -55,7 +55,7 @@ struct CustomLayoutPlaceChildrenPaddingComponent {
         .margin({ bottom: 5 })
       
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_customlayout_0120")
+        .id('rich_editor_customlayout_0120')
         .width('100%')
         .height(60)
         .borderWidth(1)
@@ -102,7 +102,7 @@ struct InterfaceCustomLayout0120 {
       // 对自定义组件设置padding值
       CustomLayoutPlaceChildrenPaddingComponent()
         .padding({ top: 18, right: 24, bottom: 30, left: 36 })
-        .id("custom_layout_placechildren_padding_component_0120")
+        .id('custom_layout_placechildren_padding_component_0120')
         .borderWidth(2)
         .borderColor(Color.Blue)
         .backgroundColor('#E6E6FA')

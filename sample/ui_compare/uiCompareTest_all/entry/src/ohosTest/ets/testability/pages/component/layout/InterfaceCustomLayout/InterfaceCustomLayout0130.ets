@@ -55,7 +55,7 @@ struct CustomLayoutPlaceChildrenBorderWidthComponent {
         .margin({ bottom: 5 })
       
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_customlayout_0130")
+        .id('rich_editor_customlayout_0130')
         .width('100%')
         .height(60)
         .borderWidth(1)
@@ -103,7 +103,7 @@ struct InterfaceCustomLayout0130 {
       CustomLayoutPlaceChildrenBorderWidthComponent()
         .borderWidth({ top: 3, right: 6, bottom: 9, left: 12 })
         .borderColor(Color.Red)
-        .id("custom_layout_placechildren_borderwidth_component_0130")
+        .id('custom_layout_placechildren_borderwidth_component_0130')
         .backgroundColor('#FFF0F5')
     }
     .width('100%')

@@ -64,7 +64,7 @@ struct ImageRotate03 {
           .margin(10)
 
         Button('change img and orientation')
-          .id("ImageRotate03")
+          .id('ImageRotate03')
           .height(40)
           .fontSize(15)
           .fontColor(Color.Black)

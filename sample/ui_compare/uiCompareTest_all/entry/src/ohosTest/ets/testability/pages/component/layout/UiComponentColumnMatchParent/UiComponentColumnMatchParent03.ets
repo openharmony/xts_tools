@@ -19,7 +19,7 @@
 struct UiComponentColumnMatchParent03 {
   @State Mywidth: number=40
   @State Myheight: number=40
-  @State text : string = "change height and width"
+  @State text : string = 'change height and width'
 
   build() {
     Column() {
