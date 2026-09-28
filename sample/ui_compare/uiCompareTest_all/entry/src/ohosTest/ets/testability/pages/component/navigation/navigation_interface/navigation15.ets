@@ -26,7 +26,7 @@ struct PageSixComponent {
   build() {
     NavDestination() {
       Column() {
-        Text("event: " + this.eventStr)
+        Text('event: ' + this.eventStr)
 
         Button('pushPath', { stateEffect: true, type: ButtonType.Capsule })
           .width('80%')
@@ -34,7 +34,7 @@ struct PageSixComponent {
           .margin(20)
           .onClick(() => {
             if (this.stack) {
-              this.stack.pushPath({ name: "pageTwo" });
+              this.stack.pushPath({ name: 'pageTwo' });
             }
           })
         Button('pop', { stateEffect: true, type: ButtonType.Capsule })
@@ -51,33 +51,33 @@ struct PageSixComponent {
     .hideTitleBar(false)
     .title('PageSix')
     .onAppear(() => {
-      this.eventStr += "<onAppear>";
+      this.eventStr += '<onAppear>';
     })
     .onDisAppear(() => {
-      this.eventStr += "<onDisAppear>";
+      this.eventStr += '<onDisAppear>';
     })
     .onShown(() => {
-      this.eventStr += "<onShown>";
+      this.eventStr += '<onShown>';
     })
     .onHidden(() => {
-      this.eventStr += "<onHidden>";
+      this.eventStr += '<onHidden>';
     })
     .onWillAppear(() => {
-      this.eventStr += "<onWillAppear>";
+      this.eventStr += '<onWillAppear>';
     })
     .onWillDisappear(() => {
-      this.eventStr += "<onWillDisappear>";
+      this.eventStr += '<onWillDisappear>';
     })
     .onWillShow(() => {
-      this.eventStr += "<onWillShow>";
+      this.eventStr += '<onWillShow>';
     })
     .onWillHide(() => {
-      this.eventStr += "<onWillHide>";
+      this.eventStr += '<onWillHide>';
     })
     // onReady会在onAppear之前调用
     .onReady((ctx: NavDestinationContext) => {
       try {
-        this.eventStr += "<onReady>";
+        this.eventStr += '<onReady>';
         this.stack = ctx.pathStack;
       } catch (e) {
         console.log(`testTag onReady catch exception: ${JSON.stringify(e)}`);
@@ -113,7 +113,7 @@ struct Navigation15 {
           .height(40)
           .margin(20)
           .onClick(() => {
-            this.stack.pushPath({ name: "PageSix" });
+            this.stack.pushPath({ name: 'PageSix' });
           })
       }
       .width('100%')

@@ -27,7 +27,7 @@ struct DialogActionsheet0060 {
         .margin({ top: 20, bottom: 20 })
 
       Button('showInSubWindow_false')
-        .id("show_actionsheet_subwindow_false_0060")
+        .id('show_actionsheet_subwindow_false_0060')
         .fontSize(16)
         .width('80%')
         .height(50)

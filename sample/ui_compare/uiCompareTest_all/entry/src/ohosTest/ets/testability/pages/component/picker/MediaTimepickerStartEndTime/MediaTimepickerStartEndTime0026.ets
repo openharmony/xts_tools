@@ -33,7 +33,7 @@ struct MediaTimepickerStartEndTime0026 {
         start: new Date(Date.now() + 2 * 60 * 60 * 1000), // 当前时间+2小时作为起始时间
         end: new Date(Date.now() + 8 * 60 * 60 * 1000)    // 当前时间+8小时作为结束时间
       })
-        .dateTimeOptions({ hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false })
+        .dateTimeOptions({ hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false })
         .onChange((value: TimePickerResult) => {
           if (value.hour >= 0) {
             this.selectTime.setHours(value.hour, value.minute, value.second);
@@ -43,7 +43,7 @@ struct MediaTimepickerStartEndTime0026 {
           }
         })
 
-      Button("TimePickerDialog")
+      Button('TimePickerDialog')
         .margin(20)
         .onClick(() => {
           this.getUIContext().showTimePickerDialog({
@@ -56,7 +56,7 @@ struct MediaTimepickerStartEndTime0026 {
               if (value.hour != undefined && value.minute != undefined && value.second != undefined) {
                 this.selectTime.setHours(value.hour, value.minute, value.second);
                 this.selectedTimeText = `${value.hour.toString().padStart(2, '0')}:${value.minute.toString().padStart(2, '0')}:${value.second.toString().padStart(2, '0')}`;
-                console.info("TimePickerDialog:onAccept()" + JSON.stringify(value));
+                console.info('TimePickerDialog:onAccept()' + JSON.stringify(value));
                 console.info('选中时间未设置，起始时间晚于当前系统时间，选中时间应为起始时间');
               }
             }

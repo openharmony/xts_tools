@@ -18,31 +18,31 @@
 @Component
 struct PopupBoxBack0060 {
   @State isShowAlertDialog: boolean = false
-  @State dismissReason: string = ""
+  @State dismissReason: string = ''
   @State dismissReasonCode: number = -1
   @State dismissCallbackTriggered: boolean = false
   private richEditorController: RichEditorController = new RichEditorController()
 
   build() {
     Column() {
-      Text("AlertDialog autoCancel=false测试")
+      Text('AlertDialog autoCancel=false测试')
         .fontSize(20)
         .margin(20)
 
-      Button("AlertDialog3")
-        .id("show_alertdialog_back_0060")
+      Button('AlertDialog3')
+        .id('show_alertdialog_back_0060')
         .margin(20)
         .onClick(() => {
           this.isShowAlertDialog = true
         })
 
-      Button("Reset")
-        .id("reset_button_back_0060")
+      Button('Reset')
+        .id('reset_button_back_0060')
         .margin(20)
         .onClick(() => {
           // 重置状态
           this.dismissCallbackTriggered = false
-          this.dismissReason = ""
+          this.dismissReason = ''
           this.dismissReasonCode = -1
         })
 
@@ -59,8 +59,8 @@ struct PopupBoxBack0060 {
         .margin(10)
 
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_back_0060")
-        .width("90%")
+        .id('rich_editor_back_0060')
+        .width('90%')
         .height(100)
         .margin(20)
     }
@@ -75,7 +75,7 @@ struct PopupBoxBack0060 {
           dismissDialog.dismiss()
           this.dismissCallbackTriggered = true
           this.dismissReasonCode = dismissDialog.reason
-          this.dismissReason = "PRESS_BACK (0)"
+          this.dismissReason = 'PRESS_BACK (0)'
           this.isShowAlertDialog = false
         } else if (dismissDialog.reason === DismissReason.TOUCH_OUTSIDE) {
           // 这里不调用dismissDialog.dismiss()，也不关闭弹窗
@@ -91,18 +91,18 @@ struct PopupBoxBack0060 {
   @Builder
   alertDialogBuilder() {
     Column() {
-      Text("警告")
+      Text('警告')
         .fontSize(18)
         .fontWeight(FontWeight.Bold)
         .margin(10)
       
-      Text("这是一个警告弹窗")
+      Text('这是一个警告弹窗')
         .fontSize(14)
         .margin(10)
 
       Row() {
-        Button("确认")
-          .width("40%")
+        Button('确认')
+          .width('40%')
           .margin(10)
           .onClick(() => {
             this.isShowAlertDialog = false

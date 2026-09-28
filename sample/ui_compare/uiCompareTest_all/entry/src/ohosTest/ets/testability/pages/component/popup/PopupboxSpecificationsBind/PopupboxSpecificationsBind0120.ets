@@ -66,15 +66,15 @@ struct PopupboxSpecificationsBind0120 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0120")
+        .id('message_text_bind_0120')
 
       Text('应用状态: ' + this.backgroundStatus)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("background_status_bind_0120")
+        .id('background_status_bind_0120')
 
       Button('点击弹出气泡')
-        .id("button_bind_0120")
+        .id('button_bind_0120')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindPopup(this.isShow, {
@@ -87,14 +87,14 @@ struct PopupboxSpecificationsBind0120 {
         })
 
       Button('显示isShow状态')
-        .id("show_status_bind_0120")
+        .id('show_status_bind_0120')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow
         })
 
       Button('模拟切后台')
-        .id("simulate_background_bind_0120")
+        .id('simulate_background_bind_0120')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {

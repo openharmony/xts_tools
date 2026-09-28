@@ -22,19 +22,19 @@ function buildCustomDialogContent1290() {
       .fontSize(20)
       .fontWeight(FontWeight.Bold)
       .margin({ bottom: 10 })
-      .id("customdialog_smartmultiwindow_1290_title")
+      .id('customdialog_smartmultiwindow_1290_title')
 
     Text('UIExtension，ShowInSubWindow为false')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin({ bottom: 10 })
-      .id("customdialog_smartmultiwindow_1290_description")
+      .id('customdialog_smartmultiwindow_1290_description')
 
     Text('观察蒙层效果、组件布局和对齐状态')
       .fontSize(14)
       .fontColor(Color.Gray)
       .margin({ bottom: 20 })
-      .id("customdialog_smartmultiwindow_1290_desc2")
+      .id('customdialog_smartmultiwindow_1290_desc2')
 
     TextInput({ placeholder: '请输入内容' })
       .id('customdialog_smartmultiwindow_1290_textinput')

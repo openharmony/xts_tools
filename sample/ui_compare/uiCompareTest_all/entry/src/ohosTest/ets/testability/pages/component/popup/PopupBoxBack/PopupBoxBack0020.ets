@@ -18,18 +18,18 @@
 @Component
 struct PopupBoxBack0020 {
   @State isShowActionSheet: boolean = false
-  @State dismissReason: string = ""
+  @State dismissReason: string = ''
   @State dismissReasonCode: number = -1
   private richEditorController: RichEditorController = new RichEditorController()
 
   build() {
     Column() {
-      Text("ActionSheet配置onWillDismiss不退出测试")
+      Text('ActionSheet配置onWillDismiss不退出测试')
         .fontSize(20)
         .margin(20)
 
-      Button("ActionSheet2")
-        .id("show_actionsheet_back_0020")
+      Button('ActionSheet2')
+        .id('show_actionsheet_back_0020')
         .margin(20)
         .onClick(() => {
           this.isShowActionSheet = true
@@ -44,8 +44,8 @@ struct PopupBoxBack0020 {
         .margin(10)
 
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_back_0020")
-        .width("90%")
+        .id('rich_editor_back_0020')
+        .width('90%')
         .height(100)
         .margin(20)
     }
@@ -63,9 +63,9 @@ struct PopupBoxBack0020 {
           dismissDialog.dismiss()
           this.dismissReasonCode = dismissDialog.reason
           if (dismissDialog.reason === DismissReason.PRESS_BACK) {
-            this.dismissReason = "PRESS_BACK (0)"
+            this.dismissReason = 'PRESS_BACK (0)'
           } else if (dismissDialog.reason === DismissReason.TOUCH_OUTSIDE) {
-            this.dismissReason = "TOUCH_OUTSIDE (1)"
+            this.dismissReason = 'TOUCH_OUTSIDE (1)'
           }
         } else {
           this.isShowActionSheet = false
@@ -77,31 +77,31 @@ struct PopupBoxBack0020 {
   @Builder
   actionSheetBuilder() {
     Column() {
-      Text("ActionSheet Test")
+      Text('ActionSheet Test')
         .fontSize(18)
         .fontWeight(FontWeight.Bold)
         .margin(10)
       
-      Text("Select an option")
+      Text('Select an option')
         .fontSize(14)
         .margin(10)
 
-      Button("Option 1")
-        .width("80%")
+      Button('Option 1')
+        .width('80%')
         .margin(5)
         .onClick(() => {
           this.isShowActionSheet = false
         })
 
-      Button("Option 2")
-        .width("80%")
+      Button('Option 2')
+        .width('80%')
         .margin(5)
         .onClick(() => {
           this.isShowActionSheet = false
         })
 
-      Button("Option 3")
-        .width("80%")
+      Button('Option 3')
+        .width('80%')
         .margin(5)
         .onClick(() => {
           this.isShowActionSheet = false

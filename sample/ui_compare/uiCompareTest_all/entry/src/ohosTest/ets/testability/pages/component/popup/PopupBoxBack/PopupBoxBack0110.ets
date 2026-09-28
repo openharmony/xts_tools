@@ -18,7 +18,7 @@ import { promptAction } from '@kit.ArkUI'
 @Entry
 @Component
 struct PopupBoxBack0110 {
-  @State dismissReason: string = ""
+  @State dismissReason: string = ''
   @State dismissReasonCode: number = -1
   @State dismissCallbackTriggered: boolean = false
   @State customDialogId: number = -1
@@ -26,24 +26,24 @@ struct PopupBoxBack0110 {
 
   build() {
     Column() {
-      Text("promptAction.openCustomDialog isModal=false测试")
+      Text('promptAction.openCustomDialog isModal=false测试')
         .fontSize(20)
         .margin(20)
 
-      Button("openCustomDialog3")
-        .id("show_opencustomdialog_back_0110")
+      Button('openCustomDialog3')
+        .id('show_opencustomdialog_back_0110')
         .margin(20)
         .onClick(() => {
           this.openCustomDialog()
         })
 
-      Button("Reset")
-        .id("reset_button_back_0110")
+      Button('Reset')
+        .id('reset_button_back_0110')
         .margin(20)
         .onClick(() => {
           // 重置状态
           this.dismissCallbackTriggered = false
-          this.dismissReason = ""
+          this.dismissReason = ''
           this.dismissReasonCode = -1
         })
 
@@ -60,8 +60,8 @@ struct PopupBoxBack0110 {
         .margin(10)
 
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_back_0110")
-        .width("90%")
+        .id('rich_editor_back_0110')
+        .width('90%')
         .height(100)
         .margin(20)
     }
@@ -83,7 +83,7 @@ struct PopupBoxBack0110 {
           dismissDialog.dismiss()
           this.dismissCallbackTriggered = true
           this.dismissReasonCode = dismissDialog.reason
-          this.dismissReason = "PRESS_BACK (0)"
+          this.dismissReason = 'PRESS_BACK (0)'
         } else if (dismissDialog.reason === DismissReason.TOUCH_OUTSIDE) {
           // 这里不调用dismissDialog.dismiss()，也不关闭弹窗
           this.dismissCallbackTriggered = false
@@ -97,17 +97,17 @@ struct PopupBoxBack0110 {
   @Builder
   customDialogBuilder() {
     Column() {
-      Text("自定义弹窗")
+      Text('自定义弹窗')
         .fontSize(18)
         .fontWeight(FontWeight.Bold)
         .margin(10)
       
-      Text("这是一个通过promptAction.openCustomDialog创建的弹窗")
+      Text('这是一个通过promptAction.openCustomDialog创建的弹窗')
         .fontSize(14)
         .margin(10)
 
-      Button("确认")
-        .width("40%")
+      Button('确认')
+        .width('40%')
         .margin(10)
         .onClick(() => {
           promptAction.closeCustomDialog(this.customDialogId)

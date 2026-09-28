@@ -16,18 +16,18 @@
 
 @CustomDialog
 struct CustomDialogExample0070 {
-  @State dismissReason: string = ""
+  @State dismissReason: string = ''
   @State dismissReasonCode: number = -1
   controller: CustomDialogController
 
   build() {
     Column() {
-      Text("自定义弹窗")
+      Text('自定义弹窗')
         .fontSize(18)
         .fontWeight(FontWeight.Bold)
         .margin(10)
       
-      Text("这是一个自定义弹窗")
+      Text('这是一个自定义弹窗')
         .fontSize(14)
         .margin(10)
 
@@ -39,8 +39,8 @@ struct CustomDialogExample0070 {
         .fontSize(14)
         .margin(5)
 
-      Button("确认")
-        .width("40%")
+      Button('确认')
+        .width('40%')
         .margin(10)
         .onClick(() => {
           this.controller.close()
@@ -57,7 +57,7 @@ struct CustomDialogExample0070 {
 @Component
 struct PopupBoxBack0070 {
   @State isShowCustomDialog: boolean = false
-  @State dismissReason: string = ""
+  @State dismissReason: string = ''
   @State dismissReasonCode: number = -1
   private richEditorController: RichEditorController = new RichEditorController()
   
@@ -71,9 +71,9 @@ struct PopupBoxBack0070 {
         dismissDialog.dismiss()
         this.dismissReasonCode = dismissDialog.reason
         if (dismissDialog.reason === DismissReason.PRESS_BACK) {
-          this.dismissReason = "PRESS_BACK (0)"
+          this.dismissReason = 'PRESS_BACK (0)'
         } else if (dismissDialog.reason === DismissReason.TOUCH_OUTSIDE) {
-          this.dismissReason = "TOUCH_OUTSIDE (1)"
+          this.dismissReason = 'TOUCH_OUTSIDE (1)'
         }
       }
     }
@@ -81,19 +81,19 @@ struct PopupBoxBack0070 {
 
   build() {
     Column() {
-      Text("CustomDialog配置onWillDismiss不退出测试")
+      Text('CustomDialog配置onWillDismiss不退出测试')
         .fontSize(20)
         .margin(20)
 
-      Button("CustomDialog1")
-        .id("show_customdialog_back_0070")
+      Button('CustomDialog1')
+        .id('show_customdialog_back_0070')
         .margin(20)
         .onClick(() => {
           this.customDialogController.open()
         })
 
-      Button("Click me")
-        .id("click_me_back_0070")
+      Button('Click me')
+        .id('click_me_back_0070')
         .margin(20)
         .onClick(() => {
           this.customDialogController.open()
@@ -108,8 +108,8 @@ struct PopupBoxBack0070 {
         .margin(10)
 
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_back_0070")
-        .width("90%")
+        .id('rich_editor_back_0070')
+        .width('90%')
         .height(100)
         .margin(20)
     }

@@ -50,7 +50,7 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit07 {
           right:1
         })
         .borderWidth(1)
-      Button("setAppPreferredLanguage ug")
+      Button('setAppPreferredLanguage ug')
         .margin(20)
         .controlSize(ControlSize.NORMAL)
         .id('ArkuiSpecialComponentsDialogCalenDarHabit07_01')
@@ -74,13 +74,13 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit07 {
         .onClick(()=>{
           try {
             i18n.System.setAppPreferredLanguage('ug');
-            console.log("setAppPreferredLanguage success")
+            console.log('setAppPreferredLanguage success')
           } catch (error) {
             let err: BusinessError = error as BusinessError;
             console.error(`call System.setAppPreferredLanguage failed, error code: ${err.code}, message: ${err.message}.`);
           }
         })
-      Button("Show CalendarPicker Dialog")
+      Button('Show CalendarPicker Dialog')
         .margin(20)
         .controlSize(ControlSize.NORMAL)
         .id('ArkuiSpecialComponentsDialogCalenDarHabit07_02')
@@ -91,7 +91,7 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit07 {
         .fontWeight(FontWeight.Bolder)
         .backgroundColor(Color.Blue)
         .onClick(()=>{
-          console.log("onclick success")
+          console.log('onclick success')
         })
         .labelStyle({ overflow: TextOverflow.Clip,
           maxLines: 1,
@@ -106,7 +106,7 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit07 {
         })
         .fontSize(2)
         .onClick(() => {
-          console.info("CalendarDialog.show");
+          console.info('CalendarDialog.show');
           CalendarPickerDialog.show({
             selected: this.selectedDate,
             acceptButtonStyle: {
@@ -134,27 +134,27 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit07 {
               borderRadius: 10
             },
             onAccept: (value) => {
-              console.info("calendar onAccept:" + JSON.stringify(value));
+              console.info('calendar onAccept:' + JSON.stringify(value));
             },
             onCancel: () => {
-              console.info("calendar onCancel");
+              console.info('calendar onCancel');
             },
             onChange: (value) => {
               this.text = JSON.stringify(value)
               this.selectedDate = value;
-              console.info("calendar onChange:" + JSON.stringify(value));
+              console.info('calendar onChange:' + JSON.stringify(value));
             },
             onDidAppear: () => {
-              console.info("calendar onDidAppear");
+              console.info('calendar onDidAppear');
             },
             onDidDisappear: () => {
-              console.info("calendar onDidDisappear");
+              console.info('calendar onDidDisappear');
             },
             onWillAppear: () => {
-              console.info("calendar onWillAppear");
+              console.info('calendar onWillAppear');
             },
             onWillDisappear: () => {
-              console.info("calendar onWillDisappear");
+              console.info('calendar onWillDisappear');
             }
           });
         })

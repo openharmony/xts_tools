@@ -27,7 +27,7 @@ struct MediaTimepickerStartEndTime0020 {
         start: new Date('2024-12-20T09:00:00'),
         end: new Date('2024-12-20T15:00:00')
       })
-        .dateTimeOptions({ hour: "numeric", minute: "2-digit", second: "2-digit", hour12: true })
+        .dateTimeOptions({ hour: 'numeric', minute: '2-digit', second: '2-digit', hour12: true })
         .onChange((value: TimePickerResult) => {
           if (value.hour >= 0) {
             this.selectTime.setHours(value.hour, value.minute, value.second);
@@ -39,7 +39,7 @@ struct MediaTimepickerStartEndTime0020 {
           }
         })
 
-      Button("TimePickerDialog")
+      Button('TimePickerDialog')
         .margin(20)
         .onClick(() => {
           this.getUIContext().showTimePickerDialog({
@@ -54,7 +54,7 @@ struct MediaTimepickerStartEndTime0020 {
                 const period = value.hour < 12 ? 'AM' : 'PM';
                 const displayHour = value.hour === 0 ? 12 : (value.hour > 12 ? value.hour - 12 : value.hour);
                 this.selectedTimeText = `${displayHour.toString().padStart(2, '0')}:${value.minute.toString().padStart(2, '0')}:${value.second.toString().padStart(2, '0')} ${period}`;
-                console.info("TimePickerDialog:onAccept()" + JSON.stringify(value));
+                console.info('TimePickerDialog:onAccept()' + JSON.stringify(value));
                 console.info('跨上下午时间段，AM和PM都可选，24小时制: ' + value.hour + ':' + value.minute + ':' + value.second);
               }
             }

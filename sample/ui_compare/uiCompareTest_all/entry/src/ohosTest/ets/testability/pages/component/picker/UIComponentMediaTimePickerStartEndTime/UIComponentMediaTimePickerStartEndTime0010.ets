@@ -57,7 +57,7 @@ struct UIComponentMediaTimePickerStartEndTime0010 {
           }
         })
 
-      Button("ShowTimePickerDialog")
+      Button('ShowTimePickerDialog')
         .margin(20)
         .id(this.name + '_02')
         .onClick(() => {
@@ -70,7 +70,7 @@ struct UIComponentMediaTimePickerStartEndTime0010 {
             onAccept: (value: TimePickerResult) => {
               if (value.hour != undefined && value.minute != undefined) {
                 this.selectedTime.setHours(value.hour, value.minute);
-                console.info("TimePickerDialog:onAccept()" + JSON.stringify(value));
+                console.info('TimePickerDialog:onAccept()' + JSON.stringify(value));
               }
             }
           });

@@ -30,7 +30,7 @@ struct Navigation33 {
             .height(40)
             .margin(20)
             .onClick(() => {
-              this.stack.pushPath({ name: "page12" });
+              this.stack.pushPath({ name: 'page12' });
             })
         }
       }
@@ -78,7 +78,7 @@ struct Page12Component {
   @State name: string = 'page12';
   @State destWidth: string = '100%';
   stack: NavPathStack = new NavPathStack();
-  @State backImg: Resource | string = $r("app.media.icon");
+  @State backImg: Resource | string = $r('app.media.icon');
   @State y: string = '0';
 
   build() {
@@ -89,7 +89,7 @@ struct Page12Component {
           .height(40)
           .margin(20)
           .onClick(() => {
-            this.stack.pushPath({ name: "Page13" });
+            this.stack.pushPath({ name: 'Page13' });
           })
 
         Button('ChangeImgPng')
@@ -97,7 +97,7 @@ struct Page12Component {
           .height(25)
           .id('nav33ChangeImgPng')
           .onClick(()=>{
-            this.backImg = $r("app.media.icon");
+            this.backImg = $r('app.media.icon');
           })
 
         Button('ChangeImgJpg')
@@ -113,7 +113,7 @@ struct Page12Component {
           .height(25)
           .id('nav33ChangeImgGif')
           .onClick(()=>{
-            this.backImg = $r("app.media.icon3");
+            this.backImg = $r('app.media.icon3');
           })
 
         Button('ChangeImgSvg')
@@ -121,7 +121,7 @@ struct Page12Component {
           .height(25)
           .id('nav33ChangeImgSvg')
           .onClick(()=>{
-            this.backImg = $r("app.media.icon2");
+            this.backImg = $r('app.media.icon2');
           })
 
         Button('ChangeImgBmp')
@@ -149,12 +149,12 @@ struct Page12Component {
 @Component
 struct Page13Component {
   private stack: NavPathStack | null = null;
-  @State eventStr: string = "";
+  @State eventStr: string = '';
 
   build() {
     NavDestination() {
       Column() {
-        Text("event: " + this.eventStr)
+        Text('event: ' + this.eventStr)
         Button('pop', { stateEffect: true, type: ButtonType.Capsule })
           .width('80%')
           .height(40)
@@ -169,33 +169,33 @@ struct Page13Component {
     .title('page13')
     .backButtonIcon('resources/base/media/icon.png')
     .onAppear(() => {
-      this.eventStr += "<onAppear>";
+      this.eventStr += '<onAppear>';
     })
     .onDisAppear(() => {
-      this.eventStr += "<onDisAppear>";
+      this.eventStr += '<onDisAppear>';
     })
     .onShown(() => {
-      this.eventStr += "<onShown>";
+      this.eventStr += '<onShown>';
     })
     .onHidden(() => {
-      this.eventStr += "<onHidden>";
+      this.eventStr += '<onHidden>';
     })
     .onWillAppear(() => {
-      this.eventStr += "<onWillAppear>";
+      this.eventStr += '<onWillAppear>';
     })
     .onWillDisappear(() => {
-      this.eventStr += "<onWillDisappear>";
+      this.eventStr += '<onWillDisappear>';
     })
     .onWillShow(() => {
-      this.eventStr += "<onWillShow>";
+      this.eventStr += '<onWillShow>';
     })
     .onWillHide(() => {
-      this.eventStr += "<onWillHide>";
+      this.eventStr += '<onWillHide>';
     })
     // onReady会在onAppear之前调用
     .onReady((ctx: NavDestinationContext) => {
       try {
-        this.eventStr += "<onReady>";
+        this.eventStr += '<onReady>';
         this.stack = ctx.pathStack;
       } catch (e) {
         console.log(`testTag onReady catch exception: ${JSON.stringify(e)}`);

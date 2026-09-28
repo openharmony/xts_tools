@@ -67,7 +67,7 @@ struct MediaTimepickerEnableCascade0075 {
 
   build() {
     Column() {
-      Button("modifierPage")
+      Button('modifierPage')
         .margin(20)
         .onClick(() => {
           this.showModifierPage = !this.showModifierPage;

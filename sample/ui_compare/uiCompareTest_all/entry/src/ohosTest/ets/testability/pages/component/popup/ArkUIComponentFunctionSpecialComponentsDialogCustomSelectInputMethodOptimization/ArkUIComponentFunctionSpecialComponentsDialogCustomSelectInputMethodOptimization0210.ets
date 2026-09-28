@@ -36,10 +36,10 @@ struct ArkUIComponentFunctionSpecialComponentsDialogCustomSelectInputMethodOptim
         .height(100)
 
       Row({ space: 10 }) {
-        Button("通过DialogId关闭").onClick(() => {
+        Button('通过DialogId关闭').onClick(() => {
           this.promptAction.closeCustomDialog(this.customDialogComponentId);
         })
-        Button("通过DialogController关闭").onClick(() => {
+        Button('通过DialogController关闭').onClick(() => {
           this.dialogController.close();
         })
       }
@@ -62,8 +62,8 @@ struct ArkUIComponentFunctionSpecialComponentsDialogCustomSelectInputMethodOptim
               this.customDialogComponent()
             },
             onWillDismiss: (dismissDialogAction: DismissDialogAction) => {
-              console.info("reason" + JSON.stringify(dismissDialogAction.reason))
-              console.log("dialog onWillDismiss")
+              console.info('reason' + JSON.stringify(dismissDialogAction.reason))
+              console.log('dialog onWillDismiss')
               if (dismissDialogAction.reason == DismissReason.PRESS_BACK) {
                 dismissDialogAction.dismiss()
               }

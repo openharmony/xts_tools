@@ -21,7 +21,7 @@ struct UiComponentMediaTimepickerEnablecascade0041 {
   build() {
     Row() {
       Column() {
-        Button("TimePickerDialog 12小时制")
+        Button('TimePickerDialog 12小时制')
           .id('UiComponentMediaTimepickerEnablecascade0041_001')
           .margin(20)
           .onClick(() => {
@@ -35,26 +35,26 @@ struct UiComponentMediaTimepickerEnablecascade0041 {
                 // 设置selectTime为按下确定按钮时的时间，这样当弹窗再次弹出时显示选中的为上一次确定的时间
                 if (value.hour != undefined && value.minute != undefined) {
                   this.selectedTime.setHours(value.hour, value.minute)
-                  console.info("TimePickerDialog:onAccept()" + JSON.stringify(value))
+                  console.info('TimePickerDialog:onAccept()' + JSON.stringify(value))
                 }
               },
               onCancel: () => {
-                console.info("TimePickerDialog:onCancel()")
+                console.info('TimePickerDialog:onCancel()')
               },
               onChange: (value: TimePickerResult) => {
-                console.info("TimePickerDialog:onChange()" + JSON.stringify(value))
+                console.info('TimePickerDialog:onChange()' + JSON.stringify(value))
               },
               onDidAppear: () => {
-                console.info("TimePickerDialog:onDidAppear()")
+                console.info('TimePickerDialog:onDidAppear()')
               },
               onDidDisappear: () => {
-                console.info("TimePickerDialog:onDidDisappear()")
+                console.info('TimePickerDialog:onDidDisappear()')
               },
               onWillAppear: () => {
-                console.info("TimePickerDialog:onWillAppear()")
+                console.info('TimePickerDialog:onWillAppear()')
               },
               onWillDisappear: () => {
-                console.info("TimePickerDialog:onWillDisappear()")
+                console.info('TimePickerDialog:onWillDisappear()')
               }
             })
           })

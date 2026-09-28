@@ -51,7 +51,7 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit11 {
           right:1
         })
         .borderWidth(1)
-      Button("setAppPreferredLanguage en")
+      Button('setAppPreferredLanguage en')
         .margin(20)
         .controlSize(ControlSize.NORMAL)
         .id('ArkuiSpecialComponentsDialogCalenDarHabit11_01')
@@ -75,13 +75,13 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit11 {
         .onClick(()=>{
           try {
             i18n.System.setAppPreferredLanguage('en');
-            console.log("setAppPreferredLanguage success")
+            console.log('setAppPreferredLanguage success')
           } catch (error) {
             let err: BusinessError = error as BusinessError;
             console.error(`call System.setAppPreferredLanguage failed, error code: ${err.code}, message: ${err.message}.`);
           }
         })
-      Button("setAppPreferredLanguage zh-Hant")
+      Button('setAppPreferredLanguage zh-Hant')
         .margin(20)
         .controlSize(ControlSize.NORMAL)
         .id('ArkuiSpecialComponentsDialogCalenDarHabit11_02')
@@ -105,13 +105,13 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit11 {
         .onClick(()=>{
           try {
             i18n.System.setAppPreferredLanguage('zh-Hant');
-            console.log("setAppPreferredLanguage success")
+            console.log('setAppPreferredLanguage success')
           } catch (error) {
             let err: BusinessError = error as BusinessError;
             console.error(`call System.setAppPreferredLanguage failed, error code: ${err.code}, message: ${err.message}.`);
           }
         })
-      Button("Show CalendarPicker Dialog")
+      Button('Show CalendarPicker Dialog')
         .margin(20)
         .controlSize(ControlSize.NORMAL)
         .id('ArkuiSpecialComponentsDialogCalenDarHabit11_03')
@@ -122,7 +122,7 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit11 {
         .fontWeight(FontWeight.Bolder)
         .backgroundColor(Color.Blue)
         .onClick(()=>{
-          console.log("onclick success")
+          console.log('onclick success')
         })
         .labelStyle({ overflow: TextOverflow.Clip,
           maxLines: 1,
@@ -137,7 +137,7 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit11 {
         })
         .fontSize(2)
         .onClick(() => {
-          console.info("CalendarDialog.show");
+          console.info('CalendarDialog.show');
           CalendarPickerDialog.show({
             selected: this.selectedDate,
             acceptButtonStyle: {
@@ -167,25 +167,25 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit11 {
             onAccept: (value) => {
               this.text = JSON.stringify(value)
               this.selectedDate = value;
-              console.info("calendar onAccept:" + JSON.stringify(value));
+              console.info('calendar onAccept:' + JSON.stringify(value));
             },
             onCancel: () => {
-              console.info("calendar onCancel");
+              console.info('calendar onCancel');
             },
             onChange: (value) => {
-              console.info("calendar onChange:" + JSON.stringify(value));
+              console.info('calendar onChange:' + JSON.stringify(value));
             },
             onDidAppear: () => {
-              console.info("calendar onDidAppear");
+              console.info('calendar onDidAppear');
             },
             onDidDisappear: () => {
-              console.info("calendar onDidDisappear");
+              console.info('calendar onDidDisappear');
             },
             onWillAppear: () => {
-              console.info("calendar onWillAppear");
+              console.info('calendar onWillAppear');
             },
             onWillDisappear: () => {
-              console.info("calendar onWillDisappear");
+              console.info('calendar onWillDisappear');
             }
           });
         })

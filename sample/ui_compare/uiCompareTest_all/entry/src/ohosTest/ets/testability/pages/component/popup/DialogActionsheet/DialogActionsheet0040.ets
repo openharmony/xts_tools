@@ -27,7 +27,7 @@ struct DialogActionsheet0040 {
         .margin({ top: 20, bottom: 20 })
 
       Button('显示ActionSheet（message设置为数字类型）')
-        .id("show_actionsheet_wrong_message_type_0040")
+        .id('show_actionsheet_wrong_message_type_0040')
         .fontSize(16)
         .width('80%')
         .height(50)

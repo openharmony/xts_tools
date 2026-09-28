@@ -25,7 +25,7 @@ struct PopupboxPopup0010 {
     Column({ space: 100 }) {
       Button('PopupOptions')
         .margin(20)
-        .id("PopupboxPopup0010_001")
+        .id('PopupboxPopup0010_001')
         .onClick(() => {
           this.handlePopup = !this.handlePopup;
         })
@@ -53,13 +53,13 @@ struct PopupboxPopup0010 {
         })
       Button('themedark')
         .margin(20)
-        .id("PopupboxPopup0010_002")
+        .id('PopupboxPopup0010_002')
         .onClick(() => {
           globalThis.getContext().getApplicationContext().setColorMode(ConfigurationConstant.ColorMode.COLOR_MODE_DARK)
         })
       Button('themelight')
         .margin(20)
-        .id("PopupboxPopup0010_003")
+        .id('PopupboxPopup0010_003')
         .onClick(() => {
           globalThis.getContext().getApplicationContext().setColorMode(ConfigurationConstant.ColorMode.COLOR_MODE_LIGHT)
         })

@@ -27,7 +27,7 @@ struct DialogActionsheet0050 {
         .margin({ top: 20, bottom: 20 })
 
       Button('显示ActionSheet（subtitle设置为异常值）')
-        .id("show_actionsheet_abnormal_subtitle_0050")
+        .id('show_actionsheet_abnormal_subtitle_0050')
         .fontSize(16)
         .width('80%')
         .height(50)

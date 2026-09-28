@@ -27,7 +27,7 @@ struct MediaTimepickerStartEndTime0018 {
         start: new Date('2024-12-20T00:00:00'),
         end: new Date('2024-12-20T11:59:59')
       })
-        .dateTimeOptions({ hour: "numeric", minute: "2-digit", second: "2-digit", hour12: true })
+        .dateTimeOptions({ hour: 'numeric', minute: '2-digit', second: '2-digit', hour12: true })
         .onChange((value: TimePickerResult) => {
           if (value.hour >= 0) {
             this.selectTime.setHours(value.hour, value.minute, value.second);
@@ -39,7 +39,7 @@ struct MediaTimepickerStartEndTime0018 {
           }
         })
 
-      Button("TimePickerDialog")
+      Button('TimePickerDialog')
         .margin(20)
         .onClick(() => {
           this.getUIContext().showTimePickerDialog({
@@ -54,7 +54,7 @@ struct MediaTimepickerStartEndTime0018 {
                 const period = value.hour < 12 ? 'AM' : 'PM';
                 const displayHour = value.hour === 0 ? 12 : (value.hour > 12 ? value.hour - 12 : value.hour);
                 this.selectedTimeText = `${displayHour.toString().padStart(2, '0')}:${value.minute.toString().padStart(2, '0')}:${value.second.toString().padStart(2, '0')} ${period}`;
-                console.info("TimePickerDialog:onAccept()" + JSON.stringify(value));
+                console.info('TimePickerDialog:onAccept()' + JSON.stringify(value));
                 console.info('完整上午时间段，显示12:00:00 AM - 11:59:59 AM');
               }
             }

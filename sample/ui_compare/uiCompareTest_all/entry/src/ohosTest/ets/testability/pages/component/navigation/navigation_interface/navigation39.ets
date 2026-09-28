@@ -33,7 +33,7 @@ struct Navigation39 {
             .height(40)
             .margin(20)
             .onClick(() => {
-              this.stack.pushPath({ name: "page15" });
+              this.stack.pushPath({ name: 'page15' });
             })
         }
       }
@@ -133,7 +133,7 @@ struct Page15Component {
           .height(40)
           .margin(20)
           .onClick(() => {
-            this.stack.pushPath({ name: "Page16" });
+            this.stack.pushPath({ name: 'Page16' });
           })
 
         Button('ChangeImgPng')
@@ -193,12 +193,12 @@ struct Page15Component {
 @Component
 struct Page16Component {
   private stack: NavPathStack | null = null;
-  @State eventStr: string = "";
+  @State eventStr: string = '';
 
   build() {
     NavDestination() {
       Column() {
-        Text("event: " + this.eventStr)
+        Text('event: ' + this.eventStr)
         Button('pop', { stateEffect: true, type: ButtonType.Capsule })
           .width('80%')
           .height(40)
@@ -213,33 +213,33 @@ struct Page16Component {
     .title('page16')
     .backButtonIcon('resources/base/media/icon.png')
     .onAppear(() => {
-      this.eventStr += "<onAppear>";
+      this.eventStr += '<onAppear>';
     })
     .onDisAppear(() => {
-      this.eventStr += "<onDisAppear>";
+      this.eventStr += '<onDisAppear>';
     })
     .onShown(() => {
-      this.eventStr += "<onShown>";
+      this.eventStr += '<onShown>';
     })
     .onHidden(() => {
-      this.eventStr += "<onHidden>";
+      this.eventStr += '<onHidden>';
     })
     .onWillAppear(() => {
-      this.eventStr += "<onWillAppear>";
+      this.eventStr += '<onWillAppear>';
     })
     .onWillDisappear(() => {
-      this.eventStr += "<onWillDisappear>";
+      this.eventStr += '<onWillDisappear>';
     })
     .onWillShow(() => {
-      this.eventStr += "<onWillShow>";
+      this.eventStr += '<onWillShow>';
     })
     .onWillHide(() => {
-      this.eventStr += "<onWillHide>";
+      this.eventStr += '<onWillHide>';
     })
     // onReady会在onAppear之前调用
     .onReady((ctx: NavDestinationContext) => {
       try {
-        this.eventStr += "<onReady>";
+        this.eventStr += '<onReady>';
         this.stack = ctx.pathStack;
       } catch (e) {
         console.log(`testTag onReady catch exception: ${JSON.stringify(e)}`);

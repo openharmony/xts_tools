@@ -22,7 +22,7 @@ struct PopupBoxAlertdialogInterface1200 {
       let uiContext = this.getUIContext()
       uiContext.showAlertDialog({
         title: 'Alert Dialog',
-        message: "这是一个警告弹窗的消息内容",
+        message: '这是一个警告弹窗的消息内容',
         autoCancel: true,
         alignment: DialogAlignment.Bottom,
         offset: { dx: 0, dy: -20 },

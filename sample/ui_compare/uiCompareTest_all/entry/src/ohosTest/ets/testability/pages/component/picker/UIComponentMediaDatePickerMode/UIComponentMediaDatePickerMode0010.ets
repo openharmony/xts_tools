@@ -31,7 +31,7 @@ struct UIComponentMediaDatePickerMode0010 {
         Text(this.message + '\nlunar: ' + JSON.stringify(this.lunarFlag))
           .margin(10)
 
-        Button("Switch lunar")
+        Button('Switch lunar')
           .margin(5)
           .id(this.name + '_01')
           .onClick(() => {
@@ -59,11 +59,11 @@ struct UIComponentMediaDatePickerMode0010 {
           .margin(5)
 
 
-        Button("Show DatePicker dialog with DatePickerMode: DATE")
+        Button('Show DatePicker dialog with DatePickerMode: DATE')
           .margin(10)
           .id(this.name + '_02')
           .onClick(() => {
-            console.info("DatePickerDialog.show with DatePickerMode: DATE");
+            console.info('DatePickerDialog.show with DatePickerMode: DATE');
             this.getUIContext().showDatePickerDialog({
               mode: DatePickerMode.DATE,
               start: this.startDate,
@@ -71,11 +71,11 @@ struct UIComponentMediaDatePickerMode0010 {
               selected: this.selectedDate,
             })
           })
-        Button("Show DatePicker dialog with DatePickerMode: 0")
+        Button('Show DatePicker dialog with DatePickerMode: 0')
           .margin(10)
           .id(this.name + '_03')
           .onClick(() => {
-            console.info("DatePickerDialog.show with DatePickerMode: 0");
+            console.info('DatePickerDialog.show with DatePickerMode: 0');
             this.getUIContext().showDatePickerDialog({
               mode: 0,
               start: this.startDate,

@@ -23,7 +23,7 @@ struct MediaTimepickerEnableCascade0066 {
 
   build() {
     Column() {
-      Button("modifierPage")
+      Button('modifierPage')
         .margin(20)
         .onClick(() => {
           this.showModifierPage = !this.showModifierPage;
@@ -31,14 +31,14 @@ struct MediaTimepickerEnableCascade0066 {
 
       if (this.showModifierPage) {
         Column() {
-          Button("切换enableCascade值-true")
+          Button('切换enableCascade值-true')
             .margin(20)
             .onClick(() => {
               this.enableCascadeValue = true;
               console.info('enableCascade set to: ' + this.enableCascadeValue);
             })
 
-          Text("第一个TimePicker")
+          Text('第一个TimePicker')
             .fontSize(16)
             .margin(10)
 
@@ -54,7 +54,7 @@ struct MediaTimepickerEnableCascade0066 {
               }
             })
 
-          Text("第二个TimePicker (用于测试)")
+          Text('第二个TimePicker (用于测试)')
             .fontSize(16)
             .margin(10)
 

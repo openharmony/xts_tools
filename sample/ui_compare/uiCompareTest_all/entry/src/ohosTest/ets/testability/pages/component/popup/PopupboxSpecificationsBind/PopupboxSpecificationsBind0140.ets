@@ -71,15 +71,15 @@ struct PopupboxSpecificationsBind0140 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0140")
+        .id('message_text_bind_0140')
 
       Text('屏幕状态: ' + this.screenStatus)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("screen_status_bind_0140")
+        .id('screen_status_bind_0140')
 
       Button('点击弹出气泡')
-        .id("button_bind_0140")
+        .id('button_bind_0140')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindPopup(this.isShow, {
@@ -102,14 +102,14 @@ struct PopupboxSpecificationsBind0140 {
         })
 
       Button('显示isShow状态')
-        .id("show_status_bind_0140")
+        .id('show_status_bind_0140')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow
         })
 
       Button('模拟息屏')
-        .id("simulate_screen_off_bind_0140")
+        .id('simulate_screen_off_bind_0140')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {

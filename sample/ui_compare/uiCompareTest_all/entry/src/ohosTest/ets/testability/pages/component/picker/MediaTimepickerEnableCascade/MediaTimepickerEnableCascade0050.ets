@@ -20,7 +20,7 @@ struct MediaTimepickerEnableCascade0050 {
 
   build() {
     Column() {
-      Button("TimePickerDialog 12小时制")
+      Button('TimePickerDialog 12小时制')
         .margin(20)
         .onClick(() => {
           this.getUIContext().showTimePickerDialog({
@@ -28,35 +28,35 @@ struct MediaTimepickerEnableCascade0050 {
             selected: this.selectTime,
             format: TimePickerFormat.HOUR_MINUTE,
             useMilitaryTime: false,
-            dateTimeOptions: { hour: "numeric", minute: "2-digit" },
+            dateTimeOptions: { hour: 'numeric', minute: '2-digit' },
             onAccept: (value: TimePickerResult) => {
               // 设置selectTime为按下确定按钮时的时间，这样当弹窗再次弹出时显示选中的为上一次确定的时间
               if (value.hour != undefined && value.minute != undefined) {
                 this.selectTime.setHours(value.hour, value.minute);
-                console.info("TimePickerDialog:onAccept()" + JSON.stringify(value));
+                console.info('TimePickerDialog:onAccept()' + JSON.stringify(value));
               }
             },
             onCancel: () => {
-              console.info("TimePickerDialog:onCancel()");
+              console.info('TimePickerDialog:onCancel()');
             },
             onChange: (value: TimePickerResult) => {
-              console.info("TimePickerDialog:onChange()" + JSON.stringify(value));
+              console.info('TimePickerDialog:onChange()' + JSON.stringify(value));
             },
             onDidAppear: () => {
-              console.info("TimePickerDialog:onDidAppear()");
+              console.info('TimePickerDialog:onDidAppear()');
             },
             onDidDisappear: () => {
-              console.info("TimePickerDialog:onDidDisappear()");
+              console.info('TimePickerDialog:onDidDisappear()');
             },
             onWillAppear: () => {
-              console.info("TimePickerDialog:onWillAppear()");
+              console.info('TimePickerDialog:onWillAppear()');
             },
             onWillDisappear: () => {
-              console.info("TimePickerDialog:onWillDisappear()");
+              console.info('TimePickerDialog:onWillDisappear()');
             }
           });
         })
-      Button("TimePickerDialog 24小时制")
+      Button('TimePickerDialog 24小时制')
         .margin(20)
         .onClick(() => {
           this.getUIContext().showTimePickerDialog({
@@ -67,7 +67,7 @@ struct MediaTimepickerEnableCascade0050 {
             onAccept: (value: TimePickerResult) => {
               if (value.hour != undefined && value.minute != undefined) {
                 this.selectTime.setHours(value.hour, value.minute);
-                console.info("TimePickerDialog:onAccept()" + JSON.stringify(value));
+                console.info('TimePickerDialog:onAccept()' + JSON.stringify(value));
               }
             },
           })

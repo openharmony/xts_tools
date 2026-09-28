@@ -24,7 +24,7 @@ struct MediaTimepickerEnableCascade0071{
 
   build() {
     Column() {
-      Button("modifierPage")
+      Button('modifierPage')
         .margin(20)
         .onClick(() => {
           this.showModifierPage = !this.showModifierPage;
@@ -51,7 +51,7 @@ struct MediaTimepickerEnableCascade0071{
               console.info('Hours: ' + newTime.getHours() + ', Minutes: ' + newTime.getMinutes());
             })
 
-          Text("第一个TimePicker")
+          Text('第一个TimePicker')
             .fontSize(16)
             .margin(10)
 
@@ -71,7 +71,7 @@ struct MediaTimepickerEnableCascade0071{
               console.info('TimePicker1 item enter selected area, time is: ' + JSON.stringify(value));
             })
 
-          Text("第二个TimePicker (用于测试)")
+          Text('第二个TimePicker (用于测试)')
             .fontSize(16)
             .margin(10)
           

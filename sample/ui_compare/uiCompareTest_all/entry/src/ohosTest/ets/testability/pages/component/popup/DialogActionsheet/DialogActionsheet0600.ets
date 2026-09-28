@@ -29,7 +29,7 @@ struct DialogActionsheet0600 {
         .fontColor(Color.White)
 
       Button('显示ActionSheet（深色模式）')
-        .id("show_actionsheet_dark_mode_0600")
+        .id('show_actionsheet_dark_mode_0600')
         .fontSize(16)
         .width('80%')
         .height(50)

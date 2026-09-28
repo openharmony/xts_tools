@@ -37,7 +37,7 @@ struct MediaTimepickerStartEndTime0034 {
         start: new Date('2024-12-20T09:00:00'), // 正常开始时间：09:00:00
         end: new Date('2024-12-20T18:00:00')    // 正常结束时间：18:00:00
       })
-        .dateTimeOptions({ hour: "numeric", minute: "2-digit", second: "2-digit" })
+        .dateTimeOptions({ hour: 'numeric', minute: '2-digit', second: '2-digit' })
         .onChange((value: TimePickerResult) => {
           if (value.hour >= 0) {
             this.selectedTime.setHours(value.hour, value.minute, value.second);
@@ -48,7 +48,7 @@ struct MediaTimepickerStartEndTime0034 {
         .width('100%')
         .layoutWeight(1)
 
-      Button("TimePickerDialog")
+      Button('TimePickerDialog')
         .width('60%')
         .height(50)
         .margin(20)
@@ -62,12 +62,12 @@ struct MediaTimepickerStartEndTime0034 {
             onAccept: (value: TimePickerResult) => {
               if (value.hour != undefined && value.minute != undefined && value.second != undefined) {
                 this.selectedTime.setHours(value.hour, value.minute, value.second);
-                console.info("TimePickerDialog:onAccept() " + JSON.stringify(value));
+                console.info('TimePickerDialog:onAccept() ' + JSON.stringify(value));
                 console.info('时间选择范围: 09:00:00 - 18:00:00，横竖屏适配');
               }
             },
             onCancel: () => {
-              console.info("TimePickerDialog:onCancel()");
+              console.info('TimePickerDialog:onCancel()');
             }
           });
         })

@@ -24,7 +24,7 @@ struct MediaTimepickerStartEndTime0028 {
         selected: this.selectedTime,
         format: TimePickerFormat.HOUR_MINUTE
       })
-        .dateTimeOptions({ hour: "numeric", minute: "2-digit" })
+        .dateTimeOptions({ hour: 'numeric', minute: '2-digit' })
         .onChange((value: TimePickerResult) => {
           if (value.hour >= 0) {
             this.selectedTime.setHours(value.hour, value.minute);
@@ -32,7 +32,7 @@ struct MediaTimepickerStartEndTime0028 {
           }
         })
 
-      Button("TimePickerDialog")
+      Button('TimePickerDialog')
         .margin(20)
         .onClick(() => {
           this.getUIContext().showTimePickerDialog({
@@ -42,7 +42,7 @@ struct MediaTimepickerStartEndTime0028 {
             onAccept: (value: TimePickerResult) => {
               if (value.hour != undefined && value.minute != undefined) {
                 this.selectedTime.setHours(value.hour, value.minute);
-                console.info("TimePickerDialog:onAccept()" + JSON.stringify(value));
+                console.info('TimePickerDialog:onAccept()' + JSON.stringify(value));
               }
             }
           });

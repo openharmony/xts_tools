@@ -27,7 +27,7 @@ struct MediaTimepickerStartEndTime0023 {
         start: new Date('2024-12-20T09:00:00'),
         end: new Date('2024-12-20T18:00:00')
       })
-        .dateTimeOptions({ hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false })
+        .dateTimeOptions({ hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false })
         .onChange((value: TimePickerResult) => {
           if (value.hour >= 0) {
             this.selectTime.setHours(value.hour, value.minute, value.second);
@@ -37,7 +37,7 @@ struct MediaTimepickerStartEndTime0023 {
           }
         })
 
-      Button("TimePickerDialog")
+      Button('TimePickerDialog')
         .margin(20)
         .onClick(() => {
           this.getUIContext().showTimePickerDialog({
@@ -50,7 +50,7 @@ struct MediaTimepickerStartEndTime0023 {
               if (value.hour != undefined && value.minute != undefined && value.second != undefined) {
                 this.selectTime.setHours(value.hour, value.minute, value.second);
                 this.selectedTimeText = `${value.hour.toString().padStart(2, '0')}:${value.minute.toString().padStart(2, '0')}:${value.second.toString().padStart(2, '0')}`;
-                console.info("TimePickerDialog:onAccept()" + JSON.stringify(value));
+                console.info('TimePickerDialog:onAccept()' + JSON.stringify(value));
                 console.info('选中时间在起始时间(09:00:00)与结束时间(18:00:00)之间，可正常选中');
               }
             }

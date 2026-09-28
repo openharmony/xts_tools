@@ -71,14 +71,14 @@ struct Navigation26 {
       .menus(this.NavigationMenus)
       .toolbarConfiguration([
         {
-          value: $r("app.string.navigation_tools"),
-          icon: $r("sys.symbol.ohos_folder_badge_plus"),
-          activeIcon: $r("sys.symbol.ohos_trash"),
+          value: $r('app.string.navigation_tools'),
+          icon: $r('sys.symbol.ohos_folder_badge_plus'),
+          activeIcon: $r('sys.symbol.ohos_trash'),
         },
         {
-          value: $r("app.string.navigation_tools"),
-          icon: $r("sys.symbol.ohos_folder_badge_plus"),
-          activeIcon: $r("sys.symbol.ohos_trash"),
+          value: $r('app.string.navigation_tools'),
+          icon: $r('sys.symbol.ohos_folder_badge_plus'),
+          activeIcon: $r('sys.symbol.ohos_trash'),
         }
       ])
       .onTitleModeChange((titleModel: NavigationTitleMode) => {

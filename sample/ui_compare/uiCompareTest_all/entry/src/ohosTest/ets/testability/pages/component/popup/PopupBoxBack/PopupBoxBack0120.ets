@@ -18,7 +18,7 @@ import { promptAction } from '@kit.ArkUI'
 @Entry
 @Component
 struct PopupBoxBack0120 {
-  @State dismissReason: string = ""
+  @State dismissReason: string = ''
   @State dismissReasonCode: number = -1
   @State dismissCallbackTriggered: boolean = false
   @State customDialogId: number = -1
@@ -26,12 +26,12 @@ struct PopupBoxBack0120 {
 
   build() {
     Column() {
-      Text("promptAction.closeCustomDialog测试")
+      Text('promptAction.closeCustomDialog测试')
         .fontSize(20)
         .margin(20)
 
-      Button("openCustomDialog2")
-        .id("show_opencustomdialog_back_0120")
+      Button('openCustomDialog2')
+        .id('show_opencustomdialog_back_0120')
         .margin(20)
         .onClick(() => {
           this.openCustomDialog()
@@ -50,8 +50,8 @@ struct PopupBoxBack0120 {
         .margin(10)
 
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_back_0120")
-        .width("90%")
+        .id('rich_editor_back_0120')
+        .width('90%')
         .height(100)
         .margin(20)
     }
@@ -63,7 +63,7 @@ struct PopupBoxBack0120 {
   openCustomDialog() {
     // 重置状态
     this.dismissCallbackTriggered = false
-    this.dismissReason = ""
+    this.dismissReason = ''
     this.dismissReasonCode = -1
 
     promptAction.openCustomDialog({
@@ -79,14 +79,14 @@ struct PopupBoxBack0120 {
           this.dismissCallbackTriggered = false
           this.dismissReasonCode = dismissDialog.reason
           if (dismissDialog.reason === DismissReason.PRESS_BACK) {
-            this.dismissReason = "PRESS_BACK (0)"
+            this.dismissReason = 'PRESS_BACK (0)'
           } else if (dismissDialog.reason === DismissReason.TOUCH_OUTSIDE) {
-            this.dismissReason = "TOUCH_OUTSIDE (1)"
+            this.dismissReason = 'TOUCH_OUTSIDE (1)'
           }
         } else {
           // 其他情况（如点击取消按钮）不触发dismiss回调，正常关闭
           this.dismissCallbackTriggered = false
-          this.dismissReason = "CANCEL_BUTTON"
+          this.dismissReason = 'CANCEL_BUTTON'
         }
       }
     }).then((dialogId: number) => {
@@ -97,25 +97,25 @@ struct PopupBoxBack0120 {
   @Builder
   customDialogBuilder() {
     Column() {
-      Text("自定义弹窗")
+      Text('自定义弹窗')
         .fontSize(18)
         .fontWeight(FontWeight.Bold)
         .margin(10)
       
-      Text("这是一个通过promptAction.openCustomDialog创建的弹窗")
+      Text('这是一个通过promptAction.openCustomDialog创建的弹窗')
         .fontSize(14)
         .margin(10)
 
       Row() {
-        Button("取消")
-          .width("40%")
+        Button('取消')
+          .width('40%')
           .margin(10)
           .onClick(() => {
             promptAction.closeCustomDialog(this.customDialogId)
           })
 
-        Button("确认")
-          .width("40%")
+        Button('确认')
+          .width('40%')
           .margin(10)
           .onClick(() => {
             promptAction.closeCustomDialog(this.customDialogId)

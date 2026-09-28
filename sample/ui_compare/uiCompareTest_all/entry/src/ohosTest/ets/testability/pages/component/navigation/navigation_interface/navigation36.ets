@@ -66,7 +66,7 @@ struct Navigation36 {
       }
       .height('100%')
       .mode(NavigationMode.Split)
-      .navBarWidth($r("app.string.titleBar_width"))
+      .navBarWidth($r('app.string.titleBar_width'))
       .title(this.NavigationTitle)
       .menus(this.NavigationMenus)
       .titleMode(NavigationTitleMode.Full)

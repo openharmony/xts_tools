@@ -16,23 +16,23 @@
 
 @CustomDialog
 struct CustomDialogExample0080 {
-  @State dismissReason: string = ""
+  @State dismissReason: string = ''
   @State dismissReasonCode: number = -1
   controller: CustomDialogController
 
   build() {
     Column() {
-      Text("自定义弹窗")
+      Text('自定义弹窗')
         .fontSize(18)
         .fontWeight(FontWeight.Bold)
         .margin(10)
       
-      Text("这是一个自定义弹窗")
+      Text('这是一个自定义弹窗')
         .fontSize(14)
         .margin(10)
 
-      Button("确认")
-        .width("40%")
+      Button('确认')
+        .width('40%')
         .margin(10)
         .onClick(() => {
           this.controller.close()
@@ -49,7 +49,7 @@ struct CustomDialogExample0080 {
 @Component
 struct PopupBoxBack0080 {
   @State isShowCustomDialog: boolean = false
-  @State dismissReason: string = ""
+  @State dismissReason: string = ''
   @State dismissReasonCode: number = -1
   @State dismissCallbackTriggered: boolean = false
   private richEditorController: RichEditorController = new RichEditorController()
@@ -66,7 +66,7 @@ struct PopupBoxBack0080 {
         dismissDialog.dismiss()
         this.dismissCallbackTriggered = true
         this.dismissReasonCode = dismissDialog.reason
-        this.dismissReason = "PRESS_BACK (0)"
+        this.dismissReason = 'PRESS_BACK (0)'
       } else if (dismissDialog.reason === DismissReason.TOUCH_OUTSIDE) {
         // 这里不调用dismissDialog.dismiss()，也不关闭弹窗
         this.dismissCallbackTriggered = false
@@ -76,24 +76,24 @@ struct PopupBoxBack0080 {
 
   build() {
     Column() {
-      Text("CustomDialog autoCancel=false测试")
+      Text('CustomDialog autoCancel=false测试')
         .fontSize(20)
         .margin(20)
 
-      Button("CustomDialog3")
-        .id("show_customdialog_back_0080")
+      Button('CustomDialog3')
+        .id('show_customdialog_back_0080')
         .margin(20)
         .onClick(() => {
           this.customDialogController.open()
         })
 
-      Button("Click me")
-        .id("click_me_back_0080")
+      Button('Click me')
+        .id('click_me_back_0080')
         .margin(20)
         .onClick(() => {
           // 重置状态
           this.dismissCallbackTriggered = false
-          this.dismissReason = ""
+          this.dismissReason = ''
           this.dismissReasonCode = -1
           this.customDialogController.open()
         })
@@ -111,8 +111,8 @@ struct PopupBoxBack0080 {
         .margin(10)
 
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_back_0080")
-        .width("90%")
+        .id('rich_editor_back_0080')
+        .width('90%')
         .height(100)
         .margin(20)
     }

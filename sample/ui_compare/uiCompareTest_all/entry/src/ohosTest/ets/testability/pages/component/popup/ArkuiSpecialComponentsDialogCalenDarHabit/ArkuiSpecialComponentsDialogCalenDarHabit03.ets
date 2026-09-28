@@ -50,7 +50,7 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit03 {
           right:1
         })
         .borderWidth(1)
-      Button("setAppPreferredLanguage zh-Hans")
+      Button('setAppPreferredLanguage zh-Hans')
         .margin(20)
         .controlSize(ControlSize.NORMAL)
         .id('ArkuiSpecialComponentsDialogCalenDarHabit03_01')
@@ -74,7 +74,7 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit03 {
         .onClick(()=>{
           try {
             i18n.System.setAppPreferredLanguage('zh-Hans');
-            console.log("setAppPreferredLanguage success")
+            console.log('setAppPreferredLanguage success')
           } catch (error) {
             let err: BusinessError = error as BusinessError;
             console.error(`call System.setAppPreferredLanguage failed, error code: ${err.code}, message: ${err.message}.`);
@@ -108,7 +108,7 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit03 {
         .margin(10)
         .onChange((value) => {
           this.text = JSON.stringify(value)
-          console.info("CalendarPicker onChange:" + JSON.stringify(value))
+          console.info('CalendarPicker onChange:' + JSON.stringify(value))
         })
     }
     .width('100%')

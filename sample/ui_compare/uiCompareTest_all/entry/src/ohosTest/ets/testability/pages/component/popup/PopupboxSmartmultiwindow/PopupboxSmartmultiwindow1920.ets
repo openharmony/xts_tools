@@ -24,13 +24,13 @@ struct SmartMultiwindowCustomDialog1920 {
         .fontSize(20)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 10 })
-        .id("customdialog_smartmultiwindow_1920_title")
+        .id('customdialog_smartmultiwindow_1920_title')
 
       Text('KeyboardAvoidMode为none时观察蒙层效果、组件布局和对齐状态')
         .fontSize(14)
         .fontColor(Color.Gray)
         .margin({ bottom: 20 })
-        .id("customdialog_smartmultiwindow_1920_description")
+        .id('customdialog_smartmultiwindow_1920_description')
 
       TextInput({ placeholder: '请输入内容', text: this.inputValue })
         .id('customdialog_smartmultiwindow_1920_textinput')

@@ -38,7 +38,7 @@ struct UIComponentMediaCalendarPickerDate0010 {
         })
           .edgeAlign(CalendarAlign.END)
           .textStyle({
-            color: "#ff182431",
+            color: '#ff182431',
             font: {
               size: 20,
               weight: FontWeight.Normal
@@ -50,11 +50,11 @@ struct UIComponentMediaCalendarPickerDate0010 {
             this.message += '\nCalendarPicker onChange:' + JSON.stringify(value);
           })
 
-        Button("Show CalendarPicker Dialog")
+        Button('Show CalendarPicker Dialog')
           .margin({ top: 500 })
           .id(this.name + '_02')
           .onClick(() => {
-            console.info("CalendarDialog.show");
+            console.info('CalendarDialog.show');
             CalendarPickerDialog.show({
               start: this.startDate,
               end: this.endDate,

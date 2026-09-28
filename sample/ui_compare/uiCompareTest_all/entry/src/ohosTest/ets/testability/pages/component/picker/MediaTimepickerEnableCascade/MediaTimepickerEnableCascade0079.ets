@@ -67,7 +67,7 @@ struct MediaTimepickerEnableCascade0079 {
 
   build() {
     Column() {
-      Button("modifierPage")
+      Button('modifierPage')
         .margin(20)
         .onClick(() => {
           this.showModifierPage = !this.showModifierPage;
@@ -92,7 +92,7 @@ struct MediaTimepickerEnableCascade0079 {
               console.info('初始化后selectedTime2：' + this.selectedTime2.toString());
             })
 
-          Text("第一个TimePicker")
+          Text('第一个TimePicker')
             .fontSize(16)
             .margin(10)
 
@@ -112,7 +112,7 @@ struct MediaTimepickerEnableCascade0079 {
               console.info('TimePicker1 item enter selected area, time is: ' + JSON.stringify(value));
             })
 
-          Text("第二个TimePicker (enableCascade: false)")
+          Text('第二个TimePicker (enableCascade: false)')
             .fontSize(16)
             .margin(10)
 

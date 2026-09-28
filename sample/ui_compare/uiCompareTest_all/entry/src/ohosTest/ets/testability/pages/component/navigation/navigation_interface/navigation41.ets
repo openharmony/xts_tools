@@ -67,11 +67,11 @@ struct Navigation41 {
       }
       .height('70%')
       .mode(this.mode)
-      .navBarWidth($r("app.string.titleBar_width"))
+      .navBarWidth($r('app.string.titleBar_width'))
       .title(
         {
-          main: "Title",
-          sub: "subTitle"
+          main: 'Title',
+          sub: 'subTitle'
         }
       )
       .menus(this.NavigationMenus)

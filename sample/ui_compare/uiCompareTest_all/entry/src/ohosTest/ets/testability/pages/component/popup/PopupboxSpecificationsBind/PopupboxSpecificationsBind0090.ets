@@ -23,17 +23,17 @@ struct PopupboxSpecificationsBind0090 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "一级菜单项1" })
+      MenuItem({ content: '一级菜单项1' })
         .onClick(() => {
           this.message = 'isShow值: ' + this.isShow
         })
-      MenuItem({ content: "一级菜单项2" })
+      MenuItem({ content: '一级菜单项2' })
         .onClick(() => {
           this.message = 'isShow值: ' + this.isShow
         })
       MenuItem({
-        content: "带二级菜单项",
-        labelInfo: "二级",
+        content: '带二级菜单项',
+        labelInfo: '二级',
         builder: this.SubMenu
       })
         .onClick(() => {
@@ -45,12 +45,12 @@ struct PopupboxSpecificationsBind0090 {
   @Builder
   SubMenu() {
     Menu() {
-      MenuItem({ content: "二级菜单项1" })
+      MenuItem({ content: '二级菜单项1' })
         .onClick(() => {
           this.message = '二级菜单点击，isShow值: ' + this.isShow
           this.isShow = false
         })
-      MenuItem({ content: "二级菜单项2" })
+      MenuItem({ content: '二级菜单项2' })
         .onClick(() => {
           this.message = '二级菜单点击，isShow值: ' + this.isShow
           this.isShow = false
@@ -68,16 +68,16 @@ struct PopupboxSpecificationsBind0090 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0090")
+        .id('message_text_bind_0090')
 
       Button('长按打开菜单')
-        .id("button_bind_0090")
+        .id('button_bind_0090')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindContextMenu(this.MyMenu, ResponseType.LongPress)
 
       Button('显示isShow状态')
-        .id("show_status_bind_0090")
+        .id('show_status_bind_0090')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow

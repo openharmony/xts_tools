@@ -27,7 +27,7 @@ struct DialogActionsheet0010 {
         .margin({ top: 20, bottom: 20 })
 
       Button('显示ActionSheet（不配置message）')
-        .id("show_actionsheet_no_message_0010")
+        .id('show_actionsheet_no_message_0010')
         .fontSize(16)
         .width('80%')
         .height(50)

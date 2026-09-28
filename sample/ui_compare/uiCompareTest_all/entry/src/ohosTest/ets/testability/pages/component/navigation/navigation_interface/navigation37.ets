@@ -73,8 +73,8 @@ struct Navigation31 {
   @State applyModifier: boolean = false;
   @State useStyle1: boolean = true;
   @State commonTile: NavigationCommonTitle = {
-    main: "main",
-    sub: "sub"
+    main: 'main',
+    sub: 'sub'
   }
 
   @Builder
@@ -140,7 +140,7 @@ struct Navigation31 {
       }
       .height('100%')
       .title(
-        { main: "Title", sub: "subTitle" },
+        { main: 'Title', sub: 'subTitle' },
         this.applyModifier ?
           {
             paddingStart: this.paddingStart,

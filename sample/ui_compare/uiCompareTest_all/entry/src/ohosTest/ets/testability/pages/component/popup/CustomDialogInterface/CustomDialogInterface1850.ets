@@ -44,7 +44,7 @@ struct CustomDialogInterface1850 {
     builder: CustomDialog1850(),
     alignment: DialogAlignment.Default,
     openAnimation: {
-      curve: ""
+      curve: ''
     }
   })
 

@@ -18,24 +18,24 @@
 @Component
 struct PopupBoxBack0040 {
   @State isShowAlertDialog: boolean = false
-  @State dismissReason: string = ""
+  @State dismissReason: string = ''
   @State dismissCallbackTriggered: boolean = false
   private richEditorController: RichEditorController = new RichEditorController()
 
   build() {
     Column() {
-      Text("AlertDialog配置onWillDismiss测试")
+      Text('AlertDialog配置onWillDismiss测试')
         .fontSize(20)
         .margin(20)
 
-      Button("AlertDialog2")
-        .id("show_alertdialog_back_0040")
+      Button('AlertDialog2')
+        .id('show_alertdialog_back_0040')
         .margin(20)
         .onClick(() => {
           this.isShowAlertDialog = true
           // 重置状态
           this.dismissCallbackTriggered = false
-          this.dismissReason = ""
+          this.dismissReason = ''
         })
 
       Text(`Dismiss Callback Triggered: ${this.dismissCallbackTriggered}`)
@@ -47,8 +47,8 @@ struct PopupBoxBack0040 {
         .margin(10)
 
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_back_0040")
-        .width("90%")
+        .id('rich_editor_back_0040')
+        .width('90%')
         .height(100)
         .margin(20)
     }
@@ -62,11 +62,11 @@ struct PopupBoxBack0040 {
             dismissDialog.reason === DismissReason.TOUCH_OUTSIDE) {
           // PRESS_BACK和TOUCH_OUTSIDE不触发dismiss回调
           this.dismissCallbackTriggered = false
-          this.dismissReason = dismissDialog.reason === DismissReason.PRESS_BACK ? "PRESS_BACK" : "TOUCH_OUTSIDE"
+          this.dismissReason = dismissDialog.reason === DismissReason.PRESS_BACK ? 'PRESS_BACK' : 'TOUCH_OUTSIDE'
         } else {
           // 其他情况（如点击确认按钮）正常关闭，不触发dismiss回调
           this.dismissCallbackTriggered = false
-          this.dismissReason = "CONFIRM_BUTTON"
+          this.dismissReason = 'CONFIRM_BUTTON'
           this.isShowAlertDialog = false
         }
       }
@@ -76,18 +76,18 @@ struct PopupBoxBack0040 {
   @Builder
   alertDialogBuilder() {
     Column() {
-      Text("警告")
+      Text('警告')
         .fontSize(18)
         .fontWeight(FontWeight.Bold)
         .margin(10)
       
-      Text("这是一个警告弹窗")
+      Text('这是一个警告弹窗')
         .fontSize(14)
         .margin(10)
 
       Row() {
-        Button("确认")
-          .width("40%")
+        Button('确认')
+          .width('40%')
           .margin(10)
           .onClick(() => {
             this.isShowAlertDialog = false

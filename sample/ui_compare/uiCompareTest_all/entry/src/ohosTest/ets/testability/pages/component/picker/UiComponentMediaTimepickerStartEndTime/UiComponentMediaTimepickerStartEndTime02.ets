@@ -160,8 +160,8 @@ struct UiComponentMediaTimepickerStartEndTime02 {
 
             TimePicker({
               selected: this.selectedTime3,
-              start: new Date("invalid"),
-              end: new Date("invalid")
+              start: new Date('invalid'),
+              end: new Date('invalid')
             })
               .useMilitaryTime(false)
               .height(90)
@@ -229,8 +229,8 @@ struct UiComponentMediaTimepickerStartEndTime02 {
                 .onClick(() => {
                   TimePickerDialog.show({
                     selected: this.selectedTime4,
-                    start: new Date("invalid"),
-                    end: new Date("invalid"),
+                    start: new Date('invalid'),
+                    end: new Date('invalid'),
                     useMilitaryTime: false,
                     onAccept: (value: TimePickerResult) => {
                       this.selectedTime4.setHours(value.hour ?? 0, value.minute ?? 0);

@@ -44,7 +44,7 @@ struct CustomDialogInterface1380 {
     builder: CustomDialog1380(),
     alignment: DialogAlignment.Default,
     closeAnimation: {
-      curve: ""
+      curve: ''
     }
   })
 

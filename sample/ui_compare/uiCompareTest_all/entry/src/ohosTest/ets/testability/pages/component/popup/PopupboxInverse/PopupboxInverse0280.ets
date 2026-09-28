@@ -21,15 +21,15 @@ struct PopupboxInverse0280 {
   MyMenu() {
     Menu() {
       MenuItemGroup({ header: '菜单分组' }) {
-        MenuItem({ content: "菜单项1" })
-          .id("menu_item_inverse_0280_1")
-        MenuItem({ content: "菜单项2" })
-          .id("menu_item_inverse_0280_2")
+        MenuItem({ content: '菜单项1' })
+          .id('menu_item_inverse_0280_1')
+        MenuItem({ content: '菜单项2' })
+          .id('menu_item_inverse_0280_2')
           .margin({ top: 20 })
-        MenuItem({ content: "菜单项3" })
-          .id("menu_item_inverse_0280_3")
-        MenuItem({ content: "菜单项4" })
-          .id("menu_item_inverse_0280_4")
+        MenuItem({ content: '菜单项3' })
+          .id('menu_item_inverse_0280_3')
+        MenuItem({ content: '菜单项4' })
+          .id('menu_item_inverse_0280_4')
       }
     }
   }

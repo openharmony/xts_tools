@@ -16,42 +16,42 @@
 @Entry
 @Component
 struct MediaTimepickerEnableCascade0058 {
-  selectedDate: Date = new Date("2010-1-1");
+  selectedDate: Date = new Date('2010-1-1');
 
   build() {
     Column() {
-      Button("DatePickerDialog")
+      Button('DatePickerDialog')
         .margin(20)
         .onClick(() => {
           this.getUIContext().showDatePickerDialog({
-            start: new Date("2000-1-1"),
-            end: new Date("2100-12-31"),
+            start: new Date('2000-1-1'),
+            end: new Date('2100-12-31'),
             selected: this.selectedDate,
             showTime: true,
             useMilitaryTime: false,
-            dateTimeOptions: { hour: "numeric", minute: "2-digit" },
+            dateTimeOptions: { hour: 'numeric', minute: '2-digit' },
             onDateAccept: (value: Date) => {
               // 通过Date的setFullYear方法设置按下确定按钮时的日期，这样当弹窗再次弹出时显示选中的是上一次确定的日期
               this.selectedDate = value;
-              console.info("DatePickerDialog:onDateAccept()" + value.toString());
+              console.info('DatePickerDialog:onDateAccept()' + value.toString());
             },
             onCancel: () => {
-              console.info("DatePickerDialog:onCancel()");
+              console.info('DatePickerDialog:onCancel()');
             },
             onDateChange: (value: Date) => {
-              console.info("DatePickerDialog:onDateChange()" + value.toString());
+              console.info('DatePickerDialog:onDateChange()' + value.toString());
             },
             onDidAppear: () => {
-              console.info("DatePickerDialog:onDidAppear()");
+              console.info('DatePickerDialog:onDidAppear()');
             },
             onDidDisappear: () => {
-              console.info("DatePickerDialog:onDidDisappear()");
+              console.info('DatePickerDialog:onDidDisappear()');
             },
             onWillAppear: () => {
-              console.info("DatePickerDialog:onWillAppear()");
+              console.info('DatePickerDialog:onWillAppear()');
             },
             onWillDisappear: () => {
-              console.info("DatePickerDialog:onWillDisappear()");
+              console.info('DatePickerDialog:onWillDisappear()');
             }
           })
         })

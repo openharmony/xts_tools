@@ -16,31 +16,31 @@
 
 @CustomDialog
 struct CustomDialogExample0090 {
-  @State dismissReason: string = ""
+  @State dismissReason: string = ''
   @State dismissReasonCode: number = -1
   controller: CustomDialogController
 
   build() {
     Column() {
-      Text("自定义弹窗")
+      Text('自定义弹窗')
         .fontSize(18)
         .fontWeight(FontWeight.Bold)
         .margin(10)
       
-      Text("这是一个自定义弹窗")
+      Text('这是一个自定义弹窗')
         .fontSize(14)
         .margin(10)
 
       Row() {
-        Button("Cancel")
-          .width("40%")
+        Button('Cancel')
+          .width('40%')
           .margin(10)
           .onClick(() => {
             this.controller.close()
           })
 
-        Button("Confirm")
-          .width("40%")
+        Button('Confirm')
+          .width('40%')
           .margin(10)
           .onClick(() => {
             this.controller.close()
@@ -59,7 +59,7 @@ struct CustomDialogExample0090 {
 @Component
 struct PopupBoxBack0090 {
   @State isShowCustomDialog: boolean = false
-  @State dismissReason: string = ""
+  @State dismissReason: string = ''
   @State dismissReasonCode: number = -1
   @State dismissCallbackTriggered: boolean = false
   private richEditorController: RichEditorController = new RichEditorController()
@@ -77,38 +77,38 @@ struct PopupBoxBack0090 {
         this.dismissCallbackTriggered = false
         this.dismissReasonCode = dismissDialog.reason
         if (dismissDialog.reason === DismissReason.PRESS_BACK) {
-          this.dismissReason = "PRESS_BACK (0)"
+          this.dismissReason = 'PRESS_BACK (0)'
         } else if (dismissDialog.reason === DismissReason.TOUCH_OUTSIDE) {
-          this.dismissReason = "TOUCH_OUTSIDE (1)"
+          this.dismissReason = 'TOUCH_OUTSIDE (1)'
         }
       } else {
         // 其他情况（如点击按钮）不触发dismiss回调，正常关闭
         this.dismissCallbackTriggered = false
-        this.dismissReason = "BUTTON_CLICK"
+        this.dismissReason = 'BUTTON_CLICK'
       }
     }
   })
 
   build() {
     Column() {
-      Text("CustomDialog点击关闭按钮测试")
+      Text('CustomDialog点击关闭按钮测试')
         .fontSize(20)
         .margin(20)
 
-      Button("CustomDialog2")
-        .id("show_customdialog_back_0090")
+      Button('CustomDialog2')
+        .id('show_customdialog_back_0090')
         .margin(20)
         .onClick(() => {
           this.customDialogController.open()
         })
 
-      Button("Click me")
-        .id("click_me_back_0090")
+      Button('Click me')
+        .id('click_me_back_0090')
         .margin(20)
         .onClick(() => {
           // 重置状态
           this.dismissCallbackTriggered = false
-          this.dismissReason = ""
+          this.dismissReason = ''
           this.dismissReasonCode = -1
           this.customDialogController.open()
         })
@@ -126,8 +126,8 @@ struct PopupBoxBack0090 {
         .margin(10)
 
       RichEditor({ controller: this.richEditorController })
-        .id("rich_editor_back_0090")
-        .width("90%")
+        .id('rich_editor_back_0090')
+        .width('90%')
         .height(100)
         .margin(20)
     }

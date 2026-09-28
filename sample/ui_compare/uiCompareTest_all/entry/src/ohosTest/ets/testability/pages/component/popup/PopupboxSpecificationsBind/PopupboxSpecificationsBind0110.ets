@@ -24,15 +24,15 @@ struct PopupboxSpecificationsBind0110 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
+      MenuItem({ content: '菜单项1' })
         .onClick(() => {
           this.message = '菜单项1点击，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项2" })
+      MenuItem({ content: '菜单项2' })
         .onClick(() => {
           this.message = '菜单项2点击，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项3" })
+      MenuItem({ content: '菜单项3' })
         .onClick(() => {
           this.message = '菜单项3点击，isShow值: ' + this.isShow
         })
@@ -59,28 +59,28 @@ struct PopupboxSpecificationsBind0110 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0110")
+        .id('message_text_bind_0110')
 
       Text('应用状态: ' + this.backgroundStatus)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("background_status_bind_0110")
+        .id('background_status_bind_0110')
 
       Button('点击打开菜单')
-        .id("button_bind_0110")
+        .id('button_bind_0110')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindMenu(this.MyMenu)
 
       Button('显示isShow状态')
-        .id("show_status_bind_0110")
+        .id('show_status_bind_0110')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow
         })
 
       Button('模拟切后台')
-        .id("simulate_background_bind_0110")
+        .id('simulate_background_bind_0110')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {

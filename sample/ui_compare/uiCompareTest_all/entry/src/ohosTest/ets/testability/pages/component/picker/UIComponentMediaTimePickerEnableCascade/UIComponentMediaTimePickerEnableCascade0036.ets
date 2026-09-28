@@ -39,7 +39,7 @@ struct UIComponentMediaTimePickerEnableCascade0036 {
   build() {
     Column() {
 
-      Button("ShowTimePickerDialog")
+      Button('ShowTimePickerDialog')
         .margin(20)
         .id(this.name + '_01')
         .onClick(() => {
@@ -50,7 +50,7 @@ struct UIComponentMediaTimePickerEnableCascade0036 {
             onAccept: (value: TimePickerResult) => {
               if (value.hour != undefined && value.minute != undefined) {
                 this.selectedTime.setHours(value.hour, value.minute);
-                console.info("TimePickerDialog:onAccept()" + JSON.stringify(value));
+                console.info('TimePickerDialog:onAccept()' + JSON.stringify(value));
               }
             }
           });

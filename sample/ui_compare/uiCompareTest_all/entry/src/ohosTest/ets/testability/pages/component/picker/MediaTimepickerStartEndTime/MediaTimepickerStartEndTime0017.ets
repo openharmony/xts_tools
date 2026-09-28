@@ -27,7 +27,7 @@ struct MediaTimepickerStartEndTime0017 {
         start: new Date('2024-12-31T21:00:00'),
         end: new Date('2023-01-01T09:00:00')
       })
-        .dateTimeOptions({ hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false })
+        .dateTimeOptions({ hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false })
         .onChange((value: TimePickerResult) => {
           if (value.hour >= 0) {
             this.selectTime.setHours(value.hour, value.minute, value.second);
@@ -37,7 +37,7 @@ struct MediaTimepickerStartEndTime0017 {
           }
         })
 
-      Button("TimePickerDialog")
+      Button('TimePickerDialog')
         .margin(20)
         .onClick(() => {
           this.getUIContext().showTimePickerDialog({
@@ -50,7 +50,7 @@ struct MediaTimepickerStartEndTime0017 {
               if (value.hour != undefined && value.minute != undefined && value.second != undefined) {
                 this.selectTime.setHours(value.hour, value.minute, value.second);
                 this.selectedTimeText = `${value.hour.toString().padStart(2, '0')}:${value.minute.toString().padStart(2, '0')}:${value.second.toString().padStart(2, '0')}`;
-                console.info("TimePickerDialog:onAccept()" + JSON.stringify(value));
+                console.info('TimePickerDialog:onAccept()' + JSON.stringify(value));
                 console.info('跨日跨年开始时间在结束时间之后，应可选全部24小时');
               }
             }

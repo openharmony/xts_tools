@@ -30,7 +30,7 @@ struct Navigation30 {
             .height(40)
             .margin(20)
             .onClick(() => {
-              this.stack.pushPath({ name: "pageEleven" });
+              this.stack.pushPath({ name: 'pageEleven' });
             })
         }
       }
@@ -56,7 +56,7 @@ declare type voidFunc = () => void;
 struct PageElevenComponent {
   @State name: string = 'pageEleven';
   @State destWidth: string = '100%';
-  @State eventStr: string = "";
+  @State eventStr: string = '';
   stack: NavPathStack = new NavPathStack();
   @State backImg: string = 'resources/base/media/icon.png';
   @State y: string = '0';
@@ -64,14 +64,14 @@ struct PageElevenComponent {
   build() {
     NavDestination() {
       Column() {
-        Text(" pageEleven event: " + this.eventStr)
+        Text(' pageEleven event: ' + this.eventStr)
 
         Button('push next page', { stateEffect: true, type: ButtonType.Capsule })
           .width('80%')
           .height(40)
           .margin(20)
           .onClick(() => {
-            this.stack.pushPath({ name: "PageEleven" });
+            this.stack.pushPath({ name: 'PageEleven' });
           })
       }
       .size({ width: '100%', height: '100%' })
@@ -85,33 +85,33 @@ struct PageElevenComponent {
     })
     .backgroundColor('#F1F3F5')
     .onAppear(() => {
-      this.eventStr += "<onAppear>";
+      this.eventStr += '<onAppear>';
     })
     .onDisAppear(() => {
-      this.eventStr += "<onDisAppear>";
+      this.eventStr += '<onDisAppear>';
     })
     .onShown(() => {
-      this.eventStr += "<onShown>";
+      this.eventStr += '<onShown>';
     })
     .onHidden(() => {
-      this.eventStr += "<onHidden>";
+      this.eventStr += '<onHidden>';
     })
     .onWillAppear(() => {
-      this.eventStr += "<onWillAppear>";
+      this.eventStr += '<onWillAppear>';
     })
     .onWillDisappear(() => {
-      this.eventStr += "<onWillDisappear>";
+      this.eventStr += '<onWillDisappear>';
     })
     .onWillShow(() => {
-      this.eventStr += "<onWillShow>";
+      this.eventStr += '<onWillShow>';
     })
     .onWillHide(() => {
-      this.eventStr += "<onWillHide>";
+      this.eventStr += '<onWillHide>';
     })
     // onReady会在onAppear之前调用
     .onReady((ctx: NavDestinationContext) => {
       try {
-        this.eventStr += "<onReady>";
+        this.eventStr += '<onReady>';
         this.stack = ctx.pathStack;
       } catch (e) {
         console.log(`testTag onReady catch exception: ${JSON.stringify(e)}`);

@@ -51,7 +51,7 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit15 {
           right:1
         })
         .borderWidth(1)
-      Button("setAppPreferredLanguage en")
+      Button('setAppPreferredLanguage en')
         .margin(20)
         .controlSize(ControlSize.NORMAL)
         .id('ArkuiSpecialComponentsDialogCalenDarHabit15_01')
@@ -75,13 +75,13 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit15 {
         .onClick(()=>{
           try {
             i18n.System.setAppPreferredLanguage('en');
-            console.log("setAppPreferredLanguage success")
+            console.log('setAppPreferredLanguage success')
           } catch (error) {
             let err: BusinessError = error as BusinessError;
             console.error(`call System.setAppPreferredLanguage failed, error code: ${err.code}, message: ${err.message}.`);
           }
         })
-      Button("setAppPreferredLanguage zh-Hans")
+      Button('setAppPreferredLanguage zh-Hans')
         .margin(20)
         .controlSize(ControlSize.NORMAL)
         .id('ArkuiSpecialComponentsDialogCalenDarHabit15_02')
@@ -105,7 +105,7 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit15 {
         .onClick(()=>{
           try {
             i18n.System.setAppPreferredLanguage('zh-Hans');
-            console.log("setAppPreferredLanguage success")
+            console.log('setAppPreferredLanguage success')
           } catch (error) {
             let err: BusinessError = error as BusinessError;
             console.error(`call System.setAppPreferredLanguage failed, error code: ${err.code}, message: ${err.message}.`);
@@ -139,7 +139,7 @@ struct ArkuiSpecialComponentsDialogCalenDarHabit15 {
         .margin(10)
         .onChange((value) => {
           this.text = JSON.stringify(value)
-          console.info("CalendarPicker onChange:" + JSON.stringify(value))
+          console.info('CalendarPicker onChange:' + JSON.stringify(value))
         })
     }
     .width('100%')

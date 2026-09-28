@@ -22,27 +22,27 @@ struct PopupboxSmartmultiwindow1450 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
+      MenuItem({ content: '菜单项1' })
         .id('popupbox_smartmultiwindow_1450_menu1')
         .onClick(() => {
           this.message = '点击了菜单项1'
         })
-      MenuItem({ content: "菜单项2" })
+      MenuItem({ content: '菜单项2' })
         .id('popupbox_smartmultiwindow_1450_menu2')
         .onClick(() => {
           this.message = '点击了菜单项2'
         })
-      MenuItem({ content: "菜单项3" })
+      MenuItem({ content: '菜单项3' })
         .id('popupbox_smartmultiwindow_1450_menu3')
         .onClick(() => {
           this.message = '点击了菜单项3'
         })
-      MenuItem({ content: "菜单项4" })
+      MenuItem({ content: '菜单项4' })
         .id('popupbox_smartmultiwindow_1450_menu4')
         .onClick(() => {
           this.message = '点击了菜单项4'
         })
-      MenuItem({ content: "菜单项5" })
+      MenuItem({ content: '菜单项5' })
         .id('popupbox_smartmultiwindow_1450_menu5')
         .onClick(() => {
           this.message = '点击了菜单项5'

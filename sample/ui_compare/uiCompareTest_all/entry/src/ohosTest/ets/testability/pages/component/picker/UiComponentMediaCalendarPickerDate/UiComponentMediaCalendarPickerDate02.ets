@@ -132,7 +132,7 @@ struct UiComponentMediaCalendarPickerDate02 {
               .id('UiComponentMediaCalendarPickerDate02_01')
               .edgeAlign(CalendarAlign.END)
               .textStyle({
-                color: "#ff182431",
+                color: '#ff182431',
                 font: {
                   size: 20,
                   weight: FontWeight.Normal

@@ -24,15 +24,15 @@ struct PopupboxSpecificationsBind0130 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
+      MenuItem({ content: '菜单项1' })
         .onClick(() => {
           this.message = '菜单项1点击，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项2" })
+      MenuItem({ content: '菜单项2' })
         .onClick(() => {
           this.message = '菜单项2点击，isShow值: ' + this.isShow
         })
-      MenuItem({ content: "菜单项3" })
+      MenuItem({ content: '菜单项3' })
         .onClick(() => {
           this.message = '菜单项3点击，isShow值: ' + this.isShow
         })
@@ -49,28 +49,28 @@ struct PopupboxSpecificationsBind0130 {
       Text(this.message)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("message_text_bind_0130")
+        .id('message_text_bind_0130')
 
       Text('手势状态: ' + this.gestureStatus)
         .fontSize(16)
         .margin({ bottom: 20 })
-        .id("gesture_status_bind_0130")
+        .id('gesture_status_bind_0130')
 
       Button('点击打开菜单')
-        .id("button_bind_0130")
+        .id('button_bind_0130')
         .fontSize(16)
         .margin({ bottom: 20 })
         .bindMenu(this.MyMenu)
 
       Button('显示isShow状态')
-        .id("show_status_bind_0130")
+        .id('show_status_bind_0130')
         .fontSize(16)
         .onClick(() => {
           this.message = '当前isShow值: ' + this.isShow
         })
 
       Button('模拟左滑关闭')
-        .id("simulate_swipe_bind_0130")
+        .id('simulate_swipe_bind_0130')
         .fontSize(16)
         .margin({ top: 10 })
         .onClick(() => {
@@ -116,7 +116,7 @@ struct PopupboxSpecificationsBind0130 {
       .borderRadius(8)
       .margin({ top: 20 })
       .justifyContent(FlexAlign.Center)
-      .id("swipe_area_bind_0130")
+      .id('swipe_area_bind_0130')
       .gesture(
         PanGesture({ fingers: 1, direction: PanDirection.Left, distance: 50 })
           .onActionStart(() => {
