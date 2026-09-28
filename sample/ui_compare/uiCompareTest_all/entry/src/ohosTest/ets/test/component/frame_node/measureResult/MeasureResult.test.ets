@@ -50,7 +50,7 @@ export default function measureResultTest() {
      */
     it('SUB_ACE_UI_ABILITY_MEASURERESULT_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_MEASURERESULT_0010 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/measureResult/measureResult")
+      Settings.createWindow('testability/pages/component/frame_node/measureResult/measureResult')
       await Utils.sleep(1000)
       windowSnap.snapShot('SUB_ACE_UI_ABILITY_MEASURERESULT_0010')
       await Utils.sleep(1000)

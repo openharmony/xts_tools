@@ -50,7 +50,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0011', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0011 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder01")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0012', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0012 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder02")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0013', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0013 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder03")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -107,7 +107,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0014', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0014 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder04")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -126,7 +126,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0015', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0015 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder05")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -145,7 +145,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0016', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0016 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder06")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -164,7 +164,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0010 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder07")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder07')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -183,7 +183,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0011', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0011 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder08")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder08')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -202,7 +202,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0012', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0012 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder09")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder09')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -221,7 +221,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0013', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0013 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder10")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder10')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -240,7 +240,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0014', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0014 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder11")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder11')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -259,7 +259,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0015', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0015 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder12")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder12')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -278,7 +278,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0016', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0016 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder13")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder13')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -297,7 +297,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0017', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0017 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder14")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder14')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -316,7 +316,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0018', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0018 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder15")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder15')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -335,7 +335,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0019', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0019 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder16")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder16')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -354,7 +354,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0020 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder17")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder17')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -373,7 +373,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0021', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0021 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder18")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder18')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -392,7 +392,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0022', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0022 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder19")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder19')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -411,7 +411,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0023', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0023 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder20")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder20')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -430,7 +430,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0024', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0024 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder21")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder21')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -449,7 +449,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0025', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0025 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder22")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder22')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -468,7 +468,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0026', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0026 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder23")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder23')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -487,7 +487,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0027', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0027 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder24")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder24')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -506,7 +506,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0028', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0028 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder25")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder25')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -525,7 +525,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0029', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0029 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder26")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder26')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -544,7 +544,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0030 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder27")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder27')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -563,7 +563,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0031', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0031 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder28")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder28')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -582,7 +582,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0032', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0032 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder29")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder29')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -601,7 +601,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0033', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0033 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder30")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder30')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -620,7 +620,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0034', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0034 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder31")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder31')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -639,7 +639,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0035', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0035 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder32")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder32')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -658,7 +658,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0036', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0036 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder33")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder33')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -677,7 +677,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0037', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0037 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder34")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder34')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -696,7 +696,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0038', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0038 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder35")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder35')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -715,7 +715,7 @@ export default function imageBorderTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0039', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0039 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageBorder/imageBorder36")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageBorder/imageBorder36')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

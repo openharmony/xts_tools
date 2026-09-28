@@ -41,18 +41,18 @@ export default function uiComponentNavigationMouse() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0050", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0050', Level.LEVEL3, async (done: Function) => {
       // 步骤1：打开测试页面，创建Navigation组件
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavigationMouse/UiComponentNavigationMouse0050")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavigationMouse/UiComponentNavigationMouse0050')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：点击"切换双栏"按钮，切换到双栏模式
-      let btn_split_column_0050 = await driver.waitForComponent(ON.id("btn_split_column_0050"), 500)
+      let btn_split_column_0050 = await driver.waitForComponent(ON.id('btn_split_column_0050'), 500)
       await btn_split_column_0050.click()
       await Utils.sleep(500)
 
-      let navigation_mouse_0050 = await driver.waitForComponent(ON.id("navigation_mouse_0050"), 500)
+      let navigation_mouse_0050 = await driver.waitForComponent(ON.id('navigation_mouse_0050'), 500)
       await Utils.sleep(500)
 
       // 步骤3：截取初始状态，验证双栏模式显示正常
@@ -89,18 +89,18 @@ export default function uiComponentNavigationMouse() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0020", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0020', Level.LEVEL3, async (done: Function) => {
       // 步骤1：打开测试页面，创建Navigation组件
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavigationMouse/UiComponentNavigationMouse0020")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavigationMouse/UiComponentNavigationMouse0020')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：点击"切换双栏"按钮，切换到双栏模式
-      let btn_split_column_0020 = await driver.waitForComponent(ON.id("btn_split_column_0020"), 500)
+      let btn_split_column_0020 = await driver.waitForComponent(ON.id('btn_split_column_0020'), 500)
       await btn_split_column_0020.click()
       await Utils.sleep(500)
 
-      let navigation_mouse_0020 = await driver.waitForComponent(ON.id("navigation_mouse_0020"), 500)
+      let navigation_mouse_0020 = await driver.waitForComponent(ON.id('navigation_mouse_0020'), 500)
       await Utils.sleep(500)
 
       // 步骤3：获取Navigation组件边界，计算分割线位置
@@ -120,7 +120,7 @@ export default function uiComponentNavigationMouse() {
       await Utils.sleep(1000)
 
       // 步骤6：点击"切换单栏"按钮，切换到单栏模式
-      let btn_single_column_0020 = await driver.waitForComponent(ON.id("btn_single_column_0020"), 500)
+      let btn_single_column_0020 = await driver.waitForComponent(ON.id('btn_single_column_0020'), 500)
       await btn_single_column_0020.click()
       await Utils.sleep(500)
 
@@ -140,18 +140,18 @@ export default function uiComponentNavigationMouse() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0040", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0040', Level.LEVEL3, async (done: Function) => {
       // 步骤1：打开测试页面，创建Navigation组件
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavigationMouse/UiComponentNavigationMouse0040")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavigationMouse/UiComponentNavigationMouse0040')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：点击"切换双栏"按钮，切换到双栏模式
-      let btn_split_column_0040 = await driver.waitForComponent(ON.id("btn_split_column_0040"), 500)
+      let btn_split_column_0040 = await driver.waitForComponent(ON.id('btn_split_column_0040'), 500)
       await btn_split_column_0040.click()
       await Utils.sleep(500)
 
-      let navigation_mouse_0040 = await driver.waitForComponent(ON.id("navigation_mouse_0040"), 500)
+      let navigation_mouse_0040 = await driver.waitForComponent(ON.id('navigation_mouse_0040'), 500)
       await Utils.sleep(500)
 
       // 步骤3：获取Navigation组件边界，计算分割线位置
@@ -196,13 +196,13 @@ export default function uiComponentNavigationMouse() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0090", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0090', Level.LEVEL3, async (done: Function) => {
       // 步骤1：打开测试页面，创建SideBarContainer组件
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavigationMouse/UiComponentNavigationMouse0090")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavigationMouse/UiComponentNavigationMouse0090')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let sidebar_container_mouse_0090 = await driver.waitForComponent(ON.id("sidebar_container_mouse_0090"), 500)
+      let sidebar_container_mouse_0090 = await driver.waitForComponent(ON.id('sidebar_container_mouse_0090'), 500)
       await Utils.sleep(500)
 
       // 步骤2：获取SideBarContainer组件边界，计算分割线位置
@@ -247,13 +247,13 @@ export default function uiComponentNavigationMouse() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0100", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0100', Level.LEVEL3, async (done: Function) => {
       // 步骤1：打开测试页面，创建SideBarContainer组件
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavigationMouse/UiComponentNavigationMouse0100")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavigationMouse/UiComponentNavigationMouse0100')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let sidebar_container_mouse_0100 = await driver.waitForComponent(ON.id("sidebar_container_mouse_0100"), 500)
+      let sidebar_container_mouse_0100 = await driver.waitForComponent(ON.id('sidebar_container_mouse_0100'), 500)
       await Utils.sleep(500)
 
       // 步骤2：获取SideBarContainer组件边界，计算分割线位置

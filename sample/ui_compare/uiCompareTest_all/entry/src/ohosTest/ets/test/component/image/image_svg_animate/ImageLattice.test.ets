@@ -50,7 +50,7 @@ export default function imageLatticeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0016', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0016 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageLattice/imageLattice01")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageLattice/imageLattice01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function imageLatticeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0010 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageLattice/imageLattice02")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageLattice/imageLattice02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function imageLatticeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0011', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0011 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageLattice/imageLattice03")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageLattice/imageLattice03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -107,7 +107,7 @@ export default function imageLatticeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0015', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0015 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageLattice/imageLattice05")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageLattice/imageLattice05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -126,7 +126,7 @@ export default function imageLatticeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0020 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageLattice/imageLattice06")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageLattice/imageLattice06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -145,7 +145,7 @@ export default function imageLatticeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0012', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_LATTICE_0012 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageLattice/imageLattice08")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageLattice/imageLattice08')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()

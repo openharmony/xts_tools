@@ -50,21 +50,21 @@ export default function nodecontainerRender() {
      */
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_0360 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/nodecontainerRender/NodecontainerRender0360")
+      Settings.createWindow('testability/pages/component/frame_node/nodecontainerRender/NodecontainerRender0360')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       // 步骤1：点击renderNode补充按钮
-      let renderNode = await driver.waitForComponent(ON.id("button_render_node_0360"), 2000)
+      let renderNode = await driver.waitForComponent(ON.id('button_render_node_0360'), 2000)
       await renderNode.click()
       await Utils.sleep(500)
       // 步骤2：点击Test++按钮，直至index变为5
-      let textindex = await driver.waitForComponent(ON.id("button_test_plus_0360"), 2000)
+      let textindex = await driver.waitForComponent(ON.id('button_test_plus_0360'), 2000)
       for (let i = 0 ; i < 5 ; i++){
         await textindex.click()
         await Utils.sleep(500)
       }
       // 步骤3：点击getChild按钮
-      let getChild = await driver.waitForComponent(ON.id("button_get_child_0360"), 2000)
+      let getChild = await driver.waitForComponent(ON.id('button_get_child_0360'), 2000)
       await getChild.click()
       await Utils.sleep(500)
       windowSnap.snapShot()

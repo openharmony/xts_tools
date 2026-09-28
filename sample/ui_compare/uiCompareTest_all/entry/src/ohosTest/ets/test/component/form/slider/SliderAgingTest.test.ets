@@ -50,7 +50,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0010 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging01")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -92,7 +92,7 @@ export default function sliderAgingTest() {
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500)
 
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging02")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -125,7 +125,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0030 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging03")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -149,7 +149,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0040 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging04")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -176,7 +176,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0050 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging05")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -199,7 +199,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0060 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging06")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -222,7 +222,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0070 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging07")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -245,7 +245,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0080 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging08")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -268,7 +268,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0090 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging09")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -291,7 +291,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0100 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging10")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -317,7 +317,7 @@ export default function sliderAgingTest() {
       await uiAppearance.setFontScale(1.75);
       await Utils.sleep(500)
 
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging11")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -341,7 +341,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0120 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging12")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging12')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -380,7 +380,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0150 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging13")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -404,7 +404,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0160 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging14")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging14')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -431,7 +431,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0170 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging15")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging15')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -458,7 +458,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0180 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging16")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -481,7 +481,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0190 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging17")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -504,7 +504,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0200 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging18")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging18')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -527,7 +527,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0210 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging19")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging19')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -550,7 +550,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0220 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging20")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging20')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -573,7 +573,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0230 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging21")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging21')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -596,7 +596,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0240 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging22")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging22')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -619,7 +619,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0250 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging23")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging23')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -642,7 +642,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0260 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging24")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging24')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -665,7 +665,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0270 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging25")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging25')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -688,7 +688,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0280 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging26")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging26')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -711,7 +711,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0290 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging27")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging27')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -734,7 +734,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0300 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging28")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging28')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -757,7 +757,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0310 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging29")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging29')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -780,7 +780,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0320 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging30")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging30')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -803,7 +803,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0330 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging31")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging31')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -826,7 +826,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0340 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging32")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging32')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -849,7 +849,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0350 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging33")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging33')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -875,7 +875,7 @@ export default function sliderAgingTest() {
       await uiAppearance.setFontScale(2.0);
       await Utils.sleep(500)
 
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging34")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging34')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -902,7 +902,7 @@ export default function sliderAgingTest() {
       await uiAppearance.setFontScale(3.2);
       await Utils.sleep(500)
 
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging35")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging35')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -926,7 +926,7 @@ export default function sliderAgingTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0380 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/sliderAging36")
+      Settings.createWindow('testability/pages/component/form/slider/sliderAging36')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 

@@ -50,7 +50,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0029', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0029 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails01")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0027', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0027 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails02")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button: Component = await driver.waitForComponent(ON.id('imageThumbNails02'), 1000);
@@ -90,7 +90,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0025', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0025 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails03")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -109,7 +109,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0031', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0031 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails04")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       await Settings.changeWindowOrientation('landScape');
@@ -132,7 +132,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0030 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails05")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -151,7 +151,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0023', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0023 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails06")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails06')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageThumbNails06'), 1000);
       await button.click();
@@ -176,7 +176,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0020 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails07")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails07')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -195,7 +195,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0033', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0033 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails08")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails08')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageThumbNails08'), 1000);
       await button.click();
@@ -228,7 +228,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0028', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0028 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails09")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails09')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -247,7 +247,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0026', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0026 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails10")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails10')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -266,7 +266,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0024', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0024 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails11")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails11')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -285,7 +285,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0032', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0032 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails13")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails13')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageThumbNails13_01'), 1000);
       let button2: Component = await driver.waitForComponent(ON.id('imageThumbNails13_02'), 1000);
@@ -326,7 +326,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0012', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0012 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails15")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails15')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageThumbNails15'), 1000);
       await button.click();
@@ -347,7 +347,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0021', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0021 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails17")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails17')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -366,7 +366,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0011', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0011 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails18")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails18')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -385,7 +385,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0010 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails19")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails19')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -404,7 +404,7 @@ export default function imageThumbNailsTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0022', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0022 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails20")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageThumbNails/imageThumbNails20')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

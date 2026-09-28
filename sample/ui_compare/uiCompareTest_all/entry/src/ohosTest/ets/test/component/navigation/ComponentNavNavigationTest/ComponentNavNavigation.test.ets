@@ -50,7 +50,7 @@ export default function componentNavNavigation() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_001 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation001_002'),1000);
       await Utils.sleep(1000)
@@ -73,7 +73,7 @@ export default function componentNavNavigation() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0541', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0541 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation0541_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation0541_001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation0541_001'),1000);
       await Button1.click();
@@ -95,7 +95,7 @@ export default function componentNavNavigation() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_029', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_029 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation029")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation029')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation029_001'),1000);
       await Button1.click();
@@ -124,7 +124,7 @@ export default function componentNavNavigation() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_007', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_007 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation007")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation007')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation007_001'),1000);
       await Button1.click();
@@ -150,7 +150,7 @@ export default function componentNavNavigation() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_023', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_023 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation023")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation023')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation023_001'),1000);
       await Button1.click();
@@ -176,7 +176,7 @@ export default function componentNavNavigation() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_045', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_045 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation045")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation045')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation045_001'),1000);
       await Button1.click();
@@ -205,7 +205,7 @@ export default function componentNavNavigation() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_043', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_043 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation043")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation043')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation043_001'),1000);
       await Button1.click();
@@ -234,7 +234,7 @@ export default function componentNavNavigation() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_037', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_037 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation037")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation037')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation037_001'),1000);
       await Button1.click();
@@ -266,7 +266,7 @@ export default function componentNavNavigation() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_054', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_054 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation054_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation054_001')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation054_001'),1000);
       await Button1.click();
@@ -292,7 +292,7 @@ export default function componentNavNavigation() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_015', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_015 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation015")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation015')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation015_001'),1000);
       await Button1.click();
@@ -321,7 +321,7 @@ export default function componentNavNavigation() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_019', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_019 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation019")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation019')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigation019_001'),1000);
       await Button1.click();
@@ -347,21 +347,21 @@ export default function componentNavNavigation() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_050', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_050 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation050")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       // 步骤1：上下滑动内容区
-      let swip= await driver.waitForComponent(ON.id("list_content_050"), 2000)
+      let swip= await driver.waitForComponent(ON.id('list_content_050'), 2000)
       await swip.scrollToTop()
       await Utils.sleep(500)
       await swip.scrollToBottom()
       await Utils.sleep(500)
       // 步骤2：点击切换barStyle按钮
-      let barStylebutton= await driver.waitForComponent(ON.id("button_bar_style_050"), 2000)
+      let barStylebutton= await driver.waitForComponent(ON.id('button_bar_style_050'), 2000)
       await barStylebutton.click()
       await Utils.sleep(500)
       // 步骤3：点击切换NavigationTitleMode按钮
-      let NavigationTitleModebutton= await driver.waitForComponent(ON.id("button_title_mode_050"), 2000)
+      let NavigationTitleModebutton= await driver.waitForComponent(ON.id('button_title_mode_050'), 2000)
       await NavigationTitleModebutton.click()
       await Utils.sleep(500)
       windowSnap.snapShot()
@@ -381,16 +381,16 @@ export default function componentNavNavigation() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0501', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0501 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation0501")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation0501')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：上下滑动内容区
-      let swip = await driver.waitForComponent(ON.id("list_content_0501"), 2000)
+      let swip = await driver.waitForComponent(ON.id('list_content_0501'), 2000)
       await swip.scrollToTop()
       await Utils.sleep(500)
       await swip.scrollToBottom()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0501_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0501_01')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0501 finish.`);
       done()
@@ -407,20 +407,20 @@ export default function componentNavNavigation() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0502', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0502 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation0502")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigation/ComponentNavNavigation0502')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：上下滑动内容区
-      let swip = await driver.waitForComponent(ON.id("list_content_0502"), 2000)
+      let swip = await driver.waitForComponent(ON.id('list_content_0502'), 2000)
       await swip.scrollToTop()
       await Utils.sleep(500)
       await swip.scrollToBottom()
       await Utils.sleep(500)
       // 步骤2：点击"barStyle:BarStyle.STACK"按钮
-      let barStyleButton = await driver.waitForComponent(ON.id("button_bar_style_0502"), 2000)
+      let barStyleButton = await driver.waitForComponent(ON.id('button_bar_style_0502'), 2000)
       await barStyleButton.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0502_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0502_01')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0502 finish.`);
       done()

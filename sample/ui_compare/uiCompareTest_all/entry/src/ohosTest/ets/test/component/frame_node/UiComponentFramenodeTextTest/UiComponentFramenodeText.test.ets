@@ -46,14 +46,14 @@ export default function uiComponentFramenodeText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0050", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0050', Level.LEVEL3, async (done: Function) => {
       // 步骤1：打开页面，等待页面加载完成
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFramenodeText/UiComponentFramenodeText0050")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFramenodeText/UiComponentFramenodeText0050')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：查找Marquee组件，验证初始状态
-      let marquee_framenode_text_0050 = await driver.waitForComponent(ON.id("marquee_framenode_text_0050"), 500)
+      let marquee_framenode_text_0050 = await driver.waitForComponent(ON.id('marquee_framenode_text_0050'), 500)
       if (!marquee_framenode_text_0050) {
         Logger.error('TEST', 'Marquee component not found!');
         done();
@@ -63,11 +63,11 @@ export default function uiComponentFramenodeText() {
       await Utils.sleep(500)
 
       // 预期效果1：截图验证初始跑马灯状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0050_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0050_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击按钮修改跑马灯文本内容
-      let button_framenode_text_0050_modify = await driver.waitForComponent(ON.id("button_framenode_text_0050_modify"), 500)
+      let button_framenode_text_0050_modify = await driver.waitForComponent(ON.id('button_framenode_text_0050_modify'), 500)
       if (button_framenode_text_0050_modify) {
         await button_framenode_text_0050_modify.click()
         await Utils.sleep(500)
@@ -77,7 +77,7 @@ export default function uiComponentFramenodeText() {
       await Utils.sleep(1000)
 
       // 预期效果2：截图验证修改文本后跑马灯重置滚动位置并重新启动滚动
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0050_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0050_02')
       await Utils.sleep(1000)
       done();
     })
@@ -90,14 +90,14 @@ export default function uiComponentFramenodeText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0080", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0080', Level.LEVEL3, async (done: Function) => {
       // 步骤1：打开页面，等待页面加载完成
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFramenodeText/UiComponentFramenodeText0080")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFramenodeText/UiComponentFramenodeText0080')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：查找TextArea组件（Normal样式）
-      let textarea_framenode_text_0080_normal = await driver.waitForComponent(ON.id("textarea_framenode_text_0080_normal"), 500)
+      let textarea_framenode_text_0080_normal = await driver.waitForComponent(ON.id('textarea_framenode_text_0080_normal'), 500)
       if (!textarea_framenode_text_0080_normal) {
         Logger.error('TEST', 'TextArea component (Normal) not found!');
         done();
@@ -105,7 +105,7 @@ export default function uiComponentFramenodeText() {
       }
 
       // 步骤3：查找TextArea组件（Italic样式）
-      let textarea_framenode_text_0080_italic = await driver.waitForComponent(ON.id("textarea_framenode_text_0080_italic"), 500)
+      let textarea_framenode_text_0080_italic = await driver.waitForComponent(ON.id('textarea_framenode_text_0080_italic'), 500)
       if (!textarea_framenode_text_0080_italic) {
         Logger.error('TEST', 'TextArea component (Italic) not found!');
         done();
@@ -115,7 +115,7 @@ export default function uiComponentFramenodeText() {
       await Utils.sleep(500)
 
       // 预期效果：截图验证提示文本显示正常，支持正常样式与斜体样式
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0080_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0080_01')
       await Utils.sleep(1000)
       done();
     })
@@ -128,14 +128,14 @@ export default function uiComponentFramenodeText() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0130", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0130', Level.LEVEL3, async (done: Function) => {
       // 步骤1：打开页面，等待页面加载完成
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFramenodeText/UiComponentFramenodeText0130")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFramenodeText/UiComponentFramenodeText0130')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：查找TextArea组件
-      let textarea_framenode_text_0130 = await driver.waitForComponent(ON.id("textarea_framenode_text_0130"), 500)
+      let textarea_framenode_text_0130 = await driver.waitForComponent(ON.id('textarea_framenode_text_0130'), 500)
       if (!textarea_framenode_text_0130) {
         Logger.error('TEST', 'TextArea component not found!');
         done();
@@ -145,14 +145,14 @@ export default function uiComponentFramenodeText() {
       await Utils.sleep(500)
 
       // 步骤3：点击按钮输入12个字符
-      let button_framenode_text_0130_input12 = await driver.waitForComponent(ON.id("button_framenode_text_0130_input12"), 500)
+      let button_framenode_text_0130_input12 = await driver.waitForComponent(ON.id('button_framenode_text_0130_input12'), 500)
       if (button_framenode_text_0130_input12) {
         await button_framenode_text_0130_input12.click()
         await Utils.sleep(500)
       }
 
       // 预期效果：截图验证TextArea组件最多可输入12个字符
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0130_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0130_01')
       await Utils.sleep(1000)
       done();
     })

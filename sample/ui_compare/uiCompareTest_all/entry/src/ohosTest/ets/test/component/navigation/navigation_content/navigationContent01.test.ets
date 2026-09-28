@@ -51,7 +51,7 @@ export default function navigationContent01Test() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_content/navigation01")
+      Settings.createWindow('testability/pages/component/navigation/navigation_content/navigation01')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('changeHideTitleBar01'), 1000);
       await button1.click();
@@ -74,7 +74,7 @@ export default function navigationContent01Test() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0290 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_content/navigation02")
+      Settings.createWindow('testability/pages/component/navigation/navigation_content/navigation02')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('changeHideTitleBar02'), 1000);
       await button1.click();

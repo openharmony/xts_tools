@@ -51,7 +51,7 @@ export default function sliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0120 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/slider01")
+      Settings.createWindow('testability/pages/component/form/slider/slider01')
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
@@ -81,7 +81,7 @@ export default function sliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0140 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/slider02")
+      Settings.createWindow('testability/pages/component/form/slider/slider02')
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
@@ -111,7 +111,7 @@ export default function sliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0170 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/slider03")
+      Settings.createWindow('testability/pages/component/form/slider/slider03')
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
@@ -141,7 +141,7 @@ export default function sliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0150 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/slider04")
+      Settings.createWindow('testability/pages/component/form/slider/slider04')
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
@@ -171,7 +171,7 @@ export default function sliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0110 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/slider05")
+      Settings.createWindow('testability/pages/component/form/slider/slider05')
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
@@ -201,7 +201,7 @@ export default function sliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0200 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/slider06")
+      Settings.createWindow('testability/pages/component/form/slider/slider06')
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
@@ -235,7 +235,7 @@ export default function sliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0160 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/slider07")
+      Settings.createWindow('testability/pages/component/form/slider/slider07')
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
@@ -265,7 +265,7 @@ export default function sliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0180 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/slider08")
+      Settings.createWindow('testability/pages/component/form/slider/slider08')
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
@@ -295,7 +295,7 @@ export default function sliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0190 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/slider09")
+      Settings.createWindow('testability/pages/component/form/slider/slider09')
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现
@@ -333,7 +333,7 @@ export default function sliderKeyboardTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0130 start.`);
-      Settings.createWindow("testability/pages/component/form/slider/slider10")
+      Settings.createWindow('testability/pages/component/form/slider/slider10')
       let driver: Driver = Driver.create();
       
       // 等待Slider组件出现

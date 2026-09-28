@@ -50,7 +50,7 @@ export default function imageRotateTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0032', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0032 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageRotate/imageRotate01")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageRotate/imageRotate01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function imageRotateTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0019', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0019 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageRotate/imageRotate02")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageRotate/imageRotate02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function imageRotateTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0023', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0023 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageRotate/imageRotate03")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageRotate/imageRotate03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       let button: Component = await driver.waitForComponent(ON.id('imageRotate03'), 1000);
@@ -110,7 +110,7 @@ export default function imageRotateTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0021', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0021 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageRotate/imageRotate04")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageRotate/imageRotate04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button: Component = await driver.waitForComponent(ON.id('imageRotate04'), 1000);
@@ -134,7 +134,7 @@ export default function imageRotateTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0028', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0028 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageRotate/imageRotate05")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageRotate/imageRotate05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button: Component = await driver.waitForComponent(ON.id('imageRotate05'), 1000);

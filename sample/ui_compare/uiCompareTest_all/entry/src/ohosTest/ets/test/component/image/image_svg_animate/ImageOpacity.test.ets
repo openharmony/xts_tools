@@ -50,7 +50,7 @@ export default function imageOpacityTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0016', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0016 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOpacity/imageOpacity01")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOpacity/imageOpacity01')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageOpacity01_02'), 1000);
       await button1.click();
@@ -82,7 +82,7 @@ export default function imageOpacityTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0019', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0019 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOpacity/imageOpacity02")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOpacity/imageOpacity02')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageOpacity02_02'), 1000);
       let button2: Component = await driver.waitForComponent(ON.id('imageOpacity02_03'), 1000);
@@ -131,7 +131,7 @@ export default function imageOpacityTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0020 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOpacity/imageOpacity03")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOpacity/imageOpacity03')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageOpacity03_02'), 1000);
       let button2: Component = await driver.waitForComponent(ON.id('imageOpacity03_03'), 1000);
@@ -185,7 +185,7 @@ export default function imageOpacityTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0021', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0021 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOpacity/imageOpacity04")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOpacity/imageOpacity04')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageOpacity04_02'), 1000);
       let button2: Component = await driver.waitForComponent(ON.id('imageOpacity04_03'), 1000);
@@ -234,7 +234,7 @@ export default function imageOpacityTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0023', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0023 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOpacity/imageOpacity05")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOpacity/imageOpacity05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -253,7 +253,7 @@ export default function imageOpacityTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0024', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0024 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOpacity/imageOpacity06")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOpacity/imageOpacity06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

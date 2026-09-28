@@ -50,7 +50,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0260 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0260")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0260')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图
@@ -136,7 +136,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0270 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0270")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0270')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图
@@ -190,7 +190,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0280 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0280")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0280')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图
@@ -240,7 +240,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0290 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0290")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0290')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图
@@ -285,7 +285,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0310 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0310")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0310')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图
@@ -330,7 +330,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0330 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0330")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0330')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图
@@ -406,7 +406,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0340 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0340")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0340')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图(应显示PageDetail1)
@@ -463,7 +463,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0360 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0360")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0360')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图
@@ -501,7 +501,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0410 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0410")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0410')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图
@@ -577,7 +577,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0500 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0500")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0500')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图
@@ -627,7 +627,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0510 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0510")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0510')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图
@@ -689,7 +689,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0520 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0520")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0520')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图
@@ -751,7 +751,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0530 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0530")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0530')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图
@@ -813,7 +813,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0540 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0540")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0540')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图
@@ -875,7 +875,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0550 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0550")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0550')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图
@@ -937,7 +937,7 @@ export default function multiNavigation() {
     it('SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0560 start.`);
       try {
-        Settings.createWindow("testability/pages/component/navigation/multiNavigation/MultiNavigation0560")
+        Settings.createWindow('testability/pages/component/navigation/multiNavigation/MultiNavigation0560')
         let driver: Driver = Driver.create();
         await Utils.sleep(500) // 初始等待
         // 初始状态截图

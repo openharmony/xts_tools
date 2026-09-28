@@ -39,20 +39,20 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0040", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0040', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置stack模式
       // 3、设置navdestination
       // 4、navigation设置height（1000）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0040")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0040')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0040 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0040"), 500)
+      let navigation_autonegotiation_0040 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0040'), 500)
       await Utils.sleep(500)
 
       // 预期效果1：navigation为设置高度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0040_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0040_01')
       await Utils.sleep(1000)
 
       done();
@@ -66,19 +66,19 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0210", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0210', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置split模式
       // 3、navigation设置height（"auto"）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0210")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0210')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0210 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0210"), 500)
+      let navigation_autonegotiation_0210 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0210'), 500)
       await Utils.sleep(500)
 
       // 预期效果1：navigation自适应navbar界面
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0210_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0210_01')
       await Utils.sleep(1000)
 
       done();
@@ -92,25 +92,25 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0190", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0190', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置split模式
       // 3、设置navdestination并设置height ("auto")
       // 4、navigation设置height（500）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0190")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0190')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0190 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0190"), 500)
+      let navigation_autonegotiation_0190 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0190'), 500)
       await Utils.sleep(500)
 
       // 跳转到NavDestination
-      let button_autonegotiation_0190_push = await driver.waitForComponent(ON.id("button_autonegotiation_0190_push"), 500)
+      let button_autonegotiation_0190_push = await driver.waitForComponent(ON.id('button_autonegotiation_0190_push'), 500)
       await button_autonegotiation_0190_push.click()
       await Utils.sleep(500)
 
       // 预期效果1：navdestination自适应当前navdestcontent的内容
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0190_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0190_01')
       await Utils.sleep(1000)
 
       done();
@@ -124,25 +124,25 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0020", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0020', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置stack模式
       // 3、设置navdestination高度为500
       // 4、navigation设置height（"auto"）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0020")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0020')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0020 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0020"), 500)
+      let navigation_autonegotiation_0020 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0020'), 500)
       await Utils.sleep(500)
 
       // 跳转到NavDestination
-      let button_autonegotiation_0020_push = await driver.waitForComponent(ON.id("button_autonegotiation_0020_push"), 500)
+      let button_autonegotiation_0020_push = await driver.waitForComponent(ON.id('button_autonegotiation_0020_push'), 500)
       await button_autonegotiation_0020_push.click()
       await Utils.sleep(500)
 
       // 预期效果1：navigation自适应navdestination高度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0020_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0020_01')
       await Utils.sleep(1000)
 
       done();
@@ -156,34 +156,34 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0070", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0070', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置stack模式
       // 3、设置两个navdestination，分别为height（"auto"）、（500）
       // 4、navigation设置height（"auto"）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0070")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0070')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0070 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0070"), 500)
+      let navigation_autonegotiation_0070 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0070'), 500)
       await Utils.sleep(500)
 
       // 跳转到页面1（高度500）
-      let button_autonegotiation_0070_push1 = await driver.waitForComponent(ON.id("button_autonegotiation_0070_push1"), 500)
+      let button_autonegotiation_0070_push1 = await driver.waitForComponent(ON.id('button_autonegotiation_0070_push1'), 500)
       await button_autonegotiation_0070_push1.click()
       await Utils.sleep(500)
 
       // 预期效果1：切换观察效果-页面1
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0070_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0070_01')
       await Utils.sleep(1000)
 
       // 切换到页面2（高度auto）
-      let button_autonegotiation_0070_switch = await driver.waitForComponent(ON.id("button_autonegotiation_0070_switch"), 500)
+      let button_autonegotiation_0070_switch = await driver.waitForComponent(ON.id('button_autonegotiation_0070_switch'), 500)
       await button_autonegotiation_0070_switch.click()
       await Utils.sleep(500)
 
       // 预期效果2：切换观察效果-页面2
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0070_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0070_02')
       await Utils.sleep(1000)
 
       done();
@@ -197,20 +197,20 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0010", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0010', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置stack模式
       // 3、设置navdestination
       // 4、navigation设置height（"auto"）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0010")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0010')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0010 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0010"), 500)
+      let navigation_autonegotiation_0010 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0010'), 500)
       await Utils.sleep(500)
 
       // 预期效果1：navigation自适应navbar界面
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0010_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0010_01')
       await Utils.sleep(1000)
 
       done();
@@ -224,25 +224,25 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0170", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0170', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置split模式
       // 3、设置navdestination并设置height (500)
       // 4、navigation设置height（1000）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0170")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0170')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0170 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0170"), 500)
+      let navigation_autonegotiation_0170 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0170'), 500)
       await Utils.sleep(500)
 
       // 跳转到NavDestination
-      let button_autonegotiation_0170_push = await driver.waitForComponent(ON.id("button_autonegotiation_0170_push"), 500)
+      let button_autonegotiation_0170_push = await driver.waitForComponent(ON.id('button_autonegotiation_0170_push'), 500)
       await button_autonegotiation_0170_push.click()
       await Utils.sleep(500)
 
       // 预期效果1：组件为设置高度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0170_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0170_01')
       await Utils.sleep(1000)
 
       done();
@@ -256,25 +256,25 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0140", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0140', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置split模式
       // 3、设置navdestination高度小于navbar
       // 4、navigation设置height（"auto"）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0140")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0140')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0140 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0140"), 500)
+      let navigation_autonegotiation_0140 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0140'), 500)
       await Utils.sleep(500)
 
       // 跳转到NavDestination
-      let button_autonegotiation_0140_push = await driver.waitForComponent(ON.id("button_autonegotiation_0140_push"), 500)
+      let button_autonegotiation_0140_push = await driver.waitForComponent(ON.id('button_autonegotiation_0140_push'), 500)
       await button_autonegotiation_0140_push.click()
       await Utils.sleep(500)
 
       // 预期效果1：navigation自适应navbar界面
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0140_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0140_01')
       await Utils.sleep(1000)
 
       done();
@@ -288,25 +288,25 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0120", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0120', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置split模式
       // 3、设置navdestination高度大于navbar
       // 4、navigation设置height（"auto"）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0120")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0120')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0120 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0120"), 500)
+      let navigation_autonegotiation_0120 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0120'), 500)
       await Utils.sleep(500)
 
       // 跳转到NavDestination
-      let button_autonegotiation_0120_push = await driver.waitForComponent(ON.id("button_autonegotiation_0120_push"), 500)
+      let button_autonegotiation_0120_push = await driver.waitForComponent(ON.id('button_autonegotiation_0120_push'), 500)
       await button_autonegotiation_0120_push.click()
       await Utils.sleep(500)
 
       // 预期效果1：navigation自适应navdestination高度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0120_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0120_01')
       await Utils.sleep(1000)
 
       done();
@@ -320,34 +320,34 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0150", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0150', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置split模式
       // 3、设置两个navdestination，分别为height（100）、（500）
       // 4、navigation设置height（"auto"）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0150")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0150')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0150 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0150"), 500)
+      let navigation_autonegotiation_0150 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0150'), 500)
       await Utils.sleep(500)
 
       // 跳转到页面1（高度100）
-      let button_autonegotiation_0150_push1 = await driver.waitForComponent(ON.id("button_autonegotiation_0150_push1"), 500)
+      let button_autonegotiation_0150_push1 = await driver.waitForComponent(ON.id('button_autonegotiation_0150_push1'), 500)
       await button_autonegotiation_0150_push1.click()
       await Utils.sleep(500)
 
       // 预期效果1：切换观察效果-页面1
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0150_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0150_01')
       await Utils.sleep(2000)
 
       // 切换到页面2（高度500）
-      let button_autonegotiation_0150_switch = await driver.waitForComponent(ON.id("button_autonegotiation_0150_switch"), 500)
+      let button_autonegotiation_0150_switch = await driver.waitForComponent(ON.id('button_autonegotiation_0150_switch'), 500)
       await button_autonegotiation_0150_switch.click()
       await Utils.sleep(500)
 
       // 预期效果2：切换观察效果-页面2
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0150_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0150_02')
       await Utils.sleep(1000)
 
       done();
@@ -361,24 +361,24 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0110", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0110', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置split模式
       // 3、设置navdestination
       // 4、navigation设置height（"auto"）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0110")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0110')
       let driver = await Driver.create()
       await Utils.sleep(500)
       // 预期效果1：navigation自适应navbar界面
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0110_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0110_01')
       await Utils.sleep(1000)
 
-      let button_autonegotiation_0110_push = await driver.waitForComponent(ON.id("button_autonegotiation_0110_push"), 500)
+      let button_autonegotiation_0110_push = await driver.waitForComponent(ON.id('button_autonegotiation_0110_push'), 500)
       await Utils.sleep(500)
       await button_autonegotiation_0110_push.click()
 
       // 预期效果2：navidestination设置
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0110_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0110_02')
       await Utils.sleep(1000)
 
       done();
@@ -392,25 +392,25 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0180", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0180', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置split模式
       // 3、设置navdestination并设置height (700)
       // 4、navigation设置height（500）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0180")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0180')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0180 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0180"), 500)
+      let navigation_autonegotiation_0180 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0180'), 500)
       await Utils.sleep(500)
 
       // 跳转到NavDestination
-      let button_autonegotiation_0180_push = await driver.waitForComponent(ON.id("button_autonegotiation_0180_push"), 500)
+      let button_autonegotiation_0180_push = await driver.waitForComponent(ON.id('button_autonegotiation_0180_push'), 500)
       await button_autonegotiation_0180_push.click()
       await Utils.sleep(500)
 
       // 预期效果1：navdestination高度为500
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0180_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0180_01')
       await Utils.sleep(1000)
 
       done();
@@ -424,20 +424,20 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0160", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0160', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置split模式
       // 3、设置navdestination
       // 4、navigation设置height（1000）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0160")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0160')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0160 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0160"), 500)
+      let navigation_autonegotiation_0160 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0160'), 500)
       await Utils.sleep(500)
 
       // 预期效果1：navigation为设置高度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0160_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0160_01')
       await Utils.sleep(1000)
 
       done();
@@ -451,25 +451,25 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0030", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0030', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置stack模式
       // 3、设置navdestination并设置height（"auto"）
       // 4、navigation设置height（"auto"）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0030")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0030')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0030 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0030"), 500)
+      let navigation_autonegotiation_0030 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0030'), 500)
       await Utils.sleep(500)
 
       // 跳转到NavDestination
-      let button_autonegotiation_0030_push = await driver.waitForComponent(ON.id("button_autonegotiation_0030_push"), 500)
+      let button_autonegotiation_0030_push = await driver.waitForComponent(ON.id('button_autonegotiation_0030_push'), 500)
       await button_autonegotiation_0030_push.click()
       await Utils.sleep(500)
 
       // 预期效果1：navdestination自适应当前navdestcontent的内容
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0030_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0030_01')
       await Utils.sleep(1000)
 
       done();
@@ -483,25 +483,25 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0060", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0060', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置stack模式
       // 3、设置navdestination并设置height（"auto"）
       // 4、navigation设置height（1000）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0060")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0060')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0060 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0060"), 500)
+      let navigation_autonegotiation_0060 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0060'), 500)
       await Utils.sleep(500)
 
       // 跳转到NavDestination
-      let button_autonegotiation_0060_push = await driver.waitForComponent(ON.id("button_autonegotiation_0060_push"), 500)
+      let button_autonegotiation_0060_push = await driver.waitForComponent(ON.id('button_autonegotiation_0060_push'), 500)
       await button_autonegotiation_0060_push.click()
       await Utils.sleep(500)
 
       // 预期效果1：navdestination自适应当前navdestcontent的内容
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0060_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0060_01')
       await Utils.sleep(1000)
 
       done();
@@ -515,25 +515,25 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0050", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0050', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置stack模式
       // 3、设置navdestination并设置height（500）
       // 4、navigation设置height（1000）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0050")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0050')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0050 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0050"), 500)
+      let navigation_autonegotiation_0050 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0050'), 500)
       await Utils.sleep(500)
 
       // 跳转到NavDestination
-      let button_autonegotiation_0050_push = await driver.waitForComponent(ON.id("button_autonegotiation_0050_push"), 500)
+      let button_autonegotiation_0050_push = await driver.waitForComponent(ON.id('button_autonegotiation_0050_push'), 500)
       await button_autonegotiation_0050_push.click()
       await Utils.sleep(500)
 
       // 预期效果1：为设置高度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0050_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0050_01')
       await Utils.sleep(1000)
 
       done();
@@ -547,25 +547,25 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0130", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0130', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置split模式
       // 3、设置navdestination并设置height ("auto")
       // 4、navigation设置height（"auto"）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0130")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0130')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0130 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0130"), 500)
+      let navigation_autonegotiation_0130 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0130'), 500)
       await Utils.sleep(500)
 
       // 跳转到NavDestination
-      let button_autonegotiation_0130_push = await driver.waitForComponent(ON.id("button_autonegotiation_0130_push"), 500)
+      let button_autonegotiation_0130_push = await driver.waitForComponent(ON.id('button_autonegotiation_0130_push'), 500)
       await button_autonegotiation_0130_push.click()
       await Utils.sleep(500)
 
       // 预期效果1：navdestination自适应当前navdestcontent的内容，navigation适应navbar和navicontent二者最大高度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0130_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0130_01')
       await Utils.sleep(1000)
 
       done();
@@ -579,25 +579,25 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0100", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0100', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置stack模式
       // 3、设置navdestination且不设置高度
       // 4、navigation不设置高度
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0100")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0100')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0100 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0100"), 500)
+      let navigation_autonegotiation_0100 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0100'), 500)
       await Utils.sleep(500)
 
       // 跳转到NavDestination
-      let button_autonegotiation_0100_push = await driver.waitForComponent(ON.id("button_autonegotiation_0100_push"), 500)
+      let button_autonegotiation_0100_push = await driver.waitForComponent(ON.id('button_autonegotiation_0100_push'), 500)
       await button_autonegotiation_0100_push.click()
       await Utils.sleep(500)
 
       // 预期效果1：navdestination自适应当前navdestcontent的内容
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0100_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0100_01')
       await Utils.sleep(1000)
 
       done();
@@ -611,19 +611,19 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0200", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0200', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置stack模式
       // 3、navigation设置height（"auto"）
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0200")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0200')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0200 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0200"), 500)
+      let navigation_autonegotiation_0200 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0200'), 500)
       await Utils.sleep(500)
 
       // 预期效果1：navigation自适应navbar界面
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0200_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0200_01')
       await Utils.sleep(1000)
 
       done();
@@ -637,20 +637,20 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0080", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0080', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置stack模式
       // 3、设置navdestination
       // 4、navigation不设置高度
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0080")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0080')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0080 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0080"), 500)
+      let navigation_autonegotiation_0080 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0080'), 500)
       await Utils.sleep(500)
 
       // 预期效果1：navigation自适应高度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0080_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0080_01')
       await Utils.sleep(1000)
 
       done();
@@ -664,25 +664,25 @@ export default function uiComponentNavNavigationAutonegotiation() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0090", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0090', Level.LEVEL3, async (done: Function) => {
       // 1、新建ets页面
       // 2、mode设置stack模式
       // 3、设置navdestination并设置height（500）
       // 4、navigation不设置高度
-      Settings.createWindow("testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0090")
+      Settings.createWindow('testability/pages/component/navigation/uiComponentNavNavigationAutonegotiation/UiComponentNavNavigationAutonegotiation0090')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
-      let navigation_autonegotiation_0090 = await driver.waitForComponent(ON.id("navigation_autonegotiation_0090"), 500)
+      let navigation_autonegotiation_0090 = await driver.waitForComponent(ON.id('navigation_autonegotiation_0090'), 500)
       await Utils.sleep(500)
 
       // 跳转到NavDestination
-      let button_autonegotiation_0090_push = await driver.waitForComponent(ON.id("button_autonegotiation_0090_push"), 500)
+      let button_autonegotiation_0090_push = await driver.waitForComponent(ON.id('button_autonegotiation_0090_push'), 500)
       await button_autonegotiation_0090_push.click()
       await Utils.sleep(500)
 
       // 预期效果1：navigation自适应高度
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0090_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0090_01')
       await Utils.sleep(1000)
 
       done();

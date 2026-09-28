@@ -64,7 +64,7 @@ export default function uiComponentBlankLineSelected() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0220 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected01");
+      Settings.createWindow('testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected01');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -83,7 +83,7 @@ export default function uiComponentBlankLineSelected() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0200 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected02");
+      Settings.createWindow('testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected02');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -102,7 +102,7 @@ export default function uiComponentBlankLineSelected() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0210 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected03");
+      Settings.createWindow('testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected03');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -121,13 +121,13 @@ export default function uiComponentBlankLineSelected() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0270 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected04");
+      Settings.createWindow('testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected04');
       let driver: Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0270_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0270_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected04'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0270_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0270_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0270 finish.`);
       done();
@@ -143,19 +143,19 @@ export default function uiComponentBlankLineSelected() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0300 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected05");
+      Settings.createWindow('testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected05');
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected05'),1000);
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected05_area'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected05_input'),1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0300_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0300_01');
       await button01.click();
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0300_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0300_02');
       await driver.waitForIdle(500,2000);
       await button02.click();
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0300_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0300_03');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0300 finish.`);
       done();
@@ -171,7 +171,7 @@ export default function uiComponentBlankLineSelected() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0240 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected06");
+      Settings.createWindow('testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected06');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -190,13 +190,13 @@ export default function uiComponentBlankLineSelected() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0260 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected07");
+      Settings.createWindow('testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected07');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0260_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0260_01');
       let button: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected07'),1000);
       await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0260_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0260_02');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0260 finish.`);
       done();
@@ -212,21 +212,21 @@ export default function uiComponentBlankLineSelected() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected09");
+      Settings.createWindow('testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected09');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370_01');
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected09_area'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected09_input'),1000);
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected09_text'),1000);
       await button03.longClick();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370_02');
       await driver.waitForIdle(500,2000);
       await button01.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370_03');
       await driver.waitForIdle(500,2000);
       await button02.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370_04');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370 finish.`);
       done();
@@ -242,19 +242,19 @@ export default function uiComponentBlankLineSelected() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected10");
+      Settings.createWindow('testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected10');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400_01");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400_01');
       await driver.waitForIdle(500,2000);
       await driver.mouseDrag({x:100, y:170},{x:300, y:250}, 600);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400_02');
       await driver.waitForIdle(500,2000);
       await driver.mouseDrag({x:100, y:400},{x:300, y:500}, 600);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400_03');
       await driver.waitForIdle(500,2000);
       await driver.mouseDrag({x:100, y:570},{x:300, y:650}, 600);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400_04');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400 finish.`);
       done();
@@ -270,7 +270,7 @@ export default function uiComponentBlankLineSelected() {
      */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0180 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected11");
+      Settings.createWindow('testability/pages/component/layout/uiComponentBlankLineSelected/UiComponentBlankLineSelected11');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();

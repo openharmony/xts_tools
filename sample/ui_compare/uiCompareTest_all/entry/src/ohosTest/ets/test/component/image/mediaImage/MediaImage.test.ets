@@ -50,7 +50,7 @@ export default function mediaImageTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0010 start.`);
-      Settings.createWindow("testability/pages/component/image/mediaImage/mediaImage01")
+      Settings.createWindow('testability/pages/component/image/mediaImage/mediaImage01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function mediaImageTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0022', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0022 start.`);
-      Settings.createWindow("testability/pages/component/image/mediaImage/mediaImage02")
+      Settings.createWindow('testability/pages/component/image/mediaImage/mediaImage02')
       let driver:Driver = Driver.create();
       await driver.triggerKey(2049);
       await driver.waitForIdle(200,500);
@@ -97,7 +97,7 @@ export default function mediaImageTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0024', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0024 start.`);
-      Settings.createWindow("testability/pages/component/image/mediaImage/mediaImage03")
+      Settings.createWindow('testability/pages/component/image/mediaImage/mediaImage03')
       let driver:Driver = Driver.create();
       await driver.triggerKey(2049);
       await driver.waitForIdle(200,500);
@@ -125,7 +125,7 @@ export default function mediaImageTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0010 start.`);
-      Settings.createWindow("testability/pages/component/image/mediaImage/mediaImage04")
+      Settings.createWindow('testability/pages/component/image/mediaImage/mediaImage04')
       let driver:Driver = Driver.create();
       await driver.triggerKey(2049);
       await driver.waitForIdle(200,500);
@@ -153,7 +153,7 @@ export default function mediaImageTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0016', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0016 start.`);
-      Settings.createWindow("testability/pages/component/image/mediaImage/mediaImage05")
+      Settings.createWindow('testability/pages/component/image/mediaImage/mediaImage05')
       let driver:Driver = Driver.create();
       await driver.triggerKey(2049);
       await driver.waitForIdle(200,500);
@@ -181,7 +181,7 @@ export default function mediaImageTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FILLCOLOR_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FILLCOLOR_0010 start.`);
-      Settings.createWindow("testability/pages/component/image/mediaImage/mediaImage06")
+      Settings.createWindow('testability/pages/component/image/mediaImage/mediaImage06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

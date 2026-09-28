@@ -52,7 +52,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0010 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable01")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -96,7 +96,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0020 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable02")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -138,7 +138,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0030 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable03")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -180,7 +180,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0040 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable04")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -222,7 +222,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0050 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable05")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -277,7 +277,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0060 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable06")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -321,7 +321,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0070 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable07")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -371,7 +371,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0080 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable08")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -421,7 +421,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0090 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable09")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -471,7 +471,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0100 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable10")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -521,7 +521,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0110 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable11")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -571,7 +571,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0120 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable12")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable12')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -621,7 +621,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0130 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable13")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -671,7 +671,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0140 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable14")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable14')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -721,7 +721,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0150 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable15")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable15')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -771,7 +771,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0160 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable16")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -821,7 +821,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0170 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable17")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -871,7 +871,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0180 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable18")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable18')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -921,7 +921,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0190 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable19")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable19')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -971,7 +971,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0200 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable20")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable20')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1021,7 +1021,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0210 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable21")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable21')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
 
@@ -1074,7 +1074,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0220 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable22")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable22')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1124,7 +1124,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0230 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable23")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable23')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1174,7 +1174,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0240 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable24")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable24')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1224,7 +1224,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0250 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable25")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable25')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1285,7 +1285,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0260 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable26")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable26')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1346,7 +1346,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0270 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable27")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable27')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1407,7 +1407,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0280 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable28")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable28')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1468,7 +1468,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0290 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable29")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable29')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1518,7 +1518,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0300 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable30")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable30')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1568,7 +1568,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0310 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable31")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable31')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1622,7 +1622,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0320 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable32")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable32')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1672,7 +1672,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0330 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable33")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable33')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1728,7 +1728,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0340 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable34")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable34')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1778,7 +1778,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0350 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable35")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable35')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1828,7 +1828,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0360 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable36")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable36')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1878,7 +1878,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0370 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable37")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable37')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1937,7 +1937,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0390 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable39")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable39')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -1991,7 +1991,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0400 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable40")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable40')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -2041,7 +2041,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0410 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable41")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable41')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -2091,7 +2091,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0420 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable42")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable42')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -2141,7 +2141,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0430 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable43")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable43')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -2191,7 +2191,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0440 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable44")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable44')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -2241,7 +2241,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0450 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable45")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable45')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -2293,7 +2293,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0460 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable46")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable46')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -2351,7 +2351,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0470 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable47")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable47')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -2409,7 +2409,7 @@ export default function navigationBindToScrollableTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0480 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navigationBindToScrollable48")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navigationBindToScrollable48')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       

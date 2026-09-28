@@ -50,7 +50,7 @@ export default function stepperInterface01Test() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0160 start.`);
-      Settings.createWindow("testability/pages/component/form/stepper_interface/stepper01")
+      Settings.createWindow('testability/pages/component/form/stepper_interface/stepper01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0160')
@@ -69,7 +69,7 @@ export default function stepperInterface01Test() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0100 start.`);
-      Settings.createWindow("testability/pages/component/form/stepper_interface/stepper02")
+      Settings.createWindow('testability/pages/component/form/stepper_interface/stepper02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0100')
@@ -88,7 +88,7 @@ export default function stepperInterface01Test() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0190 start.`);
-      Settings.createWindow("testability/pages/component/form/stepper_interface/stepper03")
+      Settings.createWindow('testability/pages/component/form/stepper_interface/stepper03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_NAV_STEPPER_INTERFACE_0190')

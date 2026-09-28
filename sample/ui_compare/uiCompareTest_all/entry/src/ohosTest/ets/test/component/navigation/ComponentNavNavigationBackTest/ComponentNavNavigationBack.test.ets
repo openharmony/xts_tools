@@ -50,7 +50,7 @@ export default function componentNavNavigationBack() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0281', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0281 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0281_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0281_001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigationBack0281_002'),1000);
       await Button1.click();
@@ -80,7 +80,7 @@ export default function componentNavNavigationBack() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0282', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0282 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0282_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0282_001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigationBack0282_002'),1000);
       await Button1.click();
@@ -109,7 +109,7 @@ export default function componentNavNavigationBack() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0283', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0283 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0283_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0283_001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigationBack0283_002'),1000);
       await Button1.click();
@@ -138,7 +138,7 @@ export default function componentNavNavigationBack() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0284', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0284 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0284_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0284_001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigationBack0284_002'),1000);
       await Button1.click();
@@ -167,7 +167,7 @@ export default function componentNavNavigationBack() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0291', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0291 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0291_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0291_001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigationBack0291_002'),1000);
       await Button1.click();
@@ -196,7 +196,7 @@ export default function componentNavNavigationBack() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0292', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0292 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0292_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0292_001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigationBack0292_002'),1000);
       await Button1.click();
@@ -225,7 +225,7 @@ export default function componentNavNavigationBack() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0293', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0293 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0293_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0293_001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigationBack0293_002'),1000);
       await Button1.click();
@@ -254,7 +254,7 @@ export default function componentNavNavigationBack() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0294', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0294 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0294_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0294_001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigationBack0294_002'),1000);
       await Button1.click();
@@ -283,7 +283,7 @@ export default function componentNavNavigationBack() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0301', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0301 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0301_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0301_001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigationBack0301_002'),1000);
       await Button1.click();
@@ -312,7 +312,7 @@ export default function componentNavNavigationBack() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0302', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0302 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0302_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0302_001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigationBack0302_002'),1000);
       await Button1.click();
@@ -341,7 +341,7 @@ export default function componentNavNavigationBack() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0303', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0303 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0303_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0303_001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigationBack0303_002'),1000);
       await Button1.click();
@@ -370,7 +370,7 @@ export default function componentNavNavigationBack() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0304', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0304 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0304_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0304_001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigationBack0304_002'),1000);
       await Button1.click();
@@ -400,7 +400,7 @@ export default function componentNavNavigationBack() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0305', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0305 start.`);
-      Settings.createWindow("testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0305_001")
+      Settings.createWindow('testability/pages/component/navigation/componentNavNavigationBack/ComponentNavNavigationBack0305_001')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentNavNavigationBack0305_002'),1000);
       await Button1.click();

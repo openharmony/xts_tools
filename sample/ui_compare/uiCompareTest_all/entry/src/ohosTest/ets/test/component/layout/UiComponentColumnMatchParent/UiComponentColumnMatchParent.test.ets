@@ -64,7 +64,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0250 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent01")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentColumnMatchParent01'),1000);
       windowSnap.snapShot()
@@ -90,7 +90,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0210 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent02")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentColumnMatchParent02'),1000);
       windowSnap.snapShot()
@@ -116,7 +116,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0260 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent03")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentColumnMatchParent03'),1000);
       windowSnap.snapShot()
@@ -142,7 +142,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0240 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent04")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentColumnMatchParent04'),1000);
       windowSnap.snapShot()
@@ -168,7 +168,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0200 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent05")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentColumnMatchParent05'),1000);
       windowSnap.snapShot()
@@ -194,7 +194,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0220 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent06")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent06')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentColumnMatchParent06'),1000);
       windowSnap.snapShot()
@@ -220,7 +220,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0180 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent07")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent07')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentColumnMatchParent07'),1000);
       windowSnap.snapShot()
@@ -246,7 +246,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0270 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent08")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent08')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentColumnMatchParent08'),1000);
       windowSnap.snapShot()
@@ -272,7 +272,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0190 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent09")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent09')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentColumnMatchParent09'),1000);
       windowSnap.snapShot()
@@ -298,7 +298,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0310 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent10")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent10')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -317,7 +317,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0230 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent11")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent11')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentColumnMatchParent11'),1000);
       windowSnap.snapShot()
@@ -343,7 +343,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0320 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent12")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent12')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -362,7 +362,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0300 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent13")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent13')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -381,7 +381,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0710', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0710 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent14")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent14')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -400,7 +400,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0740', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0740 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent15")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent15')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -419,7 +419,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0680', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0680 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent16")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent16')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -438,7 +438,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0760', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0760 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent17")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent17')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -457,7 +457,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0700', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0700 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent18")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent18')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -476,7 +476,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0690', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0690 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent19")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent19')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -495,7 +495,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0720', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0720 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent20")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent20')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -514,7 +514,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0730', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0730 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent21")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent21')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -533,7 +533,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0750', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0750 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent22")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent22')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -552,7 +552,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0770', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0770 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent23")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent23')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -571,7 +571,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0530', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0530 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent24")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent24')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -590,7 +590,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0540', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0540 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent25")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent25')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -609,7 +609,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0550', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0550 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent26")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent26')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -628,7 +628,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0560', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0560 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent27")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent27')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -647,7 +647,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0570', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0570 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent28")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent28')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -666,7 +666,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0600', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0600 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent29")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent29')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -685,7 +685,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0580', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0580 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent30")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent30')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -704,7 +704,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0590', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0590 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent31")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent31')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -723,7 +723,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0610', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0610 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent32")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent32')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -742,7 +742,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0630', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0630 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent33")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent33')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -761,7 +761,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0640', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0640 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent34")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent34')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -780,7 +780,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0650', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0650 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent35")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent35')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -799,7 +799,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0670', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0670 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent36")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent36')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -818,7 +818,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0660', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0660 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent37")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent37')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -837,7 +837,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0620', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0620 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent38")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent38')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -856,7 +856,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0350 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent39")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent39')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -875,7 +875,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0380 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent40")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent40')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -894,7 +894,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0390 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent41")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent41')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -913,7 +913,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0400 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent42")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent42')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -932,7 +932,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0410 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent43")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent43')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -951,7 +951,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0420', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0420 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent44")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent44')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -970,7 +970,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0450', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0450 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent45")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent45')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -989,7 +989,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0500', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0500 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent46")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent46')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1008,7 +1008,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0520', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0520 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent47")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent47')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1027,7 +1027,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0490', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0490 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent48")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent48')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1046,7 +1046,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0370 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent49")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent49')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1065,7 +1065,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0480', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0480 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent50")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent50')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1084,7 +1084,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0470', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0470 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent51")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent51')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1103,7 +1103,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0510', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0510 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent52")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent52')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1122,7 +1122,7 @@ export default function uiComponentColumnMatchParent() {
      */
     it('SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0170 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent53")
+      Settings.createWindow('testability/pages/component/layout/uiComponentColumnMatchParent/UiComponentColumnMatchParent53')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

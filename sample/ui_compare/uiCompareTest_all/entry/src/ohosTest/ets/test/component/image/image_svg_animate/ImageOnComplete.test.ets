@@ -50,7 +50,7 @@ export default function imageOnCompleteTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0015', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0015 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete01")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       let button: Component = await driver.waitForComponent(ON.id('imageModifier01'), 1000);
@@ -71,7 +71,7 @@ export default function imageOnCompleteTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0018', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0018 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete04")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       let button1: Component = await driver.waitForComponent(ON.id('imageOnComplete04_01'), 1000);
@@ -96,7 +96,7 @@ export default function imageOnCompleteTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0019', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0019 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete05")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -119,7 +119,7 @@ export default function imageOnCompleteTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0020 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete06")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -142,7 +142,7 @@ export default function imageOnCompleteTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0024', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0024 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete07")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete07')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -161,7 +161,7 @@ export default function imageOnCompleteTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0016', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0016 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete08")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete08')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -180,7 +180,7 @@ export default function imageOnCompleteTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0031', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0031 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete09")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete09')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       let button1: Component = await driver.waitForComponent(ON.id('imageOnComplete09_01'), 1000);
@@ -205,7 +205,7 @@ export default function imageOnCompleteTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SIZE_0013', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SIZE_0013 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete10")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOnComplete/imageOnComplete10')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()

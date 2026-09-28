@@ -50,7 +50,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0010 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset01")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0012', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0012 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset02")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0013', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0013 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset03")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -107,7 +107,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0014', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0014 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset04")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset04')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageReset04'), 1000);
       await button.click();
@@ -128,7 +128,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0015', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0015 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset05")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset05')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageReset05_01'), 1000);
       await button1.click();
@@ -154,7 +154,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0016', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0016 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset06")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset06')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageReset06'), 1000);
       await button.click();
@@ -175,7 +175,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0017', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0017 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset07")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset07')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageReset07'), 1000);
       await button.click();
@@ -196,7 +196,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0018', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0018 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset08")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset08')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageReset08'), 1000);
       await button.click();
@@ -217,7 +217,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0019', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0019 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset09")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset09')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageReset09'), 1000);
       await button.click();
@@ -238,7 +238,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0020 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset10")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset10')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageReset10_01'), 1000);
       await button1.click();
@@ -264,7 +264,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0021', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0021 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset11")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset11')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageReset11_01'), 1000);
       await button1.click();
@@ -290,7 +290,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0022', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0022 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset12")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset12')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageReset12'), 1000);
       await button.click();
@@ -311,7 +311,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0023', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0023 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset13")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset13')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageReset13_01'), 1000);
       await button1.click();
@@ -337,7 +337,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0024', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0024 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset14")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset14')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageReset14_01'), 1000);
       await button1.click();
@@ -361,7 +361,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0025', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0025 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset15")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset15')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageReset15_01'), 1000);
       await button.click();
@@ -390,7 +390,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0026', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0026 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset16")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset16')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageReset16'), 1000);
       await button.click();
@@ -411,7 +411,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0027', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0027 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset17")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset17')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageReset17_01'), 1000);
       await button1.click();
@@ -435,7 +435,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0028', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0028 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset18")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset18')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageReset18'), 1000);
       await button.click();
@@ -456,7 +456,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0029', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0029 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset19")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset19')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageReset19_01'), 1000);
       await button1.click();
@@ -480,7 +480,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0030 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset20")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset20')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageReset20_01'), 1000);
       await button1.click();
@@ -504,7 +504,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0031', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0031 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset21")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset21')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageReset21_01'), 1000);
       await button1.click();
@@ -528,7 +528,7 @@ export default function imageResetTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0032', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_RESET_0032 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageReset/imageReset22")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageReset/imageReset22')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageReset22'), 1000);
       await button1.click();

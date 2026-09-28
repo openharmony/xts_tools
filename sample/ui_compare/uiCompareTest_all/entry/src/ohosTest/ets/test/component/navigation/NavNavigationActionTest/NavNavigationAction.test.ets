@@ -51,14 +51,14 @@ export default function navNavigationAction() {
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ACTION_800', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ACTION_800 start.`);
       // 步骤1：点击第四个测试页面
-      Settings.createWindow("testability/pages/component/navigation/navNavigationAction/NavNavigationAction800")
+      Settings.createWindow('testability/pages/component/navigation/navNavigationAction/NavNavigationAction800')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：输入字符更改subtitle长度，subtitle字体大小随输入字符增加而缩小，最后以...截断
-      let inputSubtitle = await driver.waitForComponent(ON.id("input_subtitle_800"), 2000)
+      let inputSubtitle = await driver.waitForComponent(ON.id('input_subtitle_800'), 2000)
       // 输入超长文本
       await inputSubtitle.clearText()
-      await inputSubtitle.inputText("HelloWorldTestSubtitleWithVeryLongTextToTriggerEllipsisHelloWorldTestSubtitleWithVeryLongTextToTriggerEllipsisHelloWorldTestSubtitleWithVeryLongTextToTriggerEllipsisHelloWorldTestSubtitleWithVeryLongTextToTriggerEllipsis")
+      await inputSubtitle.inputText('HelloWorldTestSubtitleWithVeryLongTextToTriggerEllipsisHelloWorldTestSubtitleWithVeryLongTextToTriggerEllipsisHelloWorldTestSubtitleWithVeryLongTextToTriggerEllipsisHelloWorldTestSubtitleWithVeryLongTextToTriggerEllipsis')
       await Utils.sleep(500)
       await windowSnap.snapShot()
       await Utils.sleep(1000)

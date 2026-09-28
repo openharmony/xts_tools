@@ -64,7 +64,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0230 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText01")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText01')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText01'),1000);
@@ -86,7 +86,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0540', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0540 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText02")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText02')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText02'),1000);
@@ -108,7 +108,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0450', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0450 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText03")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText03')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText03'),1000);
@@ -130,7 +130,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0460', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0460 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText04")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText04')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText04'),1000);
@@ -152,7 +152,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0530', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0530 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText05")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText05')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText05'),1000);
@@ -174,7 +174,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0510', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0510 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText06")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText06')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText06'),1000);
@@ -197,7 +197,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0070 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText07")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText07')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText07_02'),1000);
@@ -221,7 +221,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0400 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText08")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText08')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText08_02'),1000);
@@ -245,7 +245,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0380 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText09")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText09')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText09_02'),1000);
@@ -269,7 +269,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0150 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText10")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText10')
       let driver:Driver=Driver.create();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText10_01'),1000);
       let button: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText10_02'),1000);
@@ -297,7 +297,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0090 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText11")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText11')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText11_02'),1000);
@@ -321,7 +321,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0340', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0340 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText12")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText12')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText12_02'),1000);
@@ -345,7 +345,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0350 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText13")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText13')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText13_01'),1000);
@@ -375,7 +375,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0310 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText14")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText14')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText14_02'),1000);
@@ -399,7 +399,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0320 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText15")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText15')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText15_02'),1000);
@@ -423,7 +423,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0290 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText16")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText16')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText16_01'),1000);
@@ -451,7 +451,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0370 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText17")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText17')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText17_02'),1000);
@@ -475,7 +475,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0300 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText18")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText18')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText18_02'),1000);
@@ -499,7 +499,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0220 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText19")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText19')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText19_02'),1000);
@@ -527,7 +527,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0240 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText20")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText20')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText20_02'),1000);
@@ -551,7 +551,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0390 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText21")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText21')
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText21_02'),1000);
@@ -575,7 +575,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0140 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText22")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText22')
       let driver:Driver=Driver.create();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText22_01'),1000);
       windowSnap.snapShot();
@@ -600,7 +600,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0110 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText23")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText23')
       let driver:Driver=Driver.create();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText23_01'),1000);
       let button: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText23_02'),1000);
@@ -627,7 +627,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0200 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText24")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText24')
       let driver:Driver=Driver.create();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText24_01'),1000);
       let point = await textarea.getBoundsCenter();
@@ -648,7 +648,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0410 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText25")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText25')
       let driver:Driver=Driver.create();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentFrameNodeText25_01'),1000);
       let point = await textarea.getBoundsCenter();
@@ -669,7 +669,7 @@ export default function uiComponentFrameNodeText() {
      */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0330 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText26")
+      Settings.createWindow('testability/pages/component/frame_node/uiComponentFrameNodeText/UiComponentFrameNodeText26')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

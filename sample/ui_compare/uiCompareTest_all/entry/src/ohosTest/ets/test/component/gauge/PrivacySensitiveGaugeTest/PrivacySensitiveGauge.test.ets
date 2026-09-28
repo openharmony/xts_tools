@@ -51,7 +51,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0040 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0040")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0040_001'),1000);
@@ -83,7 +83,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0100', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0100 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0100")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0100_001'),1000);
@@ -106,7 +106,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0170', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0170 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0170")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0170')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -126,7 +126,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0160', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0160 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0160")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0160')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -146,7 +146,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0060 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0060")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0060_001'),1000);
@@ -169,7 +169,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0110 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0110")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0110_001'),1000);
@@ -193,7 +193,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0150', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0150 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0150")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0150')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0150_001'),1000);
@@ -225,7 +225,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0030 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0030")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -245,7 +245,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0190', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0190 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0190")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0190')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0190_001'),1000);
       await Button1.click();
@@ -267,7 +267,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0070 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0070")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0070')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0070_001'),1000);
       await Button1.click();
@@ -298,7 +298,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0050 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0050")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0050')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0050_001'),1000);
       await Button1.click();
@@ -320,7 +320,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0080 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0080")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0080')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0080_001'),1000);
       await Button1.click();
@@ -342,7 +342,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0120', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0120 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0120")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -362,7 +362,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0090 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0090")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0090')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0090_001'),1000);
       await Button1.click();
@@ -393,7 +393,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0130 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0130")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -413,7 +413,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0200', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0200 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0200")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0200')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0200_001'),1000);
       await Button1.click();
@@ -444,7 +444,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0180 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0180")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0180')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0180_001'),1000);
       await Button1.click();
@@ -475,7 +475,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0230', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0230 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0230")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0230')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0230_001'),1000);
       await Button1.click();
@@ -497,7 +497,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0140', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0140 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0140")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0140')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0140_001'),1000);
       await Button1.click();
@@ -519,7 +519,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0220', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0220 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0220")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0220')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0220_001'),1000);
       await Button1.click();
@@ -550,7 +550,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0210', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0210 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0210")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0210')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0210_001'),1000);
       await Button1.click();
@@ -572,7 +572,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0260', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0260 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0260")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0260')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0260_001'),1000);
       await Button1.click();
@@ -603,7 +603,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0240', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0240 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0240")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0240')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -623,7 +623,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0250', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0250 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0250")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0250')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0250_001'),1000);
       await Button1.click();
@@ -645,7 +645,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0270', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0270 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0270")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0270')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('PrivacySensitiveGauge0270_001'),1000);
       await Button1.click();
@@ -667,7 +667,7 @@ export default function privacySensitiveGauge() {
      */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0020 start.`);
-      Settings.createWindow("testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0020")
+      Settings.createWindow('testability/pages/component/gauge/privacySensitiveGauge/PrivacySensitiveGauge0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

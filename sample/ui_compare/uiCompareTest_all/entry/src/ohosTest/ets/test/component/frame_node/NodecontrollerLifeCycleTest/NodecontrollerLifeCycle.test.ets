@@ -51,12 +51,12 @@ export default function nodecontrollerLifeCycle() {
     it('SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0010 start.`);
       // 1、进入demo
-      Settings.createWindow("testability/pages/component/frame_node/nodecontrollerLifeCycle/NodecontrollerLifeCycle0010")
+      Settings.createWindow('testability/pages/component/frame_node/nodecontrollerLifeCycle/NodecontrollerLifeCycle0010')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找触发按钮
-      let trigger_button_lifecycle_0010 = await driver.waitForComponent(ON.id("trigger_button_lifecycle_0010"), 500)
+      let trigger_button_lifecycle_0010 = await driver.waitForComponent(ON.id('trigger_button_lifecycle_0010'), 500)
 
       // 点击按钮触发NodeContainer上树
       await trigger_button_lifecycle_0010.click()
@@ -81,12 +81,12 @@ export default function nodecontrollerLifeCycle() {
     it('SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0020 start.`);
       // 1、进入demo
-      Settings.createWindow("testability/pages/component/frame_node/nodecontrollerLifeCycle/NodecontrollerLifeCycle0020")
+      Settings.createWindow('testability/pages/component/frame_node/nodecontrollerLifeCycle/NodecontrollerLifeCycle0020')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找触发按钮
-      let trigger_button_lifecycle_0020 = await driver.waitForComponent(ON.id("trigger_button_lifecycle_0020"), 500)
+      let trigger_button_lifecycle_0020 = await driver.waitForComponent(ON.id('trigger_button_lifecycle_0020'), 500)
 
       // 点击按钮触发NodeController绑定
       await trigger_button_lifecycle_0020.click()
@@ -110,17 +110,17 @@ export default function nodecontrollerLifeCycle() {
      */
     it('SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0040 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/nodecontrollerLifeCycle/NodecontrollerLifeCycle0040")
+      Settings.createWindow('testability/pages/component/frame_node/nodecontrollerLifeCycle/NodecontrollerLifeCycle0040')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、点击第一个下树按钮，查看日志
-      let remove_button_lifecycle_0040 = await driver.waitForComponent(ON.id("remove_button_lifecycle_0040"), 500)
+      let remove_button_lifecycle_0040 = await driver.waitForComponent(ON.id('remove_button_lifecycle_0040'), 500)
       await remove_button_lifecycle_0040.click()
       await Utils.sleep(500)
 
       // 2、点击第二个下树按钮，查看日志
-      let remove_text_lifecycle_0040 = await driver.waitForComponent(ON.id("remove_text_lifecycle_0040"), 500)
+      let remove_text_lifecycle_0040 = await driver.waitForComponent(ON.id('remove_text_lifecycle_0040'), 500)
       await remove_text_lifecycle_0040.click()
       await Utils.sleep(500)
 
@@ -142,17 +142,17 @@ export default function nodecontrollerLifeCycle() {
      */
     it('SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0050 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/nodecontrollerLifeCycle/NodecontrollerLifeCycle0050")
+      Settings.createWindow('testability/pages/component/frame_node/nodecontrollerLifeCycle/NodecontrollerLifeCycle0050')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、点击第一个切换绑定按钮，查看日志
-      let toggle_button_lifecycle_0050 = await driver.waitForComponent(ON.id("toggle_button_lifecycle_0050"), 500)
+      let toggle_button_lifecycle_0050 = await driver.waitForComponent(ON.id('toggle_button_lifecycle_0050'), 500)
       await toggle_button_lifecycle_0050.click()
       await Utils.sleep(500)
 
       // 2、点击第二个切换绑定按钮，查看日志
-      let toggle_text_lifecycle_0050 = await driver.waitForComponent(ON.id("toggle_text_lifecycle_0050"), 500)
+      let toggle_text_lifecycle_0050 = await driver.waitForComponent(ON.id('toggle_text_lifecycle_0050'), 500)
       await toggle_text_lifecycle_0050.click()
       await Utils.sleep(500)
 
@@ -175,7 +175,7 @@ export default function nodecontrollerLifeCycle() {
     it('SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_NODECONTROLLER_LIFE_CYCLE_0140 start.`);
       // 1、打开应用
-      Settings.createWindow("testability/pages/component/frame_node/nodecontrollerLifeCycle/NodecontrollerLifeCycle0140")
+      Settings.createWindow('testability/pages/component/frame_node/nodecontrollerLifeCycle/NodecontrollerLifeCycle0140')
       let driver = await Driver.create()
       await Utils.sleep(1000)
 

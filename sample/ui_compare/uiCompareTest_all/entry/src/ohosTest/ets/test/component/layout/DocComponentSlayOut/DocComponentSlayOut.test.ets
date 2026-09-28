@@ -64,7 +64,7 @@ export default function docComponentSlayOut() {
      */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0060 start.`);
-      Settings.createWindow("testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut01")
+      Settings.createWindow('testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -83,7 +83,7 @@ export default function docComponentSlayOut() {
      */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0080 start.`);
-      Settings.createWindow("testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut02")
+      Settings.createWindow('testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut02')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -102,7 +102,7 @@ export default function docComponentSlayOut() {
      */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0090 start.`);
-      Settings.createWindow("testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut03")
+      Settings.createWindow('testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut03')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -121,7 +121,7 @@ export default function docComponentSlayOut() {
      */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0130 start.`);
-      Settings.createWindow("testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut04");
+      Settings.createWindow('testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut04');
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DocComponentSlayOut04_02'),1000);
       windowSnap.snapShot()
@@ -143,7 +143,7 @@ export default function docComponentSlayOut() {
      */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0100 start.`);
-      Settings.createWindow("testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut05");
+      Settings.createWindow('testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut05');
       let driver:Driver=Driver.create();
       let textarea: Component = await driver.waitForComponent(ON.id('DocComponentSlayOut05'),1000);
       windowSnap.snapShot()
@@ -165,7 +165,7 @@ export default function docComponentSlayOut() {
      */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0070 start.`);
-      Settings.createWindow("testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut06");
+      Settings.createWindow('testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut06');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -184,7 +184,7 @@ export default function docComponentSlayOut() {
      */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0140 start.`);
-      Settings.createWindow("testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut07");
+      Settings.createWindow('testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut07');
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       await Utils.sleep(2000)
@@ -204,7 +204,7 @@ export default function docComponentSlayOut() {
      */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0110 start.`);
-      Settings.createWindow("testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut08");
+      Settings.createWindow('testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut08');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -223,7 +223,7 @@ export default function docComponentSlayOut() {
      */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0120 start.`);
-      Settings.createWindow("testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut09");
+      Settings.createWindow('testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut09');
       let driver:Driver=Driver.create();
       await Utils.sleep(2000)
       windowSnap.snapShot()
@@ -242,7 +242,7 @@ export default function docComponentSlayOut() {
      */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0020 start.`);
-      Settings.createWindow("testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut10");
+      Settings.createWindow('testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut10');
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DocComponentSlayOut10'),1000);
       windowSnap.snapShot();
@@ -264,7 +264,7 @@ export default function docComponentSlayOut() {
      */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0010 start.`);
-      Settings.createWindow("testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut11");
+      Settings.createWindow('testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut11');
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('DocComponentSlayOut11_01'),1000);
       let Text: Component = await driver.waitForComponent(ON.id('DocComponentSlayOut11_02'),1000);
@@ -290,7 +290,7 @@ export default function docComponentSlayOut() {
      */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0030 start.`);
-      Settings.createWindow("testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut12");
+      Settings.createWindow('testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut12');
       let driver:Driver=Driver.create();
       windowSnap.snapShot()
       let counter: Component = await driver.waitForComponent(ON.id('DocComponentSlayOut12'),1000);
@@ -313,7 +313,7 @@ export default function docComponentSlayOut() {
      */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0040 start.`);
-      Settings.createWindow("testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut13");
+      Settings.createWindow('testability/pages/component/layout/docComponentSlayOut/DocComponentSlayOut13');
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

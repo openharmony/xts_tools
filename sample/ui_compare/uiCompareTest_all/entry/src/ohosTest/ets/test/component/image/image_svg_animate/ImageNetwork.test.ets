@@ -50,7 +50,7 @@ export default function imageNetworkTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NETWORKPICTURES_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NETWORKPICTURES_0020 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageNetwork/imageNetwork01")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageNetwork/imageNetwork01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function imageNetworkTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_NETWORKPICTURES_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_NETWORKPICTURES_0040 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageNetwork/imageNetwork02")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageNetwork/imageNetwork02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

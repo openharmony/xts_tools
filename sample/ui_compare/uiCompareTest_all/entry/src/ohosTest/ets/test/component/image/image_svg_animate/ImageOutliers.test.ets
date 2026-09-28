@@ -50,7 +50,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0010 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers01")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0011', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0011 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers02")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0012', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0012 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers03")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -107,7 +107,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0013', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0013 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers04")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -126,7 +126,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0014', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0014 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers05")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -145,7 +145,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0015', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0015 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers06")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -164,7 +164,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0016', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0016 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers07")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers07')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -183,7 +183,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0017', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0017 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers08")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers08')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -202,7 +202,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0018', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0018 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers09")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers09')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -221,7 +221,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0019', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0019 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers10")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers10')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -240,7 +240,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0020 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers11")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers11')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -259,7 +259,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0021', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0021 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers12")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers12')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -278,7 +278,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0022', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0022 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers13")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers13')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -297,7 +297,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0023', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0023 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers14")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers14')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -316,7 +316,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0024', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0024 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers15")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers15')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -335,7 +335,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0025', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0025 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers16")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers16')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -354,7 +354,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0026', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0026 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers17")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers17')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -373,7 +373,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0027', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0027 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers18")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers18')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -392,7 +392,7 @@ export default function imageOutliersTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0028', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OUTLIERS_0028 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers19")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageOutliers/imageOutliers19')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

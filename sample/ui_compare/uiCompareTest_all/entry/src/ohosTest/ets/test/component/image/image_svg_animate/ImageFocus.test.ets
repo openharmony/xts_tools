@@ -50,7 +50,7 @@ export default function imageFocusTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0010 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageFocus/imageFocus01")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageFocus/imageFocus01')
       let driver:Driver = Driver.create();
       await driver.triggerKey(2049);
       await driver.waitForIdle(200,500);
@@ -78,7 +78,7 @@ export default function imageFocusTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0015', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0015 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageFocus/imageFocus02")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageFocus/imageFocus02')
       let driver:Driver = Driver.create();
       await driver.triggerKey(2049);
       await driver.waitForIdle(200,500);
@@ -115,7 +115,7 @@ export default function imageFocusTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0018', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0018 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageFocus/imageFocus03")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageFocus/imageFocus03')
       let driver:Driver = Driver.create();
       await driver.triggerKey(2049);
       await driver.waitForIdle(200,500);
@@ -143,7 +143,7 @@ export default function imageFocusTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0021', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0021 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageFocus/imageFocus04")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageFocus/imageFocus04')
       let driver:Driver = Driver.create();
       await driver.triggerKey(2049);
       await driver.waitForIdle(200,500);

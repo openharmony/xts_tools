@@ -64,7 +64,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0090 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption01")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption01_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption01_02'),1000);
@@ -87,7 +87,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0100 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption02")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption02_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption02_02'),1000);
@@ -110,7 +110,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0040 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption03")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption03_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption03_02'),1000);
@@ -133,7 +133,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0050 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption04")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption04_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption04_02'),1000);
@@ -156,7 +156,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0060 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption05")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption05_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption05_02'),1000);
@@ -179,7 +179,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0150 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption06")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption06')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -206,7 +206,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0160 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption07")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption07')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -233,7 +233,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0030 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption08")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption08')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption08_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption08_02'),1000);
@@ -256,7 +256,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0170 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption09")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption09')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption09_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption09_02'),1000);
@@ -283,7 +283,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0180 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption10")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption10')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption10_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption10_02'),1000);
@@ -310,7 +310,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0190 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption11")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption11')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption11_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption11_02'),1000);
@@ -337,7 +337,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0140 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption12")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption12')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption12_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption12_02'),1000);
@@ -364,7 +364,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0220 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption13")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption13')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption13_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption13_02'),1000);
@@ -391,7 +391,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0210 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption14")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption14')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption14_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption14_02'),1000);
@@ -418,7 +418,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0200 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption15")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption15')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption15_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption15_02'),1000);
@@ -445,7 +445,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0120 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption16")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption16')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption16_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption16_02'),1000);
@@ -471,7 +471,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0130 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption17")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption17')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption17_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption17_02'),1000);
@@ -497,7 +497,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0070 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption18")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption18')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption18_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption18_02'),1000);
@@ -520,7 +520,7 @@ export default function uiComponentResourceImageAttachmentOption() {
      */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0080 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption19")
+      Settings.createWindow('testability/pages/component/image/uiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption19')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption19_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentResourceImageAttachmentOption19_02'),1000);

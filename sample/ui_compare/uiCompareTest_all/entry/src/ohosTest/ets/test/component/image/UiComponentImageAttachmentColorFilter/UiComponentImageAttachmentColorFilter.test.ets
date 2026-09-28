@@ -64,7 +64,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter01")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter01_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter01_02'),1000);
@@ -88,7 +88,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0090 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter02")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter02_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter02_02'),1000);
@@ -112,7 +112,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0070 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter03")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter03_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter03_02'),1000);
@@ -136,7 +136,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0060 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter04")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter04_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter04_02'),1000);
@@ -160,7 +160,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0030 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter05")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter05_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter05_02'),1000);
@@ -184,7 +184,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0020 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter06")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter06')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter06_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter06_02'),1000);
@@ -208,7 +208,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0100 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter07")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter07')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter07_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter07_02'),1000);
@@ -235,7 +235,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0110 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter08")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter08')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter08_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter08_02'),1000);
@@ -265,7 +265,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0200 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter09")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter09')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter09_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter09_02'),1000);
@@ -292,7 +292,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0190 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter10")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter10')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter10_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter10_02'),1000);
@@ -319,7 +319,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0180 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter11")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter11')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter11_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter11_02'),1000);
@@ -347,7 +347,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0040 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter12")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter12')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter12_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter12_02'),1000);
@@ -371,7 +371,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0050 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter13")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter13')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter13_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter13_02'),1000);
@@ -396,7 +396,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0120 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter14")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter14')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter14_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter14_02'),1000);
@@ -426,7 +426,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0130 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter15")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter15')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter15_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter15_02'),1000);
@@ -456,7 +456,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0140 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter16")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter16')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter16_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter16_02'),1000);
@@ -486,7 +486,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0150 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter17")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter17')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter17_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter17_02'),1000);
@@ -516,7 +516,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0160 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter18")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter18')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter18_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter18_02'),1000);
@@ -546,7 +546,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0170 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter19")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter19')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter19_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter19_02'),1000);
@@ -576,7 +576,7 @@ export default function uiComponentImageAttachmentColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0220 start.`);
-      Settings.createWindow("testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter21")
+      Settings.createWindow('testability/pages/component/image/uiComponentImageAttachmentColorFilter/UiComponentImageAttachmentColorFilter21')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentImageAttachmentColorFilter21_01'),1000);
       windowSnap.snapShot()

@@ -64,22 +64,22 @@ export default function uiComponentArrowKey() {
      */
     it('SUB_ACE_UI_COMPONENT_ARROW_KEY_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0030 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentArrowKey/UiComponentArrowKey01")
+      Settings.createWindow('testability/pages/component/layout/uiComponentArrowKey/UiComponentArrowKey01')
       let driver:Driver=Driver.create();
       let textinput: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey01_01'),1000)
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey01_02'),1000)
       let search: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey01_03'),1000)
       await textinput.inputText('hello')
       await driver.triggerKey(2012)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0030_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0030_01')
       await driver.waitForIdle(500,2000);
       await textarea.inputText('hello')
       await driver.triggerKey(2012)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0030_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0030_02')
       await driver.waitForIdle(500,2000);
       await search.inputText('hello')
       await driver.triggerKey(2012)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0030_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0030_03')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0030 finish.`);
       done()
@@ -95,22 +95,22 @@ export default function uiComponentArrowKey() {
      */
     it('SUB_ACE_UI_COMPONENT_ARROW_KEY_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0040 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentArrowKey/UiComponentArrowKey02")
+      Settings.createWindow('testability/pages/component/layout/uiComponentArrowKey/UiComponentArrowKey02')
       let driver:Driver=Driver.create();
       let textinput: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey02_01'),1000)
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey02_02'),1000)
       let search: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey02_03'),1000)
       await textinput.inputText('hello')
       await driver.triggerKey(2013)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0040_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0040_01')
       await driver.waitForIdle(500,2000);
       await textarea.inputText('hello')
       await driver.triggerKey(2013)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0040_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0040_02')
       await driver.waitForIdle(500,2000);
       await search.inputText('hello')
       await driver.triggerKey(2013)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0040_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0040_03')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0040 finish.`);
       done()
@@ -126,22 +126,22 @@ export default function uiComponentArrowKey() {
      */
     it('SUB_ACE_UI_COMPONENT_ARROW_KEY_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0010 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentArrowKey/UiComponentArrowKey03")
+      Settings.createWindow('testability/pages/component/layout/uiComponentArrowKey/UiComponentArrowKey03')
       let driver:Driver=Driver.create();
       let textinput: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey03_01'),1000)
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey03_02'),1000)
       let search: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey03_03'),1000)
       await textinput.inputText('hello')
       await driver.triggerKey(2081)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0010_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0010_01')
       await driver.waitForIdle(500,2000);
       await textarea.inputText('hello')
       await driver.triggerKey(2081)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0010_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0010_02')
       await driver.waitForIdle(500,2000);
       await search.inputText('hello')
       await driver.triggerKey(2081)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0010_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0010_03')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0010 finish.`);
       done()
@@ -157,22 +157,22 @@ export default function uiComponentArrowKey() {
      */
     it('SUB_ACE_UI_COMPONENT_ARROW_KEY_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0020 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentArrowKey/UiComponentArrowKey04")
+      Settings.createWindow('testability/pages/component/layout/uiComponentArrowKey/UiComponentArrowKey04')
       let driver:Driver=Driver.create();
       let textinput: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey04_01'),1000)
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey04_02'),1000)
       let search: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey04_03'),1000)
       await textinput.inputText('hello')
       await driver.triggerKey(2082)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0020_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0020_01')
       await driver.waitForIdle(500,2000);
       await textarea.inputText('hello')
       await driver.triggerKey(2082)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0020_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0020_02')
       await driver.waitForIdle(500,2000);
       await search.inputText('hello')
       await driver.triggerKey(2082)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0020_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0020_03')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0020 finish.`);
       done()
@@ -188,23 +188,23 @@ export default function uiComponentArrowKey() {
      */
     it('SUB_ACE_UI_COMPONENT_ARROW_KEY_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0050 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentArrowKey/UiComponentArrowKey05")
+      Settings.createWindow('testability/pages/component/layout/uiComponentArrowKey/UiComponentArrowKey05')
       let driver:Driver=Driver.create();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey05_01'),1000)
       await textarea.click()
       await driver.triggerKey(2081)
       await Utils.sleep(500)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0050_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0050_01')
       await driver.triggerKey(2082)
       await Utils.sleep(500)
 
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0050_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0050_02')
       await driver.triggerKey(2012)
       await driver.waitForIdle(500,2000)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0050_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0050_03')
       await driver.triggerKey(2013)
       await driver.waitForIdle(500,2000)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0050_04")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0050_04')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0020 finish.`);
       done()
@@ -220,7 +220,7 @@ export default function uiComponentArrowKey() {
      */
     it('SUB_ACE_UI_COMPONENT_ARROW_KEY_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0110 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentArrowKey/UiComponentArrowKey06")
+      Settings.createWindow('testability/pages/component/layout/uiComponentArrowKey/UiComponentArrowKey06')
       let driver:Driver=Driver.create();
       let textinput: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey06_01'),1000)
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey06_02'),1000)
@@ -230,21 +230,21 @@ export default function uiComponentArrowKey() {
       await driver.triggerKey(2013)
       await driver.triggerKey(2081)
       await driver.triggerKey(2082)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0110_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0110_01')
       await driver.waitForIdle(500,2000);
       await textarea.inputText('hello')
       await driver.triggerKey(2012)
       await driver.triggerKey(2013)
       await driver.triggerKey(2082)
       await driver.triggerKey(2081)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0110_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0110_02')
       await driver.waitForIdle(500,2000);
       await search.inputText('hello')
       await driver.triggerKey(2013)
       await driver.triggerKey(2082)
       await driver.triggerKey(2081)
       await driver.triggerKey(2012)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0110_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0110_03')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0110 finish.`);
       done()
@@ -260,7 +260,7 @@ export default function uiComponentArrowKey() {
      */
     it('SUB_ACE_UI_COMPONENT_ARROW_KEY_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0080 start.`);
-      Settings.createWindow("testability/pages/component/layout/uiComponentArrowKey/UiComponentArrowKey07")
+      Settings.createWindow('testability/pages/component/layout/uiComponentArrowKey/UiComponentArrowKey07')
       let driver:Driver=Driver.create();
       let textinput: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey07_01'),500)
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentArrowKey07_02'),500)
@@ -270,15 +270,15 @@ export default function uiComponentArrowKey() {
       await driver.triggerKey(2013)
       await driver.triggerKey(2081)
       await driver.triggerKey(2082)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0080_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0080_01')
       await textarea.inputText('12')
       await driver.waitForIdle(500,2000)
       await driver.triggerKey(2082)
       await driver.triggerKey(2081)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0080_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0080_02')
       await search.inputText('12')
       await driver.triggerKey(2013)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ARROW_KEY_0080_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ARROW_KEY_0080_03')
       await Utils.sleep(500)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ARROW_KEY_0080 finish.`);
       done()

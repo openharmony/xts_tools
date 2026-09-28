@@ -50,7 +50,7 @@ export default function imageModifierTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0020 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageModifier/imageModifier01")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageModifier/imageModifier01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function imageModifierTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0023', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0023 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageModifier/imageModifier02")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageModifier/imageModifier02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function imageModifierTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0032', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0032 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageModifier/imageModifier03")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageModifier/imageModifier03')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageModifier04'), 1000);
       await button.click();
@@ -117,7 +117,7 @@ export default function imageModifierTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0033', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0033 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageModifier/imageModifier04")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageModifier/imageModifier04')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageModifier04'), 1000);
       await button.click();
@@ -146,7 +146,7 @@ export default function imageModifierTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0034', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0034 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageModifier/imageModifier05")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageModifier/imageModifier05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -166,7 +166,7 @@ export default function imageModifierTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0035', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0035 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageModifier/imageModifier06")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageModifier/imageModifier06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -186,7 +186,7 @@ export default function imageModifierTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0036', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0036 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageModifier/imageModifier07")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageModifier/imageModifier07')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -205,7 +205,7 @@ export default function imageModifierTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0037', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0037 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageModifier/imageModifier08")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageModifier/imageModifier08')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -224,7 +224,7 @@ export default function imageModifierTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0051', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0051 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageModifier/imageModifier09")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageModifier/imageModifier09')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageModifier09'), 1000);
       await button.click();
@@ -253,7 +253,7 @@ export default function imageModifierTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0054', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MODIFIER_0054 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageModifier/imageModifier10")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageModifier/imageModifier10')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('imageModifier10'), 1000);
       await button.click();

@@ -50,7 +50,7 @@ export default function mediaGaugeWatches() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0012', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0012 start.`);
-      Settings.createWindow("testability/pages/component/gauge/mediaGaugeWatches/MediaGaugeWatches0012")
+      Settings.createWindow('testability/pages/component/gauge/mediaGaugeWatches/MediaGaugeWatches0012')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000,2000)
       windowSnap.snapShot()
@@ -70,7 +70,7 @@ export default function mediaGaugeWatches() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0016 start.`);
-      Settings.createWindow("testability/pages/component/gauge/mediaGaugeWatches/MediaGaugeWatches0016")
+      Settings.createWindow('testability/pages/component/gauge/mediaGaugeWatches/MediaGaugeWatches0016')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000,2000)
       windowSnap.snapShot()
@@ -90,7 +90,7 @@ export default function mediaGaugeWatches() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0011', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0011 start.`);
-      Settings.createWindow("testability/pages/component/gauge/mediaGaugeWatches/MediaGaugeWatches0011")
+      Settings.createWindow('testability/pages/component/gauge/mediaGaugeWatches/MediaGaugeWatches0011')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000,2000)
       windowSnap.snapShot()
@@ -110,7 +110,7 @@ export default function mediaGaugeWatches() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0010 start.`);
-      Settings.createWindow("testability/pages/component/gauge/mediaGaugeWatches/MediaGaugeWatches0010")
+      Settings.createWindow('testability/pages/component/gauge/mediaGaugeWatches/MediaGaugeWatches0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000,2000)
       windowSnap.snapShot()
@@ -130,7 +130,7 @@ export default function mediaGaugeWatches() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0013', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0013 start.`);
-      Settings.createWindow("testability/pages/component/gauge/mediaGaugeWatches/MediaGaugeWatches0013")
+      Settings.createWindow('testability/pages/component/gauge/mediaGaugeWatches/MediaGaugeWatches0013')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000,2000)
       windowSnap.snapShot()
@@ -150,7 +150,7 @@ export default function mediaGaugeWatches() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0014', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0014 start.`);
-      Settings.createWindow("testability/pages/component/gauge/mediaGaugeWatches/MediaGaugeWatches0014")
+      Settings.createWindow('testability/pages/component/gauge/mediaGaugeWatches/MediaGaugeWatches0014')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000,2000)
       windowSnap.snapShot()
@@ -170,7 +170,7 @@ export default function mediaGaugeWatches() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_GAUGE_WATCHES_0015 start.`);
-      Settings.createWindow("testability/pages/component/gauge/mediaGaugeWatches/MediaGaugeWatches0015")
+      Settings.createWindow('testability/pages/component/gauge/mediaGaugeWatches/MediaGaugeWatches0015')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000,2000)
       windowSnap.snapShot()

@@ -50,7 +50,7 @@ export default function imageObjectFitTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0017', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0017 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageObjectFit/imageObjectFit01")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageObjectFit/imageObjectFit01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0017_01')
@@ -94,7 +94,7 @@ export default function imageObjectFitTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0020 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageObjectFit/imageObjectFit02")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageObjectFit/imageObjectFit02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -113,7 +113,7 @@ export default function imageObjectFitTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0015', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0015 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageObjectFit/imageObjectFit03")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageObjectFit/imageObjectFit03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot()
@@ -132,7 +132,7 @@ export default function imageObjectFitTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0016', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0016 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageObjectFit/imageObjectFit04")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageObjectFit/imageObjectFit04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0016_01')
@@ -186,7 +186,7 @@ export default function imageObjectFitTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0018', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0018 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageObjectFit/imageObjectFit05")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageObjectFit/imageObjectFit05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0018_01')

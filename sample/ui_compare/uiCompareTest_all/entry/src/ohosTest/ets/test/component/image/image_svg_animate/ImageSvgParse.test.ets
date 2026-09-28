@@ -50,7 +50,7 @@ export default function imageSvgParseTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0030 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageParse/imageParse01")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageParse/imageParse01')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageParse01_01'), 1000);
       await button1.click();
@@ -76,7 +76,7 @@ export default function imageSvgParseTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0040 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageParse/imageParse02")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageParse/imageParse02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -95,7 +95,7 @@ export default function imageSvgParseTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0050 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageParse/imageParse03")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageParse/imageParse03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -114,7 +114,7 @@ export default function imageSvgParseTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0060 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageParse/imageParse04")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageParse/imageParse04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -133,7 +133,7 @@ export default function imageSvgParseTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0070 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageParse/imageParse05")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageParse/imageParse05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -152,7 +152,7 @@ export default function imageSvgParseTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0080 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageParse/imageParse06")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageParse/imageParse06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -171,7 +171,7 @@ export default function imageSvgParseTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0090 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageParse/imageParse07")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageParse/imageParse07')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -190,7 +190,7 @@ export default function imageSvgParseTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGPARSE_0110 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageParse/imageParse08")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageParse/imageParse08')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

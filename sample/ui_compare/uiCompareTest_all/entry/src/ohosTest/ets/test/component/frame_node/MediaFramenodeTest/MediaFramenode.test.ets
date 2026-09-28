@@ -54,7 +54,7 @@ export default function mediaFramenode() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0021', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0021 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/mediaFramenode/MediaFramenode21")
+      Settings.createWindow('testability/pages/component/frame_node/mediaFramenode/MediaFramenode21')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0021 finish.`);
@@ -71,7 +71,7 @@ export default function mediaFramenode() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0010 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/mediaFramenode/MediaFramenode10")
+      Settings.createWindow('testability/pages/component/frame_node/mediaFramenode/MediaFramenode10')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0010 finish.`);
@@ -88,7 +88,7 @@ export default function mediaFramenode() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0027', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0027 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/mediaFramenode/MediaFramenode27")
+      Settings.createWindow('testability/pages/component/frame_node/mediaFramenode/MediaFramenode27')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0027 finish.`);
@@ -105,7 +105,7 @@ export default function mediaFramenode() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0025', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0025 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/mediaFramenode/MediaFramenode25")
+      Settings.createWindow('testability/pages/component/frame_node/mediaFramenode/MediaFramenode25')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0025 finish.`);
@@ -122,7 +122,7 @@ export default function mediaFramenode() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0023', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0023 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/mediaFramenode/MediaFramenode23")
+      Settings.createWindow('testability/pages/component/frame_node/mediaFramenode/MediaFramenode23')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0023 finish.`);
@@ -139,7 +139,7 @@ export default function mediaFramenode() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0018', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0018 start.`);
-      Settings.createWindow("testability/pages/component/frame_node/mediaFramenode/MediaFramenode18")
+      Settings.createWindow('testability/pages/component/frame_node/mediaFramenode/MediaFramenode18')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0018 finish.`);

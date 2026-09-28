@@ -50,7 +50,7 @@ export default function imageRadiusTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0010 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageRadius/imageRadius01")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageRadius/imageRadius01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function imageRadiusTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0011', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0011 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageRadius/imageRadius02")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageRadius/imageRadius02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function imageRadiusTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0012', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0012 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageRadius/imageRadius03")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageRadius/imageRadius03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -107,7 +107,7 @@ export default function imageRadiusTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0013', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0013 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageRadius/imageRadius04")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageRadius/imageRadius04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -126,7 +126,7 @@ export default function imageRadiusTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0014', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0014 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageRadius/imageRadius05")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageRadius/imageRadius05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -145,7 +145,7 @@ export default function imageRadiusTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0015', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0015 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageRadius/imageRadius06")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageRadius/imageRadius06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -164,7 +164,7 @@ export default function imageRadiusTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FILLCOLOR_0011', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FILLCOLOR_0011 start.`);
-      Settings.createWindow("testability/pages/component/image/image_svg_animate/imageRadius/imageRadius07")
+      Settings.createWindow('testability/pages/component/image/image_svg_animate/imageRadius/imageRadius07')
       let driver:Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('imageRadius07_01'), 1000);
       await button1.click();

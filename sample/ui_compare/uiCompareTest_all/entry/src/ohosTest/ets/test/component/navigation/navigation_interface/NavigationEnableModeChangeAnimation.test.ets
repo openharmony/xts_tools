@@ -51,7 +51,7 @@ export default function navigationEnableModeChangeAnimationTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0010 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation01")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -110,7 +110,7 @@ export default function navigationEnableModeChangeAnimationTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0020 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation02")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -169,7 +169,7 @@ export default function navigationEnableModeChangeAnimationTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0030 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation03")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -219,7 +219,7 @@ export default function navigationEnableModeChangeAnimationTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0040 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation04")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -263,7 +263,7 @@ export default function navigationEnableModeChangeAnimationTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0050 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation05")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -320,7 +320,7 @@ export default function navigationEnableModeChangeAnimationTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0060 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation06")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -371,7 +371,7 @@ export default function navigationEnableModeChangeAnimationTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0070 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation07")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -415,7 +415,7 @@ export default function navigationEnableModeChangeAnimationTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0080 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation08")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -454,7 +454,7 @@ export default function navigationEnableModeChangeAnimationTest() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0090 start.`);
-      Settings.createWindow("testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation09")
+      Settings.createWindow('testability/pages/component/navigation/navigation_interface/navEnableModeChangeAnimation09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       

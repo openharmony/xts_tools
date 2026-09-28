@@ -50,7 +50,7 @@ export default function infomationGaugeEffect() {
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_EFFECT_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_EFFECT_0090 start.`);
-      Settings.createWindow("testability/pages/component/gauge/infomationGaugeEffect/InfomationGaugeEffect0090")
+      Settings.createWindow('testability/pages/component/gauge/infomationGaugeEffect/InfomationGaugeEffect0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
       windowSnap.snapShot()
