@@ -49,10 +49,10 @@ export default function uIComponentListInterfaceTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListInterface/UIComponentListInterface001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListInterface/UIComponentListInterface001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -69,10 +69,10 @@ export default function uIComponentListInterfaceTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListInterface/UIComponentListInterface002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListInterface/UIComponentListInterface002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

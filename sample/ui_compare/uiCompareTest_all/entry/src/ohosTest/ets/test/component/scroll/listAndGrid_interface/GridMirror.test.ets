@@ -49,7 +49,7 @@ export default function gridMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0520 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/gridMirror0520")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/gridMirror0520')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0520_01');

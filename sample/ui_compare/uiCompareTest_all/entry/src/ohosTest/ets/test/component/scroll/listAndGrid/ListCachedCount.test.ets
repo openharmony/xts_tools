@@ -48,7 +48,7 @@ export default function listCachedCountTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_0030 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listCachedCount03")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listCachedCount03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -76,7 +76,7 @@ export default function listCachedCountTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_0040 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listCachedCount04")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listCachedCount04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -103,7 +103,7 @@ export default function listCachedCountTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0040 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listCachedCountShow04")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listCachedCountShow04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -133,7 +133,7 @@ export default function listCachedCountTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0050 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listCachedCountShow05")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listCachedCountShow05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -163,7 +163,7 @@ export default function listCachedCountTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0060 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listCachedCountShow06")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listCachedCountShow06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 

@@ -68,7 +68,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0010';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0010";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -90,7 +90,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0020';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0020";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -112,7 +112,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0030';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0030";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -134,7 +134,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0040';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0040";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -156,7 +156,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0050';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0050";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0050';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -178,7 +178,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0060';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0060";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0060';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -200,7 +200,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0070';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0070";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0070';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -222,7 +222,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0080';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0080";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0080';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -244,7 +244,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0090';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0090";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0090';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -266,7 +266,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0100';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0100";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0100';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -288,7 +288,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0110';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0110";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0110';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -310,7 +310,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0120';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0120";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0120';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -334,7 +334,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0130';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0130";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -356,7 +356,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0140';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0140";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0140';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -378,7 +378,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0150';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0150";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0150';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -400,7 +400,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0160';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0160";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0160';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -422,7 +422,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0170';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0170";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0170';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -444,7 +444,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0180';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0180";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0180';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -466,7 +466,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0190';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0190";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0190';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -488,7 +488,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0200';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0200";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0200';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -510,7 +510,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0210';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0210";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0210';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -532,7 +532,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0220';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0220";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0220';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -554,7 +554,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0230';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0230";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0230';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -576,7 +576,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0240';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0240";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0240';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -600,7 +600,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0250';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0250";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0250';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -627,7 +627,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0260';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0260";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0260';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -654,7 +654,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0270';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0270";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0270';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -676,7 +676,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0280';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0280";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0280';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -698,7 +698,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0290', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0290';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0290";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0290';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();
@@ -725,7 +725,7 @@ export default function uIComponentScrollSwiperIgnoreBlank() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0300';
-      let pageName = "UIComponentScrollSwiperIgnoreBlank0300";
+      let pageName = 'UIComponentScrollSwiperIgnoreBlank0300';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollSwiperIgnoreBlank/' + pageName);
       let driver: Driver = Driver.create();

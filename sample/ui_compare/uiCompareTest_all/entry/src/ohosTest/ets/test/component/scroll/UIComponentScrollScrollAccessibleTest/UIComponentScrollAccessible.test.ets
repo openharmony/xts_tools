@@ -48,14 +48,14 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0290', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0290';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible001");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible001');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button1.click();
       let button2: Component = await driver.waitForComponent(ON.id('getScrollOffSet'), 1000);
       await button2.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0290");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0290');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -72,7 +72,7 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0310', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0310';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible002");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible002');
       let driver: Driver = Driver.create();
       let scroll: Component = await driver.waitForComponent(ON.type('Scroll'), 1000);
       let rect = await scroll.getBounds();
@@ -82,7 +82,7 @@ export default function uIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('getScrollOffSet'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0310");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0310');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -99,7 +99,7 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0280', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0280';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible003");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible003');
       let driver: Driver = Driver.create();
       let scroll: Component = await driver.waitForComponent(ON.type('Scroll'), 1000);
       let point = await scroll.getBoundsCenter();
@@ -108,7 +108,7 @@ export default function uIComponentScrollScrollAccessible() {
       let button: Component = await driver.waitForComponent(ON.id('getScrollOffSet'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0280");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0280');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -125,7 +125,7 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0300', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0300';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible004");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible004');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
@@ -136,7 +136,7 @@ export default function uIComponentScrollScrollAccessible() {
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0300");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0300');
       await driver.waitForIdle(500, 1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -153,14 +153,14 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0120', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0120';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible005");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible005');
       let driver: Driver = Driver.create();
       let list: Component = await driver.waitForComponent(ON.type('List'), 1000);
       let rect = await list.getBounds();
       console.log(`${caseName} rect of List is ${JSON.stringify(rect)}`);
       await driver.mouseDrag({x: rect.right - 10, y: rect.top + 120}, {x: rect.right - 10, y: rect.top + 150});
       await driver.waitForIdle(500, 3000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0120");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0120');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -177,12 +177,12 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0050', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0050';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible006");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible006');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0050");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0050');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -199,7 +199,7 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0110', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0110';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible007");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible007');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
@@ -210,7 +210,7 @@ export default function uIComponentScrollScrollAccessible() {
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0110");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0110');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -227,12 +227,12 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0020', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0020';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible008");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible008');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0020');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -249,14 +249,14 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0090', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0090';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible009");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible009');
       let driver: Driver = Driver.create();
       let list: Component = await driver.waitForComponent(ON.type('List'), 1000);
       let point = await list.getBoundsCenter();
       console.log(`${caseName} point of List is ${JSON.stringify(point)}`);
       await driver.mouseScroll(point, true, 2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0090");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0090');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -273,12 +273,12 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0100', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0100';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible010");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible010');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button1.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0100");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0100');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -295,7 +295,7 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0360', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0360';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible011");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible011');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
@@ -314,7 +314,7 @@ export default function uIComponentScrollScrollAccessible() {
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0360");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0360');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -331,12 +331,12 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible012");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible012');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -353,14 +353,14 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0370', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0370';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible013");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible013');
       let driver: Driver = Driver.create();
       let wanterFlow: Component = await driver.waitForComponent(ON.type('WaterFlow'), 1000);
       let rect = await wanterFlow.getBounds();
       console.log(`${caseName} rect of WaterFlow is ${JSON.stringify(rect)}`);
       await driver.mouseDrag({x: rect.right - 10, y: rect.top + 120}, {x: rect.right - 10, y: rect.top + 150});
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0370");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0370');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -377,12 +377,12 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0230', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0230';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible014");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible014');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0230");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0230');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -399,14 +399,14 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0250', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0250';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible015");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible015');
       let driver: Driver = Driver.create();
       let grid: Component = await driver.waitForComponent(ON.type('Grid'), 1000);
       let rect = await grid.getBounds();
       console.log(`${caseName} rect of Grid is ${JSON.stringify(rect)}`);
       await driver.mouseDrag({x: rect.right - 10, y: rect.top + 120}, {x: rect.right - 10, y: rect.top + 150});
       await driver.waitForIdle(500, 3000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0250");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0250');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -423,12 +423,12 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0140', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0140';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible016");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible016');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0140");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0140');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -445,12 +445,12 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0150', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0150';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible017");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible017');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0150");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0150');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -467,12 +467,12 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0160', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0160';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible018");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible018');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0160");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0160');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -489,12 +489,12 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0170', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0170';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible019");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible019');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0170");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0170');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -511,7 +511,7 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0240', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0240';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible020");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible020');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
@@ -526,7 +526,7 @@ export default function uIComponentScrollScrollAccessible() {
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0240");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0240');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -543,14 +543,14 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0220', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0220';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible021");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible021');
       let driver: Driver = Driver.create();
       let grid: Component = await driver.waitForComponent(ON.type('Grid'), 1000);
       let point = await grid.getBoundsCenter();
       console.log(`${caseName} point of Grid is ${JSON.stringify(point)}`);
       await driver.mouseScroll(point, true, 2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0220");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0220');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -567,14 +567,14 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible022");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible022');
       let driver: Driver = Driver.create();
       let waterflow: Component = await driver.waitForComponent(ON.type('WaterFlow'), 1000);
       let point = await waterflow.getBoundsCenter();
       console.log(`${caseName} point of WaterFlow is ${JSON.stringify(point)}`);
       await driver.mouseScroll(point, true, 2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -591,12 +591,12 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0040', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0040';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible023");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible023');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0040");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0040');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -613,12 +613,12 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0030', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0030';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible024");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible024');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0030");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0030');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -635,12 +635,12 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0060', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0060';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible025");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible025');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0060");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0060');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -657,14 +657,14 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0070', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0070';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible026");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible026');
       let driver: Driver = Driver.create();
       let listGroup: Component = await driver.waitForComponent(ON.type('List'), 1000);
       let point = await listGroup.getBoundsCenter();
       console.log(`${caseName} point of ListGroup is ${JSON.stringify(point)}`);
       await driver.mouseScroll(point, true, 2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0070");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0070');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -681,14 +681,14 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0200', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0200';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible027");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible027');
       let driver: Driver = Driver.create();
       let listGroup: Component = await driver.waitForComponent(ON.type('Grid'), 1000);
       let point = await listGroup.getBoundsCenter();
       console.log(`${caseName} point of ListGroup is ${JSON.stringify(point)}`);
       await driver.mouseScroll(point, true, 2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0200");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0200');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -705,14 +705,14 @@ export default function uIComponentScrollScrollAccessible() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0190', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0190';
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0190 start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible028");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollAccessible/UIComponentScrollScrollAccessible028');
       let driver: Driver = Driver.create();
       let grid: Component = await driver.waitForComponent(ON.type('Grid'), 1000);
       let point = await grid.getBoundsCenter();
       console.log(`${caseName} point of ListGroup is ${JSON.stringify(point)}`);
       await driver.mouseScroll(point, true, 2);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0190");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0190');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

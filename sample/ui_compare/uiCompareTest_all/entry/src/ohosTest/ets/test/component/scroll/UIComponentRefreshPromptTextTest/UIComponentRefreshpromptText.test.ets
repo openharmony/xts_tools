@@ -47,16 +47,16 @@ export default function uIComponentRefreshPromptText() {
      */
     it('SUB_ACE_UI_COMPONENT_REFRESH_PROMPTTEXT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_REFRESH_PROMPTTEXT_0020 start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentRefreshPromptText/UIComponentRefreshPromptText001");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentRefreshPromptText/UIComponentRefreshPromptText001');
       let driver:Driver = Driver.create();
       let refresh: Component = await driver.waitForComponent(ON.type('Refresh'), 1000);
       let point = await refresh.getBoundsCenter();
       await driver.waitForIdle(500, 1000);
       await driver.mouseScroll({x: point.x, y: point.y}, false, 10);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_REFRESH_PROMPTTEXT_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_REFRESH_PROMPTTEXT_0020');
       await Utils.sleep(1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_REFRESH_PROMPTTEXT_0020_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_REFRESH_PROMPTTEXT_0020_02');
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_REFRESH_PROMPTTEXT_0020 finish.`);
       done();
     });

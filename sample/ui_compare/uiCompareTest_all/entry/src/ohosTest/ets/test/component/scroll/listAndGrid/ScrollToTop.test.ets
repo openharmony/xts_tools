@@ -48,7 +48,7 @@ export default function scrollToTopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0160 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/scrollToTop16")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/scrollToTop16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -80,7 +80,7 @@ export default function scrollToTopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0170 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/scrollToTop17")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/scrollToTop17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -112,7 +112,7 @@ export default function scrollToTopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0180 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/scrollToTop18")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/scrollToTop18')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -146,7 +146,7 @@ export default function scrollToTopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0330 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/scrollToTop33")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/scrollToTop33')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -179,7 +179,7 @@ export default function scrollToTopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0340 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/scrollToTop34")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/scrollToTop34')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -212,7 +212,7 @@ export default function scrollToTopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0650 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/scrollToTop65")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/scrollToTop65')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -244,7 +244,7 @@ export default function scrollToTopTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0660 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/scrollToTop66")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/scrollToTop66')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 

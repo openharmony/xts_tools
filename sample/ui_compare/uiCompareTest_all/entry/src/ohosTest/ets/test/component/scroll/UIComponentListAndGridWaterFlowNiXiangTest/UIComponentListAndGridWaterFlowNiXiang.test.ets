@@ -68,7 +68,7 @@ export default function uIComponentListAndGridWaterFlowNiXiang() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0010';
-      let pageName = "UIComponentListAndGridWaterFlowNiXiang0010";
+      let pageName = 'UIComponentListAndGridWaterFlowNiXiang0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridWaterFlowNiXiang/' + pageName);
       let driver: Driver = Driver.create();
@@ -101,7 +101,7 @@ export default function uIComponentListAndGridWaterFlowNiXiang() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0020';
-      let pageName = "UIComponentListAndGridWaterFlowNiXiang0020";
+      let pageName = 'UIComponentListAndGridWaterFlowNiXiang0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridWaterFlowNiXiang/' + pageName);
       let driver: Driver = Driver.create();

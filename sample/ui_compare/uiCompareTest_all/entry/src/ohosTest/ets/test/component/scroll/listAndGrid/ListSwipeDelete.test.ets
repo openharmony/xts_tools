@@ -48,7 +48,7 @@ export default function listSwipeDeleteTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0150 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listChain15")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listChain15')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -82,7 +82,7 @@ export default function listSwipeDeleteTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0160 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listChain16")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listChain16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -116,7 +116,7 @@ export default function listSwipeDeleteTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0350 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listChain35")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listChain35')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -145,7 +145,7 @@ export default function listSwipeDeleteTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0110 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listSwipeDelete11")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listSwipeDelete11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -181,7 +181,7 @@ export default function listSwipeDeleteTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0120 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listSwipeDelete12")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listSwipeDelete12')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -217,7 +217,7 @@ export default function listSwipeDeleteTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0130 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listSwipeDelete13")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listSwipeDelete13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -248,7 +248,7 @@ export default function listSwipeDeleteTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0140 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listSwipeDelete14")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listSwipeDelete14')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -279,7 +279,7 @@ export default function listSwipeDeleteTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0150 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listSwipeDelete15")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listSwipeDelete15')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -314,7 +314,7 @@ export default function listSwipeDeleteTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0160 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listSwipeDelete16")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listSwipeDelete16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -346,7 +346,7 @@ export default function listSwipeDeleteTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0170 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listSwipeDelete17")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listSwipeDelete17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 

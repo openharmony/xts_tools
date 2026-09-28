@@ -48,7 +48,7 @@ export default function listScrollSnapAlignTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0630', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listScrollSnapAlign01");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listScrollSnapAlign01');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -95,7 +95,7 @@ export default function listScrollSnapAlignTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0330', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listScrollSnapAlign02");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listScrollSnapAlign02');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -142,7 +142,7 @@ export default function listScrollSnapAlignTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0310', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listScrollSnapAlign03");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listScrollSnapAlign03');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -189,7 +189,7 @@ export default function listScrollSnapAlignTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0620', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listScrollSnapAlign04");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listScrollSnapAlign04');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -236,7 +236,7 @@ export default function listScrollSnapAlignTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0640', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listScrollSnapAlign05");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listScrollSnapAlign05');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -283,7 +283,7 @@ export default function listScrollSnapAlignTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0650', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listScrollSnapAlign06");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listScrollSnapAlign06');
       await driver.waitForIdle(500, 2000);
 
       try {

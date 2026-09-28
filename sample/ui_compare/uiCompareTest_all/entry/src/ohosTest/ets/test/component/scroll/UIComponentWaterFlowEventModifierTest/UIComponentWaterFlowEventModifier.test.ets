@@ -68,7 +68,7 @@ export default function uIComponentWaterFlowEventModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0010';
-      let pageName = "UIComponentWaterFlowEventModifier0010";
+      let pageName = 'UIComponentWaterFlowEventModifier0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowEventModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -98,7 +98,7 @@ export default function uIComponentWaterFlowEventModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0020';
-      let pageName = "UIComponentWaterFlowEventModifier0020";
+      let pageName = 'UIComponentWaterFlowEventModifier0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowEventModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -128,7 +128,7 @@ export default function uIComponentWaterFlowEventModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0030';
-      let pageName = "UIComponentWaterFlowEventModifier0030";
+      let pageName = 'UIComponentWaterFlowEventModifier0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowEventModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -158,7 +158,7 @@ export default function uIComponentWaterFlowEventModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0040';
-      let pageName = "UIComponentWaterFlowEventModifier0040";
+      let pageName = 'UIComponentWaterFlowEventModifier0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowEventModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -188,7 +188,7 @@ export default function uIComponentWaterFlowEventModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0050';
-      let pageName = "UIComponentWaterFlowEventModifier0050";
+      let pageName = 'UIComponentWaterFlowEventModifier0050';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowEventModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -218,7 +218,7 @@ export default function uIComponentWaterFlowEventModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0060';
-      let pageName = "UIComponentWaterFlowEventModifier0060";
+      let pageName = 'UIComponentWaterFlowEventModifier0060';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowEventModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -248,7 +248,7 @@ export default function uIComponentWaterFlowEventModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0070';
-      let pageName = "UIComponentWaterFlowEventModifier0070";
+      let pageName = 'UIComponentWaterFlowEventModifier0070';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowEventModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -278,7 +278,7 @@ export default function uIComponentWaterFlowEventModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0080';
-      let pageName = "UIComponentWaterFlowEventModifier0080";
+      let pageName = 'UIComponentWaterFlowEventModifier0080';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowEventModifier/' + pageName);
       let driver: Driver = Driver.create();

@@ -47,10 +47,10 @@ export default function uIComponentWaterFlowFlowItemTest() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0010 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentWaterFlowFlowItem_04/UIComponentWaterFlowFlowItem001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentWaterFlowFlowItem_04/UIComponentWaterFlowFlowItem001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0010");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0010 finish.`);
       done();
@@ -66,10 +66,10 @@ export default function uIComponentWaterFlowFlowItemTest() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0020 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentWaterFlowFlowItem_04/UIComponentWaterFlowFlowItem002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentWaterFlowFlowItem_04/UIComponentWaterFlowFlowItem002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0020');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0020 finish.`);
       done();

@@ -48,7 +48,7 @@ export default function listCardStyleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERACTION_0010', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listCardStyle0010");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listCardStyle0010');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -78,7 +78,7 @@ export default function listCardStyleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERACTION_0020', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listCardStyle0020");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listCardStyle0020');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -108,7 +108,7 @@ export default function listCardStyleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERACTION_0030', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listCardStyle0030");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listCardStyle0030');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -138,7 +138,7 @@ export default function listCardStyleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERACTION_0040', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listCardStyle0040");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listCardStyle0040');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -168,7 +168,7 @@ export default function listCardStyleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0760', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listCardStyle0760");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listCardStyle0760');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -198,7 +198,7 @@ export default function listCardStyleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0770', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listCardStyle0770");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listCardStyle0770');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -228,7 +228,7 @@ export default function listCardStyleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0900', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listCardStyle0900");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listCardStyle0900');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -258,7 +258,7 @@ export default function listCardStyleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0570', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listCardStyle0570");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listCardStyle0570');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -288,7 +288,7 @@ export default function listCardStyleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0590', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listCardStyle0590");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listCardStyle0590');
       await driver.waitForIdle(500, 2000);
 
       try {

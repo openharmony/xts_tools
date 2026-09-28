@@ -68,7 +68,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0970', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0970';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier0970";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier0970';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -103,7 +103,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0980', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0980';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier0980";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier0980';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -138,7 +138,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0990', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0990';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier0990";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier0990';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -173,7 +173,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1000', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1000';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1000";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1000';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -208,7 +208,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1010';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1010";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -243,7 +243,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1020';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1020";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -278,7 +278,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1080';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1080";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1080';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -306,7 +306,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1090';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1090";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1090';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -334,7 +334,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1100';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1100";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1100';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -362,7 +362,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1110';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1110";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1110';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -390,7 +390,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1170';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1170";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1170';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -432,7 +432,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1180';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1180";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1180';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -474,7 +474,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1190';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1190";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1190';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -516,7 +516,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1200';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1200";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1200';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -558,7 +558,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1210';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1210";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1210';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -600,7 +600,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1220';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1220";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1220';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -642,7 +642,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1230';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1230";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1230';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -684,7 +684,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1240';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1240";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1240';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -726,7 +726,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1250';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1250";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1250';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -768,7 +768,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1260';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1260";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1260';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -810,7 +810,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1270';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1270";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1270';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -852,7 +852,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1280';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1280";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1280';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -894,7 +894,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1290', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1290';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1290";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1290';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -936,7 +936,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1300';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1300";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1300';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -978,7 +978,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1310';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1310";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1310';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -1020,7 +1020,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1320';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1320";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1320';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -1062,7 +1062,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1500', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1500';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1500";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1500';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -1090,7 +1090,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1510', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1510';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1510";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1510';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -1118,7 +1118,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1520', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1520';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1520";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1520';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -1146,7 +1146,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1530', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1530';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1530";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1530';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -1174,7 +1174,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1540', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1540';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1540";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1540';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -1204,7 +1204,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1570', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1570';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1570";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1570';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -1234,7 +1234,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1580', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1580';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1580";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1580';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -1264,7 +1264,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1590', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1590';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1590";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1590';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -1294,7 +1294,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1600', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1600';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1600";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1600';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();
@@ -1324,7 +1324,7 @@ export default function uIComponentScrollAlphabetIndexerModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1610', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1610';
-      let pageName = "UIComponentScrollAlphabetIndexerModifier1610";
+      let pageName = 'UIComponentScrollAlphabetIndexerModifier1610';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollAlphabetIndexerModifier/' + pageName);
       let driver: Driver = Driver.create();

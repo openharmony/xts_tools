@@ -68,7 +68,7 @@ export default function uIComponentWaterFlowSliding() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0310';
-      let pageName = "UIComponentWaterFlowSliding0310";
+      let pageName = 'UIComponentWaterFlowSliding0310';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSliding/' + pageName);
       let driver: Driver = Driver.create();
@@ -97,7 +97,7 @@ export default function uIComponentWaterFlowSliding() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0460', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0460';
-      let pageName = "UIComponentWaterFlowSliding0460";
+      let pageName = 'UIComponentWaterFlowSliding0460';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSliding/' + pageName);
       let driver: Driver = Driver.create();

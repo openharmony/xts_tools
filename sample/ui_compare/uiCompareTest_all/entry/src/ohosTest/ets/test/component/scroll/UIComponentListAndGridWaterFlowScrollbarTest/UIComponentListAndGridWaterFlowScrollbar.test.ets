@@ -68,7 +68,7 @@ export default function uIComponentListAndGridWaterFlowScrollbar() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0010';
-      let pageName = "UIComponentListAndGridWaterFlowScrollbar0010";
+      let pageName = 'UIComponentListAndGridWaterFlowScrollbar0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridWaterFlowScrollbar/' + pageName);
       let driver: Driver = Driver.create();
@@ -95,7 +95,7 @@ export default function uIComponentListAndGridWaterFlowScrollbar() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0020';
-      let pageName = "UIComponentListAndGridWaterFlowScrollbar0020";
+      let pageName = 'UIComponentListAndGridWaterFlowScrollbar0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridWaterFlowScrollbar/' + pageName);
       let driver: Driver = Driver.create();
@@ -124,7 +124,7 @@ export default function uIComponentListAndGridWaterFlowScrollbar() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0030';
-      let pageName = "UIComponentListAndGridWaterFlowScrollbar0030";
+      let pageName = 'UIComponentListAndGridWaterFlowScrollbar0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridWaterFlowScrollbar/' + pageName);
       let driver: Driver = Driver.create();
@@ -151,7 +151,7 @@ export default function uIComponentListAndGridWaterFlowScrollbar() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0040';
-      let pageName = "UIComponentListAndGridWaterFlowScrollbar0040";
+      let pageName = 'UIComponentListAndGridWaterFlowScrollbar0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridWaterFlowScrollbar/' + pageName);
       let driver: Driver = Driver.create();
@@ -180,7 +180,7 @@ export default function uIComponentListAndGridWaterFlowScrollbar() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SCROLLBAR_0050';
-      let pageName = "UIComponentListAndGridWaterFlowScrollbar0050";
+      let pageName = 'UIComponentListAndGridWaterFlowScrollbar0050';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridWaterFlowScrollbar/' + pageName);
       let driver: Driver = Driver.create();

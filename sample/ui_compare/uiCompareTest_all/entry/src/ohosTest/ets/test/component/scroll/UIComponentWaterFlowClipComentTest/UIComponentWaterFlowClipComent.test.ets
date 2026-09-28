@@ -69,7 +69,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0010';
-      let pageName = "UIComponentWaterFlowClipComent0010";
+      let pageName = 'UIComponentWaterFlowClipComent0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -95,7 +95,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0020';
-      let pageName = "UIComponentWaterFlowClipComent0020";
+      let pageName = 'UIComponentWaterFlowClipComent0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -121,7 +121,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0030';
-      let pageName = "UIComponentWaterFlowClipComent0030";
+      let pageName = 'UIComponentWaterFlowClipComent0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -147,7 +147,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0040';
-      let pageName = "UIComponentWaterFlowClipComent0040";
+      let pageName = 'UIComponentWaterFlowClipComent0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -173,7 +173,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0050';
-      let pageName = "UIComponentWaterFlowClipComent0050";
+      let pageName = 'UIComponentWaterFlowClipComent0050';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -199,7 +199,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0060';
-      let pageName = "UIComponentWaterFlowClipComent0060";
+      let pageName = 'UIComponentWaterFlowClipComent0060';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -225,7 +225,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0070';
-      let pageName = "UIComponentWaterFlowClipComent0070";
+      let pageName = 'UIComponentWaterFlowClipComent0070';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -251,7 +251,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0080';
-      let pageName = "UIComponentWaterFlowClipComent0080";
+      let pageName = 'UIComponentWaterFlowClipComent0080';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -277,7 +277,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0090';
-      let pageName = "UIComponentWaterFlowClipComent0090";
+      let pageName = 'UIComponentWaterFlowClipComent0090';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -303,7 +303,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0100';
-      let pageName = "UIComponentWaterFlowClipComent0100";
+      let pageName = 'UIComponentWaterFlowClipComent0100';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -357,7 +357,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0120';
-      let pageName = "UIComponentWaterFlowClipComent0120";
+      let pageName = 'UIComponentWaterFlowClipComent0120';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -385,7 +385,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0130';
-      let pageName = "UIComponentWaterFlowClipComent0130";
+      let pageName = 'UIComponentWaterFlowClipComent0130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -413,7 +413,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0170';
-      let pageName = "UIComponentWaterFlowClipComent0170";
+      let pageName = 'UIComponentWaterFlowClipComent0170';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -441,7 +441,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0180';
-      let pageName = "UIComponentWaterFlowClipComent0180";
+      let pageName = 'UIComponentWaterFlowClipComent0180';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -469,7 +469,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0190';
-      let pageName = "UIComponentWaterFlowClipComent0190";
+      let pageName = 'UIComponentWaterFlowClipComent0190';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -495,7 +495,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0200';
-      let pageName = "UIComponentWaterFlowClipComent0200";
+      let pageName = 'UIComponentWaterFlowClipComent0200';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -523,7 +523,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0210';
-      let pageName = "UIComponentWaterFlowClipComent0210";
+      let pageName = 'UIComponentWaterFlowClipComent0210';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -553,7 +553,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0230';
-      let pageName = "UIComponentWaterFlowClipComent0230";
+      let pageName = 'UIComponentWaterFlowClipComent0230';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();
@@ -585,7 +585,7 @@ export default function uIComponentWaterFlowClipComent() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0250';
-      let pageName = "UIComponentWaterFlowClipComent0250";
+      let pageName = 'UIComponentWaterFlowClipComent0250';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowClipComent/' + pageName);
       let driver: Driver = Driver.create();

@@ -50,7 +50,7 @@ export default function listScrollbarHoverTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0030', Level.LEVEL3, async (done: Function) => {
       console.log('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0030 start');
-      Settings.createWindow("testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover01")
+      Settings.createWindow('testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       await driver.assertComponentExist(ON.text('List滚动条悬浮测试0030'));
@@ -84,7 +84,7 @@ export default function listScrollbarHoverTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0050', Level.LEVEL3, async (done: Function) => {
       console.log('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0050 start');
-      Settings.createWindow("testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover02")
+      Settings.createWindow('testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       await driver.assertComponentExist(ON.text('List滚动条悬浮测试0050'));
@@ -118,7 +118,7 @@ export default function listScrollbarHoverTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0100', Level.LEVEL3, async (done: Function) => {
       console.log('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0100 start');
-      Settings.createWindow("testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover03")
+      Settings.createWindow('testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       await driver.assertComponentExist(ON.text('List滚动条悬浮测试0100'));
@@ -152,7 +152,7 @@ export default function listScrollbarHoverTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0040', Level.LEVEL3, async (done: Function) => {
       console.log('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0040 start');
-      Settings.createWindow("testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover04")
+      Settings.createWindow('testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       await driver.assertComponentExist(ON.text('List滚动条悬浮测试0040'));
@@ -186,7 +186,7 @@ export default function listScrollbarHoverTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0060', Level.LEVEL3, async (done: Function) => {
       console.log('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0060 start');
-      Settings.createWindow("testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover05")
+      Settings.createWindow('testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       await driver.assertComponentExist(ON.text('List滚动条悬浮测试0060'));
@@ -220,7 +220,7 @@ export default function listScrollbarHoverTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0080', Level.LEVEL3, async (done: Function) => {
       console.log('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0080 start');
-      Settings.createWindow("testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover06")
+      Settings.createWindow('testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       await driver.assertComponentExist(ON.text('List滚动条悬浮测试0080'));
@@ -254,7 +254,7 @@ export default function listScrollbarHoverTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0130', Level.LEVEL3, async (done: Function) => {
       console.log('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0130 start');
-      Settings.createWindow("testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover07")
+      Settings.createWindow('testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       await driver.assertComponentExist(ON.text('List滚动条悬浮测试0130'));
@@ -288,7 +288,7 @@ export default function listScrollbarHoverTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0110', Level.LEVEL3, async (done: Function) => {
       console.log('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0110 start');
-      Settings.createWindow("testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover08")
+      Settings.createWindow('testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       await driver.assertComponentExist(ON.text('List滚动条悬浮测试0110'));
@@ -322,7 +322,7 @@ export default function listScrollbarHoverTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0120', Level.LEVEL3, async (done: Function) => {
       console.log('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0120 start');
-      Settings.createWindow("testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover09")
+      Settings.createWindow('testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       await driver.assertComponentExist(ON.text('List滚动条悬浮测试0120'));
@@ -356,7 +356,7 @@ export default function listScrollbarHoverTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0140', Level.LEVEL3, async (done: Function) => {
       console.log('SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0140 start');
-      Settings.createWindow("testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover10")
+      Settings.createWindow('testability/pages/component/scroll/list_scrollbar_hover/listScrollbarHover10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       await driver.assertComponentExist(ON.text('List滚动条悬浮测试0140'));

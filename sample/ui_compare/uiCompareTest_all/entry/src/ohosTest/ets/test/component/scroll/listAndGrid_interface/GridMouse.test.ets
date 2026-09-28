@@ -49,7 +49,7 @@ export default function gridMouseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MOUSE_0040_692', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MOUSE_0040_692 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/gridMouse0040_692")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/gridMouse0040_692')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MOUSE_0040_692_01');
@@ -78,7 +78,7 @@ export default function gridMouseTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MOUSE_0130_835', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MOUSE_0130_835 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/gridMouse0130_835")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/gridMouse0130_835')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MOUSE_0130_835');

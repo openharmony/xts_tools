@@ -55,7 +55,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ARROWHEAD_0100 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive11");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive11');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -86,7 +86,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ARROWHEAD_0970 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive12");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive12');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -117,7 +117,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACEMIX_0030 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive13");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive13');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -148,7 +148,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACEMIX_0040 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive14");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive14');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -179,7 +179,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_ARKUI_SWIPER_INDICATORINTERACTIVE_0050 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive15");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive15');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -214,7 +214,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ UX_0030 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive07");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive07');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -245,7 +245,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ UX_0090 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive08");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive08');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -276,7 +276,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ADD_0500 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive09");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive09');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -307,7 +307,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_MARGIN_0010 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive10");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive10');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -342,7 +342,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_ARKUI_SWIPER_INDICATORINTERACTIVE_0070 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive16");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive16');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -373,7 +373,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ UX_0480 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive17");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive17');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -404,7 +404,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ADD_0520 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive18");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive18');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -435,7 +435,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_MARGIN_0020 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive19");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive19');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -470,7 +470,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_MARGIN_0110 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive20");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive20');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -505,7 +505,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_MARGIN_0080 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive21");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive21');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -540,7 +540,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ACROSS_0180 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive22");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive22');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -571,7 +571,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ACROSS_0140 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive23");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive23');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -602,7 +602,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ACROSS_0150 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive24");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive24');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -633,7 +633,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ACROSS_0190 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive25");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive25');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -664,7 +664,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ACROSS_0160 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive26");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive26');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -695,7 +695,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ACROSS_0200 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive27");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive27');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       
@@ -726,7 +726,7 @@ export default function swiperIndicatorInteractiveTest() {
       Logger.info(TAG, `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_ACROSS_0170 start.`);
       
       // 创建测试窗口
-      Settings.createWindow("testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive28");
+      Settings.createWindow('testability/pages/component/scroll/swiper_indicatorInteractive/swiperIndicatorInteractive28');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(200, 500);
       

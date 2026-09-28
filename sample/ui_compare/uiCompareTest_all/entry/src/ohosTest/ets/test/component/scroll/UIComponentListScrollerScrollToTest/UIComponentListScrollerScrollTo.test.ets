@@ -47,12 +47,12 @@ export default function uIComponentListScrollerScrollToTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLER_SCROLLTO_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLER_SCROLLTO_0230 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListScrollerScrollTo/UIComponentListScrollerScrollTo001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListScrollerScrollTo/UIComponentListScrollerScrollTo001');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollTo'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLER_SCROLLTO_0230");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLER_SCROLLTO_0230');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLER_SCROLLTO_0230 finish.`);
       done();

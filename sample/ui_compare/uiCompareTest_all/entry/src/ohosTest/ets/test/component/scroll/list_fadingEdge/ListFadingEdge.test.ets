@@ -50,7 +50,7 @@ export default function listFadingEdgeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0040 start.`);
-      Settings.createWindow("testability/pages/component/scroll/list_fadingEdge/listFadingEdge01")
+      Settings.createWindow('testability/pages/component/scroll/list_fadingEdge/listFadingEdge01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -89,7 +89,7 @@ export default function listFadingEdgeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0030 start.`);
-      Settings.createWindow("testability/pages/component/scroll/list_fadingEdge/listFadingEdge02")
+      Settings.createWindow('testability/pages/component/scroll/list_fadingEdge/listFadingEdge02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -128,7 +128,7 @@ export default function listFadingEdgeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0100 start.`);
-      Settings.createWindow("testability/pages/component/scroll/list_fadingEdge/listFadingEdge03")
+      Settings.createWindow('testability/pages/component/scroll/list_fadingEdge/listFadingEdge03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -167,7 +167,7 @@ export default function listFadingEdgeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0050 start.`);
-      Settings.createWindow("testability/pages/component/scroll/list_fadingEdge/listFadingEdge04")
+      Settings.createWindow('testability/pages/component/scroll/list_fadingEdge/listFadingEdge04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -206,7 +206,7 @@ export default function listFadingEdgeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0070 start.`);
-      Settings.createWindow("testability/pages/component/scroll/list_fadingEdge/listFadingEdge05")
+      Settings.createWindow('testability/pages/component/scroll/list_fadingEdge/listFadingEdge05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -245,7 +245,7 @@ export default function listFadingEdgeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0060 start.`);
-      Settings.createWindow("testability/pages/component/scroll/list_fadingEdge/listFadingEdge06")
+      Settings.createWindow('testability/pages/component/scroll/list_fadingEdge/listFadingEdge06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -284,7 +284,7 @@ export default function listFadingEdgeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0090 start.`);
-      Settings.createWindow("testability/pages/component/scroll/list_fadingEdge/listFadingEdge07")
+      Settings.createWindow('testability/pages/component/scroll/list_fadingEdge/listFadingEdge07')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -323,7 +323,7 @@ export default function listFadingEdgeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0110 start.`);
-      Settings.createWindow("testability/pages/component/scroll/list_fadingEdge/listFadingEdge08")
+      Settings.createWindow('testability/pages/component/scroll/list_fadingEdge/listFadingEdge08')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -362,7 +362,7 @@ export default function listFadingEdgeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0150 start.`);
-      Settings.createWindow("testability/pages/component/scroll/list_fadingEdge/listFadingEdge09")
+      Settings.createWindow('testability/pages/component/scroll/list_fadingEdge/listFadingEdge09')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -401,7 +401,7 @@ export default function listFadingEdgeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0320 start.`);
-      Settings.createWindow("testability/pages/component/scroll/list_fadingEdge/listFadingEdge10")
+      Settings.createWindow('testability/pages/component/scroll/list_fadingEdge/listFadingEdge10')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       
@@ -433,7 +433,7 @@ export default function listFadingEdgeTest () {
      */
     it('SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LIST_TV_FADINGEDGE_0330 start.`);
-      Settings.createWindow("testability/pages/component/scroll/list_fadingEdge/listFadingEdge11")
+      Settings.createWindow('testability/pages/component/scroll/list_fadingEdge/listFadingEdge11')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(200,500);
       

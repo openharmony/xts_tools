@@ -47,14 +47,14 @@ export default function uIComponentOtherRefreshInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0050 start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentOtherRefreshInterface/UIComponentOtherRefreshInterface001");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentOtherRefreshInterface/UIComponentOtherRefreshInterface001');
       let driver:Driver = Driver.create();
       let refresh: Component = await driver.waitForComponent(ON.type('Refresh'), 1000);
       let point = await refresh.getBoundsCenter();
       await driver.waitForIdle(500, 1000);
       await driver.mouseScroll({x: point.x, y: point.y}, false, 10);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0050");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0050');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0050 finish.`);
       done();
@@ -70,14 +70,14 @@ export default function uIComponentOtherRefreshInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0240 start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentOtherRefreshInterface/UIComponentOtherRefreshInterface002");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentOtherRefreshInterface/UIComponentOtherRefreshInterface002');
       let driver:Driver = Driver.create();
       let refresh: Component = await driver.waitForComponent(ON.type('Refresh'), 1000);
       let point = await refresh.getBoundsCenter();
       await driver.waitForIdle(500, 1000);
       await driver.mouseScroll({x: point.x, y: point.y}, false, 10);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0240");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0240');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0240 finish.`);
       done();
@@ -93,14 +93,14 @@ export default function uIComponentOtherRefreshInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0250 start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentOtherRefreshInterface/UIComponentOtherRefreshInterface003");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentOtherRefreshInterface/UIComponentOtherRefreshInterface003');
       let driver:Driver = Driver.create();
       let refresh: Component = await driver.waitForComponent(ON.type('Refresh'), 1000);
       let point = await refresh.getBoundsCenter();
       await driver.waitForIdle(500, 1000);
       await driver.mouseScroll({x: point.x, y: point.y}, false, 10);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0250");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0250');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0250 finish.`);
       done();

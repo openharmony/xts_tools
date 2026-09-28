@@ -48,10 +48,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1460 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1460");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1460');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1460 finish.`);
       done();
@@ -67,10 +67,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2170 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2170");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2170');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2170 finish.`);
       done();
@@ -87,10 +87,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2800', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2800';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface003');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2800");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2800');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -106,10 +106,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1560 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface004');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1560");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1560');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1560 finish.`);
       done();
@@ -125,10 +125,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2810 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface005");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface005');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2810");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2810');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2810 finish.`);
       done();
@@ -144,10 +144,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1650 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface006");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface006');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1650");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1650');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1650 finish.`);
       done();
@@ -163,10 +163,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1640 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface007");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface007');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1640");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1640');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1640 finish.`);
       done();
@@ -182,10 +182,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2850', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2850 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface008");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface008');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2850");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2850');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2850 finish.`);
       done();
@@ -201,10 +201,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2890', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2890 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface009");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface009');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2890");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2890');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2890 finish.`);
       done();
@@ -220,10 +220,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2900 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface010");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface010');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2900");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2900');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2900 finish.`);
       done();
@@ -239,10 +239,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2830 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface011");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface011');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2830");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2830');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2830 finish.`);
       done();
@@ -258,10 +258,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2870 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface012");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface012');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2870");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2870');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2870 finish.`);
       done();
@@ -277,10 +277,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2880', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2880 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface013");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface013');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2880");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2880');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2880 finish.`);
       done();
@@ -296,10 +296,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2820 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface014");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface014');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2820");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2820');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2820 finish.`);
       done();
@@ -315,10 +315,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2860 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface015");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface015');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2860");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2860');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2860 finish.`);
       done();
@@ -334,10 +334,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2840 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface016");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface016');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2840");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2840');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2840 finish.`);
       done();
@@ -354,7 +354,7 @@ export default function uIComponentScrollSwiperInterfaceTest() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_3620', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_3620';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface017");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface017');
       let driver: Driver = Driver.create();
       let swipe: Component = await driver.waitForComponent(ON.id('Swipe'), 1000);
       let point = await swipe.getBoundsCenter();
@@ -363,7 +363,7 @@ export default function uIComponentScrollSwiperInterfaceTest() {
       console.info(`${caseName} rect of Swipe is ${JSON.stringify(rect)}`);
       await driver.drag(point.x, rect.bottom - 5, point.x, rect.top, 2000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_3620");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_3620');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -380,10 +380,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1140', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1140';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface018");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface018');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(3000, 3000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1140");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1140');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -400,10 +400,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0720', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0720';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface019");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface019');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0720");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0720');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -420,10 +420,10 @@ export default function uIComponentScrollSwiperInterfaceTest() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0730', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0730';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface020");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface020');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0730");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0730');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -440,12 +440,12 @@ export default function uIComponentScrollSwiperInterfaceTest() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1590', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1590';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface021");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperInterface/UIComponentScrollSwiperInterface021');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('time'), 1000);
       await button.click();
       await driver.waitForIdle(5000, 5000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1590");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1590');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

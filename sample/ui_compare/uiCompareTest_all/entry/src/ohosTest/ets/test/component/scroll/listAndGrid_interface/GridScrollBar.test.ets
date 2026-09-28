@@ -49,7 +49,7 @@ export default function gridScrollBarTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0010_027_880', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0010_027_880 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/gridScrollBar0010_027_880")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/gridScrollBar0010_027_880')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0010_027_880_01');
@@ -75,7 +75,7 @@ export default function gridScrollBarTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0020_015_730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0020_015_730 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/gridScrollBar0020_015_730")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/gridScrollBar0020_015_730')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0020_015_730_01');

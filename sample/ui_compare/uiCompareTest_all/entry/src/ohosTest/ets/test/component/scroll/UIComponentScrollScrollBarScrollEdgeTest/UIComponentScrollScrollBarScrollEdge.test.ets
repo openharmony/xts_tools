@@ -47,12 +47,12 @@ export default function uIComponentScrollScrollBarScrollEdge() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0260 start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentScrollScrollBarScrollEdge/UIComponentScrollScrollBarScrollEdge001");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollBarScrollEdge/UIComponentScrollScrollBarScrollEdge001');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scroll'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0260");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0260');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0260 finish.`);
       done();

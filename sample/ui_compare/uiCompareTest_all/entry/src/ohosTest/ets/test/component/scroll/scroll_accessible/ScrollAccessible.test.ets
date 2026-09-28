@@ -50,7 +50,7 @@ export default function scrollAccessibleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350_597', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350_597 start.`);
-      Settings.createWindow("testability/pages/component/scroll/scroll_accessible/scroll01")
+      Settings.createWindow('testability/pages/component/scroll/scroll_accessible/scroll01')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scroll_01'), 1000);
       await button.click();
@@ -71,7 +71,7 @@ export default function scrollAccessibleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340_280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340_280 start.`);
-      Settings.createWindow("testability/pages/component/scroll/scroll_accessible/scroll02")
+      Settings.createWindow('testability/pages/component/scroll/scroll_accessible/scroll02')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollWaterFlow02'), 1000);
       let point = await button.getBoundsCenter();
@@ -97,7 +97,7 @@ export default function scrollAccessibleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0360_034', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0360_034 start.`);
-      Settings.createWindow("testability/pages/component/scroll/scroll_accessible/scroll05")
+      Settings.createWindow('testability/pages/component/scroll/scroll_accessible/scroll05')
       await Utils.sleep(1000)
       let driver:Driver = Driver.create();
       for (let i = 0; i < 7; i++) {
@@ -122,7 +122,7 @@ export default function scrollAccessibleTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0370_698', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0370_698 start.`);
-      Settings.createWindow("testability/pages/component/scroll/scroll_accessible/scroll04")
+      Settings.createWindow('testability/pages/component/scroll/scroll_accessible/scroll04')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('scrollWaterFlow04'), 1000);
       let point = await button.getBoundsCenter();

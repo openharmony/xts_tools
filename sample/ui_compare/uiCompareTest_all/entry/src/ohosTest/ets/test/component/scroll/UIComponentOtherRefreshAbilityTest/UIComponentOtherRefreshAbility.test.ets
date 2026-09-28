@@ -47,12 +47,12 @@ export default function uIComponentOtherRefreshAbility() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190 start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility001");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility001');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('refresh'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190 finish.`);
       done();
@@ -68,12 +68,12 @@ export default function uIComponentOtherRefreshAbility() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020 start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility002");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility002');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('refresh'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020 finish.`);
       done();
@@ -89,12 +89,12 @@ export default function uIComponentOtherRefreshAbility() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030 start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility003");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility003');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('refresh'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030 finish.`);
       done();
@@ -110,12 +110,12 @@ export default function uIComponentOtherRefreshAbility() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060 start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility004");
+      Settings.createWindow('testability/pages/component/scroll/uIComponentOtherRefreshAbility/UIComponentOtherRefreshAbility004');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('refresh'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060 finish.`);
       done();

@@ -68,7 +68,7 @@ export default function uIComponentScrollScrollbarInteraction() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0410', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0410';
-      let pageName = "UIComponentScrollScrollbarInteraction0410";
+      let pageName = 'UIComponentScrollScrollbarInteraction0410';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollbarInteraction/' + pageName);
       let driver: Driver = Driver.create();
@@ -96,7 +96,7 @@ export default function uIComponentScrollScrollbarInteraction() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0420', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0420';
-      let pageName = "UIComponentScrollScrollbarInteraction0420";
+      let pageName = 'UIComponentScrollScrollbarInteraction0420';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollbarInteraction/' + pageName);
       let driver: Driver = Driver.create();
@@ -128,7 +128,7 @@ export default function uIComponentScrollScrollbarInteraction() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0440', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0440';
-      let pageName = "UIComponentScrollScrollbarInteraction0440";
+      let pageName = 'UIComponentScrollScrollbarInteraction0440';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollbarInteraction/' + pageName);
       let driver: Driver = Driver.create();
@@ -156,7 +156,7 @@ export default function uIComponentScrollScrollbarInteraction() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0450', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0450';
-      let pageName = "UIComponentScrollScrollbarInteraction0450";
+      let pageName = 'UIComponentScrollScrollbarInteraction0450';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollbarInteraction/' + pageName);
       let driver: Driver = Driver.create();
@@ -184,7 +184,7 @@ export default function uIComponentScrollScrollbarInteraction() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0460', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0460';
-      let pageName = "UIComponentScrollScrollbarInteraction0460";
+      let pageName = 'UIComponentScrollScrollbarInteraction0460';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollbarInteraction/' + pageName);
       let driver: Driver = Driver.create();

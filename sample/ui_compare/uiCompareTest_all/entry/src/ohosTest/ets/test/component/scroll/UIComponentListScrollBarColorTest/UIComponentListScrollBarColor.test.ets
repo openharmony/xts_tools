@@ -49,10 +49,10 @@ export default function uIComponentListScrollBarColorTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0010', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0010';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListScrollBarColor/UIComponentListScrollBarColor001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListScrollBarColor/UIComponentListScrollBarColor001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0010");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -69,10 +69,10 @@ export default function uIComponentListScrollBarColorTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0020', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0020';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListScrollBarColor/UIComponentListScrollBarColor002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListScrollBarColor/UIComponentListScrollBarColor002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0020');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -89,10 +89,10 @@ export default function uIComponentListScrollBarColorTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0030', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0030';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListScrollBarColor/UIComponentListScrollBarColor003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListScrollBarColor/UIComponentListScrollBarColor003');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0030");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0030');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -109,10 +109,10 @@ export default function uIComponentListScrollBarColorTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0040', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0040';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListScrollBarColor/UIComponentListScrollBarColor004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListScrollBarColor/UIComponentListScrollBarColor004');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0040");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0040');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -129,26 +129,26 @@ export default function uIComponentListScrollBarColorTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListScrollBarColor/UIComponentListScrollBarColor005");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListScrollBarColor/UIComponentListScrollBarColor005');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050_06");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050_06');
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050_05");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050_05');
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050_04');
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050_03');
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050_02');
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARCOLOR_0050');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

@@ -68,7 +68,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0010';
-      let pageName = "UIComponentOtherScrollableAnimation0010";
+      let pageName = 'UIComponentOtherScrollableAnimation0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -98,7 +98,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0020';
-      let pageName = "UIComponentOtherScrollableAnimation0020";
+      let pageName = 'UIComponentOtherScrollableAnimation0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -128,7 +128,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0030';
-      let pageName = "UIComponentOtherScrollableAnimation0030";
+      let pageName = 'UIComponentOtherScrollableAnimation0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -158,7 +158,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0040';
-      let pageName = "UIComponentOtherScrollableAnimation0040";
+      let pageName = 'UIComponentOtherScrollableAnimation0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -188,7 +188,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0050';
-      let pageName = "UIComponentOtherScrollableAnimation0050";
+      let pageName = 'UIComponentOtherScrollableAnimation0050';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -218,7 +218,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0060';
-      let pageName = "UIComponentOtherScrollableAnimation0060";
+      let pageName = 'UIComponentOtherScrollableAnimation0060';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -252,7 +252,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0070';
-      let pageName = "UIComponentOtherScrollableAnimation0070";
+      let pageName = 'UIComponentOtherScrollableAnimation0070';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -286,7 +286,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0080';
-      let pageName = "UIComponentOtherScrollableAnimation0080";
+      let pageName = 'UIComponentOtherScrollableAnimation0080';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -316,7 +316,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0090';
-      let pageName = "UIComponentOtherScrollableAnimation0090";
+      let pageName = 'UIComponentOtherScrollableAnimation0090';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -346,7 +346,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0100';
-      let pageName = "UIComponentOtherScrollableAnimation0100";
+      let pageName = 'UIComponentOtherScrollableAnimation0100';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -376,7 +376,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0110';
-      let pageName = "UIComponentOtherScrollableAnimation0110";
+      let pageName = 'UIComponentOtherScrollableAnimation0110';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -406,7 +406,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0120';
-      let pageName = "UIComponentOtherScrollableAnimation0120";
+      let pageName = 'UIComponentOtherScrollableAnimation0120';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -436,7 +436,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0130';
-      let pageName = "UIComponentOtherScrollableAnimation0130";
+      let pageName = 'UIComponentOtherScrollableAnimation0130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -466,7 +466,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0140';
-      let pageName = "UIComponentOtherScrollableAnimation0140";
+      let pageName = 'UIComponentOtherScrollableAnimation0140';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -499,7 +499,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0150';
-      let pageName = "UIComponentOtherScrollableAnimation0150";
+      let pageName = 'UIComponentOtherScrollableAnimation0150';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -533,7 +533,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0160';
-      let pageName = "UIComponentOtherScrollableAnimation0160";
+      let pageName = 'UIComponentOtherScrollableAnimation0160';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -567,7 +567,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0170';
-      let pageName = "UIComponentOtherScrollableAnimation0170";
+      let pageName = 'UIComponentOtherScrollableAnimation0170';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -597,7 +597,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0180';
-      let pageName = "UIComponentOtherScrollableAnimation0180";
+      let pageName = 'UIComponentOtherScrollableAnimation0180';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -627,7 +627,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0190';
-      let pageName = "UIComponentOtherScrollableAnimation0190";
+      let pageName = 'UIComponentOtherScrollableAnimation0190';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -657,7 +657,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0200';
-      let pageName = "UIComponentOtherScrollableAnimation0200";
+      let pageName = 'UIComponentOtherScrollableAnimation0200';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -687,7 +687,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0210';
-      let pageName = "UIComponentOtherScrollableAnimation0210";
+      let pageName = 'UIComponentOtherScrollableAnimation0210';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -717,7 +717,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0220';
-      let pageName = "UIComponentOtherScrollableAnimation0220";
+      let pageName = 'UIComponentOtherScrollableAnimation0220';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -750,7 +750,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0230';
-      let pageName = "UIComponentOtherScrollableAnimation0230";
+      let pageName = 'UIComponentOtherScrollableAnimation0230';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -784,7 +784,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0240';
-      let pageName = "UIComponentOtherScrollableAnimation0240";
+      let pageName = 'UIComponentOtherScrollableAnimation0240';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -818,7 +818,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0250';
-      let pageName = "UIComponentOtherScrollableAnimation0250";
+      let pageName = 'UIComponentOtherScrollableAnimation0250';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -848,7 +848,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0260';
-      let pageName = "UIComponentOtherScrollableAnimation0260";
+      let pageName = 'UIComponentOtherScrollableAnimation0260';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -878,7 +878,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0270';
-      let pageName = "UIComponentOtherScrollableAnimation0270";
+      let pageName = 'UIComponentOtherScrollableAnimation0270';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -908,7 +908,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0280';
-      let pageName = "UIComponentOtherScrollableAnimation0280";
+      let pageName = 'UIComponentOtherScrollableAnimation0280';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -938,7 +938,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0290', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0290';
-      let pageName = "UIComponentOtherScrollableAnimation0290";
+      let pageName = 'UIComponentOtherScrollableAnimation0290';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -968,7 +968,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0300';
-      let pageName = "UIComponentOtherScrollableAnimation0300";
+      let pageName = 'UIComponentOtherScrollableAnimation0300';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1001,7 +1001,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0310';
-      let pageName = "UIComponentOtherScrollableAnimation0310";
+      let pageName = 'UIComponentOtherScrollableAnimation0310';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1035,7 +1035,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0320';
-      let pageName = "UIComponentOtherScrollableAnimation0320";
+      let pageName = 'UIComponentOtherScrollableAnimation0320';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1069,7 +1069,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0330', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0330';
-      let pageName = "UIComponentOtherScrollableAnimation0330";
+      let pageName = 'UIComponentOtherScrollableAnimation0330';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1099,7 +1099,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0340', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0340';
-      let pageName = "UIComponentOtherScrollableAnimation0340";
+      let pageName = 'UIComponentOtherScrollableAnimation0340';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1129,7 +1129,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0350', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0350';
-      let pageName = "UIComponentOtherScrollableAnimation0350";
+      let pageName = 'UIComponentOtherScrollableAnimation0350';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1159,7 +1159,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0360', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0360';
-      let pageName = "UIComponentOtherScrollableAnimation0360";
+      let pageName = 'UIComponentOtherScrollableAnimation0360';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1189,7 +1189,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0370', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0370';
-      let pageName = "UIComponentOtherScrollableAnimation0370";
+      let pageName = 'UIComponentOtherScrollableAnimation0370';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1219,7 +1219,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0380', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0380';
-      let pageName = "UIComponentOtherScrollableAnimation0380";
+      let pageName = 'UIComponentOtherScrollableAnimation0380';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1249,7 +1249,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0400', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0400';
-      let pageName = "UIComponentOtherScrollableAnimation0400";
+      let pageName = 'UIComponentOtherScrollableAnimation0400';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1279,7 +1279,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0410', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0410';
-      let pageName = "UIComponentOtherScrollableAnimation0410";
+      let pageName = 'UIComponentOtherScrollableAnimation0410';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1309,7 +1309,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0420', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0420';
-      let pageName = "UIComponentOtherScrollableAnimation0420";
+      let pageName = 'UIComponentOtherScrollableAnimation0420';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1339,7 +1339,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0430', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0430';
-      let pageName = "UIComponentOtherScrollableAnimation0430";
+      let pageName = 'UIComponentOtherScrollableAnimation0430';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1369,7 +1369,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0440', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0440';
-      let pageName = "UIComponentOtherScrollableAnimation0440";
+      let pageName = 'UIComponentOtherScrollableAnimation0440';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1399,7 +1399,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0460', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0460';
-      let pageName = "UIComponentOtherScrollableAnimation0460";
+      let pageName = 'UIComponentOtherScrollableAnimation0460';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1429,7 +1429,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0590', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0590';
-      let pageName = "UIComponentOtherScrollableAnimation0590";
+      let pageName = 'UIComponentOtherScrollableAnimation0590';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1458,7 +1458,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0600', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0600';
-      let pageName = "UIComponentOtherScrollableAnimation0600";
+      let pageName = 'UIComponentOtherScrollableAnimation0600';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();
@@ -1489,7 +1489,7 @@ export default function uIComponentOtherScrollableAnimation() {
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0610', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0610';
-      let pageName = "UIComponentOtherScrollableAnimation0610";
+      let pageName = 'UIComponentOtherScrollableAnimation0610';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentOtherScrollableAnimation/' + pageName);
       let driver: Driver = Driver.create();

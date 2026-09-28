@@ -68,7 +68,7 @@ export default function uIComponentScrollScrollGetItemRect() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0210';
-      let pageName = "UIComponentScrollScrollGetItemRect0210";
+      let pageName = 'UIComponentScrollScrollGetItemRect0210';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollGetItemRect/' + pageName);
       let driver: Driver = Driver.create();
@@ -99,7 +99,7 @@ export default function uIComponentScrollScrollGetItemRect() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0220';
-      let pageName = "UIComponentScrollScrollGetItemRect0220";
+      let pageName = 'UIComponentScrollScrollGetItemRect0220';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollGetItemRect/' + pageName);
       let driver: Driver = Driver.create();
@@ -140,7 +140,7 @@ export default function uIComponentScrollScrollGetItemRect() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0280';
-      let pageName = "UIComponentScrollScrollGetItemRect0280";
+      let pageName = 'UIComponentScrollScrollGetItemRect0280';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollGetItemRect/' + pageName);
       let driver: Driver = Driver.create();
@@ -169,7 +169,7 @@ export default function uIComponentScrollScrollGetItemRect() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0310';
-      let pageName = "UIComponentScrollScrollGetItemRect0310";
+      let pageName = 'UIComponentScrollScrollGetItemRect0310';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollGetItemRect/' + pageName);
       let driver: Driver = Driver.create();
@@ -200,7 +200,7 @@ export default function uIComponentScrollScrollGetItemRect() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0320';
-      let pageName = "UIComponentScrollScrollGetItemRect0320";
+      let pageName = 'UIComponentScrollScrollGetItemRect0320';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollGetItemRect/' + pageName);
       let driver: Driver = Driver.create();
@@ -241,7 +241,7 @@ export default function uIComponentScrollScrollGetItemRect() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0330', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0330';
-      let pageName = "UIComponentScrollScrollGetItemRect0330";
+      let pageName = 'UIComponentScrollScrollGetItemRect0330';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollGetItemRect/' + pageName);
       let driver: Driver = Driver.create();
@@ -272,7 +272,7 @@ export default function uIComponentScrollScrollGetItemRect() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0340', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0340';
-      let pageName = "UIComponentScrollScrollGetItemRect0340";
+      let pageName = 'UIComponentScrollScrollGetItemRect0340';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollGetItemRect/' + pageName);
       let driver: Driver = Driver.create();
@@ -312,7 +312,7 @@ export default function uIComponentScrollScrollGetItemRect() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0350', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0350';
-      let pageName = "UIComponentScrollScrollGetItemRect0350";
+      let pageName = 'UIComponentScrollScrollGetItemRect0350';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollGetItemRect/' + pageName);
       let driver: Driver = Driver.create();
@@ -348,7 +348,7 @@ export default function uIComponentScrollScrollGetItemRect() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0360', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0360';
-      let pageName = "UIComponentScrollScrollGetItemRect0360";
+      let pageName = 'UIComponentScrollScrollGetItemRect0360';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollGetItemRect/' + pageName);
       let driver: Driver = Driver.create();
@@ -384,7 +384,7 @@ export default function uIComponentScrollScrollGetItemRect() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0370', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0370';
-      let pageName = "UIComponentScrollScrollGetItemRect0370";
+      let pageName = 'UIComponentScrollScrollGetItemRect0370';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollGetItemRect/' + pageName);
       let driver: Driver = Driver.create();
@@ -413,7 +413,7 @@ export default function uIComponentScrollScrollGetItemRect() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0380', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0380';
-      let pageName = "UIComponentScrollScrollGetItemRect0380";
+      let pageName = 'UIComponentScrollScrollGetItemRect0380';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollGetItemRect/' + pageName);
       let driver: Driver = Driver.create();

@@ -68,7 +68,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0010';
-      let pageName = "UIComponentWaterFlowSlidingWindow0010";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -94,7 +94,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0020';
-      let pageName = "UIComponentWaterFlowSlidingWindow0020";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -120,7 +120,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0030';
-      let pageName = "UIComponentWaterFlowSlidingWindow0030";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -146,7 +146,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0040';
-      let pageName = "UIComponentWaterFlowSlidingWindow0040";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -174,7 +174,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0050';
-      let pageName = "UIComponentWaterFlowSlidingWindow0050";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0050';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -236,7 +236,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0060';
-      let pageName = "UIComponentWaterFlowSlidingWindow0060";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0060';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -270,7 +270,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0070';
-      let pageName = "UIComponentWaterFlowSlidingWindow0070";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0070';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -298,7 +298,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0080';
-      let pageName = "UIComponentWaterFlowSlidingWindow0080";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0080';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -327,7 +327,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0090';
-      let pageName = "UIComponentWaterFlowSlidingWindow0090";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0090';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -353,7 +353,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0100';
-      let pageName = "UIComponentWaterFlowSlidingWindow0100";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0100';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -379,7 +379,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0110';
-      let pageName = "UIComponentWaterFlowSlidingWindow0110";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0110';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -411,7 +411,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0120';
-      let pageName = "UIComponentWaterFlowSlidingWindow0120";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0120';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -443,7 +443,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0130';
-      let pageName = "UIComponentWaterFlowSlidingWindow0130";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -471,7 +471,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0140';
-      let pageName = "UIComponentWaterFlowSlidingWindow0140";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0140';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -502,7 +502,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0170';
-      let pageName = "UIComponentWaterFlowSlidingWindow0170";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0170';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();
@@ -528,7 +528,7 @@ export default function uIComponentWaterFlowSlidingWindow() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0180';
-      let pageName = "UIComponentWaterFlowSlidingWindow0180";
+      let pageName = 'UIComponentWaterFlowSlidingWindow0180';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowSlidingWindow/' + pageName);
       let driver: Driver = Driver.create();

@@ -49,7 +49,7 @@ export default function gridEventEnhancementTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0060_165', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0060_165 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/gridEventEnhancement0060_165")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/gridEventEnhancement0060_165')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       

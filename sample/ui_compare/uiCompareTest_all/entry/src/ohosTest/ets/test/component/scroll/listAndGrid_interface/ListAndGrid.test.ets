@@ -50,7 +50,7 @@ export default function listAndGridTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0550 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/listAndGrid01")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/listAndGrid01')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('listAndGrid01'), 1000);
       await button.click();
@@ -71,7 +71,7 @@ export default function listAndGridTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0780 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/listAndGrid02")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/listAndGrid02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0780')
@@ -90,7 +90,7 @@ export default function listAndGridTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0790', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0790 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/listAndGrid03")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/listAndGrid03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0790')
@@ -109,7 +109,7 @@ export default function listAndGridTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0600 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/listAndGrid04")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/listAndGrid04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let button: Component = await driver.findComponent(ON.type('listAndGrid04'));
@@ -130,7 +130,7 @@ export default function listAndGridTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0100 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/listAndGrid05")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/listAndGrid05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -149,7 +149,7 @@ export default function listAndGridTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0250 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/listAndGrid06")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/listAndGrid06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

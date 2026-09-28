@@ -48,7 +48,7 @@ export default function listScrollToItemInGroupTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0020 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listScrollToItemInGroup02");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listScrollToItemInGroup02');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -73,7 +73,7 @@ export default function listScrollToItemInGroupTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0110 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listScrollToItemInGroup11");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listScrollToItemInGroup11');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -98,7 +98,7 @@ export default function listScrollToItemInGroupTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0120 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listScrollToItemInGroup12");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listScrollToItemInGroup12');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -123,7 +123,7 @@ export default function listScrollToItemInGroupTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0130 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listScrollToItemInGroup13");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listScrollToItemInGroup13');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -148,7 +148,7 @@ export default function listScrollToItemInGroupTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0170 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listScrollToItemInGroup17");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listScrollToItemInGroup17');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 

@@ -47,10 +47,10 @@ export default function uIComponentListCapabilityTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0120 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0120");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0120');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0120 finish.`);
       done();
@@ -66,10 +66,10 @@ export default function uIComponentListCapabilityTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0030 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0030");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0030');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0030 finish.`);
       done();
@@ -85,10 +85,10 @@ export default function uIComponentListCapabilityTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0040 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability003');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0040");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0040');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0040 finish.`);
       done();
@@ -104,10 +104,10 @@ export default function uIComponentListCapabilityTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0070 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability004');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0070");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0070');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0070 finish.`);
       done();
@@ -123,10 +123,10 @@ export default function uIComponentListCapabilityTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0160 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability005");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability005');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0160");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0160');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0160 finish.`);
       done();
@@ -142,10 +142,10 @@ export default function uIComponentListCapabilityTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0150 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability006");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability006');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0150");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0150');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0150 finish.`);
       done();
@@ -161,10 +161,10 @@ export default function uIComponentListCapabilityTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0110 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability007");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability007');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0110");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0110');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0110 finish.`);
       done();
@@ -180,10 +180,10 @@ export default function uIComponentListCapabilityTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0080 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability008");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability008');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0080");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0080');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0080 finish.`);
       done();
@@ -199,12 +199,12 @@ export default function uIComponentListCapabilityTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1150 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability009");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListCapability/UIComponentListCapability009');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
       await Settings.changeWindowOrientation('landScape');
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1150");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1150');
       await Utils.sleep(1000);
       await Settings.changeWindowOrientation('portrait');
       await Utils.sleep(1000);

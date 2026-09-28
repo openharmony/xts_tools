@@ -68,7 +68,7 @@ export default function uIComponentListAndGridXommonOnDidScroll() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0010';
-      let pageName = "UIComponentListAndGridXommonOnDidScroll0010";
+      let pageName = 'UIComponentListAndGridXommonOnDidScroll0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridXommonOnDidScroll/' + pageName);
       let driver: Driver = Driver.create();
@@ -98,7 +98,7 @@ export default function uIComponentListAndGridXommonOnDidScroll() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0020';
-      let pageName = "UIComponentListAndGridXommonOnDidScroll0020";
+      let pageName = 'UIComponentListAndGridXommonOnDidScroll0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridXommonOnDidScroll/' + pageName);
       let driver: Driver = Driver.create();
@@ -133,7 +133,7 @@ export default function uIComponentListAndGridXommonOnDidScroll() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0030';
-      let pageName = "UIComponentListAndGridXommonOnDidScroll0030";
+      let pageName = 'UIComponentListAndGridXommonOnDidScroll0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridXommonOnDidScroll/' + pageName);
       let driver: Driver = Driver.create();

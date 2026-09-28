@@ -69,7 +69,7 @@ export default function uIComponentWaterFlowCachedCount() {
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CACHEDCOUNT_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CACHEDCOUNT_0110';
-      let pageName = "UIComponentWaterFlowCachedCount0110";
+      let pageName = 'UIComponentWaterFlowCachedCount0110';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentWaterFlowCachedCount/' + pageName);
       let driver: Driver = Driver.create();

@@ -49,10 +49,10 @@ export default function uIComponentListChildMainSizeTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0160', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0160';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListChildMainSize/UIComponentListChildMainSize001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListChildMainSize/UIComponentListChildMainSize001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0160");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0160');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -69,12 +69,12 @@ export default function uIComponentListChildMainSizeTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0680', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0680';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListChildMainSize/UIComponentListChildMainSize002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListChildMainSize/UIComponentListChildMainSize002');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('getItemRect'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0680");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0680');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -91,7 +91,7 @@ export default function uIComponentListChildMainSizeTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0560', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0560';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListChildMainSize/UIComponentListChildMainSize003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListChildMainSize/UIComponentListChildMainSize003');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('splice(0)'), 1000);
       await button1.click();
@@ -100,7 +100,7 @@ export default function uIComponentListChildMainSizeTest() {
       let button3: Component = await driver.waitForComponent(ON.id('splice(3)'), 1000);
       await button3.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0560");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0560');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -117,12 +117,12 @@ export default function uIComponentListChildMainSizeTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0620', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0620';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListChildMainSize/UIComponentListChildMainSize004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListChildMainSize/UIComponentListChildMainSize004');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('update'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0620");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0620');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -139,12 +139,12 @@ export default function uIComponentListChildMainSizeTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0580', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0580';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListChildMainSize/UIComponentListChildMainSize005");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListChildMainSize/UIComponentListChildMainSize005');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('update'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0580");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0580');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

@@ -49,10 +49,10 @@ export default function uIComponentListScrollBarWidthTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0010', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0010';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListScrollBarWidth/UIComponentListScrollBarWidth001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListScrollBarWidth/UIComponentListScrollBarWidth001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0010");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -69,10 +69,10 @@ export default function uIComponentListScrollBarWidthTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0020', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0020';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListScrollBarWidth/UIComponentListScrollBarWidth002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListScrollBarWidth/UIComponentListScrollBarWidth002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0020");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0020');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -89,10 +89,10 @@ export default function uIComponentListScrollBarWidthTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0030', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0030';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListScrollBarWidth/UIComponentListScrollBarWidth003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListScrollBarWidth/UIComponentListScrollBarWidth003');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0030");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0030');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -109,29 +109,29 @@ export default function uIComponentListScrollBarWidthTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListScrollBarWidth/UIComponentListScrollBarWidth004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListScrollBarWidth/UIComponentListScrollBarWidth004');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040_07");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040_07');
       let button: Component = await driver.waitForComponent(ON.id('change'), 1000);
       await button.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040_06");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040_06');
       await button.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040_05");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040_05');
       await button.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040_04");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040_04');
       await button.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040_03");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040_03');
       await button.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040_02');
       await button.click();
       await driver.waitForIdle(500, 1000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLBARWIDTH_0040');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

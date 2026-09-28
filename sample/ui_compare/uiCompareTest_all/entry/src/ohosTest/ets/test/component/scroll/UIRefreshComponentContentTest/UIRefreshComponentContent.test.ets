@@ -47,7 +47,7 @@ export default function uIRefreshComponentContent() {
      */
     it('SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0010 start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIRefreshComponentContent/UIRefreshComponentContent001");
+      Settings.createWindow('testability/pages/component/scroll/uIRefreshComponentContent/UIRefreshComponentContent001');
       let driver:Driver = Driver.create();
       let refresh2: Component = await driver.waitForComponent(ON.id('Refresh2'), 1000);
       let point2 = await refresh2.getBoundsCenter();
@@ -58,7 +58,7 @@ export default function uIRefreshComponentContent() {
       await driver.waitForIdle(500, 1000);
       await driver.mouseScroll({x: point1.x, y: point1.y}, false, 30);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0010");
+      windowSnap.snapShot('SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0010 finish.`);
       done();
@@ -74,7 +74,7 @@ export default function uIRefreshComponentContent() {
      */
     it('SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0020 start.`);
-      Settings.createWindow("testability/pages/component/scroll/uIRefreshComponentContent/UIRefreshComponentContent002");
+      Settings.createWindow('testability/pages/component/scroll/uIRefreshComponentContent/UIRefreshComponentContent002');
       let driver:Driver = Driver.create();
       let refresh2: Component = await driver.waitForComponent(ON.id('Refresh2'), 1000);
       let point2 = await refresh2.getBoundsCenter();
@@ -85,7 +85,7 @@ export default function uIRefreshComponentContent() {
       await driver.waitForIdle(500, 1000);
       await driver.mouseScroll({x: point1.x, y: point1.y}, false, 30);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0020");
+      windowSnap.snapShot('SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0020');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0020 finish.`);
       done();

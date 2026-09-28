@@ -48,7 +48,7 @@ export default function listMaintainVisibleContentPositionTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MAINTAINVISIBLECONTENTPOSITION_0070', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMaintainVisibleContentPosition01");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMaintainVisibleContentPosition01');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -102,7 +102,7 @@ export default function listMaintainVisibleContentPositionTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MAINTAINVISIBLECONTENTPOSITION_0020', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMaintainVisibleContentPosition02");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMaintainVisibleContentPosition02');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -156,7 +156,7 @@ export default function listMaintainVisibleContentPositionTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MAINTAINVISIBLECONTENTPOSITION_0060', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMaintainVisibleContentPosition03");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMaintainVisibleContentPosition03');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -210,7 +210,7 @@ export default function listMaintainVisibleContentPositionTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MAINTAINVISIBLECONTENTPOSITION_0210', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMaintainVisibleContentPosition04");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMaintainVisibleContentPosition04');
       await driver.waitForIdle(500, 2000);
 
       try {
@@ -264,7 +264,7 @@ export default function listMaintainVisibleContentPositionTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MAINTAINVISIBLECONTENTPOSITION_0260', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMaintainVisibleContentPosition05");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMaintainVisibleContentPosition05');
       await driver.waitForIdle(500, 2000);
 
       try {

@@ -47,10 +47,10 @@ export default function uIComponentScrollSwiperDragTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0560 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperDrag/UIComponentScrollSwiperDrag001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperDrag/UIComponentScrollSwiperDrag001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0560");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0560');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0560 finish.`);
       done();
@@ -66,10 +66,10 @@ export default function uIComponentScrollSwiperDragTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0550 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperDrag/UIComponentScrollSwiperDrag002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperDrag/UIComponentScrollSwiperDrag002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0550");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0550');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0550 finish.`);
       done();
@@ -85,12 +85,12 @@ export default function uIComponentScrollSwiperDragTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0730 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperDrag/UIComponentScrollSwiperDrag003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperDrag/UIComponentScrollSwiperDrag003');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('switch'), 1000);
       await button.click();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0730");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0730');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0730 finish.`);
       done();
@@ -107,7 +107,7 @@ export default function uIComponentScrollSwiperDragTest() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0670', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0670';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollSwiperDrag/UIComponentScrollSwiperDrag004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollSwiperDrag/UIComponentScrollSwiperDrag004');
       let driver: Driver = Driver.create();
       let swipe: Component = await driver.waitForComponent(ON.id('Swipe'), 1000);
       let point = await swipe.getBoundsCenter();
@@ -116,7 +116,7 @@ export default function uIComponentScrollSwiperDragTest() {
       console.info(`${caseName} rect of Swipe is ${JSON.stringify(rect)}`);
       await driver.drag(point.x, rect.bottom - 5, point.x, rect.top, 4000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0670");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0670');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

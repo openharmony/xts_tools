@@ -49,7 +49,7 @@ export default function listMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0030 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMirror01");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMirror01');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -78,7 +78,7 @@ export default function listMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0060 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMirror02");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMirror02');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -112,7 +112,7 @@ export default function listMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0230 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMirror03");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMirror03');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -146,7 +146,7 @@ export default function listMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0240 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMirror04");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMirror04');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -180,7 +180,7 @@ export default function listMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0280 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMirror05");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMirror05');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -214,7 +214,7 @@ export default function listMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0300 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMirror06");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMirror06');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -248,7 +248,7 @@ export default function listMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0420 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMirror07");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMirror07');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -277,7 +277,7 @@ export default function listMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0430 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMirror08");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMirror08');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -306,7 +306,7 @@ export default function listMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0480 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMirror09");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMirror09');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -340,7 +340,7 @@ export default function listMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0490 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMirror10");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMirror10');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 
@@ -374,7 +374,7 @@ export default function listMirrorTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0710 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid/listMirror11");
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid/listMirror11');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
 

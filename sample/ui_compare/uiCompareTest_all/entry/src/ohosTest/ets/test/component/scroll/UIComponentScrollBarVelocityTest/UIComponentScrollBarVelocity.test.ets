@@ -48,7 +48,7 @@ export default function uIComponentScrollBarVelocityTest() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollBarVelocity/UIComponentScrollBarVelocity001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollBarVelocity/UIComponentScrollBarVelocity001');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('Bottom'), 1000);
       let button2: Component = await driver.waitForComponent(ON.id('fling'), 1000);
@@ -60,7 +60,7 @@ export default function uIComponentScrollBarVelocityTest() {
       await button2.click();
       await driver.mouseClick(point, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();
@@ -77,7 +77,7 @@ export default function uIComponentScrollBarVelocityTest() {
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentScrollBarVelocity/UIComponentScrollBarVelocity002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentScrollBarVelocity/UIComponentScrollBarVelocity002');
       let driver: Driver = Driver.create();
       let button1: Component = await driver.waitForComponent(ON.id('Bottom'), 1000);
       let button2: Component = await driver.waitForComponent(ON.id('fling'), 1000);
@@ -89,7 +89,7 @@ export default function uIComponentScrollBarVelocityTest() {
       await button2.click();
       await driver.mouseClick(point, MouseButton.MOUSE_BUTTON_LEFT);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

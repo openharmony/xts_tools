@@ -49,7 +49,7 @@ export default function gridAlignItemsTest() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0120 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/gridAlignItems0120")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/gridAlignItems0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0120');
@@ -68,7 +68,7 @@ export default function gridAlignItemsTest() {
      */
     it('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0130 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/gridAlignItems0130")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/gridAlignItems0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0130');

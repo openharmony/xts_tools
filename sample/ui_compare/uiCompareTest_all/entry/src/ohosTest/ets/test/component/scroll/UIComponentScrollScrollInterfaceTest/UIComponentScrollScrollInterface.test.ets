@@ -68,7 +68,7 @@ export default function uIComponentScrollScrollInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0370', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0370';
-      let pageName = "UIComponentScrollScrollInterface0370";
+      let pageName = 'UIComponentScrollScrollInterface0370';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -94,7 +94,7 @@ export default function uIComponentScrollScrollInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0550', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0550';
-      let pageName = "UIComponentScrollScrollInterface0550";
+      let pageName = 'UIComponentScrollScrollInterface0550';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -127,7 +127,7 @@ export default function uIComponentScrollScrollInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0560', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0560';
-      let pageName = "UIComponentScrollScrollInterface0560";
+      let pageName = 'UIComponentScrollScrollInterface0560';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -160,7 +160,7 @@ export default function uIComponentScrollScrollInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0570', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0570';
-      let pageName = "UIComponentScrollScrollInterface0570";
+      let pageName = 'UIComponentScrollScrollInterface0570';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -193,7 +193,7 @@ export default function uIComponentScrollScrollInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0600', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0600';
-      let pageName = "UIComponentScrollScrollInterface0600";
+      let pageName = 'UIComponentScrollScrollInterface0600';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -226,7 +226,7 @@ export default function uIComponentScrollScrollInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0610', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0610';
-      let pageName = "UIComponentScrollScrollInterface0610";
+      let pageName = 'UIComponentScrollScrollInterface0610';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -259,7 +259,7 @@ export default function uIComponentScrollScrollInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0620', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0620';
-      let pageName = "UIComponentScrollScrollInterface0620";
+      let pageName = 'UIComponentScrollScrollInterface0620';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -292,7 +292,7 @@ export default function uIComponentScrollScrollInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0630', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0630';
-      let pageName = "UIComponentScrollScrollInterface0630";
+      let pageName = 'UIComponentScrollScrollInterface0630';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -321,7 +321,7 @@ export default function uIComponentScrollScrollInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0640', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0640';
-      let pageName = "UIComponentScrollScrollInterface0640";
+      let pageName = 'UIComponentScrollScrollInterface0640';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -353,7 +353,7 @@ export default function uIComponentScrollScrollInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0650', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0650';
-      let pageName = "UIComponentScrollScrollInterface0650";
+      let pageName = 'UIComponentScrollScrollInterface0650';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -382,7 +382,7 @@ export default function uIComponentScrollScrollInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0660', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0660';
-      let pageName = "UIComponentScrollScrollInterface0660";
+      let pageName = 'UIComponentScrollScrollInterface0660';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollInterface/' + pageName);
       let driver: Driver = Driver.create();

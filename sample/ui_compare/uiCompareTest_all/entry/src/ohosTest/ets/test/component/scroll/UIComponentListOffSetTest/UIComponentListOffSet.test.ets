@@ -47,10 +47,10 @@ export default function uIComponentListOffSetTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListOffSet/UIComponentListOffSet001");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListOffSet/UIComponentListOffSet001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050 finish.`);
       done();
@@ -66,10 +66,10 @@ export default function uIComponentListOffSetTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0220 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListOffSet/UIComponentListOffSet002");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListOffSet/UIComponentListOffSet002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0220");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0220');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0220 finish.`);
       done();
@@ -85,10 +85,10 @@ export default function uIComponentListOffSetTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0030 start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListOffSet/UIComponentListOffSet003");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListOffSet/UIComponentListOffSet003');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0030");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0030');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0030 finish.`);
       done();
@@ -105,7 +105,7 @@ export default function uIComponentListOffSetTest() {
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/component/scroll/UIComponentListOffSet/UIComponentListOffSet004");
+      Settings.createWindow('testability/pages/component/scroll/UIComponentListOffSet/UIComponentListOffSet004');
       let driver: Driver = Driver.create();
       let List1: Component = await driver.waitForComponent(ON.id('List1'), 1000);
       let point1 = await List1.getBoundsCenter();
@@ -114,10 +114,10 @@ export default function uIComponentListOffSetTest() {
       let point2 = await List2.getBoundsCenter();
       console.info(`${caseName} point of List2 is ${JSON.stringify(point2)}`);
       await driver.drag(point1.x, point1.y - 170, point1.x, point1.y + 170);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251_02");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251_02');
       await driver.waitForIdle(500, 2000);
       await driver.drag(point2.x, point2.y + 170, point2.x, point2.y - 170);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251');
       await Utils.sleep(1000);
       Logger.info('TEST', `${caseName} finish.`);
       done();

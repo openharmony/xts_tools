@@ -50,7 +50,7 @@ export default function repeatWaterFlowTest() {
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0190 start.`);
-      Settings.createWindow("testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow01")
+      Settings.createWindow('testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function repeatWaterFlowTest() {
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0080 start.`);
-      Settings.createWindow("testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow02")
+      Settings.createWindow('testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow02')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('repeatWaterFlow02_03'), 1000);
       await button.click();
@@ -90,7 +90,7 @@ export default function repeatWaterFlowTest() {
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0020 start.`);
-      Settings.createWindow("testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow03")
+      Settings.createWindow('testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -109,7 +109,7 @@ export default function repeatWaterFlowTest() {
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0030 start.`);
-      Settings.createWindow("testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow04")
+      Settings.createWindow('testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -128,7 +128,7 @@ export default function repeatWaterFlowTest() {
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0040 start.`);
-      Settings.createWindow("testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow05")
+      Settings.createWindow('testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow05')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('repeatWaterFlow05_03'), 1000);
       await button.click();
@@ -149,7 +149,7 @@ export default function repeatWaterFlowTest() {
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0090 start.`);
-      Settings.createWindow("testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow06")
+      Settings.createWindow('testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow06')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('repeatWaterFlow06_03'), 1000);
       await button.click();
@@ -170,7 +170,7 @@ export default function repeatWaterFlowTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0380_941', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0380_941 start.`);
-      Settings.createWindow("testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow07")
+      Settings.createWindow('testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow07')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('repeatWaterFlow07_Update'), 1000);
       await button.click();
@@ -191,7 +191,7 @@ export default function repeatWaterFlowTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMAINSIZEBTINDEX_0010_141_624', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMAINSIZEBTINDEX_0010_141_624 start.`);
-      Settings.createWindow("testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow09")
+      Settings.createWindow('testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow09')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -210,7 +210,7 @@ export default function repeatWaterFlowTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMAINSIZEBTINDEX_0010_141_656_824', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMAINSIZEBTINDEX_0010_141_656_824 start.`);
-      Settings.createWindow("testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow10")
+      Settings.createWindow('testability/pages/component/scroll/repeatWaterFlow/repeatWaterFlow10')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()

@@ -68,7 +68,7 @@ export default function uIComponentListAndGridWaterFlowSpring() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0160_620', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0160_620';
-      let pageName = "UIComponentListAndGridWaterFlowSpring0160_620";
+      let pageName = 'UIComponentListAndGridWaterFlowSpring0160_620';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridWaterFlowSpring/' + pageName);
       let driver: Driver = Driver.create();
@@ -97,7 +97,7 @@ export default function uIComponentListAndGridWaterFlowSpring() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0170_446', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0170_446';
-      let pageName = "UIComponentListAndGridWaterFlowSpring0170_446";
+      let pageName = 'UIComponentListAndGridWaterFlowSpring0170_446';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridWaterFlowSpring/' + pageName);
       let driver: Driver = Driver.create();
@@ -126,7 +126,7 @@ export default function uIComponentListAndGridWaterFlowSpring() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0190_782', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0190_782';
-      let pageName = "UIComponentListAndGridWaterFlowSpring0190_782";
+      let pageName = 'UIComponentListAndGridWaterFlowSpring0190_782';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentListAndGridWaterFlowSpring/' + pageName);
       let driver: Driver = Driver.create();

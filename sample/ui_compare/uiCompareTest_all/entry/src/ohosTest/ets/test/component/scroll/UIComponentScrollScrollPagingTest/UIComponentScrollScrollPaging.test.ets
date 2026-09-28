@@ -68,7 +68,7 @@ export default function uIComponentScrollScrollPaging() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0170';
-      let pageName = "UIComponentScrollScrollPaging0170";
+      let pageName = 'UIComponentScrollScrollPaging0170';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollPaging/' + pageName);
       let driver: Driver = Driver.create();
@@ -96,7 +96,7 @@ export default function uIComponentScrollScrollPaging() {
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0180';
-      let pageName = "UIComponentScrollScrollPaging0180";
+      let pageName = 'UIComponentScrollScrollPaging0180';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/scroll/uIComponentScrollScrollPaging/' + pageName);
       let driver: Driver = Driver.create();

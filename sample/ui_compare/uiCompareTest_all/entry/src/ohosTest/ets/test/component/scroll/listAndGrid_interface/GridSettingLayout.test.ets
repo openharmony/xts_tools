@@ -49,7 +49,7 @@ export default function gridSettingLayoutTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0050 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/gridSettingLayout0050")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/gridSettingLayout0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0050_01');
@@ -78,7 +78,7 @@ export default function gridSettingLayoutTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0060 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/gridSettingLayout0060")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/gridSettingLayout0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0060_01');
@@ -107,7 +107,7 @@ export default function gridSettingLayoutTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0070 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/gridSettingLayout0070")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/gridSettingLayout0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0070_01');
@@ -136,7 +136,7 @@ export default function gridSettingLayoutTest() {
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0080 start.`);
-      Settings.createWindow("testability/pages/component/scroll/listAndGrid_interface/gridSettingLayout0080")
+      Settings.createWindow('testability/pages/component/scroll/listAndGrid_interface/gridSettingLayout0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SETTINGLAYOUT_0080_01');
