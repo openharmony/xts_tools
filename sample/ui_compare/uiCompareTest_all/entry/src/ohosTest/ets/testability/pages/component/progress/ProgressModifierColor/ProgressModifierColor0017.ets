@@ -29,14 +29,14 @@ class ProgressModifierSingle implements ContentModifier<ProgressConfiguration> {
   }
 
   applyContent(): WrappedBuilder<[ProgressConfiguration]> {
-    return wrapBuilder(CircularModifierColorSingle);
+    return wrapBuilder(circularModifierColorSingle);
   }
 }
 
 
 
 @Builder
-function CircularModifierColorSingle(config: ProgressConfiguration) {
+function circularModifierColorSingle(config: ProgressConfiguration) {
     Progress({
       value: (config.contentModifier as ProgressModifierSingle).value,
       total: (config.contentModifier as ProgressModifierSingle).tot,

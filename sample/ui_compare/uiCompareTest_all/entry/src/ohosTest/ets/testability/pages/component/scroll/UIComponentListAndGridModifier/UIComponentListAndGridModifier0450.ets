@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-class Modifier_UIComponentListAndGridModifier0450 implements AttributeModifier<ListAttribute> {
+class ModifierUIComponentListAndGridModifier0450 implements AttributeModifier<ListAttribute> {
   private chainAnimationValue: boolean = true;
 
   constructor(chainAnimationValue: boolean) {
@@ -268,7 +268,7 @@ struct UIComponentListAndGridModifier0450 {
 
         }, (groupIndex: number) => groupIndex.toString())
       }
-      .attributeModifier(new Modifier_UIComponentListAndGridModifier0450(this.chainAnimationValue))
+      .attributeModifier(new ModifierUIComponentListAndGridModifier0450(this.chainAnimationValue))
       .alignListItem(ListItemAlign.Center)
       .id(this.name + '_02')
       .enabled(true)

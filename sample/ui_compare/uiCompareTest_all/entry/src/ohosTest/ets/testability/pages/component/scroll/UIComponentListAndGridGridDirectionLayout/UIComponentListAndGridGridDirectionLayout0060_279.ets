@@ -15,8 +15,8 @@
 
 @Entry
 @Component
-struct UIComponentListAndGridGridDirectionLayout0060_279 {
-  @State name: string = 'UIComponentListAndGridGridDirectionLayout0060_279';
+struct UIComponentListAndGridGridDirectionLayout0060279 {
+  @State name: string = 'UIComponentListAndGridGridDirectionLayout0060279';
   @State message: string = this.name;
   @State numbers: number[] = [];
   scroller: Scroller = new Scroller();

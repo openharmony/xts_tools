@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-class Modifier1_UIComponentListAndGridModifier0560 implements AttributeModifier<ListAttribute> {
+class Modifier1UIComponentListAndGridModifier0560 implements AttributeModifier<ListAttribute> {
   private boolValue: boolean = true;
 
   constructor(boolValue: boolean) {
@@ -25,7 +25,7 @@ class Modifier1_UIComponentListAndGridModifier0560 implements AttributeModifier<
   }
 }
 
-class Modifier2_UIComponentListAndGridModifier0560 implements AttributeModifier<ListAttribute> {
+class Modifier2UIComponentListAndGridModifier0560 implements AttributeModifier<ListAttribute> {
   private boolValue: boolean = false;
 
   constructor(boolValue: boolean) {
@@ -295,8 +295,8 @@ struct UIComponentListAndGridModifier0560 {
 
         }, (groupIndex: number) => groupIndex.toString())
       }
-      .attributeModifier(new Modifier1_UIComponentListAndGridModifier0560(true))
-      .attributeModifier(new Modifier2_UIComponentListAndGridModifier0560(false))
+      .attributeModifier(new Modifier1UIComponentListAndGridModifier0560(true))
+      .attributeModifier(new Modifier2UIComponentListAndGridModifier0560(false))
       .alignListItem(ListItemAlign.Center)
       .id(this.name + '_02')
       .enabled(true)

@@ -15,8 +15,8 @@
 
 @Entry
 @Component
-struct UIComponentListAndGridGridInterface0300_519 {
-  @State name: string = 'UIComponentListAndGridGridInterface0300_519';
+struct UIComponentListAndGridGridInterface0300519 {
+  @State name: string = 'UIComponentListAndGridGridInterface0300519';
   @State message: string = this.name;
   @State numbers: number[] = [];
   scroller: Scroller = new Scroller();

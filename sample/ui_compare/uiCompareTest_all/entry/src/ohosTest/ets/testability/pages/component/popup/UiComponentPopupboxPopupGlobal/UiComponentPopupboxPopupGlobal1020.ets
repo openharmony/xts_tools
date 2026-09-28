@@ -89,7 +89,7 @@ class Params {
 }
 
 @Builder
-function PopupBuilder(params: Params) {
+function popupBuilder(params: Params) {
   Column() {
     Text("命令式 Popup")
       .fontSize(20)
@@ -140,7 +140,7 @@ struct UiComponentPopupboxPopupGlobal1020 {
         .id("button_test_1020")
         .margin({ bottom: 20 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(PopupBuilder), new Params("测试内容"));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("测试内容"));
           
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);

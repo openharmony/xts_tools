@@ -29,14 +29,14 @@ class LocalProgressModifier implements ContentModifier<ProgressConfiguration> {
   }
 
   applyContent(): WrappedBuilder<[ProgressConfiguration]> {
-    return wrapBuilder(CircularModifierColor);
+    return wrapBuilder(circularModifierColor);
   }
 }
 
 
 
 @Builder
-function CircularModifierColor(config: ProgressConfiguration) {
+function circularModifierColor(config: ProgressConfiguration) {
     Progress({
       value: (config.contentModifier as LocalProgressModifier).value,
       total: (config.contentModifier as LocalProgressModifier).tot,

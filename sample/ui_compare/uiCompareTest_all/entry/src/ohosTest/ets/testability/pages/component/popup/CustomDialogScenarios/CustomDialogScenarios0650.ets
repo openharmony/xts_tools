@@ -14,7 +14,7 @@
  */
 
 @CustomDialog
-struct CustomDialogExampleScenarios1_0650 {
+struct CustomDialogExampleScenarios10650 {
   controller: CustomDialogController
 
   build() {
@@ -37,7 +37,7 @@ struct CustomDialogExampleScenarios1_0650 {
 }
 
 @CustomDialog
-struct CustomDialogExampleScenarios2_0650 {
+struct CustomDialogExampleScenarios20650 {
   controller: CustomDialogController
 
   build() {
@@ -66,7 +66,7 @@ struct CustomDialogScenarios0650 {
   private richEditorController: RichEditorController = new RichEditorController()
 
   dialogController1: CustomDialogController = new CustomDialogController({
-    builder: CustomDialogExampleScenarios1_0650(),
+    builder: CustomDialogExampleScenarios10650(),
     autoCancel: true,
     cancel: () => {
       this.logMessage = 'CustomDialog1 Close'
@@ -80,7 +80,7 @@ struct CustomDialogScenarios0650 {
   })
 
   dialogController2: CustomDialogController = new CustomDialogController({
-    builder: CustomDialogExampleScenarios2_0650(),
+    builder: CustomDialogExampleScenarios20650(),
     autoCancel: true,
     cancel: () => {
       this.logMessage = 'CustomDialog2 Close'

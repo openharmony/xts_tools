@@ -84,7 +84,7 @@ struct MenuPlacement41 {
         .height("100%")
         .linearGradient({
           direction: GradientDirection.Bottom,
-          colors: [[0xFFFF5722, 0.0], [0xFFF4511E, 0.3], [0xFFE64A19, 0.7], [0xFFD84315, 1.0]]
+          colors: [[0xFFFF5722, 0.0], [0xFFF4511E, 0.3], [0xFFE64A19, 0.7], [0xFFd74315, 1.0]]
         })
       
       // 装饰性圆形

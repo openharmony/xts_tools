@@ -23,7 +23,7 @@
 import { RouterScene0020Builder } from './routerScene0020';
 
 @Builder
-function DynamicBuilder0020(name: string, param: Object) {
+function dynamicBuilder0020(name: string, param: Object) {
   if (name === 'RouterScene0020') {
     RouterScene0020Builder(name, param);
   }
@@ -58,7 +58,7 @@ export struct NavigationOnNewParam0020 {
       .backgroundColor('#FFFFFF')
     }
     .title('Router单例跳转支持参数刷新回调OnNewParam')
-    .navDestination(DynamicBuilder0020)
+    .navDestination(dynamicBuilder0020)
   }
 }
 

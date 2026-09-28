@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-class Modifier_UIComponentListAndGridModifier0710 implements AttributeModifier<ListAttribute> {
+class ModifierUIComponentListAndGridModifier0710 implements AttributeModifier<ListAttribute> {
   private barStateValue: BarState = BarState.On;
 
   constructor(barStateValue: BarState) {
@@ -287,7 +287,7 @@ struct UIComponentListAndGridModifier0710 {
 
         }, (groupIndex: number) => groupIndex.toString())
       }
-      .attributeModifier(new Modifier_UIComponentListAndGridModifier0710(this.barStateValue))
+      .attributeModifier(new ModifierUIComponentListAndGridModifier0710(this.barStateValue))
       .alignListItem(ListItemAlign.Center)
       .id(this.name + '_02')
       .enabled(true)

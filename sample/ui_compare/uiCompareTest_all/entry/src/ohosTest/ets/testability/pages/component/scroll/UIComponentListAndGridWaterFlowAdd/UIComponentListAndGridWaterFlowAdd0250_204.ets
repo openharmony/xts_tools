@@ -15,8 +15,8 @@
 
 @Entry
 @Component
-struct UIComponentListAndGridWaterFlowAdd0250_204 {
-  @State name: string = 'UIComponentListAndGridWaterFlowAdd0250_204';
+struct UIComponentListAndGridWaterFlowAdd0250204 {
+  @State name: string = 'UIComponentListAndGridWaterFlowAdd0250204';
   @State message: string = this.name;
   @State numbers: number[] = [];
   @State gutterValue: Dimension = 10;

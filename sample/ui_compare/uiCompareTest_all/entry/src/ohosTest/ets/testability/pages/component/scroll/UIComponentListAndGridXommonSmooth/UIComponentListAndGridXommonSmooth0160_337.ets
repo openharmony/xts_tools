@@ -15,8 +15,8 @@
 
 @Entry
 @Component
-struct UIComponentListAndGridXommonSmooth0160_337 {
-  @State name: string = 'UIComponentListAndGridXommonSmooth0160_337';
+struct UIComponentListAndGridXommonSmooth0160337 {
+  @State name: string = 'UIComponentListAndGridXommonSmooth0160337';
   @State message: string = this.name;
   @State numbers: number[] = [];
   @State waterFlowDirection: FlexDirection = FlexDirection.Column;

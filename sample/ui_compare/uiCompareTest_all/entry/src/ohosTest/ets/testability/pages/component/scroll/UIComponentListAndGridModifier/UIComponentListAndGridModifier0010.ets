@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-class Modifier_UIComponentListAndGridModifier0010 implements AttributeModifier<ListItemAttribute> {
+class ModifierUIComponentListAndGridModifier0010 implements AttributeModifier<ListItemAttribute> {
   private item: number;
   private message: string;
   private numbers: number[];
@@ -331,7 +331,7 @@ struct UIComponentListAndGridModifier0010 {
               .width(this.itemWidth)
               .height(this.itemHeight)
               .enabled(true)
-              .attributeModifier(new Modifier_UIComponentListAndGridModifier0010(
+              .attributeModifier(new ModifierUIComponentListAndGridModifier0010(
                 item,
                 this.message,
                 this.numbers,

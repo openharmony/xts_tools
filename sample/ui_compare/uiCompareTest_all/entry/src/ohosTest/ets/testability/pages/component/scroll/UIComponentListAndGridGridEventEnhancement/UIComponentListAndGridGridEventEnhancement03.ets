@@ -241,7 +241,7 @@ struct UIComponentListAndGridGridEventEnhancement03 {
               .fontSize(9)
               .width('100%')
               .height(28)
-              .backgroundColor('#607D8B')
+              .backgroundColor('#607d7B')
               .fontColor('#FFFFFF')
               .borderRadius(4)
               .onClick(() => {

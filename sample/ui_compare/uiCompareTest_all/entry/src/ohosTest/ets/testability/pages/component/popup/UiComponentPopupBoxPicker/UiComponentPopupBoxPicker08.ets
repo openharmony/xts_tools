@@ -46,7 +46,7 @@ struct UiComponentPopupBoxPicker08 {
             Text('回调日志 (共')
               .fontSize(14)
               .fontWeight(FontWeight.Bold)
-              .fontColor('#607D8B')
+              .fontColor('#607d7B')
             Text(`${this.callbackLog.length}`)
               .fontSize(14)
               .fontWeight(FontWeight.Bold)
@@ -54,7 +54,7 @@ struct UiComponentPopupBoxPicker08 {
             Text('条):')
               .fontSize(14)
               .fontWeight(FontWeight.Bold)
-              .fontColor('#607D8B')
+              .fontColor('#607d7B')
           }
           .width('100%')
 
@@ -163,7 +163,7 @@ struct UiComponentPopupBoxPicker08 {
           Text('当前选择的日期:')
             .fontSize(14)
             .fontWeight(FontWeight.Bold)
-            .fontColor('#607D8B')
+            .fontColor('#607d7B')
             .width('100%')
             .textAlign(TextAlign.Start)
 

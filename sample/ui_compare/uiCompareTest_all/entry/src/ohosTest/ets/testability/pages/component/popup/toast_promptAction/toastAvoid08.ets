@@ -17,7 +17,7 @@ import { promptAction } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct toastAvoid08 {
+struct ToastAvoid08 {
   @State message: string = 'Toast避让测试 - Top对齐';
   @State isKeyboardVisible: boolean = false;
 

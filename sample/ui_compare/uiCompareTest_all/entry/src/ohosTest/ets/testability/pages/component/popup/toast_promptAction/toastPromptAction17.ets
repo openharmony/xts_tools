@@ -18,7 +18,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
 @Component
-struct toastPromptAction17 {
+struct ToastPromptAction17 {
   @State toastId: number = 0;
   private uiContext: UIContext = this.getUIContext();
   private promptAction: PromptAction = this.uiContext.getPromptAction();

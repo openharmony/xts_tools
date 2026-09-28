@@ -18,7 +18,7 @@ import { PageOne0190Builder } from './pageOne0190';
 import { PageTwo0190Builder } from './pageTwo0190';
 
 @Builder
-function DynamicBuilder0190(name: string, param: Object) {
+function dynamicBuilder0190(name: string, param: Object) {
   if (name === 'NavigationScene0190') {
     NavigationScene0190Builder(name, param);
   } else if (name === 'PageOne0190') {
@@ -57,7 +57,7 @@ export struct NavigationOnNewParam0190 {
       .backgroundColor('#FFFFFF')
     }
     .title('Navigation单例跳转支持参数刷新回调OnNewParam')
-    .navDestination(DynamicBuilder0190)
+    .navDestination(dynamicBuilder0190)
   }
 }
 

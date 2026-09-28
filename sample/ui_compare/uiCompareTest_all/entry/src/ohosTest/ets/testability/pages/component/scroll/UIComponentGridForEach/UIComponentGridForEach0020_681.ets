@@ -15,8 +15,8 @@
 
 @Entry
 @Component
-struct UIComponentGridForEach0020_681 {
-  @State name: string = 'UIComponentGridForEach0020_681';
+struct UIComponentGridForEach0020681 {
+  @State name: string = 'UIComponentGridForEach0020681';
   @State message: string = this.name;
   @State numbers1: string[] = [];
   @State numbers2: string[] = [];

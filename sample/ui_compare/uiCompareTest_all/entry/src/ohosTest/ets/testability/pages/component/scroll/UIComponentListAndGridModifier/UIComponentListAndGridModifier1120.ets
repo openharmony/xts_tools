@@ -14,7 +14,7 @@
  */
 import { LengthUnit } from '@kit.ArkUI';
 
-class Modifier_UIComponentListAndGridModifier1120 implements AttributeModifier<WaterFlowAttribute> {
+class ModifierUIComponentListAndGridModifier1120 implements AttributeModifier<WaterFlowAttribute> {
   private enableScrollInteractionValue: boolean = true;
 
   constructor(enableScrollInteractionValue: boolean) {
@@ -234,7 +234,7 @@ struct UIComponentListAndGridModifier1120 {
         }, (item: number) => item.toString())
       }
       .id(this.name + '_02')
-      .attributeModifier(new Modifier_UIComponentListAndGridModifier1120(this.enableScrollInteractionValue))
+      .attributeModifier(new ModifierUIComponentListAndGridModifier1120(this.enableScrollInteractionValue))
       .layoutDirection(this.waterFlowDirection)
       .fadingEdge(this.fadingEdgeEnabled, this.fadingEdgeOptions)
       .columnsTemplate(this.templateString)

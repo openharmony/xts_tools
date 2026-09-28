@@ -14,7 +14,7 @@
  */
 
 @CustomDialog
-struct CustomDialogExampleScenarios3_0530 {
+struct CustomDialogExampleScenarios30530 {
   controller: CustomDialogController
 
   build() {
@@ -37,10 +37,10 @@ struct CustomDialogExampleScenarios3_0530 {
 }
 
 @CustomDialog
-struct CustomDialogExampleScenarios2_0530 {
+struct CustomDialogExampleScenarios20530 {
   controller: CustomDialogController
   dialogController3: CustomDialogController = new CustomDialogController({
-    builder: CustomDialogExampleScenarios3_0530(),
+    builder: CustomDialogExampleScenarios30530(),
     autoCancel: true
   })
 
@@ -70,10 +70,10 @@ struct CustomDialogExampleScenarios2_0530 {
 }
 
 @CustomDialog
-struct CustomDialogExampleScenarios1_0530 {
+struct CustomDialogExampleScenarios10530 {
   controller: CustomDialogController
   dialogController2: CustomDialogController = new CustomDialogController({
-    builder: CustomDialogExampleScenarios2_0530(),
+    builder: CustomDialogExampleScenarios20530(),
     autoCancel: true
   })
 
@@ -106,7 +106,7 @@ struct CustomDialogExampleScenarios1_0530 {
 @Component
 struct CustomDialogScenarios0530 {
   dialogController1: CustomDialogController = new CustomDialogController({
-    builder: CustomDialogExampleScenarios1_0530(),
+    builder: CustomDialogExampleScenarios10530(),
     autoCancel: true
   })
 

@@ -71,7 +71,7 @@ struct DataProgressInterface022 {
         Text('测试场景: 跨端非传输过程中调用cancel')
           .fontSize(16)
           .margin(5)
-          .fontColor('#D84315')
+          .fontColor('#d74315')
           .fontWeight(FontWeight.Bold)
         Text(`跨端路径: ${this.targetPath}`)
           .fontSize(14)

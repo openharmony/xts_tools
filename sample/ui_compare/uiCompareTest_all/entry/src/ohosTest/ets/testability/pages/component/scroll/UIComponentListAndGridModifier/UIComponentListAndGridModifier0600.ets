@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-class Modifier_UIComponentListAndGridModifier0600 implements AttributeModifier<ListAttribute> {
+class ModifierUIComponentListAndGridModifier0600 implements AttributeModifier<ListAttribute> {
   private boolValue: boolean = true;
 
   constructor(boolValue: boolean) {
@@ -283,7 +283,7 @@ struct UIComponentListAndGridModifier0600 {
 
         }, (groupIndex: number) => groupIndex.toString())
       }
-      .attributeModifier(new Modifier_UIComponentListAndGridModifier0600(this.boolValue))
+      .attributeModifier(new ModifierUIComponentListAndGridModifier0600(this.boolValue))
       .alignListItem(ListItemAlign.Center)
       .id(this.name + '_02')
       .enabled(true)

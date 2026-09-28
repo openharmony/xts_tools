@@ -64,7 +64,7 @@ struct ProgressBackground0019 {
           .height(100)
           .backgroundColor(Color.Pink)
           .backgroundImage($r('app.media.icon'), ImageRepeat.XY)
-          .color(new LinearGradient([{ color: '#98D8C8', offset: 0 }, { color: '#F7DC6F', offset: 1 }]))
+          .color(new LinearGradient([{ color: '#98d7C8', offset: 0 }, { color: '#F7DC6F', offset: 1 }]))
           .style({ strokeWidth: 15, scaleCount: 30, scaleWidth: 3 })
       }
 
@@ -96,7 +96,7 @@ struct ProgressBackground0019 {
           .height(40)
           .backgroundColor(Color.Black)
           .backgroundImage($r('app.media.icon'), ImageRepeat.XY)
-          .color(new LinearGradient([{ color: '#F0E68C', offset: 0 }, { color: '#CD853F', offset: 1 }]))
+          .color(new LinearGradient([{ color: '#F0E68C', offset: 0 }, { color: '#Cd753F', offset: 1 }]))
         
         Progress({ value: 65, total: 100, type: ProgressType.Capsule })
           .width(90)

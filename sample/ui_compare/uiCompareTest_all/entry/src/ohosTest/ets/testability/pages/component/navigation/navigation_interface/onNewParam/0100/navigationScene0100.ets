@@ -18,12 +18,12 @@ import { PageTwo0100Builder } from './pageTwo0100';
 import { BusinessError } from '@kit.BasicServicesKit';
 
 @Builder
-export function NavigationScene0100Builder(name: string, param: Object) {
+export function navigationScene0100Builder(name: string, param: Object) {
   NavigationScene0100()
 }
 
 @Builder
-function DynamicBuilderScene0100(name: string, param: Object) {
+function dynamicBuilderScene0100(name: string, param: Object) {
   if (name === 'PageOne0100') {
     PageOne0100Builder(name, param);
   } else if (name === 'PageTwo0100') {
@@ -117,7 +117,7 @@ export struct NavigationScene0100 {
           // 初始内容为空，Navigation组件会根据pathStack状态显示子页面
         }
         .title('Navigation Scene')
-        .navDestination(DynamicBuilderScene0100)
+        .navDestination(dynamicBuilderScene0100)
         .width('100%')
         .layoutWeight(1)
       }

@@ -15,8 +15,8 @@
 
 @Entry
 @Component
-struct UIComponentListAndGridXommonSmooth0120_934 {
-  @State name: string = 'UIComponentListAndGridXommonSmooth0120_934';
+struct UIComponentListAndGridXommonSmooth0120934 {
+  @State name: string = 'UIComponentListAndGridXommonSmooth0120934';
   @State message: string = this.name;
   @State numbers: number[] = [];
   @State gridDirection: GridDirection = GridDirection.Column;

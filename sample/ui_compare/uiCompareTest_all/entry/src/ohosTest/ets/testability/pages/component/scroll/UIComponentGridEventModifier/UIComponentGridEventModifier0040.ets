@@ -17,7 +17,7 @@ interface Info_UIComponentGridEventModifier0040 {
   message: string;
 }
 
-class gridModifier_UIComponentGridEventModifier0040 implements AttributeModifier<GridAttribute> {
+class GridModifierUIComponentGridEventModifier0040 implements AttributeModifier<GridAttribute> {
   private info: Info_UIComponentGridEventModifier0040 = {
     message: ''
   };
@@ -44,7 +44,7 @@ struct UIComponentGridEventModifier0040 {
   @State info: Info_UIComponentGridEventModifier0040 = {
     message: this.name
   };
-  @State modifier: gridModifier_UIComponentGridEventModifier0040 = new gridModifier_UIComponentGridEventModifier0040(this.info);
+  @State modifier: GridModifierUIComponentGridEventModifier0040 = new GridModifierUIComponentGridEventModifier0040(this.info);
   @State numbers: string[] = [];
   scroller: Scroller = new Scroller();
   @State text: string = 'drag';

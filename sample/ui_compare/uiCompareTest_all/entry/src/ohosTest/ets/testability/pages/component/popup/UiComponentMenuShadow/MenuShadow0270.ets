@@ -161,7 +161,7 @@ struct MenuShadow0270 {
           .fontSize(16)
           .width('80%')
           .height(80)
-          .backgroundColor('#607D8B')
+          .backgroundColor('#607d7B')
           .bindContextMenu(this.MenuBuilder, ResponseType.RightClick, {
             enableArrow: true
           })

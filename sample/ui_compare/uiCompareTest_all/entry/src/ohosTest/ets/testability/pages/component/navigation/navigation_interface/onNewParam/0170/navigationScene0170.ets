@@ -24,12 +24,12 @@ class DerivedNavPathStack extends NavPathStack {
 }
 
 @Builder
-export function NavigationScene0170Builder(name: string, param: Object) {
+export function navigationScene0170Builder(name: string, param: Object) {
   NavigationScene0170()
 }
 
 @Builder
-function DynamicBuilderScene0170(name: string, param: Object) {
+function dynamicBuilderScene0170(name: string, param: Object) {
   if (name === 'PageOne0170') {
     PageOne0170Builder(name, param);
   } else if (name === 'PageTwo0170') {
@@ -97,7 +97,7 @@ export struct NavigationScene0170 {
           // 初始内容为空，Navigation组件会根据pathStack状态显示子页面
         }
         .title('Navigation Scene')
-        .navDestination(DynamicBuilderScene0170)
+        .navDestination(dynamicBuilderScene0170)
         .width('100%')
         .layoutWeight(1)
       }

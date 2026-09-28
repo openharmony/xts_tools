@@ -89,7 +89,7 @@ class Params {
 }
 
 @Builder
-function PopupBuilder(params: Params) {
+function popupBuilder(params: Params) {
   Column() {
     Text("Popup 内容")
       .fontSize(20)
@@ -137,7 +137,7 @@ struct UiComponentPopupboxPopupGlobal0840 {
   private promptActionClass: PromptActionClass = new PromptActionClass();
   private targetId: number = 0;
   private contentNode: ComponentContent<Object> =
-    new ComponentContent(this.uiContext, wrapBuilder(PopupBuilder), new Params(this.promptActionClass));
+    new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params(this.promptActionClass));
   private options: PopupCommonOptions = { 
     placement: Placement.Bottom,
     enableArrow: true,

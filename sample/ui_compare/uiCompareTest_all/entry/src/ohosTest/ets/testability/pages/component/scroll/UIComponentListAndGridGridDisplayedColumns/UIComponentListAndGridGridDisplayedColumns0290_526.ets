@@ -16,8 +16,8 @@ import { curves } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct UIComponentListAndGridGridDisplayedColumns0290_526 {
-  @State name: string = 'UIComponentListAndGridGridDisplayedColumns0290_526';
+struct UIComponentListAndGridGridDisplayedColumns0290526 {
+  @State name: string = 'UIComponentListAndGridGridDisplayedColumns0290526';
   @State message: string = this.name;
   @State numbers: string[] = [];
   scroller: Scroller = new Scroller();

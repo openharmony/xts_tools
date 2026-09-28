@@ -31,8 +31,12 @@ struct MediaTimepickerEnableCascade0081 {
 
   // 将24小时制转换为12小时制
   private get12Hour(hour: number): number {
-    if (hour === 0) return 12;
-    if (hour > 12) return hour - 12;
+    if (hour === 0) {
+      return 12;
+    }
+    if (hour > 12) {
+      return hour - 12;
+    }
     return hour;
   }
 

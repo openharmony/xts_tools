@@ -62,12 +62,12 @@ struct NavigationBindToScrollable40 {
       .backgroundColor('#FFFFFF')
     }
     .title('Navigation BindToScrollable Test')
-    .navDestination(PageOneBuilder)
+    .navDestination(pageOneBuilder)
   }
 }
 
 @Builder
-export function PageOneBuilder(name: string, param: Object) {
+export function pageOneBuilder(name: string, param: Object) {
   PageOne()
 }
 

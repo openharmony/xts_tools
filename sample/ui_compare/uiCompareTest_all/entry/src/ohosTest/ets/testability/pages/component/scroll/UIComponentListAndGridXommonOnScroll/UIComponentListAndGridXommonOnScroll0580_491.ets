@@ -17,8 +17,8 @@ import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
 @Component
-struct UIComponentListAndGridXommonOnScroll0580_491 {
-  @State name: string = 'UIComponentListAndGridXommonOnScroll0580_491';
+struct UIComponentListAndGridXommonOnScroll0580491 {
+  @State name: string = 'UIComponentListAndGridXommonOnScroll0580491';
   @State message: string = this.name;
   @State TAG: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0580_491';
   @State logMessage: string = '';

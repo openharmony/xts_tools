@@ -17,7 +17,7 @@ import { promptAction } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct toastAvoid15 {
+struct ToastAvoid15 {
   @State message: string = 'Toast避让测试 - SystemTopMost模式';
   @State isDarkMode: boolean = false;
 

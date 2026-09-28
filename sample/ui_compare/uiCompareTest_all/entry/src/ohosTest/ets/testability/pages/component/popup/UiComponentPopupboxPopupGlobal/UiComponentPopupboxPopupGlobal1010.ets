@@ -89,7 +89,7 @@ class Params {
 }
 
 @Builder
-function CommandPopupBuilder(params: Params) {
+function commandPopupBuilder(params: Params) {
   Column() {
     Text("命令式 Popup")
       .fontSize(20)
@@ -146,7 +146,7 @@ struct UiComponentPopupboxPopupGlobal1010 {
             console.info('PopupOptions onWillDismiss, reason: ' + dismissPopupAction.reason);
             
             // popup关闭时，打开命令式popup
-            this.commandContentNode = new ComponentContent(this.uiContext, wrapBuilder(CommandPopupBuilder), new Params("命令式 Popup 内容"));
+            this.commandContentNode = new ComponentContent(this.uiContext, wrapBuilder(commandPopupBuilder), new Params("命令式 Popup 内容"));
             
             this.promptActionClass.setPromptAction(this.promptAction);
             this.promptActionClass.setContentNode(this.commandContentNode);

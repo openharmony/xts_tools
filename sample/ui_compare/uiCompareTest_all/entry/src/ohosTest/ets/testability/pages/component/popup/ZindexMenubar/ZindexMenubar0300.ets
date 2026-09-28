@@ -21,7 +21,7 @@ class OverlayParams {
 }
 
 @Builder
-function OverlayContentBuilder(params: OverlayParams) {
+function overlayContentBuilder(params: OverlayParams) {
   Column() {
     Text('OverlayManager弹框')
       .fontSize(18)
@@ -78,7 +78,7 @@ struct ZindexMenubar0300 {
           this.hideOverlay()
         }
       }
-      this.overlayContent = new ComponentContent(this.uiContext, wrapBuilder(OverlayContentBuilder), params)
+      this.overlayContent = new ComponentContent(this.uiContext, wrapBuilder(overlayContentBuilder), params)
       this.overlayManager.addComponentContent(this.overlayContent)
     }
   }

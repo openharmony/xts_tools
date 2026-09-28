@@ -91,7 +91,7 @@ class Params {
 }
 
 @Builder
-function PopupBuilder(params: Params) {
+function popupBuilder(params: Params) {
   Column() {
     Text("Popup 内容")
       .fontSize(20)
@@ -154,7 +154,7 @@ struct UiComponentPopupboxPopupGlobal0080 {
         .id("button_popup_0080_open")
         .margin({ bottom: 10 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(PopupBuilder), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass));
           
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);

@@ -52,12 +52,12 @@ struct NavigationMTBF04 {
       .backgroundColor('#FFFFFF')
     }
     .title('Navigation MTBF Test')
-    .navDestination(PageOneBuilder)
+    .navDestination(pageOneBuilder)
   }
 }
 
 @Builder
-export function PageOneBuilder(name: string, param: Object) {
+export function pageOneBuilder(name: string, param: Object) {
   PageOne()
 }
 

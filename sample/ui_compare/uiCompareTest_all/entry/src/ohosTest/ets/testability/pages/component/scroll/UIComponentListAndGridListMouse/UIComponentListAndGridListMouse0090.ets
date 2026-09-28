@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-class BasicDataSource_UIComponentListAndGridListMouse0090 implements IDataSource {
+class BasicDataSourceUIComponentListAndGridListMouse0090 implements IDataSource {
   private listeners: DataChangeListener[] = [];
   private originDataArray: string[] = [];
 
@@ -90,7 +90,7 @@ class BasicDataSource_UIComponentListAndGridListMouse0090 implements IDataSource
 }
 
 
-class MyDataSource_UIComponentListAndGridListMouse0090 extends BasicDataSource_UIComponentListAndGridListMouse0090 {
+class MyDataSourceUIComponentListAndGridListMouse0090 extends BasicDataSourceUIComponentListAndGridListMouse0090 {
   private dataArray: string[] = [];
 
   public totalCount(): number {
@@ -138,7 +138,7 @@ struct UIComponentListAndGridListMouse0090 {
   @State listSelectableValue: boolean = true;
   @State itemSelectableValue: boolean = true;
   listScroller: ListScroller = new ListScroller();
-  private data: MyDataSource_UIComponentListAndGridListMouse0090 = new MyDataSource_UIComponentListAndGridListMouse0090();
+  private data: MyDataSourceUIComponentListAndGridListMouse0090 = new MyDataSourceUIComponentListAndGridListMouse0090();
 
   @Builder pixelMapBuilder() {
     Column() {

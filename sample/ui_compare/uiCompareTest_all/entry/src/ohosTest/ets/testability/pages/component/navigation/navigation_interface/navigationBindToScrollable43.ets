@@ -77,12 +77,12 @@ struct NavigationBindToScrollable43 {
     }
     .title('Navigation BindToScrollable Test')
     .toolbarConfiguration(this.CustomToolBar)
-    .navDestination(PageOneBuilder)
+    .navDestination(pageOneBuilder)
   }
 }
 
 @Builder
-export function PageOneBuilder(name: string, param: Object) {
+export function pageOneBuilder(name: string, param: Object) {
   PageOne()
 }
 

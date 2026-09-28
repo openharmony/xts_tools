@@ -17,12 +17,12 @@ import { PageOne0140Builder } from './pageOne0140';
 import { PageTwo0140Builder } from './pageTwo0140';
 
 @Builder
-export function NavigationScene0140Builder(name: string, param: Object) {
+export function navigationScene0140Builder(name: string, param: Object) {
   NavigationScene0140()
 }
 
 @Builder
-function DynamicBuilderScene0140(name: string, param: Object) {
+function dynamicBuilderScene0140(name: string, param: Object) {
   if (name === 'PageOne0140') {
     PageOne0140Builder(name, param);
   } else if (name === 'PageTwo0140') {
@@ -81,7 +81,7 @@ export struct NavigationScene0140 {
           // 初始内容为空，Navigation组件会根据pathStack状态显示子页面
         }
         .title('Navigation Scene')
-        .navDestination(DynamicBuilderScene0140)
+        .navDestination(dynamicBuilderScene0140)
         .width('100%')
         .layoutWeight(1)
       }

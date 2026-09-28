@@ -14,7 +14,7 @@
  */
 import { LengthUnit } from '@kit.ArkUI';
 
-class Modifier_UIComponentListAndGridModifier1060 implements AttributeModifier<WaterFlowAttribute> {
+class ModifierUIComponentListAndGridModifier1060 implements AttributeModifier<WaterFlowAttribute> {
   private frictionValue: number | Resource = 0.6;
 
   constructor(frictionValue: number | Resource) {
@@ -237,7 +237,7 @@ struct UIComponentListAndGridModifier1060 {
         }, (item: number) => item.toString())
       }
       .id(this.name + '_02')
-      .attributeModifier(new Modifier_UIComponentListAndGridModifier1060(this.frictionValue))
+      .attributeModifier(new ModifierUIComponentListAndGridModifier1060(this.frictionValue))
       .layoutDirection(this.waterFlowDirection)
       .fadingEdge(this.fadingEdgeEnabled, this.fadingEdgeOptions)
       .columnsTemplate(this.templateString)

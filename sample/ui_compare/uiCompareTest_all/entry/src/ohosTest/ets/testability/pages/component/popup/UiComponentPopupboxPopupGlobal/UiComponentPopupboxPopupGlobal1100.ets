@@ -89,7 +89,7 @@ class Params {
 }
 
 @Builder
-function PopupBuilder1(params: Params) {
+function popupBuilder1(params: Params) {
   Column() {
     Text("Popup 1")
       .fontSize(20)
@@ -101,13 +101,13 @@ function PopupBuilder1(params: Params) {
   }
   .width('100%')
   .height('100%')
-  .backgroundColor('#ADD8E6')
+  .backgroundColor('#ADd7E6')
   .borderRadius(12)
   .padding(20)
 }
 
 @Builder
-function PopupBuilder2(params: Params) {
+function popupBuilder2(params: Params) {
   Column() {
     Text("Popup 2")
       .fontSize(20)
@@ -168,8 +168,8 @@ struct UiComponentPopupboxPopupGlobal1100 {
         .margin({ bottom: 20 })
         .onClick(() => {
           // 创建两个contentNode，使用不同的targetInfo
-          this.contentNode1 = new ComponentContent(this.uiContext, wrapBuilder(PopupBuilder1), new Params("Target 1"));
-          this.contentNode2 = new ComponentContent(this.uiContext, wrapBuilder(PopupBuilder2), new Params("Target 2"));
+          this.contentNode1 = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder1), new Params("Target 1"));
+          this.contentNode2 = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder2), new Params("Target 2"));
           
           // 配置第一个popup（targetInfo为target_component1_1100）
           this.promptActionClass1.setPromptAction(this.promptAction);

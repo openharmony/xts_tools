@@ -89,7 +89,7 @@ class Params {
 }
 
 @Builder
-function PopupBuilder(params: Params) {
+function popupBuilder(params: Params) {
   Column() {
     Text("命令式 Popup")
       .fontSize(20)
@@ -147,7 +147,7 @@ struct UiComponentPopupboxPopupGlobal1080 {
         .id("button_toolitem8_1080")
         .margin({ bottom: 20 })
         .onClick(() => {
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(PopupBuilder), new Params("相同targetInfo关闭测试"));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("相同targetInfo关闭测试"));
           
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);
@@ -165,7 +165,7 @@ struct UiComponentPopupboxPopupGlobal1080 {
             this.promptActionClass.updatePopup({
               placement: Placement.Top,
               enableArrow: true,
-              popupColor: '#ADD8E6'
+              popupColor: '#ADd7E6'
             });
           }, 2000);
           

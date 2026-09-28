@@ -79,7 +79,7 @@ class Params {
 }
 
 @Builder
-function PopupBuilder(params: Params) {
+function popupBuilder(params: Params) {
   Column() {
     Text("Popup 内容测试宽度属性")
       .fontSize(20)
@@ -135,7 +135,7 @@ struct UiComponentPopupboxPopupHeightWidth0290 {
           let frameNode: FrameNode | null = this.uiContext.getFrameNodeById("target_component_0290");
           let targetId = frameNode?.getUniqueId() || 0;
 
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(PopupBuilder), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass));
 
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);

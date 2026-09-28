@@ -93,7 +93,7 @@ class Params {
 }
 
 @Builder
-function PopupBuilder(params: Params) {
+function popupBuilder(params: Params) {
   Column() {
     Text("Popup 内容")
       .fontSize(20)
@@ -159,7 +159,7 @@ struct UiComponentPopupboxPopupGlobal0590 {
           // 旋转目标组件 90 度
           this.rotateAngle = 90;
           
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(PopupBuilder), new Params("hello", this.promptActionClass, this.rotateAngle));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass, this.rotateAngle));
           
           let frameNode = this.uiContext.getFrameNodeById("target_component_0590");
           let targetId = frameNode?.getUniqueId() || 0;

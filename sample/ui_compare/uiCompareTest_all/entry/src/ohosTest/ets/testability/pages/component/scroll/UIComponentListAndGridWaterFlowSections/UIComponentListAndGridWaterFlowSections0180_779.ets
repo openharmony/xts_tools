@@ -16,8 +16,8 @@ import { LengthUnit } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct UIComponentListAndGridWaterFlowSections0180_779 {
-  @State name: string = 'UIComponentListAndGridWaterFlowSections0180_779';
+struct UIComponentListAndGridWaterFlowSections0180779 {
+  @State name: string = 'UIComponentListAndGridWaterFlowSections0180779';
   @State message: string = this.name;
   @State itemIndex: number = -1;
   @State numbers: number[] = [];

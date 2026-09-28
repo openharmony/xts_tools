@@ -88,12 +88,12 @@ struct NavigationBindToScrollable48 {
       }
     ])
     .ignoreLayoutSafeArea([LayoutSafeAreaType.SYSTEM], this.ignoreEdges)
-    .navDestination(PageOneBuilder)
+    .navDestination(pageOneBuilder)
   }
 }
 
 @Builder
-export function PageOneBuilder(name: string, param: Object) {
+export function pageOneBuilder(name: string, param: Object) {
   PageOne()
 }
 

@@ -14,7 +14,7 @@
  */
 
 @CustomDialog
-struct FullDialogComponent1_0180 {
+struct FullDialogComponent10180 {
   controller: CustomDialogController
   getUpdateFlag: () => number = () => 0
 
@@ -49,7 +49,7 @@ struct FullDialogComponent1_0180 {
 }
 
 @CustomDialog
-struct FullDialogComponent2_0180 {
+struct FullDialogComponent20180 {
   controller: CustomDialogController
   getUpdateFlag: () => number = () => 0
 
@@ -95,7 +95,7 @@ struct PopupBoxFullDialog0180 {
   aboutToAppear() {
     // 第一个弹窗
     this.dialogController1 = new CustomDialogController({
-      builder: FullDialogComponent1_0180({
+      builder: FullDialogComponent10180({
         getUpdateFlag: () => {
           return this.updateFlag1
         }
@@ -123,7 +123,7 @@ struct PopupBoxFullDialog0180 {
 
     // 第二个弹窗
     this.dialogController2 = new CustomDialogController({
-      builder: FullDialogComponent2_0180({
+      builder: FullDialogComponent20180({
         getUpdateFlag: () => {
           return this.updateFlag2
         }

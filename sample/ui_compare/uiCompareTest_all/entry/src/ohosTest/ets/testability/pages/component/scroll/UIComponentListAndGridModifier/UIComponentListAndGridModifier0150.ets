@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-class Modifier_UIComponentListAndGridModifier0150 implements AttributeModifier<ListAttribute> {
+class ModifierUIComponentListAndGridModifier0150 implements AttributeModifier<ListAttribute> {
   private stickyValue: StickyStyle = StickyStyle.Header;
 
   constructor(stickyValue: StickyStyle) {
@@ -277,7 +277,7 @@ struct UIComponentListAndGridModifier0150 {
 
         }, (groupIndex: number) => groupIndex.toString())
       }
-      .attributeModifier(new Modifier_UIComponentListAndGridModifier0150(this.stickyValue))
+      .attributeModifier(new ModifierUIComponentListAndGridModifier0150(this.stickyValue))
       .alignListItem(ListItemAlign.Center)
       .id(this.name + '_02')
       .enabled(true)

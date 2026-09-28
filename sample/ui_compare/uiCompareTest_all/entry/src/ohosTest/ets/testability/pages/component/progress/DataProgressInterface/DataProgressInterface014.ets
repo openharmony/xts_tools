@@ -118,7 +118,7 @@ struct DataProgressInterface014 {
         Text(`progressIndicator: ${this.progressIndicator}`)
           .fontSize(16)
           .margin(5)
-          .fontColor('#D84315')
+          .fontColor('#d74315')
         Text(`拖拽状态: ${this.dragStatus}`)
           .fontSize(16)
           .margin(5)
@@ -140,7 +140,7 @@ struct DataProgressInterface014 {
           Text(this.noProgressMessage)
             .fontSize(14)
             .margin(5)
-            .fontColor('#D84315')
+            .fontColor('#d74315')
             .fontWeight(FontWeight.Bold)
         }
       }
@@ -212,7 +212,7 @@ struct DataProgressInterface014 {
       .width('36.11%')
       .height('22.95%')
       .id('dropZone')
-      .backgroundColor('#D84315')
+      .backgroundColor('#d74315')
       .borderRadius(10)
       .justifyContent(FlexAlign.Center)
       .padding(10)

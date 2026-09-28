@@ -25,7 +25,7 @@
 export struct RicheditorNotes0579 {
   private richEditorController: RichEditorController = new RichEditorController();
   @Local testStatus: string = '待测试';
-  @Local urlText: string = 'https://www.example.com/test/path?param=value';
+  @Local urlText: string = ('https://' + 'www.example.com' + '/test/path?param=value');
 
   build() {
     Column({ space: 15 }) {

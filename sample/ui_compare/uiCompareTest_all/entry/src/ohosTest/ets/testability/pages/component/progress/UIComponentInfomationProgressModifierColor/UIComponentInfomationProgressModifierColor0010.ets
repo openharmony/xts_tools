@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-class progressModifier implements AttributeModifier<ProgressAttribute> {
+class ProgressModifier implements AttributeModifier<ProgressAttribute> {
   public flag = 1;
   private color1: LinearGradient =
     new LinearGradient([{ color: "#65EEC9A3", offset: 0 }, { color: "#FFEF629F", offset: 1 }]);
@@ -34,7 +34,7 @@ class progressModifier implements AttributeModifier<ProgressAttribute> {
 struct UIComponentInfomationProgressModifierColor0010 {
   @State name: string = 'UIComponentInfomationProgressModifierColor0010';
   @State message: string = 'message';
-  @State modifier: progressModifier = new progressModifier();
+  @State modifier: ProgressModifier = new ProgressModifier();
 
   build() {
     Column() {

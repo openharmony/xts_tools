@@ -16,8 +16,8 @@ import { LengthUnit } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct UIComponentListAndGridXommonOnScroll0340_685 {
-  @State name: string = 'UIComponentListAndGridXommonOnScroll0340_685';
+struct UIComponentListAndGridXommonOnScroll0340685 {
+  @State name: string = 'UIComponentListAndGridXommonOnScroll0340685';
   @State message: string = this.name;
   @State logMessage: string = '';
   @State numbers: number[] = [];

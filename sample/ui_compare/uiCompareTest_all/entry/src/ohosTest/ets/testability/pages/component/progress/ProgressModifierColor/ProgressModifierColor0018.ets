@@ -31,12 +31,12 @@ class ProgressModifierColorSwitch implements ContentModifier<ProgressConfigurati
   }
 
   applyContent(): WrappedBuilder<[ProgressConfiguration]> {
-    return wrapBuilder(CircularModifierColorSwitch);
+    return wrapBuilder(circularModifierColorSwitch);
   }
 }
 
 @Builder
-function CircularModifierColorSwitch(config: ProgressConfiguration) {
+function circularModifierColorSwitch(config: ProgressConfiguration) {
     Progress({
       value: (config.contentModifier as ProgressModifierColorSwitch).value,
       total: (config.contentModifier as ProgressModifierColorSwitch).tot,

@@ -89,7 +89,7 @@ class Params {
 }
 
 @Builder
-function PopupBuilder(params: Params) {
+function popupBuilder(params: Params) {
   Column() {
     Text("命令式 Popup")
       .fontSize(20)
@@ -150,8 +150,8 @@ struct UiComponentPopupboxPopupGlobal1060 {
         .margin({ bottom: 20 })
         .onClick(() => {
           // 创建两个contentNode，使用相同的targetInfo
-          this.contentNode1 = new ComponentContent(this.uiContext, wrapBuilder(PopupBuilder), new Params("Popup 1"));
-          this.contentNode2 = new ComponentContent(this.uiContext, wrapBuilder(PopupBuilder), new Params("Popup 2"));
+          this.contentNode1 = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("Popup 1"));
+          this.contentNode2 = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("Popup 2"));
           
           // 配置第一个popup
           this.promptActionClass1.setPromptAction(this.promptAction);

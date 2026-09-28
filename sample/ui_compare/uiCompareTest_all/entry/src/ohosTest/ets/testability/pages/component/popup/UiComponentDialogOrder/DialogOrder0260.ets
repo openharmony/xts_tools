@@ -32,7 +32,9 @@ struct DialogOrder0260 {
   addLog(log: string): void {
     const timestamp = new Date().toLocaleTimeString();
     this.testLog.unshift(`[${timestamp}] ${log}`);
-    if (this.testLog.length > 15) this.testLog = this.testLog.slice(0, 15);
+    if (this.testLog.length > 15) {
+      this.testLog = this.testLog.slice(0, 15);
+    }
     hilog.info(0x0000, 'DialogOrder0260', log);
   }
 

@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-class Modifier_UIComponentListAndGridModifier0370 implements AttributeModifier<ListAttribute> {
+class ModifierUIComponentListAndGridModifier0370 implements AttributeModifier<ListAttribute> {
   private enableScrollInteractionValue: boolean = true;
 
   constructor(enableScrollInteractionValue: boolean) {
@@ -268,7 +268,7 @@ struct UIComponentListAndGridModifier0370 {
 
         }, (groupIndex: number) => groupIndex.toString())
       }
-      .attributeModifier(new Modifier_UIComponentListAndGridModifier0370(this.enableScrollInteractionValue))
+      .attributeModifier(new ModifierUIComponentListAndGridModifier0370(this.enableScrollInteractionValue))
       .alignListItem(ListItemAlign.Center)
       .id(this.name + '_02')
       .enabled(true)

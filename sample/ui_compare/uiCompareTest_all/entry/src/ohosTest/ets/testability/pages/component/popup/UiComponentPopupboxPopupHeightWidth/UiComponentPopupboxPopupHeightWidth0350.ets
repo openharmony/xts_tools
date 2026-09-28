@@ -79,7 +79,7 @@ class Params {
 }
 
 @Builder
-function PopupBuilder(params: Params) {
+function popupBuilder(params: Params) {
   Column() {
     Text("这是一段较长的文本内容用来测试popup宽度自适应效果，占栅格数大于4小于480vp，这段文本比0340更长一些")
       .fontSize(16)
@@ -127,7 +127,7 @@ struct UiComponentPopupboxPopupHeightWidth0350 {
           let frameNode: FrameNode | null = this.uiContext.getFrameNodeById("target_component_0350");
           let targetId = frameNode?.getUniqueId() || 0;
 
-          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(PopupBuilder), new Params("hello", this.promptActionClass));
+          this.contentNode = new ComponentContent(this.uiContext, wrapBuilder(popupBuilder), new Params("hello", this.promptActionClass));
 
           this.promptActionClass.setPromptAction(this.promptAction);
           this.promptActionClass.setContentNode(this.contentNode);

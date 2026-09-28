@@ -89,7 +89,7 @@ class Params {
 }
 
 @Builder
-function PopupBuilder(params: Params) {
+function popupBuilder(params: Params) {
   Column() {
     Text("命令式 Popup")
       .fontSize(20)
@@ -107,7 +107,7 @@ function PopupBuilder(params: Params) {
 }
 
 @Builder
-function SheetBuilder(uiContext: UIContext, promptAction: PromptAction) {
+function sheetBuilder(uiContext: UIContext, promptAction: PromptAction) {
   Column() {
     Text("半模态内容")
       .fontSize(20)
@@ -119,7 +119,7 @@ function SheetBuilder(uiContext: UIContext, promptAction: PromptAction) {
       .margin({ top: 20, bottom: 20 })
       .onClick(() => {
         let promptActionClass = new PromptActionClass();
-        let contentNode = new ComponentContent(uiContext, wrapBuilder(PopupBuilder), new Params("半模态中的Popup"));
+        let contentNode = new ComponentContent(uiContext, wrapBuilder(popupBuilder), new Params("半模态中的Popup"));
         
         promptActionClass.setPromptAction(promptAction);
         promptActionClass.setContentNode(contentNode);
@@ -195,7 +195,7 @@ struct UiComponentPopupboxPopupGlobal1130 {
       Button("bindSheet")
         .id("button_bindsheet_1130")
         .margin({ bottom: 20 })
-        .bindSheet(this.isSheetVisible, SheetBuilder(this.uiContext, this.promptAction), {
+        .bindSheet(this.isSheetVisible, sheetBuilder(this.uiContext, this.promptAction), {
           height: 600
         })
         .onClick(() => {
