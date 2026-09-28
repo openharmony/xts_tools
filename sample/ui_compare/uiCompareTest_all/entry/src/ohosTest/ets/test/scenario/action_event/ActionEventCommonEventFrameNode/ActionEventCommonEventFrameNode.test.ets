@@ -64,7 +64,7 @@ export default function actionEventCommonEventFrameNode() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4160', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode01")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode01')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode01'),1000)
       await button.click();
@@ -84,7 +84,7 @@ export default function actionEventCommonEventFrameNode() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4160_446', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4160_446 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode02")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode02_01'),1000)
       let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode02_02'),1000)
@@ -107,7 +107,7 @@ export default function actionEventCommonEventFrameNode() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0061', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0061 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode03")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode03_01'),1000)
       let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode03_02'),1000)
@@ -137,7 +137,7 @@ export default function actionEventCommonEventFrameNode() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0071', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0071 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode04")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode04_01'),1000)
       let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode04_02'),1000)
@@ -167,7 +167,7 @@ export default function actionEventCommonEventFrameNode() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0081', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0081 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode05")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode05_01'),1000)
       let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode05_02'),1000)
@@ -196,7 +196,7 @@ export default function actionEventCommonEventFrameNode() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0361', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0081 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode06")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode06')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode06_01'),1000)
       let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode06_02'),1000)
@@ -225,7 +225,7 @@ export default function actionEventCommonEventFrameNode() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0362', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0362 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode07")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode07')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode07_01'),1000)
       let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode07_02'),1000)
@@ -259,7 +259,7 @@ export default function actionEventCommonEventFrameNode() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0401', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0401 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode08")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode08')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode08_01'),1000)
       let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode08_02'),1000)
@@ -285,7 +285,7 @@ export default function actionEventCommonEventFrameNode() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0440', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0440 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode09")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode09')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode09_01'),1000)
       let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode09_02'),1000)
@@ -311,7 +311,7 @@ export default function actionEventCommonEventFrameNode() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0441', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_0441 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode10")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode10')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode10_01'),1000)
       let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode10_02'),1000)
@@ -341,7 +341,7 @@ export default function actionEventCommonEventFrameNode() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4171', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4171 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode11")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode11')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode11_01'),1000)
       let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode11_02'),1000)
@@ -371,7 +371,7 @@ export default function actionEventCommonEventFrameNode() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4291', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_4291 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode12")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFrameNode/ActionEventCommonEventFrameNode12')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode12_01'),1000)
       let button02: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNode12_02'),1000)

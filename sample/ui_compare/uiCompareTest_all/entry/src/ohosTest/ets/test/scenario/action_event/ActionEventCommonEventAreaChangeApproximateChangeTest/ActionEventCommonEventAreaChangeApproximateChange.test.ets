@@ -47,7 +47,7 @@ export default function actionEventCommonEventAreaChangeApproximateChangeTest() 
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionEventCommonEventAreaChangeApproximateChange/ActionEventCommonEventAreaChangeApproximateChange001");
+      Settings.createWindow('testability/pages/scenario/action_event/ActionEventCommonEventAreaChangeApproximateChange/ActionEventCommonEventAreaChangeApproximateChange001');
       let driver: Driver = Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('setting'), 1000);
       await text.click();

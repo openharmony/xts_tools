@@ -50,7 +50,7 @@ export default function actionEventCommonEventDragMultiObject() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0140 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0140")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0140')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -69,7 +69,7 @@ export default function actionEventCommonEventDragMultiObject() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0090")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0090')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function actionEventCommonEventDragMultiObject() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0100")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0100')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -107,7 +107,7 @@ export default function actionEventCommonEventDragMultiObject() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0130 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0130")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0130')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -126,7 +126,7 @@ export default function actionEventCommonEventDragMultiObject() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0080")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0080')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -145,7 +145,7 @@ export default function actionEventCommonEventDragMultiObject() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0110")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0110')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -164,7 +164,7 @@ export default function actionEventCommonEventDragMultiObject() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0120")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0120')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -183,7 +183,7 @@ export default function actionEventCommonEventDragMultiObject() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0150")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragMultiObject/ActionEventCommonEventDragMultiObject0150')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()

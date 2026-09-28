@@ -47,7 +47,7 @@ export default function actionGestureConfigurationTest() {
      */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1120 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionGestureConfiguration_04/ActionGestureConfiguration001");
+      Settings.createWindow('testability/pages/scenario/action_event/ActionGestureConfiguration_04/ActionGestureConfiguration001');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
@@ -68,7 +68,7 @@ export default function actionGestureConfigurationTest() {
      */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1130 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionGestureConfiguration_04/ActionGestureConfiguration002");
+      Settings.createWindow('testability/pages/scenario/action_event/ActionGestureConfiguration_04/ActionGestureConfiguration002');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();
@@ -89,7 +89,7 @@ export default function actionGestureConfigurationTest() {
      */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1140 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionGestureConfiguration_04/ActionGestureConfiguration003");
+      Settings.createWindow('testability/pages/scenario/action_event/ActionGestureConfiguration_04/ActionGestureConfiguration003');
       let driver: Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('click'), 1000);
       await button.click();

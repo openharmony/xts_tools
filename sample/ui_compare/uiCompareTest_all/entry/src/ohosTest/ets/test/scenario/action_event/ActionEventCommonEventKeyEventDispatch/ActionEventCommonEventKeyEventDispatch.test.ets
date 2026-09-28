@@ -64,7 +64,7 @@ export default function actionEventCommonEventKeyEventDispatch() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0020', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionEventCommonEventKeyEventDispatch_02/ActionEventCommonEventKeyEventDispatch01")
+      Settings.createWindow('testability/pages/scenario/action_event/ActionEventCommonEventKeyEventDispatch_02/ActionEventCommonEventKeyEventDispatch01')
       let driver:Driver=Driver.create();
       await driver.triggerKey(2049)
       await driver.waitForIdle(500,2000);
@@ -86,7 +86,7 @@ export default function actionEventCommonEventKeyEventDispatch() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionEventCommonEventKeyEventDispatch_02/ActionEventCommonEventKeyEventDispatch02")
+      Settings.createWindow('testability/pages/scenario/action_event/ActionEventCommonEventKeyEventDispatch_02/ActionEventCommonEventKeyEventDispatch02')
       let driver:Driver=Driver.create();
       await driver.triggerKey(2049)
       await driver.waitForIdle(500,2000);
@@ -108,7 +108,7 @@ export default function actionEventCommonEventKeyEventDispatch() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0160', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionEventCommonEventKeyEventDispatch_02/ActionEventCommonEventKeyEventDispatch03")
+      Settings.createWindow('testability/pages/scenario/action_event/ActionEventCommonEventKeyEventDispatch_02/ActionEventCommonEventKeyEventDispatch03')
       let driver:Driver=Driver.create();
       await driver.triggerKey(2049)
       await driver.waitForIdle(500,2000);
@@ -130,7 +130,7 @@ export default function actionEventCommonEventKeyEventDispatch() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0170', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0170 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionEventCommonEventKeyEventDispatch_02/ActionEventCommonEventKeyEventDispatch04")
+      Settings.createWindow('testability/pages/scenario/action_event/ActionEventCommonEventKeyEventDispatch_02/ActionEventCommonEventKeyEventDispatch04')
       let driver:Driver=Driver.create();
       await driver.triggerKey(2049)
       await driver.waitForIdle(500,2000);

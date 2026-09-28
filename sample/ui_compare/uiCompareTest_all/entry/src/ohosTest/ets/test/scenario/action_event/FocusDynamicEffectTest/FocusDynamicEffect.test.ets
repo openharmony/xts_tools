@@ -51,7 +51,7 @@ export default function focusDynamicEffect() {
      */
     it('SUB_ACE_FOCUS_DYNAMIC_EFFECT_023', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FOCUS_DYNAMIC_EFFECT_023 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/focusDynamicEffect/FocusDynamicEffect023")
+      Settings.createWindow('testability/pages/scenario/action_event/focusDynamicEffect/FocusDynamicEffect023')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       globalThis.context.getApplicationContext().setColorMode(ConfigurationConstant.ColorMode.COLOR_MODE_DARK);

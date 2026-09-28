@@ -55,18 +55,18 @@ export default function sr20241118811498() {
       // 步骤1：编译hap，并安装（此步骤在测试环境中已完成）
       
       // 步骤2：开启trace采集，应用冷启动
-      Settings.createWindow("testability/pages/scenario/action_event/sr20241118811498/Sr20241118811498001")
+      Settings.createWindow('testability/pages/scenario/action_event/sr20241118811498/Sr20241118811498001')
       await Utils.sleep(500)
       let driver: Driver = Driver.create();
       await Utils.sleep(500) // 等待应用冷启动完成
 
       // 步骤3：点击Grid按钮
-      let btnGrid = await driver.findComponent(ON.id("button_grid_sr20241118811498_001"))
+      let btnGrid = await driver.findComponent(ON.id('button_grid_sr20241118811498_001'))
       await btnGrid.click()
       await Utils.sleep(500) // 等待Grid显示
 
       // 获取Grid组件，使用waitForComponent等待组件出现
-      let gridContainer = await driver.waitForComponent(ON.id("grid_container_sr20241118811498_001"), 2000)
+      let gridContainer = await driver.waitForComponent(ON.id('grid_container_sr20241118811498_001'), 2000)
       
       // 使用swipe方法进行滑动操作，避免scrollSearch在大数据量时超时
       Logger.info('TEST', 'Starting scroll operations');
@@ -105,18 +105,18 @@ export default function sr20241118811498() {
       // 步骤1：编译hap，并安装（此步骤在测试环境中已完成）
       
       // 步骤2：开启trace采集，应用冷启动
-      Settings.createWindow("testability/pages/scenario/action_event/sr20241118811498/Sr20241118811498002")
+      Settings.createWindow('testability/pages/scenario/action_event/sr20241118811498/Sr20241118811498002')
       await Utils.sleep(1000) // 等待窗口创建完成，避免并发调用问题
       let driver: Driver = Driver.create();
       await Utils.sleep(500) // 等待应用冷启动完成
 
       // 步骤3：点击List按钮
-      let btnList = await driver.findComponent(ON.id("button_list_sr20241118811498_002"))
+      let btnList = await driver.findComponent(ON.id('button_list_sr20241118811498_002'))
       await btnList.click()
       await Utils.sleep(500) // 等待List显示
 
       // 获取List组件，使用waitForComponent等待组件出现
-      let listContainer = await driver.waitForComponent(ON.id("list_container_sr20241118811498_002"), 2000)
+      let listContainer = await driver.waitForComponent(ON.id('list_container_sr20241118811498_002'), 2000)
       
       // 使用swipe方法进行滑动操作，避免scrollSearch在大数据量时超时
       Logger.info('TEST', 'Starting scroll operations for List');

@@ -50,10 +50,10 @@ export default function actionsheetInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_INTERFACE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_INTERFACE_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionsheetInterface/ActionsheetInterface0010")
+      Settings.createWindow('testability/pages/scenario/action_event/actionsheetInterface/ActionsheetInterface0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
-      let button = await driver.waitForComponent(ON.id("ActionsheetInterface0010_001"), 2000)
+      let button = await driver.waitForComponent(ON.id('ActionsheetInterface0010_001'), 2000)
       await button.click()
       await Utils.sleep(500)
       windowSnap.snapShot()

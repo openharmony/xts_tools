@@ -64,7 +64,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_001', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_001 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement01")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement01'),1000);
       await button01.click()
@@ -85,7 +85,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_002', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_002 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement02")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement02')
       let driver:Driver=Driver.create();
       let button02: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement02'),1000);
       await button02.click()
@@ -106,7 +106,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_003', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_003 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement03")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement03')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement03'),1000);
       await button03.click()
@@ -127,7 +127,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_004', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_004 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement04")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement04')
       let driver:Driver=Driver.create();
       let button04: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement04'),1000);
       await button04.click()
@@ -148,7 +148,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_005', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_005 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement05")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement05')
       let driver:Driver=Driver.create();
       let button05: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement05'),1000);
       let point = await button05.getBoundsCenter()
@@ -170,7 +170,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_006', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_006 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement06")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement06')
       let driver:Driver=Driver.create();
       let button06: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement06'),1000);
       let point = await button06.getBoundsCenter()
@@ -192,7 +192,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_007', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_007 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement07")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement07')
       let driver:Driver=Driver.create();
       let button07: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement07'),1000);
       let point = await button07.getBoundsCenter()
@@ -214,7 +214,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_008', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_008 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement08")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement08')
       let driver:Driver=Driver.create();
       let button08: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement08'),1000);
       let point = await button08.getBoundsCenter()
@@ -236,7 +236,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_009', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_009 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement09")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement09')
       let driver:Driver=Driver.create();
       let button09: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement09'),1000);
       let point = await button09.getBoundsCenter()
@@ -258,7 +258,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_014', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_014 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement14")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement14')
       let driver:Driver=Driver.create();
       let button14: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement14'),1000);
       await button14.longClick()
@@ -279,7 +279,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_015', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_015 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement15")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement15')
       let driver:Driver=Driver.create();
       let button15: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement15'),1000);
       await button15.longClick()
@@ -300,7 +300,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_017', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_017 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement17")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement17')
       let driver:Driver=Driver.create();
       let button17: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement17'),1000);
       let point = await button17.getBoundsCenter()
@@ -322,7 +322,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_018', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_018 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement18")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement18')
       let driver:Driver=Driver.create();
       let button18: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement18'),1000);
       let point = await button18.getBoundsCenter()
@@ -343,7 +343,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_019', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_019 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement19")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement19')
       let driver:Driver=Driver.create();
       let button19: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement19'),1000);
       let point = await button19.getBoundsCenter()
@@ -370,7 +370,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_021', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_021 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement21")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement21')
       let driver:Driver=Driver.create();
       let button21: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement21'),1000);
       let point = await button21.getBoundsCenter()
@@ -392,7 +392,7 @@ export default function aceEventInformationEnhancement() {
      */
     it('SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_023', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_023 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement23")
+      Settings.createWindow('testability/pages/scenario/action_event/aceEventInformationEnhancement/AceEventInformationEnhancement23')
       let driver:Driver=Driver.create();
       let button23: Component = await driver.waitForComponent(ON.id('AceEventInformationEnhancement23'),1000);
       let point = await button23.getBoundsCenter()

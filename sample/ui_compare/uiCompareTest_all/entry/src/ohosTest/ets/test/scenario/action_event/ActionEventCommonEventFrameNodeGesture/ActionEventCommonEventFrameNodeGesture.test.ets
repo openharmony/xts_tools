@@ -64,7 +64,7 @@ export default function actionEventCommonEventFrameNodeGesture() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_017', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_017`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionEventCommonEventFrameNodeGesture_02/ActionEventCommonEventFrameNodeGesture01")
+      Settings.createWindow('testability/pages/scenario/action_event/ActionEventCommonEventFrameNodeGesture_02/ActionEventCommonEventFrameNodeGesture01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNodeGesture01'),1000);
       await button01.longClick();
@@ -85,7 +85,7 @@ export default function actionEventCommonEventFrameNodeGesture() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_026', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_026`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionEventCommonEventFrameNodeGesture_02/ActionEventCommonEventFrameNodeGesture02")
+      Settings.createWindow('testability/pages/scenario/action_event/ActionEventCommonEventFrameNodeGesture_02/ActionEventCommonEventFrameNodeGesture02')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNodeGesture02'),1000);
       let point = await text.getBoundsCenter()
@@ -107,7 +107,7 @@ export default function actionEventCommonEventFrameNodeGesture() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_034', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_034`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionEventCommonEventFrameNodeGesture_02/ActionEventCommonEventFrameNodeGesture03")
+      Settings.createWindow('testability/pages/scenario/action_event/ActionEventCommonEventFrameNodeGesture_02/ActionEventCommonEventFrameNodeGesture03')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNodeGesture03'),1000);
       let point = await text.getBoundsCenter()
@@ -129,7 +129,7 @@ export default function actionEventCommonEventFrameNodeGesture() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_035', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_035`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionEventCommonEventFrameNodeGesture_02/ActionEventCommonEventFrameNodeGesture04")
+      Settings.createWindow('testability/pages/scenario/action_event/ActionEventCommonEventFrameNodeGesture_02/ActionEventCommonEventFrameNodeGesture04')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNodeGesture04'),1000);
       let point = await text.getBoundsCenter()
@@ -154,7 +154,7 @@ export default function actionEventCommonEventFrameNodeGesture() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_005', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_005`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionEventCommonEventFrameNodeGesture_02/ActionEventCommonEventFrameNodeGesture05")
+      Settings.createWindow('testability/pages/scenario/action_event/ActionEventCommonEventFrameNodeGesture_02/ActionEventCommonEventFrameNodeGesture05')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNodeGesture05'),1000);
       let point = await text.getBoundsCenter()
@@ -176,7 +176,7 @@ export default function actionEventCommonEventFrameNodeGesture() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_036', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_036`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionEventCommonEventFrameNodeGesture_02/ActionEventCommonEventFrameNodeGesture06")
+      Settings.createWindow('testability/pages/scenario/action_event/ActionEventCommonEventFrameNodeGesture_02/ActionEventCommonEventFrameNodeGesture06')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFrameNodeGesture06'),1000);
       let point = await text.getBoundsCenter()

@@ -49,7 +49,7 @@ export default function tapGestureDistanceThreshold() {
      */
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0220 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0220")
+      Settings.createWindow('testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0220')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -68,7 +68,7 @@ export default function tapGestureDistanceThreshold() {
      */
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0230 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0230")
+      Settings.createWindow('testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0230')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -87,7 +87,7 @@ export default function tapGestureDistanceThreshold() {
      */
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0240 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0240")
+      Settings.createWindow('testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0240')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -106,7 +106,7 @@ export default function tapGestureDistanceThreshold() {
      */
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0250 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0250")
+      Settings.createWindow('testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0250')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -125,7 +125,7 @@ export default function tapGestureDistanceThreshold() {
      */
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0260 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0260")
+      Settings.createWindow('testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0260')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -144,7 +144,7 @@ export default function tapGestureDistanceThreshold() {
      */
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0270 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0270")
+      Settings.createWindow('testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0270')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -163,7 +163,7 @@ export default function tapGestureDistanceThreshold() {
      */
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0280 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0280")
+      Settings.createWindow('testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0280')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -182,7 +182,7 @@ export default function tapGestureDistanceThreshold() {
      */
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0290 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0290")
+      Settings.createWindow('testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0290')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -201,7 +201,7 @@ export default function tapGestureDistanceThreshold() {
      */
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0300 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0300")
+      Settings.createWindow('testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0300')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -220,7 +220,7 @@ export default function tapGestureDistanceThreshold() {
      */
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0310 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0310")
+      Settings.createWindow('testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0310')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -239,7 +239,7 @@ export default function tapGestureDistanceThreshold() {
      */
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0320 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0320")
+      Settings.createWindow('testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0320')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -258,7 +258,7 @@ export default function tapGestureDistanceThreshold() {
      */
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0340 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0340")
+      Settings.createWindow('testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0340')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()
@@ -277,7 +277,7 @@ export default function tapGestureDistanceThreshold() {
      */
     it('SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0350 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0350")
+      Settings.createWindow('testability/pages/scenario/action_event/tapGestureDistanceThreshold/TapGestureDistanceThreshold0350')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       windowSnap.snapShot()

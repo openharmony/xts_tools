@@ -64,7 +64,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0140 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent01")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent01'),1000);
       await driver.triggerKey(2049)
@@ -86,7 +86,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent02")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent02')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent02'),1000);
       await driver.triggerKey(2049)
@@ -108,7 +108,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent03")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent03')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent03'),1000);
       await driver.triggerKey(2049)
@@ -130,7 +130,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0130 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent04")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent04')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent04'),1000);
       await driver.triggerKey(2049)
@@ -152,7 +152,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent05")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent05')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent05'),1000);
       await driver.triggerKey(2049)
@@ -174,7 +174,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent06")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent06')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent06'),1000);
       await driver.triggerKey(2049)
@@ -196,7 +196,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent07")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent07')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent07'),1000);
       await driver.triggerKey(2049)
@@ -218,7 +218,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0320 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent08")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent08')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent08'),1000);
       await driver.triggerKey(2049)
@@ -240,7 +240,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0330 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent09")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent09')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent09'),1000);
       await driver.triggerKey(2049)
@@ -262,7 +262,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0340 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent10")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent10')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent10'),1000);
       await driver.triggerKey(2049)
@@ -284,7 +284,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0350 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent11")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent11')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent11'),1000);
       await driver.triggerKey(2049)
@@ -306,7 +306,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0360 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent13")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent13')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent13'),1000);
       await driver.triggerKey(2049)
@@ -328,7 +328,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0370 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent12")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent12')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent12'),1000);
       await driver.triggerKey(2049)
@@ -350,7 +350,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0380 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent14")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent14')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent14'),1000);
       await driver.triggerKey(2049)
@@ -372,7 +372,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0170 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent15")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent15')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent15'),1000);
       await driver.triggerKey(2049)
@@ -394,7 +394,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0180 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent16")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent16')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent16'),1000);
       await driver.triggerKey(2049)
@@ -416,7 +416,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0390 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent17")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent17')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent17'),1000);
       await driver.triggerKey(2049)
@@ -438,7 +438,7 @@ export default function actionEventCommonEventFocusAxisEvent() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0400 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent18")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventFocusAxisEvent/ActionEventCommonEventFocusAxisEvent18')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventFocusAxisEvent18'),1000);
       await driver.triggerKey(2049)

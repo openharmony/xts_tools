@@ -49,7 +49,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0010")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0010')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -68,7 +68,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0020 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0020")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0020')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -87,7 +87,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0030 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0030")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0030')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -106,7 +106,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0040")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0040')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -125,7 +125,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0050 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0050")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0050')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -144,7 +144,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0060 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0060")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0060')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -163,7 +163,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0070 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0070")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0070')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -182,7 +182,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0080 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0080")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0080')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -201,7 +201,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0090 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0090")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0090')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -220,7 +220,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0100 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0100")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0100')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -239,7 +239,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0110 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0110")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0110')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -258,7 +258,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0120 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0120")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0120')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -277,7 +277,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0130 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0130")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0130')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -296,7 +296,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0140 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0140")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0140')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -315,7 +315,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0150")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0150')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -334,7 +334,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0160 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0160")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0160')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -353,7 +353,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0170 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0170")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0170')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -372,7 +372,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0180 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0180")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0180')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -391,7 +391,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0190 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0190")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0190')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -410,7 +410,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0200 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0200")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0200')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()
@@ -429,7 +429,7 @@ export default function onClickDistanceThreshold() {
      */
     it('SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0210 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0210")
+      Settings.createWindow('testability/pages/scenario/action_event/onClickDistanceThreshold/OnClickDistanceThreshold0210')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,10000)
       windowSnap.snapShot()

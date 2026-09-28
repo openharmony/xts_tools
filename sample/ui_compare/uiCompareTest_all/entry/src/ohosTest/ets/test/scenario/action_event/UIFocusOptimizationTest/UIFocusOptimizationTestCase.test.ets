@@ -66,7 +66,7 @@ export default function uIFocusOptimizationTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_156',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_156 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase001",);
+      Settings.createWindow('testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase001',);
       let driver: Driver = Driver.create();
       await Utils.sleep(1000);
       windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_156`);
@@ -86,7 +86,7 @@ export default function uIFocusOptimizationTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_169',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_169 start.`);
-        Settings.createWindow("testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase002",);
+        Settings.createWindow('testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase002',);
         let driver: Driver = Driver.create();
         await Utils.sleep(1000);
         windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_169`);
@@ -106,7 +106,7 @@ export default function uIFocusOptimizationTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_147',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_147 start.`);
-        Settings.createWindow("testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase003",);
+        Settings.createWindow('testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase003',);
         let driver: Driver = Driver.create();
         await Utils.sleep(1000);
         windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_147`);
@@ -126,7 +126,7 @@ export default function uIFocusOptimizationTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_145',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_145 start.`);
-        Settings.createWindow("testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase004",);
+        Settings.createWindow('testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase004',);
         let driver: Driver = Driver.create();
         await Utils.sleep(1000);
         windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_145`);
@@ -146,7 +146,7 @@ export default function uIFocusOptimizationTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_176',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_176 start.`);
-        Settings.createWindow("testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase005",);
+        Settings.createWindow('testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase005',);
         let driver: Driver = Driver.create();
         await Utils.sleep(1000);
         windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_176`);
@@ -166,7 +166,7 @@ export default function uIFocusOptimizationTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_148',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_148 start.`);
-        Settings.createWindow("testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase006",);
+        Settings.createWindow('testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase006',);
         let driver: Driver = Driver.create();
         await Utils.sleep(1000);
         windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_148`);
@@ -186,7 +186,7 @@ export default function uIFocusOptimizationTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_163',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_163 start.`);
-        Settings.createWindow("testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase007",);
+        Settings.createWindow('testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase007',);
         let driver: Driver = Driver.create();
         await Utils.sleep(1000);
         windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_163`);
@@ -206,7 +206,7 @@ export default function uIFocusOptimizationTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_131',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_131 start.`);
-        Settings.createWindow("testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase008",);
+        Settings.createWindow('testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase008',);
         let driver: Driver = Driver.create();
         await Utils.sleep(1000);
         windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_131`);
@@ -226,7 +226,7 @@ export default function uIFocusOptimizationTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_144',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_144 start.`);
-        Settings.createWindow("testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase009",);
+        Settings.createWindow('testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase009',);
         let driver: Driver = Driver.create();
         await Utils.sleep(1000);
         windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_144`);
@@ -246,7 +246,7 @@ export default function uIFocusOptimizationTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_129',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_129 start.`);
-        Settings.createWindow("testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase010",);
+        Settings.createWindow('testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase010',);
         let driver: Driver = Driver.create();
         await Utils.sleep(1000);
         windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_129`);
@@ -266,7 +266,7 @@ export default function uIFocusOptimizationTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_171',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_171 start.`);
-        Settings.createWindow("testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase011",);
+        Settings.createWindow('testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase011',);
         let driver: Driver = Driver.create();
         await Utils.sleep(1000);
         windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_171`);
@@ -286,7 +286,7 @@ export default function uIFocusOptimizationTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_177',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_177 start.`);
-        Settings.createWindow("testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase012",);
+        Settings.createWindow('testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase012',);
         let driver: Driver = Driver.create();
         await Utils.sleep(1000);
         windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_177`);
@@ -306,7 +306,7 @@ export default function uIFocusOptimizationTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_172',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_172 start.`);
-        Settings.createWindow("testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase013",);
+        Settings.createWindow('testability/pages/scenario/action_event/UIFocusOptimizationTestCase/UIFocusOptimizationTestCase013',);
         let driver: Driver = Driver.create();
         await Utils.sleep(1000);
         windowSnap.snapShot(`SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_172`);

@@ -51,7 +51,7 @@ export default function focusActive() {
       Logger.info('TEST', `SUB_ACE_UI_FOCUS_ACTIVE_0160 start.`);
       
       try {
-        Settings.createWindow("testability/pages/scenario/action_event/focusActive/FocusActive0160")
+        Settings.createWindow('testability/pages/scenario/action_event/focusActive/FocusActive0160')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(2000, 3000)
         
@@ -114,7 +114,7 @@ export default function focusActive() {
       Logger.info('TEST', `SUB_ACE_UI_FOCUS_ACTIVE_0170 start.`);
       
       try {
-        Settings.createWindow("testability/pages/scenario/action_event/focusActive/FocusActive0170")
+        Settings.createWindow('testability/pages/scenario/action_event/focusActive/FocusActive0170')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(2000, 3000)
         
@@ -177,7 +177,7 @@ export default function focusActive() {
       Logger.info('TEST', `SUB_ACE_UI_FOCUS_ACTIVE_0180 start.`);
       
       try {
-        Settings.createWindow("testability/pages/scenario/action_event/focusActive/FocusActive0180")
+        Settings.createWindow('testability/pages/scenario/action_event/focusActive/FocusActive0180')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(2000, 3000)
         
@@ -227,7 +227,7 @@ export default function focusActive() {
       Logger.info('TEST', `SUB_ACE_UI_FOCUS_ACTIVE_0190 start.`);
       
       try {
-        Settings.createWindow("testability/pages/scenario/action_event/focusActive/FocusActive0190")
+        Settings.createWindow('testability/pages/scenario/action_event/focusActive/FocusActive0190')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(2000, 3000)
         

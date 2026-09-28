@@ -51,7 +51,7 @@ export default function optimizationOfDragAndDropZoomRulesTest() {
     it('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_004', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_004';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/OptimizationOfDragAndDropZoomRules/OptimizationOfDragAndDropZoomRules001");
+      Settings.createWindow('testability/pages/scenario/action_event/OptimizationOfDragAndDropZoomRules/OptimizationOfDragAndDropZoomRules001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       let text1: Component = await driver.waitForComponent(ON.id('text1'), 1000);
@@ -84,7 +84,7 @@ export default function optimizationOfDragAndDropZoomRulesTest() {
     it('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_002', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_002';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/OptimizationOfDragAndDropZoomRules/OptimizationOfDragAndDropZoomRules002");
+      Settings.createWindow('testability/pages/scenario/action_event/OptimizationOfDragAndDropZoomRules/OptimizationOfDragAndDropZoomRules002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       let text1: Component = await driver.waitForComponent(ON.id('text1'), 1000);
@@ -117,7 +117,7 @@ export default function optimizationOfDragAndDropZoomRulesTest() {
     it('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_003', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_003';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/OptimizationOfDragAndDropZoomRules/OptimizationOfDragAndDropZoomRules003");
+      Settings.createWindow('testability/pages/scenario/action_event/OptimizationOfDragAndDropZoomRules/OptimizationOfDragAndDropZoomRules003');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       let text1: Component = await driver.waitForComponent(ON.id('text1'), 1000);
@@ -151,7 +151,7 @@ export default function optimizationOfDragAndDropZoomRulesTest() {
     it('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_016', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_016';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/OptimizationOfDragAndDropZoomRules/OptimizationOfDragAndDropZoomRules004");
+      Settings.createWindow('testability/pages/scenario/action_event/OptimizationOfDragAndDropZoomRules/OptimizationOfDragAndDropZoomRules004');
       let driver: Driver = Driver.create();
       let image1: Component = await driver.waitForComponent(ON.id('image1'), 1000);
       let point1 = await image1.getBoundsCenter();
@@ -179,7 +179,7 @@ export default function optimizationOfDragAndDropZoomRulesTest() {
     it('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_014', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_014';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/OptimizationOfDragAndDropZoomRules/OptimizationOfDragAndDropZoomRules005");
+      Settings.createWindow('testability/pages/scenario/action_event/OptimizationOfDragAndDropZoomRules/OptimizationOfDragAndDropZoomRules005');
       let driver: Driver = Driver.create();
       let image1: Component = await driver.waitForComponent(ON.id('image1'), 1000);
       let point1 = await image1.getBoundsCenter();
@@ -207,7 +207,7 @@ export default function optimizationOfDragAndDropZoomRulesTest() {
     it('SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_015', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_015';
       Logger.info('TEST', `${caseName} start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/OptimizationOfDragAndDropZoomRules/OptimizationOfDragAndDropZoomRules006");
+      Settings.createWindow('testability/pages/scenario/action_event/OptimizationOfDragAndDropZoomRules/OptimizationOfDragAndDropZoomRules006');
       let driver: Driver = Driver.create();
       let image1: Component = await driver.waitForComponent(ON.id('image1'), 1000);
       let point1 = await image1.getBoundsCenter();

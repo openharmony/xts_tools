@@ -47,7 +47,7 @@ export default function actionEventCommonEventKeyEventDispatchTest() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionEventCommonEventKeyEventDispatch_04/ActionEventCommonEventKeyEventDispatch001");
+      Settings.createWindow('testability/pages/scenario/action_event/ActionEventCommonEventKeyEventDispatch_04/ActionEventCommonEventKeyEventDispatch001');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
@@ -70,7 +70,7 @@ export default function actionEventCommonEventKeyEventDispatchTest() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0150 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionEventCommonEventKeyEventDispatch_04/ActionEventCommonEventKeyEventDispatch002");
+      Settings.createWindow('testability/pages/scenario/action_event/ActionEventCommonEventKeyEventDispatch_04/ActionEventCommonEventKeyEventDispatch002');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);
@@ -93,7 +93,7 @@ export default function actionEventCommonEventKeyEventDispatchTest() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0290 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/ActionEventCommonEventKeyEventDispatch_04/ActionEventCommonEventKeyEventDispatch003");
+      Settings.createWindow('testability/pages/scenario/action_event/ActionEventCommonEventKeyEventDispatch_04/ActionEventCommonEventKeyEventDispatch003');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 1000);
       await driver.triggerKey(2049);

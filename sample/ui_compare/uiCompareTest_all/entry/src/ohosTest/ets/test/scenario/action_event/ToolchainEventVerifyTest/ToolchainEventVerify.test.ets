@@ -51,7 +51,7 @@ export default function toolchainEventVerify() {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0010 start.`);
       
       try {
-        Settings.createWindow("testability/pages/scenario/action_event/toolchainEventVerify/ToolchainEventVerify0010")
+        Settings.createWindow('testability/pages/scenario/action_event/toolchainEventVerify/ToolchainEventVerify0010')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(2000, 3000)
         
@@ -93,7 +93,7 @@ export default function toolchainEventVerify() {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0020 start.`);
       
       try {
-        Settings.createWindow("testability/pages/scenario/action_event/toolchainEventVerify/ToolchainEventVerify0020")
+        Settings.createWindow('testability/pages/scenario/action_event/toolchainEventVerify/ToolchainEventVerify0020')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(2000, 3000)
         
@@ -153,7 +153,7 @@ export default function toolchainEventVerify() {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0030 start.`);
       
       try {
-        Settings.createWindow("testability/pages/scenario/action_event/toolchainEventVerify/ToolchainEventVerify0030")
+        Settings.createWindow('testability/pages/scenario/action_event/toolchainEventVerify/ToolchainEventVerify0030')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(2000, 3000)
         
@@ -211,7 +211,7 @@ export default function toolchainEventVerify() {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_EVENT_VERIFY_0040 start.`);
       
       try {
-        Settings.createWindow("testability/pages/scenario/action_event/toolchainEventVerify/ToolchainEventVerify0040")
+        Settings.createWindow('testability/pages/scenario/action_event/toolchainEventVerify/ToolchainEventVerify0040')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(2000, 3000)
         

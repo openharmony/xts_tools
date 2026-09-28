@@ -50,7 +50,7 @@ export default function jichuSr000Hub4K() {
      */
     it('SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0010 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0010")
+      Settings.createWindow('testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       await windowSnap.snapShot()
@@ -71,7 +71,7 @@ export default function jichuSr000Hub4K() {
     it('SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0020 start.`);
       // 步骤1：打开未配置message的页面
-      Settings.createWindow("testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0020")
+      Settings.createWindow('testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 预期结果：编译报错（此页面用于验证编译错误场景）
@@ -93,7 +93,7 @@ export default function jichuSr000Hub4K() {
     it('SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0030 start.`);
       // 步骤1：打开promptAction.showDialog中未配置options的页面
-      Settings.createWindow("testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0030")
+      Settings.createWindow('testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 预期结果：编译报错
@@ -115,7 +115,7 @@ export default function jichuSr000Hub4K() {
     it('SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0040 start.`);
       // 步骤1：打开promptAction.showActionMenu未设置options的页面
-      Settings.createWindow("testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0040")
+      Settings.createWindow('testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 预期结果：编译报错
@@ -137,7 +137,7 @@ export default function jichuSr000Hub4K() {
     it('SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0050 start.`);
       // 步骤1：打开promptAction.showActionMenu未配置buttons的页面
-      Settings.createWindow("testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0050")
+      Settings.createWindow('testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 预期结果：编译报错
@@ -159,7 +159,7 @@ export default function jichuSr000Hub4K() {
     it('SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0060 start.`);
       // 步骤1：打开promptAction.showActionMenu下buttons中未配置color的页面
-      Settings.createWindow("testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0060")
+      Settings.createWindow('testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 预期结果：编译报错
@@ -181,7 +181,7 @@ export default function jichuSr000Hub4K() {
     it('SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0070 start.`);
       // 步骤1：打开promptAction.showActionMenu下buttons中未配置text的页面
-      Settings.createWindow("testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0070")
+      Settings.createWindow('testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 预期结果：编译报错
@@ -203,7 +203,7 @@ export default function jichuSr000Hub4K() {
     it('SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0080 start.`);
       // 步骤1：打开promptAction.showActionMenu下buttons中参数text设置为错误类型：number的页面
-      Settings.createWindow("testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0080")
+      Settings.createWindow('testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 预期结果：编译报错
@@ -225,7 +225,7 @@ export default function jichuSr000Hub4K() {
     it('SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0090 start.`);
       // 步骤1：打开promptAction.openCustomDialog中未配置options的页面
-      Settings.createWindow("testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0090")
+      Settings.createWindow('testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 预期结果：编译报错
@@ -247,11 +247,11 @@ export default function jichuSr000Hub4K() {
     it('SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0100 start.`);
       // 步骤1：安装hap包，进入demo
-      Settings.createWindow("testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0100")
+      Settings.createWindow('testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击按钮，进入页面，再点击页面中的按钮
-      let showDialogBtn = await driver.waitForComponent(ON.id("show_dialog_btn_0100"), 500)
+      let showDialogBtn = await driver.waitForComponent(ON.id('show_dialog_btn_0100'), 500)
       await showDialogBtn.click()
       await Utils.sleep(1000)
       // 预期结果：对话框可以在子窗口显示
@@ -273,11 +273,11 @@ export default function jichuSr000Hub4K() {
     it('SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0110 start.`);
       // 步骤1：安装hap包，进入demo
-      Settings.createWindow("testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0110")
+      Settings.createWindow('testability/pages/scenario/action_event/jichuSr000Hub4K/JichuSr000Hub4K0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：点击按钮，进入页面，再点击页面中的按钮
-      let showDialogBtn = await driver.waitForComponent(ON.id("show_dialog_btn_0110"), 500)
+      let showDialogBtn = await driver.waitForComponent(ON.id('show_dialog_btn_0110'), 500)
       await showDialogBtn.click()
       await Utils.sleep(1000)
       // 预期结果：对话框不可以在子窗口显示

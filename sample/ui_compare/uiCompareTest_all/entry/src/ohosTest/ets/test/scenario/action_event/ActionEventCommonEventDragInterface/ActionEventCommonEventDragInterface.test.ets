@@ -64,7 +64,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1190 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface01")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface01')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface01_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface01_01'),1000);
@@ -91,7 +91,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1160 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface02")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface02')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface02_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface02_01'),1000);
@@ -118,7 +118,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1210 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface03")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface03')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface03_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface03_01'),1000);
@@ -145,7 +145,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1100 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface04")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface04')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface04_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface04_01'),1000);
@@ -172,7 +172,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1170 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface05")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface05')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface05_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface05_01'),1000);
@@ -199,7 +199,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1150 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface06")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface06')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface06_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface06_01'),1000);
@@ -226,7 +226,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1180 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface07")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface07')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface07_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface07_01'),1000);
@@ -253,7 +253,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1110 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface08")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface08')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface08_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface08_01'),1000);
@@ -280,7 +280,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1140 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface09")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface09')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface09_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface09_01'),1000);
@@ -307,7 +307,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1130 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface10")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface10')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface10_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface10_01'),1000);
@@ -334,7 +334,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1120 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface11")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface11')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface11_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface11_01'),1000);
@@ -361,7 +361,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1200 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface12")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface12')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface12_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface12_01'),1000);
@@ -388,7 +388,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1080 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface13")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface13')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface13_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface13_01'),1000);
@@ -415,7 +415,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1070 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface14")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface14')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface14_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface14_01'),1000);
@@ -442,7 +442,7 @@ export default function actionEventCommonEventDragInterface() {
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1090 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface15")
+      Settings.createWindow('testability/pages/scenario/action_event/actionEventCommonEventDragInterface/ActionEventCommonEventDragInterface15')
       let driver:Driver=Driver.create();
       let text: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface15_02'),1000);
       let iamge: Component = await driver.waitForComponent(ON.id('ActionEventCommonEventDragInterface15_01'),1000);

@@ -64,7 +64,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0550', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0550 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut01")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut01')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut01_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut01_02'),1000);
@@ -86,7 +86,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0590 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut02")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut02')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut02_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut02_02'),1000);
@@ -108,7 +108,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0650 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut03")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut03')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut03_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut03_02'),1000);
@@ -130,7 +130,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0530 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut04")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut04')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut04_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut04_02'),1000);
@@ -152,7 +152,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0630 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut05")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut05')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut05_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut05_02'),1000);
@@ -174,7 +174,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0560 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut06")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut06')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut06_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut06_02'),1000);
@@ -196,7 +196,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0520 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut07")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut07')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut07_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut07_02'),1000);
@@ -218,7 +218,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0570 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut08")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut08')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut08_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut08_02'),1000);
@@ -240,7 +240,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0660 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut09")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut09')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut09_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut09_02'),1000);
@@ -262,7 +262,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0610 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut10")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut10')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut10_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut10_02'),1000);
@@ -284,7 +284,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0640 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut11")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut11')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut11_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut11_02'),1000);
@@ -306,7 +306,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0600 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut12")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut12')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut12_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut12_02'),1000);
@@ -328,7 +328,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0620 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut13")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut13')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut13_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut13_02'),1000);
@@ -350,7 +350,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0580 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut14")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut14')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut14_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut14_02'),1000);
@@ -372,7 +372,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0670 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut15")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut15')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut15_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut15_02'),1000);
@@ -394,7 +394,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0680 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut16")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut16')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut16_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut16_02'),1000);
@@ -416,7 +416,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0690 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut17")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut17')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut17_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut17_02'),1000);
@@ -438,7 +438,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0700 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut18")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut18')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut18_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut18_02'),1000);
@@ -460,7 +460,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0710 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut19")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut19')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut19_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut19_02'),1000);
@@ -482,7 +482,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0460 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut20")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut20')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut20_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut20_02'),1000);
@@ -504,7 +504,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0480 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut21")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut21')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut21_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut21_02'),1000);
@@ -526,7 +526,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0450 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut22")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut22')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut22_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut22_02'),1000);
@@ -548,7 +548,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0470 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut23")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut23')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut23_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut23_02'),1000);
@@ -570,7 +570,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0490 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut24")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut24')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut24_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut24_02'),1000);
@@ -592,7 +592,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0500 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut25")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut25')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut25_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut25_02'),1000);
@@ -614,7 +614,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0040 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut26")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut26')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut26_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut26_02'),1000);
@@ -636,7 +636,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0540 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut27")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut27')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut27_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut27_02'),1000);
@@ -658,7 +658,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0440 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut28")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut28')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut28_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut28_02'),1000);
@@ -680,7 +680,7 @@ export default function aceDragGrayOut() {
      */
     it('SUB_ACE_DRAG_GRAYOUT_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0510 start.`);
-      Settings.createWindow("testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut29")
+      Settings.createWindow('testability/pages/scenario/action_event/aceDragGrayOut/AceDragGrayOut29')
       let driver:Driver=Driver.create();
       let column: Component = await driver.waitForComponent(ON.id('AceDragGrayOut29_01'),1000);
       let column2: Component = await driver.waitForComponent(ON.id('AceDragGrayOut29_02'),1000);

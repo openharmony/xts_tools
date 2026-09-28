@@ -52,7 +52,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0010 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0010")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -95,7 +95,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0020 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0020")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -130,7 +130,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0030 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0030")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -173,7 +173,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0050 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0050")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -216,7 +216,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0060 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0060")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -251,7 +251,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0070 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0070")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -294,7 +294,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0080 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0080")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -329,7 +329,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0100 start.`);
       
       // 预置条件：List为父组件、button为子组件，组件button1调用、组件button2调用
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0100")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -378,7 +378,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0110 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0110")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -421,7 +421,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0120 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0120")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -456,7 +456,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0130 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0130")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -507,7 +507,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0140 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0140")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0140')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -550,7 +550,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0150 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0150")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0150')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -593,7 +593,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0160 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0160")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0160')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -628,7 +628,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0170 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0170")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0170')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -671,7 +671,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0180 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0180")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0180')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -706,7 +706,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0190 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0190")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0190')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -749,7 +749,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0200 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0200")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0200')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -792,7 +792,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0210 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0210")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0210')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -835,7 +835,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0220 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0220")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0220')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -878,7 +878,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0230 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0230")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0230')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -921,7 +921,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0240 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0240")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0240')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -964,7 +964,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0250 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0250")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0250')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1007,7 +1007,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0260 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0260")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0260')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1050,7 +1050,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0270 start.`);
       
       // 预置条件：Row为父组件，image为子组件；父组件不调用，子组件调用
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0270")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0270')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1092,7 +1092,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0280 start.`);
       
       // 预置条件：Row为父组件，image为子组件；父组件调用，子组件不调用
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0280")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0280')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1134,7 +1134,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0290 start.`);
       
       // 预置条件：Row为父组件，image为子组件；父、子组件均调用
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0290")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0290')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1176,7 +1176,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0300 start.`);
       
       // 预置条件：Row为父组件，image为子组件；父、子组件均不调用
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0300")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0300')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1218,7 +1218,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0310 start.`);
       
       // 预置条件：Row为父组件，image为子组件；父组件调用，子组件A调用，子组件B不调用
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0310")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0310')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1268,7 +1268,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0320 start.`);
       
       // 预置条件：Row为父组件，image为子组件；父组件调用，两个子均不调用；子组件A透明度为0.4，子组件B无透明度
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0320")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0320')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1318,7 +1318,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0330 start.`);
       
       // 预置条件：组件自身设置透明度0.4，调用ENABLE_DEFAULT_GRAYED
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0330")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0330')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1360,7 +1360,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0340 start.`);
       
       // 预置条件：组件自身设置透明度0.4，调用ENABLE_DEFAULT_GRAYED
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0340")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0340')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1402,7 +1402,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0350 start.`);
       
       // 预置条件：组件自身设置透明度0.4，不调用ENABLE_DEFAULT_GRAYED
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0350")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0350')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1444,7 +1444,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0360 start.`);
       
       // 预置条件：父组件透明度0.2，子组件A透明度0.9，子组件B透明度为0.4；父组件调用ENABLE_DEFAULT_GRAYED
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0360")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0360')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1502,7 +1502,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0370 start.`);
       
       // 预置条件：父组件透明度0.2，子组件A透明度0.9，子组件B透明度为0.4；父组件调用ENABLE_DEFAULT_GRAYED
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0370")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0370')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1550,7 +1550,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0380 start.`);
       
       // 预置条件：子组件设置透明度3，父组件调用ENABLE_DEFAULT_GRAYED
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0380")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0380')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1592,7 +1592,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0400 start.`);
       
       // 预置条件：组件调用ENABLE_DEFAULT_GRAYED
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0400")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0400')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1626,7 +1626,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0410 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0410")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0410')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1660,7 +1660,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0420 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0420")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0420')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -1700,7 +1700,7 @@ export default function dragGrayout() {
       Logger.info('TEST', `SUB_ACE_DRAG_GRAYOUT_0430 start.`);
       
       // 预置条件：新建ets页面
-      Settings.createWindow("testability/pages/scenario/action_event/dragGrayout/DragGrayout0430")
+      Settings.createWindow('testability/pages/scenario/action_event/dragGrayout/DragGrayout0430')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       

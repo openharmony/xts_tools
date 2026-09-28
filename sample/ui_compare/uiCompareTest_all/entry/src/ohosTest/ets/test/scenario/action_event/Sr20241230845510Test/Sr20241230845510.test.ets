@@ -58,35 +58,35 @@ export default function sr20241230845510() {
       Logger.info('TEST', 'Starting log monitoring for animation start/stop keywords');
       
       // 步骤3：打开hap首页
-      Settings.createWindow("testability/pages/scenario/action_event/sr20241230845510/Sr20241230845510001")
+      Settings.createWindow('testability/pages/scenario/action_event/sr20241230845510/Sr20241230845510001')
       let driver: Driver = Driver.create();
       await Utils.sleep(1000) // 等待页面加载完成
 
       // 验证初始状态 - Symbol页面应该显示，动效应该运行
       Logger.info('TEST', 'Verifying initial state - symbol page should be active with animation running');
-      let animationStatus = await driver.findComponent(ON.id("animation_status_sr20241230845510_001"))
+      let animationStatus = await driver.findComponent(ON.id('animation_status_sr20241230845510_001'))
       await Utils.sleep(1000) // 观察动效运行
 
       // 切换到其他页面
       Logger.info('TEST', 'Switching to other page - animation should stop');
-      let btnOtherPage = await driver.findComponent(ON.id("button_other_page_sr20241230845510_001"))
+      let btnOtherPage = await driver.findComponent(ON.id('button_other_page_sr20241230845510_001'))
       await btnOtherPage.click()
       await Utils.sleep(1000) // 等待页面切换完成和动效停止
 
       // 验证其他页面状态
       Logger.info('TEST', 'Verifying other page state - animation should be stopped');
-      let otherPageContent = await driver.findComponent(ON.id("other_page_content_sr20241230845510_001"))
+      let otherPageContent = await driver.findComponent(ON.id('other_page_content_sr20241230845510_001'))
       await Utils.sleep(1000)
 
       // 切回Symbol页面
       Logger.info('TEST', 'Switching back to symbol page - animation should resume');
-      let btnSymbolPage = await driver.findComponent(ON.id("button_symbol_page_sr20241230845510_001"))
+      let btnSymbolPage = await driver.findComponent(ON.id('button_symbol_page_sr20241230845510_001'))
       await btnSymbolPage.click()
       await Utils.sleep(1000) // 等待页面切换完成和动效恢复
 
       // 验证动效恢复状态
       Logger.info('TEST', 'Verifying animation resumed state');
-      let symbolAnimationArea = await driver.findComponent(ON.id("symbol_animation_area_sr20241230845510_001"))
+      let symbolAnimationArea = await driver.findComponent(ON.id('symbol_animation_area_sr20241230845510_001'))
       await Utils.sleep(1000) // 观察动效恢复
 
       // 再次测试切换（确保机制稳定）
@@ -122,13 +122,13 @@ export default function sr20241230845510() {
       Logger.info('TEST', 'Starting log monitoring for animation start/stop keywords');
       
       // 步骤3：打开hap首页
-      Settings.createWindow("testability/pages/scenario/action_event/sr20241230845510/Sr20241230845510002")
+      Settings.createWindow('testability/pages/scenario/action_event/sr20241230845510/Sr20241230845510002')
       await Utils.sleep(500)
       let driver: Driver = Driver.create();
       await Utils.sleep(500) // 等待页面加载完成
 
       // 获取滚动容器
-      let scrollContainer = await driver.findComponent(ON.id("scroll_container_sr20241230845510_002"))
+      let scrollContainer = await driver.findComponent(ON.id('scroll_container_sr20241230845510_002'))
       
       // 验证初始状态 - Symbol图标应该可见，动效应该运行
       Logger.info('TEST', 'Verifying initial state - symbol should be visible and animation running');
@@ -136,7 +136,7 @@ export default function sr20241230845510() {
 
       // 下滑到动效处（确保动效可见）
       Logger.info('TEST', 'Scrolling down to animation area');
-      await scrollContainer.scrollSearch(ON.id("symbol_animation_container_sr20241230845510_002"))
+      await scrollContainer.scrollSearch(ON.id('symbol_animation_container_sr20241230845510_002'))
       await Utils.sleep(500) // 等待滚动完成和动效启动
 
       // 验证动效运行状态
