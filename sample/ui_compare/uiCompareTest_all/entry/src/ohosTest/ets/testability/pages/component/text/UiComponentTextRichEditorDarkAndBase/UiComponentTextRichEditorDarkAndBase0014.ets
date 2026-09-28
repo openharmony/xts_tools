@@ -51,7 +51,7 @@ struct UiComponentTextRichEditorDarkAndBase0014 {
         RichEditor(this.options)
           .width(300)
           .height(50)
-          .id("rich_editor_darkandbase_0014")
+          .id('rich_editor_darkandbase_0014')
           .backgroundColor(Color.White)
           .border({
             width: 2,
@@ -59,9 +59,9 @@ struct UiComponentTextRichEditorDarkAndBase0014 {
           })
           .selectedBackgroundColor(this.currentBackgroundColor)
           .onSelectionChange((value: RichEditorRange) => {
-            this.infoShowController.addTextSpan("\n" + "触发了onSelectionChange回调，起始范围信息为：(" + value.start +
-              "," +
-            value.end + ")", {
+            this.infoShowController.addTextSpan('\n' + '触发了onSelectionChange回调，起始范围信息为：(' + value.start +
+              ',' +
+            value.end + ')', {
               style: {
                 fontColor: Color.Gray,
                 fontSize: 15

@@ -16,7 +16,7 @@
 @Builder
 function uiComponentTextRichEditorAction19placeholderBuilder2() {
   Row({ space: 2 }) {
-    Image($r("app.media.icon"))
+    Image($r('app.media.icon'))
       .width(24)
       .height(24)
       .margin({ left: -5 })
@@ -36,8 +36,8 @@ struct UiComponentTextRichEditorAction19 {
   option: RichEditorOptions = { controller: this.controller };
   private start: number = 2;
   private end: number = 4;
-  @State message: string = "[-1, -1]"
-  @State content: string = ""
+  @State message: string = '[-1, -1]'
+  @State content: string = ''
   private my_offset: number | undefined = undefined
   private my_builder: CustomBuilder = undefined
   @BuilderParam my_builder2:() => void = uiComponentTextRichEditorAction19placeholderBuilder2;
@@ -45,7 +45,7 @@ struct UiComponentTextRichEditorAction19 {
   @Builder
   placeholderBuilder() {
     Row({ space: 2 }) {
-      Image($r("app.media.icon"))
+      Image($r('app.media.icon'))
         .width(24)
         .height(24)
         .margin({ left: -5 })
@@ -59,7 +59,7 @@ struct UiComponentTextRichEditorAction19 {
 
   @Builder
   placeholderBuilder3() {
-    Text("hello")
+    Text('hello')
       .padding('20')
       .borderWidth(1)
       .width('100%')
@@ -126,8 +126,8 @@ struct UiComponentTextRichEditorAction19 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项1" })
-      MenuItem({ startIcon: $r("app.media.icon"), content: "菜单选项2" })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项1' })
+      MenuItem({ startIcon: $r('app.media.icon'), content: '菜单选项2' })
         .enabled(false)
     }
   }
@@ -135,23 +135,23 @@ struct UiComponentTextRichEditorAction19 {
   build() {
     Column() {
       Column() {
-        Text("selection range:").width("100%")
+        Text('selection range:').width('100%')
         Text() {
           Span(this.message)
-        }.width("100%")
+        }.width('100%')
 
-        Text("selection content:").width("100%")
+        Text('selection content:').width('100%')
         Text() {
           Span(this.content)
-        }.width("100%")
+        }.width('100%')
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("20%")
+      .width('100%')
+      .height('20%')
 
       Row() {
-        Button("删除选择内容").onClick(() => {
+        Button('删除选择内容').onClick(() => {
           this.controller.deleteSpans({
             start: this.start,
             end: this.end
@@ -160,14 +160,14 @@ struct UiComponentTextRichEditorAction19 {
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("10%")
+      .width('100%')
+      .height('10%')
 
       Column() {
         RichEditor(this.option)
           .id('UiComponentTextRichEditorAction19_03')
           .onReady(() => {
-            this.controller.addTextSpan("09",
+            this.controller.addTextSpan('09',
               {
                 style:
                 {
@@ -179,60 +179,60 @@ struct UiComponentTextRichEditorAction19 {
               {
                 imageStyle:
                 {
-                  size: ["57px", "57px"]
+                  size: ['57px', '57px']
                 }
               })
           })
           .onSelect((value: RichEditorSelection) => {
             this.start = value.selection[0];
             this.end = value.selection[1];
-            this.message = "[" + this.start + ", " + this.end + "]"
-            console.info("onSelect="+JSON.stringify(value))
+            this.message = '[' + this.start + ', ' + this.end + ']'
+            console.info('onSelect='+JSON.stringify(value))
           })
           .aboutToIMEInput((value: RichEditorInsertValue) => {
-            console.log("---------------------- aboutToIMEInput --------------------")
+            console.log('---------------------- aboutToIMEInput --------------------')
             return true;
           })
           .onIMEInputComplete((value: RichEditorTextSpanResult) => {
-            console.log("---------------------- onIMEInputComplete --------------------")
+            console.log('---------------------- onIMEInputComplete --------------------')
           })
           .aboutToDelete((value: RichEditorDeleteValue) => {
             value.richEditorDeleteSpans.forEach(item => {
-              console.log("---------------------- item --------------------")
-              console.info("spanIndex=" + item.spanPosition.spanIndex)
-              console.log("spanRange:[" + item.spanPosition.spanRange[0] + "," + item.spanPosition.spanRange[1] + "]")
-              console.log("offsetInSpan:[" + item.offsetInSpan[0] + "," + item.offsetInSpan[1] + "]")
+              console.log('---------------------- item --------------------')
+              console.info('spanIndex=' + item.spanPosition.spanIndex)
+              console.log('spanRange:[' + item.spanPosition.spanRange[0] + ',' + item.spanPosition.spanRange[1] + ']')
+              console.log('offsetInSpan:[' + item.offsetInSpan[0] + ',' + item.offsetInSpan[1] + ']')
               if (typeof (item as RichEditorImageSpanResult)['imageStyle'] != 'undefined') {
-                if ((item as RichEditorImageSpanResult).valueResourceStr == "") {
-                  console.info("builder span index " + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ", range : " + (item as RichEditorImageSpanResult).offsetInSpan[0] + ", " +
-                  (item as RichEditorImageSpanResult).offsetInSpan[1] + ", size : " + (item as RichEditorImageSpanResult).imageStyle[0] + ", " + (item as RichEditorImageSpanResult).imageStyle[1])
+                if ((item as RichEditorImageSpanResult).valueResourceStr == '') {
+                  console.info('builder span index ' + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ', range : ' + (item as RichEditorImageSpanResult).offsetInSpan[0] + ', ' +
+                  (item as RichEditorImageSpanResult).offsetInSpan[1] + ', size : ' + (item as RichEditorImageSpanResult).imageStyle[0] + ', ' + (item as RichEditorImageSpanResult).imageStyle[1])
                 } else {
-                  console.info("image span " + (item as RichEditorImageSpanResult).valueResourceStr + ", index : " + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ", range: " +
-                  (item as RichEditorImageSpanResult).offsetInSpan[0] + ", " + (item as RichEditorImageSpanResult).offsetInSpan[1] + ", size : " +
-                  (item as RichEditorImageSpanResult).imageStyle.size[0] + ", " + (item as RichEditorImageSpanResult).imageStyle.size[1])
+                  console.info('image span ' + (item as RichEditorImageSpanResult).valueResourceStr + ', index : ' + (item as RichEditorImageSpanResult).spanPosition.spanIndex + ', range: ' +
+                  (item as RichEditorImageSpanResult).offsetInSpan[0] + ', ' + (item as RichEditorImageSpanResult).offsetInSpan[1] + ', size : ' +
+                  (item as RichEditorImageSpanResult).imageStyle.size[0] + ', ' + (item as RichEditorImageSpanResult).imageStyle.size[1])
                 }
               } else {
-                console.info("delete text: " + (item as RichEditorTextSpanResult).value)
+                console.info('delete text: ' + (item as RichEditorTextSpanResult).value)
               }
             })
             return true;
           })
           .borderWidth(1)
           .borderColor(Color.Green)
-          .width("100%")
-          .height("30%")
+          .width('100%')
+          .height('30%')
 
-        Button("add span")
+        Button('add span')
           .onClick(() => {
             let num = this.controller.addBuilderSpan(this.my_builder, { offset: this.my_offset })
             console.info('addBuilderSpan return ' + num)
           })
           .id('UiComponentTextRichEditorAction19_01')
-        Button("add image")
+        Button('add image')
           .onClick(() => {
-            let num = this.controller.addImageSpan($r("app.media.icon"), {
+            let num = this.controller.addImageSpan($r('app.media.icon'), {
               imageStyle: {
-                size: ["50px", "50px"],
+                size: ['50px', '50px'],
                 verticalAlign: ImageSpanAlignment.BOTTOM,
                 layoutStyle: {
                   borderRadius: undefined,
@@ -254,8 +254,8 @@ struct UiComponentTextRichEditorAction19 {
       }
       .borderWidth(1)
       .borderColor(Color.Red)
-      .width("100%")
-      .height("70%")
+      .width('100%')
+      .height('70%')
     }
   }
 }

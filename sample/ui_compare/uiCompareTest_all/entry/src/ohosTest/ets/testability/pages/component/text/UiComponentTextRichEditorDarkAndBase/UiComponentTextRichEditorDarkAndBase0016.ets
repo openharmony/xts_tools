@@ -77,7 +77,7 @@ struct UiComponentTextRichEditorDarkAndBase0016 {
           })
           .width(300)
           .height(50)
-          .id("rich_editor_darkandbase_0016")
+          .id('rich_editor_darkandbase_0016')
           .backgroundColor(Color.White)
           .border({
             width: 2,

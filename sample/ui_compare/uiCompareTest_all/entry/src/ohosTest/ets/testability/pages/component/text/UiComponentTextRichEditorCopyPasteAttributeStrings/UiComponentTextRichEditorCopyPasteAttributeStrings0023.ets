@@ -28,7 +28,7 @@ struct UiComponentTextRichEditorCopyPasteAttributeStrings0023 {
   });
   // 包含换行符的内容
   mutableStyledStringA: MutableStyledString = new MutableStyledString(
-    "\n   \n======== 正常输入内容第三行 ========\n======== 更多内容第四行 ========",
+    '\n   \n======== 正常输入内容第三行 ========\n======== 更多内容第四行 ========',
     [{
       start: 0,
       length: 28,

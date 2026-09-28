@@ -40,7 +40,7 @@ struct UiComponentTextRichEditorDragPlainText0007 {
 
       // 文本框：输入要拖拽的内容
       TextInput({ placeholder: '输入要拖拽到长文本首字符前的文本' })
-        .id("textInputDrag0007")
+        .id('textInputDrag0007')
         .width('100%')
         .height(80)
         .border({ width: 2, color: '#2B73FF', style: BorderStyle.Dashed })
@@ -89,7 +89,7 @@ struct UiComponentTextRichEditorDragPlainText0007 {
             }
           });
         })
-        .id("richEditorDrag0007")
+        .id('richEditorDrag0007')
         .width('100%')
         .height(200)
         .backgroundColor(Color.White)
@@ -101,7 +101,7 @@ struct UiComponentTextRichEditorDragPlainText0007 {
 
       // 添加长文本按钮
       Button('添加更多长文本')
-        .id("addLongTextBtn0007")
+        .id('addLongTextBtn0007')
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
@@ -123,7 +123,7 @@ struct UiComponentTextRichEditorDragPlainText0007 {
 
       // 验证按钮
       Button('验证拖拽')
-        .id("getSpansBtn0007")
+        .id('getSpansBtn0007')
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
@@ -143,7 +143,7 @@ struct UiComponentTextRichEditorDragPlainText0007 {
 
       // 验证结果显示
       Text(this.getSpansResult)
-        .id("getSpansResultText0007")
+        .id('getSpansResultText0007')
         .width('100%')
         .height(60)
         .backgroundColor('#F0F0F0')

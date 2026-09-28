@@ -21,7 +21,7 @@ const Indentation = 40
 class UiComponentTextRichEditorAction18LeadingMarginCreator {
   private settings: RenderingContextSettings = new RenderingContextSettings(true)
   private offscreenCanvas: OffscreenCanvas = new OffscreenCanvas(canvasWidth, canvasHeight)
-  private offContext: OffscreenCanvasRenderingContext2D = this.offscreenCanvas.getContext("2d", this.settings)
+  private offContext: OffscreenCanvasRenderingContext2D = this.offscreenCanvas.getContext('2d', this.settings)
   public static instance: UiComponentTextRichEditorAction18LeadingMarginCreator = new UiComponentTextRichEditorAction18LeadingMarginCreator()
 
   public getFontSizeLevel(fontSize: number) {
@@ -71,7 +71,7 @@ class UiComponentTextRichEditorAction18LeadingMarginCreator {
   }
 
   public genStrMark(fontSize: number, str: string): PixelMap {
-    this.offContext = this.offscreenCanvas.getContext("2d", this.settings)
+    this.offContext = this.offscreenCanvas.getContext('2d', this.settings)
     this.clearCanvas()
     this.offContext.font = fontSize + 'vp sans-serif'
     this.offContext.fillText(str + '.', 0, fontSize * 0.9)
@@ -79,7 +79,7 @@ class UiComponentTextRichEditorAction18LeadingMarginCreator {
   }
 
   public genSquareMark(fontSize: number): PixelMap {
-    this.offContext = this.offscreenCanvas.getContext("2d", this.settings)
+    this.offContext = this.offscreenCanvas.getContext('2d', this.settings)
     this.clearCanvas()
     const coordinate = fontSize * (1 - 1 / 1.5) / 2
     const sideLength = fontSize / 1.5
@@ -93,7 +93,7 @@ class UiComponentTextRichEditorAction18LeadingMarginCreator {
     const fontSizeLevel = this.getFontSizeLevel(fontSize)
     const marginlevel = this.getmarginLevel(width)
     const newCanvas = new OffscreenCanvas(canvasWidth, canvasHeight)
-    const newOffContext: OffscreenCanvasRenderingContext2D = newCanvas.getContext("2d", this.settings)
+    const newOffContext: OffscreenCanvasRenderingContext2D = newCanvas.getContext('2d', this.settings)
     const centerCoordinate = 50
     const radius = 10
     this.clearCanvas()
@@ -133,7 +133,7 @@ struct UiComponentTextRichEditorAction18 {
         RichEditor(this.options)
           .id('UiComponentTextRichEditorAction18_02')
           .onReady(() => {
-            this.controller.addTextSpan("0",
+            this.controller.addTextSpan('0',
               {
                 style:
                 {
@@ -146,7 +146,7 @@ struct UiComponentTextRichEditorAction18 {
                 }
               })
 
-            this.controller.addTextSpan("abcdefg",
+            this.controller.addTextSpan('abcdefg',
               {
                 style:
                 {
@@ -159,17 +159,17 @@ struct UiComponentTextRichEditorAction18 {
               })
           })
           .aboutToIMEInput((value: RichEditorInsertValue) => {
-            console.info("---------------------- aboutToIMEInput ----------------------");
+            console.info('---------------------- aboutToIMEInput ----------------------');
             return true;
           })
           .onIMEInputComplete((value: RichEditorTextSpanResult) => {
-            console.info("---------------------- onIMEInputComplete ---------------------");
-            console.info("value:" + value.value);
+            console.info('---------------------- onIMEInputComplete ---------------------');
+            console.info('value:' + value.value);
           })
           .borderWidth(1)
           .borderColor(Color.Green)
-          .width("100%")
-          .height("50%")
+          .width('100%')
+          .height('50%')
 
         Row({ space: 5 }) {
           Button('setTypingStyle1')

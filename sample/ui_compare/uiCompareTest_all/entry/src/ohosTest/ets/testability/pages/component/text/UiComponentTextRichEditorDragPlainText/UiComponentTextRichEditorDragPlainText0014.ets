@@ -35,7 +35,7 @@ struct UiComponentTextRichEditorDragPlainText0014 {
 
       // 文本框：设置字体样式
       TextInput({ placeholder: '输入要拖拽的文本内容' })
-        .id("textInputDrag0014")
+        .id('textInputDrag0014')
         .width('100%')
         .height(100)
         .border({ width: 2, color: '#2B73FF', style: BorderStyle.Dashed })
@@ -63,7 +63,7 @@ struct UiComponentTextRichEditorDragPlainText0014 {
 
       // RichEditor
       RichEditor({ controller: this.controller })
-        .id("richEditorDrag0014")
+        .id('richEditorDrag0014')
         .width('100%')
         .height(200)
         .border({ width: 2, color: '#2B73FF', style: BorderStyle.Dashed })
@@ -92,7 +92,7 @@ struct UiComponentTextRichEditorDragPlainText0014 {
 
       // 验证按钮
       Button('验证拖拽')
-        .id("getSpansBtn0014")
+        .id('getSpansBtn0014')
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
@@ -112,7 +112,7 @@ struct UiComponentTextRichEditorDragPlainText0014 {
 
       // 验证结果显示
       Text(this.getSpansResult)
-        .id("getSpansResultText0014")
+        .id('getSpansResultText0014')
         .width('100%')
         .height(60)
         .backgroundColor('#F0F0F0')

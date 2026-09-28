@@ -71,7 +71,7 @@ struct UiComponentTextRichEditorDarkAndBase0006 {
           .height(30)
           .fontSize(13)
           .onClick(() => {
-            this.controller.addSymbolSpan($r("sys.symbol.basketball_fill"), {
+            this.controller.addSymbolSpan($r('sys.symbol.basketball_fill'), {
               style: {
                 fontSize: 30,
                 fontColor: [this.currentBackgroundColor]

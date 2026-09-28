@@ -38,7 +38,7 @@ struct UiComponentTextRichEditorCopyPasteAttributeStrings0012 {
   });
 
   mutableStyledStringA: MutableStyledString = new MutableStyledString(
-    "组件A文本样式测试内容\n组件A文本样式测试内容\n",
+    '组件A文本样式测试内容\n组件A文本样式测试内容\n',
     [{
       start: 0,
       length: 23,
@@ -48,7 +48,7 @@ struct UiComponentTextRichEditorCopyPasteAttributeStrings0012 {
   );
 
   mutableStyledStringB: MutableStyledString = new MutableStyledString(
-    "组件B文本样式测试内容\n组件B文本样式测试内容\n",
+    '组件B文本样式测试内容\n组件B文本样式测试内容\n',
     [{
       start: 0,
       length: 23,

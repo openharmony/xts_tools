@@ -56,7 +56,7 @@ struct UIComponentTextRichEditorBuilderSpanDrag0006 {
   @Builder
   testBuilder() {
     Row({ space: 2 }) {
-      Image($r("sys.media.ohos_app_icon"))
+      Image($r('sys.media.ohos_app_icon'))
         .width(24)
         .height(24)
         .margin(5)
@@ -75,7 +75,7 @@ struct UIComponentTextRichEditorBuilderSpanDrag0006 {
       // RichEditor 组件
       Row() {
         RichEditor(this.options)
-          .id("rich_editor_builderspandrag_0006")
+          .id('rich_editor_builderspandrag_0006')
           .width(200)
           .height(80)
           .backgroundColor(Color.White)
@@ -84,7 +84,7 @@ struct UIComponentTextRichEditorBuilderSpanDrag0006 {
             color: this.currentBackgroundColor
           })
           .onDragStart((event) => {
-            const successMessage = "拖拽起builderSpan，触发回调 "
+            const successMessage = '拖拽起builderSpan，触发回调 '
             console.log(successMessage);
             this.infoShowController.addTextSpan(successMessage, {
               style: {
@@ -140,6 +140,6 @@ struct UIComponentTextRichEditorBuilderSpanDrag0006 {
       }
     }
     .width('100%')
-    .height("100%")
+    .height('100%')
   }
 }

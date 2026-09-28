@@ -64,12 +64,12 @@ struct UiComponentTextRichEditorAdaptiveAging0013 {
                 '--------测试尾部--------\n',
               {
                 style: {
-                  fontColor: $r("sys.color.warning"),
+                  fontColor: $r('sys.color.warning'),
                   fontSize: 20
                 }
               })
           })
-          .id("rich_editor_adaptiveAging_0013")
+          .id('rich_editor_adaptiveAging_0013')
           .width('90%')
           .margin({ top: 100 })
           .height(150)

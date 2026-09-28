@@ -73,7 +73,7 @@ struct UiComponentTextRichEditorDoubleClick0001 {
           .onReady(() => {
 
           })
-          .id("rich_editor_doubleclick_0001")
+          .id('rich_editor_doubleclick_0001')
           .width(320)
           .height(60)
           .backgroundColor(Color.White)
@@ -89,6 +89,6 @@ struct UiComponentTextRichEditorDoubleClick0001 {
 
     }
     .width('100%')
-    .height("100%")
+    .height('100%')
   }
 }

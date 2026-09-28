@@ -20,7 +20,7 @@ let gUIContext: UIContext;
 
 // 自定义CustomSpan类 - 绘制纯文本span
 class MyCustomTextSpan extends CustomSpan {
-  public word: string = "CustomSpan";
+  public word: string = 'CustomSpan';
   public width: number = 280;
   public height: number = 50;
 
@@ -71,10 +71,10 @@ struct UiComponentTextRichEditorCustomspan0005 {
   optionsA: RichEditorStyledStringOptions = { controller: this.controllerA };
 
   // 创建自定义CustomSpan实例
-  customSpan: MyCustomTextSpan = new MyCustomTextSpan("自定义绘制的纯文本Span", 280, 50);
+  customSpan: MyCustomTextSpan = new MyCustomTextSpan('自定义绘制的纯文本Span', 280, 50);
 
   // 创建包含CustomSpan的MutableStyledString
-  mutableStyledStringA: MutableStyledString = new MutableStyledString("前置文本内容 ");
+  mutableStyledStringA: MutableStyledString = new MutableStyledString('前置文本内容 ');
 
   aboutToAppear(): void {
     gUIContext = this.getUIContext();
@@ -83,7 +83,7 @@ struct UiComponentTextRichEditorCustomspan0005 {
     this.mutableStyledStringA.appendStyledString(new MutableStyledString(this.customSpan));
     
     // 添加后续文本
-    this.mutableStyledStringA.appendStyledString(new MutableStyledString(" 后续文本内容"));
+    this.mutableStyledStringA.appendStyledString(new MutableStyledString(' 后续文本内容'));
     
     this.controllerA.setStyledString(this.mutableStyledStringA);
   }
@@ -101,7 +101,7 @@ struct UiComponentTextRichEditorCustomspan0005 {
         .margin({ bottom: 10 })
 
       RichEditor(this.optionsA)
-        .id("rich_editor_customspan_0005")
+        .id('rich_editor_customspan_0005')
         .width('90%')
         .height(200)
         .backgroundColor(Color.White)

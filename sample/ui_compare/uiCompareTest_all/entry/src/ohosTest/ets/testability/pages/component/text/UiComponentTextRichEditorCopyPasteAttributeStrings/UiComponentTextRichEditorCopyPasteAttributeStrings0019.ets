@@ -20,7 +20,7 @@ let gUIContext: UIContext;
 
 // 自定义CustomSpan类
 class MyCustomSpan extends CustomSpan {
-  public word: string = "CustomSpan";
+  public word: string = 'CustomSpan';
   public width: number = 300;
   public height: number = 60;
 
@@ -73,13 +73,13 @@ struct UiComponentTextRichEditorCopyPasteAttributeStrings0019 {
   optionsB: RichEditorStyledStringOptions = { controller: this.controllerB };
 
   // 创建自定义CustomSpan实例
-  customSpan: MyCustomSpan = new MyCustomSpan("测试拖拽", 300, 60);
+  customSpan: MyCustomSpan = new MyCustomSpan('测试拖拽', 300, 60);
 
   // 组件A只包含一个CustomSpan
   mutableStyledStringA: MutableStyledString = new MutableStyledString(this.customSpan);
 
   // 组件B包含简单文本
-  mutableStyledStringB: MutableStyledString = new MutableStyledString("组件B初始内容");
+  mutableStyledStringB: MutableStyledString = new MutableStyledString('组件B初始内容');
 
   aboutToAppear(): void {
     gUIContext = this.getUIContext();

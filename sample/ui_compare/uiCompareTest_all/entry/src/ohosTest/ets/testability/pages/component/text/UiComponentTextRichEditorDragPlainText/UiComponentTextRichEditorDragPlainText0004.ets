@@ -35,7 +35,7 @@ struct UiComponentTextRichEditorDragPlainText0004 {
 
       // 文本输入框
       TextInput({ placeholder: '输入文本后长按此处即可拖拽到下方编辑器' })
-        .id("textInputDrag0004")
+        .id('textInputDrag0004')
         .width('100%')
         .height(64)
         .border({ width: 2, color: '#2B73FF', style: BorderStyle.Dashed })
@@ -56,7 +56,7 @@ struct UiComponentTextRichEditorDragPlainText0004 {
 
       // 目标：RichEditor 接收并插入
       RichEditor({ controller: this.controller })
-        .id("richEditorDrag0004")
+        .id('richEditorDrag0004')
         .width('100%')
         .height(220)
         .backgroundColor(Color.White)
@@ -68,7 +68,7 @@ struct UiComponentTextRichEditorDragPlainText0004 {
 
       // 添加Span按钮（无空格）
       Button('添加Span')
-        .id("addSpan1Btn0004")
+        .id('addSpan1Btn0004')
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
@@ -91,7 +91,7 @@ struct UiComponentTextRichEditorDragPlainText0004 {
 
       // 验证拖拽按钮
       Button('验证拖拽')
-        .id("getSpansBtn0004")
+        .id('getSpansBtn0004')
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
@@ -111,7 +111,7 @@ struct UiComponentTextRichEditorDragPlainText0004 {
 
       // 验证结果显示
       Text(this.getSpansResult)
-        .id("getSpansResultText0004")
+        .id('getSpansResultText0004')
         .width('100%')
         .height(60)
         .backgroundColor('#F0F0F0')

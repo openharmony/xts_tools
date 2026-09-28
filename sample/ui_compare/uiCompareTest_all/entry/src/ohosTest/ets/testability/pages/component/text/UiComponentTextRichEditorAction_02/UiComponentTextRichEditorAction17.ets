@@ -18,9 +18,9 @@
 struct UiComponentTextRichEditorAction17 {
   controller: RichEditorController = new RichEditorController();
 
-  @State statusInfo: string = "测试流程：1.输入内容 → 2.点击按钮执行三步操作"
-  @State operationInfo: string = "等待执行操作"
-  @State currentStep: string = "准备阶段"
+  @State statusInfo: string = '测试流程：1.输入内容 → 2.点击按钮执行三步操作'
+  @State operationInfo: string = '等待执行操作'
+  @State currentStep: string = '准备阶段'
   @State operationCount: number = 0
   @State hasContent: boolean = false
 
@@ -72,7 +72,7 @@ struct UiComponentTextRichEditorAction17 {
       .margin({ bottom: 15 })
 
       Row({ space: 12 }) {
-        Button("添加初始内容")
+        Button('添加初始内容')
           .fontSize(11)
           .height(35)
           .backgroundColor(0x4CAF50)
@@ -84,7 +84,7 @@ struct UiComponentTextRichEditorAction17 {
             this.addInitialContent()
           })
 
-        Button("执行三步操作")
+        Button('执行三步操作')
           .fontSize(11)
           .height(35)
           .backgroundColor(0xFF9800)
@@ -97,7 +97,7 @@ struct UiComponentTextRichEditorAction17 {
             this.executeThreeStepOperations()
           })
 
-        Button("重置测试")
+        Button('重置测试')
           .fontSize(11)
           .height(35)
           .backgroundColor(0x9C27B0)
@@ -112,7 +112,7 @@ struct UiComponentTextRichEditorAction17 {
       .margin({ bottom: 15 })
 
       Column() {
-        Text("编辑器内容区域（支持输入和span操作）")
+        Text('编辑器内容区域（支持输入和span操作）')
           .fontSize(12)
           .fontColor(0x333333)
           .fontWeight(FontWeight.Medium)
@@ -121,21 +121,21 @@ struct UiComponentTextRichEditorAction17 {
         RichEditor({ controller: this.controller })
           .id('UiComponentTextRichEditorAction17_Editor')
           .onReady(() => {
-            this.statusInfo = "编辑器已准备就绪，请先添加初始内容"
-            console.log("RichEditor已准备就绪")
+            this.statusInfo = '编辑器已准备就绪，请先添加初始内容'
+            console.log('RichEditor已准备就绪')
           })
           .onIMEInputComplete((value: RichEditorTextSpanResult) => {
             this.hasContent = true
-            this.currentStep = "已输入内容"
-            this.statusInfo = "内容输入完成，可以执行三步操作"
-            console.log("输入完成:", value.value)
+            this.currentStep = '已输入内容'
+            this.statusInfo = '内容输入完成，可以执行三步操作'
+            console.log('输入完成:', value.value)
           })
           .aboutToIMEInput((value: RichEditorInsertValue) => {
-            this.currentStep = "正在输入..."
-            console.log("即将输入:", value.insertValue)
+            this.currentStep = '正在输入...'
+            console.log('即将输入:', value.insertValue)
             return true
           })
-          .placeholder("请在此输入测试内容，或点击按钮添加初始内容", {
+          .placeholder('请在此输入测试内容，或点击按钮添加初始内容', {
             fontColor: Color.Gray,
             font: {
               size: 14,
@@ -154,7 +154,7 @@ struct UiComponentTextRichEditorAction17 {
       .width('90%')
       .margin({ bottom: 15 })
 
-      Text("测试流程说明：\n1. 在编辑器中输入内容或点击「添加初始内容」\n2. 点击「执行三步操作」按钮\n3. 系统将依次执行：指定索引位置添加内容 → 删除指定区间内容 → 指定索引位置添加内容")
+      Text('测试流程说明：\n1. 在编辑器中输入内容或点击「添加初始内容」\n2. 点击「执行三步操作」按钮\n3. 系统将依次执行：指定索引位置添加内容 → 删除指定区间内容 → 指定索引位置添加内容')
         .fontSize(10)
         .fontColor(0x888888)
         .textAlign(TextAlign.Start)
@@ -175,21 +175,21 @@ struct UiComponentTextRichEditorAction17 {
   private addInitialContent() {
     try {
       this.controller.deleteSpans({ start: 0, end: -1 })
-      this.controller.addTextSpan("这是初始文本内容，", {
+      this.controller.addTextSpan('这是初始文本内容，', {
         style: {
           fontColor: Color.Black,
           fontSize: 16,
           fontWeight: FontWeight.Normal
         }
       })
-      this.controller.addTextSpan("用于测试span操作。", {
+      this.controller.addTextSpan('用于测试span操作。', {
         style: {
           fontColor: Color.Blue,
           fontSize: 16,
           fontWeight: FontWeight.Medium
         }
       })
-      this.controller.addTextSpan("包含多个文本片段。", {
+      this.controller.addTextSpan('包含多个文本片段。', {
         style: {
           fontColor: Color.Green,
           fontSize: 16,
@@ -198,21 +198,21 @@ struct UiComponentTextRichEditorAction17 {
       })
 
       this.hasContent = true
-      this.currentStep = "已添加初始内容"
-      this.statusInfo = "初始内容已添加，现在可以执行三步操作"
-      console.log("初始内容添加完成")
+      this.currentStep = '已添加初始内容'
+      this.statusInfo = '初始内容已添加，现在可以执行三步操作'
+      console.log('初始内容添加完成')
     } catch (error) {
       this.statusInfo = `添加初始内容失败: ${error}`
-      console.error("添加初始内容失败:", error)
+      console.error('添加初始内容失败:', error)
     }
   }
 
   private executeThreeStepOperations() {
     try {
       this.operationCount++
-      this.currentStep = "执行中..."
-      this.operationInfo = "步骤1: 在索引位置5添加内容"
-      this.controller.addTextSpan("【插入文本1】", {
+      this.currentStep = '执行中...'
+      this.operationInfo = '步骤1: 在索引位置5添加内容'
+      this.controller.addTextSpan('【插入文本1】', {
         offset: 5,
         style: {
           fontColor: Color.Red,
@@ -223,12 +223,12 @@ struct UiComponentTextRichEditorAction17 {
       })
       setTimeout(() => {
         try {
-          this.operationInfo = "步骤2: 删除索引8-15区间内容"
+          this.operationInfo = '步骤2: 删除索引8-15区间内容'
           this.controller.deleteSpans({ start: 8, end: 15 })
           setTimeout(() => {
             try {
-              this.operationInfo = "步骤3: 在索引位置8添加新内容"
-              this.controller.addTextSpan("【插入文本2】", {
+              this.operationInfo = '步骤3: 在索引位置8添加新内容'
+              this.controller.addTextSpan('【插入文本2】', {
                 offset: 8,
                 style: {
                   fontColor: Color.Orange,
@@ -238,25 +238,25 @@ struct UiComponentTextRichEditorAction17 {
                 }
               })
 
-              this.currentStep = "三步操作完成"
+              this.currentStep = '三步操作完成'
               this.operationInfo = `三步操作完成 (第${this.operationCount}次) - 添加→删除→添加`
-              this.statusInfo = "所有操作执行完成，可以重复测试或重置"
+              this.statusInfo = '所有操作执行完成，可以重复测试或重置'
               console.log(`第${this.operationCount}次三步操作执行完成`)
             } catch (error) {
               this.operationInfo = `步骤3失败: ${error}`
-              console.error("步骤3执行失败:", error)
+              console.error('步骤3执行失败:', error)
             }
           }, 800)
         } catch (error) {
           this.operationInfo = `步骤2失败: ${error}`
-          console.error("步骤2执行失败:", error)
+          console.error('步骤2执行失败:', error)
         }
       }, 800)
 
     } catch (error) {
       this.operationInfo = `步骤1失败: ${error}`
-      this.currentStep = "操作失败"
-      console.error("步骤1执行失败:", error)
+      this.currentStep = '操作失败'
+      console.error('步骤1执行失败:', error)
     }
   }
 
@@ -265,13 +265,13 @@ struct UiComponentTextRichEditorAction17 {
       this.controller.deleteSpans({ start: 0, end: -1 })
       this.operationCount = 0
       this.hasContent = false
-      this.currentStep = "准备阶段"
-      this.operationInfo = "等待执行操作"
-      this.statusInfo = "测试已重置，请重新添加内容"
-      console.log("测试状态已重置")
+      this.currentStep = '准备阶段'
+      this.operationInfo = '等待执行操作'
+      this.statusInfo = '测试已重置，请重新添加内容'
+      console.log('测试状态已重置')
     } catch (error) {
       this.statusInfo = `重置失败: ${error}`
-      console.error("重置失败:", error)
+      console.error('重置失败:', error)
     }
   }
 }

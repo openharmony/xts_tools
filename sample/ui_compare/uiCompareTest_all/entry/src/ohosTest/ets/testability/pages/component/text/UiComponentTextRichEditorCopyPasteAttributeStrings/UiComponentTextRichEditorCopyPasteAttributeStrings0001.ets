@@ -27,9 +27,9 @@ struct UiComponentTextRichEditorCopyPasteAttributeStrings0001 {
     fontSize: LengthMetrics.vp(20)
   });
   mutableStyledString: MutableStyledString = new MutableStyledString(
-    "=========  属性字符串的测试内容  =========\n" +
-      "=========  属性字符串的测试内容  =========\n" +
-      "=========  属性字符串的测试内容  =========\n",
+    '=========  属性字符串的测试内容  =========\n' +
+      '=========  属性字符串的测试内容  =========\n' +
+      '=========  属性字符串的测试内容  =========\n',
     [{
       start: -1,
       length: -1,

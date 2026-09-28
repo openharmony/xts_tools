@@ -29,7 +29,7 @@ struct UiComponentTextRichEditorDragPlainText0013 {
   aboutToAppear() {
     // 初始化RichEditor内容：包含文本和图片
     this.controller.addTextSpan('欢迎使用RichEditor！')
-    this.controller.addImageSpan($r("sys.media.ohos_app_icon"))
+    this.controller.addImageSpan($r('sys.media.ohos_app_icon'))
     this.controller.addTextSpan(' 这是一个测试图片。')
   }
 
@@ -43,7 +43,7 @@ struct UiComponentTextRichEditorDragPlainText0013 {
 
       // 文本框：输入文本和图片
       TextInput({ placeholder: '输入文本和图片内容' })
-        .id("textInputDrag0013")
+        .id('textInputDrag0013')
         .width('100%').height(120)
         .border({ width: 2, color: '#2B73FF', style: BorderStyle.Dashed })
         .borderRadius(8)
@@ -63,7 +63,7 @@ struct UiComponentTextRichEditorDragPlainText0013 {
 
       // 目标：RichEditor 接收并插入
       RichEditor({ controller: this.controller })
-        .id("richEditorDrag0013")
+        .id('richEditorDrag0013')
         .width('100%').height(220)
         .backgroundColor(Color.White)
         .border({ width: 1, color: Color.Gray }).borderRadius(8)
@@ -80,14 +80,14 @@ struct UiComponentTextRichEditorDragPlainText0013 {
         .onClick(()=>{
           this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
             imageStyle: {
-              size: ["30px", "30px"]
+              size: ['30px', '30px']
             }
           })
 
         })
       // getSpans验证按钮 - 直接在onClick中写逻辑
       Button('验证拖拽')
-        .id("getSpansBtn0013")
+        .id('getSpansBtn0013')
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
@@ -107,7 +107,7 @@ struct UiComponentTextRichEditorDragPlainText0013 {
 
       // 验证结果显示
       Text(this.getSpansResult)
-        .id("getSpansResultText0013")
+        .id('getSpansResultText0013')
         .width('100%')
         .height(60)
         .backgroundColor('#F0F0F0')

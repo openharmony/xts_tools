@@ -35,7 +35,7 @@ struct UiComponentTextRichEditorDragPlainText0024 {
 
       // 合并的输入框和拖拽源：输入文本后长按即可拖拽
       TextInput({ placeholder: '输入文本后长按此处即可拖拽到下方编辑器' })
-        .id("textInputDrag0024")
+        .id('textInputDrag0024')
         .width('100%').height(64)
         .border({ width: 2, color: '#2B73FF', style: BorderStyle.Dashed })
         .borderRadius(8)
@@ -55,7 +55,7 @@ struct UiComponentTextRichEditorDragPlainText0024 {
 
       // 目标：RichEditor 接收并插入
       RichEditor({ controller: this.controller })
-        .id("richEditorDrag0024")
+        .id('richEditorDrag0024')
         .width('100%').height(220)
         .backgroundColor(Color.White)
         .border({ width: 1, color: Color.Gray }).borderRadius(8)
@@ -65,7 +65,7 @@ struct UiComponentTextRichEditorDragPlainText0024 {
 
       // getSpans验证按钮 - 直接在onClick中写逻辑
       Button('验证拖拽')
-        .id("getSpansBtn0024")
+        .id('getSpansBtn0024')
         .width('100%')
         .height(40)
         .backgroundColor('#ff5baf4c')
@@ -85,7 +85,7 @@ struct UiComponentTextRichEditorDragPlainText0024 {
 
       // 验证结果显示
       Text(this.getSpansResult)
-        .id("getSpansResultText0024")
+        .id('getSpansResultText0024')
         .width('100%')
         .height(60)
         .backgroundColor('#F0F0F0')

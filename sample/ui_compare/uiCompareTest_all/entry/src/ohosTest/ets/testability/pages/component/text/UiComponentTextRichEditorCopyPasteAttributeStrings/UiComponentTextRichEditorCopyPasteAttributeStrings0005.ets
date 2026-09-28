@@ -31,9 +31,9 @@ struct UiComponentTextRichEditorCopyPasteAttributeStrings0005 {
     fontSize: LengthMetrics.vp(20)
   });
   mutableStyledStringA: MutableStyledString = new MutableStyledString(
-    "========= 属性字符串组件A的内容 =========\n" +
-      "========= 属性字符串组件A的内容 =========\n" +
-      "========= 属性字符串组件A的内容 =========\n",
+    '========= 属性字符串组件A的内容 =========\n' +
+      '========= 属性字符串组件A的内容 =========\n' +
+      '========= 属性字符串组件A的内容 =========\n',
     [{
       start: -1,
       length: -1,
@@ -42,9 +42,9 @@ struct UiComponentTextRichEditorCopyPasteAttributeStrings0005 {
     }]
   );
   mutableStyledStringB: MutableStyledString = new MutableStyledString(
-    "========= 属性字符串组件B的内容 =========\n" +
-      "========= 属性字符串组件B的内容 =========\n" +
-      "========= 属性字符串组件B的内容 =========\n",
+    '========= 属性字符串组件B的内容 =========\n' +
+      '========= 属性字符串组件B的内容 =========\n' +
+      '========= 属性字符串组件B的内容 =========\n',
     [{
       start: -1,
       length: -1,

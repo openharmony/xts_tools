@@ -34,7 +34,7 @@ struct UiComponentTextRichEditorDarkAndBase0003 {
                 }
               })
             })
-            .id("rich_editor_darkandbase_0003")
+            .id('rich_editor_darkandbase_0003')
             .width('60%')
             .height(40)
             .margin({ top: 300 })

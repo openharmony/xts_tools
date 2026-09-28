@@ -33,7 +33,7 @@ struct UiComponentTextRichEditorCustomkeyboardavoidance0018 {
     Column() {
       Row() {
         Button('添加表情').onClick(() => {
-          this.controller.addTextSpan("😊",
+          this.controller.addTextSpan('😊',
             {
               style:
               {
@@ -42,7 +42,7 @@ struct UiComponentTextRichEditorCustomkeyboardavoidance0018 {
               }
             })
         })
-        .id("add_emoji_btn_0018")
+        .id('add_emoji_btn_0018')
       }
       .padding(5)
 
@@ -82,14 +82,14 @@ struct UiComponentTextRichEditorCustomkeyboardavoidance0018 {
         .fontWeight(FontWeight.Bold)
         .margin({ top: 10, bottom: 10 })
 
-      Button("添加测试文本")
-        .id("add_text_btn_0018")
+      Button('添加测试文本')
+        .id('add_text_btn_0018')
         .margin({ bottom: 10 })
         .onClick(() => {
           this.controller.addTextSpan(
-            "这是预填充的测试文本内容，用于快速填充编辑器。" +
-            "这是预填充的测试文本内容，用于快速填充编辑器。" +
-            "这是预填充的测试文本内容，用于快速填充编辑器。", {
+            '这是预填充的测试文本内容，用于快速填充编辑器。' +
+            '这是预填充的测试文本内容，用于快速填充编辑器。' +
+            '这是预填充的测试文本内容，用于快速填充编辑器。', {
               style: {
                 fontSize: 50
               }
@@ -104,12 +104,12 @@ struct UiComponentTextRichEditorCustomkeyboardavoidance0018 {
         .margin({ bottom: 10 })
 
       RichEditor({ controller: this.controller })
-        .id("richeditor_customkeyboardavoidance_0018")
+        .id('richeditor_customkeyboardavoidance_0018')
         .customKeyboard(this.CustomKeyboardBuilder(), { supportAvoidance: this.supportAvoidance })
         .border({ width: 1 })
         .borderWidth(1)
         .borderColor(Color.Red)
-        .width("60%")
+        .width('60%')
         .height(100)
         .margin({ bottom: 20 })
     }

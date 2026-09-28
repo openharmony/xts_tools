@@ -16,7 +16,7 @@
 @Builder
 function uiComponentTextRichEditorAction14Builder2() {
   Row({ space: 2 }) {
-    Image($r("app.media.icon")).width(24).height(24).margin({ left: -5 })
+    Image($r('app.media.icon')).width(24).height(24).margin({ left: -5 })
     Text('okokokok').fontSize(10)
   }.width('20%').height('100%').padding(10).backgroundColor(Color.Red)
 }
@@ -25,8 +25,8 @@ function uiComponentTextRichEditorAction14Builder2() {
 @Component
 struct UiComponentTextRichEditorAction14 {
   controller: RichEditorController = new RichEditorController();
-  @State scrollInfo: string = "等待添加内容触发滚动"
-  @State contentInfo: string = "内容数量: 0项"
+  @State scrollInfo: string = '等待添加内容触发滚动'
+  @State contentInfo: string = '内容数量: 0项'
   @State addCount: number = 0
   @State textCount: number = 0
   @State imageCount: number = 0
@@ -68,7 +68,7 @@ struct UiComponentTextRichEditorAction14 {
 
       Column({ space: 10 }) {
         Row({ space: 10 }) {
-          Button("添加文字")
+          Button('添加文字')
             .fontSize(11)
             .height(35)
             .backgroundColor(0x2196F3)
@@ -80,7 +80,7 @@ struct UiComponentTextRichEditorAction14 {
               this.addTextSpan()
             })
 
-          Button("添加图片")
+          Button('添加图片')
             .fontSize(11)
             .height(35)
             .backgroundColor(0x9C27B0)
@@ -95,7 +95,7 @@ struct UiComponentTextRichEditorAction14 {
         .width('100%')
 
         Row({ space: 10 }) {
-          Button("添加符号")
+          Button('添加符号')
             .fontSize(11)
             .height(35)
             .backgroundColor(0x4CAF50)
@@ -107,7 +107,7 @@ struct UiComponentTextRichEditorAction14 {
               this.addSymbolSpan()
             })
 
-          Button("添加Builder")
+          Button('添加Builder')
             .fontSize(11)
             .height(35)
             .backgroundColor(0xFF9800)
@@ -122,7 +122,7 @@ struct UiComponentTextRichEditorAction14 {
         .width('100%')
 
         Row({ space: 10 }) {
-          Button("批量添加5项")
+          Button('批量添加5项')
             .fontSize(11)
             .height(35)
             .backgroundColor(0xFF5722)
@@ -154,29 +154,29 @@ struct UiComponentTextRichEditorAction14 {
         RichEditor({ controller: this.controller })
           .id('UiComponentTextRichEditorAction14_Editor')
           .onReady(() => {
-            console.log("RichEditor已准备就绪")
+            console.log('RichEditor已准备就绪')
           })
           .onFocus(() => {
-            console.log("RichEditor获得焦点")
+            console.log('RichEditor获得焦点')
           })
           .onBlur(() => {
-            console.log("RichEditor失去焦点")
+            console.log('RichEditor失去焦点')
           })
           .onSelect((value: RichEditorSelection) => {
             this.scrollInfo = `文本选中范围: [${value.selection[0]}, ${value.selection[1]}] | 总内容: ${this.addCount}项`
-            console.log("文本选中:", value.selection)
+            console.log('文本选中:', value.selection)
           })
           .aboutToIMEInput((value: RichEditorInsertValue) => {
             this.scrollInfo = `即将输入: "${value.insertValue}" 位置: ${value.insertOffset}`
-            console.log("即将输入:", value.insertValue)
+            console.log('即将输入:', value.insertValue)
             return true
           })
           .onIMEInputComplete((value: RichEditorTextSpanResult) => {
             this.scrollInfo = `用户输入完成: "${value.value}" | 内容可能触发滚动`
             this.updateContentInfo()
-            console.log("用户输入完成:", value.value)
+            console.log('用户输入完成:', value.value)
           })
-          .placeholder("多次添加不同类型内容将触发组件内部滚动...", {
+          .placeholder('多次添加不同类型内容将触发组件内部滚动...', {
             fontColor: Color.Gray,
             font: {
               size: 14,
@@ -241,7 +241,7 @@ struct UiComponentTextRichEditorAction14 {
   private addSymbolSpan() {
     this.symbolCount++
     this.addCount++
-    this.controller.addSymbolSpan($r("sys.symbol.ohos_trash"), {
+    this.controller.addSymbolSpan($r('sys.symbol.ohos_trash'), {
       style: {
         fontSize: 16 + (this.symbolCount % 6)
       }
@@ -302,7 +302,7 @@ struct UiComponentTextRichEditorAction14 {
         }
       }, i * 200)
     }
-    console.log("开始批量添加5项内容")
+    console.log('开始批量添加5项内容')
   }
 
   private updateContentInfo() {

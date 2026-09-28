@@ -52,7 +52,7 @@ struct UiComponentTextRichEditorDarkAndBase0031 {
       // RichEditor 组件
       Row() {
         RichEditor(this.options)
-          .id("rich_editor_darkandbase_00031")
+          .id('rich_editor_darkandbase_00031')
           .onReady(() => {
             this.controller.addTextSpan(' ', {
               style: {

@@ -26,7 +26,7 @@ struct UiComponentTextRichEditorDragPlainText0017 {
   });
   // 定义字体样式对象
 
-  mutableStyledString: MutableStyledString = new MutableStyledString("创建使用属性字符串构建的RichEditor组件。",
+  mutableStyledString: MutableStyledString = new MutableStyledString('创建使用属性字符串构建的RichEditor组件。',
     [{
       start: 0,
       length: 5,
@@ -55,7 +55,7 @@ struct UiComponentTextRichEditorDragPlainText0017 {
 
       // 合并的输入框和拖拽源：输入文本后长按即可拖拽
       TextInput({ placeholder: '输入文本后长按此处即可拖拽到下方编辑器' })
-        .id("textInputDrag0017")
+        .id('textInputDrag0017')
         .width('100%')
         .height(64)
         .border({ width: 2, color: '#2B73FF', style: BorderStyle.Dashed })
@@ -83,7 +83,7 @@ struct UiComponentTextRichEditorDragPlainText0017 {
         //     }
         //   })
         // })
-        .id("richEditorDrag0017")
+        .id('richEditorDrag0017')
         .width('100%')
         .height(120)
         .backgroundColor(Color.White)
@@ -95,7 +95,7 @@ struct UiComponentTextRichEditorDragPlainText0017 {
 
       // RichEditor 多样式预设输入
       Button('改变RichEditor为粉色')
-        .id("changeStylePinkBtn0017")
+        .id('changeStylePinkBtn0017')
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
@@ -114,7 +114,7 @@ struct UiComponentTextRichEditorDragPlainText0017 {
         })
 
       Button('改变RichEditor为绿色')
-        .id("changeStyleRedBtn0017")
+        .id('changeStyleRedBtn0017')
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
@@ -134,7 +134,7 @@ struct UiComponentTextRichEditorDragPlainText0017 {
 
       // getSpans验证按钮 - 直接在onClick中写逻辑
       Button('验证拖拽')
-        .id("getSpansBtn0017")
+        .id('getSpansBtn0017')
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
@@ -155,7 +155,7 @@ struct UiComponentTextRichEditorDragPlainText0017 {
 
       // 验证结果显示
       Text(this.getSpansResult)
-        .id("getSpansResultText0017")
+        .id('getSpansResultText0017')
         .width('100%')
         .height(60)
         .backgroundColor('#F0F0F0')

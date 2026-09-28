@@ -92,7 +92,7 @@ struct UiComponentTextRichEditorAvoidCursor0001 {
         }
 
         RichEditor(this.options)
-          .id("rich_editor_avoidcursor_0001")
+          .id('rich_editor_avoidcursor_0001')
           .width('100%')
           .height(200)
           .backgroundColor(Color.White)
@@ -118,7 +118,7 @@ struct UiComponentTextRichEditorAvoidCursor0001 {
           })
       }
       .width('100%')
-      .height("100%")
+      .height('100%')
 
     }
   }

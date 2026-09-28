@@ -44,7 +44,7 @@ struct UiComponentTextRichEditorDragPlainText0006 {
 
       // 文本框：输入表情和Symbol
       TextInput({ placeholder: '输入表情😀😂和符号★☆♠' })
-        .id("textInputDrag0006")
+        .id('textInputDrag0006')
         .width('100%')
         .height(80)
         .border({ width: 2, color: '#2B73FF', style: BorderStyle.Dashed })
@@ -65,7 +65,7 @@ struct UiComponentTextRichEditorDragPlainText0006 {
 
       // RichEditor：包含表情和Symbol
       RichEditor({ controller: this.controller })
-        .id("richEditorDrag0006")
+        .id('richEditorDrag0006')
         .width('100%')
         .height(200)
         .border({ width: 2, color: '#2B73FF', style: BorderStyle.Dashed })
@@ -85,10 +85,10 @@ struct UiComponentTextRichEditorDragPlainText0006 {
         .onClick(() => {
           this.controller.addImageSpan($r('sys.media.ohos_app_icon'),{
             imageStyle:{
-              size :["70px", "70px"],
+              size :['70px', '70px'],
             }
           })
-          this.controller.addSymbolSpan($r("sys.symbol.basketball_fill"), {
+          this.controller.addSymbolSpan($r('sys.symbol.basketball_fill'), {
             style: {
               fontSize: 30
             }
@@ -104,7 +104,7 @@ struct UiComponentTextRichEditorDragPlainText0006 {
 
       // 验证按钮
       Button('验证拖拽')
-        .id("getSpansBtn0006")
+        .id('getSpansBtn0006')
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
@@ -124,7 +124,7 @@ struct UiComponentTextRichEditorDragPlainText0006 {
 
       // 验证结果显示
       Text(this.getSpansResult)
-        .id("getSpansResultText0006")
+        .id('getSpansResultText0006')
         .width('100%')
         .height(60)
         .backgroundColor('#F0F0F0')

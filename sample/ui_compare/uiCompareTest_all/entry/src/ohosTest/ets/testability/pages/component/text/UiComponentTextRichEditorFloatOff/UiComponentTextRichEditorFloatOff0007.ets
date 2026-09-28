@@ -28,25 +28,25 @@ struct UiComponentTextRichEditorFloatOff0007 {
     Column() {
       // 测试按钮：添加预置图文（用于验证样式一致性）
       Button('添加图片超过RichEditor尺寸')
-        .id("addSpanBtn0007")
+        .id('addSpanBtn0007')
         .width('100%')
         .height(40)
         .backgroundColor(Color.Gray)
         .onClick(() => {
           // 添加一些文本内容
-          this.controller.addTextSpan("这是一段很长的文本内容，用于测试RichEditor的滚动功能。当图片超出显示区域时，用户应该能够通过滚动来查看完整内容。")
+          this.controller.addTextSpan('这是一段很长的文本内容，用于测试RichEditor的滚动功能。当图片超出显示区域时，用户应该能够通过滚动来查看完整内容。')
 
           // 添加大尺寸图片
           this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
             imageStyle: {
-              size: ["300px", "300px"],
+              size: ['300px', '300px'],
             }
           })
 
         })
         .margin(10)
       Button('选中图文')
-        .id("select0007")
+        .id('select0007')
         .onClick(()=>{
           this.controller.setSelection(-1,-1)
         })
@@ -59,7 +59,7 @@ struct UiComponentTextRichEditorFloatOff0007 {
             .height(400)
             .border({ width: 1, color: Color.Gray })
             .borderRadius(8)
-            .backgroundColor("#ff6e6e6e")
+            .backgroundColor('#ff6e6e6e')
             .padding(8)
             .draggable(false)
             .copyOptions(CopyOptions.None)

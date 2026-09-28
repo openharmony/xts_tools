@@ -35,7 +35,7 @@ struct UiComponentTextRichEditorCopyPasteAttributeStrings0025 {
   });
 
   mutableStyledStringA: MutableStyledString = new MutableStyledString(
-    "拖拽源内容：这是要拖拽的属性字符串",
+    '拖拽源内容：这是要拖拽的属性字符串',
     [{
       start: 0,
       length: 19,
@@ -45,7 +45,7 @@ struct UiComponentTextRichEditorCopyPasteAttributeStrings0025 {
   );
 
   mutableStyledStringB: MutableStyledString = new MutableStyledString(
-    "目标组件前置内容\n\n目标组件后置内容",
+    '目标组件前置内容\n\n目标组件后置内容',
     [{
       start: 0,
       length: 20,

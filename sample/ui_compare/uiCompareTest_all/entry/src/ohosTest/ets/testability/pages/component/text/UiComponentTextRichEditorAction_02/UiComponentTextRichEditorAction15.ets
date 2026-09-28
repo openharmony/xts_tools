@@ -18,14 +18,14 @@
 struct UiComponentTextRichEditorAction15 {
   controller: RichEditorController = new RichEditorController();
 
-  @State cursorInfo: string = "光标位置: 未获取"
+  @State cursorInfo: string = '光标位置: 未获取'
   @State insertCount: number = 0
   @State textCount: number = 0
   @State imageCount: number = 0
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120")
+      Text('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .fontColor(Color.Red)
@@ -50,7 +50,7 @@ struct UiComponentTextRichEditorAction15 {
         .margin({ bottom: 15 })
 
       Row({ space: 15 }) {
-        Button("插入文字")
+        Button('插入文字')
           .fontSize(14)
           .height(40)
           .labelStyle({ overflow: TextOverflow.Clip,
@@ -73,7 +73,7 @@ struct UiComponentTextRichEditorAction15 {
             this.insertText()
           })
 
-        Button("插入图片")
+        Button('插入图片')
           .fontSize(14)
           .height(40)
           .backgroundColor(0x4CAF50)
@@ -102,7 +102,7 @@ struct UiComponentTextRichEditorAction15 {
       RichEditor({ controller: this.controller })
         .id('UiComponentTextRichEditorAction15_Editor')
         .onReady(() => {
-          this.controller.addSymbolSpan($r("sys.symbol.ohos_trash"),
+          this.controller.addSymbolSpan($r('sys.symbol.ohos_trash'),
             {
               style:
               {
@@ -113,10 +113,10 @@ struct UiComponentTextRichEditorAction15 {
             {
               imageStyle:
               {
-                size: ["57px", "57px"]
+                size: ['57px', '57px']
               }
             })
-          this.controller.addTextSpan("25",
+          this.controller.addTextSpan('25',
             {
               style:
               {
@@ -126,26 +126,26 @@ struct UiComponentTextRichEditorAction15 {
             })
         })
         .onFocus(() => {
-          console.log("RichEditor获得焦点")
+          console.log('RichEditor获得焦点')
         })
         .onBlur(() => {
-          this.cursorInfo = "编辑器失去焦点"
-          console.log("RichEditor失去焦点")
+          this.cursorInfo = '编辑器失去焦点'
+          console.log('RichEditor失去焦点')
         })
         .onSelect((value: RichEditorSelection) => {
           this.cursorInfo = `选中范围: [${value.selection[0]}, ${value.selection[1]}]`
-          console.log("文本选中:", value.selection)
+          console.log('文本选中:', value.selection)
         })
         .aboutToIMEInput((value: RichEditorInsertValue) => {
           this.cursorInfo = `即将输入: "${value.insertValue}" 位置: ${value.insertOffset}`
-          console.log("即将输入:", value.insertValue)
+          console.log('即将输入:', value.insertValue)
           return true
         })
         .onIMEInputComplete((value: RichEditorTextSpanResult) => {
           this.cursorInfo = `输入完成: "${value.value}"`
-          console.log("输入完成:", value.value)
+          console.log('输入完成:', value.value)
         })
-        .placeholder("点击按钮插入图片和文字测试光标位置", {
+        .placeholder('点击按钮插入图片和文字测试光标位置', {
           fontColor: Color.Gray,
           font: { size: 16 }
         })

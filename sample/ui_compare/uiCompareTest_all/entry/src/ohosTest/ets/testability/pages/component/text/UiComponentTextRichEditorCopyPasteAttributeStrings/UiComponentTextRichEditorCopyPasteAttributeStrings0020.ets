@@ -25,7 +25,7 @@ struct UiComponentTextRichEditorCopyPasteAttributeStrings0020 {
   optionsNew: RichEditorStyledStringOptions = { controller: this.controllerNew };
 
   aboutToAppear(): void {
-    let mutableStyledString = new MutableStyledString("新框架组件A初始内容");
+    let mutableStyledString = new MutableStyledString('新框架组件A初始内容');
     this.controllerNew.setStyledString(mutableStyledString);
   }
 
@@ -70,7 +70,7 @@ struct UiComponentTextRichEditorCopyPasteAttributeStrings0020 {
           // 添加两排symbol，每排5个
           for (let i = 0; i < 2; i++) {
             for (let j = 0; j < 10; j++) {
-              this.controllerOld.addSymbolSpan($r("sys.symbol.basketball_fill"), {
+              this.controllerOld.addSymbolSpan($r('sys.symbol.basketball_fill'), {
                 style: {
                   fontSize: 40
                 }
