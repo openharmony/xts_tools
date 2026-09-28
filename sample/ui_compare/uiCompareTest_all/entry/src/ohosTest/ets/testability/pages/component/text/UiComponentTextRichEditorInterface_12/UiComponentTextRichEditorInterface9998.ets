@@ -65,7 +65,7 @@ struct UiComponentTextRichEditorInterface9998 {
           .onDeleteComplete(() => {
             // 在onDeleteComplete回调内获取span信息
             const spans = JSON.stringify(this.controller.getSpans({ start: -1, end: -1 }))
-            console.log("onDeleteComplete - spans信息:", spans)
+            console.log('onDeleteComplete - spans信息:', spans)
             
             // 分析spans信息
             const spansArray = this.controller.getSpans({ start: -1, end: -1 })
@@ -85,7 +85,7 @@ struct UiComponentTextRichEditorInterface9998 {
             })
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("onDeleteComplete触发\nspan信息:\n" + spans + "\n\n分析:\n" + spanAnalysis, {
+            this.displayController.addTextSpan('onDeleteComplete触发\nspan信息:\n' + spans + '\n\n分析:\n' + spanAnalysis, {
               style: {
                 fontSize: 12,
                 fontColor: Color.Red
@@ -107,24 +107,24 @@ struct UiComponentTextRichEditorInterface9998 {
         .height(40)
         .margin(5)
         .onClick(() => {
-          this.controller.addTextSpan("文本内容1", {
+          this.controller.addTextSpan('文本内容1', {
             style: {
               fontSize: 16,
               fontColor: Color.Black
             }
           })
-          this.controller.addTextSpan("文本内容2", {
+          this.controller.addTextSpan('文本内容2', {
             style: {
               fontSize: 18,
               fontColor: Color.Blue
             }
           })
-          this.controller.addImageSpan($r("app.media.icon"), {
+          this.controller.addImageSpan($r('app.media.icon'), {
             imageStyle: {
               size: [30, 30]
             }
           })
-          this.controller.addTextSpan("文本内容3", {
+          this.controller.addTextSpan('文本内容3', {
             style: {
               fontSize: 14,
               fontColor: Color.Red
@@ -132,7 +132,7 @@ struct UiComponentTextRichEditorInterface9998 {
           })
           
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("已添加多样化内容\n包含不同样式的文本和图片\n请删除部分内容测试", {
+          this.displayController.addTextSpan('已添加多样化内容\n包含不同样式的文本和图片\n请删除部分内容测试', {
             style: {
               fontSize: 12,
               fontColor: Color.Orange

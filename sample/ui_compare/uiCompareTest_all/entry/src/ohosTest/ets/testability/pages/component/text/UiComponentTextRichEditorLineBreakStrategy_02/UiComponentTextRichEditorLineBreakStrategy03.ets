@@ -240,7 +240,7 @@ struct UiComponentTextRichEditorLineBreakStrategy03 {
               {
                 imageStyle:
                 {
-                  size: ["100px", "100px"]
+                  size: ['100px', '100px']
                 }
               });
 

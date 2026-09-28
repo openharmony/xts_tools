@@ -26,24 +26,24 @@ struct UiComponentTextRichEditorInterface0085 {
 
   aboutToAppear() {
     // 预置图文混合内容
-    this.controller.addTextSpan("这是一段测试文本", {
+    this.controller.addTextSpan('这是一段测试文本', {
       style: {
         fontSize: 16,
         fontColor: Color.Black
       }
     })
-    this.controller.addImageSpan($r("app.media.icon"), {
+    this.controller.addImageSpan($r('app.media.icon'), {
       imageStyle: {
         size: [50, 50]
       }
     })
-    this.controller.addSymbolSpan($r("sys.symbol.star_fill"), {
+    this.controller.addSymbolSpan($r('sys.symbol.star_fill'), {
       style: {
         fontSize: 20,
         fontColor: [Color.Yellow]
       }
     })
-    this.controller.addTextSpan("结尾文本", {
+    this.controller.addTextSpan('结尾文本', {
       style: {
         fontSize: 16,
         fontColor: Color.Blue
@@ -74,14 +74,14 @@ struct UiComponentTextRichEditorInterface0085 {
 
             // 添加包含emoji和symbol的图文混合内容
             // 文本 + emoji + 文本 + 图片 + symbol + 文本
-            this.controller.addTextSpan("前置文本😀😃😄", {
+            this.controller.addTextSpan('前置文本😀😃😄', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Blue
               }
             })
 
-            this.controller.addTextSpan("中间文本", {
+            this.controller.addTextSpan('中间文本', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Green
@@ -89,21 +89,21 @@ struct UiComponentTextRichEditorInterface0085 {
             })
 
             // 添加图片
-            this.controller.addImageSpan($r("app.media.icon"), {
+            this.controller.addImageSpan($r('app.media.icon'), {
               imageStyle: {
                 size: [50, 50]
               }
             })
 
             // 添加symbol
-            this.controller.addSymbolSpan($r("sys.symbol.ohos_star"), {
+            this.controller.addSymbolSpan($r('sys.symbol.ohos_star'), {
               style: {
                 fontSize: 20,
                 fontColor: [Color.Red]
               }
             })
 
-            this.controller.addTextSpan("后置文本🎉🎊", {
+            this.controller.addTextSpan('后置文本🎉🎊', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Pink
@@ -111,7 +111,7 @@ struct UiComponentTextRichEditorInterface0085 {
             })
 
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("已添加包含emoji、图片和symbol的图文混合内容，现在可以删除内容触发aboutToDelete回调", {
+            this.displayController.addTextSpan('已添加包含emoji、图片和symbol的图文混合内容，现在可以删除内容触发aboutToDelete回调', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Green
@@ -149,7 +149,7 @@ struct UiComponentTextRichEditorInterface0085 {
           .padding(8)
           .aboutToDelete((value: RichEditorDeleteValue) => {
             // 在aboutToDelete回调内调用updateSpanStyle更新样式
-            console.log("aboutToDelete回调触发 - 删除信息:", JSON.stringify(value))
+            console.log('aboutToDelete回调触发 - 删除信息:', JSON.stringify(value))
             
             try {
               // 在删除前更新剩余内容的样式
@@ -166,21 +166,21 @@ struct UiComponentTextRichEditorInterface0085 {
                 }
               })
               
-              console.log("aboutToDelete中updateSpanStyle已执行")
+              console.log('aboutToDelete中updateSpanStyle已执行')
               return true // 允许删除操作继续
               
             } catch (error) {
-              console.error("aboutToDelete中updateSpanStyle出错:", error)
+              console.error('aboutToDelete中updateSpanStyle出错:', error)
               return true // 即使出错也允许删除操作继续
             }
           })
           .onDidChange((rangeBefore: TextRange, rangeAfter: TextRange) => {
             // 输入文本触发onDidChange回调
             const changeInfo = `rangeBefore: ${JSON.stringify(rangeBefore)}, rangeAfter: ${JSON.stringify(rangeAfter)}`
-            console.log("onDidChange回调触发 - 变化信息:", changeInfo)
+            console.log('onDidChange回调触发 - 变化信息:', changeInfo)
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("onDidChange回调已触发\n文本内容发生变化\n" + changeInfo, {
+            this.displayController.addTextSpan('onDidChange回调已触发\n文本内容发生变化\n' + changeInfo, {
               style: {
                 fontSize: 12,
                 fontColor: Color.Blue

@@ -75,9 +75,9 @@ struct UiComponentTextRichEditorInterface0018 {
         .placeholder('长按此处文本产生默认选择菜单')
         .margin(10)
         .onSelect((value: RichEditorSelection) => {
-          console.log("默认菜单onSelect:", JSON.stringify(value))
+          console.log('默认菜单onSelect:', JSON.stringify(value))
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("默认菜单：文本已选中，产生默认选择菜单\n选择信息: " + JSON.stringify(value), {
+          this.displayController.addTextSpan('默认菜单：文本已选中，产生默认选择菜单\n选择信息: ' + JSON.stringify(value), {
             style: {
               fontSize: 12,
               fontColor: Color.Blue
@@ -96,7 +96,7 @@ struct UiComponentTextRichEditorInterface0018 {
           this.controller1.closeSelectionMenu()
           
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("✅ 已调用closeSelectionMenu()关闭默认菜单\n✅ 默认选择菜单关闭功能测试完成", {
+          this.displayController.addTextSpan('✅ 已调用closeSelectionMenu()关闭默认菜单\n✅ 默认选择菜单关闭功能测试完成', {
             style: {
               fontSize: 12,
               fontColor: Color.Blue,
@@ -124,9 +124,9 @@ struct UiComponentTextRichEditorInterface0018 {
         .margin(10)
         .bindSelectionMenu(RichEditorSpanType.TEXT, this.customMenu, ResponseType.LongPress)
         .onSelect((value: RichEditorSelection) => {
-          console.log("自定义菜单onSelect:", JSON.stringify(value))
+          console.log('自定义菜单onSelect:', JSON.stringify(value))
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("自定义菜单：文本已选中，产生自定义选择菜单\n选择信息: " + JSON.stringify(value), {
+          this.displayController.addTextSpan('自定义菜单：文本已选中，产生自定义选择菜单\n选择信息: ' + JSON.stringify(value), {
             style: {
               fontSize: 12,
               fontColor: Color.Red
@@ -143,7 +143,7 @@ struct UiComponentTextRichEditorInterface0018 {
         .onClick(() => {
           // 为两个RichEditor添加测试内容
           this.controller1.deleteSpans()
-          this.controller1.addTextSpan("默认菜单测试文本内容", {
+          this.controller1.addTextSpan('默认菜单测试文本内容', {
             style: {
               fontSize: 16,
               fontColor: Color.Black
@@ -151,7 +151,7 @@ struct UiComponentTextRichEditorInterface0018 {
           })
           
           this.controller2.deleteSpans()
-          this.controller2.addTextSpan("自定义菜单测试文本内容", {
+          this.controller2.addTextSpan('自定义菜单测试文本内容', {
             style: {
               fontSize: 16,
               fontColor: Color.Black
@@ -159,7 +159,7 @@ struct UiComponentTextRichEditorInterface0018 {
           })
           
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("测试内容已添加到两个编辑器\n请分别长按测试选择菜单功能", {
+          this.displayController.addTextSpan('测试内容已添加到两个编辑器\n请分别长按测试选择菜单功能', {
             style: {
               fontSize: 12,
               fontColor: Color.Green
@@ -178,8 +178,8 @@ struct UiComponentTextRichEditorInterface0018 {
     Column() {
       Menu() {
         MenuItem({ 
-          content: "📋 复制",
-          labelInfo: "自定义复制"
+          content: '📋 复制',
+          labelInfo: '自定义复制'
         })
           .onClick(() => {
             // 在MenuItem的点击事件内设置this.controller2.closeSelectionMenu()
@@ -195,8 +195,8 @@ struct UiComponentTextRichEditorInterface0018 {
             })
           })
         MenuItem({ 
-          content: "📄 粘贴",
-          labelInfo: "自定义粘贴"
+          content: '📄 粘贴',
+          labelInfo: '自定义粘贴'
         })
           .onClick(() => {
             this.displayController.deleteSpans()
@@ -208,8 +208,8 @@ struct UiComponentTextRichEditorInterface0018 {
             })
           })
         MenuItem({ 
-          content: "🔘 全选",
-          labelInfo: "自定义全选"
+          content: '🔘 全选',
+          labelInfo: '自定义全选'
         })
           .onClick(() => {
             this.displayController.deleteSpans()

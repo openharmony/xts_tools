@@ -65,14 +65,14 @@ struct UiComponentTextRichEditorInterface0071 {
           .aboutToIMEInput((value: RichEditorInsertValue) => {
             // aboutToIMEInput回调
             const insertInfo = JSON.stringify(value)
-            console.log("aboutToIMEInput - 插入信息:", insertInfo)
+            console.log('aboutToIMEInput - 插入信息:', insertInfo)
             
             // 获取当前选择信息
             const selection = this.controller.getSelection()
             const selectionInfo = JSON.stringify(selection)
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("aboutToIMEInput触发\n选择信息: " + selectionInfo + "\n插入信息:\n" + insertInfo + "\n返回值: true", {
+            this.displayController.addTextSpan('aboutToIMEInput触发\n选择信息: ' + selectionInfo + '\n插入信息:\n' + insertInfo + '\n返回值: true', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Blue
@@ -84,7 +84,7 @@ struct UiComponentTextRichEditorInterface0071 {
           .onIMEInputComplete((value: RichEditorTextSpanResult) => {
             // onIMEInputComplete回调
             const completeInfo = JSON.stringify(value)
-            console.log("onIMEInputComplete - 输入完成信息:", completeInfo)
+            console.log('onIMEInputComplete - 输入完成信息:', completeInfo)
             
             // 获取输入完成后的spans信息
             const afterSpans = this.controller.getSpans({ start: -1, end: -1 })
@@ -97,7 +97,7 @@ struct UiComponentTextRichEditorInterface0071 {
               }
             })
             
-            this.displayController.addTextSpan("\n\nonIMEInputComplete触发\n输入完成信息:\n" + completeInfo + "\n\nSpan分析:\n" + spanAnalysis, {
+            this.displayController.addTextSpan('\n\nonIMEInputComplete触发\n输入完成信息:\n' + completeInfo + '\n\nSpan分析:\n' + spanAnalysis, {
               style: {
                 fontSize: 12,
                 fontColor: Color.Green
@@ -107,7 +107,7 @@ struct UiComponentTextRichEditorInterface0071 {
           .onSelect((value: RichEditorSelection) => {
             // 选择回调，用于显示选择信息
             const selectionInfo = JSON.stringify(value)
-            console.log("onSelect - 选择信息:", selectionInfo)
+            console.log('onSelect - 选择信息:', selectionInfo)
           })
       }
       .width('100%')
@@ -124,7 +124,7 @@ struct UiComponentTextRichEditorInterface0071 {
         .height(40)
         .margin(5)
         .onClick(() => {
-          this.controller.addTextSpan("这是一段可以选择的测试文本内容", {
+          this.controller.addTextSpan('这是一段可以选择的测试文本内容', {
             style: {
               fontSize: 16,
               fontColor: Color.Black
@@ -132,7 +132,7 @@ struct UiComponentTextRichEditorInterface0071 {
           })
           
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("已添加测试文本\n请选中部分文本，然后输入新内容替换", {
+          this.displayController.addTextSpan('已添加测试文本\n请选中部分文本，然后输入新内容替换', {
             style: {
               fontSize: 12,
               fontColor: Color.Orange
@@ -150,7 +150,7 @@ struct UiComponentTextRichEditorInterface0071 {
           this.controller.setSelection(4, 8)
 
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("已选中中间部分文本\n现在请输入新文本替换选中内容", {
+          this.displayController.addTextSpan('已选中中间部分文本\n现在请输入新文本替换选中内容', {
             style: {
               fontSize: 12,
               fontColor: Color.Pink

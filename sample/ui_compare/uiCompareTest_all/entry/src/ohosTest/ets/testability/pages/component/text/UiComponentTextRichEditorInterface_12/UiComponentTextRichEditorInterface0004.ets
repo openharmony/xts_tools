@@ -41,7 +41,7 @@ struct UiComponentTextRichEditorInterface0004 {
         .margin(10)
         .onClick(() => {
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("aboutToDelete回调已添加\n回调内容: console.log(JSON.stringify(value))\n请添加内容后使用输入法删除", {
+          this.displayController.addTextSpan('aboutToDelete回调已添加\n回调内容: console.log(JSON.stringify(value))\n请添加内容后使用输入法删除', {
             style: {
               fontSize: 12,
               fontColor: Color.Orange
@@ -82,7 +82,7 @@ struct UiComponentTextRichEditorInterface0004 {
             console.log(JSON.stringify(value))
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("aboutToDelete回调成功\n", {
+            this.displayController.addTextSpan('aboutToDelete回调成功\n', {
               style: {
                 fontSize: 14,
                 fontColor: Color.Red,
@@ -91,7 +91,7 @@ struct UiComponentTextRichEditorInterface0004 {
             })
             
             // 显示控制台打印的删除文本Span信息
-            this.displayController.addTextSpan("控制台已打印删除文本Span信息:\n" + JSON.stringify(value), {
+            this.displayController.addTextSpan('控制台已打印删除文本Span信息:\n' + JSON.stringify(value), {
               style: {
                 fontSize: 12,
                 fontColor: Color.Red
@@ -114,19 +114,19 @@ struct UiComponentTextRichEditorInterface0004 {
         .height(40)
         .margin(5)
         .onClick(() => {
-          this.controller.addTextSpan("这是第一段文本。", {
+          this.controller.addTextSpan('这是第一段文本。', {
             style: {
               fontSize: 16,
               fontColor: Color.Black
             }
           })
-          this.controller.addTextSpan("这是第二段文本。", {
+          this.controller.addTextSpan('这是第二段文本。', {
             style: {
               fontSize: 16,
               fontColor: Color.Blue
             }
           })
-          this.controller.addTextSpan("这是第三段文本。", {
+          this.controller.addTextSpan('这是第三段文本。', {
             style: {
               fontSize: 16,
               fontColor: Color.Red
@@ -134,7 +134,7 @@ struct UiComponentTextRichEditorInterface0004 {
           })
           
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("已添加测试内容\n请使用输入法删除部分内容\n观察aboutToDelete回调信息", {
+          this.displayController.addTextSpan('已添加测试内容\n请使用输入法删除部分内容\n观察aboutToDelete回调信息', {
             style: {
               fontSize: 12,
               fontColor: Color.Orange

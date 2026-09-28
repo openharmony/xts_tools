@@ -29,7 +29,7 @@ struct UiComponentTextRichEditorLineHeightAndLetterSpacing0027 {
               // 设置PixelMap图片内容的缩进，图片大小为40，行高lineHeight值为20，字体大小为30
               this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
                 imageStyle: {
-                  size: ["40px", "40px"]
+                  size: ['40px', '40px']
                 }
               })
               // 添加文本内容，设置行高和字体大小
@@ -40,7 +40,7 @@ struct UiComponentTextRichEditorLineHeightAndLetterSpacing0027 {
                 }
               })
             })
-            .id("rich_editor_lineheight_letterspacing_0027")
+            .id('rich_editor_lineheight_letterspacing_0027')
             .width('80%')
             .height(200)
             .margin({ top: 100 })

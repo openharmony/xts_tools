@@ -25,7 +25,7 @@ struct UiComponentTextRichEditorInterface0039 {
   scroller: Scroller = new Scroller();
   controller: RichEditorController = new RichEditorController();
   options: RichEditorOptions = { controller: this.controller };
-  @State consoleOutput: string = "控制台输出将在这里显示...";
+  @State consoleOutput: string = '控制台输出将在这里显示...';
   
   // 用于显示段落信息的RichEditor
   displayController: RichEditorController = new RichEditorController();

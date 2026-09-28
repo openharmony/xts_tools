@@ -50,27 +50,27 @@ struct UiComponentTextRichEditorInterface0076 {
             this.controller.deleteSpans()
 
             // 添加图文混合内容
-            this.controller.addTextSpan("这是一段测试文本", {
+            this.controller.addTextSpan('这是一段测试文本', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Black
               }
             })
 
-            this.controller.addImageSpan($r("app.media.icon"), {
+            this.controller.addImageSpan($r('app.media.icon'), {
               imageStyle: {
                 size: [50, 50]
               }
             })
 
-            this.controller.addSymbolSpan($r("sys.symbol.star_fill"), {
+            this.controller.addSymbolSpan($r('sys.symbol.star_fill'), {
               style: {
                 fontSize: 20,
                 fontColor: [Color.Yellow]
               }
             })
 
-            this.controller.addTextSpan("结尾文本", {
+            this.controller.addTextSpan('结尾文本', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Blue
@@ -81,7 +81,7 @@ struct UiComponentTextRichEditorInterface0076 {
             this.onSelectTriggered = false
 
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("已添加图文混合内容，请选择文本触发onSelect回调", {
+            this.displayController.addTextSpan('已添加图文混合内容，请选择文本触发onSelect回调', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Green
@@ -98,7 +98,7 @@ struct UiComponentTextRichEditorInterface0076 {
           .enabled(this.hasContent)
           .onClick(() => {
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("请在RichEditor中双击或拖拽选择文本，将触发onSelect回调", {
+            this.displayController.addTextSpan('请在RichEditor中双击或拖拽选择文本，将触发onSelect回调', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Orange
@@ -116,7 +116,7 @@ struct UiComponentTextRichEditorInterface0076 {
           .onClick(() => {
             try {
               const spans = this.controller.getSpans({ start: -1, end: -1 })
-              let resultText = "onSelect回调中updateSpanStyle执行成功\n"
+              let resultText = 'onSelect回调中updateSpanStyle执行成功\n'
               resultText += `当前spans数量: ${spans.length}\n`
               
               this.displayController.deleteSpans()
@@ -128,7 +128,7 @@ struct UiComponentTextRichEditorInterface0076 {
               })
             } catch (error) {
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("验证结果出错: " + error.message, {
+              this.displayController.addTextSpan('验证结果出错: ' + error.message, {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red
@@ -193,20 +193,20 @@ struct UiComponentTextRichEditorInterface0076 {
               this.onSelectTriggered = true
               
               const selectionInfo = JSON.stringify(value)
-              console.log("onSelect - 选择信息:", selectionInfo)
+              console.log('onSelect - 选择信息:', selectionInfo)
               
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("onSelect回调已触发\n已更新选中范围样式\n选择范围: " + value.selection[0] + "-" + value.selection[1], {
+              this.displayController.addTextSpan('onSelect回调已触发\n已更新选中范围样式\n选择范围: ' + value.selection[0] + '-' + value.selection[1], {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red
                 }
               })
             } catch (error) {
-              console.error("onSelect中updateSpanStyle出错:", error)
+              console.error('onSelect中updateSpanStyle出错:', error)
               
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("onSelect回调出错: " + error.message, {
+              this.displayController.addTextSpan('onSelect回调出错: ' + error.message, {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red

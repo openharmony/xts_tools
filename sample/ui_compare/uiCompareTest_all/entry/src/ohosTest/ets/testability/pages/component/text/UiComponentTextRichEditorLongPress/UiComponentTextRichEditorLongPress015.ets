@@ -39,12 +39,12 @@ struct UiComponentTextRichEditorLongPress015 {
           })
         })
         .onSelectionChange(() => {
-          this.Infocontroller.addTextSpan("onSelectionChange函数被调用")
+          this.Infocontroller.addTextSpan('onSelectionChange函数被调用')
         })
         .onSelect(() => {
-          this.Infocontroller.addTextSpan("onSelect函数被调用")
+          this.Infocontroller.addTextSpan('onSelect函数被调用')
         })
-        .id("rich_editor_longpress_015_01")
+        .id('rich_editor_longpress_015_01')
         .width('100%')
         .height(200)
         .backgroundColor(Color.White)
@@ -54,7 +54,7 @@ struct UiComponentTextRichEditorLongPress015 {
         .margin({ bottom: 12 })
 
       RichEditor(this.Infooptions)
-        .id("rich_editor_longpress_015_02")
+        .id('rich_editor_longpress_015_02')
         .width('100%')
         .height(200)
         .backgroundColor(Color.White)

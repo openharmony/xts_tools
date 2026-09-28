@@ -143,7 +143,7 @@ struct UiComponentTextRichEditorInterface0003060 {
               }
             } else {
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("没有文本可更新，请先添加文本", {
+              this.displayController.addTextSpan('没有文本可更新，请先添加文本', {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red

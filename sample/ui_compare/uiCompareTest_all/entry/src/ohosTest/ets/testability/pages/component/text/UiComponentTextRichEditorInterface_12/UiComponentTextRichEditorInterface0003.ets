@@ -65,7 +65,7 @@ struct UiComponentTextRichEditorInterface0003 {
           .aboutToIMEInput((value: RichEditorInsertValue) => {
             // aboutToIMEInput回调值准确性检查
             const insertInfo = JSON.stringify(value)
-            console.log("aboutToIMEInput回调值:", insertInfo)
+            console.log('aboutToIMEInput回调值:', insertInfo)
             
             // 获取当前状态信息
             const caretOffset = this.controller.getCaretOffset()
@@ -86,7 +86,7 @@ struct UiComponentTextRichEditorInterface0003 {
             }
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("aboutToIMEInput触发\n" + analysisInfo + "返回值: true", {
+            this.displayController.addTextSpan('aboutToIMEInput触发\n' + analysisInfo + '返回值: true', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Blue
@@ -110,7 +110,7 @@ struct UiComponentTextRichEditorInterface0003 {
         .height(40)
         .margin(5)
         .onClick(() => {
-          this.controller.addTextSpan("预置文本内容", {
+          this.controller.addTextSpan('预置文本内容', {
             style: {
               fontSize: 16,
               fontColor: Color.Black
@@ -118,7 +118,7 @@ struct UiComponentTextRichEditorInterface0003 {
           })
           
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("已添加预置内容\n请在不同位置输入文本\n观察aboutToIMEInput回调值的准确性", {
+          this.displayController.addTextSpan('已添加预置内容\n请在不同位置输入文本\n观察aboutToIMEInput回调值的准确性', {
             style: {
               fontSize: 12,
               fontColor: Color.Orange
@@ -135,7 +135,7 @@ struct UiComponentTextRichEditorInterface0003 {
         .onClick(() => {
           this.controller.deleteSpans()
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("内容已清空\n请通过输入法输入内容\n观察回调值信息", {
+          this.displayController.addTextSpan('内容已清空\n请通过输入法输入内容\n观察回调值信息', {
             style: {
               fontSize: 12,
               fontColor: Color.Gray

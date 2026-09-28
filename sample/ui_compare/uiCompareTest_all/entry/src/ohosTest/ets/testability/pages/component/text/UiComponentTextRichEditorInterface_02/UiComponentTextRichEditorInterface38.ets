@@ -17,18 +17,18 @@
 @Component
 struct UiComponentTextRichEditorInterface38 {
   controller: RichEditorController = new RichEditorController();
-  @State menuInfo: string = "请长按文本选择文本"
-  @State appearInfo: string = ""
-  @State disappearInfo: string = ""
+  @State menuInfo: string = '请长按文本选择文本'
+  @State appearInfo: string = ''
+  @State disappearInfo: string = ''
 
   build() {
     Column() {
-      Text("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1490")
+      Text('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1490')
         .fontSize(14)
         .fontColor(0x666666)
         .margin({ bottom: 10 })
 
-      Text("bindSelectionMenu长按选择文本测试")
+      Text('bindSelectionMenu长按选择文本测试')
         .fontSize(18)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 20 })
@@ -65,20 +65,20 @@ struct UiComponentTextRichEditorInterface38 {
         .id('UiComponentTextRichEditorInterface38')
         .draggable(true)
         .onReady(() => {
-          this.controller.addTextSpan("长按下面的文本进行选择：", {
+          this.controller.addTextSpan('长按下面的文本进行选择：', {
             style: {
               fontColor: Color.Black,
               fontSize: 16
             }
           })
 
-          this.controller.addTextSpan("\n", {
+          this.controller.addTextSpan('\n', {
             style: {
               fontColor: 0xCCCCCC,
               fontSize: 12,
             }
           })
-          this.controller.addTextSpan("——————————————", {
+          this.controller.addTextSpan('——————————————', {
             style: {
               fontColor: 0xCCCCCC,
               fontSize: 14,
@@ -86,14 +86,14 @@ struct UiComponentTextRichEditorInterface38 {
               letterSpacing: 2
             }
           })
-          this.controller.addTextSpan("\n", {
+          this.controller.addTextSpan('\n', {
             style: {
               fontColor: 0xCCCCCC,
               fontSize: 12,
             }
           })
 
-          this.controller.addTextSpan("这是可选择的测试文本，长按我可以弹出自定义菜单。", {
+          this.controller.addTextSpan('这是可选择的测试文本，长按我可以弹出自定义菜单。', {
             style: {
               fontColor: Color.Red,
               fontSize: 18,
@@ -102,13 +102,13 @@ struct UiComponentTextRichEditorInterface38 {
             }
           })
 
-          this.controller.addTextSpan("\n", {
+          this.controller.addTextSpan('\n', {
             style: {
               fontColor: 0xCCCCCC,
               fontSize: 12,
             }
           })
-          this.controller.addTextSpan("——————————————", {
+          this.controller.addTextSpan('——————————————', {
             style: {
               fontColor: 0xCCCCCC,
               fontSize: 14,
@@ -116,14 +116,14 @@ struct UiComponentTextRichEditorInterface38 {
               letterSpacing: 2
             }
           })
-          this.controller.addTextSpan("\n", {
+          this.controller.addTextSpan('\n', {
             style: {
               fontColor: 0xCCCCCC,
               fontSize: 12,
             }
           })
 
-          this.controller.addTextSpan("这是普通文字", {
+          this.controller.addTextSpan('这是普通文字', {
             style: {
               fontColor: Color.Black,
               fontSize: 16
@@ -164,41 +164,41 @@ struct UiComponentTextRichEditorInterface38 {
         MenuItemGroup() {
           MenuItem({
             startIcon: $r('app.media.icon'),
-            content: "复制文本"
+            content: '复制文本'
           })
             .onClick(() => {
               this.menuInfo = `点击了"复制文本"菜单项 时间: ${new Date().toLocaleTimeString()}`
-              console.log("复制文本菜单项被点击")
+              console.log('复制文本菜单项被点击')
               this.controller.closeSelectionMenu();
             })
 
           MenuItem({
             startIcon: $r('app.media.icon'),
-            content: "删除文本"
+            content: '删除文本'
           })
             .onClick(() => {
               this.menuInfo = `点击了"删除文本"菜单项 时间: ${new Date().toLocaleTimeString()}`
-              console.log("删除文本菜单项被点击")
+              console.log('删除文本菜单项被点击')
               this.controller.closeSelectionMenu();
             })
 
           MenuItem({
             startIcon: $r('app.media.icon'),
-            content: "分享文本"
+            content: '分享文本'
           })
             .onClick(() => {
               this.menuInfo = `点击了"分享文本"菜单项 时间: ${new Date().toLocaleTimeString()}`
-              console.log("分享文本菜单项被点击")
+              console.log('分享文本菜单项被点击')
               this.controller.closeSelectionMenu();
             })
 
           MenuItem({
             startIcon: $r('app.media.icon'),
-            content: "翻译文本"
+            content: '翻译文本'
           })
             .onClick(() => {
               this.menuInfo = `点击了"翻译文本"菜单项 时间: ${new Date().toLocaleTimeString()}`
-              console.log("翻译文本菜单项被点击")
+              console.log('翻译文本菜单项被点击')
               this.controller.closeSelectionMenu();
             })
         }

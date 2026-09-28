@@ -35,7 +35,7 @@ struct UiComponentTextRichEditorLongPressTouying0005 {
             // 添加图片
             this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
               imageStyle: {
-                size: ["100px", "100px"]
+                size: ['100px', '100px']
               }
             })
             
@@ -46,7 +46,7 @@ struct UiComponentTextRichEditorLongPressTouying0005 {
               }
             })
           })
-          .id("rich_editor_longpresstouying_0005")
+          .id('rich_editor_longpresstouying_0005')
           .width('80%')
           .height(120)
           .margin({ top: 100 })

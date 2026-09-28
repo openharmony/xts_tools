@@ -39,7 +39,7 @@ struct UiComponentTextRichEditorInterface0049 {
           .height(40)
           .margin(5)
           .onClick(() => {
-            this.controller.addTextSpan("测试文本内容", {
+            this.controller.addTextSpan('测试文本内容', {
               style: {
                 fontSize: 16
               }

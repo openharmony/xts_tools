@@ -73,10 +73,10 @@ struct UiComponentTextRichEditorInterface0069 {
           .aboutToIMEInput((value: RichEditorInsertValue) => {
             // aboutToIMEInput回调
             const insertInfo = JSON.stringify(value)
-            console.log("aboutToIMEInput - 插入信息:", insertInfo)
+            console.log('aboutToIMEInput - 插入信息:', insertInfo)
 
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("aboutToIMEInput触发\n插入信息:\n" + insertInfo + "\n返回值: true", {
+            this.displayController.addTextSpan('aboutToIMEInput触发\n插入信息:\n' + insertInfo + '\n返回值: true', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Blue
@@ -88,12 +88,12 @@ struct UiComponentTextRichEditorInterface0069 {
           .onIMEInputComplete((value: RichEditorTextSpanResult) => {
             // onIMEInputComplete回调
             const completeInfo = JSON.stringify(value)
-            console.log("onIMEInputComplete - 输入完成信息:", completeInfo)
+            console.log('onIMEInputComplete - 输入完成信息:', completeInfo)
 
             // 获取当前的spans信息来验证样式
             const currentSpans = JSON.stringify(this.controller.getSpans({ start: -1, end: -1 }))
 
-            this.displayController.addTextSpan("\n\nonIMEInputComplete触发\n输入完成信息:\n" + completeInfo + "\n当前spans样式:\n" + currentSpans, {
+            this.displayController.addTextSpan('\n\nonIMEInputComplete触发\n输入完成信息:\n' + completeInfo + '\n当前spans样式:\n' + currentSpans, {
               style: {
                 fontSize: 12,
                 fontColor: Color.Green
@@ -121,7 +121,7 @@ struct UiComponentTextRichEditorInterface0069 {
           })
           
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("typingStyle已重置\n字体大小: 24\n字体颜色: 红色\n请输入emoji测试样式效果", {
+          this.displayController.addTextSpan('typingStyle已重置\n字体大小: 24\n字体颜色: 红色\n请输入emoji测试样式效果', {
             style: {
               fontSize: 12,
               fontColor: Color.Orange

@@ -63,9 +63,9 @@ struct UiComponentTextRichEditorInterface0038 {
           .aboutToDelete((value: RichEditorDeleteValue) => {
             // 在删除前获取光标位置
             const caretOffset = JSON.stringify(this.controller.getCaretOffset())
-            console.log("删除前光标位置:", caretOffset)
+            console.log('删除前光标位置:', caretOffset)
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("删除前光标位置:\n" + caretOffset, {
+            this.displayController.addTextSpan('删除前光标位置:\n' + caretOffset, {
               style: {
                 fontSize: 12,
                 fontColor: Color.Red

@@ -47,14 +47,14 @@ struct UiComponentTextRichEditorInterface0053 {
           .margin(5)
           .onClick(() => {
             // 步骤1：调用addImageSpan添加内容
-            this.controller.addImageSpan($r("app.media.icon"), {
+            this.controller.addImageSpan($r('app.media.icon'), {
               imageStyle: {
                 size: [30, 30]
               }
             })
             
             // 步骤1：调用addSymbolSpan添加内容
-            this.controller.addSymbolSpan($r("sys.symbol.star_fill"), {
+            this.controller.addSymbolSpan($r('sys.symbol.star_fill'), {
               style: {
                 fontSize: 20,
                 fontColor: [Color.Red]

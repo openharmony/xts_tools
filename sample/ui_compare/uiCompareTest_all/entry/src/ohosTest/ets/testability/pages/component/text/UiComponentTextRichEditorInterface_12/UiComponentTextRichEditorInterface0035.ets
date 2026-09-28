@@ -64,10 +64,10 @@ struct UiComponentTextRichEditorInterface0035 {
           .onIMEInputComplete((value: RichEditorTextSpanResult) => {
             // 在onIMEInputComplete回调内获取光标位置
             const caretOffset = JSON.stringify(this.controller.getCaretOffset())
-            console.log("onIMEInputComplete - 光标位置:", caretOffset)
+            console.log('onIMEInputComplete - 光标位置:', caretOffset)
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("onIMEInputComplete触发\n光标位置:\n" + caretOffset, {
+            this.displayController.addTextSpan('onIMEInputComplete触发\n光标位置:\n' + caretOffset, {
               style: {
                 fontSize: 12,
                 fontColor: Color.Red

@@ -33,12 +33,12 @@ struct UiComponentTextRichEditorLongPress012 {
             // 添加imagespan/builderspan
             this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
               imageStyle: {
-                size: ["60px", "60px"]
+                size: ['60px', '60px']
               }
             })
           }
         })
-        .id("rich_editor_longpress_012")
+        .id('rich_editor_longpress_012')
         .width('100%')
         .height(200)
         .backgroundColor(Color.White)

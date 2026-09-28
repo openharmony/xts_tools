@@ -28,7 +28,7 @@ struct UiComponentTextRichEditorInterface0032 {
     Column() {
       // 提示信息
       Text('请在下面的RichEditor中直接输入文本来触发aboutToIMEInput回调')
-        .id("inputHint0032")
+        .id('inputHint0032')
         .width('100%')
         .fontSize(12)
         .fontColor(Color.Orange)
@@ -64,7 +64,7 @@ struct UiComponentTextRichEditorInterface0032 {
           .aboutToIMEInput((value: RichEditorInsertValue) => {
             // 在输入前获取光标位置
             const caretOffset = JSON.stringify(this.controller.getCaretOffset())
-            console.log("输入前光标位置:", caretOffset)
+            console.log('输入前光标位置:', caretOffset)
             this.displayController.deleteSpans()
             this.displayController.addTextSpan(JSON.stringify(this.controller.getCaretOffset()), {
               style: {

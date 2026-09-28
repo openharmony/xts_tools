@@ -50,14 +50,14 @@ struct UiComponentTextRichEditorInterface0064 {
 
             // 添加包含emoji和symbol的图文混合内容
             // 文本 + emoji + 文本 + symbol + 文本
-            this.controller.addTextSpan("前置文本😀😃😄", {
+            this.controller.addTextSpan('前置文本😀😃😄', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Blue
               }
             })
 
-            this.controller.addTextSpan("中间文本", {
+            this.controller.addTextSpan('中间文本', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Green
@@ -65,14 +65,14 @@ struct UiComponentTextRichEditorInterface0064 {
             })
 
             // 添加symbol
-            this.controller.addSymbolSpan($r("sys.symbol.ohos_star"), {
+            this.controller.addSymbolSpan($r('sys.symbol.ohos_star'), {
               style: {
                 fontSize: 20,
                 fontColor: [Color.Red]
               }
             })
 
-            this.controller.addTextSpan("后置文本🎉🎊", {
+            this.controller.addTextSpan('后置文本🎉🎊', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Pink
@@ -82,7 +82,7 @@ struct UiComponentTextRichEditorInterface0064 {
             this.hasContent = true
 
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("已添加包含emoji和symbol的图文混合内容", {
+            this.displayController.addTextSpan('已添加包含emoji和symbol的图文混合内容', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Green
@@ -111,7 +111,7 @@ struct UiComponentTextRichEditorInterface0064 {
               })
 
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("已更新emoji边界样式，无crash现象", {
+              this.displayController.addTextSpan('已更新emoji边界样式，无crash现象', {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red
@@ -119,7 +119,7 @@ struct UiComponentTextRichEditorInterface0064 {
               })
             } catch (error) {
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("更新emoji边界样式出错: " + error.message, {
+              this.displayController.addTextSpan('更新emoji边界样式出错: ' + error.message, {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red
@@ -149,7 +149,7 @@ struct UiComponentTextRichEditorInterface0064 {
               })
 
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("已更新symbol边界样式，无crash现象", {
+              this.displayController.addTextSpan('已更新symbol边界样式，无crash现象', {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Orange
@@ -157,7 +157,7 @@ struct UiComponentTextRichEditorInterface0064 {
               })
             } catch (error) {
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("更新symbol边界样式出错: " + error.message, {
+              this.displayController.addTextSpan('更新symbol边界样式出错: ' + error.message, {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red

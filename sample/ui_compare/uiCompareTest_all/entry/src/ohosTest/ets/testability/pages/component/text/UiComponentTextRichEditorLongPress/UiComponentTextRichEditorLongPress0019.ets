@@ -39,11 +39,11 @@ struct UiComponentTextRichEditorLongPress0019 {
 
           this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
             imageStyle: {
-              size: ["300vp", "300vp"]
+              size: ['300vp', '300vp']
             }
           })
         })
-        .id("rich_editor_longpress_0019")
+        .id('rich_editor_longpress_0019')
         .width('100%')
         .height(200)
         .backgroundColor(Color.White)

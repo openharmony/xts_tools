@@ -64,14 +64,14 @@ struct UiComponentTextRichEditorInterface0072 {
           .placeholder('请输入文本内容，然后在中间换行...')
           .aboutToIMEInput((value: RichEditorInsertValue) => {
             // aboutToIMEInput回调
-            console.log("aboutToIMEInput回调触发")
+            console.log('aboutToIMEInput回调触发')
             
             // 获取当前光标位置和spans信息
             const caretOffset = this.controller.getCaretOffset()
             const currentSpans = this.controller.getSpans({ start: -1, end: -1 })
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("aboutToIMEInput回调成功\n", {
+            this.displayController.addTextSpan('aboutToIMEInput回调成功\n', {
               style: {
                 fontSize: 14,
                 fontColor: Color.Blue,
@@ -92,9 +92,9 @@ struct UiComponentTextRichEditorInterface0072 {
           })
           .onIMEInputComplete((value: RichEditorTextSpanResult) => {
             // onIMEInputComplete回调
-            console.log("onIMEInputComplete回调触发")
+            console.log('onIMEInputComplete回调触发')
             
-            this.displayController.addTextSpan("\n\nonIMEInputComplete回调成功\n", {
+            this.displayController.addTextSpan('\n\nonIMEInputComplete回调成功\n', {
               style: {
                 fontSize: 14,
                 fontColor: Color.Green,
@@ -139,7 +139,7 @@ struct UiComponentTextRichEditorInterface0072 {
         .margin(5)
         .onClick(() => {
           // 添加第一个span
-          this.controller.addTextSpan("这是第一个span", {
+          this.controller.addTextSpan('这是第一个span', {
             style: {
               fontSize: 16,
               fontColor: Color.Black
@@ -147,7 +147,7 @@ struct UiComponentTextRichEditorInterface0072 {
           })
           
           // 添加第二个span
-          this.controller.addTextSpan("这是第二个span内容", {
+          this.controller.addTextSpan('这是第二个span内容', {
             style: {
               fontSize: 16,
               fontColor: Color.Blue

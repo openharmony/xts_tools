@@ -82,7 +82,7 @@ struct UiComponentTextRichEditorInterface0043 {
             })
 
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("已手动调用updateSpanStyle\n更新范围: 0-8\n样式: 粉色、粗体、22px", {
+            this.displayController.addTextSpan('已手动调用updateSpanStyle\n更新范围: 0-8\n样式: 粉色、粗体、22px', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Red,
@@ -91,7 +91,7 @@ struct UiComponentTextRichEditorInterface0043 {
             })
           } else {
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("请先添加初始内容", {
+            this.displayController.addTextSpan('请先添加初始内容', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Orange
@@ -111,8 +111,8 @@ struct UiComponentTextRichEditorInterface0043 {
         .margin(10)
         .onIMEInputComplete((value: RichEditorTextSpanResult) => {
           // 在onIMEInputComplete回调中：console.log(JSON.stringify(this.controller.updateSpanStyle))
-          console.log("onIMEInputComplete回调:", JSON.stringify(value))
-          console.log("updateSpanStyle方法:", JSON.stringify(this.controller.updateSpanStyle))
+          console.log('onIMEInputComplete回调:', JSON.stringify(value))
+          console.log('updateSpanStyle方法:', JSON.stringify(this.controller.updateSpanStyle))
           
           // 1. 在RichEditor组件onIMEInputComplete回调内调用updateSpanStyle，将新指定选择内容的文本，应用TextSpan或SymbolSpan样式
           if (value && value.textStyle) {
@@ -145,7 +145,7 @@ struct UiComponentTextRichEditorInterface0043 {
           
           // 在回调显示的richeditor中显示IME输入完成的信息
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("onIMEInputComplete回调触发\n输入内容: " + JSON.stringify(value) + "\n已自动应用样式到新输入文本", {
+          this.displayController.addTextSpan('onIMEInputComplete回调触发\n输入内容: ' + JSON.stringify(value) + '\n已自动应用样式到新输入文本', {
             style: {
               fontSize: 12,
               fontColor: Color.Green,
@@ -164,7 +164,7 @@ struct UiComponentTextRichEditorInterface0043 {
           .onClick(() => {
             // 添加初始测试内容
             this.controller.deleteSpans()
-            this.controller.addTextSpan("初始文本内容，", {
+            this.controller.addTextSpan('初始文本内容，', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Black
@@ -172,14 +172,14 @@ struct UiComponentTextRichEditorInterface0043 {
             })
             
             // 添加SymbolSpan
-            this.controller.addSymbolSpan($r("sys.symbol.heart_fill"), {
+            this.controller.addSymbolSpan($r('sys.symbol.heart_fill'), {
               style: {
                 fontSize: 18,
                 fontColor: [Color.Red]
               }
             })
             
-            this.controller.addTextSpan("请继续输入文本。", {
+            this.controller.addTextSpan('请继续输入文本。', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Black
@@ -187,7 +187,7 @@ struct UiComponentTextRichEditorInterface0043 {
             })
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("初始内容已添加（包含TextSpan和SymbolSpan）\n请点击编辑器并输入文本触发onIMEInputComplete回调", {
+            this.displayController.addTextSpan('初始内容已添加（包含TextSpan和SymbolSpan）\n请点击编辑器并输入文本触发onIMEInputComplete回调', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Green

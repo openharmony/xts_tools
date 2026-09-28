@@ -26,24 +26,24 @@ struct UiComponentTextRichEditorInterface0084 {
 
   aboutToAppear() {
     // 预置图文混合内容
-    this.controller.addTextSpan("这是一段测试文本", {
+    this.controller.addTextSpan('这是一段测试文本', {
       style: {
         fontSize: 16,
         fontColor: Color.Black
       }
     })
-    this.controller.addImageSpan($r("app.media.icon"), {
+    this.controller.addImageSpan($r('app.media.icon'), {
       imageStyle: {
         size: [50, 50]
       }
     })
-    this.controller.addSymbolSpan($r("sys.symbol.star_fill"), {
+    this.controller.addSymbolSpan($r('sys.symbol.star_fill'), {
       style: {
         fontSize: 20,
         fontColor: [Color.Yellow]
       }
     })
-    this.controller.addTextSpan("结尾文本", {
+    this.controller.addTextSpan('结尾文本', {
       style: {
         fontSize: 16,
         fontColor: Color.Blue
@@ -102,10 +102,10 @@ struct UiComponentTextRichEditorInterface0084 {
               })
               
               const changeInfo = JSON.stringify(value)
-              console.log("onWillChange - 变化信息:", changeInfo)
+              console.log('onWillChange - 变化信息:', changeInfo)
               
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("onWillChange触发\n已更新样式为红色22号字体\n变化信息:\n" + changeInfo, {
+              this.displayController.addTextSpan('onWillChange触发\n已更新样式为红色22号字体\n变化信息:\n' + changeInfo, {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red
@@ -113,7 +113,7 @@ struct UiComponentTextRichEditorInterface0084 {
               })
             } catch (error) {
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("updateSpanStyle执行失败\n错误信息: " + error.toString(), {
+              this.displayController.addTextSpan('updateSpanStyle执行失败\n错误信息: ' + error.toString(), {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red

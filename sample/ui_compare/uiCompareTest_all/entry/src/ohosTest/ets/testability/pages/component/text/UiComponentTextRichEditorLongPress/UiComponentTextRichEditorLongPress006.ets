@@ -39,7 +39,7 @@ struct UiComponentTextRichEditorLongPress006 {
           })
           this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
             imageStyle: {
-              size: ["60px", "60px"]
+              size: ['60px', '60px']
             }
           })
           this.controller.addTextSpan('更多用于测试的缩进文本=====', {
@@ -49,7 +49,7 @@ struct UiComponentTextRichEditorLongPress006 {
             }
           })
         })
-        .id("rich_editor_longpress_006")
+        .id('rich_editor_longpress_006')
         .width('100%')
         .height(200)
         .backgroundColor(Color.White)
@@ -58,8 +58,8 @@ struct UiComponentTextRichEditorLongPress006 {
         .padding(8)
         .margin({ bottom: 12 })
 
-      Button("增加两格缩进")
-        .id("increase_indent_btn_006")
+      Button('增加两格缩进')
+        .id('increase_indent_btn_006')
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')

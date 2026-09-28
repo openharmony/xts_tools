@@ -35,7 +35,7 @@ struct UiComponentTextRichEditorLongPressTouying0010 {
             // 添加高度大于组件高度的图片
             this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
               imageStyle: {
-                size: ["200px", "200px"] // 图片高度大于RichEditor组件高度(120px)
+                size: ['200px', '200px'] // 图片高度大于RichEditor组件高度(120px)
               }
             })
             
@@ -46,7 +46,7 @@ struct UiComponentTextRichEditorLongPressTouying0010 {
               }
             })
           })
-          .id("rich_editor_longpresstouying_0010")
+          .id('rich_editor_longpresstouying_0010')
           .width('80%')
           .height(120)
           .margin({ top: 100 })

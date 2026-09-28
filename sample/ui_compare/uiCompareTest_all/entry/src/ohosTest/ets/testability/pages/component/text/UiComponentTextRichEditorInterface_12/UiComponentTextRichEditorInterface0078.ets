@@ -63,7 +63,7 @@ struct UiComponentTextRichEditorInterface0078 {
           .aboutToDelete((value: RichEditorDeleteValue) => {
             // 在删除前更新样式
             const spans = JSON.stringify(this.controller.getSpans({ start: -1, end: -1 }))
-            console.log("删除前的spans信息:", spans)
+            console.log('删除前的spans信息:', spans)
             
             // 更新现有文本的样式
             this.controller.updateSpanStyle({
@@ -76,7 +76,7 @@ struct UiComponentTextRichEditorInterface0078 {
             })
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("已更新样式，spans信息:\n" + spans, {
+            this.displayController.addTextSpan('已更新样式，spans信息:\n' + spans, {
               style: {
                 fontSize: 12,
                 fontColor: Color.Red

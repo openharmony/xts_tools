@@ -96,7 +96,7 @@ struct UiComponentTextRichEditorInterface0058 {
             })
           } catch (error) {
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("addTextSpan执行失败\n错误信息: " + error.toString(), {
+            this.displayController.addTextSpan('addTextSpan执行失败\n错误信息: ' + error.toString(), {
               style: {
                 fontSize: 12,
                 fontColor: Color.Red
@@ -130,7 +130,7 @@ struct UiComponentTextRichEditorInterface0058 {
             })
           } catch (error) {
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("updateSpanStyle执行失败\n错误信息: " + error.toString(), {
+            this.displayController.addTextSpan('updateSpanStyle执行失败\n错误信息: ' + error.toString(), {
               style: {
                 fontSize: 12,
                 fontColor: Color.Red
@@ -157,7 +157,7 @@ struct UiComponentTextRichEditorInterface0058 {
             })
           } catch (error) {
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("deleteSpans执行失败\n错误信息: " + error.toString(), {
+            this.displayController.addTextSpan('deleteSpans执行失败\n错误信息: ' + error.toString(), {
               style: {
                 fontSize: 12,
                 fontColor: Color.Red

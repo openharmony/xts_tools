@@ -69,7 +69,7 @@ struct UiComponentTextRichEditorInterface0029 {
             // 在回调显示的richeditor中显示剪切前光标的位置
             const caretOffset = this.controller.getCaretOffset()
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("剪切前光标位置: " + JSON.stringify(caretOffset), {
+            this.displayController.addTextSpan('剪切前光标位置: ' + JSON.stringify(caretOffset), {
               style: {
                 fontSize: 14,
                 fontColor: Color.Red,
@@ -92,7 +92,7 @@ struct UiComponentTextRichEditorInterface0029 {
         .height(40)
         .margin(10)
         .onClick(() => {
-          this.controller.addTextSpan("这是提供给剪切测试的文本内容", {
+          this.controller.addTextSpan('这是提供给剪切测试的文本内容', {
             style: {
               fontSize: 16,
               fontColor: Color.Black
@@ -100,7 +100,7 @@ struct UiComponentTextRichEditorInterface0029 {
           })
           
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("已添加测试内容\n请选中部分文本进行剪切操作", {
+          this.displayController.addTextSpan('已添加测试内容\n请选中部分文本进行剪切操作', {
             style: {
               fontSize: 12,
               fontColor: Color.Orange

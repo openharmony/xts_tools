@@ -63,9 +63,9 @@ struct UiComponentTextRichEditorInterface0042 {
           .onDeleteComplete(() => {
             // 在删除完成后获取段落信息
             const paragraphs = JSON.stringify(this.controller.getParagraphs({ start: -1, end: -1 }))
-            console.log("删除完成后的段落信息:", paragraphs)
+            console.log('删除完成后的段落信息:', paragraphs)
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("删除完成后的段落信息:\n" + paragraphs, {
+            this.displayController.addTextSpan('删除完成后的段落信息:\n' + paragraphs, {
               style: {
                 fontSize: 12,
                 fontColor: Color.Red

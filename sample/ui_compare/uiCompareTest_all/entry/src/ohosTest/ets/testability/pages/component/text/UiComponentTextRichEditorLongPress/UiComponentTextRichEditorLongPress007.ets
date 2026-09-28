@@ -30,7 +30,7 @@ struct UiComponentTextRichEditorLongPress007 {
         .onReady(() => {
           // 组件内容为空，不添加任何内容
         })
-        .id("rich_editor_longpress_007")
+        .id('rich_editor_longpress_007')
         .width('100%')
         .height(200)
         .backgroundColor(Color.White)

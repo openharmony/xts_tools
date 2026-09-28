@@ -65,13 +65,13 @@ struct UiComponentTextRichEditorInterface0073 {
           .aboutToIMEInput((value: RichEditorInsertValue) => {
             // aboutToIMEInput回调
             const insertInfo = JSON.stringify(value)
-            console.log("aboutToIMEInput - 插入信息:", insertInfo)
+            console.log('aboutToIMEInput - 插入信息:', insertInfo)
             
             // 获取当前光标位置
             const caretOffset = this.controller.getCaretOffset()
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("aboutToIMEInput触发\n光标位置: " + caretOffset + "\n插入信息:\n" + insertInfo + "\n返回值: true", {
+            this.displayController.addTextSpan('aboutToIMEInput触发\n光标位置: ' + caretOffset + '\n插入信息:\n' + insertInfo + '\n返回值: true', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Blue
@@ -83,12 +83,12 @@ struct UiComponentTextRichEditorInterface0073 {
           .onIMEInputComplete((value: RichEditorTextSpanResult) => {
             // onIMEInputComplete回调
             const completeInfo = JSON.stringify(value)
-            console.log("onIMEInputComplete - 输入完成信息:", completeInfo)
+            console.log('onIMEInputComplete - 输入完成信息:', completeInfo)
             
             // 获取当前的spans信息
             const currentSpans = JSON.stringify(this.controller.getSpans({ start: -1, end: -1 }))
             
-            this.displayController.addTextSpan("\n\nonIMEInputComplete触发\n输入完成信息:\n" + completeInfo + "\n当前spans:\n" + currentSpans, {
+            this.displayController.addTextSpan('\n\nonIMEInputComplete触发\n输入完成信息:\n' + completeInfo + '\n当前spans:\n' + currentSpans, {
               style: {
                 fontSize: 12,
                 fontColor: Color.Green
@@ -111,13 +111,13 @@ struct UiComponentTextRichEditorInterface0073 {
           .height(40)
           .margin(5)
           .onClick(() => {
-            this.controller.addTextSpan("开始文本", {
+            this.controller.addTextSpan('开始文本', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Black
               }
             })
-            this.controller.addTextSpan("结尾文本", {
+            this.controller.addTextSpan('结尾文本', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Black
@@ -128,7 +128,7 @@ struct UiComponentTextRichEditorInterface0073 {
             this.controller.setCaretOffset(4)
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("已添加初始文本\n光标已定位到两个span之间\n请改变typingStyle后输入文本", {
+            this.displayController.addTextSpan('已添加初始文本\n光标已定位到两个span之间\n请改变typingStyle后输入文本', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Orange
@@ -148,7 +148,7 @@ struct UiComponentTextRichEditorInterface0073 {
             })
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("typingStyle已改变\n字体大小: 20\n字体颜色: 红色\n现在请在span之间输入文本", {
+            this.displayController.addTextSpan('typingStyle已改变\n字体大小: 20\n字体颜色: 红色\n现在请在span之间输入文本', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Pink

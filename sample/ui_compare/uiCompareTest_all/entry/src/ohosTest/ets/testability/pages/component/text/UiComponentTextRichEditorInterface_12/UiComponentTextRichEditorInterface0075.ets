@@ -62,9 +62,9 @@ struct UiComponentTextRichEditorInterface0075 {
         .height(40)
         .margin(5)
         .onClick(() => {
-          const onWillChangeStatus = this.onWillChangeTriggered ? "✅ 已触发（正常）" : "❌ 未触发（异常）"
-          const aboutToIMEStatus = this.aboutToIMEInputTriggered ? "❌ 已触发（异常）" : "✅ 未触发（正常）"
-          const onIMECompleteStatus = this.onIMEInputCompleteTriggered ? "❌ 已触发（异常）" : "✅ 未触发（正常）"
+          const onWillChangeStatus = this.onWillChangeTriggered ? '✅ 已触发（正常）' : '❌ 未触发（异常）'
+          const aboutToIMEStatus = this.aboutToIMEInputTriggered ? '❌ 已触发（异常）' : '✅ 未触发（正常）'
+          const onIMECompleteStatus = this.onIMEInputCompleteTriggered ? '❌ 已触发（异常）' : '✅ 未触发（正常）'
 
           this.displayController.deleteSpans()
           this.displayController.addTextSpan(`回调状态检查:\n\nonWillChange: ${onWillChangeStatus}\naboutToIMEInput: ${aboutToIMEStatus}\nonIMEInputComplete: ${onIMECompleteStatus}\n\n预期结果:\n- onWillChange应该被触发\n- 其他两个回调不应该被触发`, {
@@ -88,7 +88,7 @@ struct UiComponentTextRichEditorInterface0075 {
           this.controller.deleteSpans()
 
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("测试状态已重置\n请尝试输入文本\n输入应该被onWillChange阻止", {
+          this.displayController.addTextSpan('测试状态已重置\n请尝试输入文本\n输入应该被onWillChange阻止', {
             style: {
               fontSize: 12,
               fontColor: Color.Gray
@@ -110,10 +110,10 @@ struct UiComponentTextRichEditorInterface0075 {
             // onWillChange回调，返回false
             this.onWillChangeTriggered = true
             const changeInfo = JSON.stringify(value)
-            console.log("onWillChange - 变化信息:", changeInfo)
+            console.log('onWillChange - 变化信息:', changeInfo)
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("onWillChange触发\n返回值: false\n变化信息:\n" + changeInfo + "\n\n尝试输入应该被阻止", {
+            this.displayController.addTextSpan('onWillChange触发\n返回值: false\n变化信息:\n' + changeInfo + '\n\n尝试输入应该被阻止', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Pink
@@ -126,7 +126,7 @@ struct UiComponentTextRichEditorInterface0075 {
             // aboutToIMEInput回调（按需求不应该被触发）
             this.aboutToIMEInputTriggered = true
             const insertInfo = JSON.stringify(value)
-            console.log("aboutToIMEInput - 插入信息:", insertInfo)
+            console.log('aboutToIMEInput - 插入信息:', insertInfo)
 
             return true // 让onWillChange来决定是否阻止
           })
@@ -134,7 +134,7 @@ struct UiComponentTextRichEditorInterface0075 {
             // onIMEInputComplete回调（按需求不应该被触发）
             this.onIMEInputCompleteTriggered = true
             const completeInfo = JSON.stringify(value)
-            console.log("onIMEInputComplete - 输入完成信息:", completeInfo)
+            console.log('onIMEInputComplete - 输入完成信息:', completeInfo)
 
           })
       }

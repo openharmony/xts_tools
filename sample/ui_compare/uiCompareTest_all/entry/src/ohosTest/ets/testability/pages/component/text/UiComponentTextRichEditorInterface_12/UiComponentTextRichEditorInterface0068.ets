@@ -50,14 +50,14 @@ struct UiComponentTextRichEditorInterface0068 {
 
             // 添加包含emoji和symbol的图文混合内容
             // 文本 + emoji + 文本 + symbol + 文本
-            this.controller.addTextSpan("前置文本😀😃😄", {
+            this.controller.addTextSpan('前置文本😀😃😄', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Blue
               }
             })
 
-            this.controller.addTextSpan("中间文本", {
+            this.controller.addTextSpan('中间文本', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Green
@@ -65,14 +65,14 @@ struct UiComponentTextRichEditorInterface0068 {
             })
 
             // 添加symbol
-            this.controller.addSymbolSpan($r("sys.symbol.ohos_star"), {
+            this.controller.addSymbolSpan($r('sys.symbol.ohos_star'), {
               style: {
                 fontSize: 20,
                 fontColor: [Color.Red]
               }
             })
 
-            this.controller.addTextSpan("后置文本🎉🎊", {
+            this.controller.addTextSpan('后置文本🎉🎊', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Pink
@@ -82,7 +82,7 @@ struct UiComponentTextRichEditorInterface0068 {
             this.hasContent = true
 
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("已添加包含emoji和symbol的图文混合内容", {
+            this.displayController.addTextSpan('已添加包含emoji和symbol的图文混合内容', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Green
@@ -104,7 +104,7 @@ struct UiComponentTextRichEditorInterface0068 {
               this.controller.deleteSpans({ start: 6, end: 12 })
               
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("deleteSpans执行成功\n删除范围: 6-12 (跨越emoji和symbol边界)\n未发生crash现象", {
+              this.displayController.addTextSpan('deleteSpans执行成功\n删除范围: 6-12 (跨越emoji和symbol边界)\n未发生crash现象', {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red
@@ -112,7 +112,7 @@ struct UiComponentTextRichEditorInterface0068 {
               })
             } catch (error) {
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("deleteSpans执行失败\n错误信息: " + error.message, {
+              this.displayController.addTextSpan('deleteSpans执行失败\n错误信息: ' + error.message, {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red

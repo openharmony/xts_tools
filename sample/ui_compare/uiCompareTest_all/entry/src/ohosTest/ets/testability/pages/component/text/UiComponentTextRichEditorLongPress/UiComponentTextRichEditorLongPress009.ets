@@ -36,7 +36,7 @@ struct UiComponentTextRichEditorLongPress009 {
             }
           })
         })
-        .id("rich_editor_longpress_009")
+        .id('rich_editor_longpress_009')
         .width('100%')
         .height(80)
         .backgroundColor(Color.White)

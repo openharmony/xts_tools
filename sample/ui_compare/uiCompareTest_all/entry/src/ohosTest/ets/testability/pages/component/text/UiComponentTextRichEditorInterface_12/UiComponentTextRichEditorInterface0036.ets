@@ -64,10 +64,10 @@ struct UiComponentTextRichEditorInterface0036 {
           .onIMEInputComplete((value: RichEditorTextSpanResult) => {
             // 在onIMEInputComplete回调内获取段落信息
             const paragraphs = JSON.stringify(this.controller.getParagraphs({ start: -1, end: -1 }))
-            console.log("onIMEInputComplete - 段落信息:", paragraphs)
+            console.log('onIMEInputComplete - 段落信息:', paragraphs)
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("onIMEInputComplete触发\n段落信息:\n" + paragraphs, {
+            this.displayController.addTextSpan('onIMEInputComplete触发\n段落信息:\n' + paragraphs, {
               style: {
                 fontSize: 12,
                 fontColor: Color.Red

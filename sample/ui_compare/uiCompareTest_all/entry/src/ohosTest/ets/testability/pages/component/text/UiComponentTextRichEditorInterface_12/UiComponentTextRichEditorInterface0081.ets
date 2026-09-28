@@ -71,8 +71,8 @@ struct UiComponentTextRichEditorInterface0081 {
         .margin(10)
         .onSelectionChange((value: RichEditorRange) => {
           // 在onSelectionChange回调中：console.log(JSON.stringify(this.controller.updateSpanStyle))
-          console.log("onSelectionChange回调:", JSON.stringify(value))
-          console.log("updateSpanStyle方法:", JSON.stringify(this.controller.updateSpanStyle))
+          console.log('onSelectionChange回调:', JSON.stringify(value))
+          console.log('updateSpanStyle方法:', JSON.stringify(this.controller.updateSpanStyle))
           
           // 1. 在onSelectionChange回调内调用updateSpanStyle，将新指定选择内容的文本，应用TextSpan或SymbolSpan样式
           if (value.start !== value.end) {
@@ -90,7 +90,7 @@ struct UiComponentTextRichEditorInterface0081 {
           
           // 在回调显示的richeditor中显示选择变化的信息
           this.displayController.deleteSpans()
-          this.displayController.addTextSpan("onSelectionChange回调触发\n选择范围: " + JSON.stringify(value) + "\n已自动应用样式到选中文本", {
+          this.displayController.addTextSpan('onSelectionChange回调触发\n选择范围: ' + JSON.stringify(value) + '\n已自动应用样式到选中文本', {
             style: {
               fontSize: 12,
               fontColor: Color.Blue,
@@ -109,7 +109,7 @@ struct UiComponentTextRichEditorInterface0081 {
           .onClick(() => {
             // 添加包含文本和符号的测试内容
             this.controller.deleteSpans()
-            this.controller.addTextSpan("这是测试文本内容，", {
+            this.controller.addTextSpan('这是测试文本内容，', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Black
@@ -117,14 +117,14 @@ struct UiComponentTextRichEditorInterface0081 {
             })
             
             // 添加SymbolSpan
-            this.controller.addSymbolSpan($r("sys.symbol.star_fill"), {
+            this.controller.addSymbolSpan($r('sys.symbol.star_fill'), {
               style: {
                 fontSize: 20,
                 fontColor: [Color.Red]
               }
             })
             
-            this.controller.addTextSpan("请选择部分文本来测试onSelectionChange回调和updateSpanStyle功能。", {
+            this.controller.addTextSpan('请选择部分文本来测试onSelectionChange回调和updateSpanStyle功能。', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Black
@@ -132,7 +132,7 @@ struct UiComponentTextRichEditorInterface0081 {
             })
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("测试内容已添加（包含TextSpan和SymbolSpan）\n请选择文本触发onSelectionChange回调", {
+            this.displayController.addTextSpan('测试内容已添加（包含TextSpan和SymbolSpan）\n请选择文本触发onSelectionChange回调', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Green
@@ -154,7 +154,7 @@ struct UiComponentTextRichEditorInterface0081 {
               this.controller.setSelection(10, 20)
               
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("已程序化改变选择位置\n新选择范围: 10-20\n这将触发onSelectionChange回调", {
+              this.displayController.addTextSpan('已程序化改变选择位置\n新选择范围: 10-20\n这将触发onSelectionChange回调', {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red,
@@ -163,7 +163,7 @@ struct UiComponentTextRichEditorInterface0081 {
               })
             } else {
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("请先添加测试内容", {
+              this.displayController.addTextSpan('请先添加测试内容', {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Orange

@@ -26,24 +26,24 @@ struct UiComponentTextRichEditorInterface0079 {
 
   aboutToAppear() {
     // 预置图文混合内容
-    this.controller.addTextSpan("这是一段测试文本", {
+    this.controller.addTextSpan('这是一段测试文本', {
       style: {
         fontSize: 16,
         fontColor: Color.Black
       }
     })
-    this.controller.addImageSpan($r("app.media.icon"), {
+    this.controller.addImageSpan($r('app.media.icon'), {
       imageStyle: {
         size: [50, 50]
       }
     })
-    this.controller.addSymbolSpan($r("sys.symbol.star_fill"), {
+    this.controller.addSymbolSpan($r('sys.symbol.star_fill'), {
       style: {
         fontSize: 20,
         fontColor: [Color.Yellow]
       }
     })
-    this.controller.addTextSpan("结尾文本", {
+    this.controller.addTextSpan('结尾文本', {
       style: {
         fontSize: 16,
         fontColor: Color.Blue
@@ -100,11 +100,11 @@ struct UiComponentTextRichEditorInterface0079 {
                 }
               })
               
-              const deleteInfo = "删除操作完成"
-              console.log("onDeleteComplete - 删除信息:", deleteInfo)
+              const deleteInfo = '删除操作完成'
+              console.log('onDeleteComplete - 删除信息:', deleteInfo)
               
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("onDeleteComplete触发\n已更新样式为橙色20号字体\n删除信息:\n" + deleteInfo, {
+              this.displayController.addTextSpan('onDeleteComplete触发\n已更新样式为橙色20号字体\n删除信息:\n' + deleteInfo, {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red
@@ -112,7 +112,7 @@ struct UiComponentTextRichEditorInterface0079 {
               })
             } catch (error) {
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("updateSpanStyle执行失败\n错误信息: " + error.toString(), {
+              this.displayController.addTextSpan('updateSpanStyle执行失败\n错误信息: ' + error.toString(), {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red

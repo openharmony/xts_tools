@@ -63,9 +63,9 @@ struct UiComponentTextRichEditorInterface0031 {
           .aboutToIMEInput((value: RichEditorInsertValue) => {
             // 在输入前获取span信息
             const spans = JSON.stringify(this.controller.getSpans({ start: -1, end: -1 }))
-            console.log("输入前span信息:", spans)
+            console.log('输入前span信息:', spans)
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("输入前span信息:\n" + spans, {
+            this.displayController.addTextSpan('输入前span信息:\n' + spans, {
               style: {
                 fontSize: 12,
                 fontColor: Color.Red

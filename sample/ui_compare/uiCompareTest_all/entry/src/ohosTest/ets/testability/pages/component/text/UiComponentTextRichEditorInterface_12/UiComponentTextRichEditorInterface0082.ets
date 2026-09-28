@@ -48,14 +48,14 @@ struct UiComponentTextRichEditorInterface0082 {
 
             // 添加包含emoji和symbol的图文混合内容
             // 文本 + emoji + 文本 + 图片 + symbol + 文本
-            this.controller.addTextSpan("前置文本😀😃😄", {
+            this.controller.addTextSpan('前置文本😀😃😄', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Blue
               }
             })
 
-            this.controller.addTextSpan("中间文本", {
+            this.controller.addTextSpan('中间文本', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Green
@@ -63,21 +63,21 @@ struct UiComponentTextRichEditorInterface0082 {
             })
 
             // 添加图片
-            this.controller.addImageSpan($r("app.media.icon"), {
+            this.controller.addImageSpan($r('app.media.icon'), {
               imageStyle: {
                 size: [50, 50]
               }
             })
 
             // 添加symbol
-            this.controller.addSymbolSpan($r("sys.symbol.ohos_star"), {
+            this.controller.addSymbolSpan($r('sys.symbol.ohos_star'), {
               style: {
                 fontSize: 20,
                 fontColor: [Color.Red]
               }
             })
 
-            this.controller.addTextSpan("后置文本🎉🎊", {
+            this.controller.addTextSpan('后置文本🎉🎊', {
               style: {
                 fontSize: 16,
                 fontColor: Color.Pink
@@ -85,7 +85,7 @@ struct UiComponentTextRichEditorInterface0082 {
             })
 
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("已添加包含emoji、图片和symbol的图文混合内容", {
+            this.displayController.addTextSpan('已添加包含emoji、图片和symbol的图文混合内容', {
               style: {
                 fontSize: 12,
                 fontColor: Color.Green
@@ -132,13 +132,13 @@ struct UiComponentTextRichEditorInterface0082 {
           .placeholder('这里将显示包含emoji、图片和symbol的图文混合内容')
           .onEditingChange((isEditing: boolean) => {
             // 在onEditingChange回调内调用updateSpanStyle更新样式
-            console.log("onEditingChange回调触发 - 编辑状态:", isEditing)
+            console.log('onEditingChange回调触发 - 编辑状态:', isEditing)
             
             try {
               // 确保有内容才进行样式更新
               const spans = this.controller.getSpans({ start: -1, end: -1 })
               if (spans.length === 0) {
-                console.log("RichEditor中没有内容，跳过样式更新")
+                console.log('RichEditor中没有内容，跳过样式更新')
                 return
               }
 
@@ -159,14 +159,14 @@ struct UiComponentTextRichEditorInterface0082 {
                 
                 
                 this.displayController.deleteSpans()
-                this.displayController.addTextSpan("onEditingChange回调已触发\n进入编辑状态\n已更新样式为绿色粗体18号字体\n图片尺寸放大到80x80", {
+                this.displayController.addTextSpan('onEditingChange回调已触发\n进入编辑状态\n已更新样式为绿色粗体18号字体\n图片尺寸放大到80x80', {
                   style: {
                     fontSize: 12,
                     fontColor: Color.Red
                   }
                 })
                 
-                console.log("进入编辑状态，样式已更新")
+                console.log('进入编辑状态，样式已更新')
               } else {
                 // 退出编辑状态时，恢复原始样式
                 this.controller.updateSpanStyle({
@@ -183,21 +183,21 @@ struct UiComponentTextRichEditorInterface0082 {
                 })
                 
                 this.displayController.deleteSpans()
-                this.displayController.addTextSpan("onEditingChange回调已触发\n退出编辑状态\n已恢复样式为灰色正常14号字体\n图片尺寸恢复到50x50", {
+                this.displayController.addTextSpan('onEditingChange回调已触发\n退出编辑状态\n已恢复样式为灰色正常14号字体\n图片尺寸恢复到50x50', {
                   style: {
                     fontSize: 12,
                     fontColor: Color.Red
                   }
                 })
                 
-                console.log("退出编辑状态，样式已恢复")
+                console.log('退出编辑状态，样式已恢复')
               }
               
             } catch (error) {
-              console.error("onEditingChange中updateSpanStyle出错:", error)
+              console.error('onEditingChange中updateSpanStyle出错:', error)
               
               this.displayController.deleteSpans()
-              this.displayController.addTextSpan("onEditingChange回调出错: " + error.message, {
+              this.displayController.addTextSpan('onEditingChange回调出错: ' + error.message, {
                 style: {
                   fontSize: 12,
                   fontColor: Color.Red

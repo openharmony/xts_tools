@@ -64,10 +64,10 @@ struct UiComponentTextRichEditorInterface0041 {
           .onDeleteComplete(() => {
             // 在onDeleteComplete回调内获取光标位置
             const caretOffset = JSON.stringify(this.controller.getCaretOffset())
-            console.log("onDeleteComplete - 光标位置:", caretOffset)
+            console.log('onDeleteComplete - 光标位置:', caretOffset)
             
             this.displayController.deleteSpans()
-            this.displayController.addTextSpan("onDeleteComplete触发\n删除完成后光标位置:\n" + caretOffset, {
+            this.displayController.addTextSpan('onDeleteComplete触发\n删除完成后光标位置:\n' + caretOffset, {
               style: {
                 fontSize: 12,
                 fontColor: Color.Red

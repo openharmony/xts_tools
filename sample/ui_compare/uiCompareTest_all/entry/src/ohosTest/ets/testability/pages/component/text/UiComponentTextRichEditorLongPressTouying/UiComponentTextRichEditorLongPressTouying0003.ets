@@ -35,21 +35,21 @@ struct UiComponentTextRichEditorLongPressTouying0003 {
             // 添加第一个图片
             this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
               imageStyle: {
-                size: ["80px", "80px"]
+                size: ['80px', '80px']
               }
             })
             
             // 添加第二个图片
             this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
               imageStyle: {
-                size: ["80px", "80px"]
+                size: ['80px', '80px']
               }
             })
             
             // 添加第三个图片
             this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
               imageStyle: {
-                size: ["80px", "80px"]
+                size: ['80px', '80px']
               }
             })
             
@@ -60,7 +60,7 @@ struct UiComponentTextRichEditorLongPressTouying0003 {
               }
             })
           })
-          .id("rich_editor_longpresstouying_0003")
+          .id('rich_editor_longpresstouying_0003')
           .width('80%')
           .height(120)
           .margin({ top: 100 })
