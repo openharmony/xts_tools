@@ -34,7 +34,7 @@ function footerComponentContent(params: FootBuilderParams) {
   }
 }
 
-class UIComponentWaterFlowEventModifier0050_AttributeModifier implements AttributeModifier<WaterFlowAttribute> {
+class UIComponentWaterFlowEventModifier0050AttributeModifier implements AttributeModifier<WaterFlowAttribute> {
   private readonly getMessage: () => string;
   private readonly onMessageUpdate: (msg: string) => void;
 
@@ -350,7 +350,7 @@ struct UIComponentWaterFlowEventModifier0050 {
       }
       .id(this.name + '_02')
       .attributeModifier(
-        new UIComponentWaterFlowEventModifier0050_AttributeModifier(
+        new UIComponentWaterFlowEventModifier0050AttributeModifier(
           () => this.message,
           (msg: string) => {
             this.message = msg;

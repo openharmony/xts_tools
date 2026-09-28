@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-class MyDataSource_UIComponentScrollSwiperIgnoreBlank0220 implements IDataSource {
+class MyDataSourceUIComponentScrollSwiperIgnoreBlank0220 implements IDataSource {
   private list: number[] = [];
 
   constructor(list: number[]) {
@@ -45,14 +45,14 @@ struct UIComponentScrollSwiperIgnoreBlank0220 {
   @State nextMarginFirstValue: Length = 0;
   @State nextMarginSecondValue: boolean = true;
   private swiperController: SwiperController = new SwiperController();
-  private data: MyDataSource_UIComponentScrollSwiperIgnoreBlank0220 = new MyDataSource_UIComponentScrollSwiperIgnoreBlank0220([]);
+  private data: MyDataSourceUIComponentScrollSwiperIgnoreBlank0220 = new MyDataSourceUIComponentScrollSwiperIgnoreBlank0220([]);
 
   aboutToAppear(): void {
     let list: number[] = [];
     for (let i = 0; i < 3; i++) {
       list.push(i);
     }
-    this.data = new MyDataSource_UIComponentScrollSwiperIgnoreBlank0220(list);
+    this.data = new MyDataSourceUIComponentScrollSwiperIgnoreBlank0220(list);
   }
 
 

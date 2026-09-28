@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct UiComponentTextRichEditorInterface0003_060 {
+struct UiComponentTextRichEditorInterface0003060 {
   scroller: Scroller = new Scroller();
   controller: RichEditorController = new RichEditorController();
   options: RichEditorOptions = { controller: this.controller };

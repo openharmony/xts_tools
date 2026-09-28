@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct textClockSet01 {
+struct TextClockSet01 {
   @State accumulateTime: number = 0;
   @State timeZoneOffset: number = -8;
   controller1: TextClockController = new TextClockController();

@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct listAndGrid01 {
+struct ListAndGrid01 {
   private timeTable: TimeTable1[] = [
     {
       title: '星期一',
@@ -49,7 +49,7 @@ struct listAndGrid01 {
             ForEach(item.projects, (project: string) => {
               ListItem({ style: ListItemStyle.CARD }) {
                 Text(project)
-                  .id('listAndGrid01')
+                  .id('ListAndGrid01')
                   .width('100%')
                   .height(50)
                   .fontSize(20)

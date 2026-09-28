@@ -14,14 +14,14 @@
  */
 
 /**
- * GridScrollBar0020_015_730
+ * GridScrollBar0020015730
  * 
  * 设置onScrollBarUpdate接口设置滚动条
  */
 
 @Entry
 @Component
-export struct GridScrollBar0020_015_730 {
+export struct GridScrollBar0020015730 {
   @State numbers: string[] = [];
 
   aboutToAppear() {

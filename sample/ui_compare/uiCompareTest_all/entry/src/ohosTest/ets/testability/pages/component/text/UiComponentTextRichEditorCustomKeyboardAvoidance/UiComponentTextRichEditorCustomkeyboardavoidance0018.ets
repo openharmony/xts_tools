@@ -33,7 +33,7 @@ struct UiComponentTextRichEditorCustomkeyboardavoidance0018 {
     Column() {
       Row() {
         Button('添加表情').onClick(() => {
-          this.controller.addTextSpan("\uD83D\uDE0A",
+          this.controller.addTextSpan("😊",
             {
               style:
               {

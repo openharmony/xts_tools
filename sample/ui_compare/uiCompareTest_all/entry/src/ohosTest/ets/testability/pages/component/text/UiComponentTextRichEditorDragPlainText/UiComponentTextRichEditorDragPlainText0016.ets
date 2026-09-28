@@ -44,7 +44,9 @@ struct UiComponentTextRichEditorDragPlainText0016 {
         .onChange((v: string) => this.inputText = v)
         .draggable(true)
         .onTouch((e?: TouchEvent) => {
-          if (!e || !this.inputText.trim()) return;
+          if (!e || !this.inputText.trim()) {
+            return;
+          }
           if (e.type === TouchType.Down && e.touches && e.touches.length > 0) {
             this.startDrag(e.touches[0].id);
           }
@@ -126,7 +128,9 @@ struct UiComponentTextRichEditorDragPlainText0016 {
   private startDrag(pointerId: number) {
     try {
       const txt = this.inputText.trim()
-      if (!txt) return
+      if (!txt) {
+        return
+      }
 
       const plain = new unifiedDataChannel.PlainText()
       plain.textContent = txt
@@ -139,7 +143,9 @@ struct UiComponentTextRichEditorDragPlainText0016 {
       }
 
       this.dragAction = this.getUIContext().getDragController().createDragAction([], info)
-      if (!this.dragAction) return
+      if (!this.dragAction) {
+        return
+      }
 
       this.dragAction.startDrag().catch((err: Error) => console.info('startDrag 失败：' + err.message))
     } catch (err) {
@@ -150,7 +156,9 @@ struct UiComponentTextRichEditorDragPlainText0016 {
   private onDropIntoEditor(event: DragEvent) {
     try {
       const dragData: unifiedDataChannel.UnifiedData = event.getData() as unifiedDataChannel.UnifiedData
-      if (!dragData) return
+      if (!dragData) {
+        return
+      }
 
       const records: unifiedDataChannel.UnifiedRecord[] = dragData.getRecords()
       for (let i = 0; i < records.length; i++) {

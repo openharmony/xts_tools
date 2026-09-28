@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct textPickerTestCase19 {
+struct TextPickerTestCase19 {
   @State selectedIndex: number[] = [2, 1, 3];
   @State selectedValue: string[] = ['选项3', '选项2', '选项4'];
   @State operationLog: string = '等待操作...';

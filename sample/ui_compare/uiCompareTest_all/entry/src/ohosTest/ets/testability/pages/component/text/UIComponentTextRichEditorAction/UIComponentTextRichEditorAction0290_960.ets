@@ -14,8 +14,8 @@
  */
 @Entry
 @Component
-struct UIComponentTextRichEditorAction0290_960 {
-  @State name: string = 'UIComponentTextRichEditorAction0290_960';
+struct UIComponentTextRichEditorAction0290960 {
+  @State name: string = 'UIComponentTextRichEditorAction0290960';
   controller: RichEditorController = new RichEditorController();
   options: RichEditorOptions = { controller: this.controller };
 

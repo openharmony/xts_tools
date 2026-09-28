@@ -67,7 +67,9 @@ export struct UiComponentTextRicheditorGundongtiao0007 {
 
         Button('宽度-50')
           .onClick(() => {
-            if (this.editorWidth > 100) this.editorWidth -= 50;
+            if (this.editorWidth > 100) {
+              this.editorWidth -= 50;
+            }
           })
           .margin({ right: 5 })
 
@@ -80,7 +82,9 @@ export struct UiComponentTextRicheditorGundongtiao0007 {
 
         Button('高度-50')
           .onClick(() => {
-            if (this.editorHeight > 100) this.editorHeight -= 50;
+            if (this.editorHeight > 100) {
+              this.editorHeight -= 50;
+            }
           })
       }
       .margin({ top: 10 })

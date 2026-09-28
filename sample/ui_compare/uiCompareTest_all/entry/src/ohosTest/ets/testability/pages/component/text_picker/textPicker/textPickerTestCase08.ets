@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct textPickerTestCase08 {
+struct TextPickerTestCase08 {
   @State selectedIndex: number[] = [2, 1, 3];
   @State selectedValue: string[] = ['选项3', '选项2', '选项4'];
   @State operationLog: string = '等待操作...';
@@ -46,7 +46,7 @@ struct textPickerTestCase08 {
             .fontWeight(FontWeight.Bold)
             .fontColor('#2C3E50')
           
-          Text('TestCase_25f6417f4ecb434d8ad92b418b28252d')
+          Text('TestCase_25f6417f4ecb434daad92b418b28252d')
             .fontSize(12)
             .fontColor('#7F8C8D')
             .margin({ top: 2 })

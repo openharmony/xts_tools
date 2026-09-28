@@ -24,7 +24,7 @@ import {
 
 @Entry
 @Component
-struct selectionMenu01 {
+struct SelectionMenu01 {
   @State select: boolean = true;
   controller: RichEditorController = new RichEditorController();
   options: RichEditorOptions = { controller: this.controller };
@@ -223,7 +223,7 @@ struct selectionMenu01 {
         })
 
       RichEditor(this.options)
-        .id('selectionMenu01')
+        .id('SelectionMenu01')
         .onReady(() => {
           this.controller.addTextSpan(this.message, { style: { fontColor: Color.Orange, fontSize: 30 } });
           this.controller.addTextSpan(this.message, { style: { fontColor: Color.Black, fontSize: 25 } });

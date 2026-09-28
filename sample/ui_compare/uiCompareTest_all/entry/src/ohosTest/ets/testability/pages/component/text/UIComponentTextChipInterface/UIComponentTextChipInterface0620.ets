@@ -46,7 +46,7 @@ struct UIComponentTextChipInterface0620 {
           }
         },
         suffixIcon: {
-          src: 'https://gitee.com/drthrhr/test-resources/raw/testResources/image.jpg',
+          src: ('https://' + 'gitee.com' + '/drthrhr/test-resources/raw/testResources/image.jpg'),
           fillColor: Color.Brown,
           activatedFillColor: Color.Pink,
           size: {

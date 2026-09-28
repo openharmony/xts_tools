@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct listScrollIndex14 {
+struct ListScrollIndex14 {
   @State listData: string[] = [];
   @State listDirection: Axis = Axis.Vertical;
   @State eventLog: string = '等待事件触发...';

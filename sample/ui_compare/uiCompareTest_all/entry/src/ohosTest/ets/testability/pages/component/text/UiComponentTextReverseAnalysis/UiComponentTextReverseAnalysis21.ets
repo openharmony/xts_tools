@@ -126,7 +126,7 @@ struct UiComponentTextReverseAnalysis21 {
             .fontSize(14)
             .fontStyle(FontStyle.Italic)
             .fontWeight(FontWeight.Bold)
-            .fontColor('#607D8B')
+            .fontColor('#607d7B')
             .width('100%')
             .textAlign(TextAlign.Start)
 

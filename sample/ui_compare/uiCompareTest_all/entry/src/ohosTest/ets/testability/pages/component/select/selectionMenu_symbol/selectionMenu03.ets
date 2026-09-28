@@ -26,7 +26,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
 @Component
-struct selectionMenu03 {
+struct SelectionMenu03 {
   @State select: boolean = true;
   controller: RichEditorController = new RichEditorController();
   options: RichEditorOptions = { controller: this.controller };
@@ -314,7 +314,7 @@ struct selectionMenu03 {
 
       Row(){
         RichEditor(this.options)
-          .id('selectionMenu03')
+          .id('SelectionMenu03')
           .onReady(() => {
             this.controller.addTextSpan(this.message, { style: { fontColor: Color.Orange, fontSize: 30 } });
             this.controller.addTextSpan(this.message, { style: { fontColor: Color.Black, fontSize: 25 } });

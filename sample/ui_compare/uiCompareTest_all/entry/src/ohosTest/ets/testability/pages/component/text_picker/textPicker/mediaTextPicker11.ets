@@ -26,7 +26,7 @@ class CustomModifier extends TextPickerModifier {
 
 @Entry
 @Component
-struct mediaTextPicker11 {
+struct MediaTextPicker11 {
   private rangeArray: string[] = [
     'apple11111',
     'apple11111',

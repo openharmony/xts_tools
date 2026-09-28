@@ -28,7 +28,7 @@ class ArrayVehicle {
 
 
 @ComponentV2
-struct repeatChildItem {
+struct RepeatChildItem {
   @Param item: number = 0;
 
   aboutToAppear(): void {
@@ -45,7 +45,7 @@ struct repeatChildItem {
 
 @Entry
 @Component
-struct repeatWaterFlow01 {
+struct RepeatWaterFlow01 {
   arrayVehicle: ArrayVehicle = new ArrayVehicle(100)
   @State totalCount: number = this.arrayVehicle.arr.length
   @State minSize: number = 50
@@ -151,7 +151,7 @@ struct repeatWaterFlow01 {
           .key((item, index) => `${index}:${item}`)
           .each((ri) => {
             FlowItem() {
-              repeatChildItem({ item: ri.item })
+              RepeatChildItem({ item: ri.item })
             }
             .width('100%')
             .height(this.itemHeightArray[ri.item % 100])

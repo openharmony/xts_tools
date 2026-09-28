@@ -18,7 +18,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
 @Component
-struct listScrollbarHover07 {
+struct ListScrollbarHover07 {
   @State listAxis: Axis = Axis.Vertical;
   @State currentIndex: number = 0;
   private scroller: Scroller = new Scroller();

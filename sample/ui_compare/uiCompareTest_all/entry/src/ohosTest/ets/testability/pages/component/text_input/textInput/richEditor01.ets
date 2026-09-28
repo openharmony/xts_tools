@@ -63,7 +63,7 @@ export const defaultTheme: SelectionMenuTheme = {
 
 @Entry
 @Component
-struct richEditor01 {
+struct RichEditor01 {
   @State message: string = 'Hello World';
   @State textSize: number = 40;
   @State sliderShow: boolean = false;
@@ -107,7 +107,7 @@ struct richEditor01 {
     Column() {
       Column() {
         RichEditor(this.options)
-          .id('richEditor01')
+          .id('RichEditor01')
           .onReady(() => {
             this.controller.addTextSpan(this.message, { style: { fontColor: Color.Orange, fontSize: 30 } })
           })

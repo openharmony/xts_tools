@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct textPickerTestCase24 {
+struct TextPickerTestCase24 {
   @State selectedIndex: number = 2;
   @State selectedValue: string = '选项3';
   @State operationLog: string = '等待操作...';

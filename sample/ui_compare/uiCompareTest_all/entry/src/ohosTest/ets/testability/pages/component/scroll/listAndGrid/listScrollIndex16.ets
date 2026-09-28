@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct listScrollIndex16 {
+struct ListScrollIndex16 {
   @State listData: string[] = [];
   @State itemPadding: number = 10;
   @State itemMargin: number = 5;

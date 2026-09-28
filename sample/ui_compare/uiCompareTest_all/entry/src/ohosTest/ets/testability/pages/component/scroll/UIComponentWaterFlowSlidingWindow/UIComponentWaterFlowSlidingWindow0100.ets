@@ -34,7 +34,7 @@ function footerComponentContent(params: FootBuilderParams) {
   }
 }
 
-class UIComponentWaterFlowSlidingWindow0100_AttributeModifier implements AttributeModifier<WaterFlowAttribute> {
+class UIComponentWaterFlowSlidingWindow0100AttributeModifier implements AttributeModifier<WaterFlowAttribute> {
   applyNormalAttribute(instance: WaterFlowAttribute): void {
     instance
       .scrollBar(BarState.On)
@@ -350,7 +350,7 @@ struct UIComponentWaterFlowSlidingWindow0100 {
       .edgeEffect(EdgeEffect.Spring)
       .backgroundColor(Color.Grey)
       .enableScrollInteraction(true)
-      .attributeModifier(new UIComponentWaterFlowSlidingWindow0100_AttributeModifier())
+      .attributeModifier(new UIComponentWaterFlowSlidingWindow0100AttributeModifier())
       .backToTop(true)
       .width(this.waterFlowWidth)
       .height(this.waterFlowHeight)

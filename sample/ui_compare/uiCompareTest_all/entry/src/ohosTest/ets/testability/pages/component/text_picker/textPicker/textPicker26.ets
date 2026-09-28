@@ -15,15 +15,15 @@
 
 import { LengthMetrics } from '@kit.ArkUI';
 
-class bottom {
-  public bottom: number = 50;
+class Bottom {
+  public Bottom: number = 50;
 }
 
-let bott: bottom = new bottom();
+let bott: Bottom = new Bottom();
 
 @Entry
 @Component
-struct textPicker26 {
+struct TextPicker26 {
   private select: number = 1;
   private orfruits: string[] = ['orange1', 'orange2', 'orange3', 'orange4']
   private pefruits: string[] = ['peach1', 'peach2', 'peach3', 'peach4']

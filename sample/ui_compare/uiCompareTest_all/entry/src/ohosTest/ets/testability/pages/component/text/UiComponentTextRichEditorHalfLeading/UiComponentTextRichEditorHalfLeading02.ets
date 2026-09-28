@@ -16,11 +16,11 @@
 const halfleadingcanvasWidth2 = 1000;
 const halfleadingcanvasHeight2 = 100;
 const halfleadingIndentation2 = 40;
-class halfleadingLeadingMarginCreator2 {
+class HalfleadingLeadingMarginCreator2 {
   private settings: RenderingContextSettings = new RenderingContextSettings(true);
   private offscreenCanvas: OffscreenCanvas = new OffscreenCanvas(halfleadingcanvasWidth2, halfleadingcanvasHeight2);
   private offContext: OffscreenCanvasRenderingContext2D = this.offscreenCanvas.getContext("2d", this.settings);
-  public static instance: halfleadingLeadingMarginCreator2 = new halfleadingLeadingMarginCreator2();
+  public static instance: HalfleadingLeadingMarginCreator2 = new HalfleadingLeadingMarginCreator2();
 
   public getFontSizeLevel(fontSize: number) {
     const fontScaled: number = Number(fontSize) / 16;
@@ -111,7 +111,7 @@ class halfleadingLeadingMarginCreator2 {
 struct UiComponentTextRichEditorHalfLeading02 {
   controller: RichEditorController = new RichEditorController();
   options: RichEditorOptions = { controller: this.controller };
-  private leadingMarkCreatorInstance = halfleadingLeadingMarginCreator2.instance;
+  private leadingMarkCreatorInstance = HalfleadingLeadingMarginCreator2.instance;
   private fontNameRawFile: string = 'MiSans-Bold';
   @State fs: number = 30;
   @State cl: number = Color.Black;

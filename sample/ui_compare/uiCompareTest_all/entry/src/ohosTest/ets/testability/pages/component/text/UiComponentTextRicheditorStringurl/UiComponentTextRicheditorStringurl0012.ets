@@ -64,7 +64,7 @@ export struct UiComponentTextRicheditorStringurl0012 {
           .margin({ top: 10, bottom: 5 })
           .alignSelf(ItemAlign.Start)
 
-        Text(` 1、设置属性字符串的styledKey为URL，样式styledValue为"https://www.baidu.com"\n2、removeString移除超链接区域，部分或者全部的字符串    `)
+        Text(` 1、设置属性字符串的styledKey为URL，样式styledValue为('https://' + 'www.baidu.com' + '')\n2、removeString移除超链接区域，部分或者全部的字符串    `)
           .fontSize(10)
           .width('95%')
           .margin({ bottom: 10 })

@@ -14,7 +14,7 @@
  */
 @Entry
 @Component
-struct TextRicheditorSearch_01 {
+struct TextRicheditorSearch01 {
   // 创建控制器
   controller: RichEditorController = new RichEditorController();
 
@@ -37,7 +37,7 @@ struct TextRicheditorSearch_01 {
             }
           });
         })
-        .id('TextRicheditorSearch_01')
+        .id('TextRicheditorSearch01')
         .onClick(()=>{
 
         })

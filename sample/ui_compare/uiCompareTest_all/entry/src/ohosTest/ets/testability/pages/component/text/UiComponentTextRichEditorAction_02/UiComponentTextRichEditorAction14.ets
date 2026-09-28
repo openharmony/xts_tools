@@ -14,7 +14,7 @@
  */
 
 @Builder
-function UiComponentTextRichEditorAction14Builder2() {
+function uiComponentTextRichEditorAction14Builder2() {
   Row({ space: 2 }) {
     Image($r("app.media.icon")).width(24).height(24).margin({ left: -5 })
     Text('okokokok').fontSize(10)
@@ -34,7 +34,7 @@ struct UiComponentTextRichEditorAction14 {
   @State builderCount: number = 0
   @State isScrolling: boolean = false
   private my_builder: CustomBuilder = undefined;
-  @BuilderParam my_builder2:() => void = UiComponentTextRichEditorAction14Builder2;
+  @BuilderParam my_builder2:() => void = uiComponentTextRichEditorAction14Builder2;
 
   build() {
     Column() {

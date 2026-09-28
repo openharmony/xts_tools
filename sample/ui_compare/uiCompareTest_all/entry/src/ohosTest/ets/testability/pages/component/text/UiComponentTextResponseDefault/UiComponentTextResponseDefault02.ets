@@ -61,7 +61,7 @@ struct UiComponentTextResponseDefault02 {
           MenuItem({ startIcon: $r('app.media.app_icon'), content: "Right Click Menu 3", labelInfo: "" })
         }
       }
-      .MenuStyles2()
+      .menuStyles2()
     }
   }
   @Builder
@@ -77,7 +77,7 @@ struct UiComponentTextResponseDefault02 {
           MenuItem({ startIcon: $r('app.media.app_icon'), content: "Long Press Image Menu 3", labelInfo: "" })
         }
       }
-      .MenuStyles2()
+      .menuStyles2()
     }
   }
   @Builder
@@ -93,12 +93,12 @@ struct UiComponentTextResponseDefault02 {
           MenuItem({ startIcon: $r('app.media.app_icon'), content: "Select Mixed Menu 3", labelInfo: "" })
         }
       }
-      .MenuStyles2()
+      .menuStyles2()
     }
   }
 }
 @Extend(Menu)
-function MenuStyles2() {
+function menuStyles2() {
   .radius($r('sys.float.ohos_id_corner_radius_card'))
   .clip(true)
   .backgroundColor('#F0F0F0')

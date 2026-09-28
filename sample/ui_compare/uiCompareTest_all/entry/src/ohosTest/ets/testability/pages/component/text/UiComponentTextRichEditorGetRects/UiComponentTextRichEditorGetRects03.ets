@@ -16,7 +16,7 @@
 import { text } from '@kit.ArkGraphics2D';
 
 @Builder
-function GetRects03placeholderBuilder2() {
+function getRects03placeholderBuilder2() {
   Row({ space: 2 }) {
     Image($r("app.media.icon"))
       .width(24)
@@ -43,7 +43,7 @@ struct UiComponentTextRichEditorGetRects03 {
   @State content: string = ""
   private my_offset: number | undefined = undefined
   private my_builder: CustomBuilder = undefined
-  @BuilderParam my_builder2:() => void = GetRects03placeholderBuilder2;
+  @BuilderParam my_builder2:() => void = getRects03placeholderBuilder2;
   @State rect : TextBox[] = []
 
   @Builder

@@ -124,7 +124,7 @@ export struct TextMarquee0350 {
 
         Button('清空日志')
           .id('clearLogBtn')
-          .backgroundColor('#607D8B')
+          .backgroundColor('#607d7B')
           .onClick(() => {
             this.callbackLog = [];
           })

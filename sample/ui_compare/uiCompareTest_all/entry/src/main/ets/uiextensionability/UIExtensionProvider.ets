@@ -34,7 +34,13 @@ export default class UIExtAbility extends UIExtensionAbility {
   }
 
   onSessionCreate(want: Want, session: UIExtensionContentSession) {
-    console.log(TAG, `UIExtAbility onSessionCreate, want: ${JSON.stringify(want)}`)
+    let wantStr: string = '';
+    try {
+      wantStr = JSON.stringify(want);
+    } catch (e) {
+      wantStr = 'stringify_failed';
+    }
+    console.log(TAG, `UIExtAbility onSessionCreate, want: ${wantStr}`)
     let param: Record<string, UIExtensionContentSession> = {
       'session': session
     };

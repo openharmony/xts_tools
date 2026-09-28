@@ -18,7 +18,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
 @Component
-struct listScrollbarHover01 {
+struct ListScrollbarHover01 {
   @State scrollBarColor: string | number | Color = Color.Blue;
   @State currentIndex: number = 0;
   private scroller: Scroller = new Scroller();

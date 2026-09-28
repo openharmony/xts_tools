@@ -153,7 +153,7 @@ struct UiComponentTextReverseAnalysis17 {
           Text('测试参数:')
             .fontSize(14)
             .fontWeight(FontWeight.Bold)
-            .fontColor('#607D8B')
+            .fontColor('#607d7B')
             .width('100%')
             .textAlign(TextAlign.Start)
             .fontStyle(FontStyle.Italic)

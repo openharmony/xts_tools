@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct listScrollIndex13 {
+struct ListScrollIndex13 {
   @State listData: string[] = [];
   @State childrenMainSize: ChildrenMainSize | null = null;
   @State eventLog: string = '等待事件触发...';

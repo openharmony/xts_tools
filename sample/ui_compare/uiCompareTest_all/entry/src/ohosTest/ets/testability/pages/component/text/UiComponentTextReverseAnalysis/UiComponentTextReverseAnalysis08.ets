@@ -19,7 +19,7 @@ import { LengthMetrics } from '@kit.ArkUI';
 @Component
 struct UiComponentTextReverseAnalysis08 {
   @State testId: string = 'SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0180';
-  mutableStyledString: MutableStyledString = new MutableStyledString("哈\uD83C\uDDE8\uD83C\uDDF3哈", [{
+  mutableStyledString: MutableStyledString = new MutableStyledString("哈🇨🇳哈", [{
     start: 0,
     length: 5,
     styledKey: StyledStringKey.FONT,
@@ -240,12 +240,12 @@ struct UiComponentTextReverseAnalysis08 {
           Text('测试参数:')
             .fontSize(14)
             .fontWeight(FontWeight.Bold)
-            .fontColor('#607D8B')
+            .fontColor('#607d7B')
             .width('100%')
             .textAlign(TextAlign.Start)
             .fontStyle(FontStyle.Italic)
 
-          Text('• Text组件添加属性字符串: 哈\\uD83C\\uDDE8\\uD83C\\uDDF3哈')
+          Text('• Text组件添加属性字符串: 哈🇨🇳哈')
             .fontSize(13)
             .fontColor('#666666')
             .width('100%')

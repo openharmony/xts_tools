@@ -14,8 +14,8 @@
  */
 @Entry
 @Component
-struct UIComponentTextRichEditorInterface9999_817 {
-  @State name: string = 'UIComponentTextRichEditorInterface9999_817';
+struct UIComponentTextRichEditorInterface9999817 {
+  @State name: string = 'UIComponentTextRichEditorInterface9999817';
   @State message: string = 'Click button to get caret offset.'
   controller: RichEditorController = new RichEditorController();
   options: RichEditorOptions = { controller: this.controller };

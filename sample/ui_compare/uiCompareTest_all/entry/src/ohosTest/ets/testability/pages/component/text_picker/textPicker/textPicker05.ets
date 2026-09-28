@@ -15,14 +15,14 @@
 
 import { LengthMetrics } from '@kit.ArkUI';
 
-class bottom {
-  public bottom:number = 50;
+class Bottom {
+  public Bottom:number = 50;
 }
-let bott:bottom = new bottom();
+let bott:Bottom = new Bottom();
 
 @Entry
 @Component
-struct textPicker05 {
+struct TextPicker05 {
   private select: number = 1;
   private apfruits: string[] | Resource = $r('app.strarray.strarray_01');
   private singleColumnWidths: LengthMetrics[] = [

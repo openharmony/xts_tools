@@ -17,7 +17,7 @@
 @Component
 struct UiComponentTextReverseAnalysis30 {
   @State testId: string = 'SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0090';
-  @State displayText: string = ('哈哈\ud83d\udc7b\ud83d\udc7b\ud83d\udc7b'.substring(0, 5));
+  @State displayText: string = ('哈哈👻👻👻'.substring(0, 5));
 
   build() {
     Scroll() {
@@ -40,7 +40,7 @@ struct UiComponentTextReverseAnalysis30 {
             .textAlign(TextAlign.Start)
             .fontStyle(FontStyle.Italic)
 
-          Text('原始字符串: 哈哈\\ud83d\\udc7b\\ud83d\\udc7b\\ud83d\\udc7b')
+          Text('原始字符串: 哈哈👻👻👻')
             .fontSize(13)
             .fontColor('#666666')
             .width('100%')
@@ -94,7 +94,7 @@ struct UiComponentTextReverseAnalysis30 {
           Divider()
             .margin({ top: 5, bottom: 5 })
 
-          Text('注意: Text组件设置value为 (\'哈哈\\ud83d\\udc7b\\ud83d\\udc7b\\ud83d\\udc7b\'.substring(0, 5))。')
+          Text('注意: Text组件设置value为 (\'哈哈👻👻👻\'.substring(0, 5))。')
             .fontSize(12)
             .fontColor('#FF5722')
             .width('100%')
@@ -112,7 +112,7 @@ struct UiComponentTextReverseAnalysis30 {
           Text('测试参数:')
             .fontSize(14)
             .fontWeight(FontWeight.Bold)
-            .fontColor('#607D8B')
+            .fontColor('#607d7B')
             .width('100%')
             .fontWeight(800)
             .fontStyle(FontStyle.Italic)

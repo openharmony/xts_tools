@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct listScrollIndex02 {
+struct ListScrollIndex02 {
   @State listData: string[] = [];
   @State firstIndex: number = -1;
   @State lastIndex: number = -1;

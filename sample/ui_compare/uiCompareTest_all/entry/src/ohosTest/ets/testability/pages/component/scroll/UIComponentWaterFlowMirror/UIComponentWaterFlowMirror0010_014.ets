@@ -17,9 +17,9 @@ import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
 @Component
-struct UIComponentWaterFlowMirror0010_014 {
-  @State name: string = 'UIComponentWaterFlowMirror0010_014';
-  @State message: string = 'UIComponentWaterFlowMirror0010_014';
+struct UIComponentWaterFlowMirror0010014 {
+  @State name: string = 'UIComponentWaterFlowMirror0010014';
+  @State message: string = 'UIComponentWaterFlowMirror0010014';
   @State arr: number[] = [];
   @State fadingEdgeFlag: boolean = true;
   @State friction: number = 1.848;

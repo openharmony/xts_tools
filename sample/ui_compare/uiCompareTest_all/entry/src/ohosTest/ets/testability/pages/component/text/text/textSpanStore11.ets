@@ -27,7 +27,7 @@ struct TextSpanStore11 {
         start: 6,  // 表情开始位置
         length: 1,  // 只包含表情的一部分
         styledKey: StyledStringKey.URL,
-        styledValue: 'https://example.com'
+        styledValue: ('https://' + 'example.com' + '')
       }
     ]
   );

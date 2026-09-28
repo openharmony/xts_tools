@@ -114,7 +114,7 @@ export struct FadingedgeTv0970 {
         .id('blurBtn')
         .width('80%')
         .height(45)
-        .backgroundColor('#607D8B')
+        .backgroundColor('#607d7B')
         .onClick(() => {
           // 点击其他区域会使TextInput自动失焦
         })

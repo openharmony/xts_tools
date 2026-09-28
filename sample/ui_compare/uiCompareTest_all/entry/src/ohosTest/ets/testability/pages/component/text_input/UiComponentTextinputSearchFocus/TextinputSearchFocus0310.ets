@@ -171,7 +171,7 @@ export struct TextinputSearchFocus0310 {
           .id('clearBtn')
           .width('60%')
           .height(40)
-          .backgroundColor('#607D8B')
+          .backgroundColor('#607d7B')
           .onClick(() => {
             this.focusHistory = [];
           })

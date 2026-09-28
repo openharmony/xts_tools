@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct listAndGrid02 {
+struct ListAndGrid02 {
   private timeTable: TimeTable2[] = [
     {
       title: '星期一',

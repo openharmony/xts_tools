@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct listAndGrid04 {
+struct ListAndGrid04 {
   private timeTable: TimeTable4[] = [
     {
       title: '星期一',
@@ -61,7 +61,7 @@ struct listAndGrid04 {
           .divider({ strokeWidth: 1, color: Color.Blue }) // 每行之间的分界线
         })
       }
-      .id('listAndGrid04')
+      .id('ListAndGrid04')
       .width('90%')
       .sticky(StickyStyle.Header | StickyStyle.Footer)
       .scrollBar(BarState.Off)

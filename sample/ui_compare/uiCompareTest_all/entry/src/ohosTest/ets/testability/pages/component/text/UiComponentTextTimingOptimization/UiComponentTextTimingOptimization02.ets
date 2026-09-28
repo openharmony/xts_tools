@@ -30,7 +30,7 @@ struct UiComponentTextTimingOptimization02 {
     start: 0,
     length: 11,
     styledKey: StyledStringKey.URL,
-    styledValue:  new UrlStyle("https://www.baidu.com"),
+    styledValue:  new UrlStyle(('https://' + 'www.baidu.com' + '')),
   }]);
 
   aboutToAppear(): void {

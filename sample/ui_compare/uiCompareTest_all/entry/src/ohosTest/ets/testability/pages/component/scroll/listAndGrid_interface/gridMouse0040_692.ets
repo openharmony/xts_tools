@@ -14,14 +14,14 @@
  */
 
 /**
- * GridMouse0040_692
+ * GridMouse0040692
  * 
  * GridItem选中态多态样式观察
  */
 
 @Entry
 @Component
-export struct GridMouse0040_692 {
+export struct GridMouse0040692 {
   @State numbers: string[] = [];
 
   aboutToAppear() {

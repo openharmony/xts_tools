@@ -14,14 +14,14 @@
  */
 
 /**
- * GridEventEnhancement0060_165
+ * GridEventEnhancement0060165
  * 
  * 验证边缘设置回弹效果触发onReachStart事件
  */
 
 @Entry
 @Component
-export struct GridEventEnhancement0060_165 {
+export struct GridEventEnhancement0060165 {
   @State numbers: string[] = [];
   @State reachStartCount: number = 0;
 

@@ -14,7 +14,7 @@
  */
 @Entry
 @Component
-struct MediaTextpickerDisabletsa_01 {
+struct MediaTextpickerDisabletsa01 {
   // 1. 定义单列数据（string[]类型）
   private fruits: string[] = ['苹果', '香蕉', '橙子', '葡萄'];
   @State private selectedIndex: number = 0; // 默认选中第一项

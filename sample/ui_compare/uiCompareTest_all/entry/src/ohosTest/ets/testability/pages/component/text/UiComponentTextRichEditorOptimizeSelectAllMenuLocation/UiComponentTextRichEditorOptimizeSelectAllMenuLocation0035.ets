@@ -55,7 +55,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0035 {
     Column() {
       Row() {
         Button('增加特表情包').onClick(() => {
-          this.controller.addTextSpan("\uD83D\uDE0A",
+          this.controller.addTextSpan("😊",
             {
               style:
               {

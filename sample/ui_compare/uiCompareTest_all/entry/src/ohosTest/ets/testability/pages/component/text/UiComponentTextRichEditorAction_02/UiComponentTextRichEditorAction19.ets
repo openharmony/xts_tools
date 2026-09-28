@@ -14,7 +14,7 @@
  */
 
 @Builder
-function UiComponentTextRichEditorAction19placeholderBuilder2() {
+function uiComponentTextRichEditorAction19placeholderBuilder2() {
   Row({ space: 2 }) {
     Image($r("app.media.icon"))
       .width(24)
@@ -40,7 +40,7 @@ struct UiComponentTextRichEditorAction19 {
   @State content: string = ""
   private my_offset: number | undefined = undefined
   private my_builder: CustomBuilder = undefined
-  @BuilderParam my_builder2:() => void = UiComponentTextRichEditorAction19placeholderBuilder2;
+  @BuilderParam my_builder2:() => void = uiComponentTextRichEditorAction19placeholderBuilder2;
 
   @Builder
   placeholderBuilder() {

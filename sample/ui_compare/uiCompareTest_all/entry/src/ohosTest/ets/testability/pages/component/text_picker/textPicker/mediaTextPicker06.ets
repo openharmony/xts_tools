@@ -15,15 +15,15 @@
 
 import { LengthMetrics } from '@kit.ArkUI';
 
-class bottom {
-  public bottom: number = 50;
+class Bottom {
+  public Bottom: number = 50;
 }
 
-let bott: bottom = new bottom();
+let bott: Bottom = new Bottom();
 
 @Entry
 @Component
-struct mediaTextPicker06 {
+struct MediaTextPicker06 {
   private select: number = 1;
   private apfruits: string[] = [
     'apple11111',
@@ -78,7 +78,7 @@ struct mediaTextPicker06 {
         .margin({ top: '10%' })
 
       Button('change fontSize')
-        .id('mediaTextPicker06')
+        .id('MediaTextPicker06')
         .height(40)
         .fontSize(15)
         .fontColor(Color.Black)

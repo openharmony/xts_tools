@@ -41,7 +41,7 @@ class SwiperIndicatorInteractiveDataSource13 implements IDataSource {
 
 @Entry
 @Component
-struct swiperIndicatorInteractive13 {
+struct SwiperIndicatorInteractive13 {
   private swiperController: SwiperController = new SwiperController();
   private data: SwiperIndicatorInteractiveDataSource13 = new SwiperIndicatorInteractiveDataSource13([]);
   @State currentIndex: number = 0;

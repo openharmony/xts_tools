@@ -21,7 +21,7 @@ class MySearchAttribute1 implements AttributeModifier<SearchAttribute> {
   }
 }
 
-class myTextInputAttribute implements AttributeModifier<TextInputAttribute> {
+class MyTextInputAttribute implements AttributeModifier<TextInputAttribute> {
   public isDark: boolean = false;
 
   applyNormalAttribute(instance: TextInputAttribute): void {
@@ -29,7 +29,7 @@ class myTextInputAttribute implements AttributeModifier<TextInputAttribute> {
   }
 }
 
-class myTextAreaAttribute implements AttributeModifier<TextAreaAttribute> {
+class MyTextAreaAttribute implements AttributeModifier<TextAreaAttribute> {
   public isDark: boolean = false;
 
   applyNormalAttribute(instance: TextAreaAttribute): void {
@@ -50,8 +50,8 @@ struct UiComponentHalfLeading15 {
   @State inputtype:InputType=InputType.Normal
   @State searchtype:SearchType=SearchType.NORMAL
   @State modifier1: MySearchAttribute1 = new MySearchAttribute1();
-  @State modifier2: myTextInputAttribute = new myTextInputAttribute();
-  @State modifier3: myTextAreaAttribute = new myTextAreaAttribute();
+  @State modifier2: MyTextInputAttribute = new MyTextInputAttribute();
+  @State modifier3: MyTextAreaAttribute = new MyTextAreaAttribute();
   build() {
     Column() {
       TextArea({

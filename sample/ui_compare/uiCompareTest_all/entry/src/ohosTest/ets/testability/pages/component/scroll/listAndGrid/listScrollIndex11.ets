@@ -15,7 +15,7 @@
 
 @Entry
 @Component
-struct listScrollIndex11 {
+struct ListScrollIndex11 {
   @State listData: string[] = [];
   @State columns: number = 1;
   @State eventLog: string = '等待事件触发...';

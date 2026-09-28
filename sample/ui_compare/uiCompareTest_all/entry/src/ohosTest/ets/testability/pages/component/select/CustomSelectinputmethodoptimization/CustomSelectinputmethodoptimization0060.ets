@@ -46,7 +46,7 @@ struct CustomSelectinputmethodoptimization0060 {
           Text('alignment: Bottom')
             .fontSize(14)
             .fontColor('#E74C3C')
-            .backgroundColor('#FADBD8')
+            .backgroundColor('#FADBd7')
             .padding({ left: 8, right: 8, top: 4, bottom: 4 })
             .borderRadius(8)
           
@@ -165,7 +165,7 @@ struct CustomSelectinputmethodoptimization0060 {
         .width('95%')
         .height(50)
         .fontSize(16)
-        .backgroundColor('#FADBD8')
+        .backgroundColor('#FADBd7')
         .borderRadius(15)
         .padding({ left: 16, right: 16 })
         .placeholderColor('#E74C3C')

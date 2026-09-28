@@ -41,7 +41,7 @@ struct ReusableFlowItem {
 
 @Entry
 @Component
-struct repeatWaterFlow07 {
+struct RepeatWaterFlow07 {
   minSize: number = 80;
   maxSize: number = 180;
   fontSize: number = 24;

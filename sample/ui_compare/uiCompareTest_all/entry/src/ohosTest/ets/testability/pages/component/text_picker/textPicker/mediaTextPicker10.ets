@@ -15,15 +15,15 @@
 
 import { LengthMetrics } from '@kit.ArkUI';
 
-class bottom {
-  public bottom: number = 50;
+class Bottom {
+  public Bottom: number = 50;
 }
 
-let bott: bottom = new bottom();
+let bott: Bottom = new Bottom();
 
 @Entry
 @Component
-struct mediaTextPicker10 {
+struct MediaTextPicker10 {
   private select: number = 1;
   private apfruits: string[] = [
     'apple11111',
@@ -65,7 +65,7 @@ struct mediaTextPicker10 {
         .margin(6)
 
       TextPicker({ range: this.apfruits, selected: this.select, columnWidths: [LengthMetrics.vp(this.widthNum)] })
-        .id('mediaTextPicker10')
+        .id('MediaTextPicker10')
         .onChange((value: string | string[], index: number | number[]) => {
           console.info('Picker item changed, value: ' + value + ', index: ' + index);
         })

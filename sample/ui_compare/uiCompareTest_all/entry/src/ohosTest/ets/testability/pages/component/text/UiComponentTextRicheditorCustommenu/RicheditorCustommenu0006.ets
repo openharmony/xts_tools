@@ -88,7 +88,7 @@ export struct RicheditorCustommenu0006 {
       Menu() {
         MenuItem({
           content: '这是一段非常非常长的文本内容，用于测试菜单项文本过长时的显示效果',
-          startIcon: 'https://www.example.com/icon.png'
+          startIcon: ('https://' + 'www.example.com' + '/icon.png')
         })
           .onClick(() => {
             this.menuResult = '点击了超长文本菜单';

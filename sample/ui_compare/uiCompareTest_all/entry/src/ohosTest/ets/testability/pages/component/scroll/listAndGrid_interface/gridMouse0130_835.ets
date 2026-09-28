@@ -14,14 +14,14 @@
  */
 
 /**
- * GridMouse0130_835
+ * GridMouse0130835
  * 
  * 组件disable态鼠标框选
  */
 
 @Entry
 @Component
-export struct GridMouse0130_835 {
+export struct GridMouse0130835 {
   @State numbers: string[] = [];
 
   aboutToAppear() {
