@@ -16,17 +16,17 @@
 @Entry
 @Component
 struct MeasurableUniqueId0090 {
-  @State logText: string = "日志输出:\n"
+  @State logText: string = '日志输出:\n'
   @State childNodes: number[] = [0, 1, 2, 3, 4, 5, 6, 7]
 
   build() {
     Column() {
-      Text("MeasurableUniqueId0090测试页面")
+      Text('MeasurableUniqueId0090测试页面')
         .fontSize(20)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 20 })
 
-      Text("正确获取占位子组件的FrameNode，在第六个节点后添加子节点")
+      Text('正确获取占位子组件的FrameNode，在第六个节点后添加子节点')
         .fontSize(14)
         .margin({ bottom: 20 })
 
@@ -47,15 +47,15 @@ struct MeasurableUniqueId0090 {
           })
         }
       }
-      .id("node_container_main")
+      .id('node_container_main')
       .width('48.61%')
       .height('16.39%')
       .backgroundColor('#FFA07A')
       .margin({ bottom: 20 })
       .padding(10)
 
-      Button("在第六个节点后添加子节点")
-        .id("insert_child_node_button")
+      Button('在第六个节点后添加子节点')
+        .id('insert_child_node_button')
         .onClick(() => {
           this.insertChildNodeAfterSixth()
         })
@@ -64,7 +64,7 @@ struct MeasurableUniqueId0090 {
       // 日志显示区域
       Scroll() {
         Text(this.logText)
-          .id("log_text")
+          .id('log_text')
           .fontSize(12)
           .fontColor(Color.Black)
           .width('100%')
@@ -91,7 +91,7 @@ struct MeasurableUniqueId0090 {
 
   insertChildNodeAfterSixth(): void {
     try {
-      let frameNode = this.getUIContext()?.getFrameNodeById("node_container_main")
+      let frameNode = this.getUIContext()?.getFrameNodeById('node_container_main')
       if (frameNode) {
         let uniqueId: number = frameNode.getUniqueId()
         
@@ -102,17 +102,17 @@ struct MeasurableUniqueId0090 {
           
           let insertLog: string = `在第六个橘色方块后插入了红色方块，当前子节点总数: ${this.childNodes.length}`
           console.log(insertLog)
-          this.logText += insertLog + "\n"
+          this.logText += insertLog + '\n'
         } else {
           let errorLog: string = `当前子节点数量不足6个，无法在第六个节点后插入，当前数量: ${this.childNodes.length}`
           console.log(errorLog)
-          this.logText += errorLog + "\n"
+          this.logText += errorLog + '\n'
         }
       }
     } catch (error) {
       let errorMessage: string = `插入子节点失败: ${error}`
       console.error(errorMessage)
-      this.logText += errorMessage + "\n"
+      this.logText += errorMessage + '\n'
     }
   }
 }

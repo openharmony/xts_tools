@@ -16,16 +16,16 @@
 @Entry
 @Component
 struct MeasurableUniqueId0020 {
-  @State logText: string = "日志输出:\n"
+  @State logText: string = '日志输出:\n'
 
   build() {
     Column() {
-      Text("MeasurableUniqueId0020测试页面")
+      Text('MeasurableUniqueId0020测试页面')
         .fontSize(20)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 20 })
 
-      Text("通过getFrameNodeByUniqueId获取NodeContainer的FrameNode")
+      Text('通过getFrameNodeByUniqueId获取NodeContainer的FrameNode')
         .fontSize(14)
         .margin({ bottom: 20 })
 
@@ -49,8 +49,8 @@ struct MeasurableUniqueId0020 {
       .width('100%')
       .margin({ bottom: 20 })
 
-      Button("修改FrameNode属性")
-        .id("modify_framenode_button")
+      Button('修改FrameNode属性')
+        .id('modify_framenode_button')
         .onClick(() => {
           this.modifyFrameNodeProperties()
         })
@@ -59,7 +59,7 @@ struct MeasurableUniqueId0020 {
       // 日志显示区域
       Scroll() {
         Text(this.logText)
-          .id("log_text")
+          .id('log_text')
           .fontSize(12)
           .fontColor(Color.Black)
           .width('100%')
@@ -85,13 +85,13 @@ struct MeasurableUniqueId0020 {
           let uniqueId: number = frameNode.getUniqueId()
           let logMessage: string = `获取到方块${i + 1}的FrameNode，UniqueId: ${uniqueId}，已修改为粉色100x100方块`
           console.log(logMessage)
-          this.logText += logMessage + "\n"
+          this.logText += logMessage + '\n'
         }
       }
     } catch (error) {
       let errorMessage: string = `修改FrameNode属性失败: ${error}`
       console.error(errorMessage)
-      this.logText += errorMessage + "\n"
+      this.logText += errorMessage + '\n'
     }
   }
 }

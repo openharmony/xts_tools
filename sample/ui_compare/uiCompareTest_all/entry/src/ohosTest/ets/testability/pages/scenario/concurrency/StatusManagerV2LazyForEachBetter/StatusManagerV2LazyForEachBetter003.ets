@@ -20,7 +20,7 @@ struct StatusManagerV2LazyForEachBetter003 {
   @State data: string[] = [];
   aboutToAppear() {
     for (let i = 1; i < 1000; i++) {
-      this.data.push(i+ "");
+      this.data.push(i+ '');
     }
   }
 

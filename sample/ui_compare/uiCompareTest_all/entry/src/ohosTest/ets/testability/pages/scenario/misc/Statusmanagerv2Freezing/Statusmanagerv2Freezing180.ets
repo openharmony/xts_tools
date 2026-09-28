@@ -165,13 +165,13 @@ struct Page {
         TabContent() {
         }
           LazyForEach(this.data, (item: string, index: number) => {
-              ChildComponent({index: index, item: item, desc: this.desc}).reuseId(index % 10 < 5 ? "1": "0")
+              ChildComponent({index: index, item: item, desc: this.desc}).reuseId(index % 10 < 5 ? '1': '0')
           }, (item: string) => item)
       }
       .height('60%')
 
       if (this.flag) {
-        ChildComponent({index: -1, item: 'Hello', desc: this.desc}).reuseId( "1")
+        ChildComponent({index: -1, item: 'Hello', desc: this.desc}).reuseId( '1')
       }
     }
     .height('100%')

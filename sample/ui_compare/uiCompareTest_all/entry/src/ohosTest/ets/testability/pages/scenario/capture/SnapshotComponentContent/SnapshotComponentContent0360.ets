@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { ComponentContent, NodeContent, typeNode } from "@kit.ArkUI";
+import { ComponentContent, NodeContent, typeNode } from '@kit.ArkUI';
 
 interface ParamsInterface {
   text: string;
@@ -40,7 +40,7 @@ function buildText(params: ParamsInterface) {
 @Entry
 @Component
 struct SnapshotComponentContent0360 {
-  @State message: string = "HELLO";
+  @State message: string = 'HELLO';
   private content: NodeContent = new NodeContent();
 
   build() {
@@ -48,19 +48,19 @@ struct SnapshotComponentContent0360 {
       Column() {
         Button('addComponentContent')
           .onClick(() => {
-            let column = typeNode.createNode(this.getUIContext(), "Column");
+            let column = typeNode.createNode(this.getUIContext(), 'Column');
             column.initialize();
             column.addComponentContent(new ComponentContent<ParamsInterface>(this.getUIContext(),
               wrapBuilder<[ParamsInterface]>(buildText), {
                 text: this.message, func: () => {
-                  return "FUNCTION"
+                  return 'FUNCTION'
                 }
               }, { nestingBuilderSupported: true }));
             this.content.addFrameNode(column);
           })
         ContentSlot(this.content)
       }
-      .id("column")
+      .id('column')
       .width('100%')
       .height('100%')
     }

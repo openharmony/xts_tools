@@ -26,6 +26,6 @@ struct ArkUIComponentFunctionAdvancedComponentsMirror010 {
       }
       .direction(null)
       .margin(100)
-    }.width("100%")
+    }.width('100%')
   }
 }

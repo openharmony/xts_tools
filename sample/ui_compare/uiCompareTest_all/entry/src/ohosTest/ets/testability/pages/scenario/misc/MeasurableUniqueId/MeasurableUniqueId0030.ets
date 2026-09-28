@@ -16,16 +16,16 @@
 @Entry
 @Component
 struct MeasurableUniqueId0030 {
-  @State logText: string = "日志输出:\n"
+  @State logText: string = '日志输出:\n'
 
   build() {
     Column() {
-      Text("MeasurableUniqueId0030测试页面")
+      Text('MeasurableUniqueId0030测试页面')
         .fontSize(20)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 20 })
 
-      Text("测试FrameNode的Get系列API")
+      Text('测试FrameNode的Get系列API')
         .fontSize(14)
         .margin({ bottom: 20 })
 
@@ -48,7 +48,7 @@ struct MeasurableUniqueId0030 {
         }
         .justifyContent(FlexAlign.SpaceEvenly)
       }
-      .id("node_container_main")
+      .id('node_container_main')
       .width('27.78%')
       .height('8.2%')
       .backgroundColor('#E0E0E0')
@@ -57,22 +57,22 @@ struct MeasurableUniqueId0030 {
 
       // 按钮区域
       Column() {
-        Button("获取子组件的MeasureId")
-          .id("get_measure_id_button")
+        Button('获取子组件的MeasureId')
+          .id('get_measure_id_button')
           .onClick(() => {
             this.getMeasureId()
           })
           .margin({ bottom: 10 })
 
-        Button("getChildNumber")
-          .id("get_child_number_button")
+        Button('getChildNumber')
+          .id('get_child_number_button')
           .onClick(() => {
             this.getChildNumber()
           })
           .margin({ bottom: 10 })
 
-        Button("获取其他Get系列API信息")
-          .id("get_other_info_button")
+        Button('获取其他Get系列API信息')
+          .id('get_other_info_button')
           .onClick(() => {
             this.getOtherInfo()
           })
@@ -82,7 +82,7 @@ struct MeasurableUniqueId0030 {
       // 日志显示区域
       Scroll() {
         Text(this.logText)
-          .id("log_text")
+          .id('log_text')
           .fontSize(12)
           .fontColor(Color.Black)
           .width('100%')
@@ -102,12 +102,12 @@ struct MeasurableUniqueId0030 {
   getMeasureId(): void {
     try {
       // 获取主容器的FrameNode
-      let frameNode = this.getUIContext()?.getFrameNodeById("node_container_main")
+      let frameNode = this.getUIContext()?.getFrameNodeById('node_container_main')
       if (frameNode) {
         let uniqueId: number = frameNode.getUniqueId()
         let logMessage: string = `主容器 UniqueId/MeasureId: ${uniqueId}`
         console.log(logMessage)
-        this.logText += logMessage + "\n"
+        this.logText += logMessage + '\n'
 
         // 获取子组件的MeasureId
         for (let i = 0; i < 3; i++) {
@@ -116,26 +116,26 @@ struct MeasurableUniqueId0030 {
             let childUniqueId: number = childNode.getUniqueId()
             let childLogMessage: string = `子组件[${i}] MeasureId/UniqueId: ${childUniqueId}`
             console.log(childLogMessage)
-            this.logText += childLogMessage + "\n"
+            this.logText += childLogMessage + '\n'
           }
         }
       }
     } catch (error) {
       let errorMessage: string = `获取MeasureId失败: ${error}`
       console.error(errorMessage)
-      this.logText += errorMessage + "\n"
+      this.logText += errorMessage + '\n'
     }
   }
 
   getChildNumber(): void {
     try {
-      let frameNode = this.getUIContext()?.getFrameNodeById("node_container_main")
+      let frameNode = this.getUIContext()?.getFrameNodeById('node_container_main')
       if (frameNode) {
         // 模拟getChildNumber结果
         let childCount: number = 3
         let logMessage: string = `getChildNumber结果: ${childCount}`
         console.log(logMessage)
-        this.logText += logMessage + "\n"
+        this.logText += logMessage + '\n'
 
         // 打印每个子组件的详细信息
         for (let i = 0; i < childCount; i++) {
@@ -144,43 +144,43 @@ struct MeasurableUniqueId0030 {
             let childUniqueId: number = childNode.getUniqueId()
             let childInfo: string = `子组件[${i}] - UniqueId: ${childUniqueId}, 类型: Column组件`
             console.log(childInfo)
-            this.logText += childInfo + "\n"
+            this.logText += childInfo + '\n'
           }
         }
       }
     } catch (error) {
       let errorMessage: string = `getChildNumber失败: ${error}`
       console.error(errorMessage)
-      this.logText += errorMessage + "\n"
+      this.logText += errorMessage + '\n'
     }
   }
 
   getOtherInfo(): void {
     try {
-      let frameNode = this.getUIContext()?.getFrameNodeById("node_container_main")
+      let frameNode = this.getUIContext()?.getFrameNodeById('node_container_main')
       if (frameNode) {
         // 获取各种Get系列API信息
         let uniqueId: number = frameNode.getUniqueId()
         let parentInfo: string = `getParent结果: 存在父节点`
         console.log(parentInfo)
-        this.logText += parentInfo + "\n"
+        this.logText += parentInfo + '\n'
 
         let firstChildInfo: string = `getFirstChild结果: child_component_0`
         console.log(firstChildInfo)
-        this.logText += firstChildInfo + "\n"
+        this.logText += firstChildInfo + '\n'
 
         let nextSiblingInfo: string = `getNextSibling结果: 无下一个兄弟节点`
         console.log(nextSiblingInfo)
-        this.logText += nextSiblingInfo + "\n"
+        this.logText += nextSiblingInfo + '\n'
 
         let previousSiblingInfo: string = `getPreviousSibling结果: 无上一个兄弟节点`
         console.log(previousSiblingInfo)
-        this.logText += previousSiblingInfo + "\n"
+        this.logText += previousSiblingInfo + '\n'
       }
     } catch (error) {
       let errorMessage: string = `获取其他信息失败: ${error}`
       console.error(errorMessage)
-      this.logText += errorMessage + "\n"
+      this.logText += errorMessage + '\n'
     }
   }
 }

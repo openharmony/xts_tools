@@ -35,7 +35,7 @@ struct UIComponentSnapShotComponentContent003 {
   @State snapShotScale: number = 2;
   @State waitUnitlRenFinished: boolean | undefined = true;
   @State pixmap: image.PixelMap | undefined = undefined;
-  @State message: string | undefined | null = "hello";
+  @State message: string | undefined | null = 'hello';
   uiContext: UIContext = this.getUIContext();
   private content: NodeContent = new NodeContent();
 
@@ -46,7 +46,7 @@ struct UIComponentSnapShotComponentContent003 {
           .id('click')
           .stateEffect(true)
           .onClick(() => {
-            let column = typeNode.createNode(this.getUIContext(), "Column");
+            let column = typeNode.createNode(this.getUIContext(), 'Column');
             column.initialize();
             let uiContext = this.getUIContext();
             column.addComponentContent(new ComponentContent(uiContext,
@@ -69,7 +69,7 @@ struct UIComponentSnapShotComponentContent003 {
             console.info(`${caseName} waitUnitlRenFinished is ${this.waitUnitlRenFinished}`);
           })
           .margin({ top: 10 })
-        Button("点击生成组件截图")
+        Button('点击生成组件截图')
           .id('snapShot')
           .stateEffect(true)
           .onClick(() => {
@@ -82,7 +82,7 @@ struct UIComponentSnapShotComponentContent003 {
                 this.pixmap = pixmap;
               })
               .catch((err: Error) => {
-                console.error(caseName + "error: " + err);
+                console.error(caseName + 'error: ' + err);
               })
           })
           .margin({ top: 10 })

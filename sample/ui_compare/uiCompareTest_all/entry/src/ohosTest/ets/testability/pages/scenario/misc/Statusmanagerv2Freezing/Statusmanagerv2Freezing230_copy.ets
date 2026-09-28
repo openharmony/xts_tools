@@ -52,7 +52,7 @@ struct FreezeChild230Copy {
   }
 
   build() {
-    Text("message" + `${this.message}, index: ${this.index}`)
+    Text('message' + `${this.message}, index: ${this.index}`)
       .fontSize(50)
       .fontWeight(FontWeight.Bold)
   }

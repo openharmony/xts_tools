@@ -16,16 +16,16 @@
 @Entry
 @Component
 struct MeasurableUniqueId0040 {
-  @State logText: string = "日志输出:\n"
+  @State logText: string = '日志输出:\n'
 
   build() {
     Column() {
-      Text("MeasurableUniqueId0040测试页面")
+      Text('MeasurableUniqueId0040测试页面')
         .fontSize(20)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 20 })
 
-      Text("正确获取占位子组件的FrameNode，添加通用事件")
+      Text('正确获取占位子组件的FrameNode，添加通用事件')
         .fontSize(14)
         .margin({ bottom: 20 })
 
@@ -47,17 +47,17 @@ struct MeasurableUniqueId0040 {
           .onClick(() => {
             let clickLog: string = `粉色方块${index} - Click事件触发`
             console.log(clickLog)
-            this.logText += clickLog + "\n"
+            this.logText += clickLog + '\n'
           })
           .onFocus(() => {
             let focusLog: string = `粉色方块${index} - onFocus事件触发`
             console.log(focusLog)
-            this.logText += focusLog + "\n"
+            this.logText += focusLog + '\n'
           })
           .onBlur(() => {
             let blurLog: string = `粉色方块${index} - onBlur事件触发`
             console.log(blurLog)
-            this.logText += blurLog + "\n"
+            this.logText += blurLog + '\n'
           })
         })
       }
@@ -65,8 +65,8 @@ struct MeasurableUniqueId0040 {
       .width('100%')
       .margin({ bottom: 20 })
 
-      Button("添加通用事件到占位子组件")
-        .id("add_events_button")
+      Button('添加通用事件到占位子组件')
+        .id('add_events_button')
         .onClick(() => {
           this.addEventsToChildFrameNodes()
         })
@@ -75,7 +75,7 @@ struct MeasurableUniqueId0040 {
       // 日志显示区域
       Scroll() {
         Text(this.logText)
-          .id("log_text")
+          .id('log_text')
           .fontSize(12)
           .fontColor(Color.Black)
           .width('100%')
@@ -101,13 +101,13 @@ struct MeasurableUniqueId0040 {
           let uniqueId: number = frameNode.getUniqueId()
           let eventLog: string = `已为粉色方块${i}添加通用事件，UniqueId: ${uniqueId}`
           console.log(eventLog)
-          this.logText += eventLog + "\n"
+          this.logText += eventLog + '\n'
         }
       }
     } catch (error) {
       let errorMessage: string = `添加事件失败: ${error}`
       console.error(errorMessage)
-      this.logText += errorMessage + "\n"
+      this.logText += errorMessage + '\n'
     }
   }
 }

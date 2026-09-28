@@ -16,7 +16,7 @@ import { image } from '@kit.ImageKit';
 import { ComponentContent, NodeContent, typeNode } from '@kit.ArkUI';
 
 class Params {
-  text: string | undefined | null  = "";
+  text: string | undefined | null  = '';
 
   constructor(text: string | undefined | null ) {
     this.text = text;
@@ -30,14 +30,14 @@ function buildText(params: Params) {
 
 @Component
 struct ReusableChildComponent {
-  @Prop text: string | undefined | null  = "";
+  @Prop text: string | undefined | null  = '';
 
   aboutToReuse(params: Record<string, object>) {
-    console.log("ReusableChildComponent Reusable " + JSON.stringify(params));
+    console.log('ReusableChildComponent Reusable ' + JSON.stringify(params));
   }
 
   aboutToRecycle(): void {
-    console.log("ReusableChildComponent aboutToRecycle " + this.text);
+    console.log('ReusableChildComponent aboutToRecycle ' + this.text);
   }
 
   build() {
@@ -56,7 +56,7 @@ struct ReusableChildComponent {
 @Component
 struct UIComponentSnapShotComponentContent001 {
   @State pixmap: image.PixelMap | undefined = undefined;
-  @State message: string | undefined | null = "hello";
+  @State message: string | undefined | null = 'hello';
   uiContext: UIContext = this.getUIContext();
   private content: NodeContent = new NodeContent();
 
@@ -68,7 +68,7 @@ struct UIComponentSnapShotComponentContent001 {
             .id('click')
             .stateEffect(true)
             .onClick(() => {
-              let column = typeNode.createNode(this.getUIContext(), "Column");
+              let column = typeNode.createNode(this.getUIContext(), 'Column');
               column.initialize();
               let uiContext = this.getUIContext();
               column.addComponentContent(new ComponentContent(uiContext,
@@ -79,7 +79,7 @@ struct UIComponentSnapShotComponentContent001 {
         }
         .height('45%')
         Column() {
-          Button("点击生成组件截图")
+          Button('点击生成组件截图')
             .id('snapShot')
             .onClick(() => {
               let uiContext = this.getUIContext();
@@ -90,7 +90,7 @@ struct UIComponentSnapShotComponentContent001 {
                   this.pixmap = pixmap;
                 })
                 .catch((err: Error) => {
-                  console.error("error: " + err);
+                  console.error('error: ' + err);
                 })
             })
           Image(this.pixmap)

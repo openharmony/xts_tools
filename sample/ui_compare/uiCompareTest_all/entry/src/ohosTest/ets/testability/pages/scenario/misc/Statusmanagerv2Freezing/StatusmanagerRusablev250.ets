@@ -22,7 +22,7 @@ struct IndexRe250 {
       ReusableV2Component250()
       ReusableV2Component250()
         .reuse({reuseId: () => ''})
-        Text("")
+        Text('')
     }
   }
 }

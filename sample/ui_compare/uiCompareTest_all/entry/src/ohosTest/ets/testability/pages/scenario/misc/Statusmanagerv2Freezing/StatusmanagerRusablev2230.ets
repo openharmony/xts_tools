@@ -15,7 +15,7 @@
 @Reusable
 @Component
 struct Child230 {
-  @State message: string = "hello";
+  @State message: string = 'hello';
 
   build() {
     Column() {

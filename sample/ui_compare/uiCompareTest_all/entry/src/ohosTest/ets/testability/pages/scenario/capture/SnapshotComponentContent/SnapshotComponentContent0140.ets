@@ -19,7 +19,7 @@ import { http } from '@kit.NetworkKit';
 import { BusinessError } from '@kit.BasicServicesKit';
 
 class Params {
-  text: string | undefined | null  = "";
+  text: string | undefined | null  = '';
 
   constructor(text: string | undefined | null ) {
     this.text = text;
@@ -34,7 +34,7 @@ function buildText(params: Params) {
 
 @Component
 struct ReusableChildComponent {
-  @Prop text: string | undefined | null  = "";
+  @Prop text: string | undefined | null  = '';
   @State pixelMapImg: PixelMap | undefined = undefined;
 
 
@@ -73,11 +73,11 @@ struct ReusableChildComponent {
   }
 
   aboutToReuse(params: Record<string, object>) {
-    console.log("ReusableChildComponent Reusable " + JSON.stringify(params));
+    console.log('ReusableChildComponent Reusable ' + JSON.stringify(params));
   }
 
   aboutToRecycle(): void {
-    console.log("ReusableChildComponent aboutToRecycle " + this.text);
+    console.log('ReusableChildComponent aboutToRecycle ' + this.text);
   }
 
   build() {
@@ -98,7 +98,7 @@ struct ReusableChildComponent {
 @Component
 struct SnapshotComponentContent0140 {
   @State pixmap: image.PixelMap | undefined = undefined;
-  @State message: string | undefined | null = "hello";
+  @State message: string | undefined | null = 'hello';
   uiContext: UIContext = this.getUIContext();
   @State text: string = '';
   controller: TextInputController = new TextInputController();
@@ -106,7 +106,7 @@ struct SnapshotComponentContent0140 {
   build() {
     Row() {
       Column() {
-        Button("点击生成组件截图")
+        Button('点击生成组件截图')
           .id('btn')
           .onClick(() => {
             let uiContext = this.getUIContext();
@@ -118,7 +118,7 @@ struct SnapshotComponentContent0140 {
                 this.pixmap = pixmap;
               })
               .catch((err: Error) => {
-                console.error("error: " + err);
+                console.error('error: ' + err);
               })
           })
         Image(this.pixmap)

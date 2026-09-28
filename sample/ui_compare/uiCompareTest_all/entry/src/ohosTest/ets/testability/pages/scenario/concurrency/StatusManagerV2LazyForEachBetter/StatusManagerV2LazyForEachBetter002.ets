@@ -49,7 +49,7 @@ struct StatusManagerV2LazyForEachBetter002 {
 
   aboutToAppear() {
     for (let i = 1; i < 1000; i++) {
-      this.data.pushData(i + "");
+      this.data.pushData(i + '');
     }
   }
 

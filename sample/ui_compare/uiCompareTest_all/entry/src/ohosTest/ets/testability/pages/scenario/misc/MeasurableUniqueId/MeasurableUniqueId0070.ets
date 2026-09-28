@@ -16,16 +16,16 @@
 @Entry
 @Component
 struct MeasurableUniqueId0070 {
-  @State logText: string = "日志输出:\n"
+  @State logText: string = '日志输出:\n'
 
   build() {
     Column() {
-      Text("MeasurableUniqueId0070测试页面")
+      Text('MeasurableUniqueId0070测试页面')
         .fontSize(20)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 20 })
 
-      Text("正确获取占位子组件的FrameNode，添加双击手势事件")
+      Text('正确获取占位子组件的FrameNode，添加双击手势事件')
         .fontSize(14)
         .margin({ bottom: 20 })
 
@@ -48,7 +48,7 @@ struct MeasurableUniqueId0070 {
               .onAction((event: GestureEvent) => {
                 let actionLog: string = `粉色方块${index} - DoubleTap双击手势触发`
                 console.log(actionLog)
-                this.logText += actionLog + "\n"
+                this.logText += actionLog + '\n'
               })
           )
           .gesture(
@@ -56,7 +56,7 @@ struct MeasurableUniqueId0070 {
               .onAction((event: GestureEvent) => {
                 let actionLog: string = `粉色方块${index} - SingleTap单击手势触发`
                 console.log(actionLog)
-                this.logText += actionLog + "\n"
+                this.logText += actionLog + '\n'
               })
           )
         })
@@ -65,8 +65,8 @@ struct MeasurableUniqueId0070 {
       .width('100%')
       .margin({ bottom: 20 })
 
-      Button("添加双击手势事件到占位子组件")
-        .id("add_doubletap_gesture_button")
+      Button('添加双击手势事件到占位子组件')
+        .id('add_doubletap_gesture_button')
         .onClick(() => {
           this.addDoubleTapGestureToChildFrameNodes()
         })
@@ -75,7 +75,7 @@ struct MeasurableUniqueId0070 {
       // 日志显示区域
       Scroll() {
         Text(this.logText)
-          .id("log_text")
+          .id('log_text')
           .fontSize(12)
           .fontColor(Color.Black)
           .width('100%')
@@ -101,13 +101,13 @@ struct MeasurableUniqueId0070 {
           let uniqueId: number = frameNode.getUniqueId()
           let gestureLog: string = `已为粉色方块${i}添加DoubleTap双击手势事件，UniqueId: ${uniqueId}`
           console.log(gestureLog)
-          this.logText += gestureLog + "\n"
+          this.logText += gestureLog + '\n'
         }
       }
     } catch (error) {
       let errorMessage: string = `添加双击手势事件失败: ${error}`
       console.error(errorMessage)
-      this.logText += errorMessage + "\n"
+      this.logText += errorMessage + '\n'
     }
   }
 }

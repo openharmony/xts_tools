@@ -16,16 +16,16 @@
 @Entry
 @Component
 struct MeasurableUniqueId0050 {
-  @State logText: string = "日志输出:\n"
+  @State logText: string = '日志输出:\n'
 
   build() {
     Column() {
-      Text("MeasurableUniqueId0050测试页面")
+      Text('MeasurableUniqueId0050测试页面')
         .fontSize(20)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 20 })
 
-      Text("正确获取占位子组件的FrameNode，添加滑动手势事件")
+      Text('正确获取占位子组件的FrameNode，添加滑动手势事件')
         .fontSize(14)
         .margin({ bottom: 20 })
 
@@ -48,17 +48,17 @@ struct MeasurableUniqueId0050 {
               .onActionStart((event: GestureEvent) => {
                 let startLog: string = `粉色方块${index} - Pan手势开始`
                 console.log(startLog)
-                this.logText += startLog + "\n"
+                this.logText += startLog + '\n'
               })
               .onActionUpdate((event: GestureEvent) => {
                 let updateLog: string = `粉色方块${index} - Pan手势更新: offsetX=${event.offsetX.toFixed(2)}, offsetY=${event.offsetY.toFixed(2)}`
                 console.log(updateLog)
-                this.logText += updateLog + "\n"
+                this.logText += updateLog + '\n'
               })
               .onActionEnd((event: GestureEvent) => {
                 let endLog: string = `粉色方块${index} - Pan手势结束`
                 console.log(endLog)
-                this.logText += endLog + "\n"
+                this.logText += endLog + '\n'
               })
           )
         })
@@ -67,8 +67,8 @@ struct MeasurableUniqueId0050 {
       .width('100%')
       .margin({ bottom: 20 })
 
-      Button("添加滑动手势事件到占位子组件")
-        .id("add_pan_gesture_button")
+      Button('添加滑动手势事件到占位子组件')
+        .id('add_pan_gesture_button')
         .onClick(() => {
           this.addPanGestureToChildFrameNodes()
         })
@@ -77,7 +77,7 @@ struct MeasurableUniqueId0050 {
       // 日志显示区域
       Scroll() {
         Text(this.logText)
-          .id("log_text")
+          .id('log_text')
           .fontSize(12)
           .fontColor(Color.Black)
           .width('100%')
@@ -103,13 +103,13 @@ struct MeasurableUniqueId0050 {
           let uniqueId: number = frameNode.getUniqueId()
           let gestureLog: string = `已为粉色方块${i}添加Pan滑动手势事件，UniqueId: ${uniqueId}`
           console.log(gestureLog)
-          this.logText += gestureLog + "\n"
+          this.logText += gestureLog + '\n'
         }
       }
     } catch (error) {
       let errorMessage: string = `添加滑动手势事件失败: ${error}`
       console.error(errorMessage)
-      this.logText += errorMessage + "\n"
+      this.logText += errorMessage + '\n'
     }
   }
 }

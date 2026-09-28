@@ -16,17 +16,17 @@
 @Entry
 @Component
 struct MeasurableUniqueId0100 {
-  @State logText: string = "日志输出:\n"
+  @State logText: string = '日志输出:\n'
   @State childNodes: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
   build() {
     Column() {
-      Text("MeasurableUniqueId0100测试页面")
+      Text('MeasurableUniqueId0100测试页面')
         .fontSize(20)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 20 })
 
-      Text("正确获取占位子组件的FrameNode，移除一个子节点")
+      Text('正确获取占位子组件的FrameNode，移除一个子节点')
         .fontSize(14)
         .margin({ bottom: 20 })
 
@@ -47,15 +47,15 @@ struct MeasurableUniqueId0100 {
           })
         }
       }
-      .id("node_container_main")
+      .id('node_container_main')
       .width('48.61%')
       .height('20.49%')
       .backgroundColor('#FAFAD2')
       .margin({ bottom: 20 })
       .padding(10)
 
-      Button("移除一个子节点")
-        .id("remove_child_node_button")
+      Button('移除一个子节点')
+        .id('remove_child_node_button')
         .onClick(() => {
           this.removeChildNode()
         })
@@ -64,7 +64,7 @@ struct MeasurableUniqueId0100 {
       // 日志显示区域
       Scroll() {
         Text(this.logText)
-          .id("log_text")
+          .id('log_text')
           .fontSize(12)
           .fontColor(Color.Black)
           .width('100%')
@@ -83,7 +83,7 @@ struct MeasurableUniqueId0100 {
 
   removeChildNode(): void {
     try {
-      let frameNode = this.getUIContext()?.getFrameNodeById("node_container_main")
+      let frameNode = this.getUIContext()?.getFrameNodeById('node_container_main')
       if (frameNode) {
         let uniqueId: number = frameNode.getUniqueId()
         
@@ -93,17 +93,17 @@ struct MeasurableUniqueId0100 {
           
           let removeLog: string = `移除了第${removedIndex + 1}个子节点，剩余子节点数量: ${this.childNodes.length}`
           console.log(removeLog)
-          this.logText += removeLog + "\n"
+          this.logText += removeLog + '\n'
         } else {
           let errorLog: string = `没有子节点可以移除`
           console.log(errorLog)
-          this.logText += errorLog + "\n"
+          this.logText += errorLog + '\n'
         }
       }
     } catch (error) {
       let errorMessage: string = `移除子节点失败: ${error}`
       console.error(errorMessage)
-      this.logText += errorMessage + "\n"
+      this.logText += errorMessage + '\n'
     }
   }
 }

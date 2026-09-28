@@ -16,17 +16,17 @@
 @Entry
 @Component
 struct MeasurableUniqueId0080 {
-  @State logText: string = "日志输出:\n"
+  @State logText: string = '日志输出:\n'
   @State childNodes: number[] = [0, 1, 2]
 
   build() {
     Column() {
-      Text("MeasurableUniqueId0080测试页面")
+      Text('MeasurableUniqueId0080测试页面')
         .fontSize(20)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 20 })
 
-      Text("正确获取占位子组件的FrameNode，在末尾添加子节点")
+      Text('正确获取占位子组件的FrameNode，在末尾添加子节点')
         .fontSize(14)
         .margin({ bottom: 20 })
 
@@ -49,15 +49,15 @@ struct MeasurableUniqueId0080 {
         .justifyContent(FlexAlign.Start)
         .width('100%')
       }
-      .id("node_container_main")
+      .id('node_container_main')
       .width('41.67%')
       .height('8.2%')
       .backgroundColor('#E6E6FA')
       .margin({ bottom: 20 })
       .justifyContent(FlexAlign.Center)
 
-      Button("在末尾添加子节点")
-        .id("add_child_node_button")
+      Button('在末尾添加子节点')
+        .id('add_child_node_button')
         .onClick(() => {
           this.addChildNodeToEnd()
         })
@@ -66,7 +66,7 @@ struct MeasurableUniqueId0080 {
       // 日志显示区域
       Scroll() {
         Text(this.logText)
-          .id("log_text")
+          .id('log_text')
           .fontSize(12)
           .fontColor(Color.Black)
           .width('100%')
@@ -85,7 +85,7 @@ struct MeasurableUniqueId0080 {
 
   addChildNodeToEnd(): void {
     try {
-      let frameNode = this.getUIContext()?.getFrameNodeById("node_container_main")
+      let frameNode = this.getUIContext()?.getFrameNodeById('node_container_main')
       if (frameNode) {
         let uniqueId: number = frameNode.getUniqueId()
         
@@ -95,12 +95,12 @@ struct MeasurableUniqueId0080 {
         
         let addLog: string = `在末尾添加了红色方块子节点，位置: ${newIndex + 1}，当前子节点总数: ${this.childNodes.length}`
         console.log(addLog)
-        this.logText += addLog + "\n"
+        this.logText += addLog + '\n'
       }
     } catch (error) {
       let errorMessage: string = `添加子节点失败: ${error}`
       console.error(errorMessage)
-      this.logText += errorMessage + "\n"
+      this.logText += errorMessage + '\n'
     }
   }
 }

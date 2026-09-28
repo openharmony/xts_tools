@@ -106,7 +106,7 @@ struct StatusManagerV2LazyForEachBetter004 {
 
   aboutToAppear() {
     for (let i = 0; i < 100; i++) {
-      this.data.pushData(i + "");
+      this.data.pushData(i + '');
     }
   }
 

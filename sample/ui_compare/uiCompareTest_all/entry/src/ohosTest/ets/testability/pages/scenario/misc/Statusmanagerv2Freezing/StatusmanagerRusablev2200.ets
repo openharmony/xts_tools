@@ -15,7 +15,7 @@
 @Reusable
 @Component
 struct Child200 {
-  message: string = "hello";
+  message: string = 'hello';
 
   build() {
     Column() {

@@ -16,7 +16,7 @@ import { image } from '@kit.ImageKit';
 import { ComponentContent } from '@kit.ArkUI';
 
 class Params {
-  imageSrc: string | undefined | null  = "";
+  imageSrc: string | undefined | null  = '';
 
   constructor(text: string | undefined | null ) {
     this.imageSrc = text;
@@ -32,14 +32,14 @@ function buildImage(params: Params) {
 
 @Component
 struct ReusableChildComponent {
-  @Prop imageSrc: string | undefined | null  = "";
+  @Prop imageSrc: string | undefined | null  = '';
 
   aboutToReuse(params: Record<string, object>) {
-    console.log("ReusableChildComponent Reusable " + JSON.stringify(params));
+    console.log('ReusableChildComponent Reusable ' + JSON.stringify(params));
   }
 
   aboutToRecycle(): void {
-    console.log("ReusableChildComponent aboutToRecycle " + this.imageSrc);
+    console.log('ReusableChildComponent aboutToRecycle ' + this.imageSrc);
   }
 
   build() {
@@ -81,7 +81,7 @@ struct UIComponentSnapshotComponentContent0040 {
         Text(this.message)
           .margin(10)
 
-        Button("点击生成组件截图")
+        Button('点击生成组件截图')
           .onClick(() => {
             let uiContext = this.getUIContext();
             let contentNode = new ComponentContent(uiContext, wrapBuilder(buildImage), new Params(this.imageSrc));
@@ -100,7 +100,7 @@ struct UIComponentSnapshotComponentContent0040 {
                 this.message += '\ngetComponentSnapshot succeed.';
               })
               .catch((err: Error) => {
-                console.error("error: " + err);
+                console.error('error: ' + err);
                 this.message += '\ngetComponentSnapshot error: ' + JSON.stringify(err);
               })
           })

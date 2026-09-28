@@ -44,7 +44,7 @@ struct ChildComponent {
 @Component
 struct MyNavigationTestStack {
   @Provide('pageInfo') pageInfo: NavPathStack = new NavPathStack();
-  @State @Watch("info") message: number = 0;
+  @State @Watch('info') message: number = 0;
   @State logNumber: number = 0;
   @State flag: boolean = true;
   @State desc: string = 'Hello World';
@@ -76,7 +76,7 @@ struct MyNavigationTestStack {
         })
         .id('test')
       if (this.flag) {
-        ChildComponent({index: -1, item: 'Hello', desc: this.desc}).reuseId( "1")
+        ChildComponent({index: -1, item: 'Hello', desc: this.desc}).reuseId( '1')
       }
       Navigation(this.pageInfo) {
         Column() {
@@ -106,7 +106,7 @@ struct PageOneStack {
     NavDestination() {
       Column() {
         NavigationContentMsgStack({ message: this.message, index: this.index, logNumber: this.logNumber })
-        Text("cur stack size:" + `${this.pageInfo.size()}`)
+        Text('cur stack size:' + `${this.pageInfo.size()}`)
           .fontSize(30)
           .fontWeight(FontWeight.Bold)
         Button('Next Page', { stateEffect: true, type: ButtonType.Capsule })
@@ -143,7 +143,7 @@ struct PageTwoStack {
     NavDestination() {
       Column() {
         NavigationContentMsgStack({ message: this.message, index: this.index, logNumber: this.logNumber })
-        Text("cur stack size:" + `${this.pageInfo.size()}`)
+        Text('cur stack size:' + `${this.pageInfo.size()}`)
           .fontSize(30)
           .fontWeight(FontWeight.Bold)
         Button('Next Page', { stateEffect: true, type: ButtonType.Capsule })
@@ -180,7 +180,7 @@ struct PageThreeStack {
     NavDestination() {
       Column() {
         NavigationContentMsgStack({ message: this.message, index: this.index, logNumber: this.logNumber })
-        Text("cur stack size:" + `${this.pageInfo.size()}`)
+        Text('cur stack size:' + `${this.pageInfo.size()}`)
           .fontSize(30)
           .fontWeight(FontWeight.Bold)
         Button('Next Page', { stateEffect: true, type: ButtonType.Capsule })
@@ -208,7 +208,7 @@ struct PageThreeStack {
 
 @Component({ freezeWhenInactive: true })
 struct NavigationContentMsgStack {
-  @Link @Watch("info") message: number;
+  @Link @Watch('info') message: number;
   @Link index: number;
   @Link logNumber: number;
 
@@ -220,10 +220,10 @@ struct NavigationContentMsgStack {
 
   build() {
     Column() {
-      Text("msg:" + `${this.message}`)
+      Text('msg:' + `${this.message}`)
         .fontSize(30)
         .fontWeight(FontWeight.Bold)
-      Text("log number:" + `${this.logNumber}`)
+      Text('log number:' + `${this.logNumber}`)
         .fontSize(30)
         .fontWeight(FontWeight.Bold)
     }

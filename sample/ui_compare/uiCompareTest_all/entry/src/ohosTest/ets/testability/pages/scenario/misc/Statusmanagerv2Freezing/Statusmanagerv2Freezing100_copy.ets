@@ -98,7 +98,7 @@ class MyDataSource extends BasicDataSource {
 @Component({ freezeWhenInactive: true })
 struct LforEachTest70Copy {
   private data: MyDataSource = new MyDataSource();
-  @State @Watch("onMessageUpdated") message: number = 0;
+  @State @Watch('onMessageUpdated') message: number = 0;
 
   onMessageUpdated() {
     console.info(`LazyforEach message callback func ${this.message}`)
@@ -132,7 +132,7 @@ struct LforEachTest70Copy {
 
 @Component
 struct FreezeChild {
-  @Link @Watch("onMessageUpdated") message: number;
+  @Link @Watch('onMessageUpdated') message: number;
   private index: number = 0;
 
   aboutToAppear() {
@@ -144,7 +144,7 @@ struct FreezeChild {
   }
 
   build() {
-    Text("message" + `${this.message}, index: ${this.index}`)
+    Text('message' + `${this.message}, index: ${this.index}`)
       .width('90%')
       .height(160)
       .backgroundColor(0xAFEEEE)

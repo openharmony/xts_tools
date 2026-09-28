@@ -25,16 +25,16 @@ struct SnapshotGetsync10 {
     Column() {
       Row() {
         Image(this.pixmap).width(200).height(200).border({ color: Color.Black, width: 2 }).margin(5)
-        Text('app.media.img').width(200).height(200).margin(5).id("root")
+        Text('app.media.img').width(200).height(200).margin(5).id('root')
       }
-      Button("click to generate UI snapshot")
+      Button('click to generate UI snapshot')
         .onClick(() => {
           try {
             // 建议使用this.getUIContext().getComponentSnapshot().getSync()
-            let pixelmap = componentSnapshot.getSync("root", {scale : 1, waitUntilRenderFinished : true})
+            let pixelmap = componentSnapshot.getSync('root', {scale : 1, waitUntilRenderFinished : true})
             this.pixmap = pixelmap
           } catch (error) {
-            console.error("getSync errorCode: " + error.code + " message: " + error.message)
+            console.error('getSync errorCode: ' + error.code + ' message: ' + error.message)
           }
         }).margin(10)
         .id('button')

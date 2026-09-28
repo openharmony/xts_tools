@@ -16,16 +16,16 @@
 @Entry
 @Component
 struct MeasurableUniqueId0060 {
-  @State logText: string = "日志输出:\n"
+  @State logText: string = '日志输出:\n'
 
   build() {
     Column() {
-      Text("MeasurableUniqueId0060测试页面")
+      Text('MeasurableUniqueId0060测试页面')
         .fontSize(20)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 20 })
 
-      Text("正确获取占位子组件的FrameNode，添加长按手势事件")
+      Text('正确获取占位子组件的FrameNode，添加长按手势事件')
         .fontSize(14)
         .margin({ bottom: 20 })
 
@@ -48,17 +48,17 @@ struct MeasurableUniqueId0060 {
               .onAction((event: GestureEvent) => {
                 let actionLog: string = `粉色方块${index} - LongPress长按手势触发, repeat=${event.repeat}`
                 console.log(actionLog)
-                this.logText += actionLog + "\n"
+                this.logText += actionLog + '\n'
               })
               .onActionEnd((event: GestureEvent) => {
                 let endLog: string = `粉色方块${index} - LongPress长按手势结束`
                 console.log(endLog)
-                this.logText += endLog + "\n"
+                this.logText += endLog + '\n'
               })
               .onActionCancel(() => {
                 let cancelLog: string = `粉色方块${index} - LongPress长按手势取消`
                 console.log(cancelLog)
-                this.logText += cancelLog + "\n"
+                this.logText += cancelLog + '\n'
               })
           )
         })
@@ -67,8 +67,8 @@ struct MeasurableUniqueId0060 {
       .width('100%')
       .margin({ bottom: 20 })
 
-      Button("添加长按手势事件到占位子组件")
-        .id("add_longpress_gesture_button")
+      Button('添加长按手势事件到占位子组件')
+        .id('add_longpress_gesture_button')
         .onClick(() => {
           this.addLongPressGestureToChildFrameNodes()
         })
@@ -77,7 +77,7 @@ struct MeasurableUniqueId0060 {
       // 日志显示区域
       Scroll() {
         Text(this.logText)
-          .id("log_text")
+          .id('log_text')
           .fontSize(12)
           .fontColor(Color.Black)
           .width('100%')
@@ -103,13 +103,13 @@ struct MeasurableUniqueId0060 {
           let uniqueId: number = frameNode.getUniqueId()
           let gestureLog: string = `已为粉色方块${i}添加LongPress长按手势事件，UniqueId: ${uniqueId}`
           console.log(gestureLog)
-          this.logText += gestureLog + "\n"
+          this.logText += gestureLog + '\n'
         }
       }
     } catch (error) {
       let errorMessage: string = `添加长按手势事件失败: ${error}`
       console.error(errorMessage)
-      this.logText += errorMessage + "\n"
+      this.logText += errorMessage + '\n'
     }
   }
 }

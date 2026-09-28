@@ -28,7 +28,7 @@ struct ArkUIComponentFunctionAdvancedComponentsMirror052 {
           fillColor: Color.Red
         },
         label: {
-          text: "operate",
+          text: 'operate',
           fontSize: 12,
           fontColor: Color.Blue,
           labelMargin: { left: 20, right: 30 }

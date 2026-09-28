@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { ComponentContent, NodeContent, typeNode } from "@kit.ArkUI";
+import { ComponentContent, NodeContent, typeNode } from '@kit.ArkUI';
 import { image } from '@kit.ImageKit';
 
 interface ParamsInterface {
@@ -33,7 +33,7 @@ function buildText(params: ParamsInterface) {
 @Entry
 @Component
 struct SnapshotComponentContent0390 {
-  @State message: string = "HELLO";
+  @State message: string = 'HELLO';
   private content: NodeContent = new NodeContent();
   private componentContent: ComponentContent<ParamsInterface> | null = null;
   @State pixmap: image.PixelMap | undefined = undefined;
@@ -42,7 +42,7 @@ struct SnapshotComponentContent0390 {
   build() {
     Row() {
       Column() {
-        Button("addComponentContent")
+        Button('addComponentContent')
           .id('btn')
           .onClick(() => {
             // 创建ComponentContent，使用Text组件
@@ -51,7 +51,7 @@ struct SnapshotComponentContent0390 {
                 text: this.message
               });
             
-            let column = typeNode.createNode(this.getUIContext(), "Column");
+            let column = typeNode.createNode(this.getUIContext(), 'Column');
             column.initialize();
             column.addComponentContent(this.componentContent);
             this.content.addFrameNode(column);
@@ -138,7 +138,7 @@ struct SnapshotComponentContent0390 {
             .border({ color: Color.Black, width: 2 })
         }
       }
-      .id("column")
+      .id('column')
       .width('100%')
       .height('100%')
     }

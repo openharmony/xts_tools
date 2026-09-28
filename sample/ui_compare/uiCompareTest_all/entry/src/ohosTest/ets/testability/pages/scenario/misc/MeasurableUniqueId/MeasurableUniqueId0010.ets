@@ -28,36 +28,36 @@ class LogCallback {
 @Entry
 @Component
 struct MeasurableUniqueId0010 {
-  @State logText: string = "日志输出:\n"
+  @State logText: string = '日志输出:\n'
 
   build() {
     Column() {
-      Text("MeasurableUniqueId测试页面")
+      Text('MeasurableUniqueId测试页面')
         .fontSize(20)
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 20 })
 
       // 测试组件
       Column() {
-        Text("子组件1")
+        Text('子组件1')
           .fontSize(16)
           .backgroundColor(Color.Blue)
           .fontColor(Color.White)
           .padding(10)
 
-        Text("子组件2")
+        Text('子组件2')
           .fontSize(16)
           .backgroundColor(Color.Red)
           .fontColor(Color.White)
           .padding(10)
 
-        Text("子组件3")
+        Text('子组件3')
           .fontSize(16)
           .backgroundColor(Color.Green)
           .fontColor(Color.White)
           .padding(10)
       }
-      .id("custom_layout")
+      .id('custom_layout')
       .width('100%')
       .height('16.39%')
       .backgroundColor(Color.Gray)
@@ -66,27 +66,27 @@ struct MeasurableUniqueId0010 {
       .onAreaChange((oldValue: Area, newValue: Area) => {
         let logMessage: string = `onAreaChange - 组件区域变化，新区域: width=${newValue.width}, height=${newValue.height}`
         console.log(logMessage)
-        this.logText += logMessage + "\n"
+        this.logText += logMessage + '\n'
       })
       .onAppear(() => {
         let logMessage: string = `测试组件已出现，开始测试 uniqueId 相关功能`
         console.log(logMessage)
-        this.logText += logMessage + "\n"
+        this.logText += logMessage + '\n'
         
         setTimeout(() => {
           let simulatedUniqueId: number = Math.floor(Math.random() * 10000)
           let measurableLogMessage: string = `模拟 Measurable uniqueId: ${simulatedUniqueId}`
           console.log(measurableLogMessage)
-          this.logText += measurableLogMessage + "\n"
+          this.logText += measurableLogMessage + '\n'
           
           let layoutableLogMessage: string = `模拟 Layoutable uniqueId: ${simulatedUniqueId}`
           console.log(layoutableLogMessage)
-          this.logText += layoutableLogMessage + "\n"
+          this.logText += layoutableLogMessage + '\n'
         }, 500)
       })
 
-      Button("获取FrameNode UniqueId")
-        .id("get_uniqueid_button")
+      Button('获取FrameNode UniqueId')
+        .id('get_uniqueid_button')
         .onClick(() => {
           this.getFrameNodeUniqueId()
         })
@@ -94,7 +94,7 @@ struct MeasurableUniqueId0010 {
 
       Scroll() {
         Text(this.logText)
-          .id("log_text")
+          .id('log_text')
           .fontSize(12)
           .fontColor(Color.Black)
           .width('100%')
@@ -114,17 +114,17 @@ struct MeasurableUniqueId0010 {
   getFrameNodeUniqueId(): void {
     // 获取FrameNode的uniqueId
     try {
-      let frameNode = this.getUIContext()?.getFrameNodeById("custom_layout")
+      let frameNode = this.getUIContext()?.getFrameNodeById('custom_layout')
       if (frameNode) {
         let uniqueId: number = frameNode.getUniqueId()
         let logMessage: string = `FrameNode UniqueId: ${uniqueId}`
         console.log(logMessage)
-        this.logText += logMessage + "\n"
+        this.logText += logMessage + '\n'
       }
     } catch (error) {
       let errorMessage: string = `获取FrameNode UniqueId失败: ${error}`
       console.error(errorMessage)
-      this.logText += errorMessage + "\n"
+      this.logText += errorMessage + '\n'
     }
   }
 }

@@ -15,7 +15,7 @@
 @Reusable
 @Component
 struct ReusableChild240 {
-  message: string = "hello";
+  message: string = 'hello';
 
   build() {
     Column() {
@@ -32,7 +32,7 @@ struct ReusableChild240 {
 @ReusableV2
 @ComponentV2
 struct Child242 {
-  @Local message: string = "hello";
+  @Local message: string = 'hello';
 
   build() {
     Column() {

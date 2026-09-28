@@ -23,7 +23,7 @@ struct TextPickerDialog001 {
 
   build() {
     Column() {
-      Button("TextPickerDialog:" + this.v)
+      Button('TextPickerDialog:' + this.v)
         .id('TextPickerDialog')
         .margin(20)
         .onClick(() => {
@@ -37,13 +37,13 @@ struct TextPickerDialog001 {
               this.select = value.index;
               console.log(this.select + '');
               this.v = value.value as string;
-              console.info("TextPickerDialog:onAccept()" + JSON.stringify(value));
+              console.info('TextPickerDialog:onAccept()' + JSON.stringify(value));
             },
             onChange: (value: TextPickerResult) => {
-              console.info("TextPickerDialog:onChange()" + JSON.stringify(value));
+              console.info('TextPickerDialog:onChange()' + JSON.stringify(value));
             },
             onScrollStop: (value: TextPickerResult) => {
-              console.info("TextPickerDialog:onScrollStop()" + JSON.stringify(value));
+              console.info('TextPickerDialog:onScrollStop()' + JSON.stringify(value));
             }
           });
         })

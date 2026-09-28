@@ -15,7 +15,7 @@
 @ReusableV2
 @ComponentV2
 export struct Child {
-  @Local message: string = "hello";
+  @Local message: string = 'hello';
 
   build() {
     Column() {
