@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 type MixedType_110 = number | boolean | string | null | undefined | (() => void);
-enum LoginType110 { pass = "密码登录", code = "验证码登录" }
+enum LoginType110 { pass = '密码登录', code = '验证码登录' }
 @Component
 struct CompD110 {
   @Consume flag: MixedType_110 | LoginType110 ;
@@ -37,12 +37,12 @@ struct CompA110 {
         .margin(10)
         .onClick(() => {
           const current = this.flag;
-          if (typeof current === "number") {
-            this.flag = "文字";
-          } else if (typeof current === "string") {
+          if (typeof current === 'number') {
+            this.flag = '文字';
+          } else if (typeof current === 'string') {
             this.flag = true;
-          } else if (typeof current === "boolean") {
-            this.flag = () => console.log("函数执行");
+          } else if (typeof current === 'boolean') {
+            this.flag = () => console.log('函数执行');
           } else if (current instanceof Function) {
             this.flag = null;
           } else {

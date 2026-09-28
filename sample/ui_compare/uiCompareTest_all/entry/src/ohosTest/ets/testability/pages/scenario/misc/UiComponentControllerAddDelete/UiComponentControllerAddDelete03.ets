@@ -73,9 +73,9 @@ struct UiComponentControllerAddDelete03 {
       Button('添加文本')
         .margin({ left: 20 })
         .onClick(() => {
-          this.textAreaController.addText("添加文本",{offset: null});
-          this.textinputController.addText("添加文本",{offset: undefined});
-          this.searchController.addText("添加文本",{offset: null});
+          this.textAreaController.addText('添加文本',{offset: null});
+          this.textinputController.addText('添加文本',{offset: undefined});
+          this.searchController.addText('添加文本',{offset: null});
         })
         .id('UiComponentControllerAddDelete03')
       Text(this.onCopy).fontSize(12).margin(10).key('copy')

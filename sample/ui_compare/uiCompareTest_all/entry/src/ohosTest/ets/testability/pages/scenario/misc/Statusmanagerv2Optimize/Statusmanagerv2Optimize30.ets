@@ -26,7 +26,7 @@ struct Index30 {
   build() {
     Column() {
       Text(`Price: ￥${this.product.price}`).fontSize(30)
-      Button("Increase Price")
+      Button('Increase Price')
         .onClick(() => {
           if(this.product.price){
             this.product.price += 10; // 直接修改，UI自动刷新

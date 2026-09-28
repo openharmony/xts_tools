@@ -61,15 +61,15 @@ struct UiComponentOnWillChange14 {
       start: 0,
       end: 0
     },
-    oldContent: "Hello world",
+    oldContent: 'Hello world',
     oldPreviewText: {
       offset:0,
-      value: "测试文本"
+      value: '测试文本'
     }
   };
   @State deleteOffset: number = 0;
   @State deleteDirection: number = 0;
-  @State deleteValue: string = "";
+  @State deleteValue: string = '';
   @State onchange:string='';
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Start, justifyContent: FlexAlign.Start }) {

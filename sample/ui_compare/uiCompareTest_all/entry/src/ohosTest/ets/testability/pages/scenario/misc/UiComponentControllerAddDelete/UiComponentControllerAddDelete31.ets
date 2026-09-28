@@ -133,7 +133,7 @@ struct UiComponentControllerAddDelete31 {
           })
           .id('UiComponentControllerAddDelete31_02')
       }
-      Text("onWillInsert onDidInsert onWillDelete onDidDelete is:"+this.result).fontSize(12).margin(10).key('copy')
+      Text('onWillInsert onDidInsert onWillDelete onDidDelete is:'+this.result).fontSize(12).margin(10).key('copy')
     }
     .height('100%')
     .width('100%')

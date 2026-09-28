@@ -16,26 +16,26 @@
 // 定义类型和枚举
 type ComplexType = number | string | boolean | null | undefined | (() => void);
 enum LogLevel {
-  Info = "INFO",
-  Error = "ERROR"
+  Info = 'INFO',
+  Error = 'ERROR'
 }
 
 // 数据模型
 @ObservedV2
 class AppData {
-  @Trace current: ComplexType = "Initial";
+  @Trace current: ComplexType = 'Initial';
 
   // 计算属性（根据联合类型动态返回描述）
   @Computed get typeDescription(): string {
     switch (typeof this.current) {
-      case "number":
+      case 'number':
         return `数字: ${this.current}`;
-      case "boolean":
+      case 'boolean':
         return `布尔: ${this.current ? "是" : "否"}`;
-      case "function":
-        return "函数类型";
+      case 'function':
+        return '函数类型';
       default:
-        return this.current === null ? "null" : "undefined";
+        return this.current === null ? 'null' : 'undefined';
     }
   }
 }
@@ -54,12 +54,12 @@ struct MainPage180 {
   build() {
     Column() {
       // 显示联合类型信息
-      Text("联合类型示例").fontSize(24).margin(10)
+      Text('联合类型示例').fontSize(24).margin(10)
       Text(this.appData.typeDescription).fontSize(18)
       Text(`实际类型: ${typeof this.appData.current}`).fontColor(Color.Blue)
 
       // 操作按钮组
-      Button("设置为数字")
+      Button('设置为数字')
         .onClick(() => this.updateValue(100))
         .margin(5)
         .id('btn')

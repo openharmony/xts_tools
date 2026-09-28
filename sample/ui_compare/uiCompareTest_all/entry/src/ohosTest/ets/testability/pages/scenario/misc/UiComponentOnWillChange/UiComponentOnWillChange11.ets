@@ -29,13 +29,13 @@ struct UiComponentOnWillChange11 {
       start: 0,
       end: 0
     },
-    oldContent: "Hello world",
+    oldContent: 'Hello world',
     oldPreviewText: {
       offset:0,
-      value: "测试文本"
+      value: '测试文本'
     }
   };
-  @State insertValue: string = "";
+  @State insertValue: string = '';
   @State insertOffset: number = 0;
   @State onchange:string='';
   build() {
@@ -70,10 +70,10 @@ struct UiComponentOnWillChange11 {
         .onDidInsert((info: InsertValue) => {
           this.insertOffset = info.insertOffset;
         })
-      Text("insertValue:" + this.insertValue + "  insertOffset:" + this.insertOffset).height(30)
-      Text("textarea onDidDelete content is:" +this.onwillchange+'\n'
-        +"textarea onWillChange options is:" +JSON.stringify(this.onwillchange02)+'\n'
-        +" textarea onChange is:"+this.onchange)
+      Text('insertValue:' + this.insertValue + '  insertOffset:' + this.insertOffset).height(30)
+      Text('textarea onDidDelete content is:' +this.onwillchange+'\n'
+        +'textarea onWillChange options is:' +JSON.stringify(this.onwillchange02)+'\n'
+        +' textarea onChange is:'+this.onchange)
         .fontSize(12).margin(10).key('copy')
     }
     .height('100%')

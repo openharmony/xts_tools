@@ -17,7 +17,7 @@ import { router } from '@kit.ArkUI';
 @Component
 struct MyNavigationTestStack {
   @Provide('pageInfo') pageInfo: NavPathStack = new NavPathStack();
-  @State @Watch("info") message: number = 0;
+  @State @Watch('info') message: number = 0;
   @State logNumber: number = 0;
 
   info() {
@@ -70,7 +70,7 @@ struct PageOneStack {
     NavDestination() {
       Column() {
         NavigationContentMsgStack({ message: this.message, index: this.index, logNumber: this.logNumber })
-        Text("cur stack size:" + `${this.pageInfo.size()}`)
+        Text('cur stack size:' + `${this.pageInfo.size()}`)
           .fontSize(30)
           .fontWeight(FontWeight.Bold)
         Button('Next Page', { stateEffect: true, type: ButtonType.Capsule })
@@ -107,7 +107,7 @@ struct PageTwoStack {
     NavDestination() {
       Column() {
         NavigationContentMsgStack({ message: this.message, index: this.index, logNumber: this.logNumber })
-        Text("cur stack size:" + `${this.pageInfo.size()}`)
+        Text('cur stack size:' + `${this.pageInfo.size()}`)
           .fontSize(30)
           .fontWeight(FontWeight.Bold)
         Button('Next Page', { stateEffect: true, type: ButtonType.Capsule })
@@ -144,7 +144,7 @@ struct PageThreeStack {
     NavDestination() {
       Column() {
         NavigationContentMsgStack({ message: this.message, index: this.index, logNumber: this.logNumber })
-        Text("cur stack size:" + `${this.pageInfo.size()}`)
+        Text('cur stack size:' + `${this.pageInfo.size()}`)
           .fontSize(30)
           .fontWeight(FontWeight.Bold)
         Button('Next Page', { stateEffect: true, type: ButtonType.Capsule })
@@ -172,7 +172,7 @@ struct PageThreeStack {
 
 @Component
 struct NavigationContentMsgStack {
-  @Link @Watch("info") message: number;
+  @Link @Watch('info') message: number;
   @Link index: number;
   @Link logNumber: number;
 
@@ -193,10 +193,10 @@ struct NavigationContentMsgStack {
         }
       }
       Button()
-      Text("msg:" + `${this.message}`)
+      Text('msg:' + `${this.message}`)
         .fontSize(30)
         .fontWeight(FontWeight.Bold)
-      Text("log number:" + `${this.logNumber}`)
+      Text('log number:' + `${this.logNumber}`)
         .fontSize(30)
         .fontWeight(FontWeight.Bold)
     }
@@ -205,7 +205,7 @@ struct NavigationContentMsgStack {
 
 @Component({ freezeWhenInactive: true })
 struct FreezeChild {
-  @Link @Watch("onMessageUpdated") message: number;
+  @Link @Watch('onMessageUpdated') message: number;
   private index: number = 0;
 
   aboutToAppear() {
@@ -217,7 +217,7 @@ struct FreezeChild {
   }
 
   build() {
-    Text("message" + `${this.message}, index: ${this.index}`)
+    Text('message' + `${this.message}, index: ${this.index}`)
       .width('90%')
       .height(160)
       .backgroundColor(0xAFEEEE)

@@ -29,15 +29,15 @@ struct UiComponentOnWillChange07 {
       start: 0,
       end: 0
     },
-    oldContent: "Hello world",
+    oldContent: 'Hello world',
     oldPreviewText: {
       offset:0,
-      value: "测试文本"
+      value: '测试文本'
     }
   };
   @State deleteOffset: number = 0;
   @State deleteDirection: number = 0;
-  @State deleteValue: string = "";
+  @State deleteValue: string = '';
   @State onchange:string='';
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Start, justifyContent: FlexAlign.Start }) {
@@ -75,12 +75,12 @@ struct UiComponentOnWillChange07 {
           console.log('onDidDelete');
         })
         .id('UiComponentOnWillChange07')
-      Text("textarea onDidDelete content is:" +this.onwillchange+'\n'
-        +"textarea onWillChange options is:" +JSON.stringify(this.onwillchange02)+'\n'
-        +" textarea onChange is:"+this.onchange)
+      Text('textarea onDidDelete content is:' +this.onwillchange+'\n'
+        +'textarea onWillChange options is:' +JSON.stringify(this.onwillchange02)+'\n'
+        +' textarea onChange is:'+this.onchange)
         .fontSize(12).margin(10).key('copy')
-      Text("deleteValue:" + this.deleteValue + "  deleteOffset:" + this.deleteOffset).height(30)
-      Text("deleteDirection:" + (this.deleteDirection == 0 ? "BACKWARD" : "FORWARD")).height(30)
+      Text('deleteValue:' + this.deleteValue + '  deleteOffset:' + this.deleteOffset).height(30)
+      Text('deleteDirection:' + (this.deleteDirection == 0 ? 'BACKWARD' : 'FORWARD')).height(30)
     }
     .height('100%')
     .width('100%')

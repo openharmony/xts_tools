@@ -97,7 +97,7 @@ class MyDataSource extends BasicDataSource {
 @Component
 struct LforEachTest {
   private data: MyDataSource = new MyDataSource();
-  @State @Watch("onMessageUpdated") message: number = 0;
+  @State @Watch('onMessageUpdated') message: number = 0;
 
   onMessageUpdated() {
     console.info(`LazyforEach message callback func ${this.message}`)
@@ -118,7 +118,7 @@ struct LforEachTest {
           LazyForEach(this.data, (item: number) => {
             FreezeChild60({ message: this.message, index: item })
             TabContent() {
-              Text("hello")
+              Text('hello')
             }
           }, (item: number) => item.toString())
       }
@@ -128,7 +128,7 @@ struct LforEachTest {
 
 @Component({ freezeWhenInactive: true })
 struct FreezeChild60 {
-  @Link @Watch("onMessageUpdated") message: number;
+  @Link @Watch('onMessageUpdated') message: number;
   private index: number = 0;
 
   aboutToAppear() {
@@ -140,7 +140,7 @@ struct FreezeChild60 {
   }
 
   build() {
-    Text("message" + `${this.message}, index: ${this.index}`)
+    Text('message' + `${this.message}, index: ${this.index}`)
       .width('90%')
       .height(160)
       .backgroundColor(0xAFEEEE)

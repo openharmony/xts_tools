@@ -31,7 +31,7 @@ function buildText(params: ParamsInterface) {
 @Entry
 @Component
 struct UIImportComponentContent002 {
-  @State message: string = "HELLO";
+  @State message: string = 'HELLO';
   private content: NodeContent = new NodeContent();
 
   build() {
@@ -41,7 +41,7 @@ struct UIImportComponentContent002 {
           .id('click')
           .stateEffect(true)
           .onClick(() => {
-            let column = typeNode.createNode(this.getUIContext(), "Column");
+            let column = typeNode.createNode(this.getUIContext(), 'Column');
             column.initialize();
             column.addComponentContent(new ComponentContent<ParamsInterface>(this.getUIContext(),
               wrapBuilder<[ParamsInterface]>(buildText), {
@@ -51,7 +51,7 @@ struct UIImportComponentContent002 {
           })
         ContentSlot(this.content)
       }
-      .id("column")
+      .id('column')
       .width('100%')
       .height('100%')
     }

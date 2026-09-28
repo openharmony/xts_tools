@@ -13,10 +13,10 @@
  * limitations under the License.
  */
 
-import { ComponentContent } from "@kit.ArkUI";
+import { ComponentContent } from '@kit.ArkUI';
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   constructor(text: string) {
     this.text = text;
   }
@@ -35,12 +35,12 @@ function buildText(params: Params) {
 @Entry
 @Component
 struct UiImportComponentContent03 {
-  @State message: string = "hello";
+  @State message: string = 'hello';
 
   build() {
     Row() {
       Column() {
-        Button("click me")
+        Button('click me')
           .onClick(() => {
             let uiContext = this.getUIContext();
             let promptAction = uiContext.getPromptAction();
@@ -48,7 +48,7 @@ struct UiImportComponentContent03 {
             promptAction.openCustomDialog(contentNode);
 
             setTimeout(() => {
-              contentNode.update(new Params("new message"));
+              contentNode.update(new Params('new message'));
             }, 2000);
           })
           .id('UiImportComponentContent03')

@@ -22,23 +22,23 @@ struct TvMenuFading034 {
   SubMenu() {
     Menu() {
       MenuItem({
-        content: "二级菜单项1超长文字测试渐隐效果二级菜单项1超长文字测试渐隐效果"
+        content: '二级菜单项1超长文字测试渐隐效果二级菜单项1超长文字测试渐隐效果'
       })
-        .id("sub_menu_item_034_01")
+        .id('sub_menu_item_034_01')
         .width(180)
         .height(50)
 
       MenuItem({
-        content: "二级菜单项2超长文字测试渐隐效果二级菜单项2超长文字测试渐隐效果"
+        content: '二级菜单项2超长文字测试渐隐效果二级菜单项2超长文字测试渐隐效果'
       })
-        .id("sub_menu_item_034_02")
+        .id('sub_menu_item_034_02')
         .width(180)
         .height(50)
 
       MenuItem({
-        content: "二级菜单项3超长文字测试渐隐效果二级菜单项3超长文字测试渐隐效果"
+        content: '二级菜单项3超长文字测试渐隐效果二级菜单项3超长文字测试渐隐效果'
       })
-        .id("sub_menu_item_034_03")
+        .id('sub_menu_item_034_03')
         .width(180)
         .height(50)
     }
@@ -49,26 +49,26 @@ struct TvMenuFading034 {
     Menu() {
       // 普通菜单项
       MenuItem({
-        content: "普通菜单项超长文字测试渐隐效果普通菜单项超长文字测试渐隐效果"
+        content: '普通菜单项超长文字测试渐隐效果普通菜单项超长文字测试渐隐效果'
       })
-        .id("menu_item_fading_034_01")
+        .id('menu_item_fading_034_01')
         .width(180)
         .height(50)
 
       // 带二级菜单的菜单项
       MenuItem({
-        content: "展开二级菜单超长文字测试渐隐效果展开二级菜单超长文字测试渐隐效果",
+        content: '展开二级菜单超长文字测试渐隐效果展开二级菜单超长文字测试渐隐效果',
         builder: (): void => this.SubMenu()
       })
-        .id("menu_item_fading_034_02")
+        .id('menu_item_fading_034_02')
         .width(180)
         .height(50)
 
       // 普通菜单项
       MenuItem({
-        content: "第三个菜单项超长文字测试渐隐效果第三个菜单项超长文字测试渐隐效果"
+        content: '第三个菜单项超长文字测试渐隐效果第三个菜单项超长文字测试渐隐效果'
       })
-        .id("menu_item_fading_034_03")
+        .id('menu_item_fading_034_03')
         .width(180)
         .height(50)
     }

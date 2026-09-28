@@ -57,8 +57,8 @@ struct RefreshPromptText03 {
       }
     }
     .clip(true)
-    .height("100%")
-    .width("100%")
+    .height('100%')
+    .width('100%')
   }
 
   build() {
@@ -130,7 +130,7 @@ struct RefreshPromptText03 {
 
       // 控制按钮区域
       Button('开始刷新')
-        .id("refreshPromptText03_01")
+        .id('refreshPromptText03_01')
         .width('80%')
         .height(40)
         .margin({ top: 10 })

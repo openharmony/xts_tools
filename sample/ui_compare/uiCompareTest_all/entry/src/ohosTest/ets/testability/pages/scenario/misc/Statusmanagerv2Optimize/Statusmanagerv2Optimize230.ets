@@ -32,12 +32,12 @@ struct Page {
     Column() {
       Text('pencil length'+ this.bag.pencil.length)
       // UINode (1)
-      Button("change length")
+      Button('change length')
         .onClick(() => {
           // 点击更改length值，UINode（1）会刷新
           this.bag.pencil.length += 100;
         })
-      Button("assign Son")
+      Button('assign Son')
         .onClick(() => {
           // 由于变量bag非状态变量，因此无法刷新UINode（1）
           this.bag = new Bag();

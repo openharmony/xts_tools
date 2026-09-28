@@ -22,16 +22,16 @@ struct TvMenuFading021 {
   SubMenuSideExpand() {
     Menu() {
       MenuItem({
-        content: "SIDE子菜单超长文字测试渐隐效果SIDE子菜单超长文字测试渐隐效果"
+        content: 'SIDE子菜单超长文字测试渐隐效果SIDE子菜单超长文字测试渐隐效果'
       })
-        .id("sub_menu_side_001")
+        .id('sub_menu_side_001')
         .width(180)
         .height(50)
 
       MenuItem({
-        content: "SIDE子菜单第二项超长文字测试渐隐效果SIDE子菜单第二项超长"
+        content: 'SIDE子菜单第二项超长文字测试渐隐效果SIDE子菜单第二项超长'
       })
-        .id("sub_menu_side_002")
+        .id('sub_menu_side_002')
         .width(180)
         .height(50)
     }
@@ -42,16 +42,16 @@ struct TvMenuFading021 {
   SubMenuEmbeddedExpand() {
     Menu() {
       MenuItem({
-        content: "EMBEDDED子菜单超长文字测试渐隐效果EMBEDDED子菜单超长文字"
+        content: 'EMBEDDED子菜单超长文字测试渐隐效果EMBEDDED子菜单超长文字'
       })
-        .id("sub_menu_embedded_001")
+        .id('sub_menu_embedded_001')
         .width(180)
         .height(50)
 
       MenuItem({
-        content: "EMBEDDED子菜单第二项超长文字测试渐隐效果EMBEDDED子菜单"
+        content: 'EMBEDDED子菜单第二项超长文字测试渐隐效果EMBEDDED子菜单'
       })
-        .id("sub_menu_embedded_002")
+        .id('sub_menu_embedded_002')
         .width(180)
         .height(50)
     }
@@ -62,16 +62,16 @@ struct TvMenuFading021 {
   SubMenuStackExpand() {
     Menu() {
       MenuItem({
-        content: "STACK子菜单超长文字测试渐隐效果STACK子菜单超长文字测试渐隐"
+        content: 'STACK子菜单超长文字测试渐隐效果STACK子菜单超长文字测试渐隐'
       })
-        .id("sub_menu_stack_001")
+        .id('sub_menu_stack_001')
         .width(180)
         .height(50)
 
       MenuItem({
-        content: "STACK子菜单第二项超长文字测试渐隐效果STACK子菜单第二项"
+        content: 'STACK子菜单第二项超长文字测试渐隐效果STACK子菜单第二项'
       })
-        .id("sub_menu_stack_002")
+        .id('sub_menu_stack_002')
         .width(180)
         .height(50)
     }
@@ -82,28 +82,28 @@ struct TvMenuFading021 {
     Menu() {
       // MenuItem带子菜单，使用SIDE_EXPAND方式
       MenuItem({
-        content: "SIDE_EXPAND超长菜单文字测试渐隐效果超长菜单文字测试渐隐效果",
+        content: 'SIDE_EXPAND超长菜单文字测试渐隐效果超长菜单文字测试渐隐效果',
         builder: (): void => this.SubMenuSideExpand()
       })
-        .id("menu_item_fading_021_01")
+        .id('menu_item_fading_021_01')
         .width(200)
         .height(50)
 
       // MenuItem带子菜单，使用EMBEDDED_EXPAND方式
       MenuItem({
-        content: "EMBEDDED_EXPAND超长菜单文字测试渐隐效果超长菜单文字测试",
+        content: 'EMBEDDED_EXPAND超长菜单文字测试渐隐效果超长菜单文字测试',
         builder: (): void => this.SubMenuEmbeddedExpand()
       })
-        .id("menu_item_fading_021_02")
+        .id('menu_item_fading_021_02')
         .width(200)
         .height(50)
 
       // MenuItem带子菜单，使用STACK_EXPAND方式
       MenuItem({
-        content: "STACK_EXPAND超长菜单文字测试渐隐效果超长菜单文字测试渐隐",
+        content: 'STACK_EXPAND超长菜单文字测试渐隐效果超长菜单文字测试渐隐',
         builder: (): void => this.SubMenuStackExpand()
       })
-        .id("menu_item_fading_021_03")
+        .id('menu_item_fading_021_03')
         .width(200)
         .height(50)
     }

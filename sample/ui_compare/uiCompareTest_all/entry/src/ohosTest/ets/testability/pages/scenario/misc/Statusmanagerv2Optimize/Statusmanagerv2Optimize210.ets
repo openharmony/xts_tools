@@ -33,10 +33,10 @@ struct MainPage210 {
   build() {
     Column() {
       // 显示联合类型信息
-      Text("文本："+this.appData.typeDescription).fontSize(18)
+      Text('文本：'+this.appData.typeDescription).fontSize(18)
 
       // 操作按钮组
-      Button("refresh")
+      Button('refresh')
         .onClick(()=>{this.appData.current = 'hi'})
         .margin(5)
         .id('btn')

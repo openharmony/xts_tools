@@ -57,7 +57,7 @@ struct PatternLock01 {
           enableWaveEffect: true
         })
         .onDotConnect((index: number) => {
-          console.log("onDotConnect index: " + index);
+          console.log('onDotConnect index: ' + index);
         })
         .onPatternComplete((input: number[]) => {
           // 输入的密码长度小于5时，提示重新输入
@@ -79,7 +79,7 @@ struct PatternLock01 {
           } else {
             // 提示第二次输入密码
             this.passwords = input;
-            this.message = "Please enter again.";
+            this.message = 'Please enter again.';
           }
         })
 
@@ -93,7 +93,7 @@ struct PatternLock01 {
         })
 
       Row() {
-        Button("sideLength 0")
+        Button('sideLength 0')
           .id('PatternLock_01')
           .margin(10)
           .width('2%')
@@ -102,7 +102,7 @@ struct PatternLock01 {
             this.sideLength = 0;
           })
 
-        Button("sideLength -50")
+        Button('sideLength -50')
           .id('PatternLock_02')
           .margin(10)
           .width('2%')
@@ -111,7 +111,7 @@ struct PatternLock01 {
             this.sideLength = -50;
           })
 
-        Button("sideLength 100")
+        Button('sideLength 100')
           .id('PatternLock_03')
           .margin(10)
           .width('2%')
@@ -120,7 +120,7 @@ struct PatternLock01 {
             this.sideLength = 100;
           })
 
-        Button("circleRadius 0")
+        Button('circleRadius 0')
           .id('PatternLock_04')
           .margin(10)
           .width('2%')
@@ -129,7 +129,7 @@ struct PatternLock01 {
             this.circleRadius = 0;
           })
 
-        Button("circleRadius -10")
+        Button('circleRadius -10')
           .id('PatternLock_05')
           .margin(10)
           .width('2%')
@@ -138,7 +138,7 @@ struct PatternLock01 {
             this.sideLength = -10;
           })
 
-        Button("pathStrokeWidth 0")
+        Button('pathStrokeWidth 0')
           .id('PatternLock_06')
           .margin(10)
           .width('2%')
@@ -147,7 +147,7 @@ struct PatternLock01 {
             this.pathStrokeWidth = 0;
           })
 
-        Button("pathStrokeWidth -10")
+        Button('pathStrokeWidth -10')
           .id('PatternLock_07')
           .margin(10)
           .width('2%')
@@ -156,7 +156,7 @@ struct PatternLock01 {
             this.pathStrokeWidth = -10;
           })
 
-        Button("color")
+        Button('color')
           .id('PatternLock_08')
           .margin(10)
           .width('2%')
@@ -170,7 +170,7 @@ struct PatternLock01 {
             this.pathStrokeWidth = Color.Red;
           })
 
-        Button("autoReset")
+        Button('autoReset')
           .id('PatternLock_09')
           .margin(10)
           .width('2%')
@@ -181,7 +181,7 @@ struct PatternLock01 {
       }.margin(20)
 
       Row() {
-        Button("reset sideLength")
+        Button('reset sideLength')
           .id('PatternLock_001')
           .margin(10)
           .width('2%')
@@ -190,7 +190,7 @@ struct PatternLock01 {
             this.sideLength = 200;
           })
 
-        Button("reset circleRadius")
+        Button('reset circleRadius')
           .id('PatternLock_002')
           .margin(10)
           .width('2%')
@@ -199,7 +199,7 @@ struct PatternLock01 {
             this.circleRadius = 6;
           })
 
-        Button("reset pathStrokeWidth")
+        Button('reset pathStrokeWidth')
           .id('PatternLock_003')
           .margin(10)
           .width('2%')

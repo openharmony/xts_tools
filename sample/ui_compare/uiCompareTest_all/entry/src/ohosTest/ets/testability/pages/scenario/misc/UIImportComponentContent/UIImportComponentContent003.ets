@@ -41,7 +41,7 @@ struct UIImportComponentContent003 {
           .id('click')
           .stateEffect(true)
           .onClick(() => {
-            let column = typeNode.createNode(this.getUIContext(), "Column");
+            let column = typeNode.createNode(this.getUIContext(), 'Column');
             column.initialize();
             column.addComponentContent(new ComponentContent<ParamsInterface>(this.getUIContext(),
               wrapBuilder<[]>(buildText)));
@@ -49,7 +49,7 @@ struct UIImportComponentContent003 {
           })
         ContentSlot(this.content)
       }
-      .id("column")
+      .id('column')
       .width('100%')
       .height('100%')
     }

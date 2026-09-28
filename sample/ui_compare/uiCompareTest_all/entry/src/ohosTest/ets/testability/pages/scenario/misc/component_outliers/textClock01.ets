@@ -58,7 +58,7 @@ struct TextClock01 {
     offsetY:5,
     fill:true
   }
-  @State dateTimeOptions:Optional<DateTimeOptions> = { hour: "numeric" };
+  @State dateTimeOptions:Optional<DateTimeOptions> = { hour: 'numeric' };
   controller1: TextClockController = new TextClockController();
   controller2: TextClockController = new TextClockController();
 
@@ -164,17 +164,17 @@ struct TextClock01 {
         .height('1%')
         .id('TextClock_08')
         .onClick( () => {
-          this.dateTimeOptions = { hour: "2-digit" };
+          this.dateTimeOptions = { hour: '2-digit' };
         })
 
-      Button("start TextClock")
+      Button('start TextClock')
         .margin({ top: 20, bottom: 10 })
         .onClick(() => {
           // 启动文本时钟
           this.controller1.start();
           this.controller2.start();
         })
-      Button("stop TextClock")
+      Button('stop TextClock')
         .margin({ bottom: 30 })
         .onClick(() => {
           // 停止文本时钟

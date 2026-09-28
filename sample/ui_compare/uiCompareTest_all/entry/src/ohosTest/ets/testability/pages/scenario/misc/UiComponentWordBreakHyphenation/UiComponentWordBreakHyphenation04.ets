@@ -24,7 +24,7 @@ struct UiComponentWordBreakHyphenation04 {
             .fontSize('16fp')
             .fontColor(Color.White)
         }
-        .textBackgroundStyle({color: "#7F007DFF", radius: "12vp"})
+        .textBackgroundStyle({color: '#7F007DFF', radius: '12vp'})
       }
       .width(200)
       .wordBreak(WordBreak.HYPHENATION)

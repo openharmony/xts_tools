@@ -29,13 +29,13 @@ function buildTextTimer(config: TextTimerConfiguration) {
       Circle({ width: 150, height: 150 })
         .fill(config.started ? (config.isCountDown ? 0xFF232323 : 0xFF717171) : 0xFF929292)
       Column() {
-        Text(config.isCountDown ? "倒计时" : "正计时").fontColor(Color.White)
+        Text(config.isCountDown ? '倒计时' : '正计时').fontColor(Color.White)
         Text(
-          (config.isCountDown ? "剩余" : "已经过去了") + (config.isCountDown ?
-            (Math.max(config.count / 1000 - config.elapsedTime / 100, 0)).toFixed(1) + "/" +
+          (config.isCountDown ? '剩余' : '已经过去了') + (config.isCountDown ?
+            (Math.max(config.count / 1000 - config.elapsedTime / 100, 0)).toFixed(1) + '/' +
             (config.count / 1000).toFixed(0)
             : ((config.elapsedTime / 100).toFixed(0))
-          ) + "秒"
+          ) + '秒'
         ).fontColor(Color.White)
       }
     }
@@ -160,7 +160,7 @@ struct TextTimer01 {
           })
 
         Row() {
-          Button("start")
+          Button('start')
             .margin({right:5})
             .height(30)
             .id('TextClock_01')
@@ -169,13 +169,13 @@ struct TextTimer01 {
               this.countDownTextTimerController1.start();
             })
 
-          Button("pause")
+          Button('pause')
             .margin(10)
             .onClick(() => {
               this.countDownTextTimerController.pause();
               this.countDownTextTimerController1.pause();
             })
-          Button("reset")
+          Button('reset')
             .margin(10)
             .onClick(() => {
               this.countDownTextTimerController.reset();

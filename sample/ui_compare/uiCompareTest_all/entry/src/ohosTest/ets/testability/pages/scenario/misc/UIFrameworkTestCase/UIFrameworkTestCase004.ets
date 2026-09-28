@@ -13,8 +13,8 @@
  * limitations under the License.
  */
 
-import { RenderNode, FrameNode, NodeController } from "@ohos.arkui.node"
-import { UIContext } from "@ohos.arkui.UIContext";
+import { RenderNode, FrameNode, NodeController } from '@ohos.arkui.node'
+import { UIContext } from '@ohos.arkui.UIContext';
 
 const renderNode = new RenderNode();
 const renderNode1 = new RenderNode();
@@ -33,7 +33,7 @@ renderNode1.shadowElevation = 0; // 初始无阴影
 
 class BaseNodeController extends NodeController {
   makeNode(uiContext: UIContext): FrameNode | null {
-    throw new Error("Method not implemented.");
+    throw new Error('Method not implemented.');
   }
   protected rootNode: FrameNode | null = null; // 统一属性名
   // 公共初始化方法
@@ -77,7 +77,7 @@ struct Index {
 
   build() {
     Column() {
-      Text("This is a NodeContainer contains a text and a button ")
+      Text('This is a NodeContainer contains a text and a button ')
         .fontSize(15)
         .fontColor(0xCCCCCC)
         .align(Alignment.Top)
@@ -95,7 +95,7 @@ struct Index {
           this.setShadow = !this.setShadow;
           if (this.setShadow) {
             renderNode.shadowElevation = 30;
-            console.info("rootRender set shadowElevation = 30 successfully");
+            console.info('rootRender set shadowElevation = 30 successfully');
           } else {
             renderNode1.shadowElevation = 0;
           }

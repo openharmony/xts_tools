@@ -41,7 +41,7 @@ function buildText(params: ParamsInterface) {
 @Entry
 @Component
 struct UIImportComponentContent001 {
-  @State message: string = "HELLO";
+  @State message: string = 'HELLO';
   private content: NodeContent = new NodeContent();
 
   build() {
@@ -51,19 +51,19 @@ struct UIImportComponentContent001 {
           .id('click')
           .stateEffect(true)
           .onClick(() => {
-            let column = typeNode.createNode(this.getUIContext(), "Column");
+            let column = typeNode.createNode(this.getUIContext(), 'Column');
             column.initialize();
             column.addComponentContent(new ComponentContent<ParamsInterface>(this.getUIContext(),
               wrapBuilder<[ParamsInterface]>(buildText), {
                 text: this.message, func: () => {
-                  return "FUNCTION";
+                  return 'FUNCTION';
                 }
               }, { nestingBuilderSupported: true }));
             this.content.addFrameNode(column);
           })
         ContentSlot(this.content)
       }
-      .id("column")
+      .id('column')
       .width('100%')
       .height('100%')
     }

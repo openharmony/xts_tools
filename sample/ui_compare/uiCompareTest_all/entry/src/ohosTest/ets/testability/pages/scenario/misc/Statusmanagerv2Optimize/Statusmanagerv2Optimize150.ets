@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 type MixedType_100 = number | boolean | string | null | undefined | (() => void);
-enum LoginType100 { pass = "密码登录", code = "验证码登录" }
+enum LoginType100 { pass = '密码登录', code = '验证码登录' }
 @Component
 struct CompD100 {
   @Consume flag: MixedType_100 | LoginType100 ;
@@ -25,12 +25,12 @@ struct CompD100 {
         .margin(10)
         .onClick(() => {
           const current = this.flag;
-          if (typeof current === "number") {
-            this.flag = "文字";
-          } else if (typeof current === "string") {
+          if (typeof current === 'number') {
+            this.flag = '文字';
+          } else if (typeof current === 'string') {
             this.flag = true;
-          } else if (typeof current === "boolean") {
-            this.flag = () => console.log("函数执行");
+          } else if (typeof current === 'boolean') {
+            this.flag = () => console.log('函数执行');
           } else if (current instanceof Function) {
             this.flag = null;
           } else {

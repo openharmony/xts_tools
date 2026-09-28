@@ -25,14 +25,14 @@ struct Index70 {
       Text(`Local ${this.count}`)
       Text(`Local ${this.message}`)
       Text(`Local ${this.flag}`)
-      Button("change Local")
+      Button('change Local')
         .onClick(()=>{
           // 对数据源的更改会同步给子组件
           if(!this.count) {
             this.count=0;
           }
           if(!this.message) {
-            this.message="hello"
+            this.message='hello'
           }
           this.flag = !this.flag;
         })

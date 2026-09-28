@@ -34,7 +34,7 @@ struct UITransformationTestCase001 {
         .backgroundColor(0x317aff) // 蓝色
         .fontColor(Color.White)
         .textAlign(TextAlign.Center)
-        .translate({ y: "20%" }) // 关键属性设置
+        .translate({ y: '20%' }) // 关键属性设置
         .border({ width: 1, color: Color.Black })
     }
     .width('100%')

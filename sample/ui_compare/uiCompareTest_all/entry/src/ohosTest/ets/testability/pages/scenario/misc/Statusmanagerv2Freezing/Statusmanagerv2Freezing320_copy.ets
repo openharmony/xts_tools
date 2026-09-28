@@ -16,7 +16,7 @@ import { router } from '@kit.ArkUI';
 @Entry
 @Component
 struct LforEachTest70 {
-  @State @Watch("onMessageUpdated") message: number = 0;
+  @State @Watch('onMessageUpdated') message: number = 0;
   onMessageUpdated() {
     console.info(`LazyforEach message callback func ${this.message}`)
   }
@@ -54,7 +54,7 @@ class Info {
 @Component({ freezeWhenInactive: true })
 struct Index {
   info1: Info = new Info();                      // @ObservedV2装饰的Class可以在V1中使用，且被@Trace装饰的类属性具有观测能力
-  @Link @Watch("onMessageUpdated") message: number;
+  @Link @Watch('onMessageUpdated') message: number;
 
   onMessageUpdated() {
     console.info(`FreezeChild message callback func ${this.message}`)

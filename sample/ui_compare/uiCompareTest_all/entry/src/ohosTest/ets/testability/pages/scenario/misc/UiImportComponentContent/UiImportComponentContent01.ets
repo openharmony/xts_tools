@@ -17,7 +17,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 import { ComponentContent } from '@kit.ArkUI';
 
 class Params {
-  public text: string = "";
+  public text: string = '';
   constructor(text: string) {
     this.text = text;
   }
@@ -36,12 +36,12 @@ function buildText(params: Params) {
 @Entry
 @Component
 struct UiImportComponentContent01 {
-  @State message: string = "hello";
+  @State message: string = 'hello';
 
   build() {
     Row() {
       Column() {
-        Button("click me")
+        Button('click me')
           .onClick(() => {
             let uiContext = this.getUIContext();
             let promptAction = uiContext.getPromptAction();

@@ -22,23 +22,23 @@ struct TvMenuFading031 {
     Menu() {
       // MenuItem设置超长文字，验证获焦跑马灯效果
       MenuItem({
-        content: "超长菜单文字内容测试跑马灯渐隐效果超长菜单文字内容测试跑马灯渐隐效果超长菜单文字"
+        content: '超长菜单文字内容测试跑马灯渐隐效果超长菜单文字内容测试跑马灯渐隐效果超长菜单文字'
       })
-        .id("menu_item_fading_031_01")
+        .id('menu_item_fading_031_01')
         .width(180)
         .height(50)
 
       MenuItem({
-        content: "第二个超长菜单文字测试跑马灯渐隐效果第二个超长菜单文字测试跑马灯渐隐效果"
+        content: '第二个超长菜单文字测试跑马灯渐隐效果第二个超长菜单文字测试跑马灯渐隐效果'
       })
-        .id("menu_item_fading_031_02")
+        .id('menu_item_fading_031_02')
         .width(180)
         .height(50)
 
       MenuItem({
-        content: "第三个超长菜单文字测试跑马灯渐隐效果第三个超长菜单文字测试跑马灯渐隐效果"
+        content: '第三个超长菜单文字测试跑马灯渐隐效果第三个超长菜单文字测试跑马灯渐隐效果'
       })
-        .id("menu_item_fading_031_03")
+        .id('menu_item_fading_031_03')
         .width(180)
         .height(50)
     }

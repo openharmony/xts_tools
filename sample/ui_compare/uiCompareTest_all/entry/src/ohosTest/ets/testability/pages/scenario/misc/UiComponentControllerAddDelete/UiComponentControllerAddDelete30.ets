@@ -96,8 +96,8 @@ struct UiComponentControllerAddDelete30 {
           })
           .id('UiComponentControllerAddDelete30_02')
       }
-      Text("textarea onWillChange is:"+this.textareachange+" textinputselect onWillChange is:"
-        +this.textinputchange+"searchselect onWillChange is:"+this.searchchange).fontSize(12).margin(10).key('copy')
+      Text('textarea onWillChange is:'+this.textareachange+' textinputselect onWillChange is:'
+        +this.textinputchange+'searchselect onWillChange is:'+this.searchchange).fontSize(12).margin(10).key('copy')
     }
     .height('100%')
     .width('100%')

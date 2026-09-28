@@ -22,9 +22,9 @@ struct TvMenuFading001 {
     Menu() {
       // MenuItem设置超长文字和背景图片，验证文字渐隐效果，背景图片不渐隐
       MenuItem({
-        content: "超长菜单文字内容测试渐隐效果超长菜单文字内容测试渐隐效果超长菜单文字内容测试渐隐效果"
+        content: '超长菜单文字内容测试渐隐效果超长菜单文字内容测试渐隐效果超长菜单文字内容测试渐隐效果'
       })
-        .id("menu_item_fading_001")
+        .id('menu_item_fading_001')
         .width(180)
         .height(80)
         .backgroundImage($r('app.media.big_icon'))
@@ -32,9 +32,9 @@ struct TvMenuFading001 {
         .backgroundImagePosition(Alignment.Center)
 
       MenuItem({
-        content: "第二个超长菜单文字测试渐隐效果第二个超长菜单文字测试渐隐效果第二个超长菜单"
+        content: '第二个超长菜单文字测试渐隐效果第二个超长菜单文字测试渐隐效果第二个超长菜单'
       })
-        .id("menu_item_fading_002")
+        .id('menu_item_fading_002')
         .width(180)
         .height(80)
         .backgroundImage($r('app.media.closeeye'))
@@ -42,9 +42,9 @@ struct TvMenuFading001 {
         .backgroundImagePosition(Alignment.Center)
 
       MenuItem({
-        content: "第三个超长菜单文字测试渐隐效果第三个超长菜单文字测试渐隐效果第三个超长菜单"
+        content: '第三个超长菜单文字测试渐隐效果第三个超长菜单文字测试渐隐效果第三个超长菜单'
       })
-        .id("menu_item_fading_003")
+        .id('menu_item_fading_003')
         .width(180)
         .height(80)
         .backgroundImage($r('app.media.icon'))

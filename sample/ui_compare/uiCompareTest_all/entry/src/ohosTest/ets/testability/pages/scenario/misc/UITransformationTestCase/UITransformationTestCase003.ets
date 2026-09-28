@@ -26,7 +26,7 @@ struct UITransformationTestCase003 {
         .backgroundColor(0x317aff) // 蓝色
         .fontColor(Color.White)
         .textAlign(TextAlign.Center)
-        .rotate({angle:90,centerX:"0%",centerY:"0%"}) // 关键属性设置
+        .rotate({angle:90,centerX:'0%',centerY:'0%'}) // 关键属性设置
         .border({ width: 1, color: Color.Black })
 
       // 基准参考组件（红色）

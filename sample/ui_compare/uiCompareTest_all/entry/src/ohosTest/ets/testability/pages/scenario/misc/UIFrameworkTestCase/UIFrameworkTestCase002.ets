@@ -41,7 +41,7 @@ class MyNodeController extends NodeController {
   makeNode(uiContext: UIContext): FrameNode | null {
     if (this.rootNode === null) {
       this.rootNode = new BuilderNode(uiContext);
-      this.rootNode.build(this.wrapBuilder, { text: "This is a Text" })
+      this.rootNode.build(this.wrapBuilder, { text: 'This is a Text' })
     }
     return this.rootNode.getFrameNode();
   }
@@ -71,7 +71,7 @@ struct Index {
 
   build() {
     Stack() {
-      Text("This is a NodeContainer contains a text and a button ")
+      Text('This is a NodeContainer contains a text and a button ')
         .fontSize(15)
         .fontColor(0xCCCCCC)
       NodeContainer(this.baseNode)
@@ -80,7 +80,7 @@ struct Index {
           // 点击时循环切换对齐方式
           this.currentIndex = (this.currentIndex + 1) % this.alignments.length
           this.alignValue = this.alignments[this.currentIndex]
-          console.log("Current alignment: " + this.alignValue.toString())
+          console.log('Current alignment: ' + this.alignValue.toString())
         })
         .id('NodeContainer')
         .width('50%')

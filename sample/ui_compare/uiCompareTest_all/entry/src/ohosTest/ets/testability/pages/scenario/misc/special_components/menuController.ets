@@ -22,8 +22,8 @@ struct GetContextMenuControllerExample {
 
   @Builder MenuBuilder() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {
-      Button("onHoverClose")
-        .id("getContextClose")
+      Button('onHoverClose')
+        .id('getContextClose')
         .onHover((isHover: boolean, event: HoverEvent) => {
           this.menu.close();
         })
@@ -39,7 +39,7 @@ struct GetContextMenuControllerExample {
 
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center, justifyContent: FlexAlign.Center }) {
-      Text(this.state).margin(30).id("getContext")
+      Text(this.state).margin(30).id('getContext')
 
       Column() {
         Image($r('app.media.icon'))

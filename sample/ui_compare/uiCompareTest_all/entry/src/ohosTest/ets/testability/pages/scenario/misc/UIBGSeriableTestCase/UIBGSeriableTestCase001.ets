@@ -39,13 +39,13 @@ struct ScrollToGroupExample1 {
     Column() {
       // 控制面板
       Row({ space: 8 }) {
-        Button("跳转到\nGroup1")
+        Button('跳转到\nGroup1')
           .id('Group1')
           .onClick(() => this.jumpToGroup(1))
-        Button("跳转到\nGroup2")
+        Button('跳转到\nGroup2')
           .id('Group2')
           .onClick(() => this.jumpToGroup(2))
-        Button("跳转到\nGroup3")
+        Button('跳转到\nGroup3')
           .id('Group3')
           .onClick(() => this.jumpToGroup(3))
       }

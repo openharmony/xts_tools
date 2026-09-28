@@ -22,25 +22,25 @@ struct TvMenuFading002 {
     Menu() {
       // MenuItem设置超长文字和背景颜色，验证文字渐隐效果，背景颜色不渐隐
       MenuItem({
-        content: "超长菜单文字内容测试渐隐效果超长菜单文字内容测试渐隐效果超长菜单文字内容测试渐隐效果"
+        content: '超长菜单文字内容测试渐隐效果超长菜单文字内容测试渐隐效果超长菜单文字内容测试渐隐效果'
       })
-        .id("menu_item_fading_002_01")
+        .id('menu_item_fading_002_01')
         .width(180)
         .height(60)
         .backgroundColor(Color.Blue)
 
       MenuItem({
-        content: "第二个超长菜单文字测试渐隐效果第二个超长菜单文字测试渐隐效果第二个超长菜单"
+        content: '第二个超长菜单文字测试渐隐效果第二个超长菜单文字测试渐隐效果第二个超长菜单'
       })
-        .id("menu_item_fading_002_02")
+        .id('menu_item_fading_002_02')
         .width(180)
         .height(60)
         .backgroundColor(Color.Blue)
 
       MenuItem({
-        content: "第三个超长菜单文字测试渐隐效果第三个超长菜单文字测试渐隐效果第三个超长菜单"
+        content: '第三个超长菜单文字测试渐隐效果第三个超长菜单文字测试渐隐效果第三个超长菜单'
       })
-        .id("menu_item_fading_002_03")
+        .id('menu_item_fading_002_03')
         .width(180)
         .height(60)
         .backgroundColor(Color.Blue)

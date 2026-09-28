@@ -22,37 +22,37 @@ struct TvMenuFading035 {
     Menu() {
       // 多个MenuItem，每个content均超长，用于测试焦点hover切换
       MenuItem({
-        content: "第一个超长菜单文字内容测试焦点hover切换跑马灯效果第一个超长菜单文字内容"
+        content: '第一个超长菜单文字内容测试焦点hover切换跑马灯效果第一个超长菜单文字内容'
       })
-        .id("menu_item_fading_035_01")
+        .id('menu_item_fading_035_01')
         .width(180)
         .height(50)
 
       MenuItem({
-        content: "第二个超长菜单文字内容测试焦点hover切换跑马灯效果第二个超长菜单文字内容"
+        content: '第二个超长菜单文字内容测试焦点hover切换跑马灯效果第二个超长菜单文字内容'
       })
-        .id("menu_item_fading_035_02")
+        .id('menu_item_fading_035_02')
         .width(180)
         .height(50)
 
       MenuItem({
-        content: "第三个超长菜单文字内容测试焦点hover切换跑马灯效果第三个超长菜单文字内容"
+        content: '第三个超长菜单文字内容测试焦点hover切换跑马灯效果第三个超长菜单文字内容'
       })
-        .id("menu_item_fading_035_03")
+        .id('menu_item_fading_035_03')
         .width(180)
         .height(50)
 
       MenuItem({
-        content: "第四个超长菜单文字内容测试焦点hover切换跑马灯效果第四个超长菜单文字内容"
+        content: '第四个超长菜单文字内容测试焦点hover切换跑马灯效果第四个超长菜单文字内容'
       })
-        .id("menu_item_fading_035_04")
+        .id('menu_item_fading_035_04')
         .width(180)
         .height(50)
 
       MenuItem({
-        content: "第五个超长菜单文字内容测试焦点hover切换跑马灯效果第五个超长菜单文字内容"
+        content: '第五个超长菜单文字内容测试焦点hover切换跑马灯效果第五个超长菜单文字内容'
       })
-        .id("menu_item_fading_035_05")
+        .id('menu_item_fading_035_05')
         .width(180)
         .height(50)
     }

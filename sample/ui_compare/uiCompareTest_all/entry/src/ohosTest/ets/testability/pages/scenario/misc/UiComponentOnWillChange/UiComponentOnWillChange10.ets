@@ -30,10 +30,10 @@ struct UiComponentOnWillChange10 {
       start: 0,
       end: 0
     },
-    oldContent: "Hello world",
+    oldContent: 'Hello world',
     oldPreviewText: {
       offset:0,
-      value: "测试文本"
+      value: '测试文本'
     }
   };
   build() {
@@ -64,13 +64,13 @@ struct UiComponentOnWillChange10 {
         Button('add text')
           .margin({ left: 20 })
           .onClick(() => {
-            this.textAreaController.addText("添加文本");
+            this.textAreaController.addText('添加文本');
           })
           .id('UiComponentOnWillChange10')
       }
-      Text("textarea onWillChange content is:" +this.onwillchange+'\n'
-        +"textarea onWillChange options is:" +JSON.stringify(this.onwillchange02)+'\n'
-        +" textarea onChange is:"+this.onchange)
+      Text('textarea onWillChange content is:' +this.onwillchange+'\n'
+        +'textarea onWillChange options is:' +JSON.stringify(this.onwillchange02)+'\n'
+        +' textarea onChange is:'+this.onchange)
         .fontSize(12).margin(10).key('copy')
     }
     .height('100%')

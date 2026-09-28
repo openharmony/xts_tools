@@ -19,15 +19,15 @@ struct AvoidContinuumshuWindow0010 {
   @Builder
   MenuBuilder() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
+      MenuItem({ content: '菜单项1' })
         .onClick(() => {
           console.log('点击了菜单项1')
         })
-      MenuItem({ content: "菜单项2" })
+      MenuItem({ content: '菜单项2' })
         .onClick(() => {
           console.log('点击了菜单项2')
         })
-      MenuItem({ content: "菜单项3" })
+      MenuItem({ content: '菜单项3' })
         .onClick(() => {
           console.log('点击了菜单项3')
         })

@@ -41,7 +41,7 @@ class MyNodeController extends NodeController {
   makeNode(uiContext: UIContext): FrameNode | null {
     if (this.rootNode === null) {
       this.rootNode = new BuilderNode(uiContext);
-      this.rootNode.build(this.wrapBuilder, { text: "This is a Text" })
+      this.rootNode.build(this.wrapBuilder, { text: 'This is a Text' })
     }
     return this.rootNode.getFrameNode();
   }
@@ -54,13 +54,13 @@ struct Index {
   @State isEnable: boolean = true
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Start, justifyContent: FlexAlign.SpaceEvenly }) {
-      Text("This is a NodeContainer contains a text and a button ")
+      Text('This is a NodeContainer contains a text and a button ')
         .fontSize(15)
         .fontColor(0xCCCCCC)
       NodeContainer(this.baseNode)
         .borderWidth(1)
         .onTouch(() => {
-           console.log("nodeContainerEnabled, click event");
+           console.log('nodeContainerEnabled, click event');
         })
         .id('NodeContainer')
         .width('60%')
@@ -70,7 +70,7 @@ struct Index {
         .id('setEnabled')
         .onClick(()=>{
           this.isEnable = !this.isEnable
-          console.log("setEnabled: " + this.isEnable);
+          console.log('setEnabled: ' + this.isEnable);
         })
     }
     .padding({ left: 35, right: 35, top: 35, bottom:20 })

@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import XComponentContext from "./interface/XComponentContext"
+import XComponentContext from './interface/XComponentContext'
 
 @Entry
 @Component
@@ -22,7 +22,7 @@ struct TestCase003 {
   controller: RichEditorController = new RichEditorController();
   options: RichEditorOptions = { controller: this.controller };
   private xComponentContext: XComponentContext | undefined = undefined;
-  @State currentStatus: string = "init";
+  @State currentStatus: string = 'init';
 
    build() {
      Row() {

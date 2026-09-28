@@ -42,7 +42,7 @@ struct Page21 {
         this.b = new B(`wwww`)//上报Local
       }).id('cb')
       Button('change b.arr').onClick(() => {
-        this.b.arr.push("ddd")//方案1 没有装饰器、属性名、所属组件
+        this.b.arr.push('ddd')//方案1 没有装饰器、属性名、所属组件
       }).id('cba')
       Button('change b.bb').onClick(() => {
         this.b.bb= 'ccc'//上报的Trace

@@ -30,13 +30,13 @@ struct Keyframe02 {
       Circle()
         .width(100)
         .height(100)
-        .fill("#46B1E3")
+        .fill('#46B1E3')
         .margin(100)
         .id('Circle02')
         .scale({ x: this.myScale, y: this.myScale })
         .onClick(() => {
           if (!this.uiContext) {
-            console.info("no uiContext, keyframe failed");
+            console.info('no uiContext, keyframe failed');
             return;
           }
           this.myScale = 1;
@@ -45,7 +45,7 @@ struct Keyframe02 {
             {
               iterations: 5, delay: 0,
               onFinish: () => {
-                console.info("custom animate done.");
+                console.info('custom animate done.');
               }
             }, [
             {

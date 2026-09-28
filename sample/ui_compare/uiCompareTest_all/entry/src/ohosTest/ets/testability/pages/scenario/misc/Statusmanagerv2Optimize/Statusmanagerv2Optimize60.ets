@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 type MixedType = number | boolean | string | null | undefined | (() => void);
-enum LoginType60 { pass = "密码登录", code = "验证码登录" }
+enum LoginType60 { pass = '密码登录', code = '验证码登录' }
 // 父组件
 @Entry
 @ComponentV2
@@ -24,12 +24,12 @@ struct IndexOp60 {
   // 刷新逻辑
   refreshValue() {
     const current = this.flag;
-    if (typeof current === "number") {
-      this.flag = "文字";
-    } else if (typeof current === "string") {
+    if (typeof current === 'number') {
+      this.flag = '文字';
+    } else if (typeof current === 'string') {
       this.flag = true;
-    } else if (typeof current === "boolean") {
-      this.flag = () => console.log("函数执行");
+    } else if (typeof current === 'boolean') {
+      this.flag = () => console.log('函数执行');
     } else if (current instanceof Function) {
       this.flag = null;
     } else {
@@ -41,14 +41,14 @@ struct IndexOp60 {
       Text(`Local ${this.count}`)
       Text(`Local ${this.message}`)
       Text(`Local ${this.flag}`)
-      Button("change Local")
+      Button('change Local')
         .onClick(()=>{
           // 对数据源的更改会同步给子组件
           if(!this.count) {
             this.count=0;
           }
           if(!this.message) {
-            this.message="hello"
+            this.message='hello'
           }
           this.refreshValue()
         })

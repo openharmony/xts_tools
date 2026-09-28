@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { RenderNode, FrameNode, NodeController } from "@ohos.arkui.node"
+import { RenderNode, FrameNode, NodeController } from '@ohos.arkui.node'
 
 interface Rotation {
   x: number;
@@ -55,7 +55,7 @@ struct Index {
 
   build() {
     Column() {
-      Text("This is a NodeContainer contains a text and a button ")
+      Text('This is a NodeContainer contains a text and a button ')
         .fontSize(15)
         .fontColor(0xCCCCCC)
         .align(Alignment.Top)

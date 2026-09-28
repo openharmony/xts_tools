@@ -153,19 +153,19 @@ struct RefreshInterconnection01 {
       // 控制按钮区域
       Row({ space: 10 }) {
         Button('下一页')
-          .id("refreshInterconnection01_01")
+          .id('refreshInterconnection01_01')
           .onClick(() => {
             this.swiperController.showNext();
           })
         
         Button('上一页')
-          .id("refreshInterconnection01_02")
+          .id('refreshInterconnection01_02')
           .onClick(() => {
             this.swiperController.showPrevious();
           })
         
         Button('开始刷新')
-          .id("refreshInterconnection01_03")
+          .id('refreshInterconnection01_03')
           .onClick(() => {
             this.isRefreshing = true;
           })

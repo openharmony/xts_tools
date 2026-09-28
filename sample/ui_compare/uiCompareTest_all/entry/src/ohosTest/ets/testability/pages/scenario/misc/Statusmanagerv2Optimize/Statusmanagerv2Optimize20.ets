@@ -14,7 +14,7 @@
  */
 // 定义联合类型
 type MixedType_20 = number | boolean | string | null | undefined | (() => void);
-enum LoginType { pass = "密码登录", code = "验证码登录" }
+enum LoginType { pass = '密码登录', code = '验证码登录' }
 
 // 数据模型
 @ObservedV2
@@ -31,12 +31,12 @@ struct MainPage {
   // 刷新逻辑
   refreshValue() {
     const current = this.dataModel.value;
-    if (typeof current === "number") {
-      this.dataModel.value = "文字";
-    } else if (typeof current === "string") {
+    if (typeof current === 'number') {
+      this.dataModel.value = '文字';
+    } else if (typeof current === 'string') {
       this.dataModel.value = true;
-    } else if (typeof current === "boolean") {
-      this.dataModel.value = () => console.log("函数执行");
+    } else if (typeof current === 'boolean') {
+      this.dataModel.value = () => console.log('函数执行');
     } else if (current instanceof Function) {
       this.dataModel.value = null;
     } else {
@@ -46,7 +46,7 @@ struct MainPage {
 
   build() {
     Column() {
-      Text("联合类型值刷新示例")
+      Text('联合类型值刷新示例')
         .fontSize(24)
         .margin(20)
 
@@ -56,10 +56,10 @@ struct MainPage {
       Text(`类型: ${typeof this.dataModel.value}`)
         .fontColor(Color.Grey)
 
-      Button("切换值")
+      Button('切换值')
         .onClick(() => this.refreshValue())
         .margin(20)
-        .width("60%")
+        .width('60%')
         .id('btn')
     }
   }

@@ -20,7 +20,7 @@ struct UiComponentOnWillChange15 {
   @State onCopy: string = '';
   @State text: string = 'like';
   @State onwillchange:string='';
-  @State deleteValue: string = "";
+  @State deleteValue: string = '';
   @State onwillchange02:TextChangeOptions|undefined={
     rangeBefore: {
       start: 0,
@@ -30,13 +30,13 @@ struct UiComponentOnWillChange15 {
       start: 0,
       end: 0
     },
-    oldContent: "Hello world",
+    oldContent: 'Hello world',
     oldPreviewText: {
       offset:0,
-      value: "测试文本"
+      value: '测试文本'
     }
   };
-  @State insertValue: string = "";
+  @State insertValue: string = '';
   @State insertOffset: number = 0;
   @State onchange:string='';
   build() {
@@ -74,8 +74,8 @@ struct UiComponentOnWillChange15 {
           console.log('onWillDelete');
           return false;
         })
-      Text("textarea onWillDelete content is:" +this.deleteValue+"    textarea onWillChange options is:" +this.onwillchange
-        +"      textarea onWillInsert is:"+this.insertValue)
+      Text('textarea onWillDelete content is:' +this.deleteValue+'    textarea onWillChange options is:' +this.onwillchange
+        +'      textarea onWillInsert is:'+this.insertValue)
         .fontSize(12)
         .margin(10)
         .key('copy')

@@ -52,7 +52,7 @@ struct Index200 {
   refreshAll() {
     this.data.arrayData.push('C')
     this.data.setData.add(4)
-    this.data.mapData.set("new",false)
+    this.data.mapData.set('new',false)
     this.data.dateData.setDate(2)
   }
 

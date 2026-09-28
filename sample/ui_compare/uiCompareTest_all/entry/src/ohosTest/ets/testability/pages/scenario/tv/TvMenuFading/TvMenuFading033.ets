@@ -22,30 +22,30 @@ struct TvMenuFading033 {
     Menu() {
       // MenuItem设置超长文字，验证长按移动时跑马灯渐隐效果
       MenuItem({
-        content: "超长菜单文字内容测试长按移动跑马灯渐隐效果超长菜单文字内容测试长按移动跑马灯渐隐效果"
+        content: '超长菜单文字内容测试长按移动跑马灯渐隐效果超长菜单文字内容测试长按移动跑马灯渐隐效果'
       })
-        .id("menu_item_fading_033_01")
+        .id('menu_item_fading_033_01')
         .width(180)
         .height(50)
 
       MenuItem({
-        content: "第二个超长菜单文字测试长按移动跑马灯渐隐效果第二个超长菜单文字测试长按移动"
+        content: '第二个超长菜单文字测试长按移动跑马灯渐隐效果第二个超长菜单文字测试长按移动'
       })
-        .id("menu_item_fading_033_02")
+        .id('menu_item_fading_033_02')
         .width(180)
         .height(50)
 
       MenuItem({
-        content: "第三个超长菜单文字测试长按移动跑马灯渐隐效果第三个超长菜单文字测试长按移动"
+        content: '第三个超长菜单文字测试长按移动跑马灯渐隐效果第三个超长菜单文字测试长按移动'
       })
-        .id("menu_item_fading_033_03")
+        .id('menu_item_fading_033_03')
         .width(180)
         .height(50)
 
       MenuItem({
-        content: "第四个超长菜单文字测试长按移动跑马灯渐隐效果第四个超长菜单文字测试长按移动"
+        content: '第四个超长菜单文字测试长按移动跑马灯渐隐效果第四个超长菜单文字测试长按移动'
       })
-        .id("menu_item_fading_033_04")
+        .id('menu_item_fading_033_04')
         .width(180)
         .height(50)
     }

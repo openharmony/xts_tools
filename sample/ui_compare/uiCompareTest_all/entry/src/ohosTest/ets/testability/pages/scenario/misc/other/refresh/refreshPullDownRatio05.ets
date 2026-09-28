@@ -90,7 +90,7 @@ struct RefreshPullDownRatio05 {
 
       // 控制按钮区域
       Button('开始刷新')
-        .id("refreshPullDownRatio05_01")
+        .id('refreshPullDownRatio05_01')
         .width('80%')
         .height(40)
         .margin({ top: 10 })

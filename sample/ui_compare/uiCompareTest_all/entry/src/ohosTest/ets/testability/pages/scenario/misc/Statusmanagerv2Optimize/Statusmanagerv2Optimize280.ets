@@ -22,14 +22,14 @@ class InnerClass280 {
 @Entry
 @ComponentV2
 struct MyComponent280 {
-  @Local outerObj:InnerClass280  =  new InnerClass280("初始值") ;
+  @Local outerObj:InnerClass280  =  new InnerClass280('初始值') ;
 
   build() {
     Column() {
       Text(`嵌套类属性: ${this.outerObj.name}`)
-      Button("修改嵌套属性")
+      Button('修改嵌套属性')
         .onClick(() => {
-          this.outerObj.name = "新值"; // 不会触发UI刷新
+          this.outerObj.name = '新值'; // 不会触发UI刷新
         })
         .id('btn1')
     }

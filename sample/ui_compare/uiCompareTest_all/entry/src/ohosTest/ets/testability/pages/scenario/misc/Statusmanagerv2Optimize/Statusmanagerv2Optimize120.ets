@@ -30,7 +30,7 @@ struct CompD {
       Button(`refresh`)
         .onClick(() => {
           this.selectedDate.setDate(this.selectedDate.getDate() + 1)
-          this.message.set(4, "d")
+          this.message.set(4, 'd')
           this.message_set.add(5)
           this.privateArray.push('D')
         })
@@ -43,7 +43,7 @@ struct CompD {
 @Component
 struct CompA {
   @Provide selectedDate: Date = new Date('2021-08-08')
-  @Provide message: Map<number, string> = new Map([[0, "a"], [1, "b"], [3, "c"]])
+  @Provide message: Map<number, string> = new Map([[0, 'a'], [1, 'b'], [3, 'c']])
   @Provide message_set: Set<number> = new Set([0, 1, 2, 3, 4])
   @Provide privateArray: string[] = ['A', 'B', 'C'];
 

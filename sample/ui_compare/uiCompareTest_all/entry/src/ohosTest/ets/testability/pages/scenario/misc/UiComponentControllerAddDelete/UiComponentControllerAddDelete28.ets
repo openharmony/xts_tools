@@ -96,8 +96,8 @@ struct UiComponentControllerAddDelete28 {
           })
           .id('UiComponentControllerAddDelete28_05')
       }
-      Text("textarea getSelection is"+JSON.stringify(this.textareaselect)+"textinputselect getSelection is"
-        +JSON.stringify(this.textinputselect)+"searchselect getSelection is"+JSON.stringify(this.searchselect)).fontSize(12).margin(10).key('copy')
+      Text('textarea getSelection is'+JSON.stringify(this.textareaselect)+'textinputselect getSelection is'
+        +JSON.stringify(this.textinputselect)+'searchselect getSelection is'+JSON.stringify(this.searchselect)).fontSize(12).margin(10).key('copy')
     }
     .height('100%')
     .width('100%')

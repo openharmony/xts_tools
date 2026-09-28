@@ -80,9 +80,9 @@ struct UiComponentControllerAddDelete36 {
         Button('add text')
           .margin({ left: 20 })
           .onClick(() => {
-            this.textAreaController.addText("添加文本");
-            this.textinputController.addText("添加文本");
-            this.searchController.addText("添加文本");
+            this.textAreaController.addText('添加文本');
+            this.textinputController.addText('添加文本');
+            this.searchController.addText('添加文本');
           })
           .id('UiComponentControllerAddDelete36_01')
         Button('get selection')

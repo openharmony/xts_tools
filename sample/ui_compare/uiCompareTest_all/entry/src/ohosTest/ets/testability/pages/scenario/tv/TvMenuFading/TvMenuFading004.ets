@@ -22,23 +22,23 @@ struct TvMenuFading004 {
     Menu() {
       // MenuItem设置超长文字，Menu设置背景图片，验证文字渐隐效果，背景图片不渐隐
       MenuItem({
-        content: "超长菜单文字内容测试渐隐效果超长菜单文字内容测试渐隐效果超长菜单文字内容测试渐隐效果"
+        content: '超长菜单文字内容测试渐隐效果超长菜单文字内容测试渐隐效果超长菜单文字内容测试渐隐效果'
       })
-        .id("menu_item_fading_004_01")
+        .id('menu_item_fading_004_01')
         .width(180)
         .height(60)
 
       MenuItem({
-        content: "第二个超长菜单文字测试渐隐效果第二个超长菜单文字测试渐隐效果第二个超长菜单"
+        content: '第二个超长菜单文字测试渐隐效果第二个超长菜单文字测试渐隐效果第二个超长菜单'
       })
-        .id("menu_item_fading_004_02")
+        .id('menu_item_fading_004_02')
         .width(180)
         .height(60)
 
       MenuItem({
-        content: "第三个超长菜单文字测试渐隐效果第三个超长菜单文字测试渐隐效果第三个超长菜单"
+        content: '第三个超长菜单文字测试渐隐效果第三个超长菜单文字测试渐隐效果第三个超长菜单'
       })
-        .id("menu_item_fading_004_03")
+        .id('menu_item_fading_004_03')
         .width(180)
         .height(60)
     }

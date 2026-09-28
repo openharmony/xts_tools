@@ -89,7 +89,7 @@ struct RefreshPullToRefresh01 {
 
       // 控制按钮区域
       Button('开始刷新')
-        .id("refreshPullToRefresh01_01")
+        .id('refreshPullToRefresh01_01')
         .width('80%')
         .height(40)
         .margin({ top: 10 })

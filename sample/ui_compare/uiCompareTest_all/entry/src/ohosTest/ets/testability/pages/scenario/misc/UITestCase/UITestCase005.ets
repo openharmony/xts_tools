@@ -14,7 +14,7 @@
  */
 
 import { matrix4 } from '@kit.ArkUI'
-const TAG = "UITestCase005"
+const TAG = 'UITestCase005'
 
 @Entry
 @Component
@@ -35,9 +35,9 @@ struct UITestCase005 {
                 src: [{x: 100, y: 100}, {x: 150, y: 150}, {x: 150, y: 100}, {x: 100, y: 50}],
                 dst: [{x: 200, y: 200}, {x: 250, y: 200}, {x: 250, y: 150}, {x: 200, y: 150}], srcIndex:-1
               })
-              console.info(TAG + " matrix: " + JSON.stringify(this.matrix))
+              console.info(TAG + ' matrix: ' + JSON.stringify(this.matrix))
             } catch (e) {
-              console.info(TAG + " matrix error: " + JSON.stringify(e))
+              console.info(TAG + ' matrix error: ' + JSON.stringify(e))
             }
           })
           .backgroundColor(Color.White)
