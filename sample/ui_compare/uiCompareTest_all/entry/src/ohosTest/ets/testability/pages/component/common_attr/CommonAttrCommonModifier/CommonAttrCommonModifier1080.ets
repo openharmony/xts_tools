@@ -19,10 +19,10 @@ struct CommonAttrCommonModifier1080 {
   @State currentIndex: number = 0
   
   private expandSafeAreaValues: string[] = [
-    "SYSTEM + BOTTOM",
-    "SYSTEM,KEYBOARD + TOP,BOTTOM",
-    "edges only",
-    "empty arrays"
+    'SYSTEM + BOTTOM',
+    'SYSTEM,KEYBOARD + TOP,BOTTOM',
+    'edges only',
+    'empty arrays'
   ]
 
   build() {

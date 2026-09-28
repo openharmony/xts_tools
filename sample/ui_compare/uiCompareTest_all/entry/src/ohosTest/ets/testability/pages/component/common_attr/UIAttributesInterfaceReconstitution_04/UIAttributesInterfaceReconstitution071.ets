@@ -27,7 +27,7 @@ struct UIAttributesInterfaceReconstitution071 {
               .fontSize(20)
           }
           .margin(20)
-          Text("outline")
+          Text('outline')
             .width('50%')
             .height('20%')
             .textAlign(TextAlign.Center)
@@ -42,7 +42,7 @@ struct UIAttributesInterfaceReconstitution071 {
               .fontSize(20)
           }
           .margin(20)
-          Text("outline")
+          Text('outline')
             .width('50%')
             .height('20%')
             .textAlign(TextAlign.Center)

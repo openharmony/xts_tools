@@ -19,16 +19,16 @@ struct CommonAttrCommonModifier1030 {
   @State currentIndex: number = 0
   
   private backgroundImageValues: string[] = [
-    "normal image",
-    "repeat X",
-    "repeat Y", 
-    "repeat XY",
-    "invalid size",
-    "undefined src",
-    "width only",
-    "height only",
-    "negative size",
-    "partial size"
+    'normal image',
+    'repeat X',
+    'repeat Y', 
+    'repeat XY',
+    'invalid size',
+    'undefined src',
+    'width only',
+    'height only',
+    'negative size',
+    'partial size'
   ]
 
   build() {
@@ -93,6 +93,6 @@ struct CommonAttrCommonModifier1030 {
 
   getCurrentBackgroundImage(): Resource | string {
     // 由于资源文件不存在，使用简单的颜色背景
-    return ""
+    return ''
   }
 }

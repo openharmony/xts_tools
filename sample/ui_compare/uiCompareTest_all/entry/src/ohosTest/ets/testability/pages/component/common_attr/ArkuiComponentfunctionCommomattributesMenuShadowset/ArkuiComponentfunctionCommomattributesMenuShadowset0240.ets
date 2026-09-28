@@ -19,45 +19,45 @@ struct ArkuiComponentfunctionCommomattributesMenuShadowset0240 {
   @Builder
   SubMenu() {
     Menu() {
-      MenuItem({ content: "二级菜单项1" })
-        .id("submenu_item_1_0240")
-      MenuItem({ content: "二级菜单项2" })
-        .id("submenu_item_2_0240")
-      MenuItem({ content: "二级菜单项3" })
-        .id("submenu_item_3_0240")
+      MenuItem({ content: '二级菜单项1' })
+        .id('submenu_item_1_0240')
+      MenuItem({ content: '二级菜单项2' })
+        .id('submenu_item_2_0240')
+      MenuItem({ content: '二级菜单项3' })
+        .id('submenu_item_3_0240')
     }
   }
 
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "一级菜单项1" })
-        .id("menu_item_1_0240")
-      MenuItem({ content: "一级菜单项2-子菜单", endIcon: $r("sys.media.ohos_ic_public_arrow_right"), builder: (): void => this.SubMenu() })
-        .id("menu_item_submenu_0240")
-      MenuItem({ content: "一级菜单项3" })
-        .id("menu_item_3_0240")
+      MenuItem({ content: '一级菜单项1' })
+        .id('menu_item_1_0240')
+      MenuItem({ content: '一级菜单项2-子菜单', endIcon: $r('sys.media.ohos_ic_public_arrow_right'), builder: (): void => this.SubMenu() })
+        .id('menu_item_submenu_0240')
+      MenuItem({ content: '一级菜单项3' })
+        .id('menu_item_3_0240')
     }
     .subMenuExpandingMode(SubMenuExpandingMode.EMBEDDED_EXPAND)
   }
 
   build() {
     Column() {
-      Text("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0240")
+      Text('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0240')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0240")
+        .id('title_text_0240')
 
-      Text("测试说明：\n验证直板机在浅色模式下，设置subMenuExpandingMode为embedded_expand的菜单阴影显示正常")
+      Text('测试说明：\n验证直板机在浅色模式下，设置subMenuExpandingMode为embedded_expand的菜单阴影显示正常')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("embedded_expand-长按")
-        .id("button_embedded_0240")
+      Button('embedded_expand-长按')
+        .id('button_embedded_0240')
         .margin({ bottom: 10 })
         .bindContextMenu(this.MyMenu, ResponseType.LongPress, {
           enableArrow: false

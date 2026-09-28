@@ -19,20 +19,20 @@ struct CommonAttrCommonModifier1060 {
   @State currentIndex: number = 0
   
   private sizeValues: string[] = [
-    "normal values",
-    "negative width",
-    "different height",
-    "negative height", 
-    "padding values",
-    "negative padding",
-    "margin values",
-    "undefined padding",
-    "undefined margin",
-    "visible",
-    "hidden",
-    "opacity 0.2",
-    "undefined opacity",
-    "string color"
+    'normal values',
+    'negative width',
+    'different height',
+    'negative height', 
+    'padding values',
+    'negative padding',
+    'margin values',
+    'undefined padding',
+    'undefined margin',
+    'visible',
+    'hidden',
+    'opacity 0.2',
+    'undefined opacity',
+    'string color'
   ]
 
   build() {
@@ -166,6 +166,6 @@ struct CommonAttrCommonModifier1060 {
   }
 
   getCurrentBackgroundColor(): ResourceColor {
-    return this.currentIndex === 13 ? "#BBFFFF" : Color.Blue
+    return this.currentIndex === 13 ? '#BBFFFF' : Color.Blue
   }
 }

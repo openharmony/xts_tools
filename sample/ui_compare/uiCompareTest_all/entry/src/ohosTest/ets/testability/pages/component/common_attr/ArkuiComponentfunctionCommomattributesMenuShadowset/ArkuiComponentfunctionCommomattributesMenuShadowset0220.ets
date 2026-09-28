@@ -19,32 +19,32 @@ struct ArkuiComponentfunctionCommomattributesMenuShadowset0220 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
-        .id("menu_item_1_0220")
-      MenuItem({ content: "菜单项2" })
-        .id("menu_item_2_0220")
-      MenuItem({ content: "菜单项3" })
-        .id("menu_item_3_0220")
+      MenuItem({ content: '菜单项1' })
+        .id('menu_item_1_0220')
+      MenuItem({ content: '菜单项2' })
+        .id('menu_item_2_0220')
+      MenuItem({ content: '菜单项3' })
+        .id('menu_item_3_0220')
     }
   }
 
   build() {
     Column() {
-      Text("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220")
+      Text('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0220")
+        .id('title_text_0220')
 
-      Text("测试说明：\n验证直板机在浅色模式下，带箭头的菜单阴影显示正常")
+      Text('测试说明：\n验证直板机在浅色模式下，带箭头的菜单阴影显示正常')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("bindMenu带箭头")
-        .id("button_with_arrow_0220")
+      Button('bindMenu带箭头')
+        .id('button_with_arrow_0220')
         .margin({ bottom: 10 })
         .bindMenu(this.MyMenu, {
           enableArrow: true

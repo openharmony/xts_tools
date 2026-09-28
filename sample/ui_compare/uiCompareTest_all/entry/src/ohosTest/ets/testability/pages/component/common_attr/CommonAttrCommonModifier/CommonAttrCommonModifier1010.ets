@@ -19,10 +19,10 @@ struct CommonAttrCommonModifier1010 {
   @State currentIndex: number = 0
   
   private positionValues: string[] = [
-    "x:0, y:0",
-    "x:144, y:144", 
-    "Alignment.BottomStart",
-    "undefined"
+    'x:0, y:0',
+    'x:144, y:144', 
+    'Alignment.BottomStart',
+    'undefined'
   ]
 
   build() {

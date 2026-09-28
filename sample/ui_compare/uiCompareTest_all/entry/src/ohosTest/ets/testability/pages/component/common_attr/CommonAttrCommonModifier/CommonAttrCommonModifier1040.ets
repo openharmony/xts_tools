@@ -22,7 +22,7 @@ struct CommonAttrCommonModifier1040 {
     1,
     3,
     -100,
-    "aa"
+    'aa'
   ]
 
   build() {

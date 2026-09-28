@@ -30,10 +30,10 @@ struct CommonAttrCommonModifier1930 {
         .margin({ bottom: 10 })
 
       Column() {
-        Image($r("app.media.icon"))
+        Image($r('app.media.icon'))
           .width(200)
           .height(100)
-          .overlay("Winter", {
+          .overlay('Winter', {
             align: Alignment.Bottom,
             offset: { x: 15, y: 15 }
           })

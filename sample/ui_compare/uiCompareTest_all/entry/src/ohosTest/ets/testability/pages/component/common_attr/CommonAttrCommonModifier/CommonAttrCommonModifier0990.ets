@@ -19,13 +19,13 @@ struct CommonAttrCommonModifier0990 {
   @State currentIndex: number = 0
   
   private foregroundBlurStyleValues: string[] = [
-    "BlurStyle.NONE",
-    "BlurStyle.Thin",
-    "undefined",
-    "BlurStyle.Thin with options",
-    "undefined colorMode",
-    "undefined adaptiveColor",
-    "undefined scale"
+    'BlurStyle.NONE',
+    'BlurStyle.Thin',
+    'undefined',
+    'BlurStyle.Thin with options',
+    'undefined colorMode',
+    'undefined adaptiveColor',
+    'undefined scale'
   ]
 
   build() {

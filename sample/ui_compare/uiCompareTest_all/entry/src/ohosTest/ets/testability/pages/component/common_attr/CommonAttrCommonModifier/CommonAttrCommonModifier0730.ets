@@ -19,7 +19,7 @@ struct CommonAttrCommonModifier0730 {
   @State currentIndex: number = 0
   
   private borderValues: string[] = [
-    "Complex Border"
+    'Complex Border'
   ]
 
   build() {
@@ -48,7 +48,7 @@ struct CommonAttrCommonModifier0730 {
           .borderRadius(10)
           .border({
             width: { left: 3, right: 6, top: 10, bottom: 15 },
-            color: { left: "#e3bbbb", right: Color.Blue, top: Color.Red, bottom: Color.Green },
+            color: { left: '#e3bbbb', right: Color.Blue, top: Color.Red, bottom: Color.Green },
             radius: { topLeft: 10, topRight: 20, bottomLeft: 40, bottomRight: 80 },
             style: { left: BorderStyle.Dotted, right: BorderStyle.Dotted, top: BorderStyle.Solid, bottom: BorderStyle.Dashed }
           })

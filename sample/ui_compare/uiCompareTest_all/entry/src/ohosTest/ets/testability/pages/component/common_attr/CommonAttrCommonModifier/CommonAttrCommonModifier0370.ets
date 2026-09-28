@@ -17,7 +17,7 @@
 @Component
 struct CommonAttrCommonModifier0370 {
   @State currentIndex: number = 0
-  private colorBlendValues: string[] = [""]
+  private colorBlendValues: string[] = ['']
   private colorBlendNames: string[] = ['colorBlend: "" (空字符串边界值测试)']
 
   build() {

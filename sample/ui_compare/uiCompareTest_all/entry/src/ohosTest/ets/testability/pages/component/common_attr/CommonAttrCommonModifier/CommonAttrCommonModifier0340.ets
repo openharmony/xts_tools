@@ -18,7 +18,7 @@
 struct CommonAttrCommonModifier0340 {
   @State currentIndex: number = 0
   
-  private colorBlendValues: string[] = ["rgba(255, 100, 100, 0.5)"]
+  private colorBlendValues: string[] = ['rgba(255, 100, 100, 0.5)']
   private colorBlendNames: string[] = ['colorBlend: "rgba(255, 100, 100, 0.5)" (RGBA半透明红色混合)']
 
   build() {

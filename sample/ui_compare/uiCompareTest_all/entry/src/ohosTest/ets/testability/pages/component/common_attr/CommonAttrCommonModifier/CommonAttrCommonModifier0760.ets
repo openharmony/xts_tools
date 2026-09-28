@@ -19,7 +19,7 @@ struct CommonAttrCommonModifier0760 {
   @State currentIndex: number = 0
   
   private borderValues: string[] = [
-    "width: empty, color: Red"
+    'width: empty, color: Red'
   ]
 
   build() {

@@ -19,32 +19,32 @@ struct ArkuiComponentfunctionCommomattributesMenuShadowset0230 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
-        .id("menu_item_1_0230")
-      MenuItem({ content: "菜单项2" })
-        .id("menu_item_2_0230")
-      MenuItem({ content: "菜单项3" })
-        .id("menu_item_3_0230")
+      MenuItem({ content: '菜单项1' })
+        .id('menu_item_1_0230')
+      MenuItem({ content: '菜单项2' })
+        .id('menu_item_2_0230')
+      MenuItem({ content: '菜单项3' })
+        .id('menu_item_3_0230')
     }
   }
 
   build() {
     Column() {
-      Text("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230")
+      Text('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0230")
+        .id('title_text_0230')
 
-      Text("测试说明：\n验证直板机在浅色模式下，带预览图的菜单阴影显示正常")
+      Text('测试说明：\n验证直板机在浅色模式下，带预览图的菜单阴影显示正常')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("带预览图的菜单-长按")
-        .id("button_preview_0230")
+      Button('带预览图的菜单-长按')
+        .id('button_preview_0230')
         .margin({ bottom: 10 })
         .bindContextMenu(this.MyMenu, ResponseType.LongPress, {
           preview: MenuPreviewMode.IMAGE,

@@ -30,8 +30,8 @@ struct CommonAttrCommonModifier0090 {
   @State currentIndex: number = 0
   
   private rotateValues: Array<RotateOption | null | undefined> = [
-    {x: 0, y: 0, z: 0, centerX: "50%", centerY: "50%", centerZ: 0, perspective: 0, angle: 0},
-    {x: 0, y: 0, z: 1, centerX: "50%", centerY: "50%", centerZ: 0, perspective: 0, angle: 300},
+    {x: 0, y: 0, z: 0, centerX: '50%', centerY: '50%', centerZ: 0, perspective: 0, angle: 0},
+    {x: 0, y: 0, z: 1, centerX: '50%', centerY: '50%', centerZ: 0, perspective: 0, angle: 300},
     undefined,
     null
   ]

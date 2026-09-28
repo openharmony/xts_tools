@@ -51,7 +51,7 @@ struct VideoGestureExample {
             this.isFullscreen = event.fullscreen
             console.log(`Long press Fullscreen state changed: ${this.isFullscreen}`)
           })
-          .id("video")
+          .id('video')
       }
       .width('80%')
       .height('80%')

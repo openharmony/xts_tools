@@ -39,7 +39,7 @@ struct CommonAttrCommonModifier1870 {
             .textAlign(TextAlign.Center)
             .backgroundColor(Color.Blue)
             .fontColor(Color.White)
-            .geometryTransition("picture")
+            .geometryTransition('picture')
             .id('geometry_component_commonmodifier_1870')
         } else {
           Text('Another Component')
@@ -49,7 +49,7 @@ struct CommonAttrCommonModifier1870 {
             .textAlign(TextAlign.Center)
             .backgroundColor(Color.Red)
             .fontColor(Color.White)
-            .geometryTransition("picture")
+            .geometryTransition('picture')
         }
       }
       .justifyContent(FlexAlign.Center)

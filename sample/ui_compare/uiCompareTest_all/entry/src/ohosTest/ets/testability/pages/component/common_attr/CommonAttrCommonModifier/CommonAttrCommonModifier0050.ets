@@ -20,7 +20,7 @@ struct CommonAttrCommonModifier0050 {
   
   private flexBasisValues: Array<number | string> = [
     100,
-    "auto",
+    'auto',
     20,
     0,
     999999,

@@ -19,7 +19,7 @@ struct CommonAttrCommonModifier1150 {
   @State currentIndex: number = 0
   
   private keyValues: string[] = [
-    "test1"
+    'test1'
   ]
 
   build() {

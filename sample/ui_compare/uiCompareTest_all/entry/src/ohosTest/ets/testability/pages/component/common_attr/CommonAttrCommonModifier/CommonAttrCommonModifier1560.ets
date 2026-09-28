@@ -23,7 +23,7 @@ struct CommonAttrCommonModifier1560 {
   @State currentIndex: number = 0
   
   private borderColorOptions: BorderColorOption1560[] = [
-    { left: "rgba(255, 100, 100, 0.5)" }
+    { left: 'rgba(255, 100, 100, 0.5)' }
   ]
 
   build() {

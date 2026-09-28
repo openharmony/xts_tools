@@ -25,13 +25,13 @@ struct CommonAttrCommonModifier0200 {
   private markAnchorValues: MarkAnchorOption0200[] = [
     { markAnchor: { x: 30, y: 10 } },
     { markAnchor: { x: 10, y: 20 } },
-    { markAnchor: { x: "10px", y: "10px" } },
-    { markAnchor: { x: "10vp", y: "10vp" } },
-    { markAnchor: { x: "10fp", y: "10fp" } },
-    { markAnchor: { x: "10lpx", y: "10lpx" } },
-    { markAnchor: { x: "10%", y: "10%" } },
+    { markAnchor: { x: '10px', y: '10px' } },
+    { markAnchor: { x: '10vp', y: '10vp' } },
+    { markAnchor: { x: '10fp', y: '10fp' } },
+    { markAnchor: { x: '10lpx', y: '10lpx' } },
+    { markAnchor: { x: '10%', y: '10%' } },
     { markAnchor: { x: -10, y: -10 } },
-    { markAnchor: { x: "20px", y: "21px" } }
+    { markAnchor: { x: '20px', y: '21px' } }
   ]
 
   private markAnchorNames: string[] = [

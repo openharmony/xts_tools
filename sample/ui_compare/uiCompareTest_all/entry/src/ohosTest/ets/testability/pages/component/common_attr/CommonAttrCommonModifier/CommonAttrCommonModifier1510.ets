@@ -18,7 +18,7 @@
 struct CommonAttrCommonModifier1510 {
   @State currentIndex: number = 0
   
-  private borderWidthOptions: string[] = [""]
+  private borderWidthOptions: string[] = ['']
 
   build() {
     Column() {

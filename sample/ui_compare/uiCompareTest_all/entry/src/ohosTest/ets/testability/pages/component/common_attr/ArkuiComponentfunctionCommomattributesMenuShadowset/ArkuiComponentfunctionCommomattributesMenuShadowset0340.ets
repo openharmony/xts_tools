@@ -21,52 +21,52 @@ struct ArkuiComponentfunctionCommomattributesMenuShadowset0340 {
   @Builder
   SubMenu() {
     Menu() {
-      MenuItem({ content: "二级菜单项1" })
-        .id("submenu_item_1_0340")
-      MenuItem({ content: "二级菜单项2" })
-        .id("submenu_item_2_0340")
-      MenuItem({ content: "二级菜单项3" })
-        .id("submenu_item_3_0340")
+      MenuItem({ content: '二级菜单项1' })
+        .id('submenu_item_1_0340')
+      MenuItem({ content: '二级菜单项2' })
+        .id('submenu_item_2_0340')
+      MenuItem({ content: '二级菜单项3' })
+        .id('submenu_item_3_0340')
     }
   }
 
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "一级菜单项1" })
-        .id("menu_item_1_0340")
-      MenuItem({ content: "一级菜单项2-子菜单", endIcon: $r("sys.media.ohos_ic_public_arrow_right"), builder: (): void => this.SubMenu() })
-        .id("menu_item_submenu_0340")
-      MenuItem({ content: "一级菜单项3" })
-        .id("menu_item_3_0340")
+      MenuItem({ content: '一级菜单项1' })
+        .id('menu_item_1_0340')
+      MenuItem({ content: '一级菜单项2-子菜单', endIcon: $r('sys.media.ohos_ic_public_arrow_right'), builder: (): void => this.SubMenu() })
+        .id('menu_item_submenu_0340')
+      MenuItem({ content: '一级菜单项3' })
+        .id('menu_item_3_0340')
     }
     .subMenuExpandingMode(SubMenuExpandingMode.SIDE_EXPAND)
   }
 
   build() {
     Column() {
-      Text("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340")
+      Text('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0340")
+        .id('title_text_0340')
 
-      Text("测试说明：\n验证直板机在深色模式下，设置subMenuExpandingMode为side_expand的菜单阴影显示正常")
+      Text('测试说明：\n验证直板机在深色模式下，设置subMenuExpandingMode为side_expand的菜单阴影显示正常')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("切换到深色模式")
-        .id("button_dark_mode_0340")
+      Button('切换到深色模式')
+        .id('button_dark_mode_0340')
         .margin({ bottom: 10 })
         .onClick(() => {
           this.isDarkMode = true
         })
 
-      Button("side_expand-长按")
-        .id("button_side_0340")
+      Button('side_expand-长按')
+        .id('button_side_0340')
         .margin({ bottom: 10 })
         .bindContextMenu(this.MyMenu, ResponseType.LongPress, {
           enableArrow: false

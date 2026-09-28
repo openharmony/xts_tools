@@ -19,7 +19,7 @@ struct CommonAttrCommonModifier1240 {
   @State currentIndex: number = 0
   
   private foregroundColorOptions: Array<ResourceColor | null | undefined> = [
-    "rgba(255, 100, 255, 0.5)",
+    'rgba(255, 100, 255, 0.5)',
     null,
     undefined
   ]

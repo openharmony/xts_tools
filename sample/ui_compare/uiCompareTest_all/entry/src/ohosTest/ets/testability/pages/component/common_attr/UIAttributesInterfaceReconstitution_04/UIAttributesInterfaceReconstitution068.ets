@@ -30,7 +30,7 @@ struct UIAttributesInterfaceReconstitution068 {
               .fontSize(20)
           }
           .margin(20)
-          Text("A")
+          Text('A')
             .width(this.widthPercent)
             .height(this.heightPercent)
             .borderWidth(1)
@@ -44,7 +44,7 @@ struct UIAttributesInterfaceReconstitution068 {
               .fontSize(20)
           }
           .margin(20)
-          Text("A")
+          Text('A')
             .width(this.widthPercent)
             .height(this.heightPercent)
             .textAlign(TextAlign.End)

@@ -20,44 +20,44 @@ struct ArkuiComponentfunctionCommomattributesMenuShadowset0280 {
 
   build() {
     Column() {
-      Text("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280")
+      Text('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0280")
+        .id('title_text_0280')
 
-      Text("测试说明：\n验证直板机在深色模式下，bindMenu设置showInSubWindow为true的情况下，阴影显示正常")
+      Text('测试说明：\n验证直板机在深色模式下，bindMenu设置showInSubWindow为true的情况下，阴影显示正常')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("切换到深色模式")
-        .id("button_dark_mode_0280")
+      Button('切换到深色模式')
+        .id('button_dark_mode_0280')
         .margin({ bottom: 10 })
         .onClick(() => {
           this.isDarkMode = true
         })
 
-      Button("bindMenu设置showinSub为true")
-        .id("button_menu_0280")
+      Button('bindMenu设置showinSub为true')
+        .id('button_menu_0280')
         .margin({ bottom: 10 })
         .bindMenu([
           {
-            value: "菜单项1",
+            value: '菜单项1',
             action: () => {
               console.info('Menu item 1 clicked')
             }
           },
           {
-            value: "菜单项2",
+            value: '菜单项2',
             action: () => {
               console.info('Menu item 2 clicked')
             }
           },
           {
-            value: "菜单项3",
+            value: '菜单项3',
             action: () => {
               console.info('Menu item 3 clicked')
             }

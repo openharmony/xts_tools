@@ -22,8 +22,8 @@ struct CommonAttrCommonModifier0150 {
     30,
     90,
     180,
-    "60deg",
-    "asdfasdf",
+    '60deg',
+    'asdfasdf',
     -20,
     0,
     666676

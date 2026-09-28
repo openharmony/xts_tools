@@ -19,11 +19,11 @@ struct CommonAttrCommonModifier1140 {
   @State currentIndex: number = 0
   
   private blendModeValues: string[] = [
-    "NONE + FAST",
-    "OVERLAY + FAST",
-    "OVERLAY + OFFSCREEN",
-    "undefined blendMode",
-    "undefined blendApplyType"
+    'NONE + FAST',
+    'OVERLAY + FAST',
+    'OVERLAY + OFFSCREEN',
+    'undefined blendMode',
+    'undefined blendApplyType'
   ]
 
   build() {

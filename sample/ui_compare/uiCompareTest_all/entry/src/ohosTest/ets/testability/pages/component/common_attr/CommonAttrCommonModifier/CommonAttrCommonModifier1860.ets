@@ -24,8 +24,8 @@ struct CommonAttrCommonModifier1860 {
   @State currentIndex: number = 0
   
   private keyboardShortcutOptions: KeyboardShortcutOption1860[] = [
-    { value: ".", keys: [ModifierKey.SHIFT, ModifierKey.CTRL] },
-    { value: "A", keys: [ModifierKey.SHIFT, ModifierKey.CTRL] }
+    { value: '.', keys: [ModifierKey.SHIFT, ModifierKey.CTRL] },
+    { value: 'A', keys: [ModifierKey.SHIFT, ModifierKey.CTRL] }
   ]
 
   build() {

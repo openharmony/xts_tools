@@ -28,8 +28,8 @@ struct CommonAttrCommonModifier1880 {
         .textAlign(TextAlign.Center)
         .id('row1')
         .alignRules({
-          top: { anchor: "__container__", align: VerticalAlign.Top },
-          left: { anchor: "__container__", align: HorizontalAlign.Start }
+          top: { anchor: '__container__', align: VerticalAlign.Top },
+          left: { anchor: '__container__', align: HorizontalAlign.Start }
         })
 
       Text('Row2')
@@ -41,8 +41,8 @@ struct CommonAttrCommonModifier1880 {
         .textAlign(TextAlign.Center)
         .id('row2')
         .alignRules({
-          top: { anchor: "row1", align: VerticalAlign.Bottom },
-          left: { anchor: "__container__", align: HorizontalAlign.Start }
+          top: { anchor: 'row1', align: VerticalAlign.Bottom },
+          left: { anchor: '__container__', align: HorizontalAlign.Start }
         })
 
       Text('Row3')
@@ -54,8 +54,8 @@ struct CommonAttrCommonModifier1880 {
         .textAlign(TextAlign.Center)
         .id('row3')
         .alignRules({
-          top: { anchor: "row2", align: VerticalAlign.Bottom },
-          left: { anchor: "__container__", align: HorizontalAlign.Start }
+          top: { anchor: 'row2', align: VerticalAlign.Bottom },
+          left: { anchor: '__container__', align: HorizontalAlign.Start }
         })
 
       Text('Test Component')
@@ -64,10 +64,10 @@ struct CommonAttrCommonModifier1880 {
         .fontColor(Color.White)
         .textAlign(TextAlign.Center)
         .alignRules({
-          top: { anchor: "row3", align: VerticalAlign.Bottom },
-          bottom: { anchor: "__container__", align: VerticalAlign.Bottom },
-          left: { anchor: "row2", align: HorizontalAlign.Start },
-          right: { anchor: "__container__", align: HorizontalAlign.End }
+          top: { anchor: 'row3', align: VerticalAlign.Bottom },
+          bottom: { anchor: '__container__', align: VerticalAlign.Bottom },
+          left: { anchor: 'row2', align: HorizontalAlign.Start },
+          right: { anchor: '__container__', align: HorizontalAlign.End }
         })
         .id('alignrules_component_commonmodifier_1880')
     }

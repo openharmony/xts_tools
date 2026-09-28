@@ -38,7 +38,7 @@ struct CommonAttrCommonModifier1630 {
           .borderImage({
             source: undefined,
             slice: { top: 40, bottom: 40, left: 40, right: 40 },
-            width: { top: "40px", bottom: "40px", left: "40px", right: "40px" },
+            width: { top: '40px', bottom: '40px', left: '40px', right: '40px' },
             outset: 0,
             repeat: RepeatMode.Stretch,
             fill: false

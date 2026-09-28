@@ -18,7 +18,7 @@
 struct CommonAttrCommonModifier1540 {
   @State currentIndex: number = 0
   
-  private borderColorOptions: string[] = ["rgba(255, 100, 255, 0.5)"]
+  private borderColorOptions: string[] = ['rgba(255, 100, 255, 0.5)']
 
   build() {
     Column() {

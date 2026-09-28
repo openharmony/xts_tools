@@ -38,7 +38,7 @@ struct CommonAttrCommonModifier1900 {
           .backgroundColor(Color.Blue)
           .fontColor(Color.White)
           .motionPath({
-            path: "Mstart.x start.y L300 200 L100 100 Lend.x end.y",
+            path: 'Mstart.x start.y L300 200 L100 100 Lend.x end.y',
             from: 0.0,
             to: 0.5,
             rotatable: true

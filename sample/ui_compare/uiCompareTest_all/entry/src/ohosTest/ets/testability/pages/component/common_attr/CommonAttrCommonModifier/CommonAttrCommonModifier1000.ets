@@ -19,13 +19,13 @@ struct CommonAttrCommonModifier1000 {
   @State currentIndex: number = 0
   
   private backgroundBlurStyleValues: string[] = [
-    "BlurStyle.Thin",
-    "BlurStyle.Regular", 
-    "undefined BlurStyle",
-    "negative radius",
-    "negative saturation",
-    "negative brightness",
-    "string color"
+    'BlurStyle.Thin',
+    'BlurStyle.Regular', 
+    'undefined BlurStyle',
+    'negative radius',
+    'negative saturation',
+    'negative brightness',
+    'string color'
   ]
 
   build() {

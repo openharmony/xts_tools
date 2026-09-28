@@ -19,45 +19,45 @@ struct ArkuiComponentfunctionCommomattributesMenuShadowset0260 {
   @Builder
   SubMenu() {
     Menu() {
-      MenuItem({ content: "二级菜单项1" })
-        .id("submenu_item_1_0260")
-      MenuItem({ content: "二级菜单项2" })
-        .id("submenu_item_2_0260")
-      MenuItem({ content: "二级菜单项3" })
-        .id("submenu_item_3_0260")
+      MenuItem({ content: '二级菜单项1' })
+        .id('submenu_item_1_0260')
+      MenuItem({ content: '二级菜单项2' })
+        .id('submenu_item_2_0260')
+      MenuItem({ content: '二级菜单项3' })
+        .id('submenu_item_3_0260')
     }
   }
 
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "一级菜单项1" })
-        .id("menu_item_1_0260")
-      MenuItem({ content: "一级菜单项2-子菜单", endIcon: $r("sys.media.ohos_ic_public_arrow_right"), builder: (): void => this.SubMenu() })
-        .id("menu_item_submenu_0260")
-      MenuItem({ content: "一级菜单项3" })
-        .id("menu_item_3_0260")
+      MenuItem({ content: '一级菜单项1' })
+        .id('menu_item_1_0260')
+      MenuItem({ content: '一级菜单项2-子菜单', endIcon: $r('sys.media.ohos_ic_public_arrow_right'), builder: (): void => this.SubMenu() })
+        .id('menu_item_submenu_0260')
+      MenuItem({ content: '一级菜单项3' })
+        .id('menu_item_3_0260')
     }
     .subMenuExpandingMode(SubMenuExpandingMode.STACK_EXPAND)
   }
 
   build() {
     Column() {
-      Text("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260")
+      Text('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0260")
+        .id('title_text_0260')
 
-      Text("测试说明：\n验证直板机在浅色模式下，设置subMenuExpandingMode为stack_expand的菜单阴影显示正常")
+      Text('测试说明：\n验证直板机在浅色模式下，设置subMenuExpandingMode为stack_expand的菜单阴影显示正常')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("stack_expand-长按")
-        .id("button_stack_0260")
+      Button('stack_expand-长按')
+        .id('button_stack_0260')
         .margin({ bottom: 10 })
         .bindContextMenu(this.MyMenu, ResponseType.LongPress, {
           enableArrow: false

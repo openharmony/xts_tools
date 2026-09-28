@@ -39,7 +39,7 @@ struct CommonAttrCommonModifier1830 {
           .outlineRadius({ topLeft: 10, topRight: 20, bottomLeft: 30, bottomRight: 40 })
           .outlineStyle({ left: OutlineStyle.SOLID, right: OutlineStyle.DASHED, top: OutlineStyle.DOTTED, bottom: OutlineStyle.SOLID })
           .outlineWidth({ left: 3, right: 6, top: 10, bottom: 15 })
-          .outlineColor({ left: "#e3bbbb", right: Color.Blue, top: Color.Red, bottom: Color.Green })
+          .outlineColor({ left: '#e3bbbb', right: Color.Blue, top: Color.Red, bottom: Color.Green })
           .backdropBlur(10)
           .invert(0.2)
           .backgroundBrightness({ rate: 0.5, lightUpDegree: 0.5 })

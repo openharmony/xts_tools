@@ -25,13 +25,13 @@ struct CommonAttrCommonModifier0190 {
   private positionValues: PositionOption[] = [
     { position: { x: 30, y: 10 } },
     { position: { x: 10, y: 20 } },
-    { position: { x: "10px", y: "10px" } },
-    { position: { x: "10vp", y: "10vp" } },
-    { position: { x: "10fp", y: "10fp" } },
-    { position: { x: "10lpx", y: "10lpx" } },
-    { position: { x: "10%", y: "10%" } },
+    { position: { x: '10px', y: '10px' } },
+    { position: { x: '10vp', y: '10vp' } },
+    { position: { x: '10fp', y: '10fp' } },
+    { position: { x: '10lpx', y: '10lpx' } },
+    { position: { x: '10%', y: '10%' } },
     { position: { x: -10, y: -10 } },
-    { position: { x: "20px", y: "20px" } }
+    { position: { x: '20px', y: '20px' } }
   ]
 
   private positionNames: string[] = [

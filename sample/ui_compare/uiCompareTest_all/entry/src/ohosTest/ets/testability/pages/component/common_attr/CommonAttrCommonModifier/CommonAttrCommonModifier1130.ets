@@ -19,13 +19,13 @@ struct CommonAttrCommonModifier1130 {
   @State currentIndex: number = 0
   
   private linearGradientValues: string[] = [
-    "angle: 90",
-    "angle: -1",
-    "no angle",
-    "undefined direction",
-    "undefined color",
-    "repeating: true",
-    "repeating: true (duplicate)"
+    'angle: 90',
+    'angle: -1',
+    'no angle',
+    'undefined direction',
+    'undefined color',
+    'repeating: true',
+    'repeating: true (duplicate)'
   ]
 
   build() {

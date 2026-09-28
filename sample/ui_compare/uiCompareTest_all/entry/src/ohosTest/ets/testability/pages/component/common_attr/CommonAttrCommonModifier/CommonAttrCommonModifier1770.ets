@@ -41,7 +41,7 @@ struct CommonAttrCommonModifier1770 {
               direction: GradientDirection.Left,
               colors: [[0xAEE1E1, 0.0], [0xD3E0DC, 0.3], [0xFCD1D1, 1.0]]
             },
-            width: { top: "40px", bottom: "40px", left: "40px", right: "40px" },
+            width: { top: '40px', bottom: '40px', left: '40px', right: '40px' },
             repeat: RepeatMode.Round,
             fill: true
           })

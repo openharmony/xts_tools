@@ -19,7 +19,7 @@ struct CommonAttrCommonModifier0720 {
   @State currentIndex: number = 0
   
   private borderStyleValues: string[] = [
-    "top/left styles"
+    'top/left styles'
   ]
 
   build() {

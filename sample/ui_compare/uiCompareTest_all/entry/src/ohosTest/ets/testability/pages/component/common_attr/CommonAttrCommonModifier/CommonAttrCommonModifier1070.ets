@@ -19,13 +19,13 @@ struct CommonAttrCommonModifier1070 {
   @State currentIndex: number = 0
   
   private responseRegionValues: string[] = [
-    "array regions",
-    "single region",
-    "y: 100%",
-    "negative x",
-    "negative y", 
-    "negative width",
-    "negative height"
+    'array regions',
+    'single region',
+    'y: 100%',
+    'negative x',
+    'negative y', 
+    'negative width',
+    'negative height'
   ]
 
   build() {
@@ -92,23 +92,23 @@ struct CommonAttrCommonModifier1070 {
     switch (this.currentIndex) {
       case 0:
         return [
-          { x: "100%", y: 0, width: "50%", height: "100%" },
-          { x: 0, y: 0, width: "50%", height: "100%" }
+          { x: '100%', y: 0, width: '50%', height: '100%' },
+          { x: 0, y: 0, width: '50%', height: '100%' }
         ]
       case 1:
-        return { x: 0, y: 0, width: "50%", height: "100%" }
+        return { x: 0, y: 0, width: '50%', height: '100%' }
       case 2:
-        return { x: 0, y: "100%", width: "100%", height: "100%" }
+        return { x: 0, y: '100%', width: '100%', height: '100%' }
       case 3:
-        return { x: -1, y: "100%", width: "100%", height: "100%" }
+        return { x: -1, y: '100%', width: '100%', height: '100%' }
       case 4:
-        return { x: 0, y: -1, width: "100%", height: "100%" }
+        return { x: 0, y: -1, width: '100%', height: '100%' }
       case 5:
-        return { x: 0, y: "100%", width: -1, height: "100%" }
+        return { x: 0, y: '100%', width: -1, height: '100%' }
       case 6:
-        return { x: 0, y: "100%", width: "100%", height: -1 }
+        return { x: 0, y: '100%', width: '100%', height: -1 }
       default:
-        return { x: 0, y: 0, width: "100%", height: "100%" }
+        return { x: 0, y: 0, width: '100%', height: '100%' }
     }
   }
 }

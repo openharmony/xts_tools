@@ -172,7 +172,7 @@ struct CommonAttrCommonModifier0380 {
               .width('8.33%')
               .height('4.1%')
               .backgroundColor('#E6E6FA')
-              .colorBlend("")
+              .colorBlend('')
               .justifyContent(FlexAlign.Center)
               .border({ width: 1, color: Color.Gray })
             }

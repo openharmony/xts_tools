@@ -19,15 +19,15 @@ struct CommonAttrCommonModifier1050 {
   @State currentIndex: number = 0
   
   private constraintSizeValues: string[] = [
-    "full constraints",
-    "minWidth only",
-    "maxWidth only", 
-    "minHeight only",
-    "maxHeight only",
-    "negative minWidth",
-    "negative maxWidth",
-    "negative minHeight",
-    "negative maxHeight"
+    'full constraints',
+    'minWidth only',
+    'maxWidth only', 
+    'minHeight only',
+    'maxHeight only',
+    'negative minWidth',
+    'negative maxWidth',
+    'negative minHeight',
+    'negative maxHeight'
   ]
 
   build() {

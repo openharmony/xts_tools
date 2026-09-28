@@ -20,34 +20,34 @@ struct ArkuiComponentfunctionCommomattributesMenuShadowset0290 {
 
   build() {
     Column() {
-      Text("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290")
+      Text('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0290")
+        .id('title_text_0290')
 
-      Text("测试说明：\n验证直板机在深色模式下，select下拉菜单的阴影显示正常")
+      Text('测试说明：\n验证直板机在深色模式下，select下拉菜单的阴影显示正常')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("切换到深色模式")
-        .id("button_dark_mode_0290")
+      Button('切换到深色模式')
+        .id('button_dark_mode_0290')
         .margin({ bottom: 10 })
         .onClick(() => {
           this.isDarkMode = true
         })
 
       Select([
-        { value: "选项1" },
-        { value: "选项2" },
-        { value: "选项3" }
+        { value: '选项1' },
+        { value: '选项2' },
+        { value: '选项3' }
       ])
-        .id("select_menu_0290")
+        .id('select_menu_0290')
         .selected(0)
-        .value("请选择")
+        .value('请选择')
         .font({ size: 16, weight: FontWeight.Medium })
         .fontColor(Color.Black)
         .selectedOptionFont({ size: 16, weight: FontWeight.Regular })

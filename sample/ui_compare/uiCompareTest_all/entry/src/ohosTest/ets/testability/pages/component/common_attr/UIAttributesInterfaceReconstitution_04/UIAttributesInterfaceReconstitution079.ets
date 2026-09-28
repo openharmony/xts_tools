@@ -27,7 +27,7 @@ struct UIAttributesInterfaceReconstitution079 {
               .fontSize(20)
           }
           .margin(20)
-          Text("outlineRadius")
+          Text('outlineRadius')
             .width('50%')
             .height('20%')
             .textAlign(TextAlign.Center)
@@ -45,7 +45,7 @@ struct UIAttributesInterfaceReconstitution079 {
               .fontSize(20)
           }
           .margin(20)
-          Text("outlineRadius")
+          Text('outlineRadius')
             .width('50%')
             .height('20%')
             .textAlign(TextAlign.Center)

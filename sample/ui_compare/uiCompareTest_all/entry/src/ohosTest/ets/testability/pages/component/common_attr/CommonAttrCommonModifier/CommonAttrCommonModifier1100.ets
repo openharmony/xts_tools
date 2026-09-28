@@ -19,11 +19,11 @@ struct CommonAttrCommonModifier1100 {
   @State currentIndex: number = 0
   
   private effectValues: string[] = [
-    "spherical: 0, lightUp: 1",
-    "spherical: 0.5, lightUp: 1",
-    "spherical: -1, lightUp: 1",
-    "spherical: 0, lightUp: 0.5",
-    "spherical: 0, lightUp: -1"
+    'spherical: 0, lightUp: 1',
+    'spherical: 0.5, lightUp: 1',
+    'spherical: -1, lightUp: 1',
+    'spherical: 0, lightUp: 0.5',
+    'spherical: 0, lightUp: -1'
   ]
 
   build() {

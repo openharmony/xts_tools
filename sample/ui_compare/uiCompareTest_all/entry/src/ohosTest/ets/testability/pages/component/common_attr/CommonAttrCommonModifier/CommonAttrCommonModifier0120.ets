@@ -27,7 +27,7 @@ struct CommonAttrCommonModifier0120 {
   @State currentIndex: number = 0
   
   private scaleValues: Array<ScaleOption | null | undefined> = [
-    {x: 1, y: 1, z: 1, centerX: "50%", centerY: "50%"},
+    {x: 1, y: 1, z: 1, centerX: '50%', centerY: '50%'},
     {x: 2, y: 0.5},
     undefined,
     null

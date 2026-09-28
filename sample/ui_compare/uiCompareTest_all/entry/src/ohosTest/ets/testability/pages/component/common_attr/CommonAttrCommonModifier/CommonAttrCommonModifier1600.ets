@@ -18,7 +18,7 @@
 struct CommonAttrCommonModifier1600 {
   @State currentIndex: number = 0
   
-  private borderColorOptions: Resource[] = [$r("app.color.blue")]
+  private borderColorOptions: Resource[] = [$r('app.color.blue')]
 
   build() {
     Column() {

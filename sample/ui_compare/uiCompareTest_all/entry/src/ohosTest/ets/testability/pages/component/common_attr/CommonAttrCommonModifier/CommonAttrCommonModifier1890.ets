@@ -30,10 +30,10 @@ struct CommonAttrCommonModifier1890 {
         .margin({ bottom: 10 })
 
       Column() {
-        Image($r("app.media.icon"))
+        Image($r('app.media.icon'))
           .width(200)
           .height(100)
-          .mask(new Ellipse({ width: "200px", height: "100px" }).fill(Color.Grey))
+          .mask(new Ellipse({ width: '200px', height: '100px' }).fill(Color.Grey))
           .id('mask_component_commonmodifier_1890')
       }
       .justifyContent(FlexAlign.Center)

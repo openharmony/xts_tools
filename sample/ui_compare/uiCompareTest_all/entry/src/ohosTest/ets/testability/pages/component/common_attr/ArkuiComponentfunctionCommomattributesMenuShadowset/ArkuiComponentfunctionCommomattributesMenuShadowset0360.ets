@@ -23,28 +23,28 @@ struct ArkuiComponentfunctionCommomattributesMenuShadowset0360 {
 
   build() {
     Column() {
-      Text("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0360")
+      Text('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0360')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0360")
+        .id('title_text_0360')
 
-      Text("测试说明：\n验证直板机在深色模式下，鼠标右键点击打开web菜单的阴影显示正常")
+      Text('测试说明：\n验证直板机在深色模式下，鼠标右键点击打开web菜单的阴影显示正常')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("切换到深色模式")
-        .id("button_dark_mode_0360")
+      Button('切换到深色模式')
+        .id('button_dark_mode_0360')
         .margin({ bottom: 10 })
         .onClick(() => {
           this.isDarkMode = true
         })
 
       Web({ src: ('https://' + 'www.openharmony.cn' + ''), controller: this.controller })
-        .id("web_component_0360")
+        .id('web_component_0360')
         .width('100%')
         .height(500)
     }

@@ -42,7 +42,7 @@ struct CommonAttrCommonModifier1740 {
               colors: [[0xFF0000FF, 0.0], [0xD3E0DC, 0.3], [0xFF0000, 1.0]]
             },
             slice: { top: 40, bottom: 40, left: 40, right: 40 },
-            width: { top: "40px", bottom: "40px", left: "40px", right: "40px" },
+            width: { top: '40px', bottom: '40px', left: '40px', right: '40px' },
             outset: 0,
             repeat: RepeatMode.Stretch,
             fill: false

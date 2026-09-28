@@ -69,7 +69,7 @@ struct UIAttributesImageEffectSpherical0070 {
         })
 
       TextInput({
-        placeholder: "请输入变化范围百分比（[0%,100%]）"
+        placeholder: '请输入变化范围百分比（[0%,100%]）'
       })
         .width('50%')
         .height(35)

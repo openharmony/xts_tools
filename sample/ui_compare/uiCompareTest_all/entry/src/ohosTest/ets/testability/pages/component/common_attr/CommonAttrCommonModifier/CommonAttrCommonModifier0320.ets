@@ -18,7 +18,7 @@
 struct CommonAttrCommonModifier0320 {
   @State currentIndex: number = 0
   
-  private colorBlendValues: string[] = ["green"]
+  private colorBlendValues: string[] = ['green']
   private colorBlendNames: string[] = ['colorBlend: "green" (字符串绿色混合)']
 
   build() {
@@ -269,7 +269,7 @@ struct CommonAttrCommonModifier0320 {
             .width('8.33%')
             .height('4.1%')
             .backgroundColor('#FFB6C1')
-            .colorBlend("blue")
+            .colorBlend('blue')
             .justifyContent(FlexAlign.Center)
             .border({ width: 1, color: Color.Gray })
           }

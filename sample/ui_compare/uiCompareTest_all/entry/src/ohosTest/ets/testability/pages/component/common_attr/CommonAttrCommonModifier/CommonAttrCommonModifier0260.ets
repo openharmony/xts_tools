@@ -32,7 +32,7 @@ struct CommonAttrCommonModifier0260 {
   private pickerOptions: PickerOption[] = [
     {
       canLoop: true,
-      defaultPickerItemHeight: "16",
+      defaultPickerItemHeight: '16',
       disappearTextStyle: { font: { size: 15, weight: FontWeight.Lighter } },
       selectedTextStyle: { color: Color.Red, font: { size: 20, weight: undefined } },
       textStyle: { font: { size: 15, weight: FontWeight.Lighter } },
@@ -77,7 +77,7 @@ struct CommonAttrCommonModifier0260 {
               .margin({ bottom: 10 })
 
             TextPicker({ range: this.pickerData, selected: 2 })
-              .defaultPickerItemHeight("20")
+              .defaultPickerItemHeight('20')
               .canLoop(false)
               .selectedIndex(2)
               .textStyle({ font: { size: 16, weight: FontWeight.Normal } })

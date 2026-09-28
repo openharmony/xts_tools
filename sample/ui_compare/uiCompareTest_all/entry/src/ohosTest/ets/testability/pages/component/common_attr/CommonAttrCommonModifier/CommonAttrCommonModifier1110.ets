@@ -19,10 +19,10 @@ struct CommonAttrCommonModifier1110 {
   @State currentIndex: number = 0
   
   private pixelStretchEffectValues: string[] = [
-    "negative values",
-    "positive values",
-    "small values",
-    "percentage top"
+    'negative values',
+    'positive values',
+    'small values',
+    'percentage top'
   ]
 
   build() {
@@ -94,7 +94,7 @@ struct CommonAttrCommonModifier1110 {
       case 2:
         return { right: 2, bottom: 2, top: 2, left: 2 }
       case 3:
-        return { top: "50%", left: 10, right: 10, bottom: 10 }
+        return { top: '50%', left: 10, right: 10, bottom: 10 }
       default:
         return { top: 0, left: 0, right: 0, bottom: 0 }
     }

@@ -21,39 +21,39 @@ struct ArkuiComponentfunctionCommomattributesMenuShadowset0310 {
   @Builder
   MyMenu() {
     Menu() {
-      MenuItem({ content: "菜单项1" })
-        .id("menu_item_1_0310")
-      MenuItem({ content: "菜单项2" })
-        .id("menu_item_2_0310")
-      MenuItem({ content: "菜单项3" })
-        .id("menu_item_3_0310")
+      MenuItem({ content: '菜单项1' })
+        .id('menu_item_1_0310')
+      MenuItem({ content: '菜单项2' })
+        .id('menu_item_2_0310')
+      MenuItem({ content: '菜单项3' })
+        .id('menu_item_3_0310')
     }
   }
 
   build() {
     Column() {
-      Text("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310")
+      Text('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310')
         .fontSize(16)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 20, bottom: 20 })
-        .id("title_text_0310")
+        .id('title_text_0310')
 
-      Text("测试说明：\n验证直板机在深色模式下，带箭头的菜单阴影显示正常")
+      Text('测试说明：\n验证直板机在深色模式下，带箭头的菜单阴影显示正常')
         .fontSize(14)
         .margin({ bottom: 30 })
         .padding(10)
         .backgroundColor(Color.Gray)
         .borderRadius(8)
 
-      Button("切换到深色模式")
-        .id("button_dark_mode_0310")
+      Button('切换到深色模式')
+        .id('button_dark_mode_0310')
         .margin({ bottom: 10 })
         .onClick(() => {
           this.isDarkMode = true
         })
 
-      Button("bindMenu带箭头")
-        .id("button_with_arrow_0310")
+      Button('bindMenu带箭头')
+        .id('button_with_arrow_0310')
         .margin({ bottom: 10 })
         .bindMenu(this.MyMenu, {
           enableArrow: true

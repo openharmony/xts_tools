@@ -39,7 +39,7 @@ struct CommonAttrCommonModifier1820 {
           .useShadowBatching(true)
           .outline({
             width: { left: 3, right: 6, top: 10, bottom: 15 },
-            color: { left: "#e3bbbb", right: Color.Blue, top: Color.Red, bottom: Color.Green },
+            color: { left: '#e3bbbb', right: Color.Blue, top: Color.Red, bottom: Color.Green },
             radius: { topLeft: 10, topRight: 20, bottomLeft: 30, bottomRight: 40 },
             style: { left: OutlineStyle.SOLID, right: OutlineStyle.DASHED, top: OutlineStyle.DOTTED, bottom: OutlineStyle.SOLID }
           })

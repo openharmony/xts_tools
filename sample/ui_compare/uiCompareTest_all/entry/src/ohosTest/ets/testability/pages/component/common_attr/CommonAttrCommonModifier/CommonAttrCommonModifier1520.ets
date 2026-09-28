@@ -26,7 +26,7 @@ struct CommonAttrCommonModifier1520 {
   @State currentIndex: number = 0
   
   private borderWidthOptions: BorderWidthOption1520[] = [
-    { left: "20vp", right: "20vp", top: "30vp", bottom: "40vp" }
+    { left: '20vp', right: '20vp', top: '30vp', bottom: '40vp' }
   ]
 
   build() {

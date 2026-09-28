@@ -25,13 +25,13 @@ struct CommonAttrCommonModifier0210 {
   private offsetValues: OffsetOption[] = [
     { offset: { x: 30, y: 10 } },
     { offset: { x: 10, y: 20 } },
-    { offset: { x: "10px", y: "10px" } },
-    { offset: { x: "10vp", y: "10vp" } },
-    { offset: { x: "10fp", y: "10fp" } },
-    { offset: { x: "10lpx", y: "10lpx" } },
-    { offset: { x: "10%", y: "10%" } },
+    { offset: { x: '10px', y: '10px' } },
+    { offset: { x: '10vp', y: '10vp' } },
+    { offset: { x: '10fp', y: '10fp' } },
+    { offset: { x: '10lpx', y: '10lpx' } },
+    { offset: { x: '10%', y: '10%' } },
     { offset: { x: -10, y: -10 } },
-    { offset: { x: "20px", y: "22px" } }
+    { offset: { x: '20px', y: '22px' } }
   ]
 
   private offsetNames: string[] = [

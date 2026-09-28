@@ -19,13 +19,13 @@ struct CommonAttrCommonModifier1020 {
   @State currentIndex: number = 0
   
   private sizeValues: string[] = [
-    "width:144, height:144",
-    "width:100, height:100",
-    "width only:144",
-    "number width:144, height:144",
-    "negative width:-1",
-    "negative height:-1",
-    "ImageSize.Auto"
+    'width:144, height:144',
+    'width:100, height:100',
+    'width only:144',
+    'number width:144, height:144',
+    'negative width:-1',
+    'negative height:-1',
+    'ImageSize.Auto'
   ]
 
   build() {
