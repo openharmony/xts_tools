@@ -51,7 +51,7 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0100 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0100")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -74,7 +74,7 @@ export default function commonAttrFocusgroup() {
       await Utils.sleep(500)
 
       // 步骤6：点击"更改第一个焦点组的id"按钮，值改为undefined
-      let changeIdBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_0100_change_id"), 500)
+      let changeIdBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_0100_change_id'), 500)
       await changeIdBtn.click()
       await Utils.sleep(500)
 
@@ -121,7 +121,7 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0200 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0200")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0200')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -140,7 +140,7 @@ export default function commonAttrFocusgroup() {
       await Utils.sleep(500)
 
       // 步骤5：点击"更改第一个焦点组的isGroup"按钮，值改为false
-      let changeIsGroupBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_0200_change_isgroup"), 500)
+      let changeIsGroupBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_0200_change_isgroup'), 500)
       await changeIsGroupBtn.click()
       await Utils.sleep(500)
 
@@ -177,12 +177,12 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0300 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0300")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0300')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击"更改第一个焦点组的id:focusGroup1"按钮，变为"更改第一个焦点组的id:focusGroup2"
-      let changeIdBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_0300_change_id"), 500)
+      let changeIdBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_0300_change_id'), 500)
       await changeIdBtn.click()
       await Utils.sleep(500)
 
@@ -219,22 +219,22 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0400 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0400")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0400')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击"双栏"按钮切换为双栏模式
-      let doubleBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_0400_double"), 500)
+      let doubleBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_0400_double'), 500)
       await doubleBtn.click()
       await Utils.sleep(500)
 
       // 步骤3：点击"pushPageOne"进入PageOne页面
-      let pushPageOneBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_0400_push_pageone"), 500)
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_0400_push_pageone'), 500)
       await pushPageOneBtn.click()
       await Utils.sleep(500)
 
       // 步骤4：点击"pushPageOneTmp"进入PageOneTmp页面
-      let pushPageOneTmpBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_0400_push_pageonetmp"), 500)
+      let pushPageOneTmpBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_0400_push_pageonetmp'), 500)
       await pushPageOneTmpBtn.click()
       await Utils.sleep(500)
 
@@ -269,12 +269,12 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0500 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0500")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0500')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：焦点组4中，点击"btn2"按钮
-      let group4Btn2 = await driver.waitForComponent(ON.id("commonattr_focusgroup_0500_group4_btn2"), 500)
+      let group4Btn2 = await driver.waitForComponent(ON.id('commonattr_focusgroup_0500_group4_btn2'), 500)
       await group4Btn2.click()
       await Utils.sleep(500)
 
@@ -313,12 +313,12 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0600 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0600")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0600')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：焦点组6中，点击"btn2"按钮
-      let group6Btn2 = await driver.waitForComponent(ON.id("commonattr_focusgroup_0600_group6_btn2"), 500)
+      let group6Btn2 = await driver.waitForComponent(ON.id('commonattr_focusgroup_0600_group6_btn2'), 500)
       await group6Btn2.click()
       await Utils.sleep(500)
 
@@ -365,12 +365,12 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0700 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0700")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0700')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击"pushPageOne"按钮，进入PageOne页面
-      let pushPageOneBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_0700_push_pageone"), 500)
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_0700_push_pageone'), 500)
       await pushPageOneBtn.click()
       await Utils.sleep(500)
 
@@ -406,7 +406,7 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0800', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0800 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0800")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0800')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -433,7 +433,7 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0900 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0900")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup0900')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -480,7 +480,7 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1000', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1000 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1000")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1000')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -519,12 +519,12 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1100 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1100")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击"del"按钮删除焦点组2
-      let delBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_1100_del_btn"), 500)
+      let delBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_1100_del_btn'), 500)
       await delBtn.click()
       await Utils.sleep(500)
 
@@ -559,12 +559,12 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1200 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1200")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1200')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击"隐藏"按钮，焦点组4不可见
-      let hideBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_1200_hide_btn"), 500)
+      let hideBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_1200_hide_btn'), 500)
       await hideBtn.click()
       await Utils.sleep(500)
 
@@ -603,7 +603,7 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1300 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1300")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1300')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -638,12 +638,12 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1400 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1400")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1400')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击"pushPageOne"按钮，进入PageOne页面
-      let pushPageOneBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_1400_push_pageone"), 500)
+      let pushPageOneBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_1400_push_pageone'), 500)
       await pushPageOneBtn.click()
       await Utils.sleep(500)
 
@@ -674,7 +674,7 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1500 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1500")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1500')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -683,7 +683,7 @@ export default function commonAttrFocusgroup() {
       await Utils.sleep(500)
 
       // 步骤3：点击"clearFocus"按钮清除焦点
-      let clearFocusBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_1500_clear_focus_btn"), 500)
+      let clearFocusBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_1500_clear_focus_btn'), 500)
       await clearFocusBtn.click()
       await Utils.sleep(500)
 
@@ -710,12 +710,12 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1600 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1600")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1600')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击bindMenu按钮打开菜单
-      let bindMenuBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_1600_bind_menu"), 500)
+      let bindMenuBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_1600_bind_menu'), 500)
       await bindMenuBtn.click()
       await Utils.sleep(500)
 
@@ -746,12 +746,12 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1700 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1700")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1700')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击bindMenu按钮打开子窗口菜单
-      let bindMenuBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_1700_bind_menu"), 500)
+      let bindMenuBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_1700_bind_menu'), 500)
       await bindMenuBtn.click()
       await Utils.sleep(500)
 
@@ -782,12 +782,12 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1800', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1800 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1800")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1800')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击ComponentDialog按钮打开子窗口弹窗
-      let openDialogBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_1800_open_dialog"), 500)
+      let openDialogBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_1800_open_dialog'), 500)
       await openDialogBtn.click()
       await Utils.sleep(500)
 
@@ -822,12 +822,12 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1900 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1900")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup1900')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击CustomPopupOption1按钮打开子窗口弹窗
-      let openPopupBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_1900_open_popup"), 500)
+      let openPopupBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_1900_open_popup'), 500)
       await openPopupBtn.click()
       await Utils.sleep(500)
 
@@ -858,12 +858,12 @@ export default function commonAttrFocusgroup() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_2000', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_2000 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup2000")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrFocusgroup/CommonAttrFocusgroup2000')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击bindSheet按钮打开半模态面板
-      let openSheetBtn = await driver.waitForComponent(ON.id("commonattr_focusgroup_2000_open_sheet"), 500)
+      let openSheetBtn = await driver.waitForComponent(ON.id('commonattr_focusgroup_2000_open_sheet'), 500)
       await openSheetBtn.click()
       await Utils.sleep(500)
 

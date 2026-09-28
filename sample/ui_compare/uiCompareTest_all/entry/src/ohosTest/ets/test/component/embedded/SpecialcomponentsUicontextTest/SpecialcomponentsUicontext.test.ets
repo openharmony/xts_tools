@@ -49,7 +49,7 @@ export default function specialcomponentsUicontext() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0050 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialcomponentsUicontext/SpecialcomponentsUicontext50")
+      Settings.createWindow('testability/pages/component/embedded/specialcomponentsUicontext/SpecialcomponentsUicontext50')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -71,7 +71,7 @@ export default function specialcomponentsUicontext() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00290 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialcomponentsUicontext/SpecialcomponentsUicontext290")
+      Settings.createWindow('testability/pages/component/embedded/specialcomponentsUicontext/SpecialcomponentsUicontext290')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -94,7 +94,7 @@ export default function specialcomponentsUicontext() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00420 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialcomponentsUicontext/SpecialcomponentsUicontext420")
+      Settings.createWindow('testability/pages/component/embedded/specialcomponentsUicontext/SpecialcomponentsUicontext420')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)
@@ -115,7 +115,7 @@ export default function specialcomponentsUicontext() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00700 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialcomponentsUicontext/SpecialcomponentsUicontext420")
+      Settings.createWindow('testability/pages/component/embedded/specialcomponentsUicontext/SpecialcomponentsUicontext420')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('button'), 1000);  // 显式等待组件出现[6](@ref)

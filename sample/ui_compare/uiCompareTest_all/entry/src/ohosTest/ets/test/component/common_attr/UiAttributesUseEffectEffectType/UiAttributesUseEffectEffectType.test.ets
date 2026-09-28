@@ -66,13 +66,13 @@ export default function uiAttributesUseEffectEffectType() {
      */
     it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0010 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/uiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType01")
+      Settings.createWindow('testability/pages/component/common_attr/uiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0010_01")
+      windowSnap.snapShot('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0010_01')
       await driver.waitForIdle(500,2000);
       await driver.triggerKey(2049);
-      windowSnap.snapShot("SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0010_02")
+      windowSnap.snapShot('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0010_02')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0010 finish.`);
       done()
@@ -88,13 +88,13 @@ export default function uiAttributesUseEffectEffectType() {
      */
     it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/uiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType02")
+      Settings.createWindow('testability/pages/component/common_attr/uiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType02')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050_01")
+      windowSnap.snapShot('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050_01')
       await driver.waitForIdle(500,2000);
       await driver.triggerKey(2049);
-      windowSnap.snapShot("SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050_02")
+      windowSnap.snapShot('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050_02')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050 finish.`);
       done()
@@ -110,13 +110,13 @@ export default function uiAttributesUseEffectEffectType() {
      */
     it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/uiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType03")
+      Settings.createWindow('testability/pages/component/common_attr/uiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType03')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020_01")
+      windowSnap.snapShot('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020_01')
       await driver.waitForIdle(500,2000);
       await driver.triggerKey(2049);
-      windowSnap.snapShot("SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020_02")
+      windowSnap.snapShot('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020_02')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020 finish.`);
       done()
@@ -132,12 +132,12 @@ export default function uiAttributesUseEffectEffectType() {
      */
     it('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/uiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType04")
+      Settings.createWindow('testability/pages/component/common_attr/uiAttributesUseEffectEffectType/UiAttributesUseEffectEffectType04')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060_01")
+      windowSnap.snapShot('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060_01')
       await Utils.sleep(1000)
-      windowSnap.snapShot("SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060_02")
+      windowSnap.snapShot('SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060_02')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060 finish.`);
       done()

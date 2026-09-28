@@ -52,15 +52,15 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0010 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0010")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0010')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let shared_component = await driver.waitForComponent(ON.id("shared_component_commonmodifier_0010"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0010"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0010"), 500)
-      let toggle_page_button = await driver.waitForComponent(ON.id("toggle_page_button_commonmodifier_0010"), 500)
+      let shared_component = await driver.waitForComponent(ON.id('shared_component_commonmodifier_0010'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0010'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0010'), 500)
+      let toggle_page_button = await driver.waitForComponent(ON.id('toggle_page_button_commonmodifier_0010'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试几个关键的sharedTransition属性值
@@ -120,14 +120,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0020 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0020")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0020')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let zindex_component = await driver.waitForComponent(ON.id("zindex_component_commonmodifier_0020"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0020"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0020"), 500)
+      let zindex_component = await driver.waitForComponent(ON.id('zindex_component_commonmodifier_0020'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0020'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0020'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有zIndex属性值
@@ -165,17 +165,17 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0030 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0030")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0030')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
       let displaypriority_component =
-        await driver.waitForComponent(ON.id("displaypriority_component_commonmodifier_0030"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0030"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0030"), 500)
+        await driver.waitForComponent(ON.id('displaypriority_component_commonmodifier_0030'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0030'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0030'), 500)
       let simulate_constraint_button =
-        await driver.waitForComponent(ON.id("simulate_constraint_button_commonmodifier_0030"), 500)
+        await driver.waitForComponent(ON.id('simulate_constraint_button_commonmodifier_0030'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有displayPriority属性值
@@ -220,14 +220,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0040 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0040")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0040')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let alignself_component = await driver.waitForComponent(ON.id("alignself_component_commonmodifier_0040"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0040"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0040"), 500)
+      let alignself_component = await driver.waitForComponent(ON.id('alignself_component_commonmodifier_0040'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0040'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0040'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有alignSelf属性值
@@ -271,14 +271,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0050 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0050")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0050')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let flexbasis_component = await driver.waitForComponent(ON.id("flexbasis_component_commonmodifier_0050"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0050"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0050"), 500)
+      let flexbasis_component = await driver.waitForComponent(ON.id('flexbasis_component_commonmodifier_0050'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0050'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0050'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有flexBasis属性值
@@ -322,14 +322,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0060 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0060")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0060')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let flexgrow_component = await driver.waitForComponent(ON.id("flexgrow_component_commonmodifier_0060"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0060"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0060"), 500)
+      let flexgrow_component = await driver.waitForComponent(ON.id('flexgrow_component_commonmodifier_0060'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0060'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0060'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有flexGrow属性值
@@ -373,14 +373,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0070 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0070")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0070')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let flexshrink_component = await driver.waitForComponent(ON.id("flexshrink_component_commonmodifier_0070"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0070"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0070"), 500)
+      let flexshrink_component = await driver.waitForComponent(ON.id('flexshrink_component_commonmodifier_0070'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0070'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0070'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有flexShrink属性值
@@ -424,14 +424,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0080 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0080")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0080')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let transform_component = await driver.waitForComponent(ON.id("transform_component_commonmodifier_0080"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0080"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0080"), 500)
+      let transform_component = await driver.waitForComponent(ON.id('transform_component_commonmodifier_0080'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0080'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0080'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有transform属性值
@@ -473,14 +473,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0090 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0090")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0090')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let rotate_component = await driver.waitForComponent(ON.id("rotate_component_commonmodifier_0090"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0090"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0090"), 500)
+      let rotate_component = await driver.waitForComponent(ON.id('rotate_component_commonmodifier_0090'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0090'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0090'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有rotate属性值
@@ -522,14 +522,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0100 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0100")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0100')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let gridoffset_component = await driver.waitForComponent(ON.id("gridoffset_component_commonmodifier_0100"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0100"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0100"), 500)
+      let gridoffset_component = await driver.waitForComponent(ON.id('gridoffset_component_commonmodifier_0100'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0100'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0100'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有gridOffset属性值
@@ -571,14 +571,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0110 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0110")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0110')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let gridspan_component = await driver.waitForComponent(ON.id("gridspan_component_commonmodifier_0110"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0110"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0110"), 500)
+      let gridspan_component = await driver.waitForComponent(ON.id('gridspan_component_commonmodifier_0110'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0110'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0110'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有gridSpan属性值
@@ -620,14 +620,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0120 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0120")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0120')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let scale_component = await driver.waitForComponent(ON.id("scale_component_commonmodifier_0120"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0120"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0120"), 500)
+      let scale_component = await driver.waitForComponent(ON.id('scale_component_commonmodifier_0120'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0120'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0120'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有scale属性值
@@ -669,14 +669,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0130 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0130")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0130')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let translate_component = await driver.waitForComponent(ON.id("translate_component_commonmodifier_0130"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0130"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0130"), 500)
+      let translate_component = await driver.waitForComponent(ON.id('translate_component_commonmodifier_0130'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0130'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0130'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有translate属性值
@@ -718,14 +718,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0140 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0140")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0140')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let rendergroup_component = await driver.waitForComponent(ON.id("rendergroup_component_commonmodifier_0140"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0140"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0140"), 500)
+      let rendergroup_component = await driver.waitForComponent(ON.id('rendergroup_component_commonmodifier_0140'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0140'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0140'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试renderGroup属性值
@@ -763,14 +763,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0150 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0150")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0150')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let huerotate_component = await driver.waitForComponent(ON.id("huerotate_component_commonmodifier_0150"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0150"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0150"), 500)
+      let huerotate_component = await driver.waitForComponent(ON.id('huerotate_component_commonmodifier_0150'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0150'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0150'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有hueRotate属性值
@@ -814,14 +814,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0160 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0160")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0160')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let sepia_component = await driver.waitForComponent(ON.id("sepia_component_commonmodifier_0160"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0160"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0160"), 500)
+      let sepia_component = await driver.waitForComponent(ON.id('sepia_component_commonmodifier_0160'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0160'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0160'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有sepia属性值
@@ -865,14 +865,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0170 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0170")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0170')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let align_component = await driver.waitForComponent(ON.id("align_component_commonmodifier_0170"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0170"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0170"), 500)
+      let align_component = await driver.waitForComponent(ON.id('align_component_commonmodifier_0170'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0170'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0170'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有align属性值
@@ -916,14 +916,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0180 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0180")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0180')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let direction_component = await driver.waitForComponent(ON.id("direction_component_commonmodifier_0180"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0180"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0180"), 500)
+      let direction_component = await driver.waitForComponent(ON.id('direction_component_commonmodifier_0180'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0180'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0180'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有direction属性值
@@ -963,14 +963,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0190 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0190")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0190')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let position_component = await driver.waitForComponent(ON.id("position_component_commonmodifier_0190"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0190"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0190"), 500)
+      let position_component = await driver.waitForComponent(ON.id('position_component_commonmodifier_0190'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0190'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0190'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有position属性值
@@ -1014,14 +1014,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0200 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0200")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0200')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let markanchor_component = await driver.waitForComponent(ON.id("markanchor_component_commonmodifier_0200"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0200"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0200"), 500)
+      let markanchor_component = await driver.waitForComponent(ON.id('markanchor_component_commonmodifier_0200'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0200'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0200'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有markAnchor属性值
@@ -1065,14 +1065,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0210 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0210")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0210')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let offset_component = await driver.waitForComponent(ON.id("offset_component_commonmodifier_0210"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0210"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0210"), 500)
+      let offset_component = await driver.waitForComponent(ON.id('offset_component_commonmodifier_0210'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0210'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0210'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有offset属性值
@@ -1116,14 +1116,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0220 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0220")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0220')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let markanchor_component = await driver.waitForComponent(ON.id("markanchor_component_commonmodifier_0220"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0220"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0220"), 500)
+      let markanchor_component = await driver.waitForComponent(ON.id('markanchor_component_commonmodifier_0220'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0220'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0220'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 测试所有markAnchor属性值
@@ -1167,14 +1167,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0230 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0230")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0230')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let saturate_component = await driver.waitForComponent(ON.id("saturate_component_commonmodifier_0230"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0230"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0230"), 500)
+      let saturate_component = await driver.waitForComponent(ON.id('saturate_component_commonmodifier_0230'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0230'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0230'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个saturate值(0.7)，测试按钮功能
@@ -1212,14 +1212,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0240 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0240")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0240')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let saturate_component = await driver.waitForComponent(ON.id("saturate_component_commonmodifier_0240"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0240"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0240"), 500)
+      let saturate_component = await driver.waitForComponent(ON.id('saturate_component_commonmodifier_0240'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0240'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0240'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个saturate值(0.2)，测试按钮功能
@@ -1257,14 +1257,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0250 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0250")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0250')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let saturate_component = await driver.waitForComponent(ON.id("saturate_component_commonmodifier_0250"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0250"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0250"), 500)
+      let saturate_component = await driver.waitForComponent(ON.id('saturate_component_commonmodifier_0250'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0250'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0250'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个saturate值(1.0)，测试按钮功能
@@ -1303,14 +1303,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0260 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0260")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0260')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let picker_component = await driver.waitForComponent(ON.id("picker_component_commonmodifier_0260"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0260"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0260"), 500)
+      let picker_component = await driver.waitForComponent(ON.id('picker_component_commonmodifier_0260'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0260'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0260'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个配置，测试按钮功能
@@ -1348,14 +1348,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0270 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0270")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0270')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let saturate_component = await driver.waitForComponent(ON.id("saturate_component_commonmodifier_0270"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0270"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0270"), 500)
+      let saturate_component = await driver.waitForComponent(ON.id('saturate_component_commonmodifier_0270'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0270'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0270'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个saturate值(100)，测试按钮功能
@@ -1392,14 +1392,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0280 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0280")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0280')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let saturate_component = await driver.waitForComponent(ON.id("saturate_component_commonmodifier_0280"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0280"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0280"), 500)
+      let saturate_component = await driver.waitForComponent(ON.id('saturate_component_commonmodifier_0280'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0280'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0280'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个saturate值(-1)，测试按钮功能
@@ -1437,14 +1437,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0290 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0290")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0290')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let saturate_component = await driver.waitForComponent(ON.id("saturate_component_commonmodifier_0290"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0290"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0290"), 500)
+      let saturate_component = await driver.waitForComponent(ON.id('saturate_component_commonmodifier_0290'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0290'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0290'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个saturate值(0)，测试按钮功能
@@ -1482,14 +1482,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0300 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0300")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0300')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let saturate_component = await driver.waitForComponent(ON.id("saturate_component_commonmodifier_0300"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0300"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0300"), 500)
+      let saturate_component = await driver.waitForComponent(ON.id('saturate_component_commonmodifier_0300'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0300'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0300'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个saturate值(2.0)，测试按钮功能
@@ -1527,14 +1527,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0310 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0310")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0310')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0310"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0310"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0310"), 500)
+      let colorblend_component = await driver.waitForComponent(ON.id('colorblend_component_commonmodifier_0310'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0310'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0310'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个colorBlend值(Color.Orange)，测试按钮功能
@@ -1572,14 +1572,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0320 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0320")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0320')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0320"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0320"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0320"), 500)
+      let colorblend_component = await driver.waitForComponent(ON.id('colorblend_component_commonmodifier_0320'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0320'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0320'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个colorBlend值("green")，测试按钮功能
@@ -1617,14 +1617,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0330 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0330")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0330')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0330"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0330"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0330"), 500)
+      let colorblend_component = await driver.waitForComponent(ON.id('colorblend_component_commonmodifier_0330'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0330'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0330'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个colorBlend值(Color.Orange)，测试按钮功能
@@ -1662,14 +1662,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0340 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0340")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0340')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0340"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0340"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0340"), 500)
+      let colorblend_component = await driver.waitForComponent(ON.id('colorblend_component_commonmodifier_0340'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0340'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0340'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个colorBlend值("rgba(255, 100, 100, 0.5)")，测试按钮功能
@@ -1707,14 +1707,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0350 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0350")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0350')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0350"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0350"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0350"), 500)
+      let colorblend_component = await driver.waitForComponent(ON.id('colorblend_component_commonmodifier_0350'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0350'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0350'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个colorBlend值(Color.Red)，测试按钮功能
@@ -1752,14 +1752,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0360 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0360")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0360')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0360"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0360"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0360"), 500)
+      let colorblend_component = await driver.waitForComponent(ON.id('colorblend_component_commonmodifier_0360'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0360'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0360'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个colorBlend值(Color.Red)，测试按钮功能
@@ -1797,14 +1797,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0370 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0370")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0370')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0370"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0370"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0370"), 500)
+      let colorblend_component = await driver.waitForComponent(ON.id('colorblend_component_commonmodifier_0370'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0370'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0370'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个colorBlend值("")，测试按钮功能
@@ -1842,14 +1842,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0380 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0380")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0380')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0380"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0380"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0380"), 500)
+      let colorblend_component = await driver.waitForComponent(ON.id('colorblend_component_commonmodifier_0380'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0380'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0380'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个colorBlend值(undefined)，测试按钮功能
@@ -1887,14 +1887,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0390 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0390")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0390')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let colorblend_component = await driver.waitForComponent(ON.id("colorblend_component_commonmodifier_0390"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0390"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0390"), 500)
+      let colorblend_component = await driver.waitForComponent(ON.id('colorblend_component_commonmodifier_0390'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0390'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0390'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个colorBlend值(Color.Blue)，测试按钮功能
@@ -1932,14 +1932,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0400 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0400")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0400')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0400"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0400"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0400"), 500)
+      let grayscale_component = await driver.waitForComponent(ON.id('grayscale_component_commonmodifier_0400'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0400'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0400'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个grayscale值(0.3)，测试按钮功能
@@ -1977,14 +1977,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0410 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0410")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0410')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0410"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0410"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0410"), 500)
+      let grayscale_component = await driver.waitForComponent(ON.id('grayscale_component_commonmodifier_0410'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0410'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0410'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个grayscale值(0.8)，测试按钮功能
@@ -2022,14 +2022,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0420 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0420")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0420')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0420"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0420"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0420"), 500)
+      let grayscale_component = await driver.waitForComponent(ON.id('grayscale_component_commonmodifier_0420'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0420'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0420'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个grayscale值(1)，测试按钮功能
@@ -2067,14 +2067,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0430 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0430")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0430')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0430"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0430"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0430"), 500)
+      let grayscale_component = await driver.waitForComponent(ON.id('grayscale_component_commonmodifier_0430'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0430'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0430'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个grayscale值(-1)，测试按钮功能
@@ -2112,14 +2112,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0440 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0440")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0440')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0440"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0440"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0440"), 500)
+      let grayscale_component = await driver.waitForComponent(ON.id('grayscale_component_commonmodifier_0440'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0440'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0440'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个grayscale值(10)，测试按钮功能
@@ -2157,14 +2157,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0450 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0450")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0450')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0450"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0450"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0450"), 500)
+      let grayscale_component = await driver.waitForComponent(ON.id('grayscale_component_commonmodifier_0450'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0450'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0450'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个grayscale值(0.05)，测试按钮功能
@@ -2202,14 +2202,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0460 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0460")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0460')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0460"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0460"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0460"), 500)
+      let grayscale_component = await driver.waitForComponent(ON.id('grayscale_component_commonmodifier_0460'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0460'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0460'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个grayscale值(-10000)，测试按钮功能
@@ -2247,14 +2247,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0470 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0470")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0470')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0470"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0470"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0470"), 500)
+      let grayscale_component = await driver.waitForComponent(ON.id('grayscale_component_commonmodifier_0470'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0470'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0470'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个grayscale值(undefined)，测试按钮功能
@@ -2292,14 +2292,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0480 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0480")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0480')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let grayscale_component = await driver.waitForComponent(ON.id("grayscale_component_commonmodifier_0480"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0480"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0480"), 500)
+      let grayscale_component = await driver.waitForComponent(ON.id('grayscale_component_commonmodifier_0480'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0480'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0480'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个grayscale值(10000)，测试按钮功能
@@ -2337,14 +2337,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0490 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0490")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0490')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let contrast_component = await driver.waitForComponent(ON.id("contrast_component_commonmodifier_0490"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0490"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0490"), 500)
+      let contrast_component = await driver.waitForComponent(ON.id('contrast_component_commonmodifier_0490'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0490'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0490'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个contrast值(0.3)，测试按钮功能
@@ -2382,14 +2382,14 @@ export default function commonAttrCommonModifier() {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0500 start.`);
 
       // 步骤1：启动应用
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0500")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrCommonModifier/CommonAttrCommonModifier0500')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 查找组件
-      let contrast_component = await driver.waitForComponent(ON.id("contrast_component_commonmodifier_0500"), 500)
-      let index_increase_button = await driver.waitForComponent(ON.id("index_increase_button_commonmodifier_0500"), 500)
-      let index_decrease_button = await driver.waitForComponent(ON.id("index_decrease_button_commonmodifier_0500"), 500)
+      let contrast_component = await driver.waitForComponent(ON.id('contrast_component_commonmodifier_0500'), 500)
+      let index_increase_button = await driver.waitForComponent(ON.id('index_increase_button_commonmodifier_0500'), 500)
+      let index_decrease_button = await driver.waitForComponent(ON.id('index_decrease_button_commonmodifier_0500'), 500)
 
       // 步骤2：按下index++或index--按钮轮巡测试用例
       // 由于只有一个contrast值(0.8)，测试按钮功能

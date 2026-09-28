@@ -51,7 +51,7 @@ export default function counterMirrorImage() {
      */
     it('SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0030 start.`);
-      Settings.createWindow("testability/pages/component/form/counterMirrorImage/CounterMirrorImage30")
+      Settings.createWindow('testability/pages/component/form/counterMirrorImage/CounterMirrorImage30')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('Counter_01'), 1000);  // 显式等待组件出现[6](@ref)
@@ -81,7 +81,7 @@ export default function counterMirrorImage() {
         let err: BusinessError = error as BusinessError;
         console.error(`call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
       }
-      Settings.createWindow("testability/pages/component/form/counterMirrorImage/CounterMirrorImage30")
+      Settings.createWindow('testability/pages/component/form/counterMirrorImage/CounterMirrorImage30')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('Counter_01'), 1000);  // 显式等待组件出现[6](@ref)
@@ -112,7 +112,7 @@ export default function counterMirrorImage() {
         let err: BusinessError = error as BusinessError;
         console.error(`call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
       }
-      Settings.createWindow("testability/pages/component/form/counterMirrorImage/CounterMirrorImage10")
+      Settings.createWindow('testability/pages/component/form/counterMirrorImage/CounterMirrorImage10')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0010 finish.`);
@@ -137,7 +137,7 @@ export default function counterMirrorImage() {
         let err: BusinessError = error as BusinessError;
         console.error(`call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
       }
-      Settings.createWindow("testability/pages/component/form/counterMirrorImage/CounterMirrorImage50")
+      Settings.createWindow('testability/pages/component/form/counterMirrorImage/CounterMirrorImage50')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0050 finish.`);
@@ -161,7 +161,7 @@ export default function counterMirrorImage() {
         let err: BusinessError = error as BusinessError;
         console.error(`call System.setSystemLanguage failed, error code: ${err.code}, message: ${err.message}.`);
       }
-      Settings.createWindow("testability/pages/component/form/counterMirrorImage/CounterMirrorImage50")
+      Settings.createWindow('testability/pages/component/form/counterMirrorImage/CounterMirrorImage50')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_COUNTER_MIRROR_IMAGE_0090 finish.`);

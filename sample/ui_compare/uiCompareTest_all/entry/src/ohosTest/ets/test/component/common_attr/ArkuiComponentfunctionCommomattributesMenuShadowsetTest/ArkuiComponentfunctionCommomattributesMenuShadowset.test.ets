@@ -46,19 +46,19 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0190", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0190', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0190")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0190')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：点击bindMenu设置showinSub为true
-      let button_menu = await driver.waitForComponent(ON.id("button_menu_0190"), 500)
+      let button_menu = await driver.waitForComponent(ON.id('button_menu_0190'), 500)
       await button_menu.click()
       await Utils.sleep(500)
 
       // 预期效果1：菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0190_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0190_01')
       await Utils.sleep(1000)
 
       done();
@@ -72,19 +72,19 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0200", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0200', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0200")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0200')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：点击select组件，下拉出菜单
-      let select_component = await driver.waitForComponent(ON.id("select_menu_0200"), 500)
+      let select_component = await driver.waitForComponent(ON.id('select_menu_0200'), 500)
       await select_component.click()
       await Utils.sleep(500)
 
       // 预期效果1：菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0200_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0200_01')
       await Utils.sleep(1000)
 
       done();
@@ -98,19 +98,19 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0210", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0210', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0210")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0210')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：点击bindmenu不带箭头
-      let button_no_arrow = await driver.waitForComponent(ON.id("button_no_arrow_0210"), 500)
+      let button_no_arrow = await driver.waitForComponent(ON.id('button_no_arrow_0210'), 500)
       await button_no_arrow.click()
       await Utils.sleep(500)
 
       // 预期效果1：菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0210_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0210_01')
       await Utils.sleep(1000)
 
       done();
@@ -124,19 +124,19 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0220")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0220')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：点击bindMenu带箭头
-      let button_with_arrow = await driver.waitForComponent(ON.id("button_with_arrow_0220"), 500)
+      let button_with_arrow = await driver.waitForComponent(ON.id('button_with_arrow_0220'), 500)
       await button_with_arrow.click()
       await Utils.sleep(500)
 
       // 预期效果1：菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220_01')
       await Utils.sleep(1000)
 
       done();
@@ -150,19 +150,19 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0230")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0230')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：长按带预览图的菜单
-      let button_preview = await driver.waitForComponent(ON.id("button_preview_0230"), 500)
+      let button_preview = await driver.waitForComponent(ON.id('button_preview_0230'), 500)
       await button_preview.longClick()
       await Utils.sleep(500)
 
       // 预期效果1：菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230_01')
       await Utils.sleep(1000)
 
       done();
@@ -176,23 +176,23 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0240", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0240', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0240")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0240')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：长按embedded_expand，点击倒数第二个菜单选项
-      let button_embedded = await driver.waitForComponent(ON.id("button_embedded_0240"), 500)
+      let button_embedded = await driver.waitForComponent(ON.id('button_embedded_0240'), 500)
       await button_embedded.longClick()
       await Utils.sleep(500)
 
-      let menu_item_submenu = await driver.waitForComponent(ON.id("menu_item_submenu_0240"), 500)
+      let menu_item_submenu = await driver.waitForComponent(ON.id('menu_item_submenu_0240'), 500)
       await menu_item_submenu.click()
       await Utils.sleep(500)
 
       // 预期效果1：子菜单和主菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0240_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0240_01')
       await Utils.sleep(1000)
 
       done();
@@ -206,23 +206,23 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0250", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0250', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0250")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0250')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：长按side_expand，点击倒数第二个菜单选项
-      let button_side = await driver.waitForComponent(ON.id("button_side_0250"), 500)
+      let button_side = await driver.waitForComponent(ON.id('button_side_0250'), 500)
       await button_side.longClick()
       await Utils.sleep(500)
 
-      let menu_item_submenu = await driver.waitForComponent(ON.id("menu_item_submenu_0250"), 500)
+      let menu_item_submenu = await driver.waitForComponent(ON.id('menu_item_submenu_0250'), 500)
       await menu_item_submenu.click()
       await Utils.sleep(500)
 
       // 预期效果1：子菜单和主菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0250_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0250_01')
       await Utils.sleep(1000)
 
       done();
@@ -236,23 +236,23 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0260")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0260')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：长按stack_expand，点击倒数第二个菜单选项
-      let button_stack = await driver.waitForComponent(ON.id("button_stack_0260"), 500)
+      let button_stack = await driver.waitForComponent(ON.id('button_stack_0260'), 500)
       await button_stack.longClick()
       await Utils.sleep(500)
 
-      let menu_item_submenu = await driver.waitForComponent(ON.id("menu_item_submenu_0260"), 500)
+      let menu_item_submenu = await driver.waitForComponent(ON.id('menu_item_submenu_0260'), 500)
       await menu_item_submenu.click()
       await Utils.sleep(500)
 
       // 预期效果1：子菜单和主菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260_01')
       await Utils.sleep(1000)
 
       done();
@@ -266,19 +266,19 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0270", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0270', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0270")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0270')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：长按Web组件打开菜单
-      let web_component = await driver.waitForComponent(ON.id("web_component_0270"), 500)
+      let web_component = await driver.waitForComponent(ON.id('web_component_0270'), 500)
       await web_component.longClick()
       await Utils.sleep(1000)
 
       // 预期效果1：菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0270_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0270_01')
       await Utils.sleep(1000)
 
       done();
@@ -292,24 +292,24 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0280")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0280')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：切换到深色模式
-      let button_dark_mode = await driver.waitForComponent(ON.id("button_dark_mode_0280"), 500)
+      let button_dark_mode = await driver.waitForComponent(ON.id('button_dark_mode_0280'), 500)
       await button_dark_mode.click()
       await Utils.sleep(500)
 
       // 步骤3：点击bindMenu设置showinSub为true
-      let button_menu = await driver.waitForComponent(ON.id("button_menu_0280"), 500)
+      let button_menu = await driver.waitForComponent(ON.id('button_menu_0280'), 500)
       await button_menu.click()
       await Utils.sleep(500)
 
       // 预期效果1：菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280_01')
       await Utils.sleep(1000)
 
       done();
@@ -323,24 +323,24 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0290")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0290')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：切换到深色模式
-      let button_dark_mode = await driver.waitForComponent(ON.id("button_dark_mode_0290"), 500)
+      let button_dark_mode = await driver.waitForComponent(ON.id('button_dark_mode_0290'), 500)
       await button_dark_mode.click()
       await Utils.sleep(500)
 
       // 步骤3：点击select组件，下拉出菜单
-      let select_component = await driver.waitForComponent(ON.id("select_menu_0290"), 500)
+      let select_component = await driver.waitForComponent(ON.id('select_menu_0290'), 500)
       await select_component.click()
       await Utils.sleep(500)
 
       // 预期效果1：菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290_01')
       await Utils.sleep(1000)
 
       done();
@@ -354,24 +354,24 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0300", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0300', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0300")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0300')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：切换到深色模式
-      let button_dark_mode = await driver.waitForComponent(ON.id("button_dark_mode_0300"), 500)
+      let button_dark_mode = await driver.waitForComponent(ON.id('button_dark_mode_0300'), 500)
       await button_dark_mode.click()
       await Utils.sleep(500)
 
       // 步骤3：点击bindmenu不带箭头
-      let button_no_arrow = await driver.waitForComponent(ON.id("button_no_arrow_0300"), 500)
+      let button_no_arrow = await driver.waitForComponent(ON.id('button_no_arrow_0300'), 500)
       await button_no_arrow.click()
       await Utils.sleep(500)
 
       // 预期效果1：菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0300_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0300_01')
       await Utils.sleep(1000)
 
       done();
@@ -385,24 +385,24 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0310")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0310')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：切换到深色模式
-      let button_dark_mode = await driver.waitForComponent(ON.id("button_dark_mode_0310"), 500)
+      let button_dark_mode = await driver.waitForComponent(ON.id('button_dark_mode_0310'), 500)
       await button_dark_mode.click()
       await Utils.sleep(500)
 
       // 步骤3：点击bindMenu带箭头
-      let button_with_arrow = await driver.waitForComponent(ON.id("button_with_arrow_0310"), 500)
+      let button_with_arrow = await driver.waitForComponent(ON.id('button_with_arrow_0310'), 500)
       await button_with_arrow.click()
       await Utils.sleep(500)
 
       // 预期效果1：菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310_01')
       await Utils.sleep(1000)
 
       done();
@@ -416,24 +416,24 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0320", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0320', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0320")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0320')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：切换到深色模式
-      let button_dark_mode = await driver.waitForComponent(ON.id("button_dark_mode_0320"), 500)
+      let button_dark_mode = await driver.waitForComponent(ON.id('button_dark_mode_0320'), 500)
       await button_dark_mode.click()
       await Utils.sleep(500)
 
       // 步骤3：长按带预览图的菜单
-      let button_preview = await driver.waitForComponent(ON.id("button_preview_0320"), 500)
+      let button_preview = await driver.waitForComponent(ON.id('button_preview_0320'), 500)
       await button_preview.longClick()
       await Utils.sleep(500)
 
       // 预期效果1：菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0320_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0320_01')
       await Utils.sleep(1000)
 
       done();
@@ -447,28 +447,28 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0330", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0330', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0330")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0330')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：切换到深色模式
-      let button_dark_mode = await driver.waitForComponent(ON.id("button_dark_mode_0330"), 500)
+      let button_dark_mode = await driver.waitForComponent(ON.id('button_dark_mode_0330'), 500)
       await button_dark_mode.click()
       await Utils.sleep(500)
 
       // 步骤3：长按embedded_expand，点击倒数第二个菜单选项
-      let button_embedded = await driver.waitForComponent(ON.id("button_embedded_0330"), 500)
+      let button_embedded = await driver.waitForComponent(ON.id('button_embedded_0330'), 500)
       await button_embedded.longClick()
       await Utils.sleep(500)
 
-      let menu_item_submenu = await driver.waitForComponent(ON.id("menu_item_submenu_0330"), 500)
+      let menu_item_submenu = await driver.waitForComponent(ON.id('menu_item_submenu_0330'), 500)
       await menu_item_submenu.click()
       await Utils.sleep(500)
 
       // 预期效果1：子菜单和主菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0330_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0330_01')
       await Utils.sleep(1000)
 
       done();
@@ -482,28 +482,28 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0340")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0340')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：切换到深色模式
-      let button_dark_mode = await driver.waitForComponent(ON.id("button_dark_mode_0340"), 500)
+      let button_dark_mode = await driver.waitForComponent(ON.id('button_dark_mode_0340'), 500)
       await button_dark_mode.click()
       await Utils.sleep(500)
 
       // 步骤3：长按side_expand，点击倒数第二个菜单选项
-      let button_side = await driver.waitForComponent(ON.id("button_side_0340"), 500)
+      let button_side = await driver.waitForComponent(ON.id('button_side_0340'), 500)
       await button_side.longClick()
       await Utils.sleep(500)
 
-      let menu_item_submenu = await driver.waitForComponent(ON.id("menu_item_submenu_0340"), 500)
+      let menu_item_submenu = await driver.waitForComponent(ON.id('menu_item_submenu_0340'), 500)
       await menu_item_submenu.click()
       await Utils.sleep(500)
 
       // 预期效果1：子菜单和主菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340_01')
       await Utils.sleep(1000)
 
       done();
@@ -517,28 +517,28 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0350", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0350', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0350")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0350')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：切换到深色模式
-      let button_dark_mode = await driver.waitForComponent(ON.id("button_dark_mode_0350"), 500)
+      let button_dark_mode = await driver.waitForComponent(ON.id('button_dark_mode_0350'), 500)
       await button_dark_mode.click()
       await Utils.sleep(500)
 
       // 步骤3：长按stack_expand，点击倒数第二个菜单选项
-      let button_stack = await driver.waitForComponent(ON.id("button_stack_0350"), 500)
+      let button_stack = await driver.waitForComponent(ON.id('button_stack_0350'), 500)
       await button_stack.longClick()
       await Utils.sleep(500)
 
-      let menu_item_submenu = await driver.waitForComponent(ON.id("menu_item_submenu_0350"), 500)
+      let menu_item_submenu = await driver.waitForComponent(ON.id('menu_item_submenu_0350'), 500)
       await menu_item_submenu.click()
       await Utils.sleep(500)
 
       // 预期效果1：子菜单和主菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0350_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0350_01')
       await Utils.sleep(1000)
 
       done();
@@ -552,24 +552,24 @@ export default function arkuiComponentfunctionCommomattributesMenuShadowset() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0360", Level.LEVEL3, async (done: Function) => {
+    it('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0360', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0360")
+      Settings.createWindow('testability/pages/component/common_attr/arkuiComponentfunctionCommomattributesMenuShadowset/ArkuiComponentfunctionCommomattributesMenuShadowset0360')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2：切换到深色模式
-      let button_dark_mode = await driver.waitForComponent(ON.id("button_dark_mode_0360"), 500)
+      let button_dark_mode = await driver.waitForComponent(ON.id('button_dark_mode_0360'), 500)
       await button_dark_mode.click()
       await Utils.sleep(500)
 
       // 步骤3：长按Web组件打开菜单
-      let web_component = await driver.waitForComponent(ON.id("web_component_0360"), 500)
+      let web_component = await driver.waitForComponent(ON.id('web_component_0360'), 500)
       await web_component.longClick()
       await Utils.sleep(1000)
 
       // 预期效果1：菜单的阴影显示正常
-      await windowSnap.snapShot("ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0360_01")
+      await windowSnap.snapShot('ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0360_01')
       await Utils.sleep(1000)
 
       done();

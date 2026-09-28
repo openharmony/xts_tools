@@ -50,7 +50,7 @@ export default function patternLockTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0027', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0027 start.`);
-      Settings.createWindow("testability/pages/component/form/patternLock/patternLock01")
+      Settings.createWindow('testability/pages/component/form/patternLock/patternLock01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0027_01')
@@ -79,7 +79,7 @@ export default function patternLockTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0028', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0028 start.`);
-      Settings.createWindow("testability/pages/component/form/patternLock/patternLock02")
+      Settings.createWindow('testability/pages/component/form/patternLock/patternLock02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0028_01')
@@ -108,7 +108,7 @@ export default function patternLockTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0029', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0029 start.`);
-      Settings.createWindow("testability/pages/component/form/patternLock/patternLock03")
+      Settings.createWindow('testability/pages/component/form/patternLock/patternLock03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0029_01')
@@ -137,7 +137,7 @@ export default function patternLockTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0030 start.`);
-      Settings.createWindow("testability/pages/component/form/patternLock/patternLock04")
+      Settings.createWindow('testability/pages/component/form/patternLock/patternLock04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0030_01')
@@ -166,7 +166,7 @@ export default function patternLockTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0031', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0031 start.`);
-      Settings.createWindow("testability/pages/component/form/patternLock/patternLock05")
+      Settings.createWindow('testability/pages/component/form/patternLock/patternLock05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0031_01')
@@ -195,7 +195,7 @@ export default function patternLockTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0032', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0032 start.`);
-      Settings.createWindow("testability/pages/component/form/patternLock/patternLock06")
+      Settings.createWindow('testability/pages/component/form/patternLock/patternLock06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0032_01')
@@ -224,7 +224,7 @@ export default function patternLockTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0033', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0033 start.`);
-      Settings.createWindow("testability/pages/component/form/patternLock/patternLock07")
+      Settings.createWindow('testability/pages/component/form/patternLock/patternLock07')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0033_01')
@@ -253,7 +253,7 @@ export default function patternLockTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0034', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0034 start.`);
-      Settings.createWindow("testability/pages/component/form/patternLock/patternLock08")
+      Settings.createWindow('testability/pages/component/form/patternLock/patternLock08')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0034_01')
@@ -282,7 +282,7 @@ export default function patternLockTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0035', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0035 start.`);
-      Settings.createWindow("testability/pages/component/form/patternLock/patternLock09")
+      Settings.createWindow('testability/pages/component/form/patternLock/patternLock09')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0035')
@@ -301,7 +301,7 @@ export default function patternLockTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0036', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0036 start.`);
-      Settings.createWindow("testability/pages/component/form/patternLock/patternLock10")
+      Settings.createWindow('testability/pages/component/form/patternLock/patternLock10')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0036_01')
@@ -325,7 +325,7 @@ export default function patternLockTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0037', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0037 start.`);
-      Settings.createWindow("testability/pages/component/form/patternLock/patternLock11")
+      Settings.createWindow('testability/pages/component/form/patternLock/patternLock11')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0037_01')
@@ -349,7 +349,7 @@ export default function patternLockTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0038', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0038 start.`);
-      Settings.createWindow("testability/pages/component/form/patternLock/patternLock12")
+      Settings.createWindow('testability/pages/component/form/patternLock/patternLock12')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0038')
@@ -368,7 +368,7 @@ export default function patternLockTest () {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0039', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0039 start.`);
-      Settings.createWindow("testability/pages/component/form/patternLock/patternLock13")
+      Settings.createWindow('testability/pages/component/form/patternLock/patternLock13')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0039_01')

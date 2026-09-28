@@ -51,7 +51,7 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0010', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0010 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0010")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -88,7 +88,7 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0020', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0020 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0020")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -131,7 +131,7 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0030', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0030 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0030")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -182,7 +182,7 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0040', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0040 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0040")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -211,7 +211,7 @@ export default function commonAttrPriority() {
       await Utils.sleep(500)
 
       // 步骤4：点击焦点组6中的"FocusPriority.AUTO"按钮
-      let autoBtn = await driver.waitForComponent(ON.id("button_priority_0040_auto"), 500)
+      let autoBtn = await driver.waitForComponent(ON.id('button_priority_0040_auto'), 500)
       await autoBtn.click()
       await Utils.sleep(500)
 
@@ -243,7 +243,7 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0050', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0050 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0050")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -272,7 +272,7 @@ export default function commonAttrPriority() {
       await Utils.sleep(500)
 
       // 步骤4：点击焦点组7中的"不设置"按钮
-      let noneBtn = await driver.waitForComponent(ON.id("button_priority_0050_none"), 500)
+      let noneBtn = await driver.waitForComponent(ON.id('button_priority_0050_none'), 500)
       await noneBtn.click()
       await Utils.sleep(500)
 
@@ -302,7 +302,7 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0060', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0060 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0060")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -363,7 +363,7 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0070', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0070 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0070")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -416,7 +416,7 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0080', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0080 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0080")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -465,7 +465,7 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0090', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0090 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0090")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -520,7 +520,7 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0100', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0100 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0100")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
@@ -577,12 +577,12 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0110', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0110 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0110")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击bindMenu 非子窗口按钮，打开菜单
-      let bindMenuBtn = await driver.waitForComponent(ON.id("button_priority_0110_bindmenu"), 500)
+      let bindMenuBtn = await driver.waitForComponent(ON.id('button_priority_0110_bindmenu'), 500)
       await bindMenuBtn.click()
       await Utils.sleep(500)
 
@@ -635,12 +635,12 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0120', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0120 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0120")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击bindMenu 子窗口按钮，打开菜单
-      let bindMenuBtn = await driver.waitForComponent(ON.id("button_priority_0120_bindmenu"), 500)
+      let bindMenuBtn = await driver.waitForComponent(ON.id('button_priority_0120_bindmenu'), 500)
       await bindMenuBtn.click()
       await Utils.sleep(500)
 
@@ -693,12 +693,12 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0130', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0130 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0130")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击ComponentDialog按钮，打开对话框
-      let dialogBtn = await driver.waitForComponent(ON.id("button_priority_0130_dialog"), 500)
+      let dialogBtn = await driver.waitForComponent(ON.id('button_priority_0130_dialog'), 500)
       await dialogBtn.click()
       await Utils.sleep(500)
 
@@ -743,12 +743,12 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0140', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0140 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0140")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0140')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击CustomPopupOptions1按钮，打开popup
-      let popupBtn = await driver.waitForComponent(ON.id("button_priority_0140_popup"), 500)
+      let popupBtn = await driver.waitForComponent(ON.id('button_priority_0140_popup'), 500)
       await popupBtn.click()
       await Utils.sleep(500)
 
@@ -793,12 +793,12 @@ export default function commonAttrPriority() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0150', Level.LEVEL3 , async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0150 start.`);
       // 步骤1：打开页面
-      Settings.createWindow("testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0150")
+      Settings.createWindow('testability/pages/component/common_attr/commonAttrPriority/CommonAttrPriority0150')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
 
       // 步骤2：点击bindSheet按钮，打开半模态
-      let sheetBtn = await driver.waitForComponent(ON.id("button_priority_0150_sheet"), 500)
+      let sheetBtn = await driver.waitForComponent(ON.id('button_priority_0150_sheet'), 500)
       await sheetBtn.click()
       await Utils.sleep(500)
 

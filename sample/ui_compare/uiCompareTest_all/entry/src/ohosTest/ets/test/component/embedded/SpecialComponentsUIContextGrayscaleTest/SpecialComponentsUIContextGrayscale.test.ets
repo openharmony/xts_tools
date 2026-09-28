@@ -49,7 +49,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0100 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0100")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0100')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(6000,8000)
       windowSnap.snapShot()
@@ -68,7 +68,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0070 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0070")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0070')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -87,7 +87,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0020 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0020")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0020')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -106,7 +106,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0050 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0050")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0050')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -125,7 +125,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0030 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0030")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0030')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -144,7 +144,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0110 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0110")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0110')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -163,7 +163,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0200 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0200")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0200')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -182,7 +182,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0060 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0060")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0060')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -201,7 +201,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0080 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0080")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0080')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -220,7 +220,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0090 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0090")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0090')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -239,7 +239,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0140 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0140")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0140')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,6000)
       windowSnap.snapShot()
@@ -258,7 +258,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0170 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0170")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0170')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,6000)
       windowSnap.snapShot()
@@ -277,7 +277,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0130 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0130")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0130')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -296,7 +296,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0180 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0180")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0180')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -315,7 +315,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0120 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0120")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0120')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,6000)
       windowSnap.snapShot()
@@ -334,7 +334,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0040 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0040")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0040')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(5000,6000)
       windowSnap.snapShot()
@@ -353,7 +353,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0160 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0160")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0160')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -372,7 +372,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0190 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0190")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0190')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -391,7 +391,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0150 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0150")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0150')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -410,7 +410,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0280 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0280")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0280')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -429,7 +429,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0260 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0260")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0260')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -448,7 +448,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0310 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0310")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0310')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -467,7 +467,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0210 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0210")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0210')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -486,7 +486,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0290 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0290")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0290')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -505,7 +505,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0300 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0300")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0300')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -524,7 +524,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0010 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0010")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0010')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -543,7 +543,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0250 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0250")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0250')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -562,7 +562,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0340 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0340")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0340')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -581,7 +581,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0240 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0240")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0240')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -600,7 +600,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0270 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0270")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0270')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(7000,8000)
       windowSnap.snapShot()
@@ -619,7 +619,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0360 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0360")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0360')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -638,7 +638,7 @@ export default function specialComponentsUIContextGrayscale() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0350 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0350")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsUIContextGrayscale/SpecialComponentsUIContextGrayscale0350')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

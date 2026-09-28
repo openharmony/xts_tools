@@ -49,7 +49,7 @@ export default function specialComponentsFullscreenLaunchComponentOptions() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_OPTIONS_0100', Level.LEVEL1, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_OPTIONS_0100 start.`);
-        Settings.createWindow("testability/pages/component/embedded/specialComponentsFullscreenLaunchComponentOptions/SpecialComponentsFullscreenLaunchComponentOptions0010")
+        Settings.createWindow('testability/pages/component/embedded/specialComponentsFullscreenLaunchComponentOptions/SpecialComponentsFullscreenLaunchComponentOptions0010')
         let driver: Driver = Driver.create();
         await driver.waitForIdle(5000, 8000)
         windowSnap.snapShot()

@@ -50,7 +50,7 @@ export default function specialComponentsFullscreenLaunchComponentEvent() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsFullscreenLaunchComponentEvent/SpecialComponentsFullscreenLaunchComponentEvent0010")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsFullscreenLaunchComponentEvent/SpecialComponentsFullscreenLaunchComponentEvent0010')
       let driver: Driver = Driver.create();
       
       // 初始状态截图
@@ -136,7 +136,7 @@ export default function specialComponentsFullscreenLaunchComponentEvent() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_084_895_384', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_084_895_384 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsFullscreenLaunchComponentEvent/SpecialComponentsFullscreenLaunchComponentEvent0010084895384")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsFullscreenLaunchComponentEvent/SpecialComponentsFullscreenLaunchComponentEvent0010084895384')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       
@@ -245,7 +245,7 @@ export default function specialComponentsFullscreenLaunchComponentEvent() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_767', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_767 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsFullscreenLaunchComponentEvent/SpecialComponentsFullscreenLaunchComponentEvent0100767")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsFullscreenLaunchComponentEvent/SpecialComponentsFullscreenLaunchComponentEvent0100767')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       

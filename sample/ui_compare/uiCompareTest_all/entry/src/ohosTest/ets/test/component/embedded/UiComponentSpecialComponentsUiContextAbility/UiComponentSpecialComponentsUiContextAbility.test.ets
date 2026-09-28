@@ -64,7 +64,7 @@ export default function uiComponentSpecialComponentsUiContextAbility() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0010 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility01")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentSpecialComponentsUiContextAbility01'),1000);
       await button01.click()
@@ -85,7 +85,7 @@ export default function uiComponentSpecialComponentsUiContextAbility() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0020 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility02")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility02')
       let driver:Driver=Driver.create();
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentSpecialComponentsUiContextAbility02'),1000);
       await button02.click()
@@ -106,7 +106,7 @@ export default function uiComponentSpecialComponentsUiContextAbility() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0030 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility03")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility03')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentSpecialComponentsUiContextAbility03'),1000);
       await button03.click()
@@ -127,7 +127,7 @@ export default function uiComponentSpecialComponentsUiContextAbility() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0040 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility04")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility04')
       let driver:Driver=Driver.create();
       let button04: Component = await driver.waitForComponent(ON.id('UiComponentSpecialComponentsUiContextAbility04'),1000);
       await button04.click()
@@ -148,7 +148,7 @@ export default function uiComponentSpecialComponentsUiContextAbility() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0050 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility05")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility05')
       let driver:Driver=Driver.create();
       let button05: Component = await driver.waitForComponent(ON.id('UiComponentSpecialComponentsUiContextAbility05'),1000);
       await button05.click()
@@ -169,7 +169,7 @@ export default function uiComponentSpecialComponentsUiContextAbility() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0060 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility06")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility06')
       let driver:Driver=Driver.create();
       let button06: Component = await driver.waitForComponent(ON.id('UiComponentSpecialComponentsUiContextAbility06'),1000);
       await button06.click()
@@ -190,7 +190,7 @@ export default function uiComponentSpecialComponentsUiContextAbility() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0070 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility07")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility07')
       let driver:Driver=Driver.create();
       let button07: Component = await driver.waitForComponent(ON.id('UiComponentSpecialComponentsUiContextAbility07'),1000);
       await button07.click()
@@ -211,7 +211,7 @@ export default function uiComponentSpecialComponentsUiContextAbility() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0080 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility08")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentSpecialComponentsUiContextAbility/UiComponentSpecialComponentsUiContextAbility08')
       let driver:Driver=Driver.create();
       let button08: Component = await driver.waitForComponent(ON.id('UiComponentSpecialComponentsUiContextAbility08'),1000);
       await button08.click()

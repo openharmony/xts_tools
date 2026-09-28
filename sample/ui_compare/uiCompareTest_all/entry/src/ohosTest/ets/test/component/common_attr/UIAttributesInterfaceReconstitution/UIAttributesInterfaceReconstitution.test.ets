@@ -66,7 +66,7 @@ export default function uIAttributesInterfaceReconstitution() {
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0410 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution01")
+      Settings.createWindow('testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution01_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution01_02'),1000);
@@ -99,7 +99,7 @@ export default function uIAttributesInterfaceReconstitution() {
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0420', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0420 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution02")
+      Settings.createWindow('testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution02_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution02_02'),1000);
@@ -126,7 +126,7 @@ export default function uIAttributesInterfaceReconstitution() {
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0510', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0510 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution03")
+      Settings.createWindow('testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution03_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution03_02'),1000);
@@ -154,7 +154,7 @@ export default function uIAttributesInterfaceReconstitution() {
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0520', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0520 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution04")
+      Settings.createWindow('testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution04_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution04_02'),1000);
@@ -181,7 +181,7 @@ export default function uIAttributesInterfaceReconstitution() {
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0690', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0690 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution05")
+      Settings.createWindow('testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution05')
       let driver:Driver=Driver.create();
       let test: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution05'),1000);
       let button01: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution05_01'),1000);
@@ -218,7 +218,7 @@ export default function uIAttributesInterfaceReconstitution() {
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0700', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0700 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution06")
+      Settings.createWindow('testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution06')
       let driver:Driver=Driver.create();
       let test: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution06'),1000);
       let button01: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution06_01'),1000);
@@ -247,7 +247,7 @@ export default function uIAttributesInterfaceReconstitution() {
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0770', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0770 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution07")
+      Settings.createWindow('testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution07')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution07_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution07_02'),1000);
@@ -275,7 +275,7 @@ export default function uIAttributesInterfaceReconstitution() {
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0780', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0780 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution08")
+      Settings.createWindow('testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution08')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution08_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution08_02'),1000);
@@ -302,7 +302,7 @@ export default function uIAttributesInterfaceReconstitution() {
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0850', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0850 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution09")
+      Settings.createWindow('testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution09')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution09_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution09_02'),1000);
@@ -330,7 +330,7 @@ export default function uIAttributesInterfaceReconstitution() {
      */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0860', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0860 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution10")
+      Settings.createWindow('testability/pages/component/common_attr/UIAttributesInterfaceReconstitution_02/UIAttributesInterfaceReconstitution10')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution10_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UIAttributesInterfaceReconstitution10_02'),1000);

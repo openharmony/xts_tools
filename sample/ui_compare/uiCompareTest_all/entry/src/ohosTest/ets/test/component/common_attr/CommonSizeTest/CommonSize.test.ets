@@ -51,7 +51,7 @@ export default function commonSize() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_SIZE_0009', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_SIZE_0009 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/commonSize/CommonSize0009")
+      Settings.createWindow('testability/pages/component/common_attr/commonSize/CommonSize0009')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -72,7 +72,7 @@ export default function commonSize() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_SIZE_0007', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_SIZE_0007 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/commonSize/CommonSize0007")
+      Settings.createWindow('testability/pages/component/common_attr/commonSize/CommonSize0007')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -93,7 +93,7 @@ export default function commonSize() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_SIZE_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_SIZE_0010 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/commonSize/CommonSize0010")
+      Settings.createWindow('testability/pages/component/common_attr/commonSize/CommonSize0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -114,7 +114,7 @@ export default function commonSize() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_SIZE_0008', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_SIZE_0008 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/commonSize/CommonSize0008")
+      Settings.createWindow('testability/pages/component/common_attr/commonSize/CommonSize0008')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)
@@ -135,7 +135,7 @@ export default function commonSize() {
      */
     it('SUB_ACE_UI_PROGRESS_COMMON_SIZE_0006', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PROGRESS_COMMON_SIZE_0006 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/commonSize/CommonSize0006")
+      Settings.createWindow('testability/pages/component/common_attr/commonSize/CommonSize0006')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000)
       await driver.waitForIdle(500, 2000)

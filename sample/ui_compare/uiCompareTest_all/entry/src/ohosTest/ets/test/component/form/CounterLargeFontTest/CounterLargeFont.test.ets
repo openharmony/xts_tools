@@ -51,27 +51,27 @@ export default function counterLargeFont() {
     it('SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0016', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0016 start.`);
       // 步骤1：添加CounterType.LIST组件，通过公共组件的fontSize设置字体大小
-      Settings.createWindow("testability/pages/component/form/counterLargeFont/CounterLargeFont0016")
+      Settings.createWindow('testability/pages/component/form/counterLargeFont/CounterLargeFont0016')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：编译运行代码
       // 步骤3：分别设置系统字体1，1.15，1.3，1.45，1.75，2倍
-      let counter_largefont_0016_btn_1 = await driver.waitForComponent(ON.id("counter_largefont_0016_btn_1"), 500)
+      let counter_largefont_0016_btn_1 = await driver.waitForComponent(ON.id('counter_largefont_0016_btn_1'), 500)
       await counter_largefont_0016_btn_1.click()
       await Utils.sleep(500)
-      let counter_largefont_0016_btn_1_15 = await driver.waitForComponent(ON.id("counter_largefont_0016_btn_1_15"), 500)
+      let counter_largefont_0016_btn_1_15 = await driver.waitForComponent(ON.id('counter_largefont_0016_btn_1_15'), 500)
       await counter_largefont_0016_btn_1_15.click()
       await Utils.sleep(500)
-      let counter_largefont_0016_btn_1_3 = await driver.waitForComponent(ON.id("counter_largefont_0016_btn_1_3"), 500)
+      let counter_largefont_0016_btn_1_3 = await driver.waitForComponent(ON.id('counter_largefont_0016_btn_1_3'), 500)
       await counter_largefont_0016_btn_1_3.click()
       await Utils.sleep(500)
-      let counter_largefont_0016_btn_1_45 = await driver.waitForComponent(ON.id("counter_largefont_0016_btn_1_45"), 500)
+      let counter_largefont_0016_btn_1_45 = await driver.waitForComponent(ON.id('counter_largefont_0016_btn_1_45'), 500)
       await counter_largefont_0016_btn_1_45.click()
       await Utils.sleep(500)
-      let counter_largefont_0016_btn_1_75 = await driver.waitForComponent(ON.id("counter_largefont_0016_btn_1_75"), 500)
+      let counter_largefont_0016_btn_1_75 = await driver.waitForComponent(ON.id('counter_largefont_0016_btn_1_75'), 500)
       await counter_largefont_0016_btn_1_75.click()
       await Utils.sleep(500)
-      let counter_largefont_0016_btn_2 = await driver.waitForComponent(ON.id("counter_largefont_0016_btn_2"), 500)
+      let counter_largefont_0016_btn_2 = await driver.waitForComponent(ON.id('counter_largefont_0016_btn_2'), 500)
       await counter_largefont_0016_btn_2.click()
       await Utils.sleep(500)
       // 预期结果：组件label不受公共组件字体的控制，文本跟随系统设置改变
@@ -93,33 +93,33 @@ export default function counterLargeFont() {
     it('SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0017', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0017 start.`);
       // 步骤1：添加CounterType.LIST组件
-      Settings.createWindow("testability/pages/component/form/counterLargeFont/CounterLargeFont0017")
+      Settings.createWindow('testability/pages/component/form/counterLargeFont/CounterLargeFont0017')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：编译运行代码
       // 步骤3：动态切换系统字体0.85，1，1.15，1.3，1.45，1.75，2，3.2倍
-      let counter_largefont_0017_btn_0_85 = await driver.waitForComponent(ON.id("counter_largefont_0017_btn_0_85"), 500)
+      let counter_largefont_0017_btn_0_85 = await driver.waitForComponent(ON.id('counter_largefont_0017_btn_0_85'), 500)
       await counter_largefont_0017_btn_0_85.click()
       await Utils.sleep(500)
-      let counter_largefont_0017_btn_1 = await driver.waitForComponent(ON.id("counter_largefont_0017_btn_1"), 500)
+      let counter_largefont_0017_btn_1 = await driver.waitForComponent(ON.id('counter_largefont_0017_btn_1'), 500)
       await counter_largefont_0017_btn_1.click()
       await Utils.sleep(500)
-      let counter_largefont_0017_btn_1_15 = await driver.waitForComponent(ON.id("counter_largefont_0017_btn_1_15"), 500)
+      let counter_largefont_0017_btn_1_15 = await driver.waitForComponent(ON.id('counter_largefont_0017_btn_1_15'), 500)
       await counter_largefont_0017_btn_1_15.click()
       await Utils.sleep(500)
-      let counter_largefont_0017_btn_1_3 = await driver.waitForComponent(ON.id("counter_largefont_0017_btn_1_3"), 500)
+      let counter_largefont_0017_btn_1_3 = await driver.waitForComponent(ON.id('counter_largefont_0017_btn_1_3'), 500)
       await counter_largefont_0017_btn_1_3.click()
       await Utils.sleep(500)
-      let counter_largefont_0017_btn_1_45 = await driver.waitForComponent(ON.id("counter_largefont_0017_btn_1_45"), 500)
+      let counter_largefont_0017_btn_1_45 = await driver.waitForComponent(ON.id('counter_largefont_0017_btn_1_45'), 500)
       await counter_largefont_0017_btn_1_45.click()
       await Utils.sleep(500)
-      let counter_largefont_0017_btn_1_75 = await driver.waitForComponent(ON.id("counter_largefont_0017_btn_1_75"), 500)
+      let counter_largefont_0017_btn_1_75 = await driver.waitForComponent(ON.id('counter_largefont_0017_btn_1_75'), 500)
       await counter_largefont_0017_btn_1_75.click()
       await Utils.sleep(500)
-      let counter_largefont_0017_btn_2 = await driver.waitForComponent(ON.id("counter_largefont_0017_btn_2"), 500)
+      let counter_largefont_0017_btn_2 = await driver.waitForComponent(ON.id('counter_largefont_0017_btn_2'), 500)
       await counter_largefont_0017_btn_2.click()
       await Utils.sleep(500)
-      let counter_largefont_0017_btn_3_2 = await driver.waitForComponent(ON.id("counter_largefont_0017_btn_3_2"), 500)
+      let counter_largefont_0017_btn_3_2 = await driver.waitForComponent(ON.id('counter_largefont_0017_btn_3_2'), 500)
       await counter_largefont_0017_btn_3_2.click()
       await Utils.sleep(500)
       // 预期结果：应用不做跟随设置能够跟随系统字体大小设置，1倍以上时label文本跟随系统设置，0.85倍时label和value跟随系统设置变小
@@ -141,27 +141,27 @@ export default function counterLargeFont() {
     it('SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0024', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0024 start.`);
       // 步骤1：添加CounterType.COMPACT组件，通过公共组件的fontSize设置字体大小
-      Settings.createWindow("testability/pages/component/form/counterLargeFont/CounterLargeFont0024")
+      Settings.createWindow('testability/pages/component/form/counterLargeFont/CounterLargeFont0024')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：编译运行代码
       // 步骤3：分别设置系统字体1，1.15，1.3，1.45，1.75，2倍
-      let counter_largefont_0024_btn_1 = await driver.waitForComponent(ON.id("counter_largefont_0024_btn_1"), 500)
+      let counter_largefont_0024_btn_1 = await driver.waitForComponent(ON.id('counter_largefont_0024_btn_1'), 500)
       await counter_largefont_0024_btn_1.click()
       await Utils.sleep(500)
-      let counter_largefont_0024_btn_1_15 = await driver.waitForComponent(ON.id("counter_largefont_0024_btn_1_15"), 500)
+      let counter_largefont_0024_btn_1_15 = await driver.waitForComponent(ON.id('counter_largefont_0024_btn_1_15'), 500)
       await counter_largefont_0024_btn_1_15.click()
       await Utils.sleep(500)
-      let counter_largefont_0024_btn_1_3 = await driver.waitForComponent(ON.id("counter_largefont_0024_btn_1_3"), 500)
+      let counter_largefont_0024_btn_1_3 = await driver.waitForComponent(ON.id('counter_largefont_0024_btn_1_3'), 500)
       await counter_largefont_0024_btn_1_3.click()
       await Utils.sleep(500)
-      let counter_largefont_0024_btn_1_45 = await driver.waitForComponent(ON.id("counter_largefont_0024_btn_1_45"), 500)
+      let counter_largefont_0024_btn_1_45 = await driver.waitForComponent(ON.id('counter_largefont_0024_btn_1_45'), 500)
       await counter_largefont_0024_btn_1_45.click()
       await Utils.sleep(500)
-      let counter_largefont_0024_btn_1_75 = await driver.waitForComponent(ON.id("counter_largefont_0024_btn_1_75"), 500)
+      let counter_largefont_0024_btn_1_75 = await driver.waitForComponent(ON.id('counter_largefont_0024_btn_1_75'), 500)
       await counter_largefont_0024_btn_1_75.click()
       await Utils.sleep(500)
-      let counter_largefont_0024_btn_2 = await driver.waitForComponent(ON.id("counter_largefont_0024_btn_2"), 500)
+      let counter_largefont_0024_btn_2 = await driver.waitForComponent(ON.id('counter_largefont_0024_btn_2'), 500)
       await counter_largefont_0024_btn_2.click()
       await Utils.sleep(500)
       // 预期结果：组件label不受公共组件字体的控制，文本跟随系统设置改变
@@ -183,33 +183,33 @@ export default function counterLargeFont() {
     it('SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0025', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0025 start.`);
       // 步骤1：添加CounterType.COMPACT组件
-      Settings.createWindow("testability/pages/component/form/counterLargeFont/CounterLargeFont0025")
+      Settings.createWindow('testability/pages/component/form/counterLargeFont/CounterLargeFont0025')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：编译运行代码
       // 步骤3：动态切换系统字体0.85，1，1.15，1.3，1.45，1.75，2，3.2倍
-      let counter_largefont_0025_btn_0_85 = await driver.waitForComponent(ON.id("counter_largefont_0025_btn_0_85"), 500)
+      let counter_largefont_0025_btn_0_85 = await driver.waitForComponent(ON.id('counter_largefont_0025_btn_0_85'), 500)
       await counter_largefont_0025_btn_0_85.click()
       await Utils.sleep(500)
-      let counter_largefont_0025_btn_1 = await driver.waitForComponent(ON.id("counter_largefont_0025_btn_1"), 500)
+      let counter_largefont_0025_btn_1 = await driver.waitForComponent(ON.id('counter_largefont_0025_btn_1'), 500)
       await counter_largefont_0025_btn_1.click()
       await Utils.sleep(500)
-      let counter_largefont_0025_btn_1_15 = await driver.waitForComponent(ON.id("counter_largefont_0025_btn_1_15"), 500)
+      let counter_largefont_0025_btn_1_15 = await driver.waitForComponent(ON.id('counter_largefont_0025_btn_1_15'), 500)
       await counter_largefont_0025_btn_1_15.click()
       await Utils.sleep(500)
-      let counter_largefont_0025_btn_1_3 = await driver.waitForComponent(ON.id("counter_largefont_0025_btn_1_3"), 500)
+      let counter_largefont_0025_btn_1_3 = await driver.waitForComponent(ON.id('counter_largefont_0025_btn_1_3'), 500)
       await counter_largefont_0025_btn_1_3.click()
       await Utils.sleep(500)
-      let counter_largefont_0025_btn_1_45 = await driver.waitForComponent(ON.id("counter_largefont_0025_btn_1_45"), 500)
+      let counter_largefont_0025_btn_1_45 = await driver.waitForComponent(ON.id('counter_largefont_0025_btn_1_45'), 500)
       await counter_largefont_0025_btn_1_45.click()
       await Utils.sleep(500)
-      let counter_largefont_0025_btn_1_75 = await driver.waitForComponent(ON.id("counter_largefont_0025_btn_1_75"), 500)
+      let counter_largefont_0025_btn_1_75 = await driver.waitForComponent(ON.id('counter_largefont_0025_btn_1_75'), 500)
       await counter_largefont_0025_btn_1_75.click()
       await Utils.sleep(500)
-      let counter_largefont_0025_btn_2 = await driver.waitForComponent(ON.id("counter_largefont_0025_btn_2"), 500)
+      let counter_largefont_0025_btn_2 = await driver.waitForComponent(ON.id('counter_largefont_0025_btn_2'), 500)
       await counter_largefont_0025_btn_2.click()
       await Utils.sleep(500)
-      let counter_largefont_0025_btn_3_2 = await driver.waitForComponent(ON.id("counter_largefont_0025_btn_3_2"), 500)
+      let counter_largefont_0025_btn_3_2 = await driver.waitForComponent(ON.id('counter_largefont_0025_btn_3_2'), 500)
       await counter_largefont_0025_btn_3_2.click()
       await Utils.sleep(500)
       // 预期结果：应用不做跟随设置能够跟随系统字体大小设置，1倍以上时label文本跟随系统设置，0.85倍时label和value跟随系统设置变小
@@ -231,33 +231,33 @@ export default function counterLargeFont() {
     it('SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0029', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0029 start.`);
       // 步骤1：添加CounterType.INLINE组件，通过公共组件的fontSize设置字体大小
-      Settings.createWindow("testability/pages/component/form/counterLargeFont/CounterLargeFont0029")
+      Settings.createWindow('testability/pages/component/form/counterLargeFont/CounterLargeFont0029')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：编译运行代码
       // 步骤3：分别设置系统字体0.85，1，1.15，1.3，1.45，1.75，2，3.2倍
-      let counter_largefont_0029_btn_0_85 = await driver.waitForComponent(ON.id("counter_largefont_0029_btn_0_85"), 500)
+      let counter_largefont_0029_btn_0_85 = await driver.waitForComponent(ON.id('counter_largefont_0029_btn_0_85'), 500)
       await counter_largefont_0029_btn_0_85.click()
       await Utils.sleep(500)
-      let counter_largefont_0029_btn_1 = await driver.waitForComponent(ON.id("counter_largefont_0029_btn_1"), 500)
+      let counter_largefont_0029_btn_1 = await driver.waitForComponent(ON.id('counter_largefont_0029_btn_1'), 500)
       await counter_largefont_0029_btn_1.click()
       await Utils.sleep(500)
-      let counter_largefont_0029_btn_1_15 = await driver.waitForComponent(ON.id("counter_largefont_0029_btn_1_15"), 500)
+      let counter_largefont_0029_btn_1_15 = await driver.waitForComponent(ON.id('counter_largefont_0029_btn_1_15'), 500)
       await counter_largefont_0029_btn_1_15.click()
       await Utils.sleep(500)
-      let counter_largefont_0029_btn_1_3 = await driver.waitForComponent(ON.id("counter_largefont_0029_btn_1_3"), 500)
+      let counter_largefont_0029_btn_1_3 = await driver.waitForComponent(ON.id('counter_largefont_0029_btn_1_3'), 500)
       await counter_largefont_0029_btn_1_3.click()
       await Utils.sleep(500)
-      let counter_largefont_0029_btn_1_45 = await driver.waitForComponent(ON.id("counter_largefont_0029_btn_1_45"), 500)
+      let counter_largefont_0029_btn_1_45 = await driver.waitForComponent(ON.id('counter_largefont_0029_btn_1_45'), 500)
       await counter_largefont_0029_btn_1_45.click()
       await Utils.sleep(500)
-      let counter_largefont_0029_btn_1_75 = await driver.waitForComponent(ON.id("counter_largefont_0029_btn_1_75"), 500)
+      let counter_largefont_0029_btn_1_75 = await driver.waitForComponent(ON.id('counter_largefont_0029_btn_1_75'), 500)
       await counter_largefont_0029_btn_1_75.click()
       await Utils.sleep(500)
-      let counter_largefont_0029_btn_2 = await driver.waitForComponent(ON.id("counter_largefont_0029_btn_2"), 500)
+      let counter_largefont_0029_btn_2 = await driver.waitForComponent(ON.id('counter_largefont_0029_btn_2'), 500)
       await counter_largefont_0029_btn_2.click()
       await Utils.sleep(500)
-      let counter_largefont_0029_btn_3_2 = await driver.waitForComponent(ON.id("counter_largefont_0029_btn_3_2"), 500)
+      let counter_largefont_0029_btn_3_2 = await driver.waitForComponent(ON.id('counter_largefont_0029_btn_3_2'), 500)
       await counter_largefont_0029_btn_3_2.click()
       await Utils.sleep(500)
       // 预期结果：组件不受公共组件字体的控制，value字体大小在0.85倍以上跟随系统设置变小，放大后不跟随系统设置生效
@@ -279,33 +279,33 @@ export default function counterLargeFont() {
     it('SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0033', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0033 start.`);
       // 步骤1：添加CounterType.INLINE_DATE组件，通过公共组件的fontSize设置字体大小
-      Settings.createWindow("testability/pages/component/form/counterLargeFont/CounterLargeFont0033")
+      Settings.createWindow('testability/pages/component/form/counterLargeFont/CounterLargeFont0033')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤2：编译运行代码
       // 步骤3：分别设置系统字体0.85，1，1.15，1.3，1.45，1.75，2，3.2倍
-      let counter_largefont_0033_btn_0_85 = await driver.waitForComponent(ON.id("counter_largefont_0033_btn_0_85"), 500)
+      let counter_largefont_0033_btn_0_85 = await driver.waitForComponent(ON.id('counter_largefont_0033_btn_0_85'), 500)
       await counter_largefont_0033_btn_0_85.click()
       await Utils.sleep(500)
-      let counter_largefont_0033_btn_1 = await driver.waitForComponent(ON.id("counter_largefont_0033_btn_1"), 500)
+      let counter_largefont_0033_btn_1 = await driver.waitForComponent(ON.id('counter_largefont_0033_btn_1'), 500)
       await counter_largefont_0033_btn_1.click()
       await Utils.sleep(500)
-      let counter_largefont_0033_btn_1_15 = await driver.waitForComponent(ON.id("counter_largefont_0033_btn_1_15"), 500)
+      let counter_largefont_0033_btn_1_15 = await driver.waitForComponent(ON.id('counter_largefont_0033_btn_1_15'), 500)
       await counter_largefont_0033_btn_1_15.click()
       await Utils.sleep(500)
-      let counter_largefont_0033_btn_1_3 = await driver.waitForComponent(ON.id("counter_largefont_0033_btn_1_3"), 500)
+      let counter_largefont_0033_btn_1_3 = await driver.waitForComponent(ON.id('counter_largefont_0033_btn_1_3'), 500)
       await counter_largefont_0033_btn_1_3.click()
       await Utils.sleep(500)
-      let counter_largefont_0033_btn_1_45 = await driver.waitForComponent(ON.id("counter_largefont_0033_btn_1_45"), 500)
+      let counter_largefont_0033_btn_1_45 = await driver.waitForComponent(ON.id('counter_largefont_0033_btn_1_45'), 500)
       await counter_largefont_0033_btn_1_45.click()
       await Utils.sleep(500)
-      let counter_largefont_0033_btn_1_75 = await driver.waitForComponent(ON.id("counter_largefont_0033_btn_1_75"), 500)
+      let counter_largefont_0033_btn_1_75 = await driver.waitForComponent(ON.id('counter_largefont_0033_btn_1_75'), 500)
       await counter_largefont_0033_btn_1_75.click()
       await Utils.sleep(500)
-      let counter_largefont_0033_btn_2 = await driver.waitForComponent(ON.id("counter_largefont_0033_btn_2"), 500)
+      let counter_largefont_0033_btn_2 = await driver.waitForComponent(ON.id('counter_largefont_0033_btn_2'), 500)
       await counter_largefont_0033_btn_2.click()
       await Utils.sleep(500)
-      let counter_largefont_0033_btn_3_2 = await driver.waitForComponent(ON.id("counter_largefont_0033_btn_3_2"), 500)
+      let counter_largefont_0033_btn_3_2 = await driver.waitForComponent(ON.id('counter_largefont_0033_btn_3_2'), 500)
       await counter_largefont_0033_btn_3_2.click()
       await Utils.sleep(500)
       // 预期结果：组件不受公共组件字体的控制，value字体大小在0.85倍以上跟随系统设置变小，放大后不跟随系统设置生效

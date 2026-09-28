@@ -50,10 +50,10 @@ export default function constructorUicontext() {
      */
     it('SUB_ACE_UI_BUILDNODE_CONSTRUCTOR_UICONTEXT_020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_BUILDNODE_CONSTRUCTOR_UICONTEXT_020 start.`);
-      Settings.createWindow("testability/pages/component/embedded/constructorUicontext/ConstructorUicontext020")
+      Settings.createWindow('testability/pages/component/embedded/constructorUicontext/ConstructorUicontext020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
-      let BuildNode = await driver.waitForComponent(ON.id("ConstructorUicontext020_001"), 500)
+      let BuildNode = await driver.waitForComponent(ON.id('ConstructorUicontext020_001'), 500)
       await BuildNode.click()
       await Utils.sleep(500)
       await windowSnap.snapShot()

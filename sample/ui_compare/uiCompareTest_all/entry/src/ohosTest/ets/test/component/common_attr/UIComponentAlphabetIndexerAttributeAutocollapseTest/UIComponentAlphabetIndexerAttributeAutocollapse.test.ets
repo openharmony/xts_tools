@@ -47,11 +47,11 @@ export default function uIComponentAlphabetIndexerAttributeAutocollapse() {
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_AUTOCOLLAPSE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_AUTOCOLLAPSE_0010 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/uIComponentAlphabetIndexerAttributeAutocollapse/UIComponentAlphabetIndexerAttributeAutocollapse001");
+      Settings.createWindow('testability/pages/component/common_attr/uIComponentAlphabetIndexerAttributeAutocollapse/UIComponentAlphabetIndexerAttributeAutocollapse001');
       let driver: Driver = Driver.create();
       let alphabetIndexer: Component = await driver.waitForComponent(ON.type('AlphabetIndexer'), 1000);
       await driver.waitForIdle(500, 2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_AUTOCOLLAPSE_0010");
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_AUTOCOLLAPSE_0010');
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_AUTOCOLLAPSE_0010 finish.`);
       done();

@@ -64,7 +64,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0350 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern01");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern01');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -83,7 +83,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0470 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern02");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern02');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -102,7 +102,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0360 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern03");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern03');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -121,7 +121,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0270 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern04");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern04');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -140,7 +140,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0500 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern05");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern05');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -159,7 +159,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0420 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern06");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern06');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -178,7 +178,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0370 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern07");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern07');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -197,7 +197,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0440 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern08");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern08');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -216,7 +216,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0380 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern09");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern09');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -235,7 +235,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0450 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern10");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern10');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -254,7 +254,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0410 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern11");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern11');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -273,7 +273,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0310 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern12");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern12');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -292,7 +292,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0460 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern13");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern13');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -311,7 +311,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0260 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern14");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern14');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -330,7 +330,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0390 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern15");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern15');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -349,7 +349,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0510 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern16");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern16');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -368,7 +368,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0300 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern17");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern17');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -387,7 +387,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0340 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern18");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern18');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -406,7 +406,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0320 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern19");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern19');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -425,7 +425,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0490 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern20");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern20');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();
@@ -444,7 +444,7 @@ export default function uiComponentCanvasPath2DAndCanvasPattern() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0280 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern21");
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasPath2DAndCanvasPattern/UiComponentCanvasPath2DAndCanvasPattern21');
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot();

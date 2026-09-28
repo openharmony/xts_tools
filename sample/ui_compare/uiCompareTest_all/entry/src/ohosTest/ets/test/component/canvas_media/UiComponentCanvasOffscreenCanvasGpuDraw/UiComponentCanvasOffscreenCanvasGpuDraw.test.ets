@@ -64,7 +64,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1960', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1960 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw01")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -83,7 +83,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1740 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw02")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw02')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -102,7 +102,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1130 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw03")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw03')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -121,7 +121,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1290 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw04")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw04')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -140,7 +140,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2630 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw05")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw05')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -159,7 +159,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0270 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw06")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw06')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -178,7 +178,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1770 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw07")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw07')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -197,7 +197,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0280 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw08")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw08')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -216,7 +216,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2660 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw09")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw09')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -235,7 +235,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1150 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw10")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw10')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -254,7 +254,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3000', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3000 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw11")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw11')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -273,7 +273,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2720 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw12")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw12')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -292,7 +292,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2390 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw13")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw13')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -311,7 +311,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2020 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw14")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw14')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -330,7 +330,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1870 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw15")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw15')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -349,7 +349,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2080 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw16")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw16')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -368,7 +368,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1810 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw17")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw17')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -387,7 +387,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2100 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw18")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw18')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -406,7 +406,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3070 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw19")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw19')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -425,7 +425,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3060 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw20")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw20')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -444,7 +444,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2040 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw21")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw21')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -463,7 +463,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0130 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw22")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw22')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -482,7 +482,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2890', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2890 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw23")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw23')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -501,7 +501,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2840 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw24")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw24')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -520,7 +520,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2880', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2880 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw25")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw25')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -539,7 +539,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2810 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw26")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw26')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -558,7 +558,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2830 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw27")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw27')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -577,7 +577,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2850', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2850 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw28")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw28')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -596,7 +596,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2800', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2800 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw29")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw29')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -615,7 +615,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2910', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2910 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw30")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw30')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -634,7 +634,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2820 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw31")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw31')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -653,7 +653,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2870 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw32")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw32')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -672,7 +672,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2900 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw33")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw33')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -691,7 +691,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2860 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw34")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw34')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -710,7 +710,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2920', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2920 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw35")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw35')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -729,7 +729,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0970', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0970 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw36")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw36')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -748,7 +748,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0960', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0960 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw37")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw37')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -767,7 +767,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0940', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0940 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw38")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw38')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -786,7 +786,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0950', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0950 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw39")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw39')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -805,7 +805,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0980', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0980 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw40")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw40')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -824,7 +824,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2070 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw41")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw41')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -843,7 +843,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2090 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw42")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw42')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -862,7 +862,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2060 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw43")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw43')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -881,7 +881,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2200 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw44")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw44')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -900,7 +900,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2730 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw45")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw45')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -919,7 +919,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1280 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw46")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw46')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -938,7 +938,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2400 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw47")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw47')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -957,7 +957,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2440 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw48")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw48')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -976,7 +976,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2470 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw49")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw49')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -995,7 +995,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2460 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw50")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw50')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1014,7 +1014,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2450 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw51")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw51')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1033,7 +1033,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2480 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw52")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw52')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1052,7 +1052,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2710 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw53")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw53')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1071,7 +1071,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2740 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw54")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw54')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1090,7 +1090,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2750 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw55")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw55')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1109,7 +1109,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2700 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw56")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw56')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1128,7 +1128,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2680 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw57")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw57')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1147,7 +1147,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2490 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw58")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw58')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1166,7 +1166,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2550 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw59")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw59')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1185,7 +1185,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2500 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw60")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw60')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1204,7 +1204,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2530 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw61")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw61')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1223,7 +1223,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2510 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw62")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw62')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1242,7 +1242,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2540 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw63")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw63')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1261,7 +1261,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2110 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw64")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw64')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1280,7 +1280,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1200 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw65")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw65')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1299,7 +1299,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1210 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw66")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw66')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1318,7 +1318,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1230 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw67")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw67')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1337,7 +1337,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3020 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw68")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw68')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1356,7 +1356,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3040 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw69")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw69')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1375,7 +1375,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2990', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2990 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw70")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw70')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1394,7 +1394,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3030 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw71")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw71')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1413,7 +1413,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3010 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw72")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw72')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1432,7 +1432,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2570 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw73")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw73')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1451,7 +1451,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2580 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw74")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw74')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1470,7 +1470,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1170 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw75")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw75')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1489,7 +1489,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1850', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1850 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw76")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw76')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1508,7 +1508,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1320 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw77")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw77')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1527,7 +1527,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1300 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw78")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw78')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1546,7 +1546,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1310 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw79")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw79')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1565,7 +1565,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2760 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw80")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw80')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1584,7 +1584,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2950', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2950 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw81")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw81')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1603,7 +1603,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2970', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2970 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw82")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw82')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1622,7 +1622,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2980', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2980 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw83")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw83')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1641,7 +1641,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2960', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2960 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw84")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw84')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1660,7 +1660,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0990', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0990 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw85")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw85')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1679,7 +1679,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1370 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw86")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw86')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1698,7 +1698,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1380 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw87")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw87')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1717,7 +1717,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1410 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw88")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw88')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1736,7 +1736,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1390 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw89")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw89')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1755,7 +1755,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1440 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw90")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw90')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1774,7 +1774,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1420 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw91")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw91')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1793,7 +1793,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1430 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw92")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw92')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1812,7 +1812,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1460 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw93")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw93')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1831,7 +1831,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2010 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw94")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw94')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1850,7 +1850,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3700 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw95")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw95')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1869,7 +1869,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1980', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1980 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw96")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw96')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1888,7 +1888,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2430 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw97")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw97')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1907,7 +1907,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2690 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw98")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw98')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1926,7 +1926,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2620 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw99")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw99')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1945,7 +1945,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1860 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw100")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw100')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1964,7 +1964,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1820 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw101")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw101')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -1983,7 +1983,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2610 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw102")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw102')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2002,7 +2002,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2520 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw103")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw103')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2021,7 +2021,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2560 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw104")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw104')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2040,7 +2040,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1780 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw105")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw105')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2059,7 +2059,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1840 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw106")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw106')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2078,7 +2078,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1190 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw107")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw107')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2097,7 +2097,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2670 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw108")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw108')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2116,7 +2116,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2640 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw109")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw109')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2135,7 +2135,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2420 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw110")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw110')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2154,7 +2154,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2410 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw111")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw111')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2173,7 +2173,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1270 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw112")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw112')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2192,7 +2192,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1240 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw113")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw113')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2211,7 +2211,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1260 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw114")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw114')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2230,7 +2230,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1250 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw115")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw115')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2249,7 +2249,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0260 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw116")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw116')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2268,7 +2268,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2030 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw117")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw117')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2287,7 +2287,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3840 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw118")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw118')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2306,7 +2306,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3820 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw119")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw119')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2325,7 +2325,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3830 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw120")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw120')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2344,7 +2344,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1790', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1790 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw121")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw121')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2363,7 +2363,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1750 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw122")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw122')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2382,7 +2382,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1760 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw123")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw123')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2401,7 +2401,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2930', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2930 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw124")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw124')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2420,7 +2420,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2940', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_2940 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw125")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw125')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2439,7 +2439,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1730 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw126")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw126')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2458,7 +2458,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_1830 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw127")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw127')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2477,7 +2477,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3080 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw128")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw128')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2496,7 +2496,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3090 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw129")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw129')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2515,7 +2515,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3100 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw130")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw130')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2534,7 +2534,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_3050 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw131")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw131')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2553,7 +2553,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0070 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw132")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw132')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2572,7 +2572,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0020 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw133")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw133')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2591,7 +2591,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0030 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw134")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw134')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2610,7 +2610,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0080 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw135")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw135')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2630,7 +2630,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0110 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw136")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw136')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2649,7 +2649,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0120', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0120 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw137")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw137')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2668,7 +2668,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0140', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0140 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw138")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw138')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2687,7 +2687,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0150', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0150 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw139")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw139')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2706,7 +2706,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0160', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0160 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw140")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw140')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2725,7 +2725,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0170', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0170 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw141")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw141')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2744,7 +2744,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0180 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw142")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw142')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2763,7 +2763,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0190', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0190 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw143")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw143')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2782,7 +2782,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0200', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0200 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw144")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw144')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2801,7 +2801,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0210', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0210 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw145")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw145')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2820,7 +2820,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0220', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0220 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw146")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw146')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2839,7 +2839,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0230', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0230 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw147")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw147')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2858,7 +2858,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0240', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0240 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw148")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw148')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -2877,7 +2877,7 @@ export default function uiComponentCanvasOffscreenCanvasGpuDraw() {
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0250', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_OFFECREENCANVAS_GPU_DRAW_0250 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw149")
+      Settings.createWindow('testability/pages/component/canvas_media/uiComponentCanvasOffscreenCanvasGpuDraw/UiComponentCanvasOffscreenCanvasGpuDraw149')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

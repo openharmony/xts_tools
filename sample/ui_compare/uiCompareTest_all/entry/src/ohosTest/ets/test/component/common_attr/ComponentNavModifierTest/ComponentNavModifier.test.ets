@@ -49,7 +49,7 @@ export default function componentNavModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0070', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0070 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/componentNavModifier/ComponentNavModifier0070")
+      Settings.createWindow('testability/pages/component/common_attr/componentNavModifier/ComponentNavModifier0070')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000)
       windowSnap.snapShot()
@@ -68,7 +68,7 @@ export default function componentNavModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0090', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0090 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/componentNavModifier/ComponentNavModifier0090")
+      Settings.createWindow('testability/pages/component/common_attr/componentNavModifier/ComponentNavModifier0090')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000)
       windowSnap.snapShot()
@@ -87,7 +87,7 @@ export default function componentNavModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0120', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0120 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/componentNavModifier/ComponentNavModifier0120")
+      Settings.createWindow('testability/pages/component/common_attr/componentNavModifier/ComponentNavModifier0120')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000)
       windowSnap.snapShot()
@@ -106,7 +106,7 @@ export default function componentNavModifier() {
      */
     it('SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0230', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0230 start.`);
-      Settings.createWindow("testability/pages/component/common_attr/componentNavModifier/ComponentNavModifier0230")
+      Settings.createWindow('testability/pages/component/common_attr/componentNavModifier/ComponentNavModifier0230')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(1000,2000)
       windowSnap.snapShot()

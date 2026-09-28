@@ -61,7 +61,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0010', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize01");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize01');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -104,7 +104,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0020', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize02");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize02');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -147,7 +147,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0030', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize03");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize03');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -198,7 +198,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0040', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize04");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize04');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -249,7 +249,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0050', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize05");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize05');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -284,7 +284,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0060', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize06");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize06');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -319,7 +319,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0080', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize08");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize08');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -354,7 +354,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0090', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize09");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize09');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -383,7 +383,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0100', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize10");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize10');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -418,7 +418,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0110', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize11");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize11');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -453,7 +453,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0120', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize12");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize12');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -482,7 +482,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0130', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize13");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize13');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -511,7 +511,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0140', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize14");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize14');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -554,7 +554,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0150', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize15");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize15');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -583,7 +583,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0160', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize16");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize16');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -618,7 +618,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0170', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize17");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize17');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -661,7 +661,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0180', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize18");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize18');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -704,7 +704,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0190', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize19");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize19');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -739,7 +739,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0200', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize20");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize20');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -790,7 +790,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0210', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize21");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize21');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -841,7 +841,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0220', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize22");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize22');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -900,7 +900,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0230', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize23");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize23');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -959,7 +959,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0240', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize24");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize24');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -1002,7 +1002,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0250', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize25");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize25');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -1053,7 +1053,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0260', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize26");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize26');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -1096,7 +1096,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0270', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize27");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize27');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -1154,7 +1154,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0280', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize28");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize28');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -1220,7 +1220,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0290', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize29");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize29');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -1259,7 +1259,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0300', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize30");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize30');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -1298,7 +1298,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0310', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize31");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize31');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -1348,7 +1348,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0320', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize32");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize32');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -1398,7 +1398,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0330', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize33");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize33');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -1448,7 +1448,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0340', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize34");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize34');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -1506,7 +1506,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0350', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize35");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize35');
       await driver.waitForIdle(500, 2000);
       
       try {
@@ -1564,7 +1564,7 @@ export default function videoOptimizeTest() {
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0360', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
-      Settings.createWindow("testability/pages/component/canvas_media/video_optimize/videoOptimize36");
+      Settings.createWindow('testability/pages/component/canvas_media/video_optimize/videoOptimize36');
       await driver.waitForIdle(500, 2000);
       
       try {

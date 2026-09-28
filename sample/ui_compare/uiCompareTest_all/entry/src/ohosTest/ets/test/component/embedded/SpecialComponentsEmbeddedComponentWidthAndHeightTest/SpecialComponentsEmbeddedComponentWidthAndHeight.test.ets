@@ -49,7 +49,7 @@ export default function specialComponentsEmbeddedComponentWidthAndHeight() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0020', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0020 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsEmbeddedComponentWidthAndHeight/SpecialComponentsEmbeddedComponentWidthAndHeight0020")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsEmbeddedComponentWidthAndHeight/SpecialComponentsEmbeddedComponentWidthAndHeight0020')
       let driver: Driver = Driver.create();
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 2000)
@@ -84,7 +84,7 @@ export default function specialComponentsEmbeddedComponentWidthAndHeight() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0030 start.`);
-      Settings.createWindow("testability/pages/component/embedded/specialComponentsEmbeddedComponentWidthAndHeight/SpecialComponentsEmbeddedComponentWidthAndHeight0030")
+      Settings.createWindow('testability/pages/component/embedded/specialComponentsEmbeddedComponentWidthAndHeight/SpecialComponentsEmbeddedComponentWidthAndHeight0030')
       let driver: Driver = Driver.create();
       await driver.triggerKey(2049);
       await driver.waitForIdle(500, 2000)

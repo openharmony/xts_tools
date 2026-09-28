@@ -50,7 +50,7 @@ export default function xComponentSurfaceRectTest() {
      */
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0170 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/xcomponent/xcomponent01");
+      Settings.createWindow('testability/pages/component/canvas_media/xcomponent/xcomponent01');
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       
@@ -98,7 +98,7 @@ export default function xComponentSurfaceRectTest() {
      */
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0180 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/xcomponent/xcomponent02")
+      Settings.createWindow('testability/pages/component/canvas_media/xcomponent/xcomponent02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       
@@ -146,7 +146,7 @@ export default function xComponentSurfaceRectTest() {
      */
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0190 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/xcomponent/xcomponent03")
+      Settings.createWindow('testability/pages/component/canvas_media/xcomponent/xcomponent03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       
@@ -188,7 +188,7 @@ export default function xComponentSurfaceRectTest() {
      */
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0200 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/xcomponent/xcomponent04")
+      Settings.createWindow('testability/pages/component/canvas_media/xcomponent/xcomponent04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       
@@ -230,7 +230,7 @@ export default function xComponentSurfaceRectTest() {
      */
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0210 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/xcomponent/xcomponent05")
+      Settings.createWindow('testability/pages/component/canvas_media/xcomponent/xcomponent05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       
@@ -260,7 +260,7 @@ export default function xComponentSurfaceRectTest() {
      */
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0220 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/xcomponent/xcomponent06")
+      Settings.createWindow('testability/pages/component/canvas_media/xcomponent/xcomponent06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       
@@ -290,7 +290,7 @@ export default function xComponentSurfaceRectTest() {
      */
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0240 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/xcomponent/xcomponent07")
+      Settings.createWindow('testability/pages/component/canvas_media/xcomponent/xcomponent07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       
@@ -334,7 +334,7 @@ export default function xComponentSurfaceRectTest() {
      */
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0250 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/xcomponent/xcomponent08")
+      Settings.createWindow('testability/pages/component/canvas_media/xcomponent/xcomponent08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       
@@ -378,7 +378,7 @@ export default function xComponentSurfaceRectTest() {
      */
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0260 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/xcomponent/xcomponent09")
+      Settings.createWindow('testability/pages/component/canvas_media/xcomponent/xcomponent09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       
@@ -422,7 +422,7 @@ export default function xComponentSurfaceRectTest() {
      */
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0270 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/xcomponent/xcomponent10")
+      Settings.createWindow('testability/pages/component/canvas_media/xcomponent/xcomponent10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       
@@ -461,7 +461,7 @@ export default function xComponentSurfaceRectTest() {
      */
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0280 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/xcomponent/xcomponent11")
+      Settings.createWindow('testability/pages/component/canvas_media/xcomponent/xcomponent11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       
@@ -500,7 +500,7 @@ export default function xComponentSurfaceRectTest() {
      */
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0290 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/xcomponent/xcomponent12")
+      Settings.createWindow('testability/pages/component/canvas_media/xcomponent/xcomponent12')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       
@@ -529,7 +529,7 @@ export default function xComponentSurfaceRectTest() {
      */
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0300 start.`);
-      Settings.createWindow("testability/pages/component/canvas_media/xcomponent/xcomponent13")
+      Settings.createWindow('testability/pages/component/canvas_media/xcomponent/xcomponent13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(1000, 2000);
       

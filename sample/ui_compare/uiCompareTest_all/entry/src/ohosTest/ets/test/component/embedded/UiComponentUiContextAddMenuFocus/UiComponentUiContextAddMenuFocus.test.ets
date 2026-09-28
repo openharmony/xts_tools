@@ -64,7 +64,7 @@ export default function uiComponentUiContextAddMenuFocus() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0140 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus01")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus01')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentUiContextAddMenuFocus01_02'),1000);
       let point = await button.getBoundsCenter()
@@ -86,7 +86,7 @@ export default function uiComponentUiContextAddMenuFocus() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0150 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus02")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus02')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentUiContextAddMenuFocus02_01'),1000);
       let point = await button.getBoundsCenter()
@@ -108,7 +108,7 @@ export default function uiComponentUiContextAddMenuFocus() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0220 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus03")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus03')
       let driver:Driver=Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('UiComponentUiContextAddMenuFocus03'),1000);
       let point = await button.getBoundsCenter()
@@ -130,7 +130,7 @@ export default function uiComponentUiContextAddMenuFocus() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0180 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus04")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus04')
       let driver:Driver=Driver.create();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentUiContextAddMenuFocus04'),1000);
       let point = await textarea.getBoundsCenter()
@@ -152,7 +152,7 @@ export default function uiComponentUiContextAddMenuFocus() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0170 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus05")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus05')
       let driver:Driver=Driver.create();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentUiContextAddMenuFocus05'),1000);
       let point = await textarea.getBoundsCenter()
@@ -174,7 +174,7 @@ export default function uiComponentUiContextAddMenuFocus() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0190 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus06")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus06')
       let driver:Driver=Driver.create();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentUiContextAddMenuFocus06'),1000);
       let point = await textarea.getBoundsCenter()
@@ -196,7 +196,7 @@ export default function uiComponentUiContextAddMenuFocus() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0160 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus07")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus07')
       let driver:Driver=Driver.create();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentUiContextAddMenuFocus07'),1000);
       let point = await textarea.getBoundsCenter()
@@ -218,7 +218,7 @@ export default function uiComponentUiContextAddMenuFocus() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0110 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus08")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus08')
       let driver:Driver=Driver.create();
       await driver.mouseMoveTo({x:100, y:100})
       await driver.waitForIdle(500,2000)
@@ -238,7 +238,7 @@ export default function uiComponentUiContextAddMenuFocus() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0130 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus09")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus09')
       let driver:Driver=Driver.create();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentUiContextAddMenuFocus09'),1000);
       let point = await textarea.getBoundsCenter()
@@ -260,7 +260,7 @@ export default function uiComponentUiContextAddMenuFocus() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0120 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus10")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus10')
       let driver:Driver=Driver.create();
       let textarea: Component = await driver.waitForComponent(ON.id('UiComponentUiContextAddMenuFocus10'),1000);
       let point = await textarea.getBoundsCenter()
@@ -282,7 +282,7 @@ export default function uiComponentUiContextAddMenuFocus() {
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0030 start.`);
-      Settings.createWindow("testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus11")
+      Settings.createWindow('testability/pages/component/embedded/uiComponentUiContextAddMenuFocus/UiComponentUiContextAddMenuFocus11')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
