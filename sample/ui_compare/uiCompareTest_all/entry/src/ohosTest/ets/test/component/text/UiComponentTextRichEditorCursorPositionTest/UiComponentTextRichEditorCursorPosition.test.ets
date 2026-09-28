@@ -39,27 +39,27 @@ export default function uiComponentTextRichEditorCursorPosition() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0001", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0001")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0001', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0001')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、点击RichEditor产生光标（保持闪烁状态）
       let rich_editor_cursor_position_0001 =
-        await driver.waitForComponent(ON.id("rich_editor_cursor_position_0001"), 500)
+        await driver.waitForComponent(ON.id('rich_editor_cursor_position_0001'), 500)
       await rich_editor_cursor_position_0001.click()
       await Utils.sleep(500)
 
       // 2、动态修改RichEditorTextStyle、RichEditorImageSpanStyle、RichEditorSymbolSpanStyle，修改后调用getCaretRect获取当前光标与RichEditor的相对位置
-      let button_cursor_position_0001_change_style = await driver.waitForComponent(ON.id("button_cursor_position_0001" +
-        "_change_style"), 500)
+      let button_cursor_position_0001_change_style = await driver.waitForComponent(ON.id('button_cursor_position_0001' +
+        '_change_style'), 500)
       await button_cursor_position_0001_change_style.click()
       await Utils.sleep(1000)
 
       // 3、随时改变光标位置（保持闪烁），同时调用getCaretRect获取当前光标与RichEditor的相对位置
       await rich_editor_cursor_position_0001.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0001_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0001_01')
       await Utils.sleep(1000)
 
       done();
@@ -73,29 +73,29 @@ export default function uiComponentTextRichEditorCursorPosition() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0002", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0002")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0002', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0002')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、光标保持闪烁，动态改变组件布局（padding、margin、组件宽高），调用getCaretRect获取当前光标与RichEditor的相对位置
       let rich_editor_cursor_position_0002 =
-        await driver.waitForComponent(ON.id("rich_editor_cursor_position_0002"), 500)
+        await driver.waitForComponent(ON.id('rich_editor_cursor_position_0002'), 500)
       await rich_editor_cursor_position_0002.click()
       await Utils.sleep(500)
 
       // 2、改变布局并获取光标位置
       let button_cursor_position_0002_change_layout =
-        await driver.waitForComponent(ON.id("button_cursor_position_0002_change_layout"), 500)
+        await driver.waitForComponent(ON.id('button_cursor_position_0002_change_layout'), 500)
       await button_cursor_position_0002_change_layout.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0002_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0002_01')
       await Utils.sleep(1000)
 
       // 3、再次改变布局
       await button_cursor_position_0002_change_layout.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0002_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0002_02')
       await Utils.sleep(1000)
 
       done();
@@ -109,23 +109,23 @@ export default function uiComponentTextRichEditorCursorPosition() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0003", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0003")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0003', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0003')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、光标保持闪烁，动态改变图文布局（textAlign、margin、组件宽高），调用getCaretRect获取当前光标与RichEditor的相对位置
       let rich_editor_cursor_position_0003 =
-        await driver.waitForComponent(ON.id("rich_editor_cursor_position_0003"), 500)
+        await driver.waitForComponent(ON.id('rich_editor_cursor_position_0003'), 500)
       await rich_editor_cursor_position_0003.click()
       await Utils.sleep(500)
 
       // 2、改变图文布局并获取光标位置
       let button_cursor_position_0003_change_layout =
-        await driver.waitForComponent(ON.id("button_cursor_position_0003_change_layout"), 500)
+        await driver.waitForComponent(ON.id('button_cursor_position_0003_change_layout'), 500)
       await button_cursor_position_0003_change_layout.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0003_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0003_01')
       await Utils.sleep(1000)
 
       done();
@@ -139,36 +139,36 @@ export default function uiComponentTextRichEditorCursorPosition() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0004", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0004")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0004', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0004')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、改变光标位置到空行，调用getCaretRect获取当前光标与RichEditor的相对位置
       let rich_editor_cursor_position_0004 =
-        await driver.waitForComponent(ON.id("rich_editor_cursor_position_0004"), 500)
+        await driver.waitForComponent(ON.id('rich_editor_cursor_position_0004'), 500)
       await rich_editor_cursor_position_0004.click()
       let button_cursor_position_0004_empty_line =
-        await driver.waitForComponent(ON.id("button_cursor_position_0004_empty_line"), 500)
+        await driver.waitForComponent(ON.id('button_cursor_position_0004_empty_line'), 500)
       await button_cursor_position_0004_empty_line.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0004_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0004_01')
       await Utils.sleep(1000)
 
       // 2、改变光标位置到行首，调用getCaretRect获取当前光标与RichEditor的相对位置
       let button_cursor_position_0004_line_start =
-        await driver.waitForComponent(ON.id("button_cursor_position_0004_line_start"), 500)
+        await driver.waitForComponent(ON.id('button_cursor_position_0004_line_start'), 500)
       await button_cursor_position_0004_line_start.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0004_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0004_02')
       await Utils.sleep(1000)
 
       // 3、改变光标位置到行尾，调用getCaretRect获取当前光标与RichEditor的相对位置
       let button_cursor_position_0004_line_end =
-        await driver.waitForComponent(ON.id("button_cursor_position_0004_line_end"), 500)
+        await driver.waitForComponent(ON.id('button_cursor_position_0004_line_end'), 500)
       await button_cursor_position_0004_line_end.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0004_03")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0004_03')
       await Utils.sleep(1000)
 
       done();
@@ -183,17 +183,17 @@ export default function uiComponentTextRichEditorCursorPosition() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0008", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0008")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0008', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0008')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、获取RichEditor组件的边界信息
       let rich_editor_cursor_position_0008 =
-        await driver.waitForComponent(ON.id("rich_editor_cursor_position_0008"), 500)
+        await driver.waitForComponent(ON.id('rich_editor_cursor_position_0008'), 500)
       let rich_editor_cursor_position_0008_bounds = await rich_editor_cursor_position_0008.getBounds()
       let button_cursor_position_0008_get_caret =
-        await driver.waitForComponent(ON.id("button_cursor_position_0008_get_caret"), 500)
+        await driver.waitForComponent(ON.id('button_cursor_position_0008_get_caret'), 500)
 
       // 2、第1次点击：左上角位置
       await driver.click(rich_editor_cursor_position_0008_bounds.left + 20,
@@ -201,7 +201,7 @@ export default function uiComponentTextRichEditorCursorPosition() {
       await Utils.sleep(300)
       await button_cursor_position_0008_get_caret.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0008_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0008_01')
       await Utils.sleep(1000)
 
       // 3、第2次点击：中间位置
@@ -213,7 +213,7 @@ export default function uiComponentTextRichEditorCursorPosition() {
       await Utils.sleep(300)
       await button_cursor_position_0008_get_caret.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0008_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0008_02')
       await Utils.sleep(1000)
 
       done();
@@ -227,17 +227,17 @@ export default function uiComponentTextRichEditorCursorPosition() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0009", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0009")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0009', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0009')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、获取RichEditor组件的边界信息
       let rich_editor_cursor_position_0009 =
-        await driver.waitForComponent(ON.id("rich_editor_cursor_position_0009"), 500)
+        await driver.waitForComponent(ON.id('rich_editor_cursor_position_0009'), 500)
       let rich_editor_cursor_position_0009_bounds = await rich_editor_cursor_position_0009.getBounds()
       let button_cursor_position_0009_get_caret =
-        await driver.waitForComponent(ON.id("button_cursor_position_0009_get_caret"), 500)
+        await driver.waitForComponent(ON.id('button_cursor_position_0009_get_caret'), 500)
 
       // 2、第1次点击：右上角位置（RTL文本从右边开始）
       await driver.click(rich_editor_cursor_position_0009_bounds.right - 20,
@@ -245,7 +245,7 @@ export default function uiComponentTextRichEditorCursorPosition() {
       await Utils.sleep(300)
       await button_cursor_position_0009_get_caret.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0009_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0009_01')
       await Utils.sleep(1000)
 
       // 3、第2次点击：左侧中间位置
@@ -254,7 +254,7 @@ export default function uiComponentTextRichEditorCursorPosition() {
       await Utils.sleep(300)
       await button_cursor_position_0009_get_caret.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0009_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0009_02')
       await Utils.sleep(1000)
 
       done();
@@ -268,41 +268,41 @@ export default function uiComponentTextRichEditorCursorPosition() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0010", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0010")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0010', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0010')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、触机改变光标位置，调用getCaretRect获取当前光标与RichEditor的相对位置
       let rich_editor_cursor_position_0010 =
-        await driver.waitForComponent(ON.id("rich_editor_cursor_position_0010"), 500)
+        await driver.waitForComponent(ON.id('rich_editor_cursor_position_0010'), 500)
       await rich_editor_cursor_position_0010.click()
       await Utils.sleep(500)
 
       // 2、切换横屏
       let button_cursor_position_0010_landscape =
-        await driver.waitForComponent(ON.id("button_cursor_position_0010_landscape"), 500)
+        await driver.waitForComponent(ON.id('button_cursor_position_0010_landscape'), 500)
       await button_cursor_position_0010_landscape.click()
       await Utils.sleep(1000)
 
       // 3、获取光标位置
       let button_cursor_position_0010_get_caret =
-        await driver.waitForComponent(ON.id("button_cursor_position_0010_get_caret"), 500)
+        await driver.waitForComponent(ON.id('button_cursor_position_0010_get_caret'), 500)
       await button_cursor_position_0010_get_caret.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0010_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0010_01')
       await Utils.sleep(1000)
 
       // 4、切换竖屏
       let button_cursor_position_0010_portrait =
-        await driver.waitForComponent(ON.id("button_cursor_position_0010_portrait"), 500)
+        await driver.waitForComponent(ON.id('button_cursor_position_0010_portrait'), 500)
       await button_cursor_position_0010_portrait.click()
       await Utils.sleep(1000)
 
       // 5、再次获取光标位置
       await button_cursor_position_0010_get_caret.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0010_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0010_02')
       await Utils.sleep(1000)
 
       done();
@@ -316,17 +316,17 @@ export default function uiComponentTextRichEditorCursorPosition() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0011", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0011")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0011', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0011')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、获取RichEditor组件的边界信息
       let rich_editor_cursor_position_0011 =
-        await driver.waitForComponent(ON.id("rich_editor_cursor_position_0011"), 500)
+        await driver.waitForComponent(ON.id('rich_editor_cursor_position_0011'), 500)
       let rich_editor_cursor_position_0011_bounds = await rich_editor_cursor_position_0011.getBounds()
       let button_cursor_position_0011_get_caret =
-        await driver.waitForComponent(ON.id("button_cursor_position_0011_get_caret"), 500)
+        await driver.waitForComponent(ON.id('button_cursor_position_0011_get_caret'), 500)
 
       // 2、第1次点击：左上角位置
       await driver.click(rich_editor_cursor_position_0011_bounds.left + 20,
@@ -334,7 +334,7 @@ export default function uiComponentTextRichEditorCursorPosition() {
       await Utils.sleep(300)
       await button_cursor_position_0011_get_caret.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0011_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0011_01')
       await Utils.sleep(1000)
 
       // 3、第2次点击：中间位置
@@ -344,7 +344,7 @@ export default function uiComponentTextRichEditorCursorPosition() {
       await Utils.sleep(300)
       await button_cursor_position_0011_get_caret.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0011_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0011_02')
       await Utils.sleep(1000)
 
       done();
@@ -358,25 +358,25 @@ export default function uiComponentTextRichEditorCursorPosition() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0014", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0014")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0014', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorPosition/UiComponentTextRichEditorCursorPosition0014')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 1、获取按钮组件
       let button_cursor_position_0014_random_caret =
-        await driver.waitForComponent(ON.id("button_cursor_position_0014_random_caret"), 500)
+        await driver.waitForComponent(ON.id('button_cursor_position_0014_random_caret'), 500)
 
       // 2、第1次点击按钮：随机改变光标位置并获取位置信息
       await button_cursor_position_0014_random_caret.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0014_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0014_01')
       await Utils.sleep(1000)
 
       // 3、第2次点击按钮：再次随机改变光标位置并获取位置信息
       await button_cursor_position_0014_random_caret.click()
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0014_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0014_02')
       await Utils.sleep(1000)
 
       done();

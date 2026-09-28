@@ -50,7 +50,7 @@ export default function textRichtexteditorMenuReinforcing() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0001 start.`);
-      Settings.createWindow("testability/pages/component/text/textRichtexteditorMenuReinforcing/RicheditorMenuReinforcing0001")
+      Settings.createWindow('testability/pages/component/text/textRichtexteditorMenuReinforcing/RicheditorMenuReinforcing0001')
       await Utils.sleep(1000);
       windowSnap.snapShot();
       await Utils.sleep(1000);
@@ -68,7 +68,7 @@ export default function textRichtexteditorMenuReinforcing() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002 start.`);
-      Settings.createWindow("testability/pages/component/text/textRichtexteditorMenuReinforcing/textRichtexteditorMenuReinforcing")
+      Settings.createWindow('testability/pages/component/text/textRichtexteditorMenuReinforcing/textRichtexteditorMenuReinforcing')
       await uiAppearance.setFontScale(1.1);
       windowSnap.snapShot();
       await Utils.sleep(10000);
@@ -89,7 +89,7 @@ export default function textRichtexteditorMenuReinforcing() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002_B', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002_B start.`);
-      Settings.createWindow("testability/pages/component/text/textRichtexteditorMenuReinforcing/RicheditorMenuReinforcing0002")
+      Settings.createWindow('testability/pages/component/text/textRichtexteditorMenuReinforcing/RicheditorMenuReinforcing0002')
       await Utils.sleep(1000);
       windowSnap.snapShot();
       await Utils.sleep(1000);

@@ -49,7 +49,7 @@ export default function textRichEditorShortcutkey() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0005', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0005 start.`);
-      Settings.createWindow("testability/pages/component/text/textRichEditorShortcutkey/TextRichEditorShortcutkey05")
+      Settings.createWindow('testability/pages/component/text/textRichEditorShortcutkey/TextRichEditorShortcutkey05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       // 通过ID定位（推荐）
@@ -74,7 +74,7 @@ export default function textRichEditorShortcutkey() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0004', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0004 start.`);
-      Settings.createWindow("testability/pages/component/text/textRichEditorShortcutkey/TextRichEditorShortcutkey05")
+      Settings.createWindow('testability/pages/component/text/textRichEditorShortcutkey/TextRichEditorShortcutkey05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       // 通过ID定位（推荐）
@@ -99,7 +99,7 @@ export default function textRichEditorShortcutkey() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0003', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0003 start.`);
-      Settings.createWindow("testability/pages/component/text/textRichEditorShortcutkey/TextRichEditorShortcutkey03")
+      Settings.createWindow('testability/pages/component/text/textRichEditorShortcutkey/TextRichEditorShortcutkey03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       // 通过ID定位（推荐）
@@ -124,7 +124,7 @@ export default function textRichEditorShortcutkey() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0001 start.`);
-      Settings.createWindow("testability/pages/component/text/textRichEditorShortcutkey/TextRichEditorShortcutkey01")
+      Settings.createWindow('testability/pages/component/text/textRichEditorShortcutkey/TextRichEditorShortcutkey01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       // 通过ID定位（推荐）
@@ -149,7 +149,7 @@ export default function textRichEditorShortcutkey() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0002', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0001 start.`);
-      Settings.createWindow("testability/pages/component/text/textRichEditorShortcutkey/TextRichEditorShortcutkey01")
+      Settings.createWindow('testability/pages/component/text/textRichEditorShortcutkey/TextRichEditorShortcutkey01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       // 通过ID定位（推荐）
@@ -174,7 +174,7 @@ export default function textRichEditorShortcutkey() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0006', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0006 start.`);
-      Settings.createWindow("testability/pages/component/text/textRichEditorShortcutkey/TextRichEditorShortcutkey06")
+      Settings.createWindow('testability/pages/component/text/textRichEditorShortcutkey/TextRichEditorShortcutkey06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       // 通过ID定位（推荐）

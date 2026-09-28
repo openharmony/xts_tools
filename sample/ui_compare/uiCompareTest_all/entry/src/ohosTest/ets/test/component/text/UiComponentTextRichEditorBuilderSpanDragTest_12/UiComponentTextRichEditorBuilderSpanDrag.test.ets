@@ -46,12 +46,12 @@ export default function uiComponentTextRichEditorBuilderSpanDrag() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0005", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0005")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0005', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0005')
       let driver = await Driver.create()
 
       // 1、等待组件加载完成
-      let rich_editor_builderspandrag_0005 = await driver.waitForComponent(ON.id("rich_editor_builderspandrag_0005"), 10000)
+      let rich_editor_builderspandrag_0005 = await driver.waitForComponent(ON.id('rich_editor_builderspandrag_0005'), 10000)
       let button_builderspandrag_0005_addBuilder = await driver.waitForComponent(ON.id('button_builderspandrag_0005_addBuilder'), 10000)
       let button_builderspandrag_0005_select = await driver.waitForComponent(ON.id('button_builderspandrag_0005_select'), 10000)
 
@@ -67,7 +67,7 @@ export default function uiComponentTextRichEditorBuilderSpanDrag() {
       await Utils.sleep(1000)
       
       // 4、截图并等待
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0005_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0005_01')
       await Utils.sleep(2000)
       done();
     })
@@ -80,12 +80,12 @@ export default function uiComponentTextRichEditorBuilderSpanDrag() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0001", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0001")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0001', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0001')
       let driver = await Driver.create()
 
       // 1、等待组件加载完成
-      let rich_editor_builderspandrag_0001 = await driver.waitForComponent(ON.id("rich_editor_builderspandrag_0001"), 10000)
+      let rich_editor_builderspandrag_0001 = await driver.waitForComponent(ON.id('rich_editor_builderspandrag_0001'), 10000)
       let button_builderspandrag_0001_addBuilder = await driver.waitForComponent(ON.id('button_builderspandrag_0001_addBuilder'), 10000)
       let button_builderspandrag_0001_select = await driver.waitForComponent(ON.id('button_builderspandrag_0001_select'), 10000)
 
@@ -101,7 +101,7 @@ export default function uiComponentTextRichEditorBuilderSpanDrag() {
       await Utils.sleep(1000)
       
       // 4、截图并等待
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0001_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0001_01')
       await Utils.sleep(3000)
       done();
     })
@@ -114,12 +114,12 @@ export default function uiComponentTextRichEditorBuilderSpanDrag() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0006", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0006")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0006', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0006')
       let driver = await Driver.create()
 
       // 1、等待组件加载完成
-      let rich_editor_builderspandrag_0006 = await driver.waitForComponent(ON.id("rich_editor_builderspandrag_0006"), 10000)
+      let rich_editor_builderspandrag_0006 = await driver.waitForComponent(ON.id('rich_editor_builderspandrag_0006'), 10000)
       let button_builderspandrag_0006_addBuilder = await driver.waitForComponent(ON.id('button_builderspandrag_0006_addBuilder'), 10000)
       let button_builderspandrag_0006_select = await driver.waitForComponent(ON.id('button_builderspandrag_0006_select'), 10000)
 
@@ -135,7 +135,7 @@ export default function uiComponentTextRichEditorBuilderSpanDrag() {
       await Utils.sleep(1000)
       
       // 4、截图并等待
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0006_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0006_01')
       await Utils.sleep(3000)
       done();
     })
@@ -148,12 +148,12 @@ export default function uiComponentTextRichEditorBuilderSpanDrag() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0003", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0003")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0003', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0003')
       let driver = await Driver.create()
 
       // 1、等待组件加载完成
-      let rich_editor_builderspandrag_0003 = await driver.waitForComponent(ON.id("rich_editor_builderspandrag_0003"), 10000)
+      let rich_editor_builderspandrag_0003 = await driver.waitForComponent(ON.id('rich_editor_builderspandrag_0003'), 10000)
       let button_builderspandrag_0003_addBuilder = await driver.waitForComponent(ON.id('button_builderspandrag_0003_addBuilder'), 10000)
       let button_builderspandrag_0003_select = await driver.waitForComponent(ON.id('button_builderspandrag_0003_select'), 10000)
 
@@ -169,7 +169,7 @@ export default function uiComponentTextRichEditorBuilderSpanDrag() {
       await Utils.sleep(1000)
       
       // 4、截图并等待
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0003_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0003_01')
       await Utils.sleep(3000)
       done();
     })
@@ -182,12 +182,12 @@ export default function uiComponentTextRichEditorBuilderSpanDrag() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0004", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0004")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0004', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0004')
       let driver = await Driver.create()
 
       // 1、等待组件加载完成
-      let rich_editor_builderspandrag_0004 = await driver.waitForComponent(ON.id("rich_editor_builderspandrag_0004"), 10000)
+      let rich_editor_builderspandrag_0004 = await driver.waitForComponent(ON.id('rich_editor_builderspandrag_0004'), 10000)
       let button_builderspandrag_0004_addBuilder = await driver.waitForComponent(ON.id('button_builderspandrag_0004_addBuilder'), 10000)
       let button_builderspandrag_0004_select = await driver.waitForComponent(ON.id('button_builderspandrag_0004_select'), 10000)
 
@@ -203,7 +203,7 @@ export default function uiComponentTextRichEditorBuilderSpanDrag() {
       await Utils.sleep(1000)
       
       // 4、截图并等待
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0004_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0004_01')
       await Utils.sleep(3000)
       done();
     })

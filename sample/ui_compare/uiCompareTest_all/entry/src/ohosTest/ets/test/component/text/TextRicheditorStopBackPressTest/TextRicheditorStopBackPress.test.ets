@@ -49,7 +49,7 @@ export default function textRicheditorStopBackPress() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00003', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00003 start.`);
-      Settings.createWindow("testability/pages/component/text/textRicheditorStopBackPress/TextRicheditorStopBackPress03")
+      Settings.createWindow('testability/pages/component/text/textRicheditorStopBackPress/TextRicheditorStopBackPress03')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('TextRicheditorSearch_01'), 1000);  // 显式等待组件出现[6](@ref)
@@ -76,13 +76,13 @@ export default function textRicheditorStopBackPress() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00001 start.`);
-      Settings.createWindow("testability/pages/component/text/textRicheditorStopBackPress/TextRicheditorStopBackPress03")
+      Settings.createWindow('testability/pages/component/text/textRicheditorStopBackPress/TextRicheditorStopBackPress03')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('TextRicheditorSearch_01'), 1000);  // 显式等待组件出现[6](@ref)
       await driver.click(30,120);
       await driver.waitForIdle(500,2000);
-      await component.inputText("hello")
+      await component.inputText('hello')
       await driver.waitForIdle(500,2000);
       await driver.triggerKey(2)
       await driver.waitForIdle(500,2000);
@@ -102,7 +102,7 @@ export default function textRicheditorStopBackPress() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00002', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00002 start.`);
-      Settings.createWindow("testability/pages/component/text/textRicheditorStopBackPress/TextRicheditorStopBackPress03")
+      Settings.createWindow('testability/pages/component/text/textRicheditorStopBackPress/TextRicheditorStopBackPress03')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('TextRicheditorSearch_01'), 1000);  // 显式等待组件出现[6](@ref)

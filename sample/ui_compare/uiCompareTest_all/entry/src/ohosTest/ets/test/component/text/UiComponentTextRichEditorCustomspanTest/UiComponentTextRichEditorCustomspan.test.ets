@@ -46,14 +46,14 @@ export default function uiComponentTextRichEditorCustomspan() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMSPAN_0005", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMSPAN_0005', Level.LEVEL3, async (done: Function) => {
       // 步骤1、打开页面，等待页面加载完成
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCustomspan/UiComponentTextRichEditorCustomspan0005")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCustomspan/UiComponentTextRichEditorCustomspan0005')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤2、查找RichEditor组件
-      let rich_editor_customspan_0005 = await driver.waitForComponent(ON.id("rich_editor_customspan_0005"), 500)
+      let rich_editor_customspan_0005 = await driver.waitForComponent(ON.id('rich_editor_customspan_0005'), 500)
       if (!rich_editor_customspan_0005) {
         Logger.error('TEST', 'RichEditor component not found!');
         done();
@@ -64,7 +64,7 @@ export default function uiComponentTextRichEditorCustomspan() {
 
       // 步骤3、观察效果
       // 预期效果：自定义span正常显示
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMSPAN_0005_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMSPAN_0005_01')
       await Utils.sleep(1000)
       done();
     })

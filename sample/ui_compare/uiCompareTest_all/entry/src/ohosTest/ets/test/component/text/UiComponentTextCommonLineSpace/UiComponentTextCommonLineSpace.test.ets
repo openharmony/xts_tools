@@ -64,7 +64,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0020 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace14")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace14')
       let driver: Driver=Driver.create()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextCommonLineSpace14'),1000);
       for(let i=0; i<2; i++) {
@@ -86,7 +86,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0030 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace12")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace12')
       let driver: Driver=Driver.create()
       let text: Component = await driver.waitForComponent(ON.id('UiComponentTextCommonLineSpace12'),1000)
       await text.inputText('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
@@ -107,7 +107,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_PHONENUMBER_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_PHONENUMBER_0050 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace13")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace13')
       let driver: Driver=Driver.create()
       let text: Component = await driver.waitForComponent(ON.id('UiComponentTextCommonLineSpace13'),1000)
       await text.inputText('                            ')
@@ -128,7 +128,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXTINPUT_SHOWPASSWORD_0390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXTINPUT_SHOWPASSWORD_0390 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace01")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace01')
       let driver: Driver=Driver.create()
       let text: Component = await driver.waitForComponent(ON.id('TextInput001'), 1000)
       await text.inputText('aaaaaaaaaaaaaaaaaaaaaaaaaa')
@@ -149,7 +149,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXTINPUT_SHOWPASSWORD_0360', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXTINPUT_SHOWPASSWORD_0360 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace02")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace02')
       let driver: Driver=Driver.create()
       let text: Component = await driver.waitForComponent(ON.id('TextInput002'),1000)
       await text.inputText('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
@@ -170,7 +170,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0010 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace03")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace03')
       let driver: Driver=Driver.create()
       let text: Component = await driver.waitForComponent(ON.id('UITwice003'),1000)
       await text.inputText('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
@@ -191,7 +191,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0070 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace04")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace04')
       let driver:Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -210,7 +210,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0080 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace05")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace05')
       let driver:Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -229,7 +229,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0030 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace06")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace06')
       let driver:Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -248,7 +248,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0040 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace07")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace07')
       let driver:Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -267,7 +267,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0020 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace08")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace08')
       let driver:Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -286,7 +286,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0070 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace09")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace09')
       let driver:Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -305,7 +305,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0080 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace10")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace10')
       let driver:Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -324,7 +324,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0090 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace11")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace11')
       let driver:Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -343,7 +343,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0040 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace15")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace15')
       let driver: Driver=Driver.create()
       let button: Component = await driver.waitForComponent(ON.id('UiComponentTextCommonLineSpace15'),1000)
       await button.click()
@@ -366,7 +366,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0140 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace16")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace16')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -385,7 +385,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0150 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace17")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace17')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -404,7 +404,7 @@ export default function uiComponentTextCommonLineSpace() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0050 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace18")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextCommonLineSpace/UiComponentTextCommonLineSpace18')
       let driver: Driver=Driver.create()
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

@@ -46,23 +46,23 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0001", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0001', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0001")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0001')
         let driver = await Driver.create()
         await Utils.sleep(500)
 
         // 1、查找源组件和目标组件
         let sourceEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0001_source"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0001_source'), 500)
         let targetEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0001_target"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0001_target'), 500)
 
         // 2、长按源组件开始拖拽
         await sourceEditor.longClick()
         await Utils.sleep(1000)
 
-        let allSelect = await driver.findComponent(ON.text("全选"))
+        let allSelect = await driver.findComponent(ON.text('全选'))
         await allSelect.click()
 
         // 3、获取拖拽起点和终点
@@ -74,7 +74,7 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
         await Utils.sleep(1000)
 
         // 5、截图验证
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0001_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0001_01')
         await Utils.sleep(1000)
         done();
       })
@@ -87,17 +87,17 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0003", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0003', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0003")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0003')
         let driver = await Driver.create()
         await Utils.sleep(500)
 
         // 1、查找组件
         let rich_editor_copy_paste_attribute_strings_0003 =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0003"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0003'), 500)
         let btn_copy_paste_attribute_strings_0003_select_first_line =
-          await driver.waitForComponent(ON.id("btn_copy_paste_attribute_strings_0003_select_first_line"), 500)
+          await driver.waitForComponent(ON.id('btn_copy_paste_attribute_strings_0003_select_first_line'), 500)
         // 2、点击按钮选择属性字符串
         await rich_editor_copy_paste_attribute_strings_0003.click()
         await btn_copy_paste_attribute_strings_0003_select_first_line.click()
@@ -114,7 +114,7 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
         await driver.drag(startX, startY, endX, endY, 2000)
         await Utils.sleep(1000)
 
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0003_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0003_01')
         await Utils.sleep(1000)
         done();
       })
@@ -127,22 +127,22 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0005", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0005', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0005")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0005')
         let driver = await Driver.create()
         await Utils.sleep(500)
 
         // 1、查找源组件和目标组件
         let sourceEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0005_source"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0005_source'), 500)
         let targetEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0005_target"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0005_target'), 500)
 
         // 2、长按源组件开始拖拽
         await sourceEditor.longClick()
         await Utils.sleep(1000)
-        let btn_selectAll_0005 = await driver.findComponent(ON.text("全选"))
+        let btn_selectAll_0005 = await driver.findComponent(ON.text('全选'))
         await btn_selectAll_0005.click()
         await Utils.sleep(500)
 
@@ -155,7 +155,7 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
         await Utils.sleep(1000)
 
         // 5、截图验证
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0005_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0005_01')
         await Utils.sleep(1000)
         done();
       })
@@ -168,17 +168,17 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0007", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0007', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0007")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0007')
         let driver = await Driver.create()
         await Utils.sleep(500)
 
         // 1、查找组件
         let rich_editor_copy_paste_attribute_strings_0007 =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0007"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0007'), 500)
         let selectButton =
-          await driver.waitForComponent(ON.id("btn_copy_paste_attribute_strings_0007_select_first"), 500)
+          await driver.waitForComponent(ON.id('btn_copy_paste_attribute_strings_0007_select_first'), 500)
 
         // 2、点击按钮选择第一段文本
         await rich_editor_copy_paste_attribute_strings_0007.click()
@@ -197,7 +197,7 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
         await Utils.sleep(1000)
 
         // 5、截图验证
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0007_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0007_01')
         await Utils.sleep(1000)
         done();
       })
@@ -210,17 +210,17 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0009", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0009', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0009")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0009')
         let driver = await Driver.create()
         await Utils.sleep(500)
 
         // 1、查找源组件和目标组件
         let sourceEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0009_source"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0009_source'), 500)
         let targetEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0009_target"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0009_target'), 500)
 
         // 2、第一次拖拽：从A组件拖拽到B组件
         await sourceEditor.longClick()
@@ -239,7 +239,7 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
         await driver.drag(sourceCenter.x, sourceCenter.y, targetCenter.x, targetCenter.y + 90, 2000)
 
         // 6、第一次截图：A组件拖拽到B组件后，A组件拖拽过来的文本还保持原样
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0009_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0009_01')
         await Utils.sleep(1000)
 
         // 7、第二次拖拽：从B组件拖拽到A组件
@@ -257,7 +257,7 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
 
 
         // 10、第二次截图：B组件全部内容拖拽到A组件，样式保持
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0009_02")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0009_02')
         await Utils.sleep(1000)
         done();
       })
@@ -270,17 +270,17 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0011", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0011', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0011")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0011')
         let driver = await Driver.create()
         await Utils.sleep(500)
 
         // 1、查找源组件和目标组件
         let sourceEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0011_source"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0011_source'), 500)
         let targetEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0011_target"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0011_target'), 500)
 
         // 2、从A组件拖拽到B组件
         await sourceEditor.longClick()
@@ -298,7 +298,7 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
         await driver.drag(sourceCenter.x, sourceCenter.y, targetCenter.x, targetCenter.y + 90, 2000)
 
         // 6、截图：验证段落样式保持不变
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0011_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0011_01')
         await Utils.sleep(1000)
         done();
       })
@@ -311,17 +311,17 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0012", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0012', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0012")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0012')
         let driver = await Driver.create()
         await Utils.sleep(500)
 
         // 1、查找源组件和目标组件
         let sourceEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0012_source"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0012_source'), 500)
         let targetEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0012_target"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0012_target'), 500)
 
         // 2、从A组件拖拽到B组件
         await sourceEditor.longClick()
@@ -339,7 +339,7 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
         await driver.drag(sourceCenter.x, sourceCenter.y, targetCenter.x, targetCenter.y + 90, 2000)
 
         // 6、截图：验证文本样式保持不变
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0012_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0012_01')
         await Utils.sleep(1000)
         done();
       })
@@ -352,17 +352,17 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0018", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0018', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0018")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0018')
         let driver = await Driver.create()
         await Utils.sleep(500)
 
         // 1、查找源组件和目标组件
         let sourceEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0018_source"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0018_source'), 500)
         let targetEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0018_target"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0018_target'), 500)
 
         // 2、从A组件拖拽到B组件
         await sourceEditor.longClick()
@@ -380,7 +380,7 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
         await driver.drag(sourceCenter.x - 300, sourceCenter.y, targetCenter.x, targetCenter.y + 90, 2000)
 
         // 6、截图：验证IMAGE大小样式保持不变
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0018_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0018_01')
         await Utils.sleep(1000)
         done();
       })
@@ -393,24 +393,24 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0019", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0019', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0019")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0019')
         let driver = await Driver.create()
         await Utils.sleep(500)
 
         // 1、查找源组件和目标组件
         let sourceEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0019_source"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0019_source'), 500)
         let targetEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0019_target"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0019_target'), 500)
 
         // 2、长按组件A尝试触发选择（CustomSpan不支持选择）
         await sourceEditor.longClick()
         await Utils.sleep(500)
 
         // 3、截图1：验证CustomSpan不支持文本选择（不会弹出选择菜单）
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0019_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0019_01')
         await Utils.sleep(1000)
 
         // 4、获取拖拽起点和终点
@@ -422,7 +422,7 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
         await Utils.sleep(500)
 
         // 6、截图2：验证CUSTOM_SPAN不支持拖拽（目标组件B内容不变）
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0019_02")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0019_02')
         await Utils.sleep(1000)
         done();
       })
@@ -435,17 +435,17 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0020", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0020', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0020")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0020')
         let driver = await Driver.create()
         await Utils.sleep(500)
 
         // 1、查找源组件（老框架-组件B）和目标组件（新框架-组件A）
         let sourceEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0020_source"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0020_source'), 500)
         let targetEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0020_target"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0020_target'), 500)
 
         // 2、长按组件B选择symbol
         await sourceEditor.longClick()
@@ -467,7 +467,7 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
         await Utils.sleep(500)
 
         // 6、截图：验证symbol不支持拖拽到新框架，组件A内容不变
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0020_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0020_01')
         await Utils.sleep(1000)
         done();
       })
@@ -480,17 +480,17 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0021", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0021', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0021")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0021')
         let driver = await Driver.create()
         await Utils.sleep(500)
 
         // 1、查找源组件和目标组件
         let sourceEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0021_source"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0021_source'), 500)
         let targetEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0021_target"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0021_target'), 500)
 
         // 2、从A组件拖拽混合图文到B组件
         await sourceEditor.longClick()
@@ -510,7 +510,7 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
         await driver.drag(sourceCenter.x, sourceCenter.y - 60, targetCenter.x, targetCenter.y, 2000)
 
         // 6、截图：验证拖拽前后内容显示一致
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0021_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0021_01')
         await Utils.sleep(1000)
         done();
       })
@@ -523,17 +523,17 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0023", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0023', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0023")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0023')
         let driver = await Driver.create()
         await Utils.sleep(500)
 
         // 1、查找源组件和目标组件
         let sourceEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0023_source"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0023_source'), 500)
         let targetEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0023_target"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0023_target'), 500)
 
         // 2、全选组件A的内容（包含换行符）
         await sourceEditor.longClick()
@@ -551,7 +551,7 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
         await driver.drag(sourceCenter.x, sourceCenter.y, targetCenter.x, targetCenter.y + 90, 2000)
 
         // 6、截图：验证拖拽前后内容显示一致（包括换行符）
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0023_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0023_01')
         await Utils.sleep(1000)
         done();
       })
@@ -564,17 +564,17 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0025", Level.LEVEL3,
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0025', Level.LEVEL3,
       async (done: Function) => {
-        Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0025")
+        Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCopyPasteAttributeStrings/UiComponentTextRichEditorCopyPasteAttributeStrings0025')
         let driver = await Driver.create()
         await Utils.sleep(500)
 
         // 1、查找源组件和目标组件
         let sourceEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0025_source"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0025_source'), 500)
         let targetEditor =
-          await driver.waitForComponent(ON.id("rich_editor_copy_paste_attribute_strings_0025_target"), 500)
+          await driver.waitForComponent(ON.id('rich_editor_copy_paste_attribute_strings_0025_target'), 500)
 
         // 2、点击组件B中心，产生光标
         await targetEditor.click()
@@ -594,7 +594,7 @@ export default function uiComponentTextRichEditorCopyPasteAttributeStrings() {
         await driver.drag(sourceCenter.x, sourceCenter.y - 50, targetCenter.x, targetCenter.y, 2000)
 
         // 5、截图：验证内容在光标位置成功添加
-        await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0025_01")
+        await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_COPY_PASTE_ATTRIBUTE_STRINGS_0025_01')
         await Utils.sleep(1000)
         done();
       })

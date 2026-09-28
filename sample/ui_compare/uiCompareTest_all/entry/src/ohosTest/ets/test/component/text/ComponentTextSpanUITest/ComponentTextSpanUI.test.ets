@@ -51,7 +51,7 @@ export default function componentTextSpanUI() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_UI_0140', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_UI_0140 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextSpanUI/ComponentTextSpanUI0140")
+      Settings.createWindow('testability/pages/component/text/componentTextSpanUI/ComponentTextSpanUI0140')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -71,7 +71,7 @@ export default function componentTextSpanUI() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_UI_0160', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_UI_0160 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextSpanUI/ComponentTextSpanUI0160")
+      Settings.createWindow('testability/pages/component/text/componentTextSpanUI/ComponentTextSpanUI0160')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -91,7 +91,7 @@ export default function componentTextSpanUI() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_UI_0270', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_UI_0270 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextSpanUI/ComponentTextSpanUI0270")
+      Settings.createWindow('testability/pages/component/text/componentTextSpanUI/ComponentTextSpanUI0270')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

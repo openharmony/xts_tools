@@ -51,7 +51,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0070', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0070 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface0070")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface0070')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -72,7 +72,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0460', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0460 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface0460")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface0460')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -92,7 +92,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0480', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0480 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface0480")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface0480')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -112,7 +112,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0630', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0630 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface0630")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface0630')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -132,7 +132,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0750', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0750 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface0750")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface0750')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -152,7 +152,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0920', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_0920 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface0920")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface0920')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -172,7 +172,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1000', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1000 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1000")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1000')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -192,7 +192,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1030 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1030")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1030')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -212,7 +212,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1280', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1280 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1280")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1280')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -232,7 +232,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1310', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1310 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1310")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1310')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -252,7 +252,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1340', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1340 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1340")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1340')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -272,7 +272,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1350', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1350 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1350")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1350')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -292,7 +292,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1700', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1700 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1700")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1700')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -312,7 +312,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1760', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1760 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1760")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1760')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -332,7 +332,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1780', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1780 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1780")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1780')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -352,7 +352,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1910', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1910 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1910")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1910')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -372,7 +372,7 @@ export default function componentTextTextInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1990', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INTERFACE_1990 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1990")
+      Settings.createWindow('testability/pages/component/text/componentTextTextInterface/ComponentTextTextInterface1990')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

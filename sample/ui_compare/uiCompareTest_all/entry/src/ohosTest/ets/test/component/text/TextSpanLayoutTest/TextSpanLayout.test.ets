@@ -50,7 +50,7 @@ export default function textSpanLayout() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_LAYOUT_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_LAYOUT_0010 start.`);
-      Settings.createWindow("testability/pages/component/text/textSpanLayout/TextSpanLayout0010")
+      Settings.createWindow('testability/pages/component/text/textSpanLayout/TextSpanLayout0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：添加Span组件，预期：适应文本大小，且不超过父组件大小

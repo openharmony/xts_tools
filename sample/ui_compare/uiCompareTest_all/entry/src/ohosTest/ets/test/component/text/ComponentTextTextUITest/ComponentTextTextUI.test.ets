@@ -50,7 +50,7 @@ export default function componentTextTextUI() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0020', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0020 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextUI/ComponentTextTextUI0020")
+      Settings.createWindow('testability/pages/component/text/componentTextTextUI/ComponentTextTextUI0020')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -70,7 +70,7 @@ export default function componentTextTextUI() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0580', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0580 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextUI/ComponentTextTextUI0580")
+      Settings.createWindow('testability/pages/component/text/componentTextTextUI/ComponentTextTextUI0580')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentTextTextUI0580_001'),1000);
       await Utils.sleep(1000)
@@ -93,7 +93,7 @@ export default function componentTextTextUI() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0590', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0590 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextUI/ComponentTextTextUI0590")
+      Settings.createWindow('testability/pages/component/text/componentTextTextUI/ComponentTextTextUI0590')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentTextTextUI0590_001'),1000);
       await Utils.sleep(1000)
@@ -116,7 +116,7 @@ export default function componentTextTextUI() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1000', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1000 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextUI/ComponentTextTextUI1000")
+      Settings.createWindow('testability/pages/component/text/componentTextTextUI/ComponentTextTextUI1000')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentTextTextUI1000_001'),1000);
       await driver.waitForIdle(500,2000)
@@ -139,7 +139,7 @@ export default function componentTextTextUI() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1090', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1090 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextUI/ComponentTextTextUI1090")
+      Settings.createWindow('testability/pages/component/text/componentTextTextUI/ComponentTextTextUI1090')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentTextTextUI1090_001'),1000);
       await driver.waitForIdle(500,2000)
@@ -162,7 +162,7 @@ export default function componentTextTextUI() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1730', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1730 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextUI/ComponentTextTextUI1730")
+      Settings.createWindow('testability/pages/component/text/componentTextTextUI/ComponentTextTextUI1730')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentTextTextUI1730_001'),1000);
       await Utils.sleep(1000)
@@ -185,7 +185,7 @@ export default function componentTextTextUI() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1770', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1770 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextUI/ComponentTextTextUI1770")
+      Settings.createWindow('testability/pages/component/text/componentTextTextUI/ComponentTextTextUI1770')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentTextTextUI1770_001'),1000);
       await Utils.sleep(1000)
@@ -208,7 +208,7 @@ export default function componentTextTextUI() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1960', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1960 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTextUI/ComponentTextTextUI1960")
+      Settings.createWindow('testability/pages/component/text/componentTextTextUI/ComponentTextTextUI1960')
       let driver:Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('ComponentTextTextUI1960_001'),1000);
       await Utils.sleep(2000)

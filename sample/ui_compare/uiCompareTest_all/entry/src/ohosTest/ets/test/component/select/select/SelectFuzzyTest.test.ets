@@ -49,7 +49,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0010 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy01")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy01')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -75,7 +75,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0020 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy02")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy02')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -101,7 +101,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0030 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy03")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy03')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -127,7 +127,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0040 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy04")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy04')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -153,7 +153,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0050 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy05")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy05')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -179,7 +179,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0060 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy06")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy06')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -205,7 +205,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0070 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy07")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy07')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -231,7 +231,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0080 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy08")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy08')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -257,7 +257,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0090 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy09")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy09')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -283,7 +283,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0100 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy10")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy10')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -309,7 +309,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0110 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy11")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy11')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -335,7 +335,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0120 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy12")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy12')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -361,7 +361,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0130 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy13")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy13')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -387,7 +387,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0140 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy14")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy14')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -413,7 +413,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0150 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy15")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy15')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -439,7 +439,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0160 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy16")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy16')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -465,7 +465,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0170 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy17")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy17')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -491,7 +491,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0180 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy18")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy18')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -517,7 +517,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0190 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy19")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy19')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       
@@ -543,7 +543,7 @@ export default function selectFuzzyTest() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0200 start.`);
-      Settings.createWindow("testability/pages/component/select/select/selectFuzzy20")
+      Settings.createWindow('testability/pages/component/select/select/selectFuzzy20')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500, 2000);
       

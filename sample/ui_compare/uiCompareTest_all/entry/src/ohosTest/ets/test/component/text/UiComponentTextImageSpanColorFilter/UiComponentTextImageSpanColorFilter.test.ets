@@ -64,7 +64,7 @@ export default function uiComponentTextImageSpanColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0030 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextImageSpanColorFilter/UiComponentTextImageSpanColorFilter01")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextImageSpanColorFilter/UiComponentTextImageSpanColorFilter01')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -83,7 +83,7 @@ export default function uiComponentTextImageSpanColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0080 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextImageSpanColorFilter/UiComponentTextImageSpanColorFilter02")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextImageSpanColorFilter/UiComponentTextImageSpanColorFilter02')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -102,7 +102,7 @@ export default function uiComponentTextImageSpanColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0040 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextImageSpanColorFilter/UiComponentTextImageSpanColorFilter03")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextImageSpanColorFilter/UiComponentTextImageSpanColorFilter03')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -121,7 +121,7 @@ export default function uiComponentTextImageSpanColorFilter() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0050 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextImageSpanColorFilter/UiComponentTextImageSpanColorFilter04")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextImageSpanColorFilter/UiComponentTextImageSpanColorFilter04')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

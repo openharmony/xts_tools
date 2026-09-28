@@ -50,10 +50,10 @@ export default function selectEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_ENHANCEMENT_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_ENHANCEMENT_0200 start.`);
-      Settings.createWindow("testability/pages/component/select/selectEnhancement/SelectEnhancement0200")
+      Settings.createWindow('testability/pages/component/select/selectEnhancement/SelectEnhancement0200')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
-      let menubutton = await driver.waitForComponent(ON.id("SelectEnhancement0200_001"), 2000)
+      let menubutton = await driver.waitForComponent(ON.id('SelectEnhancement0200_001'), 2000)
       await menubutton.click()
       await Utils.sleep(500)
       windowSnap.snapShot()
@@ -73,10 +73,10 @@ export default function selectEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_ENHANCEMENT_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_ENHANCEMENT_0210 start.`);
-      Settings.createWindow("testability/pages/component/select/selectEnhancement/SelectEnhancement0210")
+      Settings.createWindow('testability/pages/component/select/selectEnhancement/SelectEnhancement0210')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
-      let menubutton = await driver.waitForComponent(ON.id("SelectEnhancement0210_001"), 2000)
+      let menubutton = await driver.waitForComponent(ON.id('SelectEnhancement0210_001'), 2000)
       await menubutton.click()
       await Utils.sleep(500)
       windowSnap.snapShot()

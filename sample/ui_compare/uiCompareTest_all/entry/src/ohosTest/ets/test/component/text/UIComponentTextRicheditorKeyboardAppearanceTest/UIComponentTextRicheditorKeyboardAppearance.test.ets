@@ -49,7 +49,7 @@ export default function uIComponentTextRicheditorKeyboardAppearance() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_KeyboardAppearance_003', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_KeyboardAppearance_003 start.`);
-      Settings.createWindow("testability/pages/component/text/uIComponentTextRicheditorKeyboardAppearance/UIComponentTextRicheditorKeyboardAppearance3")
+      Settings.createWindow('testability/pages/component/text/uIComponentTextRicheditorKeyboardAppearance/UIComponentTextRicheditorKeyboardAppearance3')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('UIComponentTextRicheditorKeyboardAppearance003_001'), 1000);  // 显式等待组件出现[6](@ref)

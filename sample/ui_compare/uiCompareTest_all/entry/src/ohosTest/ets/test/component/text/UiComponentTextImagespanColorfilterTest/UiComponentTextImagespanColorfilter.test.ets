@@ -44,9 +44,9 @@ export default function uiComponentTextImagespanColorfilter() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0010", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0010', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/text/uiComponentTextImagespanColorfilter/UiComponentTextImagespanColorfilter0010")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextImagespanColorfilter/UiComponentTextImagespanColorfilter0010')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
@@ -56,7 +56,7 @@ export default function uiComponentTextImagespanColorfilter() {
 
       // 步骤4：查看图片的过滤颜色效果
       // 预期效果1：图片的过滤色正常显示
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0010_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0010_01')
       await Utils.sleep(1000)
       done();
     })
@@ -69,9 +69,9 @@ export default function uiComponentTextImagespanColorfilter() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0020", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0020', Level.LEVEL3, async (done: Function) => {
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/text/uiComponentTextImagespanColorfilter/UiComponentTextImagespanColorfilter0020")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextImagespanColorfilter/UiComponentTextImagespanColorfilter0020')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
@@ -81,7 +81,7 @@ export default function uiComponentTextImagespanColorfilter() {
 
       // 步骤4：查看图片的过滤颜色效果
       // 预期效果1：图片的过滤色正常显示
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0020_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0020_01')
       await Utils.sleep(1000)
       done();
     })

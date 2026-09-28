@@ -50,7 +50,7 @@ export default function componentTextSpanInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0010 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0010")
+      Settings.createWindow('testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0010')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -70,7 +70,7 @@ export default function componentTextSpanInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0016', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0016 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0016")
+      Settings.createWindow('testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0016')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -90,7 +90,7 @@ export default function componentTextSpanInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0017', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0017 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0017")
+      Settings.createWindow('testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0017')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -110,7 +110,7 @@ export default function componentTextSpanInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0028', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0028 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0028")
+      Settings.createWindow('testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0028')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -130,7 +130,7 @@ export default function componentTextSpanInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0039', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0039 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0039")
+      Settings.createWindow('testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0039')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -150,7 +150,7 @@ export default function componentTextSpanInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0042', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0042 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0042")
+      Settings.createWindow('testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0042')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -170,7 +170,7 @@ export default function componentTextSpanInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0050', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0050 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0050")
+      Settings.createWindow('testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0050')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -190,7 +190,7 @@ export default function componentTextSpanInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0052', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0052 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0052")
+      Settings.createWindow('testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0052')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -210,7 +210,7 @@ export default function componentTextSpanInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0066', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0066 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0066")
+      Settings.createWindow('testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0066')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -230,7 +230,7 @@ export default function componentTextSpanInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0075', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SPAN_INTERFACE_0075 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0075")
+      Settings.createWindow('testability/pages/component/text/componentTextSpanInterface/ComponentTextSpanInterface0075')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

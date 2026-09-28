@@ -64,21 +64,21 @@ export default function uiComponentTextResponseDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextResponseDefault/UiComponentTextResponseDefault01")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextResponseDefault/UiComponentTextResponseDefault01')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let text: Component = await driver.waitForComponent(ON.id('UiComponentTextResponseDefault01'),1000);
       await text.longClick();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060_01')
       await driver.waitForIdle(500,2000);
       await driver.mouseDrag({x:50, y:100},{x:50, y:200},600);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060_02')
       await driver.mouseClick({x:75, y:125}, MouseButton.MOUSE_BUTTON_RIGHT);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060_03')
       await driver.doubleClick(75,125)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060_04")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060_04')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060 finish.`);
       done()
@@ -94,21 +94,21 @@ export default function uiComponentTextResponseDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextResponseDefault/UiComponentTextResponseDefault02")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextResponseDefault/UiComponentTextResponseDefault02')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let text: Component = await driver.waitForComponent(ON.id('UiComponentTextResponseDefault02'),1000);
       await text.longClick();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010_01')
       await driver.waitForIdle(500,2000);
       await driver.mouseDrag({x:50, y:100},{x:50, y:200},600);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010_02')
       await driver.mouseClick({x:75, y:125}, MouseButton.MOUSE_BUTTON_RIGHT);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010_03')
       await driver.doubleClick(75,125)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010_04")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010_04')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010 finish.`);
       done()
@@ -124,21 +124,21 @@ export default function uiComponentTextResponseDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextResponseDefault/UiComponentTextResponseDefault03")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextResponseDefault/UiComponentTextResponseDefault03')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let text: Component = await driver.waitForComponent(ON.id('UiComponentTextResponseDefault03'),1000);
       await text.longClick();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020_01')
       await driver.waitForIdle(500,2000);
       await driver.mouseDrag({x:50, y:100},{x:50, y:200},600);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020_02')
       await driver.mouseClick({x:75, y:125}, MouseButton.MOUSE_BUTTON_RIGHT);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020_03')
       await driver.doubleClick(75,125)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020_04")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020_04')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020 finish.`);
       done()
@@ -154,7 +154,7 @@ export default function uiComponentTextResponseDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0050 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextResponseDefault/UiComponentTextResponseDefault04")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextResponseDefault/UiComponentTextResponseDefault04')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       await driver.mouseDrag({x:50, y:100},{x:300, y:200},600);
@@ -174,22 +174,22 @@ export default function uiComponentTextResponseDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextResponseDefault/UiComponentTextResponseDefault05")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextResponseDefault/UiComponentTextResponseDefault05')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let text: Component = await driver.findComponent(ON.id('UiComponentTextResponseDefault05'));
       await driver.waitForIdle(500,2000);
       await driver.mouseDrag({x:50, y:100},{x:200, y:200},600);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030_01')
       await text.longClick();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030_02')
       await driver.mouseClick({x:75, y:125}, MouseButton.MOUSE_BUTTON_RIGHT);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030_03')
       await driver.doubleClick(75,125)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030_04")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030_04')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030 finish.`);
       done()
@@ -205,22 +205,22 @@ export default function uiComponentTextResponseDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextResponseDefault/UiComponentTextResponseDefault06")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextResponseDefault/UiComponentTextResponseDefault06')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let text: Component = await driver.waitForComponent(ON.id('UiComponentTextResponseDefault06'),1000);
       await driver.waitForIdle(500,2000);
       await driver.mouseDrag({x:50, y:100},{x:200, y:200},600);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040_01')
       await text.longClick();
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040_02')
       await driver.mouseClick({x:75, y:125}, MouseButton.MOUSE_BUTTON_RIGHT);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040_03')
       await driver.doubleClick(75,125)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040_04")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040_04')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040 finish.`);
       done()
@@ -236,21 +236,21 @@ export default function uiComponentTextResponseDefault() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextResponseDefault/UiComponentTextResponseDefault07")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextResponseDefault/UiComponentTextResponseDefault07')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,2000);
       let text: Component = await driver.waitForComponent(ON.id('UiComponentTextResponseDefault07'),1000);
       await text.longClick();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070_01")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070_01')
       await driver.waitForIdle(500,2000);
       await driver.mouseDrag({x:50, y:100},{x:200, y:200},600);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070_02")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070_02')
       await driver.mouseClick({x:75, y:125}, MouseButton.MOUSE_BUTTON_RIGHT);
       await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070_03")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070_03')
       await driver.doubleClick(75,125)
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070_04")
+      windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070_04')
       await Utils.sleep(1000)
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070 finish.`);
       done()

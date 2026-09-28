@@ -51,17 +51,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0010 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0010")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0010')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：查找并点击"click me"按钮拉起弹窗
-      let clickMeButton = await driver.waitForComponent(ON.id("click_me_button_0010"), 500)
+      let clickMeButton = await driver.waitForComponent(ON.id('click_me_button_0010'), 500)
       await clickMeButton.click()
       await Utils.sleep(1000)
       
       // 步骤4：点击输入框拉起软键盘
-      let textInput = await driver.waitForComponent(ON.id("text_input_custom_dialog_0010"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_custom_dialog_0010'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -89,17 +89,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0020 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0020")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0020')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0020"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0020'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_prompt_dialog_0020"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_prompt_dialog_0020'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -134,17 +134,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0030 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0030")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0030')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0030"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0030'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_custom_dialog_0030"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_custom_dialog_0030'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -179,17 +179,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0040 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0040")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0040')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0040"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0040'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_uicontext_dialog_0040"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_uicontext_dialog_0040'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -224,17 +224,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0050 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0050")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0050')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0050"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0050'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_custom_dialog_0050"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_custom_dialog_0050'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -269,17 +269,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0060 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0060")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0060')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0060"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0060'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_uicontext_dialog_0060"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_uicontext_dialog_0060'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -314,17 +314,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0080 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0080")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0080')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0080"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0080'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_custom_dialog_0080"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_custom_dialog_0080'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -359,17 +359,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0090 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0090")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0090')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0090"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0090'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_custom_dialog_0090"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_custom_dialog_0090'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -404,17 +404,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0110 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0110")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0110')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0110"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0110'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_uicontext_dialog_0110"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_uicontext_dialog_0110'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -449,17 +449,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0120', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0120 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0120")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0120')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0120"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0120'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_prompt_dialog_0120"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_prompt_dialog_0120'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -494,17 +494,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0130 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0130")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0130')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0130"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0130'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_uicontext_dialog_0130"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_uicontext_dialog_0130'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -539,17 +539,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0140', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0140 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0140")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0140')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0140"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0140'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_uicontext_dialog_0140"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_uicontext_dialog_0140'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -584,17 +584,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0150', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0150 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0150")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0150')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0150"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0150'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_prompt_dialog_0150"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_prompt_dialog_0150'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -629,17 +629,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0160', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0160 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0160")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0160')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0160"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0160'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_uicontext_dialog_0160"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_uicontext_dialog_0160'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -674,17 +674,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0170', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0170 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0170")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0170')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0170"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0170'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_prompt_dialog_0170"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_prompt_dialog_0170'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -719,17 +719,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0180 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0180")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0180')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0180"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0180'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_uicontext_dialog_0180"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_uicontext_dialog_0180'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -764,17 +764,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0190', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0190 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0190")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0190')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0190"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0190'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_uicontext_dialog_0190"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_uicontext_dialog_0190'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -809,17 +809,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0220', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0220 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0220")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0220')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0220"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0220'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_prompt_dialog_0220"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_prompt_dialog_0220'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -854,17 +854,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0230', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0230 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0230")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0230')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0230"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0230'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_prompt_dialog_0230"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_prompt_dialog_0230'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       
@@ -899,17 +899,17 @@ export default function customSelectinputmethodoptimization() {
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0240', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0240 start.`);
       // 步骤1：页面初始化
-      Settings.createWindow("testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0240")
+      Settings.createWindow('testability/pages/component/select/customSelectinputmethodoptimization/CustomSelectinputmethodoptimization0240')
       let driver: Driver = Driver.create();
       await Utils.sleep(500)
       
       // 步骤2：点击"click customDialog"按钮
-      let clickCustomDialogButton = await driver.waitForComponent(ON.id("click_custom_dialog_button_0240"), 500)
+      let clickCustomDialogButton = await driver.waitForComponent(ON.id('click_custom_dialog_button_0240'), 500)
       await clickCustomDialogButton.click()
       await Utils.sleep(1000)
       
       // 步骤3：点击输入框
-      let textInput = await driver.waitForComponent(ON.id("text_input_prompt_dialog_0240"), 500)
+      let textInput = await driver.waitForComponent(ON.id('text_input_prompt_dialog_0240'), 500)
       await textInput.click()
       await Utils.sleep(2000)
       

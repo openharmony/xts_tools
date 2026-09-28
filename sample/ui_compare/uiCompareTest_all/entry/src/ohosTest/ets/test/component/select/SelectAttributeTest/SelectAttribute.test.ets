@@ -50,15 +50,15 @@ export default function selectAttribute() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_ATTRIBUTE_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_ATTRIBUTE_0600 start.`);
-      Settings.createWindow("testability/pages/component/select/selectAttribute/SelectAttribute0600")
+      Settings.createWindow('testability/pages/component/select/selectAttribute/SelectAttribute0600')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
-      let selectbutton = await driver.waitForComponent(ON.id("SelectAttribute0600_002"), 2000)
+      let selectbutton = await driver.waitForComponent(ON.id('SelectAttribute0600_002'), 2000)
       await selectbutton.click()
       await Utils.sleep(500)
       await selectbutton.click()
       await Utils.sleep(500)
-      let themebutton = await driver.waitForComponent(ON.id("SelectAttribute0600_001"), 2000)
+      let themebutton = await driver.waitForComponent(ON.id('SelectAttribute0600_001'), 2000)
       await themebutton.click()
       await Utils.sleep(500)
       await selectbutton.click()
@@ -82,15 +82,15 @@ export default function selectAttribute() {
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SELECT_ATTRIBUTE_0700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SELECT_ATTRIBUTE_0700 start.`);
-      Settings.createWindow("testability/pages/component/select/selectAttribute/SelectAttribute0700")
+      Settings.createWindow('testability/pages/component/select/selectAttribute/SelectAttribute0700')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000,3000)
-      let selectbutton = await driver.waitForComponent(ON.id("SelectAttribute0700_002"), 2000)
+      let selectbutton = await driver.waitForComponent(ON.id('SelectAttribute0700_002'), 2000)
       await selectbutton.click()
       await Utils.sleep(500)
       await selectbutton.click()
       await Utils.sleep(500)
-      let themebutton = await driver.waitForComponent(ON.id("SelectAttribute0700_001"), 2000)
+      let themebutton = await driver.waitForComponent(ON.id('SelectAttribute0700_001'), 2000)
       await themebutton.click()
       await Utils.sleep(500)
       await selectbutton.click()

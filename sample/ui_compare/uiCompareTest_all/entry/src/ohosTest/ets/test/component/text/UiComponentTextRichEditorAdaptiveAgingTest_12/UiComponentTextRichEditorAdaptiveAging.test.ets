@@ -46,12 +46,12 @@ export default function uiComponentTextRichEditorAdaptiveAging() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ADAPTIVE_AGING_0013", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorAdaptiveAging/UiComponentTextRichEditorAdaptiveAging0013")
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ADAPTIVE_AGING_0013', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorAdaptiveAging/UiComponentTextRichEditorAdaptiveAging0013')
       let driver = await Driver.create()
 
       // 1、查找richEditor、setTypingStyle组件
-      let richEditor = await driver.findComponent(ON.id("rich_editor_adaptiveAging_0013"))
+      let richEditor = await driver.findComponent(ON.id('rich_editor_adaptiveAging_0013'))
 
 
       // // 2、richEditor并滑动查看
@@ -66,13 +66,13 @@ export default function uiComponentTextRichEditorAdaptiveAging() {
       //     '=======================\n' +
       //     '--------测试尾部--------\n');
       // 滑动前截图
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ADAPTIVE_AGING_0013_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ADAPTIVE_AGING_0013_01')
       await Utils.sleep(1000)
       let point = await richEditor.getBoundsCenter()
       // 模拟滑动测试
       await driver.swipe(point.x, point.y + 70, point.x, point.y - 70, 800)
       // 滑动后截图
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ADAPTIVE_AGING_0013_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ADAPTIVE_AGING_0013_02')
       await Utils.sleep(1000)
       done()
 

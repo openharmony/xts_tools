@@ -49,12 +49,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0040 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0040")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0040')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置FontColor actived: 1按钮
-      let buttonSetFontColorActived = await driver.waitForComponent(ON.id("button_set_font_color_actived"), 3000)
+      let buttonSetFontColorActived = await driver.waitForComponent(ON.id('button_set_font_color_actived'), 3000)
       if (buttonSetFontColorActived) {
         await buttonSetFontColorActived.click()
         await Utils.sleep(1000)
@@ -75,12 +75,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0050 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0050")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0050')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置FontColor actived: 2按钮
-      let buttonSetFontColorActived = await driver.waitForComponent(ON.id("button_set_font_color_actived"), 3000)
+      let buttonSetFontColorActived = await driver.waitForComponent(ON.id('button_set_font_color_actived'), 3000)
       if (buttonSetFontColorActived) {
         await buttonSetFontColorActived.click()
         await Utils.sleep(2000)
@@ -101,12 +101,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0060 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0060")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0060')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置FontColor actived: 3按钮
-      let buttonSetFontColorActived = await driver.waitForComponent(ON.id("button_set_font_color_actived"), 3000)
+      let buttonSetFontColorActived = await driver.waitForComponent(ON.id('button_set_font_color_actived'), 3000)
       if (buttonSetFontColorActived) {
         await buttonSetFontColorActived.click()
         await Utils.sleep(2000)
@@ -127,12 +127,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0070 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0070")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0070')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置FontColor actived: 4按钮
-      let buttonSetFontColorActived = await driver.waitForComponent(ON.id("button_set_font_color_actived"), 3000)
+      let buttonSetFontColorActived = await driver.waitForComponent(ON.id('button_set_font_color_actived'), 3000)
       if (buttonSetFontColorActived) {
         await buttonSetFontColorActived.click()
         await Utils.sleep(2000)
@@ -153,12 +153,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0080 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0080")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0080')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击刷新页面按钮
-      let buttonRefreshPage = await driver.waitForComponent(ON.id("button_refresh_page"), 3000)
+      let buttonRefreshPage = await driver.waitForComponent(ON.id('button_refresh_page'), 3000)
       if (buttonRefreshPage) {
         await buttonRefreshPage.click()
         await Utils.sleep(2000)
@@ -179,12 +179,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0090 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0090")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0090')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置FillColor actived: 1按钮
-      let buttonSetFillColorActived = await driver.waitForComponent(ON.id("button_set_fill_color_actived"), 3000)
+      let buttonSetFillColorActived = await driver.waitForComponent(ON.id('button_set_fill_color_actived'), 3000)
       if (buttonSetFillColorActived) {
         await buttonSetFillColorActived.click()
         await Utils.sleep(2000)
@@ -205,12 +205,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0100 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0100")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0100')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置FillColor actived: 2按钮
-      let buttonSetFillColorActived = await driver.waitForComponent(ON.id("button_set_fill_color_actived"), 3000)
+      let buttonSetFillColorActived = await driver.waitForComponent(ON.id('button_set_fill_color_actived'), 3000)
       if (buttonSetFillColorActived) {
         await buttonSetFillColorActived.click()
         await Utils.sleep(2000)
@@ -231,12 +231,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0110 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0110")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0110')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置FillColor actived: 3按钮
-      let buttonSetFillColorActived = await driver.waitForComponent(ON.id("button_set_fill_color_actived"), 3000)
+      let buttonSetFillColorActived = await driver.waitForComponent(ON.id('button_set_fill_color_actived'), 3000)
       if (buttonSetFillColorActived) {
         await buttonSetFillColorActived.click()
         await Utils.sleep(2000)
@@ -257,12 +257,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0120 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0120")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0120')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置FillColor actived: 4按钮
-      let buttonSetFillColorActived = await driver.waitForComponent(ON.id("button_set_fill_color_actived"), 3000)
+      let buttonSetFillColorActived = await driver.waitForComponent(ON.id('button_set_fill_color_actived'), 3000)
       if (buttonSetFillColorActived) {
         await buttonSetFillColorActived.click()
         await Utils.sleep(2000)
@@ -283,12 +283,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0130 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0130")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0130')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击刷新页面按钮
-      let buttonRefreshPage = await driver.waitForComponent(ON.id("button_refresh_page"), 3000)
+      let buttonRefreshPage = await driver.waitForComponent(ON.id('button_refresh_page'), 3000)
       if (buttonRefreshPage) {
         await buttonRefreshPage.click()
         await Utils.sleep(2000)
@@ -309,12 +309,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0140 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0140")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0140')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置BackgroundColor actived: 1按钮
-      let buttonSetBackgroundColorActived = await driver.waitForComponent(ON.id("button_set_background_color_actived"), 3000)
+      let buttonSetBackgroundColorActived = await driver.waitForComponent(ON.id('button_set_background_color_actived'), 3000)
       if (buttonSetBackgroundColorActived) {
         await buttonSetBackgroundColorActived.click()
         await Utils.sleep(2000)
@@ -335,12 +335,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0150 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0150")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0150')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置BackgroundColor actived: 2按钮
-      let buttonSetBackgroundColorActived = await driver.waitForComponent(ON.id("button_set_background_color_actived"), 3000)
+      let buttonSetBackgroundColorActived = await driver.waitForComponent(ON.id('button_set_background_color_actived'), 3000)
       if (buttonSetBackgroundColorActived) {
         await buttonSetBackgroundColorActived.click()
         await Utils.sleep(2000)
@@ -361,12 +361,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0160 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0160")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0160')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置BackgroundColor actived: 3按钮
-      let buttonSetBackgroundColorActived = await driver.waitForComponent(ON.id("button_set_background_color_actived"), 3000)
+      let buttonSetBackgroundColorActived = await driver.waitForComponent(ON.id('button_set_background_color_actived'), 3000)
       if (buttonSetBackgroundColorActived) {
         await buttonSetBackgroundColorActived.click()
         await Utils.sleep(2000)
@@ -387,12 +387,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0170 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0170")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0170')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置BackgroundColor actived: 4按钮
-      let buttonSetBackgroundColorActived = await driver.waitForComponent(ON.id("button_set_background_color_actived"), 3000)
+      let buttonSetBackgroundColorActived = await driver.waitForComponent(ON.id('button_set_background_color_actived'), 3000)
       if (buttonSetBackgroundColorActived) {
         await buttonSetBackgroundColorActived.click()
         await Utils.sleep(2000)
@@ -413,12 +413,12 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0180 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0180")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0180')
       let driver: Driver = Driver.create();
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置BackgroundColor actived: 2按钮
-      let buttonSetBackgroundColorActived = await driver.waitForComponent(ON.id("button_set_background_color_actived"), 3000)
+      let buttonSetBackgroundColorActived = await driver.waitForComponent(ON.id('button_set_background_color_actived'), 3000)
       if (buttonSetBackgroundColorActived) {
         await buttonSetBackgroundColorActived.click()
         await Utils.sleep(2000)
@@ -426,7 +426,7 @@ export default function textChipStyleEnhancement() {
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置FontColor actived: 1按钮
-      let buttonSetFontColorActived = await driver.waitForComponent(ON.id("button_set_font_color_actived"), 3000)
+      let buttonSetFontColorActived = await driver.waitForComponent(ON.id('button_set_font_color_actived'), 3000)
       if (buttonSetFontColorActived) {
         await buttonSetFontColorActived.click()
         await Utils.sleep(2000)
@@ -434,7 +434,7 @@ export default function textChipStyleEnhancement() {
       await windowSnap.snapShot()
       await Utils.sleep(1000)
       // 点击设置FillColor actived: 1按钮
-      let buttonSetFillColorActived = await driver.waitForComponent(ON.id("button_set_fill_color_actived"), 3000)
+      let buttonSetFillColorActived = await driver.waitForComponent(ON.id('button_set_fill_color_actived'), 3000)
       if (buttonSetFillColorActived) {
         await buttonSetFillColorActived.click()
         await Utils.sleep(2000)
@@ -455,7 +455,7 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0190 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0190")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0190')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       await windowSnap.snapShot()
@@ -474,7 +474,7 @@ export default function textChipStyleEnhancement() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0220 start.`);
-      Settings.createWindow("testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0220")
+      Settings.createWindow('testability/pages/component/text/textChipStyleEnhancement/TextChipStyleEnhancement0220')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(5000,8000)
       await windowSnap.snapShot()

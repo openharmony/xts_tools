@@ -64,7 +64,7 @@ export default function uiComponentTextHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0180 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading01")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextHalfLeading01'),1000);
       windowSnap.snapShot()
@@ -86,7 +86,7 @@ export default function uiComponentTextHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0210 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading02")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextHalfLeading02'),1000);
       windowSnap.snapShot()
@@ -108,7 +108,7 @@ export default function uiComponentTextHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0190 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading03")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextHalfLeading03'),1000);
       windowSnap.snapShot()
@@ -130,7 +130,7 @@ export default function uiComponentTextHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0070 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading04")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextHalfLeading04_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentTextHalfLeading04_02'),1000);
@@ -158,7 +158,7 @@ export default function uiComponentTextHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0050 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading05")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextHalfLeading05_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentTextHalfLeading05_02'),1000);
@@ -186,7 +186,7 @@ export default function uiComponentTextHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0130 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading06")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading06')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -205,7 +205,7 @@ export default function uiComponentTextHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0170 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading07")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading07')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -224,7 +224,7 @@ export default function uiComponentTextHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0080 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading08")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading08')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextHalfLeading08_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentTextHalfLeading08_02'),1000);
@@ -252,7 +252,7 @@ export default function uiComponentTextHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0110 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading09")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading09')
       let driver:Driver=Driver.create();
       await driver.waitForIdle(500,2000);
       windowSnap.snapShot()
@@ -271,7 +271,7 @@ export default function uiComponentTextHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0060 start.`);
-      Settings.createWindow("testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading10")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextHalfLeading/UiComponentTextHalfLeading10')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentTextHalfLeading10_01'),1000);
       let button02: Component = await driver.waitForComponent(ON.id('UiComponentTextHalfLeading10_02'),1000);

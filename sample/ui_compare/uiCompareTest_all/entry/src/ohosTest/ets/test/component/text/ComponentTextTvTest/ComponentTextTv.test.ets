@@ -50,7 +50,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0070 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0070")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -70,7 +70,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0040 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0040")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -90,7 +90,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0130 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0130")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0130')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -110,7 +110,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0150', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0150 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0150")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0150')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -130,7 +130,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0220', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0220 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0220")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0220')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -150,7 +150,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0280', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0280 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0280")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0280')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -170,7 +170,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0270', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0270 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0270")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0270')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(4000,5000)
       windowSnap.snapShot()
@@ -190,7 +190,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0290', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0290 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0290")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0290')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -210,7 +210,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0360', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0360 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0360")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0360')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -230,7 +230,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0370', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0370 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0370")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0370')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -250,7 +250,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0590', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0590 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0590")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0590')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -270,7 +270,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0600', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0600 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0600")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0600')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -290,7 +290,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0580', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0580 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0580")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0580')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -310,7 +310,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0640', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0640 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0640")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0640')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -330,7 +330,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0610', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0610 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0610")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0610')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -350,7 +350,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0670', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0670 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0670")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0670')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -370,7 +370,7 @@ export default function componentTextTv() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0460', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TV_0460 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextTv/ComponentTextTv0460")
+      Settings.createWindow('testability/pages/component/text/componentTextTv/ComponentTextTv0460')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

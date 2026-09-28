@@ -50,7 +50,7 @@ export default function textSearchInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0340', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0340 start.`);
-      Settings.createWindow("testability/pages/component/text/textSearchInterface/textSearchInterface")
+      Settings.createWindow('testability/pages/component/text/textSearchInterface/textSearchInterface')
       windowSnap.screenShot();
       await Utils.sleep(1000);
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0340 finish.`);

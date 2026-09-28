@@ -50,7 +50,7 @@ export default function componentTextHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0030 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextHalfLeading/ComponentTextHalfLeading0030")
+      Settings.createWindow('testability/pages/component/text/componentTextHalfLeading/ComponentTextHalfLeading0030')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,1000)
       windowSnap.snapShot()
@@ -70,7 +70,7 @@ export default function componentTextHalfLeading() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0040', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0040 start.`);
-      Settings.createWindow("testability/pages/component/text/componentTextHalfLeading/ComponentTextHalfLeading0040")
+      Settings.createWindow('testability/pages/component/text/componentTextHalfLeading/ComponentTextHalfLeading0040')
       let driver:Driver = Driver.create();
       await driver.waitForIdle(500,1000)
       windowSnap.snapShot()

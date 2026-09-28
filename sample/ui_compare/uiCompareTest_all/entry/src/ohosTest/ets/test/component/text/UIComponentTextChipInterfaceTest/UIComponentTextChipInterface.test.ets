@@ -2011,7 +2011,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0890', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0890';
-      let pageName = "UIComponentTextChipInterface0890";
+      let pageName = 'UIComponentTextChipInterface0890';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2033,7 +2033,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0900', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0900';
-      let pageName = "UIComponentTextChipInterface0900";
+      let pageName = 'UIComponentTextChipInterface0900';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2055,7 +2055,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0910', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0910';
-      let pageName = "UIComponentTextChipInterface0910";
+      let pageName = 'UIComponentTextChipInterface0910';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2077,7 +2077,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0920', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0920';
-      let pageName = "UIComponentTextChipInterface0920";
+      let pageName = 'UIComponentTextChipInterface0920';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2099,7 +2099,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0930', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0930';
-      let pageName = "UIComponentTextChipInterface0930";
+      let pageName = 'UIComponentTextChipInterface0930';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2121,7 +2121,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0950', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0950';
-      let pageName = "UIComponentTextChipInterface0950";
+      let pageName = 'UIComponentTextChipInterface0950';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2143,7 +2143,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0960', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0960';
-      let pageName = "UIComponentTextChipInterface0960";
+      let pageName = 'UIComponentTextChipInterface0960';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2168,7 +2168,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0970', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0970';
-      let pageName = "UIComponentTextChipInterface0970";
+      let pageName = 'UIComponentTextChipInterface0970';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2190,7 +2190,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0980', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0980';
-      let pageName = "UIComponentTextChipInterface0980";
+      let pageName = 'UIComponentTextChipInterface0980';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2212,7 +2212,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0990', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0990';
-      let pageName = "UIComponentTextChipInterface0990";
+      let pageName = 'UIComponentTextChipInterface0990';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2234,7 +2234,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1000', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1000';
-      let pageName = "UIComponentTextChipInterface1000";
+      let pageName = 'UIComponentTextChipInterface1000';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2256,7 +2256,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1010';
-      let pageName = "UIComponentTextChipInterface1010";
+      let pageName = 'UIComponentTextChipInterface1010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2278,7 +2278,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1020';
-      let pageName = "UIComponentTextChipInterface1020";
+      let pageName = 'UIComponentTextChipInterface1020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2300,7 +2300,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1030';
-      let pageName = "UIComponentTextChipInterface1030";
+      let pageName = 'UIComponentTextChipInterface1030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2322,7 +2322,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1040';
-      let pageName = "UIComponentTextChipInterface1040";
+      let pageName = 'UIComponentTextChipInterface1040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2344,7 +2344,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1060', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1060';
-      let pageName = "UIComponentTextChipInterface1060";
+      let pageName = 'UIComponentTextChipInterface1060';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2366,7 +2366,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1070', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1070';
-      let pageName = "UIComponentTextChipInterface1070";
+      let pageName = 'UIComponentTextChipInterface1070';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2388,7 +2388,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1080', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1080';
-      let pageName = "UIComponentTextChipInterface1080";
+      let pageName = 'UIComponentTextChipInterface1080';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2410,7 +2410,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1090', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1090';
-      let pageName = "UIComponentTextChipInterface1090";
+      let pageName = 'UIComponentTextChipInterface1090';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2432,7 +2432,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1100';
-      let pageName = "UIComponentTextChipInterface1100";
+      let pageName = 'UIComponentTextChipInterface1100';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2454,7 +2454,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1110', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1110';
-      let pageName = "UIComponentTextChipInterface1110";
+      let pageName = 'UIComponentTextChipInterface1110';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2476,7 +2476,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1120', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1120';
-      let pageName = "UIComponentTextChipInterface1120";
+      let pageName = 'UIComponentTextChipInterface1120';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2498,7 +2498,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1130', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1130';
-      let pageName = "UIComponentTextChipInterface1130";
+      let pageName = 'UIComponentTextChipInterface1130';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2520,7 +2520,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1140', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1140';
-      let pageName = "UIComponentTextChipInterface1140";
+      let pageName = 'UIComponentTextChipInterface1140';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2542,7 +2542,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1160', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1160';
-      let pageName = "UIComponentTextChipInterface1160";
+      let pageName = 'UIComponentTextChipInterface1160';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2564,7 +2564,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1170', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1170';
-      let pageName = "UIComponentTextChipInterface1170";
+      let pageName = 'UIComponentTextChipInterface1170';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2586,7 +2586,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1180', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1180';
-      let pageName = "UIComponentTextChipInterface1180";
+      let pageName = 'UIComponentTextChipInterface1180';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2608,7 +2608,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1190', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1190';
-      let pageName = "UIComponentTextChipInterface1190";
+      let pageName = 'UIComponentTextChipInterface1190';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2630,7 +2630,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1200', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1200';
-      let pageName = "UIComponentTextChipInterface1200";
+      let pageName = 'UIComponentTextChipInterface1200';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2652,7 +2652,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1210', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1210';
-      let pageName = "UIComponentTextChipInterface1210";
+      let pageName = 'UIComponentTextChipInterface1210';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2674,7 +2674,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1220', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1220';
-      let pageName = "UIComponentTextChipInterface1220";
+      let pageName = 'UIComponentTextChipInterface1220';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2696,7 +2696,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1230', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1230';
-      let pageName = "UIComponentTextChipInterface1230";
+      let pageName = 'UIComponentTextChipInterface1230';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2718,7 +2718,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1240', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1240';
-      let pageName = "UIComponentTextChipInterface1240";
+      let pageName = 'UIComponentTextChipInterface1240';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2740,7 +2740,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1260', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1260';
-      let pageName = "UIComponentTextChipInterface1260";
+      let pageName = 'UIComponentTextChipInterface1260';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2762,7 +2762,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1270', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1270';
-      let pageName = "UIComponentTextChipInterface1270";
+      let pageName = 'UIComponentTextChipInterface1270';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2784,7 +2784,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1280', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1280';
-      let pageName = "UIComponentTextChipInterface1280";
+      let pageName = 'UIComponentTextChipInterface1280';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2806,7 +2806,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1290', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1290';
-      let pageName = "UIComponentTextChipInterface1290";
+      let pageName = 'UIComponentTextChipInterface1290';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2828,7 +2828,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1300', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1300';
-      let pageName = "UIComponentTextChipInterface1300";
+      let pageName = 'UIComponentTextChipInterface1300';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2850,7 +2850,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1310', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1310';
-      let pageName = "UIComponentTextChipInterface1310";
+      let pageName = 'UIComponentTextChipInterface1310';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2872,7 +2872,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1320', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1320';
-      let pageName = "UIComponentTextChipInterface1320";
+      let pageName = 'UIComponentTextChipInterface1320';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2894,7 +2894,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1330', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1330';
-      let pageName = "UIComponentTextChipInterface1330";
+      let pageName = 'UIComponentTextChipInterface1330';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2916,7 +2916,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1340', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1340';
-      let pageName = "UIComponentTextChipInterface1340";
+      let pageName = 'UIComponentTextChipInterface1340';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2938,7 +2938,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1350', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1350';
-      let pageName = "UIComponentTextChipInterface1350";
+      let pageName = 'UIComponentTextChipInterface1350';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2960,7 +2960,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1360', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1360';
-      let pageName = "UIComponentTextChipInterface1360";
+      let pageName = 'UIComponentTextChipInterface1360';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -2982,7 +2982,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1370', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1370';
-      let pageName = "UIComponentTextChipInterface1370";
+      let pageName = 'UIComponentTextChipInterface1370';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3004,7 +3004,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1380', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1380';
-      let pageName = "UIComponentTextChipInterface1380";
+      let pageName = 'UIComponentTextChipInterface1380';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3026,7 +3026,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1390', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1390';
-      let pageName = "UIComponentTextChipInterface1390";
+      let pageName = 'UIComponentTextChipInterface1390';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3048,7 +3048,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1400', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1400';
-      let pageName = "UIComponentTextChipInterface1400";
+      let pageName = 'UIComponentTextChipInterface1400';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3070,7 +3070,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1410', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1410';
-      let pageName = "UIComponentTextChipInterface1410";
+      let pageName = 'UIComponentTextChipInterface1410';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3092,7 +3092,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1420', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1420';
-      let pageName = "UIComponentTextChipInterface1420";
+      let pageName = 'UIComponentTextChipInterface1420';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3114,7 +3114,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1430', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1430';
-      let pageName = "UIComponentTextChipInterface1430";
+      let pageName = 'UIComponentTextChipInterface1430';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3136,7 +3136,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1440', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1440';
-      let pageName = "UIComponentTextChipInterface1440";
+      let pageName = 'UIComponentTextChipInterface1440';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3158,7 +3158,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1450', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1450';
-      let pageName = "UIComponentTextChipInterface1450";
+      let pageName = 'UIComponentTextChipInterface1450';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3180,7 +3180,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1460', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1460';
-      let pageName = "UIComponentTextChipInterface1460";
+      let pageName = 'UIComponentTextChipInterface1460';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3202,7 +3202,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1470', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1470';
-      let pageName = "UIComponentTextChipInterface1470";
+      let pageName = 'UIComponentTextChipInterface1470';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3224,7 +3224,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1490', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1490';
-      let pageName = "UIComponentTextChipInterface1490";
+      let pageName = 'UIComponentTextChipInterface1490';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3246,7 +3246,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1500', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1500';
-      let pageName = "UIComponentTextChipInterface1500";
+      let pageName = 'UIComponentTextChipInterface1500';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3268,7 +3268,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1510', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1510';
-      let pageName = "UIComponentTextChipInterface1510";
+      let pageName = 'UIComponentTextChipInterface1510';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3296,7 +3296,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1520', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1520';
-      let pageName = "UIComponentTextChipInterface1520";
+      let pageName = 'UIComponentTextChipInterface1520';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3318,7 +3318,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1530', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1530';
-      let pageName = "UIComponentTextChipInterface1530";
+      let pageName = 'UIComponentTextChipInterface1530';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();
@@ -3340,7 +3340,7 @@ export default function uIComponentTextChipInterface() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1540', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1540';
-      let pageName = "UIComponentTextChipInterface1540";
+      let pageName = 'UIComponentTextChipInterface1540';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/text/uIComponentTextChipInterface/' + pageName);
       let driver: Driver = Driver.create();

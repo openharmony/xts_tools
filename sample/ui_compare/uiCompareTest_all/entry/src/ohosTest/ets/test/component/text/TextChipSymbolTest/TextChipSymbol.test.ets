@@ -50,7 +50,7 @@ export default function textChipSymbol() {
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0010 start.`);
       try {
-        Settings.createWindow("testability/pages/component/text/textChipSymbol/TextChipSymbol0010")
+        Settings.createWindow('testability/pages/component/text/textChipSymbol/TextChipSymbol0010')
         let driver:Driver = Driver.create();
         await driver.waitForIdle(3000,5000)
         await Utils.sleep(1000)
@@ -86,7 +86,7 @@ export default function textChipSymbol() {
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0020 start.`);
       try {
-        Settings.createWindow("testability/pages/component/text/textChipSymbol/TextChipSymbol0020")
+        Settings.createWindow('testability/pages/component/text/textChipSymbol/TextChipSymbol0020')
         let driver:Driver = Driver.create();
         await driver.waitForIdle(3000,5000)
         await Utils.sleep(1000)
@@ -122,7 +122,7 @@ export default function textChipSymbol() {
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0040 start.`);
       try {
-        Settings.createWindow("testability/pages/component/text/textChipSymbol/TextChipSymbol0040")
+        Settings.createWindow('testability/pages/component/text/textChipSymbol/TextChipSymbol0040')
         let driver:Driver = Driver.create();
         await driver.waitForIdle(2000,4000)
         await Utils.sleep(500)
@@ -166,7 +166,7 @@ export default function textChipSymbol() {
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0050 start.`);
       try {
-        Settings.createWindow("testability/pages/component/text/textChipSymbol/TextChipSymbol0050")
+        Settings.createWindow('testability/pages/component/text/textChipSymbol/TextChipSymbol0050')
         let driver:Driver = Driver.create();
         await driver.waitForIdle(2000,4000)
         await Utils.sleep(500)
@@ -208,7 +208,7 @@ export default function textChipSymbol() {
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0210 start.`);
       try {
-        Settings.createWindow("testability/pages/component/text/textChipSymbol/TextChipSymbol0210")
+        Settings.createWindow('testability/pages/component/text/textChipSymbol/TextChipSymbol0210')
         let driver:Driver = Driver.create();
         await driver.waitForIdle(2000,4000)
         await Utils.sleep(500)
@@ -239,7 +239,7 @@ export default function textChipSymbol() {
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0220 start.`);
       try {
-        Settings.createWindow("testability/pages/component/text/textChipSymbol/TextChipSymbol0220")
+        Settings.createWindow('testability/pages/component/text/textChipSymbol/TextChipSymbol0220')
         let driver:Driver = Driver.create();
         await driver.waitForIdle(1500,3000) // 减少等待时间
         await Utils.sleep(800) // 初始等待
@@ -280,7 +280,7 @@ export default function textChipSymbol() {
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0230 start.`);
       try {
-        Settings.createWindow("testability/pages/component/text/textChipSymbol/TextChipSymbol0230")
+        Settings.createWindow('testability/pages/component/text/textChipSymbol/TextChipSymbol0230')
         let driver:Driver = Driver.create();
         await driver.waitForIdle(1500,3000) // 增加等待确保页面加载
         // 1、初始状态截图
@@ -326,7 +326,7 @@ export default function textChipSymbol() {
     it('SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0240 start.`);
       try {
-        Settings.createWindow("testability/pages/component/text/textChipSymbol/TextChipSymbol0240")
+        Settings.createWindow('testability/pages/component/text/textChipSymbol/TextChipSymbol0240')
         let driver:Driver = Driver.create();
         await driver.waitForIdle(1500,3000)
         // 1、初始状态截图

@@ -50,7 +50,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0030 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0030")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0030')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('TextFadingEdgeTV0030_001'),1000);
       await Button1.click();
@@ -87,7 +87,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0060 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0060")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0060')
       let driver: Driver = Driver.create();
       // cancelButton 是一个 Image 类型的组件
       let cancelButton: Component = await driver.waitForComponent(ON.type('Image'),1000);
@@ -114,7 +114,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0070 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0070")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0070')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('TextFadingEdgeTV0070_001'),1000);
       await Button1.click();
@@ -149,7 +149,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0050 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0050")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0050')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('TextFadingEdgeTV0050_001'),1000);
       await Button1.click();
@@ -171,7 +171,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0020 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0020")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -191,7 +191,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0040 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0040")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextFadingEdgeTV0040_001'),1000);
@@ -217,7 +217,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0210', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0210 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0210")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0210')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -237,7 +237,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0260', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0260 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0260")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0260')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextFadingEdgeTV0260_001'),1000);
@@ -265,7 +265,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0390', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0390 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0390")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0390')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -285,7 +285,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0420', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0420 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0420")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0420')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.triggerKey(2055);
@@ -311,7 +311,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0430', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0430 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0430")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0430')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.triggerKey(2055);
@@ -337,7 +337,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0440', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0440 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0440")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0440')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextFadingEdgeTV0440_006'),1000);
@@ -360,7 +360,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0480', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0480 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0480")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0480')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextFadingEdgeTV0480_001'),1000);
@@ -386,7 +386,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0570', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0570 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0570")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0570')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('TextFadingEdgeTV0570_001'),1000);
       await Button1.click();
@@ -423,7 +423,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0530', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0530 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0530")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0530')
       let driver: Driver = Driver.create();
       let Button1: Component = await driver.waitForComponent(ON.id('TextFadingEdgeTV0530_001'),1000);
       await Button1.click();
@@ -454,7 +454,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0520', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0520 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0520")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0520')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -474,7 +474,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0620', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0620 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0620")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0620')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextFadingEdgeTV0620_001'),1000);
@@ -497,7 +497,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0560', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0560 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0560")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0560')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextFadingEdgeTV0560_001'),1000);
@@ -523,7 +523,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0610', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0610 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0610")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0610')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       let Button1: Component = await driver.waitForComponent(ON.id('TextFadingEdgeTV0610_001'),1000);
@@ -549,7 +549,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0630', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0630 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0630")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0630')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -569,7 +569,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0710', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0710 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0710")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0710')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -590,7 +590,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0760', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0760 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0760")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0760')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       // cancelButton 是一个 Image 类型的组件
@@ -618,7 +618,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0860', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0860 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0860")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0860')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -638,7 +638,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0900', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0900 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0900")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0900')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       await driver.triggerKey(2055);
@@ -670,7 +670,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0910', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0910 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0910")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0910')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()
@@ -690,7 +690,7 @@ export default function textFadingEdgeTV() {
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0920', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0920 start.`);
-      Settings.createWindow("testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0920")
+      Settings.createWindow('testability/pages/component/text/textFadingEdgeTV/TextFadingEdgeTV0920')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(500,2000)
       windowSnap.snapShot()

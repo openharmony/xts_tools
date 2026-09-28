@@ -50,7 +50,7 @@ export default function uiArkuiTexttimer() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0020', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0020 start.`);
-      Settings.createWindow("testability/pages/component/text/uiArkuiTexttimer/UiArkuiTexttimer20")
+      Settings.createWindow('testability/pages/component/text/uiArkuiTexttimer/UiArkuiTexttimer20')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('reset1'), 1000);  // 显式等待组件出现[6](@ref)
@@ -77,7 +77,7 @@ export default function uiArkuiTexttimer() {
      */
     it('SUB_ACE_UI_ARKUI_TEXTTIMER_0030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTTIMER_0030 start.`);
-      Settings.createWindow("testability/pages/component/text/uiArkuiTexttimer/UiArkuiTexttimer30")
+      Settings.createWindow('testability/pages/component/text/uiArkuiTexttimer/UiArkuiTexttimer30')
       let driver:Driver = Driver.create();
       // 通过ID定位（推荐）
       let component = await driver.waitForComponent(ON.id('reset1'), 1000);  // 显式等待组件出现[6](@ref)

@@ -41,14 +41,14 @@ export default function uiComponentTextRichEditorCursorHandle() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0001", Level.LEVEL2, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0001', Level.LEVEL2, async (done: Function) => {
       // 打开页面等待0.5s
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0001")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0001')
       let driver = await Driver.create()
       await Utils.sleep(1000)
 
       // 查找RichEditor组件
-      let rich_editor_cursor_handle_0001 = await driver.waitForComponent(ON.id("rich_editor_cursor_handle_0001"), 500)
+      let rich_editor_cursor_handle_0001 = await driver.waitForComponent(ON.id('rich_editor_cursor_handle_0001'), 500)
       let rich_editor_cursor_handle_0001_bounds_center = await rich_editor_cursor_handle_0001.getBoundsCenter()
 
       await driver.mouseDrag({
@@ -58,7 +58,7 @@ export default function uiComponentTextRichEditorCursorHandle() {
         1000)
       await Utils.sleep(500)
 
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0001_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0001_01')
       await Utils.sleep(1000)
       await driver.mouseDrag({
         x: rich_editor_cursor_handle_0001_bounds_center.x,
@@ -66,7 +66,7 @@ export default function uiComponentTextRichEditorCursorHandle() {
       }, { x: rich_editor_cursor_handle_0001_bounds_center.x, y: rich_editor_cursor_handle_0001_bounds_center.y - 100 },
         1000)
       await Utils.sleep(500)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0001_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0001_02')
       await Utils.sleep(1000)
       done();
     })
@@ -79,14 +79,14 @@ export default function uiComponentTextRichEditorCursorHandle() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0002", Level.LEVEL2, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0002', Level.LEVEL2, async (done: Function) => {
       // 打开页面等待0.5s
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0002")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0002')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 鼠标上下拖动滚动条，再回到回到文本编辑区
-      let rich_editor_cursor_handle_0002 = await driver.waitForComponent(ON.id("rich_editor_cursor_handle_0002"), 500)
+      let rich_editor_cursor_handle_0002 = await driver.waitForComponent(ON.id('rich_editor_cursor_handle_0002'), 500)
       let rich_editor_cursor_handle_0002_bounds_center = await rich_editor_cursor_handle_0002.getBoundsCenter()
       await Utils.sleep(500)
 
@@ -110,7 +110,7 @@ export default function uiComponentTextRichEditorCursorHandle() {
       await Utils.sleep(500)
 
       // 预期：2、鼠标形状变化正常：在滚动条上为箭头形状，在文本编辑区域为光标形状
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0002_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0002_01')
       await Utils.sleep(1000)
 
       done();
@@ -124,27 +124,27 @@ export default function uiComponentTextRichEditorCursorHandle() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0003", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0003', Level.LEVEL3, async (done: Function) => {
       // 打开页面等待1s
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0003")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0003')
       let driver = await Driver.create()
       await Utils.sleep(1000)
 
       // 查找RichEditor组件并点击
-      let rich_editor_cursor_handle_0003 = await driver.waitForComponent(ON.id("rich_editor_cursor_handle_0003"), 500)
+      let rich_editor_cursor_handle_0003 = await driver.waitForComponent(ON.id('rich_editor_cursor_handle_0003'), 500)
       await rich_editor_cursor_handle_0003.click()
       await Utils.sleep(500)
 
       // 截图初始状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0003_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0003_01')
       await Utils.sleep(1000)
 
       // 1、改变光标左侧文本的样式（fontSize，lineHeight）
-      let btn_increase_font_size_0003 = await driver.waitForComponent(ON.id("btn_increase_font_size_0003"), 500)
+      let btn_increase_font_size_0003 = await driver.waitForComponent(ON.id('btn_increase_font_size_0003'), 500)
       await btn_increase_font_size_0003.click()
       await Utils.sleep(500)
 
-      let btn_increase_line_height_0003 = await driver.waitForComponent(ON.id("btn_increase_line_height_0003"), 500)
+      let btn_increase_line_height_0003 = await driver.waitForComponent(ON.id('btn_increase_line_height_0003'), 500)
       await btn_increase_line_height_0003.click()
       await Utils.sleep(500)
 
@@ -153,7 +153,7 @@ export default function uiComponentTextRichEditorCursorHandle() {
       await Utils.sleep(500)
 
       // 预期：1、光标高度跟随左侧文本
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0003_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0003_02')
       await Utils.sleep(1000)
 
       done();
@@ -167,14 +167,14 @@ export default function uiComponentTextRichEditorCursorHandle() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0004", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0004', Level.LEVEL3, async (done: Function) => {
       // 打开页面等待1s
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0004")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0004')
       let driver = await Driver.create()
       await Utils.sleep(1000)
 
       // 查找RichEditor组件并获取边界
-      let rich_editor_cursor_handle_0004 = await driver.waitForComponent(ON.id("rich_editor_cursor_handle_0004"), 500)
+      let rich_editor_cursor_handle_0004 = await driver.waitForComponent(ON.id('rich_editor_cursor_handle_0004'), 500)
       let rich_editor_cursor_handle_0004_bounds = await rich_editor_cursor_handle_0004.getBounds()
       await Utils.sleep(500)
 
@@ -207,7 +207,7 @@ export default function uiComponentTextRichEditorCursorHandle() {
       await Utils.sleep(1000)
 
       // 预期：1、光标可以保持跟手
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0004_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0004_01')
       await Utils.sleep(1000)
 
       done();
@@ -221,20 +221,20 @@ export default function uiComponentTextRichEditorCursorHandle() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0005", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0005', Level.LEVEL3, async (done: Function) => {
       // 打开页面等待1s
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0005")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0005')
       let driver = await Driver.create()
       await Utils.sleep(1000)
 
       // 查找RichEditor组件并点击一下
-      let rich_editor_cursor_handle_0005 = await driver.waitForComponent(ON.id("rich_editor_cursor_handle_0005"), 500)
+      let rich_editor_cursor_handle_0005 = await driver.waitForComponent(ON.id('rich_editor_cursor_handle_0005'), 500)
       let rich_editor_cursor_handle_0005_bounds_center = await rich_editor_cursor_handle_0005.getBoundsCenter()
       await rich_editor_cursor_handle_0005.click()
       await Utils.sleep(500)
 
       // 1、动态改变组件布局（padding、align、margin）
-      let btn_change_0005 = await driver.waitForComponent(ON.id("btn_change_0005"), 500)
+      let btn_change_0005 = await driver.waitForComponent(ON.id('btn_change_0005'), 500)
       await btn_change_0005.click()
       await Utils.sleep(500)
 
@@ -248,7 +248,7 @@ export default function uiComponentTextRichEditorCursorHandle() {
       await Utils.sleep(500)
 
       // 预期：1、内容区跟随光标移动进行滚动，光标底部始终可见
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0005_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0005_01')
       await Utils.sleep(1000)
 
       done();
@@ -262,14 +262,14 @@ export default function uiComponentTextRichEditorCursorHandle() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0006", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0006', Level.LEVEL3, async (done: Function) => {
       // 打开页面等待1s
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0006")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0006')
       let driver = await Driver.create()
       await Utils.sleep(1000)
 
       // 查找RichEditor组件并获取中心位置
-      let rich_editor_cursor_handle_0006 = await driver.waitForComponent(ON.id("rich_editor_cursor_handle_0006"), 500)
+      let rich_editor_cursor_handle_0006 = await driver.waitForComponent(ON.id('rich_editor_cursor_handle_0006'), 500)
       let rich_editor_cursor_handle_0006_bounds_center = await rich_editor_cursor_handle_0006.getBoundsCenter()
 
       // 1、手指/鼠标单击行尾文本下方非空白行的空白区域（中心往下一些）
@@ -278,7 +278,7 @@ export default function uiComponentTextRichEditorCursorHandle() {
       await Utils.sleep(1000)
 
       // 预期：1、光标出现在文本末尾
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0006_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0006_01')
       await Utils.sleep(1000)
 
       done();
@@ -293,33 +293,33 @@ export default function uiComponentTextRichEditorCursorHandle() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0008", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0008', Level.LEVEL3, async (done: Function) => {
       // 打开页面等待1s
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0008")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0008')
       let driver = await Driver.create()
       await Utils.sleep(1000)
 
       // 查找RichEditor组件
-      let rich_editor_cursor_handle_0008 = await driver.waitForComponent(ON.id("rich_editor_cursor_handle_0008"), 500)
+      let rich_editor_cursor_handle_0008 = await driver.waitForComponent(ON.id('rich_editor_cursor_handle_0008'), 500)
       let rich_editor_cursor_handle_0008_bounds = await rich_editor_cursor_handle_0008.getBounds()
 
       // 1、选中任意文本
       await rich_editor_cursor_handle_0008.longClick()
-      let selectAll = await driver.waitForComponent(ON.text("全选"), 500)
+      let selectAll = await driver.waitForComponent(ON.text('全选'), 500)
       await selectAll.click()
 
 
       // 截图选中状态（预期：1、出现菜单）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0008_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0008_01')
       await Utils.sleep(500)
 
       // 2、调用updateSpanStyle接口
-      let btn_update_span_style_0008 = await driver.waitForComponent(ON.id("btn_update_span_style_0008"), 500)
+      let btn_update_span_style_0008 = await driver.waitForComponent(ON.id('btn_update_span_style_0008'), 500)
       await btn_update_span_style_0008.click()
       await Utils.sleep(500)
 
       // 预期：2、菜单不关闭
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0008_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0008_02')
       await Utils.sleep(500)
 
       done();
@@ -333,14 +333,14 @@ export default function uiComponentTextRichEditorCursorHandle() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0011", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0011', Level.LEVEL3, async (done: Function) => {
       // 打开页面等待1s
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0011")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0011')
       let driver = await Driver.create()
       await Utils.sleep(1000)
 
       // 查找RichEditor组件
-      let rich_editor_cursor_handle_0011 = await driver.waitForComponent(ON.id("rich_editor_cursor_handle_0011"), 500)
+      let rich_editor_cursor_handle_0011 = await driver.waitForComponent(ON.id('rich_editor_cursor_handle_0011'), 500)
       let rich_editor_cursor_handle_0011_bounds = await rich_editor_cursor_handle_0011.getBoundsCenter()
 
       // 1、双击空白行（第二行，在第一行文本和最后一行文本之间）
@@ -348,7 +348,7 @@ export default function uiComponentTextRichEditorCursorHandle() {
       await Utils.sleep(500)
 
       // 预期：1、选中无效果
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0011_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0011_01')
       await Utils.sleep(500)
 
       done();
@@ -363,14 +363,14 @@ export default function uiComponentTextRichEditorCursorHandle() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0007", Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0007', Level.LEVEL3, async (done: Function) => {
       // 打开页面等待1s
-      Settings.createWindow("testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0007")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextRichEditorCursorHandle/UiComponentTextRichEditorCursorHandle0007')
       await Utils.sleep(1000)
       let driver = await Driver.create()
 
       // 查找RichEditor组件
-      let rich_editor_cursor_handle_0007 = await driver.waitForComponent(ON.id("rich_editor_cursor_handle_0007"), 500)
+      let rich_editor_cursor_handle_0007 = await driver.waitForComponent(ON.id('rich_editor_cursor_handle_0007'), 500)
 
       // 输入测试文本
       await rich_editor_cursor_handle_0007.inputText(
@@ -388,35 +388,35 @@ export default function uiComponentTextRichEditorCursorHandle() {
       // 1、手指任意选中文本，出现高亮和手柄
       await rich_editor_cursor_handle_0007.longClick()
       await Utils.sleep(500)
-      let selectAll = await driver.waitForComponent(ON.text("全选"), 500)
+      let selectAll = await driver.waitForComponent(ON.text('全选'), 500)
       await selectAll.click()
       await Utils.sleep(300)
 
       // 截图选中状态
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0007_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0007_01')
       await Utils.sleep(500)
 
       // 2、适老化/更新文本样式，改变字体大小
-      let btn_update_style_0007 = await driver.waitForComponent(ON.id("btn_update_style_0007"), 500)
+      let btn_update_style_0007 = await driver.waitForComponent(ON.id('btn_update_style_0007'), 500)
       await btn_update_style_0007.click()
       await Utils.sleep(300)
 
       // 3、改变文本布局
-      let btn_change_layout_0007 = await driver.waitForComponent(ON.id("btn_change_layout_0007"), 500)
+      let btn_change_layout_0007 = await driver.waitForComponent(ON.id('btn_change_layout_0007'), 500)
       await btn_change_layout_0007.click()
       await Utils.sleep(300)
 
       // 截图验证样式改变后手柄位置不错位
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0007_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0007_02')
       await Utils.sleep(500)
 
       // 4、横竖屏旋转（切换横屏）
-      let btn_landscape_0007 = await driver.waitForComponent(ON.id("btn_landscape_0007"), 500)
+      let btn_landscape_0007 = await driver.waitForComponent(ON.id('btn_landscape_0007'), 500)
       await btn_landscape_0007.click()
       await Utils.sleep(1500) // 等待窗口切换操作完成
 
       // 预期：横屏后手柄和高亮始终不错位
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0007_03")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0007_03')
       await Utils.sleep(500)
 
       done();

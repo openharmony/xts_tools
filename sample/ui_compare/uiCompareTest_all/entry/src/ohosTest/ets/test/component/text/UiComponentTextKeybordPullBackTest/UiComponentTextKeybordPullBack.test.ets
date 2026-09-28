@@ -40,26 +40,26 @@ export default function uiComponentTextKeybordPullBack() {
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_KEYBORD_Pull_Back_0020', 0, async (done: Function) => {
       // 打开测试页面
-      Settings.createWindow("testability/pages/component/text/uiComponentTextKeybordPullBack/UiComponentTextKeybordPullBack0020")
+      Settings.createWindow('testability/pages/component/text/uiComponentTextKeybordPullBack/UiComponentTextKeybordPullBack0020')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1: 点击输入框拉起键盘
-      let text_input_pullback_0020 = await driver.waitForComponent(ON.id("text_input_pullback_0020"), 500)
+      let text_input_pullback_0020 = await driver.waitForComponent(ON.id('text_input_pullback_0020'), 500)
       await text_input_pullback_0020.click()
       await Utils.sleep(1000)
 
       // 预期效果1: 输入法拉起
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_KEYBORD_Pull_Back_0020_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_KEYBORD_Pull_Back_0020_01')
       await Utils.sleep(1000)
 
       // 步骤2: 点击按钮切换页面
-      let btn_jump_pullback_0020 = await driver.waitForComponent(ON.id("btn_jump_pullback_0020"), 500)
+      let btn_jump_pullback_0020 = await driver.waitForComponent(ON.id('btn_jump_pullback_0020'), 500)
       await btn_jump_pullback_0020.click()
       await Utils.sleep(1000)
 
       // 步骤3: 截图测试页面切换键盘自动收起
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_TEXT_KEYBORD_Pull_Back_0020_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_KEYBORD_Pull_Back_0020_02')
       await Utils.sleep(1000)
 
       done()

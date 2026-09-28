@@ -51,7 +51,7 @@ export default function selectionMenuSymbolTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0020 start.`);
-      Settings.createWindow("testability/pages/component/select/selectionMenu_symbol/selectionMenu01")
+      Settings.createWindow('testability/pages/component/select/selectionMenu_symbol/selectionMenu01')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('selectionMenu01'), 1000);
       await button.doubleClick();
@@ -72,7 +72,7 @@ export default function selectionMenuSymbolTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0010 start.`);
-      Settings.createWindow("testability/pages/component/select/selectionMenu_symbol/selectionMenu02")
+      Settings.createWindow('testability/pages/component/select/selectionMenu_symbol/selectionMenu02')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('selectionMenu02'), 1000);
       await button.doubleClick();
@@ -93,7 +93,7 @@ export default function selectionMenuSymbolTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0050 start.`);
-      Settings.createWindow("testability/pages/component/select/selectionMenu_symbol/selectionMenu03")
+      Settings.createWindow('testability/pages/component/select/selectionMenu_symbol/selectionMenu03')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('selectionMenu03'), 1000);
       await button.doubleClick();
@@ -114,7 +114,7 @@ export default function selectionMenuSymbolTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0070 start.`);
-      Settings.createWindow("testability/pages/component/select/selectionMenu_symbol/selectionMenu03")
+      Settings.createWindow('testability/pages/component/select/selectionMenu_symbol/selectionMenu03')
       let driver:Driver = Driver.create();
       let button: Component = await driver.waitForComponent(ON.id('selectionMenu03'), 1000);
       await button.doubleClick();
@@ -138,7 +138,7 @@ export default function selectionMenuSymbolTest() {
      */
     it('SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0060 start.`);
-      Settings.createWindow("testability/pages/component/select/selectionMenu_symbol/selectionMenu03")
+      Settings.createWindow('testability/pages/component/select/selectionMenu_symbol/selectionMenu03')
       let driver:Driver = Driver.create();
 
       let button: Component = await driver.waitForComponent(ON.id('selectionMenu03'), 1000);
