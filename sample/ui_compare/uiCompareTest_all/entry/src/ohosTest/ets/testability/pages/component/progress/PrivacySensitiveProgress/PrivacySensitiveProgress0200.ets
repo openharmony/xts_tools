@@ -35,7 +35,7 @@ struct PrivacySensitiveProgress0200 {
             .width(200)
             .height(20)
             .privacySensitive(false)
-            .id("progress_total_neg1_value_neg1_0200")
+            .id('progress_total_neg1_value_neg1_0200')
         }
 
         Column({ space: 10 }) {
@@ -46,7 +46,7 @@ struct PrivacySensitiveProgress0200 {
             .width(200)
             .height(20)
             .privacySensitive(false)
-            .id("progress_total_neg1_value_0_0200")
+            .id('progress_total_neg1_value_0_0200')
         }
 
         Column({ space: 10 }) {
@@ -57,7 +57,7 @@ struct PrivacySensitiveProgress0200 {
             .width(200)
             .height(20)
             .privacySensitive(false)
-            .id("progress_total_neg1_value_10_0200")
+            .id('progress_total_neg1_value_10_0200')
         }
 
         Column({ space: 10 }) {
@@ -68,7 +68,7 @@ struct PrivacySensitiveProgress0200 {
             .width(200)
             .height(20)
             .privacySensitive(false)
-            .id("progress_total_neg1_value_50_0200")
+            .id('progress_total_neg1_value_50_0200')
         }
 
         // Test with total = 0
@@ -80,7 +80,7 @@ struct PrivacySensitiveProgress0200 {
             .width(80)
             .height(80)
             .privacySensitive(false)
-            .id("progress_total_0_value_neg1_0200")
+            .id('progress_total_0_value_neg1_0200')
         }
 
         Column({ space: 10 }) {
@@ -91,7 +91,7 @@ struct PrivacySensitiveProgress0200 {
             .width(80)
             .height(80)
             .privacySensitive(false)
-            .id("progress_total_0_value_50_0200")
+            .id('progress_total_0_value_50_0200')
         }
 
         Column({ space: 10 }) {
@@ -102,7 +102,7 @@ struct PrivacySensitiveProgress0200 {
             .width(80)
             .height(80)
             .privacySensitive(false)
-            .id("progress_total_0_value_100_0200")
+            .id('progress_total_0_value_100_0200')
         }
 
         Column({ space: 10 }) {
@@ -113,7 +113,7 @@ struct PrivacySensitiveProgress0200 {
             .width(80)
             .height(80)
             .privacySensitive(false)
-            .id("progress_total_0_value_120_0200")
+            .id('progress_total_0_value_120_0200')
         }
 
         // Test with normal total = 100 (different types)
@@ -125,7 +125,7 @@ struct PrivacySensitiveProgress0200 {
             .width(80)
             .height(80)
             .privacySensitive(false)
-            .id("progress_eclipse_value_neg1_0200")
+            .id('progress_eclipse_value_neg1_0200')
         }
 
         Column({ space: 10 }) {
@@ -136,7 +136,7 @@ struct PrivacySensitiveProgress0200 {
             .width(80)
             .height(80)
             .privacySensitive(false)
-            .id("progress_eclipse_value_0_0200")
+            .id('progress_eclipse_value_0_0200')
         }
 
         Column({ space: 10 }) {
@@ -147,7 +147,7 @@ struct PrivacySensitiveProgress0200 {
             .width(80)
             .height(80)
             .privacySensitive(false)
-            .id("progress_eclipse_value_120_0200")
+            .id('progress_eclipse_value_120_0200')
         }
 
         // Test with ScaleRing type
@@ -159,7 +159,7 @@ struct PrivacySensitiveProgress0200 {
             .width(80)
             .height(80)
             .privacySensitive(false)
-            .id("progress_scalering_value_neg1_0200")
+            .id('progress_scalering_value_neg1_0200')
         }
 
         Column({ space: 10 }) {
@@ -170,7 +170,7 @@ struct PrivacySensitiveProgress0200 {
             .width(80)
             .height(80)
             .privacySensitive(false)
-            .id("progress_scalering_value_50_0200")
+            .id('progress_scalering_value_50_0200')
         }
 
         Column({ space: 10 }) {
@@ -181,7 +181,7 @@ struct PrivacySensitiveProgress0200 {
             .width(80)
             .height(80)
             .privacySensitive(false)
-            .id("progress_scalering_value_120_0200")
+            .id('progress_scalering_value_120_0200')
         }
 
         // Test with Capsule type
@@ -193,7 +193,7 @@ struct PrivacySensitiveProgress0200 {
             .width(200)
             .height(25)
             .privacySensitive(false)
-            .id("progress_capsule_value_neg1_0200")
+            .id('progress_capsule_value_neg1_0200')
         }
 
         Column({ space: 10 }) {
@@ -204,7 +204,7 @@ struct PrivacySensitiveProgress0200 {
             .width(200)
             .height(25)
             .privacySensitive(false)
-            .id("progress_capsule_value_50_0200")
+            .id('progress_capsule_value_50_0200')
         }
 
         Column({ space: 10 }) {
@@ -215,7 +215,7 @@ struct PrivacySensitiveProgress0200 {
             .width(200)
             .height(25)
             .privacySensitive(false)
-            .id("progress_capsule_value_120_0200")
+            .id('progress_capsule_value_120_0200')
         }
       }
       .width('100%')

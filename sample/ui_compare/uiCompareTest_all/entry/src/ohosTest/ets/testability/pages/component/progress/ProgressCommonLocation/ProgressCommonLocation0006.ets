@@ -26,7 +26,7 @@ struct ProgressCommonLocation0006 {
 
       // 1. Progress组件设置value为50，type为ProgressType.ScaleRing，设置direction为Direction.Rtl
       Progress({ value: 50, total: 100, type: ProgressType.ScaleRing })
-        .id("progress_scalering_0006")
+        .id('progress_scalering_0006')
         .width(200)
         .height(200)
         .direction(Direction.Rtl)

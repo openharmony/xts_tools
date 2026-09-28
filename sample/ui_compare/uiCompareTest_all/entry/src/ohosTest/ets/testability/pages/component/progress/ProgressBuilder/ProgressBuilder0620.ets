@@ -32,7 +32,7 @@ class MyProgressModifier implements ContentModifier<ProgressConfiguration> {
 function myProgress(config: ProgressConfiguration) {
 
   Column({ space: 30 }) {
-    Text("当前进度：" + config.value + "/" + config.total).fontSize(20)
+    Text('当前进度：' + config.value + '/' + config.total).fontSize(20)
     Row() {
       Flex({ justifyContent: FlexAlign.SpaceBetween }) {
         Path()

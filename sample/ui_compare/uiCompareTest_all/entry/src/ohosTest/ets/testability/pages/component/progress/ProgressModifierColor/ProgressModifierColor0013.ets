@@ -18,7 +18,7 @@
 struct ProgressModifierColor0013 {
   @State condition1 : undefined|null|number = 30
   @State condition2 : undefined|null|number = 80
-  @State gradientColor: LinearGradient = new LinearGradient([{ color: "#deb6fb", offset: 0 }, { color: "#ac49f5", offset: 1 }])
+  @State gradientColor: LinearGradient = new LinearGradient([{ color: '#deb6fb', offset: 0 }, { color: '#ac49f5', offset: 1 }])
   @State strokewid : Length = 30
 
   build() {
@@ -57,7 +57,7 @@ struct ProgressModifierColor0013 {
         })
         .id('ProgressModifierColor0013_001')
         .onClick(() => {
-          this.gradientColor = new LinearGradient([{ color: "#fceb99", offset: 0 }, { color: "#f7ce00", offset: 1 }])
+          this.gradientColor = new LinearGradient([{ color: '#fceb99', offset: 0 }, { color: '#f7ce00', offset: 1 }])
           this.strokewid = 50
         })
       Button('chang2')
@@ -72,7 +72,7 @@ struct ProgressModifierColor0013 {
         })
         .id('ProgressModifierColor0013_002')
         .onClick(() => {
-          this.gradientColor = new LinearGradient([{ color: "#f5b5c2", offset: 0 }, { color: "#e64566", offset: 1 }])
+          this.gradientColor = new LinearGradient([{ color: '#f5b5c2', offset: 0 }, { color: '#e64566', offset: 1 }])
           this.strokewid = 15
         })
       
@@ -89,7 +89,7 @@ struct ProgressModifierColor0013 {
         })
         .id('ProgressModifierColor0013_003')
         .onClick(() => {
-          this.gradientColor = new LinearGradient([{ color: "#a8e6cf", offset: 0 }, { color: "#1de9b6", offset: 1 }])
+          this.gradientColor = new LinearGradient([{ color: '#a8e6cf', offset: 0 }, { color: '#1de9b6', offset: 1 }])
           this.strokewid = 40
         })
     }

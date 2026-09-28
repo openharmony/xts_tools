@@ -36,7 +36,7 @@ struct ProgressBorderradius0025 {
       }
       Button('radiuschange', { type: ButtonType.Normal, stateEffect: true })
         .borderRadius(8)
-        .id("ProgressBorderradius0025_001")
+        .id('ProgressBorderradius0025_001')
         .backgroundColor(Color.Pink)
         .width(90)
         .onClick(() => {
@@ -44,7 +44,7 @@ struct ProgressBorderradius0025 {
         })
       Button('radiuschange', { type: ButtonType.Normal, stateEffect: true })
         .borderRadius(8)
-        .id("ProgressBorderradius0025_002")
+        .id('ProgressBorderradius0025_002')
         .backgroundColor(Color.Pink)
         .width(90)
         .onClick(() => {
@@ -52,7 +52,7 @@ struct ProgressBorderradius0025 {
         })
       Button('radiuschange', { type: ButtonType.Normal, stateEffect: true })
         .borderRadius(8)
-        .id("ProgressBorderradius0025_003")
+        .id('ProgressBorderradius0025_003')
         .backgroundColor(Color.Pink)
         .width(90)
         .onClick(() => {
@@ -60,7 +60,7 @@ struct ProgressBorderradius0025 {
         })
       Button('radiuschange', { type: ButtonType.Normal, stateEffect: true })
         .borderRadius(8)
-        .id("ProgressBorderradius0025_004")
+        .id('ProgressBorderradius0025_004')
         .backgroundColor(Color.Pink)
         .width(90)
         .onClick(() => {
@@ -68,7 +68,7 @@ struct ProgressBorderradius0025 {
         })
       Button('radiuschange', { type: ButtonType.Normal, stateEffect: true })
         .borderRadius(8)
-        .id("ProgressBorderradius0025_005")
+        .id('ProgressBorderradius0025_005')
         .backgroundColor(Color.Pink)
         .width(90)
         .onClick(() => {

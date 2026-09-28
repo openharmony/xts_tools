@@ -39,7 +39,7 @@ struct PrivacySensitiveProgress0120 {
               { color: Color.Red, offset: 0.0 },
               { color: Color.Blue, offset: 1.0 }
             ]))
-            .id("progress_linear_gradient1_0120")
+            .id('progress_linear_gradient1_0120')
         }
 
         Column({ space: 10 }) {
@@ -54,7 +54,7 @@ struct PrivacySensitiveProgress0120 {
               { color: Color.Green, offset: 0.0 },
               { color: Color.Yellow, offset: 1.0 }
             ]))
-            .id("progress_linear_gradient2_0120")
+            .id('progress_linear_gradient2_0120')
         }
 
         // Ring type with LinearGradient (privacySensitive true)
@@ -70,7 +70,7 @@ struct PrivacySensitiveProgress0120 {
               { color: '#800080', offset: 0.0 },
               { color: '#FFA500', offset: 1.0 }
             ]))
-            .id("progress_ring_gradient1_0120")
+            .id('progress_ring_gradient1_0120')
         }
 
         Column({ space: 10 }) {
@@ -85,7 +85,7 @@ struct PrivacySensitiveProgress0120 {
               { color: '#FF69B4', offset: 0.0 },
               { color: '#00FFFF', offset: 1.0 }
             ]))
-            .id("progress_ring_gradient2_0120")
+            .id('progress_ring_gradient2_0120')
         }
 
         // Eclipse type with LinearGradient (privacySensitive true)
@@ -102,7 +102,7 @@ struct PrivacySensitiveProgress0120 {
               { color: Color.Green, offset: 0.5 },
               { color: Color.Blue, offset: 1.0 }
             ]))
-            .id("progress_eclipse_gradient1_0120")
+            .id('progress_eclipse_gradient1_0120')
         }
 
         Column({ space: 10 }) {
@@ -117,7 +117,7 @@ struct PrivacySensitiveProgress0120 {
               { color: Color.Black, offset: 0.0 },
               { color: Color.White, offset: 1.0 }
             ]))
-            .id("progress_eclipse_gradient2_0120")
+            .id('progress_eclipse_gradient2_0120')
         }
 
         // ScaleRing type with LinearGradient (privacySensitive true)
@@ -137,7 +137,7 @@ struct PrivacySensitiveProgress0120 {
               { color: '#0000FF', offset: 0.8 },
               { color: '#8B00FF', offset: 1.0 }
             ]))
-            .id("progress_scalering_gradient1_0120")
+            .id('progress_scalering_gradient1_0120')
         }
 
         Column({ space: 10 }) {
@@ -152,7 +152,7 @@ struct PrivacySensitiveProgress0120 {
               { color: '#FF4500', offset: 0.0 },
               { color: '#FFD700', offset: 1.0 }
             ]))
-            .id("progress_scalering_gradient2_0120")
+            .id('progress_scalering_gradient2_0120')
         }
 
         // Capsule type with LinearGradient (privacySensitive true)
@@ -168,7 +168,7 @@ struct PrivacySensitiveProgress0120 {
               { color: '#4169E1', offset: 0.0 },
               { color: '#00CED1', offset: 1.0 }
             ]))
-            .id("progress_capsule_gradient1_0120")
+            .id('progress_capsule_gradient1_0120')
         }
 
         Column({ space: 10 }) {
@@ -184,7 +184,7 @@ struct PrivacySensitiveProgress0120 {
               { color: '#FF1493', offset: 0.5 },
               { color: '#8A2BE2', offset: 1.0 }
             ]))
-            .id("progress_capsule_gradient2_0120")
+            .id('progress_capsule_gradient2_0120')
         }
       }
       .width('100%')

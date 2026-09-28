@@ -33,7 +33,7 @@ struct ComponentProgressLinear0016 {
 
       // Progress组件
       Progress({ value: this.progressValue, total: 100, type: this.currentProgressType })
-        .id("progress_linear_0016")
+        .id('progress_linear_0016')
         .style({strokeWidth:this.strokeWidth,strokeRadius:this.strokeRadius,enableSmoothEffect:this.enableSmoothEffect,enableScanEffect:this.enableScanEffect})
         .width('80%')
         .height(this.currentProgressType === ProgressType.Linear ? 20 : 80)

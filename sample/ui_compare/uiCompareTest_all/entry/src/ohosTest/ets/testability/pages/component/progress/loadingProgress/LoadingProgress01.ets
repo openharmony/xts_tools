@@ -39,10 +39,10 @@ function buildLoadingProgress(config: LoadingProgressConfiguration) {
         }) {
           Column() {
             Text('60')
-              .maxFontSize("180sp")
-              .minFontSize("160.0vp")
+              .maxFontSize('180sp')
+              .minFontSize('160.0vp')
               .fontWeight(FontWeight.Medium)
-              .fontColor("#ff182431")
+              .fontColor('#ff182431')
               .width('40%')
               .height('30%')
               .textAlign(TextAlign.Center)
@@ -59,7 +59,7 @@ function buildLoadingProgress(config: LoadingProgressConfiguration) {
         .height(100)
       }.width('100%')
     }
-  }.width("50%")
+  }.width('50%')
 }
 
 

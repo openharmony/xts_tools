@@ -26,7 +26,7 @@ struct ProgressCommonLocation0002 {
 
       // 1. Progress组件设置value为50，type为ProgressType.Linear，设置direction为Direction.Rtl
       Progress({ value: 50, total: 100, type: ProgressType.Linear })
-        .id("progress_linear_0002")
+        .id('progress_linear_0002')
         .width('80%')
         .height(20)
         .direction(Direction.Rtl)

@@ -149,7 +149,7 @@ struct UiComponentMediaProgress22 {
           .width(100)
           .height(50)
           .border({
-            width: { bottom: "100%" }
+            width: { bottom: '100%' }
           })
           .style({
             font: { size: 13, style: FontStyle.Normal },
@@ -159,7 +159,7 @@ struct UiComponentMediaProgress22 {
           .color(Color.Red)
           .border({
             width: {
-              bottom: "100%"
+              bottom: '100%'
             }
           })
           .style({

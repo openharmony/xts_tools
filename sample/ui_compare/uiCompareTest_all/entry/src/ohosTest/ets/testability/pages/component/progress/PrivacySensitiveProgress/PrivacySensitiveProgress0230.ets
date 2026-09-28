@@ -43,7 +43,7 @@ struct PrivacySensitiveProgress0230 {
               .privacySensitive(false)
               .color(Color.Blue)
               .backgroundColor(Color.Gray)
-              .id("progress_card_linear_0230")
+              .id('progress_card_linear_0230')
           }
 
           Column({ space: 10 }) {
@@ -55,7 +55,7 @@ struct PrivacySensitiveProgress0230 {
               .height(100)
               .privacySensitive(false)
               .color(Color.Green)
-              .id("progress_card_ring_0230")
+              .id('progress_card_ring_0230')
           }
 
           Column({ space: 10 }) {
@@ -67,7 +67,7 @@ struct PrivacySensitiveProgress0230 {
               .height(30)
               .privacySensitive(false)
               .color(Color.Orange)
-              .id("progress_card_capsule_0230")
+              .id('progress_card_capsule_0230')
           }
         }
         .padding(15)
@@ -91,7 +91,7 @@ struct PrivacySensitiveProgress0230 {
               .privacySensitive(false)
               .color(Color.Red)
               .backgroundColor(Color.Gray)
-              .id("progress_lockscreen_linear_0230")
+              .id('progress_lockscreen_linear_0230')
           }
 
           Column({ space: 10 }) {
@@ -103,7 +103,7 @@ struct PrivacySensitiveProgress0230 {
               .height(100)
               .privacySensitive(false)
               .color(Color.Pink)
-              .id("progress_lockscreen_eclipse_0230")
+              .id('progress_lockscreen_eclipse_0230')
           }
 
           Column({ space: 10 }) {
@@ -115,7 +115,7 @@ struct PrivacySensitiveProgress0230 {
               .height(100)
               .privacySensitive(false)
               .color(Color.Gray)
-              .id("progress_lockscreen_scalering_0230")
+              .id('progress_lockscreen_scalering_0230')
           }
         }
         .padding(15)
@@ -139,7 +139,7 @@ struct PrivacySensitiveProgress0230 {
               .privacySensitive(false)
               .color(Color.Green)
               .backgroundColor(Color.Gray)
-              .id("progress_app_linear_0230")
+              .id('progress_app_linear_0230')
           }
 
           Column({ space: 10 }) {
@@ -151,7 +151,7 @@ struct PrivacySensitiveProgress0230 {
               .height(100)
               .privacySensitive(false)
               .color(Color.Blue)
-              .id("progress_app_ring_0230")
+              .id('progress_app_ring_0230')
           }
 
           Column({ space: 10 }) {
@@ -163,7 +163,7 @@ struct PrivacySensitiveProgress0230 {
               .height(100)
               .privacySensitive(false)
               .color(Color.Orange)
-              .id("progress_app_eclipse_0230")
+              .id('progress_app_eclipse_0230')
           }
 
           Column({ space: 10 }) {
@@ -175,7 +175,7 @@ struct PrivacySensitiveProgress0230 {
               .height(100)
               .privacySensitive(false)
               .color(Color.Red)
-              .id("progress_app_scalering_0230")
+              .id('progress_app_scalering_0230')
           }
 
           Column({ space: 10 }) {
@@ -187,7 +187,7 @@ struct PrivacySensitiveProgress0230 {
               .height(30)
               .privacySensitive(false)
               .color(Color.Green)
-              .id("progress_app_capsule_0230")
+              .id('progress_app_capsule_0230')
           }
         }
         .padding(15)
@@ -207,14 +207,14 @@ struct PrivacySensitiveProgress0230 {
               .height(15)
               .privacySensitive(false)
               .color(Color.Blue)
-              .id("progress_comprehensive_linear_0230")
+              .id('progress_comprehensive_linear_0230')
 
             Progress({ value: 60, total: 100, type: ProgressType.Ring })
               .width(80)
               .height(80)
               .privacySensitive(false)
               .color(Color.Green)
-              .id("progress_comprehensive_ring_0230")
+              .id('progress_comprehensive_ring_0230')
           }
           .justifyContent(FlexAlign.Center)
 
@@ -224,14 +224,14 @@ struct PrivacySensitiveProgress0230 {
               .height(80)
               .privacySensitive(false)
               .color(Color.Red)
-              .id("progress_comprehensive_eclipse_0230")
+              .id('progress_comprehensive_eclipse_0230')
 
             Progress({ value: 50, total: 100, type: ProgressType.ScaleRing })
               .width(80)
               .height(80)
               .privacySensitive(false)
               .color(Color.Orange)
-              .id("progress_comprehensive_scalering_0230")
+              .id('progress_comprehensive_scalering_0230')
           }
           .justifyContent(FlexAlign.Center)
 
@@ -240,7 +240,7 @@ struct PrivacySensitiveProgress0230 {
             .height(25)
             .privacySensitive(false)
             .color(Color.Blue)
-            .id("progress_comprehensive_capsule_0230")
+            .id('progress_comprehensive_capsule_0230')
         }
         .padding(15)
         .backgroundColor('#FAFAFA')

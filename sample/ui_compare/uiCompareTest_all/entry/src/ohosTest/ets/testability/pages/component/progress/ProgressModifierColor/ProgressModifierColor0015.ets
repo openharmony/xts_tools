@@ -58,7 +58,7 @@ struct ProgressModifierColor0015 {
         })
         .id('ProgressModifierColor0015_001')
         .onClick(() => {
-          this.gradientColor = new LinearGradient([{ color: "#f5b5cc", offset: 0 }, { color: "#e64539", offset: 1 }])
+          this.gradientColor = new LinearGradient([{ color: '#f5b5cc', offset: 0 }, { color: '#e64539', offset: 1 }])
           this.strokewid = 50
         })
       Button('chang2')
@@ -73,7 +73,7 @@ struct ProgressModifierColor0015 {
         })
         .id('ProgressModifierColor0015_002')
         .onClick(() => {
-          this.gradientColor = new LinearGradient([{ color: "#fcebaa", offset: 0 }, { color: "#f7ce00", offset: 1 }])
+          this.gradientColor = new LinearGradient([{ color: '#fcebaa', offset: 0 }, { color: '#f7ce00', offset: 1 }])
           this.strokewid = 15
         })
       
@@ -91,7 +91,7 @@ struct ProgressModifierColor0015 {
         .id('ProgressModifierColor0015_003')
         .onClick(() => {
           this.isGradient = !this.isGradient
-          this.gradientColor = new LinearGradient([{ color: "#a8e600", offset: 0 }, { color: "#1de999", offset: 1 }])
+          this.gradientColor = new LinearGradient([{ color: '#a8e600', offset: 0 }, { color: '#1de999', offset: 1 }])
           this.strokewid = 40
         })
     }

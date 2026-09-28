@@ -31,7 +31,7 @@ struct ComponentProgressLinear0018 {
 
       // 1. 添加ProgressLinear组件
       Progress({ value: 50, total: 100, type: ProgressType.Linear })
-        .id("progress_linear_0018")
+        .id('progress_linear_0018')
         .style({
           strokeWidth: this.strokeWidth,
           strokeRadius: this.strokeRadius,

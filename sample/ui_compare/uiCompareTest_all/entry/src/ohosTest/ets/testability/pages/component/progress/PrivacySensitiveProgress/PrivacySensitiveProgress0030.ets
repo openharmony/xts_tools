@@ -34,7 +34,7 @@ struct PrivacySensitiveProgress0030 {
           .width(200)
           .height(20)
           .privacySensitive(true)
-          .id("progress_linear_0030")
+          .id('progress_linear_0030')
       }
 
       // Ring type
@@ -46,7 +46,7 @@ struct PrivacySensitiveProgress0030 {
           .width(100)
           .height(100)
           .privacySensitive(true)
-          .id("progress_ring_0030")
+          .id('progress_ring_0030')
       }
 
       // Eclipse type
@@ -58,7 +58,7 @@ struct PrivacySensitiveProgress0030 {
           .width(100)
           .height(100)
           .privacySensitive(true)
-          .id("progress_eclipse_0030")
+          .id('progress_eclipse_0030')
       }
 
       // ScaleRing type
@@ -70,7 +70,7 @@ struct PrivacySensitiveProgress0030 {
           .width(100)
           .height(100)
           .privacySensitive(true)
-          .id("progress_scalering_0030")
+          .id('progress_scalering_0030')
       }
 
       // Capsule type
@@ -82,7 +82,7 @@ struct PrivacySensitiveProgress0030 {
           .width(200)
           .height(30)
           .privacySensitive(true)
-          .id("progress_capsule_0030")
+          .id('progress_capsule_0030')
       }
     }
     .width('100%')

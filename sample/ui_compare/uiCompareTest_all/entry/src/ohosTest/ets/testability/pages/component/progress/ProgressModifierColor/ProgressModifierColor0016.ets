@@ -18,7 +18,7 @@
 class LocalProgressModifier implements ContentModifier<ProgressConfiguration> {
   value: number|null|undefined = 30;
   tot: number|null|undefined = 80
-  color: LinearGradient = new LinearGradient([{ color: "#deb6fb", offset: 0 }, { color: "#ac49f5", offset: 1 }])
+  color: LinearGradient = new LinearGradient([{ color: '#deb6fb', offset: 0 }, { color: '#ac49f5', offset: 1 }])
   strokewid: Length = 30
 
   constructor(value: number|null|undefined,tot:number|null|undefined,color:LinearGradient,strokewid:Length) {
@@ -52,7 +52,7 @@ function circularModifierColor(config: ProgressConfiguration) {
 struct ProgressModifierColor0016 {
   @State condition1 : undefined|null|number = 30
   @State condition2 : undefined|null|number = 80
-  @State gradientColor: LinearGradient = new LinearGradient([{ color: "#deb6fb", offset: 0 }, { color: "#ac49f5", offset: 1 }])
+  @State gradientColor: LinearGradient = new LinearGradient([{ color: '#deb6fb', offset: 0 }, { color: '#ac49f5', offset: 1 }])
   @State strokewid : Length = 30
   modifier = new LocalProgressModifier(this.condition1,this.condition2,this.gradientColor,this.strokewid);
   @State myModifier: (LocalProgressModifier | undefined) = this.modifier;
@@ -95,7 +95,7 @@ struct ProgressModifierColor0016 {
         })
         .id('ProgressModifierColor0016_001')
         .onClick(() => {
-          this.gradientColor = new LinearGradient([{ color: "#fceb99", offset: 0 }, { color: "#f7ce00", offset: 1 }])
+          this.gradientColor = new LinearGradient([{ color: '#fceb99', offset: 0 }, { color: '#f7ce00', offset: 1 }])
           this.strokewid = 50
           this.modifier = new LocalProgressModifier(this.condition1,this.condition2,this.gradientColor,this.strokewid)
         })
@@ -111,7 +111,7 @@ struct ProgressModifierColor0016 {
         })
         .id('ProgressModifierColor0016_002')
         .onClick(() => {
-          this.gradientColor = new LinearGradient([{ color: "#f5b5c2", offset: 0 }, { color: "#e64566", offset: 1 }])
+          this.gradientColor = new LinearGradient([{ color: '#f5b5c2', offset: 0 }, { color: '#e64566', offset: 1 }])
           this.strokewid = 15
           this.modifier = new LocalProgressModifier(this.condition1,this.condition2,this.gradientColor,this.strokewid)
         })
@@ -129,7 +129,7 @@ struct ProgressModifierColor0016 {
         })
         .id('ProgressModifierColor0016_003')
         .onClick(() => {
-          this.gradientColor = new LinearGradient([{ color: "#a8e6cf", offset: 0 }, { color: "#1de9b6", offset: 1 }])
+          this.gradientColor = new LinearGradient([{ color: '#a8e6cf', offset: 0 }, { color: '#1de9b6', offset: 1 }])
           this.strokewid = 40
           this.modifier = new LocalProgressModifier(this.condition1,this.condition2,this.gradientColor,this.strokewid)
         })

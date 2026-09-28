@@ -19,7 +19,7 @@ struct ProgressModifierColor0019 {
   @State condition1 : undefined|null|number = 30
   @State condition2 : undefined|null|number = 80
   @State singleColor: ResourceColor = Color.Blue
-  @State gradientColor: LinearGradient = new LinearGradient([{ color: "#ff0000", offset: 0 }, { color: "#0000ff", offset: 1 }])
+  @State gradientColor: LinearGradient = new LinearGradient([{ color: '#ff0000', offset: 0 }, { color: '#0000ff', offset: 1 }])
   @State isGradient: boolean = false
   @State strokewid : Length = 30
 
@@ -61,7 +61,7 @@ struct ProgressModifierColor0019 {
         .onClick(() => {
           this.isGradient = true   // 設置為漸變色模式
           this.singleColor = Color.Yellow
-          this.gradientColor = new LinearGradient([{ color: "#00ff00", offset: 0 }, { color: "#ff00ff", offset: 1 }])
+          this.gradientColor = new LinearGradient([{ color: '#00ff00', offset: 0 }, { color: '#ff00ff', offset: 1 }])
           this.strokewid = 50
         })
       Button('chang2')
@@ -78,7 +78,7 @@ struct ProgressModifierColor0019 {
         .onClick(() => {
           this.isGradient = false  // 設置為單色模式
           this.singleColor = Color.Red
-          this.gradientColor = new LinearGradient([{ color: "#ff8800", offset: 0 }, { color: "#8800ff", offset: 1 }])
+          this.gradientColor = new LinearGradient([{ color: '#ff8800', offset: 0 }, { color: '#8800ff', offset: 1 }])
           this.strokewid = 15
         })
       
@@ -97,7 +97,7 @@ struct ProgressModifierColor0019 {
         .onClick(() => {
           this.isGradient = true   // 設置為漸變色模式
           this.singleColor = Color.Green
-          this.gradientColor = new LinearGradient([{ color: "#ffff00", offset: 0 }, { color: "#00ffff", offset: 1 }])
+          this.gradientColor = new LinearGradient([{ color: '#ffff00', offset: 0 }, { color: '#00ffff', offset: 1 }])
           this.strokewid = 40
         })
     }

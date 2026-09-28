@@ -36,7 +36,7 @@ struct PrivacySensitiveProgress0150 {
             .height(20)
             .privacySensitive(false)
             .backgroundColor(0x1010010)
-            .id("progress_linear_1010010_bg_0150")
+            .id('progress_linear_1010010_bg_0150')
         }
 
         Column({ space: 10 }) {
@@ -48,7 +48,7 @@ struct PrivacySensitiveProgress0150 {
             .height(20)
             .privacySensitive(false)
             .backgroundColor(0x344556)
-            .id("progress_linear_344556_bg_0150")
+            .id('progress_linear_344556_bg_0150')
         }
 
         // Ring type with number background colors
@@ -61,7 +61,7 @@ struct PrivacySensitiveProgress0150 {
             .height(100)
             .privacySensitive(false)
             .backgroundColor(0x1010010)
-            .id("progress_ring_1010010_bg_0150")
+            .id('progress_ring_1010010_bg_0150')
         }
 
         Column({ space: 10 }) {
@@ -73,7 +73,7 @@ struct PrivacySensitiveProgress0150 {
             .height(100)
             .privacySensitive(false)
             .backgroundColor(0x344556)
-            .id("progress_ring_344556_bg_0150")
+            .id('progress_ring_344556_bg_0150')
         }
 
         // Eclipse type with number background colors
@@ -86,7 +86,7 @@ struct PrivacySensitiveProgress0150 {
             .height(100)
             .privacySensitive(false)
             .backgroundColor(0x1010010)
-            .id("progress_eclipse_1010010_bg_0150")
+            .id('progress_eclipse_1010010_bg_0150')
         }
 
         Column({ space: 10 }) {
@@ -98,7 +98,7 @@ struct PrivacySensitiveProgress0150 {
             .height(100)
             .privacySensitive(false)
             .backgroundColor(0x344556)
-            .id("progress_eclipse_344556_bg_0150")
+            .id('progress_eclipse_344556_bg_0150')
         }
 
         // ScaleRing type with number background colors
@@ -111,7 +111,7 @@ struct PrivacySensitiveProgress0150 {
             .height(100)
             .privacySensitive(false)
             .backgroundColor(0x1010010)
-            .id("progress_scalering_1010010_bg_0150")
+            .id('progress_scalering_1010010_bg_0150')
         }
 
         Column({ space: 10 }) {
@@ -123,7 +123,7 @@ struct PrivacySensitiveProgress0150 {
             .height(100)
             .privacySensitive(false)
             .backgroundColor(0x344556)
-            .id("progress_scalering_344556_bg_0150")
+            .id('progress_scalering_344556_bg_0150')
         }
 
         // Capsule type with number background colors
@@ -136,7 +136,7 @@ struct PrivacySensitiveProgress0150 {
             .height(30)
             .privacySensitive(false)
             .backgroundColor(0x1010010)
-            .id("progress_capsule_1010010_bg_0150")
+            .id('progress_capsule_1010010_bg_0150')
         }
 
         Column({ space: 10 }) {
@@ -148,7 +148,7 @@ struct PrivacySensitiveProgress0150 {
             .height(30)
             .privacySensitive(false)
             .backgroundColor(0x344556)
-            .id("progress_capsule_344556_bg_0150")
+            .id('progress_capsule_344556_bg_0150')
         }
       }
       .width('100%')

@@ -26,7 +26,7 @@ struct ProgressCommonLocation0007 {
 
       // 1. Progress组件设置value为50，type为ProgressType.Capsule，设置direction为Direction.Ltr
       Progress({ value: 50, total: 100, type: ProgressType.Capsule })
-        .id("progress_Capsule_0006")
+        .id('progress_Capsule_0006')
         .width(200)
         .height(200)
         .direction(Direction.Ltr)

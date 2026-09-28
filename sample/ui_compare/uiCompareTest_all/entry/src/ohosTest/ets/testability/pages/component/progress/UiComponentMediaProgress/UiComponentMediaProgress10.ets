@@ -150,7 +150,7 @@ struct UiComponentMediaProgress10 {
           .height(50)
           .border({
             width: {
-              top: "100%"
+              top: '100%'
             }
           })
           .style({
@@ -161,7 +161,7 @@ struct UiComponentMediaProgress10 {
           .color(Color.Red)
           .border({
             width: {
-              top: "100%"
+              top: '100%'
             }
           })
           .style({

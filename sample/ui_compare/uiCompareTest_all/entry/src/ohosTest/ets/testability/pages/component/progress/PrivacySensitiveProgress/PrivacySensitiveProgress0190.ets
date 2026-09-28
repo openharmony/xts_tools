@@ -35,8 +35,8 @@ struct PrivacySensitiveProgress0190 {
             .width(200)
             .height(20)
             .privacySensitive(true)
-            .backgroundColor($r("sys.color.ohos_id_color_primary"))
-            .id("progress_linear_resource_bg_0190")
+            .backgroundColor($r('sys.color.ohos_id_color_primary'))
+            .id('progress_linear_resource_bg_0190')
         }
 
         Column({ space: 10 }) {
@@ -48,7 +48,7 @@ struct PrivacySensitiveProgress0190 {
             .height(20)
             .privacySensitive(true)
             .backgroundColor(Color.Gray)
-            .id("progress_linear_invalid_bg_0190")
+            .id('progress_linear_invalid_bg_0190')
         }
 
         // Ring type with resource references (privacySensitive true)
@@ -61,8 +61,8 @@ struct PrivacySensitiveProgress0190 {
             .width(80)
             .height(80)
             .privacySensitive(true)
-            .backgroundColor($r("sys.color.ohos_id_color_secondary"))
-            .id("progress_ring_resource2_bg_0190")
+            .backgroundColor($r('sys.color.ohos_id_color_secondary'))
+            .id('progress_ring_resource2_bg_0190')
         }
 
         Column({ space: 10 }) {
@@ -74,7 +74,7 @@ struct PrivacySensitiveProgress0190 {
             .height(80)
             .privacySensitive(true)
             .backgroundColor(Color.Gray)
-            .id("progress_ring_invalid_bg_0190")
+            .id('progress_ring_invalid_bg_0190')
         }
 
         // Eclipse type with resource references (privacySensitive true)
@@ -86,8 +86,8 @@ struct PrivacySensitiveProgress0190 {
             .width(80)
             .height(80)
             .privacySensitive(true)
-            .backgroundColor($r("sys.color.ohos_id_color_primary"))
-            .id("progress_eclipse_resource_bg_0190")
+            .backgroundColor($r('sys.color.ohos_id_color_primary'))
+            .id('progress_eclipse_resource_bg_0190')
         }
 
         Column({ space: 10 }) {
@@ -99,7 +99,7 @@ struct PrivacySensitiveProgress0190 {
             .height(80)
             .privacySensitive(true)
             .backgroundColor(Color.Gray)
-            .id("progress_eclipse_invalid_bg_0190")
+            .id('progress_eclipse_invalid_bg_0190')
         }
 
         // ScaleRing type with resource references (privacySensitive true)
@@ -112,8 +112,8 @@ struct PrivacySensitiveProgress0190 {
             .width(80)
             .height(80)
             .privacySensitive(true)
-            .backgroundColor($r("sys.color.ohos_id_color_secondary"))
-            .id("progress_scalering_resource2_bg_0190")
+            .backgroundColor($r('sys.color.ohos_id_color_secondary'))
+            .id('progress_scalering_resource2_bg_0190')
         }
 
         Column({ space: 10 }) {
@@ -125,7 +125,7 @@ struct PrivacySensitiveProgress0190 {
             .height(80)
             .privacySensitive(true)
             .backgroundColor(Color.Gray)
-            .id("progress_scalering_invalid_bg_0190")
+            .id('progress_scalering_invalid_bg_0190')
         }
 
         // Capsule type with resource references (privacySensitive true)
@@ -137,8 +137,8 @@ struct PrivacySensitiveProgress0190 {
             .width(200)
             .height(25)
             .privacySensitive(true)
-            .backgroundColor($r("sys.color.ohos_id_color_primary"))
-            .id("progress_capsule_resource_bg_0190")
+            .backgroundColor($r('sys.color.ohos_id_color_primary'))
+            .id('progress_capsule_resource_bg_0190')
         }
 
         Column({ space: 10 }) {
@@ -150,7 +150,7 @@ struct PrivacySensitiveProgress0190 {
             .height(25)
             .privacySensitive(true)
             .backgroundColor(Color.Gray)
-            .id("progress_capsule_invalid_bg_0190")
+            .id('progress_capsule_invalid_bg_0190')
         }
       }
       .width('100%')

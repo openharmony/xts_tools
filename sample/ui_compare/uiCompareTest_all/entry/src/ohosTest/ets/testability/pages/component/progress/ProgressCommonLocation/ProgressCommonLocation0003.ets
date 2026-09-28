@@ -26,7 +26,7 @@ struct ProgressCommonLocation0003 {
 
       // 1. Progress组件设置value为50，type为ProgressType.Eclipse
       Progress({ value: 50, total: 100, type: ProgressType.Eclipse })
-        .id("progress_eclipse_0003")
+        .id('progress_eclipse_0003')
         .width(200)
         .height(200)
         .margin({ top: 20 })

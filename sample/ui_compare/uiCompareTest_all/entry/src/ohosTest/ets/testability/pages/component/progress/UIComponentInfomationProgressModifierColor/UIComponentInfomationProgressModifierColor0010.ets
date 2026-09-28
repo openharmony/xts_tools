@@ -16,9 +16,9 @@
 class ProgressModifier implements AttributeModifier<ProgressAttribute> {
   public flag = 1;
   private color1: LinearGradient =
-    new LinearGradient([{ color: "#65EEC9A3", offset: 0 }, { color: "#FFEF629F", offset: 1 }]);
+    new LinearGradient([{ color: '#65EEC9A3', offset: 0 }, { color: '#FFEF629F', offset: 1 }]);
   private color2: LinearGradient =
-    new LinearGradient([{ color: "#FF67F9D4", offset: 0 }, { color: "#FFFF9554", offset: 1 }]);
+    new LinearGradient([{ color: '#FF67F9D4', offset: 0 }, { color: '#FFFF9554', offset: 1 }]);
 
   applyNormalAttribute(instance: ProgressAttribute): void {
     if (this.flag == 1) {
