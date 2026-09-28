@@ -67,7 +67,7 @@ struct ChildComponentEventVerify0040 {
 struct ToolchainEventVerify0040 {
   @Local parentMessage: string = 'Hello';
   @Local parentCount: number = 0;
-  @Local eventLog: string = '等待事件触发';
+  @Local statusMsg: string = '等待事件触发';
 
   build() {
     Column() {
@@ -102,7 +102,7 @@ struct ToolchainEventVerify0040 {
         .margin({ bottom: 5 })
         .id('ToolchainEventVerify0040_005')
 
-      Text(`事件日志: ${this.eventLog}`)
+      Text(`事件日志: ${this.statusMsg}`)
         .fontSize(14)
         .fontColor('#007DFF')
         .margin({ bottom: 20 })
@@ -139,12 +139,12 @@ struct ToolchainEventVerify0040 {
         count: this.parentCount,
         onMessageChange: (msg: string) => {
           this.parentMessage = msg;
-          this.eventLog = `消息已更新: ${msg}`;
+          this.statusMsg = `消息已更新: ${msg}`;
           console.info('[ParentComponent] Message changed to: ' + msg)
         },
         onCountIncrease: () => {
           this.parentCount++;
-          this.eventLog = `计数已增加: ${this.parentCount}`;
+          this.statusMsg = `计数已增加: ${this.parentCount}`;
           console.info('[ParentComponent] Count increased to: ' + this.parentCount)
         }
       })

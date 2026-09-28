@@ -16,7 +16,7 @@
 @Entry
 @Component
 struct VideoOptimize08 {
-  @State eventLog: string = '等待onPrepared事件触发...';
+  @State statusMsg: string = '等待onPrepared事件触发...';
   @State operationCount: number = 0;
   @State videoStatus: 'idle' | 'loading' | 'success' | 'error' = 'idle';
   @State currentVideoIndex: number = 0;
@@ -185,12 +185,12 @@ struct VideoOptimize08 {
             })
             .onPrepared((e?: PreparedInfo) => {
               console.info('Video onPrepared: ' + JSON.stringify(e));
-              this.eventLog = `✅ onPrepared事件触发!\\n时长: ${e?.duration}秒`;
+              this.statusMsg = `✅ onPrepared事件触发!\\n时长: ${e?.duration}秒`;
               this.videoStatus = 'success';
               this.duration = e?.duration || 0;
             })
             .onError(() => {
-              this.eventLog = '❌ 视频加载失败';
+              this.statusMsg = '❌ 视频加载失败';
               this.videoStatus = 'error';
             })
             .onUpdate((e?: TimeObject ) => {
@@ -289,7 +289,7 @@ struct VideoOptimize08 {
             this.controller.setCurrentTime(10, SeekMode.Accurate);
             this.operationCount++;
             this.addSeekRecord(10);
-            this.eventLog = `⏩ 已跳转到第10秒 (操作次数: ${this.operationCount})`;
+            this.statusMsg = `⏩ 已跳转到第10秒 (操作次数: ${this.operationCount})`;
           })
       }
       .width('100%')
@@ -383,7 +383,7 @@ struct VideoOptimize08 {
         .margin({ bottom: 8 })
 
         // 事件日志
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(12)
           .fontColor('#2C3E50')
           .textAlign(TextAlign.Center)

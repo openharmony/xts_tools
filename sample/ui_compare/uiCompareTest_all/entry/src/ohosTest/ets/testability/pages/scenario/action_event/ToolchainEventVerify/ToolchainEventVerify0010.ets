@@ -59,7 +59,7 @@ struct ChildComponentEventVerify0010 {
 @ComponentV2
 struct ToolchainEventVerify0010 {
   @Local parentValue: string = '';
-  @Local eventLog: string = '等待事件触发';
+  @Local statusMsg: string = '等待事件触发';
 
   build() {
     Column() {
@@ -89,7 +89,7 @@ struct ToolchainEventVerify0010 {
         .margin({ bottom: 5 })
         .id('ToolchainEventVerify0010_004')
 
-      Text(`事件日志: ${this.eventLog}`)
+      Text(`事件日志: ${this.statusMsg}`)
         .fontSize(14)
         .fontColor('#007DFF')
         .margin({ bottom: 20 })
@@ -99,7 +99,7 @@ struct ToolchainEventVerify0010 {
       ChildComponentEventVerify0010({
         inputValue: this.parentValue,
         onValueChange: (val: string) => {
-          this.eventLog = `接收到值: ${val}`;
+          this.statusMsg = `接收到值: ${val}`;
           console.info('[ParentComponent] Received value from child: ' + val)
         }
       })

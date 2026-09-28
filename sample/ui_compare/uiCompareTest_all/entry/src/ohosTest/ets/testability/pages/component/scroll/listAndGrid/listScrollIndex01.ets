@@ -20,7 +20,7 @@ struct ListScrollIndex01 {
   @State firstIndex: number = -1;
   @State lastIndex: number = -1;
   @State centerIndex: number = -1;
-  @State eventLog: string = '等待事件触发...';
+  @State statusMsg: string = '等待事件触发...';
 
   aboutToAppear() {
     // 初始化列表数据
@@ -30,7 +30,7 @@ struct ListScrollIndex01 {
   }
 
   addEvent(event: string) {
-    this.eventLog = `${this.eventLog}\n${event}`;
+    this.statusMsg = `${this.statusMsg}\n${event}`;
     console.info('TEST', event);
   }
 
@@ -81,7 +81,7 @@ struct ListScrollIndex01 {
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 5 });
       Scroll() {
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(12)
           .width('100%')
           .textAlign(TextAlign.Start)

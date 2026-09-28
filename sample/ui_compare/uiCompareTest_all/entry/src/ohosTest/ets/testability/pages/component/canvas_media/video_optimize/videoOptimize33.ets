@@ -16,7 +16,7 @@
 @Entry
 @Component
 struct VideoOptimize33 {
-  @State eventLog: string = '等待onPrepared事件触发...';
+  @State statusMsg: string = '等待onPrepared事件触发...';
   @State videoSrc: Resource = $rawfile('video1.mp4');
   @State operationCount: number = 0;
   @State videoStatus: 'idle' | 'loading' | 'success' | 'error' = 'idle';
@@ -110,13 +110,13 @@ struct VideoOptimize33 {
           })
           .onPrepared((e?: PreparedInfo) => {
             console.info('Video onPrepared: ' + JSON.stringify(e));
-            this.eventLog = `✅ onPrepared事件触发!\\n时长: ${e?.duration}秒`;
+            this.statusMsg = `✅ onPrepared事件触发!\\n时长: ${e?.duration}秒`;
             this.videoStatus = 'success';
             this.duration = e?.duration || 0;
             this.addEvent('onPrepared事件触发');
           })
           .onError(() => {
-            this.eventLog = '❌ 视频加载失败';
+            this.statusMsg = '❌ 视频加载失败';
             this.videoStatus = 'error';
             this.addEvent('视频加载失败');
           })
@@ -288,7 +288,7 @@ struct VideoOptimize33 {
               this.videoStatus = 'loading';
               this.addEvent('切换视频源到video4');
               this.addOperation('切换视频源');
-              this.eventLog = '🔄 已切换到video4.mp4';
+              this.statusMsg = '🔄 已切换到video4.mp4';
             })
 
           Button('🔄 重置AVPlayer')
@@ -305,7 +305,7 @@ struct VideoOptimize33 {
               this.operationCount++;
               this.addEvent('重置AVPlayer');
               this.addOperation('重置AVPlayer');
-              this.eventLog = '🔄 已重置AVPlayer';
+              this.statusMsg = '🔄 已重置AVPlayer';
             })
         }
         .width('100%')
@@ -433,7 +433,7 @@ struct VideoOptimize33 {
         .margin({ bottom: 8 })
 
         // 事件日志
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(12)
           .fontColor('#2C3E50')
           .textAlign(TextAlign.Center)

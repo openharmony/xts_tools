@@ -86,12 +86,12 @@ struct ChildComponentEventVerify0020 {
 @Entry
 @ComponentV2
 struct ToolchainEventVerify0020 {
-  @Local eventLog: string[] = [];
+  @Local statusMsg: string[] = [];
 
   addLog(message: string) {
-    this.eventLog.push(message);
-    if (this.eventLog.length > 5) {
-      this.eventLog.shift();
+    this.statusMsg.push(message);
+    if (this.statusMsg.length > 5) {
+      this.statusMsg.shift();
     }
   }
 
@@ -118,7 +118,7 @@ struct ToolchainEventVerify0020 {
         .id('ToolchainEventVerify0020_003')
 
       Column() {
-        ForEach(this.eventLog, (log: string, index: number) => {
+        ForEach(this.statusMsg, (log: string, index: number) => {
           Text(`${index + 1}. ${log}`)
             .fontSize(12)
             .fontColor('#007DFF')
@@ -127,7 +127,7 @@ struct ToolchainEventVerify0020 {
             .margin({ bottom: 3 })
         })
 
-        if (this.eventLog.length === 0) {
+        if (this.statusMsg.length === 0) {
           Text('(暂无事件)')
             .fontSize(12)
             .fontColor('#999999')

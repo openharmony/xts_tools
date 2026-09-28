@@ -16,7 +16,7 @@
 @Entry
 @Component
 struct VideoOptimize30 {
-  @State eventLog: string = '等待onStop事件触发...';
+  @State statusMsg: string = '等待onStop事件触发...';
   @State operationCount: number = 0;
   @State videoStatus: 'idle' | 'loading' | 'success' | 'error' | 'playing' | 'stopped' = 'idle';
   @State eventHistory: string[] = [];
@@ -195,7 +195,7 @@ struct VideoOptimize30 {
             })
             .onStop(() => {
               console.info('Video onStop event triggered');
-              this.eventLog = '✅ onStop事件触发!';
+              this.statusMsg = '✅ onStop事件触发!';
               this.videoStatus = 'stopped';
               this.addEvent('onStop事件触发');
             })
@@ -204,7 +204,7 @@ struct VideoOptimize30 {
               this.addEvent('视频开始播放');
             })
             .onError(() => {
-              this.eventLog = '❌ 视频加载失败';
+              this.statusMsg = '❌ 视频加载失败';
               this.videoStatus = 'error';
               this.addEvent('视频加载失败');
             })
@@ -426,7 +426,7 @@ struct VideoOptimize30 {
         .margin({ bottom: 16 })
 
         // 事件日志
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(14)
           .fontColor('#2C3E50')
           .textAlign(TextAlign.Center)

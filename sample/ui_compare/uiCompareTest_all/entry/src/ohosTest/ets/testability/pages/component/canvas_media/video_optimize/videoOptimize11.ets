@@ -16,7 +16,7 @@
 @Entry
 @Component
 struct VideoOptimize11 {
-  @State eventLog: string = '等待操作...';
+  @State statusMsg: string = '等待操作...';
   @State operationCount: number = 0;
   @State videoStatus: 'idle' | 'loading' | 'success' | 'error' | 'stopped' = 'idle';
   @State currentVideoIndex: number = 0;
@@ -126,7 +126,7 @@ struct VideoOptimize11 {
               this.addEvent('onPrepared事件触发');
             })
             .onError(() => {
-              this.eventLog = '❌ 视频加载失败';
+              this.statusMsg = '❌ 视频加载失败';
               this.videoStatus = 'error';
               this.addEvent('视频加载失败');
             })
@@ -198,7 +198,7 @@ struct VideoOptimize11 {
             })
             .onPrepared((e?: PreparedInfo) => {
               console.info('Video onPrepared: ' + JSON.stringify(e));
-              this.eventLog = `✅ onPrepared事件触发!\\n时长: ${e?.duration}秒`;
+              this.statusMsg = `✅ onPrepared事件触发!\\n时长: ${e?.duration}秒`;
               this.addEvent('第三个视频onPrepared事件触发');
             })
         }
@@ -295,7 +295,7 @@ struct VideoOptimize11 {
             this.operationCount++;
             this.isStopped = true;
             this.videoStatus = 'stopped';
-            this.eventLog = '已停止播放，请滑出屏幕再滑进屏幕';
+            this.statusMsg = '已停止播放，请滑出屏幕再滑进屏幕';
             this.addEvent('点击停止播放按钮');
           })
       }
@@ -390,7 +390,7 @@ struct VideoOptimize11 {
         .margin({ bottom: 8 })
 
         // 事件日志
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(12)
           .fontColor('#2C3E50')
           .textAlign(TextAlign.Center)

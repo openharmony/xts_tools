@@ -16,7 +16,7 @@
 @Entry
 @Component
 struct VideoOptimize10 {
-  @State eventLog: string = '等待onPrepared事件触发...';
+  @State statusMsg: string = '等待onPrepared事件触发...';
   @State operationCount: number = 0;
   @State videoStatus: 'idle' | 'loading' | 'success' | 'error' | 'playing' = 'idle';
   @State currentVideoIndex: number = 0;
@@ -187,7 +187,7 @@ struct VideoOptimize10 {
             })
             .onPrepared((e?: PreparedInfo) => {
               console.info('Video onPrepared: ' + JSON.stringify(e));
-              this.eventLog = `✅ onPrepared事件触发!\\n时长: ${e?.duration}秒`;
+              this.statusMsg = `✅ onPrepared事件触发!\\n时长: ${e?.duration}秒`;
               this.videoStatus = 'success';
               this.duration = e?.duration || 0;
               this.addEvent('onPrepared事件触发');
@@ -198,7 +198,7 @@ struct VideoOptimize10 {
               this.addEvent('视频开始播放');
             })
             .onError(() => {
-              this.eventLog = '❌ 视频加载失败';
+              this.statusMsg = '❌ 视频加载失败';
               this.videoStatus = 'error';
               this.addEvent('视频加载失败');
             })
@@ -295,7 +295,7 @@ struct VideoOptimize10 {
             this.controller.start();
             this.operationCount++;
             this.addEvent('点击开始播放按钮');
-            this.eventLog = `▶️ 已开始播放 (操作次数: ${this.operationCount})`;
+            this.statusMsg = `▶️ 已开始播放 (操作次数: ${this.operationCount})`;
           })
       }
       .width('100%')
@@ -389,7 +389,7 @@ struct VideoOptimize10 {
         .margin({ bottom: 8 })
 
         // 事件日志
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(12)
           .fontColor('#2C3E50')
           .textAlign(TextAlign.Center)

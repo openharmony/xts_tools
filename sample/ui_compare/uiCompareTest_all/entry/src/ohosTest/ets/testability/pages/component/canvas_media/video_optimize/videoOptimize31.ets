@@ -16,7 +16,7 @@
 @Entry
 @Component
 struct VideoOptimize31 {
-  @State eventLog: string = '等待操作...';
+  @State statusMsg: string = '等待操作...';
   @State operationCount: number = 0;
   @State videoStatus: 'idle' | 'loading' | 'success' | 'error' | 'playing' | 'seeking' = 'idle';
   @State eventHistory: string[] = [];
@@ -105,7 +105,7 @@ struct VideoOptimize31 {
             this.addEvent('视频开始播放');
           })
           .onError(() => {
-            this.eventLog = '❌ 视频加载失败';
+            this.statusMsg = '❌ 视频加载失败';
             this.videoStatus = 'error';
             this.addEvent('视频加载失败');
           })
@@ -217,7 +217,7 @@ struct VideoOptimize31 {
             .onClick(() => {
               this.controller.setCurrentTime(10, SeekMode.Accurate);
               this.operationCount++;
-              this.eventLog = '已跳转到第10s';
+              this.statusMsg = '已跳转到第10s';
               this.addEvent('点击跳转到第10s按钮');
               this.addOperation('跳转到第10s');
             })
@@ -234,7 +234,7 @@ struct VideoOptimize31 {
             .onClick(() => {
               this.controller.reset();
               this.operationCount++;
-              this.eventLog = '已重置AVPlayer';
+              this.statusMsg = '已重置AVPlayer';
               this.addEvent('点击重置AVPlayer按钮');
               this.addOperation('重置AVPlayer');
             })
@@ -364,7 +364,7 @@ struct VideoOptimize31 {
         .margin({ bottom: 16 })
 
         // 事件日志
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(14)
           .fontColor('#2C3E50')
           .textAlign(TextAlign.Center)

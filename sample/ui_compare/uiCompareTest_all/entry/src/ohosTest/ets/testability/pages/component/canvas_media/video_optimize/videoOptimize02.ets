@@ -17,7 +17,7 @@
 @Component
 struct VideoOptimize02 {
   @State isAutoPlay: boolean = false;
-  @State eventLog: string = '等待操作...';
+  @State statusMsg: string = '等待操作...';
   @State operationCount: number = 0;
   @State videoStatus: 'idle' | 'loading' | 'success' | 'error' = 'idle';
   @State currentVideoIndex: number = 0;
@@ -211,7 +211,7 @@ struct VideoOptimize02 {
             .onClick(() => {
               this.controller.reset();
               this.operationCount++;
-              this.eventLog = `🔄 已重置AVPlayer (操作次数: ${this.operationCount})`;
+              this.statusMsg = `🔄 已重置AVPlayer (操作次数: ${this.operationCount})`;
               this.videoStatus = 'loading';
             })
           
@@ -227,7 +227,7 @@ struct VideoOptimize02 {
             .onClick(() => {
               this.isAutoPlay = true;
               this.operationCount++;
-              this.eventLog = `🎯 已打开自动播放 (操作次数: ${this.operationCount})`;
+              this.statusMsg = `🎯 已打开自动播放 (操作次数: ${this.operationCount})`;
               this.videoStatus = 'success';
             })
         }
@@ -294,7 +294,7 @@ struct VideoOptimize02 {
         .margin({ bottom: 8 })
 
         // 事件日志
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(12)
           .fontColor('#2C3E50')
           .textAlign(TextAlign.Center)

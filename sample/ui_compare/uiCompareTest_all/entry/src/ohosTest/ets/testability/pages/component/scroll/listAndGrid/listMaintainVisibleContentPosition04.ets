@@ -18,7 +18,7 @@
 struct ListMaintainVisibleContentPosition04 {
   @State listData: string[] = ['Item 0', 'Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6', 'Item 7', 'Item 8', 'Item 9'];
   @State maintainVisibleContentPosition: boolean = true;
-  @State eventLog: string = '等待事件触发...';
+  @State statusMsg: string = '等待事件触发...';
   @State operationSequence: string[] = [];
   @State scrollIndex: number = 0;
   @State didScrollOffset: number = 0;
@@ -130,7 +130,7 @@ struct ListMaintainVisibleContentPosition04 {
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 5 });
       Scroll() {
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(12)
           .width('100%')
           .textAlign(TextAlign.Start)
@@ -165,7 +165,7 @@ struct ListMaintainVisibleContentPosition04 {
 
   addEvent(event: string) {
     const timestamp = new Date().toLocaleTimeString();
-    this.eventLog = `[${timestamp}] ${event}\n${this.eventLog}`;
+    this.statusMsg = `[${timestamp}] ${event}\n${this.statusMsg}`;
   }
 
   addOperation(operation: string) {

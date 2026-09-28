@@ -46,7 +46,7 @@ function buildFooter09() {
 struct ListComponentContent09 {
   private uiContext: UIContext = this.getUIContext();
   private listData: string[] = [];
-  @State eventLog: string = '等待事件触发...';
+  @State statusMsg: string = '等待事件触发...';
 
   private headerComponent: ComponentContent<Object> | null = null;
   private footerComponent: ComponentContent<Object> | null = null;
@@ -60,7 +60,7 @@ struct ListComponentContent09 {
   }
 
   addEvent(event: string) {
-    this.eventLog = `${this.eventLog}\n${event}`;
+    this.statusMsg = `${this.statusMsg}\n${event}`;
     console.info('TEST', event);
   }
 
@@ -120,7 +120,7 @@ struct ListComponentContent09 {
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 5 });
       Scroll() {
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(12)
           .width('100%')
           .textAlign(TextAlign.Start)

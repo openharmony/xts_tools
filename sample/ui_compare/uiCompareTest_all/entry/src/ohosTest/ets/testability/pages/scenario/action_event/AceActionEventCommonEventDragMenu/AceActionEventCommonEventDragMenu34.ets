@@ -41,7 +41,7 @@ struct AceActionEventCommonEventDragMenu34 {
   @State testDescription: string = '自定义组件设置bindContextMenu为长按模式，preview不设置'
   @State dragStatus: string = '等待拖拽操作...'
   @State menuStatus: string = '等待菜单触发...'
-  @State eventLog: string = ''
+  @State statusMsg: string = ''
 
   @Builder
   MenuBuilder() {
@@ -136,20 +136,20 @@ struct AceActionEventCommonEventDragMenu34 {
           .bindContextMenu(this.MenuBuilder(), ResponseType.LongPress)
             .onDragStart(() => {
               this.dragStatus = '拖拽开始'
-              this.eventLog = `拖拽事件: 开始拖拽\n时间: ${new Date().toLocaleTimeString()}`
+              this.statusMsg = `拖拽事件: 开始拖拽\n时间: ${new Date().toLocaleTimeString()}`
               console.info('[DragTest] 拖拽开始')
             })
             .onDragEnd((event: DragEvent) => {
               this.dragStatus = '拖拽结束'
-              this.eventLog = `拖拽事件: 拖拽结束\n时间: ${new Date().toLocaleTimeString()}`
+              this.statusMsg = `拖拽事件: 拖拽结束\n时间: ${new Date().toLocaleTimeString()}`
               console.info('[DragTest] 拖拽结束')
             })
             .onTouch((event: TouchEvent) => {
               if (event.type === TouchType.Down) {
-                this.eventLog = `触摸事件: Down\n时间: ${new Date().toLocaleTimeString()}`
+                this.statusMsg = `触摸事件: Down\n时间: ${new Date().toLocaleTimeString()}`
                 console.info('[DragTest] Touch Down')
               } else if (event.type === TouchType.Up) {
-                this.eventLog = `触摸事件: Up\n时间: ${new Date().toLocaleTimeString()}`
+                this.statusMsg = `触摸事件: Up\n时间: ${new Date().toLocaleTimeString()}`
                 console.info('[DragTest] Touch Up')
               }
             })
@@ -195,7 +195,7 @@ struct AceActionEventCommonEventDragMenu34 {
             .width('100%')
             .margin({ top: 10 })
           }
-          if (this.eventLog) {
+          if (this.statusMsg) {
             Column({ space: 5 }) {
               Text('事件日志')
                 .fontSize(14)
@@ -203,7 +203,7 @@ struct AceActionEventCommonEventDragMenu34 {
                 .fontStyle(FontStyle.Italic)
                 .fontColor('#2196F3')
                 .width('100%')
-              Text(this.eventLog)
+              Text(this.statusMsg)
                 .fontSize(14)
                 .fontColor('#1565C0')
                 .fontStyle(FontStyle.Italic)

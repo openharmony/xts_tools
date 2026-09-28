@@ -17,7 +17,7 @@
 @Component
 struct VideoOptimize01 {
   @State isAutoPlay: boolean = false;
-  @State eventLog: string = '等待onPrepared事件触发...';
+  @State statusMsg: string = '等待onPrepared事件触发...';
   @State operationCount: number = 0;
   @State videoStatus: 'idle' | 'loading' | 'success' | 'error' = 'idle';
   controller: VideoController = new VideoController();
@@ -76,11 +76,11 @@ struct VideoOptimize01 {
           })
           .onPrepared((e?: PreparedInfo) => {
             console.info('Video onPrepared: ' + JSON.stringify(e));
-            this.eventLog = `✅ onPrepared事件触发!\\n时长: ${e?.duration}秒`;
+            this.statusMsg = `✅ onPrepared事件触发!\\n时长: ${e?.duration}秒`;
             this.videoStatus = 'success';
           })
           .onError(() => {
-            this.eventLog = '❌ 视频加载失败';
+            this.statusMsg = '❌ 视频加载失败';
             this.videoStatus = 'error';
           })
 
@@ -132,7 +132,7 @@ struct VideoOptimize01 {
             .onClick(() => {
               this.controller.reset();
               this.operationCount++;
-              this.eventLog = `🔄 已重置AVPlayer (操作次数: ${this.operationCount})`;
+              this.statusMsg = `🔄 已重置AVPlayer (操作次数: ${this.operationCount})`;
               this.videoStatus = 'loading';
             })
           
@@ -148,7 +148,7 @@ struct VideoOptimize01 {
             .onClick(() => {
               this.isAutoPlay = true;
               this.operationCount++;
-              this.eventLog = `🎯 已打开自动播放 (操作次数: ${this.operationCount})`;
+              this.statusMsg = `🎯 已打开自动播放 (操作次数: ${this.operationCount})`;
               this.videoStatus = 'success';
             })
         }
@@ -215,7 +215,7 @@ struct VideoOptimize01 {
         .margin({ bottom: 12 })
 
         // 事件日志
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(12)
           .fontColor('#2C3E50')
           .textAlign(TextAlign.Center)

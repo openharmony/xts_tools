@@ -18,7 +18,7 @@
 struct ListScrollIndex09 {
   @State listData: string[] = [];
   @State columns: number = 1;
-  @State eventLog: string = '等待事件触发...';
+  @State statusMsg: string = '等待事件触发...';
   scrollerForList: Scroller = new Scroller();
 
   aboutToAppear() {
@@ -29,7 +29,7 @@ struct ListScrollIndex09 {
   }
 
   addEvent(event: string) {
-    this.eventLog = `${this.eventLog}\n${event}`;
+    this.statusMsg = `${this.statusMsg}\n${event}`;
     console.info('TEST', event);
   }
 
@@ -104,7 +104,7 @@ struct ListScrollIndex09 {
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 5 });
       Scroll() {
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(12)
           .width('100%')
           .textAlign(TextAlign.Start)

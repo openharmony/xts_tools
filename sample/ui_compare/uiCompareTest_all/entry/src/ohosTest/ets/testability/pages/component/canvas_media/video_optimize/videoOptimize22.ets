@@ -17,7 +17,7 @@
 @Component
 struct VideoOptimize22 {
   @State isAutoPlay: boolean = false;
-  @State eventLog: string = '等待操作...';
+  @State statusMsg: string = '等待操作...';
   @State operationCount: number = 0;
   @State videoStatus: 'idle' | 'loading' | 'success' | 'error' | 'playing' | 'stopped' = 'idle';
   @State eventHistory: string[] = [];
@@ -105,7 +105,7 @@ struct VideoOptimize22 {
             this.addEvent('视频停止播放');
           })
           .onError(() => {
-            this.eventLog = '❌ 视频加载失败';
+            this.statusMsg = '❌ 视频加载失败';
             this.videoStatus = 'error';
             this.addEvent('视频加载失败');
           })
@@ -160,7 +160,7 @@ struct VideoOptimize22 {
             .onClick(() => {
               this.controller.start();
               this.operationCount++;
-              this.eventLog = '已开始播放';
+              this.statusMsg = '已开始播放';
               this.addEvent('点击开始播放按钮');
               this.addOperation('开始播放');
             })
@@ -177,7 +177,7 @@ struct VideoOptimize22 {
             .onClick(() => {
               this.controller.stop();
               this.operationCount++;
-              this.eventLog = '已停止播放';
+              this.statusMsg = '已停止播放';
               this.addEvent('点击停止播放按钮');
               this.addOperation('停止播放');
             })
@@ -194,7 +194,7 @@ struct VideoOptimize22 {
             .onClick(() => {
               this.controller.reset();
               this.operationCount++;
-              this.eventLog = '已重置AVPlayer';
+              this.statusMsg = '已重置AVPlayer';
               this.addEvent('点击重置AVPlayer按钮');
               this.addOperation('重置AVPlayer');
             })
@@ -211,7 +211,7 @@ struct VideoOptimize22 {
             .onClick(() => {
               this.isAutoPlay = true;
               this.operationCount++;
-              this.eventLog = '已打开自动播放';
+              this.statusMsg = '已打开自动播放';
               this.addEvent('点击打开自动播放按钮');
               this.addOperation('打开自动播放');
             })
@@ -341,7 +341,7 @@ struct VideoOptimize22 {
         .margin({ bottom: 16 })
 
         // 事件日志
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(14)
           .fontColor('#2C3E50')
           .textAlign(TextAlign.Center)

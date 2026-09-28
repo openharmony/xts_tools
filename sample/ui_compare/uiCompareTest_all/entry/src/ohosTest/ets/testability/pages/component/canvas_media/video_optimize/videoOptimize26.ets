@@ -16,7 +16,7 @@
 @Entry
 @Component
 struct VideoOptimize26 {
-  @State eventLog: string = '等待操作...';
+  @State statusMsg: string = '等待操作...';
   @State operationCount: number = 0;
   @State videoStatus: 'idle' | 'loading' | 'success' | 'error' | 'playing' = 'idle';
   @State currentVideoIndex: number = 0;
@@ -188,7 +188,7 @@ struct VideoOptimize26 {
             })
             .onPrepared((e?: PreparedInfo) => {
               console.info('Video onPrepared: ' + JSON.stringify(e));
-              this.eventLog = `✅ onPrepared事件触发!\\n时长: ${e?.duration}秒`;
+              this.statusMsg = `✅ onPrepared事件触发!\\n时长: ${e?.duration}秒`;
               this.videoStatus = 'success';
               this.duration = e?.duration || 0;
               this.addEvent('onPrepared事件触发');
@@ -199,7 +199,7 @@ struct VideoOptimize26 {
               this.addEvent('视频开始播放');
             })
             .onError(() => {
-              this.eventLog = '❌ 视频加载失败';
+              this.statusMsg = '❌ 视频加载失败';
               this.videoStatus = 'error';
               this.addEvent('视频加载失败');
             })
@@ -297,7 +297,7 @@ struct VideoOptimize26 {
               this.controller.setCurrentTime(10, SeekMode.Accurate);
               this.operationCount++;
               this.currentTime = 10;
-              this.eventLog = '已跳转到第10s';
+              this.statusMsg = '已跳转到第10s';
               this.addEvent('点击跳转到第10s按钮');
             })
           
@@ -313,7 +313,7 @@ struct VideoOptimize26 {
             .onClick(() => {
               this.controller.start();
               this.operationCount++;
-              this.eventLog = '已开始播放';
+              this.statusMsg = '已开始播放';
               this.addEvent('点击开始播放按钮');
             })
         }
@@ -411,7 +411,7 @@ struct VideoOptimize26 {
         .margin({ bottom: 8 })
 
         // 事件日志
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(12)
           .fontColor('#2C3E50')
           .textAlign(TextAlign.Center)

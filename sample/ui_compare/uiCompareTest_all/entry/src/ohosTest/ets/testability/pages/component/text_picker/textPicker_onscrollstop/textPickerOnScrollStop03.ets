@@ -19,7 +19,7 @@ import { LengthMetrics } from '@kit.ArkUI';
 @Component
 struct TextPickerOnScrollStop03 {
   @State selectedIndex: number = 2;
-  @State private eventLog: string = '等待onScrollStop事件触发...';
+  @State private statusMsg: string = '等待onScrollStop事件触发...';
   private range: string[] = ['选项1', '选项2', '选项3', '选项4', '选项5', '选项6', '选项7', '选项8', '选项9', '选项10'];
   private singleColumnWidths: LengthMetrics[] = [
     LengthMetrics.percent(100)
@@ -45,7 +45,7 @@ struct TextPickerOnScrollStop03 {
         })
         .onScrollStop((value: string | string[], index: number | number[]) => {
           console.info('TextPicker onScrollStop: ' + value + ', index: ' + index);
-          this.eventLog = `✅  onScrollStop 触发!\\\n值: ${value}\\n索引: ${index}`;
+          this.statusMsg = `✅  onScrollStop 触发!\\\n值: ${value}\\n索引: ${index}`;
         })
         .width('80%')
         .height(200)
@@ -59,7 +59,7 @@ struct TextPickerOnScrollStop03 {
         .textAlign(TextAlign.Center)
         .margin({ bottom: 20 })
       
-      Text(this.eventLog)
+      Text(this.statusMsg)
         .fontSize(16)
         .fontColor(Color.Red)
         .fontWeight(FontWeight.Bold)

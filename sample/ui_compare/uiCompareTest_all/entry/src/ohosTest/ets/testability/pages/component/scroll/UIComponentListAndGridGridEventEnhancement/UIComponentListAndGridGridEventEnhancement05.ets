@@ -19,7 +19,7 @@ struct UIComponentListAndGridGridEventEnhancement05 {
   @State scrollIndexCount: number = 0;
   @State statusMessage: string = '等待操作';
   @State statusColor: Color = Color.Grey;
-  @State eventLogs: string[] = [];
+  @State statusMsgs: string[] = [];
   @State currentScrollPosition: string = '顶部';
   @State firstIndex: number = 0;
   @State lastIndex: number = 0;
@@ -37,9 +37,9 @@ struct UIComponentListAndGridGridEventEnhancement05 {
   addLog(message: string) {
     const timestamp = new Date().toLocaleTimeString();
     const logMessage = `[${timestamp}] ${message}`;
-    this.eventLogs.unshift(logMessage);
-    if (this.eventLogs.length > 10) {
-      this.eventLogs.pop();
+    this.statusMsgs.unshift(logMessage);
+    if (this.statusMsgs.length > 10) {
+      this.statusMsgs.pop();
     }
     console.info(logMessage);
   }
@@ -272,7 +272,7 @@ struct UIComponentListAndGridGridEventEnhancement05 {
                 this.scrollIndexCount = 0;
                 this.firstIndex = 0;
                 this.lastIndex = 0;
-                this.eventLogs = [];
+                this.statusMsgs = [];
                 this.currentScrollPosition = '顶部';
                 this.statusMessage = '已清除所有日志';
                 this.statusColor = Color.Grey;
@@ -289,9 +289,9 @@ struct UIComponentListAndGridGridEventEnhancement05 {
               .fontColor('#182431')
               .width('100%')
 
-            if (this.eventLogs.length > 0) {
+            if (this.statusMsgs.length > 0) {
               Column({ space: 1 }) {
-                ForEach(this.eventLogs, (log: string, index: number) => {
+                ForEach(this.statusMsgs, (log: string, index: number) => {
                   Text(log)
                     .fontSize(7)
                     .fontColor(log.includes('onScrollIndex') ? '#FF6B6B' : '#666666')

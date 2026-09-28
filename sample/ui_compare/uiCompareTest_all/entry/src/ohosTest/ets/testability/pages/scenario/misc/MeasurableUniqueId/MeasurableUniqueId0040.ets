@@ -99,9 +99,9 @@ struct MeasurableUniqueId0040 {
         let frameNode = this.getUIContext()?.getFrameNodeById(`node_container_${i}`)
         if (frameNode) {
           let uniqueId: number = frameNode.getUniqueId()
-          let eventLog: string = `已为粉色方块${i}添加通用事件，UniqueId: ${uniqueId}`
-          console.log(eventLog)
-          this.logText += eventLog + '\n'
+          let statusMsg: string = `已为粉色方块${i}添加通用事件，UniqueId: ${uniqueId}`
+          console.log(statusMsg)
+          this.logText += statusMsg + '\n'
         }
       }
     } catch (error) {

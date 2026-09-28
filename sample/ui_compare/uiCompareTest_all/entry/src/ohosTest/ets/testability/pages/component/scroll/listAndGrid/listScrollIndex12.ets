@@ -17,7 +17,7 @@
 @Component
 struct ListScrollIndex12 {
   @State listData: string[] = [];
-  @State eventLog: string = '等待事件触发...';
+  @State statusMsg: string = '等待事件触发...';
   @State firstIndex: number = -1;
   @State lastIndex: number = -1;
   scrollerForList: Scroller = new Scroller();
@@ -30,7 +30,7 @@ struct ListScrollIndex12 {
   }
 
   addEvent(event: string) {
-    this.eventLog = `${this.eventLog}\n${event}`;
+    this.statusMsg = `${this.statusMsg}\n${event}`;
     console.info('TEST', event);
   }
 
@@ -129,7 +129,7 @@ struct ListScrollIndex12 {
         .fontWeight(FontWeight.Bold)
         .margin({ bottom: 5 });
       Scroll() {
-        Text(this.eventLog)
+        Text(this.statusMsg)
           .fontSize(12)
           .width('100%')
           .textAlign(TextAlign.Start)
