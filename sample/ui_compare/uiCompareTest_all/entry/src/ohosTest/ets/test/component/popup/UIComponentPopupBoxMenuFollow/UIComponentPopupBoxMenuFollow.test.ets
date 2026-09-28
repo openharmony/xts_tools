@@ -64,7 +64,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0210 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow01")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow01')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow01'),1000);
       let point = await image.getBoundsCenter()
@@ -85,7 +85,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0220 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow02")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow02')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow02'),1000);
       let point = await image.getBoundsCenter()
@@ -106,7 +106,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0230 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow03")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow03')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow03'),1000);
       let point = await image.getBoundsCenter()
@@ -127,7 +127,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0280', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0280 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow04")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow04')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow04'),1000);
       let point = await image.getBoundsCenter()
@@ -148,7 +148,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0270 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow05")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow05')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow05'),1000);
       let point = await image.getBoundsCenter()
@@ -169,7 +169,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0240 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow06")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow06')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow06'),1000);
       let point = await image.getBoundsCenter()
@@ -190,7 +190,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0260 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow07")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow07')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow07'),1000);
       let point = await image.getBoundsCenter()
@@ -211,7 +211,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0290 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow08")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow08')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow08'),1000);
       let point = await image.getBoundsCenter()
@@ -232,7 +232,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0250 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow09")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow09')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow09'),1000);
       let point = await image.getBoundsCenter()
@@ -253,7 +253,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0190 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow10")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow10')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow10'),1000);
       let point = await image.getBoundsCenter()
@@ -274,7 +274,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0200 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow11")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow11')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow11'),1000);
       let point = await image.getBoundsCenter()
@@ -295,7 +295,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0300 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow12")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow12')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow12'),1000);
       let point = await image.getBoundsCenter()
@@ -316,7 +316,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0090 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow13")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow13')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow13'),1000);
       let point = await image.getBoundsCenter()
@@ -337,7 +337,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0100 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow14")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow14')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow14'),1000);
       let point = await image.getBoundsCenter()
@@ -358,7 +358,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0110 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow15")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow15')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow15'),1000);
       let point = await image.getBoundsCenter()
@@ -379,7 +379,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0160 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow16")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow16')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow16'),1000);
       let point = await image.getBoundsCenter()
@@ -400,7 +400,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0150 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow17")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow17')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow17'),1000);
       let point = await image.getBoundsCenter()
@@ -421,7 +421,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0120 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow18")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow18')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow18'),1000);
       let point = await image.getBoundsCenter()
@@ -442,7 +442,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0140 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow19")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow19')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow19'),1000);
       let point = await image.getBoundsCenter()
@@ -463,7 +463,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0170 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow20")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow20')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow20'),1000);
       let point = await image.getBoundsCenter()
@@ -484,7 +484,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0130 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow21")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow21')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow21'),1000);
       let point = await image.getBoundsCenter()
@@ -505,7 +505,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0180 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow22")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow22')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow22'),1000);
       let point = await image.getBoundsCenter()
@@ -526,7 +526,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0330 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow23")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow23')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow23'),1000);
       let text: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow23_02'),1000);
@@ -552,7 +552,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0350 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow24")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow24')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow24'),1000);
       let text: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow24_02'),1000);
@@ -578,7 +578,7 @@ export default function uIComponentPopupBoxMenuFollow() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0360', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0360 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow25")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxMenuFollow/UIComponentPopupBoxMenuFollow25')
       let driver:Driver=Driver.create();
       let image: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxMenuFollow25'),1000);
       let point = await image.getBoundsCenter()

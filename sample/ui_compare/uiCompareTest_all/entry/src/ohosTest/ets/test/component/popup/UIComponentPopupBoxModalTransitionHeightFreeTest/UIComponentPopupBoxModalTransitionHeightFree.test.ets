@@ -69,7 +69,7 @@ export default function uIComponentPopupBoxModalTransitionHeightFree() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0020';
-      let pageName = "UIComponentPopupBoxModalTransitionHeightFree0020";
+      let pageName = 'UIComponentPopupBoxModalTransitionHeightFree0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxModalTransitionHeightFree/' + pageName);
       let driver: Driver = Driver.create();
@@ -123,7 +123,7 @@ export default function uIComponentPopupBoxModalTransitionHeightFree() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0030';
-      let pageName = "UIComponentPopupBoxModalTransitionHeightFree0030";
+      let pageName = 'UIComponentPopupBoxModalTransitionHeightFree0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxModalTransitionHeightFree/' + pageName);
       let driver: Driver = Driver.create();
@@ -177,7 +177,7 @@ export default function uIComponentPopupBoxModalTransitionHeightFree() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0040';
-      let pageName = "UIComponentPopupBoxModalTransitionHeightFree0040";
+      let pageName = 'UIComponentPopupBoxModalTransitionHeightFree0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxModalTransitionHeightFree/' + pageName);
       let driver: Driver = Driver.create();

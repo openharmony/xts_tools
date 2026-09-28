@@ -69,7 +69,7 @@ export default function uIComponentPopupBoxSelectMirror() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0020';
-      let pageName = "UIComponentPopupBoxSelectMirror0020";
+      let pageName = 'UIComponentPopupBoxSelectMirror0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxSelectMirror/' + pageName);
       let driver: Driver = Driver.create();
@@ -118,7 +118,7 @@ export default function uIComponentPopupBoxSelectMirror() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0030';
-      let pageName = "UIComponentPopupBoxSelectMirror0030";
+      let pageName = 'UIComponentPopupBoxSelectMirror0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxSelectMirror/' + pageName);
       let driver: Driver = Driver.create();
@@ -182,7 +182,7 @@ export default function uIComponentPopupBoxSelectMirror() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0040';
-      let pageName = "UIComponentPopupBoxSelectMirror0040";
+      let pageName = 'UIComponentPopupBoxSelectMirror0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxSelectMirror/' + pageName);
       let driver: Driver = Driver.create();
@@ -211,7 +211,7 @@ export default function uIComponentPopupBoxSelectMirror() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0050';
-      let pageName = "UIComponentPopupBoxSelectMirror0050";
+      let pageName = 'UIComponentPopupBoxSelectMirror0050';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxSelectMirror/' + pageName);
       let driver: Driver = Driver.create();

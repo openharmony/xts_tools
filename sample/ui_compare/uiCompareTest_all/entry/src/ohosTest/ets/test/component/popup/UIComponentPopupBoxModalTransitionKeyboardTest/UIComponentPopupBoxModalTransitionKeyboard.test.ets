@@ -88,7 +88,7 @@ export default function uIComponentPopupBoxModalTransitionKeyboard() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0010';
-      let pageName = "UIComponentPopupBoxModalTransitionKeyboard0010";
+      let pageName = 'UIComponentPopupBoxModalTransitionKeyboard0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxModalTransitionKeyboard/' + pageName, undefined, undefined, undefined, 800);
       let driver: Driver = Driver.create();
@@ -294,7 +294,7 @@ export default function uIComponentPopupBoxModalTransitionKeyboard() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0040';
-      let pageName = "UIComponentPopupBoxModalTransitionKeyboard0040";
+      let pageName = 'UIComponentPopupBoxModalTransitionKeyboard0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxModalTransitionKeyboard/' + pageName, undefined, undefined, undefined, 800);
       let driver: Driver = Driver.create();

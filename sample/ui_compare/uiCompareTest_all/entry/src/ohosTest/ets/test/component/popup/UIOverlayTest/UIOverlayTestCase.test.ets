@@ -66,7 +66,7 @@ export default function uIOverlayTest() {
     it('SUB_ACE_UI_COMPONENT_COMMONATTR_OVERLAY_0210',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
         Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COMMONATTR_OVERLAY_0210 start.`);
-        Settings.createWindow("testability/pages/component/popup/UIOverlayTestCase/UIOverlayTestCase001",);
+        Settings.createWindow('testability/pages/component/popup/UIOverlayTestCase/UIOverlayTestCase001',);
         let driver: Driver = Driver.create();
         await driver.triggerKey(2049);
         await Utils.sleep(1000);

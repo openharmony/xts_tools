@@ -64,7 +64,7 @@ export default function uiComponentPopupBoxPicker() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0010 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker01")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPicker01'),1000);
       windowSnap.snapShot()
@@ -88,7 +88,7 @@ export default function uiComponentPopupBoxPicker() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0020 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker02")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPicker02'),1000);
       windowSnap.snapShot()
@@ -112,7 +112,7 @@ export default function uiComponentPopupBoxPicker() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0030 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker03")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPicker03'),1000);
       windowSnap.snapShot()
@@ -136,7 +136,7 @@ export default function uiComponentPopupBoxPicker() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0040 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker04")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPicker04'),1000);
       windowSnap.snapShot()
@@ -160,7 +160,7 @@ export default function uiComponentPopupBoxPicker() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0050 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker05")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPicker05'),1000);
       windowSnap.snapShot()
@@ -184,7 +184,7 @@ export default function uiComponentPopupBoxPicker() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0060 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker06")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker06')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPicker06'),1000);
       windowSnap.snapShot()
@@ -208,7 +208,7 @@ export default function uiComponentPopupBoxPicker() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0070 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker07")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker07')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPicker07'),1000);
       windowSnap.snapShot()
@@ -232,7 +232,7 @@ export default function uiComponentPopupBoxPicker() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0080 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker08")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker08')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPicker08'),1000);
       windowSnap.snapShot()
@@ -256,7 +256,7 @@ export default function uiComponentPopupBoxPicker() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0130 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker09")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker09')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPicker09'),1000);
       windowSnap.snapShot()
@@ -280,7 +280,7 @@ export default function uiComponentPopupBoxPicker() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0140 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker10")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker10')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPicker10'),1000);
       windowSnap.snapShot()
@@ -304,7 +304,7 @@ export default function uiComponentPopupBoxPicker() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0150 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker11")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker11')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPicker11'),1000);
       windowSnap.snapShot()
@@ -328,7 +328,7 @@ export default function uiComponentPopupBoxPicker() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0160 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker12")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPicker/UiComponentPopupBoxPicker12')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPicker12'),1000);
       windowSnap.snapShot()

@@ -64,7 +64,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1180 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal01")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal01'),1000);
       await button01.click()
@@ -85,7 +85,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1170 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal02")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal02'),1000);
       await button01.click()
@@ -106,7 +106,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1200 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal03")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal03'),1000);
       await button01.click()
@@ -127,7 +127,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1230 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal04")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal04'),1000);
       await button01.click()
@@ -148,7 +148,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1210 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal05")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal05'),1000);
       await button01.click()
@@ -169,7 +169,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1190 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal06")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal06')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal06'),1000);
       await button01.click()
@@ -190,7 +190,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1090 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal07")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal07')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal07'),1000);
       await button01.click()
@@ -211,7 +211,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1140 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal08")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal08')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal08'),1000);
       await button01.click()
@@ -232,7 +232,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1160 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal09")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal09')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal09'),1000);
       await button01.click()
@@ -253,7 +253,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1150 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal10")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal10')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal10'),1000);
       await button01.click()
@@ -274,7 +274,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0750', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0750 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal11")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal11')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal11'),1000);
       await button01.click()
@@ -295,7 +295,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0860', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0860 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal12")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal12')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal12'),1000);
       await button01.click()
@@ -316,7 +316,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0980', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0980 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal13")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal13')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal13'),1000);
       await button01.click()
@@ -337,7 +337,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1310 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal14")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal14')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal14'),1000);
       await button01.click()
@@ -358,7 +358,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1300 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal15")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal15')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal15'),1000);
       await button01.click()
@@ -379,7 +379,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1340', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1340 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal16")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal16')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal16'),1000);
       let point = await button01.getBoundsCenter()
@@ -402,7 +402,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1350 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal17")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal17')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal17'),1000);
       let point = await button01.getBoundsCenter()
@@ -425,7 +425,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1370 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal18")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal18')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal18'),1000);
       let point = await button01.getBoundsCenter()
@@ -448,7 +448,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1840', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1840 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal19")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal19')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal19'),1000);
       let point = await button01.getBoundsCenter()
@@ -471,7 +471,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1830', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1830 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal20")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal20')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal20'),1000);
       let point = await button01.getBoundsCenter()
@@ -494,7 +494,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1850', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1850 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal21")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal21')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal21'),1000);
       let point = await button01.getBoundsCenter()
@@ -517,7 +517,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1880', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1880 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal22")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal22')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal22'),1000);
       let point = await button01.getBoundsCenter()
@@ -540,7 +540,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1860', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1860 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal23")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal23')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal23'),1000);
       let point = await button01.getBoundsCenter()
@@ -563,7 +563,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1820', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1820 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal24")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal24')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal24'),1000);
       let point = await button01.getBoundsCenter()
@@ -586,7 +586,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1810', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1810 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal25")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal25')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal25'),1000);
       let point = await button01.getBoundsCenter()
@@ -609,7 +609,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1740', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1740 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal26")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal26')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal26'),1000);
       let point = await button01.getBoundsCenter()
@@ -632,7 +632,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1730', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1730 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal27")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal27')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal27'),1000);
       let point = await button01.getBoundsCenter()
@@ -655,7 +655,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1800', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1800 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal28")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal28')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal28'),1000);
       let point = await button01.getBoundsCenter()
@@ -678,7 +678,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1770', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1770 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal29")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal29')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal29'),1000);
       let point = await button01.getBoundsCenter()
@@ -701,7 +701,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1750', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1750 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal30")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal30')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal30'),1000);
       let point = await button01.getBoundsCenter()
@@ -724,7 +724,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1760', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1760 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal31")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal31')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal31'),1000);
       let point = await button01.getBoundsCenter()
@@ -747,7 +747,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1780', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1780 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal32")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal32')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal32'),1000);
       let point = await button01.getBoundsCenter()
@@ -770,7 +770,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1680', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1680 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal33")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal33')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal33'),1000);
       let point = await button01.getBoundsCenter()
@@ -793,7 +793,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1700', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1700 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal34")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal34')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal34'),1000);
       let point = await button01.getBoundsCenter()
@@ -816,7 +816,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1720', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1720 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal35")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal35')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal35'),1000);
       let point = await button01.getBoundsCenter()
@@ -839,7 +839,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1690', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1690 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal36")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal36')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal36'),1000);
       let point = await button01.getBoundsCenter()
@@ -862,7 +862,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0110 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal37")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal37')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal37'),1000);
       await button01.click()
@@ -883,7 +883,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0120 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal38")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal38')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal38'),1000);
       await button01.click()
@@ -904,7 +904,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0140 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal39")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal39')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal39'),1000);
       await button01.click()
@@ -925,7 +925,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0150 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal40")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal40')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal40'),1000);
       await button01.click()
@@ -946,7 +946,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0130 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal41")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal41')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal41'),1000);
       await button01.click()
@@ -967,7 +967,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0160 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal42")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal42')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal42'),1000);
       await button01.click()
@@ -988,7 +988,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1500', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1500 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal43")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal43')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal43'),1000);
       await button01.click()
@@ -1009,7 +1009,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1520', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1520 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal44")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal44')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal44'),1000);
       await button01.click()
@@ -1030,7 +1030,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1510', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1510 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal45")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal45')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal45'),1000);
       await button01.click()
@@ -1051,7 +1051,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1490', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1490 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal46")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal46')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal46'),1000);
       let point = await button01.getBoundsCenter()
@@ -1074,7 +1074,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1470', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1470 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal47")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal47')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal47'),1000);
       let point = await button01.getBoundsCenter()
@@ -1097,7 +1097,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0330 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal48")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal48')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal48'),1000);
       await Utils.sleep(1000)
@@ -1118,7 +1118,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0350 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal49")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal49')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal49'),1000);
       await button01.click()
@@ -1139,7 +1139,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0340', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0340 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal50")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal50')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal50'),1000);
       await button01.click()
@@ -1160,7 +1160,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0260 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal51")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal51')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal51'),1000);
       await button01.click()
@@ -1181,7 +1181,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0270 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal52")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal52')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal52'),1000);
       await button01.click()
@@ -1202,7 +1202,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0230 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal53")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal53')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal53'),1000);
       await button01.click()
@@ -1223,7 +1223,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0240 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal54")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal54')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal54'),1000);
       await button01.click()
@@ -1244,7 +1244,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0250 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal55")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal55')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal55'),1000);
       await button01.click()
@@ -1265,7 +1265,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0300 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal56")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal56')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal56'),1000);
       await button01.click()
@@ -1286,7 +1286,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0360', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0360 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal57")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal57')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal57'),1000);
       await button01.click()
@@ -1307,7 +1307,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0380 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal58")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal58')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal58'),1000);
       await button01.click()
@@ -1328,7 +1328,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1400 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal59")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal59')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal59'),1000);
       await button01.click()
@@ -1349,7 +1349,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1430', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1430 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal60")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal60')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal60'),1000);
       await button01.click()
@@ -1370,7 +1370,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1390 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal61")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal61')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal61'),1000);
       await button01.click()
@@ -1391,7 +1391,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1640', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1640 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal62")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal62')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal62'),1000);
       await button01.click()
@@ -1412,7 +1412,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1620', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1620 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal63")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal63')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal63'),1000);
       await button01.click()
@@ -1433,7 +1433,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1630', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1630 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal64")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal64')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal64'),1000);
       await button01.click()
@@ -1454,7 +1454,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1660', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1660 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal65")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal65')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal65'),1000);
       await button01.click()
@@ -1475,7 +1475,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1650', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1650 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal66")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal66')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal66'),1000);
       await button01.click()
@@ -1496,7 +1496,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0170 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal67")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal67')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal67'),1000);
       await button01.click()
@@ -1517,7 +1517,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0180 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal68")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal68')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal68'),1000);
       await button01.click()
@@ -1538,7 +1538,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1600', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1600 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal69")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal69')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal69'),1000);
       await button01.click()
@@ -1559,7 +1559,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1590', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1590 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal70")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal70')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal70'),1000);
       await button01.click()
@@ -1580,7 +1580,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1580', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1580 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal71")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal71')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal71'),1000);
       await button01.click()
@@ -1601,7 +1601,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1550', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1550 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal72")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal72')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal72'),1000);
       await button01.click()
@@ -1622,7 +1622,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1540', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1540 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal73")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal73')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal73'),1000);
       await button01.click()
@@ -1643,7 +1643,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0660', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0660 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal74")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal74')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal74'),1000);
       await button01.click()
@@ -1667,7 +1667,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0680', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0680 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal75")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal75')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal75'),1000);
       await button01.click()
@@ -1691,7 +1691,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0710', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0710 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal76")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal76')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal76'),1000);
       await button01.click()
@@ -1715,7 +1715,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0740', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0740 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal77")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal77')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal77'),1000);
       await button01.click()
@@ -1739,7 +1739,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0730', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0730 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal78")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal78')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal78'),1000);
       await button01.click()
@@ -1763,7 +1763,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0810', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0810 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal79")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal79')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal79'),1000);
       await button01.click()
@@ -1787,7 +1787,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0780', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0780 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal80")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal80')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal80'),1000);
       await button01.click()
@@ -1811,7 +1811,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0820', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0820 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal81")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal81')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal81'),1000);
       await button01.click()
@@ -1835,7 +1835,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0830', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0830 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal82")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal82')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal82'),1000);
       await button01.click()
@@ -1859,7 +1859,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0910', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0910 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal83")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal83')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal83'),1000);
       await button01.click()
@@ -1883,7 +1883,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0890', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0890 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal84")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal84')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal84'),1000);
       await button01.click()
@@ -1907,7 +1907,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0920', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0920 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal85")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal85')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal85'),1000);
       await button01.click()
@@ -1931,7 +1931,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0900', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0900 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal86")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal86')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal86'),1000);
       await button01.click()
@@ -1955,7 +1955,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0950', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0950 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal87")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal87')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal87'),1000);
       await button01.click()
@@ -1983,7 +1983,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0690', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0690 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal88")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal88')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal88'),1000);
       let text: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal88_03'),1000);
@@ -2011,7 +2011,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0960', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0960 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal89")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal89')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal89'),1000);
       await button01.click()
@@ -2035,7 +2035,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0560', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0560 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal90")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal90')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal90'),1000);
       await button01.click()
@@ -2056,7 +2056,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0570', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0570 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal91")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal91')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal91'),1000);
       await button01.click()
@@ -2077,7 +2077,7 @@ export default function uiComponentPopupBoxPopupGlobal() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal92")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal92')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxPopupGlobal92'),1000);
       await button01.click()

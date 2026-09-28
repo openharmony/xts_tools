@@ -50,22 +50,22 @@ export default function promptActionSeparatedLayer() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0010 start.`);
-      Settings.createWindow("testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0010")
+      Settings.createWindow('testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0010')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：点击按钮，弹出toast框
-      let toastbutton1 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0010_001"), 500)
+      let toastbutton1 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0010_001'), 500)
       await toastbutton1.click()
       await Utils.sleep(2000)
       // 步骤2：点击第二个按钮，弹出toast框
-      let toastbutton2 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0010_002"), 500)
+      let toastbutton2 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0010_002'), 500)
       await toastbutton2.click()
       await Utils.sleep(2000)
       // 步骤4：点击Test02按钮，切换颜色模式
-      let toastbutton4 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0010_004"), 500)
+      let toastbutton4 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0010_004'), 500)
       await toastbutton4.click()
       await Utils.sleep(2000)
-      let toastbutton5 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0010_005"), 500)
+      let toastbutton5 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0010_005'), 500)
       await toastbutton5.click()
       await Utils.sleep(2000)
       await windowSnap.snapShot()
@@ -85,22 +85,22 @@ export default function promptActionSeparatedLayer() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0020 start.`);
-      Settings.createWindow("testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0020")
+      Settings.createWindow('testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0020')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：点击按钮，弹出toast框
-      let toastbutton1 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0020_001"), 500)
+      let toastbutton1 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0020_001'), 500)
       await toastbutton1.click()
       await Utils.sleep(2000)
       // 步骤2：点击第二个按钮，弹出toast框
-      let toastbutton2 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0020_002"), 500)
+      let toastbutton2 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0020_002'), 500)
       await toastbutton2.click()
       await Utils.sleep(2000)
       // 步骤4：点击Test02按钮，切换颜色模式
-      let toastbutton4 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0020_004"), 500)
+      let toastbutton4 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0020_004'), 500)
       await toastbutton4.click()
       await Utils.sleep(2000)
-      let toastbutton5 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0020_005"), 500)
+      let toastbutton5 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0020_005'), 500)
       await toastbutton5.click()
       await Utils.sleep(2000)
       await windowSnap.snapShot()
@@ -120,22 +120,22 @@ export default function promptActionSeparatedLayer() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0030 start.`);
-      Settings.createWindow("testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0030")
+      Settings.createWindow('testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0030')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：点击按钮，弹出toast框
-      let toastbutton1 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0030_001"), 500)
+      let toastbutton1 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0030_001'), 500)
       await toastbutton1.click()
       await Utils.sleep(2000)
       // 步骤2：点击第二个按钮，弹出toast框
-      let toastbutton2 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0030_002"), 500)
+      let toastbutton2 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0030_002'), 500)
       await toastbutton2.click()
       await Utils.sleep(2000)
       // 步骤4：点击Test02按钮，切换颜色模式
-      let toastbutton4 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0030_004"), 500)
+      let toastbutton4 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0030_004'), 500)
       await toastbutton4.click()
       await Utils.sleep(2000)
-      let toastbutton5 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0030_005"), 500)
+      let toastbutton5 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0030_005'), 500)
       await toastbutton5.click()
       await Utils.sleep(2000)
       await windowSnap.snapShot()
@@ -155,22 +155,22 @@ export default function promptActionSeparatedLayer() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0040 start.`);
-      Settings.createWindow("testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0040")
+      Settings.createWindow('testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0040')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：点击按钮，弹出toast框
-      let toastbutton1 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0040_001"), 500)
+      let toastbutton1 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0040_001'), 500)
       await toastbutton1.click()
       await Utils.sleep(2000)
       // 步骤2：点击第二个按钮，弹出toast框
-      let toastbutton2 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0040_002"), 500)
+      let toastbutton2 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0040_002'), 500)
       await toastbutton2.click()
       await Utils.sleep(2000)
       // 步骤4：点击Test02按钮，切换颜色模式
-      let toastbutton4 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0040_004"), 500)
+      let toastbutton4 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0040_004'), 500)
       await toastbutton4.click()
       await Utils.sleep(2000)
-      let toastbutton5 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0040_005"), 500)
+      let toastbutton5 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0040_005'), 500)
       await toastbutton5.click()
       await Utils.sleep(2000)
       await windowSnap.snapShot()
@@ -190,22 +190,22 @@ export default function promptActionSeparatedLayer() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0050 start.`);
-      Settings.createWindow("testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0050")
+      Settings.createWindow('testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0050')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：点击按钮，弹出toast框
-      let toastbutton1 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0050_001"), 500)
+      let toastbutton1 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0050_001'), 500)
       await toastbutton1.click()
       await Utils.sleep(2000)
       // 步骤2：点击第二个按钮，弹出toast框
-      let toastbutton2 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0050_002"), 500)
+      let toastbutton2 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0050_002'), 500)
       await toastbutton2.click()
       await Utils.sleep(2000)
       // 步骤4：点击Test02按钮，切换颜色模式
-      let toastbutton4 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0050_004"), 500)
+      let toastbutton4 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0050_004'), 500)
       await toastbutton4.click()
       await Utils.sleep(2000)
-      let toastbutton5 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0050_005"), 500)
+      let toastbutton5 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0050_005'), 500)
       await toastbutton5.click()
       await Utils.sleep(2000)
       await windowSnap.snapShot()
@@ -225,22 +225,22 @@ export default function promptActionSeparatedLayer() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0060 start.`);
-      Settings.createWindow("testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0060")
+      Settings.createWindow('testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0060')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：点击按钮，弹出toast框
-      let toastbutton1 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0060_001"), 500)
+      let toastbutton1 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0060_001'), 500)
       await toastbutton1.click()
       await Utils.sleep(2000)
       // 步骤2：点击第二个按钮，弹出toast框
-      let toastbutton2 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0060_002"), 500)
+      let toastbutton2 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0060_002'), 500)
       await toastbutton2.click()
       await Utils.sleep(2000)
       // 步骤4：点击Test02按钮，切换颜色模式
-      let toastbutton4 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0060_004"), 500)
+      let toastbutton4 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0060_004'), 500)
       await toastbutton4.click()
       await Utils.sleep(2000)
-      let toastbutton5 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0060_005"), 500)
+      let toastbutton5 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0060_005'), 500)
       await toastbutton5.click()
       await Utils.sleep(2000)
       await windowSnap.snapShot()
@@ -260,22 +260,22 @@ export default function promptActionSeparatedLayer() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0070 start.`);
-      Settings.createWindow("testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0070")
+      Settings.createWindow('testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0070')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：点击按钮，弹出toast框
-      let toastbutton1 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0070_001"), 500)
+      let toastbutton1 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0070_001'), 500)
       await toastbutton1.click()
       await Utils.sleep(2000)
       // 步骤2：点击第二个按钮，弹出toast框
-      let toastbutton2 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0070_002"), 500)
+      let toastbutton2 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0070_002'), 500)
       await toastbutton2.click()
       await Utils.sleep(2000)
       // 步骤4：点击Test02按钮，切换颜色模式
-      let toastbutton4 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0070_004"), 500)
+      let toastbutton4 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0070_004'), 500)
       await toastbutton4.click()
       await Utils.sleep(2000)
-      let toastbutton5 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0070_005"), 500)
+      let toastbutton5 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0070_005'), 500)
       await toastbutton5.click()
       await Utils.sleep(2000)
       await windowSnap.snapShot()
@@ -295,22 +295,22 @@ export default function promptActionSeparatedLayer() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0080 start.`);
-      Settings.createWindow("testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0080")
+      Settings.createWindow('testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0080')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：点击按钮，弹出toast框
-      let toastbutton1 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0080_001"), 500)
+      let toastbutton1 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0080_001'), 500)
       await toastbutton1.click()
       await Utils.sleep(2000)
       // 步骤2：点击第二个按钮，弹出toast框
-      let toastbutton2 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0080_002"), 500)
+      let toastbutton2 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0080_002'), 500)
       await toastbutton2.click()
       await Utils.sleep(2000)
       // 步骤4：点击Test02按钮，切换颜色模式
-      let toastbutton4 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0080_004"), 500)
+      let toastbutton4 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0080_004'), 500)
       await toastbutton4.click()
       await Utils.sleep(2000)
-      let toastbutton5 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0080_005"), 500)
+      let toastbutton5 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0080_005'), 500)
       await toastbutton5.click()
       await Utils.sleep(2000)
       await windowSnap.snapShot()
@@ -330,22 +330,22 @@ export default function promptActionSeparatedLayer() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0090 start.`);
-      Settings.createWindow("testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0090")
+      Settings.createWindow('testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0090')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：点击按钮，弹出toast框
-      let toastbutton1 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0090_001"), 500)
+      let toastbutton1 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0090_001'), 500)
       await toastbutton1.click()
       await Utils.sleep(2000)
       // 步骤2：点击第二个按钮，弹出toast框
-      let toastbutton2 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0090_002"), 500)
+      let toastbutton2 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0090_002'), 500)
       await toastbutton2.click()
       await Utils.sleep(2000)
       // 步骤4：点击Test02按钮，切换颜色模式
-      let toastbutton4 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0090_004"), 500)
+      let toastbutton4 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0090_004'), 500)
       await toastbutton4.click()
       await Utils.sleep(2000)
-      let toastbutton5 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0090_005"), 500)
+      let toastbutton5 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0090_005'), 500)
       await toastbutton5.click()
       await Utils.sleep(2000)
       await windowSnap.snapShot()
@@ -365,22 +365,22 @@ export default function promptActionSeparatedLayer() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0100 start.`);
-      Settings.createWindow("testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0100")
+      Settings.createWindow('testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0100')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：点击按钮，弹出toast框
-      let toastbutton1 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0100_001"), 500)
+      let toastbutton1 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0100_001'), 500)
       await toastbutton1.click()
       await Utils.sleep(2000)
       // 步骤2：点击第二个按钮，弹出toast框
-      let toastbutton2 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0100_002"), 500)
+      let toastbutton2 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0100_002'), 500)
       await toastbutton2.click()
       await Utils.sleep(2000)
       // 步骤4：点击Test02按钮，切换颜色模式
-      let toastbutton4 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0100_004"), 500)
+      let toastbutton4 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0100_004'), 500)
       await toastbutton4.click()
       await Utils.sleep(2000)
-      let toastbutton5 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0100_005"), 500)
+      let toastbutton5 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0100_005'), 500)
       await toastbutton5.click()
       await Utils.sleep(2000)
       await windowSnap.snapShot()
@@ -400,22 +400,22 @@ export default function promptActionSeparatedLayer() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0110 start.`);
-      Settings.createWindow("testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0110")
+      Settings.createWindow('testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0110')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：点击按钮，弹出toast框
-      let toastbutton1 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0110_001"), 500)
+      let toastbutton1 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0110_001'), 500)
       await toastbutton1.click()
       await Utils.sleep(2000)
       // 步骤2：点击第二个按钮，弹出toast框
-      let toastbutton2 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0110_002"), 500)
+      let toastbutton2 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0110_002'), 500)
       await toastbutton2.click()
       await Utils.sleep(2000)
       // 步骤4：点击Test02按钮，切换颜色模式
-      let toastbutton4 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0110_004"), 500)
+      let toastbutton4 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0110_004'), 500)
       await toastbutton4.click()
       await Utils.sleep(2000)
-      let toastbutton5 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0110_005"), 500)
+      let toastbutton5 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0110_005'), 500)
       await toastbutton5.click()
       await Utils.sleep(2000)
       await windowSnap.snapShot()
@@ -435,22 +435,22 @@ export default function promptActionSeparatedLayer() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0120 start.`);
-      Settings.createWindow("testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0120")
+      Settings.createWindow('testability/pages/component/popup/promptActionSeparatedLayer/PromptActionSeparatedLayer0120')
       let driver: Driver = Driver.create();
       await driver.waitForIdle(2000, 3000)
       // 步骤1：点击按钮，弹出toast框
-      let toastbutton1 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0120_001"), 500)
+      let toastbutton1 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0120_001'), 500)
       await toastbutton1.click()
       await Utils.sleep(2000)
       // 步骤2：点击第二个按钮，弹出toast框
-      let toastbutton2 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0120_002"), 500)
+      let toastbutton2 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0120_002'), 500)
       await toastbutton2.click()
       await Utils.sleep(2000)
       // 步骤4：点击Test02按钮，切换颜色模式
-      let toastbutton4 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0120_004"), 500)
+      let toastbutton4 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0120_004'), 500)
       await toastbutton4.click()
       await Utils.sleep(2000)
-      let toastbutton5 = await driver.waitForComponent(ON.id("PromptActionSeparatedLayer0120_005"), 500)
+      let toastbutton5 = await driver.waitForComponent(ON.id('PromptActionSeparatedLayer0120_005'), 500)
       await toastbutton5.click()
       await Utils.sleep(2000)
       await windowSnap.snapShot()

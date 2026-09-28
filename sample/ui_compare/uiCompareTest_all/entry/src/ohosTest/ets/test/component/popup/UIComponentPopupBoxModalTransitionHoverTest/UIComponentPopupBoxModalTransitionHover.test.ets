@@ -69,7 +69,7 @@ export default function uIComponentPopupBoxModalTransitionHover() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0020';
-      let pageName = "UIComponentPopupBoxModalTransitionHover0020";
+      let pageName = 'UIComponentPopupBoxModalTransitionHover0020';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxModalTransitionHover/' + pageName);
       let driver: Driver = Driver.create();
@@ -93,7 +93,7 @@ export default function uIComponentPopupBoxModalTransitionHover() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0030';
-      let pageName = "UIComponentPopupBoxModalTransitionHover0030";
+      let pageName = 'UIComponentPopupBoxModalTransitionHover0030';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxModalTransitionHover/' + pageName);
       let driver: Driver = Driver.create();
@@ -117,7 +117,7 @@ export default function uIComponentPopupBoxModalTransitionHover() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0040';
-      let pageName = "UIComponentPopupBoxModalTransitionHover0040";
+      let pageName = 'UIComponentPopupBoxModalTransitionHover0040';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxModalTransitionHover/' + pageName);
       let driver: Driver = Driver.create();
@@ -141,7 +141,7 @@ export default function uIComponentPopupBoxModalTransitionHover() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0050';
-      let pageName = "UIComponentPopupBoxModalTransitionHover0050";
+      let pageName = 'UIComponentPopupBoxModalTransitionHover0050';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxModalTransitionHover/' + pageName);
       let driver: Driver = Driver.create();
@@ -165,7 +165,7 @@ export default function uIComponentPopupBoxModalTransitionHover() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HOVER_0060';
-      let pageName = "UIComponentPopupBoxModalTransitionHover0060";
+      let pageName = 'UIComponentPopupBoxModalTransitionHover0060';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxModalTransitionHover/' + pageName);
       let driver: Driver = Driver.create();

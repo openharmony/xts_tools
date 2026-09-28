@@ -67,7 +67,7 @@ export default function uiComponentPopupBoxLunarSwitchStyle() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0070 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle01")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle01')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxLunarSwitchStyle01'),1000);
       try {
@@ -104,7 +104,7 @@ export default function uiComponentPopupBoxLunarSwitchStyle() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0020 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle02")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle02')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxLunarSwitchStyle02'),1000);
       await button01.click()
@@ -129,7 +129,7 @@ export default function uiComponentPopupBoxLunarSwitchStyle() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0040 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle03")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle03')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxLunarSwitchStyle03'),1000);
       try {
@@ -166,7 +166,7 @@ export default function uiComponentPopupBoxLunarSwitchStyle() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0050 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle04")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle04')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxLunarSwitchStyle04'),1000);
       try {
@@ -203,7 +203,7 @@ export default function uiComponentPopupBoxLunarSwitchStyle() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0060 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle05")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle05')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxLunarSwitchStyle05'),1000);
       try {
@@ -240,7 +240,7 @@ export default function uiComponentPopupBoxLunarSwitchStyle() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0030 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle06")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle06')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxLunarSwitchStyle06'),1000);
       try {
@@ -277,7 +277,7 @@ export default function uiComponentPopupBoxLunarSwitchStyle() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0120 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle07")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle07')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxLunarSwitchStyle07'),1000);
       try {
@@ -314,7 +314,7 @@ export default function uiComponentPopupBoxLunarSwitchStyle() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0110 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle08")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxLunarSwitchStyle/UiComponentPopupBoxLunarSwitchStyle08')
       let driver:Driver=Driver.create();
       let button01: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxLunarSwitchStyle08'),1000);
       try {

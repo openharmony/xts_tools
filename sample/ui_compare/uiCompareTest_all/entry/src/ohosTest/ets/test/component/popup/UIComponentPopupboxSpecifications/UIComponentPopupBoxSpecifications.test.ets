@@ -64,7 +64,7 @@ export default function uIComponentPopupBoxSpecifications() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0490', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0490 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications01")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications01')
       let driver:Driver=Driver.create();
       let button02: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecifications01_02'),1000);
       await button02.click()
@@ -92,7 +92,7 @@ export default function uIComponentPopupBoxSpecifications() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0500', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0500 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications02")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications02')
       let driver:Driver=Driver.create();
       let button02: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecifications02_02'),1000);
       await button02.click()
@@ -119,7 +119,7 @@ export default function uIComponentPopupBoxSpecifications() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0510', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0510 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications03")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications03')
       let driver:Driver=Driver.create();
       let button02: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecifications03_02'),1000);
       let text: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecifications03_01'),1000);
@@ -147,7 +147,7 @@ export default function uIComponentPopupBoxSpecifications() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0520', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0520 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications04")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications04')
       let driver:Driver=Driver.create();
       let button02: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecifications04_02'),1000);
       let text: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecifications04_01'),1000);
@@ -175,7 +175,7 @@ export default function uIComponentPopupBoxSpecifications() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0530', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0530 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications05")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications05')
       let driver:Driver=Driver.create();
       let button02: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecifications05_02'),1000);
       let text: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecifications05_01'),1000);
@@ -203,7 +203,7 @@ export default function uIComponentPopupBoxSpecifications() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0540', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0540 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications06")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications06')
       let driver:Driver=Driver.create();
       let button02: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecifications06_02'),1000);
       let text: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecifications06_01'),1000);
@@ -231,7 +231,7 @@ export default function uIComponentPopupBoxSpecifications() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0550', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0550 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications07")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications07')
       let driver:Driver=Driver.create();
       let button02: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecifications07_02'),1000);
       let text: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecifications07_01'),1000);
@@ -259,7 +259,7 @@ export default function uIComponentPopupBoxSpecifications() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0560', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0560 start.`);
-      Settings.createWindow("testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications08")
+      Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxSpecifications/UIComponentPopupBoxSpecifications08')
       let driver:Driver=Driver.create();
       let button02: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecifications08_02'),1000);
       let text: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecifications08_01'),1000);

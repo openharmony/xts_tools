@@ -46,28 +46,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0060", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0060")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0060', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0060')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Open Popup" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_popup_0060_open"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_popup_0060_open'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果1：Popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0060_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0060_01')
       await Utils.sleep(1000)
 
 
       // 步骤3：点击 "Close Popup" 按钮
-      let button_close = await driver.waitForComponent(ON.id("button_popup_0060_close"), 500)
+      let button_close = await driver.waitForComponent(ON.id('button_popup_0060_close'), 500)
       await button_close.click()
       await Utils.sleep(500)
 
       // 预期效果3：popup 关闭
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0060_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0060_02')
       await Utils.sleep(1000)
 
       done();
@@ -81,36 +81,36 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0070", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0070")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0070', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0070')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Open Popup1" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_popup_0070_open"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_popup_0070_open'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果1：Popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0070_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0070_01')
       await Utils.sleep(1000)
 
       // 步骤2：点击 "UpdatePopup" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_popup_0070_update"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_popup_0070_update'), 500)
       await button_update.click()
       await Utils.sleep(500)
 
       // 预期效果2：popup 的地板变为浅红色（被模糊材质所影响）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0070_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0070_02')
       await Utils.sleep(1000)
 
       // 步骤3：点击 "Close Popup" 按钮
-      let button_close = await driver.waitForComponent(ON.id("button_popup_0070_close"), 500)
+      let button_close = await driver.waitForComponent(ON.id('button_popup_0070_close'), 500)
       await button_close.click()
       await Utils.sleep(500)
 
       // 预期效果3：popup 关闭
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0070_03")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0070_03')
       await Utils.sleep(1000)
 
       done();
@@ -124,36 +124,36 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0080", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0080")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0080', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0080')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Open Popup2" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_popup_0080_open"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_popup_0080_open'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果1：Popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0080_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0080_01')
       await Utils.sleep(1000)
 
       // 步骤2：点击 "UpdatePopup" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_popup_0080_update"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_popup_0080_update'), 500)
       await button_update.click()
       await Utils.sleep(500)
 
       // 预期效果2：popup 的地板变为浅红色（被模糊材质所影响）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0080_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0080_02')
       await Utils.sleep(1000)
 
       // 步骤3：点击 "Close Popup" 按钮
-      let button_close = await driver.waitForComponent(ON.id("button_popup_0080_close"), 500)
+      let button_close = await driver.waitForComponent(ON.id('button_popup_0080_close'), 500)
       await button_close.click()
       await Utils.sleep(500)
 
       // 预期效果3：popup 关闭
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0080_03")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0080_03')
       await Utils.sleep(1000)
 
       done();
@@ -167,36 +167,36 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0090", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0090")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0090', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0090')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Open Popup2 no componentId" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_popup_0090_open"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_popup_0090_open'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果1：Popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0090_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0090_01')
       await Utils.sleep(1000)
 
       // 步骤2：点击 "UpdatePopup" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_popup_0090_update"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_popup_0090_update'), 500)
       await button_update.click()
       await Utils.sleep(500)
 
       // 预期效果2：popup 的地板变为浅红色（被模糊材质所影响）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0090_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0090_02')
       await Utils.sleep(1000)
 
       // 步骤3：点击 "Close Popup" 按钮
-      let button_close = await driver.waitForComponent(ON.id("button_popup_0090_close"), 500)
+      let button_close = await driver.waitForComponent(ON.id('button_popup_0090_close'), 500)
       await button_close.click()
       await Utils.sleep(500)
 
       // 预期效果3：popup 关闭
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0090_03")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0090_03')
       await Utils.sleep(1000)
 
       done();
@@ -210,24 +210,24 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0100", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0100")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0100', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0100')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0100"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0100'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤2：将 targetSpace 状态选择为 "radius：undefined" 状态（已在步骤1中完成）
       // 点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_popup_0100_open"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_popup_0100_open'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：设置圆角半径为 20vp（箭头消失）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0100_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0100_01')
       await Utils.sleep(1000)
 
       done();
@@ -241,18 +241,18 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0190", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0190")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0190', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0190')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0190"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0190'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮三次，选择 "shadow：[object Object]" 状态
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0190"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0190'), 500)
       await button_jump.click()
       await Utils.sleep(300)
       await button_jump.click()
@@ -261,12 +261,12 @@ export default function uiComponentPopupboxPopupGlobal() {
       await Utils.sleep(500)
 
       // 步骤3：点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_0190"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_0190'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：气泡弹出，阴影参数符合预期
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0190_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0190_01')
       await Utils.sleep(1000)
 
       done();
@@ -280,41 +280,41 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0200", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0200")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0200', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0200')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Popup9" 按钮
-      let button_popup9 = await driver.waitForComponent(ON.id("button_popup9_0200"), 500)
+      let button_popup9 = await driver.waitForComponent(ON.id('button_popup9_0200'), 500)
       await button_popup9.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "Open Popup3, componentId 唯一" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_popup3_0200"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_popup3_0200'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果1：Popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0200_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0200_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击 "UpdatePopup" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_update_popup_0200"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_update_popup_0200'), 500)
       await button_update.click()
       await Utils.sleep(500)
 
       // 预期效果2：popup 的地板变为浅红色（被模糊材质所影响）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0200_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0200_02')
       await Utils.sleep(1000)
 
       // 步骤4：点击 "Close Popup" 按钮
-      let button_close = await driver.waitForComponent(ON.id("button_close_popup_0200"), 500)
+      let button_close = await driver.waitForComponent(ON.id('button_close_popup_0200'), 500)
       await button_close.click()
       await Utils.sleep(500)
 
       // 预期效果3：popup 关闭
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0200_03")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0200_03')
       await Utils.sleep(1000)
 
       done();
@@ -328,28 +328,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0210", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0210")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0210', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0210')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0210"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0210'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮，选择 "shadow：null" 状态
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0210"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0210'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_0210"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_0210'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：气泡的阴影是中阴影
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0210_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0210_01')
       await Utils.sleep(1000)
 
       done();
@@ -363,28 +363,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0220", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0220")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0220', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0220')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0220"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0220'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮，选择 "shadow：undefined" 状态
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0220"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0220'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_0220"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_0220'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：气泡的阴影是中阴影
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0220_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0220_01')
       await Utils.sleep(1000)
 
       done();
@@ -398,28 +398,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0280", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0280")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0280', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0280')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0280"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0280'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0280"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0280'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_0280"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_0280'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：气泡的模糊背景是远距景深模糊
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0280_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0280_01')
       await Utils.sleep(1000)
 
       done();
@@ -433,28 +433,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0290", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0290")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0290', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0290')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0290"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0290'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0290"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0290'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_0290"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_0290'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：气泡的模糊背景是超远距景深模糊
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0290_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0290_01')
       await Utils.sleep(1000)
 
       done();
@@ -468,41 +468,41 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0310", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0310")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0310', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0310')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Popup9" 按钮
-      let button_popup9 = await driver.waitForComponent(ON.id("button_popup9_0310"), 500)
+      let button_popup9 = await driver.waitForComponent(ON.id('button_popup9_0310'), 500)
       await button_popup9.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "我和 Popup3 string 不一样，componentId 不唯一" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_different_0310"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_different_0310'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果1：Popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0310_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0310_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击 "UpdatePopup" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_update_popup_0310"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_update_popup_0310'), 500)
       await button_update.click()
       await Utils.sleep(500)
 
       // 预期效果2：popup 的地板变为浅红色（被模糊材质所影响）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0310_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0310_02')
       await Utils.sleep(1000)
 
       // 步骤4：点击 "Close Popup" 按钮
-      let button_close = await driver.waitForComponent(ON.id("button_close_popup_0310"), 500)
+      let button_close = await driver.waitForComponent(ON.id('button_close_popup_0310'), 500)
       await button_close.click()
       await Utils.sleep(500)
 
       // 预期效果3：popup 关闭
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0310_03")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0310_03')
       await Utils.sleep(1000)
 
       done();
@@ -516,28 +516,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0320", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0320")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0320', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0320')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0320"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0320'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0320"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0320'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_0320"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_0320'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：气泡的模糊背景是组件超轻薄材质模糊
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0320_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0320_01')
       await Utils.sleep(1000)
 
       done();
@@ -551,33 +551,33 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0390", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0390")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0390', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0390')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0390"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0390'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮，选择 "focusable：true" 状态
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0390"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0390'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open2" 按钮
-      let button_open2 = await driver.waitForComponent(ON.id("button_open2_0390"), 500)
+      let button_open2 = await driver.waitForComponent(ON.id('button_open2_0390'), 500)
       await button_open2.click()
       await Utils.sleep(500)
 
       // 预期效果1：气泡弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0390_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0390_01')
       await Utils.sleep(1000)
 
       // 步骤4：外接键盘按 tab 键（此步骤需要手动测试或使用输入事件模拟）
       // 预期效果2：popup 的输入框获焦
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0390_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0390_02')
       await Utils.sleep(1000)
 
       done();
@@ -591,33 +591,33 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0400", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0400")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0400', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0400')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0400"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0400'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮，选择 "focusable：false" 状态
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0400"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0400'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open2" 按钮
-      let button_open2 = await driver.waitForComponent(ON.id("button_open2_0400"), 500)
+      let button_open2 = await driver.waitForComponent(ON.id('button_open2_0400'), 500)
       await button_open2.click()
       await Utils.sleep(500)
 
       // 预期效果1：气泡弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0400_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0400_01')
       await Utils.sleep(1000)
 
       // 步骤4：外接键盘按 tab 键（此步骤需要手动测试或使用输入事件模拟）
       // 预期效果2：popup 的输入框不可获焦
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0400_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0400_02')
       await Utils.sleep(1000)
 
       done();
@@ -631,28 +631,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0410", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0410")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0410', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0410')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0410"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0410'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0410"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0410'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open2" 按钮
-      let button_open2 = await driver.waitForComponent(ON.id("button_open2_0410"), 500)
+      let button_open2 = await driver.waitForComponent(ON.id('button_open2_0410'), 500)
       await button_open2.click()
       await Utils.sleep(500)
 
       // 预期效果1：气泡弹出，popup 的输入框不可获焦
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0410_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0410_01')
       await Utils.sleep(1000)
 
       done();
@@ -666,41 +666,41 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0420", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0420")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0420', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0420')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Popup9" 按钮
-      let button_popup9 = await driver.waitForComponent(ON.id("button_popup9_0420"), 500)
+      let button_popup9 = await driver.waitForComponent(ON.id('button_popup9_0420'), 500)
       await button_popup9.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "我和 Popup3 string 一样 但没有 componentId" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_0420"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_0420'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果1：Popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0420_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0420_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击 "UpdatePopup" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_update_popup_0420"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_update_popup_0420'), 500)
       await button_update.click()
       await Utils.sleep(500)
 
       // 预期效果2：popup 的地板变为浅红色（被模糊材质所影响）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0420_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0420_02')
       await Utils.sleep(1000)
 
       // 步骤4：点击 "Close Popup" 按钮
-      let button_close = await driver.waitForComponent(ON.id("button_close_popup_0420"), 500)
+      let button_close = await driver.waitForComponent(ON.id('button_close_popup_0420'), 500)
       await button_close.click()
       await Utils.sleep(500)
 
       // 预期效果3：popup 关闭
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0420_03")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0420_03')
       await Utils.sleep(1000)
 
       done();
@@ -714,28 +714,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0430", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0430")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0430', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0430')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0430"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0430'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0430"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0430'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open2" 按钮
-      let button_open2 = await driver.waitForComponent(ON.id("button_open2_0430"), 500)
+      let button_open2 = await driver.waitForComponent(ON.id('button_open2_0430'), 500)
       await button_open2.click()
       await Utils.sleep(500)
 
       // 预期效果1：气泡弹出，popup 的输入框不可获焦
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0430_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0430_01')
       await Utils.sleep(1000)
 
       done();
@@ -749,28 +749,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0440", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0440")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0440', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0440')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0440"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0440'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0440"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0440'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "transition_opacity" 按钮
-      let button_transition_opacity = await driver.waitForComponent(ON.id("button_transition_opacity_0440"), 500)
+      let button_transition_opacity = await driver.waitForComponent(ON.id('button_transition_opacity_0440'), 500)
       await button_transition_opacity.click()
       await Utils.sleep(3500)
 
       // 预期效果：气泡弹出，透明度效果为 0.5，动画持续时间为 3 秒，动画播放速度为 1，动画曲线为 Linear
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0440_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0440_01')
       await Utils.sleep(1000)
 
       done();
@@ -784,28 +784,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0450", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0450")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0450', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0450')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0450"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0450'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0450"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0450'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "transition_translate1" 按钮
-      let button_transition_translate1 = await driver.waitForComponent(ON.id("button_transition_translate1_0450"), 500)
+      let button_transition_translate1 = await driver.waitForComponent(ON.id('button_transition_translate1_0450'), 500)
       await button_transition_translate1.click()
       await Utils.sleep(3500)
 
       // 预期效果：气泡弹出，组件转场时横向平移为 50，纵向平移为 50，竖向平移不生效
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0450_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0450_01')
       await Utils.sleep(1000)
 
       done();
@@ -819,28 +819,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0460", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0460")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0460', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0460')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0460"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0460'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0460"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0460'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "transition_translate2" 按钮
-      let button_transition_translate2 = await driver.waitForComponent(ON.id("button_transition_translate2_0460"), 500)
+      let button_transition_translate2 = await driver.waitForComponent(ON.id('button_transition_translate2_0460'), 500)
       await button_transition_translate2.click()
       await Utils.sleep(3500)
 
       // 预期效果：气泡弹出，组件转场时横向平移为 50，纵向平移为 50，竖向平移不生效
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0460_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0460_01')
       await Utils.sleep(1000)
 
       done();
@@ -854,28 +854,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0470", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0470")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0470', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0470')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0470"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0470'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0470"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0470'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "transition_scale" 按钮
-      let button_transition_scale = await driver.waitForComponent(ON.id("button_transition_scale_0470"), 500)
+      let button_transition_scale = await driver.waitForComponent(ON.id('button_transition_scale_0470'), 500)
       await button_transition_scale.click()
       await Utils.sleep(3500)
 
       // 预期效果：气泡弹出，x 轴的缩放倍数为 1，y 轴的缩放倍数为 1.5，z 轴的缩放倍数不生效，组件变换中心点 x 轴坐标为 50vp，组件变换中心点 y 轴坐标为 50vp
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0470_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0470_01')
       await Utils.sleep(1000)
 
       done();
@@ -889,28 +889,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0480", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0480")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0480', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0480')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0480"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0480'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0480"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0480'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "transition_rotate" 按钮
-      let button_transition_rotate = await driver.waitForComponent(ON.id("button_transition_rotate_0480"), 500)
+      let button_transition_rotate = await driver.waitForComponent(ON.id('button_transition_rotate_0480'), 500)
       await button_transition_rotate.click()
       await Utils.sleep(3500)
 
       // 预期效果：气泡弹出，旋转轴向量 x 坐标：50，旋转轴向量 y 坐标：50，旋转轴向量 z 坐标：50，旋转角度为 90deg，组件变换中心点 x 轴坐标为 50vp，组件变换中心点 y 轴坐标为 50vp，组件变换中心点 y 轴坐标为 0vp，视距为 0
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0480_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0480_01')
       await Utils.sleep(1000)
 
       done();
@@ -924,37 +924,37 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0490", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0490")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0490', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0490')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0490"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0490'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0490"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0490'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "transition_move1" 按钮
-      let button_transition_move1 = await driver.waitForComponent(ON.id("button_transition_move1_0490"), 500)
+      let button_transition_move1 = await driver.waitForComponent(ON.id('button_transition_move1_0490'), 500)
       await button_transition_move1.click()
       await Utils.sleep(3500)
 
       // 预期效果1：气泡弹出，从窗口的上边缘弹出，出现时透明度从 0 到 1，动画持续 3 秒
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0490_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0490_01')
       await Utils.sleep(1000)
 
       // 步骤4：点击关闭按钮关闭弹窗
-      let button_close = await driver.waitForComponent(ON.id("button_close_popup_0490"), 500)
+      let button_close = await driver.waitForComponent(ON.id('button_close_popup_0490'), 500)
       await button_close.click()
       await Utils.sleep(3500)
 
       // 预期效果2：气泡消失，从窗口的左边缘消失，动画持续 3 秒
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0490_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0490_02')
       await Utils.sleep(1000)
 
       done();
@@ -968,37 +968,37 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0500", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0500")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0500', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0500')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0500"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0500'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0500"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0500'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "transition_move2" 按钮
-      let button_transition_move2 = await driver.waitForComponent(ON.id("button_transition_move2_0500"), 500)
+      let button_transition_move2 = await driver.waitForComponent(ON.id('button_transition_move2_0500'), 500)
       await button_transition_move2.click()
       await Utils.sleep(3500)
 
       // 预期效果1：气泡弹出，从窗口的右边缘弹出，出现时透明度从 0 到 1，动画持续 3 秒
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0500_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0500_01')
       await Utils.sleep(1000)
 
       // 步骤4：点击关闭按钮关闭弹窗
-      let button_close = await driver.waitForComponent(ON.id("button_close_popup_0500"), 500)
+      let button_close = await driver.waitForComponent(ON.id('button_close_popup_0500'), 500)
       await button_close.click()
       await Utils.sleep(3500)
 
       // 预期效果2：气泡消失，从窗口的下边缘消失，动画持续 3 秒
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0500_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0500_02')
       await Utils.sleep(1000)
 
       done();
@@ -1012,23 +1012,23 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0510", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0510")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0510', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0510')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：将 onWillDismiss 状态选择为 "onWillDismiss：true" 状态
-      let button_set_onwilldismiss = await driver.waitForComponent(ON.id("button_set_onwilldismiss_true_0510"), 500)
+      let button_set_onwilldismiss = await driver.waitForComponent(ON.id('button_set_onwilldismiss_true_0510'), 500)
       await button_set_onwilldismiss.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "open2" 按钮
-      let button_open2 = await driver.waitForComponent(ON.id("button_open2_0510"), 500)
+      let button_open2 = await driver.waitForComponent(ON.id('button_open2_0510'), 500)
       await button_open2.click()
       await Utils.sleep(500)
 
       // 预期效果1：popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0510_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0510_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击空白处、左右滑动屏幕
@@ -1044,7 +1044,7 @@ export default function uiComponentPopupboxPopupGlobal() {
       await Utils.sleep(500)
 
       // 预期效果2：popup 退出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0510_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0510_02')
       await Utils.sleep(1000)
 
       done();
@@ -1058,23 +1058,23 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0520", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0520")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0520', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0520')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：将 onWillDismiss 状态选择为 "onWillDismiss：false" 状态
-      let button_set_onwilldismiss = await driver.waitForComponent(ON.id("button_set_onwilldismiss_false_0520"), 500)
+      let button_set_onwilldismiss = await driver.waitForComponent(ON.id('button_set_onwilldismiss_false_0520'), 500)
       await button_set_onwilldismiss.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "open2" 按钮
-      let button_open2 = await driver.waitForComponent(ON.id("button_open2_0520"), 500)
+      let button_open2 = await driver.waitForComponent(ON.id('button_open2_0520'), 500)
       await button_open2.click()
       await Utils.sleep(500)
 
       // 预期效果1：popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0520_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0520_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击空白处、左右滑动屏幕、键盘 esc 键
@@ -1094,7 +1094,7 @@ export default function uiComponentPopupboxPopupGlobal() {
       await Utils.sleep(500)
 
       // 预期效果2：popup 不会退出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0520_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0520_02')
       await Utils.sleep(1000)
 
       done();
@@ -1108,23 +1108,23 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0540", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0540")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0540', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0540')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：将 onWillDismiss 状态选择为 "onWillDismiss：null" 状态
-      let button_set_onwilldismiss = await driver.waitForComponent(ON.id("button_set_onwilldismiss_null_0540"), 500)
+      let button_set_onwilldismiss = await driver.waitForComponent(ON.id('button_set_onwilldismiss_null_0540'), 500)
       await button_set_onwilldismiss.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "open2" 按钮
-      let button_open2 = await driver.waitForComponent(ON.id("button_open2_0540"), 500)
+      let button_open2 = await driver.waitForComponent(ON.id('button_open2_0540'), 500)
       await button_open2.click()
       await Utils.sleep(500)
 
       // 预期效果1：popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0540_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0540_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击空白处、左右滑动屏幕
@@ -1140,7 +1140,7 @@ export default function uiComponentPopupboxPopupGlobal() {
       await Utils.sleep(500)
 
       // 预期效果2：popup 退出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0540_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0540_02')
       await Utils.sleep(1000)
 
       done();
@@ -1154,23 +1154,23 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0550", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0550")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0550', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0550')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：将 onWillDismiss 状态选择为 "onWillDismiss：undefined" 状态
-      let button_set_onwilldismiss = await driver.waitForComponent(ON.id("button_set_onwilldismiss_undefined_0550"), 500)
+      let button_set_onwilldismiss = await driver.waitForComponent(ON.id('button_set_onwilldismiss_undefined_0550'), 500)
       await button_set_onwilldismiss.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "open2" 按钮
-      let button_open2 = await driver.waitForComponent(ON.id("button_open2_0550"), 500)
+      let button_open2 = await driver.waitForComponent(ON.id('button_open2_0550'), 500)
       await button_open2.click()
       await Utils.sleep(500)
 
       // 预期效果1：popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0550_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0550_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击空白处、左右滑动屏幕
@@ -1186,7 +1186,7 @@ export default function uiComponentPopupboxPopupGlobal() {
       await Utils.sleep(500)
 
       // 预期效果2：popup 退出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0550_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0550_02')
       await Utils.sleep(1000)
 
       done();
@@ -1200,23 +1200,23 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0590")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0590')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：将 followTransformOfTarget 状态选择为 "followTransformOfTarget：undefined" 状态
-      let button_set_followtransform = await driver.waitForComponent(ON.id("button_set_followtransform_undefined_0590"), 500)
+      let button_set_followtransform = await driver.waitForComponent(ON.id('button_set_followtransform_undefined_0590'), 500)
       await button_set_followtransform.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "followTransformOfTarget_rotate" 按钮
-      let button_followtransform_rotate = await driver.waitForComponent(ON.id("button_followtransform_rotate_0590"), 500)
+      let button_followtransform_rotate = await driver.waitForComponent(ON.id('button_followtransform_rotate_0590'), 500)
       await button_followtransform_rotate.click()
       await Utils.sleep(1000)
 
       // 预期效果1：button 组件旋转 90 度，popup 弹出但位置没有跟随宿主组件变化（在 button 组件右侧）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590_01')
       await Utils.sleep(1000)
 
       done();
@@ -1230,32 +1230,32 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0720", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0720")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0720', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0720')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0720"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0720'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击气泡内的 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0720"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0720'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 预期效果1：气泡弹出（不在子窗口显示气泡）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0720_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0720_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击气泡内的 "update 更新" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_update_0720"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_update_0720'), 500)
       await button_update.click()
       await Utils.sleep(3000)
 
       // 预期效果2：等待 3s 后，showInSubWindow 还是 false（气泡仍不在子窗口显示）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0720_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0720_02')
       await Utils.sleep(1000)
 
       done();
@@ -1269,32 +1269,32 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0760", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0760")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0760', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0760')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0760"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0760'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击气泡内的 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0760"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0760'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 预期效果1：气泡的偏移是默认值
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0760_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0760_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击气泡内的 "update 更新" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_update_0760"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_update_0760'), 500)
       await button_update.click()
       await Utils.sleep(3000)
 
       // 预期效果2：等待 3s 后，气泡的偏移保持默认值（x 和 y 没有变化）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0760_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0760_02')
       await Utils.sleep(1000)
 
       done();
@@ -1308,32 +1308,32 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0770", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0770")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0770', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0770')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0770"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0770'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击气泡内的 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0770"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0770'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 预期效果1：弹窗宽度是默认值
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0770_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0770_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击气泡内的 "update 更新" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_update_0770"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_update_0770'), 500)
       await button_update.click()
       await Utils.sleep(3000)
 
       // 预期效果2：等待 3s 后，弹窗宽度还是默认值（没有变为 50vp）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0770_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0770_02')
       await Utils.sleep(1000)
 
       done();
@@ -1347,32 +1347,32 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0790", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0790")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0790', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0790')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0790"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0790'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击气泡内的 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0790"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0790'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 预期效果1：气泡箭头宽度为 16vp
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0790_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0790_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击气泡内的 "update 更新" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_update_0790"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_update_0790'), 500)
       await button_update.click()
       await Utils.sleep(3000)
 
       // 预期效果2：等待 3s 后，气泡箭头宽度还是 16vp
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0790_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0790_02')
       await Utils.sleep(1000)
 
       done();
@@ -1386,32 +1386,32 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0800", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0800")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0800', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0800')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0800"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0800'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击气泡内的 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0800"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0800'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 预期效果1：气泡箭头高度为 8vp
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0800_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0800_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击气泡内的 "update 更新" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_update_0800"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_update_0800'), 500)
       await button_update.click()
       await Utils.sleep(3000)
 
       // 预期效果2：等待 3s 后，气泡箭头高度还是 8vp
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0800_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0800_02')
       await Utils.sleep(1000)
 
       done();
@@ -1425,32 +1425,32 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0840", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0840")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0840', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0840')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0840"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0840'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击气泡内的 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0840"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0840'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 预期效果1：气泡弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0840_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0840_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击气泡内的 "update 更新_focusable" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_update_focusable_0840"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_update_focusable_0840'), 500)
       await button_update.click()
       await Utils.sleep(3000)
 
       // 预期效果2：等待 3s 后，popup 的输入框获焦（focusable 还是 true）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0840_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0840_02')
       await Utils.sleep(1000)
 
       done();
@@ -1464,32 +1464,32 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0850", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0850")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0850', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0850')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0850"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0850'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击气泡内的 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0850"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0850'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 预期效果1：气泡弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0850_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0850_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击气泡内的 "update 更新" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_update_0850"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_update_0850'), 500)
       await button_update.click()
       await Utils.sleep(3000)
 
       // 预期效果2：等待 3s 后，气泡并没有做动画（动画不是指背景颜色）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0850_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0850_02')
       await Utils.sleep(1000)
 
       done();
@@ -1503,27 +1503,27 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0870", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0870")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0870', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0870')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0870"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0870'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 预期效果1：popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0870_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0870_01')
       await Utils.sleep(1000)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0870"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0870'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "update 更新" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_update_0870"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_update_0870'), 500)
       await button_update.click()
       await Utils.sleep(3000)
 
@@ -1532,7 +1532,7 @@ export default function uiComponentPopupboxPopupGlobal() {
       await Utils.sleep(500)
 
       // 预期效果2：popup 消失
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0870_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0870_02')
       await Utils.sleep(1000)
 
       done();
@@ -1546,32 +1546,32 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0880", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0880")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0880', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal0880')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_0880"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_0880'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_0880"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_0880'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 预期效果1：popup 弹出但位置不跟随宿主组件变化
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0880_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0880_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击 "update 更新_followTransformOfTarget" 按钮
-      let button_update = await driver.waitForComponent(ON.id("button_update_0880"), 500)
+      let button_update = await driver.waitForComponent(ON.id('button_update_0880'), 500)
       await button_update.click()
       await Utils.sleep(3000)
 
       // 预期效果2：popup 在 button 组件下方
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0880_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0880_02')
       await Utils.sleep(1000)
 
       done();
@@ -1587,23 +1587,23 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1020", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1020")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1020', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1020')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Popup3" 按钮
-      let button_popup3 = await driver.waitForComponent(ON.id("button_popup3_1020"), 500)
+      let button_popup3 = await driver.waitForComponent(ON.id('button_popup3_1020'), 500)
       await button_popup3.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "先 update 后 open" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1020"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1020'), 500)
       await button_test.click()
       await Utils.sleep(1000)
 
       // 预期效果1：命令式 popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1020_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1020_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击空白处后等待 3 秒
@@ -1611,7 +1611,7 @@ export default function uiComponentPopupboxPopupGlobal() {
       await Utils.sleep(3000)
 
       // 预期效果2：popup 消失
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1020_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1020_02')
       await Utils.sleep(1000)
 
       done();
@@ -1625,35 +1625,35 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1030", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1030")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1030', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1030')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1030"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1030'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1030"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1030'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "toolItem4" 按钮
-      let button_toolitem4 = await driver.waitForComponent(ON.id("button_toolitem4_1030"), 500)
+      let button_toolitem4 = await driver.waitForComponent(ON.id('button_toolitem4_1030'), 500)
       await button_toolitem4.click()
       await Utils.sleep(500)
 
       // 预期效果1：命令式 popup 弹出（背板颜色为粉色）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1030_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1030_01')
       await Utils.sleep(1000)
 
       // 步骤4：等待 2 秒后
       await Utils.sleep(2000)
 
       // 预期效果2：验证截图
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1030_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1030_02')
       await Utils.sleep(1000)
 
       done();
@@ -1667,42 +1667,42 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1040", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1040")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1040', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1040')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1040"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1040'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1040"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1040'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "toolItem4" 按钮
-      let button_toolitem4 = await driver.waitForComponent(ON.id("button_toolitem4_1040"), 500)
+      let button_toolitem4 = await driver.waitForComponent(ON.id('button_toolitem4_1040'), 500)
       await button_toolitem4.click()
       await Utils.sleep(500)
 
       // 预期效果1：命令式 popup 弹出（背板颜色为粉色）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1040_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1040_01')
       await Utils.sleep(1000)
 
       // 步骤4：等待 6 秒后
       await Utils.sleep(6000)
 
       // 预期效果2：popup 的背板颜色发生变化
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1040_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1040_02')
       await Utils.sleep(1000)
 
       // 步骤5：等待 7 秒后
       await Utils.sleep(1000)
 
       // 预期效果3：popup 的背板颜色变为白色
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1040_03")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1040_03')
       await Utils.sleep(1000)
 
       done();
@@ -1717,28 +1717,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1060", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1060")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1060', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1060')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1060"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1060'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1060"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1060'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "toolItem8" 按钮
-      let button_toolitem8 = await driver.waitForComponent(ON.id("button_toolitem8_1060"), 500)
+      let button_toolitem8 = await driver.waitForComponent(ON.id('button_toolitem8_1060'), 500)
       await button_toolitem8.click()
       await Utils.sleep(500)
 
       // 预期效果：有 1 个命令式 popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1060_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1060_01')
       await Utils.sleep(1000)
 
       done();
@@ -1752,35 +1752,35 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1070", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1070")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1070', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1070')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1070"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1070'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1070"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1070'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "toolItem8" 按钮
-      let button_toolitem8 = await driver.waitForComponent(ON.id("button_toolitem8_1070"), 500)
+      let button_toolitem8 = await driver.waitForComponent(ON.id('button_toolitem8_1070'), 500)
       await button_toolitem8.click()
       await Utils.sleep(500)
 
       // 预期效果1：有 1 个命令式 popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1070_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1070_01')
       await Utils.sleep(1000)
 
       // 步骤4：等待 6 秒后
       await Utils.sleep(6000)
 
       // 预期效果2：popup 的位置、背板颜色等发生变化
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1070_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1070_02')
       await Utils.sleep(1000)
 
       done();
@@ -1794,42 +1794,42 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1080", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1080")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1080', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1080')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1080"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1080'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1080"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1080'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "toolItem8" 按钮
-      let button_toolitem8 = await driver.waitForComponent(ON.id("button_toolitem8_1080"), 500)
+      let button_toolitem8 = await driver.waitForComponent(ON.id('button_toolitem8_1080'), 500)
       await button_toolitem8.click()
       await Utils.sleep(500)
 
       // 预期效果1：有 1 个命令式 popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1080_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1080_01')
       await Utils.sleep(1000)
 
       // 步骤4：等待 6 秒后
       await Utils.sleep(6000)
 
       // 预期效果2：popup 的位置、背板颜色等发生变化
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1080_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1080_02')
       await Utils.sleep(1000)
 
       // 步骤5：等待 8 秒后
       await Utils.sleep(2000)
 
       // 预期效果3：popup 消失
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1080_03")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1080_03')
       await Utils.sleep(1000)
 
       done();
@@ -1843,28 +1843,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1100", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1100")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1100', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1100')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1100"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1100'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1100"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1100'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "toolItem8" 按钮
-      let button_toolitem8 = await driver.waitForComponent(ON.id("button_toolitem8_1100"), 500)
+      let button_toolitem8 = await driver.waitForComponent(ON.id('button_toolitem8_1100'), 500)
       await button_toolitem8.click()
       await Utils.sleep(500)
 
       // 预期效果：有两个命令式 popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1100_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1100_01')
       await Utils.sleep(1000)
 
       done();
@@ -1878,35 +1878,35 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1110", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1110")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1110', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1110')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1110"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1110'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1110"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1110'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "toolItem8" 按钮
-      let button_toolitem8 = await driver.waitForComponent(ON.id("button_toolitem8_1110"), 500)
+      let button_toolitem8 = await driver.waitForComponent(ON.id('button_toolitem8_1110'), 500)
       await button_toolitem8.click()
       await Utils.sleep(500)
 
       // 预期效果1：有两个命令式 popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1110_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1110_01')
       await Utils.sleep(1000)
 
       // 步骤4：等待 6 秒后
       await Utils.sleep(6000)
 
       // 预期效果2：两个 popup 的位置、背板颜色等发生变化
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1110_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1110_02')
       await Utils.sleep(1000)
 
       done();
@@ -1920,42 +1920,42 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1120", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1120")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1120', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1120')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1120"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1120'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1120"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1120'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "toolItem8" 按钮
-      let button_toolitem8 = await driver.waitForComponent(ON.id("button_toolitem8_1120"), 500)
+      let button_toolitem8 = await driver.waitForComponent(ON.id('button_toolitem8_1120'), 500)
       await button_toolitem8.click()
       await Utils.sleep(500)
 
       // 预期效果1：有两个命令式 popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1120_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1120_01')
       await Utils.sleep(1000)
 
       // 步骤4：等待 6 秒后
       await Utils.sleep(6000)
 
       // 预期效果2：两个 popup 的位置、背板颜色等发生变化
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1120_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1120_02')
       await Utils.sleep(1000)
 
       // 步骤5：等待 8 秒后
       await Utils.sleep(2000)
 
       // 预期效果3：两个 popup 都消失
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1120_03")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1120_03')
       await Utils.sleep(1000)
 
       done();
@@ -1969,42 +1969,42 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1130", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1130")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1130', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1130')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Popup3" 按钮
-      let button_popup3 = await driver.waitForComponent(ON.id("button_popup3_1130"), 500)
+      let button_popup3 = await driver.waitForComponent(ON.id('button_popup3_1130'), 500)
       await button_popup3.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "bindSheet" 按钮
-      let button_bindsheet = await driver.waitForComponent(ON.id("button_bindsheet_1130"), 500)
+      let button_bindsheet = await driver.waitForComponent(ON.id('button_bindsheet_1130'), 500)
       await button_bindsheet.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "弹出气泡" 按钮
-      let button_show_popup = await driver.waitForComponent(ON.id("button_show_popup_1130"), 500)
+      let button_show_popup = await driver.waitForComponent(ON.id('button_show_popup_1130'), 500)
       await button_show_popup.click()
       await Utils.sleep(500)
 
       // 预期效果1：命令式 popup 弹出
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1130_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1130_01')
       await Utils.sleep(1000)
 
       // 步骤4：等待 3 秒后
       await Utils.sleep(3000)
 
       // 预期效果2：popup 位置、宽度等属性发生变化
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1130_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1130_02')
       await Utils.sleep(1000)
 
       // 步骤5：再次等待 3 秒后
       await Utils.sleep(3000)
 
       // 预期效果3：popup 消失
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1130_03")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1130_03')
       await Utils.sleep(1000)
 
       done();
@@ -2018,28 +2018,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1380", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1380")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1380', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1380')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1380"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1380'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1380"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1380'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_1380"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_1380'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：log 日志为：popup222 openPopup isVisible：true
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1380_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1380_01')
       await Utils.sleep(1000)
 
       done();
@@ -2053,28 +2053,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1410", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1410")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1410', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1410')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1410"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1410'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1410"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1410'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_1410"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_1410'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：气泡箭头的偏移为 45 (在最下面)
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1410_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1410_01')
       await Utils.sleep(1000)
 
       done();
@@ -2088,28 +2088,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1440", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1440")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1440', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1440')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1440"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1440'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1440"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1440'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_1440"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_1440'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：气泡弹出（在子窗口显示气泡）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1440_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1440_01')
       await Utils.sleep(1000)
 
       done();
@@ -2123,28 +2123,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1450", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1450")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1450', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1450')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1450"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1450'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1450"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1450'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_1450"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_1450'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：气泡弹出（不在子窗口显示气泡）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1450_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1450_01')
       await Utils.sleep(1000)
 
       done();
@@ -2158,28 +2158,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1460", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1460")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1460', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1460')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1460"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1460'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1460"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1460'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_1460"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_1460'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：气泡弹出（不在子窗口显示气泡）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1460_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1460_01')
       await Utils.sleep(1000)
 
       done();
@@ -2193,28 +2193,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1560", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1560")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1560', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1560')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1560"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1560'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1560"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1560'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_1560"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_1560'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：气泡和组件的间隙是 - 10（气泡覆盖在组件上方）
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1560_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1560_01')
       await Utils.sleep(1000)
 
       done();
@@ -2228,28 +2228,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1670", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1670")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1670', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1670')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1670"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1670'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1670"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1670'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_1670"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_1670'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：弹窗宽度是 45vp
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1670_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1670_01')
       await Utils.sleep(1000)
 
       done();
@@ -2263,28 +2263,28 @@ export default function uiComponentPopupboxPopupGlobal() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1890", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1890")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1890', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxPopupGlobal/UiComponentPopupboxPopupGlobal1890')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击 "Test" 按钮
-      let button_test = await driver.waitForComponent(ON.id("button_test_1890"), 500)
+      let button_test = await driver.waitForComponent(ON.id('button_test_1890'), 500)
       await button_test.click()
       await Utils.sleep(500)
 
       // 步骤2：点击 "跳转" 按钮
-      let button_jump = await driver.waitForComponent(ON.id("button_jump_1890"), 500)
+      let button_jump = await driver.waitForComponent(ON.id('button_jump_1890'), 500)
       await button_jump.click()
       await Utils.sleep(500)
 
       // 步骤3：点击 "open 打开" 按钮
-      let button_open = await driver.waitForComponent(ON.id("button_open_1890"), 500)
+      let button_open = await driver.waitForComponent(ON.id('button_open_1890'), 500)
       await button_open.click()
       await Utils.sleep(500)
 
       // 预期效果：气泡圆角半径为 10px
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1890_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1890_01')
       await Utils.sleep(1000)
 
       done();

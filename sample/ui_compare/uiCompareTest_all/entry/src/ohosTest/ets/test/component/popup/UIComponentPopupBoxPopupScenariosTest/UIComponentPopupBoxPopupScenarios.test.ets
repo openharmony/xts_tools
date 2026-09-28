@@ -68,7 +68,7 @@ export default function uIComponentPopupBoxPopupScenarios() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_SCENARIOS_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_SCENARIOS_0010';
-      let pageName = "UIComponentPopupBoxPopupScenarios0010";
+      let pageName = 'UIComponentPopupBoxPopupScenarios0010';
       Logger.info(`[${TAG}]`, `Case start.`);
       Settings.createWindow('testability/pages/component/popup/uIComponentPopupBoxPopupScenarios/' + pageName);
       let driver: Driver = Driver.create();

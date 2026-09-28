@@ -46,13 +46,13 @@ export default function uiComponentPopupboxMenuUiextension() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0020", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxMenuUiextension/UiComponentPopupboxMenuUiextension0020")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0020', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxMenuUiextension/UiComponentPopupboxMenuUiextension0020')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：不设置preview或MenuPreviewMode设置为NULL，subMenuExpandingMode设置为side_expand
-      let button_menu_0020 = await driver.waitForComponent(ON.id("button_menu_0020"), 2000)
+      let button_menu_0020 = await driver.waitForComponent(ON.id('button_menu_0020'), 2000)
       await Utils.sleep(500)
 
       // 步骤2：长按按钮调起bindContextMenu
@@ -60,16 +60,16 @@ export default function uiComponentPopupboxMenuUiextension() {
       await Utils.sleep(1000)
 
       // 预期效果：无预览图，一级菜单能在UIExtension中正常调起并显示；菜单调起无蒙层
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0020_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0020_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击菜单选项调起二级菜单
-      let menu_item_2_0020 = await driver.waitForComponent(ON.id("menu_item_2_0020"), 2000)
+      let menu_item_2_0020 = await driver.waitForComponent(ON.id('menu_item_2_0020'), 2000)
       await menu_item_2_0020.click()
       await Utils.sleep(1000)
 
       // 预期效果：二级菜单以侧边展开方式正常显示
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0020_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0020_02')
       await Utils.sleep(1000)
       done();
     })
@@ -82,13 +82,13 @@ export default function uiComponentPopupboxMenuUiextension() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0030", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxMenuUiextension/UiComponentPopupboxMenuUiextension0030")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0030', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxMenuUiextension/UiComponentPopupboxMenuUiextension0030')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：不设置preview或MenuPreviewMode设置为NULL，subMenuExpandingMode设置为side_expand
-      let button_menu_0030 = await driver.waitForComponent(ON.id("button_menu_0030"), 2000)
+      let button_menu_0030 = await driver.waitForComponent(ON.id('button_menu_0030'), 2000)
       await Utils.sleep(500)
 
       // 步骤2：通过isShow控制bindContextMenu的显隐，进而调起bindContextMenu
@@ -96,16 +96,16 @@ export default function uiComponentPopupboxMenuUiextension() {
       await Utils.sleep(1000)
 
       // 预期效果：无预览图，一级菜单能在UIExtension中正常调起并显示；菜单调起无蒙层
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0030_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0030_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击菜单选项调起二级菜单
-      let menu_item_2_0030 = await driver.waitForComponent(ON.id("menu_item_2_0030"), 2000)
+      let menu_item_2_0030 = await driver.waitForComponent(ON.id('menu_item_2_0030'), 2000)
       await menu_item_2_0030.click()
       await Utils.sleep(1000)
 
       // 预期效果：二级菜单以侧边展开方式正常显示
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0030_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0030_02')
       await Utils.sleep(1000)
       done();
     })
@@ -118,13 +118,13 @@ export default function uiComponentPopupboxMenuUiextension() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0040", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxMenuUiextension/UiComponentPopupboxMenuUiextension0040")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0040', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxMenuUiextension/UiComponentPopupboxMenuUiextension0040')
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：不设置preview或MenuPreviewMode设置为NULL，subMenuExpandingMode设置为stack_expand
-      let button_menu_0040 = await driver.waitForComponent(ON.id("button_menu_0040"), 2000)
+      let button_menu_0040 = await driver.waitForComponent(ON.id('button_menu_0040'), 2000)
       await Utils.sleep(500)
 
       // 步骤2：长按按钮调起bindContextMenu
@@ -132,16 +132,16 @@ export default function uiComponentPopupboxMenuUiextension() {
       await Utils.sleep(1000)
 
       // 预期效果：无预览图，一级菜单能在UIExtension中正常调起并显示；菜单调起无蒙层
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0040_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0040_01')
       await Utils.sleep(1000)
 
       // 步骤3：点击菜单选项调起二级菜单
-      let menu_item_2_0040 = await driver.waitForComponent(ON.id("menu_item_2_0040"), 2000)
+      let menu_item_2_0040 = await driver.waitForComponent(ON.id('menu_item_2_0040'), 2000)
       await menu_item_2_0040.click()
       await Utils.sleep(1000)
 
       // 预期效果：二级菜单以嵌入式展开方式正常显示
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0040_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0040_02')
       await Utils.sleep(1000)
       done();
     })

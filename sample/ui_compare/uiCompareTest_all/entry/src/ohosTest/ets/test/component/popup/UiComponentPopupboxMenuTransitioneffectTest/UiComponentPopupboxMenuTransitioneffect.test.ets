@@ -46,19 +46,19 @@ export default function uiComponentPopupboxMenuTransitioneffect() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0010", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxMenuTransitioneffect/UiComponentPopupboxMenuTransitioneffect0010")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0010', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxMenuTransitioneffect/UiComponentPopupboxMenuTransitioneffect0010')
       await Utils.sleep(500)
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：长按"opacity_move"按钮（完整非对称动画）
-      let button_opacity_move_0010 = await driver.waitForComponent(ON.id("button_opacity_move_0010"), 2000)
+      let button_opacity_move_0010 = await driver.waitForComponent(ON.id('button_opacity_move_0010'), 2000)
       await button_opacity_move_0010.longClick()
       await Utils.sleep(3100)
 
       // 预期效果：弹出菜单，组件转场透明度效果为0.5，从窗口左边缘出现，动画持续3秒
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0010_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0010_01')
       await Utils.sleep(500)
 
       // 步骤2：点击空白区域
@@ -66,7 +66,7 @@ export default function uiComponentPopupboxMenuTransitioneffect() {
       await Utils.sleep(3100)
 
       // 预期效果：菜单消失，组件转场透明度效果为0.5，从窗口右边缘消失，动画持续3秒
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0010_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0010_02')
       await Utils.sleep(500)
       done();
     })
@@ -79,19 +79,19 @@ export default function uiComponentPopupboxMenuTransitioneffect() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0100", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxMenuTransitioneffect/UiComponentPopupboxMenuTransitioneffect0100")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0100', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxMenuTransitioneffect/UiComponentPopupboxMenuTransitioneffect0100')
       await Utils.sleep(500)
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：点击"opacity_translate"按钮（完整组合动画）
-      let button_opacity_translate_0100 = await driver.waitForComponent(ON.id("button_opacity_translate_0100"), 2000)
+      let button_opacity_translate_0100 = await driver.waitForComponent(ON.id('button_opacity_translate_0100'), 2000)
       await button_opacity_translate_0100.click()
       await Utils.sleep(3100)
 
       // 预期效果：弹出菜单，组件转场透明度效果为0.5，平移效果（横向、纵向、竖向各10vp），动画持续3秒
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0100_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0100_01')
       await Utils.sleep(500)
 
       // 步骤2：点击空白区域
@@ -99,7 +99,7 @@ export default function uiComponentPopupboxMenuTransitioneffect() {
       await Utils.sleep(3100)
 
       // 预期效果：菜单消失，效果同上
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0100_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0100_02')
       await Utils.sleep(500)
       done();
     })
@@ -112,19 +112,19 @@ export default function uiComponentPopupboxMenuTransitioneffect() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0140", Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupboxMenuTransitioneffect/UiComponentPopupboxMenuTransitioneffect0140")
+    it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0140', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupboxMenuTransitioneffect/UiComponentPopupboxMenuTransitioneffect0140')
       await Utils.sleep(500)
       let driver = await Driver.create()
       await Utils.sleep(500)
 
       // 步骤1：长按"Preview设置动画"按钮（有preview有动画）
-      let button_preview_animation_0140 = await driver.waitForComponent(ON.id("button_preview_animation_0140"), 2000)
+      let button_preview_animation_0140 = await driver.waitForComponent(ON.id('button_preview_animation_0140'), 2000)
       await button_preview_animation_0140.longClick()
       await Utils.sleep(3100)
 
       // 预期效果：弹出菜单和预览图，组件转场透明度效果为0.5，menu无动画，预览图动画时长3秒
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0140_01")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0140_01')
       await Utils.sleep(500)
 
       // 步骤2：点击空白区域
@@ -132,7 +132,7 @@ export default function uiComponentPopupboxMenuTransitioneffect() {
       await Utils.sleep(3100)
 
       // 预期效果：菜单和预览图消失，组件转场透明度效果为0.5，menu无动画，预览图动画时长3秒
-      await windowSnap.snapShot("SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0140_02")
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0140_02')
       await Utils.sleep(500)
       done();
     })

@@ -64,7 +64,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0160 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose01")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose01')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsCustomClose01_03'),1000);
       await button03.click();
@@ -97,7 +97,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0140 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose02")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose02')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsCustomClose02_03'),1000);
       await button03.click();
@@ -130,7 +130,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0130 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose03")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose03')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsCustomClose03_03'),1000);
       await button03.click();
@@ -163,7 +163,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0170 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose04")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose04')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsCustomClose04_03'),1000);
       await button03.click();
@@ -196,7 +196,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0190 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose05")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose05')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsCustomClose05_03'),1000);
       await button03.click();
@@ -229,7 +229,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0200 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose06")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose06')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UiComponentPopupBoxSpecificationsCustomClose06_01'),1000);
       await button03.click();
@@ -262,7 +262,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0180 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose07")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose07')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose07_01'),1000);
       await button03.click();
@@ -295,7 +295,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0220 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose08")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose08')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose08_01'),1000);
       await button03.click();
@@ -328,7 +328,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0230 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose09")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose09')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose09_01'),1000);
       await button03.click();
@@ -361,7 +361,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0210 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose11")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose11')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose11_01'),1000);
       await button03.click();
@@ -394,7 +394,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0240 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose10")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose10')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose10_01'),1000);
       await button03.click();
@@ -427,7 +427,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0250 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose13")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose13')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose13_01'),1000);
       await button03.click();
@@ -460,7 +460,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0260 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose12")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose12')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose12_01'),1000);
       await button03.click();
@@ -493,7 +493,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0270 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose15")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose15')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose15_01'),1000);
       await button03.click();
@@ -526,7 +526,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0280', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0280 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose14")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose14')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose14_01'),1000);
       await button03.click();
@@ -559,7 +559,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0290 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose16")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose16')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose16_01'),1000);
       await button03.click();
@@ -592,7 +592,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0320 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose17")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose17')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose17_01'),1000);
       await button03.click();
@@ -625,7 +625,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0300 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose18")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose18')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose18_01'),1000);
       await button03.click();
@@ -658,7 +658,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0310 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose19")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose19')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose19_01'),1000);
       await button03.click();
@@ -691,7 +691,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0330 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose20")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose20')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose20_01'),1000);
       await button03.click();
@@ -724,7 +724,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0340', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0340 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose21")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose21')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose21_01'),1000);
       await button03.click();
@@ -757,7 +757,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0350 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose22")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose22')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose22_01'),1000);
       await button03.click();
@@ -790,7 +790,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0360', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0360 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose23")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose23')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose23_01'),1000);
       await button03.click();
@@ -823,7 +823,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0370 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose24")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose24')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose24_01'),1000);
       await button03.click();
@@ -856,7 +856,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0380 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose25")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose25')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose25_01'),1000);
       await button03.click();
@@ -889,7 +889,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0390 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose26")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose26')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose26_01'),1000);
       await button03.click();
@@ -922,7 +922,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0400 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose27")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose27')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose27_01'),1000);
       await button03.click();
@@ -955,7 +955,7 @@ export default function uiComponentPopupBoxSpecificationsCustomClose() {
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0410 start.`);
-      Settings.createWindow("testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose28")
+      Settings.createWindow('testability/pages/component/popup/uiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose28')
       let driver:Driver=Driver.create();
       let button03: Component = await driver.waitForComponent(ON.id('UIComponentPopupBoxSpecificationsCustomClose28_01'),1000);
       await button03.click();
