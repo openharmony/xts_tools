@@ -163,36 +163,36 @@ struct UIComponentListAndGridXommonOnScroll0050 {
         right: 5
       })
       .onScrollFrameBegin((offset: number, state: ScrollState) => {
-        console.info("List onScrollFrameBegin");
+        console.info('List onScrollFrameBegin');
         this.message += `\n List onScrollFrameBegin, offset: ${offset}, state: ${state}`;
         return { offsetRemain: offset };
       })
       .onWillScroll((scrollOffset: number, scrollState: ScrollState, scrollSource: ScrollSource) => {
-        console.info("List onWillScroll");
+        console.info('List onWillScroll');
         this.message += `\n List onWillScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}, scrollSource: ${scrollSource.toString()}`;
         this.logMessage += `\n List onWillScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}, scrollSource: ${scrollSource.toString()}`;
       })
       .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
-        console.info("List onDidScroll");
+        console.info('List onDidScroll');
         console.info(scrollOffset.toString());
         console.info(scrollState.toString());
         this.message += `\n List onDidScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}`;
         this.logMessage += `\n List onDidScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}`;
       })
       .onScrollStart(() => {
-        console.info("List onScrollStart");
+        console.info('List onScrollStart');
         this.message += `\n List onScrollStart`;
       })
       .onScrollStop(() => {
-        console.info("List onScrollStop");
+        console.info('List onScrollStop');
         this.message += `\n List onScrollStop`;
       })
       .onReachStart(() => {
-        console.info("List onReachStart");
+        console.info('List onReachStart');
         this.message += `\n List onReachStart`;
       })
       .onReachEnd(() => {
-        console.info("List onReachEnd");
+        console.info('List onReachEnd');
         this.message += `\n List onReachEnd`;
       })
 
