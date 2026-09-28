@@ -268,16 +268,16 @@ struct UIComponentScrollScrollAlwaysEnable0230 {
         right: 5
       })
       .onScrollFrameBegin((offset: number, state: ScrollState) => {
-        console.info("Scroll onScrollFrameBegin");
+        console.info('Scroll onScrollFrameBegin');
         this.message += `\n Scroll onScrollFrameBegin, offset: ${offset}, state: ${state}`;
         return { offsetRemain: offset };
       })
       .onWillScroll((xOffset: number, yOffset: number, scrollState: ScrollState) => {
-        console.info("Scroll onWillScroll");
+        console.info('Scroll onWillScroll');
         this.message += `\n Scroll onWillScroll, scrollXOffset: ${xOffset.toString()}, scrollYOffset: ${yOffset.toString()}, scrollState: ${scrollState.toString()}`;
       })
       .onDidScroll((xOffset: number, yOffset: number, scrollState: ScrollState) => {
-        console.info("Scroll onDidScroll");
+        console.info('Scroll onDidScroll');
         console.info(xOffset.toString());
         console.info(yOffset.toString());
         console.info(scrollState.toString());
@@ -288,19 +288,19 @@ struct UIComponentScrollScrollAlwaysEnable0230 {
         this.message += `\n Scroll onScrollEdge, side: ${side}`;
       })
       .onScrollStart(() => {
-        console.info("Scroll onScrollStart");
+        console.info('Scroll onScrollStart');
         this.message += `\n Scroll onScrollStart`;
       })
       .onScrollStop(() => {
-        console.info("Scroll onScrollStop");
+        console.info('Scroll onScrollStop');
         this.message += `\n Scroll onScrollStop`;
       })
       .onReachStart(() => {
-        console.info("Scroll onReachStart");
+        console.info('Scroll onReachStart');
         this.message += `\n Scroll onReachStart`;
       })
       .onReachEnd(() => {
-        console.info("Scroll onReachEnd");
+        console.info('Scroll onReachEnd');
         this.message += `\n Scroll onReachEnd`;
       })
 

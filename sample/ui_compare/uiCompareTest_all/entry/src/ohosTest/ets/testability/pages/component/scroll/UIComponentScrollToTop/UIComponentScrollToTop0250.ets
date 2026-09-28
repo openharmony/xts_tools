@@ -32,7 +32,7 @@ struct UIComponentScrollToTop0250 {
       WaterFlow() {
         ForEach(this.arr, (item: number) => {
           FlowItem() {
-            Text("item" + item)
+            Text('item' + item)
               .width('25%')
               .height(150)
               .backgroundColor(Color.White)
@@ -67,7 +67,7 @@ struct UIComponentScrollToTop0250 {
       })
 
     }
-    .width("100%")
+    .width('100%')
 
   }
 

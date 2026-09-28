@@ -32,7 +32,7 @@ struct UIComponentScrollToTop0310 {
       Grid(this.scroller) {
         ForEach(this.arr, (item: number) => {
           GridItem() {
-            Text("item" + item)
+            Text('item' + item)
               .width('100%')
               .height(150)
               .backgroundColor(Color.White)
@@ -67,7 +67,7 @@ struct UIComponentScrollToTop0310 {
       })
 
     }
-    .width("100%")
+    .width('100%')
 
   }
 

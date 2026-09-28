@@ -44,7 +44,7 @@ struct UIComponentScrollToTop0050 {
         }, (item: string) => item)
 
       }
-      .width("100%")
+      .width('100%')
     }
     .id(this.name + '_01')
     .backToTop(this.backToTop)

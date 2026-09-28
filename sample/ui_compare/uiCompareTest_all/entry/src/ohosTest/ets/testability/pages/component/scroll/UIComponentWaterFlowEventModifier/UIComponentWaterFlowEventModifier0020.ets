@@ -46,7 +46,7 @@ class UIComponentWaterFlowEventModifier0020AttributeModifier implements Attribut
   applyNormalAttribute(instance: WaterFlowAttribute): void {
     instance
       .onWillScroll((scrollOffset: number, scrollState: ScrollState, scrollSource: ScrollSource) => {
-        console.info("WaterFlow onWillScroll");
+        console.info('WaterFlow onWillScroll');
         const nextMessage = `${this.getMessage()}\n WaterFlow onWillScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}, scrollSource: ${scrollSource.toString()}`;
         this.onMessageUpdate(nextMessage);
       });
@@ -81,7 +81,7 @@ struct UIComponentWaterFlowEventModifier0020 {
       unit: LengthUnit.VP
     }
   };
-  @State templateString: string = "1fr 1fr";
+  @State templateString: string = '1fr 1fr';
   @State clipParam: ContentClipMode | RectShape = ContentClipMode.CONTENT_ONLY;
   @State safeAreaTypeParam: SafeAreaType[] = [SafeAreaType.SYSTEM, SafeAreaType.CUTOUT, SafeAreaType.KEYBOARD];
   @State safeAreaEdgeParam: SafeAreaEdge[] = [SafeAreaEdge.TOP, SafeAreaEdge.BOTTOM, SafeAreaEdge.START, SafeAreaEdge.END];
@@ -408,36 +408,36 @@ struct UIComponentWaterFlowEventModifier0020 {
           })
       )
       .onScrollFrameBegin((offset: number, state: ScrollState) => {
-        console.info("WaterFlow onScrollFrameBegin");
+        console.info('WaterFlow onScrollFrameBegin');
         this.message += `\n WaterFlow onScrollFrameBegin, offset: ${offset}, state: ${state}`;
         return { offsetRemain: offset };
       })
       .onScrollIndex((first: number, last: number) => {
-        console.info("WaterFlow onScrollIndex");
+        console.info('WaterFlow onScrollIndex');
         console.info(first.toString());
         console.info(last.toString());
         this.message += `\n WaterFlow onScrollIndex, first: ${first.toString()}, last: ${last.toString()}`;
       })
       .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
-        console.info("WaterFlow onDidScroll");
+        console.info('WaterFlow onDidScroll');
         console.info(scrollOffset.toString());
         console.info(scrollState.toString());
         this.message += `\n WaterFlow onDidScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}`;
       })
       .onScrollStart(() => {
-        console.info("WaterFlow onScrollStart");
+        console.info('WaterFlow onScrollStart');
         this.message += `\n WaterFlow onScrollStart`;
       })
       .onScrollStop(() => {
-        console.info("WaterFlow onScrollStop");
+        console.info('WaterFlow onScrollStop');
         this.message += `\n WaterFlow onScrollStop`;
       })
       .onReachStart(() => {
-        console.info("WaterFlow onReachStart");
+        console.info('WaterFlow onReachStart');
         this.message += `\n WaterFlow onReachStart`;
       })
       .onReachEnd(() => {
-        console.info("WaterFlow onReachEnd");
+        console.info('WaterFlow onReachEnd');
         this.message += `\n WaterFlow onReachEnd`;
       })
 

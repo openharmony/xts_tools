@@ -32,7 +32,7 @@ struct UIComponentScrollToTop0130 {
       List() {
         ForEach(this.arr, (item: number) => {
           ListItem() {
-            Text("item" + item)
+            Text('item' + item)
               .width('80%')
               .height(150)
               .backgroundColor(Color.White)
@@ -64,7 +64,7 @@ struct UIComponentScrollToTop0130 {
       })
 
     }
-    .width("100%")
+    .width('100%')
 
   }
 

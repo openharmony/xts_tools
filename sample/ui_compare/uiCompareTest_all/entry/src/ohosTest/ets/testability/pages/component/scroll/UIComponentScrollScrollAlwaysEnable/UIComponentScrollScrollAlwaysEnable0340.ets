@@ -473,30 +473,30 @@ struct UIComponentScrollScrollAlwaysEnable0340 {
         right: 5
       })
       .onItemMove((from: number, to: number) =>{
-        console.info("List onItemMove");
+        console.info('List onItemMove');
         this.message += `\n List onItemMove, from: ${from.toString()}, to: ${to.toString()}`;
         return true;
       })
       .onItemDragStart((event: ItemDragInfo, itemIndex: number) => {
-        console.info("List onItemDragStart");
+        console.info('List onItemDragStart');
         this.message += `\n List onItemDragStart, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}`;
         this.text = this.numbers[itemIndex].toString();
         return this.pixelMapBuilder();
       })
       .onItemDragEnter((event: ItemDragInfo) => {
-        console.info("List onItemDragEnter");
+        console.info('List onItemDragEnter');
         this.message += `\n List onItemDragEnter, event: ${JSON.stringify(event)}`;
       })
       .onItemDragLeave((event: ItemDragInfo, itemIndex: number) => {
-        console.info("List onItemDragLeave");
+        console.info('List onItemDragLeave');
         this.message += `\n List onItemDragLeave, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}`;
       })
       .onItemDragMove((event: ItemDragInfo, itemIndex: number, insertIndex: number) => {
-        console.info("List onItemDragMove");
+        console.info('List onItemDragMove');
         this.message += `\n List onItemDragMove, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}, insertIndex: ${insertIndex.toString()}`;
       })
       .onItemDrop((event: ItemDragInfo, itemIndex: number, insertIndex: number, isSuccess: boolean) => {
-        console.info("List onItemDrop");
+        console.info('List onItemDrop');
         if (!isSuccess || insertIndex >= this.numbers.length) {
           return;
         }
@@ -504,49 +504,49 @@ struct UIComponentScrollScrollAlwaysEnable0340 {
         this.message += `\n List onItemDrop, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}, insertIndex: ${insertIndex.toString()}, isSuccess: ${isSuccess}`;
       })
       .onScrollVisibleContentChange((start: VisibleListContentInfo, end: VisibleListContentInfo) => {
-        console.info("List onScrollVisibleContentChange");
+        console.info('List onScrollVisibleContentChange');
         this.message += `\n List onScrollVisibleContentChange, start: ${JSON.stringify(start)}, end: ${JSON.stringify(end)}`;
       })
       .onScrollFrameBegin((offset: number, state: ScrollState) => {
-        console.info("List onScrollFrameBegin");
+        console.info('List onScrollFrameBegin');
         this.message += `\n List onScrollFrameBegin, offset: ${offset}, state: ${state}`;
         return { offsetRemain: offset };
       })
       .onScrollIndex((first: number, last: number) => {
-        console.info("List onScrollIndex");
+        console.info('List onScrollIndex');
         console.info(first.toString());
         console.info(last.toString());
         this.message += `\n List onScrollIndex, first: ${first.toString()}, last: ${last.toString()}`;
       })
       .onWillScroll((scrollOffset: number, scrollState: ScrollState, scrollSource: ScrollSource) => {
-        console.info("List onWillScroll");
+        console.info('List onWillScroll');
         this.message += `\n List onWillScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}, scrollSource: ${scrollSource.toString()}`;
       })
       .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
-        console.info("List onDidScroll");
+        console.info('List onDidScroll');
         console.info(scrollOffset.toString());
         console.info(scrollState.toString());
         this.message += `\n List onDidScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}`;
       })
       .onScrollFrameBegin((offset: number, state: ScrollState) => {
-        console.info("List onScrollFrameBegin");
+        console.info('List onScrollFrameBegin');
         this.message += `\n List onScrollFrameBegin, offset: ${offset}, state: ${state}`;
         return { offsetRemain: offset };
       })
       .onScrollStart(() => {
-        console.info("List onScrollStart");
+        console.info('List onScrollStart');
         this.message += `\n List onScrollStart`;
       })
       .onScrollStop(() => {
-        console.info("List onScrollStop");
+        console.info('List onScrollStop');
         this.message += `\n List onScrollStop`;
       })
       .onReachStart(() => {
-        console.info("List onReachStart");
+        console.info('List onReachStart');
         this.message += `\n List onReachStart`;
       })
       .onReachEnd(() => {
-        console.info("List onReachEnd");
+        console.info('List onReachEnd');
         this.message += `\n List onReachEnd`;
       })
 
@@ -642,25 +642,25 @@ struct UIComponentScrollScrollAlwaysEnable0340 {
             })
         )
         .onItemDragStart((event: ItemDragInfo, itemIndex: number) => {
-          console.info("Grid onItemDragStart");
+          console.info('Grid onItemDragStart');
           this.message += `\n Grid onItemDragStart, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}`;
           this.text = this.numbers[itemIndex].toString();
           return this.pixelMapBuilder();
         })
         .onItemDragEnter((event: ItemDragInfo) => {
-          console.info("Grid onItemDragEnter");
+          console.info('Grid onItemDragEnter');
           this.message += `\n Grid onItemDragEnter, event: ${JSON.stringify(event)}`;
         })
         .onItemDragLeave((event: ItemDragInfo, itemIndex: number) => {
-          console.info("Grid onItemDragLeave");
+          console.info('Grid onItemDragLeave');
           this.message += `\n Grid onItemDragLeave, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}`;
         })
         .onItemDragMove((event: ItemDragInfo, itemIndex: number, insertIndex: number) => {
-          console.info("Grid onItemDragMove");
+          console.info('Grid onItemDragMove');
           this.message += `\n Grid onItemDragMove, event: ${JSON.stringify(event)}, itemIndex: ${itemIndex.toString()}, insertIndex: ${insertIndex.toString()}`;
         })
         .onItemDrop((event: ItemDragInfo, itemIndex: number, insertIndex: number, isSuccess: boolean) => {
-          console.info("Grid onItemDrop");
+          console.info('Grid onItemDrop');
           if (!isSuccess || insertIndex >= this.numbers.length) {
             return;
           }
@@ -668,12 +668,12 @@ struct UIComponentScrollScrollAlwaysEnable0340 {
           this.message += `\n Grid onItemDrop, event: ${event.toString()}, itemIndex: ${itemIndex.toString()}, insertIndex: ${insertIndex.toString()}, isSuccess: ${isSuccess}`;
         })
         .onScrollFrameBegin((offset: number, state: ScrollState) => {
-          console.info("Grid onScrollFrameBegin");
+          console.info('Grid onScrollFrameBegin');
           this.message += `\n Grid onScrollFrameBegin, offset: ${offset}, state: ${state}`;
           return { offsetRemain: offset };
         })
         .onScrollBarUpdate((index: number, offset: number) => {
-          console.info('Grid onScrollBarUpdate,index : ' + index.toString() + ",offset" + offset.toString());
+          console.info('Grid onScrollBarUpdate,index : ' + index.toString() + ',offset' + offset.toString());
           this.message += `\n Grid onScrollBarUpdate, index: ${index.toString()}, offset: ${offset.toString()}`;
           return {
             totalOffset: (index / this.columnCount) * (this.itemHeight + this.gapValue) - offset,
@@ -686,7 +686,7 @@ struct UIComponentScrollScrollAlwaysEnable0340 {
           this.message += `\n Grid onScrollIndex, first: ${first.toString()}, last: ${last.toString()}`;
         })
         .onWillScroll((scrollOffset: number, scrollState: ScrollState, scrollSource: ScrollSource) => {
-          console.info("Grid onWillScroll");
+          console.info('Grid onWillScroll');
           this.message += `\n Grid onWillScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}, scrollSource: ${scrollSource.toString()}`;
         })
         .onDidScroll((scrollOffset: number, scrollState: ScrollState) => {
@@ -695,24 +695,24 @@ struct UIComponentScrollScrollAlwaysEnable0340 {
           this.message += `\n Grid onDidScroll, scrollOffset: ${scrollOffset.toString()}, scrollState: ${scrollState.toString()}`;
         })
         .onScrollFrameBegin((offset: number, state: ScrollState) => {
-          console.info("Grid onScrollFrameBegin");
+          console.info('Grid onScrollFrameBegin');
           this.message += `\n Grid onScrollFrameBegin, offset: ${offset}, state: ${state}`;
           return { offsetRemain: offset };
         })
         .onScrollStart(() => {
-          console.info("Grid onScrollStart");
+          console.info('Grid onScrollStart');
           this.message += `\n Grid onScrollStart`;
         })
         .onScrollStop(() => {
-          console.info("Grid onScrollStop");
+          console.info('Grid onScrollStop');
           this.message += `\n Grid onScrollStop`;
         })
         .onReachStart(() => {
-          console.info("Grid onReachStart");
+          console.info('Grid onReachStart');
           this.message += `\n Grid onReachStart`;
         })
         .onReachEnd(() => {
-          console.info("Grid onReachEnd");
+          console.info('Grid onReachEnd');
           this.message += `\n Grid onReachEnd`;
         })
 
@@ -809,16 +809,16 @@ struct UIComponentScrollScrollAlwaysEnable0340 {
           right: 5
         })
         .onScrollFrameBegin((offset: number, state: ScrollState) => {
-          console.info("Scroll onScrollFrameBegin");
+          console.info('Scroll onScrollFrameBegin');
           this.message += `\n Scroll onScrollFrameBegin, offset: ${offset}, state: ${state}`;
           return { offsetRemain: offset };
         })
         .onWillScroll((xOffset: number, yOffset: number, scrollState: ScrollState) => {
-          console.info("Scroll onWillScroll");
+          console.info('Scroll onWillScroll');
           this.message += `\n Scroll onWillScroll, scrollXOffset: ${xOffset.toString()}, scrollYOffset: ${yOffset.toString()}, scrollState: ${scrollState.toString()}`;
         })
         .onDidScroll((xOffset: number, yOffset: number, scrollState: ScrollState) => {
-          console.info("Scroll onDidScroll");
+          console.info('Scroll onDidScroll');
           console.info(xOffset.toString());
           console.info(yOffset.toString());
           console.info(scrollState.toString());
@@ -829,19 +829,19 @@ struct UIComponentScrollScrollAlwaysEnable0340 {
           this.message += `\n Scroll onScrollEdge, side: ${side}`;
         })
         .onScrollStart(() => {
-          console.info("Scroll onScrollStart");
+          console.info('Scroll onScrollStart');
           this.message += `\n Scroll onScrollStart`;
         })
         .onScrollStop(() => {
-          console.info("Scroll onScrollStop");
+          console.info('Scroll onScrollStop');
           this.message += `\n Scroll onScrollStop`;
         })
         .onReachStart(() => {
-          console.info("Scroll onReachStart");
+          console.info('Scroll onReachStart');
           this.message += `\n Scroll onReachStart`;
         })
         .onReachEnd(() => {
-          console.info("Scroll onReachEnd");
+          console.info('Scroll onReachEnd');
           this.message += `\n Scroll onReachEnd`;
         })
 

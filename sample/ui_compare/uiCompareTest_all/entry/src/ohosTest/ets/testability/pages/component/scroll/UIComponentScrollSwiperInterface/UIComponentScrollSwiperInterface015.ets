@@ -73,7 +73,7 @@ struct UIComponentScrollSwiperInterface015 {
         .autoPlay(false)
         .interval(4000)
         .indicator(true)
-        .indicatorStyle({ color: "#fc0303" })
+        .indicatorStyle({ color: '#fc0303' })
         .loop(true)
         .duration(1000)
         .itemSpace(0)

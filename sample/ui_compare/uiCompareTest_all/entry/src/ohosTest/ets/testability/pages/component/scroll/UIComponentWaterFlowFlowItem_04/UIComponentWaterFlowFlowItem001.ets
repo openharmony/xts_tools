@@ -66,7 +66,7 @@ struct UIComponentWaterFlowFlowItem001 {
           LazyForEach(this.dataSource, (item: number) => {
             FlowItem() {
               Column() {
-                Text("N" + item)
+                Text('N' + item)
                   .textAlign(TextAlign.Center)
                   .fontStyle(FontStyle.Normal)
               }
@@ -86,7 +86,7 @@ struct UIComponentWaterFlowFlowItem001 {
         .id('WaterFlow')
         .layoutDirection(FlexDirection.Column)
         .scrollBar(BarState.On)
-        .columnsTemplate("1fr 1fr")
+        .columnsTemplate('1fr 1fr')
         .columnsGap(10)
         .rowsGap(5)
         .backgroundColor(0xFAEEE0)
