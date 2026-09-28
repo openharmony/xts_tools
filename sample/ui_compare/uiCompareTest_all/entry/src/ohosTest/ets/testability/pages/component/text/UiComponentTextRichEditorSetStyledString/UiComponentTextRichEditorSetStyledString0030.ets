@@ -23,8 +23,8 @@ struct UiComponentTextRichEditorSetStyledString0030 {
   controller2: RichEditorStyledStringController = new RichEditorStyledStringController();
   options: RichEditorStyledStringOptions = { controller: this.controller };
   options2: RichEditorStyledStringOptions = { controller: this.controller2 };
-  mutableStr: MutableStyledString = new MutableStyledString("");
-  mutableStr2: MutableStyledString = new MutableStyledString("");
+  mutableStr: MutableStyledString = new MutableStyledString('');
+  mutableStr2: MutableStyledString = new MutableStyledString('');
   @State imagePixelMap: image.PixelMap | null = null;
 
   async aboutToAppear() {
@@ -32,7 +32,7 @@ struct UiComponentTextRichEditorSetStyledString0030 {
     await this.loadImage();
     
     // 创建包含图片和文本的属性字符串
-    this.mutableStr.appendStyledString(new StyledString("文本内容"));
+    this.mutableStr.appendStyledString(new StyledString('文本内容'));
     
     // 添加真实图片
     if (this.imagePixelMap) {
@@ -45,7 +45,7 @@ struct UiComponentTextRichEditorSetStyledString0030 {
       this.mutableStr.appendStyledString(new StyledString(imageAttachment));
     }
     
-    this.mutableStr.appendStyledString(new StyledString("更多文本"));
+    this.mutableStr.appendStyledString(new StyledString('更多文本'));
 
     // 设置文本样式
     let textStyle = new TextStyle({
@@ -62,7 +62,7 @@ struct UiComponentTextRichEditorSetStyledString0030 {
     this.controller.setStyledString(this.mutableStr);
 
     // 创建辅助说明的属性字符串
-    this.mutableStr2.appendStyledString(new StyledString("点击按钮清空内容查看placeholder显示"));
+    this.mutableStr2.appendStyledString(new StyledString('点击按钮清空内容查看placeholder显示'));
     
     let grayStyle = new TextStyle({ fontColor: Color.Gray, fontSize: LengthMetrics.vp(14) });
     this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: grayStyle });
@@ -91,8 +91,8 @@ struct UiComponentTextRichEditorSetStyledString0030 {
       await this.loadImage();
     }
     
-    this.mutableStr = new MutableStyledString("");
-    this.mutableStr.appendStyledString(new StyledString("文本内容"));
+    this.mutableStr = new MutableStyledString('');
+    this.mutableStr.appendStyledString(new StyledString('文本内容'));
     
     // 添加真实图片
     if (this.imagePixelMap) {
@@ -105,7 +105,7 @@ struct UiComponentTextRichEditorSetStyledString0030 {
       this.mutableStr.appendStyledString(new StyledString(imageAttachment));
     }
     
-    this.mutableStr.appendStyledString(new StyledString("更多文本"));
+    this.mutableStr.appendStyledString(new StyledString('更多文本'));
     
     let textStyle = new TextStyle({
       fontColor: Color.Black,
@@ -121,9 +121,9 @@ struct UiComponentTextRichEditorSetStyledString0030 {
     this.controller.setStyledString(this.mutableStr);
     
     // 更新辅助说明的属性字符串
-    this.mutableStr2 = new MutableStyledString("");
-    this.mutableStr2.appendStyledString(new StyledString("内容已恢复\n"));
-    this.mutableStr2.appendStyledString(new StyledString("placeholder已隐藏"));
+    this.mutableStr2 = new MutableStyledString('');
+    this.mutableStr2.appendStyledString(new StyledString('内容已恢复\n'));
+    this.mutableStr2.appendStyledString(new StyledString('placeholder已隐藏'));
     
     let greenStyle = new TextStyle({
       fontColor: Color.Green,
@@ -171,13 +171,13 @@ struct UiComponentTextRichEditorSetStyledString0030 {
         .fontSize(14)
         .width('90%')
         .onClick(() => {
-          this.mutableStr = new MutableStyledString("");
+          this.mutableStr = new MutableStyledString('');
           this.controller.setStyledString(this.mutableStr);
           
           // 更新辅助说明的属性字符串
-          this.mutableStr2 = new MutableStyledString("");
-          this.mutableStr2.appendStyledString(new StyledString("内容已清空\n"));
-          this.mutableStr2.appendStyledString(new StyledString("下方应显示placeholder提示文本"));
+          this.mutableStr2 = new MutableStyledString('');
+          this.mutableStr2.appendStyledString(new StyledString('内容已清空\n'));
+          this.mutableStr2.appendStyledString(new StyledString('下方应显示placeholder提示文本'));
           
           let greenStyle = new TextStyle({
             fontColor: Color.Green,
@@ -220,7 +220,7 @@ struct UiComponentTextRichEditorSetStyledString0030 {
         .border({ width: 2, color: Color.Blue })
         .borderRadius(8)
         .padding(10)
-        .placeholder("这是placeholder提示文本，请输入内容...")
+        .placeholder('这是placeholder提示文本，请输入内容...')
     }
     .width('100%')
     .height('100%')

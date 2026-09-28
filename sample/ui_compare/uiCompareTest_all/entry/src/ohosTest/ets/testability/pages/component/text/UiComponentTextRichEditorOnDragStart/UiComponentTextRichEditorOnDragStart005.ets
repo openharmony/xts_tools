@@ -43,7 +43,7 @@ struct UiComponentTextRichEditorOnDragStart005 {
     Row() {
       Image($r('sys.media.ohos_app_icon')).width(50).height(50).margin(16)
     }.backgroundColor('#f4f4f4')
-    .borderRadius("20")
+    .borderRadius('20')
     .width('100%')
   }
 
@@ -53,18 +53,18 @@ struct UiComponentTextRichEditorOnDragStart005 {
 
       // 测试按钮：添加预置图文（用于验证样式一致性）
       Button('添加预置图文')
-        .id("addSpanBtn005")
+        .id('addSpanBtn005')
         .width('100%')
         .height(40)
         .backgroundColor('#4CAF50')
         .onClick(() => {
           this.controllerdrag.addBuilderSpan(this.my_builder)
-          this.controllerdrag.addSymbolSpan($r("sys.symbol.basketball_fill"), {
+          this.controllerdrag.addSymbolSpan($r('sys.symbol.basketball_fill'), {
             style: {
               fontSize: 30
             }
           })
-          this.controllerdrag.addTextSpan("这里是add类测试文本", {
+          this.controllerdrag.addTextSpan('这里是add类测试文本', {
             style: {
               fontSize: 20,
               fontColor: Color.Blue
@@ -72,7 +72,7 @@ struct UiComponentTextRichEditorOnDragStart005 {
           })
           this.controllerdrag.addImageSpan($r('sys.media.ohos_app_icon'), {
             imageStyle: {
-              size: ["70px", "70px"],
+              size: ['70px', '70px'],
             }
           })
 
@@ -81,8 +81,8 @@ struct UiComponentTextRichEditorOnDragStart005 {
         .margin(10)
 
       // 图片选择按钮
-      Button("选择图片类数据")
-        .id("selectImage005")
+      Button('选择图片类数据')
+        .id('selectImage005')
         .width('100%')
         .height(40)
         .padding(16)

@@ -63,7 +63,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0032 {
               }
             })
           })
-          .id("rich_editor_optimizeselectallmenulocation_0032")
+          .id('rich_editor_optimizeselectallmenulocation_0032')
           .width(300)
           .height(200)
           .backgroundColor(Color.White)
@@ -83,7 +83,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0032 {
           .onClick(() => {
             this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
               imageStyle: {
-                size: ["57px", "57px"]
+                size: ['57px', '57px']
               }
             })
           })
@@ -104,6 +104,6 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0032 {
 
     }
     .width('100%')
-    .height("100%")
+    .height('100%')
   }
 }

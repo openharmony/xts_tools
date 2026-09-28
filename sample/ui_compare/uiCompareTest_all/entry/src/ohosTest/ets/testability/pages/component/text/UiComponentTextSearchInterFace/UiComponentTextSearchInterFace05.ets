@@ -17,7 +17,7 @@
 @Component
 struct UiComponentTextSearchInterFace05 {
   controller: SearchController = new SearchController();
-  @State inputValue: string = "";
+  @State inputValue: string = '';
   @State height1: string | number = '30%';
   @State supportAvoidance: boolean = true;
   @State submitValue: string = '';
@@ -37,7 +37,7 @@ struct UiComponentTextSearchInterFace05 {
       Grid() {
         ForEach([1, 2, 3, 4, 5, 6, 7, 8, 9, '*', 0, '#'], (item: number | string) => {
           GridItem() {
-            Button(item + "")
+            Button(item + '')
               .width(110).onClick(() => {
               this.inputValue += item;
             })

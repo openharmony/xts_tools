@@ -22,8 +22,8 @@ struct UiComponentTextRichEditorSetStyledString0058478201 {
   controller2: RichEditorStyledStringController = new RichEditorStyledStringController();
   options: RichEditorStyledStringOptions = { controller: this.controller };
   options2: RichEditorStyledStringOptions = { controller: this.controller2 };
-  mutableStr: MutableStyledString = new MutableStyledString("请输入内容测试");
-  mutableStr2: MutableStyledString = new MutableStyledString("");
+  mutableStr: MutableStyledString = new MutableStyledString('请输入内容测试');
+  mutableStr2: MutableStyledString = new MutableStyledString('');
   @State inputCount: number = 0;
 
   aboutToAppear() {
@@ -42,7 +42,7 @@ struct UiComponentTextRichEditorSetStyledString0058478201 {
     this.controller.setStyledString(this.mutableStr);
 
     // 创建辅助说明的属性字符串
-    this.mutableStr2.appendStyledString(new StyledString("输入内容测试onDidIMEInput回调\n属性字符串构建的RichEditor预期不触发此回调"));
+    this.mutableStr2.appendStyledString(new StyledString('输入内容测试onDidIMEInput回调\n属性字符串构建的RichEditor预期不触发此回调'));
     
     let grayStyle = new TextStyle({ fontColor: Color.Gray, fontSize: LengthMetrics.vp(14) });
     this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: grayStyle });
@@ -72,8 +72,8 @@ struct UiComponentTextRichEditorSetStyledString0058478201 {
         .width('90%')
         .onClick(() => {
           this.inputCount = 0;
-          this.mutableStr2 = new MutableStyledString("");
-          this.mutableStr2.appendStyledString(new StyledString("计数已重置，当前触发次数: " + this.inputCount));
+          this.mutableStr2 = new MutableStyledString('');
+          this.mutableStr2.appendStyledString(new StyledString('计数已重置，当前触发次数: ' + this.inputCount));
           
           let textStyle = new TextStyle({ fontColor: Color.Black, fontSize: LengthMetrics.vp(14) });
           this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: textStyle });
@@ -92,15 +92,15 @@ struct UiComponentTextRichEditorSetStyledString0058478201 {
         .onDidIMEInput((textRange: TextRange) => {
           // 属性字符串构建的RichEditor不应该触发此回调
           this.inputCount++;
-          this.mutableStr2 = new MutableStyledString("");
-          this.mutableStr2.appendStyledString(new StyledString("警告：onDidIMEInput被触发了!\n"));
-          this.mutableStr2.appendStyledString(new StyledString("触发次数: " + this.inputCount + "\n"));
-          this.mutableStr2.appendStyledString(new StyledString("这不符合预期（应该不触发）"));
+          this.mutableStr2 = new MutableStyledString('');
+          this.mutableStr2.appendStyledString(new StyledString('警告：onDidIMEInput被触发了!\n'));
+          this.mutableStr2.appendStyledString(new StyledString('触发次数: ' + this.inputCount + '\n'));
+          this.mutableStr2.appendStyledString(new StyledString('这不符合预期（应该不触发）'));
           
           let redStyle1 = new TextStyle({ fontColor: Color.Red, fontSize: LengthMetrics.vp(16), fontWeight: FontWeight.Bold });
           this.mutableStr2.setStyle({ start: 0, length: 20, styledKey: StyledStringKey.FONT, styledValue: redStyle1 });
           
-          let countText = "触发次数: " + this.inputCount + "\n";
+          let countText = '触发次数: ' + this.inputCount + '\n';
           let redStyle2 = new TextStyle({ fontColor: Color.Red, fontSize: LengthMetrics.vp(14) });
           this.mutableStr2.setStyle({ start: 20, length: countText.length, styledKey: StyledStringKey.FONT, styledValue: redStyle2 });
           

@@ -32,7 +32,7 @@ struct UiComponentTextTv28 {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center }) {
       Text(this.text2)
         .fontSize(12)
-        .width("100%")
+        .width('100%')
         .width('100%')
         .height(200)
         .maxLines(3)
@@ -80,7 +80,7 @@ struct UiComponentTextTv28 {
         .id('UiComponentTextTv28_01')
       Text(this.text3+this.num)
         .fontSize(18)
-        .width("100%")
+        .width('100%')
         .height(100)
         .maxLines(3)
         .textAlign(TextAlign.Center)

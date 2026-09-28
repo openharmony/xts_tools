@@ -22,8 +22,8 @@ struct UiComponentTextRichEditorSetStyledString0058478201232 {
   controller2: RichEditorStyledStringController = new RichEditorStyledStringController();
   options: RichEditorStyledStringOptions = { controller: this.controller };
   options2: RichEditorStyledStringOptions = { controller: this.controller2 };
-  mutableStr: MutableStyledString = new MutableStyledString("");
-  mutableStr2: MutableStyledString = new MutableStyledString("");
+  mutableStr: MutableStyledString = new MutableStyledString('');
+  mutableStr2: MutableStyledString = new MutableStyledString('');
   @State submitTriggered: boolean = false;
   @State submitCount: number = 0;
 
@@ -32,7 +32,7 @@ struct UiComponentTextRichEditorSetStyledString0058478201232 {
     this.controller.setStyledString(this.mutableStr);
 
     // 创建辅助说明的属性字符串
-    this.mutableStr2.appendStyledString(new StyledString("输入内容后按回车键测试onSubmit回调"));
+    this.mutableStr2.appendStyledString(new StyledString('输入内容后按回车键测试onSubmit回调'));
     
     let grayStyle = new TextStyle({ fontColor: Color.Gray, fontSize: LengthMetrics.vp(14) });
     this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: grayStyle });
@@ -68,8 +68,8 @@ struct UiComponentTextRichEditorSetStyledString0058478201232 {
           this.submitTriggered = true;
           this.submitCount++;
           
-          this.mutableStr2 = new MutableStyledString("");
-          this.mutableStr2.appendStyledString(new StyledString("onSubmit回调已触发 | 触发次数: " + this.submitCount + " | 回车键类型: " + enterKey));
+          this.mutableStr2 = new MutableStyledString('');
+          this.mutableStr2.appendStyledString(new StyledString('onSubmit回调已触发 | 触发次数: ' + this.submitCount + ' | 回车键类型: ' + enterKey));
           
           let textStyle = new TextStyle({ fontColor: Color.Black, fontSize: LengthMetrics.vp(14) });
           this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: textStyle });
@@ -85,8 +85,8 @@ struct UiComponentTextRichEditorSetStyledString0058478201232 {
           this.submitCount = 0;
           this.submitTriggered = false;
           
-          this.mutableStr2 = new MutableStyledString("");
-          this.mutableStr2.appendStyledString(new StyledString("计数已重置，当前触发次数: " + this.submitCount));
+          this.mutableStr2 = new MutableStyledString('');
+          this.mutableStr2.appendStyledString(new StyledString('计数已重置，当前触发次数: ' + this.submitCount));
           
           let textStyle = new TextStyle({ fontColor: Color.Black, fontSize: LengthMetrics.vp(14) });
           this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: textStyle });

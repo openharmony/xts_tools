@@ -74,7 +74,7 @@ struct Text02 {
             .height('40vp')
             .verticalAlign(ImageSpanAlignment.CENTER)
           Span('Hello!').fontSize('16fp').fontColor(Color.White)
-        }.textBackgroundStyle({ color: "#7F007DFF", radius: "12vp" })
+        }.textBackgroundStyle({ color: '#7F007DFF', radius: '12vp' })
       }
       .id('Text02SpanBlank')
       .width('100%')

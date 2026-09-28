@@ -46,7 +46,7 @@ struct UiComponentTextInputSymbolGlyph06 {
         .cancelButton({
           style: CancelButtonStyle.CONSTANT,
           icon: {
-            size: "10fp",
+            size: '10fp',
             src: $r('app.media.app_icon'),
             color: Color.Blue
           }

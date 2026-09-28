@@ -23,8 +23,8 @@ struct UiComponentTextRichEditorSetStyledString0042 {
   controller2: RichEditorStyledStringController = new RichEditorStyledStringController();
   options: RichEditorStyledStringOptions = { controller: this.controller };
   options2: RichEditorStyledStringOptions = { controller: this.controller2 };
-  mutableStr: MutableStyledString = new MutableStyledString("");
-  mutableStr2: MutableStyledString = new MutableStyledString("");
+  mutableStr: MutableStyledString = new MutableStyledString('');
+  mutableStr2: MutableStyledString = new MutableStyledString('');
   @State imagePixelMap: image.PixelMap | null = null;
 
   async loadImage() {
@@ -43,7 +43,7 @@ struct UiComponentTextRichEditorSetStyledString0042 {
     await this.loadImage();
     
     // 创建包含图片和文本的属性字符串
-    this.mutableStr.appendStyledString(new StyledString("前面的文本"));
+    this.mutableStr.appendStyledString(new StyledString('前面的文本'));
     
     // 添加图片
     if (this.imagePixelMap) {
@@ -56,7 +56,7 @@ struct UiComponentTextRichEditorSetStyledString0042 {
       this.mutableStr.appendStyledString(new StyledString(imageAttachment));
     }
     
-    this.mutableStr.appendStyledString(new StyledString("后面的文本"));
+    this.mutableStr.appendStyledString(new StyledString('后面的文本'));
 
     // 设置文本样式
     let textStyle = new TextStyle({
@@ -73,7 +73,7 @@ struct UiComponentTextRichEditorSetStyledString0042 {
     this.controller.setStyledString(this.mutableStr);
 
     // 创建辅助说明的属性字符串
-    this.mutableStr2.appendStyledString(new StyledString("点击编辑器定位光标，然后点击按钮获取位置"));
+    this.mutableStr2.appendStyledString(new StyledString('点击编辑器定位光标，然后点击按钮获取位置'));
     
     let grayStyle = new TextStyle({ fontColor: Color.Gray, fontSize: LengthMetrics.vp(14) });
     this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: grayStyle });
@@ -104,8 +104,8 @@ struct UiComponentTextRichEditorSetStyledString0042 {
         .onClick(() => {
           let caretOffset = this.controller.getCaretOffset();
           
-          this.mutableStr2 = new MutableStyledString("");
-          this.mutableStr2.appendStyledString(new StyledString("当前光标位置: " + caretOffset));
+          this.mutableStr2 = new MutableStyledString('');
+          this.mutableStr2.appendStyledString(new StyledString('当前光标位置: ' + caretOffset));
           
           let textStyle = new TextStyle({ fontColor: Color.Black, fontSize: LengthMetrics.vp(14) });
           this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: textStyle });

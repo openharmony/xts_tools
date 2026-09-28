@@ -35,8 +35,8 @@ struct MediaTextPicker11 {
   ];
   @State customModifier: TextPickerModifier = new CustomModifier()
     .canLoop(false)
-    .disappearTextStyle({ color: "#FF000000", font: { size: 18, weight: FontWeight.Lighter } })
-    .selectedTextStyle({ color: "#FF0000FF", font: { size: 18, weight: FontWeight.Bold } })
+    .disappearTextStyle({ color: '#FF000000', font: { size: 18, weight: FontWeight.Lighter } })
+    .selectedTextStyle({ color: '#FF0000FF', font: { size: 18, weight: FontWeight.Bold } })
     .textStyle({ color: '#FFFF0000', font: { size: 18, weight: FontWeight.Normal } })
     .defaultTextStyle({ minFontSize: 24, maxFontSize: 16, overflow: TextOverflow.Ellipsis })
     .selectedIndex(2)

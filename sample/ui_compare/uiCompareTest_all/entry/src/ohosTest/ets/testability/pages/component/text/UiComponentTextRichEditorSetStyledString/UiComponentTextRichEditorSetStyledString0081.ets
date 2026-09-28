@@ -23,8 +23,8 @@ struct UiComponentTextRichEditorSetStyledString0081 {
   controller2: RichEditorStyledStringController = new RichEditorStyledStringController();
   options: RichEditorStyledStringOptions = { controller: this.controller };
   options2: RichEditorStyledStringOptions = { controller: this.controller2 };
-  mutableStr: MutableStyledString = new MutableStyledString("");
-  mutableStr2: MutableStyledString = new MutableStyledString("");
+  mutableStr: MutableStyledString = new MutableStyledString('');
+  mutableStr2: MutableStyledString = new MutableStyledString('');
   @State imagePixelMap: image.PixelMap | null = null;
 
   async loadImage() {
@@ -43,7 +43,7 @@ struct UiComponentTextRichEditorSetStyledString0081 {
     await this.loadImage();
     
     // 创建包含图文混合内容的属性字符串
-    this.mutableStr.appendStyledString(new StyledString("文本内容"));
+    this.mutableStr.appendStyledString(new StyledString('文本内容'));
     
     // 添加加粗样式
     let boldStyle = new TextStyle({
@@ -70,7 +70,7 @@ struct UiComponentTextRichEditorSetStyledString0081 {
     }
     
     // 添加更多文本
-    this.mutableStr.appendStyledString(new StyledString("更多内容😀"));
+    this.mutableStr.appendStyledString(new StyledString('更多内容😀'));
     
     // 设置基础文本样式（注意：图片占1个字符位置）
     let textStyle = new TextStyle({
@@ -87,7 +87,7 @@ struct UiComponentTextRichEditorSetStyledString0081 {
     this.controller.setStyledString(this.mutableStr);
 
     // 创建辅助说明的属性字符串
-    this.mutableStr2.appendStyledString(new StyledString("点击按钮获取富文本组件的属性字符串"));
+    this.mutableStr2.appendStyledString(new StyledString('点击按钮获取富文本组件的属性字符串'));
     
     let grayStyle = new TextStyle({ fontColor: Color.Gray, fontSize: LengthMetrics.vp(14) });
     this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: grayStyle });
@@ -118,9 +118,9 @@ struct UiComponentTextRichEditorSetStyledString0081 {
         .onClick(() => {
           let styledString = this.controller.getStyledString();
           
-          this.mutableStr2 = new MutableStyledString("");
-          this.mutableStr2.appendStyledString(new StyledString("字符串长度: " + styledString.length + "\n"));
-          this.mutableStr2.appendStyledString(new StyledString("字符串内容: " + styledString.getString()));
+          this.mutableStr2 = new MutableStyledString('');
+          this.mutableStr2.appendStyledString(new StyledString('字符串长度: ' + styledString.length + '\n'));
+          this.mutableStr2.appendStyledString(new StyledString('字符串内容: ' + styledString.getString()));
           
           let textStyle = new TextStyle({ fontColor: Color.Black, fontSize: LengthMetrics.vp(14) });
           this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: textStyle });
@@ -134,7 +134,7 @@ struct UiComponentTextRichEditorSetStyledString0081 {
         .width('90%')
         .onClick(() => {
           // 修改属性字符串
-          let newStr = new MutableStyledString("已修改的文本内容");
+          let newStr = new MutableStyledString('已修改的文本内容');
           let textStyle = new TextStyle({
             fontColor: Color.Black,
             fontSize: LengthMetrics.vp(18)
@@ -151,9 +151,9 @@ struct UiComponentTextRichEditorSetStyledString0081 {
           // 再次获取
           let styledString = this.controller.getStyledString();
           
-          this.mutableStr2 = new MutableStyledString("");
-          this.mutableStr2.appendStyledString(new StyledString("新字符串长度: " + styledString.length + "\n"));
-          this.mutableStr2.appendStyledString(new StyledString("新字符串内容: " + styledString.getString()));
+          this.mutableStr2 = new MutableStyledString('');
+          this.mutableStr2.appendStyledString(new StyledString('新字符串长度: ' + styledString.length + '\n'));
+          this.mutableStr2.appendStyledString(new StyledString('新字符串内容: ' + styledString.getString()));
           
           let textStyle2 = new TextStyle({ fontColor: Color.Black, fontSize: LengthMetrics.vp(14) });
           this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: textStyle2 });

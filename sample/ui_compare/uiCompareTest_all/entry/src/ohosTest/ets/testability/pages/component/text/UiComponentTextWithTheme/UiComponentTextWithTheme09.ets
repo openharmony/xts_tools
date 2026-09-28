@@ -27,7 +27,7 @@ struct UiComponentTextWithTheme09 {
       { value: 'MB' },
       { value: 'GB' },
       { value: 'TB', }])
-      .height("48vp")
+      .height('48vp')
       .borderRadius(0)
       .selected(2)
       .align(Alignment.Center)
@@ -38,8 +38,8 @@ struct UiComponentTextWithTheme09 {
       .optionFont({ size: 20, weight: 400 })
       .backgroundColor(Color.Transparent)
       .responseRegion({
-        height: "40vp",
-        width: "80%",
+        height: '40vp',
+        width: '80%',
         x: '10%',
         y: '6vp'
       })
@@ -52,7 +52,7 @@ struct UiComponentTextWithTheme09 {
       Column() {
         WithTheme({colorMode: this.colorMode}) {
           Column() {
-            TextInput({ text: "withtheme", placeholder: 'input your word...', controller: this.textinputController })
+            TextInput({ text: 'withtheme', placeholder: 'input your word...', controller: this.textinputController })
               .placeholderColor(Color.Grey)
               .placeholderFont({ size: 14, weight: 400 })
               .caretColor(Color.Blue)
@@ -62,7 +62,7 @@ struct UiComponentTextWithTheme09 {
               .style(TextContentStyle.DEFAULT)
               .fontSize(14)
               .showUnit(this.itemEnd)
-              .selectedBackgroundColor("0%")
+              .selectedBackgroundColor('0%')
               .style(TextInputStyle.Inline)
               .showUnderline(true)
               .fontColor(Color.Black)

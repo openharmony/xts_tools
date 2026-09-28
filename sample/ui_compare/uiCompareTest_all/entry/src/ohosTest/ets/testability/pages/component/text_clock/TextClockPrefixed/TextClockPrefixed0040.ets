@@ -26,7 +26,7 @@ struct TextClockPrefixed0040 {
         .dateTimeOptions({
           hour: '2-digit'
         })
-        .id("text_clock_prefixed_0040")
+        .id('text_clock_prefixed_0040')
         .fontSize(20)
         .fontColor(Color.Black)
         .margin(20)

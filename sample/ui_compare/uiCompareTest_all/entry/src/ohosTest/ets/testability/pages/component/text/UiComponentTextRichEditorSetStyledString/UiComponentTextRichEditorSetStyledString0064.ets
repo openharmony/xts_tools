@@ -22,15 +22,15 @@ struct UiComponentTextRichEditorSetStyledString0064 {
   controller2: RichEditorStyledStringController = new RichEditorStyledStringController();
   options: RichEditorStyledStringOptions = { controller: this.controller };
   options2: RichEditorStyledStringOptions = { controller: this.controller2 };
-  mutableStr: MutableStyledString = new MutableStyledString("");
-  mutableStr2: MutableStyledString = new MutableStyledString("");
+  mutableStr: MutableStyledString = new MutableStyledString('');
+  mutableStr2: MutableStyledString = new MutableStyledString('');
 
   aboutToAppear() {
     // 创建包含中英文、emoji和换行符的属性字符串
-    this.mutableStr.appendStyledString(new StyledString("中文文本Hello"));
+    this.mutableStr.appendStyledString(new StyledString('中文文本Hello'));
     
     // 添加emoji和换行符
-    this.mutableStr.appendStyledString(new StyledString("😀😊👍\n下一行文本"));
+    this.mutableStr.appendStyledString(new StyledString('😀😊👍\n下一行文本'));
 
     // 设置文本样式
     let textStyle = new TextStyle({
@@ -47,7 +47,7 @@ struct UiComponentTextRichEditorSetStyledString0064 {
     this.controller.setStyledString(this.mutableStr);
 
     // 创建辅助说明的属性字符串
-    this.mutableStr2.appendStyledString(new StyledString("在编辑器中按删除键测试删除操作"));
+    this.mutableStr2.appendStyledString(new StyledString('在编辑器中按删除键测试删除操作'));
     
     let grayStyle = new TextStyle({ fontColor: Color.Gray, fontSize: LengthMetrics.vp(14) });
     this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: grayStyle });
@@ -56,9 +56,9 @@ struct UiComponentTextRichEditorSetStyledString0064 {
   }
 
   resetContent() {
-    this.mutableStr = new MutableStyledString("");
-    this.mutableStr.appendStyledString(new StyledString("中文文本Hello"));
-    this.mutableStr.appendStyledString(new StyledString("😀😊👍\n下一行文本"));
+    this.mutableStr = new MutableStyledString('');
+    this.mutableStr.appendStyledString(new StyledString('中文文本Hello'));
+    this.mutableStr.appendStyledString(new StyledString('😀😊👍\n下一行文本'));
     
     let textStyle = new TextStyle({
       fontColor: Color.Black,
@@ -73,8 +73,8 @@ struct UiComponentTextRichEditorSetStyledString0064 {
     
     this.controller.setStyledString(this.mutableStr);
     
-    this.mutableStr2 = new MutableStyledString("");
-    this.mutableStr2.appendStyledString(new StyledString("内容已重置"));
+    this.mutableStr2 = new MutableStyledString('');
+    this.mutableStr2.appendStyledString(new StyledString('内容已重置'));
     
     let blackStyle = new TextStyle({ fontColor: Color.Black, fontSize: LengthMetrics.vp(14) });
     this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: blackStyle });

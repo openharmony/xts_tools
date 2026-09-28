@@ -17,7 +17,7 @@
 @Component
 struct UiComponentSearchAutoDisAble12 {
   controller: SearchController = new SearchController();
-  @State inputValue: string = "";
+  @State inputValue: string = '';
   @State height1: string | number = '30%';
   @State supportAvoidance: boolean = true;
   @State submitValue: string = '';
@@ -37,7 +37,7 @@ struct UiComponentSearchAutoDisAble12 {
       Grid() {
         ForEach([1, 2, 3, 4, 5, 6, 7, 8, 9, '*', 0, '#'], (item: number | string) => {
           GridItem() {
-            Button(item + "")
+            Button(item + '')
               .width(110).onClick(() => {
               this.inputValue += item;
             })
@@ -55,25 +55,25 @@ struct UiComponentSearchAutoDisAble12 {
         .fontSize(15)
         .fontColor(this.color)
         .width('90%')
-        .height("10%")
+        .height('10%')
       Text('onChange:' + this.changeValue)
         .fontSize(18)
         .margin(15)
         .width('90%')
-        .height("10%")
+        .height('10%')
       Row() {
-        Button("30%")
+        Button('30%')
           .fontSize(24)
           .onClick(() => {
-            this.height1 = "30%";
+            this.height1 = '30%';
           })
-        Button("80%")
+        Button('80%')
           .fontSize(24)
           .margin({ left: 20 })
           .onClick(() => {
-            this.height1 = "80%";
+            this.height1 = '80%';
           })
-        Button("change type")
+        Button('change type')
           .fontSize(24)
           .margin({ left: 20 })
           .onClick(() => {
@@ -84,13 +84,13 @@ struct UiComponentSearchAutoDisAble12 {
       .justifyContent(FlexAlign.Center)
       .alignItems(VerticalAlign.Bottom)
       .height(this.height1)
-      .width("100%")
+      .width('100%')
       .padding({ bottom: 50 })
 
-      Search({ controller: this.controller, value: this.inputValue ,placeholder:"this is placeholder" })
+      Search({ controller: this.controller, value: this.inputValue ,placeholder:'this is placeholder' })
         .customKeyboard(this.CustomKeyboardBuilder(), { supportAvoidance: this.supportAvoidance })
         .searchButton('搜索',
-          { fontSize: "16px",
+          { fontSize: '16px',
             fontColor:Color.Blue,
             autoDisable:true
           })

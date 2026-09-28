@@ -51,14 +51,14 @@ export const defaultTheme: SelectionMenuTheme = {
   backGroundColor: $r('sys.color.ohos_id_color_dialog_bg'),
   iconBorderRadius: $r('sys.float.ohos_id_corner_radius_default_m'),
   containerBorderRadius: $r('sys.float.ohos_id_corner_radius_card'),
-  cutIcon: $r("sys.media.ohos_ic_public_cut"),
-  copyIcon: $r("sys.media.ohos_ic_public_copy"),
-  pasteIcon: $r("sys.media.ohos_ic_public_paste"),
-  selectAllIcon: $r("sys.media.ohos_ic_public_select_all"),
-  shareIcon: $r("sys.media.ohos_ic_public_share"),
-  translateIcon: $r("sys.media.ohos_ic_public_translate_c2e"),
-  searchIcon: $r("sys.media.ohos_ic_public_search_filled"),
-  arrowDownIcon: $r("sys.media.ohos_ic_public_arrow_down"),
+  cutIcon: $r('sys.media.ohos_ic_public_cut'),
+  copyIcon: $r('sys.media.ohos_ic_public_copy'),
+  pasteIcon: $r('sys.media.ohos_ic_public_paste'),
+  selectAllIcon: $r('sys.media.ohos_ic_public_select_all'),
+  shareIcon: $r('sys.media.ohos_ic_public_share'),
+  translateIcon: $r('sys.media.ohos_ic_public_translate_c2e'),
+  searchIcon: $r('sys.media.ohos_ic_public_search_filled'),
+  arrowDownIcon: $r('sys.media.ohos_ic_public_arrow_down'),
   iconPanelShadowStyle: ShadowStyle.OUTER_DEFAULT_MD,
   iconFocusBorderColor: $r('sys.color.ohos_id_color_focused_outline'),
 }
@@ -112,18 +112,18 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0020 {
           MenuItemGroup() {
             MenuItem({
               startIcon: this.theme.cutIcon,
-              content: "剪切",
-              labelInfo: "Ctrl+X"
+              content: '剪切',
+              labelInfo: 'Ctrl+X'
             })
             MenuItem({
               startIcon: this.theme.copyIcon,
-              content: "复制",
-              labelInfo: "Ctrl+C"
+              content: '复制',
+              labelInfo: 'Ctrl+C'
             })
             MenuItem({
               startIcon: this.theme.pasteIcon,
-              content: "粘贴",
-              labelInfo: "Ctrl+V"
+              content: '粘贴',
+              labelInfo: 'Ctrl+V'
             })
           }
         }
@@ -150,7 +150,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0020 {
               }
             })
           })
-          .id("rich_editor_optimizeselectallmenulocation_0020")
+          .id('rich_editor_optimizeselectallmenulocation_0020')
           .width(300)
           .height(300)
           .backgroundColor(Color.White)
@@ -184,7 +184,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0020 {
             .onClick(() => {
               this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
                 imageStyle: {
-                  size: ["57px", "57px"]
+                  size: ['57px', '57px']
                 }
               })
             })
@@ -199,7 +199,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0020 {
             .height(40)
             .margin(10)
             .onClick(() => {
-              this.controller.addSymbolSpan($r("sys.symbol.basketball_fill"), {
+              this.controller.addSymbolSpan($r('sys.symbol.basketball_fill'), {
                 style: {
                   fontSize: 30,
                 }
@@ -210,6 +210,6 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0020 {
 
     }
     .width('100%')
-    .height("100%")
+    .height('100%')
   }
 }

@@ -17,8 +17,8 @@
 @Component
 struct UiComponentTextInputEllipsisMode01 {
   @State textIndex: number = 0;
-  @State text: string = "As the sun begins to set, casting a warm golden hue across the sky," +
-    "the world seems to slow down and breathe a sigh of relief. The sky is painted with hues of orange, " ;
+  @State text: string = 'As the sun begins to set, casting a warm golden hue across the sky,' +
+    'the world seems to slow down and breathe a sigh of relief. The sky is painted with hues of orange, ' ;
   @State ellipsisModeIndex: number = 0;
   @State ellipsisMode: (EllipsisMode | undefined | null)[] =
     [EllipsisMode.START, EllipsisMode.END, EllipsisMode.CENTER, undefined, null];
@@ -59,8 +59,8 @@ struct UiComponentTextInputEllipsisMode01 {
       Button('添加文本')
         .margin({ left: 20 })
         .onClick(() => {
-          this.textAreaController.addText("添加文本添加文本添加文本",{offset: 20});
-          this.textinputController.addText("添加文本添加文本添加文本",{offset: 20});
+          this.textAreaController.addText('添加文本添加文本添加文本',{offset: 20});
+          this.textinputController.addText('添加文本添加文本添加文本',{offset: 20});
         })
         .id('UiComponentTextInputEllipsisMode01_02')
       Button('删除文本')

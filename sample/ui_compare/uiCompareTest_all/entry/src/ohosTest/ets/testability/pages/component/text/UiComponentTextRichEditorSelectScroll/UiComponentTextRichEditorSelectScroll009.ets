@@ -24,7 +24,7 @@ struct UiComponentTextRichEditorSelectScroll009 {
     Column() {
       // 1.测试组件
       RichEditor(this.options)
-        .id("rich_editor_selectscroll_009")
+        .id('rich_editor_selectscroll_009')
         .width('100%')
         .height(200)
         .border({ width: 1, color: Color.Gray })
@@ -33,7 +33,7 @@ struct UiComponentTextRichEditorSelectScroll009 {
           for (let i = 0; i < 30; i++) {
 
             // 添加测试文字
-            this.controller.addTextSpan("=============== 滚动测试" + i + " ===============\n", {
+            this.controller.addTextSpan('=============== 滚动测试' + i + ' ===============\n', {
               style: {
                 fontSize: 16
               }
@@ -43,7 +43,7 @@ struct UiComponentTextRichEditorSelectScroll009 {
         })
       // 2.部分选择按钮
       Button('选中文本')
-        .id("btn_selectscroll_009_selectAll")
+        .id('btn_selectscroll_009_selectAll')
         .onClick(() => {
           this.controller.setSelection(0, 200)
         })

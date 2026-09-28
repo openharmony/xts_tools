@@ -30,7 +30,7 @@ struct TextClockPrefixed0070 {
         controller: new TextClockController()
       })
         .attributeModifier(this.textClockModifier)
-        .id("text_clock_prefixed_0070")
+        .id('text_clock_prefixed_0070')
         .fontSize(20)
         .fontColor(Color.Black)
         .margin(20)

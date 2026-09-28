@@ -27,7 +27,7 @@ struct UiComponentTextTimingOptimization11 {
   controller2: TextController = new TextController();
   private uiContext: UIContext = this.getUIContext();
   mutableStyledString1: MutableStyledString =
-    new MutableStyledString("哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈", [{
+    new MutableStyledString('哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈', [{
       start: 0,
       length: 11,
       styledKey: StyledStringKey.PARAGRAPH_STYLE,

@@ -19,11 +19,11 @@ const canvasHeight = 100
 class LeadingMarginCreator {
   private settings: RenderingContextSettings = new RenderingContextSettings(true)
   private offscreenCanvas: OffscreenCanvas = new OffscreenCanvas(canvasWidth, canvasHeight)
-  private offContext: OffscreenCanvasRenderingContext2D = this.offscreenCanvas.getContext("2d", this.settings)
+  private offContext: OffscreenCanvasRenderingContext2D = this.offscreenCanvas.getContext('2d', this.settings)
   public static instance: LeadingMarginCreator = new LeadingMarginCreator()
 
   public genSquareMark(fontSize: number): PixelMap {
-    this.offContext = this.offscreenCanvas.getContext("2d", this.settings)
+    this.offContext = this.offscreenCanvas.getContext('2d', this.settings)
     this.clearCanvas()
     const coordinate = fontSize * (1 - 1 / 1.5) / 2
     const sideLength = fontSize / 1.5
@@ -55,7 +55,7 @@ struct Text02 {
   lineHeightStyle1: LineHeightStyle= new LineHeightStyle(new LengthMetrics(24));
   //创建含段落样式的对象paragraphStyledString1
   paragraphStyledString1: StyledString = new StyledString(
-    "段落标题\n正文第一段落开始0123456789                                                                         \n                                       \n      正文第三段落ABCDEFGHIJKLMNOPQRSTUVWXYZ。",
+    '段落标题\n正文第一段落开始0123456789                                                                         \n                                       \n      正文第三段落ABCDEFGHIJKLMNOPQRSTUVWXYZ。',
     [
       {
         start: 0,

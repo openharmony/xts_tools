@@ -64,7 +64,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0021 {
               }
             })
           })
-          .id("rich_editor_optimizeselectallmenulocation_0021")
+          .id('rich_editor_optimizeselectallmenulocation_0021')
           .width(300)
           .height(200)
           .backgroundColor(Color.White)
@@ -98,6 +98,6 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0021 {
       }
     }
     .width('100%')
-    .height("100%")
+    .height('100%')
   }
 }

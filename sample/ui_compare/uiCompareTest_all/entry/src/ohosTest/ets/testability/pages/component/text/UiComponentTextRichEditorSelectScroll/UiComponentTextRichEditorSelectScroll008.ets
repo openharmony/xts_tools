@@ -24,19 +24,19 @@ struct UiComponentTextRichEditorSelectScroll008 {
   TextBuilder() {
     Row() {
       Column() {
-        Text("========== Builder添加测试文本 ============\n")
+        Text('========== Builder添加测试文本 ============\n')
           .fontSize(16)
       }
     }
     .backgroundColor('#f4f4f4')
-    .borderRadius("20")
+    .borderRadius('20')
   }
 
   build() {
     Column() {
       // 1.测试组件
       RichEditor(this.options)
-        .id("rich_editor_selectscroll_008")
+        .id('rich_editor_selectscroll_008')
         .width('100%')
         .height(200)
         .border({ width: 1, color: Color.Gray })
@@ -49,7 +49,7 @@ struct UiComponentTextRichEditorSelectScroll008 {
 
           for (let i = 0; i < 30; i++) {
 
-            this.controller.addSymbolSpan($r("sys.symbol.basketball_fill"), {
+            this.controller.addSymbolSpan($r('sys.symbol.basketball_fill'), {
               style: {
                 fontSize: 30
               }
@@ -57,11 +57,11 @@ struct UiComponentTextRichEditorSelectScroll008 {
             // 添加测试图片
             this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
               imageStyle: {
-                size: ["50px", "50px"]
+                size: ['50px', '50px']
               }
             })
             // 添加测试文字
-            this.controller.addTextSpan("=============== 滚动测试" + i + " ===============\n", {
+            this.controller.addTextSpan('=============== 滚动测试' + i + ' ===============\n', {
               style: {
                 fontSize: 16
               }
@@ -71,7 +71,7 @@ struct UiComponentTextRichEditorSelectScroll008 {
         })
       // 2.部分选择按钮
       Button('选中图文')
-        .id("btn_selectscroll_008_selectAll")
+        .id('btn_selectscroll_008_selectAll')
         .onClick(() => {
           this.controller.setSelection(0, 100)
         })

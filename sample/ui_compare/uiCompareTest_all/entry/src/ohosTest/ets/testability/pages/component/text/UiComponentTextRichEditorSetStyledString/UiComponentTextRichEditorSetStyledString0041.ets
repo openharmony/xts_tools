@@ -23,8 +23,8 @@ struct UiComponentTextRichEditorSetStyledString0041 {
   controller2: RichEditorStyledStringController = new RichEditorStyledStringController();
   options: RichEditorStyledStringOptions = { controller: this.controller };
   options2: RichEditorStyledStringOptions = { controller: this.controller2 };
-  mutableStr: MutableStyledString = new MutableStyledString("");
-  mutableStr2: MutableStyledString = new MutableStyledString("");
+  mutableStr: MutableStyledString = new MutableStyledString('');
+  mutableStr2: MutableStyledString = new MutableStyledString('');
   @State imagePixelMap: image.PixelMap | null = null;
 
   async loadImage() {
@@ -54,7 +54,7 @@ struct UiComponentTextRichEditorSetStyledString0041 {
     }
     
     // 在两张图片之间添加空格，便于输入
-    this.mutableStr.appendStyledString(new StyledString("  "));
+    this.mutableStr.appendStyledString(new StyledString('  '));
     
     if (this.imagePixelMap) {
       let imageAttachment2 = new ImageAttachment({
@@ -81,7 +81,7 @@ struct UiComponentTextRichEditorSetStyledString0041 {
     this.controller.setStyledString(this.mutableStr);
 
     // 创建辅助说明的属性字符串
-    this.mutableStr2.appendStyledString(new StyledString("点击按钮在两张图片之间输入字符或emoji"));
+    this.mutableStr2.appendStyledString(new StyledString('点击按钮在两张图片之间输入字符或emoji'));
     
     let grayStyle = new TextStyle({ fontColor: Color.Gray, fontSize: LengthMetrics.vp(14) });
     this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: grayStyle });
@@ -111,18 +111,18 @@ struct UiComponentTextRichEditorSetStyledString0041 {
         .width('90%')
         .onClick(() => {
           let currentStr = this.controller.getStyledString();
-          let newStr = new MutableStyledString("");
+          let newStr = new MutableStyledString('');
           
           // 在第一张图片后、第一个空格的位置插入字符A
           // 结构：[图片1] + "A" + [空格空格] + [图片2]
           newStr.appendStyledString(currentStr.subStyledString(0, 1)); // 图片1
-          newStr.appendStyledString(new StyledString("A")); // 插入字符A
+          newStr.appendStyledString(new StyledString('A')); // 插入字符A
           newStr.appendStyledString(currentStr.subStyledString(1, currentStr.length - 1)); // 空格+图片2
           
           this.controller.setStyledString(newStr);
           
-          this.mutableStr2 = new MutableStyledString("");
-          this.mutableStr2.appendStyledString(new StyledString("已在图片间输入字符A"));
+          this.mutableStr2 = new MutableStyledString('');
+          this.mutableStr2.appendStyledString(new StyledString('已在图片间输入字符A'));
           
           let blackStyle = new TextStyle({ fontColor: Color.Black, fontSize: LengthMetrics.vp(14) });
           this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: blackStyle });
@@ -136,18 +136,18 @@ struct UiComponentTextRichEditorSetStyledString0041 {
         .width('90%')
         .onClick(() => {
           let currentStr = this.controller.getStyledString();
-          let newStr = new MutableStyledString("");
+          let newStr = new MutableStyledString('');
           
           // 在第一张图片后、第一个空格的位置插入emoji
           // 结构：[图片1] + "😀😊👍" + [空格空格] + [图片2]
           newStr.appendStyledString(currentStr.subStyledString(0, 1)); // 图片1
-          newStr.appendStyledString(new StyledString("😀😊👍")); // 插入emoji
+          newStr.appendStyledString(new StyledString('😀😊👍')); // 插入emoji
           newStr.appendStyledString(currentStr.subStyledString(1, currentStr.length - 1)); // 空格+图片2
           
           this.controller.setStyledString(newStr);
           
-          this.mutableStr2 = new MutableStyledString("");
-          this.mutableStr2.appendStyledString(new StyledString("已在图片间输入多个emoji"));
+          this.mutableStr2 = new MutableStyledString('');
+          this.mutableStr2.appendStyledString(new StyledString('已在图片间输入多个emoji'));
           
           let blackStyle2 = new TextStyle({ fontColor: Color.Black, fontSize: LengthMetrics.vp(14) });
           this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: blackStyle2 });
@@ -164,7 +164,7 @@ struct UiComponentTextRichEditorSetStyledString0041 {
             await this.loadImage();
           }
           
-          this.mutableStr = new MutableStyledString("");
+          this.mutableStr = new MutableStyledString('');
           
           if (this.imagePixelMap) {
             let imageAttachment1 = new ImageAttachment({
@@ -176,7 +176,7 @@ struct UiComponentTextRichEditorSetStyledString0041 {
             this.mutableStr.appendStyledString(new StyledString(imageAttachment1));
           }
           
-          this.mutableStr.appendStyledString(new StyledString("  "));
+          this.mutableStr.appendStyledString(new StyledString('  '));
           
           if (this.imagePixelMap) {
             let imageAttachment2 = new ImageAttachment({
@@ -201,8 +201,8 @@ struct UiComponentTextRichEditorSetStyledString0041 {
           
           this.controller.setStyledString(this.mutableStr);
           
-          this.mutableStr2 = new MutableStyledString("");
-          this.mutableStr2.appendStyledString(new StyledString("内容已重置"));
+          this.mutableStr2 = new MutableStyledString('');
+          this.mutableStr2.appendStyledString(new StyledString('内容已重置'));
           
           let blackStyle3 = new TextStyle({ fontColor: Color.Black, fontSize: LengthMetrics.vp(14) });
           this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: blackStyle3 });

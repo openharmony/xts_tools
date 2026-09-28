@@ -56,11 +56,11 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0022 {
     Row() {
       Image($r('app.media.startIcon')).width(50).height(50).margin(16)
       Column() {
-        Text("文本文档.txt").fontWeight(FontWeight.Bold).fontSize(16)
-        Text("123.45KB").fontColor('#8a8a8a').fontSize(12)
+        Text('文本文档.txt').fontWeight(FontWeight.Bold).fontSize(16)
+        Text('123.45KB').fontColor('#8a8a8a').fontSize(12)
       }.alignItems(HorizontalAlign.Start)
     }.backgroundColor('#f4f4f4')
-    .borderRadius("20")
+    .borderRadius('20')
     .width('100%')
   }
 
@@ -78,7 +78,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0022 {
               }
             })
           })
-          .id("rich_editor_optimizeselectallmenulocation_0022")
+          .id('rich_editor_optimizeselectallmenulocation_0022')
           .width(300)
           .height(200)
           .backgroundColor(Color.White)
@@ -98,7 +98,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0022 {
           .onClick(() => {
             this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
               imageStyle: {
-                size: ["57px", "57px"]
+                size: ['57px', '57px']
               }
             })
           })
@@ -112,7 +112,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0022 {
           .height(40)
           .margin({top:10})
           .onClick(() => {
-            this.controller.addSymbolSpan($r("sys.symbol.basketball_fill"), {
+            this.controller.addSymbolSpan($r('sys.symbol.basketball_fill'), {
               style: {
                 fontSize: 30,
               }
@@ -149,6 +149,6 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0022 {
 
     }
     .width('100%')
-    .height("100%")
+    .height('100%')
   }
 }

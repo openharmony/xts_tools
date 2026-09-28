@@ -20,9 +20,9 @@ struct UiComponentTextRichEditorOnHover00002 {
   infoController: RichEditorController = new RichEditorController();
   @State hoverTrueCount: number = 0;
   @State hoverFalseCount: number = 0;
-  @State currentStatus: string = "等待触发";
-  @State lastEventTime: string = "--";
-  @State lastHoverPosition: string = "--";
+  @State currentStatus: string = '等待触发';
+  @State lastEventTime: string = '--';
+  @State lastHoverPosition: string = '--';
   @State eventHistory: string[] = [];
 
   aboutToAppear() {
@@ -33,7 +33,7 @@ struct UiComponentTextRichEditorOnHover00002 {
     this.infoController.deleteSpans();
     
     // 标题
-    this.infoController.addTextSpan("【测试说明】onHover事件触发区域测试\n", {
+    this.infoController.addTextSpan('【测试说明】onHover事件触发区域测试\n', {
       style: {
         fontSize: 15,
         fontColor: '#1F7CE8',
@@ -42,13 +42,13 @@ struct UiComponentTextRichEditorOnHover00002 {
     });
     
     // 测试步骤
-    this.infoController.addTextSpan("步骤1: 鼠标移到图片中心区域(偏移60px)，查看onHover回调\n", {
+    this.infoController.addTextSpan('步骤1: 鼠标移到图片中心区域(偏移60px)，查看onHover回调\n', {
       style: {
         fontSize: 13,
         fontColor: '#333333'
       }
     });
-    this.infoController.addTextSpan("步骤2: 鼠标移到图片边缘区域(偏移10px)，查看onHover回调\n", {
+    this.infoController.addTextSpan('步骤2: 鼠标移到图片边缘区域(偏移10px)，查看onHover回调\n', {
       style: {
         fontSize: 13,
         fontColor: '#333333'
@@ -56,7 +56,7 @@ struct UiComponentTextRichEditorOnHover00002 {
     });
     
     // 分隔线
-    this.infoController.addTextSpan("━━━━━━━━━━━━━━━━━━━━━━\n", {
+    this.infoController.addTextSpan('━━━━━━━━━━━━━━━━━━━━━━\n', {
       style: {
         fontSize: 12,
         fontColor: '#CCCCCC'
@@ -64,39 +64,39 @@ struct UiComponentTextRichEditorOnHover00002 {
     });
     
     // 事件统计
-    this.infoController.addTextSpan("【事件统计】\n", {
+    this.infoController.addTextSpan('【事件统计】\n', {
       style: {
         fontSize: 14,
         fontColor: '#FF6B00',
         fontWeight: FontWeight.Bold
       }
     });
-    this.infoController.addTextSpan("onHover(true)次数: " + this.hoverTrueCount + "\n", {
+    this.infoController.addTextSpan('onHover(true)次数: ' + this.hoverTrueCount + '\n', {
       style: {
         fontSize: 13,
         fontColor: '#00A870'
       }
     });
-    this.infoController.addTextSpan("onHover(false)次数: " + this.hoverFalseCount + "\n", {
+    this.infoController.addTextSpan('onHover(false)次数: ' + this.hoverFalseCount + '\n', {
       style: {
         fontSize: 13,
         fontColor: '#FF4D4F'
       }
     });
-    this.infoController.addTextSpan("当前状态: " + this.currentStatus + "\n", {
+    this.infoController.addTextSpan('当前状态: ' + this.currentStatus + '\n', {
       style: {
         fontSize: 13,
         fontColor: '#8B5CF6',
         fontWeight: FontWeight.Bold
       }
     });
-    this.infoController.addTextSpan("悬停位置: " + this.lastHoverPosition + "\n", {
+    this.infoController.addTextSpan('悬停位置: ' + this.lastHoverPosition + '\n', {
       style: {
         fontSize: 12,
         fontColor: '#F59E0B'
       }
     });
-    this.infoController.addTextSpan("最后触发时间: " + this.lastEventTime, {
+    this.infoController.addTextSpan('最后触发时间: ' + this.lastEventTime, {
       style: {
         fontSize: 12,
         fontColor: '#666666'
@@ -105,7 +105,7 @@ struct UiComponentTextRichEditorOnHover00002 {
     
     // 事件历史
     if (this.eventHistory.length > 0) {
-      this.infoController.addTextSpan("\n事件历史: " + this.eventHistory.join(" → "), {
+      this.infoController.addTextSpan('\n事件历史: ' + this.eventHistory.join(' → '), {
         style: {
           fontSize: 11,
           fontColor: '#999999'
@@ -153,13 +153,13 @@ struct UiComponentTextRichEditorOnHover00002 {
                 }
               }
             });
-            this.controller.addTextSpan(" 后置文本", {
+            this.controller.addTextSpan(' 后置文本', {
               style: {
                 fontSize: 15
               }
             });
             
-            this.currentStatus = "内容已添加(图片120x120在最前)，请测试";
+            this.currentStatus = '内容已添加(图片120x120在最前)，请测试';
             this.updateInfoDisplay();
           })
 
@@ -172,9 +172,9 @@ struct UiComponentTextRichEditorOnHover00002 {
             this.controller.deleteSpans();
             this.hoverTrueCount = 0;
             this.hoverFalseCount = 0;
-            this.currentStatus = "已重置";
-            this.lastEventTime = "--";
-            this.lastHoverPosition = "--";
+            this.currentStatus = '已重置';
+            this.lastEventTime = '--';
+            this.lastHoverPosition = '--';
             this.eventHistory = [];
             this.updateInfoDisplay();
           })
@@ -202,19 +202,19 @@ struct UiComponentTextRichEditorOnHover00002 {
           // 更新计数
           if (isHover) {
             this.hoverTrueCount++;
-            this.currentStatus = "鼠标进入 (true)";
-            this.eventHistory.push("T");
+            this.currentStatus = '鼠标进入 (true)';
+            this.eventHistory.push('T');
             
             // 记录悬停位置
             if (event.x !== undefined && event.y !== undefined) {
-              this.lastHoverPosition = "(" + event.x.toFixed(1) + ", " + event.y.toFixed(1) + ")";
+              this.lastHoverPosition = '(' + event.x.toFixed(1) + ', ' + event.y.toFixed(1) + ')';
             } else {
-              this.lastHoverPosition = "坐标不可用";
+              this.lastHoverPosition = '坐标不可用';
             }
           } else {
             this.hoverFalseCount++;
-            this.currentStatus = "鼠标离开 (false)";
-            this.eventHistory.push("F");
+            this.currentStatus = '鼠标离开 (false)';
+            this.eventHistory.push('F');
           }
           
           // 只保留最近8个事件

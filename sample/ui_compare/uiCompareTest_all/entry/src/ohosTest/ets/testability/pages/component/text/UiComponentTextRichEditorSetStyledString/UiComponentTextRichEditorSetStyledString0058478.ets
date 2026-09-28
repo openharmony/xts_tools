@@ -22,15 +22,15 @@ struct UiComponentTextRichEditorSetStyledString0058478 {
   controller2: RichEditorStyledStringController = new RichEditorStyledStringController();
   options: RichEditorStyledStringOptions = { controller: this.controller };
   options2: RichEditorStyledStringOptions = { controller: this.controller2 };
-  mutableStr: MutableStyledString = new MutableStyledString("");
-  mutableStr2: MutableStyledString = new MutableStyledString("");
+  mutableStr: MutableStyledString = new MutableStyledString('');
+  mutableStr2: MutableStyledString = new MutableStyledString('');
   @State currentBarState: BarState = BarState.Auto;
-  @State barStateName: string = "Auto";
+  @State barStateName: string = 'Auto';
 
   aboutToAppear() {
     // 创建足够长的内容以显示滚动条
     for (let i = 1; i <= 20; i++) {
-      this.mutableStr.appendStyledString(new StyledString("这是第" + i + "行文本内容，用于测试滚动条显示效果\n"));
+      this.mutableStr.appendStyledString(new StyledString('这是第' + i + '行文本内容，用于测试滚动条显示效果\n'));
     }
 
     // 设置文本样式
@@ -48,7 +48,7 @@ struct UiComponentTextRichEditorSetStyledString0058478 {
     this.controller.setStyledString(this.mutableStr);
 
     // 创建辅助说明的属性字符串
-    this.mutableStr2.appendStyledString(new StyledString("点击按钮切换滚动条显示模式"));
+    this.mutableStr2.appendStyledString(new StyledString('点击按钮切换滚动条显示模式'));
     
     let grayStyle = new TextStyle({ fontColor: Color.Gray, fontSize: LengthMetrics.vp(14) });
     this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: grayStyle });
@@ -60,8 +60,8 @@ struct UiComponentTextRichEditorSetStyledString0058478 {
     this.currentBarState = state;
     this.barStateName = stateName;
     
-    this.mutableStr2 = new MutableStyledString("");
-    this.mutableStr2.appendStyledString(new StyledString("当前滚动条模式: " + stateName));
+    this.mutableStr2 = new MutableStyledString('');
+    this.mutableStr2.appendStyledString(new StyledString('当前滚动条模式: ' + stateName));
     
     let textStyle = new TextStyle({ fontColor: Color.Black, fontSize: LengthMetrics.vp(14) });
     this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: textStyle });
@@ -91,7 +91,7 @@ struct UiComponentTextRichEditorSetStyledString0058478 {
           .fontSize(14)
           .width('30%')
           .onClick(() => {
-            this.updateBarState(BarState.Auto, "Auto");
+            this.updateBarState(BarState.Auto, 'Auto');
           })
 
         Button('On')
@@ -99,7 +99,7 @@ struct UiComponentTextRichEditorSetStyledString0058478 {
           .fontSize(14)
           .width('30%')
           .onClick(() => {
-            this.updateBarState(BarState.On, "On");
+            this.updateBarState(BarState.On, 'On');
           })
 
         Button('Off')
@@ -107,7 +107,7 @@ struct UiComponentTextRichEditorSetStyledString0058478 {
           .fontSize(14)
           .width('30%')
           .onClick(() => {
-            this.updateBarState(BarState.Off, "Off");
+            this.updateBarState(BarState.Off, 'Off');
           })
       }
       .width('100%')

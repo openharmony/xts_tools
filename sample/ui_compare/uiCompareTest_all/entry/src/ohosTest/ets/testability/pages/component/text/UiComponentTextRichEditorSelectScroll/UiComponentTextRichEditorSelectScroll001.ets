@@ -23,7 +23,7 @@ struct UiComponentTextRichEditorSelectScroll001 {
     Column() {
       // 1.测试组件
       RichEditor(this.options)
-        .id("rich_editor_selectscroll_001")
+        .id('rich_editor_selectscroll_001')
         .width('100%')
         .height(200)
         .border({ width: 1, color: Color.Gray })
@@ -33,11 +33,11 @@ struct UiComponentTextRichEditorSelectScroll001 {
             // 添加测试图片
             this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
               imageStyle: {
-                size: ["50px", "50px"]
+                size: ['50px', '50px']
               }
             })
             // 添加测试文字
-            this.controller.addTextSpan("=============== 滚动测试" + i + " ===============\n", {
+            this.controller.addTextSpan('=============== 滚动测试' + i + ' ===============\n', {
               style: {
                 fontSize: 16
               }
@@ -47,7 +47,7 @@ struct UiComponentTextRichEditorSelectScroll001 {
         })
       // 2.全选按钮
       Button('选中图文')
-        .id("btn_selectscroll_001_selectAll")
+        .id('btn_selectscroll_001_selectAll')
         .onClick(() => {
           this.controller.setSelection(-1, -1)
         })

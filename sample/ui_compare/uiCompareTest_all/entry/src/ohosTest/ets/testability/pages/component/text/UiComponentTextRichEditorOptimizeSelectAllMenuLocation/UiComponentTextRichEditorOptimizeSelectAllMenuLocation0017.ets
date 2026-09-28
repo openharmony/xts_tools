@@ -66,7 +66,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0017 {
           .onClick(() => {
             this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
               imageStyle: {
-                size: ["57px", "57px"]
+                size: ['57px', '57px']
               }
             })
             this.textLongth = this.controller.getCaretOffset()
@@ -116,7 +116,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0017 {
               }
             })
           })
-          .id("rich_editor_optimizeselectallmenulocation_0017")
+          .id('rich_editor_optimizeselectallmenulocation_0017')
           .width('100%')
           .height(300)
           .border({
@@ -128,7 +128,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0017 {
 
     }
     .width('100%')
-    .height("100%")
+    .height('100%')
 
   }
 }

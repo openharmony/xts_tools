@@ -22,8 +22,8 @@ struct UiComponentTextRichEditorSetStyledString0048665 {
   controller2: RichEditorStyledStringController = new RichEditorStyledStringController();
   options: RichEditorStyledStringOptions = { controller: this.controller };
   options2: RichEditorStyledStringOptions = { controller: this.controller2 };
-  mutableStr: MutableStyledString = new MutableStyledString("这是第一行文本\n这是第二行文本\n这是第三行文本\n这是第四行文本\n这是第五行文本");
-  mutableStr2: MutableStyledString = new MutableStyledString("");
+  mutableStr: MutableStyledString = new MutableStyledString('这是第一行文本\n这是第二行文本\n这是第三行文本\n这是第四行文本\n这是第五行文本');
+  mutableStr2: MutableStyledString = new MutableStyledString('');
 
   aboutToAppear() {
     // 设置属性字符串样式
@@ -41,7 +41,7 @@ struct UiComponentTextRichEditorSetStyledString0048665 {
     this.controller.setStyledString(this.mutableStr);
 
     // 创建辅助说明的属性字符串
-    this.mutableStr2.appendStyledString(new StyledString("点击按钮获取行数信息"));
+    this.mutableStr2.appendStyledString(new StyledString('点击按钮获取行数信息'));
     
     let grayStyle = new TextStyle({ fontColor: Color.Gray, fontSize: LengthMetrics.vp(14) });
     this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: grayStyle });
@@ -74,16 +74,16 @@ struct UiComponentTextRichEditorSetStyledString0048665 {
             let layoutManager = this.controller.getLayoutManager();
             let lineCount = layoutManager.getLineCount();
             
-            this.mutableStr2 = new MutableStyledString("");
-            this.mutableStr2.appendStyledString(new StyledString("当前行数: " + lineCount));
+            this.mutableStr2 = new MutableStyledString('');
+            this.mutableStr2.appendStyledString(new StyledString('当前行数: ' + lineCount));
             
             let textStyle = new TextStyle({ fontColor: Color.Black, fontSize: LengthMetrics.vp(14) });
             this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: textStyle });
             
             this.controller2.setStyledString(this.mutableStr2);
           } catch (err) {
-            this.mutableStr2 = new MutableStyledString("");
-            this.mutableStr2.appendStyledString(new StyledString("获取行数失败: " + JSON.stringify(err)));
+            this.mutableStr2 = new MutableStyledString('');
+            this.mutableStr2.appendStyledString(new StyledString('获取行数失败: ' + JSON.stringify(err)));
             
             let textStyle = new TextStyle({ fontColor: Color.Black, fontSize: LengthMetrics.vp(14) });
             this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: textStyle });

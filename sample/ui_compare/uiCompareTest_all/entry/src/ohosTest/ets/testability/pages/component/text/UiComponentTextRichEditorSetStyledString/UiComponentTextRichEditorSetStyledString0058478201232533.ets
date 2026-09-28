@@ -22,8 +22,8 @@ struct UiComponentTextRichEditorSetStyledString0058478201232533 {
   controller2: RichEditorStyledStringController = new RichEditorStyledStringController();
   options: RichEditorStyledStringOptions = { controller: this.controller };
   options2: RichEditorStyledStringOptions = { controller: this.controller2 };
-  mutableStr: MutableStyledString = new MutableStyledString("请选中此文本查看自定义菜单\n您可以长按文本弹出编辑菜单");
-  mutableStr2: MutableStyledString = new MutableStyledString("");
+  mutableStr: MutableStyledString = new MutableStyledString('请选中此文本查看自定义菜单\n您可以长按文本弹出编辑菜单');
+  mutableStr2: MutableStyledString = new MutableStyledString('');
 
   aboutToAppear() {
     // 设置属性字符串样式
@@ -41,7 +41,7 @@ struct UiComponentTextRichEditorSetStyledString0058478201232533 {
     this.controller.setStyledString(this.mutableStr);
 
     // 创建辅助说明的属性字符串
-    this.mutableStr2.appendStyledString(new StyledString("长按或选中文本查看自定义菜单"));
+    this.mutableStr2.appendStyledString(new StyledString('长按或选中文本查看自定义菜单'));
     
     let grayStyle = new TextStyle({ fontColor: Color.Gray, fontSize: LengthMetrics.vp(14) });
     this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: grayStyle });
@@ -70,8 +70,8 @@ struct UiComponentTextRichEditorSetStyledString0058478201232533 {
         .fontSize(14)
         .width('90%')
         .onClick(() => {
-          this.mutableStr2 = new MutableStyledString("");
-          this.mutableStr2.appendStyledString(new StyledString("长按或选中文本查看自定义菜单"));
+          this.mutableStr2 = new MutableStyledString('');
+          this.mutableStr2.appendStyledString(new StyledString('长按或选中文本查看自定义菜单'));
           
           let grayStyle = new TextStyle({ fontColor: Color.Gray, fontSize: LengthMetrics.vp(14) });
           this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: grayStyle });
@@ -112,8 +112,8 @@ struct UiComponentTextRichEditorSetStyledString0058478201232533 {
                 menuItem.content === '自定义菜单项3' || 
                 menuItem.content === '自定义菜单项4') {
               // 显示点击结果
-              this.mutableStr2 = new MutableStyledString("");
-              this.mutableStr2.appendStyledString(new StyledString("点击了：" + menuItem.content));
+              this.mutableStr2 = new MutableStyledString('');
+              this.mutableStr2.appendStyledString(new StyledString('点击了：' + menuItem.content));
               
               let textStyle = new TextStyle({ fontColor: Color.Black, fontSize: LengthMetrics.vp(14) });
               this.mutableStr2.setStyle({ start: 0, length: this.mutableStr2.length, styledKey: StyledStringKey.FONT, styledValue: textStyle });

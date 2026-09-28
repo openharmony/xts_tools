@@ -49,14 +49,14 @@ export const defaultTheme: SelectionMenuTheme = {
   backGroundColor: $r('sys.color.ohos_id_color_dialog_bg'),
   iconBorderRadius: $r('sys.float.ohos_id_corner_radius_default_m'),
   containerBorderRadius: $r('sys.float.ohos_id_corner_radius_card'),
-  cutIcon: $r("sys.media.ohos_ic_public_cut"),
-  copyIcon: $r("sys.media.ohos_ic_public_copy"),
-  pasteIcon: $r("sys.media.ohos_ic_public_paste"),
-  selectAllIcon: $r("sys.media.ohos_ic_public_select_all"),
-  shareIcon: $r("sys.media.ohos_ic_public_share"),
-  translateIcon: $r("sys.media.ohos_ic_public_translate_c2e"),
-  searchIcon: $r("sys.media.ohos_ic_public_search_filled"),
-  arrowDownIcon: $r("sys.media.ohos_ic_public_arrow_down"),
+  cutIcon: $r('sys.media.ohos_ic_public_cut'),
+  copyIcon: $r('sys.media.ohos_ic_public_copy'),
+  pasteIcon: $r('sys.media.ohos_ic_public_paste'),
+  selectAllIcon: $r('sys.media.ohos_ic_public_select_all'),
+  shareIcon: $r('sys.media.ohos_ic_public_share'),
+  translateIcon: $r('sys.media.ohos_ic_public_translate_c2e'),
+  searchIcon: $r('sys.media.ohos_ic_public_search_filled'),
+  arrowDownIcon: $r('sys.media.ohos_ic_public_arrow_down'),
   iconPanelShadowStyle: ShadowStyle.OUTER_DEFAULT_MD,
   iconFocusBorderColor: $r('sys.color.ohos_id_color_focused_outline')
 }
@@ -73,13 +73,13 @@ struct RichEditor01 {
   controller: RichEditorController = new RichEditorController();
   options: RichEditorOptions = { controller: this.controller };
   private iconArr: Resource[] =
-    [$r('app.media.icon'), $r("app.media.icon"), $r('app.media.icon'),
-      $r("app.media.icon"), $r('app.media.icon')];
+    [$r('app.media.icon'), $r('app.media.icon'), $r('app.media.icon'),
+      $r('app.media.icon'), $r('app.media.icon')];
   @State iconBgColor: ResourceColor[] = new Array(this.iconArr.length).fill(this.colorTransparent);
   @State pasteEnable: boolean = false;
   @State visibilityValue: Visibility = Visibility.Visible;
   @State textStyle: RichEditorTextStyle = {};
-  private fontWeightTable: string[] = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "bold", "normal", "bolder", "lighter", "medium", "regular"];
+  private fontWeightTable: string[] = ['100', '200', '300', '400', '500', '600', '700', '800', '900', 'bold', 'normal', 'bolder', 'lighter', 'medium', 'regular'];
   private theme: SelectionMenuTheme = defaultTheme;
 
   aboutToAppear() {
@@ -196,7 +196,7 @@ struct RichEditor01 {
           fontWeight: FontWeight.Normal,
           fontFamily: '',
           fontStyle: FontStyle.Normal,
-          decoration: { type: TextDecorationType.None, color: "#FF000000", style: TextDecorationStyle.SOLID }
+          decoration: { type: TextDecorationType.None, color: '#FF000000', style: TextDecorationStyle.SOLID }
         }
         if (data.getProperty() && data.getProperty().additions[i]) {
           const tmp = data.getProperty().additions[i] as Record<string, Object | undefined>;
@@ -413,7 +413,7 @@ struct RichEditor01 {
       Menu() {
         if (this.controller) {
           MenuItemGroup() {
-            MenuItem({ startIcon: this.theme.cutIcon, content: "剪切", labelInfo: "Ctrl+X" })
+            MenuItem({ startIcon: this.theme.cutIcon, content: '剪切', labelInfo: 'Ctrl+X' })
               .onClick(() => {
                 if (!this.controller) {
                   return
@@ -425,7 +425,7 @@ struct RichEditor01 {
                   end: richEditorSelection.selection[1]
                 })
               })
-            MenuItem({ startIcon: this.theme.copyIcon, content: "复制", labelInfo: "Ctrl+C" })
+            MenuItem({ startIcon: this.theme.copyIcon, content: '复制', labelInfo: 'Ctrl+C' })
               .onClick(() => {
                 if (!this.controller) {
                   return;
@@ -434,7 +434,7 @@ struct RichEditor01 {
                 this.PushDataToPasteboard(richEditorSelection)
                 this.controller.closeSelectionMenu()
               })
-            MenuItem({ startIcon: this.theme.pasteIcon, content: "粘贴", labelInfo: "Ctrl+V" })
+            MenuItem({ startIcon: this.theme.pasteIcon, content: '粘贴', labelInfo: 'Ctrl+V' })
               .enabled(this.pasteEnable)
               .onClick(() => {
                 if (!this.controller) {
@@ -443,7 +443,7 @@ struct RichEditor01 {
                 let richEditorSelection = this.controller.getSelection();
                 this.PopDataFromPasteboard(richEditorSelection)
               })
-            MenuItem({ startIcon: this.theme.selectAllIcon, content: "全选", labelInfo: "Ctrl+A" })
+            MenuItem({ startIcon: this.theme.selectAllIcon, content: '全选', labelInfo: 'Ctrl+A' })
               .visibility(this.visibilityValue)
               .onClick(() => {
                 if (!this.controller) {

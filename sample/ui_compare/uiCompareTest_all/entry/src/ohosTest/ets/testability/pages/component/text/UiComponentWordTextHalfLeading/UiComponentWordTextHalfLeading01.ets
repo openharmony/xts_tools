@@ -27,11 +27,11 @@ function style1(TextAlign: TextAlign) {
 struct UiComponentWordTextHalfLeading01 {
   build() {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center }) {
-      Text("This is the text with the halfLeading set.")
+      Text('This is the text with the halfLeading set.')
         .lineHeight(60)
         .halfLeading(true)
         .style1(TextAlign.Start)
-      Text("This is the text without the halfLeading set.")
+      Text('This is the text without the halfLeading set.')
         .lineHeight(60)
         .halfLeading(false)
         .style1(TextAlign.Start)

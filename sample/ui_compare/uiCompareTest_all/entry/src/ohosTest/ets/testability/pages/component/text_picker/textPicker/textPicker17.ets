@@ -16,7 +16,7 @@
 import { LengthMetrics } from '@kit.ArkUI';
 
 class Bottom {
-  public Bottom: number = 50;
+  public bottom: number = 50;
 }
 
 let bott: Bottom = new Bottom();

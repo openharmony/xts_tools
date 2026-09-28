@@ -59,7 +59,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0026 {
   });
 
   // 创建属性字符串
-  mutableStyledString: MutableStyledString = new MutableStyledString("创建使用属性字符串构建的RichEditor组件。",
+  mutableStyledString: MutableStyledString = new MutableStyledString('创建使用属性字符串构建的RichEditor组件。',
     [{
       start: 0,
       length: 5,
@@ -79,7 +79,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0026 {
           .onReady(() => {
             this.controllerStyled.setStyledString(this.mutableStyledString);
           })
-          .id("rich_editor_optimizeselectallmenulocation_0026")
+          .id('rich_editor_optimizeselectallmenulocation_0026')
       }
       Row(){
         Button('添加图片', { type: ButtonType.Normal, stateEffect: true })
@@ -91,7 +91,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0026 {
           .onClick(() => {
             this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
               imageStyle: {
-                size: ["57px", "57px"]
+                size: ['57px', '57px']
               }
             })
           })
@@ -99,6 +99,6 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0026 {
       .backgroundColor('app.color.Pink')
     }
     .width('100%')
-    .height("100%")
+    .height('100%')
   }
 }

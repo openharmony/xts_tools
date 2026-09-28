@@ -26,7 +26,7 @@ struct UiComponentTextTimingOptimization03 {
   controller: TextController = new TextController();
   controller2: TextController = new TextController();
   private uiContext: UIContext = this.getUIContext();
-  mutableStyledString1: MutableStyledString = new MutableStyledString("哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈", [{
+  mutableStyledString1: MutableStyledString = new MutableStyledString('哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈', [{
     start: 0,
     length: 11,
     styledKey: StyledStringKey.FONT,
@@ -35,7 +35,7 @@ struct UiComponentTextTimingOptimization03 {
       fontSize: LengthMetrics.vp(20),
       fontWeight: FontWeight.Lighter,
       fontStyle: FontStyle.Italic,
-      fontFamily: "Arial"})
+      fontFamily: 'Arial'})
   }]);
 
   aboutToAppear(): void {

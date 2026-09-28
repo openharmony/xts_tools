@@ -55,7 +55,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0035 {
     Column() {
       Row() {
         Button('增加特表情包').onClick(() => {
-          this.controller.addTextSpan("😊",
+          this.controller.addTextSpan('😊',
             {
               style:
               {
@@ -101,7 +101,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0035 {
           .onClick(() => {
             this.controller.addImageSpan($r('sys.media.ohos_app_icon'), {
               imageStyle: {
-                size: ["57px", "57px"]
+                size: ['57px', '57px']
               }
             })
           })
@@ -129,7 +129,7 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0035 {
               }
             })
           })
-          .id("rich_editor_optimizeselectallmenulocation_0035")
+          .id('rich_editor_optimizeselectallmenulocation_0035')
           .width(300)
           .height(200)
           .backgroundColor(Color.White)
@@ -143,6 +143,6 @@ struct UIComponentTextRichEditorOptimizeSelectAllMenuLocation0035 {
 
     }
     .width('100%')
-    .height("100%")
+    .height('100%')
   }
 }

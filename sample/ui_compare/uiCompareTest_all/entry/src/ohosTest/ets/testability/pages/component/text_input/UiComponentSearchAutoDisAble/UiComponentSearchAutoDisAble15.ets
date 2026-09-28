@@ -17,7 +17,7 @@
 @Component
 struct UiComponentSearchAutoDisAble15 {
   controller: SearchController = new SearchController();
-  @State inputValue: string = "";
+  @State inputValue: string = '';
   @State height1: string | number = '30%';
   @State supportAvoidance: boolean = true;
   @State submitValue: string = '';
@@ -37,7 +37,7 @@ struct UiComponentSearchAutoDisAble15 {
       Grid() {
         ForEach([1, 2, 3, 4, 5, 6, 7, 8, 9, '*', 0, '#'], (item: number | string) => {
           GridItem() {
-            Button(item + "")
+            Button(item + '')
               .width(110).onClick(() => {
               this.inputValue += item;
             })
@@ -55,7 +55,7 @@ struct UiComponentSearchAutoDisAble15 {
         .fontSize(15)
         .fontColor(this.color)
         .width('90%')
-        .height("10%")
+        .height('10%')
       Text('editing: ' + this.value)
 
       Search({ controller: this.controller, value: this.inputValue })
